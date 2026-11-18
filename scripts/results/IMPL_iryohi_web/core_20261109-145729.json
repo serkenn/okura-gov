@@ -1,0 +1,55 @@
+{
+  "set": "core",
+  "fetched_at_local": "20261109-145729",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "kihon_16_01_iryo",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/01.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/01.htm",
+      "content_type": "text/html",
+      "bytes": 15735,
+      "sha256": "c00969ebe1eb83e0528faf332c93d90326196e27a0631c7547c712e38c485b96",
+      "last_modified": "Thu, 18 Jan 2024 09:30:20 GMT",
+      "saved": ".work/downloads/20261109-145729_IMPL_iryohi_core/kihon_16_01_iryo.html",
+      "charset": "shift_jis",
+      "title": "法第72条《雑損控除》関係｜国税庁",
+      "text_chars": 5720,
+      "text": ".work/text/20261109-145729_IMPL_iryohi_core/kihon_16_01_iryo.txt",
+      "n_links": 14
+    },
+    {
+      "id": "ta_1120",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1120.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1120.htm",
+      "content_type": "text/html",
+      "bytes": 27990,
+      "sha256": "abb64964ade244ea16c2d73a47bd71ea06a674a06a5eb502fc0a96a15080dae4",
+      "last_modified": "Wed, 09 Sep 2026 01:00:17 GMT",
+      "saved": ".work/downloads/20261109-145729_IMPL_iryohi_core/ta_1120.html",
+      "charset": "utf-8",
+      "title": "No.1120 医療費を支払ったとき（医療費控除）｜国税庁",
+      "text_chars": 5512,
+      "text": ".work/text/20261109-145729_IMPL_iryohi_core/ta_1120.txt",
+      "n_links": 87
+    },
+    {
+      "id": "ta_1122",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1122.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1122.htm",
+      "content_type": "text/html",
+      "bytes": 21815,
+      "sha256": "67de7a4b60d88092b1be2c22ebffa32a83cb205873b8e05bc4e592d526e30c52",
+      "last_modified": "Wed, 09 Sep 2026 01:00:17 GMT",
+      "saved": ".work/downloads/20261109-145729_IMPL_iryohi_core/ta_1122.html",
+      "charset": "utf-8",
+      "title": "No.1122 医療費控除の対象となる医療費｜国税庁",
+      "text_chars": 4175,
+      "text": ".work/text/20261109-145729_IMPL_iryohi_core/ta_1122.txt",
+      "n_links": 63
+    }
+  ]
+}

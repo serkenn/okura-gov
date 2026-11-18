@@ -1,0 +1,426 @@
+[
+ {
+  "href": "https://www.nta.go.jp/",
+  "text": "ホーム"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/index.htm",
+  "text": "税の情報・手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/index.htm",
+  "text": "税について調べる"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm",
+  "text": "タックスアンサー（よくある税の質問）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm",
+  "text": "一覧から探す"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2502.htm",
+  "text": "2502 源泉徴収義務者とは"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2505.htm",
+  "text": "2505 源泉所得税及び復興特別所得税の納付期限と納期の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2518.htm",
+  "text": "2518 海外出向者が帰国したときの年末調整"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2662.htm",
+  "text": "2662 年末調整のしかた"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2665.htm",
+  "text": "2665 年末調整の対象となる人"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2668.htm",
+  "text": "2668 年末調整の対象となる給与"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2671.htm",
+  "text": "2671 年末調整の後に扶養親族等の人数が異動したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2672.htm",
+  "text": "2672 年末調整で配偶者控除又は配偶者特別控除の適用を受けるとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2674.htm",
+  "text": "2674 中途就職者の年末調整"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2675.htm",
+  "text": "2675 年末調整の過不足額の精算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2676.htm",
+  "text": "2676 年末調整で所得金額調整控除の適用を受けるとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hotei/7400.htm",
+  "text": "7400 法定調書の提出義務者"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hotei/7401.htm",
+  "text": "7401 法定調書の種類"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hotei/7411.htm",
+  "text": "7411 「給与所得の源泉徴収票」の提出範囲と提出枚数等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1100.htm",
+  "text": "1100 所得控除のあらまし"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm",
+  "text": "1130 社会保険料控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1135.htm",
+  "text": "1135 小規模企業共済等掛金控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm",
+  "text": "1140 生命保険料控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1145.htm",
+  "text": "1145 地震保険料控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1160.htm",
+  "text": "1160 障害者控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1170.htm",
+  "text": "1170 寡婦控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1171.htm",
+  "text": "1171 ひとり親控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1172.htm",
+  "text": "1172 寡夫控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1175.htm",
+  "text": "1175 勤労学生控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1177.htm",
+  "text": "1177 特定親族特別控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180.htm",
+  "text": "1180 扶養控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1181.htm",
+  "text": "1181 納税者が2人以上いる場合の扶養控除の所属の変更"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1182.htm",
+  "text": "1182 高齢者を扶養している人が受けられる配偶者控除や扶養控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1184.htm",
+  "text": "1184 扶養家族に寝たきりの人がいるときの控除額"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1185.htm",
+  "text": "1185 市町村長等の障害者認定と介護保険法の要介護認定について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1186.htm",
+  "text": "1186 身体障害者手帳等の交付を申請中である場合の障害者控除の適用について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1190.htm",
+  "text": "1190 配偶者の所得がいくらまでなら配偶者控除が受けられるか"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1191.htm",
+  "text": "1191 配偶者控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1195.htm",
+  "text": "1195 配偶者特別控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1199.htm",
+  "text": "1199 基礎控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1211-1.htm",
+  "text": "1211-1 住宅の新築等をし、令和4年以降に居住の用に供した場合（住宅借入金等特別控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1211-2.htm",
+  "text": "1211-2 買取再販住宅を取得し、令和4年以降に居住の用に供した場合（住宅借入金等特別控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1211-3.htm",
+  "text": "1211-3 中古住宅を取得し、令和4年以降に居住の用に供した場合（住宅借入金等特別控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1211-4.htm",
+  "text": "1211-4 増改築等をし、令和4年以降に居住の用に供した場合（住宅借入金等特別控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1211-5.htm",
+  "text": "1211-5 要耐震改修住宅を取得し、令和4年以降に居住の用に供した場合（住宅借入金等特別控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1212.htm",
+  "text": "1212 住宅の新築等をし、令和３年までに居住の用に供した場合（住宅借入金等特別控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1213.htm",
+  "text": "1213 認定住宅の新築等をし、令和３年までに居住の用に供した場合（住宅借入金等特別控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1214.htm",
+  "text": "1214 中古住宅を取得し、令和３年までに居住の用に供した場合（住宅借入金等特別控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1216.htm",
+  "text": "1216 増改築等をし、令和３年までに居住の用に供した場合（住宅借入金等特別控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1233.htm",
+  "text": "1233 住宅ローン等の借換えをしたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1234.htm",
+  "text": "1234 転勤と住宅借入金等特別控除等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1400.htm",
+  "text": "1400 給与所得"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1410.htm",
+  "text": "1410 給与所得控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1411.htm",
+  "text": "1411 所得金額調整控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1415.htm",
+  "text": "1415 給与所得者の特定支出控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1800.htm",
+  "text": "1800 パート収入はいくらまで所得税がかからないか"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1910.htm",
+  "text": "1910 中途退職で年末調整を受けていないとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1920.htm",
+  "text": "1920 海外勤務と所得税額の精算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1923.htm",
+  "text": "1923 海外勤務と納税管理人の選任又は解任"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2508.htm",
+  "text": "2508 給与所得となるもの"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-nemmatsuchosei.htm#page-top",
+  "text": "このページの先頭へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/index.htm",
+  "text": "税の情報・手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/index.htm",
+  "text": "税について調べる"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-nemmatsuchosei.htm#sidenaviAccordionCollapse1",
+  "text": "〔alt:メニューを閉じる〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+  "text": "所得税（確定申告書等作成コーナー）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm",
+  "text": "タックスアンサー（よくある税の質問）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/sodan/index.htm",
+  "text": "税の相談"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/index.htm",
+  "text": "税目別情報"
+ },
+ {
+  "href": "http://www.rosenka.nta.go.jp/",
+  "text": "路線価図・評価倍率表"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/saigai/index.htm",
+  "text": "災害関連情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/kokusai/index.htm",
+  "text": "国際税務関係情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shirabekata/info.htm",
+  "text": "税についての上手な調べ方"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/index.htm",
+  "text": "申告手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-nemmatsuchosei.htm#sidenaviAccordionCollapse2",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/index.htm",
+  "text": "申告・申請・届出等、用紙（手続の案内・様式）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/mynumberinfo/index.htm",
+  "text": "社会保障・税番号制度(マイナンバー)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/index.htm",
+  "text": "納税・納税証明書手続"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-nemmatsuchosei.htm#sidenaviAccordionCollapse3",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/annai/index.htm",
+  "text": "納税に関する総合案内"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/nozei-shomei/01.htm",
+  "text": "納税証明書"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/enno-butsuno/01.htm",
+  "text": "延納・物納申請等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/entaizei/keisan/entai.htm",
+  "text": "延滞税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/index.htm",
+  "text": "税理士に関する情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-nemmatsuchosei.htm#sidenaviAccordionCollapse4",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/index.htm#news",
+  "text": "新着情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/zeirishiseido/seido.htm",
+  "text": "税理士制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/zeirishishiken/zeirishi.htm",
+  "text": "税理士試験"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/chokai/chokai.htm",
+  "text": "税理士に関する懲戒処分等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/search/search.htm",
+  "text": "税理士をお探しの方"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/zeirishiseido/qa.htm",
+  "text": "税理士関係法令等・Ｑ＆Ａ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm",
+  "text": "お酒に関する情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-nemmatsuchosei.htm#sidenaviAccordionCollapse5",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#syuzei",
+  "text": "酒税関係及び各種施策"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#ippan",
+  "text": "一般的な酒税の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#senmonsyuzei",
+  "text": "専門的な酒税の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#senmonsodan",
+  "text": "専門的な酒税の相談"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#shinkoku",
+  "text": "酒税の申告・納付や届出等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#denwa",
+  "text": "電話相談センター・税務署の案内"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#shingikai",
+  "text": "審議会等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#tokei",
+  "text": "統計情報・各種資料"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#qa",
+  "text": "お酒に関するＱ＆Ａ(よくある質問)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/kids/index.htm",
+  "text": "税の学習コーナー"
+ },
+ {
+  "href": "https://www.nta.go.jp/",
+  "text": "ホーム"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/index.htm",
+  "text": "税の情報・手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/index.htm",
+  "text": "税について調べる"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm",
+  "text": "タックスアンサー（よくある税の質問）"
+ }
+]

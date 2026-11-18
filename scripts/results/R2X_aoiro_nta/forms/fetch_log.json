@@ -1,0 +1,95 @@
+{
+ "set": "forms",
+ "fetched_at": "20261109-174711",
+ "download_dir": ".work/downloads/20261109-174711_R2X_aoiro_nta_forms",
+ "items": [
+  {
+   "id": "kessan_ippan_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/10.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Mon, 31 Aug 2026 05:00:04 GMT",
+   "bytes": 36392,
+   "sha256": "c3cd9d17c0174972a19c5b8174ad01ac685f4ed2dda9d3e903e6fd315bf5f4c3",
+   "saved": ".work/downloads/20261109-174711_R2X_aoiro_nta_forms/kessan_ippan_r07.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "kessan_ippan_kakikata_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/037.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:40 GMT",
+   "bytes": 2576092,
+   "sha256": "77c8ad203bbd04efcacf42c4c8c95a6a098b80784e51df66347812948b578900",
+   "saved": ".work/downloads/20261109-174711_R2X_aoiro_nta_forms/kessan_ippan_kakikata_r07.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "kessan_tebiki_ippan_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/025.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:41 GMT",
+   "bytes": 5722383,
+   "sha256": "d688dd73e82a13b5b8f4d8d559f16cc82da948f5a249d9a2ac75361dc855f82c",
+   "saved": ".work/downloads/20261109-174711_R2X_aoiro_nta_forms/kessan_tebiki_ippan_r07.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "kessan_genkin_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/13.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Mon, 31 Aug 2026 05:00:04 GMT",
+   "bytes": 18264,
+   "sha256": "184a71c5efda112d54fccc59837400808e3c84440f49a11559f23e519dceefad",
+   "saved": ".work/downloads/20261109-174711_R2X_aoiro_nta_forms/kessan_genkin_r07.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "shinkoku_dai4_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/03.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Mon, 31 Aug 2026 05:00:05 GMT",
+   "bytes": 1507791,
+   "sha256": "10dfa7825ae19b642eb90edc9a7e2782e26be1fd71a39743d846a4dab52bab28",
+   "saved": ".work/downloads/20261109-174711_R2X_aoiro_nta_forms/shinkoku_dai4_r07.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "sonshitsu_tebiki_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/003.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:42 GMT",
+   "bytes": 1485553,
+   "sha256": "e3a89abd687f659d190e7ae2da9e4554b5b9f52158903345b699c852717c1226",
+   "saved": ".work/downloads/20261109-174711_R2X_aoiro_nta_forms/sonshitsu_tebiki_r07.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "shinsei_aoiro",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/h28/10.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:11 GMT",
+   "bytes": 631784,
+   "sha256": "a4e3fc8b15abe41ecd5980352fc3916f80967ae85f5410479c9c8563046ec1bf",
+   "saved": ".work/downloads/20261109-174711_R2X_aoiro_nta_forms/shinsei_aoiro.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "shinsei_aoiro_ki",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/h28/10-ki.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:11 GMT",
+   "bytes": 81558,
+   "sha256": "77baaa0debf60e28b073c92def376c91188ac8c0a944db4a492cd208d5459006",
+   "saved": ".work/downloads/20261109-174711_R2X_aoiro_nta_forms/shinsei_aoiro_ki.pdf",
+   "pdf_header_ok": true
+  }
+ ]
+}

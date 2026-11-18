@@ -1,0 +1,3 @@
+# 所得税法施行規則 340M50000040011 asof=2026-12-31
+# law_revision_id=340M50000040011_20261211_508M60000040017 改正法令=令和八年財務省令第十七号 施行日=2026-12-11 状態=UnEnforced
+# 元データ=.work\downloads\20261112-095723_IMPL6_tanaoroshi_laws_egov\shoki_2026-12-31.json

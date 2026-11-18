@@ -1,0 +1,1153 @@
+{
+ "total": 191,
+ "ok": 191,
+ "ng": [],
+ "all": [
+  {
+   "id": "shotoku143",
+   "target": "shotoku@2025-12-31 Num=143",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku143",
+   "target": "shotoku@2026-12-31 Num=143",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku144",
+   "target": "shotoku@2025-12-31 Num=144",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku144",
+   "target": "shotoku@2026-12-31 Num=144",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku145_3",
+   "target": "shotoku@2025-12-31 Num=145",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku145_3",
+   "target": "shotoku@2026-12-31 Num=145",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku147",
+   "target": "shotoku@2025-12-31 Num=147",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku147",
+   "target": "shotoku@2026-12-31 Num=147",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku148_1",
+   "target": "shotoku@2025-12-31 Num=148",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku148_1",
+   "target": "shotoku@2026-12-31 Num=148",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku149",
+   "target": "shotoku@2025-12-31 Num=149",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku149",
+   "target": "shotoku@2026-12-31 Num=149",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku150_1",
+   "target": "shotoku@2025-12-31 Num=150",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku150_1",
+   "target": "shotoku@2026-12-31 Num=150",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku151_1_R7",
+   "target": "shotoku@2025-12-31 Num=151",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku151_1_R8",
+   "target": "shotoku@2026-12-31 Num=151",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku151_2",
+   "target": "shotoku@2025-12-31 Num=151",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku151_2",
+   "target": "shotoku@2026-12-31 Num=151",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku155_1",
+   "target": "shotoku@2025-12-31 Num=155",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku155_1",
+   "target": "shotoku@2026-12-31 Num=155",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku57_1",
+   "target": "shotoku@2025-12-31 Num=57",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku57_1",
+   "target": "shotoku@2026-12-31 Num=57",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku57_2",
+   "target": "shotoku@2025-12-31 Num=57",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku57_2",
+   "target": "shotoku@2026-12-31 Num=57",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku57_7",
+   "target": "shotoku@2025-12-31 Num=57",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku57_7",
+   "target": "shotoku@2026-12-31 Num=57",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku57_3",
+   "target": "shotoku@2025-12-31 Num=57",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku57_3",
+   "target": "shotoku@2026-12-31 Num=57",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku67_1",
+   "target": "shotoku@2025-12-31 Num=67",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku67_1",
+   "target": "shotoku@2026-12-31 Num=67",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku2_25",
+   "target": "shotoku@2025-12-31 Num=2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku2_25",
+   "target": "shotoku@2026-12-31 Num=2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku2_33",
+   "target": "shotoku@2025-12-31 Num=2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku2_33",
+   "target": "shotoku@2026-12-31 Num=2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku2_40",
+   "target": "shotoku@2025-12-31 Num=2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku2_40",
+   "target": "shotoku@2026-12-31 Num=2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku70_1",
+   "target": "shotoku@2025-12-31 Num=70",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku70_1",
+   "target": "shotoku@2026-12-31 Num=70",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku70_2",
+   "target": "shotoku@2025-12-31 Num=70",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku70_2",
+   "target": "shotoku@2026-12-31 Num=70",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku70_4",
+   "target": "shotoku@2025-12-31 Num=70",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku70_4",
+   "target": "shotoku@2026-12-31 Num=70",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku123_1",
+   "target": "shotoku@2025-12-31 Num=123",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku123_1",
+   "target": "shotoku@2026-12-31 Num=123",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku140_1",
+   "target": "shotoku@2025-12-31 Num=140",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku140_1",
+   "target": "shotoku@2026-12-31 Num=140",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku140_2",
+   "target": "shotoku@2025-12-31 Num=140",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku140_2",
+   "target": "shotoku@2026-12-31 Num=140",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku140_4",
+   "target": "shotoku@2025-12-31 Num=140",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku140_4",
+   "target": "shotoku@2026-12-31 Num=140",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku140_5",
+   "target": "shotoku@2025-12-31 Num=140",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku140_5",
+   "target": "shotoku@2026-12-31 Num=140",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku142_1",
+   "target": "shotoku@2025-12-31 Num=142",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku142_1",
+   "target": "shotoku@2026-12-31 Num=142",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku232_1",
+   "target": "shotoku@2025-12-31 Num=232",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "shotoku232_1",
+   "target": "shotoku@2026-12-31 Num=232",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "rei164_1",
+   "target": "shotoku-rei@2025-12-31 Num=164",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "rei164_1",
+   "target": "shotoku-rei@2026-12-31 Num=164",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "rei164_2",
+   "target": "shotoku-rei@2025-12-31 Num=164",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "rei164_2",
+   "target": "shotoku-rei@2026-12-31 Num=164",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "rei165_1",
+   "target": "shotoku-rei@2025-12-31 Num=165",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "rei165_1",
+   "target": "shotoku-rei@2026-12-31 Num=165",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "rei165_2",
+   "target": "shotoku-rei@2025-12-31 Num=165",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "rei165_2",
+   "target": "shotoku-rei@2026-12-31 Num=165",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "rei195_1",
+   "target": "shotoku-rei@2025-12-31 Num=195",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "rei195_1",
+   "target": "shotoku-rei@2026-12-31 Num=195",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "rei196_2",
+   "target": "shotoku-rei@2025-12-31 Num=196",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "rei196_2",
+   "target": "shotoku-rei@2026-12-31 Num=196",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "rei197_1",
+   "target": "shotoku-rei@2025-12-31 Num=197",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "rei197_1",
+   "target": "shotoku-rei@2026-12-31 Num=197",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "rei197_2",
+   "target": "shotoku-rei@2025-12-31 Num=197",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "rei197_2",
+   "target": "shotoku-rei@2026-12-31 Num=197",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "rei201_1",
+   "target": "shotoku-rei@2025-12-31 Num=201",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "rei201_1",
+   "target": "shotoku-rei@2026-12-31 Num=201",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "rei271_1",
+   "target": "shotoku-rei@2025-12-31 Num=271",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "rei271_1",
+   "target": "shotoku-rei@2026-12-31 Num=271",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "rei272_1",
+   "target": "shotoku-rei@2025-12-31 Num=272",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "rei272_1",
+   "target": "shotoku-rei@2026-12-31 Num=272",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki36_4_3",
+   "target": "shotoku-ki@2025-12-31 Num=36_4",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki36_4_3",
+   "target": "shotoku-ki@2026-12-31 Num=36_4",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki39_2_1",
+   "target": "shotoku-ki@2025-12-31 Num=39_2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki39_2_1",
+   "target": "shotoku-ki@2026-12-31 Num=39_2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki40_1",
+   "target": "shotoku-ki@2025-12-31 Num=40",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki40_1",
+   "target": "shotoku-ki@2026-12-31 Num=40",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki55_R7",
+   "target": "shotoku-ki@2025-12-31 Num=55",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki55_R7",
+   "target": "shotoku-ki@2026-12-31 Num=55",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki56_1",
+   "target": "shotoku-ki@2025-12-31 Num=56",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki56_1",
+   "target": "shotoku-ki@2026-12-31 Num=56",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki56_2",
+   "target": "shotoku-ki@2025-12-31 Num=56",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki56_2",
+   "target": "shotoku-ki@2026-12-31 Num=56",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki57_1",
+   "target": "shotoku-ki@2025-12-31 Num=57",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki57_1",
+   "target": "shotoku-ki@2026-12-31 Num=57",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki57_2",
+   "target": "shotoku-ki@2025-12-31 Num=57",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki57_2",
+   "target": "shotoku-ki@2026-12-31 Num=57",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki58_1",
+   "target": "shotoku-ki@2025-12-31 Num=58",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki58_1",
+   "target": "shotoku-ki@2026-12-31 Num=58",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki59",
+   "target": "shotoku-ki@2025-12-31 Num=59",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki59",
+   "target": "shotoku-ki@2026-12-31 Num=59",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki60_1",
+   "target": "shotoku-ki@2025-12-31 Num=60",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki60_1",
+   "target": "shotoku-ki@2026-12-31 Num=60",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki61_1",
+   "target": "shotoku-ki@2025-12-31 Num=61",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki61_1",
+   "target": "shotoku-ki@2026-12-31 Num=61",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki62",
+   "target": "shotoku-ki@2025-12-31 Num=62",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki62",
+   "target": "shotoku-ki@2026-12-31 Num=62",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki63_1",
+   "target": "shotoku-ki@2025-12-31 Num=63",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki63_1",
+   "target": "shotoku-ki@2026-12-31 Num=63",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki64",
+   "target": "shotoku-ki@2025-12-31 Num=64",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki64",
+   "target": "shotoku-ki@2026-12-31 Num=64",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki65_1",
+   "target": "shotoku-ki@2025-12-31 Num=65",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki65_1",
+   "target": "shotoku-ki@2026-12-31 Num=65",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki65_2",
+   "target": "shotoku-ki@2025-12-31 Num=65",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki65_2",
+   "target": "shotoku-ki@2026-12-31 Num=65",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki66_R7",
+   "target": "shotoku-ki@2025-12-31 Num=66",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki54_1",
+   "target": "shotoku-ki@2025-12-31 Num=54",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki54_1",
+   "target": "shotoku-ki@2026-12-31 Num=54",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochi25_2_R7_1",
+   "target": "sochi@2025-12-31 Num=25_2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochi25_2_R7_1",
+   "target": "sochi@2026-12-31 Num=25_2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochi25_2_R7_3",
+   "target": "sochi@2025-12-31 Num=25_2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochi25_2_R7_3",
+   "target": "sochi@2026-12-31 Num=25_2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochi25_2_R7_4",
+   "target": "sochi@2025-12-31 Num=25_2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochi25_2_R7_4",
+   "target": "sochi@2026-12-31 Num=25_2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochi25_2_R7_5",
+   "target": "sochi@2025-12-31 Num=25_2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochi25_2_R7_5",
+   "target": "sochi@2026-12-31 Num=25_2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochi25_2_R7_6",
+   "target": "sochi@2025-12-31 Num=25_2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochi25_2_R7_6",
+   "target": "sochi@2026-12-31 Num=25_2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochi25_2_R9_2",
+   "target": "sochi@2027-01-01 Num=25_2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochi25_2_R9_4",
+   "target": "sochi@2027-01-01 Num=25_2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochi25_2_R9_5",
+   "target": "sochi@2027-01-01 Num=25_2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochi25_2_R9_7",
+   "target": "sochi@2027-01-01 Num=25_2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochiki9_6_1",
+   "target": "sochi-ki@2025-12-31 Num=9_6",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochiki9_6_1",
+   "target": "sochi-ki@2026-12-31 Num=9_6",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochiki9_6_2",
+   "target": "sochi-ki@2025-12-31 Num=9_6",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochiki9_6_2",
+   "target": "sochi-ki@2026-12-31 Num=9_6",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochiki9_6_3",
+   "target": "sochi-ki@2025-12-31 Num=9_6",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochiki9_6_3",
+   "target": "sochi-ki@2026-12-31 Num=9_6",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochiki9_6_5",
+   "target": "sochi-ki@2025-12-31 Num=9_6",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochiki9_6_5",
+   "target": "sochi-ki@2026-12-31 Num=9_6",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochiki9_6_6",
+   "target": "sochi-ki@2025-12-31 Num=9_6",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochiki9_6_6",
+   "target": "sochi-ki@2026-12-31 Num=9_6",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "denki5_5",
+   "target": "denchou-ki@2025-12-31 Num=5",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "denki5_5",
+   "target": "denchou-ki@2026-12-31 Num=5",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "denki5_1",
+   "target": "denchou-ki@2025-12-31 Num=5",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "denki5_1",
+   "target": "denchou-ki@2026-12-31 Num=5",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ta2072_kuroji",
+   "target": "nta/pages/ta_2072",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ta2072_genkin",
+   "target": "nta/pages/ta_2072",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ta2072_todoke",
+   "target": "nta/pages/ta_2072",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ta2072_image",
+   "target": "nta/pages/ta_2072",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ta2075_15",
+   "target": "nta/pages/ta_2075",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ta2075_fuyou",
+   "target": "nta/pages/ta_2075",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ta2075_fudosan",
+   "target": "nta/pages/ta_2075",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochitsu25_2_1",
+   "target": "nta/pages/sochitsu_25_2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochitsu25_2_3",
+   "target": "nta/pages/sochitsu_25_2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochitsu25_2_5",
+   "target": "nta/pages/sochitsu_25_2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "kihon144_1",
+   "target": "nta/pages/kihon_20_01",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "kihon148_1",
+   "target": "nta/pages/kihon_20_01",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "kihon150_1",
+   "target": "nta/pages/kihon_20_01",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "kihon67_1",
+   "target": "nta/pages/kihon_14_02",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "kihon70_15",
+   "target": "nta/pages/kihon_15_01",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "kihon140_2",
+   "target": "nta/pages/kihon_19_02",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "kihon140_4",
+   "target": "nta/pages/kihon_19_02",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "kihon142_1",
+   "target": "nta/pages/kihon_19_02",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "annai09_2_kigen",
+   "target": "nta/pages/annai_09_2",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "annai12_15",
+   "target": "nta/pages/annai_12",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "annai13_chitai",
+   "target": "nta/pages2/annai_13",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "annai23200008",
+   "target": "nta/pages/annai_23200008",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "annai23200002",
+   "target": "nta/pages2/annai_23200002",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "annai09_sozoku",
+   "target": "nta/pages/annai_09",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ta2070_kanni",
+   "target": "nta/pages/ta_2070",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ta2070_hozon",
+   "target": "nta/pages/ta_2070",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ta2070_fuyou",
+   "target": "nta/pages/ta_2070",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ta2070_kashidaore",
+   "target": "nta/pages/ta_2070",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ta2070_sozoku",
+   "target": "nta/pages/ta_2070",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ta2070_kurimodoshi",
+   "target": "nta/pages/ta_2070",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "kihon67_5",
+   "target": "nta/pages/kihon_14_02",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "kihon70_13",
+   "target": "nta/pages/kihon_15_01",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "kihon140_3",
+   "target": "nta/pages/kihon_19_02",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki_suppl_r5_12_2",
+   "target": "results/R2X_aoiro_laws/shotoku-ki_suppl_36_4_55_66.txt",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki_suppl_r5_12_5",
+   "target": "results/R2X_aoiro_laws/shotoku-ki_suppl_36_4_55_66.txt",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki_suppl_r5_12_6",
+   "target": "results/R2X_aoiro_laws/shotoku-ki_suppl_36_4_55_66.txt",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "ki_suppl_r5_12_1",
+   "target": "results/R2X_aoiro_laws/shotoku-ki_suppl_36_4_55_66.txt",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochi_rev_r7_4_1_ro",
+   "target": "results/R2X_aoiro_laws/sochi_25_2_by_revision.txt",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "sochiki_r7_26_1_6",
+   "target": "results/R2X_aoiro_laws/sochi-ki_2027-01-01.txt",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "kessan_formid",
+   "target": "pdf/kessan_ippan_r07",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "kessan_p1",
+   "target": "pdf/kessan_ippan_r07",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "kessan_p2_senju",
+   "target": "pdf/kessan_ippan_r07",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "kessan_p2_koujo",
+   "target": "pdf/kessan_ippan_r07",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "kessan_p4_bs",
+   "target": "pdf/kessan_ippan_r07",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "kessan_genkin_formid",
+   "target": "pdf/kessan_genkin_r07",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "todoke65_ki_atode",
+   "target": "pdf/todoke_65man_ki",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "kurimodoshi_ki_kigen",
+   "target": "pdf/kanpu_kurimodoshi_ki",
+   "ok": true,
+   "missing_fragment": null
+  },
+  {
+   "id": "kurimodoshi_ki_fukko",
+   "target": "pdf/kanpu_kurimodoshi_ki",
+   "ok": true,
+   "missing_fragment": null
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+description: 夫婦共同扶養の場合の子の認定（令和3年4月30日 保保発0430第2号・保国発0430第1号。令和3年8月1日から）。
+届出による差の割合:
+  description: 夫婦双方の年間収入の差が、年間収入の多い方のこの割合以内なら、届出により主として生計を維持する者の被扶養者とする
+  分子:
+    description: 割合の分子
+    metadata: &fufu
+      law: 令和3年4月30日 保保発0430第2号・保国発0430第1号 別紙1(2)（1割以内）
+      source_kind: 通知・事務連絡
+      unit: 率
+      reference:
+        - docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md#3
+    values:
+      2025-01-01: {value: 1}
+  分母:
+    description: 割合の分母
+    metadata: *fufu
+    values:
+      2025-01-01: {value: 10}

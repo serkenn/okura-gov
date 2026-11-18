@@ -1,0 +1,3 @@
+# 地方税法施行規則 329M50000002023 asof=2026-01-01
+# law_revision_id=329M50000002023_20260101_507M60000008116 改正法令=令和七年総務省令第百十六号 施行日=2026-01-01 状態=PreviousEnforced
+# 元データ=.work/downloads/20261112-164703_IMPL9_tokutei-jumin_egov/chihoki_2026-01-01.json

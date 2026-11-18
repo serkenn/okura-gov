@@ -1,0 +1,16 @@
+[word/document.xml] （個人事業者の例）
+[word/document.xml] 電子取引データの訂正及び削除の防止に関する事務処理規程
+[word/document.xml] 　　この規程は、電子計算機を使用して作成する国税関係帳簿書類の保存方法の特例に関する法律第７条に定められた電子取引の取引情報に係る電磁的記録の保存義務を適正に履行するために必要な事項を定め、これに基づき保存することとする。
+[word/document.xml] （訂正削除の原則禁止）
+[word/document.xml] 　保存する取引関係情報の内容について、訂正及び削除をすることは原則禁止とする。
+[word/document.xml] （訂正削除を行う場合）
+[word/document.xml] 　業務処理上やむを得ない理由（正当な理由がある場合に限る。）によって保存する取引関係情報を訂正又は削除する場合は、「取引情報訂正・削除申請書」に以下の内容を記載の上、事後に訂正・削除履歴の確認作業が行えるよう整然とした形で、当該取引関係情報の保存期間に合わせて保存することをもって当該取引情報の訂正及び削除を行う。
+[word/document.xml] 　一　申請日
+[word/document.xml] 　二　取引伝票番号
+[word/document.xml] 　三　取引件名
+[word/document.xml] 　四　取引先名
+[word/document.xml] 　五　訂正・削除日付
+[word/document.xml] 　六　訂正・削除内容
+[word/document.xml] 　七　訂正・削除理由
+[word/document.xml] 　八　処理担当者名
+[word/document.xml] 　この規程は、令和○年○月○日から施行する。

@@ -1,0 +1,15 @@
+# file=.work/downloads/20261109-201030_R3X_kyosai-b_kokka_b/pcm_dl_0000318809.pdf sha256=3a34a8d12a3fa08f8bf6529da68d7a0844562b6d4b48d200378c1345588f6fea encrypt=None key_ok=None pages=1
+
+=== page 1
+Microsoft
+Azure Information
+Protection
+これは、保護された文書です。
+ユーザーは、サポートされているPDF リ
+ーダーアプリを使用して表示できます。
+アプリで開く:
+MicrosoftAzure Information Protection に保護さ
+れたPDF ドキュメントの詳細
+Microsoft はお客様のプライバシーを尊重しています。詳細につ
+いては、プライバシーに関する声明をご覧ください。Microsoft 
+Corporation, One Microsoft Way, Redmond, WA 98052

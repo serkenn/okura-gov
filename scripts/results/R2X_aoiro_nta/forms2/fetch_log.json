@@ -1,0 +1,129 @@
+{
+ "set": "forms2",
+ "fetched_at": "20261109-174729",
+ "download_dir": ".work/downloads/20261109-174729_R2X_aoiro_nta_forms2",
+ "items": [
+  {
+   "id": "ta_2250",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2250.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:03 GMT",
+   "bytes": 19079,
+   "sha256": "81cabb299948105ab58cd3623334a3e339d479efada49adbb756cfae4a832130",
+   "saved": ".work/downloads/20261109-174729_R2X_aoiro_nta_forms2/ta_2250.htm",
+   "title": "No.2250 損益通算｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "todoke_65man",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/r03/01.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:06 GMT",
+   "bytes": 1146680,
+   "sha256": "b507448e6a1ab6846674b886ad58d39cd53d6887530ba36392df389a83c1af5b",
+   "saved": ".work/downloads/20261109-174729_R2X_aoiro_nta_forms2/todoke_65man.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "todoke_65man_ki",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/r03/01-ki.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:06 GMT",
+   "bytes": 95592,
+   "sha256": "1dde8a4fd0d2e94d2a408c8d4bf0b563f54e7b78364eff8e57b05112135bed7f",
+   "saved": ".work/downloads/20261109-174729_R2X_aoiro_nta_forms2/todoke_65man_ki.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "shinsei_aoiro_genkin",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/h28/11.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Thu, 18 Jan 2024 07:48:28 GMT",
+   "bytes": 131368,
+   "sha256": "87a8138c4e6a56291c247fe4f9505c9f0f629a2dd6762387bbf746f096a91e05",
+   "saved": ".work/downloads/20261109-174729_R2X_aoiro_nta_forms2/shinsei_aoiro_genkin.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "todoke_senju",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/h28/13_14.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:11 GMT",
+   "bytes": 678355,
+   "sha256": "5684a36c2b96b0dff074a7a262afbd950c8eaa2cbf2d55b1c5177a18325a351d",
+   "saved": ".work/downloads/20261109-174729_R2X_aoiro_nta_forms2/todoke_senju.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "todoke_senju_ki",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/h28/13_14-ki.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:11 GMT",
+   "bytes": 91958,
+   "sha256": "c8689907257f5eb7a5d515903b039728fca84c98be06587806b99cd080493df2",
+   "saved": ".work/downloads/20261109-174729_R2X_aoiro_nta_forms2/todoke_senju_ki.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "todoke_yame",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/h28/12.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:11 GMT",
+   "bytes": 487233,
+   "sha256": "b36c35c0329719cf876bf95456ad72cf9d6cd1b39143a3bc024d6313037bc525",
+   "saved": ".work/downloads/20261109-174729_R2X_aoiro_nta_forms2/todoke_yame.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "todoke_yame_ki",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/h28/12-ki.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:11 GMT",
+   "bytes": 104513,
+   "sha256": "ce784ca32f5e24d5cfe7b28659ec85d05c275909a53645aa35f668801aafff8c",
+   "saved": ".work/downloads/20261109-174729_R2X_aoiro_nta_forms2/todoke_yame_ki.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "kanpu_kurimodoshi",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/03_r05.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:13 GMT",
+   "bytes": 906172,
+   "sha256": "9b7c9881634f8feaee09f7cc7d04ba2daeb00385a479262ea588c5423c1cea7a",
+   "saved": ".work/downloads/20261109-174729_R2X_aoiro_nta_forms2/kanpu_kurimodoshi.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "kanpu_kurimodoshi_ki",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/03_r05-ki.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:13 GMT",
+   "bytes": 202373,
+   "sha256": "83b51e9daf2e2ad9204330f1ee908decebb0f6047bd90fe86b0a432cb4525e9c",
+   "saved": ".work/downloads/20261109-174729_R2X_aoiro_nta_forms2/kanpu_kurimodoshi_ki.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "todoke_genkin",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/h28/15.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:11 GMT",
+   "bytes": 845238,
+   "sha256": "72118e58a7f3bdb185360865bd97d1036dfeb27da01365c240c32c929ea4a250",
+   "saved": ".work/downloads/20261109-174729_R2X_aoiro_nta_forms2/todoke_genkin.pdf",
+   "pdf_header_ok": true
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "fetched_at": "20261109-155148",
+ "status": 200,
+ "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+ "saved": ".work/downloads/20261109-155148_IMPL_jigyo_verify_nta2/robots.txt",
+ "disallow": [
+  "Disallow: /service_publication/",
+  "Disallow: /about/organization/sapporo/service_publication/",
+  "Disallow: /about/organization/sendai/service_publication/",
+  "Disallow: /about/organization/kantoshinetsu/service_publication/",
+  "Disallow: /about/organization/tokyo/service_publication/",
+  "Disallow: /about/organization/kanazawa/service_publication/",
+  "Disallow: /about/organization/nagoya/service_publication/",
+  "Disallow: /about/organization/osaka/service_publication/",
+  "Disallow: /about/organization/hiroshima/service_publication/",
+  "Disallow: /about/organization/takamatsu/service_publication/",
+  "Disallow: /about/organization/fukuoka/service_publication/",
+  "Disallow: /about/organization/kumamoto/service_publication/",
+  "Disallow: /about/organization/okinawa/service_publication/",
+  "Disallow:"
+ ],
+ "allowed": {
+  "kihon_zenbun": true,
+  "sochitsu_zenbun": true,
+  "fuhyo_1557_2": true,
+  "ta_1810_qa": true
+ }
+}

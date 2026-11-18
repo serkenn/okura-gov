@@ -1,0 +1,43 @@
+{
+  "set": "pmac_e",
+  "fetched_at_local": "20261109-202101",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "pmac_kanko_hourei",
+      "url": "https://www.pmac.shigaku.go.jp/annai/kanko/jimu/hourei/index.html",
+      "status": 200,
+      "final_url": "https://www.pmac.shigaku.go.jp/annai/kanko/jimu/hourei/index.html",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 13105,
+      "sha256": "11116d537cc4fa2867f40dd0531fa136064954786df5cc23217046558ea7d0e1",
+      "last_modified": null,
+      "etag": null,
+      "content_disposition": null,
+      "saved": ".work/downloads/20261109-202101_R3X_kyosai-b_pmac_e/pmac_kanko_hourei.html",
+      "charset": "UTF-8",
+      "title": "私立学校教職員共済制度関係法令集｜私学共済事業",
+      "text_chars": 1786,
+      "text": ".work/text/20261109-202101_R3X_kyosai-b_pmac_e/pmac_kanko_hourei.txt",
+      "n_links": 36
+    },
+    {
+      "id": "pmac_kanko_jimu",
+      "url": "https://www.pmac.shigaku.go.jp/annai/kanko/jimu/index.html",
+      "status": 200,
+      "final_url": "https://www.pmac.shigaku.go.jp/annai/kanko/jimu/index.html",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 20051,
+      "sha256": "5ca0c49962d383f51883435a5fd55697fe902c2e875d1acac9399f6dba1e1a00",
+      "last_modified": null,
+      "etag": null,
+      "content_disposition": null,
+      "saved": ".work/downloads/20261109-202101_R3X_kyosai-b_pmac_e/pmac_kanko_jimu.html",
+      "charset": "UTF-8",
+      "title": "事務担当者向けの刊行物｜私学共済事業",
+      "text_chars": 2899,
+      "text": ".work/text/20261109-202101_R3X_kyosai-b_pmac_e/pmac_kanko_jimu.txt",
+      "n_links": 38
+    }
+  ]
+}

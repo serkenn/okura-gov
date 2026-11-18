@@ -1,0 +1,79 @@
+{
+ "set": "forms",
+ "fetched_at": "20261109-150217",
+ "download_dir": ".work/downloads/20261109-150217_IMPL_jigyo_nta_forms",
+ "items": [
+  {
+   "id": "shushi_ippan_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/05.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Mon, 31 Aug 2026 05:00:05 GMT",
+   "bytes": 22101,
+   "sha256": "686ecbd849ebe07b11a90d10421561669188e1cfd48b18962bf1be06965a0f24",
+   "saved": ".work/downloads/20261109-150217_IMPL_jigyo_nta_forms/shushi_ippan_r07.pdf"
+  },
+  {
+   "id": "shushi_ippan_kakikata_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/034.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:41 GMT",
+   "bytes": 1527542,
+   "sha256": "5ac5dabb0eff09479009347c825edffbed28ec5d9a746afd8fc14fcc65a15aba",
+   "saved": ".work/downloads/20261109-150217_IMPL_jigyo_nta_forms/shushi_ippan_kakikata_r07.pdf"
+  },
+  {
+   "id": "kanai_keisansho_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/03/09.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:48 GMT",
+   "bytes": 610786,
+   "sha256": "8e7f4700eaaf76acfa20dfc1230599bc381e44c86623bbe1b650a7b11141034a",
+   "saved": ".work/downloads/20261109-150217_IMPL_jigyo_nta_forms/kanai_keisansho_r07.pdf"
+  },
+  {
+   "id": "kanai_kakikata_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/03/09-ki.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:48 GMT",
+   "bytes": 828434,
+   "sha256": "6d95a99f586850d4b2c76f7e292a3bf63b8d86c16f871a6a1bd0e696ba0d352f",
+   "saved": ".work/downloads/20261109-150217_IMPL_jigyo_nta_forms/kanai_kakikata_r07.pdf"
+  },
+  {
+   "id": "kessan_tebiki_shiro_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/kichou09.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 09 Oct 2026 01:00:02 GMT",
+   "bytes": 7563616,
+   "sha256": "7e64dc7b9a14da6edcef9d6d37fc6b67d46aed8f8f9ee6a352e6f216359b6324",
+   "saved": ".work/downloads/20261109-150217_IMPL_jigyo_nta_forms/kessan_tebiki_shiro_r07.pdf"
+  },
+  {
+   "id": "kicho_shikata_jigyo",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/kichou03.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 24 Apr 2026 05:00:02 GMT",
+   "bytes": 5141876,
+   "sha256": "050d458b38be96f3256d984bd75c0673d0aa7b2a1d3e92333295a649544254e1",
+   "saved": ".work/downloads/20261109-150217_IMPL_jigyo_nta_forms/kicho_shikata_jigyo.pdf"
+  },
+  {
+   "id": "sochitsu_25_2",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/57/25/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 02 Oct 2026 08:30:03 GMT",
+   "bytes": 8606,
+   "sha256": "fab8f8e21c5edece1aeebdf29e42c288c09b3f4eb44c62403cb645003c5fc843",
+   "saved": ".work/downloads/20261109-150217_IMPL_jigyo_nta_forms/sochitsu_25_2.htm",
+   "title": "第25条の2（（青色申告特別控除））関係｜国税庁",
+   "encoding": "shift_jis"
+  }
+ ]
+}

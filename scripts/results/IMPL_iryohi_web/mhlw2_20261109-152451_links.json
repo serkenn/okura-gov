@@ -1,0 +1,24 @@
+{
+ "mhlw_receipt_error_page": [
+  {
+   "href": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/index.html",
+   "text": "医薬品・医療機器"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hokabunya/index_00005.html",
+   "text": "医薬品等行政評価・監視委員会"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/kouhatu-iyaku/index.html",
+   "text": "後発医薬品の使用促進"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/shinkou/index.html",
+   "text": "医薬品・医療機器産業の振興について"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/index.html",
+   "text": "医薬品・医療機器"
+  }
+ ]
+}

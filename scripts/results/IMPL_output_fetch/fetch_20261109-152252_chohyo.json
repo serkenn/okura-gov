@@ -1,0 +1,37 @@
+{
+ "run": "20261109-152252",
+ "name": "chohyo",
+ "download_dir": ".work/downloads/20261109-152252_chohyo",
+ "user_agent": "okura-gov-research/0.1",
+ "delay_sec": 1.5,
+ "robots": [
+  {
+   "robots_url": "https://www.e-tax.nta.go.jp/robots.txt",
+   "status": 404
+  }
+ ],
+ "results": [
+  {
+   "url": "https://www.e-tax.nta.go.jp/shiyo/chohyo/shiyo_chohyo_20260924.pdf",
+   "fetched_at": "2026-11-09T15:22:54+0900",
+   "status": 200,
+   "final_url": "https://www.e-tax.nta.go.jp/shiyo/chohyo/shiyo_chohyo_20260924.pdf",
+   "content_type": "application/pdf",
+   "last_modified": "Wed, 23 Sep 2026 23:30:30 GMT",
+   "bytes": 163521,
+   "sha256": "52865038e7ef577d4b798c7e768a52641b5063475bcf73e9ae67d1a13d9c9d82",
+   "saved": ".work/downloads/20261109-152252_chohyo/000_www.e-tax.nta.go.jp_shiyo_chohyo_shiyo_chohyo_20260924.pdf"
+  },
+  {
+   "url": "https://www.e-tax.nta.go.jp/shiyo/chohyo/shiyo_chohyo_20260105.pdf",
+   "fetched_at": "2026-11-09T15:22:54+0900",
+   "status": 200,
+   "final_url": "https://www.e-tax.nta.go.jp/shiyo/chohyo/shiyo_chohyo_20260105.pdf",
+   "content_type": "application/pdf",
+   "last_modified": "Wed, 24 Sep 2025 01:00:01 GMT",
+   "bytes": 135028,
+   "sha256": "2968e84ba70f72730a9300c60232156e546ac098346c63ee79c41b9336dab068",
+   "saved": ".work/downloads/20261109-152252_chohyo/001_www.e-tax.nta.go.jp_shiyo_chohyo_shiyo_chohyo_20260105.pdf"
+  }
+ ]
+}

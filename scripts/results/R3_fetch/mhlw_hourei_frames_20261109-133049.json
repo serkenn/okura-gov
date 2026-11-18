@@ -1,0 +1,58 @@
+{
+  "set": "mhlw_hourei_frames",
+  "fetched_at_local": "20261109-133049",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "hourei_new_tsuchi_index",
+      "url": "https://www.mhlw.go.jp/hourei/new/tsuchi/newindex.html",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/hourei/new/tsuchi/newindex.html",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 77077,
+      "sha256": "1f89eedede45ed514abc8a9360c4a35ed102aba88a29e81644b0157cfbd23f64",
+      "last_modified": "Thu, 05 Nov 2026 08:41:48 GMT",
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-133049_R3_mhlw_hourei_frames\\hourei_new_tsuchi_index.html",
+      "charset": "UTF-8",
+      "title": "新着の通知",
+      "text_chars": 18121,
+      "text": ".work\\text\\20261109-133049_R3_mhlw_hourei_frames\\hourei_new_tsuchi_index.txt",
+      "n_links": 127
+    },
+    {
+      "id": "hourei_new_hourei_index",
+      "url": "https://www.mhlw.go.jp/hourei/new/hourei/newindex.html",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/hourei/new/hourei/newindex.html",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 96778,
+      "sha256": "9a5320aba32c6848bdc5821721ea5b5bd9851a8824c5347455fa8755c169cc99",
+      "last_modified": "Wed, 04 Nov 2026 08:38:10 GMT",
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-133049_R3_mhlw_hourei_frames\\hourei_new_hourei_index.html",
+      "charset": "UTF-8",
+      "title": "新着の法令",
+      "text_chars": 23396,
+      "text": ".work\\text\\20261109-133049_R3_mhlw_hourei_frames\\hourei_new_hourei_index.txt",
+      "n_links": 148
+    },
+    {
+      "id": "web_t_itemsrch",
+      "url": "https://www.mhlw.go.jp/web/t_itemsrch?type=1",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/web/t_itemsrch?type=1",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 3898,
+      "sha256": "3f5a321e49be38c161d3094a88fd8e99c315209822a45fc26c397cc68d5dd1b5",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-133049_R3_mhlw_hourei_frames\\web_t_itemsrch.html",
+      "charset": "UTF-8",
+      "title": "法令等データベースサービス",
+      "text_chars": 328,
+      "text": ".work\\text\\20261109-133049_R3_mhlw_hourei_frames\\web_t_itemsrch.txt",
+      "n_links": 1
+    }
+  ]
+}

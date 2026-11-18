@@ -1,0 +1,48 @@
+{
+  "set": "other",
+  "fetched_at_local": "20261109-153028",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "ITS",
+      "url": "https://www.its-kenpo.or.jp/NEWS/hoken/20260327_2.html",
+      "status": 200,
+      "final_url": "https://www.its-kenpo.or.jp/NEWS/hoken/20260327_2.html",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 14986,
+      "sha256": "142549e4917e44c06e436f1a03f08c58797d6b9dbfc59ad34008261ea9fc1376",
+      "last_modified": "Thu, 01 Oct 2026 00:57:56 GMT",
+      "saved": ".work\\downloads\\20261109-153028_kenpo_verify_other\\ITS.html",
+      "charset": "UTF-8",
+      "title": "被扶養者認定における年間収入の取扱いについて | ［ITS］関東ITソフトウェア健康保険組合",
+      "text_chars": 2496,
+      "text": ".work\\text\\20261109-153028_kenpo_verify_other\\ITS.txt"
+    },
+    {
+      "id": "soumu_gaiyou",
+      "url": "https://www.soumu.go.jp/main_sosiki/jichi_gyousei/daityo/gaiyou.html",
+      "status": 200,
+      "final_url": "https://www.soumu.go.jp/main_sosiki/jichi_gyousei/daityo/gaiyou.html",
+      "content_type": "text/html",
+      "bytes": 42900,
+      "sha256": "61b28660173048c35c9841ed47566174bec4aa80a93b442a8e31a7059979332b",
+      "last_modified": "Thu, 01 Oct 2026 09:13:31 GMT",
+      "saved": ".work\\downloads\\20261109-153028_kenpo_verify_other\\soumu_gaiyou.html",
+      "charset": "Shift_JIS",
+      "title": "総務省｜住民基本台帳等",
+      "text_chars": 3810,
+      "text": ".work\\text\\20261109-153028_kenpo_verify_other\\soumu_gaiyou.txt"
+    },
+    {
+      "id": "YORYO",
+      "url": "https://www.soumu.go.jp/main_content/001094645.pdf",
+      "status": 200,
+      "final_url": "https://www.soumu.go.jp/main_content/001094645.pdf",
+      "content_type": "application/pdf",
+      "bytes": 751096,
+      "sha256": "aee75810dca37cd181768c03f6d1885aa635a14279ba0967298cf9135148383c",
+      "last_modified": "Thu, 01 Oct 2026 09:13:31 GMT",
+      "saved": ".work\\downloads\\20261109-153028_kenpo_verify_other\\YORYO.pdf"
+    }
+  ]
+}

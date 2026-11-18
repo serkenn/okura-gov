@@ -1,0 +1,14 @@
+01_student_away_and_parent_on_assignment__multi.json: 同じ
+02_medical_payer_differs_from_patient__multi.json: 同じ
+03_business_with_household_apportionment__multi.json: 同じ
+04_forecast_and_plan_marks__multi.json: 同じ
+05_commuting_and_withholding_slip__multi.json: 同じ
+06_phase3_insurance_and_resident_tax_facts__multi.json: 同じ
+07_vocabulary_additions_2026_11_11__multi.json: 同じ
+08_vocabulary_additions_2026_11_12__multi.json: 同じ
+09_external_tax_credit_2026_11_12__multi.json: 同じ
+10_inventory_household_bad_debt_2026_11_12__multi.json: 同じ
+11_special_depreciation_2026_11_12__multi.json: 同じ
+12_specific_expense_and_authority_tax_item_2026_11_12__multi.json: 同じ
+13_specific_expense_judgment_and_resident_return_2026_11_12__multi.json: 同じ
+同じ 13 / 違う 0

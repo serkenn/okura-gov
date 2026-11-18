@@ -1,0 +1,36 @@
+{
+ "set": "etax3",
+ "fetched_at": "20261112-165213",
+ "download_dir": ".work/downloads/20261112-165213_IMPL9_tokutei-jumin_web_etax3",
+ "robots": [
+  {
+   "host": "https://www.e-tax.nta.go.jp",
+   "status": 404,
+   "sha256": "5f7262ac5fe116c65502744103974ec7fc706043b73b67d21a209bd532c6d6f9"
+  }
+ ],
+ "items": [
+  {
+   "id": "e-tax07",
+   "url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/download/e-tax07.CAB",
+   "final_url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/download/e-tax07.CAB",
+   "status": 200,
+   "content_type": "application/vnd.ms-cab-compressed",
+   "last_modified": "Fri, 28 Aug 2026 01:00:16 GMT",
+   "bytes": 9340285,
+   "sha256": "3190e9a936c58e75eae4dfe121b2d1b96314ffa90fdd29d92b2b8e9fd8411b9d",
+   "saved": ".work/downloads/20261112-165213_IMPL9_tokutei-jumin_web_etax3/e-tax07.cab"
+  },
+  {
+   "id": "e-tax09",
+   "url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/download/e-tax09.CAB",
+   "final_url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/download/e-tax09.CAB",
+   "status": 200,
+   "content_type": "application/vnd.ms-cab-compressed",
+   "last_modified": "Fri, 28 Aug 2026 01:00:16 GMT",
+   "bytes": 8509024,
+   "sha256": "aa46204f612c284d87933637ad7601a94079c935a43a9951e756293155812bde",
+   "saved": ".work/downloads/20261112-165213_IMPL9_tokutei-jumin_web_etax3/e-tax09.cab"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "fetched_at_local": "20261111-024026",
+ "user_agent": "okura-gov-research/0.1",
+ "download_dir": ".work/downloads/20261111-024026_R3X_kyosai-b_verify_cmap",
+ "results": [
+  {
+   "id": "UniJIS-UTF16-H",
+   "url": "https://raw.githubusercontent.com/adobe-type-tools/cmap-resources/master/Adobe-Japan1-7/CMap/UniJIS-UTF16-H",
+   "status": 200,
+   "bytes": 188225,
+   "sha256": "5cf77ed38c25262dba845676738a887afe45e44425c3dd2489334c4d8c510fcb",
+   "first_line": "%!PS-Adobe-3.0 Resource-CMap",
+   "saved": ".work/downloads/20261111-024026_R3X_kyosai-b_verify_cmap/UniJIS-UTF16-H.cmap"
+  },
+  {
+   "id": "UniJIS-UTF16-V",
+   "url": "https://raw.githubusercontent.com/adobe-type-tools/cmap-resources/master/Adobe-Japan1-7/CMap/UniJIS-UTF16-V",
+   "status": 200,
+   "bytes": 5806,
+   "sha256": "03bfb4e91452da537f347b8676e52adfa5dd10f8b920fa2cc34d343580354056",
+   "first_line": "%!PS-Adobe-3.0 Resource-CMap",
+   "saved": ".work/downloads/20261111-024026_R3X_kyosai-b_verify_cmap/UniJIS-UTF16-V.cmap"
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+  "set": "mhlw_tsuchi",
+  "fetched_at_local": "20261109-132940",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "T250724S0010",
+      "url": "https://www.mhlw.go.jp/hourei/doc/tsuchi/T250724S0010.pdf",
+      "status": 404,
+      "final_url": "https://www.mhlw.go.jp/hourei/doc/tsuchi/T250724S0010.pdf",
+      "content_type": "text/html; charset=iso-8859-1",
+      "bytes": 232,
+      "sha256": "a3d318a4126d0a92f62dadc226ed14ecdabc62d24dfb4ab716d85bcb08836b94",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-132940_R3_mhlw_tsuchi\\T250724S0010.pdf"
+    },
+    {
+      "id": "T260310S0010",
+      "url": "https://www.mhlw.go.jp/hourei/doc/tsuchi/T260310S0010.pdf",
+      "status": 404,
+      "final_url": "https://www.mhlw.go.jp/hourei/doc/tsuchi/T260310S0010.pdf",
+      "content_type": "text/html; charset=iso-8859-1",
+      "bytes": 232,
+      "sha256": "7bbd0bca5c76cf20401fad8c60050d772f42b4a158ec0a1e3051607bf9f8303b",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-132940_R3_mhlw_tsuchi\\T260310S0010.pdf"
+    },
+    {
+      "id": "T251006S0050",
+      "url": "https://www.mhlw.go.jp/hourei/doc/tsuchi/T251006S0050.pdf",
+      "status": 404,
+      "final_url": "https://www.mhlw.go.jp/hourei/doc/tsuchi/T251006S0050.pdf",
+      "content_type": "text/html; charset=iso-8859-1",
+      "bytes": 232,
+      "sha256": "36a8824134121170b329b57a3e7249249fa25f3ae84250560af4ce929936e6c7",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-132940_R3_mhlw_tsuchi\\T251006S0050.pdf"
+    },
+    {
+      "id": "T240112T0010",
+      "url": "https://www.mhlw.go.jp/hourei/doc/tsuchi/T240112T0010.pdf",
+      "status": 404,
+      "final_url": "https://www.mhlw.go.jp/hourei/doc/tsuchi/T240112T0010.pdf",
+      "content_type": "text/html; charset=iso-8859-1",
+      "bytes": 232,
+      "sha256": "ed20ddda4619077362a775c27ef9bd8f921884a2914994740183a15659486876",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-132940_R3_mhlw_tsuchi\\T240112T0010.pdf"
+    },
+    {
+      "id": "content_001678030",
+      "url": "https://www.mhlw.go.jp/content/001678030.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/001678030.pdf",
+      "content_type": "application/pdf",
+      "bytes": 707853,
+      "sha256": "684ee1ebc7e665ad8248fecb84bd91dc0a1ebcb90f5c3bb093aa519a581c9aa7",
+      "last_modified": "Wed, 01 Apr 2026 01:24:36 GMT",
+      "etag": "\"acd0d-64e5bf26bab8e\"",
+      "saved": ".work\\downloads\\20261109-132940_R3_mhlw_tsuchi\\content_001678030.pdf"
+    },
+    {
+      "id": "content_001678015",
+      "url": "https://www.mhlw.go.jp/content/001678015.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/001678015.pdf",
+      "content_type": "application/pdf",
+      "bytes": 622664,
+      "sha256": "c849bcad5a80df1e5b64958203b448240316a939df3a727c4f9fd69f09dff564",
+      "last_modified": "Wed, 01 Apr 2026 01:24:41 GMT",
+      "etag": "\"98048-64e5bf2b4dea5\"",
+      "saved": ".work\\downloads\\20261109-132940_R3_mhlw_tsuchi\\content_001678015.pdf"
+    },
+    {
+      "id": "content_001678016",
+      "url": "https://www.mhlw.go.jp/content/001678016.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/001678016.pdf",
+      "content_type": "application/pdf",
+      "bytes": 205704,
+      "sha256": "67f1815bdd684b78d3dbc153ca0eb4dde0055cb9ae0f1d9117e0723554edb2c0",
+      "last_modified": "Wed, 01 Apr 2026 01:24:40 GMT",
+      "etag": "\"32388-64e5bf2a99bd8\"",
+      "saved": ".work\\downloads\\20261109-132940_R3_mhlw_tsuchi\\content_001678016.pdf"
+    },
+    {
+      "id": "hourei_top",
+      "url": "https://www.mhlw.go.jp/hourei/",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/hourei/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 8709,
+      "sha256": "d2072e992b07f6b80abbc2bce4f76187ba5645ebbe08723f7feda9b035b25ace",
+      "last_modified": "Thu, 05 Nov 2026 08:41:48 GMT",
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-132940_R3_mhlw_tsuchi\\hourei_top.html",
+      "charset": "UTF-8",
+      "title": "法令等データベースサービス",
+      "text_chars": 2211,
+      "text": ".work\\text\\20261109-132940_R3_mhlw_tsuchi\\hourei_top.txt",
+      "n_links": 16
+    }
+  ]
+}

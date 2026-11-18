@@ -1,0 +1,112 @@
+{
+ "set": "nta_ta",
+ "fetched_at": "20261111-231729",
+ "download_dir": ".work/downloads/20261111-231729_IMPL3_web_fetch_nta_ta",
+ "robots": [],
+ "items": [
+  {
+   "id": "ta_1180",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:15 GMT",
+   "bytes": 23283,
+   "sha256": "c92803d8c75aa5c7971b19a0803e0cf1279d272ed7d9c71d4595c94e11d1771a",
+   "saved": ".work/downloads/20261111-231729_IMPL3_web_fetch_nta_ta/ta_1180.htm",
+   "title": "No.1180 扶養控除｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_1250",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1250.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1250.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:12 GMT",
+   "bytes": 20736,
+   "sha256": "cb65c62ac85908345507276803321f043b6100c017e9c81f5478596c7f21e5ae",
+   "saved": ".work/downloads/20261111-231729_IMPL3_web_fetch_nta_ta/ta_1250.htm",
+   "title": "No.1250 配当所得があるとき(配当控除)｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_1330",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1330.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1330.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:11 GMT",
+   "bytes": 21400,
+   "sha256": "e97f7323c284b0e2b61c75c2b9a5c05682dea7ad740cd0d8a59c47468b3cd730",
+   "saved": ".work/downloads/20261111-231729_IMPL3_web_fetch_nta_ta/ta_1330.htm",
+   "title": "No.1330 配当金を受け取ったとき(配当所得)｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_1140",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:16 GMT",
+   "bytes": 25305,
+   "sha256": "20cf3d89f75dc48a636117235a463a96eb4e3ed8f7eb5cafb96ba9876ca040e5",
+   "saved": ".work/downloads/20261111-231729_IMPL3_web_fetch_nta_ta/ta_1140.htm",
+   "title": "No.1140 生命保険料控除｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_1110",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:17 GMT",
+   "bytes": 21261,
+   "sha256": "377fee05900a97e3440a1c46c6f41ca8a6a15482a31f17826852a19ff96c38db",
+   "saved": ".work/downloads/20261111-231729_IMPL3_web_fetch_nta_ta/ta_1110.htm",
+   "title": "No.1110 災害や盗難などで資産に損害を受けたとき(雑損控除)｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_1900",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:07 GMT",
+   "bytes": 17785,
+   "sha256": "68ad70cadf7276e27ac84c26ff4b56e5af0d96513581465d89f2601bd6567ee5",
+   "saved": ".work/downloads/20261111-231729_IMPL3_web_fetch_nta_ta/ta_1900.htm",
+   "title": "No.1900 給与所得者で確定申告が必要な人｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_1910",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1910.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1910.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:07 GMT",
+   "bytes": 15812,
+   "sha256": "874d134e71610b17cd1cca4b4b896e7b29ba58673188dd332ad43b8a8438362f",
+   "saved": ".work/downloads/20261111-231729_IMPL3_web_fetch_nta_ta/ta_1910.htm",
+   "title": "No.1910 中途退職で年末調整を受けていないとき｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "annai_1557_2",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/1557_2.htm",
+   "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/1557_2.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Mon, 31 Aug 2026 05:00:02 GMT",
+   "bytes": 110760,
+   "sha256": "cf201c944bcb03d939ab1cff01e1deb9041208888249121c7cfb8b2faa93ecb3",
+   "saved": ".work/downloads/20261111-231729_IMPL3_web_fetch_nta_ta/annai_1557_2.htm",
+   "title": "A1-1 申告書・申告書付表と税額計算書等 一覧（申告所得税）｜国税庁",
+   "encoding": "shift_jis"
+  }
+ ]
+}

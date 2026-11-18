@@ -1,0 +1,39 @@
+{
+ "run_at": "20261109-191504",
+ "download_dir": ".work\\downloads\\20261109-191504_R2B_kabu_xcheck_extra",
+ "user_agent": "okura-gov-research/0.1",
+ "laws": [
+  {
+   "short": "chiho",
+   "law_id": "325AC0000000226",
+   "asof": "2026-03-31",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=json&asof=2026-03-31",
+   "status": 200,
+   "bytes": 12431689,
+   "sha256": "ba0a40e550be7762907faf5f82a17a14ed9c9e6fd21060f5fc7765e1c1321779",
+   "file": "chiho_2026-03-31.json"
+  },
+  {
+   "short": "chiho",
+   "law_id": "325AC0000000226",
+   "asof": "2026-04-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=json&asof=2026-04-01",
+   "status": 200,
+   "bytes": 12155003,
+   "sha256": "06db2ba6ccfec62e74f8a0ccd77e94ad98b7f17f5dff6520e6ce04765b3b9e4e",
+   "file": "chiho_2026-04-01.json"
+  },
+  {
+   "short": "chiho",
+   "law_id": "325AC0000000226",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=json&asof=2026-11-09",
+   "status": 200,
+   "bytes": 12181725,
+   "sha256": "3dd29e0078bf24e09c79436ce7b0f00fd2cfb5a5bbcb97bd4f4352971be68d53",
+   "file": "chiho_2026-11-09.json"
+  }
+ ],
+ "revs": [],
+ "web": []
+}

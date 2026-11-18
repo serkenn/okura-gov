@@ -1,0 +1,18 @@
+{
+ "set": "forms2",
+ "fetched_at": "20261109-202010",
+ "download_dir": ".work/downloads/20261109-202010_R3X_shibo-shukkoku_nta_forms2",
+ "items": [
+  {
+   "id": "r7_kiso_qa",
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/0025005-051.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 30 May 2025 08:26:01 GMT",
+   "bytes": 1254127,
+   "sha256": "af377dfb7700cb28a8c328bdb83916b148e9ff24bf2064e2be35c76bb793805b",
+   "saved": ".work/downloads/20261109-202010_R3X_shibo-shukkoku_nta_forms2/r7_kiso_qa.pdf",
+   "pdf_header_ok": true
+  }
+ ]
+}

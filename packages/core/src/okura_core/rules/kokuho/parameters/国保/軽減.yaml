@@ -1,0 +1,129 @@
+description: 低所得者の被保険者均等割・世帯別平等割の軽減（7割・5割・2割）の判定の基準（国保令第29条の7第6項〔令和7年度の版は第5項〕、地方税法第703条の5第1項・同施行令第56条の89）。日付のキーは年度の初日。
+基準額:
+  description: 7割の基準の金額 B（料は地方税法第314条の2第2項第1号に定める金額、税は地令第56条の89第1項の「四十三万円」）
+  metadata:
+    law: 国民健康保険法施行令第29条の7第6項第1号、地方税法施行令第56条の89第1項
+    source_kind: 政令
+    unit: 円
+    比較: 以下
+    reference:
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#6.1
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#6.2
+  values:
+    2024-01-01:
+      value: 430000
+      metadata:
+        適用: 令和7年度・令和8年度（料と税で同じ：[KHP] §6.2 の C2）
+給与所得者等の加算額:
+  description: 給与所得者等の数 k が2以上のときの (k−1) 人あたりの加算額
+  metadata:
+    law: 国民健康保険法施行令第29条の7第6項第1号、地方税法施行令第56条の89第1項
+    source_kind: 政令
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#6.1
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#6.2
+  values:
+    2024-01-01:
+      value: 100000
+      metadata:
+        適用: 令和7年度・令和8年度
+五割の被保険者等1人あたりの額:
+  description: 5割の基準で、被保険者と特定同一世帯所属者の数に乗じる額（a）
+  metadata:
+    law: 国民健康保険法施行令第29条の7第6項第1号ロ、地方税法施行令第56条の89第1項
+    source_kind: 政令
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#6.1
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#6.2
+  values:
+    2024-01-01:
+      value: 305000
+      metadata:
+        施行日: 2025-04-01
+        適用: 令和7年度分以後（料：令和7年政令第32号附則第4項、税：令和7年政令第119号附則第9条）
+    2025-01-01:
+      value: 310000
+      metadata:
+        施行日: 2026-04-01
+        適用: 令和8年度分以後（料：令和8年政令第2号附則第4項、税：令和8年政令第83号附則第8条）
+二割の被保険者等1人あたりの額:
+  description: 2割の基準で、被保険者と特定同一世帯所属者の数に乗じる額（b）
+  metadata:
+    law: 国民健康保険法施行令第29条の7第6項第1号ハ、地方税法施行令第56条の89第1項
+    source_kind: 政令
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#6.1
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#6.2
+  values:
+    2024-01-01:
+      value: 560000
+      metadata:
+        施行日: 2025-04-01
+        適用: 令和7年度分以後（料：令和7年政令第32号附則第4項、税：令和7年政令第119号附則第9条）
+    2025-01-01:
+      value: 570000
+      metadata:
+        施行日: 2026-04-01
+        適用: 令和8年度分以後（料：令和8年政令第2号附則第4項、税：令和8年政令第83号附則第8条）
+公的年金等の特例の控除額:
+  description: 65歳以上の公的年金等に係る所得から控除する額（国保令附則第5条、地方税法附則第35条の5）
+  metadata:
+    law: 国民健康保険法施行令附則第5条、地方税法附則第35条の5
+    source_kind: 政令
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#6.1
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#6.2
+  values:
+    2024-01-01:
+      value: 150000
+      metadata:
+        適用: 当分の間（原始附則）。令和7年度・令和8年度の版で確認
+給与所得者等の基準:
+  description: 給与所得者等の範囲（給与等の収入金額・公的年金等の収入金額がこの額を超える者）
+  給与等の収入金額:
+    description: 給与所得を有する者の給与等の収入金額の下限（この額を超える）
+    metadata:
+      law: 国民健康保険法施行令第29条の7第6項第1号
+      source_kind: 政令
+      unit: 円
+      比較: 超
+      reference:
+        - docs/public-sources/20261109_round2_kokuho-premium-structure.md#6.1
+    values:
+      2024-01-01:
+        value: 550000
+        metadata:
+          適用: 令和7年度・令和8年度・現行の各版で同じ（[KHP] §6.1）
+  公的年金等の収入金額_65歳未満:
+    description: 65歳未満の公的年金等の収入金額の下限（この額を超える）
+    metadata:
+      law: 国民健康保険法施行令第29条の7第6項第1号
+      source_kind: 政令
+      unit: 円
+      比較: 超
+      reference:
+        - docs/public-sources/20261109_round2_kokuho-premium-structure.md#6.1
+    values:
+      2024-01-01:
+        value: 600000
+        metadata:
+          適用: 令和7年度・令和8年度・現行の各版で同じ（[KHP] §6.1）
+  公的年金等の収入金額_65歳以上:
+    description: 65歳以上の公的年金等の収入金額の下限（この額を超える。附則第5条の読替えの後の125万円）
+    metadata:
+      law: 国民健康保険法施行令第29条の7第6項第1号・附則第5条、地方税法施行令附則第18条の8
+      source_kind: 政令
+      unit: 円
+      比較: 超
+      reference:
+        - docs/public-sources/20261109_round2_kokuho-premium-structure.md#6.1
+        - docs/public-sources/20261109_round2_kokuho-premium-structure.md#6.2
+    values:
+      2024-01-01:
+        value: 1250000
+        metadata:
+          適用: 当分の間（「百十万円」を「百二十五万円」と読み替える原始附則）。令和7年度・令和8年度の版で確認

@@ -1,0 +1,154 @@
+description: >-
+  税額控除の法令の値：配当控除（附則第5条）、住宅借入金等特別税額控除（附則第5条の4）、寄附金税額控除（第314条の7・第37条の2、附則第5条の6）、
+  申告特例控除（附則第7条の2・第7条の3）、配当割額・株式等譲渡所得割額の控除（第314条の9・第37条の4）。市町村民税と道府県民税、
+  指定都市の区域内に住所を有する場合の率を分けて持つ。
+配当控除:
+  基準:
+    description: 課税総所得金額等（から証券投資信託の配当所得を除いた額）の1000万円
+    metadata: &haito
+      law: 地方税法附則第5条第1項・第3項
+      source_kind: 法律
+      unit: 円
+      reference: [docs/public-sources/20261109_round2_juminzei-tax-law-text.md#6]
+    values:
+      2025-01-01: {value: 10000000, metadata: &r89 {適用: 令和8年度分・令和9年度分（日付のキーは所得の年分の1月1日）}}
+  率の分母:
+    description: 配当控除の率の分母（率は1万分の1の単位で持つ）
+    metadata: *haito
+    values:
+      2025-01-01: {value: 10000, metadata: *r89}
+  剰余金の配当等:
+    市町村民税:
+      高い率: {description: 1000万円以下の部分（1.6%）, metadata: *haito, values: {2025-01-01: {value: 160, metadata: *r89}}}
+      低い率: {description: 1000万円を超える部分（0.8%）, metadata: *haito, values: {2025-01-01: {value: 80, metadata: *r89}}}
+    道府県民税:
+      高い率: {description: 1000万円以下の部分（1.2%）, metadata: *haito, values: {2025-01-01: {value: 120, metadata: *r89}}}
+      低い率: {description: 1000万円を超える部分（0.6%）, metadata: *haito, values: {2025-01-01: {value: 60, metadata: *r89}}}
+    指定都市の市町村民税:
+      高い率: {description: 指定都市・1000万円以下の部分（2.24%）, metadata: *haito, values: {2025-01-01: {value: 224, metadata: *r89}}}
+      低い率: {description: 指定都市・1000万円を超える部分（1.12%）, metadata: *haito, values: {2025-01-01: {value: 112, metadata: *r89}}}
+    指定都市の道府県民税:
+      高い率: {description: 指定都市・1000万円以下の部分（0.56%）, metadata: *haito, values: {2025-01-01: {value: 56, metadata: *r89}}}
+      低い率: {description: 指定都市・1000万円を超える部分（0.28%）, metadata: *haito, values: {2025-01-01: {value: 28, metadata: *r89}}}
+  証券投資信託:
+    市町村民税:
+      高い率: {description: 1000万円以下の部分（0.8%）, metadata: *haito, values: {2025-01-01: {value: 80, metadata: *r89}}}
+      低い率: {description: 1000万円を超える部分（0.4%）, metadata: *haito, values: {2025-01-01: {value: 40, metadata: *r89}}}
+    道府県民税:
+      高い率: {description: 1000万円以下の部分（0.6%）, metadata: *haito, values: {2025-01-01: {value: 60, metadata: *r89}}}
+      低い率: {description: 1000万円を超える部分（0.3%）, metadata: *haito, values: {2025-01-01: {value: 30, metadata: *r89}}}
+    指定都市の市町村民税:
+      高い率: {description: 指定都市・1000万円以下の部分（1.12%）, metadata: *haito, values: {2025-01-01: {value: 112, metadata: *r89}}}
+      低い率: {description: 指定都市・1000万円を超える部分（0.56%）, metadata: *haito, values: {2025-01-01: {value: 56, metadata: *r89}}}
+    指定都市の道府県民税:
+      高い率: {description: 指定都市・1000万円以下の部分（0.28%）, metadata: *haito, values: {2025-01-01: {value: 28, metadata: *r89}}}
+      低い率: {description: 指定都市・1000万円を超える部分（0.14%）, metadata: *haito, values: {2025-01-01: {value: 14, metadata: *r89}}}
+  一般外貨建等証券投資信託:
+    市町村民税:
+      高い率: {description: 1000万円以下の部分（0.4%）, metadata: *haito, values: {2025-01-01: {value: 40, metadata: *r89}}}
+      低い率: {description: 1000万円を超える部分（0.2%）, metadata: *haito, values: {2025-01-01: {value: 20, metadata: *r89}}}
+    道府県民税:
+      高い率: {description: 1000万円以下の部分（0.3%）, metadata: *haito, values: {2025-01-01: {value: 30, metadata: *r89}}}
+      低い率: {description: 1000万円を超える部分（0.15%）, metadata: *haito, values: {2025-01-01: {value: 15, metadata: *r89}}}
+    指定都市の市町村民税:
+      高い率: {description: 指定都市・1000万円以下の部分（0.56%）, metadata: *haito, values: {2025-01-01: {value: 56, metadata: *r89}}}
+      低い率: {description: 指定都市・1000万円を超える部分（0.28%）, metadata: *haito, values: {2025-01-01: {value: 28, metadata: *r89}}}
+    指定都市の道府県民税:
+      高い率: {description: 指定都市・1000万円以下の部分（0.14%）, metadata: *haito, values: {2025-01-01: {value: 14, metadata: *r89}}}
+      低い率: {description: 指定都市・1000万円を超える部分（0.07%）, metadata: *haito, values: {2025-01-01: {value: 7, metadata: *r89}}}
+住宅借入金等特別税額控除:
+  按分:
+    市町村民税: {分子: {description: 五分の三の分子, metadata: &jutaku {law: 地方税法附則第5条の4第1項・第5項, source_kind: 法律, reference: [docs/public-sources/20261109_round3_juminzei-extra-law-text.md#3.2, docs/public-sources/20261109_round2_juminzei-tax-law-text.md#7]}, values: {2025-01-01: {value: 3, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *jutaku, values: {2025-01-01: {value: 5, metadata: *r89}}}}
+    道府県民税: {分子: {description: 五分の二の分子, metadata: *jutaku, values: {2025-01-01: {value: 2, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *jutaku, values: {2025-01-01: {value: 5, metadata: *r89}}}}
+    指定都市の市町村民税: {分子: {description: 指定都市の五分の四の分子, metadata: *jutaku, values: {2025-01-01: {value: 4, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *jutaku, values: {2025-01-01: {value: 5, metadata: *r89}}}}
+    指定都市の道府県民税: {分子: {description: 指定都市の五分の一の分子, metadata: *jutaku, values: {2025-01-01: {value: 1, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *jutaku, values: {2025-01-01: {value: 5, metadata: *r89}}}}
+  控除限度の率:
+    市町村民税: {分子: {description: 百分の三の分子, metadata: *jutaku, values: {2025-01-01: {value: 3, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *jutaku, values: {2025-01-01: {value: 100, metadata: *r89}}}}
+    道府県民税: {分子: {description: 百分の二の分子, metadata: *jutaku, values: {2025-01-01: {value: 2, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *jutaku, values: {2025-01-01: {value: 100, metadata: *r89}}}}
+    指定都市の市町村民税: {分子: {description: 指定都市の百分の四の分子, metadata: *jutaku, values: {2025-01-01: {value: 4, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *jutaku, values: {2025-01-01: {value: 100, metadata: *r89}}}}
+    指定都市の道府県民税: {分子: {description: 指定都市の百分の一の分子, metadata: *jutaku, values: {2025-01-01: {value: 1, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *jutaku, values: {2025-01-01: {value: 100, metadata: *r89}}}}
+  控除限度の上限:
+    市町村民税: {description: 58500円, metadata: *jutaku, values: {2025-01-01: {value: 58500, metadata: *r89}}}
+    道府県民税: {description: 39000円, metadata: *jutaku, values: {2025-01-01: {value: 39000, metadata: *r89}}}
+    指定都市の市町村民税: {description: 指定都市 78000円, metadata: *jutaku, values: {2025-01-01: {value: 78000, metadata: *r89}}}
+    指定都市の道府県民税: {description: 指定都市 19500円, metadata: *jutaku, values: {2025-01-01: {value: 19500, metadata: *r89}}}
+  特定取得の控除限度の率:
+    市町村民税: {分子: {description: 特定取得・特別特定取得の百分の四・二の分子（千分の四十二）, metadata: &tokutei {law: 地方税法附則第5条の4第7項・第3項（居住年が平成26年〜令和3年で、措法第41条第5項の特定取得又は同条の特別特定取得に当たる住宅の取得等の住宅借入金等がある場合）, source_kind: 法律, reference: [docs/public-sources/20261109_round3_juminzei-extra-law-text.md#3.2, docs/public-sources/20261109_round2_juminzei-tax-law-text.md#7]}, values: {2025-01-01: {value: 42, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *tokutei, values: {2025-01-01: {value: 1000, metadata: *r89}}}}
+    道府県民税: {分子: {description: 百分の二・八の分子（千分の二十八）, metadata: *tokutei, values: {2025-01-01: {value: 28, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *tokutei, values: {2025-01-01: {value: 1000, metadata: *r89}}}}
+    指定都市の市町村民税: {分子: {description: 指定都市の百分の五・六の分子（千分の五十六）, metadata: *tokutei, values: {2025-01-01: {value: 56, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *tokutei, values: {2025-01-01: {value: 1000, metadata: *r89}}}}
+    指定都市の道府県民税: {分子: {description: 指定都市の百分の一・四の分子（千分の十四）, metadata: *tokutei, values: {2025-01-01: {value: 14, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *tokutei, values: {2025-01-01: {value: 1000, metadata: *r89}}}}
+  特定取得の控除限度の上限:
+    市町村民税: {description: 特定取得・特別特定取得 81900円, metadata: *tokutei, values: {2025-01-01: {value: 81900, metadata: *r89}}}
+    道府県民税: {description: 特定取得・特別特定取得 54600円, metadata: *tokutei, values: {2025-01-01: {value: 54600, metadata: *r89}}}
+    指定都市の市町村民税: {description: 指定都市 109200円, metadata: *tokutei, values: {2025-01-01: {value: 109200, metadata: *r89}}}
+    指定都市の道府県民税: {description: 指定都市 27300円, metadata: *tokutei, values: {2025-01-01: {value: 27300, metadata: *r89}}}
+  基礎控除の差の基準:
+    description: 控除限度の基に加算する「前年分の所得税の基礎控除の額−48万円（零未満は零）」の48万円（居住年が平成28年〜令和7年の場合）
+    metadata: {law: 地方税法附則第5条の4第5項（令和8年法律第2号による改正後。2026-04-01 施行、令和8年度分から）, source_kind: 法律, reference: [docs/public-sources/20261109_round3_juminzei-extra-law-text.md#3.2, docs/public-sources/20261109_round3_juminzei-extra-law-text.md#3.4, docs/public-sources/20261109_round2_juminzei-tax-law-text.md#1], 施行日: 2026-04-01}
+    values:
+      2025-01-01: {value: 480000, metadata: *r89}
+寄附金税額控除:
+  総所得金額等の上限の率:
+    分子: {description: 寄附金の合計額の上限（総所得金額等の百分の三十）の分子, metadata: &kifu {law: 地方税法第314条の7第1項・第37条の2第1項, source_kind: 法律, reference: [docs/public-sources/20261109_round2_juminzei-tax-law-text.md#8.1, docs/public-sources/20261109_round2_hoken-kifu-laws.md#8.1]}, values: {2025-01-01: {value: 30, metadata: *r89}}}
+    分母: {description: 同じ率の分母, metadata: *kifu, values: {2025-01-01: {value: 100, metadata: *r89}}}
+  足切り:
+    description: 寄附金の合計額から控除する2,000円（特例控除額も同じ）
+    metadata: *kifu
+    values:
+      2025-01-01: {value: 2000, metadata: *r89}
+  基本控除の率:
+    市町村民税: {分子: {description: 百分の六の分子, metadata: *kifu, values: {2025-01-01: {value: 6, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *kifu, values: {2025-01-01: {value: 100, metadata: *r89}}}}
+    道府県民税: {分子: {description: 百分の四の分子, metadata: *kifu, values: {2025-01-01: {value: 4, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *kifu, values: {2025-01-01: {value: 100, metadata: *r89}}}}
+    指定都市の市町村民税: {分子: {description: 指定都市の百分の八の分子, metadata: *kifu, values: {2025-01-01: {value: 8, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *kifu, values: {2025-01-01: {value: 100, metadata: *r89}}}}
+    指定都市の道府県民税: {分子: {description: 指定都市の百分の二の分子, metadata: *kifu, values: {2025-01-01: {value: 2, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *kifu, values: {2025-01-01: {value: 100, metadata: *r89}}}}
+  特例控除の按分:
+    市町村民税: {分子: {description: 特例控除額の五分の三の分子（第314条の7第11項）, metadata: &tokurei {law: 地方税法第314条の7第11項・第37条の2第11項、附則第5条の6, source_kind: 法律, reference: [docs/public-sources/20261109_round2_juminzei-tax-law-text.md#8.2, docs/public-sources/20261109_round2_hoken-kifu-laws.md#8.2]}, values: {2025-01-01: {value: 3, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *tokurei, values: {2025-01-01: {value: 5, metadata: *r89}}}}
+    道府県民税: {分子: {description: 五分の二の分子, metadata: *tokurei, values: {2025-01-01: {value: 2, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *tokurei, values: {2025-01-01: {value: 5, metadata: *r89}}}}
+    指定都市の市町村民税: {分子: {description: 指定都市の五分の四の分子, metadata: *tokurei, values: {2025-01-01: {value: 4, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *tokurei, values: {2025-01-01: {value: 5, metadata: *r89}}}}
+    指定都市の道府県民税: {分子: {description: 指定都市の五分の一の分子, metadata: *tokurei, values: {2025-01-01: {value: 1, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *tokurei, values: {2025-01-01: {value: 5, metadata: *r89}}}}
+  特例控除の上限の率:
+    分子: {description: 調整控除の後の所得割の額の百分の二十の分子（令和9年度分までは定額の上限なし）, metadata: *tokurei, values: {2025-01-01: {value: 20, metadata: *r89}}}
+    分母: {description: 同じ率の分母, metadata: *tokurei, values: {2025-01-01: {value: 100, metadata: *r89}}}
+  特例控除の割合の分母:
+    description: 割合の分母（10万分の1の単位で持つ。84.895% は 84895）
+    metadata: *tokurei
+    values:
+      2025-01-01: {value: 100000, metadata: *r89}
+  特例控除の割合:
+    第1段: {上限: {description: 課税総所得金額−人的控除差調整額が195万円以下, metadata: *tokurei, values: {2025-01-01: {value: 1950000, metadata: *r89}}}, 割合: {description: 84.895%（附則第5条の6第2項の読替え）, metadata: *tokurei, values: {2025-01-01: {value: 84895, metadata: *r89}}}}
+    第2段: {上限: {description: 330万円以下, metadata: *tokurei, values: {2025-01-01: {value: 3300000, metadata: *r89}}}, 割合: {description: 79.79%, metadata: *tokurei, values: {2025-01-01: {value: 79790, metadata: *r89}}}}
+    第3段: {上限: {description: 695万円以下, metadata: *tokurei, values: {2025-01-01: {value: 6950000, metadata: *r89}}}, 割合: {description: 69.58%, metadata: *tokurei, values: {2025-01-01: {value: 69580, metadata: *r89}}}}
+    第4段: {上限: {description: 900万円以下, metadata: *tokurei, values: {2025-01-01: {value: 9000000, metadata: *r89}}}, 割合: {description: 66.517%, metadata: *tokurei, values: {2025-01-01: {value: 66517, metadata: *r89}}}}
+    第5段: {上限: {description: 1800万円以下, metadata: *tokurei, values: {2025-01-01: {value: 18000000, metadata: *r89}}}, 割合: {description: 56.307%, metadata: *tokurei, values: {2025-01-01: {value: 56307, metadata: *r89}}}}
+    第6段: {上限: {description: 4000万円以下, metadata: *tokurei, values: {2025-01-01: {value: 40000000, metadata: *r89}}}, 割合: {description: 49.16%, metadata: *tokurei, values: {2025-01-01: {value: 49160, metadata: *r89}}}}
+    第7段: {割合: {description: 4000万円超 44.055%, metadata: *tokurei, values: {2025-01-01: {value: 44055, metadata: *r89}}}}
+  第2号の割合:
+    description: 課税総所得金額−人的控除差調整額が零を下回り、課税山林所得金額・課税退職所得金額がないときの 90%（第314条の7第11項第2号）
+    metadata: *tokurei
+    values:
+      2025-01-01: {value: 90000, metadata: *r89}
+  分離課税の所得がある場合の割合:
+    description: >-
+      第11項第2号・第3号に当たる場合又は課税総所得金額等を有しない場合で、上場株式等の配当所得等・譲渡所得等の分離課税（附則第33条の2第5項・第35条の2の2第5項）の
+      適用を受けるときの割合（附則第5条の5第2項第5号・第1項第5号の100分の75を附則第5条の6 で読み替えた 74.685%。令和9年度分までは第11項の改正前の例）
+    metadata:
+      law: 地方税法附則第5条の5第1項・第2項、附則第5条の6
+      source_kind: 法律
+      reference: [docs/public-sources/20261111_impl-research3_juminzei-laws-and-soumu.md#2, docs/public-sources/20261109_round2_juminzei-tax-law-text.md#8.2]
+    values:
+      2025-01-01: {value: 74685, metadata: *r89}
+  基礎控除の差の基準:
+    description: 人的控除差調整額に加算する「前年分の所得税の基礎控除の額−48万円（零未満は零）」の48万円（令和8年法律第2号による改正、令和8年度分から）
+    metadata: {law: 地方税法第314条の7第11項第1号（令和8年法律第2号による改正後）, source_kind: 法律, reference: [docs/public-sources/20261109_round2_juminzei-tax-law-text.md#8.2, docs/public-sources/20261109_round2_juminzei-tax-law-text.md#1, docs/public-sources/20261109_round2_hoken-kifu-laws.md#8.2], 施行日: 2026-04-01}
+    values:
+      2025-01-01: {value: 480000, metadata: *r89}
+申告特例控除:
+  割合:
+    第1段: {上限: {description: 195万円以下, metadata: &shinkoku {law: 地方税法附則第7条の2第4項・第5項、附則第7条の3第2項, source_kind: 法律, reference: [docs/public-sources/20261109_round2_juminzei-tax-law-text.md#8.3, docs/public-sources/20261109_round2_hoken-kifu-laws.md#8.4]}, values: {2025-01-01: {value: 1950000, metadata: *r89}}}, 分子: {description: 5.105（附則第7条の3第2項の読替え。分子・分母は千分の1の単位）, metadata: *shinkoku, values: {2025-01-01: {value: 5105, metadata: *r89}}}, 分母: {description: 84.895, metadata: *shinkoku, values: {2025-01-01: {value: 84895, metadata: *r89}}}}
+    第2段: {上限: {description: 330万円以下, metadata: *shinkoku, values: {2025-01-01: {value: 3300000, metadata: *r89}}}, 分子: {description: 10.21, metadata: *shinkoku, values: {2025-01-01: {value: 10210, metadata: *r89}}}, 分母: {description: 79.79, metadata: *shinkoku, values: {2025-01-01: {value: 79790, metadata: *r89}}}}
+    第3段: {上限: {description: 695万円以下, metadata: *shinkoku, values: {2025-01-01: {value: 6950000, metadata: *r89}}}, 分子: {description: 20.42, metadata: *shinkoku, values: {2025-01-01: {value: 20420, metadata: *r89}}}, 分母: {description: 69.58, metadata: *shinkoku, values: {2025-01-01: {value: 69580, metadata: *r89}}}}
+    第4段: {上限: {description: 900万円以下, metadata: *shinkoku, values: {2025-01-01: {value: 9000000, metadata: *r89}}}, 分子: {description: 23.483, metadata: *shinkoku, values: {2025-01-01: {value: 23483, metadata: *r89}}}, 分母: {description: 66.517, metadata: *shinkoku, values: {2025-01-01: {value: 66517, metadata: *r89}}}}
+    第5段: {分子: {description: 900万円超 33.693, metadata: *shinkoku, values: {2025-01-01: {value: 33693, metadata: *r89}}}, 分母: {description: 56.307, metadata: *shinkoku, values: {2025-01-01: {value: 56307, metadata: *r89}}}}
+配当割額等の控除:
+  市町村民税: {分子: {description: 配当割額・株式等譲渡所得割額の五分の三の分子（指定都市でも同じ）, metadata: &haitowari {law: 地方税法第314条の9第1項・第37条の4, source_kind: 法律, reference: [docs/public-sources/20261109_round3_juminzei-extra-law-text.md#2.1, docs/public-sources/20261109_round2_juminzei-tax-law-text.md#9]}, values: {2025-01-01: {value: 3, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *haitowari, values: {2025-01-01: {value: 5, metadata: *r89}}}}
+  道府県民税: {分子: {description: 五分の二の分子, metadata: *haitowari, values: {2025-01-01: {value: 2, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *haitowari, values: {2025-01-01: {value: 5, metadata: *r89}}}}

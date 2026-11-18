@@ -1,0 +1,45 @@
+{
+ "run": "20261109-150634",
+ "name": "speclist",
+ "download_dir": ".work/downloads/20261109-150634_speclist",
+ "user_agent": "okura-gov-research/0.1",
+ "delay_sec": 1.5,
+ "robots": [
+  {
+   "robots_url": "https://www.e-tax.nta.go.jp/robots.txt",
+   "status": 404
+  }
+ ],
+ "results": [
+  {
+   "url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo3.htm",
+   "fetched_at": "2026-11-09T15:06:36+0900",
+   "status": 200,
+   "final_url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo3.htm",
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 23540,
+   "sha256": "7b0da8d393b10b74674db1cf3bf1892a47eb635417a7f7348fc92d2446f21452",
+   "saved": ".work/downloads/20261109-150634_speclist/000_www.e-tax.nta.go.jp_shiyo_ksk2_ksk2_shiyo3.htm",
+   "encoding": "utf-8",
+   "text": "scripts/results/IMPL_output_fetch/20261109-150634_speclist/000_www.e-tax.nta.go.jp_shiyo_ksk2_ksk2_shiyo3.htm.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-150634_speclist/000_www.e-tax.nta.go.jp_shiyo_ksk2_ksk2_shiyo3.htm.links.tsv",
+   "n_links": 55
+  },
+  {
+   "url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-kojo3.htm",
+   "fetched_at": "2026-11-09T15:06:36+0900",
+   "status": 200,
+   "final_url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-kojo3.htm",
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 11306,
+   "sha256": "b3d1373e7ccfa5e613fd31762df7f2d974a07cfd3922b9c8d97e294b4b0f704c",
+   "saved": ".work/downloads/20261109-150634_speclist/001_www.e-tax.nta.go.jp_shiyo_ksk2_ksk2_shiyo-kojo3.htm",
+   "encoding": "utf-8",
+   "text": "scripts/results/IMPL_output_fetch/20261109-150634_speclist/001_www.e-tax.nta.go.jp_shiyo_ksk2_ksk2_shiyo-kojo3.htm.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-150634_speclist/001_www.e-tax.nta.go.jp_shiyo_ksk2_ksk2_shiyo-kojo3.htm.links.tsv",
+   "n_links": 13
+  }
+ ]
+}

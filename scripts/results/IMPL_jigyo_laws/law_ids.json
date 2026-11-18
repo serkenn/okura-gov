@@ -1,0 +1,38 @@
+{
+ "shotoku": {
+  "title": "所得税法",
+  "law_id": "340AC0000000033",
+  "law_num": "昭和四十年法律第三十三号",
+  "lookup_url": "https://laws.e-gov.go.jp/api/2/laws?law_title=%E6%89%80%E5%BE%97%E7%A8%8E%E6%B3%95&response_format=json&asof=2026-11-09"
+ },
+ "shotoku-rei": {
+  "title": "所得税法施行令",
+  "law_id": "340CO0000000096",
+  "law_num": "昭和四十年政令第九十六号",
+  "lookup_url": "https://laws.e-gov.go.jp/api/2/laws?law_title=%E6%89%80%E5%BE%97%E7%A8%8E%E6%B3%95%E6%96%BD%E8%A1%8C%E4%BB%A4&response_format=json&asof=2026-11-09"
+ },
+ "shotoku-ki": {
+  "title": "所得税法施行規則",
+  "law_id": "340M50000040011",
+  "law_num": "昭和四十年大蔵省令第十一号",
+  "lookup_url": "https://laws.e-gov.go.jp/api/2/laws?law_title=%E6%89%80%E5%BE%97%E7%A8%8E%E6%B3%95%E6%96%BD%E8%A1%8C%E8%A6%8F%E5%89%87&response_format=json&asof=2026-11-09"
+ },
+ "sochi": {
+  "title": "租税特別措置法",
+  "law_id": "332AC0000000026",
+  "law_num": "昭和三十二年法律第二十六号",
+  "lookup_url": "https://laws.e-gov.go.jp/api/2/laws?law_title=%E7%A7%9F%E7%A8%8E%E7%89%B9%E5%88%A5%E6%8E%AA%E7%BD%AE%E6%B3%95&response_format=json&asof=2026-11-09"
+ },
+ "sochi-rei": {
+  "title": "租税特別措置法施行令",
+  "law_id": "332CO0000000043",
+  "law_num": "昭和三十二年政令第四十三号",
+  "lookup_url": "https://laws.e-gov.go.jp/api/2/laws?law_title=%E7%A7%9F%E7%A8%8E%E7%89%B9%E5%88%A5%E6%8E%AA%E7%BD%AE%E6%B3%95%E6%96%BD%E8%A1%8C%E4%BB%A4&response_format=json&asof=2026-11-09"
+ },
+ "sochi-ki": {
+  "title": "租税特別措置法施行規則",
+  "law_id": "332M50000040015",
+  "law_num": "昭和三十二年大蔵省令第十五号",
+  "lookup_url": "https://laws.e-gov.go.jp/api/2/laws?law_title=%E7%A7%9F%E7%A8%8E%E7%89%B9%E5%88%A5%E6%8E%AA%E7%BD%AE%E6%B3%95%E6%96%BD%E8%A1%8C%E8%A6%8F%E5%89%87&response_format=json&asof=2026-11-09"
+ }
+}

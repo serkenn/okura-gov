@@ -1,0 +1,77 @@
+description: 区分ごとの賦課限度額（政令の額。市町村の条例の額はこれを超えることができない：[KHP] §5）。注入データの限度額の検査と、根拠に使う。日付のキーは年度の初日。
+基礎賦課額:
+  description: 基礎賦課（課税）額の限度額
+  metadata:
+    law: 国民健康保険法施行令第29条の7第2項第9号、地方税法第703条の4第11項・同施行令第56条の88の2第1項
+    source_kind: 政令
+    unit: 円
+    比較: 以下
+    reference:
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#5
+  values:
+    2024-01-01:
+      value: 660000
+      metadata:
+        施行日: 2025-04-01
+        適用: 令和7年度分以後（料：令和7年政令第32号附則第4項、税：令和7年政令第119号附則第9条）
+    2025-01-01:
+      value: 670000
+      metadata:
+        施行日: 2026-04-01
+        適用: 令和8年度分以後（料：令和8年政令第2号附則第4項、税：令和8年政令第83号附則第8条）
+後期高齢者支援金等賦課額:
+  description: 後期高齢者支援金等賦課（課税）額の限度額
+  metadata:
+    law: 国民健康保険法施行令第29条の7第3項第8号、地方税法第703条の4第19項・同施行令第56条の88の2第2項
+    source_kind: 政令
+    unit: 円
+    比較: 以下
+    reference:
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#5
+  values:
+    2024-01-01:
+      value: 260000
+      metadata:
+        施行日: 2025-04-01
+        適用: 令和7年度分以後
+    2025-01-01:
+      value: 260000
+      metadata:
+        施行日: 2026-04-01
+        適用: 令和8年度分以後（令和8年政令第2号・第83号の版）
+介護納付金賦課額:
+  description: 介護納付金賦課（課税）額の限度額
+  metadata:
+    law: 国民健康保険法施行令第29条の7第4項第8号、地方税法第703条の4第27項・同施行令第56条の88の2第3項
+    source_kind: 政令
+    unit: 円
+    比較: 以下
+    reference:
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#5
+  values:
+    2024-01-01:
+      value: 170000
+      metadata:
+        施行日: 2025-04-01
+        適用: 令和7年度分以後
+    2025-01-01:
+      value: 170000
+      metadata:
+        施行日: 2026-04-01
+        適用: 令和8年度分以後（令和8年政令第2号・第83号の版）
+子ども・子育て支援納付金賦課額:
+  description: 子ども・子育て支援納付金賦課（課税）額の限度額（令和8年度から）
+  metadata:
+    law: 国民健康保険法施行令第29条の7第5項第10号、地方税法第703条の4第37項・同施行令第56条の88の2第4項
+    source_kind: 政令
+    unit: 円
+    比較: 以下
+    reference:
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#5
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#2.3
+  values:
+    2025-01-01:
+      value: 30000
+      metadata:
+        施行日: 2026-04-01
+        適用: 令和8年度分以後（料：令和8年政令第2号附則第4項、税：令和6年法律第47号附則第8条・令和8年政令第83号附則第8条）

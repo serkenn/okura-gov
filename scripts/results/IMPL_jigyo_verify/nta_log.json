@@ -1,0 +1,296 @@
+{
+ "run_at": "20261109-153111",
+ "download_dir": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta",
+ "items": [
+  {
+   "id": "ta_1810",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1810.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:07 GMT",
+   "bytes": 19802,
+   "sha256": "66d23053e2d026aae6270ea7700f5fc64a2bf0bfbdf67d9fdd17a5da050d2982",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/ta_1810.htm",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_1490",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:09 GMT",
+   "bytes": 20079,
+   "sha256": "2702cdd465c79308c35145ee2e61caab8d5d07926be03415d377a31c9225da45",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/ta_1490.htm",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_1500",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1500.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:09 GMT",
+   "bytes": 20260,
+   "sha256": "c3be3c0c45cdea739aad71f7ed2618af960c393013a6d9cc4e068910a1092d9c",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/ta_1500.htm",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_2070",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:05 GMT",
+   "bytes": 26364,
+   "sha256": "2f280b15db8d1691682b857c06cbe825b26f04bb462f5a601b6cfa1ae6dbc7d9",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/ta_2070.htm",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_2072",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2072.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:05 GMT",
+   "bytes": 18706,
+   "sha256": "de4d48788c2cdaf2c4225d16799780e9f75a17d6162ac09f61cc87eb07fb17ea",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/ta_2072.htm",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_2080",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2080.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:05 GMT",
+   "bytes": 17770,
+   "sha256": "a5fb722112cc84672daf78f0301d166bcce9fe97b38331ab7cf62d086b82ddb6",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/ta_2080.htm",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_2210",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:04 GMT",
+   "bytes": 22617,
+   "sha256": "40767a3ae083b75f21f782c78d976fa878671ad2b2e64d1e9222c4ae3b9fc23c",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/ta_2210.htm",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "kihon_toc",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 25 Dec 2025 01:00:06 GMT",
+   "bytes": 38254,
+   "sha256": "74710f9540adcb9b7e6b181ba716e93be44be38195cc0c7dfe1a8e02fcf16e4f",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/kihon_toc.htm",
+   "encoding": "cp932"
+  },
+  {
+   "id": "kihon_04_08",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/08.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:30:23 GMT",
+   "bytes": 9552,
+   "sha256": "a5b3b3cf7fb1a4e7d1ff76b9bd2439fc976ea6d90145aa501c3af78885f5d574",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/kihon_04_08.htm",
+   "encoding": "cp932"
+  },
+  {
+   "id": "kihon_04_09",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/09.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Mon, 25 Nov 2024 05:00:03 GMT",
+   "bytes": 12566,
+   "sha256": "56b1ea747294e180c99f9f66aa0e5c05db0f56fb56cafca0acd0624cef648d63",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/kihon_04_09.htm",
+   "encoding": "cp932"
+  },
+  {
+   "id": "kihon_07_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/07/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:30:21 GMT",
+   "bytes": 16232,
+   "sha256": "66b11a01ef0a9caac3c699e38cb7ec7c16362ea630650653b3f7c3ac94b7578a",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/kihon_07_01.htm",
+   "encoding": "cp932"
+  },
+  {
+   "id": "kihon_14_02",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/14/02.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 25 Dec 2025 01:00:05 GMT",
+   "bytes": 31110,
+   "sha256": "4852d0a64b63aaf67c0c93b3e8d6bd5a263a5f6288c21c6643c69a859225df3d",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/kihon_14_02.htm",
+   "encoding": "cp932"
+  },
+  {
+   "id": "kihon_19_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 25 Nov 2025 08:30:05 GMT",
+   "bytes": 15638,
+   "sha256": "9e7dbd6d0d4d691416185063a37bf2e016439a7d4af45d68c00fc0a7861f14e2",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/kihon_19_01.htm",
+   "encoding": "cp932"
+  },
+  {
+   "id": "kihon_40_02",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/40/02.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 25 Nov 2025 08:30:04 GMT",
+   "bytes": 3978,
+   "sha256": "3de3350566d5b4691ecb3c8ec07502d369b5f384ba5e59d5159476c1560e2af6",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/kihon_40_02.htm",
+   "encoding": "cp932"
+  },
+  {
+   "id": "sochitsu_toc",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 02 Oct 2026 08:30:04 GMT",
+   "bytes": 77279,
+   "sha256": "fd1a8ce56f916aefdb493304544f129c2f0fc8f12de765ec26fb0ee9041f7776",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/sochitsu_toc.htm",
+   "encoding": "cp932"
+  },
+  {
+   "id": "sochitsu_25_2",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/57/25/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 02 Oct 2026 08:30:03 GMT",
+   "bytes": 8606,
+   "sha256": "fab8f8e21c5edece1aeebdf29e42c288c09b3f4eb44c62403cb645003c5fc843",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/sochitsu_25_2.htm",
+   "encoding": "cp932"
+  },
+  {
+   "id": "shitsugi_02_04",
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/02/04.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 03 Dec 2025 08:31:07 GMT",
+   "bytes": 5434,
+   "sha256": "2848edb3ff68205a44be26d1484413aef149d849cd02a16bea7e70a84597837e",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/shitsugi_02_04.htm",
+   "encoding": "cp932"
+  },
+  {
+   "id": "shitsugi_04_34",
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/04/34.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 03 Dec 2025 08:31:03 GMT",
+   "bytes": 5149,
+   "sha256": "76e3d6cfbc3143a92c04f8a40336bbb5370250fc8a214856b17f08daba0ad782",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/shitsugi_04_34.htm",
+   "encoding": "cp932"
+  },
+  {
+   "id": "yoshiki_index",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/index.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 12 Dec 2025 08:30:32 GMT",
+   "bytes": 7610,
+   "sha256": "f73fb0b8172af9ea8c42ea1225b19fabb676bf8aba02e0cf8c32b11367090bef",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/yoshiki_index.htm",
+   "encoding": "cp932"
+  },
+  {
+   "id": "yoshiki_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r07.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 20 Oct 2026 08:30:03 GMT",
+   "bytes": 45317,
+   "sha256": "ff769ff6e512b73df0387db39f5fbc6e58f509fd12f5972e2f84e4117e58ac9f",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/yoshiki_r07.htm",
+   "encoding": "cp932"
+  },
+  {
+   "id": "pdf_shushi_ippan_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/05.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Mon, 31 Aug 2026 05:00:05 GMT",
+   "bytes": 22101,
+   "sha256": "686ecbd849ebe07b11a90d10421561669188e1cfd48b18962bf1be06965a0f24",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/pdf_shushi_ippan_r07.pdf"
+  },
+  {
+   "id": "pdf_shushi_kakikata_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/034.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:41 GMT",
+   "bytes": 1527542,
+   "sha256": "5ac5dabb0eff09479009347c825edffbed28ec5d9a746afd8fc14fcc65a15aba",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/pdf_shushi_kakikata_r07.pdf"
+  },
+  {
+   "id": "pdf_kanai_keisansho",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/03/09.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:48 GMT",
+   "bytes": 610786,
+   "sha256": "8e7f4700eaaf76acfa20dfc1230599bc381e44c86623bbe1b650a7b11141034a",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/pdf_kanai_keisansho.pdf"
+  },
+  {
+   "id": "pdf_kanai_kakikata",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/03/09-ki.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:48 GMT",
+   "bytes": 828434,
+   "sha256": "6d95a99f586850d4b2c76f7e292a3bf63b8d86c16f871a6a1bd0e696ba0d352f",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/pdf_kanai_kakikata.pdf"
+  },
+  {
+   "id": "pdf_kessan_tebiki_shiro",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/kichou09.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 09 Oct 2026 01:00:02 GMT",
+   "bytes": 7563616,
+   "sha256": "7e64dc7b9a14da6edcef9d6d37fc6b67d46aed8f8f9ee6a352e6f216359b6324",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/pdf_kessan_tebiki_shiro.pdf"
+  },
+  {
+   "id": "pdf_kicho_shikata",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/kichou03.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 24 Apr 2026 05:00:02 GMT",
+   "bytes": 5141876,
+   "sha256": "050d458b38be96f3256d984bd75c0673d0aa7b2a1d3e92333295a649544254e1",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/pdf_kicho_shikata.pdf"
+  },
+  {
+   "id": "pdf_ta1810_input",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/pdf/1810.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Thu, 06 Feb 2025 05:00:01 GMT",
+   "bytes": 282901,
+   "sha256": "288f56f21a83986d0df2eab2ba887fd3f275d8f3aec2a368bf035fdfa53c57cc",
+   "saved": ".work/downloads/20261109-153111_IMPL_jigyo_verify_nta/pdf_ta1810_input.pdf"
+  }
+ ]
+}

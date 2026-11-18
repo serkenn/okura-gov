@@ -1,0 +1,54 @@
+{
+ "set": "more",
+ "fetched_at": "20261109-181845",
+ "download_dir": ".work/downloads/20261109-181845_R2B_fudosan_nta_more",
+ "robots": {
+  "url": "https://www.nta.go.jp/robots.txt",
+  "status": 200,
+  "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+ },
+ "items": [
+  {
+   "id": "shitsugi_02_27",
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/02/27.htm",
+   "final_url": "https://www.nta.go.jp/law/shitsugi/shotoku/02/27.htm",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 03 Dec 2025 08:31:06 GMT",
+   "bytes": 5868,
+   "sha256": "26eb83cc9663b82ee2f536c743ceb4560307350e117f35103d34a23c6a794fd1",
+   "saved": ".work/downloads/20261109-181845_R2B_fudosan_nta_more/shitsugi_02_27.htm",
+   "title": "事業に至らない規模の不動産貸付において未収家賃が回収不能となった場合｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "shitsugi_04_14",
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/04/14.htm",
+   "final_url": "https://www.nta.go.jp/law/shitsugi/shotoku/04/14.htm",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 03 Dec 2025 08:31:04 GMT",
+   "bytes": 5878,
+   "sha256": "3b0c023583ce48b47cb8832f6b085d65f1ed8e223617f6eb5f8c2176c6533dc9",
+   "saved": ".work/downloads/20261109-181845_R2B_fudosan_nta_more/shitsugi_04_14.htm",
+   "title": "生計を一にする親族の有する資産に係る特別償却｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kobetsu_731106",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/731106/01.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/731106/01.htm",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:25:14 GMT",
+   "bytes": 7561,
+   "sha256": "b1c33a7fe5946c792fa5c9f17a5c1908a6e618f4a37f08fbcf7e623da846931e",
+   "saved": ".work/downloads/20261109-181845_R2B_fudosan_nta_more/kobetsu_731106.htm",
+   "title": "不動産等の賃貸料にかかる不動産所得の収入金額の計上時期について｜国税庁",
+   "encoding": "shift_jis"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "run_at": "20261109-181101",
+ "download_dir": ".work/downloads/20261109-181101_R2X_spouse_egov",
+ "fetches": [
+  {
+   "short": "kokunen-ki",
+   "law": "国民年金法施行規則",
+   "law_id": "335M50000100012",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/335M50000100012?response_format=json&asof=2026-11-09&omit_amendment_suppl_provision=true",
+   "with_amendment_suppl": false,
+   "law_revision_id": "335M50000100012_20261001_508M60000100121",
+   "amendment_law_title": "国民年金法施行規則の一部を改正する省令",
+   "amendment_law_num": "令和八年厚生労働省令第百二十一号",
+   "amendment_enforcement_date": "2026-10-01",
+   "current_revision_status": "CurrentEnforced",
+   "updated": "2026-09-18T19:01:47+09:00"
+  }
+ ],
+ "errors": []
+}

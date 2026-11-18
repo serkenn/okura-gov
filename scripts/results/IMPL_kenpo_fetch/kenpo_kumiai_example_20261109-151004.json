@@ -1,0 +1,24 @@
+{
+  "set": "kenpo_kumiai_example",
+  "fetched_at_local": "20261109-151004",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "its_kenpo_20260327_2",
+      "url": "https://www.its-kenpo.or.jp/NEWS/hoken/20260327_2.html",
+      "status": 200,
+      "final_url": "https://www.its-kenpo.or.jp/NEWS/hoken/20260327_2.html",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 14986,
+      "sha256": "142549e4917e44c06e436f1a03f08c58797d6b9dbfc59ad34008261ea9fc1376",
+      "last_modified": "Thu, 01 Oct 2026 00:57:56 GMT",
+      "etag": "\"3a8a-65cbce805deee\"",
+      "saved": ".work\\downloads\\20261109-151004_IMPL_kenpo_kenpo_kumiai_example\\its_kenpo_20260327_2.html",
+      "charset": "UTF-8",
+      "title": "被扶養者認定における年間収入の取扱いについて | ［ITS］関東ITソフトウェア健康保険組合",
+      "text_chars": 2496,
+      "text": ".work\\text\\20261109-151004_IMPL_kenpo_kenpo_kumiai_example\\its_kenpo_20260327_2.txt",
+      "n_links": 38
+    }
+  ]
+}

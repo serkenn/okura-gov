@@ -1,0 +1,13 @@
+{
+ "run_at": "20261109-191522",
+ "download_dir": ".work\\downloads\\20261109-191522_R2X_kyosai_verify_egovextra",
+ "url": "https://laws.e-gov.go.jp/api/2/law_data/332AC0000000026?response_format=json&asof=2026-11-09",
+ "status": 200,
+ "sha256": "e6e6013bbc0608c6b48dea01d50ac847c3e5d094f0420223171ffe1b5cf8d5ee",
+ "law_revision_id": "332AC0000000026_20261101_507AC0000000013",
+ "41_16_caption": "（同居の老親等に係る扶養控除の特例）",
+ "has:同居を常況としている者": true,
+ "has:老人扶養親族": true,
+ "has:直系尊属": true,
+ "has:居住者又はその配偶者": false
+}

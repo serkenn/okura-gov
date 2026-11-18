@@ -1,0 +1,55 @@
+{
+  "set": "tebiki",
+  "fetched_at_local": "20261109-150949",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "tebiki_2025_index",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/index.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/index.htm",
+      "content_type": "text/html",
+      "bytes": 23541,
+      "sha256": "9d38caf67c8cf5dd9fde7ded36a7d1c5e7fe6a46c8174f416f46b21673e40f15",
+      "last_modified": "Wed, 24 Dec 2025 08:30:07 GMT",
+      "saved": ".work/downloads/20261109-150949_IMPL_iryohi_tebiki/tebiki_2025_index.html",
+      "charset": "shift_jis",
+      "title": "令和7年分 所得税及び復興特別所得税の確定申告の手引き｜国税庁",
+      "text_chars": 3209,
+      "text": ".work/text/20261109-150949_IMPL_iryohi_tebiki/tebiki_2025_index.txt",
+      "n_links": 115
+    },
+    {
+      "id": "tebiki_2025_01",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/01.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/error/404.htm",
+      "content_type": "text/html",
+      "bytes": 2007,
+      "sha256": "700138cae1f347c2be03b380ba74007e704ceb81fe2a62d547e3559d4b851d55",
+      "last_modified": "Thu, 18 Jan 2024 09:39:47 GMT",
+      "saved": ".work/downloads/20261109-150949_IMPL_iryohi_tebiki/tebiki_2025_01.html",
+      "charset": "Shift_JIS",
+      "title": "指定されたページを表示できませんでした",
+      "text_chars": 264,
+      "text": ".work/text/20261109-150949_IMPL_iryohi_tebiki/tebiki_2025_01.txt",
+      "n_links": 2
+    },
+    {
+      "id": "tebiki_index",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/index.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/index.htm",
+      "content_type": "text/html",
+      "bytes": 8710,
+      "sha256": "a1093b20b2fe4b6feda660eeb7d6682c2f08ade32e478919f5150d53902a25e8",
+      "last_modified": "Wed, 04 Mar 2026 08:30:15 GMT",
+      "saved": ".work/downloads/20261109-150949_IMPL_iryohi_tebiki/tebiki_index.html",
+      "charset": "utf-8",
+      "title": "確定申告に関する手引き等｜国税庁",
+      "text_chars": 1155,
+      "text": ".work/text/20261109-150949_IMPL_iryohi_tebiki/tebiki_index.txt",
+      "n_links": 51
+    }
+  ]
+}

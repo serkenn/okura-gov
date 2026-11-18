@@ -1,0 +1,85 @@
+# source=https://www.mhlw.go.jp/web/t_itemsrch_result?type=1&startGengo=4&yearFrom=15&monthFrom=3&dayFrom=24&endGengo=4&yearTo=15&monthTo=3&dayTo=24&shubetsu=&bango=
+# fetched_at=20261109-201953
+# charset=UTF-8
+
+結果一覧
+
+検索結果
+
+該当件数: 5件中 1件~ 5件
+
+[form action='t_itemsrch_result' method=None]
+
+		[select name='sort' type=None value=None]
+			並べ替え順序選択
+			制定年月日 新しい順
+			制定年月日 古い順
+			改正年月日 新しい順
+			改正年月日 古い順
+
+		[input name='startGengo' type='hidden' value='4']
+		[input name='endGengo' type='hidden' value='4']
+		[input name='yearFrom' type='hidden' value='15']
+		[input name='yearTo' type='hidden' value='15']
+		[input name='monthFrom' type='hidden' value='3']
+		[input name='monthTo' type='hidden' value='3']
+		[input name='dayFrom' type='hidden' value='24']
+		[input name='dayTo' type='hidden' value='24']
+		[input name='shubetsu' type='hidden' value='']
+		[input name='bango' type='hidden' value='']
+		[input name='page' type='hidden' value='0']
+		[input name='type' type='hidden' value='1']
+
+				 |
+					件名
+
+				 |
+					制定年月日
+
+				 |
+					種別・番号
+
+				 |
+											・医療用医薬品の品質再評価（第２４次）に関し予試験の資料提出を必要とする医薬品の範囲等について
+
+					⟨別ウィンドウが開きます⟩
+
+				 | ◆平成15年03月24日
+				 |
+					医薬審発第324014号
+
+				 |
+											・指定居宅支援等に要する費用の額の算定に関する基準の制定に伴う留意事項について〔児童福祉法〕
+
+					⟨別ウィンドウが開きます⟩
+
+				 | ◆平成15年03月24日
+				 |
+					障発第324001号
+
+				 |
+											・指定居宅支援等に要する費用の額の算定に関する基準の制定に伴う留意事項について〔身体障害者福祉法〕
+
+					⟨別ウィンドウが開きます⟩
+
+				 | ◆平成15年03月24日
+				 |
+					障発第324001号
+
+				 |
+											・指定居宅支援等に要する費用の額の算定に関する基準の制定に伴う留意事項について〔知的障害者福祉法〕
+
+					⟨別ウィンドウが開きます⟩
+
+				 | ◆平成15年03月24日
+				 |
+					障発第324001号
+
+				 |
+											・「老人医療の高額医療費の支給及び食事療養に係る標準負担額の特例的措置の取扱いについて」の一部改正について（通知）
+
+					⟨別ウィンドウが開きます⟩
+
+				 | ◆平成15年03月24日
+				 |
+					保総発第324001号

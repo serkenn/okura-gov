@@ -1,0 +1,499 @@
+{
+ "run_at": "20261111-152307",
+ "download_dir": ".work/downloads/20261111-152307_IMPL2_phase2c_verify",
+ "laws": [
+  {
+   "check": "seito 措法41の18 R7",
+   "num": "41_18",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "seito 措法41の18 R8",
+   "num": "41_18",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "seito 措法41の18の2 R7",
+   "num": "41_18_2",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "seito 措法41の18の2 R8",
+   "num": "41_18_2",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "seito 措法41の18の3 R8",
+   "num": "41_18_3",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "seito 措令26の27の4 R8",
+   "num": "26_27_4",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "haito 所法24 R8",
+   "num": "24",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "haito 所令59 R8",
+   "num": "59",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "haito 所法92 R7",
+   "num": "92",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "haito 所法92 R8",
+   "num": "92",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "joto 所法87 R8",
+   "num": "87",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "joto 措法8の4③三 R8",
+   "num": "8_4",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "joto 措法37の10⑥五 R8",
+   "num": "37_10",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "joto 措法37の11⑥ R8",
+   "num": "37_11",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "joto 措令4の2⑧ R8",
+   "num": "4_2",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "joto 措令25の11の2⑳ R8",
+   "num": "25_11_2",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "joto 所令204 R8",
+   "num": "204",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "121 所法121① R7",
+   "num": "121",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "121 所法121① R8",
+   "num": "121",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "gensen 所法120①四 R8",
+   "num": "120",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "hasu 所法76 R8",
+   "num": "76",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "hasu 所法77 R8",
+   "num": "77",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "genka 所令120の2 R8",
+   "num": "120_2",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "genka 所令132 R8",
+   "num": "132",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "genka 所令134 R8",
+   "num": "134",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "genka 所令139 R8",
+   "num": "139",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "fudosan 措法41の4 R8",
+   "num": "41_4",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  }
+ ],
+ "pages": [
+  {
+   "check": "3-3_12 生命保険料",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_12.htm",
+   "status": 200,
+   "sha256": "e7347b85a2a141529e8cdda2cb5926c69a5558933eab259fa08ca11e836876b5",
+   "same_as_first_fetch": true,
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "3-3_13 地震保険料",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_13.htm",
+   "status": 200,
+   "sha256": "3a8904729a63b8e9bf8e88915098156bb34360a83ea56e34ae2613de9446673a",
+   "same_as_first_fetch": true,
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "3-2_07 公的年金等",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_07.htm",
+   "status": 200,
+   "sha256": "369d8893cd64616fc0139d4b5b75147f6b2a5d98c623f30cea0faf1a927bbf17",
+   "same_as_first_fetch": true,
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "3-4_28 配当控除",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_28.htm",
+   "status": 200,
+   "sha256": "3dde9ff4b042318409239b1c7e71c45df26611c7c24ed97a62bee7a38be9036a",
+   "same_as_first_fetch": true,
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "3-4_38 源泉徴収税額",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_38.htm",
+   "status": 200,
+   "sha256": "4dbccb03bdceffd16d15cc94dbdfa776fd423ba8838ebce978ea442e3684f724",
+   "same_as_first_fetch": true,
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "TA1260 政党等",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1260.htm",
+   "status": 200,
+   "sha256": "2d6f2b93c58b1082becb72b15052fd21c8c45cd4147073099f5ab3f31abb5391",
+   "same_as_first_fetch": true,
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "TA1263 認定NPO",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1263.htm",
+   "status": 200,
+   "sha256": "d10e45eae6221572e1bb3e231c885030649a097e5dca5e4c32d3715df25b5a08",
+   "same_as_first_fetch": true,
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "TA1250 配当控除",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1250.htm",
+   "status": 200,
+   "sha256": "cb65c62ac85908345507276803321f043b6100c017e9c81f5478596c7f21e5ae",
+   "same_as_first_fetch": true,
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "TA1330 配当所得",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1330.htm",
+   "status": 200,
+   "sha256": "e97f7323c284b0e2b61c75c2b9a5c05682dea7ad740cd0d8a59c47468b3cd730",
+   "same_as_first_fetch": true,
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "TA1900",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm",
+   "status": 200,
+   "sha256": "68ad70cadf7276e27ac84c26ff4b56e5af0d96513581465d89f2601bd6567ee5",
+   "same_as_first_fetch": true,
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "基通121",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/01.htm",
+   "status": 200,
+   "sha256": "9e7dbd6d0d4d691416185063a37bf2e016439a7d4af45d68c00fc0a7861f14e2",
+   "same_as_first_fetch": true,
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "基通24-5",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/01.htm",
+   "status": 200,
+   "sha256": "7547cbb733896728863b895d91d329d0b8c3d55b68c4298926fa5b633bded1ea",
+   "same_as_first_fetch": true,
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "基通49（償却）",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/05.htm",
+   "status": 200,
+   "sha256": "30106b4f247464cd7e7bf71ab1c810f499d75163158186867409c82e38fea4e9",
+   "same_as_first_fetch": true,
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "FAQ 減価償却費の端数処理 R7",
+   "url": "https://www.keisan.nta.go.jp/r7yokuaru/aoiroshinkoku/hitsuyokeihi/genkashokyakuhi/hasushori.html",
+   "status": 200,
+   "sha256": "12d5df804dcae17f43cf2f51df5007879d648eba1cf8b8e1995c7b275569b4a1",
+   "same_as_first_fetch": true,
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "TA2100 減価償却",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm",
+   "status": 200,
+   "sha256": "969d0856686602427af7da00590cf0220d66bc8d604ef0e034a2c86c6db50352",
+   "same_as_first_fetch": true,
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "TA2106 定額法",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2106.htm",
+   "status": 200,
+   "sha256": "6486a19d37297e29c334edce9c7cf07c6d57507bd402f6a88c81d4d560fbd3ef",
+   "same_as_first_fetch": true,
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "通基通119-6",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/119.htm",
+   "status": 200,
+   "sha256": "bc7f4b5a760ac218b7beddb6e4e58505b643bac47b36bb0f2d070d3d7574d0b3",
+   "same_as_first_fetch": true,
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "TA1140 生命保険料",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm",
+   "status": 200,
+   "sha256": "20cf3d89f75dc48a636117235a463a96eb4e3ed8f7eb5cafb96ba9876ca040e5",
+   "same_as_first_fetch": true,
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "R8年調のしかた p.24 等",
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/107.pdf",
+   "status": 200,
+   "sha256": "38907ac31a3a50e00b724feaec9d3d185434d3c79357edeb5fa3bbaf1b4ff4a3",
+   "same_as_first_fetch": true,
+   "ok": true
+  },
+  {
+   "check": "退職源泉徴収票 源泉徴収税額欄",
+   "url": "https://www.nta.go.jp/publication/pamph/hotei/tebikihtml/3-2-6.htm",
+   "status": 200,
+   "sha256": "e9bcd59f464936447d826666963384eadd454def4a648ad87dccddf2ac2a2bb3",
+   "same_as_first_fetch": true,
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "r08 様式案内",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r08.htm",
+   "status": 200,
+   "sha256": "700138cae1f347c2be03b380ba74007e704ceb81fe2a62d547e3559d4b851d55",
+   "same_as_first_fetch": true,
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "措通41の18",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/57/41/17.htm",
+   "status": 200,
+   "sha256": "88dd756eeb5c2fe9dc6ecfabbad6b8f2e41ecee51f51a06aeb11c70249c0bf9f",
+   "same_as_first_fetch": true,
+   "ok": true,
+   "missing": [],
+   "must_not_contain_but_present": []
+  },
+  {
+   "check": "様式 政党等",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/04/pdf/06.pdf",
+   "status": 200,
+   "sha256": "37ee19b8c9e1e3b915deaec887d18d58f0d3d259e84e8892836b84a67afe28dd",
+   "same_as_first_fetch": true,
+   "ok": true
+  },
+  {
+   "check": "様式 NPO",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/04/pdf/09-1.pdf",
+   "status": 200,
+   "sha256": "1fc502a777fc9226fae29b225aa3e4b2fbf246798d4073f38a0003c4909a94cf",
+   "same_as_first_fetch": true,
+   "ok": true
+  },
+  {
+   "check": "様式 公益",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/04/pdf/09-4.pdf",
+   "status": 200,
+   "sha256": "5d077f5b0582bd7f0befc296085f6944f0b0eed635a3950bde980bd5fa4232f6",
+   "same_as_first_fetch": true,
+   "ok": true
+  }
+ ],
+ "law_fetch": {
+  "332AC0000000026_2025-12-31": {
+   "status": 200,
+   "bytes": 14297781,
+   "sha256": "9afcb7b524f7111adc6a6235857f8fb2b160f88b1430f9308db74a42385a7407"
+  },
+  "332AC0000000026_2026-12-31": {
+   "status": 200,
+   "bytes": 14476446,
+   "sha256": "69394c9cff9a9ba4ba1e988530be18388491857929f3d39463790ed291cf9d8c"
+  },
+  "332CO0000000043_2026-12-31": {
+   "status": 200,
+   "bytes": 13839815,
+   "sha256": "689597884c788b94db0f81a8b4f974e3e762b52b2a259edc083a441d61f8b8c9"
+  },
+  "340AC0000000033_2026-12-31": {
+   "status": 200,
+   "bytes": 16438522,
+   "sha256": "0ee4d9aa4fd7bb5550597ed08665588639a9473e6bd9f6387126de41603a0020"
+  },
+  "340CO0000000096_2026-12-31": {
+   "status": 200,
+   "bytes": 3658343,
+   "sha256": "c33c96a917a6fea0a9715d425556ffe5589cc2e29fc8c89fd151fc1c54b53e58"
+  },
+  "340AC0000000033_2025-12-31": {
+   "status": 200,
+   "bytes": 16434428,
+   "sha256": "daea5074a24112fe2fcbca545256b835ad89b42f519549eb858fba4746d71b63"
+  }
+ },
+ "all_ok": true
+}

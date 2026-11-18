@@ -1,0 +1,23 @@
+# source=https://www.mhlw.go.jp/web/t_docsrch_keyword?keyword=%E5%BA%81%E6%96%87%E7%99%BA%E7%AC%AC%E4%B8%83%E4%B9%9D%E5%85%AB%E5%8F%B7&type=1&mode=0
+# fetched_at=20261109-201953
+# charset=UTF-8
+
+結果一覧
+
+検索結果
+
+該当件数: 0件中 0件~ 0件
+
+[form action='??t_docsrch_keyword_ja??' method=None]
+
+		[input name='type' type='hidden' value='1']
+		[input name='page' type='hidden' value='0']
+		[input name='keyword' type='hidden' value='庁文発第七九八号']
+		[input name='mode' type='hidden' value='0']
+
+			[select name='sort' type=None value=None]
+				並べ替え順序選択
+				制定年月日 新しい順
+				制定年月日 古い順
+				改正年月日 新しい順
+				改正年月日 古い順

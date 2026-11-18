@@ -1,0 +1,31 @@
+{
+ "set": "ta",
+ "fetched_at": "20261109-173905",
+ "download_dir": ".work/downloads/20261109-173905_R2X_genka_nta_ta",
+ "items": [
+  {
+   "id": "ta_2100",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:05 GMT",
+   "bytes": 20889,
+   "sha256": "969d0856686602427af7da00590cf0220d66bc8d604ef0e034a2c86c6db50352",
+   "saved": ".work/downloads/20261109-173905_R2X_genka_nta_ta/ta_2100.htm",
+   "title": "No.2100 減価償却のあらまし｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_2250",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2250.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:03 GMT",
+   "bytes": 19079,
+   "sha256": "81cabb299948105ab58cd3623334a3e339d479efada49adbb756cfae4a832130",
+   "saved": ".work/downloads/20261109-173905_R2X_genka_nta_ta/ta_2250.htm",
+   "title": "No.2250 損益通算｜国税庁",
+   "encoding": "utf-8"
+  }
+ ]
+}

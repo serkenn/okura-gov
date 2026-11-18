@@ -1,0 +1,33 @@
+{
+  "set": "hotei_form",
+  "fetched_at_local": "20261109-152025",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work\\downloads\\20261109-152025_IMPL_misc_hotei_form",
+  "text_dir": ".work\\text\\20261109-152025_IMPL_misc_hotei_form",
+  "results": [
+    {
+      "id": "chousho_r08_jukyusha",
+      "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hotei/pdf/r08/0026009-129.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hotei/pdf/r08/0026009-129.pdf",
+      "content_type": "application/pdf",
+      "bytes": 134427,
+      "sha256": "cb701f7f2ed4a713bae4029b110c6a9796e550c14443b26a47115649ba40740e",
+      "last_modified": "Mon, 28 Sep 2026 01:00:07 GMT",
+      "etag": "\"20d1b-65c8096509668\"",
+      "saved": ".work\\downloads\\20261109-152025_IMPL_misc_hotei_form\\chousho_r08_jukyusha.pdf"
+    },
+    {
+      "id": "chousho_r08_kisai",
+      "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hotei/pdf/r08/kisai_chousho01.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hotei/pdf/r08/kisai_chousho01.pdf",
+      "content_type": "application/pdf",
+      "bytes": 241782,
+      "sha256": "76e9642ac58e12eb72096c13ab34bf77ce8beac02364dccf7cf322221f663c6e",
+      "last_modified": "Thu, 08 Oct 2026 05:00:02 GMT",
+      "etag": "\"3b076-65d4d1abcca08\"",
+      "saved": ".work\\downloads\\20261109-152025_IMPL_misc_hotei_form\\chousho_r08_kisai.pdf"
+    }
+  ]
+}

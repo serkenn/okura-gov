@@ -1,0 +1,146 @@
+{
+ "run_at": "20261109-155229",
+ "download_dir": ".work\\downloads\\20261109-155229_kyuyo_verify_docs",
+ "docs": [
+  {
+   "name": "nta_ta1410",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1410.htm",
+   "status": 200,
+   "headers": {
+    "Content-Type": "text/html",
+    "Last-Modified": "Fri, 16 Oct 2026 08:30:06 GMT",
+    "Content-Length": "34615",
+    "ETag": "\"8737-65df0f8b8fc98\""
+   },
+   "file": "nta_ta1410.html",
+   "sha256": "df763b0259059e8810ffe27385cf2a326b0bee008b7a62f2a67b66b9500d9a41",
+   "bytes": 34615
+  },
+  {
+   "name": "nta_2026kaisei_pdf",
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/2026kaisei.pdf",
+   "status": 200,
+   "headers": {
+    "Content-Type": "application/pdf",
+    "Last-Modified": "Mon, 20 Apr 2026 08:30:02 GMT",
+    "Content-Length": "1632234",
+    "ETag": "\"18e7ea-64fe01ae50c18\""
+   },
+   "file": "nta_2026kaisei_pdf.pdf",
+   "sha256": "8db585cd5feef2eb29109a16a2e7b16054a0fa4d6423ac622d9ea12c54b39945",
+   "bytes": 1632234
+  },
+  {
+   "name": "nta_2026kiso_qa_pdf",
+   "url": "https://www.nta.go.jp/users/gensen/2026kiso/pdf/0026005-024.pdf",
+   "status": 200,
+   "headers": {
+    "Content-Type": "application/pdf",
+    "Last-Modified": "Fri, 29 May 2026 08:30:02 GMT",
+    "Content-Length": "305115",
+    "ETag": "\"4a7db-652f0a6aa9de0\""
+   },
+   "file": "nta_2026kiso_qa_pdf.pdf",
+   "sha256": "a3c12744dbed64e7a03383868baa055f51eb1d0434ee3267d6374d2fe959cea8",
+   "bytes": 305115
+  },
+  {
+   "name": "nta_2025kiso_qa_pdf",
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/0025005-051.pdf",
+   "status": 200,
+   "headers": {
+    "Content-Type": "application/pdf",
+    "Last-Modified": "Fri, 30 May 2025 08:26:01 GMT",
+    "Content-Length": "1254127",
+    "ETag": "\"1322ef-636562a1639f8\""
+   },
+   "file": "nta_2025kiso_qa_pdf.pdf",
+   "sha256": "af377dfb7700cb28a8c328bdb83916b148e9ff24bf2064e2be35c76bb793805b",
+   "bytes": 1254127
+  },
+  {
+   "name": "nta_nencho2025_114_pdf",
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2025/pdf/114.pdf",
+   "status": 200,
+   "headers": {
+    "Content-Type": "application/pdf",
+    "Last-Modified": "Fri, 29 Aug 2025 08:30:14 GMT",
+    "Content-Length": "4611776",
+    "ETag": "\"465ec0-63d7cd4bcf400\""
+   },
+   "file": "nta_nencho2025_114_pdf.pdf",
+   "sha256": "cc316009c20bad7709444d8fc3328ce35abacf3803dc6ecaddc40a352398eb89",
+   "bytes": 4611776
+  },
+  {
+   "name": "nta_nencho2026_114_pdf",
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/114.pdf",
+   "status": 200,
+   "headers": {
+    "Content-Type": "application/pdf",
+    "Last-Modified": "Mon, 31 Aug 2026 08:30:11 GMT",
+    "Content-Length": "4134885",
+    "ETag": "\"3f17e5-65a539c4895e0\""
+   },
+   "file": "nta_nencho2026_114_pdf.pdf",
+   "sha256": "3d06c41b675161d51cc59c89d6d129ce8ea204b5ccc986f5b30b1072a12a032c",
+   "bytes": 4134885
+  },
+  {
+   "name": "soumu_r8_chihozei_an_pdf",
+   "url": "https://www.soumu.go.jp/main_content/001047636.pdf",
+   "status": 200,
+   "headers": {
+    "Content-Type": "application/pdf",
+    "Last-Modified": "Tue, 23 Dec 2025 05:26:02 GMT",
+    "Content-Length": "1045271",
+    "ETag": "\"ff317-64697c79986f4\""
+   },
+   "file": "soumu_r8_chihozei_an_pdf.pdf",
+   "sha256": "0b2fa54af7eeb7aac1350c22996ed69a5ecaec7ec15b85470e65c774da67671e",
+   "bytes": 1045271
+  },
+  {
+   "name": "sendai_r8",
+   "url": "https://www.city.sendai.jp/shiminze-kikaku/kurashi/tetsuzuki/zekin/kojin/kaisei/r8.html",
+   "status": 200,
+   "headers": {
+    "Content-Type": "text/html",
+    "Last-Modified": "Thu, 29 Oct 2026 09:00:02 GMT",
+    "Content-Length": "30831",
+    "ETag": null
+   },
+   "file": "sendai_r8.html",
+   "sha256": "7eaa2cb559d8cbc2b823dd3c96963be48020ded54a7bad4e564cbd5c6b00ede6",
+   "bytes": 30831
+  },
+  {
+   "name": "osaka_pref_r8_zeikai",
+   "url": "https://www.pref.osaka.lg.jp/o050030/zei/alacarte/reiwa8_zeikai.html",
+   "status": 200,
+   "headers": {
+    "Content-Type": "text/html",
+    "Last-Modified": "Mon, 13 Apr 2026 07:16:02 GMT",
+    "Content-Length": "19478",
+    "ETag": "\"4c16-64f524159ef8f\""
+   },
+   "file": "osaka_pref_r8_zeikai.html",
+   "sha256": "60aa1c42806889a26ce9cb36aa6371ae6e58b21eddd2aa41b746008650f3d709",
+   "bytes": 19478
+  },
+  {
+   "name": "kumamoto_r9",
+   "url": "https://www.city.kumamoto.jp/kiji00373630/index.html",
+   "status": 200,
+   "headers": {
+    "Content-Type": "text/html",
+    "Last-Modified": "Fri, 06 Nov 2026 15:18:30 GMT",
+    "Content-Length": "70167",
+    "ETag": "\"fa8c551426edd1:0\""
+   },
+   "file": "kumamoto_r9.html",
+   "sha256": "dd5769318abd20e3f7f596995f9b45206f378c23cb919675704a8cc9d120bcf4",
+   "bytes": 70167
+  }
+ ]
+}

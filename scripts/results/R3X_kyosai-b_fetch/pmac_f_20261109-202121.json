@@ -1,0 +1,33 @@
+{
+  "set": "pmac_f",
+  "fetched_at_local": "20261109-202121",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "pmac_hourei_mokuji_2026",
+      "url": "https://www.pmac.shigaku.go.jp/annai/kanko/jimu/hourei/ndc94q0000002jy6-att/hourei_hanrei_mokuji_2026.pdf",
+      "status": 200,
+      "final_url": "https://www.pmac.shigaku.go.jp/annai/kanko/jimu/hourei/ndc94q0000002jy6-att/hourei_hanrei_mokuji_2026.pdf",
+      "content_type": "application/pdf",
+      "bytes": 252034,
+      "sha256": "31636390c2bc02958893d0451125e3855c7bc212f3074a895c28a0ce5da69ebb",
+      "last_modified": "Tue, 07 Jul 2026 01:00:06 GMT",
+      "etag": "\"3d882-655fae96611af\"",
+      "content_disposition": null,
+      "saved": ".work/downloads/20261109-202121_R3X_kyosai-b_pmac_f/pmac_hourei_mokuji_2026.pdf"
+    },
+    {
+      "id": "pmac_hourei_sonota_2026",
+      "url": "https://www.pmac.shigaku.go.jp/annai/kanko/jimu/hourei/ndc94q0000002jy6-att/hourei_sonota_2026.pdf",
+      "status": 200,
+      "final_url": "https://www.pmac.shigaku.go.jp/annai/kanko/jimu/hourei/ndc94q0000002jy6-att/hourei_sonota_2026.pdf",
+      "content_type": "application/pdf",
+      "bytes": 978669,
+      "sha256": "4654bc85ce213b0373674c8fcf94edb21a2bed7566b340d2de11b1579e9f5d71",
+      "last_modified": "Tue, 07 Jul 2026 01:00:08 GMT",
+      "etag": "\"eeeed-655fae988936a\"",
+      "content_disposition": null,
+      "saved": ".work/downloads/20261109-202121_R3X_kyosai-b_pmac_f/pmac_hourei_sonota_2026.pdf"
+    }
+  ]
+}

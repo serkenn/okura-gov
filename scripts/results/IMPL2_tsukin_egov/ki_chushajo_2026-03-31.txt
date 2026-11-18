@@ -1,0 +1,8 @@
+# 所得税法施行規則 340M50000040011 asof=2026-03-31
+# law_revision_id=340M50000040011_20260101_507M60000040018 改正法令=令和七年財務省令第十八号 施行日=2026-01-01 状態=PreviousEnforced
+# 取得URL=https://laws.e-gov.go.jp/api/2/law_data/340M50000040011?asof=2026-03-31&response_format=json
+# 取得日時=20261111-105415
+
+# 本則で KI_KEYWORDS を含む条
+
+# 附則（AmendLawNum が SUPPL_PREFIXES で始まり、KI_KEYWORDS を含むもの）

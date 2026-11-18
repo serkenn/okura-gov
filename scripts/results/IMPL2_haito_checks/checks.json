@@ -1,0 +1,52 @@
+{
+ "statute_vs_ta1250": {
+  "cases": 270,
+  "mismatch": 0,
+  "mismatch_examples": []
+ },
+ "statute_vs_tebiki_form_B0": {
+  "cases": 54,
+  "mismatch": 0,
+  "mismatch_examples": []
+ },
+ "cases_with_fraction_of_yen": 109,
+ "fraction_examples": [
+  [
+   0,
+   0,
+   1,
+   "1/20"
+  ],
+  [
+   0,
+   1,
+   0,
+   "1/10"
+  ],
+  [
+   0,
+   1,
+   1,
+   "3/20"
+  ],
+  [
+   0,
+   1,
+   200000,
+   "100001/10"
+  ],
+  [
+   0,
+   1,
+   600000,
+   "300001/10"
+  ]
+ ],
+ "fraction_note": "配当控除の式は百分率を掛けるだけ。A・B に端数の出る値では円未満が残る。条文に配当控除額の端数の定めはない（docs/public-sources/20261111_impl-research_haito-laws-and-nta.md）。",
+ "examples": {
+  "T=800万 A=30万 B=0": "30000",
+  "T=1050万 A=30万 B=0": "15000",
+  "T=1050万 A=0 B=60万": "17500",
+  "T=1500万 A=30万 B=20万": "20000"
+ }
+}

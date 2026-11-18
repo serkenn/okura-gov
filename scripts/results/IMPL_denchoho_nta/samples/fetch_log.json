@@ -1,0 +1,43 @@
+{
+ "run_at": "20261109-145826",
+ "stage": "samples",
+ "download_dir": ".work\\downloads\\20261109-145826_denchoho_nta_samples",
+ "items": [
+  {
+   "key": "kitei-kojin",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/word/0021006-031_e.docx",
+   "status": 200,
+   "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "bytes": 17911,
+   "truncated": false,
+   "sha256": "3a17d85060f1c60ff2b740cf62a17d0dd25eaafd96c3167050d5acd0a60f7684",
+   "last_modified": "Thu, 18 Jan 2024 09:34:07 GMT",
+   "saved": ".work\\downloads\\20261109-145826_denchoho_nta_samples\\kitei-kojin.docx",
+   "output": "scripts/results/IMPL_denchoho_nta/samples/kitei-kojin.txt"
+  },
+  {
+   "key": "kitei-hojin",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/word/0021006-031_d.docx",
+   "status": 200,
+   "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "bytes": 24833,
+   "truncated": false,
+   "sha256": "ed5421413216bb26b6f48b89af1b38b1a0022fb1b34fd0fd77f7be47e277c3f1",
+   "last_modified": "Fri, 10 Jul 2026 01:00:04 GMT",
+   "saved": ".work\\downloads\\20261109-145826_denchoho_nta_samples\\kitei-hojin.docx",
+   "output": "scripts/results/IMPL_denchoho_nta/samples/kitei-hojin.txt"
+  },
+  {
+   "key": "sakuinbo",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/excel/0021006-031_c.xlsx",
+   "status": 200,
+   "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "bytes": 10403,
+   "truncated": false,
+   "sha256": "ebf39cce4e385f7dba8ed75f91d145153612c99c1053f65a7dec0483f04ac52d",
+   "last_modified": "Thu, 18 Jan 2024 09:34:12 GMT",
+   "saved": ".work\\downloads\\20261109-145826_denchoho_nta_samples\\sakuinbo.xlsx",
+   "output": "scripts/results/IMPL_denchoho_nta/samples/sakuinbo.txt"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "file": "004_www.nta.go.jp_taxes_tetsuzuki_shinsei_annai_shinkoku_annai_pdf_10-02.pdf",
+ "sha256": "73f8b858329164f94fa06b0edd415a1c5cc9a573b8ed81e13f408a472da67f4e",
+ "bytes": 782576,
+ "aes_selftest": true,
+ "encrypted": true,
+ "V": 4,
+ "R": 4,
+ "P": 2836,
+ "aes": true,
+ "key_len": 16,
+ "key_ok": true,
+ "encrypt_obj": 7,
+ "n_objects": 6,
+ "pages": [
+  {
+   "page": 1,
+   "obj": 4,
+   "mediabox": [
+    "0",
+    "0",
+    "2481",
+    "3508"
+   ],
+   "content_bytes": 49,
+   "n_text_runs": 0,
+   "xobjects": [
+    {
+     "name": "image",
+     "obj": 5,
+     "subtype": "Image",
+     "w": 2481,
+     "h": 3508,
+     "filter": "DCTDecode"
+    }
+   ]
+  }
+ ],
+ "form_ids": [],
+ "titles_in_dicts": [],
+ "n_rows": 0,
+ "n_codes": 0
+}

@@ -1,0 +1,5 @@
+# 地方税法（昭和二十五年法律第二百二十六号） law_id=325AC0000000226 asof=2030-01-01
+# law_revision_id=325AC0000000226_20290624_508AC0000000051 改正法令=令和八年法律第五十一号 施行日=None 状態=UnEnforced updated=2026-07-29T08:42:00+09:00
+# 取得URL=https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=json&asof=2030-01-01
+# 取得日時=20261109-201800
+

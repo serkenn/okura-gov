@@ -1,0 +1,91 @@
+{
+ "set": "genka_keisan2",
+ "fetched_at": "20261111-150121",
+ "download_dir": ".work/downloads/20261111-150121_IMPL2_phase2c_nta_genka_keisan2",
+ "items": [
+  {
+   "id": "keisan_r7_teigakuho",
+   "url": "https://www.keisan.nta.go.jp/r7yokuaru/aoiroshinkoku/hitsuyokeihi/genkashokyakuhi/teigakuho.html",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 10 Nov 2026 22:01:40 GMT",
+   "bytes": 24904,
+   "sha256": "2dc9e17496072b1da30795b229fa51259ffd079bb51bf94ff3c596d5d626b7fa",
+   "saved": ".work/downloads/20261111-150121_IMPL2_phase2c_nta_genka_keisan2/keisan_r7_teigakuho.htm",
+   "title": "【確定申告書等作成コーナー】-定額法と定率法による減価償却（平成19年4月1日以後に取得する場合）",
+   "encoding": "UTF-8"
+  },
+  {
+   "id": "keisan_r7_ikkatsu",
+   "url": "https://www.keisan.nta.go.jp/r7yokuaru/aoiroshinkoku/hitsuyokeihi/genkashokyakuhi/ikkatsushokyaku.html",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 10 Nov 2026 22:01:39 GMT",
+   "bytes": 15353,
+   "sha256": "cbe136594b77e37623ae288a9336400d039c422f33d074796a741770a32e2505",
+   "saved": ".work/downloads/20261111-150121_IMPL2_phase2c_nta_genka_keisan2/keisan_r7_ikkatsu.htm",
+   "title": "【確定申告書等作成コーナー】-一括償却資産とは",
+   "encoding": "UTF-8"
+  },
+  {
+   "id": "keisan_r7_shogaku",
+   "url": "https://www.keisan.nta.go.jp/r7yokuaru/aoiroshinkoku/hitsuyokeihi/genkashokyakuhi/shogakugenkashokyaku.html",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 10 Nov 2026 22:01:40 GMT",
+   "bytes": 17222,
+   "sha256": "562e07f8829f07521eb47f8bad16e0247d0577233eb644ef9c3f6e867594f6a8",
+   "saved": ".work/downloads/20261111-150121_IMPL2_phase2c_nta_genka_keisan2/keisan_r7_shogaku.htm",
+   "title": "【確定申告書等作成コーナー】-中小企業者の少額減価償却資産の取得価額の必要経費算入の特例制度とは",
+   "encoding": "UTF-8"
+  },
+  {
+   "id": "keisan_r7_kikan",
+   "url": "https://www.keisan.nta.go.jp/r7yokuaru/aoiroshinkoku/hitsuyokeihi/genkashokyakuhi/shokyakukikan.html",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 10 Nov 2026 22:01:39 GMT",
+   "bytes": 15262,
+   "sha256": "59dbb682e1911ce13036e3f412671c469ec5dcce7f321b0c6f916873919b24bb",
+   "saved": ".work/downloads/20261111-150121_IMPL2_phase2c_nta_genka_keisan2/keisan_r7_kikan.htm",
+   "title": "【確定申告書等作成コーナー】-本年中の償却期間とは",
+   "encoding": "UTF-8"
+  },
+  {
+   "id": "keisan_r7_zumi",
+   "url": "https://www.keisan.nta.go.jp/r7yokuaru/aoiroshinkoku/hitsuyokeihi/genkashokyakuhi/shokyakuzuminyuryoku.html",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 10 Nov 2026 22:01:40 GMT",
+   "bytes": 17061,
+   "sha256": "9c40fbbd809f86ce4a999868faaa3dcd7fc398da2c57edac9d5c18e3b674e1c9",
+   "saved": ".work/downloads/20261111-150121_IMPL2_phase2c_nta_genka_keisan2/keisan_r7_zumi.htm",
+   "title": "【確定申告書等作成コーナー】-償却済みの減価償却資産の入力方法（5年均等償却）",
+   "encoding": "UTF-8"
+  },
+  {
+   "id": "keisan_r7_kyuteigaku",
+   "url": "https://www.keisan.nta.go.jp/r7yokuaru/aoiroshinkoku/hitsuyokeihi/genkashokyakuhi/kyuteigakuho.html",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 10 Nov 2026 22:01:40 GMT",
+   "bytes": 20216,
+   "sha256": "901726d45e62d7de01169d7b40cddef7e2bc985900df5966a4c1f77e53510800",
+   "saved": ".work/downloads/20261111-150121_IMPL2_phase2c_nta_genka_keisan2/keisan_r7_kyuteigaku.htm",
+   "title": "【確定申告書等作成コーナー】-旧定額法と旧定率法による減価償却（平成19年3月31日以前に取得する場合）",
+   "encoding": "UTF-8"
+  },
+  {
+   "id": "keisan_r7_index",
+   "url": "https://www.keisan.nta.go.jp/r7yokuaru/aoiroshinkoku/hitsuyokeihi/genkashokyakuhi/index.html",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 10 Nov 2026 22:01:40 GMT",
+   "bytes": 10366,
+   "sha256": "f8ac34af0e23153777b4b491a7b3e7b17d991e0a0f8b88892b814259fd966b0d",
+   "saved": ".work/downloads/20261111-150121_IMPL2_phase2c_nta_genka_keisan2/keisan_r7_index.htm",
+   "title": "【確定申告書等作成コーナー】-減価償却費",
+   "encoding": "UTF-8"
+  }
+ ]
+}

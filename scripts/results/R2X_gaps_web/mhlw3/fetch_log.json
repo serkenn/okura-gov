@@ -1,0 +1,40 @@
+{
+ "set": "mhlw3",
+ "fetched_at": "20261109-175116",
+ "download_dir": ".work/downloads/20261109-175116_R2X_gaps_web_mhlw3",
+ "robots": [
+  {
+   "host": "www.mhlw.go.jp",
+   "url": "https://www.mhlw.go.jp/robots.txt",
+   "status": 200,
+   "sha256": "d410a20234092a01e07cc6531920a5fedda6a96faaa073d94b95bd4c4a436144",
+   "saved": ".work/downloads/20261109-175116_R2X_gaps_web_mhlw3/robots_www.mhlw.go.jp.txt"
+  }
+ ],
+ "items": [
+  {
+   "id": "mhlw_nenkin_0000086587",
+   "url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-12500000-Nenkinkyoku/0000086587.pdf",
+   "final_url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-12500000-Nenkinkyoku/0000086587.pdf",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 12 Jun 2018 20:19:23 GMT",
+   "bytes": 3549974,
+   "sha256": "f2a8b6049f0fe241b93dd47e4034499287178e3ed986807d81a593651678a261",
+   "saved": ".work/downloads/20261109-175116_R2X_gaps_web_mhlw3/mhlw_nenkin_0000086587.pdf"
+  },
+  {
+   "id": "mhlw_shinsa_r02_03_15_01",
+   "url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/dl/05-r02_03/15_01.pdf",
+   "final_url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/dl/05-r02_03/15_01.pdf",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 10 Jul 2026 01:41:16 GMT",
+   "bytes": 654986,
+   "sha256": "f5245cb5c81d50757709d295bf99af9614b4a55c6f0a802a0c1e74161ca50ba1",
+   "saved": ".work/downloads/20261109-175116_R2X_gaps_web_mhlw3/mhlw_shinsa_r02_03_15_01.pdf"
+  }
+ ]
+}

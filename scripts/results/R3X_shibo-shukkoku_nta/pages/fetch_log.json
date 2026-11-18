@@ -1,0 +1,139 @@
+{
+ "set": "pages",
+ "fetched_at": "20261109-201553",
+ "download_dir": ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages",
+ "items": [
+  {
+   "id": "ta_2022",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2022.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:06 GMT",
+   "bytes": 19011,
+   "sha256": "1bb82145d2a371a7122e5ab3137ef12ea9a38a516341dc2fccbd421ad1ddfa00",
+   "saved": ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/ta_2022.htm",
+   "title": "No.2022 納税者が死亡したときの確定申告(準確定申告)｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_1110",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:17 GMT",
+   "bytes": 21261,
+   "sha256": "377fee05900a97e3440a1c46c6f41ca8a6a15482a31f17826852a19ff96c38db",
+   "saved": ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/ta_1110.htm",
+   "title": "No.1110 災害や盗難などで資産に損害を受けたとき(雑損控除)｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "kihon_19_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 25 Nov 2025 08:30:05 GMT",
+   "bytes": 15638,
+   "sha256": "9e7dbd6d0d4d691416185063a37bf2e016439a7d4af45d68c00fc0a7861f14e2",
+   "saved": ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_19_01.htm",
+   "title": "法第120条《確定所得申告》関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_19_02",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/02.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 25 Nov 2025 08:30:05 GMT",
+   "bytes": 12685,
+   "sha256": "a9a3b2a8f9de88eb0c5c89d3e7d89307d9ff02b5473a543a919058adfda715a4",
+   "saved": ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_19_02.htm",
+   "title": "法第122条《還付等を受けるための申告》関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_16_06",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/06.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 25 Nov 2025 08:30:05 GMT",
+   "bytes": 9685,
+   "sha256": "73c6009edd9c2ed350eab73aca71530dc58a45807da74a34539cd959f604f023",
+   "saved": ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_16_06.htm",
+   "title": "法第79条《障害者控除》関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_15_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/15/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 25 Nov 2025 08:30:05 GMT",
+   "bytes": 15465,
+   "sha256": "ead14cdf750a95909c51baf48fe751982f2df09ad83c908fc20f5f5503e26349",
+   "saved": ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_15_01.htm",
+   "title": "〔被災事業用資産の損失の金額の計算等〕｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_16_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:30:20 GMT",
+   "bytes": 15735,
+   "sha256": "c00969ebe1eb83e0528faf332c93d90326196e27a0631c7547c712e38c485b96",
+   "saved": ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_16_01.htm",
+   "title": "法第72条《雑損控除》関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_16_02",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/02.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:30:20 GMT",
+   "bytes": 7846,
+   "sha256": "c2f88d72b969cb95eeac12376cf6e31d0b2e16b4d694c0a9ed9e7d233ae81d71",
+   "saved": ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_16_02.htm",
+   "title": "法第74条《社会保険料控除》及び第75条《小規模企業共済等掛金控除》関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_01_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:30:24 GMT",
+   "bytes": 6682,
+   "sha256": "6d7d6ba43294e00afd3b42b9202138232b93cfa521a4af171dfbf7e2e946a0bd",
+   "saved": ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_01_01.htm",
+   "title": "〔居住者、非永住者及び非居住者（第3、4、5号関係）〕｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_01_08",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/08.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:30:24 GMT",
+   "bytes": 4615,
+   "sha256": "b57943f268a2d319e2646cfd1cc915e2305dfb56d229e661e65de55a6178caf7",
+   "saved": ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_01_08.htm",
+   "title": "法第3条《居住者及び非居住者等の区分》関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "annai_07",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/07.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 28 Oct 2026 01:00:23 GMT",
+   "bytes": 11701,
+   "sha256": "25f92cf73bb4e0e8ecefdd8a9ff774289a57d51de17eded425b841a797ebfb12",
+   "saved": ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/annai_07.htm",
+   "title": "A1-7 所得税・消費税の納税管理人の選任届出又は解任届出手続｜国税庁",
+   "encoding": "shift_jis"
+  }
+ ]
+}

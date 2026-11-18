@@ -1,0 +1,19 @@
+{
+ "set": "hotei",
+ "fetched_at": "20261111-150318",
+ "download_dir": ".work/downloads/20261111-150318_IMPL2_phase2c_nta_hotei",
+ "items": [
+  {
+   "id": "hotei_index",
+   "url": "https://www.nta.go.jp/publication/pamph/hotei/tebikihtml/index.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 05 Nov 2026 05:00:02 GMT",
+   "bytes": 16357,
+   "sha256": "81c28477d8bcf94002ec453bfa620efc1a16c0ba36e6ca365cc7f779293b5869",
+   "saved": ".work/downloads/20261111-150318_IMPL2_phase2c_nta_hotei/hotei_index.htm",
+   "title": "令和8年分 給与所得の源泉徴収票等の法定調書の作成と提出の手引｜国税庁",
+   "encoding": "shift_jis"
+  }
+ ]
+}

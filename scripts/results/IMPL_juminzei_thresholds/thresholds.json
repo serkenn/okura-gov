@@ -1,0 +1,745 @@
+{
+ "evidence": [
+  {
+   "file": "scripts\\results\\IMPL_juminzei_laws\\chiho_2026-01-01.txt",
+   "section": "本則 Num=295",
+   "found": [
+    "未成年者",
+    "百三十五万円を超える場合を除く",
+    "政令で定める基準に従い当該市町村の条例で定める金額以下"
+   ]
+  },
+  {
+   "file": "scripts\\results\\IMPL_juminzei_laws\\chiho_2026-01-01.txt",
+   "section": "原始附則 Num=3_3",
+   "found": [
+    "三十五万円にその者の同一生計配偶者及び扶養親族",
+    "十万円を加算した金額",
+    "三十二万円を加算した金額"
+   ]
+  },
+  {
+   "file": "scripts\\results\\IMPL_juminzei_laws\\chiho-rei_2026-01-01.txt",
+   "section": "本則 Num=47_3",
+   "found": [
+    "三十五万円を超えない範囲内",
+    "十万円を加算した金額",
+    "二十一万円を超えない範囲"
+   ]
+  },
+  {
+   "file": "scripts\\results\\IMPL_juminzei_laws\\chiho-ki_2026-01-01.txt",
+   "section": "本則 Num=9_21",
+   "found": [
+    "一級地　一・〇",
+    "二級地　〇・九",
+    "三級地　〇・八"
+   ]
+  },
+  {
+   "file": "scripts\\results\\IMPL_juminzei_laws\\chiho_2026-01-01.txt",
+   "section": "本則 Num=292",
+   "found": [
+    "所得税法その他の所得税に関する法令を引用する場合",
+    "前年の所得について適用されたもの"
+   ]
+  },
+  {
+   "file": "scripts\\results\\IMPL_juminzei_laws\\chiho_2026-01-01.txt",
+   "section": "本則 Num=313",
+   "found": [
+    "所得税法その他の所得税に関する法令の規定による"
+   ]
+  },
+  {
+   "file": "scripts\\results\\IMPL_juminzei_laws\\chiho_2027-01-01.txt",
+   "section": "本則 Num=295",
+   "found": [
+    "未成年者",
+    "百三十五万円を超える場合を除く",
+    "政令で定める基準に従い当該市町村の条例で定める金額以下"
+   ]
+  },
+  {
+   "file": "scripts\\results\\IMPL_juminzei_laws\\chiho_2027-01-01.txt",
+   "section": "原始附則 Num=3_3",
+   "found": [
+    "三十五万円にその者の同一生計配偶者及び扶養親族",
+    "十万円を加算した金額",
+    "三十二万円を加算した金額"
+   ]
+  },
+  {
+   "file": "scripts\\results\\IMPL_juminzei_laws\\chiho-rei_2027-01-01.txt",
+   "section": "本則 Num=47_3",
+   "found": [
+    "三十五万円を超えない範囲内",
+    "十万円を加算した金額",
+    "二十一万円を超えない範囲"
+   ]
+  },
+  {
+   "file": "scripts\\results\\IMPL_juminzei_laws\\chiho-ki_2027-01-01.txt",
+   "section": "本則 Num=9_21",
+   "found": [
+    "一級地　一・〇",
+    "二級地　〇・九",
+    "三級地　〇・八"
+   ]
+  },
+  {
+   "file": "scripts\\results\\IMPL_juminzei_laws\\chiho_2027-01-01.txt",
+   "section": "本則 Num=292",
+   "found": [
+    "所得税法その他の所得税に関する法令を引用する場合",
+    "前年の所得について適用されたもの"
+   ]
+  },
+  {
+   "file": "scripts\\results\\IMPL_juminzei_laws\\chiho_2027-01-01.txt",
+   "section": "本則 Num=313",
+   "found": [
+    "所得税法その他の所得税に関する法令の規定による"
+   ]
+  },
+  {
+   "file": "scripts\\results\\IMPL_juminzei_laws\\sochi_2026-12-01.txt",
+   "section": "本則 Num=29_4",
+   "found": [
+    "令和八年又は令和九年において",
+    "六十九万千円以上七十四万千円未満",
+    "ないものとする",
+    "七十四万千円以上二百十九万千円未満",
+    "七十四万円を控除した残額",
+    "二百十九万千円以上二百十九万三千円未満",
+    "百四十五万千円とする",
+    "二百十九万三千円以上二百十九万六千円未満",
+    "百四十五万三千円とする",
+    "二百十九万六千円以上二百二十万円未満",
+    "百四十五万六千円とする"
+   ]
+  },
+  {
+   "file": "scripts\\results\\IMPL_juminzei_laws\\shotoku_2025-12-31.txt",
+   "section": "本則 Num=28",
+   "found": [
+    "六百六十万円未満である場合",
+    "別表第五"
+   ]
+  },
+  {
+   "file": "scripts\\results\\IMPL_juminzei_laws\\shotoku_2026-12-01.txt",
+   "section": "本則 Num=28",
+   "found": [
+    "六百六十万円未満である場合",
+    "別表第五"
+   ]
+  }
+ ],
+ "beppyo5_bins": {
+  "2025-12-31": 1179,
+  "2026-12-01": 1148
+ },
+ "years": {
+  "令和8年度": {
+   "所得の年分": "令和7年分",
+   "賦課期日の版": "2026-01-01",
+   "別表第五の版": "2025-12-31",
+   "rows": [
+    {
+     "n": 0,
+     "kintou_1": {
+      "limit": 450000,
+      "max_kyuyo": 1100000
+     },
+     "kintou_2": {
+      "limit": 415000,
+      "max_kyuyo": 1065000
+     },
+     "kintou_3": {
+      "limit": 380000,
+      "max_kyuyo": 1030000
+     },
+     "shotokuwari": {
+      "limit": 450000,
+      "max_kyuyo": 1100000
+     }
+    },
+    {
+     "n": 1,
+     "kintou_1": {
+      "limit": 1010000,
+      "max_kyuyo": 1660000
+     },
+     "kintou_2": {
+      "limit": 919000,
+      "max_kyuyo": 1569000
+     },
+     "kintou_3": {
+      "limit": 828000,
+      "max_kyuyo": 1478000
+     },
+     "shotokuwari": {
+      "limit": 1120000,
+      "max_kyuyo": 1770000
+     }
+    },
+    {
+     "n": 2,
+     "kintou_1": {
+      "limit": 1360000,
+      "max_kyuyo": 2059999
+     },
+     "kintou_2": {
+      "limit": 1234000,
+      "max_kyuyo": 1884000
+     },
+     "kintou_3": {
+      "limit": 1108000,
+      "max_kyuyo": 1758000
+     },
+     "shotokuwari": {
+      "limit": 1470000,
+      "max_kyuyo": 2215999
+     }
+    },
+    {
+     "n": 3,
+     "kintou_1": {
+      "limit": 1710000,
+      "max_kyuyo": 2559999
+     },
+     "kintou_2": {
+      "limit": 1549000,
+      "max_kyuyo": 2327999
+     },
+     "kintou_3": {
+      "limit": 1388000,
+      "max_kyuyo": 2099999
+     },
+     "shotokuwari": {
+      "limit": 1820000,
+      "max_kyuyo": 2715999
+     }
+    },
+    {
+     "n": 4,
+     "kintou_1": {
+      "limit": 2060000,
+      "max_kyuyo": 3059999
+     },
+     "kintou_2": {
+      "limit": 1864000,
+      "max_kyuyo": 2779999
+     },
+     "kintou_3": {
+      "limit": 1668000,
+      "max_kyuyo": 2499999
+     },
+     "shotokuwari": {
+      "limit": 2170000,
+      "max_kyuyo": 3215999
+     }
+    }
+   ],
+   "miseinen_135": {
+    "limit": 1350000,
+    "max_kyuyo": 2043999
+   }
+  },
+  "令和9年度": {
+   "所得の年分": "令和8年分",
+   "賦課期日の版": "2027-01-01",
+   "別表第五の版": "2026-12-01",
+   "rows": [
+    {
+     "n": 0,
+     "kintou_1": {
+      "limit": 450000,
+      "max_kyuyo": 1190000
+     },
+     "kintou_2": {
+      "limit": 415000,
+      "max_kyuyo": 1155000
+     },
+     "kintou_3": {
+      "limit": 380000,
+      "max_kyuyo": 1120000
+     },
+     "shotokuwari": {
+      "limit": 450000,
+      "max_kyuyo": 1190000
+     }
+    },
+    {
+     "n": 1,
+     "kintou_1": {
+      "limit": 1010000,
+      "max_kyuyo": 1750000
+     },
+     "kintou_2": {
+      "limit": 919000,
+      "max_kyuyo": 1659000
+     },
+     "kintou_3": {
+      "limit": 828000,
+      "max_kyuyo": 1568000
+     },
+     "shotokuwari": {
+      "limit": 1120000,
+      "max_kyuyo": 1860000
+     }
+    },
+    {
+     "n": 2,
+     "kintou_1": {
+      "limit": 1360000,
+      "max_kyuyo": 2100000
+     },
+     "kintou_2": {
+      "limit": 1234000,
+      "max_kyuyo": 1974000
+     },
+     "kintou_3": {
+      "limit": 1108000,
+      "max_kyuyo": 1848000
+     },
+     "shotokuwari": {
+      "limit": 1470000,
+      "max_kyuyo": 2215999
+     }
+    },
+    {
+     "n": 3,
+     "kintou_1": {
+      "limit": 1710000,
+      "max_kyuyo": 2559999
+     },
+     "kintou_2": {
+      "limit": 1549000,
+      "max_kyuyo": 2327999
+     },
+     "kintou_3": {
+      "limit": 1388000,
+      "max_kyuyo": 2128000
+     },
+     "shotokuwari": {
+      "limit": 1820000,
+      "max_kyuyo": 2715999
+     }
+    },
+    {
+     "n": 4,
+     "kintou_1": {
+      "limit": 2060000,
+      "max_kyuyo": 3059999
+     },
+     "kintou_2": {
+      "limit": 1864000,
+      "max_kyuyo": 2779999
+     },
+     "kintou_3": {
+      "limit": 1668000,
+      "max_kyuyo": 2499999
+     },
+     "shotokuwari": {
+      "limit": 2170000,
+      "max_kyuyo": 3215999
+     }
+    }
+   ],
+   "miseinen_135": {
+    "limit": 1350000,
+    "max_kyuyo": 2090000
+   }
+  }
+ },
+ "comparisons": [
+  {
+   "who": "江戸川区",
+   "nendo": "令和8年度",
+   "kind": "均等割（均等割・所得割とも非課税）",
+   "kyuchi": 1,
+   "n": 0,
+   "published": 1100000,
+   "calc": 1100000,
+   "match": true
+  },
+  {
+   "who": "江戸川区",
+   "nendo": "令和8年度",
+   "kind": "均等割（均等割・所得割とも非課税）",
+   "kyuchi": 1,
+   "n": 1,
+   "published": 1660000,
+   "calc": 1660000,
+   "match": true
+  },
+  {
+   "who": "江戸川区",
+   "nendo": "令和8年度",
+   "kind": "均等割（均等割・所得割とも非課税）",
+   "kyuchi": 1,
+   "n": 2,
+   "published": 2059999,
+   "calc": 2059999,
+   "match": true
+  },
+  {
+   "who": "江戸川区",
+   "nendo": "令和8年度",
+   "kind": "均等割（均等割・所得割とも非課税）",
+   "kyuchi": 1,
+   "n": 3,
+   "published": 2559999,
+   "calc": 2559999,
+   "match": true
+  },
+  {
+   "who": "江戸川区",
+   "nendo": "令和8年度",
+   "kind": "均等割（均等割・所得割とも非課税）",
+   "kyuchi": 1,
+   "n": 4,
+   "published": 3059999,
+   "calc": 3059999,
+   "match": true
+  },
+  {
+   "who": "江戸川区",
+   "nendo": "令和8年度",
+   "kind": "所得割",
+   "kyuchi": null,
+   "n": 0,
+   "published": 1100000,
+   "calc": 1100000,
+   "match": true
+  },
+  {
+   "who": "江戸川区",
+   "nendo": "令和8年度",
+   "kind": "所得割",
+   "kyuchi": null,
+   "n": 1,
+   "published": 1770000,
+   "calc": 1770000,
+   "match": true
+  },
+  {
+   "who": "江戸川区",
+   "nendo": "令和8年度",
+   "kind": "所得割",
+   "kyuchi": null,
+   "n": 2,
+   "published": 2215999,
+   "calc": 2215999,
+   "match": true
+  },
+  {
+   "who": "江戸川区",
+   "nendo": "令和8年度",
+   "kind": "所得割",
+   "kyuchi": null,
+   "n": 3,
+   "published": 2715999,
+   "calc": 2715999,
+   "match": true
+  },
+  {
+   "who": "江戸川区",
+   "nendo": "令和8年度",
+   "kind": "所得割",
+   "kyuchi": null,
+   "n": 4,
+   "published": 3215999,
+   "calc": 3215999,
+   "match": true
+  },
+  {
+   "who": "柏市",
+   "nendo": "令和8年度",
+   "kind": "均等割（均等割・所得割とも非課税）",
+   "kyuchi": 2,
+   "n": 0,
+   "published": 1065000,
+   "calc": 1065000,
+   "match": true
+  },
+  {
+   "who": "柏市",
+   "nendo": "令和8年度",
+   "kind": "均等割（均等割・所得割とも非課税）",
+   "kyuchi": 2,
+   "n": 1,
+   "published": 1569000,
+   "calc": 1569000,
+   "match": true
+  },
+  {
+   "who": "柏市",
+   "nendo": "令和8年度",
+   "kind": "均等割（均等割・所得割とも非課税）",
+   "kyuchi": 2,
+   "n": 2,
+   "published": 1884000,
+   "calc": 1884000,
+   "match": true
+  },
+  {
+   "who": "柏市",
+   "nendo": "令和8年度",
+   "kind": "均等割（均等割・所得割とも非課税）",
+   "kyuchi": 2,
+   "n": 3,
+   "published": 2327999,
+   "calc": 2327999,
+   "match": true
+  },
+  {
+   "who": "柏市",
+   "nendo": "令和8年度",
+   "kind": "均等割（均等割・所得割とも非課税）",
+   "kyuchi": 2,
+   "n": 4,
+   "published": 2779999,
+   "calc": 2779999,
+   "match": true
+  },
+  {
+   "who": "柏市",
+   "nendo": "令和8年度",
+   "kind": "所得割",
+   "kyuchi": null,
+   "n": 0,
+   "published": 1100000,
+   "calc": 1100000,
+   "match": true
+  },
+  {
+   "who": "柏市",
+   "nendo": "令和8年度",
+   "kind": "所得割",
+   "kyuchi": null,
+   "n": 1,
+   "published": 1770000,
+   "calc": 1770000,
+   "match": true
+  },
+  {
+   "who": "柏市",
+   "nendo": "令和8年度",
+   "kind": "所得割",
+   "kyuchi": null,
+   "n": 2,
+   "published": 2215999,
+   "calc": 2215999,
+   "match": true
+  },
+  {
+   "who": "柏市",
+   "nendo": "令和8年度",
+   "kind": "所得割",
+   "kyuchi": null,
+   "n": 3,
+   "published": 2715999,
+   "calc": 2715999,
+   "match": true
+  },
+  {
+   "who": "柏市",
+   "nendo": "令和8年度",
+   "kind": "所得割",
+   "kyuchi": null,
+   "n": 4,
+   "published": 3215999,
+   "calc": 3215999,
+   "match": true
+  },
+  {
+   "who": "柏市",
+   "nendo": "令和9年度",
+   "kind": "均等割（均等割・所得割とも非課税）",
+   "kyuchi": 2,
+   "n": 0,
+   "published": 1155000,
+   "calc": 1155000,
+   "match": true
+  },
+  {
+   "who": "柏市",
+   "nendo": "令和9年度",
+   "kind": "均等割（均等割・所得割とも非課税）",
+   "kyuchi": 2,
+   "n": 1,
+   "published": 1659000,
+   "calc": 1659000,
+   "match": true
+  },
+  {
+   "who": "柏市",
+   "nendo": "令和9年度",
+   "kind": "均等割（均等割・所得割とも非課税）",
+   "kyuchi": 2,
+   "n": 2,
+   "published": 1974000,
+   "calc": 1974000,
+   "match": true
+  },
+  {
+   "who": "柏市",
+   "nendo": "令和9年度",
+   "kind": "均等割（均等割・所得割とも非課税）",
+   "kyuchi": 2,
+   "n": 3,
+   "published": 2210000,
+   "calc": 2327999,
+   "match": false
+  },
+  {
+   "who": "柏市",
+   "nendo": "令和9年度",
+   "kind": "均等割（均等割・所得割とも非課税）",
+   "kyuchi": 2,
+   "n": 4,
+   "published": 2560000,
+   "calc": 2779999,
+   "match": false
+  },
+  {
+   "who": "柏市",
+   "nendo": "令和9年度",
+   "kind": "所得割",
+   "kyuchi": null,
+   "n": 0,
+   "published": 1190000,
+   "calc": 1190000,
+   "match": true
+  },
+  {
+   "who": "柏市",
+   "nendo": "令和9年度",
+   "kind": "所得割",
+   "kyuchi": null,
+   "n": 1,
+   "published": 1860000,
+   "calc": 1860000,
+   "match": true
+  },
+  {
+   "who": "柏市",
+   "nendo": "令和9年度",
+   "kind": "所得割",
+   "kyuchi": null,
+   "n": 2,
+   "published": 2214285,
+   "calc": 2215999,
+   "match": false
+  },
+  {
+   "who": "柏市",
+   "nendo": "令和9年度",
+   "kind": "所得割",
+   "kyuchi": null,
+   "n": 3,
+   "published": 2714285,
+   "calc": 2715999,
+   "match": false
+  },
+  {
+   "who": "柏市",
+   "nendo": "令和9年度",
+   "kind": "所得割",
+   "kyuchi": null,
+   "n": 4,
+   "published": 3214285,
+   "calc": 3215999,
+   "match": false
+  },
+  {
+   "who": "神戸市（級地は未確認。1級地として比べる）",
+   "nendo": "令和9年度",
+   "kind": "均等割（均等割・所得割とも非課税）",
+   "kyuchi": 1,
+   "n": 0,
+   "published": 1190000,
+   "calc": 1190000,
+   "match": true
+  },
+  {
+   "who": "神戸市（級地は未確認。1級地として比べる）",
+   "nendo": "令和9年度",
+   "kind": "均等割（均等割・所得割とも非課税）",
+   "kyuchi": 1,
+   "n": 1,
+   "published": 1750000,
+   "calc": 1750000,
+   "match": true
+  },
+  {
+   "who": "柏市",
+   "nendo": "令和8年度",
+   "kind": "未成年者等135万円",
+   "published": 2043999,
+   "calc": 2043999,
+   "match": true
+  },
+  {
+   "who": "世田谷区（「204万4千円未満」）",
+   "nendo": "令和8年度",
+   "kind": "未成年者等135万円",
+   "published": 2043999,
+   "calc": 2043999,
+   "match": true
+  },
+  {
+   "who": "柏市（表の値。本文は「209万円未満」）",
+   "nendo": "令和9年度",
+   "kind": "未成年者等135万円",
+   "published": 2090000,
+   "calc": 2090000,
+   "match": true
+  }
+ ],
+ "tokutei_shinzoku": [
+  {
+   "from": 580001,
+   "to": 950000,
+   "amount": 450000
+  },
+  {
+   "from": 950001,
+   "to": 1000000,
+   "amount": 410000
+  },
+  {
+   "from": 1000001,
+   "to": 1050000,
+   "amount": 310000
+  },
+  {
+   "from": 1050001,
+   "to": 1100000,
+   "amount": 210000
+  },
+  {
+   "from": 1100001,
+   "to": 1150000,
+   "amount": 110000
+  },
+  {
+   "from": 1150001,
+   "to": 1200000,
+   "amount": 60000
+  },
+  {
+   "from": 1200001,
+   "to": 1230000,
+   "amount": 30000
+  },
+  {
+   "from": 1230001,
+   "to": 1230001,
+   "amount": 0
+  }
+ ]
+}

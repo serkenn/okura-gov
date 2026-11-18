@@ -1,0 +1,21 @@
+description: ひとり親控除（所得税法第81条第1項）の額。
+額:
+  description: ひとり親控除の額
+  metadata:
+    law: 所得税法第81条第1項
+    source_kind: 法律
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md#1.2
+      - docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md#1.4
+  values:
+    2025-01-01:
+      value: 350000
+      metadata:
+        適用: 令和7年分・令和8年分（令和8年法律第12号附則第8条：令和8年分以前は従前の例）
+    2027-01-01:
+      value: 380000
+      metadata:
+        施行日: 2027-01-01
+        適用: 令和9年分以後（令和8年法律第12号附則第1条第5号イ・附則第8条。この版の年分の範囲外）
+        law_revision: 340AC0000000033_20270101_508AC0000000012

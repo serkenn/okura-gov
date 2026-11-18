@@ -1,0 +1,17 @@
+package: openfisca-japan
+latest: 2.2.0
+requires_python: None
+license: http://www.fsf.org/licensing/licenses/agpl-3.0.html
+
+# 最近30件（最初のファイルのアップロード日時, バージョン）
+2025-04-22T01:17:21 1.3.0
+2025-06-22T14:08:36 1.4.0
+2025-10-15T13:35:34 2.0.0
+2026-02-14T10:34:37 2.1.0
+2026-04-12T11:07:37 2.1.1
+2026-04-16T12:40:54 2.1.2
+2026-08-26T05:14:03 2.2.0
+
+# 最新版 2.2.0 の配布ファイル（ファイル名, 種類, sha256）
+openfisca_japan-2.2.0-py3-none-any.whl bdist_wheel 58cd9417ce49e0d9f23ad9526d751d6c8b5855c62b0d0c7c9fbf0e3b25f7ee29
+openfisca_japan-2.2.0.tar.gz sdist f21aaee3a6f923c1f8f1b48946473aab783f77edf68672199017549a5c681eee

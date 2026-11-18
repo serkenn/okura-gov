@@ -1,0 +1,36 @@
+{
+ "set": "v_shinsa_index2",
+ "fetched_at_local": "20261111-025752",
+ "user_agent": "okura-gov-research/0.1",
+ "download_dir": ".work/downloads/20261111-025752_R3X_dai3go_verify_v_shinsa_index2",
+ "results": [
+  {
+   "id": "idx_root_05",
+   "url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/05.html",
+   "status": 200,
+   "final_url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/05.html",
+   "content_type": "text/html",
+   "bytes": 12875,
+   "sha256": "f5ac2ca07c740a47b99913e75d83819bae1b8ae0a48930c517062681e86c868b",
+   "last_modified": "Fri, 10 Jul 2026 01:48:57 GMT",
+   "saved": ".work/downloads/20261111-025752_R3X_dai3go_verify_v_shinsa_index2/idx_root_05.html",
+   "charset": "shift_jis",
+   "title": "裁決例一覧｜厚生労働省",
+   "text": "scripts/results/R3X_dai3go_verify/text/20261111-025752_v_shinsa_index2/idx_root_05.txt"
+  },
+  {
+   "id": "idx_h27",
+   "url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/h27.html",
+   "status": 404,
+   "final_url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/h27.html",
+   "content_type": "text/html",
+   "bytes": 48956,
+   "sha256": "37e627f723d829e580aff7df6685c5990de4a540de76531e7f55f03fc88bc7b8",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025752_R3X_dai3go_verify_v_shinsa_index2/idx_h27.html",
+   "charset": "UTF-8",
+   "title": "お探しのページが見つかりません。｜厚生労働省",
+   "text": "scripts/results/R3X_dai3go_verify/text/20261111-025752_v_shinsa_index2/idx_h27.txt"
+  }
+ ]
+}

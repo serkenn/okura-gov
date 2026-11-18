@@ -1,0 +1,44 @@
+{
+ "run_at": "20261109-200747",
+ "set": "index",
+ "download_dir": ".work/downloads/20261109-200747_R3X_chiho-sochi_web_index",
+ "robots": {
+  "https://www.soumu.go.jp": {
+   "status": 200,
+   "sha256": "e0cc280a3ed01a4ee4785320fdacf31ef4724eddf0a46eb860df651eaede55e4"
+  }
+ },
+ "fetches": [
+  {
+   "name": "soumu_ichiran04",
+   "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran04.html",
+   "why": "総務省「税制改正（地方税）」の一覧。改正法・政令・取扱通知・留意事項の通知へのリンク元",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 21 Oct 2026 01:00:45 GMT",
+   "final_url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran04.html",
+   "bytes": 186095,
+   "sha256": "ab72810a39d3c3a81a81448619edf8027cb21d4419c187bb8769df35cfd240ce",
+   "saved": ".work/downloads/20261109-200747_R3X_chiho-sochi_web_index/soumu_ichiran04.html",
+   "fetched_at": "2026-11-09T20:07:58",
+   "title": "総務省｜地方税制度｜税制改正（地方税）",
+   "encoding": "Shift_JIS",
+   "text": "scripts/results/R3X_chiho-sochi_web/index/soumu_ichiran04.txt"
+  },
+  {
+   "name": "soumu_tsuchi_index",
+   "url": "https://www.soumu.go.jp/menu_hourei/s_tsuchi.html",
+   "why": "総務省「通知・通達」の一覧（URL は推測。なければ記録だけ）",
+   "robots_allowed": true,
+   "status": 404,
+   "content_type": "text/html",
+   "last_modified": "",
+   "final_url": "https://www.soumu.go.jp/menu_hourei/s_tsuchi.html",
+   "bytes": 39276,
+   "sha256": "6650e8162b136e14b20da3de0dd7cc93195d9652e6bf764dab646d224ad68d51",
+   "saved": ".work/downloads/20261109-200747_R3X_chiho-sochi_web_index/soumu_tsuchi_index.html",
+   "fetched_at": "2026-11-09T20:08:00"
+  }
+ ]
+}

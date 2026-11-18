@@ -1,0 +1,43 @@
+{
+  "set": "nta_pdf",
+  "fetched_at_local": "20261109-173724",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "nencho2025_105",
+      "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2025/pdf/105.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2025/pdf/105.pdf",
+      "content_type": "application/pdf",
+      "bytes": 1077260,
+      "sha256": "f69eda756f726c1ac4a6dc1773924e87cfccbd5ae83c3ce67f211e5c96a9d747",
+      "last_modified": "Wed, 03 Sep 2025 08:30:05 GMT",
+      "etag": "\"10700c-63de1696ad568\"",
+      "saved": ".work\\downloads\\20261109-173724_R2X_jinteki_nta_pdf\\nencho2025_105.pdf"
+    },
+    {
+      "id": "nencho2026_105",
+      "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/105.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/105.pdf",
+      "content_type": "application/pdf",
+      "bytes": 1063580,
+      "sha256": "9460af44b13c8651c3a7bcb3f770946397793fcd4f0db19b2e7e8d612e4188f5",
+      "last_modified": "Thu, 24 Sep 2026 08:30:11 GMT",
+      "etag": "\"103a9c-65c3668836d68\"",
+      "saved": ".work\\downloads\\20261109-173724_R2X_jinteki_nta_pdf\\nencho2026_105.pdf"
+    },
+    {
+      "id": "gensen_2026kaisei",
+      "url": "https://www.nta.go.jp/publication/pamph/gensen/2026kaisei.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/publication/pamph/gensen/2026kaisei.pdf",
+      "content_type": "application/pdf",
+      "bytes": 1632234,
+      "sha256": "8db585cd5feef2eb29109a16a2e7b16054a0fa4d6423ac622d9ea12c54b39945",
+      "last_modified": "Mon, 20 Apr 2026 08:30:02 GMT",
+      "etag": "\"18e7ea-64fe01ae50c18\"",
+      "saved": ".work\\downloads\\20261109-173724_R2X_jinteki_nta_pdf\\gensen_2026kaisei.pdf"
+    }
+  ]
+}

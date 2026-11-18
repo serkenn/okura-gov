@@ -1,0 +1,116 @@
+{
+  "set": "mhlw_shiryo",
+  "fetched_at_local": "20261109-201613",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work/downloads/20261109-201613_R3X_dai3go_mhlw_shiryo",
+  "results": [
+    {
+      "id": "c_0000088039",
+      "url": "https://www.mhlw.go.jp/content/12500000/0000088039.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/12500000/0000088039.pdf",
+      "content_type": "application/pdf",
+      "bytes": 1721863,
+      "sha256": "acbfff62e7d6b5d667719d8e6a049f39cd83437458ff1bd518130940194883b8",
+      "last_modified": "Wed, 25 Mar 2026 03:20:09 GMT",
+      "etag": "\"1a4607-64dd0beca4afa\"",
+      "saved": ".work/downloads/20261109-201613_R3X_dai3go_mhlw_shiryo/c_0000088039.pdf"
+    },
+    {
+      "id": "c_0000086586",
+      "url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-12500000-Nenkinkyoku/0000086586.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-12500000-Nenkinkyoku/0000086586.pdf",
+      "content_type": "application/pdf",
+      "bytes": 1078629,
+      "sha256": "45fb861814b5a97b10bab4520a8b270369204290555428f6c5470b3defef2d25",
+      "last_modified": "Tue, 12 Jun 2018 20:19:30 GMT",
+      "etag": "\"107565-56e779562d880\"",
+      "saved": ".work/downloads/20261109-201613_R3X_dai3go_mhlw_shiryo/c_0000086586.pdf"
+    },
+    {
+      "id": "c_0000086587",
+      "url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-12500000-Nenkinkyoku/0000086587.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-12500000-Nenkinkyoku/0000086587.pdf",
+      "content_type": "application/pdf",
+      "bytes": 3549974,
+      "sha256": "f2a8b6049f0fe241b93dd47e4034499287178e3ed986807d81a593651678a261",
+      "last_modified": "Tue, 12 Jun 2018 20:19:23 GMT",
+      "etag": "\"362b16-56e7794f808c0\"",
+      "saved": ".work/downloads/20261109-201613_R3X_dai3go_mhlw_shiryo/c_0000086587.pdf"
+    },
+    {
+      "id": "s_2r9852000001789o",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001784y-att/2r9852000001789o.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001784y-att/2r9852000001789o.pdf",
+      "content_type": "application/pdf",
+      "bytes": 285180,
+      "sha256": "90b9ee08b05b5371e3a28609f3288b86aaa2e665b7da91ddd9fcde922b75c22d",
+      "last_modified": "Sun, 10 Jun 2018 09:18:26 GMT",
+      "etag": "\"459fc-56e461d8b7c80\"",
+      "saved": ".work/downloads/20261109-201613_R3X_dai3go_mhlw_shiryo/s_2r9852000001789o.pdf"
+    },
+    {
+      "id": "s_2r98520000017893",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001784y-att/2r98520000017893.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001784y-att/2r98520000017893.pdf",
+      "content_type": "application/pdf",
+      "bytes": 127343,
+      "sha256": "07173ab7a0c829c391b9f9b5e30dbca9c3f1a70dc4481d53ec0fe35ae89cf9fb",
+      "last_modified": "Sun, 10 Jun 2018 09:18:32 GMT",
+      "etag": "\"1f16f-56e461de70a00\"",
+      "saved": ".work/downloads/20261109-201613_R3X_dai3go_mhlw_shiryo/s_2r98520000017893.pdf"
+    },
+    {
+      "id": "s_2r9852000001q11t",
+      "url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001q0wz-att/2r9852000001q11t.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/stf/shingi/2r9852000001q0wz-att/2r9852000001q11t.pdf",
+      "content_type": "application/pdf",
+      "bytes": 1672877,
+      "sha256": "fac62c3d497c2184f36fc53c276d383ca05e57b1ad9e69fb9736e80642a5c79f",
+      "last_modified": "Sun, 10 Jun 2018 11:06:26 GMT",
+      "etag": "\"1986ad-56e479fc87080\"",
+      "saved": ".work/downloads/20261109-201613_R3X_dai3go_mhlw_shiryo/s_2r9852000001q11t.pdf"
+    },
+    {
+      "id": "c_001745398",
+      "url": "https://www.mhlw.go.jp/content/12500000/001745398.pdf",
+      "status": 404,
+      "final_url": "https://www.mhlw.go.jp/content/12500000/001745398.pdf",
+      "content_type": "text/html",
+      "bytes": 48956,
+      "sha256": "37e627f723d829e580aff7df6685c5990de4a540de76531e7f55f03fc88bc7b8",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work/downloads/20261109-201613_R3X_dai3go_mhlw_shiryo/c_001745398.pdf"
+    },
+    {
+      "id": "c_001763351",
+      "url": "https://www.mhlw.go.jp/content/12500000/001763351.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/12500000/001763351.pdf",
+      "content_type": "application/pdf",
+      "bytes": 325038,
+      "sha256": "5743bd2d41bf3e9726075f29b56b42db3b858f5a6aec6ff448c639401f922499",
+      "last_modified": "Tue, 27 Oct 2026 07:25:47 GMT",
+      "etag": "\"4f5ae-65ecd5aef527d\"",
+      "saved": ".work/downloads/20261109-201613_R3X_dai3go_mhlw_shiryo/c_001763351.pdf"
+    },
+    {
+      "id": "c_001743078",
+      "url": "https://www.mhlw.go.jp/content/12500000/001743078.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/12500000/001743078.pdf",
+      "content_type": "application/pdf",
+      "bytes": 140835,
+      "sha256": "753b6cc65681e76b06c67810e88e401f0aa0023e1a1d4d1d9b9b19843d19a6ef",
+      "last_modified": "Fri, 28 Aug 2026 05:08:31 GMT",
+      "etag": "\"22623-65a147192c82d\"",
+      "saved": ".work/downloads/20261109-201613_R3X_dai3go_mhlw_shiryo/c_001743078.pdf"
+    }
+  ]
+}

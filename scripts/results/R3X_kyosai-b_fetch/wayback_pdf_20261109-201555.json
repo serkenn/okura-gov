@@ -1,0 +1,33 @@
+{
+  "set": "wayback_pdf",
+  "fetched_at_local": "20261109-201555",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "wb_20250721_mof_unyo",
+      "url": "https://web.archive.org/web/20250721103617id_/https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/TU-19591001-2927-11.pdf",
+      "status": 200,
+      "final_url": "https://web.archive.org/web/20250721103617id_/https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/TU-19591001-2927-11.pdf",
+      "content_type": "application/pdf",
+      "bytes": 442213,
+      "sha256": "6a5145622e949573881c9c12d6d24ae1e87c4733d1e0fa759af3769a599625f7",
+      "last_modified": null,
+      "etag": null,
+      "content_disposition": null,
+      "saved": ".work/downloads/20261109-201555_R3X_kyosai-b_wayback_pdf/wb_20250721_mof_unyo.pdf"
+    },
+    {
+      "id": "wb_20260926_mof_unyo",
+      "url": "https://web.archive.org/web/20260926161059id_/https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/TU-19591001-2927-11.pdf",
+      "status": 200,
+      "final_url": "https://web.archive.org/web/20260926161059id_/https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/TU-19591001-2927-11.pdf",
+      "content_type": "application/pdf",
+      "bytes": 444129,
+      "sha256": "96e7476e93c203e22fb50e14508b84e564c38a12d69a4b53612023dd84766aa1",
+      "last_modified": null,
+      "etag": null,
+      "content_disposition": null,
+      "saved": ".work/downloads/20261109-201555_R3X_kyosai-b_wayback_pdf/wb_20260926_mof_unyo.pdf"
+    }
+  ]
+}

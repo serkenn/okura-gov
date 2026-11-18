@@ -1,0 +1,510 @@
+[
+ {
+  "href": "https://www.e-tax.nta.go.jp/",
+  "text": "ホーム"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc01",
+  "text": "〔alt:リンクアイコン〕 e-Tax仕様公開について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc02",
+  "text": "〔alt:リンクアイコン〕 公開スケジュール等"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc03",
+  "text": "〔alt:リンクアイコン〕 各仕様書"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html",
+  "text": "（注）"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html",
+  "text": "（注）"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html",
+  "text": "（注）"
+ },
+ {
+  "href": "https://www.nta.go.jp/publication/pamph/hotei/denshikofu-qa/question.htm",
+  "text": "給与所得の源泉徴収票等の電磁的方法による提供（電子交付）に関するQ&A"
+ },
+ {
+  "href": "https://www.nta.go.jp/users/gensen/oshirase/0019004-159.htm",
+  "text": "控除申告書データに係る仕様公開"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html",
+  "text": "（注）"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/toiawase/toiawase3.htm",
+  "text": "電子メールによるお問い合わせ"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/keikaku.htm",
+  "text": "〔alt:リンクアイコン〕 e-Tax仕様公開等スケジュール"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/module/261030module.xlsx",
+  "text": "〔alt:リンクアイコン〕 令和9年1月の各種モジュール（送受信、電子署名及びCSV変換）の更新予定確認表 〔alt:EXCELファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/module/260828module.xlsx",
+  "text": "令和8年9月の各種モジュール（送受信、電子署名及びCSV変換）の更新予定確認表（令和8年8月28日更新） 〔alt:EXCELファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/module/260812module.xlsx",
+  "text": "令和8年9月の各種モジュール（送受信、電子署名及びCSV変換）の更新予定確認表（令和8年8月12日更新） 〔alt:EXCELファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/module/260615module.xlsx",
+  "text": "令和8年9月の各種モジュール（送受信、電子署名及びCSV変換）の更新予定確認表（令和8年6月15日更新） 〔alt:EXCELファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/module/260518module.xlsx",
+  "text": "令和8年5月の各種モジュール（送受信、電子署名及びCSV変換）の更新予定確認表（令和8年5月18日更新） 〔alt:EXCELファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/module/260501module.xlsx",
+  "text": "令和8年5月の各種モジュール（送受信、電子署名及びCSV変換）の更新予定確認表（令和8年5月1日更新） 〔alt:EXCELファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/module/260226module.xlsx",
+  "text": "令和8年3月の各種モジュール（送受信、電子署名及びCSV変換）の更新予定確認表（令和8年2月26日更新） 〔alt:EXCELファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/module/260130module.xlsx",
+  "text": "令和8年3月の各種モジュール（送受信、電子署名及びCSV変換）の更新予定確認表（令和8年1月30日更新） 〔alt:EXCELファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/module/251125module.xlsx",
+  "text": "令和8年1月の各種モジュール（送受信、電子署名及びCSV変換）の更新予定確認表（令和7年11月25日更新） 〔alt:EXCELファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/module/251030module.xlsx",
+  "text": "令和8年1月の各種モジュール（送受信、電子署名及びCSV変換）の更新予定確認表（令和7年10月30日更新） 〔alt:EXCELファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/module/250828module.xlsx",
+  "text": "令和7年9月の各種モジュール（送受信、電子署名及びCSV変換）の更新予定確認表（令和7年8月28日更新） 〔alt:EXCELファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/module/250812module.xlsx",
+  "text": "令和7年9月の各種モジュール（送受信、電子署名及びCSV変換）の更新予定確認表（令和7年8月12日更新） 〔alt:EXCELファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/module/250515module.xlsx",
+  "text": "令和7年5月の各種モジュール（送受信、電子署名及びCSV変換）の更新予定確認表（令和7年5月15日更新） 〔alt:EXCELファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/module/250502module.xlsx",
+  "text": "令和7年5月の各種モジュール（送受信、電子署名及びCSV変換）の更新予定確認表（令和7年5月2日更新） 〔alt:EXCELファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/module/250227module.xlsx",
+  "text": "令和7年3月の各種モジュール（送受信、電子署名及びCSV変換）の更新予定確認表（令和7年2月27日更新） 〔alt:EXCELファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/module/241125module.xlsx",
+  "text": "令和7年1月の各種モジュール（送受信、電子署名及びCSV変換）の更新予定確認表（令和6年11月25日更新） 〔alt:EXCELファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/module/241031module.xlsx",
+  "text": "令和7年1月の各種モジュール（送受信、電子署名及びCSV変換）の更新予定確認表（令和6年10月31日更新） 〔alt:EXCELファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/module/240826module.xlsx",
+  "text": "令和6年9月の各種モジュール（送受信、電子署名及びCSV変換）の更新予定確認表 〔alt:EXCELファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/module/240604module.xlsx",
+  "text": "令和6年5月の各種モジュール（送受信、電子署名及びCSV変換）の更新予定確認表 〔alt:EXCELファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/module/240419module.xlsx",
+  "text": "令和6年3月の各種モジュール（送受信、電子署名及びCSV変換）の更新予定確認表 〔alt:EXCELファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/module/231206module.xlsx",
+  "text": "令和6年1月の各種モジュール（送受信、電子署名及びCSV変換）の更新予定確認表 〔alt:EXCELファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/topics_20261030_chohyo_shohihikisage.htm",
+  "text": "〔alt:リンクアイコン〕 令和9年5月のe-Taxソフト更新対象帳票一覧（消費税率引下げ対応）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/topics_20260924_chohyo.htm",
+  "text": "〔alt:リンクアイコン〕 令和9年1月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/topics_20260615_chohyo.htm",
+  "text": "令和8年9月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/topics_20260501_chohyo.htm",
+  "text": "令和8年5月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/topics_20260115_chohyo.htm",
+  "text": "令和8年3月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/topics_20250924_chohyo.htm",
+  "text": "令和8年1月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/topics_20250630_chohyo.htm",
+  "text": "令和7年9月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/topics_20250502_chohyo.htm",
+  "text": "令和7年5月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/topics_20250116_chohyo.htm",
+  "text": "令和7年3月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/topics_20240924_chohyo.htm",
+  "text": "令和7年1月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/topics_20240627_chohyo.htm",
+  "text": "令和6年9月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/topics_20240430_chohyo.htm",
+  "text": "令和6年5月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/topics_20240115_shiyo.htm",
+  "text": "令和6年3月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/topics_20230925.htm",
+  "text": "令和6年1月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/shiyo_chohyo_20230629.htm",
+  "text": "令和5年9月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/shiyo_chohyo_20230427.htm",
+  "text": "令和5年5月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/shiyo_chohyo_20230111.htm",
+  "text": "令和5年3月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/shiyo_chohyo_20220926.htm",
+  "text": "令和5年1月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/shiyo_chohyo_20220630.htm",
+  "text": "令和4年9月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/shiyo_chohyo_20220427.htm",
+  "text": "令和4年5月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/shiyo_chohyo_20220111.htm",
+  "text": "令和4年3月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/shiyo_chohyo_20210927.htm",
+  "text": "令和4年1月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/shiyo_chohyo_20210805.htm",
+  "text": "令和3年9月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/chohyo/shiyo_chohyo_20210422.htm",
+  "text": "令和3年5月のe-Taxソフト更新対象帳票一覧（予定）について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/imagetetsuzuki/hanyo_20270104.pdf",
+  "text": "〔alt:リンクアイコン〕 令和9年1月の「イメージデータで送信可能な手続」の更新（予定）手続について 〔alt:PDFファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/imagetetsuzuki/hanyo_20260924.pdf",
+  "text": "令和8年9月の「イメージデータで送信可能な手続」の更新（予定）手続について 〔alt:PDFファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/imagetetsuzuki/hanyo_20260525.pdf",
+  "text": "令和8年5月の「イメージデータで送信可能な手続」の更新（予定）手続について 〔alt:PDFファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/imagetetsuzuki/hanyo_20260323.pdf",
+  "text": "令和8年3月の「イメージデータで送信可能な手続」の更新（予定）手続について 〔alt:PDFファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/imagetetsuzuki/hanyo_20260105.pdf",
+  "text": "令和8年1月の「イメージデータで送信可能な手続」の更新（予定）手続について 〔alt:PDFファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/imagetetsuzuki/hanyo_20250916.pdf",
+  "text": "令和7年9月の「イメージデータで送信可能な手続」の更新（予定）手続について 〔alt:PDFファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/imagetetsuzuki/hanyo_20250526.pdf",
+  "text": "令和7年5月の「イメージデータで送信可能な手続」の更新（予定）手続について 〔alt:PDFファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/imagetetsuzuki/hanyo_20250324.pdf",
+  "text": "令和7年3月の「イメージデータで送信可能な手続」の更新（予定）手続について 〔alt:PDFファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/imagetetsuzuki/hanyo_20250106.pdf",
+  "text": "令和7年1月の「イメージデータで送信可能な手続」の更新（予定）手続について 〔alt:PDFファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/imagetetsuzuki/hanyo_20240924.pdf",
+  "text": "令和6年9月の「イメージデータで送信可能な手続」の更新（予定）手続について 〔alt:PDFファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/imagetetsuzuki/hanyo_20240520.pdf",
+  "text": "令和6年5月の「イメージデータで送信可能な手続」の更新（予定）手続について 〔alt:PDFファイル〕"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo3.htm",
+  "text": "e-Tax仕様書一覧"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc04",
+  "text": "e-Tax等仕様公開に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc04",
+  "text": "e-Tax等仕様公開に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo3.htm",
+  "text": "〔alt:リンクアイコン〕 e-Tax仕様書一覧"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo2.htm#anc01",
+  "text": "〔alt:リンクアイコン〕 更新履歴"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo2.htm#anc02",
+  "text": "〔alt:リンクアイコン〕 開発に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-withholding3.htm",
+  "text": "源泉徴収票等のオンライン送信に係る仕様書一覧"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc04",
+  "text": "e-Tax等仕様公開に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc04",
+  "text": "e-Tax等仕様公開に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-withholding3.htm",
+  "text": "〔alt:リンクアイコン〕 源泉徴収票等のオンライン送信に係る仕様書一覧"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-withholding2.htm#anc01",
+  "text": "〔alt:リンクアイコン〕 更新履歴"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-withholding2.htm#anc02",
+  "text": "〔alt:リンクアイコン〕 開発に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-nisa3.htm",
+  "text": "金融機関等の源泉所得税に関する手続に係る仕様書一覧"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc04",
+  "text": "e-Tax等仕様公開に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc04",
+  "text": "e-Tax等仕様公開に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-nisa3.htm",
+  "text": "〔alt:リンクアイコン〕 金融機関等の源泉所得税に関する手続に係る仕様書一覧"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-nisa2.htm#anc01",
+  "text": "〔alt:リンクアイコン〕 更新履歴"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-nisa2.htm#anc02",
+  "text": "〔alt:リンクアイコン〕 開発に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-tp3.htm",
+  "text": "多国籍企業情報の報告に係る仕様書一覧"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc04",
+  "text": "e-Tax等仕様公開に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc04",
+  "text": "e-Tax等仕様公開に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-tp3.htm",
+  "text": "〔alt:リンクアイコン〕 多国籍企業情報の報告に係る仕様書一覧"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-tp2.htm#anc01",
+  "text": "〔alt:リンクアイコン〕 更新履歴"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-tp2.htm#anc02",
+  "text": "〔alt:リンクアイコン〕 開発に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-crs3.htm",
+  "text": "報告事項の提供方法（CRS）に係る仕様書一覧"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc04",
+  "text": "e-Tax等仕様公開に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc04",
+  "text": "e-Tax等仕様公開に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-crs3.htm",
+  "text": "〔alt:リンクアイコン〕 報告事項の提供方法（CRS）に係る仕様書一覧"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-crs2.htm#anc01",
+  "text": "〔alt:リンクアイコン〕 更新履歴"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-crs2.htm#anc02",
+  "text": "〔alt:リンクアイコン〕 開発に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-kojo3.htm",
+  "text": "電子的控除証明書等に係る仕様書一覧"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc04",
+  "text": "e-Tax等仕様公開に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc04",
+  "text": "e-Tax等仕様公開に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-kojo3.htm",
+  "text": "〔alt:リンクアイコン〕 電子的控除証明書等に係る仕様書一覧"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-kojo2.htm#anc01",
+  "text": "〔alt:リンクアイコン〕 更新履歴"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-kojo2.htm#anc02",
+  "text": "〔alt:リンクアイコン〕 開発に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-tokuteikoza3.htm",
+  "text": "電子的控除証明書等（金融機関等発行書類）に係る仕様書一覧"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc04",
+  "text": "e-Tax等仕様公開に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc04",
+  "text": "e-Tax等仕様公開に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-tokuteikoza3.htm",
+  "text": "〔alt:リンクアイコン〕 電子的控除証明書等（金融機関等発行書類）に係る仕様書一覧"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-tokuteikoza2.htm#anc01",
+  "text": "〔alt:リンクアイコン〕 更新履歴"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-tokuteikoza2.htm#anc02",
+  "text": "〔alt:リンクアイコン〕 開発に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-hoteichosho3.htm",
+  "text": "クラウドサービス等を利用した法定調書の提出に係る仕様書一覧"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc04",
+  "text": "e-Tax等仕様公開に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc04",
+  "text": "e-Tax等仕様公開に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-hoteichosho3.htm",
+  "text": "〔alt:リンクアイコン〕 クラウドサービス等を利用した法定調書の提出に係る仕様書一覧"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-hoteichosho2.htm#anc01",
+  "text": "〔alt:リンクアイコン〕 更新履歴"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-hoteichosho2.htm#anc02",
+  "text": "〔alt:リンクアイコン〕 開発に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-clnisa3.htm",
+  "text": "NISAに係るクラウドサービス事業者等の仕様書一覧"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc04",
+  "text": "e-Tax等仕様公開に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc04",
+  "text": "e-Tax等仕様公開に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-clnisa3.htm",
+  "text": "〔alt:リンクアイコン〕 NISAに係るクラウドサービス事業者等の仕様書一覧"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-clnisa2.htm#anc01",
+  "text": "〔alt:リンクアイコン〕 更新履歴"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo-clnisa2.htm#anc02",
+  "text": "〔alt:リンクアイコン〕 開発に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_layout.htm",
+  "text": "AI-OCR化対象帳票レイアウトの提供について"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc04",
+  "text": "e-Tax等仕様公開に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/index.html#anc04",
+  "text": "e-Tax等仕様公開に当たっての注意事項"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_ai-ocr.htm",
+  "text": "〔alt:リンクアイコン〕 AI-OCRの概要 （令和8年10月30日更新）"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_layout.htm",
+  "text": "〔alt:リンクアイコン〕 AI-OCR化対象帳票レイアウトの提供について （令和8年10月30日更新）"
+ }
+]

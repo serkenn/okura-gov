@@ -1,0 +1,37 @@
+{
+ "schema_version": "0",
+ "persons": [
+  {"id": "p-s", "birth_on": "1985-04-01"}
+ ],
+ "relations": [],
+ "residences": [],
+ "insurance_memberships": [],
+ "facts": [
+  {"id": "f-sal-s-12", "kind": "salary_payment", "roles": {"recipient": "p-s"}, "when": {"on": "2026-12-25"},
+   "amounts": {"gross": 4000000}, "attributes": {"counterparty": "架空商事", "due_on": "2026-12-25"}},
+  {"id": "f-se-s-pass", "kind": "specific_expense", "roles": {"payer": "p-s"}, "when": {"on": "2026-04-01"},
+   "amounts": {"amount": 180000, "reimbursed_nontaxable": 60000, "commuter_pass_value": 180000},
+   "attributes": {"category": "commuting_transit", "certified_by": "payer", "payer_name": "架空商事", "counterparty": "架空鉄道",
+                  "description": "通勤定期券（2026年4月〜2027年3月の分のうち2026年分）", "attributed_year": 2026}},
+  {"id": "f-se-s-move", "kind": "specific_expense", "roles": {"payer": "p-s"}, "when": {"on": "2026-05-10"},
+   "amounts": {"amount": 300000, "special_seat_fee": 20000},
+   "attributes": {"category": "relocation", "certified_by": "payer", "transfer_on": "2026-04-01", "counterparty": "架空引越"}},
+  {"id": "f-se-s-course", "kind": "specific_expense", "roles": {"payer": "p-s"}, "when": {"on": "2026-07-01"},
+   "amounts": {"amount": 200000, "training_benefit": 40000},
+   "attributes": {"category": "qualification", "certified_by": "career_consultant", "education_training": true, "counterparty": "架空学院"}},
+  {"id": "f-se-s-books", "kind": "specific_expense", "roles": {"payer": "p-s"}, "when": {"on": "2026-08-01"},
+   "amounts": {"amount": 30000}, "attributes": {"category": "books", "certified_by": "payer", "description": "専門書"}},
+  {"id": "f-se-s-trip", "kind": "specific_expense", "roles": {"payer": "p-s"}, "when": {"on": "2026-09-01"},
+   "amounts": {"amount": 50000, "special_seat_fee": 5000},
+   "attributes": {"category": "home_leave", "certified_by": "payer", "transfer_on": "2026-04-01", "sleeper_fees": [7000]}},
+  {"id": "f-ad-s-2027", "kind": "authority_decision", "roles": {"person": "p-s"}, "when": {"fiscal_year": 2027},
+   "attributes": {"decision": "reduction_approved", "authority": "municipality", "tax_item": "resident_tax", "municipality_code": "990011"}}
+ ],
+ "assets": [],
+ "filed_documents": [],
+ "judgments": [],
+ "choices": [
+  {"id": "c-tokutei-s-2026", "kind": "選択.特定支出控除", "chosen_by": "p-s", "chosen_at": "2027-02-10T10:00:00+09:00",
+   "subject": {"person": "p-s"}, "when": {"tax_year": 2026}, "value": true}
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "run_at": "20261109-151412",
+ "download_dir": ".work\\downloads\\20261109-151412_IMPL_juminzei_laws",
+ "only": [
+  "chiho-ki"
+ ],
+ "fetches": [
+  {
+   "short": "chiho-ki",
+   "law": "地方税法施行規則",
+   "law_id": "329M50000002023",
+   "law_num": "昭和二十九年総理府令第二十三号",
+   "asof": "2026-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/329M50000002023?response_format=json&asof=2026-01-01",
+   "law_revision_id": "329M50000002023_20260101_507M60000008116",
+   "amendment_law_num": "令和七年総務省令第百十六号",
+   "amendment_law_title": "地方税法施行規則の一部を改正する省令",
+   "amendment_enforcement_date": "2026-01-01",
+   "updated": "2026-01-21T00:08:26+09:00",
+   "current_revision_status": "PreviousEnforced"
+  },
+  {
+   "short": "chiho-ki",
+   "law": "地方税法施行規則",
+   "law_id": "329M50000002023",
+   "law_num": "昭和二十九年総理府令第二十三号",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/329M50000002023?response_format=json&asof=2026-11-09",
+   "law_revision_id": "329M50000002023_20261101_508M60000008045",
+   "amendment_law_num": "令和八年総務省令第四十五号",
+   "amendment_law_title": "地方税法施行規則の一部を改正する省令",
+   "amendment_enforcement_date": "2026-11-01",
+   "updated": "2026-11-05T09:09:11+09:00",
+   "current_revision_status": "CurrentEnforced"
+  },
+  {
+   "short": "chiho-ki",
+   "law": "地方税法施行規則",
+   "law_id": "329M50000002023",
+   "law_num": "昭和二十九年総理府令第二十三号",
+   "asof": "2027-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/329M50000002023?response_format=json&asof=2027-01-01",
+   "law_revision_id": "329M50000002023_20270101_508M60000008089",
+   "amendment_law_num": "令和八年総務省令第八十九号",
+   "amendment_law_title": "地方税法施行規則の一部を改正する省令",
+   "amendment_enforcement_date": "2027-01-01",
+   "updated": "2026-11-05T11:05:53+09:00",
+   "current_revision_status": "UnEnforced"
+  }
+ ],
+ "errors": []
+}

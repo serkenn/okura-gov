@@ -1,0 +1,47 @@
+description: >-
+  雑損控除（所得税法第72条第1項）と、控除の対象の資産を有する親族の所得要件（所得税法施行令第205条第1項）。
+  第72条は所法R6〜R9 で同文（docs/public-sources/20261109_round2_hoken-kifu-laws.md §1・§6）。
+総所得金額等の率:
+  分子:
+    description: 足切りの額に使う、総所得金額等に乗じる率の分子（第1項第1号「十分の一」）
+    metadata: &art72
+      law: 所得税法第72条第1項第1号（「その者のその年分の総所得金額、退職所得金額及び山林所得金額の合計額の十分の一に相当する金額」）
+      source_kind: 法律
+      reference:
+        - docs/public-sources/20261109_round2_hoken-kifu-laws.md#6
+        - docs/public-sources/20261109_round2_hoken-kifu-laws.md#1
+    values:
+      2025-01-01:
+        value: 1
+        metadata: &r6r9
+          適用: 所法R6〜R9 の版で第72条の本文が同じ（docs/measurements/20261109_round2_hoken-kifu-fetch.md §2）。この規定を設けた改正法と当初の施行日は docs で確かめていない
+  分母:
+    description: 同じ率の分母（「十分の一」）
+    metadata: *art72
+    values:
+      2025-01-01: {value: 10, metadata: *r6r9}
+災害関連支出の額:
+  description: 災害関連支出の金額の基準（第1項第1号〜第3号「五万円」）
+  metadata: *art72
+  values:
+    2025-01-01: {value: 50000, metadata: *r6r9}
+親族の総所得金額等の上限:
+  description: 生計を一にする親族の有する資産について控除できるときの、親族の総所得金額・退職所得金額・山林所得金額の合計額の上限（所得税法施行令第205条第1項）
+  metadata:
+    law: 所得税法施行令第205条第1項
+    source_kind: 政令
+    比較: 以下
+    reference:
+      - docs/public-sources/20261109_round2_hoken-kifu-laws.md#6
+      - docs/public-sources/20261109_round2_hoken-kifu-laws.md#1
+  values:
+    2025-01-01:
+      value: 580000
+      metadata:
+        施行日: 2025-12-01
+        適用: 令和7年政令第120号（2025-12-01 施行）附則第10条で令和7年分以後
+    2026-01-01:
+      value: 620000
+      metadata:
+        施行日: 2026-12-01
+        適用: 令和8年政令第93号（2026-12-01 施行）附則第8条で令和8年分以後

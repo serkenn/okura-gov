@@ -1,0 +1,903 @@
+{
+ "shotoku_R7": [
+  [
+   {
+    "spouse_from": 580001,
+    "spouse_to": 950000,
+    "amount": 380000
+   },
+   {
+    "spouse_from": 950001,
+    "spouse_to": 1000000,
+    "amount": 360000
+   },
+   {
+    "spouse_from": 1000001,
+    "spouse_to": 1050000,
+    "amount": 310000
+   },
+   {
+    "spouse_from": 1050001,
+    "spouse_to": 1100000,
+    "amount": 260000
+   },
+   {
+    "spouse_from": 1100001,
+    "spouse_to": 1150000,
+    "amount": 210000
+   },
+   {
+    "spouse_from": 1150001,
+    "spouse_to": 1200000,
+    "amount": 160000
+   },
+   {
+    "spouse_from": 1200001,
+    "spouse_to": 1250000,
+    "amount": 110000
+   },
+   {
+    "spouse_from": 1250001,
+    "spouse_to": 1300000,
+    "amount": 60000
+   },
+   {
+    "spouse_from": 1300001,
+    "spouse_to": 1330000,
+    "amount": 30000
+   }
+  ],
+  [
+   {
+    "spouse_from": 580001,
+    "spouse_to": 950000,
+    "amount": 260000
+   },
+   {
+    "spouse_from": 950001,
+    "spouse_to": 1000000,
+    "amount": 240000
+   },
+   {
+    "spouse_from": 1000001,
+    "spouse_to": 1050000,
+    "amount": 210000
+   },
+   {
+    "spouse_from": 1050001,
+    "spouse_to": 1100000,
+    "amount": 180000
+   },
+   {
+    "spouse_from": 1100001,
+    "spouse_to": 1150000,
+    "amount": 140000
+   },
+   {
+    "spouse_from": 1150001,
+    "spouse_to": 1200000,
+    "amount": 110000
+   },
+   {
+    "spouse_from": 1200001,
+    "spouse_to": 1250000,
+    "amount": 80000
+   },
+   {
+    "spouse_from": 1250001,
+    "spouse_to": 1300000,
+    "amount": 40000
+   },
+   {
+    "spouse_from": 1300001,
+    "spouse_to": 1330000,
+    "amount": 20000
+   }
+  ],
+  [
+   {
+    "spouse_from": 580001,
+    "spouse_to": 950000,
+    "amount": 130000
+   },
+   {
+    "spouse_from": 950001,
+    "spouse_to": 1000000,
+    "amount": 120000
+   },
+   {
+    "spouse_from": 1000001,
+    "spouse_to": 1050000,
+    "amount": 110000
+   },
+   {
+    "spouse_from": 1050001,
+    "spouse_to": 1100000,
+    "amount": 90000
+   },
+   {
+    "spouse_from": 1100001,
+    "spouse_to": 1150000,
+    "amount": 70000
+   },
+   {
+    "spouse_from": 1150001,
+    "spouse_to": 1200000,
+    "amount": 60000
+   },
+   {
+    "spouse_from": 1200001,
+    "spouse_to": 1250000,
+    "amount": 40000
+   },
+   {
+    "spouse_from": 1250001,
+    "spouse_to": 1300000,
+    "amount": 20000
+   },
+   {
+    "spouse_from": 1300001,
+    "spouse_to": 1330000,
+    "amount": 10000
+   }
+  ]
+ ],
+ "shotoku_R8": [
+  [
+   {
+    "spouse_from": 620001,
+    "spouse_to": 950000,
+    "amount": 380000
+   },
+   {
+    "spouse_from": 950001,
+    "spouse_to": 1000000,
+    "amount": 360000
+   },
+   {
+    "spouse_from": 1000001,
+    "spouse_to": 1050000,
+    "amount": 310000
+   },
+   {
+    "spouse_from": 1050001,
+    "spouse_to": 1100000,
+    "amount": 260000
+   },
+   {
+    "spouse_from": 1100001,
+    "spouse_to": 1150000,
+    "amount": 210000
+   },
+   {
+    "spouse_from": 1150001,
+    "spouse_to": 1200000,
+    "amount": 160000
+   },
+   {
+    "spouse_from": 1200001,
+    "spouse_to": 1250000,
+    "amount": 110000
+   },
+   {
+    "spouse_from": 1250001,
+    "spouse_to": 1300000,
+    "amount": 60000
+   },
+   {
+    "spouse_from": 1300001,
+    "spouse_to": 1330000,
+    "amount": 30000
+   }
+  ],
+  [
+   {
+    "spouse_from": 620001,
+    "spouse_to": 950000,
+    "amount": 260000
+   },
+   {
+    "spouse_from": 950001,
+    "spouse_to": 1000000,
+    "amount": 240000
+   },
+   {
+    "spouse_from": 1000001,
+    "spouse_to": 1050000,
+    "amount": 210000
+   },
+   {
+    "spouse_from": 1050001,
+    "spouse_to": 1100000,
+    "amount": 180000
+   },
+   {
+    "spouse_from": 1100001,
+    "spouse_to": 1150000,
+    "amount": 140000
+   },
+   {
+    "spouse_from": 1150001,
+    "spouse_to": 1200000,
+    "amount": 110000
+   },
+   {
+    "spouse_from": 1200001,
+    "spouse_to": 1250000,
+    "amount": 80000
+   },
+   {
+    "spouse_from": 1250001,
+    "spouse_to": 1300000,
+    "amount": 40000
+   },
+   {
+    "spouse_from": 1300001,
+    "spouse_to": 1330000,
+    "amount": 20000
+   }
+  ],
+  [
+   {
+    "spouse_from": 620001,
+    "spouse_to": 950000,
+    "amount": 130000
+   },
+   {
+    "spouse_from": 950001,
+    "spouse_to": 1000000,
+    "amount": 120000
+   },
+   {
+    "spouse_from": 1000001,
+    "spouse_to": 1050000,
+    "amount": 110000
+   },
+   {
+    "spouse_from": 1050001,
+    "spouse_to": 1100000,
+    "amount": 90000
+   },
+   {
+    "spouse_from": 1100001,
+    "spouse_to": 1150000,
+    "amount": 70000
+   },
+   {
+    "spouse_from": 1150001,
+    "spouse_to": 1200000,
+    "amount": 60000
+   },
+   {
+    "spouse_from": 1200001,
+    "spouse_to": 1250000,
+    "amount": 40000
+   },
+   {
+    "spouse_from": 1250001,
+    "spouse_to": 1300000,
+    "amount": 20000
+   },
+   {
+    "spouse_from": 1300001,
+    "spouse_to": 1330000,
+    "amount": 10000
+   }
+  ]
+ ],
+ "shichoson_R7nendo": [
+  [
+   {
+    "spouse_from": 480001,
+    "spouse_to": 1000000,
+    "amount": 330000
+   },
+   {
+    "spouse_from": 1000001,
+    "spouse_to": 1050000,
+    "amount": 310000
+   },
+   {
+    "spouse_from": 1050001,
+    "spouse_to": 1100000,
+    "amount": 260000
+   },
+   {
+    "spouse_from": 1100001,
+    "spouse_to": 1150000,
+    "amount": 210000
+   },
+   {
+    "spouse_from": 1150001,
+    "spouse_to": 1200000,
+    "amount": 160000
+   },
+   {
+    "spouse_from": 1200001,
+    "spouse_to": 1250000,
+    "amount": 110000
+   },
+   {
+    "spouse_from": 1250001,
+    "spouse_to": 1300000,
+    "amount": 60000
+   },
+   {
+    "spouse_from": 1300001,
+    "spouse_to": 1330000,
+    "amount": 30000
+   }
+  ],
+  [
+   {
+    "spouse_from": 480001,
+    "spouse_to": 1000000,
+    "amount": 220000
+   },
+   {
+    "spouse_from": 1000001,
+    "spouse_to": 1050000,
+    "amount": 210000
+   },
+   {
+    "spouse_from": 1050001,
+    "spouse_to": 1100000,
+    "amount": 180000
+   },
+   {
+    "spouse_from": 1100001,
+    "spouse_to": 1150000,
+    "amount": 140000
+   },
+   {
+    "spouse_from": 1150001,
+    "spouse_to": 1200000,
+    "amount": 110000
+   },
+   {
+    "spouse_from": 1200001,
+    "spouse_to": 1250000,
+    "amount": 80000
+   },
+   {
+    "spouse_from": 1250001,
+    "spouse_to": 1300000,
+    "amount": 40000
+   },
+   {
+    "spouse_from": 1300001,
+    "spouse_to": 1330000,
+    "amount": 20000
+   }
+  ],
+  [
+   {
+    "spouse_from": 480001,
+    "spouse_to": 1050000,
+    "amount": 110000
+   },
+   {
+    "spouse_from": 1050001,
+    "spouse_to": 1100000,
+    "amount": 90000
+   },
+   {
+    "spouse_from": 1100001,
+    "spouse_to": 1150000,
+    "amount": 70000
+   },
+   {
+    "spouse_from": 1150001,
+    "spouse_to": 1200000,
+    "amount": 60000
+   },
+   {
+    "spouse_from": 1200001,
+    "spouse_to": 1250000,
+    "amount": 40000
+   },
+   {
+    "spouse_from": 1250001,
+    "spouse_to": 1300000,
+    "amount": 20000
+   },
+   {
+    "spouse_from": 1300001,
+    "spouse_to": 1330000,
+    "amount": 10000
+   }
+  ]
+ ],
+ "shichoson_R8nendo": [
+  [
+   {
+    "spouse_from": 580001,
+    "spouse_to": 1000000,
+    "amount": 330000
+   },
+   {
+    "spouse_from": 1000001,
+    "spouse_to": 1050000,
+    "amount": 310000
+   },
+   {
+    "spouse_from": 1050001,
+    "spouse_to": 1100000,
+    "amount": 260000
+   },
+   {
+    "spouse_from": 1100001,
+    "spouse_to": 1150000,
+    "amount": 210000
+   },
+   {
+    "spouse_from": 1150001,
+    "spouse_to": 1200000,
+    "amount": 160000
+   },
+   {
+    "spouse_from": 1200001,
+    "spouse_to": 1250000,
+    "amount": 110000
+   },
+   {
+    "spouse_from": 1250001,
+    "spouse_to": 1300000,
+    "amount": 60000
+   },
+   {
+    "spouse_from": 1300001,
+    "spouse_to": 1330000,
+    "amount": 30000
+   }
+  ],
+  [
+   {
+    "spouse_from": 580001,
+    "spouse_to": 1000000,
+    "amount": 220000
+   },
+   {
+    "spouse_from": 1000001,
+    "spouse_to": 1050000,
+    "amount": 210000
+   },
+   {
+    "spouse_from": 1050001,
+    "spouse_to": 1100000,
+    "amount": 180000
+   },
+   {
+    "spouse_from": 1100001,
+    "spouse_to": 1150000,
+    "amount": 140000
+   },
+   {
+    "spouse_from": 1150001,
+    "spouse_to": 1200000,
+    "amount": 110000
+   },
+   {
+    "spouse_from": 1200001,
+    "spouse_to": 1250000,
+    "amount": 80000
+   },
+   {
+    "spouse_from": 1250001,
+    "spouse_to": 1300000,
+    "amount": 40000
+   },
+   {
+    "spouse_from": 1300001,
+    "spouse_to": 1330000,
+    "amount": 20000
+   }
+  ],
+  [
+   {
+    "spouse_from": 580001,
+    "spouse_to": 1050000,
+    "amount": 110000
+   },
+   {
+    "spouse_from": 1050001,
+    "spouse_to": 1100000,
+    "amount": 90000
+   },
+   {
+    "spouse_from": 1100001,
+    "spouse_to": 1150000,
+    "amount": 70000
+   },
+   {
+    "spouse_from": 1150001,
+    "spouse_to": 1200000,
+    "amount": 60000
+   },
+   {
+    "spouse_from": 1200001,
+    "spouse_to": 1250000,
+    "amount": 40000
+   },
+   {
+    "spouse_from": 1250001,
+    "spouse_to": 1300000,
+    "amount": 20000
+   },
+   {
+    "spouse_from": 1300001,
+    "spouse_to": 1330000,
+    "amount": 10000
+   }
+  ]
+ ],
+ "shichoson_R9nendo": [
+  [
+   {
+    "spouse_from": 620001,
+    "spouse_to": 1000000,
+    "amount": 330000
+   },
+   {
+    "spouse_from": 1000001,
+    "spouse_to": 1050000,
+    "amount": 310000
+   },
+   {
+    "spouse_from": 1050001,
+    "spouse_to": 1100000,
+    "amount": 260000
+   },
+   {
+    "spouse_from": 1100001,
+    "spouse_to": 1150000,
+    "amount": 210000
+   },
+   {
+    "spouse_from": 1150001,
+    "spouse_to": 1200000,
+    "amount": 160000
+   },
+   {
+    "spouse_from": 1200001,
+    "spouse_to": 1250000,
+    "amount": 110000
+   },
+   {
+    "spouse_from": 1250001,
+    "spouse_to": 1300000,
+    "amount": 60000
+   },
+   {
+    "spouse_from": 1300001,
+    "spouse_to": 1330000,
+    "amount": 30000
+   }
+  ],
+  [
+   {
+    "spouse_from": 620001,
+    "spouse_to": 1000000,
+    "amount": 220000
+   },
+   {
+    "spouse_from": 1000001,
+    "spouse_to": 1050000,
+    "amount": 210000
+   },
+   {
+    "spouse_from": 1050001,
+    "spouse_to": 1100000,
+    "amount": 180000
+   },
+   {
+    "spouse_from": 1100001,
+    "spouse_to": 1150000,
+    "amount": 140000
+   },
+   {
+    "spouse_from": 1150001,
+    "spouse_to": 1200000,
+    "amount": 110000
+   },
+   {
+    "spouse_from": 1200001,
+    "spouse_to": 1250000,
+    "amount": 80000
+   },
+   {
+    "spouse_from": 1250001,
+    "spouse_to": 1300000,
+    "amount": 40000
+   },
+   {
+    "spouse_from": 1300001,
+    "spouse_to": 1330000,
+    "amount": 20000
+   }
+  ],
+  [
+   {
+    "spouse_from": 620001,
+    "spouse_to": 1050000,
+    "amount": 110000
+   },
+   {
+    "spouse_from": 1050001,
+    "spouse_to": 1100000,
+    "amount": 90000
+   },
+   {
+    "spouse_from": 1100001,
+    "spouse_to": 1150000,
+    "amount": 70000
+   },
+   {
+    "spouse_from": 1150001,
+    "spouse_to": 1200000,
+    "amount": 60000
+   },
+   {
+    "spouse_from": 1200001,
+    "spouse_to": 1250000,
+    "amount": 40000
+   },
+   {
+    "spouse_from": 1250001,
+    "spouse_to": 1300000,
+    "amount": 20000
+   },
+   {
+    "spouse_from": 1300001,
+    "spouse_to": 1330000,
+    "amount": 10000
+   }
+  ]
+ ],
+ "dofuken_R8nendo": [
+  [
+   {
+    "spouse_from": 580001,
+    "spouse_to": 1000000,
+    "amount": 330000
+   },
+   {
+    "spouse_from": 1000001,
+    "spouse_to": 1050000,
+    "amount": 310000
+   },
+   {
+    "spouse_from": 1050001,
+    "spouse_to": 1100000,
+    "amount": 260000
+   },
+   {
+    "spouse_from": 1100001,
+    "spouse_to": 1150000,
+    "amount": 210000
+   },
+   {
+    "spouse_from": 1150001,
+    "spouse_to": 1200000,
+    "amount": 160000
+   },
+   {
+    "spouse_from": 1200001,
+    "spouse_to": 1250000,
+    "amount": 110000
+   },
+   {
+    "spouse_from": 1250001,
+    "spouse_to": 1300000,
+    "amount": 60000
+   },
+   {
+    "spouse_from": 1300001,
+    "spouse_to": 1330000,
+    "amount": 30000
+   }
+  ],
+  [
+   {
+    "spouse_from": 580001,
+    "spouse_to": 1000000,
+    "amount": 220000
+   },
+   {
+    "spouse_from": 1000001,
+    "spouse_to": 1050000,
+    "amount": 210000
+   },
+   {
+    "spouse_from": 1050001,
+    "spouse_to": 1100000,
+    "amount": 180000
+   },
+   {
+    "spouse_from": 1100001,
+    "spouse_to": 1150000,
+    "amount": 140000
+   },
+   {
+    "spouse_from": 1150001,
+    "spouse_to": 1200000,
+    "amount": 110000
+   },
+   {
+    "spouse_from": 1200001,
+    "spouse_to": 1250000,
+    "amount": 80000
+   },
+   {
+    "spouse_from": 1250001,
+    "spouse_to": 1300000,
+    "amount": 40000
+   },
+   {
+    "spouse_from": 1300001,
+    "spouse_to": 1330000,
+    "amount": 20000
+   }
+  ],
+  [
+   {
+    "spouse_from": 580001,
+    "spouse_to": 1050000,
+    "amount": 110000
+   },
+   {
+    "spouse_from": 1050001,
+    "spouse_to": 1100000,
+    "amount": 90000
+   },
+   {
+    "spouse_from": 1100001,
+    "spouse_to": 1150000,
+    "amount": 70000
+   },
+   {
+    "spouse_from": 1150001,
+    "spouse_to": 1200000,
+    "amount": 60000
+   },
+   {
+    "spouse_from": 1200001,
+    "spouse_to": 1250000,
+    "amount": 40000
+   },
+   {
+    "spouse_from": 1250001,
+    "spouse_to": 1300000,
+    "amount": 20000
+   },
+   {
+    "spouse_from": 1300001,
+    "spouse_to": 1330000,
+    "amount": 10000
+   }
+  ]
+ ],
+ "dofuken_R9nendo": [
+  [
+   {
+    "spouse_from": 620001,
+    "spouse_to": 1000000,
+    "amount": 330000
+   },
+   {
+    "spouse_from": 1000001,
+    "spouse_to": 1050000,
+    "amount": 310000
+   },
+   {
+    "spouse_from": 1050001,
+    "spouse_to": 1100000,
+    "amount": 260000
+   },
+   {
+    "spouse_from": 1100001,
+    "spouse_to": 1150000,
+    "amount": 210000
+   },
+   {
+    "spouse_from": 1150001,
+    "spouse_to": 1200000,
+    "amount": 160000
+   },
+   {
+    "spouse_from": 1200001,
+    "spouse_to": 1250000,
+    "amount": 110000
+   },
+   {
+    "spouse_from": 1250001,
+    "spouse_to": 1300000,
+    "amount": 60000
+   },
+   {
+    "spouse_from": 1300001,
+    "spouse_to": 1330000,
+    "amount": 30000
+   }
+  ],
+  [
+   {
+    "spouse_from": 620001,
+    "spouse_to": 1000000,
+    "amount": 220000
+   },
+   {
+    "spouse_from": 1000001,
+    "spouse_to": 1050000,
+    "amount": 210000
+   },
+   {
+    "spouse_from": 1050001,
+    "spouse_to": 1100000,
+    "amount": 180000
+   },
+   {
+    "spouse_from": 1100001,
+    "spouse_to": 1150000,
+    "amount": 140000
+   },
+   {
+    "spouse_from": 1150001,
+    "spouse_to": 1200000,
+    "amount": 110000
+   },
+   {
+    "spouse_from": 1200001,
+    "spouse_to": 1250000,
+    "amount": 80000
+   },
+   {
+    "spouse_from": 1250001,
+    "spouse_to": 1300000,
+    "amount": 40000
+   },
+   {
+    "spouse_from": 1300001,
+    "spouse_to": 1330000,
+    "amount": 20000
+   }
+  ],
+  [
+   {
+    "spouse_from": 620001,
+    "spouse_to": 1050000,
+    "amount": 110000
+   },
+   {
+    "spouse_from": 1050001,
+    "spouse_to": 1100000,
+    "amount": 90000
+   },
+   {
+    "spouse_from": 1100001,
+    "spouse_to": 1150000,
+    "amount": 70000
+   },
+   {
+    "spouse_from": 1150001,
+    "spouse_to": 1200000,
+    "amount": 60000
+   },
+   {
+    "spouse_from": 1200001,
+    "spouse_to": 1250000,
+    "amount": 40000
+   },
+   {
+    "spouse_from": 1250001,
+    "spouse_to": 1300000,
+    "amount": 20000
+   },
+   {
+    "spouse_from": 1300001,
+    "spouse_to": 1330000,
+    "amount": 10000
+   }
+  ]
+ ]
+}

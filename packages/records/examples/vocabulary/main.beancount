@@ -1,0 +1,332 @@
+; 語彙の全種類の例（架空の家庭。実在の家族・団体ではない。団体コードは実在しない 99 で始まるもの）
+;   p-a 親A（会社員）、p-b 親B（個人で業務と部屋の貸付）、p-c 子C（別の市町村で一人暮らしの大学生。p-e と結婚）、
+;   p-d 子D（高校生・障害者手帳）、p-e 子Cの配偶者、p-n 孫（2026年生まれ）、p-f 里子（特別養子縁組）、
+;   p-g 祖父G（年金・施設に入所）、p-h 祖母H（2026年に死亡）、p-x 親Bの母（国外に住む）、p-y 親Bの叔父（相続人がいない）。
+; 取引から作る事実（F-T の20種類）はここに書く。人・関係・住所・保険・書類・資産は facts.jsonl、判断・選択は judgments.jsonl。
+; 書き方は README §4。勘定科目名に法的な意味を持たせない（D3・D11）。
+
+option "title" "語彙の全種類の例（架空の家庭）"
+option "operating_currency" "JPY"
+
+2026-01-01 open Assets:Bank:A JPY
+2026-01-01 open Assets:Bank:B JPY
+2026-01-01 open Assets:Bank:C JPY
+2026-01-01 open Assets:Bank:G JPY
+2026-01-01 open Assets:Cash JPY
+2026-01-01 open Assets:Securities:A JPY
+2026-01-01 open Assets:Equipment:B JPY
+2026-01-01 open Income:Salary:A JPY
+2026-01-01 open Income:Business:B JPY
+2026-01-01 open Income:Rent:B JPY
+2026-01-01 open Income:Pension:G JPY
+2026-01-01 open Income:Retirement:G JPY
+2026-01-01 open Income:Dividend:A JPY
+2026-01-01 open Income:Securities:A JPY
+2026-01-01 open Income:Insurance:A JPY
+2026-01-01 open Income:Benefit:G JPY
+2026-01-01 open Income:Grant:C JPY
+2026-01-01 open Income:Prize:C JPY
+2026-01-01 open Expenses:Tax:Withholding JPY
+2026-01-01 open Expenses:SocialInsurance JPY
+2026-01-01 open Expenses:MutualAid JPY
+2026-01-01 open Expenses:Insurance JPY
+2026-01-01 open Expenses:Medical JPY
+2026-01-01 open Expenses:Utilities JPY
+2026-01-01 open Expenses:Payroll:B JPY
+2026-01-01 open Expenses:Donation JPY
+2026-01-01 open Expenses:Repair JPY
+2026-01-01 open Expenses:Family:Allowance JPY
+
+; F-T01 給与の支払（支給日 due_on は必須。D23 K3）。通勤手当は総支給額の内数
+2026-01-23 * "架空商事" "1月分の給与"
+  id: "tx-2026-0123-salary-a"
+  fact_kind: "salary_payment"
+  recipient: "p-a"
+  counterparty: "架空商事"
+  payment_type: "regular"
+  due_on: 2026-01-23
+  pay_period: "monthly"
+  commuting_allowance: 15000 JPY
+  Income:Salary:A             -315000 JPY
+    fact_amount: "gross"
+  Expenses:Tax:Withholding       8000 JPY
+    fact_amount: "withholding_tax"
+  Expenses:SocialInsurance      45000 JPY
+    fact_amount: "social_insurance_withheld"
+  Assets:Bank:A                262000 JPY
+
+; F-T04 給与等の支払（支払う側。家族への専従者給与）
+2026-01-25 * "1月分の専従者給与（祖父G）"
+  id: "tx-2026-0125-payroll-g"
+  fact_kind: "payroll_paid"
+  employer: "p-b"
+  recipient: "p-g"
+  business_id: "biz-b"
+  pay_type: "family_employee_salary"
+  Expenses:Payroll:B             50000 JPY
+    fact_amount: "amount"
+  Assets:Bank:B
+
+; F-T05 医療費の支払（支払者と受診者が別）
+2026-02-10 * "架空総合病院" "入院費"
+  id: "tx-2026-0210-hospital"
+  fact_kind: "medical_payment"
+  payer: "p-a"
+  patient: "p-g"
+  incurred_on: 2026-01-28
+  provider: "架空総合病院"
+  medical_kinds: "medical_treatment hospitalization"
+  Expenses:Medical              120000 JPY
+    fact_amount: "amount"
+  Assets:Bank:A
+
+; 事実にしない記帳（fact_kind なし）。depreciable_asset の acquisition_transaction_ids が参照する
+2026-03-01 * "架空電器" "パソコンの購入"
+  id: "tx-2026-0301-pc"
+  Assets:Equipment:B            200000 JPY
+  Assets:Bank:B
+
+2026-03-05 * "架空薬局" "かぜ薬"
+  id: "tx-2026-0305-medicine"
+  fact_kind: "medical_payment"
+  payer: "p-a"
+  patient: "p-a"
+  incurred_on: 2026-03-05
+  medical_kinds: "medicine"
+  selfmed_label: "unknown"
+  product_name: "架空のかぜ薬"
+  Expenses:Medical                2980 JPY
+    fact_amount: "amount"
+  Assets:Cash
+
+; F-T02 事業の収入
+2026-03-15 * "架空デザイン事務所" "制作の報酬"
+  id: "tx-2026-0315-design"
+  fact_kind: "business_receipt"
+  recipient: "p-b"
+  business_id: "biz-b"
+  counterparty: "架空デザイン事務所"
+  contract_document: "service_contract"
+  Income:Business:B             -55000 JPY
+    fact_amount: "amount"
+  Expenses:Tax:Withholding        5615 JPY
+    fact_amount: "withholding_tax"
+  Assets:Bank:B                  49385 JPY
+
+; F-T03 事業の支出（按分は判断台帳の 判断.按分の割合）
+2026-03-20 * "架空電力" "電気代"
+  id: "tx-2026-0320-electricity"
+  fact_kind: "business_expense"
+  payer: "p-b"
+  business_id: "biz-b"
+  expense_category: "utilities"
+  counterparty: "架空電力"
+  counterparty_invoice_registered: TRUE
+  Expenses:Utilities             12000 JPY
+    fact_amount: "amount"
+  Assets:Bank:B
+
+; F-T18 給付の受取（区間を持つときはメタデータ period）
+2026-04-10 * "架空奨学財団" "給付型の奨学金"
+  id: "tx-2026-0410-scholarship"
+  fact_kind: "benefit_receipt"
+  recipient: "p-c"
+  benefit_type: "scholarship_grant"
+  period: "2026-04-01/2027-03-31"
+  Income:Grant:C                -50000 JPY
+    fact_amount: "amount"
+  Assets:Bank:C
+
+; F-T08 小規模企業共済等掛金
+2026-04-10 * "架空共済" "小規模企業共済の掛金"
+  id: "tx-2026-0410-kyosai"
+  fact_kind: "mutual_aid_payment"
+  payer: "p-b"
+  member: "p-b"
+  contribution_type: "small_business_mutual_aid"
+  Expenses:MutualAid             10000 JPY
+    fact_amount: "amount"
+  Assets:Bank:B
+
+; F-T12 公的年金等の支払（受け取る側）
+2026-04-15 * "架空年金機構" "老齢厚生年金"
+  id: "tx-2026-0415-pension-g"
+  fact_kind: "pension_payment"
+  recipient: "p-g"
+  counterparty: "架空年金機構"
+  payer_domestic: TRUE
+  scheme: "employees_pension"
+  benefit_reason: "old_age"
+  covered_period: "2026-02-01/2026-03-31"
+  Income:Pension:G             -150000 JPY
+    fact_amount: "gross"
+  Expenses:Tax:Withholding        3000 JPY
+    fact_amount: "withholding_tax"
+  Assets:Bank:G                 147000 JPY
+
+; F-T13 退職手当等
+2026-04-20 * "架空農協" "退職金"
+  id: "tx-2026-0420-retire-g"
+  fact_kind: "retirement_payment"
+  recipient: "p-g"
+  counterparty: "架空農協"
+  retired_on: 2026-03-31
+  Income:Retirement:G          -500000 JPY
+    fact_amount: "gross"
+  Assets:Bank:G
+
+; F-T16 送金・仕送り
+2026-04-25 * "仕送り"
+  id: "tx-2026-0425-allowance"
+  fact_kind: "remittance"
+  sender: "p-a"
+  recipient: "p-c"
+  method: "bank_transfer"
+  purpose: "living_expenses"
+  Expenses:Family:Allowance      80000 JPY
+    fact_amount: "amount"
+  Assets:Bank:A
+
+; F-T06 補塡（対象の医療費の支払を指す）
+2026-05-15 * "架空広域連合" "高額療養費"
+  id: "tx-2026-0515-reimb-g"
+  fact_kind: "reimbursement"
+  recipient: "p-g"
+  benefit_type: "high_cost_medical_care_benefit"
+  target_payment_ids: "tx-2026-0210-hospital"
+  payer_name: "架空広域連合"
+  Income:Benefit:G              -40000 JPY
+    fact_amount: "amount"
+  Assets:Bank:G
+
+; F-T19 賃料など（貸す側）
+2026-05-31 * "架空の借主" "6月分の家賃"
+  id: "tx-2026-0531-rent"
+  fact_kind: "rent_flow"
+  recipient: "p-b"
+  flow_type: "rent"
+  lease_id: "ls-b"
+  property_id: "rp-b"
+  covered_period: "2026-06-01/2026-06-30"
+  Income:Rent:B                 -60000 JPY
+    fact_amount: "amount"
+  Assets:Bank:B
+
+; F-T14 配当
+2026-06-20 * "架空証券" "投資信託の収益の分配"
+  id: "tx-2026-0620-dividend"
+  fact_kind: "dividend"
+  recipient: "p-a"
+  counterparty: "架空証券"
+  security_class: "listed_investment_trust"
+  account_type: "withholding_specified_account"
+  distribution_type: "securities_investment_trust"
+  Income:Dividend:A             -10000 JPY
+    fact_amount: "gross"
+  Expenses:Tax:Withholding        2031 JPY
+    fact_amount: "withholding_tax"
+  Assets:Bank:A                   7969 JPY
+
+; F-T11 災害・盗難の損失（金額でない円の欄はメタデータに書く）
+2026-07-01 * "台風で物置が壊れた"
+  id: "tx-2026-0701-storm"
+  fact_kind: "casualty"
+  owner: "p-a"
+  cause: "storm_or_flood"
+  asset_description: "物置（架空）"
+  business_use: FALSE
+  disaster_ended_on: 2026-07-05
+  pre_loss_value: 300000 JPY
+  post_loss_value: 0 JPY
+  Income:Insurance:A            -50000 JPY
+    fact_amount: "insurance_recovery"
+  Assets:Bank:A
+
+; F-T11 災害に関連したやむを得ない支出
+2026-07-15 * "架空工務店" "壊れた物置の撤去"
+  id: "tx-2026-0715-removal"
+  fact_kind: "casualty_expenditure"
+  payer: "p-a"
+  casualty_id: "tx-2026-0701-storm"
+  expenditure_type: "removal"
+  Expenses:Repair                80000 JPY
+    fact_amount: "amount"
+  Assets:Bank:A
+
+; F-T17 一時の受取
+2026-08-01 * "架空商店街" "抽選の賞金"
+  id: "tx-2026-0801-prize"
+  fact_kind: "windfall_receipt"
+  recipient: "p-c"
+  counterparty: "架空商店街"
+  reason: "prize"
+  donor_type: "corporation"
+  Income:Prize:C                -30000 JPY
+    fact_amount: "amount"
+  Assets:Bank:C
+
+; F-T15 有価証券の譲渡（取得費はメタデータに書く。合計しない）
+2026-09-01 * "架空証券" "株式の売却"
+  id: "tx-2026-0901-sale"
+  fact_kind: "security_sale"
+  seller: "p-a"
+  security_name: "架空工業株式"
+  security_class: "listed_stock"
+  sale_method: "brokered"
+  account_type: "withholding_specified_account"
+  acquisition_cost: 450000 JPY
+  Assets:Bank:A                 500000 JPY
+    fact_amount: "proceeds"
+  Income:Securities:A
+
+; F-T10 寄附（ふるさと納税。返礼品の価額はメタデータ）
+2026-10-05 * "架空市" "ふるさと納税"
+  id: "tx-2026-1005-furusato"
+  fact_kind: "donation"
+  donor: "p-a"
+  recipient_name: "架空市"
+  recipient_type: "local_government"
+  recipient_local_government_code: "990061"
+  recipient_local_government_kind: "municipality"
+  receipt_issued: TRUE
+  return_gift: TRUE
+  return_gift_value: 9000 JPY
+  Expenses:Donation              30000 JPY
+    fact_amount: "amount"
+  Assets:Bank:A
+
+; F-T07 社会保険料（子の国民年金保険料の前納。納付期日の並びは空白区切り）
+2026-10-30 * "国民年金保険料の前納（子Cの分）"
+  id: "tx-2026-1030-npi-prepay"
+  fact_kind: "social_insurance_payment"
+  payer: "p-a"
+  liable_person: "p-c"
+  premium_type: "national_pension"
+  prepaid_period: "2026-10-01/2027-03-31"
+  prepaid_due_dates: "2026-11-30 2026-12-31 2027-01-31 2027-02-28 2027-03-31 2027-04-30"
+  Expenses:SocialInsurance     104000 JPY
+    fact_amount: "amount"
+  Assets:Bank:A
+
+; F-T10 寄附（認定NPO法人）
+2026-11-10 * "架空NPO" "寄附"
+  id: "tx-2026-1110-npo"
+  fact_kind: "donation"
+  donor: "p-a"
+  recipient_name: "架空NPO法人"
+  recipient_type: "certified_npo"
+  receipt_issued: TRUE
+  Expenses:Donation              10000 JPY
+    fact_amount: "amount"
+  Assets:Bank:A
+
+; F-T09 保険料の支払（契約は facts.jsonl の assets）
+2026-11-20 * "架空生命" "生命保険料"
+  id: "tx-2026-1120-life"
+  fact_kind: "insurance_payment"
+  payer: "p-a"
+  contract_id: "a-life-a"
+  flow: "premium"
+  Expenses:Insurance            120000 JPY
+    fact_amount: "amount"
+  Assets:Bank:A

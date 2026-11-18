@@ -1,0 +1,3854 @@
+{
+ "summary": {
+  "law": {
+   "total": 250,
+   "ok": 250,
+   "ng": 0,
+   "unknown": 0
+  },
+  "eq": {
+   "total": 53,
+   "ok": 53,
+   "ng": 0,
+   "unknown": 0
+  },
+  "rev": {
+   "total": 20,
+   "ok": 20,
+   "ng": 0,
+   "unknown": 0
+  },
+  "lawnum": {
+   "total": 6,
+   "ok": 6,
+   "ng": 0,
+   "unknown": 0
+  },
+  "nta": {
+   "total": 34,
+   "ok": 34,
+   "ng": 0,
+   "unknown": 0
+  },
+  "links": {
+   "total": 3,
+   "ok": 3,
+   "ng": 0,
+   "unknown": 0
+  }
+ },
+ "calc_ok": {
+  "C9": true,
+  "C10": true,
+  "C10_example": true,
+  "C11": true,
+  "I1": true,
+  "I2": true,
+  "I3": true,
+  "I4A": true,
+  "I5": true,
+  "I7": true,
+  "H3_doc_claim_max_550000_holds(偽なら仮説H3の誤り)": false
+ },
+ "ng": {
+  "law": [],
+  "eq": [],
+  "rev": [],
+  "lawnum": [],
+  "nta": [],
+  "links": []
+ },
+ "unknown": {
+  "law": [],
+  "eq": [],
+  "rev": [],
+  "lawnum": [],
+  "nta": [],
+  "links": []
+ },
+ "detail": {
+  "law": [
+   {
+    "id": "PS§1.1 所法35②二",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "35:2:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§1.1 所法35②二",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "35:2:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§1.1 所法37①",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "37:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§1.1 所法37①",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "37:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§1.1 所法45 見出し",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "45",
+    "kind": "CAP",
+    "ok": true,
+    "got": "（家事関連費等の必要経費不算入等）"
+   },
+   {
+    "id": "PS§1.1 所法45 見出し",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "45",
+    "kind": "CAP",
+    "ok": true,
+    "got": "（家事関連費等の必要経費不算入等）"
+   },
+   {
+    "id": "PS§1.1 所法45①",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "45:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§1.1 所法45①",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "45:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§1.1 所令96 見出し",
+    "short": "shotoku-rei",
+    "asof": "2025-12-31",
+    "where": "96",
+    "kind": "CAP",
+    "ok": true,
+    "got": "（家事関連費）"
+   },
+   {
+    "id": "PS§1.1 所令96 見出し",
+    "short": "shotoku-rei",
+    "asof": "2026-12-31",
+    "where": "96",
+    "kind": "CAP",
+    "ok": true,
+    "got": "（家事関連費）"
+   },
+   {
+    "id": "PS§1.1 所令96 見出し",
+    "short": "shotoku-rei",
+    "asof": "2030-12-31",
+    "where": "96",
+    "kind": "CAP",
+    "ok": true,
+    "got": "（家事関連費）"
+   },
+   {
+    "id": "PS§1.1 所令96",
+    "short": "shotoku-rei",
+    "asof": "2025-12-31",
+    "where": "96",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§1.1 所令96",
+    "short": "shotoku-rei",
+    "asof": "2026-12-31",
+    "where": "96",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§1.1 所令96",
+    "short": "shotoku-rei",
+    "asof": "2030-12-31",
+    "where": "96",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§1.2/M C4 所令96二に雑所得なし",
+    "short": "shotoku-rei",
+    "asof": "2025-12-31",
+    "where": "96:1:2",
+    "kind": "NQ",
+    "ok": true
+   },
+   {
+    "id": "PS§1.2/M C4 所令96二に雑所得なし",
+    "short": "shotoku-rei",
+    "asof": "2026-12-31",
+    "where": "96:1:2",
+    "kind": "NQ",
+    "ok": true
+   },
+   {
+    "id": "PS§1.2/M C4 所令96二に雑所得なし",
+    "short": "shotoku-rei",
+    "asof": "2030-12-31",
+    "where": "96:1:2",
+    "kind": "NQ",
+    "ok": true
+   },
+   {
+    "id": "PS§1.3 所法56",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "56",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§1.3 所法56",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "56",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.1 措法27（令和7年分の版）",
+    "short": "sochi",
+    "asof": "2025-12-31",
+    "where": "27",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.1 措法27（令和8年分の版以後、金額だけ69万円）",
+    "short": "sochi",
+    "asof": "2026-12-31",
+    "where": "27",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.1 措法27（令和8年分の版以後、金額だけ69万円）",
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "where": "27",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.1 措法27（令和8年分の版以後、金額だけ69万円）",
+    "short": "sochi",
+    "asof": "2030-12-31",
+    "where": "27",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.1 措法27 見出し",
+    "short": "sochi",
+    "asof": "2025-12-31",
+    "where": "27",
+    "kind": "CAP",
+    "ok": true,
+    "got": "（家内労働者等の事業所得等の所得計算の特例）"
+   },
+   {
+    "id": "PS§2.1 措法27 見出し",
+    "short": "sochi",
+    "asof": "2026-12-31",
+    "where": "27",
+    "kind": "CAP",
+    "ok": true,
+    "got": "（家内労働者等の事業所得等の所得計算の特例）"
+   },
+   {
+    "id": "PS§2.1 措法27 見出し",
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "where": "27",
+    "kind": "CAP",
+    "ok": true,
+    "got": "（家内労働者等の事業所得等の所得計算の特例）"
+   },
+   {
+    "id": "PS§2.1 措法27 見出し",
+    "short": "sochi",
+    "asof": "2030-12-31",
+    "where": "27",
+    "kind": "CAP",
+    "ok": true,
+    "got": "（家内労働者等の事業所得等の所得計算の特例）"
+   },
+   {
+    "id": "PS§2.1/M C1 措法27 金額（令和7年分の版）",
+    "short": "sochi",
+    "asof": "2025-12-31",
+    "where": "27",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     650000
+    ]
+   },
+   {
+    "id": "PS§2.1/M C1 措法27 金額（令和8年分の版以後）",
+    "short": "sochi",
+    "asof": "2026-12-31",
+    "where": "27",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     690000
+    ]
+   },
+   {
+    "id": "PS§2.1/M C1 措法27 金額（令和8年分の版以後）",
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "where": "27",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     690000
+    ]
+   },
+   {
+    "id": "PS§2.1/M C1 措法27 金額（令和8年分の版以後）",
+    "short": "sochi",
+    "asof": "2030-12-31",
+    "where": "27",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     690000
+    ]
+   },
+   {
+    "id": "PS§2.1 措令18の2①",
+    "short": "sochi-rei",
+    "asof": "2025-12-31",
+    "where": "18_2:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.1 措令18の2①",
+    "short": "sochi-rei",
+    "asof": "2026-12-31",
+    "where": "18_2:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.1 措令18の2①",
+    "short": "sochi-rei",
+    "asof": "2030-12-31",
+    "where": "18_2:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.1 措令18の2②一",
+    "short": "sochi-rei",
+    "asof": "2025-12-31",
+    "where": "18_2:2:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.1 措令18の2②二",
+    "short": "sochi-rei",
+    "asof": "2025-12-31",
+    "where": "18_2:2:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.1 措令18の2② イ=事業・ロ=雑",
+    "short": "sochi-rei",
+    "asof": "2025-12-31",
+    "where": "18_2:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.1 措令18の2② イ=事業・ロ=雑",
+    "short": "sochi-rei",
+    "asof": "2026-12-31",
+    "where": "18_2:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.1/M C1 措令18の2 金額（令和7年分の版）",
+    "short": "sochi-rei",
+    "asof": "2025-12-31",
+    "where": "18_2",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     650000
+    ]
+   },
+   {
+    "id": "PS§2.1/M C1 措令18の2 金額（令和8年分の版以後）",
+    "short": "sochi-rei",
+    "asof": "2026-12-31",
+    "where": "18_2",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     690000
+    ]
+   },
+   {
+    "id": "PS§2.1/M C1 措令18の2 金額（令和8年分の版以後）",
+    "short": "sochi-rei",
+    "asof": "2030-12-31",
+    "where": "18_2",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     690000
+    ]
+   },
+   {
+    "id": "PS§2.1 R7法13附則1①一ロ（施行日）",
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "where": "S:R7:1:1:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.1 R7法13附則32①（適用）",
+    "short": "sochi",
+    "asof": "2025-12-31",
+    "where": "S:R7:32:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.1 R7法13附則32①（適用）",
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "where": "S:R7:32:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.1 R7法13附則32②（更正の請求）",
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "where": "S:R7:32:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.1 R8法12附則1①四ロ（施行日）",
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "where": "S:R8:1:1:4",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.1 R8法12附則34①（適用）",
+    "short": "sochi",
+    "asof": "2026-12-31",
+    "where": "S:R8:34:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.1 R8法12附則34①（適用）",
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "where": "S:R8:34:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.1 R8法12附則34②（更正の請求）",
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "where": "S:R8:34:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.1 所法143",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "143",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.1 所法143",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "143",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.1 所法143に雑所得なし",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "143",
+    "kind": "NQ",
+    "ok": true
+   },
+   {
+    "id": "PS§3.1 所法143に雑所得なし",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "143",
+    "kind": "NQ",
+    "ok": true
+   },
+   {
+    "id": "PS§3.1 所法144",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "144",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.1 所法144",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "144",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.1 所法145",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "145",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.1 所法145",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "145",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.1 所法147",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "147",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.1 所法147",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "147",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.1 所法148",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "148:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.1 所法148",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "148:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.1 所法149",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "149",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.1 所法149",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "149",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.1 所法150",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "150",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.1 所法150",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "150",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.1/M§3 所法151（令和7年分の版）",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "151:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.1/M§3 所法151（令和8年分の版以後）",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "151:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.1/M§3 所法151（令和8年分の版以後）",
+    "short": "shotoku",
+    "asof": "2027-01-01",
+    "where": "151:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.1/M§3 所法151（令和8年分の版以後）",
+    "short": "shotoku",
+    "asof": "2030-12-31",
+    "where": "151:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.1 所法57①",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "57:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.1 所法57①",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "57:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.1 所法57③ 金額",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "57:3",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     500000,
+     860000
+    ]
+   },
+   {
+    "id": "PS§3.1 所法57③ 金額",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "57:3",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     500000,
+     860000
+    ]
+   },
+   {
+    "id": "PS§3.1 所法57③ 式",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "57:3",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.1 所法57③ 式",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "57:3",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 措法25の2①一（10万円）",
+    "short": "sochi",
+    "asof": "2025-12-31",
+    "where": "25_2:1:1",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     100000
+    ]
+   },
+   {
+    "id": "PS§3.2 措法25の2①一（10万円）",
+    "short": "sochi",
+    "asof": "2026-12-31",
+    "where": "25_2:1:1",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     100000
+    ]
+   },
+   {
+    "id": "PS§3.2 措法25の2③（55万円）",
+    "short": "sochi",
+    "asof": "2025-12-31",
+    "where": "25_2:3",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 措法25の2③（55万円）",
+    "short": "sochi",
+    "asof": "2026-12-31",
+    "where": "25_2:3",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 措法25の2④（65万円）",
+    "short": "sochi",
+    "asof": "2025-12-31",
+    "where": "25_2:4",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 措法25の2④（65万円）",
+    "short": "sochi",
+    "asof": "2026-12-31",
+    "where": "25_2:4",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 措法25の2⑥",
+    "short": "sochi",
+    "asof": "2025-12-31",
+    "where": "25_2:6",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 措法25の2⑥",
+    "short": "sochi",
+    "asof": "2026-12-31",
+    "where": "25_2:6",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2/M C8 措法25の2 金額（令和7・8年分の版）",
+    "short": "sochi",
+    "asof": "2025-12-31",
+    "where": "25_2",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     100000,
+     550000,
+     650000
+    ]
+   },
+   {
+    "id": "PS§3.2/M C8 措法25の2 金額（令和7・8年分の版）",
+    "short": "sochi",
+    "asof": "2026-12-31",
+    "where": "25_2",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     100000,
+     550000,
+     650000
+    ]
+   },
+   {
+    "id": "PS§3.2 措法25の2②（千万円）",
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "where": "25_2:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 措法25の2②（千万円）",
+    "short": "sochi",
+    "asof": "2030-12-31",
+    "where": "25_2:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 措法25の2②柱書",
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "where": "25_2:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 措法25の2②柱書",
+    "short": "sochi",
+    "asof": "2030-12-31",
+    "where": "25_2:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 措法25の2④一（65万円）",
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "where": "25_2:4:1",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     650000
+    ]
+   },
+   {
+    "id": "PS§3.2 措法25の2④一（65万円）",
+    "short": "sochi",
+    "asof": "2030-12-31",
+    "where": "25_2:4:1",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     650000
+    ]
+   },
+   {
+    "id": "PS§3.2 措法25の2⑤（75万円）",
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "where": "25_2:5",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 措法25の2⑤（75万円）",
+    "short": "sochi",
+    "asof": "2030-12-31",
+    "where": "25_2:5",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 措法25の2⑤二イ・ロ（電子取引）",
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "where": "25_2:5:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 措法25の2⑤二イ・ロ（電子取引）",
+    "short": "sochi",
+    "asof": "2030-12-31",
+    "where": "25_2:5:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 措法25の2⑦（e-Tax）",
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "where": "25_2:7",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 措法25の2⑦（e-Tax）",
+    "short": "sochi",
+    "asof": "2030-12-31",
+    "where": "25_2:7",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2/M C8 措法25の2 金額（令和9年分以後）",
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "where": "25_2",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     100000,
+     650000,
+     750000,
+     10000000
+    ]
+   },
+   {
+    "id": "PS§3.2/M C8 措法25の2 金額（令和9年分以後）",
+    "short": "sochi",
+    "asof": "2030-12-31",
+    "where": "25_2",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     100000,
+     650000,
+     750000,
+     10000000
+    ]
+   },
+   {
+    "id": "PS§3.2 措規9の6①",
+    "short": "sochi-ki",
+    "asof": "2025-12-31",
+    "where": "9_6:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 措規9の6①",
+    "short": "sochi-ki",
+    "asof": "2026-12-31",
+    "where": "9_6:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 措規9の6②",
+    "short": "sochi-ki",
+    "asof": "2025-12-31",
+    "where": "9_6:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 措規9の6②",
+    "short": "sochi-ki",
+    "asof": "2026-12-31",
+    "where": "9_6:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 R8法12附則1①五ロ",
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "where": "S:R8:1:1:5",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 R8法12附則33",
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "where": "S:R8:33",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 R7法13附則1①五ハ",
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "where": "S:R7:1:1:5",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 R7法13附則31",
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "where": "S:R7:31",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 2027-01-01版の措法25の2④一にロがない",
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "where": "25_2:4:1",
+    "kind": "NOCHILD",
+    "ok": true,
+    "got": []
+   },
+   {
+    "id": "PS§4.1 所法67②",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "67:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.1 所法67②",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "67:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.1 所法67②",
+    "short": "shotoku",
+    "asof": "2027-01-01",
+    "where": "67:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.1 所法67②",
+    "short": "shotoku",
+    "asof": "2030-12-31",
+    "where": "67:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.1/M C6 所法67②に青色の要件なし",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "67:2",
+    "kind": "NQ",
+    "ok": true
+   },
+   {
+    "id": "PS§4.1/M C6 所法67②に青色の要件なし",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "67:2",
+    "kind": "NQ",
+    "ok": true
+   },
+   {
+    "id": "PS§4.1/M C6 所法67②に青色の要件なし",
+    "short": "shotoku",
+    "asof": "2027-01-01",
+    "where": "67:2",
+    "kind": "NQ",
+    "ok": true
+   },
+   {
+    "id": "PS§4.1/M C6 所法67②に青色の要件なし",
+    "short": "shotoku",
+    "asof": "2030-12-31",
+    "where": "67:2",
+    "kind": "NQ",
+    "ok": true
+   },
+   {
+    "id": "PS§4.1 所令196の2",
+    "short": "shotoku-rei",
+    "asof": "2025-12-31",
+    "where": "196_2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.1 所令196の2",
+    "short": "shotoku-rei",
+    "asof": "2026-12-31",
+    "where": "196_2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.1 所令196の2",
+    "short": "shotoku-rei",
+    "asof": "2030-12-31",
+    "where": "196_2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.1/M C4 所令196の2 金額",
+    "short": "shotoku-rei",
+    "asof": "2025-12-31",
+    "where": "196_2",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     3000000
+    ]
+   },
+   {
+    "id": "PS§4.1/M C4 所令196の2 金額",
+    "short": "shotoku-rei",
+    "asof": "2026-12-31",
+    "where": "196_2",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     3000000
+    ]
+   },
+   {
+    "id": "PS§4.1/M C4 所令196の2 金額",
+    "short": "shotoku-rei",
+    "asof": "2030-12-31",
+    "where": "196_2",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     3000000
+    ]
+   },
+   {
+    "id": "PS§4.1 所令196の3①",
+    "short": "shotoku-rei",
+    "asof": "2025-12-31",
+    "where": "196_3:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.1 所令196の3①",
+    "short": "shotoku-rei",
+    "asof": "2026-12-31",
+    "where": "196_3:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.1 所令196の3②",
+    "short": "shotoku-rei",
+    "asof": "2025-12-31",
+    "where": "196_3:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.1 所令196の3②",
+    "short": "shotoku-rei",
+    "asof": "2026-12-31",
+    "where": "196_3:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.1 所令197③",
+    "short": "shotoku-rei",
+    "asof": "2025-12-31",
+    "where": "197:3",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.1 所令197③",
+    "short": "shotoku-rei",
+    "asof": "2026-12-31",
+    "where": "197:3",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.1・§4.2 所令197①（196条1項の手続・期限）",
+    "short": "shotoku-rei",
+    "asof": "2025-12-31",
+    "where": "197:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.1・§4.2 所令197①（196条1項の手続・期限）",
+    "short": "shotoku-rei",
+    "asof": "2026-12-31",
+    "where": "197:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.1 所規40②",
+    "short": "shotoku-ki",
+    "asof": "2025-12-31",
+    "where": "40:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.1 所規40②",
+    "short": "shotoku-ki",
+    "asof": "2026-12-31",
+    "where": "40:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.1 所規40③",
+    "short": "shotoku-ki",
+    "asof": "2025-12-31",
+    "where": "40:3",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.1 所規40③",
+    "short": "shotoku-ki",
+    "asof": "2026-12-31",
+    "where": "40:3",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.1 所規40④",
+    "short": "shotoku-ki",
+    "asof": "2025-12-31",
+    "where": "40:4",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.1 所規40④",
+    "short": "shotoku-ki",
+    "asof": "2026-12-31",
+    "where": "40:4",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.2/M C6 所法67①",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "67:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.2/M C6 所法67①",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "67:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.2/M C6 所法67①",
+    "short": "shotoku",
+    "asof": "2027-01-01",
+    "where": "67:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.2/M C6 所法67①",
+    "short": "shotoku",
+    "asof": "2030-12-31",
+    "where": "67:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.2 所令195一",
+    "short": "shotoku-rei",
+    "asof": "2025-12-31",
+    "where": "195:1:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.2 所令195一",
+    "short": "shotoku-rei",
+    "asof": "2026-12-31",
+    "where": "195:1:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.2 所法36①",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "36:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.2 所法36①",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "36:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.3/M C4 所法232② 金額",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "232:2",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     3000000
+    ]
+   },
+   {
+    "id": "PS§4.3/M C4 所法232② 金額",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "232:2",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     3000000
+    ]
+   },
+   {
+    "id": "PS§4.3/M C4 所法232② 金額",
+    "short": "shotoku",
+    "asof": "2027-01-01",
+    "where": "232:2",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     3000000
+    ]
+   },
+   {
+    "id": "PS§4.3/M C4 所法232② 金額",
+    "short": "shotoku",
+    "asof": "2030-12-31",
+    "where": "232:2",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     3000000
+    ]
+   },
+   {
+    "id": "PS§4.3/M C4 所法45③ 最初の金額",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "45:3",
+    "kind": "A1",
+    "ok": true,
+    "got": [
+     3000000
+    ]
+   },
+   {
+    "id": "PS§4.3/M C4 所法45③ 最初の金額",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "45:3",
+    "kind": "A1",
+    "ok": true,
+    "got": [
+     3000000
+    ]
+   },
+   {
+    "id": "PS§4.3/M C4 所法45③ 最初の金額",
+    "short": "shotoku",
+    "asof": "2027-01-01",
+    "where": "45:3",
+    "kind": "A1",
+    "ok": true,
+    "got": [
+     3000000
+    ]
+   },
+   {
+    "id": "PS§4.3/M C4 所法45③ 最初の金額",
+    "short": "shotoku",
+    "asof": "2030-12-31",
+    "where": "45:3",
+    "kind": "A1",
+    "ok": true,
+    "got": [
+     3000000
+    ]
+   },
+   {
+    "id": "PS§4.3 所法45③ 対象",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "45:3",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.3 所法45③ 対象",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "45:3",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.3/M C4 所法120⑥（令和7・8年分の版）",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "120:6",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.3/M C4 所法120⑥（令和7・8年分の版）",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "120:6",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.3/M C4 所法120⑧（2027-01-01版以後）",
+    "short": "shotoku",
+    "asof": "2027-01-01",
+    "where": "120:8",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.3/M C4 所法120⑧（2027-01-01版以後）",
+    "short": "shotoku",
+    "asof": "2030-12-31",
+    "where": "120:8",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "M C4 所法120⑥は2027-01-01版では内訳書の項でない",
+    "short": "shotoku",
+    "asof": "2027-01-01",
+    "where": "120:6",
+    "kind": "NQ",
+    "ok": true
+   },
+   {
+    "id": "PS§4.3 R7法13附則1①五イ（所法120）",
+    "short": "shotoku",
+    "asof": "2027-01-01",
+    "where": "S:R7:1:1:5",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.3・§5 R8法12附則1①五イ（所法35⑤・120）",
+    "short": "shotoku",
+    "asof": "2027-01-01",
+    "where": "S:R8:1:1:5",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.3 R7法13附則8②",
+    "short": "shotoku",
+    "asof": "2027-01-01",
+    "where": "S:R7:8:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.3 R8法12附則10",
+    "short": "shotoku",
+    "asof": "2027-01-01",
+    "where": "S:R8:10",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§5 所法35⑤（原文）",
+    "short": "shotoku",
+    "asof": "2027-01-01",
+    "where": "35:5",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§5 所法35⑤（原文）",
+    "short": "shotoku",
+    "asof": "2030-12-31",
+    "where": "35:5",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§5/M C6 所法35⑤は令和7・8年分の版にない",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "35:5",
+    "kind": "ABS",
+    "ok": true
+   },
+   {
+    "id": "PS§5/M C6 所法35⑤は令和7・8年分の版にない",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "35:5",
+    "kind": "ABS",
+    "ok": true
+   },
+   {
+    "id": "PS§5 R8法12附則5",
+    "short": "shotoku",
+    "asof": "2027-01-01",
+    "where": "S:R8:5",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§6 所法34①",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "34:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§6 所法34①",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "34:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§6 所法34①",
+    "short": "shotoku",
+    "asof": "2027-01-01",
+    "where": "34:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§6 所法34①",
+    "short": "shotoku",
+    "asof": "2030-12-31",
+    "where": "34:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§6 所法34②",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "34:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§6 所法34②",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "34:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§6 所法34②",
+    "short": "shotoku",
+    "asof": "2027-01-01",
+    "where": "34:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§6 所法34②",
+    "short": "shotoku",
+    "asof": "2030-12-31",
+    "where": "34:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§6/M C3 所法34③",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "34:3",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§6/M C3 所法34③",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "34:3",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§6/M C3 所法34③",
+    "short": "shotoku",
+    "asof": "2027-01-01",
+    "where": "34:3",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§6/M C3 所法34③",
+    "short": "shotoku",
+    "asof": "2030-12-31",
+    "where": "34:3",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§6/M C3 所法22②二",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "22:2:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§6/M C3 所法22②二",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "22:2:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§6/M C3 所法22②二",
+    "short": "shotoku",
+    "asof": "2027-01-01",
+    "where": "22:2:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§6/M C3 所法22②二",
+    "short": "shotoku",
+    "asof": "2030-12-31",
+    "where": "22:2:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "H6 所法22に端数の規定なし",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "22",
+    "kind": "NQ",
+    "ok": true
+   },
+   {
+    "id": "H6 所法22に端数の規定なし",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "22",
+    "kind": "NQ",
+    "ok": true
+   },
+   {
+    "id": "PS§6 所法69①",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "69:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§6 所法69①",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "69:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所法232 見出し",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "232",
+    "kind": "CAP",
+    "ok": true,
+    "got": "（事業所得等を有する者の帳簿書類の備付け等）"
+   },
+   {
+    "id": "PS§7.1 所法232 見出し",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "232",
+    "kind": "CAP",
+    "ok": true,
+    "got": "（事業所得等を有する者の帳簿書類の備付け等）"
+   },
+   {
+    "id": "PS§7.1 所法232 見出し",
+    "short": "shotoku",
+    "asof": "2027-01-01",
+    "where": "232",
+    "kind": "CAP",
+    "ok": true,
+    "got": "（事業所得等を有する者の帳簿書類の備付け等）"
+   },
+   {
+    "id": "PS§7.1 所法232 見出し",
+    "short": "shotoku",
+    "asof": "2030-12-31",
+    "where": "232",
+    "kind": "CAP",
+    "ok": true,
+    "got": "（事業所得等を有する者の帳簿書類の備付け等）"
+   },
+   {
+    "id": "PS§7.1 所法232①",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "232:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所法232①",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "232:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所法232①",
+    "short": "shotoku",
+    "asof": "2027-01-01",
+    "where": "232:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所法232①",
+    "short": "shotoku",
+    "asof": "2030-12-31",
+    "where": "232:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所法232②",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "232:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所法232②",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "232:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所法232②",
+    "short": "shotoku",
+    "asof": "2027-01-01",
+    "where": "232:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所法232②",
+    "short": "shotoku",
+    "asof": "2030-12-31",
+    "where": "232:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所法232③",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "232:3",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所法232③",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "232:3",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所規102 見出し",
+    "short": "shotoku-ki",
+    "asof": "2025-12-31",
+    "where": "102",
+    "kind": "CAP",
+    "ok": true,
+    "got": "（事業所得等に係る取引に関する帳簿の記録の方法及び帳簿書類の保存）"
+   },
+   {
+    "id": "PS§7.1 所規102 見出し",
+    "short": "shotoku-ki",
+    "asof": "2026-12-31",
+    "where": "102",
+    "kind": "CAP",
+    "ok": true,
+    "got": "（事業所得等に係る取引に関する帳簿の記録の方法及び帳簿書類の保存）"
+   },
+   {
+    "id": "PS§7.1 所規102①",
+    "short": "shotoku-ki",
+    "asof": "2025-12-31",
+    "where": "102:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所規102①",
+    "short": "shotoku-ki",
+    "asof": "2026-12-31",
+    "where": "102:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所規102①",
+    "short": "shotoku-ki",
+    "asof": "2030-12-31",
+    "where": "102:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所規102②",
+    "short": "shotoku-ki",
+    "asof": "2025-12-31",
+    "where": "102:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所規102②",
+    "short": "shotoku-ki",
+    "asof": "2026-12-31",
+    "where": "102:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所規102②",
+    "short": "shotoku-ki",
+    "asof": "2030-12-31",
+    "where": "102:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所規102③",
+    "short": "shotoku-ki",
+    "asof": "2025-12-31",
+    "where": "102:3",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所規102③",
+    "short": "shotoku-ki",
+    "asof": "2026-12-31",
+    "where": "102:3",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所規102③",
+    "short": "shotoku-ki",
+    "asof": "2030-12-31",
+    "where": "102:3",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1/M C5 所規102④",
+    "short": "shotoku-ki",
+    "asof": "2025-12-31",
+    "where": "102:4",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1/M C5 所規102④",
+    "short": "shotoku-ki",
+    "asof": "2026-12-31",
+    "where": "102:4",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1/M C5 所規102④",
+    "short": "shotoku-ki",
+    "asof": "2030-12-31",
+    "where": "102:4",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所規102⑥（告示）",
+    "short": "shotoku-ki",
+    "asof": "2025-12-31",
+    "where": "102:6",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所規102⑥（告示）",
+    "short": "shotoku-ki",
+    "asof": "2026-12-31",
+    "where": "102:6",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所規102⑥（告示）",
+    "short": "shotoku-ki",
+    "asof": "2030-12-31",
+    "where": "102:6",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所規102⑦",
+    "short": "shotoku-ki",
+    "asof": "2025-12-31",
+    "where": "102:7",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所規102⑦",
+    "short": "shotoku-ki",
+    "asof": "2026-12-31",
+    "where": "102:7",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所規102⑦",
+    "short": "shotoku-ki",
+    "asof": "2030-12-31",
+    "where": "102:7",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1/M C5 所規102⑧",
+    "short": "shotoku-ki",
+    "asof": "2025-12-31",
+    "where": "102:8",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1/M C5 所規102⑧",
+    "short": "shotoku-ki",
+    "asof": "2026-12-31",
+    "where": "102:8",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1/M C5 所規102⑧",
+    "short": "shotoku-ki",
+    "asof": "2030-12-31",
+    "where": "102:8",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所規63④",
+    "short": "shotoku-ki",
+    "asof": "2025-12-31",
+    "where": "63:4",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所規63④",
+    "short": "shotoku-ki",
+    "asof": "2026-12-31",
+    "where": "63:4",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所規47の3 見出し",
+    "short": "shotoku-ki",
+    "asof": "2025-12-31",
+    "where": "47_3",
+    "kind": "CAP",
+    "ok": true,
+    "got": "（事業所得等に係る総収入金額及び必要経費の内訳書）"
+   },
+   {
+    "id": "PS§7.1 所規47の3 見出し",
+    "short": "shotoku-ki",
+    "asof": "2026-12-31",
+    "where": "47_3",
+    "kind": "CAP",
+    "ok": true,
+    "got": "（事業所得等に係る総収入金額及び必要経費の内訳書）"
+   },
+   {
+    "id": "PS§7.1 所規47の3①",
+    "short": "shotoku-ki",
+    "asof": "2025-12-31",
+    "where": "47_3:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所規47の3①",
+    "short": "shotoku-ki",
+    "asof": "2026-12-31",
+    "where": "47_3:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "M§3 所規47の3 が引く項（令和7・8年分の版）",
+    "short": "shotoku-ki",
+    "asof": "2025-12-31",
+    "where": "47_3:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "M§3 所規47の3 が引く項（令和7・8年分の版）",
+    "short": "shotoku-ki",
+    "asof": "2026-12-31",
+    "where": "47_3:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "M§6（未確認→本検証で確認）所規47の3 が引く項（2027-01-01版・2030-12-31版）",
+    "short": "shotoku-ki",
+    "asof": "2027-01-01",
+    "where": "47_3:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "M§6（未確認→本検証で確認）所規47の3 が引く項（2027-01-01版・2030-12-31版）",
+    "short": "shotoku-ki",
+    "asof": "2030-12-31",
+    "where": "47_3:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§8-7 所法120①六",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "120:1:6",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§8-7 所法120①六",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "120:1:6",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "M§3 所法120④二の名称（令和7年分の版）",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "120:4:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "M§3 所法120④二の名称（令和8年分の版）",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "120:4:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "M§3 所法22②一に「第三号」（2030-12-31版）",
+    "short": "shotoku",
+    "asof": "2030-12-31",
+    "where": "22:2:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "M§3 所法69②（2030-12-31版）暗号資産",
+    "short": "shotoku",
+    "asof": "2030-12-31",
+    "where": "69:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "M§3 所規47 に措法41の15の5（令和8年分の版）",
+    "short": "shotoku-ki",
+    "asof": "2026-12-31",
+    "where": "47",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "M§4.1/I1 所法2①三十四（令和7年分の版）",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "2:1:34",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     580000
+    ]
+   },
+   {
+    "id": "M§4.1/I1 所法2①三十四（令和8年分の版）",
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "where": "2:1:34",
+    "kind": "A",
+    "ok": true,
+    "got": [
+     620000
+    ]
+   },
+   {
+    "id": "M§4.3/I2 所法28③一（令和7年分の版）",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "28:3:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "M§4.3 所法28③一に収入を限度とする文言なし（令和7年分の版）",
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "where": "28:3:1",
+    "kind": "NQ",
+    "ok": true
+   },
+   {
+    "id": "M§4.3/H2/I3 措法29の4①（令和8年分の版）",
+    "short": "sochi",
+    "asof": "2026-12-31",
+    "where": "29_4:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "M§4.3/H2/I3 措法29の4①（令和8年分の版）",
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "where": "29_4:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "I7 措法29の4②二（令和8年分の版）",
+    "short": "sochi",
+    "asof": "2026-12-31",
+    "where": "29_4:2:2",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "I8 国税通則法118①（端数）",
+    "short": "tsusoku",
+    "asof": "2025-12-31",
+    "where": "118:1",
+    "kind": "Q",
+    "ok": true,
+    "missing": []
+   }
+  ],
+  "eq": [
+   {
+    "id": "M§3 所法 令和7→8年分の版で同文",
+    "short": "shotoku",
+    "art": "27",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 令和7→8年分の版で同文",
+    "short": "shotoku",
+    "art": "34",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 令和7→8年分の版で同文",
+    "short": "shotoku",
+    "art": "35",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 令和7→8年分の版で同文",
+    "short": "shotoku",
+    "art": "37",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 令和7→8年分の版で同文",
+    "short": "shotoku",
+    "art": "45",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 令和7→8年分の版で同文",
+    "short": "shotoku",
+    "art": "67",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 令和7→8年分の版で同文",
+    "short": "shotoku",
+    "art": "143",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 令和7→8年分の版で同文",
+    "short": "shotoku",
+    "art": "144",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 令和7→8年分の版で同文",
+    "short": "shotoku",
+    "art": "145",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 令和7→8年分の版で同文",
+    "short": "shotoku",
+    "art": "147",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 令和7→8年分の版で同文",
+    "short": "shotoku",
+    "art": "148",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 令和7→8年分の版で同文",
+    "short": "shotoku",
+    "art": "149",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 令和7→8年分の版で同文",
+    "short": "shotoku",
+    "art": "150",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 令和7→8年分の版で同文",
+    "short": "shotoku",
+    "art": "232",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 令和7→8年分の版で変わる",
+    "short": "shotoku",
+    "art": "120",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": false,
+    "expected_same": false,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 令和7→8年分の版で変わる",
+    "short": "shotoku",
+    "art": "151",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": false,
+    "expected_same": false,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 2026-12-31→2027-01-01 で変わる",
+    "short": "shotoku",
+    "art": "35",
+    "a": "2026-12-31",
+    "b": "2027-01-01",
+    "same": false,
+    "expected_same": false,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 2026-12-31→2027-01-01 で変わる",
+    "short": "shotoku",
+    "art": "120",
+    "a": "2026-12-31",
+    "b": "2027-01-01",
+    "same": false,
+    "expected_same": false,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 2027-01-01→2030-12-31 で変わる",
+    "short": "shotoku",
+    "art": "22",
+    "a": "2027-01-01",
+    "b": "2030-12-31",
+    "same": false,
+    "expected_same": false,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 2027-01-01→2030-12-31 で変わる",
+    "short": "shotoku",
+    "art": "35",
+    "a": "2027-01-01",
+    "b": "2030-12-31",
+    "same": false,
+    "expected_same": false,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 2027-01-01→2030-12-31 で変わる",
+    "short": "shotoku",
+    "art": "69",
+    "a": "2027-01-01",
+    "b": "2030-12-31",
+    "same": false,
+    "expected_same": false,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 2027-01-01→2030-12-31 で同文（事業・業務雑・一時の計算）",
+    "short": "shotoku",
+    "art": "27",
+    "a": "2027-01-01",
+    "b": "2030-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 2027-01-01→2030-12-31 で同文（事業・業務雑・一時の計算）",
+    "short": "shotoku",
+    "art": "34",
+    "a": "2027-01-01",
+    "b": "2030-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 2027-01-01→2030-12-31 で同文（事業・業務雑・一時の計算）",
+    "short": "shotoku",
+    "art": "37",
+    "a": "2027-01-01",
+    "b": "2030-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 2027-01-01→2030-12-31 で同文（事業・業務雑・一時の計算）",
+    "short": "shotoku",
+    "art": "45",
+    "a": "2027-01-01",
+    "b": "2030-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 2027-01-01→2030-12-31 で同文（事業・業務雑・一時の計算）",
+    "short": "shotoku",
+    "art": "67",
+    "a": "2027-01-01",
+    "b": "2030-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所法 2027-01-01→2030-12-31 で同文（事業・業務雑・一時の計算）",
+    "short": "shotoku",
+    "art": "232",
+    "a": "2027-01-01",
+    "b": "2030-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所令 令和7→8年分の版で同文",
+    "short": "shotoku-rei",
+    "art": "96",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所令 令和7→8年分の版で同文",
+    "short": "shotoku-rei",
+    "art": "195",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所令 令和7→8年分の版で同文",
+    "short": "shotoku-rei",
+    "art": "196",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所令 令和7→8年分の版で同文",
+    "short": "shotoku-rei",
+    "art": "196_2",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所令 令和7→8年分の版で同文",
+    "short": "shotoku-rei",
+    "art": "196_3",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所令 令和7→8年分の版で同文",
+    "short": "shotoku-rei",
+    "art": "197",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所令 令和8年分の版→2030-12-31 で同文",
+    "short": "shotoku-rei",
+    "art": "96",
+    "a": "2026-12-31",
+    "b": "2030-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所令 令和8年分の版→2030-12-31 で同文",
+    "short": "shotoku-rei",
+    "art": "195",
+    "a": "2026-12-31",
+    "b": "2030-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所令 令和8年分の版→2030-12-31 で同文",
+    "short": "shotoku-rei",
+    "art": "196",
+    "a": "2026-12-31",
+    "b": "2030-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所令 令和8年分の版→2030-12-31 で同文",
+    "short": "shotoku-rei",
+    "art": "196_2",
+    "a": "2026-12-31",
+    "b": "2030-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所令 令和8年分の版→2030-12-31 で同文",
+    "short": "shotoku-rei",
+    "art": "196_3",
+    "a": "2026-12-31",
+    "b": "2030-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所令 令和8年分の版→2030-12-31 で同文",
+    "short": "shotoku-rei",
+    "art": "197",
+    "a": "2026-12-31",
+    "b": "2030-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所規47 令和7→8年分の版で変わる",
+    "short": "shotoku-ki",
+    "art": "47",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": false,
+    "expected_same": false,
+    "ok": true
+   },
+   {
+    "id": "M§3 所規47の3・102 令和7→8年分の版で同文",
+    "short": "shotoku-ki",
+    "art": "47_3",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所規47の3・102 令和7→8年分の版で同文",
+    "short": "shotoku-ki",
+    "art": "102",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 所規102 令和8年分の版→2030-12-31 で同文",
+    "short": "shotoku-ki",
+    "art": "102",
+    "a": "2026-12-31",
+    "b": "2030-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§6 所規47の3 令和8年分の版→2027-01-01 で変わる",
+    "short": "shotoku-ki",
+    "art": "47_3",
+    "a": "2026-12-31",
+    "b": "2027-01-01",
+    "same": false,
+    "expected_same": false,
+    "ok": true
+   },
+   {
+    "id": "M§3 措法25の2 令和7→8年分の版で同文",
+    "short": "sochi",
+    "art": "25_2",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 措法27 令和7→8年分の版で変わる",
+    "short": "sochi",
+    "art": "27",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": false,
+    "expected_same": false,
+    "ok": true
+   },
+   {
+    "id": "M§3 措法25の2 2026-12-31→2027-01-01 で変わる",
+    "short": "sochi",
+    "art": "25_2",
+    "a": "2026-12-31",
+    "b": "2027-01-01",
+    "same": false,
+    "expected_same": false,
+    "ok": true
+   },
+   {
+    "id": "M§3 措法25の2・27 2027-01-01→2030-12-31 で同文",
+    "short": "sochi",
+    "art": "25_2",
+    "a": "2027-01-01",
+    "b": "2030-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 措法25の2・27 2027-01-01→2030-12-31 で同文",
+    "short": "sochi",
+    "art": "27",
+    "a": "2027-01-01",
+    "b": "2030-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 措令18の2 令和7→8年分の版で変わる",
+    "short": "sochi-rei",
+    "art": "18_2",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": false,
+    "expected_same": false,
+    "ok": true
+   },
+   {
+    "id": "M§3 措令18の2 令和8年分の版→2030-12-31 で同文",
+    "short": "sochi-rei",
+    "art": "18_2",
+    "a": "2026-12-31",
+    "b": "2030-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 措規9の6 令和7→8年分の版で同文",
+    "short": "sochi-ki",
+    "art": "9_6",
+    "a": "2025-12-31",
+    "b": "2026-12-31",
+    "same": true,
+    "expected_same": true,
+    "ok": true
+   },
+   {
+    "id": "M§3 措規9の6 令和8年分の版→2030-12-31 で変わる",
+    "short": "sochi-ki",
+    "art": "9_6",
+    "a": "2026-12-31",
+    "b": "2030-12-31",
+    "same": false,
+    "expected_same": false,
+    "ok": true
+   }
+  ],
+  "rev": [
+   {
+    "short": "shotoku",
+    "asof": "2025-12-31",
+    "claimed": [
+     "340AC0000000033_20251218_507AC0000000013",
+     "PreviousEnforced"
+    ],
+    "got": [
+     "340AC0000000033_20251218_507AC0000000013",
+     "PreviousEnforced"
+    ],
+    "ok": true
+   },
+   {
+    "short": "shotoku",
+    "asof": "2026-12-31",
+    "claimed": [
+     "340AC0000000033_20261201_508AC0000000012",
+     "UnEnforced"
+    ],
+    "got": [
+     "340AC0000000033_20261201_508AC0000000012",
+     "UnEnforced"
+    ],
+    "ok": true
+   },
+   {
+    "short": "shotoku",
+    "asof": "2027-01-01",
+    "claimed": [
+     "340AC0000000033_20270101_508AC0000000012",
+     "UnEnforced"
+    ],
+    "got": [
+     "340AC0000000033_20270101_508AC0000000012",
+     "UnEnforced"
+    ],
+    "ok": true
+   },
+   {
+    "short": "shotoku",
+    "asof": "2030-12-31",
+    "claimed": [
+     "340AC0000000033_20300619_507AC0000000074",
+     "UnEnforced"
+    ],
+    "got": [
+     "340AC0000000033_20300619_507AC0000000074",
+     "UnEnforced"
+    ],
+    "ok": true
+   },
+   {
+    "short": "shotoku-rei",
+    "asof": "2025-12-31",
+    "claimed": [
+     "340CO0000000096_20251201_507CO0000000120",
+     "PreviousEnforced"
+    ],
+    "got": [
+     "340CO0000000096_20251201_507CO0000000120",
+     "PreviousEnforced"
+    ],
+    "ok": true
+   },
+   {
+    "short": "shotoku-rei",
+    "asof": "2026-12-31",
+    "claimed": [
+     "340CO0000000096_20261201_508CO0000000093",
+     "UnEnforced"
+    ],
+    "got": [
+     "340CO0000000096_20261201_508CO0000000093",
+     "UnEnforced"
+    ],
+    "ok": true
+   },
+   {
+    "short": "shotoku-rei",
+    "asof": "2030-12-31",
+    "claimed": [
+     "340CO0000000096_20280101_508CO0000000093",
+     "UnEnforced"
+    ],
+    "got": [
+     "340CO0000000096_20280101_508CO0000000093",
+     "UnEnforced"
+    ],
+    "ok": true
+   },
+   {
+    "short": "shotoku-ki",
+    "asof": "2025-12-31",
+    "claimed": [
+     "340M50000040011_20251201_507M60000040018",
+     "PreviousEnforced"
+    ],
+    "got": [
+     "340M50000040011_20251201_507M60000040018",
+     "PreviousEnforced"
+    ],
+    "ok": true
+   },
+   {
+    "short": "shotoku-ki",
+    "asof": "2026-12-31",
+    "claimed": [
+     "340M50000040011_20261211_508M60000040017",
+     "UnEnforced"
+    ],
+    "got": [
+     "340M50000040011_20261211_508M60000040017",
+     "UnEnforced"
+    ],
+    "ok": true
+   },
+   {
+    "short": "shotoku-ki",
+    "asof": "2030-12-31",
+    "claimed": [
+     "340M50000040011_20280101_508M60000040017",
+     "UnEnforced"
+    ],
+    "got": [
+     "340M50000040011_20280101_508M60000040017",
+     "UnEnforced"
+    ],
+    "ok": true
+   },
+   {
+    "short": "sochi",
+    "asof": "2025-12-31",
+    "claimed": [
+     "332AC0000000026_20251231_507AC1000000081",
+     "PreviousEnforced"
+    ],
+    "got": [
+     "332AC0000000026_20251231_507AC1000000081",
+     "PreviousEnforced"
+    ],
+    "ok": true
+   },
+   {
+    "short": "sochi",
+    "asof": "2026-12-31",
+    "claimed": [
+     "332AC0000000026_20261204_508AC0000000012",
+     "UnEnforced"
+    ],
+    "got": [
+     "332AC0000000026_20261204_508AC0000000012",
+     "UnEnforced"
+    ],
+    "ok": true
+   },
+   {
+    "short": "sochi",
+    "asof": "2027-01-01",
+    "claimed": [
+     "332AC0000000026_20270101_508AC0000000012",
+     "UnEnforced"
+    ],
+    "got": [
+     "332AC0000000026_20270101_508AC0000000012",
+     "UnEnforced"
+    ],
+    "ok": true
+   },
+   {
+    "short": "sochi",
+    "asof": "2030-12-31",
+    "claimed": [
+     "332AC0000000026_20300101_505AC0000000003",
+     "UnEnforced"
+    ],
+    "got": [
+     "332AC0000000026_20300101_505AC0000000003",
+     "UnEnforced"
+    ],
+    "ok": true
+   },
+   {
+    "short": "sochi-rei",
+    "asof": "2025-12-31",
+    "claimed": [
+     "332CO0000000043_20251231_507CO0000000401",
+     "PreviousEnforced"
+    ],
+    "got": [
+     "332CO0000000043_20251231_507CO0000000401",
+     "PreviousEnforced"
+    ],
+    "ok": true
+   },
+   {
+    "short": "sochi-rei",
+    "asof": "2026-12-31",
+    "claimed": [
+     "332CO0000000043_20261201_508CO0000000098",
+     "UnEnforced"
+    ],
+    "got": [
+     "332CO0000000043_20261201_508CO0000000098",
+     "UnEnforced"
+    ],
+    "ok": true
+   },
+   {
+    "short": "sochi-rei",
+    "asof": "2030-12-31",
+    "claimed": [
+     "332CO0000000043_20280401_508CO0000000098",
+     "UnEnforced"
+    ],
+    "got": [
+     "332CO0000000043_20280401_508CO0000000098",
+     "UnEnforced"
+    ],
+    "ok": true
+   },
+   {
+    "short": "sochi-ki",
+    "asof": "2025-12-31",
+    "claimed": [
+     "332M50000040015_20251231_507M60000040068",
+     "PreviousEnforced"
+    ],
+    "got": [
+     "332M50000040015_20251231_507M60000040068",
+     "PreviousEnforced"
+    ],
+    "ok": true
+   },
+   {
+    "short": "sochi-ki",
+    "asof": "2026-12-31",
+    "claimed": [
+     "332M50000040015_20261204_508M60000040021",
+     "UnEnforced"
+    ],
+    "got": [
+     "332M50000040015_20261204_508M60000040021",
+     "UnEnforced"
+    ],
+    "ok": true
+   },
+   {
+    "short": "sochi-ki",
+    "asof": "2030-12-31",
+    "claimed": [
+     "332M50000040015_20300101_505M60000040019",
+     "UnEnforced"
+    ],
+    "got": [
+     "332M50000040015_20300101_505M60000040019",
+     "UnEnforced"
+    ],
+    "ok": true
+   }
+  ],
+  "lawnum": [
+   {
+    "short": "shotoku",
+    "claimed_law_id": "340AC0000000033",
+    "claimed_law_id_found": true,
+    "law_nums": [
+     "昭和四十年法律第三十三号"
+    ],
+    "claimed_law_num": "昭和四十年法律第三十三号",
+    "ok": true
+   },
+   {
+    "short": "shotoku-rei",
+    "claimed_law_id": "340CO0000000096",
+    "claimed_law_id_found": true,
+    "law_nums": [
+     "昭和四十年政令第九十六号"
+    ],
+    "claimed_law_num": null,
+    "ok": true
+   },
+   {
+    "short": "shotoku-ki",
+    "claimed_law_id": "340M50000040011",
+    "claimed_law_id_found": true,
+    "law_nums": [
+     "昭和四十年大蔵省令第十一号"
+    ],
+    "claimed_law_num": "昭和四十年大蔵省令第十一号",
+    "ok": true
+   },
+   {
+    "short": "sochi",
+    "claimed_law_id": "332AC0000000026",
+    "claimed_law_id_found": true,
+    "law_nums": [
+     "昭和三十二年法律第二十六号"
+    ],
+    "claimed_law_num": null,
+    "ok": true
+   },
+   {
+    "short": "sochi-rei",
+    "claimed_law_id": "332CO0000000043",
+    "claimed_law_id_found": true,
+    "law_nums": [
+     "昭和三十二年政令第四十三号"
+    ],
+    "claimed_law_num": "昭和三十二年政令第四十三号",
+    "ok": true
+   },
+   {
+    "short": "sochi-ki",
+    "claimed_law_id": "332M50000040015",
+    "claimed_law_id_found": true,
+    "law_nums": [
+     "昭和三十二年大蔵省令第十五号"
+    ],
+    "claimed_law_num": "昭和三十二年大蔵省令第十五号",
+    "ok": true
+   }
+  ],
+  "nta": [
+   {
+    "id": "PS§2.2 TA1810 版",
+    "page": "ta_1810",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.2 TA1810 概要",
+    "page": "ta_1810",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.2 TA1810 両方の所得",
+    "page": "ta_1810",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.2 TA1810 給与",
+    "page": "ta_1810",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.2 TA1810 注意(1)",
+    "page": "ta_1810",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.2/M§4.1 TA1810 注意(2) 令和8年分",
+    "page": "ta_1810",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.2/M§4.1 TA1810 注意(2)(注) 令和7年分",
+    "page": "ta_1810",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.2 TA1810 注意(4)",
+    "page": "ta_1810",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.2 TA1810 根拠法令等",
+    "page": "ta_1810",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§6 TA1490 版・式・2分の1",
+    "page": "ta_1490",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.1・§6 TA1500",
+    "page": "ta_1500",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 TA2072",
+    "page": "ta_2072",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§0 TA2070 版",
+    "page": "ta_2070",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.2 TA2080",
+    "page": "ta_2080",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.2 TA2080 根拠法令等",
+    "page": "ta_2080",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§1.2・§1.3 TA2210",
+    "page": "ta_2210",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§1.2 所基通45−1",
+    "page": "kihon_07_01",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§1.2 所基通45−2",
+    "page": "kihon_07_01",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§6 所基通34−1",
+    "page": "kihon_04_08",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§6 所基通34−3",
+    "page": "kihon_04_08",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.1 所基通67−6",
+    "page": "kihon_14_02",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.3 所基通120−4の2",
+    "page": "kihon_19_01",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§7.1 所基通120−5",
+    "page": "kihon_19_01",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.3 所基通232−1",
+    "page": "kihon_40_02",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§4.3 所基通35−2（注）",
+    "page": "kihon_04_09",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 措置法通達25の2 見出し（65万円又は75万円）",
+    "page": "sochitsu_25_2",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§3.2 措置法通達25の2 令8課個2-10",
+    "page": "sochitsu_25_2",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.5/M§5 措置法通達目次に第27条（家内労働者等）関係なし",
+    "page": "sochitsu_toc",
+    "ok": true,
+    "unexpected": []
+   },
+   {
+    "id": "PS§3.2/M§5 措置法通達目次に第25条の2関係あり",
+    "page": "sochitsu_toc",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§6 質疑応答 02/04",
+    "page": "shitsugi_02_04",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "PS§2.5/M§5 質疑応答 04/34",
+    "page": "shitsugi_04_34",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "M§5/PS§7.4 様式一覧は令和7年分まで",
+    "page": "yoshiki_index",
+    "ok": true,
+    "missing": []
+   },
+   {
+    "id": "M§5/PS§7.4 様式一覧に令和8年分なし",
+    "page": "yoshiki_index",
+    "ok": true,
+    "unexpected": []
+   },
+   {
+    "id": "PS§0 所基通の番号（前文）",
+    "page": "kihon_zenbun",
+    "ok": true,
+    "missing": []
+   }
+  ],
+  "links": [
+   {
+    "id": "PS§7.4 r07 一覧から収支内訳書（一般用）05.pdf",
+    "page": "yoshiki_r07",
+    "ok": true,
+    "tail": "/yoshiki/01/shinkokusho/pdf/r07/05.pdf"
+   },
+   {
+    "id": "I2 TA1810 から入力方法の PDF",
+    "page": "ta_1810",
+    "ok": true,
+    "tail": "/taxanswer/shotoku/pdf/1810.pdf"
+   },
+   {
+    "id": "PS§2.3 TA1810 から計算書（様式一覧 1557_2.htm#a39 経由）",
+    "page": "ta_1810",
+    "ok": true,
+    "tail": "/annai/1557_2.htm#a39"
+   }
+  ],
+  "calc": {
+   "C9": {
+    "fuyo_from_law": {
+     "7": 580000,
+     "8": 620000
+    },
+    "kanai_from_law": {
+     "7": 650000,
+     "8": 690000
+    },
+    "upper_for_fuyo": {
+     "7": 1230000,
+     "8": 1310000
+    },
+    "upper_for_no_tax_using_TA_kiso": {
+     "7": 1600000,
+     "8": 1730000
+    },
+    "doc_claims": {
+     "upper_for_fuyo": {
+      "7": 1230000,
+      "8": 1310000
+     },
+     "upper_for_no_tax": {
+      "7": 1600000,
+      "8": 1730000
+     }
+    },
+    "ok": true
+   },
+   "beppyo5": {
+    "R7": {
+     "first_row": [
+      "６５１，０００円未満",
+      "０"
+     ],
+     "second_row": [
+      "６５１，０００",
+      "１，９００，０００",
+      "給与等の金額から６５０，０００円を控除した金額"
+     ],
+     "parsed": [
+      651000,
+      1900000,
+      650000
+     ]
+    },
+    "R8": {
+     "first_row": [
+      "６９１，０００円未満",
+      "０"
+     ],
+     "second_row": [
+      "６９１，０００",
+      "２，０２６，０００",
+      "給与等の金額から６９０，０００円を控除した金額"
+     ],
+     "parsed": [
+      691000,
+      2026000,
+      690000
+     ]
+    }
+   },
+   "C10": {
+    "grid": "事業収入0〜100万(5万)×事業経費0〜70万(5万)×雑収入0〜100万(5万)×雑経費0〜30万(10万)×給与0/30万/60万、特例額65万",
+    "all_combos": 79380,
+    "skipped_no_income": 180,
+    "not_eligible": 54120,
+    "skipped_Rb0_Eb_pos": 960,
+    "compared": 24120,
+    "equal": 21524,
+    "diff": 2596,
+    "diff_with_Eb_le_Rb": 0,
+    "diff_examples": [
+     {
+      "Rb": 50000,
+      "Eb": 100000,
+      "Rm": 300000,
+      "Em": 0,
+      "sal": 300000,
+      "seirei": [
+       50000,
+       250000
+      ],
+      "sheet": [
+       100000,
+       250000
+      ]
+     },
+     {
+      "Rb": 50000,
+      "Eb": 100000,
+      "Rm": 300000,
+      "Em": 100000,
+      "sal": 300000,
+      "seirei": [
+       50000,
+       250000
+      ],
+      "sheet": [
+       100000,
+       250000
+      ]
+     },
+     {
+      "Rb": 50000,
+      "Eb": 100000,
+      "Rm": 300000,
+      "Em": 200000,
+      "sal": 300000,
+      "seirei": [
+       50000,
+       250000
+      ],
+      "sheet": [
+       100000,
+       250000
+      ]
+     }
+    ],
+    "if_Rb0_Eb_pos_included": {
+     "compared": 960,
+     "diff": 632
+    },
+    "doc_claims": {
+     "compared": 24120,
+     "equal": 21524,
+     "diff": 2596,
+     "diff_only_when_Eb_gt_Rb": true
+    },
+    "ok": true,
+    "doc_example_Rb5_Eb10_Rm30_sal30": {
+     "seirei": [
+      50000,
+      250000
+     ],
+     "sheet": [
+      100000,
+      250000
+     ],
+     "ok": true
+    }
+   },
+   "C11": [
+    {
+     "salary": 0,
+     "R7_literal": 650000,
+     "R7_sheet": 650000,
+     "R8_sochi29_4": 690000,
+     "R8_sheet": 690000,
+     "ok": true
+    },
+    {
+     "salary": 100000,
+     "R7_literal": 0,
+     "R7_sheet": 550000,
+     "R8_sochi29_4": 590000,
+     "R8_sheet": 590000,
+     "ok": true
+    },
+    {
+     "salary": 300000,
+     "R7_literal": 0,
+     "R7_sheet": 350000,
+     "R8_sochi29_4": 390000,
+     "R8_sheet": 390000,
+     "ok": true
+    },
+    {
+     "salary": 640000,
+     "R7_literal": 0,
+     "R7_sheet": 10000,
+     "R8_sochi29_4": 50000,
+     "R8_sheet": 50000,
+     "ok": true
+    },
+    {
+     "salary": 650000,
+     "R7_literal": 0,
+     "R7_sheet": 0,
+     "R8_sochi29_4": 40000,
+     "R8_sheet": 40000,
+     "ok": true
+    },
+    {
+     "salary": 690000,
+     "R7_literal": 0,
+     "R7_sheet": 0,
+     "R8_sochi29_4": 0,
+     "R8_sheet": 0,
+     "ok": true
+    },
+    {
+     "salary": 700000,
+     "R7_literal": 0,
+     "R7_sheet": 0,
+     "R8_sochi29_4": 0,
+     "R8_sheet": 0,
+     "ok": true
+    },
+    {
+     "salary": 740000,
+     "R7_literal": 0,
+     "R7_sheet": 0,
+     "R8_sochi29_4": 0,
+     "R8_sheet": 0,
+     "ok": true
+    }
+   ],
+   "inferences": {
+    "I1": [
+     {
+      "year": 7,
+      "R": 1230000,
+      "income": 580000,
+      "fuyo": true,
+      "ok": true
+     },
+     {
+      "year": 7,
+      "R": 1230001,
+      "income": 580001,
+      "fuyo": false,
+      "ok": true
+     },
+     {
+      "year": 8,
+      "R": 1310000,
+      "income": 620000,
+      "fuyo": true,
+      "ok": true
+     },
+     {
+      "year": 8,
+      "R": 1310001,
+      "income": 620001,
+      "fuyo": false,
+      "ok": true
+     },
+     {
+      "year": 7,
+      "R": 1600000,
+      "income": 950000,
+      "fuyo": false,
+      "ok": true
+     }
+    ],
+    "I2": {
+     "kyuyo_shotoku": 0,
+     "sheet": {
+      "F": 350000,
+      "zatsu": 450000,
+      "total": 450000
+     },
+     "literal": {
+      "F": 0,
+      "zatsu": 750000,
+      "total": 750000
+     },
+     "ok": true
+    },
+    "I3": {
+     "kyuyo_shotoku": 0,
+     "F": 390000,
+     "zatsu": 410000,
+     "total": 410000,
+     "ok": true
+    },
+    "I4A": {
+     "seirei": [
+      300000,
+      200000
+     ],
+     "sheet": [
+      300000,
+      200000
+     ],
+     "sheet_v5": 600000,
+     "sheet_v6": 450000,
+     "ok": true
+    },
+    "I5": {
+     "40%": 48000,
+     "60%": 72000,
+     "ok": true
+    },
+    "I7": [
+     {
+      "year": 7,
+      "salary": 1000000,
+      "prize": 700000,
+      "got": [
+       350000,
+       200000,
+       100000,
+       450000,
+       true
+      ],
+      "ok": true
+     },
+     {
+      "year": 8,
+      "salary": 1000000,
+      "prize": 700000,
+      "got": [
+       260000,
+       200000,
+       100000,
+       360000,
+       true
+      ],
+      "ok": true
+     },
+     {
+      "year": 7,
+      "salary": 1000000,
+      "prize": 400000,
+      "got": [
+       350000,
+       0,
+       0,
+       350000,
+       true
+      ],
+      "ok": true
+     },
+     {
+      "year": 7,
+      "salary": 1000000,
+      "prize": 1800000,
+      "got": [
+       350000,
+       1300000,
+       650000,
+       1000000,
+       false
+      ],
+      "ok": true
+     }
+    ],
+    "I1_age_at_year_end(2008-05-01生)": {
+     "2025-12-31": 17,
+     "2026-12-31": 18
+    }
+   },
+   "H3_aoiro_special_deduction": {
+    "sochi25_2_amounts_R7": [
+     100000,
+     550000,
+     650000
+    ],
+    "max_R7_R8": 650000,
+    "doc_claim_max": 550000,
+    "ok": false
+   },
+   "gap_fill": {
+    "sochi27_amounts_past": {
+     "2020-12-31": [
+      550000
+     ],
+     "2024-12-31": [
+      550000
+     ]
+    },
+    "sochi27_revision_past": {
+     "2020-12-31": "332AC0000000026_20201228_502AC0000000068",
+     "2024-12-31": "332AC0000000026_20241108_506AC0000000008"
+    },
+    "shotoku151_first_new_text": [
+     "340AC0000000033_20260101_505AC0000000003",
+     "340AC0000000033_20260101_507AC0000000013"
+    ],
+    "shotoku151_last_old_text": [
+     "340AC0000000033_20251218_507AC0000000013"
+    ],
+    "R5law3_suppl_1_1_6": "六次に掲げる規定令和八年一月一日イ第一条中所得税法第百五十一条の改正規定、同法第二百二十九条の改正規定及び同法第二百三十条の改正規定並びに附則第五条及び第十条の規定",
+    "R5law3_suppl_5": "（青色申告の取りやめ等に関する経過措置）第五条新所得税法第百五十一条（所得税法第百六十六条において準用する場合を含む。）の規定は、令和八年分以後の所得税につき青色申告書の提出をやめようとする場合について適用し、令和七年分以前の所得税につき青色申告書の提出をやめようとする場合については、なお従前の例による。",
+    "ok_sochi27_550000": true,
+    "ok_151_by_R5law3": true
+   },
+   "gap_fill_shotoku_ki_47_3_at_2027_01_01": true,
+   "tsusoku118": {
+    "text": "国税（印紙税及び附帯税を除く。以下この条において同じ。）の課税標準（その税率の適用上課税標準から控除する金額があるときは、これを控除した金額。以下この条において同じ。）を計算する場合において、その額に千円未満の端数があるとき、又はその全額が千円未満であるときは、その端数金額又はその全額を切り捨てる。",
+    "revision": {
+     "law_revision_id": "337AC0000000066_20251001_505AC0000000053",
+     "amendment_law_num": "令和五年法律第五十三号",
+     "amendment_enforcement_date": "2025-10-01",
+     "current_revision_status": "PreviousEnforced"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "set": "nta",
+ "fetched_at": "20261112-151556",
+ "download_dir": ".work/downloads/20261112-151556_IMPL8_tokutei-shishutsu_web_nta",
+ "robots": [
+  {
+   "host": "https://www.nta.go.jp",
+   "status": 200,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+  }
+ ],
+ "items": [
+  {
+   "id": "ta_1415",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1415.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1415.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:09 GMT",
+   "bytes": 18931,
+   "sha256": "3fe53da62a2a07dd65c0da58a91cc11ee37bec5d6ae61a3b2b212ee5601e4cb9",
+   "saved": ".work/downloads/20261112-151556_IMPL8_tokutei-shishutsu_web_nta/ta_1415.htm",
+   "title": "No.1415 給与所得者の特定支出控除｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "kihon_shotoku_index",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 25 Dec 2025 01:00:06 GMT",
+   "bytes": 38254,
+   "sha256": "74710f9540adcb9b7e6b181ba716e93be44be38195cc0c7dfe1a8e02fcf16e4f",
+   "saved": ".work/downloads/20261112-151556_IMPL8_tokutei-shishutsu_web_nta/kihon_shotoku_index.htm",
+   "title": "通達目次 / 所得税基本通達｜国税庁",
+   "encoding": "shift_jis"
+  }
+ ]
+}

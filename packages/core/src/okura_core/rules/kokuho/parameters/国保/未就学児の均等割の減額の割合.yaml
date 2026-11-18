@@ -1,0 +1,27 @@
+description: 未就学児の被保険者均等割の減額の割合（料は政令の割合。税は政令の割合を基準として条例で定める額で、注入データ 国保.未就学児の均等割の減額 を使う）。
+分子:
+  description: 割合の分子（十分の五）
+  metadata:
+    law: 国民健康保険法施行令第29条の7第6項第6号・第7号
+    source_kind: 政令
+    reference:
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#7
+  values:
+    2021-01-01:
+      value: 5
+      metadata:
+        施行日: 2022-04-01
+        適用: 令和4年度分以後（令和3年政令第253号附則第2項）。令和9年度の割合は未登録（[KHP] §7・§13-1）
+分母:
+  description: 割合の分母
+  metadata:
+    law: 国民健康保険法施行令第29条の7第6項第6号・第7号
+    source_kind: 政令
+    reference:
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#7
+  values:
+    2021-01-01:
+      value: 10
+      metadata:
+        施行日: 2022-04-01
+        適用: 令和4年度分以後（令和3年政令第253号附則第2項）

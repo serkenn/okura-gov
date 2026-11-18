@@ -1,0 +1,8 @@
+okura_core: C:\Users\user\Documents\okura-gov\.work\perf\snap_src\okura_core\__init__.py
+import 3.55s build_system 0.54s
+01_student_away_and_parent_on_assignment__fy                  92.249s      3453 KiB  ok=True
+01_student_away_and_parent_on_assignment__dd                 ERROR ValueError: v:2026-04-01:p-a:健保.同一の世帯の比較の基準額: 依存先 v:2026-04-01@2026:p-c:所得税.一時所得の金額 がない
+04_forecast_and_plan_marks__fy                               224.622s       570 KiB  ok=True
+04_forecast_and_plan_marks__dd                               249.649s        93 KiB  ok=True
+05_commuting_and_withholding_slip__fy                          3.087s      1427 KiB  ok=True
+05_commuting_and_withholding_slip__dd                          2.239s        93 KiB  ok=True

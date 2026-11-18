@@ -1,0 +1,92 @@
+{
+ "set": "v_shinsa_index",
+ "fetched_at_local": "20261111-025043",
+ "user_agent": "okura-gov-research/0.1",
+ "download_dir": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_shinsa_index",
+ "results": [
+  {
+   "id": "idx_h28_29",
+   "url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/h28_29.html",
+   "status": 200,
+   "final_url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/h28_29.html",
+   "content_type": "text/html",
+   "bytes": 39406,
+   "sha256": "cd942c3fb7f36797775a0a1b5a739c3a6540466a007e5d1b73c23532e1782959",
+   "last_modified": "Fri, 10 Jul 2026 01:48:54 GMT",
+   "saved": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_shinsa_index/idx_h28_29.html",
+   "charset": "shift_jis",
+   "title": "裁決年（平成２８・２９年）｜厚生労働省",
+   "text": "scripts/results/R3X_dai3go_verify/text/20261111-025043_v_shinsa_index/idx_h28_29.txt"
+  },
+  {
+   "id": "idx_h30_31_r01",
+   "url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/h30_31_r01.html",
+   "status": 200,
+   "final_url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/h30_31_r01.html",
+   "content_type": "text/html",
+   "bytes": 20411,
+   "sha256": "fdbede6b304e790f39e078ba7ea482eb924c9db23e0f61f944b253a21d305ac1",
+   "last_modified": "Fri, 10 Jul 2026 01:48:52 GMT",
+   "saved": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_shinsa_index/idx_h30_31_r01.html",
+   "charset": "shift_jis",
+   "title": "裁決年（平成３０・３１・令和元年）｜厚生労働省",
+   "text": "scripts/results/R3X_dai3go_verify/text/20261111-025043_v_shinsa_index/idx_h30_31_r01.txt"
+  },
+  {
+   "id": "idx_r2_r3",
+   "url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/r2_r3.html",
+   "status": 200,
+   "final_url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/r2_r3.html",
+   "content_type": "text/html",
+   "bytes": 36646,
+   "sha256": "ff692fbc6a012ff7bc80e14cd6402b4517056b1302b5d50ea3cf795b1ab59f84",
+   "last_modified": "Fri, 10 Jul 2026 01:48:51 GMT",
+   "saved": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_shinsa_index/idx_r2_r3.html",
+   "charset": "shift_jis",
+   "title": "裁決年（令和２・３年）｜厚生労働省",
+   "text": "scripts/results/R3X_dai3go_verify/text/20261111-025043_v_shinsa_index/idx_r2_r3.txt"
+  },
+  {
+   "id": "idx_r04_r05",
+   "url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/r04_r05.html",
+   "status": 200,
+   "final_url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/r04_r05.html",
+   "content_type": "text/html",
+   "bytes": 32469,
+   "sha256": "f3d89a6e9c1e6ebb3e85ca14b9206d3ec87a78f96781c06dd8e7c8d0a2ffb1a4",
+   "last_modified": "Fri, 10 Jul 2026 01:48:56 GMT",
+   "saved": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_shinsa_index/idx_r04_r05.html",
+   "charset": "shift_jis",
+   "title": "裁決年（令和４・５年）｜厚生労働省",
+   "text": "scripts/results/R3X_dai3go_verify/text/20261111-025043_v_shinsa_index/idx_r04_r05.txt"
+  },
+  {
+   "id": "idx_r06",
+   "url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/r06.html",
+   "status": 200,
+   "final_url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/r06.html",
+   "content_type": "text/html",
+   "bytes": 16421,
+   "sha256": "f6347cc1256a1dbd84634157140f8e2faa3dfe3a8072ad6a46dee4e8f57fcebd",
+   "last_modified": "Fri, 10 Jul 2026 01:48:49 GMT",
+   "saved": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_shinsa_index/idx_r06.html",
+   "charset": "shift_jis",
+   "title": "裁決年（令和６年）｜厚生労働省",
+   "text": "scripts/results/R3X_dai3go_verify/text/20261111-025043_v_shinsa_index/idx_r06.txt"
+  },
+  {
+   "id": "idx_r07",
+   "url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/r07.html",
+   "status": 200,
+   "final_url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/r07.html",
+   "content_type": "text/html",
+   "bytes": 15438,
+   "sha256": "0875797a893b2cd970417c11e305f171b7e119f11f80e9e62fdcb7a8cec68347",
+   "last_modified": "Fri, 10 Jul 2026 01:48:47 GMT",
+   "saved": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_shinsa_index/idx_r07.html",
+   "charset": "shift_jis",
+   "title": "裁決年（令和７年）｜厚生労働省",
+   "text": "scripts/results/R3X_dai3go_verify/text/20261111-025043_v_shinsa_index/idx_r07.txt"
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "set": "tsutatsu",
+ "fetched_at": "20261112-095948",
+ "download_dir": ".work/downloads/20261112-095948_IMPL6_tanaoroshi_web_fetch_tsutatsu",
+ "robots": [
+  {
+   "host": "https://www.nta.go.jp",
+   "status": 200,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+  }
+ ],
+ "items": [
+  {
+   "id": "kihon_01_03",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/03.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/03.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:30:24 GMT",
+   "bytes": 5722,
+   "sha256": "2de10f554f5b7905239e9ec1eef3289398b2ca6a3de85a50abb2ed7dd6ebabe2",
+   "saved": ".work/downloads/20261112-095948_IMPL6_tanaoroshi_web_fetch_tsutatsu/kihon_01_03.htm",
+   "title": "〔公社債（第9号関係）〕｜国税庁",
+   "not_found": false,
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_06_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/06/01.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/06/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:30:21 GMT",
+   "bytes": 10655,
+   "sha256": "a187fd5fffba917a3566434f82943bc4d7b2af5cbb3f13910c8dfae6894e1fab",
+   "saved": ".work/downloads/20261112-095948_IMPL6_tanaoroshi_web_fetch_tsutatsu/kihon_06_01.htm",
+   "title": "法第39条《たな卸資産等の自家消費の場合の総収入金額算入》関係｜国税庁",
+   "not_found": false,
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_08_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/01.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 25 Dec 2025 01:00:05 GMT",
+   "bytes": 9883,
+   "sha256": "9e05e4c32069824f790ed9a0f4bdc5fd5e20eb6dd94e4721b2b36eb534fbefff",
+   "saved": ".work/downloads/20261112-095948_IMPL6_tanaoroshi_web_fetch_tsutatsu/kihon_08_01.htm",
+   "title": "〔棚卸資産の評価の方法（令第99条関係）〕｜国税庁",
+   "not_found": false,
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_08_02",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/02.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/02.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 25 Nov 2025 08:30:05 GMT",
+   "bytes": 12097,
+   "sha256": "c93e35924706c6ba49e104bcfe8dd87ecec8ed5e45b2c3c8b9a2b4ee59b40a8f",
+   "saved": ".work/downloads/20261112-095948_IMPL6_tanaoroshi_web_fetch_tsutatsu/kihon_08_02.htm",
+   "title": "〔棚卸資産の評価の方法の選定（令第100条関係）〕｜国税庁",
+   "not_found": false,
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_08_03",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/03.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/03.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:30:21 GMT",
+   "bytes": 5381,
+   "sha256": "86316129db4a2dd70e1b5ae87b9cd1a7e5dce7e7e56937c25e2fb7739c46d692",
+   "saved": ".work/downloads/20261112-095948_IMPL6_tanaoroshi_web_fetch_tsutatsu/kihon_08_03.htm",
+   "title": "〔棚卸資産の取得価額の特例（令第104条関係）〕｜国税庁",
+   "not_found": false,
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_09_02",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/09/02.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/09/02.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 02 Oct 2026 08:30:05 GMT",
+   "bytes": 9535,
+   "sha256": "b26e20744c0f2034aff70155c02a7491111f65c5a541355361dda77441273549",
+   "saved": ".work/downloads/20261112-095948_IMPL6_tanaoroshi_web_fetch_tsutatsu/kihon_09_02.htm",
+   "title": "〔貸倒損失〕｜国税庁",
+   "not_found": false,
+   "encoding": "shift_jis"
+  }
+ ]
+}

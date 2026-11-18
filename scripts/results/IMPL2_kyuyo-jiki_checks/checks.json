@@ -1,0 +1,251 @@
+{
+ "Q_quotes": {
+  "ok": true,
+  "items": [
+   {
+    "file": "scripts/results/IMPL2_kyuyo-jiki_egov/ho_2026-11-11.txt",
+    "quote_head": "その年分の各種所得の金額の計算上収入金額とすべき金額又は総収入金額に算入すべき金",
+    "found": true
+   },
+   {
+    "file": "scripts/results/IMPL2_kyuyo-jiki_egov/ho_2026-11-11.txt",
+    "quote_head": "法人の法人税法第二条第十五号（定義）に規定する役員に対する賞与については、支払の",
+    "found": true
+   },
+   {
+    "file": "scripts/results/IMPL2_kyuyo-jiki_egov/ho_2026-11-11.txt",
+    "quote_head": "その年中にその居住者に対し支払うべきことが確定した給与等",
+    "found": true
+   },
+   {
+    "file": "scripts/results/IMPL2_kyuyo-jiki_egov/ho_2026-11-11.txt",
+    "quote_head": "十七　相続、遺贈又は個人からの贈与により取得するもの（相続税法（昭和二十五年法律",
+    "found": true
+   },
+   {
+    "file": "scripts/results/IMPL2_kyuyo-jiki_egov/ho_2025-12-31.txt",
+    "quote_head": "その年において収入すべき金額",
+    "found": true
+   },
+   {
+    "file": "scripts/results/IMPL2_kyuyo-jiki_egov/sozoku_2026-11-11.txt",
+    "quote_head": "被相続人の死亡により相続人その他の者が当該被相続人に支給されるべきであつた退職手",
+    "found": true
+   },
+   {
+    "file": "scripts/results/IMPL2_kyuyo-jiki_nta/pages/kihon_05_01.txt",
+    "quote_head": "36－9　給与所得の収入金額の収入すべき時期は、それぞれ次に掲げる日によるものと",
+    "found": true
+   },
+   {
+    "file": "scripts/results/IMPL2_kyuyo-jiki_nta/pages/kihon_05_01.txt",
+    "quote_head": "(1)　契約又は慣習その他株主総会の決議等により支給日が定められている給与等（次",
+    "found": true
+   },
+   {
+    "file": "scripts/results/IMPL2_kyuyo-jiki_nta/pages/kihon_05_01.txt",
+    "quote_head": "(3)　給与規程の改訂が既往にさかのぼって実施されたため既往の期間に対応して支払",
+    "found": true
+   },
+   {
+    "file": "scripts/results/IMPL2_kyuyo-jiki_nta/pages/kihon_05_01.txt",
+    "quote_head": "(4)　いわゆる認定賞与とされる給与等で、その支給日があらかじめ定められているも",
+    "found": true
+   },
+   {
+    "file": "scripts/results/IMPL2_kyuyo-jiki_nta/pages/kihon_02_04.txt",
+    "quote_head": "9－17　死亡した者に係る給与等、公的年金等及び退職手当等（法第30条第1項《退",
+    "found": true
+   },
+   {
+    "file": "scripts/results/IMPL2_kyuyo-jiki_nta/pages/kihon_02_04.txt",
+    "quote_head": "（注）　上記の給与等、公的年金等及び退職手当等の支給期については、36－9、36",
+    "found": true
+   },
+   {
+    "file": "scripts/results/IMPL2_kyuyo-jiki_nta/pages/kihon_31_01.txt",
+    "quote_head": "183－1　法第183条第2項の規定する「支払の確定した日から1年を経過した日」",
+    "found": true
+   },
+   {
+    "file": "scripts/results/IMPL2_kyuyo-jiki_nta/pages/kihon_28_01.txt",
+    "quote_head": "181～223共－1　法第4編《源泉徴収》に規定する「支払の際」又は「支払をする",
+    "found": true
+   },
+   {
+    "file": "scripts/results/IMPL2_kyuyo-jiki_nta/pages/kihon_32_01.txt",
+    "quote_head": "（1） 給与等の支払を受ける者が死亡により退職した場合",
+    "found": true
+   },
+   {
+    "file": "scripts/results/IMPL2_kyuyo-jiki_nta/pages/kihon_32_01.txt",
+    "quote_head": "（4） 給与等の支払を受ける者が12月に支給期の到来する給与等の支払を受けた後に",
+    "found": true
+   },
+   {
+    "file": "scripts/results/IMPL2_kyuyo-jiki_nta/pages/sokihon_01_03.txt",
+    "quote_head": "3-33　相続開始の時において支給期の到来していない俸給、給料等は、法第3条第1",
+    "found": true
+   },
+   {
+    "file": "scripts/results/IMPL2_kyuyo-jiki_nta/pages/shitsugi_hotei_7_05.txt",
+    "quote_head": "死亡した者に係る給与等で、その死亡後に支給期の到来するものについては、本来の相続",
+    "found": true
+   },
+   {
+    "file": "scripts/results/IMPL2_kyuyo-jiki_nta/pages/shitsugi_hotei_7_05.txt",
+    "quote_head": "なお、死亡時までに支給期の到来している給与等については、「給与所得の源泉徴収票」",
+    "found": true
+   },
+   {
+    "file": "scripts/results/IMPL2_kyuyo-jiki_nta/pages/shitsugi_hotei_7_05.txt",
+    "quote_head": "(注)　「支給期」とは、所得税法基本通達36－9に定めるところによります。",
+    "found": true
+   },
+   {
+    "file": "scripts/results/IMPL2_kyuyo-jiki_nta/pages/shitsugi_hotei_7_16.txt",
+    "quote_head": "また、死亡後に支給期の到来する給与については、相続財産となり、所得税の課税対象と",
+    "found": true
+   },
+   {
+    "file": "scripts/results/IMPL2_tsukin_nta/pages3/tebikihtml_2_3_4.txt",
+    "quote_head": "令和８年中に支払の確定した給与等（中途就職者について、その就職前に他の支払者が支",
+    "found": true
+   }
+  ]
+ },
+ "S_scenarios": {
+  "ok": true,
+  "differs_count": 7,
+  "items": [
+   {
+    "case": "S1 12月分を翌年1月10日に支給（規程の支給日も1月10日）",
+    "input": {
+     "due_on": "2026-01-10",
+     "paid_on": "2026-01-10"
+    },
+    "by_36_9": 2026,
+    "why_36_9": "36−9(1)/(3)：支給日",
+    "by_core": 2026,
+    "why_core": "支払日の年",
+    "differs": false
+   },
+   {
+    "case": "S2 12月25日が支給日の給与が遅れて翌年1月5日に支払われた",
+    "input": {
+     "due_on": "2025-12-25",
+     "paid_on": "2026-01-05"
+    },
+    "by_36_9": 2025,
+    "why_36_9": "36−9(1)/(3)：支給日",
+    "by_core": 2026,
+    "why_core": "支払日の年",
+    "differs": true
+   },
+   {
+    "case": "S3 支給日 2026-12-25 の給与が 2027年3月の時点で未払",
+    "input": {
+     "due_on": "2026-12-25",
+     "paid_on": null
+    },
+    "by_36_9": 2026,
+    "why_36_9": "36−9(1)/(3)：支給日",
+    "by_core": null,
+    "why_core": "支払の記録がない（未払）",
+    "differs": true
+   },
+   {
+    "case": "S4 支給日の定めがなく 2026-12-30 に支払われた",
+    "input": {
+     "due_on": null,
+     "paid_on": "2026-12-30"
+    },
+    "by_36_9": 2026,
+    "why_36_9": "36−9(1)：支給日の定めなし→支給を受けた日",
+    "by_core": 2026,
+    "why_core": "支払日の年",
+    "differs": false
+   },
+   {
+    "case": "S5 2026年の各月分の昇給差額。改訂で定めた支給日 2027-01-25",
+    "input": {
+     "kind": "retro_diff",
+     "due_on": "2027-01-25",
+     "paid_on": "2027-01-25"
+    },
+    "by_36_9": 2027,
+    "why_36_9": "36−9(1)/(3)：支給日",
+    "by_core": 2027,
+    "why_core": "支払日の年",
+    "differs": false
+   },
+   {
+    "case": "S6 遡及改訂の差額で支給日の定めなし。改訂の効力 2026-12-01、支払 2027-01-15",
+    "input": {
+     "kind": "retro_diff",
+     "due_on": null,
+     "retro_effective_on": "2026-12-01",
+     "paid_on": "2027-01-15"
+    },
+    "by_36_9": 2026,
+    "why_36_9": "36−9(3)：支給日の定めなし→改訂の効力が生じた日",
+    "by_core": 2027,
+    "why_core": "支払日の年",
+    "differs": true
+   },
+   {
+    "case": "S7 2026-03-15 死亡、支給日 2026-03-25 の給与を遺族に支払（相続財産に算入）",
+    "input": {
+     "due_on": "2026-03-25",
+     "paid_on": "2026-03-25",
+     "died_on": "2026-03-15",
+     "in_inheritance_base": true
+    },
+    "by_36_9": null,
+    "why_36_9": "36−9(1)/(3)：支給日。死亡後に支給期が到来し、相続税の課税価格計算の基礎に算入される→所得税を課さない（9−17）",
+    "by_core": "対象外",
+    "why_core": "死亡の日以後の支払→対象外（未対応）",
+    "differs": true
+   },
+   {
+    "case": "S8 2026-03-15 死亡、支給日 2026-03-25 の給与（相続財産に算入するか入力なし）",
+    "input": {
+     "due_on": "2026-03-25",
+     "paid_on": "2026-03-25",
+     "died_on": "2026-03-15"
+    },
+    "by_36_9": "未確定",
+    "why_36_9": "36−9(1)/(3)：支給日。死亡後に支給期が到来。相続税の課税価格計算の基礎に算入されるかが入力にない（9−17 の要件）",
+    "by_core": "対象外",
+    "why_core": "死亡の日以後の支払→対象外（未対応）",
+    "differs": true
+   },
+   {
+    "case": "S9 2026-03-15 死亡、支給日 2026-02-25 の給与が死亡時に未払で、2026-03-25 に遺族に支払",
+    "input": {
+     "due_on": "2026-02-25",
+     "paid_on": "2026-03-25",
+     "died_on": "2026-03-15"
+    },
+    "by_36_9": 2026,
+    "why_36_9": "36−9(1)/(3)：支給日",
+    "by_core": "対象外",
+    "why_core": "死亡の日以後の支払→対象外（未対応）",
+    "differs": true
+   },
+   {
+    "case": "S10 2026-03-15 死亡、支給日 2026-03-15（死亡日と同日）の給与を同日に支払",
+    "input": {
+     "due_on": "2026-03-15",
+     "paid_on": "2026-03-15",
+     "died_on": "2026-03-15"
+    },
+    "by_36_9": 2026,
+    "why_36_9": "36−9(1)/(3)：支給日",
+    "by_core": "対象外",
+    "why_core": "死亡の日以後の支払→対象外（未対応）",
+    "differs": true
+   }
+  ]
+ }
+}

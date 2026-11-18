@@ -1,0 +1,4629 @@
+description: >-
+  減価償却（所得税法第49条・第2条第1項第19号、所得税法施行令第120条の2・第125条・第132条・第134条・第138条・第139条、
+  減価償却資産の耐用年数等に関する省令第5条第1項第1号・別表第八、租税特別措置法第28条の2・同施行令第18条の5）。
+  原文：docs/public-sources/20261109_round2_genka-laws-and-nta.md §2.1・§2.2・§3.1・§3.2。
+  定額法の償却率は別表第八（平成19年4月1日以後に取得をされた減価償却資産）で、令和7年分・令和8年分の版で同じ（genka §2.2。全行は
+  scripts/results/R2X_genka_laws/taiyo_tables_2026-12-31.json）。千分率の整数で持つ（償却率＝値／1000）。旧定額法・旧定率法・定率法の率・残存割合・旧償却の限度は末尾（耐用年数省令4①・5①二・6①・別表第七・第九〜第十一、所令134①一イ・②。
+  docs/public-sources/20261111_impl-research3_genka-laws.md §1・§3〜§5。保証率は十万分率の整数）。
+少額の減価償却資産の取得価額の上限:
+  description: 所令138①「十万円未満」（使用可能期間1年未満のものとともに、業務の用に供した年分に全額を必要経費に算入）。未満なので比較は「＜」。
+  metadata: &rei138
+    law: 所得税法施行令第138条第1項
+    source_kind: 政令
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_round2_genka-laws-and-nta.md#3.1
+  values:
+    2025-01-01: {value: 100000, metadata: {適用: 令和7年分・令和8年分の版で同文（genka §3.1）}}
+一括償却資産の取得価額の上限:
+  description: 所令139①「二十万円未満」（業務の用に供した年以後3年間、一括償却対象額の3分の1を各年分の必要経費に算入）。未満なので比較は「＜」。
+  metadata: &rei139
+    law: 所得税法施行令第139条第1項
+    source_kind: 政令
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_round2_genka-laws-and-nta.md#3.1
+  values:
+    2025-01-01: {value: 200000, metadata: {適用: 令和7年分・令和8年分の版で同文（genka §3.1）}}
+中小事業者の少額減価償却資産:
+  description: >-
+    租税特別措置法第28条の2（青色申告書を提出する中小事業者）。取得価額の上限は取得の日で区分する（令和8年法律第12号附則第35条。genka §3.2 の表：
+    平成18年4月1日〜令和8年3月31日の取得は30万円未満、令和8年4月1日以後の取得は40万円未満）。キーは適用開始日（年分の1月1日）で、
+    区分は値ごとの metadata と inputs の分岐（取得の日）で持つ。年間の合計額の上限は業務の用に供した年分で見る（開業・廃業の年は月割：第1項・第2項）。
+  取得価額の上限_令和8年3月31日までの取得:
+    description: 第1項の取得価額の上限（取得の日が令和8年3月31日以前のもの。未満なので比較は「＜」）
+    metadata: &sochi28_2
+      law: 租税特別措置法第28条の2第1項（令和8年法律第12号による改正前）
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round2_genka-laws-and-nta.md#3.2
+    values:
+      2025-01-01: {value: 300000, metadata: {適用: 取得の日が平成18年4月1日から令和8年3月31日まで（genka §3.2 の表）}}
+  取得価額の上限_令和8年4月1日以後の取得:
+    description: 第1項の取得価額の上限（取得の日が令和8年4月1日以後のもの。未満なので比較は「＜」）
+    metadata:
+      law: 租税特別措置法第28条の2第1項・令和8年法律第12号附則第1条・第35条
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round2_genka-laws-and-nta.md#3.2
+    values:
+      2025-01-01: {value: 400000, metadata: {施行日: 2026-04-01, 適用: 取得の日が令和8年4月1日以後のもの（令和8年法律第12号附則第35条。genka §3.2）}}
+  取得の日の区分の開始:
+    description: 上の2つの区分の境（令和8年4月1日。整数の YYYYMMDD）。この日以後に取得したものは新しい上限
+    metadata:
+      law: 令和8年法律第12号附則第1条・第35条
+      source_kind: 法律
+      unit: 年月日
+      reference:
+        - docs/public-sources/20261109_round2_genka-laws-and-nta.md#3.2
+    values:
+      2025-01-01: {value: 20260401, metadata: {施行日: 2026-04-01}}
+  取得の日の期限:
+    description: 第1項の適用の期限（令和11年3月31日。整数の YYYYMMDD。この日までに取得したものに限る）
+    metadata:
+      law: 租税特別措置法第28条の2第1項（令和8年法律第12号による改正後）
+      source_kind: 法律
+      unit: 年月日
+      reference:
+        - docs/public-sources/20261109_round2_genka-laws-and-nta.md#3.2
+    values:
+      2025-01-01: {value: 20290331, metadata: {施行日: 2026-04-01, 適用: 取得の日が令和11年3月31日まで（genka §3.2）}}
+  年間の取得価額の合計額の上限:
+    description: 第1項「三百万円」（その業務の用に供した年分における少額減価償却資産の取得価額の合計額の上限。開業・廃業の年は月割）
+    metadata: *sochi28_2
+    values:
+      2025-01-01: {value: 3000000, metadata: {適用: 令和7年分・令和8年分の版で同文（genka §3.2）}}
+定額法償却率:
+  description: 別表第八の償却率（千分率の整数。値／1000）。令和7年分・令和8年分の版で同じ（genka §2.2）。
+  metadata: &beppyo8
+    law: 減価償却資産の耐用年数等に関する省令第5条第1項第1号・別表第八（所得税法施行令第120条の2第1項第1号イ(1)・第129条）
+    source_kind: 省令
+    unit: 千分率
+    reference:
+      - docs/public-sources/20261109_round2_genka-laws-and-nta.md#2.2
+  年数2:
+    description: 耐用年数2年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 500}
+  年数3:
+    description: 耐用年数3年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 334}
+  年数4:
+    description: 耐用年数4年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 250}
+  年数5:
+    description: 耐用年数5年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 200}
+  年数6:
+    description: 耐用年数6年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 167}
+  年数7:
+    description: 耐用年数7年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 143}
+  年数8:
+    description: 耐用年数8年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 125}
+  年数9:
+    description: 耐用年数9年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 112}
+  年数10:
+    description: 耐用年数10年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 100}
+  年数11:
+    description: 耐用年数11年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 91}
+  年数12:
+    description: 耐用年数12年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 84}
+  年数13:
+    description: 耐用年数13年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 77}
+  年数14:
+    description: 耐用年数14年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 72}
+  年数15:
+    description: 耐用年数15年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 67}
+  年数16:
+    description: 耐用年数16年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 63}
+  年数17:
+    description: 耐用年数17年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 59}
+  年数18:
+    description: 耐用年数18年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 56}
+  年数19:
+    description: 耐用年数19年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 53}
+  年数20:
+    description: 耐用年数20年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 50}
+  年数21:
+    description: 耐用年数21年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 48}
+  年数22:
+    description: 耐用年数22年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 46}
+  年数23:
+    description: 耐用年数23年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 44}
+  年数24:
+    description: 耐用年数24年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 42}
+  年数25:
+    description: 耐用年数25年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 40}
+  年数26:
+    description: 耐用年数26年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 39}
+  年数27:
+    description: 耐用年数27年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 38}
+  年数28:
+    description: 耐用年数28年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 36}
+  年数29:
+    description: 耐用年数29年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 35}
+  年数30:
+    description: 耐用年数30年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 34}
+  年数31:
+    description: 耐用年数31年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 33}
+  年数32:
+    description: 耐用年数32年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 32}
+  年数33:
+    description: 耐用年数33年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 31}
+  年数34:
+    description: 耐用年数34年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 30}
+  年数35:
+    description: 耐用年数35年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 29}
+  年数36:
+    description: 耐用年数36年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 28}
+  年数37:
+    description: 耐用年数37年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 28}
+  年数38:
+    description: 耐用年数38年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 27}
+  年数39:
+    description: 耐用年数39年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 26}
+  年数40:
+    description: 耐用年数40年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 25}
+  年数41:
+    description: 耐用年数41年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 25}
+  年数42:
+    description: 耐用年数42年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 24}
+  年数43:
+    description: 耐用年数43年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 24}
+  年数44:
+    description: 耐用年数44年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 23}
+  年数45:
+    description: 耐用年数45年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 23}
+  年数46:
+    description: 耐用年数46年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 22}
+  年数47:
+    description: 耐用年数47年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 22}
+  年数48:
+    description: 耐用年数48年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 21}
+  年数49:
+    description: 耐用年数49年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 21}
+  年数50:
+    description: 耐用年数50年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 20}
+  年数51:
+    description: 耐用年数51年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 20}
+  年数52:
+    description: 耐用年数52年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 20}
+  年数53:
+    description: 耐用年数53年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 19}
+  年数54:
+    description: 耐用年数54年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 19}
+  年数55:
+    description: 耐用年数55年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 19}
+  年数56:
+    description: 耐用年数56年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 18}
+  年数57:
+    description: 耐用年数57年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 18}
+  年数58:
+    description: 耐用年数58年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 18}
+  年数59:
+    description: 耐用年数59年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 17}
+  年数60:
+    description: 耐用年数60年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 17}
+  年数61:
+    description: 耐用年数61年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 17}
+  年数62:
+    description: 耐用年数62年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 17}
+  年数63:
+    description: 耐用年数63年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 16}
+  年数64:
+    description: 耐用年数64年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 16}
+  年数65:
+    description: 耐用年数65年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 16}
+  年数66:
+    description: 耐用年数66年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 16}
+  年数67:
+    description: 耐用年数67年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 15}
+  年数68:
+    description: 耐用年数68年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 15}
+  年数69:
+    description: 耐用年数69年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 15}
+  年数70:
+    description: 耐用年数70年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 15}
+  年数71:
+    description: 耐用年数71年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 15}
+  年数72:
+    description: 耐用年数72年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 14}
+  年数73:
+    description: 耐用年数73年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 14}
+  年数74:
+    description: 耐用年数74年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 14}
+  年数75:
+    description: 耐用年数75年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 14}
+  年数76:
+    description: 耐用年数76年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 14}
+  年数77:
+    description: 耐用年数77年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 13}
+  年数78:
+    description: 耐用年数78年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 13}
+  年数79:
+    description: 耐用年数79年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 13}
+  年数80:
+    description: 耐用年数80年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 13}
+  年数81:
+    description: 耐用年数81年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 13}
+  年数82:
+    description: 耐用年数82年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 13}
+  年数83:
+    description: 耐用年数83年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 13}
+  年数84:
+    description: 耐用年数84年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 12}
+  年数85:
+    description: 耐用年数85年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 12}
+  年数86:
+    description: 耐用年数86年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 12}
+  年数87:
+    description: 耐用年数87年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 12}
+  年数88:
+    description: 耐用年数88年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 12}
+  年数89:
+    description: 耐用年数89年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 12}
+  年数90:
+    description: 耐用年数90年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 12}
+  年数91:
+    description: 耐用年数91年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 11}
+  年数92:
+    description: 耐用年数92年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 11}
+  年数93:
+    description: 耐用年数93年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 11}
+  年数94:
+    description: 耐用年数94年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 11}
+  年数95:
+    description: 耐用年数95年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 11}
+  年数96:
+    description: 耐用年数96年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 11}
+  年数97:
+    description: 耐用年数97年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 11}
+  年数98:
+    description: 耐用年数98年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 11}
+  年数99:
+    description: 耐用年数99年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 11}
+  年数100:
+    description: 耐用年数100年の定額法の償却率（千分率）
+    metadata: *beppyo8
+    values:
+      2025-01-01: {value: 10}
+# 以下：旧定額法・旧定率法・定率法の率と旧償却の限度（docs/public-sources/20261111_impl-research3_genka-laws.md §1・§3〜§5。表は scripts/results/IMPL3_genka_tables/ の値をそのまま。保証率は十万分率）
+旧定額法償却率:
+  description: 別表第七の旧定額法の償却率（千分率の整数。値／1000）
+  metadata: &b7a
+    law: 減価償却資産の耐用年数等に関する省令第4条第1項・別表第七（所得税法施行令第120条第1項第1号イ(1)・第129条）
+    source_kind: 省令
+    unit: 千分率
+    reference:
+      - docs/public-sources/20261111_impl-research3_genka-laws.md#5
+  年数2:
+    description: 耐用年数2年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 500}
+  年数3:
+    description: 耐用年数3年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 333}
+  年数4:
+    description: 耐用年数4年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 250}
+  年数5:
+    description: 耐用年数5年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 200}
+  年数6:
+    description: 耐用年数6年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 166}
+  年数7:
+    description: 耐用年数7年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 142}
+  年数8:
+    description: 耐用年数8年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 125}
+  年数9:
+    description: 耐用年数9年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 111}
+  年数10:
+    description: 耐用年数10年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 100}
+  年数11:
+    description: 耐用年数11年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 90}
+  年数12:
+    description: 耐用年数12年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 83}
+  年数13:
+    description: 耐用年数13年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 76}
+  年数14:
+    description: 耐用年数14年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 71}
+  年数15:
+    description: 耐用年数15年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 66}
+  年数16:
+    description: 耐用年数16年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 62}
+  年数17:
+    description: 耐用年数17年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 58}
+  年数18:
+    description: 耐用年数18年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 55}
+  年数19:
+    description: 耐用年数19年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 52}
+  年数20:
+    description: 耐用年数20年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 50}
+  年数21:
+    description: 耐用年数21年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 48}
+  年数22:
+    description: 耐用年数22年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 46}
+  年数23:
+    description: 耐用年数23年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 44}
+  年数24:
+    description: 耐用年数24年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 42}
+  年数25:
+    description: 耐用年数25年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 40}
+  年数26:
+    description: 耐用年数26年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 39}
+  年数27:
+    description: 耐用年数27年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 37}
+  年数28:
+    description: 耐用年数28年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 36}
+  年数29:
+    description: 耐用年数29年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 35}
+  年数30:
+    description: 耐用年数30年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 34}
+  年数31:
+    description: 耐用年数31年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 33}
+  年数32:
+    description: 耐用年数32年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 32}
+  年数33:
+    description: 耐用年数33年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 31}
+  年数34:
+    description: 耐用年数34年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 30}
+  年数35:
+    description: 耐用年数35年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 29}
+  年数36:
+    description: 耐用年数36年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 28}
+  年数37:
+    description: 耐用年数37年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 27}
+  年数38:
+    description: 耐用年数38年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 27}
+  年数39:
+    description: 耐用年数39年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 26}
+  年数40:
+    description: 耐用年数40年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 25}
+  年数41:
+    description: 耐用年数41年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 25}
+  年数42:
+    description: 耐用年数42年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 24}
+  年数43:
+    description: 耐用年数43年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 24}
+  年数44:
+    description: 耐用年数44年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 23}
+  年数45:
+    description: 耐用年数45年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 23}
+  年数46:
+    description: 耐用年数46年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 22}
+  年数47:
+    description: 耐用年数47年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 22}
+  年数48:
+    description: 耐用年数48年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 21}
+  年数49:
+    description: 耐用年数49年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 21}
+  年数50:
+    description: 耐用年数50年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 20}
+  年数51:
+    description: 耐用年数51年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 20}
+  年数52:
+    description: 耐用年数52年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 20}
+  年数53:
+    description: 耐用年数53年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 19}
+  年数54:
+    description: 耐用年数54年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 19}
+  年数55:
+    description: 耐用年数55年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 19}
+  年数56:
+    description: 耐用年数56年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 18}
+  年数57:
+    description: 耐用年数57年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 18}
+  年数58:
+    description: 耐用年数58年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 18}
+  年数59:
+    description: 耐用年数59年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 17}
+  年数60:
+    description: 耐用年数60年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 17}
+  年数61:
+    description: 耐用年数61年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 17}
+  年数62:
+    description: 耐用年数62年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 17}
+  年数63:
+    description: 耐用年数63年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 16}
+  年数64:
+    description: 耐用年数64年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 16}
+  年数65:
+    description: 耐用年数65年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 16}
+  年数66:
+    description: 耐用年数66年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 16}
+  年数67:
+    description: 耐用年数67年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 15}
+  年数68:
+    description: 耐用年数68年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 15}
+  年数69:
+    description: 耐用年数69年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 15}
+  年数70:
+    description: 耐用年数70年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 15}
+  年数71:
+    description: 耐用年数71年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 14}
+  年数72:
+    description: 耐用年数72年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 14}
+  年数73:
+    description: 耐用年数73年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 14}
+  年数74:
+    description: 耐用年数74年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 14}
+  年数75:
+    description: 耐用年数75年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 14}
+  年数76:
+    description: 耐用年数76年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 14}
+  年数77:
+    description: 耐用年数77年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 13}
+  年数78:
+    description: 耐用年数78年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 13}
+  年数79:
+    description: 耐用年数79年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 13}
+  年数80:
+    description: 耐用年数80年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 13}
+  年数81:
+    description: 耐用年数81年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 13}
+  年数82:
+    description: 耐用年数82年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 13}
+  年数83:
+    description: 耐用年数83年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 12}
+  年数84:
+    description: 耐用年数84年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 12}
+  年数85:
+    description: 耐用年数85年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 12}
+  年数86:
+    description: 耐用年数86年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 12}
+  年数87:
+    description: 耐用年数87年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 12}
+  年数88:
+    description: 耐用年数88年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 12}
+  年数89:
+    description: 耐用年数89年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 12}
+  年数90:
+    description: 耐用年数90年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 12}
+  年数91:
+    description: 耐用年数91年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 11}
+  年数92:
+    description: 耐用年数92年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 11}
+  年数93:
+    description: 耐用年数93年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 11}
+  年数94:
+    description: 耐用年数94年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 11}
+  年数95:
+    description: 耐用年数95年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 11}
+  年数96:
+    description: 耐用年数96年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 11}
+  年数97:
+    description: 耐用年数97年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 11}
+  年数98:
+    description: 耐用年数98年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 11}
+  年数99:
+    description: 耐用年数99年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 11}
+  年数100:
+    description: 耐用年数100年の旧定額法の償却率（千分率）
+    metadata: *b7a
+    values:
+      2025-01-01: {value: 10}
+旧定率法償却率:
+  description: 別表第七の旧定率法の償却率（千分率の整数。値／1000）
+  metadata: &b7b
+    law: 減価償却資産の耐用年数等に関する省令第4条第1項・別表第七（所得税法施行令第120条第1項第1号イ(2)・第129条）
+    source_kind: 省令
+    unit: 千分率
+    reference:
+      - docs/public-sources/20261111_impl-research3_genka-laws.md#5
+  年数2:
+    description: 耐用年数2年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 684}
+  年数3:
+    description: 耐用年数3年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 536}
+  年数4:
+    description: 耐用年数4年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 438}
+  年数5:
+    description: 耐用年数5年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 369}
+  年数6:
+    description: 耐用年数6年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 319}
+  年数7:
+    description: 耐用年数7年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 280}
+  年数8:
+    description: 耐用年数8年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 250}
+  年数9:
+    description: 耐用年数9年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 226}
+  年数10:
+    description: 耐用年数10年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 206}
+  年数11:
+    description: 耐用年数11年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 189}
+  年数12:
+    description: 耐用年数12年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 175}
+  年数13:
+    description: 耐用年数13年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 162}
+  年数14:
+    description: 耐用年数14年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 152}
+  年数15:
+    description: 耐用年数15年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 142}
+  年数16:
+    description: 耐用年数16年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 134}
+  年数17:
+    description: 耐用年数17年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 127}
+  年数18:
+    description: 耐用年数18年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 120}
+  年数19:
+    description: 耐用年数19年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 114}
+  年数20:
+    description: 耐用年数20年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 109}
+  年数21:
+    description: 耐用年数21年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 104}
+  年数22:
+    description: 耐用年数22年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 99}
+  年数23:
+    description: 耐用年数23年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 95}
+  年数24:
+    description: 耐用年数24年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 92}
+  年数25:
+    description: 耐用年数25年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 88}
+  年数26:
+    description: 耐用年数26年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 85}
+  年数27:
+    description: 耐用年数27年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 82}
+  年数28:
+    description: 耐用年数28年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 79}
+  年数29:
+    description: 耐用年数29年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 76}
+  年数30:
+    description: 耐用年数30年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 74}
+  年数31:
+    description: 耐用年数31年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 72}
+  年数32:
+    description: 耐用年数32年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 69}
+  年数33:
+    description: 耐用年数33年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 67}
+  年数34:
+    description: 耐用年数34年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 66}
+  年数35:
+    description: 耐用年数35年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 64}
+  年数36:
+    description: 耐用年数36年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 62}
+  年数37:
+    description: 耐用年数37年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 60}
+  年数38:
+    description: 耐用年数38年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 59}
+  年数39:
+    description: 耐用年数39年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 57}
+  年数40:
+    description: 耐用年数40年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 56}
+  年数41:
+    description: 耐用年数41年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 55}
+  年数42:
+    description: 耐用年数42年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 53}
+  年数43:
+    description: 耐用年数43年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 52}
+  年数44:
+    description: 耐用年数44年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 51}
+  年数45:
+    description: 耐用年数45年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 50}
+  年数46:
+    description: 耐用年数46年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 49}
+  年数47:
+    description: 耐用年数47年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 48}
+  年数48:
+    description: 耐用年数48年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 47}
+  年数49:
+    description: 耐用年数49年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 46}
+  年数50:
+    description: 耐用年数50年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 45}
+  年数51:
+    description: 耐用年数51年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 44}
+  年数52:
+    description: 耐用年数52年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 43}
+  年数53:
+    description: 耐用年数53年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 43}
+  年数54:
+    description: 耐用年数54年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 42}
+  年数55:
+    description: 耐用年数55年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 41}
+  年数56:
+    description: 耐用年数56年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 40}
+  年数57:
+    description: 耐用年数57年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 40}
+  年数58:
+    description: 耐用年数58年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 39}
+  年数59:
+    description: 耐用年数59年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 38}
+  年数60:
+    description: 耐用年数60年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 38}
+  年数61:
+    description: 耐用年数61年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 37}
+  年数62:
+    description: 耐用年数62年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 36}
+  年数63:
+    description: 耐用年数63年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 36}
+  年数64:
+    description: 耐用年数64年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 35}
+  年数65:
+    description: 耐用年数65年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 35}
+  年数66:
+    description: 耐用年数66年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 34}
+  年数67:
+    description: 耐用年数67年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 34}
+  年数68:
+    description: 耐用年数68年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 33}
+  年数69:
+    description: 耐用年数69年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 33}
+  年数70:
+    description: 耐用年数70年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 32}
+  年数71:
+    description: 耐用年数71年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 32}
+  年数72:
+    description: 耐用年数72年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 32}
+  年数73:
+    description: 耐用年数73年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 31}
+  年数74:
+    description: 耐用年数74年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 31}
+  年数75:
+    description: 耐用年数75年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 30}
+  年数76:
+    description: 耐用年数76年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 30}
+  年数77:
+    description: 耐用年数77年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 30}
+  年数78:
+    description: 耐用年数78年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 29}
+  年数79:
+    description: 耐用年数79年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 29}
+  年数80:
+    description: 耐用年数80年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 28}
+  年数81:
+    description: 耐用年数81年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 28}
+  年数82:
+    description: 耐用年数82年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 28}
+  年数83:
+    description: 耐用年数83年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 27}
+  年数84:
+    description: 耐用年数84年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 27}
+  年数85:
+    description: 耐用年数85年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 26}
+  年数86:
+    description: 耐用年数86年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 26}
+  年数87:
+    description: 耐用年数87年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 26}
+  年数88:
+    description: 耐用年数88年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 26}
+  年数89:
+    description: 耐用年数89年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 26}
+  年数90:
+    description: 耐用年数90年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 25}
+  年数91:
+    description: 耐用年数91年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 25}
+  年数92:
+    description: 耐用年数92年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 25}
+  年数93:
+    description: 耐用年数93年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 25}
+  年数94:
+    description: 耐用年数94年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 24}
+  年数95:
+    description: 耐用年数95年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 24}
+  年数96:
+    description: 耐用年数96年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 24}
+  年数97:
+    description: 耐用年数97年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 23}
+  年数98:
+    description: 耐用年数98年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 23}
+  年数99:
+    description: 耐用年数99年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 23}
+  年数100:
+    description: 耐用年数100年の旧定率法の償却率（千分率）
+    metadata: *b7b
+    values:
+      2025-01-01: {value: 23}
+定率法_平成24年3月31日以前の取得:
+  description: 別表第九（平成19年4月1日から平成24年3月31日までに取得された減価償却資産の定率法の償却率、改定償却率及び保証率の表）
+  償却率:
+    description: 別表第九の償却率（千分率の整数）。空欄の年数（2年の改定償却率・保証率）は持たない
+    metadata: &b9a
+      law: 減価償却資産の耐用年数等に関する省令第5条第1項第2号・別表第九（所得税法施行令第120条の2第1項第1号イ(2)・第2項・第129条）
+      source_kind: 省令
+      unit: 千分率
+      reference:
+        - docs/public-sources/20261111_impl-research3_genka-laws.md#5
+    年数2:
+      description: 耐用年数2年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 1000}
+    年数3:
+      description: 耐用年数3年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 833}
+    年数4:
+      description: 耐用年数4年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 625}
+    年数5:
+      description: 耐用年数5年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 500}
+    年数6:
+      description: 耐用年数6年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 417}
+    年数7:
+      description: 耐用年数7年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 357}
+    年数8:
+      description: 耐用年数8年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 313}
+    年数9:
+      description: 耐用年数9年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 278}
+    年数10:
+      description: 耐用年数10年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 250}
+    年数11:
+      description: 耐用年数11年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 227}
+    年数12:
+      description: 耐用年数12年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 208}
+    年数13:
+      description: 耐用年数13年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 192}
+    年数14:
+      description: 耐用年数14年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 179}
+    年数15:
+      description: 耐用年数15年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 167}
+    年数16:
+      description: 耐用年数16年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 156}
+    年数17:
+      description: 耐用年数17年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 147}
+    年数18:
+      description: 耐用年数18年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 139}
+    年数19:
+      description: 耐用年数19年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 132}
+    年数20:
+      description: 耐用年数20年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 125}
+    年数21:
+      description: 耐用年数21年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 119}
+    年数22:
+      description: 耐用年数22年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 114}
+    年数23:
+      description: 耐用年数23年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 109}
+    年数24:
+      description: 耐用年数24年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 104}
+    年数25:
+      description: 耐用年数25年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 100}
+    年数26:
+      description: 耐用年数26年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 96}
+    年数27:
+      description: 耐用年数27年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 93}
+    年数28:
+      description: 耐用年数28年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 89}
+    年数29:
+      description: 耐用年数29年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 86}
+    年数30:
+      description: 耐用年数30年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 83}
+    年数31:
+      description: 耐用年数31年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 81}
+    年数32:
+      description: 耐用年数32年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 78}
+    年数33:
+      description: 耐用年数33年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 76}
+    年数34:
+      description: 耐用年数34年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 74}
+    年数35:
+      description: 耐用年数35年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 71}
+    年数36:
+      description: 耐用年数36年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 69}
+    年数37:
+      description: 耐用年数37年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 68}
+    年数38:
+      description: 耐用年数38年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 66}
+    年数39:
+      description: 耐用年数39年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 64}
+    年数40:
+      description: 耐用年数40年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 63}
+    年数41:
+      description: 耐用年数41年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 61}
+    年数42:
+      description: 耐用年数42年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 60}
+    年数43:
+      description: 耐用年数43年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 58}
+    年数44:
+      description: 耐用年数44年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 57}
+    年数45:
+      description: 耐用年数45年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 56}
+    年数46:
+      description: 耐用年数46年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 54}
+    年数47:
+      description: 耐用年数47年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 53}
+    年数48:
+      description: 耐用年数48年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 52}
+    年数49:
+      description: 耐用年数49年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 51}
+    年数50:
+      description: 耐用年数50年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 50}
+    年数51:
+      description: 耐用年数51年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 49}
+    年数52:
+      description: 耐用年数52年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 48}
+    年数53:
+      description: 耐用年数53年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 47}
+    年数54:
+      description: 耐用年数54年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 46}
+    年数55:
+      description: 耐用年数55年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 45}
+    年数56:
+      description: 耐用年数56年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 45}
+    年数57:
+      description: 耐用年数57年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 44}
+    年数58:
+      description: 耐用年数58年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 43}
+    年数59:
+      description: 耐用年数59年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 42}
+    年数60:
+      description: 耐用年数60年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 42}
+    年数61:
+      description: 耐用年数61年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 41}
+    年数62:
+      description: 耐用年数62年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 40}
+    年数63:
+      description: 耐用年数63年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 40}
+    年数64:
+      description: 耐用年数64年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 39}
+    年数65:
+      description: 耐用年数65年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 38}
+    年数66:
+      description: 耐用年数66年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 38}
+    年数67:
+      description: 耐用年数67年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 37}
+    年数68:
+      description: 耐用年数68年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 37}
+    年数69:
+      description: 耐用年数69年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 36}
+    年数70:
+      description: 耐用年数70年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 36}
+    年数71:
+      description: 耐用年数71年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 35}
+    年数72:
+      description: 耐用年数72年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 35}
+    年数73:
+      description: 耐用年数73年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 34}
+    年数74:
+      description: 耐用年数74年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 34}
+    年数75:
+      description: 耐用年数75年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 33}
+    年数76:
+      description: 耐用年数76年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 33}
+    年数77:
+      description: 耐用年数77年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 32}
+    年数78:
+      description: 耐用年数78年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 32}
+    年数79:
+      description: 耐用年数79年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 32}
+    年数80:
+      description: 耐用年数80年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 31}
+    年数81:
+      description: 耐用年数81年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 31}
+    年数82:
+      description: 耐用年数82年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 30}
+    年数83:
+      description: 耐用年数83年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 30}
+    年数84:
+      description: 耐用年数84年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 30}
+    年数85:
+      description: 耐用年数85年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 29}
+    年数86:
+      description: 耐用年数86年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 29}
+    年数87:
+      description: 耐用年数87年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 29}
+    年数88:
+      description: 耐用年数88年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 28}
+    年数89:
+      description: 耐用年数89年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 28}
+    年数90:
+      description: 耐用年数90年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 28}
+    年数91:
+      description: 耐用年数91年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 27}
+    年数92:
+      description: 耐用年数92年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 27}
+    年数93:
+      description: 耐用年数93年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 27}
+    年数94:
+      description: 耐用年数94年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 27}
+    年数95:
+      description: 耐用年数95年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 26}
+    年数96:
+      description: 耐用年数96年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 26}
+    年数97:
+      description: 耐用年数97年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 26}
+    年数98:
+      description: 耐用年数98年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 26}
+    年数99:
+      description: 耐用年数99年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 25}
+    年数100:
+      description: 耐用年数100年の償却率（千分率）
+      metadata: *b9a
+      values:
+        2025-01-01: {value: 25}
+  改定償却率:
+    description: 別表第九の改定償却率（千分率の整数）。空欄の年数（2年の改定償却率・保証率）は持たない
+    metadata: &b9b
+      law: 減価償却資産の耐用年数等に関する省令第5条第1項第2号・別表第九（所得税法施行令第120条の2第1項第1号イ(2)・第2項・第129条）
+      source_kind: 省令
+      unit: 千分率
+      reference:
+        - docs/public-sources/20261111_impl-research3_genka-laws.md#5
+    年数3:
+      description: 耐用年数3年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 1000}
+    年数4:
+      description: 耐用年数4年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 1000}
+    年数5:
+      description: 耐用年数5年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 1000}
+    年数6:
+      description: 耐用年数6年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 500}
+    年数7:
+      description: 耐用年数7年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 500}
+    年数8:
+      description: 耐用年数8年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 334}
+    年数9:
+      description: 耐用年数9年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 334}
+    年数10:
+      description: 耐用年数10年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 334}
+    年数11:
+      description: 耐用年数11年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 250}
+    年数12:
+      description: 耐用年数12年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 250}
+    年数13:
+      description: 耐用年数13年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 200}
+    年数14:
+      description: 耐用年数14年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 200}
+    年数15:
+      description: 耐用年数15年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 200}
+    年数16:
+      description: 耐用年数16年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 167}
+    年数17:
+      description: 耐用年数17年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 167}
+    年数18:
+      description: 耐用年数18年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 143}
+    年数19:
+      description: 耐用年数19年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 143}
+    年数20:
+      description: 耐用年数20年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 143}
+    年数21:
+      description: 耐用年数21年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 125}
+    年数22:
+      description: 耐用年数22年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 125}
+    年数23:
+      description: 耐用年数23年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 112}
+    年数24:
+      description: 耐用年数24年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 112}
+    年数25:
+      description: 耐用年数25年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 112}
+    年数26:
+      description: 耐用年数26年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 100}
+    年数27:
+      description: 耐用年数27年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 100}
+    年数28:
+      description: 耐用年数28年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 91}
+    年数29:
+      description: 耐用年数29年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 91}
+    年数30:
+      description: 耐用年数30年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 84}
+    年数31:
+      description: 耐用年数31年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 84}
+    年数32:
+      description: 耐用年数32年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 84}
+    年数33:
+      description: 耐用年数33年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 77}
+    年数34:
+      description: 耐用年数34年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 77}
+    年数35:
+      description: 耐用年数35年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 72}
+    年数36:
+      description: 耐用年数36年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 72}
+    年数37:
+      description: 耐用年数37年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 72}
+    年数38:
+      description: 耐用年数38年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 67}
+    年数39:
+      description: 耐用年数39年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 67}
+    年数40:
+      description: 耐用年数40年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 67}
+    年数41:
+      description: 耐用年数41年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 63}
+    年数42:
+      description: 耐用年数42年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 63}
+    年数43:
+      description: 耐用年数43年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 59}
+    年数44:
+      description: 耐用年数44年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 59}
+    年数45:
+      description: 耐用年数45年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 59}
+    年数46:
+      description: 耐用年数46年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 56}
+    年数47:
+      description: 耐用年数47年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 56}
+    年数48:
+      description: 耐用年数48年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 53}
+    年数49:
+      description: 耐用年数49年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 53}
+    年数50:
+      description: 耐用年数50年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 53}
+    年数51:
+      description: 耐用年数51年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 50}
+    年数52:
+      description: 耐用年数52年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 50}
+    年数53:
+      description: 耐用年数53年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 48}
+    年数54:
+      description: 耐用年数54年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 48}
+    年数55:
+      description: 耐用年数55年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 46}
+    年数56:
+      description: 耐用年数56年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 46}
+    年数57:
+      description: 耐用年数57年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 46}
+    年数58:
+      description: 耐用年数58年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 44}
+    年数59:
+      description: 耐用年数59年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 44}
+    年数60:
+      description: 耐用年数60年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 44}
+    年数61:
+      description: 耐用年数61年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 42}
+    年数62:
+      description: 耐用年数62年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 42}
+    年数63:
+      description: 耐用年数63年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 42}
+    年数64:
+      description: 耐用年数64年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 40}
+    年数65:
+      description: 耐用年数65年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 39}
+    年数66:
+      description: 耐用年数66年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 39}
+    年数67:
+      description: 耐用年数67年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 38}
+    年数68:
+      description: 耐用年数68年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 38}
+    年数69:
+      description: 耐用年数69年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 38}
+    年数70:
+      description: 耐用年数70年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 38}
+    年数71:
+      description: 耐用年数71年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 36}
+    年数72:
+      description: 耐用年数72年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 36}
+    年数73:
+      description: 耐用年数73年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 35}
+    年数74:
+      description: 耐用年数74年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 35}
+    年数75:
+      description: 耐用年数75年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 34}
+    年数76:
+      description: 耐用年数76年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 34}
+    年数77:
+      description: 耐用年数77年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 33}
+    年数78:
+      description: 耐用年数78年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 33}
+    年数79:
+      description: 耐用年数79年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 33}
+    年数80:
+      description: 耐用年数80年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 32}
+    年数81:
+      description: 耐用年数81年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 32}
+    年数82:
+      description: 耐用年数82年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 31}
+    年数83:
+      description: 耐用年数83年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 31}
+    年数84:
+      description: 耐用年数84年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 31}
+    年数85:
+      description: 耐用年数85年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 30}
+    年数86:
+      description: 耐用年数86年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 30}
+    年数87:
+      description: 耐用年数87年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 30}
+    年数88:
+      description: 耐用年数88年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 29}
+    年数89:
+      description: 耐用年数89年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 29}
+    年数90:
+      description: 耐用年数90年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 29}
+    年数91:
+      description: 耐用年数91年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 27}
+    年数92:
+      description: 耐用年数92年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 27}
+    年数93:
+      description: 耐用年数93年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 27}
+    年数94:
+      description: 耐用年数94年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 27}
+    年数95:
+      description: 耐用年数95年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 27}
+    年数96:
+      description: 耐用年数96年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 27}
+    年数97:
+      description: 耐用年数97年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 27}
+    年数98:
+      description: 耐用年数98年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 27}
+    年数99:
+      description: 耐用年数99年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 26}
+    年数100:
+      description: 耐用年数100年の改定償却率（千分率）
+      metadata: *b9b
+      values:
+        2025-01-01: {value: 26}
+  保証率:
+    description: 別表第九の保証率（十万分率の整数）。空欄の年数（2年の改定償却率・保証率）は持たない
+    metadata: &b9c
+      law: 減価償却資産の耐用年数等に関する省令第5条第1項第2号・別表第九（所得税法施行令第120条の2第1項第1号イ(2)・第2項・第129条）
+      source_kind: 省令
+      unit: 十万分率
+      reference:
+        - docs/public-sources/20261111_impl-research3_genka-laws.md#5
+    年数3:
+      description: 耐用年数3年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 2789}
+    年数4:
+      description: 耐用年数4年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 5274}
+    年数5:
+      description: 耐用年数5年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 6249}
+    年数6:
+      description: 耐用年数6年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 5776}
+    年数7:
+      description: 耐用年数7年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 5496}
+    年数8:
+      description: 耐用年数8年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 5111}
+    年数9:
+      description: 耐用年数9年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 4731}
+    年数10:
+      description: 耐用年数10年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 4448}
+    年数11:
+      description: 耐用年数11年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 4123}
+    年数12:
+      description: 耐用年数12年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 3870}
+    年数13:
+      description: 耐用年数13年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 3633}
+    年数14:
+      description: 耐用年数14年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 3389}
+    年数15:
+      description: 耐用年数15年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 3217}
+    年数16:
+      description: 耐用年数16年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 3063}
+    年数17:
+      description: 耐用年数17年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 2905}
+    年数18:
+      description: 耐用年数18年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 2757}
+    年数19:
+      description: 耐用年数19年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 2616}
+    年数20:
+      description: 耐用年数20年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 2517}
+    年数21:
+      description: 耐用年数21年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 2408}
+    年数22:
+      description: 耐用年数22年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 2296}
+    年数23:
+      description: 耐用年数23年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 2226}
+    年数24:
+      description: 耐用年数24年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 2157}
+    年数25:
+      description: 耐用年数25年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 2058}
+    年数26:
+      description: 耐用年数26年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1989}
+    年数27:
+      description: 耐用年数27年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1902}
+    年数28:
+      description: 耐用年数28年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1866}
+    年数29:
+      description: 耐用年数29年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1803}
+    年数30:
+      description: 耐用年数30年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1766}
+    年数31:
+      description: 耐用年数31年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1688}
+    年数32:
+      description: 耐用年数32年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1655}
+    年数33:
+      description: 耐用年数33年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1585}
+    年数34:
+      description: 耐用年数34年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1532}
+    年数35:
+      description: 耐用年数35年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1532}
+    年数36:
+      description: 耐用年数36年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1494}
+    年数37:
+      description: 耐用年数37年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1425}
+    年数38:
+      description: 耐用年数38年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1393}
+    年数39:
+      description: 耐用年数39年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1370}
+    年数40:
+      description: 耐用年数40年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1317}
+    年数41:
+      description: 耐用年数41年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1306}
+    年数42:
+      description: 耐用年数42年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1261}
+    年数43:
+      description: 耐用年数43年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1248}
+    年数44:
+      description: 耐用年数44年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1210}
+    年数45:
+      description: 耐用年数45年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1175}
+    年数46:
+      description: 耐用年数46年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1175}
+    年数47:
+      description: 耐用年数47年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1153}
+    年数48:
+      description: 耐用年数48年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1126}
+    年数49:
+      description: 耐用年数49年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1102}
+    年数50:
+      description: 耐用年数50年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1072}
+    年数51:
+      description: 耐用年数51年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1053}
+    年数52:
+      description: 耐用年数52年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1036}
+    年数53:
+      description: 耐用年数53年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1028}
+    年数54:
+      description: 耐用年数54年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1015}
+    年数55:
+      description: 耐用年数55年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 1007}
+    年数56:
+      description: 耐用年数56年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 961}
+    年数57:
+      description: 耐用年数57年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 952}
+    年数58:
+      description: 耐用年数58年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 945}
+    年数59:
+      description: 耐用年数59年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 934}
+    年数60:
+      description: 耐用年数60年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 895}
+    年数61:
+      description: 耐用年数61年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 892}
+    年数62:
+      description: 耐用年数62年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 882}
+    年数63:
+      description: 耐用年数63年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 847}
+    年数64:
+      description: 耐用年数64年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 847}
+    年数65:
+      description: 耐用年数65年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 847}
+    年数66:
+      description: 耐用年数66年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 828}
+    年数67:
+      description: 耐用年数67年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 828}
+    年数68:
+      description: 耐用年数68年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 810}
+    年数69:
+      description: 耐用年数69年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 800}
+    年数70:
+      description: 耐用年数70年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 771}
+    年数71:
+      description: 耐用年数71年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 771}
+    年数72:
+      description: 耐用年数72年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 751}
+    年数73:
+      description: 耐用年数73年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 751}
+    年数74:
+      description: 耐用年数74年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 738}
+    年数75:
+      description: 耐用年数75年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 738}
+    年数76:
+      description: 耐用年数76年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 726}
+    年数77:
+      description: 耐用年数77年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 726}
+    年数78:
+      description: 耐用年数78年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 716}
+    年数79:
+      description: 耐用年数79年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 693}
+    年数80:
+      description: 耐用年数80年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 693}
+    年数81:
+      description: 耐用年数81年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 683}
+    年数82:
+      description: 耐用年数82年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 683}
+    年数83:
+      description: 耐用年数83年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 673}
+    年数84:
+      description: 耐用年数84年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 653}
+    年数85:
+      description: 耐用年数85年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 653}
+    年数86:
+      description: 耐用年数86年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 645}
+    年数87:
+      description: 耐用年数87年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 627}
+    年数88:
+      description: 耐用年数88年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 627}
+    年数89:
+      description: 耐用年数89年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 620}
+    年数90:
+      description: 耐用年数90年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 603}
+    年数91:
+      description: 耐用年数91年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 649}
+    年数92:
+      description: 耐用年数92年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 632}
+    年数93:
+      description: 耐用年数93年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 615}
+    年数94:
+      description: 耐用年数94年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 598}
+    年数95:
+      description: 耐用年数95年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 594}
+    年数96:
+      description: 耐用年数96年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 578}
+    年数97:
+      description: 耐用年数97年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 563}
+    年数98:
+      description: 耐用年数98年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 549}
+    年数99:
+      description: 耐用年数99年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 549}
+    年数100:
+      description: 耐用年数100年の保証率（十万分率）
+      metadata: *b9c
+      values:
+        2025-01-01: {value: 546}
+定率法_平成24年4月1日以後の取得:
+  description: 別表第十（平成24年4月1日以後に取得された減価償却資産の定率法の償却率、改定償却率及び保証率の表）
+  償却率:
+    description: 別表第十の償却率（千分率の整数）。空欄の年数（2年の改定償却率・保証率）は持たない
+    metadata: &b10a
+      law: 減価償却資産の耐用年数等に関する省令第5条第1項第2号・別表第十（所得税法施行令第120条の2第1項第1号イ(2)・第2項・第129条）
+      source_kind: 省令
+      unit: 千分率
+      reference:
+        - docs/public-sources/20261111_impl-research3_genka-laws.md#5
+    年数2:
+      description: 耐用年数2年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 1000}
+    年数3:
+      description: 耐用年数3年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 667}
+    年数4:
+      description: 耐用年数4年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 500}
+    年数5:
+      description: 耐用年数5年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 400}
+    年数6:
+      description: 耐用年数6年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 333}
+    年数7:
+      description: 耐用年数7年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 286}
+    年数8:
+      description: 耐用年数8年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 250}
+    年数9:
+      description: 耐用年数9年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 222}
+    年数10:
+      description: 耐用年数10年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 200}
+    年数11:
+      description: 耐用年数11年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 182}
+    年数12:
+      description: 耐用年数12年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 167}
+    年数13:
+      description: 耐用年数13年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 154}
+    年数14:
+      description: 耐用年数14年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 143}
+    年数15:
+      description: 耐用年数15年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 133}
+    年数16:
+      description: 耐用年数16年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 125}
+    年数17:
+      description: 耐用年数17年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 118}
+    年数18:
+      description: 耐用年数18年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 111}
+    年数19:
+      description: 耐用年数19年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 105}
+    年数20:
+      description: 耐用年数20年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 100}
+    年数21:
+      description: 耐用年数21年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 95}
+    年数22:
+      description: 耐用年数22年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 91}
+    年数23:
+      description: 耐用年数23年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 87}
+    年数24:
+      description: 耐用年数24年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 83}
+    年数25:
+      description: 耐用年数25年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 80}
+    年数26:
+      description: 耐用年数26年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 77}
+    年数27:
+      description: 耐用年数27年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 74}
+    年数28:
+      description: 耐用年数28年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 71}
+    年数29:
+      description: 耐用年数29年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 69}
+    年数30:
+      description: 耐用年数30年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 67}
+    年数31:
+      description: 耐用年数31年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 65}
+    年数32:
+      description: 耐用年数32年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 63}
+    年数33:
+      description: 耐用年数33年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 61}
+    年数34:
+      description: 耐用年数34年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 59}
+    年数35:
+      description: 耐用年数35年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 57}
+    年数36:
+      description: 耐用年数36年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 56}
+    年数37:
+      description: 耐用年数37年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 54}
+    年数38:
+      description: 耐用年数38年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 53}
+    年数39:
+      description: 耐用年数39年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 51}
+    年数40:
+      description: 耐用年数40年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 50}
+    年数41:
+      description: 耐用年数41年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 49}
+    年数42:
+      description: 耐用年数42年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 48}
+    年数43:
+      description: 耐用年数43年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 47}
+    年数44:
+      description: 耐用年数44年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 45}
+    年数45:
+      description: 耐用年数45年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 44}
+    年数46:
+      description: 耐用年数46年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 43}
+    年数47:
+      description: 耐用年数47年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 43}
+    年数48:
+      description: 耐用年数48年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 42}
+    年数49:
+      description: 耐用年数49年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 41}
+    年数50:
+      description: 耐用年数50年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 40}
+    年数51:
+      description: 耐用年数51年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 39}
+    年数52:
+      description: 耐用年数52年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 38}
+    年数53:
+      description: 耐用年数53年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 38}
+    年数54:
+      description: 耐用年数54年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 37}
+    年数55:
+      description: 耐用年数55年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 36}
+    年数56:
+      description: 耐用年数56年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 36}
+    年数57:
+      description: 耐用年数57年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 35}
+    年数58:
+      description: 耐用年数58年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 34}
+    年数59:
+      description: 耐用年数59年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 34}
+    年数60:
+      description: 耐用年数60年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 33}
+    年数61:
+      description: 耐用年数61年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 33}
+    年数62:
+      description: 耐用年数62年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 32}
+    年数63:
+      description: 耐用年数63年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 32}
+    年数64:
+      description: 耐用年数64年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 31}
+    年数65:
+      description: 耐用年数65年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 31}
+    年数66:
+      description: 耐用年数66年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 30}
+    年数67:
+      description: 耐用年数67年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 30}
+    年数68:
+      description: 耐用年数68年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 29}
+    年数69:
+      description: 耐用年数69年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 29}
+    年数70:
+      description: 耐用年数70年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 29}
+    年数71:
+      description: 耐用年数71年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 28}
+    年数72:
+      description: 耐用年数72年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 28}
+    年数73:
+      description: 耐用年数73年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 27}
+    年数74:
+      description: 耐用年数74年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 27}
+    年数75:
+      description: 耐用年数75年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 27}
+    年数76:
+      description: 耐用年数76年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 26}
+    年数77:
+      description: 耐用年数77年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 26}
+    年数78:
+      description: 耐用年数78年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 26}
+    年数79:
+      description: 耐用年数79年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 25}
+    年数80:
+      description: 耐用年数80年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 25}
+    年数81:
+      description: 耐用年数81年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 25}
+    年数82:
+      description: 耐用年数82年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 24}
+    年数83:
+      description: 耐用年数83年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 24}
+    年数84:
+      description: 耐用年数84年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 24}
+    年数85:
+      description: 耐用年数85年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 24}
+    年数86:
+      description: 耐用年数86年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 23}
+    年数87:
+      description: 耐用年数87年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 23}
+    年数88:
+      description: 耐用年数88年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 23}
+    年数89:
+      description: 耐用年数89年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 22}
+    年数90:
+      description: 耐用年数90年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 22}
+    年数91:
+      description: 耐用年数91年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 22}
+    年数92:
+      description: 耐用年数92年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 22}
+    年数93:
+      description: 耐用年数93年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 22}
+    年数94:
+      description: 耐用年数94年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 21}
+    年数95:
+      description: 耐用年数95年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 21}
+    年数96:
+      description: 耐用年数96年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 21}
+    年数97:
+      description: 耐用年数97年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 21}
+    年数98:
+      description: 耐用年数98年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 20}
+    年数99:
+      description: 耐用年数99年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 20}
+    年数100:
+      description: 耐用年数100年の償却率（千分率）
+      metadata: *b10a
+      values:
+        2025-01-01: {value: 20}
+  改定償却率:
+    description: 別表第十の改定償却率（千分率の整数）。空欄の年数（2年の改定償却率・保証率）は持たない
+    metadata: &b10b
+      law: 減価償却資産の耐用年数等に関する省令第5条第1項第2号・別表第十（所得税法施行令第120条の2第1項第1号イ(2)・第2項・第129条）
+      source_kind: 省令
+      unit: 千分率
+      reference:
+        - docs/public-sources/20261111_impl-research3_genka-laws.md#5
+    年数3:
+      description: 耐用年数3年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 1000}
+    年数4:
+      description: 耐用年数4年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 1000}
+    年数5:
+      description: 耐用年数5年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 500}
+    年数6:
+      description: 耐用年数6年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 334}
+    年数7:
+      description: 耐用年数7年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 334}
+    年数8:
+      description: 耐用年数8年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 334}
+    年数9:
+      description: 耐用年数9年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 250}
+    年数10:
+      description: 耐用年数10年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 250}
+    年数11:
+      description: 耐用年数11年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 200}
+    年数12:
+      description: 耐用年数12年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 200}
+    年数13:
+      description: 耐用年数13年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 167}
+    年数14:
+      description: 耐用年数14年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 167}
+    年数15:
+      description: 耐用年数15年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 143}
+    年数16:
+      description: 耐用年数16年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 143}
+    年数17:
+      description: 耐用年数17年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 125}
+    年数18:
+      description: 耐用年数18年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 112}
+    年数19:
+      description: 耐用年数19年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 112}
+    年数20:
+      description: 耐用年数20年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 112}
+    年数21:
+      description: 耐用年数21年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 100}
+    年数22:
+      description: 耐用年数22年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 100}
+    年数23:
+      description: 耐用年数23年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 91}
+    年数24:
+      description: 耐用年数24年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 84}
+    年数25:
+      description: 耐用年数25年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 84}
+    年数26:
+      description: 耐用年数26年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 84}
+    年数27:
+      description: 耐用年数27年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 77}
+    年数28:
+      description: 耐用年数28年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 72}
+    年数29:
+      description: 耐用年数29年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 72}
+    年数30:
+      description: 耐用年数30年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 72}
+    年数31:
+      description: 耐用年数31年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 67}
+    年数32:
+      description: 耐用年数32年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 67}
+    年数33:
+      description: 耐用年数33年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 63}
+    年数34:
+      description: 耐用年数34年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 63}
+    年数35:
+      description: 耐用年数35年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 59}
+    年数36:
+      description: 耐用年数36年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 59}
+    年数37:
+      description: 耐用年数37年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 56}
+    年数38:
+      description: 耐用年数38年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 56}
+    年数39:
+      description: 耐用年数39年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 53}
+    年数40:
+      description: 耐用年数40年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 53}
+    年数41:
+      description: 耐用年数41年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 50}
+    年数42:
+      description: 耐用年数42年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 50}
+    年数43:
+      description: 耐用年数43年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 48}
+    年数44:
+      description: 耐用年数44年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 46}
+    年数45:
+      description: 耐用年数45年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 46}
+    年数46:
+      description: 耐用年数46年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 44}
+    年数47:
+      description: 耐用年数47年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 44}
+    年数48:
+      description: 耐用年数48年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 44}
+    年数49:
+      description: 耐用年数49年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 42}
+    年数50:
+      description: 耐用年数50年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 42}
+    年数51:
+      description: 耐用年数51年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 40}
+    年数52:
+      description: 耐用年数52年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 39}
+    年数53:
+      description: 耐用年数53年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 39}
+    年数54:
+      description: 耐用年数54年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 38}
+    年数55:
+      description: 耐用年数55年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 38}
+    年数56:
+      description: 耐用年数56年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 38}
+    年数57:
+      description: 耐用年数57年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 36}
+    年数58:
+      description: 耐用年数58年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 35}
+    年数59:
+      description: 耐用年数59年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 35}
+    年数60:
+      description: 耐用年数60年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 34}
+    年数61:
+      description: 耐用年数61年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 34}
+    年数62:
+      description: 耐用年数62年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 33}
+    年数63:
+      description: 耐用年数63年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 33}
+    年数64:
+      description: 耐用年数64年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 32}
+    年数65:
+      description: 耐用年数65年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 32}
+    年数66:
+      description: 耐用年数66年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 31}
+    年数67:
+      description: 耐用年数67年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 31}
+    年数68:
+      description: 耐用年数68年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 30}
+    年数69:
+      description: 耐用年数69年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 30}
+    年数70:
+      description: 耐用年数70年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 30}
+    年数71:
+      description: 耐用年数71年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 29}
+    年数72:
+      description: 耐用年数72年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 29}
+    年数73:
+      description: 耐用年数73年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 27}
+    年数74:
+      description: 耐用年数74年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 27}
+    年数75:
+      description: 耐用年数75年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 27}
+    年数76:
+      description: 耐用年数76年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 27}
+    年数77:
+      description: 耐用年数77年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 27}
+    年数78:
+      description: 耐用年数78年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 27}
+    年数79:
+      description: 耐用年数79年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 26}
+    年数80:
+      description: 耐用年数80年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 26}
+    年数81:
+      description: 耐用年数81年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 26}
+    年数82:
+      description: 耐用年数82年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 24}
+    年数83:
+      description: 耐用年数83年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 24}
+    年数84:
+      description: 耐用年数84年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 24}
+    年数85:
+      description: 耐用年数85年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 24}
+    年数86:
+      description: 耐用年数86年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 23}
+    年数87:
+      description: 耐用年数87年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 23}
+    年数88:
+      description: 耐用年数88年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 23}
+    年数89:
+      description: 耐用年数89年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 22}
+    年数90:
+      description: 耐用年数90年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 22}
+    年数91:
+      description: 耐用年数91年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 22}
+    年数92:
+      description: 耐用年数92年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 22}
+    年数93:
+      description: 耐用年数93年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 22}
+    年数94:
+      description: 耐用年数94年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 21}
+    年数95:
+      description: 耐用年数95年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 21}
+    年数96:
+      description: 耐用年数96年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 21}
+    年数97:
+      description: 耐用年数97年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 21}
+    年数98:
+      description: 耐用年数98年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 20}
+    年数99:
+      description: 耐用年数99年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 20}
+    年数100:
+      description: 耐用年数100年の改定償却率（千分率）
+      metadata: *b10b
+      values:
+        2025-01-01: {value: 20}
+  保証率:
+    description: 別表第十の保証率（十万分率の整数）。空欄の年数（2年の改定償却率・保証率）は持たない
+    metadata: &b10c
+      law: 減価償却資産の耐用年数等に関する省令第5条第1項第2号・別表第十（所得税法施行令第120条の2第1項第1号イ(2)・第2項・第129条）
+      source_kind: 省令
+      unit: 十万分率
+      reference:
+        - docs/public-sources/20261111_impl-research3_genka-laws.md#5
+    年数3:
+      description: 耐用年数3年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 11089}
+    年数4:
+      description: 耐用年数4年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 12499}
+    年数5:
+      description: 耐用年数5年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 10800}
+    年数6:
+      description: 耐用年数6年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 9911}
+    年数7:
+      description: 耐用年数7年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 8680}
+    年数8:
+      description: 耐用年数8年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 7909}
+    年数9:
+      description: 耐用年数9年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 7126}
+    年数10:
+      description: 耐用年数10年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 6552}
+    年数11:
+      description: 耐用年数11年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 5992}
+    年数12:
+      description: 耐用年数12年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 5566}
+    年数13:
+      description: 耐用年数13年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 5180}
+    年数14:
+      description: 耐用年数14年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 4854}
+    年数15:
+      description: 耐用年数15年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 4565}
+    年数16:
+      description: 耐用年数16年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 4294}
+    年数17:
+      description: 耐用年数17年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 4038}
+    年数18:
+      description: 耐用年数18年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 3884}
+    年数19:
+      description: 耐用年数19年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 3693}
+    年数20:
+      description: 耐用年数20年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 3486}
+    年数21:
+      description: 耐用年数21年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 3335}
+    年数22:
+      description: 耐用年数22年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 3182}
+    年数23:
+      description: 耐用年数23年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 3052}
+    年数24:
+      description: 耐用年数24年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 2969}
+    年数25:
+      description: 耐用年数25年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 2841}
+    年数26:
+      description: 耐用年数26年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 2716}
+    年数27:
+      description: 耐用年数27年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 2624}
+    年数28:
+      description: 耐用年数28年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 2568}
+    年数29:
+      description: 耐用年数29年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 2463}
+    年数30:
+      description: 耐用年数30年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 2366}
+    年数31:
+      description: 耐用年数31年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 2286}
+    年数32:
+      description: 耐用年数32年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 2216}
+    年数33:
+      description: 耐用年数33年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 2161}
+    年数34:
+      description: 耐用年数34年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 2097}
+    年数35:
+      description: 耐用年数35年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 2051}
+    年数36:
+      description: 耐用年数36年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1974}
+    年数37:
+      description: 耐用年数37年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1950}
+    年数38:
+      description: 耐用年数38年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1882}
+    年数39:
+      description: 耐用年数39年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1860}
+    年数40:
+      description: 耐用年数40年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1791}
+    年数41:
+      description: 耐用年数41年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1741}
+    年数42:
+      description: 耐用年数42年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1694}
+    年数43:
+      description: 耐用年数43年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1664}
+    年数44:
+      description: 耐用年数44年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1664}
+    年数45:
+      description: 耐用年数45年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1634}
+    年数46:
+      description: 耐用年数46年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1601}
+    年数47:
+      description: 耐用年数47年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1532}
+    年数48:
+      description: 耐用年数48年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1499}
+    年数49:
+      description: 耐用年数49年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1475}
+    年数50:
+      description: 耐用年数50年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1440}
+    年数51:
+      description: 耐用年数51年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1422}
+    年数52:
+      description: 耐用年数52年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1422}
+    年数53:
+      description: 耐用年数53年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1370}
+    年数54:
+      description: 耐用年数54年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1370}
+    年数55:
+      description: 耐用年数55年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1337}
+    年数56:
+      description: 耐用年数56年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1288}
+    年数57:
+      description: 耐用年数57年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1281}
+    年数58:
+      description: 耐用年数58年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1281}
+    年数59:
+      description: 耐用年数59年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1240}
+    年数60:
+      description: 耐用年数60年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1240}
+    年数61:
+      description: 耐用年数61年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1201}
+    年数62:
+      description: 耐用年数62年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1201}
+    年数63:
+      description: 耐用年数63年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1165}
+    年数64:
+      description: 耐用年数64年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1165}
+    年数65:
+      description: 耐用年数65年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1130}
+    年数66:
+      description: 耐用年数66年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1130}
+    年数67:
+      description: 耐用年数67年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1097}
+    年数68:
+      description: 耐用年数68年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1097}
+    年数69:
+      description: 耐用年数69年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1065}
+    年数70:
+      description: 耐用年数70年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1034}
+    年数71:
+      description: 耐用年数71年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1034}
+    年数72:
+      description: 耐用年数72年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1006}
+    年数73:
+      description: 耐用年数73年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1063}
+    年数74:
+      description: 耐用年数74年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1035}
+    年数75:
+      description: 耐用年数75年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 1007}
+    年数76:
+      description: 耐用年数76年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 980}
+    年数77:
+      description: 耐用年数77年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 954}
+    年数78:
+      description: 耐用年数78年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 929}
+    年数79:
+      description: 耐用年数79年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 929}
+    年数80:
+      description: 耐用年数80年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 907}
+    年数81:
+      description: 耐用年数81年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 884}
+    年数82:
+      description: 耐用年数82年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 929}
+    年数83:
+      description: 耐用年数83年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 907}
+    年数84:
+      description: 耐用年数84年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 885}
+    年数85:
+      description: 耐用年数85年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 864}
+    年数86:
+      description: 耐用年数86年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 885}
+    年数87:
+      description: 耐用年数87年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 864}
+    年数88:
+      description: 耐用年数88年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 844}
+    年数89:
+      description: 耐用年数89年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 863}
+    年数90:
+      description: 耐用年数90年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 844}
+    年数91:
+      description: 耐用年数91年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 825}
+    年数92:
+      description: 耐用年数92年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 807}
+    年数93:
+      description: 耐用年数93年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 790}
+    年数94:
+      description: 耐用年数94年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 807}
+    年数95:
+      description: 耐用年数95年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 790}
+    年数96:
+      description: 耐用年数96年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 773}
+    年数97:
+      description: 耐用年数97年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 757}
+    年数98:
+      description: 耐用年数98年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 773}
+    年数99:
+      description: 耐用年数99年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 757}
+    年数100:
+      description: 耐用年数100年の保証率（十万分率）
+      metadata: *b10c
+      values:
+        2025-01-01: {value: 742}
+旧定額法の残存割合:
+  description: 別表第十一の残存割合（百分率の整数）。残存価額＝取得価額×残存割合（耐用年数省令第6条第1項）。生物（別表第四）の細目は持たない（資産の区分の語彙がない）
+  有形:
+    description: 別表第一・第二・第五・第六の減価償却資産（ソフトウエアを除く）「百分の十」
+    metadata: &b11
+      law: 減価償却資産の耐用年数等に関する省令第6条第1項・別表第十一（所得税法施行令第120条第1項第1号イ(1)・第129条）
+      source_kind: 省令
+      unit: 百分率
+      reference:
+        - docs/public-sources/20261111_impl-research3_genka-laws.md#4
+        - docs/public-sources/20261111_impl-research3_genka-laws.md#5
+    values:
+      2025-01-01: {value: 10}
+  無形:
+    description: 別表第三の無形減価償却資産・別表第六のソフトウエア「零」
+    metadata: *b11
+    values:
+      2025-01-01: {value: 0}
+旧償却の償却累積額の限度:
+  description: 平成19年3月31日以前に取得した有形の減価償却資産（旧定額法・旧定率法）の償却累積額の限度と、限度に達した後の均等償却（所得税法施行令第134条第1項第1号イ・第2項・第3項）
+  取得価額に対する割合:
+    description: 第134条第1項第1号イ「その取得価額…の百分の九十五に相当する金額」（百分率の整数）
+    metadata: &rei134
+      law: 所得税法施行令第134条第1項第1号イ・第2項
+      source_kind: 政令
+      unit: 百分率
+      reference:
+        - docs/public-sources/20261111_impl-research3_genka-laws.md#3
+    values:
+      2025-01-01: {value: 95}
+  均等償却の年数:
+    description: 第134条第2項「取得価額から同号イ…に定める金額及び一円を控除した金額を五で除して計算した金額」の5（年）
+    metadata:
+      law: 所得税法施行令第134条第2項
+      source_kind: 政令
+      unit: 年
+      reference:
+        - docs/public-sources/20261111_impl-research3_genka-laws.md#3
+    values:
+      2025-01-01: {value: 5}

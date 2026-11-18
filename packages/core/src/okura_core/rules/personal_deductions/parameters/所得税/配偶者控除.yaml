@@ -1,0 +1,125 @@
+description: 配偶者控除（所得税法第83条第1項）。居住者（本人）の合計所得金額の区分に応じた額。令和7年分・令和8年分とも同じ金額（spouse §1.2）。
+第1号:
+  居住者の合計所得金額の上限:
+    description: 第1号の区分の上限（本人の合計所得金額がこの額以下）
+    metadata:
+      law: 所得税法第83条第1項第1号
+      source_kind: 法律
+      unit: 円
+      比較: 以下
+      reference:
+        - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.2
+    values:
+      2025-01-01:
+        value: 9000000
+        metadata:
+          適用: 令和7年分・令和8年分
+  額:
+    description: 第1号の額
+    metadata:
+      law: 所得税法第83条第1項第1号
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.2
+        - docs/measurements/20261109_round2_spouse-fetch-and-tables.md#3.2
+    values:
+      2025-01-01:
+        value: 380000
+        metadata:
+          適用: 令和7年分・令和8年分
+  老人の額:
+    description: 第1号で、控除対象配偶者が老人控除対象配偶者である場合の額
+    metadata:
+      law: 所得税法第83条第1項第1号（括弧書き）
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.2
+    values:
+      2025-01-01:
+        value: 480000
+        metadata:
+          適用: 令和7年分・令和8年分
+第2号:
+  居住者の合計所得金額の上限:
+    description: 第2号の区分の上限（900万円を超え、この額以下）
+    metadata:
+      law: 所得税法第83条第1項第2号
+      source_kind: 法律
+      unit: 円
+      比較: 以下
+      reference:
+        - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.2
+    values:
+      2025-01-01:
+        value: 9500000
+        metadata:
+          適用: 令和7年分・令和8年分
+  額:
+    description: 第2号の額
+    metadata:
+      law: 所得税法第83条第1項第2号
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.2
+    values:
+      2025-01-01:
+        value: 260000
+        metadata:
+          適用: 令和7年分・令和8年分
+  老人の額:
+    description: 第2号で、老人控除対象配偶者である場合の額
+    metadata:
+      law: 所得税法第83条第1項第2号（括弧書き）
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.2
+    values:
+      2025-01-01:
+        value: 320000
+        metadata:
+          適用: 令和7年分・令和8年分
+第3号:
+  居住者の合計所得金額の上限:
+    description: 第3号の区分の上限（950万円を超え、この額以下）
+    metadata:
+      law: 所得税法第83条第1項第3号
+      source_kind: 法律
+      unit: 円
+      比較: 以下
+      reference:
+        - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.2
+    values:
+      2025-01-01:
+        value: 10000000
+        metadata:
+          適用: 令和7年分・令和8年分
+  額:
+    description: 第3号の額
+    metadata:
+      law: 所得税法第83条第1項第3号
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.2
+    values:
+      2025-01-01:
+        value: 130000
+        metadata:
+          適用: 令和7年分・令和8年分
+  老人の額:
+    description: 第3号で、老人控除対象配偶者である場合の額
+    metadata:
+      law: 所得税法第83条第1項第3号（括弧書き）
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.2
+    values:
+      2025-01-01:
+        value: 160000
+        metadata:
+          適用: 令和7年分・令和8年分

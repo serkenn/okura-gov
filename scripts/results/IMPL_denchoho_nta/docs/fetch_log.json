@@ -1,0 +1,107 @@
+{
+ "run_at": "20261109-145723",
+ "stage": "docs",
+ "download_dir": ".work\\downloads\\20261109-145723_denchoho_nta_docs",
+ "items": [
+  {
+   "key": "qa-dentori-r0807",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_05.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "bytes": 1716744,
+   "truncated": false,
+   "sha256": "5068fb54a2600a278e1da8d685daad39044c0257d09629b6a153c2186141e911",
+   "last_modified": "Fri, 10 Jul 2026 01:00:05 GMT",
+   "saved": ".work\\downloads\\20261109-145723_denchoho_nta_docs\\qa-dentori-r0807.pdf"
+  },
+  {
+   "key": "qa-dentori-r0807-diff",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_06.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "bytes": 1727800,
+   "truncated": false,
+   "sha256": "e53c593218d0f873d95507269bf416c8e5e92ce562c8e61099fcde17888e589e",
+   "last_modified": "Fri, 10 Jul 2026 01:00:04 GMT",
+   "saved": ".work\\downloads\\20261109-145723_denchoho_nta_docs\\qa-dentori-r0807-diff.pdf"
+  },
+  {
+   "key": "qa-chobo-r0807",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_01.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "bytes": 2944775,
+   "truncated": false,
+   "sha256": "5a60ec280067d34bcede082ce180c29971afefab8d1222d36331daa274fd2618",
+   "last_modified": "Fri, 10 Jul 2026 01:00:05 GMT",
+   "saved": ".work\\downloads\\20261109-145723_denchoho_nta_docs\\qa-chobo-r0807.pdf"
+  },
+  {
+   "key": "tsutatsu-r0706",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0025006-066.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "bytes": 491781,
+   "truncated": false,
+   "sha256": "dceaaf0acfd0c1974b3b9047077360d7f63c8cf38e408467acd88666785f82af",
+   "last_modified": "Fri, 27 Jun 2025 04:56:12 GMT",
+   "saved": ".work\\downloads\\20261109-145723_denchoho_nta_docs\\tsutatsu-r0706.pdf"
+  },
+  {
+   "key": "tsutatsu-kaisetsu-r0706",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/2506/pdf/01-4.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "bytes": 842261,
+   "truncated": false,
+   "sha256": "efd7edb0464af88e77b3e495121bd8276face4766f8bccb8a615b6bd5a783917",
+   "last_modified": "Fri, 27 Jun 2025 04:56:12 GMT",
+   "saved": ".work\\downloads\\20261109-145723_denchoho_nta_docs\\tsutatsu-kaisetsu-r0706.pdf"
+  },
+  {
+   "key": "pamph-dentori-r0611",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/pdf/0024011-003_01.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "bytes": 626415,
+   "truncated": false,
+   "sha256": "c25bc2898b9b0a1a71bce6cdc9955a5c9ebf6c6a474375e18e22c20f8de8c9af",
+   "last_modified": "Fri, 29 Nov 2024 01:00:13 GMT",
+   "saved": ".work\\downloads\\20261109-145723_denchoho_nta_docs\\pamph-dentori-r0611.pdf"
+  },
+  {
+   "key": "pamph-dentori-check-r0611",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/pdf/0024011-003_02.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "bytes": 367405,
+   "truncated": false,
+   "sha256": "113cb5c9d46874b8e1dda36dee0df92621aad509a38b11c4ac04ef2168307c7b",
+   "last_modified": "Fri, 29 Nov 2024 01:00:13 GMT",
+   "saved": ".work\\downloads\\20261109-145723_denchoho_nta_docs\\pamph-dentori-check-r0611.pdf"
+  },
+  {
+   "key": "pamph-r7kaisei",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0025003-097_01.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "bytes": 608179,
+   "truncated": false,
+   "sha256": "671da822d2a7d8724d4dbc81b30e1dac00574ce5996903a2c920e9a2c0930e6d",
+   "last_modified": "Wed, 02 Apr 2025 05:00:05 GMT",
+   "saved": ".work\\downloads\\20261109-145723_denchoho_nta_docs\\pamph-r7kaisei.pdf"
+  },
+  {
+   "key": "samples-page",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/0021006-031.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "bytes": 4715,
+   "truncated": false,
+   "sha256": "677fa6476dfd7c83bfccb865101ebe3cbc3aa76273d727c49bd085679d46a705",
+   "last_modified": "Fri, 10 Jul 2026 01:00:05 GMT",
+   "saved": ".work\\downloads\\20261109-145723_denchoho_nta_docs\\samples-page.htm",
+   "output": "scripts/results/IMPL_denchoho_nta/docs/samples-page.txt"
+  }
+ ]
+}

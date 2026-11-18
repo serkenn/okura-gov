@@ -1,0 +1,132 @@
+{
+ "set": "pages2",
+ "fetched_at": "20261109-181021",
+ "download_dir": ".work/downloads/20261109-181021_R2B_invoice_nta_pages2",
+ "items": [
+  {
+   "id": "tsutatsu_menu",
+   "url": "https://www.nta.go.jp/law/tsutatsu/menu.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/menu.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 06 Nov 2026 08:30:06 GMT",
+   "bytes": 18563,
+   "sha256": "263283b0ffb0f0d454f20ab86cc2d863264074afb02e9cf9f846cde74ba00149",
+   "saved": ".work/downloads/20261109-181021_R2B_invoice_nta_pages2/tsutatsu_menu.htm",
+   "title": "法令解釈通達｜国税庁",
+   "encoding": "UTF-8"
+  },
+  {
+   "id": "ta_6913",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6913.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6913.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 15 Sep 2026 08:57:53 GMT",
+   "bytes": 14774,
+   "sha256": "7de07cc5efb5df3ec62de34cbe5653b344fa16a0acc532f12c97799f1195f90b",
+   "saved": ".work/downloads/20261109-181021_R2B_invoice_nta_pages2/ta_6913.htm",
+   "title": "No.6913 税抜経理と税込経理の併用と経理処理｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_index2",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 08 Oct 2026 01:00:02 GMT",
+   "bytes": 23215,
+   "sha256": "fe6155b42f99ec445b4ab52662357676c3156cb12ded10be92f93e1c707740b8",
+   "saved": ".work/downloads/20261109-181021_R2B_invoice_nta_pages2/ta_index2.htm",
+   "title": "タックスアンサー（よくある税の質問）｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "invoice_faq",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice_faq.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice_faq.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 15 Sep 2026 08:57:50 GMT",
+   "bytes": 15006,
+   "sha256": "7b4fb4f077dac7f3306cdf7c1d623a1eafa447af252d4563648ce8832962beee",
+   "saved": ".work/downloads/20261109-181021_R2B_invoice_nta_pages2/invoice_faq.htm",
+   "title": "通達・Ｑ＆Ａ｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "invoice_2tokurei",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice_2tokurei.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice_2tokurei.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 16 Oct 2026 05:00:02 GMT",
+   "bytes": 20513,
+   "sha256": "2f0c9c48607888cd5f4885987a7d9ff568ca3b58a7a65b7fbd2e514a2758173f",
+   "saved": ".work/downloads/20261109-181021_R2B_invoice_nta_pages2/invoice_2tokurei.htm",
+   "title": "２割特例 特設ページ｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "leaflet_r08",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice-review/pdf/0026004-099-01-1.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice-review/pdf/0026004-099-01-1.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Thu, 07 May 2026 08:30:04 GMT",
+   "bytes": 976966,
+   "sha256": "81b6afa9117320e57a7c5a9ae1ac5808d7818e2f5ee1864464a32bce483f9788",
+   "saved": ".work/downloads/20261109-181021_R2B_invoice_nta_pages2/leaflet_r08.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "invoice_review_print",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice-review/pdf/0026004-099-01-2.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice-review/pdf/0026004-099-01-2.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Thu, 07 May 2026 08:30:04 GMT",
+   "bytes": 3778026,
+   "sha256": "3d5aea5ebf39882a5fb93db53160622c5c00d017e0d6bafc0d24fb2152576154",
+   "saved": ".work/downloads/20261109-181021_R2B_invoice_nta_pages2/invoice_review_print.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "shushi_kakikata_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/034.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/034.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:41 GMT",
+   "bytes": 1527542,
+   "sha256": "5ac5dabb0eff09479009347c825edffbed28ec5d9a746afd8fc14fcc65a15aba",
+   "saved": ".work/downloads/20261109-181021_R2B_invoice_nta_pages2/shushi_kakikata_r07.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "aoiro_tebiki_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/025.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/025.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:41 GMT",
+   "bytes": 5722383,
+   "sha256": "d688dd73e82a13b5b8f4d8d559f16cc82da948f5a249d9a2ac75361dc855f82c",
+   "saved": ".work/downloads/20261109-181021_R2B_invoice_nta_pages2/aoiro_tebiki_r07.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "shiro_tebiki_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/kichou09.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/kichou09.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 09 Oct 2026 01:00:02 GMT",
+   "bytes": 7563616,
+   "sha256": "7e64dc7b9a14da6edcef9d6d37fc6b67d46aed8f8f9ee6a352e6f216359b6324",
+   "saved": ".work/downloads/20261109-181021_R2B_invoice_nta_pages2/shiro_tebiki_r07.pdf",
+   "pdf_header_ok": true
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "schema_version": "0",
+ "persons": [
+  {"id": "p-x", "birth_on": "1962-03-03"},
+  {"id": "p-y", "birth_on": "1964-08-08"},
+  {"id": "p-g", "birth_on": "1936-01-20"}
+ ],
+ "relations": [
+  {"id": "rel-marriage-xy", "kind": "marriage", "roles": {"spouse_a": "p-x", "spouse_b": "p-y"},
+   "when": {"from_on": "1990-06-01"}},
+  {"id": "rel-parent-gx", "kind": "parentage", "roles": {"parent": "p-g", "child": "p-x"},
+   "when": {"on": "1962-03-03"}, "attributes": {"basis": "birth_mother"}},
+  {"id": "rel-cohab-xg", "kind": "cohabitation", "roles": {"person": "p-x", "other_person": "p-g"},
+   "when": {"from_on": "2018-04-01"}}
+ ],
+ "residences": [
+  {"id": "res-x", "kind": "resident_record", "roles": {"person": "p-x"}, "when": {"from_on": "1995-04-01"},
+   "attributes": {"municipality_code": "990011", "household_id": "hh-x", "householder": true,
+                  "relation_to_householder": "householder"}},
+  {"id": "res-y", "kind": "resident_record", "roles": {"person": "p-y"}, "when": {"from_on": "1995-04-01"},
+   "attributes": {"municipality_code": "990011", "household_id": "hh-x", "householder": false,
+                  "relation_to_householder": "spouse"}},
+  {"id": "res-g", "kind": "resident_record", "roles": {"person": "p-g"}, "when": {"from_on": "2018-04-01"},
+   "attributes": {"municipality_code": "990011", "household_id": "hh-x", "householder": false,
+                  "relation_to_householder": "parent"}}
+ ],
+ "insurance_memberships": [
+  {"id": "mem-x", "kind": "medical_insurance", "roles": {"member": "p-x"}, "when": {"from_on": "1985-04-01"},
+   "attributes": {"scheme": "kyokai_kenpo", "insurer_id": "insurer-kk", "branch_id": "branch-99",
+                  "capacity": "insured"}},
+  {"id": "mem-y", "kind": "medical_insurance", "roles": {"member": "p-y", "insured": "p-x"},
+   "when": {"from_on": "1990-06-01"},
+   "attributes": {"scheme": "kyokai_kenpo", "insurer_id": "insurer-kk", "branch_id": "branch-99",
+                  "capacity": "dependent"}},
+  {"id": "mem-g", "kind": "medical_insurance", "roles": {"member": "p-g"}, "when": {"from_on": "2011-01-20"},
+   "attributes": {"scheme": "late_stage_elderly_medical", "insurer_id": "insurer-le", "capacity": "insured"}}
+ ],
+ "facts": [
+  {"id": "mp-g-1", "kind": "medical_payment", "roles": {"payer": "p-x", "patient": "p-g"},
+   "when": {"on": "2026-02-10"}, "amounts": {"amount": 120000},
+   "attributes": {"incurred_on": "2026-01-28", "provider": "架空総合病院",
+                  "medical_kinds": ["medical_treatment", "hospitalization"], "payment_instrument": "card-1"},
+   "source": {"transaction_ids": ["tx-2026-0210-hospital"]}},
+  {"id": "mp-y-taxi", "kind": "medical_payment", "roles": {"payer": "p-x", "patient": "p-y"},
+   "when": {"on": "2026-03-04"}, "amounts": {"amount": 3200},
+   "attributes": {"incurred_on": "2026-03-04", "provider": "架空タクシー", "medical_kinds": ["transport"]}},
+  {"id": "mp-y-medicine", "kind": "medical_payment", "roles": {"payer": "p-y", "patient": "p-y"},
+   "when": {"on": "2026-03-20"}, "amounts": {"amount": 1980},
+   "attributes": {"incurred_on": "2026-03-20", "provider": "架空薬局", "medical_kinds": ["medicine"],
+                  "selfmed_label": "present", "product_name": "架空かぜ薬"}},
+  {"id": "reimb-g-1", "kind": "reimbursement", "roles": {"recipient": "p-g"}, "when": {"on": "2026-05-15"},
+   "amounts": {"amount": 40000},
+   "attributes": {"benefit_type": "high_cost_medical_care_benefit", "target_payment_ids": ["mp-g-1"],
+                  "payer_name": "架空広域連合"}},
+  {"id": "sip-g-1", "kind": "social_insurance_payment", "roles": {"payer": "p-x", "liable_person": "p-g"},
+   "when": {"on": "2026-04-30"}, "amounts": {"amount": 4000},
+   "attributes": {"premium_type": "late_stage_elderly_medical", "payroll_deduction": false}}
+ ],
+ "assets": [],
+ "filed_documents": [],
+ "judgments": [
+  {"id": "j-livelihood-xg", "kind": "判断.生計を一にする", "judged_by": {"person": "p-x"},
+   "judged_at": "2026-02-11T21:00:00+09:00",
+   "subject": {"person": "p-x", "other_person": "p-g"}, "when": {"from_on": "2018-04-01"}, "value": true,
+   "basis": {"record_ids": ["rel-cohab-xg"]}},
+  {"id": "j-livelihood-xy", "kind": "判断.生計を一にする", "judged_by": {"person": "p-x"},
+   "judged_at": "2026-02-11T21:01:00+09:00",
+   "subject": {"person": "p-x", "other_person": "p-y"}, "when": {"from_on": "1990-06-01"}, "value": true},
+  {"id": "j-taxi-scope", "kind": "判断.医療費の範囲", "judged_by": {"person": "p-x"},
+   "judged_at": "2026-03-05T08:00:00+09:00",
+   "subject": {"payment_id": "mp-y-taxi"}, "value": true,
+   "basis": {"method": "歩行が困難で公共交通機関を使えなかった（架空）"}},
+  {"id": "j-reimb-estimate", "kind": "見積り.補塡の見込額", "judged_by": {"person": "p-x"},
+   "judged_at": "2027-02-01T10:00:00+09:00", "mark": "見積り",
+   "subject": {"payment_ids": ["mp-g-1"]}, "when": {"tax_year": 2026},
+   "value": {"estimated_amount": 20000, "benefit_type": "hospitalization_benefit", "estimated_as_of": "2027-02-01"},
+   "basis": {"method": "保険会社の案内による見込額（架空）"}}
+ ],
+ "choices": [
+  {"id": "c-medical-2026", "kind": "選択.医療費控除かセルフメディケーション税制か", "chosen_by": "p-x",
+   "chosen_at": "2027-02-01T10:30:00+09:00", "subject": {"person": "p-x"}, "when": {"tax_year": 2026},
+   "value": "medical_expense_deduction"}
+ ]
+}

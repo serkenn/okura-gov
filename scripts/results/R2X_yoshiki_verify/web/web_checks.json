@@ -1,0 +1,2669 @@
+{
+ "run_at": "20261109-191730",
+ "download_dir": ".work/downloads/20261109-191730_R2X_yoshiki_verify_web",
+ "robots": [
+  {
+   "host": "www.nta.go.jp",
+   "status": 200,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+   "text": "Sitemap: http://www.nta.go.jp/sitemap.xml\r\n\r\nUser-agent: *\r\nDisallow: /service_publication/\r\nDisallow: /about/organization/sapporo/service_publication/\r\nDisallow: /about/organization/sendai/service_publication/\r\nDisallow: /about/organization/kantoshinetsu/service_publication/\r\nDisallow: /about/organization/tokyo/service_publication/\r\nDisallow: /about/organization/kanazawa/service_publication/\r\nDisallow: /about/organization/nagoya/service_publication/\r\nDisallow: /about/organization/osaka/service_publication/\r\nDisallow: /about/organization/hiroshima/service_publication/\r\nDisallow: /about/organization/takamatsu/service_publication/\r\nDisallow: /about/organization/fukuoka/service_publication/\r\nDisallow: /about/organization/kumamoto/service_publication/\r\nDisallow: /about/organization/okinawa/service_publication/\r\n\r\nUser-agent: ndl-japan\r\nDisallow:"
+  },
+  {
+   "host": "www.e-tax.nta.go.jp",
+   "status": 404,
+   "sha256": null,
+   "text": null
+  }
+ ],
+ "pages": [
+  {
+   "key": "teiyo_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/01.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/01.htm",
+   "status": 200,
+   "last_modified": "Tue, 13 Oct 2026 08:30:03 GMT",
+   "content_type": "text/html",
+   "bytes": 55177,
+   "sha256": "6cd09d829f7e675303f2bc279da39f87bdcb250671b7affb15b5dc5ca479c429",
+   "saved": "teiyo_01.htm",
+   "prev_sha256": "6cd09d829f7e675303f2bc279da39f87bdcb250671b7affb15b5dc5ca479c429",
+   "prev_last_modified": "Tue, 13 Oct 2026 08:30:03 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "課所6-51",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "通達)|国税庁ホーム法令等法令解釈通達「個人課税事務提要(様式編1)」の制定について(法令解釈通達)課所6-51課審3-30課資5-39官事6-218課法3-70徴管2-73課消3-72査調2-44課料1-44査"
+    },
+    {
+     "needle": "課審3-30",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "庁ホーム法令等法令解釈通達「個人課税事務提要(様式編1)」の制定について(法令解釈通達)課所6-51課審3-30課資5-39官事6-218課法3-70徴管2-73課消3-72査調2-44課料1-44査察1-60平"
+    },
+    {
+     "needle": "課資5-39",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "等法令解釈通達「個人課税事務提要(様式編1)」の制定について(法令解釈通達)課所6-51課審3-30課資5-39官事6-218課法3-70徴管2-73課消3-72査調2-44課料1-44査察1-60平成12年11"
+    },
+    {
+     "needle": "官事6-218",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "達「個人課税事務提要(様式編1)」の制定について(法令解釈通達)課所6-51課審3-30課資5-39官事6-218課法3-70徴管2-73課消3-72査調2-44課料1-44査察1-60平成12年11月15日国税局"
+    },
+    {
+     "needle": "課法3-70",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "務提要(様式編1)」の制定について(法令解釈通達)課所6-51課審3-30課資5-39官事6-218課法3-70徴管2-73課消3-72査調2-44課料1-44査察1-60平成12年11月15日国税局長殿国税庁長"
+    },
+    {
+     "needle": "徴管2-73",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "編1)」の制定について(法令解釈通達)課所6-51課審3-30課資5-39官事6-218課法3-70徴管2-73課消3-72査調2-44課料1-44査察1-60平成12年11月15日国税局長殿国税庁長官「個人課税"
+    },
+    {
+     "needle": "課消3-72",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "定について(法令解釈通達)課所6-51課審3-30課資5-39官事6-218課法3-70徴管2-73課消3-72査調2-44課料1-44査察1-60平成12年11月15日国税局長殿国税庁長官「個人課税事務提要(様"
+    },
+    {
+     "needle": "査調2-44",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "法令解釈通達)課所6-51課審3-30課資5-39官事6-218課法3-70徴管2-73課消3-72査調2-44課料1-44査察1-60平成12年11月15日国税局長殿国税庁長官「個人課税事務提要(様式編I)」の"
+    },
+    {
+     "needle": "課料1-44",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": ")課所6-51課審3-30課資5-39官事6-218課法3-70徴管2-73課消3-72査調2-44課料1-44査察1-60平成12年11月15日国税局長殿国税庁長官「個人課税事務提要(様式編I)」の制定について"
+    },
+    {
+     "needle": "査察1-60",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "1課審3-30課資5-39官事6-218課法3-70徴管2-73課消3-72査調2-44課料1-44査察1-60平成12年11月15日国税局長殿国税庁長官「個人課税事務提要(様式編I)」の制定について(法令解釈通"
+    },
+    {
+     "needle": "平成12年11月15日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "0課資5-39官事6-218課法3-70徴管2-73課消3-72査調2-44課料1-44査察1-60平成12年11月15日国税局長殿国税庁長官「個人課税事務提要(様式編I)」の制定について(法令解釈通達)標題のことについて"
+    },
+    {
+     "needle": "国税局長殿",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "218課法3-70徴管2-73課消3-72査調2-44課料1-44査察1-60平成12年11月15日国税局長殿国税庁長官「個人課税事務提要(様式編I)」の制定について(法令解釈通達)標題のことについては、所得税"
+    },
+    {
+     "needle": "国税庁長官",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "3-70徴管2-73課消3-72査調2-44課料1-44査察1-60平成12年11月15日国税局長殿国税庁長官「個人課税事務提要(様式編I)」の制定について(法令解釈通達)標題のことについては、所得税法等の規定"
+    },
+    {
+     "needle": "「個人課税事務提要（様式編Ⅰ）」の制定について（法令解釈通達）",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "管2-73課消3-72査調2-44課料1-44査察1-60平成12年11月15日国税局長殿国税庁長官「個人課税事務提要(様式編I)」の制定について(法令解釈通達)標題のことについては、所得税法等の規定により、納税者から提出される書類及び納税者に通知する書類の様式"
+    },
+    {
+     "needle": "標題のことについては、所得税法等の規定により、納税者から提出される書類及び納税者に通知する書類の様式を別冊のとおり制定したので、今後これにより適切に実施されたい。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "12年11月15日国税局長殿国税庁長官「個人課税事務提要(様式編I)」の制定について(法令解釈通達)標題のことについては、所得税法等の規定により、納税者から提出される書類及び納税者に通知する書類の様式を別冊のとおり制定したので、今後これにより適切に実施されたい。(主旨)事務処理の適性・効率化を図るため、申告所得税事務提要及び各種実施要領等を一本化し、全面的に改"
+    },
+    {
+     "needle": "申告書等の処理事務",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "保に関する特別措置法第17条第5項に規定する申告書)(PDF/792KB)このページの先頭へ第12章申告書等の処理事務個12-020年末調整のための(特定増改築等)住宅借入金等特別控除証明書(省略)個12-1001変動"
+    },
+    {
+     "needle": "第12章",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "財源の確保に関する特別措置法第17条第5項に規定する申告書)(PDF/792KB)このページの先頭へ第12章申告書等の処理事務個12-020年末調整のための(特定増改築等)住宅借入金等特別控除証明書(省略)個"
+    },
+    {
+     "needle": "社会保険料控除等の明細書",
+     "expect_found": false,
+     "found": false,
+     "pass": true,
+     "context": ""
+    }
+   ],
+   "toc": [
+    {
+     "num": "個12-1007",
+     "name": "医療費控除の明細書",
+     "pdf": "06_010-1.pdf",
+     "rows_with_num": 0,
+     "row_has_name": false,
+     "link_ok": false,
+     "row_text": [],
+     "row_links": []
+    },
+    {
+     "num": "個12-1008",
+     "name": "医療費控除の明細書（次葉）",
+     "pdf": "06_010-2.pdf",
+     "rows_with_num": 0,
+     "row_has_name": false,
+     "link_ok": false,
+     "row_text": [],
+     "row_links": []
+    },
+    {
+     "num": "個12-1009",
+     "name": "セルフメディケーション税制の明細書",
+     "pdf": "06_010-3.pdf",
+     "rows_with_num": 0,
+     "row_has_name": false,
+     "link_ok": false,
+     "row_text": [],
+     "row_links": []
+    },
+    {
+     "num": "個12-1010",
+     "name": "セルフメディケーション税制の明細書（次葉）",
+     "pdf": "06_010-4.pdf",
+     "rows_with_num": 0,
+     "row_has_name": false,
+     "link_ok": false,
+     "row_text": [],
+     "row_links": []
+    },
+    {
+     "num": "個12-1005",
+     "name": "損益の通算の計算書",
+     "pdf": null,
+     "rows_with_num": 0,
+     "row_has_name": false,
+     "link_ok": null,
+     "row_text": [],
+     "row_links": []
+    },
+    {
+     "num": "個12-1072",
+     "name": "申告書第一表",
+     "pdf": "06_081.pdf",
+     "rows_with_num": 0,
+     "row_has_name": false,
+     "link_ok": false,
+     "row_text": [],
+     "row_links": []
+    },
+    {
+     "num": "個12-1073",
+     "name": "申告書第二表",
+     "pdf": "06_082.pdf",
+     "rows_with_num": 0,
+     "row_has_name": false,
+     "link_ok": false,
+     "row_text": [],
+     "row_links": []
+    },
+    {
+     "num": "個12-1074",
+     "name": "申告書第三表（分離課税用）",
+     "pdf": "06_083.pdf",
+     "rows_with_num": 0,
+     "row_has_name": false,
+     "link_ok": false,
+     "row_text": [],
+     "row_links": []
+    },
+    {
+     "num": "個12-1075",
+     "name": "申告書第四表（一）（損失申告用）",
+     "pdf": "06_085.pdf",
+     "rows_with_num": 0,
+     "row_has_name": false,
+     "link_ok": false,
+     "row_text": [],
+     "row_links": []
+    },
+    {
+     "num": "個12-1076",
+     "name": "申告書第四表（二）（損失申告用）",
+     "pdf": "06_086.pdf",
+     "rows_with_num": 0,
+     "row_has_name": false,
+     "link_ok": false,
+     "row_text": [],
+     "row_links": []
+    },
+    {
+     "num": "個12-1080",
+     "name": "収支内訳書（一般用）",
+     "pdf": "06_093.pdf",
+     "rows_with_num": 0,
+     "row_has_name": false,
+     "link_ok": false,
+     "row_text": [],
+     "row_links": []
+    },
+    {
+     "num": "個12-1082",
+     "name": "収支内訳書（不動産所得用）",
+     "pdf": "06_095.pdf",
+     "rows_with_num": 0,
+     "row_has_name": false,
+     "link_ok": false,
+     "row_text": [],
+     "row_links": []
+    },
+    {
+     "num": "個12-1083",
+     "name": "青色申告決算書（一般用）",
+     "pdf": "06_096.pdf",
+     "rows_with_num": 0,
+     "row_has_name": false,
+     "link_ok": false,
+     "row_text": [],
+     "row_links": []
+    },
+    {
+     "num": "個12-1084",
+     "name": "青色申告決算書（不動産所得用）",
+     "pdf": "06_097.pdf",
+     "rows_with_num": 0,
+     "row_has_name": false,
+     "link_ok": false,
+     "row_text": [],
+     "row_links": []
+    },
+    {
+     "num": "個12-1085",
+     "name": "青色申告決算書（現金主義用）",
+     "pdf": null,
+     "rows_with_num": 0,
+     "row_has_name": false,
+     "link_ok": null,
+     "row_text": [],
+     "row_links": []
+    },
+    {
+     "num": "個12-1086",
+     "name": "青色申告決算書（農業所得用）",
+     "pdf": null,
+     "rows_with_num": 0,
+     "row_has_name": false,
+     "link_ok": null,
+     "row_text": [],
+     "row_links": []
+    },
+    {
+     "num": "個12-1089",
+     "name": "付表",
+     "pdf": null,
+     "rows_with_num": 0,
+     "row_has_name": false,
+     "link_ok": null,
+     "row_text": [],
+     "row_links": []
+    },
+    {
+     "num": "個12-1103",
+     "name": "公的年金等に係る雑所得以外の合計所得金額に関する計算書",
+     "pdf": "06_137.pdf",
+     "rows_with_num": 0,
+     "row_has_name": false,
+     "link_ok": false,
+     "row_text": [],
+     "row_links": []
+    },
+    {
+     "num": "個09-1001",
+     "name": "更正の請求書",
+     "pdf": null,
+     "rows_with_num": 0,
+     "row_has_name": false,
+     "link_ok": null,
+     "row_text": [],
+     "row_links": []
+    },
+    {
+     "num": "個09-1003",
+     "name": "純損失の繰戻しによる所得税の還付請求書",
+     "pdf": null,
+     "rows_with_num": 0,
+     "row_has_name": false,
+     "link_ok": null,
+     "row_text": [],
+     "row_links": []
+    }
+   ]
+  },
+  {
+   "key": "sinkoku",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/sinkoku.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/sinkoku.htm",
+   "status": 200,
+   "last_modified": "Fri, 02 Oct 2026 08:30:04 GMT",
+   "content_type": "text/html",
+   "bytes": 26240,
+   "sha256": "ec1d3828a01ceb29f5c7d9b1c9e1c46e656078a1baf0fba71f35c0f48bf1a158",
+   "saved": "sinkoku.htm",
+   "prev_sha256": "ec1d3828a01ceb29f5c7d9b1c9e1c46e656078a1baf0fba71f35c0f48bf1a158",
+   "prev_last_modified": "Fri, 02 Oct 2026 08:30:04 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "「個人課税事務提要（様式編Ⅰ）」の制定について",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "用証明書」の様式の変更等)について)(平成12年11月15日)(令和8年8月31日付改正分まで更新)「個人課税事務提要(様式編I)」の制定について一部改正通達(令和8年8月31日付通達まで掲載)(平成12年6月8日)介護保険制度下での指定介護老人"
+    },
+    {
+     "needle": "（平成12年11月15日）（令和８年８月31日付改正分まで更新）",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "13年7月3日)おむつに係る費用の医療費控除の取扱い(「おむつ使用証明書」の様式の変更等)について)(平成12年11月15日)(令和8年8月31日付改正分まで更新)「個人課税事務提要(様式編I)」の制定について一部改正通達(令和8年8月31日付通達まで掲載)(平成"
+    }
+   ]
+  },
+  {
+   "key": "kaisei1",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/kaisei1.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/kaisei1.htm",
+   "status": 200,
+   "last_modified": "Fri, 18 Sep 2026 05:00:03 GMT",
+   "content_type": "text/html",
+   "bytes": 23234,
+   "sha256": "775f28b86f48a58018f58a1142e4f2c05a16ca28e40b1e39d5ad220a5b291f99",
+   "saved": "kaisei1.htm",
+   "prev_sha256": "775f28b86f48a58018f58a1142e4f2c05a16ca28e40b1e39d5ad220a5b291f99",
+   "prev_last_modified": "Fri, 18 Sep 2026 05:00:03 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "令和8年8月31日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "て一部改正通達「「個人課税事務提要(様式編I)」の制定について」の一部改正について(法令解釈通達)(令和8年8月31日)「「個人課税事務提要(様式編I)」の制定について」の一部改正について(法令解釈通達)(令和8年6月"
+    },
+    {
+     "needle": "令和8年6月30日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "年8月31日)「「個人課税事務提要(様式編I)」の制定について」の一部改正について(法令解釈通達)(令和8年6月30日)「「個人課税事務提要(様式編I)」の制定について」の一部改正について(法令解釈通達)(令和8年3月"
+    },
+    {
+     "needle": "令和8年3月27日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "年6月30日)「「個人課税事務提要(様式編I)」の制定について」の一部改正について(法令解釈通達)(令和8年3月27日)「「個人課税事務提要(様式編I)」の制定について」の一部改正について(法令解釈通達)(令和7年12"
+    },
+    {
+     "needle": "令和7年12月22日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "年3月27日)「「個人課税事務提要(様式編I)」の制定について」の一部改正について(法令解釈通達)(令和7年12月22日)「「個人課税事務提要(様式編I)」の制定について」の一部改正について(法令解釈通達)(令和7年6月"
+    },
+    {
+     "needle": "260831/index.htm",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": ".htm/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/260831/index.htm/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/2506"
+    },
+    {
+     "needle": "250630/index.htm",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": ".htm/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/250630/index.htm/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/2603"
+    }
+   ],
+   "first_rows": []
+  },
+  {
+   "key": "k260831",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/260831/index.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/260831/index.htm",
+   "status": 200,
+   "last_modified": "Fri, 18 Sep 2026 05:00:04 GMT",
+   "content_type": "text/html",
+   "bytes": 5102,
+   "sha256": "02d50923d3e580f9638119d74d476e728d2d277dfdd60d5f7374502241ec8df9",
+   "saved": "k260831.htm",
+   "prev_sha256": "02d50923d3e580f9638119d74d476e728d2d277dfdd60d5f7374502241ec8df9",
+   "prev_last_modified": "Fri, 18 Sep 2026 05:00:04 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "課個３―15",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "令等法令解釈通達「「個人課税事務提要(様式編I)」の制定について」の一部改正について(法令解釈通達)課個3-15課資6-101令和8年8月31日各国税局長殿沖縄国税事務所長殿国税庁長官(官印省略)「「個人課税事務"
+    },
+    {
+     "needle": "課資６―101",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "通達「「個人課税事務提要(様式編I)」の制定について」の一部改正について(法令解釈通達)課個3-15課資6-101令和8年8月31日各国税局長殿沖縄国税事務所長殿国税庁長官(官印省略)「「個人課税事務提要(様式編I"
+    },
+    {
+     "needle": "令和８年８月31日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "税事務提要(様式編I)」の制定について」の一部改正について(法令解釈通達)課個3-15課資6-101令和8年8月31日各国税局長殿沖縄国税事務所長殿国税庁長官(官印省略)「「個人課税事務提要(様式編I)」の制定について"
+    },
+    {
+     "needle": "別冊について、別紙１のとおり目次を改正し、別紙２に掲げる帳票を別紙３のとおり改正したから、令和８年８月31日以後はこれによられたい。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "15日付課所6-51ほか9課共同「「個人課税事務提要(様式編I)」の制定について」(法令解釈通達)の別冊について、別紙1のとおり目次を改正し、別紙2に掲げる帳票を別紙3のとおり改正したから、令和8年8月31日以後はこれによられたい。右クリックで「対象をファイルに保存」を選択して配布用データを保存してください。別紙1改訂目次一覧(P"
+    },
+    {
+     "needle": "22,336KB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "目次一覧(PDF/107KB)別紙2改訂様式一覧(PDF/2,888KB)別紙3改訂後様式(PDF/22,336KB)※PDFファイルが開けない、印刷できないなどの場合はこちらをご覧ください。このページの先頭へ法令等"
+    },
+    {
+     "needle": "改訂目次一覧",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "れによられたい。右クリックで「対象をファイルに保存」を選択して配布用データを保存してください。別紙1改訂目次一覧(PDF/107KB)別紙2改訂様式一覧(PDF/2,888KB)別紙3改訂後様式(PDF/22,3"
+    },
+    {
+     "needle": "改訂様式一覧",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "イルに保存」を選択して配布用データを保存してください。別紙1改訂目次一覧(PDF/107KB)別紙2改訂様式一覧(PDF/2,888KB)別紙3改訂後様式(PDF/22,336KB)※PDFファイルが開けない、印"
+    }
+   ]
+  },
+  {
+   "key": "k250630",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/250630/index.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/250630/index.htm",
+   "status": 200,
+   "last_modified": "Mon, 06 Jul 2026 01:00:06 GMT",
+   "content_type": "text/html",
+   "bytes": 4983,
+   "sha256": "6bcd682d4cf761d5bf816ab88f1a844509726f798ed1d462115798aab85b764a",
+   "saved": "k250630.htm",
+   "prev_sha256": "6bcd682d4cf761d5bf816ab88f1a844509726f798ed1d462115798aab85b764a",
+   "prev_last_modified": "Mon, 06 Jul 2026 01:00:06 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "課個３－９",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "令等法令解釈通達「「個人課税事務提要(様式編I)」の制定について」の一部改正について(法令解釈通達)課個3-9課資6-67令和8年6月30日各国税局長殿沖縄国税事務所長殿国税庁長官(官印省略)「「個人課税事務提"
+    },
+    {
+     "needle": "課資６－67",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "釈通達「「個人課税事務提要(様式編I)」の制定について」の一部改正について(法令解釈通達)課個3-9課資6-67令和8年6月30日各国税局長殿沖縄国税事務所長殿国税庁長官(官印省略)「「個人課税事務提要(様式編I"
+    },
+    {
+     "needle": "令和８年６月30日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "人課税事務提要(様式編I)」の制定について」の一部改正について(法令解釈通達)課個3-9課資6-67令和8年6月30日各国税局長殿沖縄国税事務所長殿国税庁長官(官印省略)「「個人課税事務提要(様式編I)」の制定について"
+    },
+    {
+     "needle": "別紙１に掲げる帳票を別紙２のとおり改正したから、今後はこれによられたい。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "-51ほか9課共同「「個人課税事務提要(様式編I)」の制定について」(法令解釈通達)の別冊について、別紙1に掲げる帳票を別紙2のとおり改正したから、今後はこれによられたい。右クリックで「対象をファイルに保存」を選択して配布用データを保存してください。※PDFファイルが開け"
+    },
+    {
+     "needle": "159,457KB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "などの場合はこちらをご覧ください。別紙1改訂様式一覧(PDF/230KB)別紙2改訂後様式(PDF/159,457KB)このページの先頭へ法令等税法(e-Govの「法令データ提供システム」へリンク)法令解釈通達その他法"
+    }
+   ]
+  },
+  {
+   "key": "k260327",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/260327/index.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/260327/index.htm",
+   "status": 200,
+   "last_modified": "Fri, 27 Mar 2026 05:00:04 GMT",
+   "content_type": "text/html",
+   "bytes": 4925,
+   "sha256": "98a36022c910875f801c4c5a1d678725383869fd2c3c9a674c61572808790ef1",
+   "saved": "k260327.htm",
+   "prev_sha256": "98a36022c910875f801c4c5a1d678725383869fd2c3c9a674c61572808790ef1",
+   "prev_last_modified": "Fri, 27 Mar 2026 05:00:04 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "課個３―４",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "令等法令解釈通達「「個人課税事務提要(様式編I)」の制定について」の一部改正について(法令解釈通達)課個3-4課資6-16令和8年3月27日各国税局長殿沖縄国税事務所長殿国税庁長官(官印省略)「「個人課税事務提"
+    },
+    {
+     "needle": "課資６―16",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "釈通達「「個人課税事務提要(様式編I)」の制定について」の一部改正について(法令解釈通達)課個3-4課資6-16令和8年3月27日各国税局長殿沖縄国税事務所長殿国税庁長官(官印省略)「「個人課税事務提要(様式編I"
+    },
+    {
+     "needle": "令和８年３月27日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "人課税事務提要(様式編I)」の制定について」の一部改正について(法令解釈通達)課個3-4課資6-16令和8年3月27日各国税局長殿沖縄国税事務所長殿国税庁長官(官印省略)「「個人課税事務提要(様式編I)」の制定について"
+    },
+    {
+     "needle": "別紙１に掲げる帳票を別紙２のとおり改正",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "-51ほか9課共同「「個人課税事務提要(様式編I)」の制定について」(法令解釈通達)の別冊について、別紙1に掲げる帳票を別紙2のとおり改正したから、今後はこれによられたい。別紙1改訂様式一覧(PDF/157KB)別紙2改訂後様式(PDF/"
+    }
+   ]
+  },
+  {
+   "key": "k251222",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/251222/index.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/251222/index.htm",
+   "status": 200,
+   "last_modified": "Fri, 27 Mar 2026 05:29:32 GMT",
+   "content_type": "text/html",
+   "bytes": 4940,
+   "sha256": "a7cccc4f86cde4463418de30533d1483c6ab831d5d5d42b8620a2aeec88d6524",
+   "saved": "k251222.htm",
+   "prev_sha256": "a7cccc4f86cde4463418de30533d1483c6ab831d5d5d42b8620a2aeec88d6524",
+   "prev_last_modified": "Fri, 27 Mar 2026 05:29:32 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "課個３―12",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "令等法令解釈通達「「個人課税事務提要(様式編I)」の制定について」の一部改正について(法令解釈通達)課個3-12課資6-73令和7年12月22日各国税局長殿沖縄国税事務所長殿国税庁長官(官印省略)「「個人課税事務"
+    },
+    {
+     "needle": "課資６―73",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "通達「「個人課税事務提要(様式編I)」の制定について」の一部改正について(法令解釈通達)課個3-12課資6-73令和7年12月22日各国税局長殿沖縄国税事務所長殿国税庁長官(官印省略)「「個人課税事務提要(様式編"
+    },
+    {
+     "needle": "令和７年12月22日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "課税事務提要(様式編I)」の制定について」の一部改正について(法令解釈通達)課個3-12課資6-73令和7年12月22日各国税局長殿沖縄国税事務所長殿国税庁長官(官印省略)「「個人課税事務提要(様式編I)」の制定について"
+    },
+    {
+     "needle": "別紙１に掲げる帳票を別紙２のとおり改正",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "-51ほか9課共同「「個人課税事務提要(様式編I)」の制定について」(法令解釈通達)の別冊について、別紙1に掲げる帳票を別紙2のとおり改正したから、令和8年1月1以後はこれによられたい。別紙1改訂様式一覧(PDF/163KB)別紙2改訂後"
+    },
+    {
+     "needle": "令和８年１月１以後はこれによられたい",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": ")」の制定について」(法令解釈通達)の別冊について、別紙1に掲げる帳票を別紙2のとおり改正したから、令和8年1月1以後はこれによられたい。別紙1改訂様式一覧(PDF/163KB)別紙2改訂後様式(PDF/14,170KB)右クリックで「"
+    }
+   ]
+  },
+  {
+   "key": "ai_ocr",
+   "url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_ai-ocr.htm",
+   "final_url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_ai-ocr.htm",
+   "status": 200,
+   "last_modified": null,
+   "content_type": "text/html",
+   "bytes": 9064,
+   "sha256": "dbba5302c95a4c3a2602f59582431b6ec35fb8e0e11c2c19743d6de6cfdc3edc",
+   "saved": "ai_ocr.htm",
+   "prev_sha256": "dbba5302c95a4c3a2602f59582431b6ec35fb8e0e11c2c19743d6de6cfdc3edc",
+   "prev_last_modified": null,
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "AI-OCR開発は、上記の特性を踏まえ、様式の改定とあわせて行っています。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "作業の効率化に大きく寄与する技術になります。AI-OCR概要イメージ拡大表示(2)AI-OCRの採用AI-OCR開発は、上記の特性を踏まえ、様式の改定とあわせて行っています。AI-OCR概要イメージOCR技術は、専用のOCR様式を用いて、所定の枠内に記載した数字を読み取る点"
+    },
+    {
+     "needle": "AI-OCR様式のイメージ",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "発業者の方へAI-OCRの概要AI-OCRの概要(1)AI-OCRとは(2)AI-OCRの採用(3)AI-OCR様式のイメージ(1)AI-OCRとはOCRは、画像データのテキスト部分を認識し、文字データに変換する機能です。具体"
+    },
+    {
+     "needle": "様式IDを追加",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "て優れている。拡大表示(3)AI-OCR様式のイメージAI-OCRの様式イメージは以下のとおりです。様式IDを追加様式ID等を識別する2次元コードを追加各項目に識別コードを追加(赤枠部分)AI-OCR様式(イメージ"
+    },
+    {
+     "needle": "様式ID等を識別する2次元コードを追加",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "拡大表示(3)AI-OCR様式のイメージAI-OCRの様式イメージは以下のとおりです。様式IDを追加様式ID等を識別する2次元コードを追加各項目に識別コードを追加(赤枠部分)AI-OCR様式(イメージ)拡大表示/index.html/sh"
+    },
+    {
+     "needle": "各項目に識別コードを追加（赤枠部分）",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "ジAI-OCRの様式イメージは以下のとおりです。様式IDを追加様式ID等を識別する2次元コードを追加各項目に識別コードを追加(赤枠部分)AI-OCR様式(イメージ)拡大表示/index.html/shiyo/index.html#anc"
+    }
+   ]
+  },
+  {
+   "key": "layout",
+   "url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_layout.htm",
+   "final_url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_layout.htm",
+   "status": 200,
+   "last_modified": null,
+   "content_type": "text/html",
+   "bytes": 9499,
+   "sha256": "13e5f9d9466e7f1c253d8933faa0b49629bf3bca786802c30e514fa92bd876de",
+   "saved": "layout.htm",
+   "prev_sha256": "13e5f9d9466e7f1c253d8933faa0b49629bf3bca786802c30e514fa92bd876de",
+   "prev_last_modified": null,
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "対象の帳票は「AI-OCR化対象帳票一覧」を、各帳票のレイアウトは「帳票レイアウト設計書」を、QRコードの仕様は「QRコード仕様書」を、それぞれリンクからダウンロードしてご確認ください。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "象帳票について(2)AI-OCR化対象帳票(ドラフト版)について(1)AI-OCR化対象帳票について対象の帳票は「AI-OCR化対象帳票一覧」を、各帳票のレイアウトは「帳票レイアウト設計書」を、QRコードの仕様は「QRコード仕様書」を、それぞれリンクからダウンロードしてご確認ください。なお、ダウンロードされた方は、「e-Tax等仕様公開に当たっての注意事項」に同意したものとみなされま"
+    },
+    {
+     "needle": "なお、ダウンロードされた方は、「e-Tax等仕様公開に当たっての注意事項」に同意したものとみなされますので、ご承知おきください。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "書」を、QRコードの仕様は「QRコード仕様書」を、それぞれリンクからダウンロードしてご確認ください。なお、ダウンロードされた方は、「e-Tax等仕様公開に当たっての注意事項」に同意したものとみなされますので、ご承知おきください。【AI-OCR化対象帳票】AI-OCR化対象帳票一覧(令和8年9月2日更新):(CAB形式:約228"
+    },
+    {
+     "needle": "令和8年9月2日更新",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "たものとみなされますので、ご承知おきください。【AI-OCR化対象帳票】AI-OCR化対象帳票一覧(令和8年9月2日更新):(CAB形式:約228KB)帳票レイアウト設計書(令和8年9月2日更新):(CAB形式:約783"
+    },
+    {
+     "needle": "約228KB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "ださい。【AI-OCR化対象帳票】AI-OCR化対象帳票一覧(令和8年9月2日更新):(CAB形式:約228KB)帳票レイアウト設計書(令和8年9月2日更新):(CAB形式:約783MB)QRコード仕様書(令和8"
+    },
+    {
+     "needle": "約783MB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "2日更新):(CAB形式:約228KB)帳票レイアウト設計書(令和8年9月2日更新):(CAB形式:約783MB)QRコード仕様書(令和8年1月30日時点):(CAB形式:約33.2KB)(2)AI-OCR化対象"
+    },
+    {
+     "needle": "令和8年1月30日時点",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "8KB)帳票レイアウト設計書(令和8年9月2日更新):(CAB形式:約783MB)QRコード仕様書(令和8年1月30日時点):(CAB形式:約33.2KB)(2)AI-OCR化対象帳票(ドラフト版)について税制改正等により"
+    },
+    {
+     "needle": "約33.2KB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "月2日更新):(CAB形式:約783MB)QRコード仕様書(令和8年1月30日時点):(CAB形式:約33.2KB)(2)AI-OCR化対象帳票(ドラフト版)について税制改正等により開発予定の帳票について、以下のと"
+    },
+    {
+     "needle": "令和8年10月30日更新",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "、ご了承ください。【AI-OCR化対象帳票(ドラフト版)】AI-OCR化対象帳票(ドラフト版)一覧(令和8年10月30日更新):(CAB形式:約170KB)帳票レイアウト(ドラフト版)設計書(令和8年10月30日更新):(C"
+    },
+    {
+     "needle": "約170KB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "(ドラフト版)】AI-OCR化対象帳票(ドラフト版)一覧(令和8年10月30日更新):(CAB形式:約170KB)帳票レイアウト(ドラフト版)設計書(令和8年10月30日更新):(CAB形式:約865MB)/in"
+    },
+    {
+     "needle": "約865MB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "B形式:約170KB)帳票レイアウト(ドラフト版)設計書(令和8年10月30日更新):(CAB形式:約865MB)/index.html/shiyo/index.html#anc01#anc02/shiyo/in"
+    },
+    {
+     "needle": "税制改正等により開発予定の帳票について",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "年1月30日時点):(CAB形式:約33.2KB)(2)AI-OCR化対象帳票(ドラフト版)について税制改正等により開発予定の帳票について、以下のとおりドラフト版を公開します。これらの帳票は、ドラフト版であり、今後、内容が変更となる可能性"
+    },
+    {
+     "needle": "ai-ocr_list.CAB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "tml#anc01#anc02/shiyo/index.html#anc04/shiyo/ksk2/ai-ocr_list.CAB/shiyo/ksk2/ai-ocr_layout.CAB/shiyo/ksk2/ai-ocr_qr"
+    },
+    {
+     "needle": "ai-ocr_layout.CAB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": ".html#anc04/shiyo/ksk2/ai-ocr_list.CAB/shiyo/ksk2/ai-ocr_layout.CAB/shiyo/ksk2/ai-ocr_qr.CAB/shiyo/ksk2/draft/ai-ocr_"
+    },
+    {
+     "needle": "draft/ai-ocr_list.CAB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "cr_layout.CAB/shiyo/ksk2/ai-ocr_qr.CAB/shiyo/ksk2/draft/ai-ocr_list.CAB/shiyo/ksk2/draft/ai-ocr_layout.CAB"
+    },
+    {
+     "needle": "draft/ai-ocr_layout.CAB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "r.CAB/shiyo/ksk2/draft/ai-ocr_list.CAB/shiyo/ksk2/draft/ai-ocr_layout.CAB"
+    },
+    {
+     "needle": "ai-ocr_qr.CAB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "_list.CAB/shiyo/ksk2/ai-ocr_layout.CAB/shiyo/ksk2/ai-ocr_qr.CAB/shiyo/ksk2/draft/ai-ocr_list.CAB/shiyo/ksk2/draft"
+    }
+   ]
+  },
+  {
+   "key": "r08",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r08.htm",
+   "final_url": "https://www.nta.go.jp/error/404.htm",
+   "status": 200,
+   "last_modified": "Thu, 18 Jan 2024 09:39:47 GMT",
+   "content_type": "text/html",
+   "bytes": 2007,
+   "sha256": "700138cae1f347c2be03b380ba74007e704ceb81fe2a62d547e3559d4b851d55",
+   "saved": "r08.htm",
+   "prev_sha256": "700138cae1f347c2be03b380ba74007e704ceb81fe2a62d547e3559d4b851d55",
+   "prev_last_modified": "Thu, 18 Jan 2024 09:39:47 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r07.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r07.htm",
+   "status": 200,
+   "last_modified": "Tue, 20 Oct 2026 08:30:03 GMT",
+   "content_type": "text/html",
+   "bytes": 45317,
+   "sha256": "ff769ff6e512b73df0387db39f5fbc6e58f509fd12f5972e2f84e4117e58ac9f",
+   "saved": "r07.htm",
+   "prev_sha256": "ff769ff6e512b73df0387db39f5fbc6e58f509fd12f5972e2f84e4117e58ac9f",
+   "prev_last_modified": "Tue, 20 Oct 2026 08:30:03 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "令和７年分以降用",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "い、印刷できないなどの場合は、こちらをご覧ください様式手引き・説明等申告書等1申告書第一表・第二表【令和7年分以降用】(PDF/2,123KB)・令和7年分所得税及び復興特別所得税の手引き(PDF/22,505KB)"
+    },
+    {
+     "needle": "r07/02.pdf",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "xes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/02.pdf/taxes/shiraberu/shinkoku/tebiki/2025/kisairei/jot"
+    },
+    {
+     "needle": "r07/03.pdf",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "xes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/03.pdf/taxes/shiraberu/shinkoku/tebiki/2025/pdf/003.pdf/"
+    },
+    {
+     "needle": "r07/10.pdf",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "xes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/10.pdf/taxes/shiraberu/shinkoku/tebiki/2025/pdf/037.pdf/"
+    },
+    {
+     "needle": "017.pdf",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "/03/pdf/ref3.pdf/taxes/shiraberu/shinkoku/yoshiki/017.pdf/taxes/shiraberu/shinkoku/yoshiki/017-ki.pdf/taxes"
+    },
+    {
+     "needle": "ref4.pdf",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "17-ki.pdf/taxes/shiraberu/shinkoku/yoshiki/03/pdf/ref4.pdf/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/p"
+    }
+   ]
+  },
+  {
+   "key": "aiocr_xlsx",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/sodan/ai-ocr.xlsx",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/sodan/ai-ocr.xlsx",
+   "status": 200,
+   "last_modified": "Thu, 05 Nov 2026 05:00:01 GMT",
+   "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "bytes": 109168,
+   "sha256": "99af2fe209fe817bef3cee6eb9bc9a3169cbe1a519ff9cba09cdb407817cab0c",
+   "saved": "aiocr_xlsx.xlsx",
+   "prev_sha256": "99af2fe209fe817bef3cee6eb9bc9a3169cbe1a519ff9cba09cdb407817cab0c",
+   "prev_last_modified": "Thu, 05 Nov 2026 05:00:01 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "a1_1",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/1557_2.htm",
+   "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/1557_2.htm",
+   "status": 200,
+   "last_modified": "Mon, 31 Aug 2026 05:00:02 GMT",
+   "content_type": "text/html",
+   "bytes": 110760,
+   "sha256": "cf201c944bcb03d939ab1cff01e1deb9041208888249121c7cfb8b2faa93ecb3",
+   "saved": "a1_1.htm",
+   "prev_sha256": "cf201c944bcb03d939ab1cff01e1deb9041208888249121c7cfb8b2faa93ecb3",
+   "prev_last_modified": "Mon, 31 Aug 2026 05:00:02 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "土地建物等の譲渡所得がある方",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "前次のいずれかに該当する方が、申告書第一表・第二表(令和3年分以前は申告書B)と一緒に使用します。・土地建物等の譲渡所得がある方・申告分離課税の株式等の譲渡所得等がある方・申告分離課税の上場株式等の配当所得等がある方・申告分離課"
+    },
+    {
+     "needle": "申告分離課税の株式等の譲渡所得等がある方",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "申告書第一表・第二表(令和3年分以前は申告書B)と一緒に使用します。・土地建物等の譲渡所得がある方・申告分離課税の株式等の譲渡所得等がある方・申告分離課税の上場株式等の配当所得等がある方・申告分離課税の先物取引の雑所得等がある方・山林所得や"
+    },
+    {
+     "needle": "申告分離課税の上場株式等の配当所得等がある方",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "書B)と一緒に使用します。・土地建物等の譲渡所得がある方・申告分離課税の株式等の譲渡所得等がある方・申告分離課税の上場株式等の配当所得等がある方・申告分離課税の先物取引の雑所得等がある方・山林所得や退職所得がある方また、退職所得の選択課税の申告"
+    },
+    {
+     "needle": "申告分離課税の先物取引の雑所得等がある方",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "得がある方・申告分離課税の株式等の譲渡所得等がある方・申告分離課税の上場株式等の配当所得等がある方・申告分離課税の先物取引の雑所得等がある方・山林所得や退職所得がある方また、退職所得の選択課税の申告書もこの申告書第三表と申告書第一表・第二表"
+    },
+    {
+     "needle": "山林所得や退職所得がある方",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "等がある方・申告分離課税の上場株式等の配当所得等がある方・申告分離課税の先物取引の雑所得等がある方・山林所得や退職所得がある方また、退職所得の選択課税の申告書もこの申告書第三表と申告書第一表・第二表を使用します。書き方等につい"
+    },
+    {
+     "needle": "その年分の所得金額が赤字の方",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "前次のいずれかに該当する方が、申告書第一表・第二表(令和3年分以前は申告書B)と一緒に使用します。・その年分の所得金額が赤字の方・その年分の所得金額から雑損控除額を控除すると赤字になる方・その年分の所得金額から繰越損失額を控除す"
+    },
+    {
+     "needle": "その年分の所得金額から雑損控除額を控除すると赤字になる方",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "申告書第一表・第二表(令和3年分以前は申告書B)と一緒に使用します。・その年分の所得金額が赤字の方・その年分の所得金額から雑損控除額を控除すると赤字になる方・その年分の所得金額から繰越損失額を控除すると赤字になる方書き方等については、「所得税及び復興特別所"
+    },
+    {
+     "needle": "その年分の所得金額から繰越損失額を控除すると赤字になる方",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "用します。・その年分の所得金額が赤字の方・その年分の所得金額から雑損控除額を控除すると赤字になる方・その年分の所得金額から繰越損失額を控除すると赤字になる方書き方等については、「所得税及び復興特別所得税の確定申告の手引き損失申告用」を参照してください。申告"
+    },
+    {
+     "needle": "翌年に繰り越す損失がある方は、この計算書を使用せず、申告書第四表（損失申告用）を使用します。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "から差し引く各種の所得の損失額(赤字)が数多くある方が、所得金額を計算する場合に使用します。ただし、翌年に繰り越す損失がある方は、この計算書を使用せず、申告書第四表(損失申告用)を使用します。書き方等については、「記載要領(PDF/213KB)」を参照してください。相続等に係る生命保険契約等"
+    }
+   ]
+  },
+  {
+   "key": "ta1130",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm",
+   "status": 200,
+   "last_modified": "Wed, 09 Sep 2026 01:00:16 GMT",
+   "content_type": "text/html",
+   "bytes": 20169,
+   "sha256": "eb55eb32e48ff54dfb00477e5ad6177162ae07a466defca88e83293c65b63239",
+   "saved": "ta1130.htm",
+   "prev_sha256": "eb55eb32e48ff54dfb00477e5ad6177162ae07a466defca88e83293c65b63239",
+   "prev_last_modified": "Wed, 09 Sep 2026 01:00:16 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "令和8年4月1日現在法令等",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "調べるタックスアンサー(よくある税の質問)No.1130社会保険料控除No.1130社会保険料控除[令和8年4月1日現在法令等]対象税目所得税概要納税者が自己または自己と生計を一にする配偶者やその他の親族の負担すべき社会保険料"
+    },
+    {
+     "needle": "なお、令和8年分以後の所得税に係る確定申告書を令和9年1月1日以後に提出するときは、国民年金の保険料または国民年金基金の掛金の金額を証する書類もしくは電磁的記録印刷書面の添付または提示に代えて、一定の事項の記載がある明細書を確定申告書に添付することができます。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "る「給与所得者の保険料控除申告書」に添付するか、これらの申告書を提出する際に提示する必要があります。なお、令和8年分以後の所得税に係る確定申告書を令和9年1月1日以後に提出するときは、国民年金の保険料または国民年金基金の掛金の金額を証する書類もしくは電磁的記録印刷書面の添付または提示に代えて、一定の事項の記載がある明細書を確定申告書に添付することができます。e-Tax(電子申告)で確定申告する場合については、コードNo.1904「給与所得者と電子申告」をご"
+    }
+   ]
+  },
+  {
+   "key": "ta1140",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm",
+   "status": 200,
+   "last_modified": "Wed, 09 Sep 2026 01:00:16 GMT",
+   "content_type": "text/html",
+   "bytes": 25305,
+   "sha256": "20cf3d89f75dc48a636117235a463a96eb4e3ed8f7eb5cafb96ba9876ca040e5",
+   "saved": "ta1140.htm",
+   "prev_sha256": "20cf3d89f75dc48a636117235a463a96eb4e3ed8f7eb5cafb96ba9876ca040e5",
+   "prev_last_modified": "Wed, 09 Sep 2026 01:00:16 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "令和8年4月1日現在法令等",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "調べるタックスアンサー(よくある税の質問)No.1140生命保険料控除No.1140生命保険料控除[令和8年4月1日現在法令等]対象税目所得税概要納税者が生命保険料、介護医療保険料および個人年金保険料を支払った場合には、一定の"
+    },
+    {
+     "needle": "一定の事項の記載がある明細書",
+     "expect_found": false,
+     "found": false,
+     "pass": true,
+     "context": ""
+    }
+   ]
+  },
+  {
+   "key": "ta1145",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1145.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1145.htm",
+   "status": 200,
+   "last_modified": "Wed, 09 Sep 2026 01:00:16 GMT",
+   "content_type": "text/html",
+   "bytes": 18042,
+   "sha256": "13e2dd00c0165c025f4269aaa712cf9cbac025695082e389e3746fff015e3bd2",
+   "saved": "ta1145.htm",
+   "prev_sha256": "13e2dd00c0165c025f4269aaa712cf9cbac025695082e389e3746fff015e3bd2",
+   "prev_last_modified": "Wed, 09 Sep 2026 01:00:16 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "令和8年4月1日現在法令等",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "調べるタックスアンサー(よくある税の質問)No.1145地震保険料控除No.1145地震保険料控除[令和8年4月1日現在法令等]対象税目所得税概要納税者が特定の損害保険契約等に係る地震等損害部分の保険料または掛金を支払った場合"
+    },
+    {
+     "needle": "一定の事項の記載がある明細書",
+     "expect_found": false,
+     "found": false,
+     "pass": true,
+     "context": ""
+    }
+   ]
+  },
+  {
+   "key": "ref1_ki",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/04/pdf/ref1-ki.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/04/pdf/ref1-ki.pdf",
+   "status": 200,
+   "last_modified": "Tue, 30 Jun 2026 08:31:47 GMT",
+   "content_type": "application/pdf",
+   "bytes": 756621,
+   "sha256": "ee51a9672a29b734c57d832420d02c132ebeac69e6a54be57ce7fbf2fbd871b3",
+   "saved": "ref1_ki.pdf",
+   "prev_sha256": null,
+   "prev_last_modified": null,
+   "same_sha_as_prev": null,
+   "checks": []
+  },
+  {
+   "key": "tebiki_008",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/008.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/008.pdf",
+   "status": 200,
+   "last_modified": "Fri, 12 Dec 2025 08:30:42 GMT",
+   "content_type": "application/pdf",
+   "bytes": 1470054,
+   "sha256": "d00942768e4cc4dd750492d523785328075b4a86ec8e35ca0532919b4fe46dc0",
+   "saved": "tebiki_008.pdf",
+   "prev_sha256": null,
+   "prev_last_modified": null,
+   "same_sha_as_prev": null,
+   "checks": []
+  },
+  {
+   "key": "t3-2_01",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_01.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_01.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "content_type": "text/html",
+   "bytes": 15304,
+   "sha256": "ed5db4670985a2778471c93c20ac85fb0f5e7c1f08b8ccbed0a328484bf350ac",
+   "saved": "t3-2_01.htm",
+   "prev_sha256": "ed5db4670985a2778471c93c20ac85fb0f5e7c1f08b8ccbed0a328484bf350ac",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "『青色申告決算書』又は『収支内訳書』",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "「青色申告決算書」●その他の方(白色申告者)・・・「収支内訳書」申告書の書き方欄又は欄...収入金額「青色申告決算書」又は「収支内訳書」から転記します。〔1〕欄又は〔2〕欄...所得金額〔58〕欄...専従者給与(控除)額の合計額〔59"
+    },
+    {
+     "needle": "優良な電子帳簿",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "当てはまる場合、10万円を超える青色申告特別控除の適用は受けられません。電子帳簿保存法の規定に基づく優良な電子帳簿の要件を満たし、電磁的記録による保存に係る届出書(又は電磁的記録に係る承認申請書)を提出し、総勘定元"
+    },
+    {
+     "needle": "会計ソフト等",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "提出し、総勘定元帳、仕訳帳、その他必要な帳簿について電磁的記録による備付け及び保存を行っている場合1会計ソフト等の電子計算機を使用して記帳している場合(1に該当する場合を除きます。)2総勘定元帳、仕訳帳、その他必"
+    },
+    {
+     "needle": "正規の簿記の原則",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "る場合(1に該当する場合を除きます。)2総勘定元帳、仕訳帳、その他必要な帳簿を備え付け、日々の取引を正規の簿記の原則(複式簿記)に従って記帳している場合(1又は2に該当する場合を除きます。)3日々の取引を正規の簿記の"
+    },
+    {
+     "needle": "複式簿記以外の簡易な方法",
+     "expect_found": true,
+     "found": false,
+     "pass": false,
+     "context": ""
+    },
+    {
+     "needle": "記帳の仕方が分からない",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "以外の簡易な方法で記帳している場合(2に該当する場合を除きます。)4上記のいずれにも該当しない場合(記帳の仕方が分からない場合を含みます。)5「優良な電子帳簿」など電子帳簿保存法に関する詳細については、「電子帳簿等保存制度"
+    },
+    {
+     "needle": "４又は５に当てはまる場合、10万円を超える青色申告特別控除の適用は受けられません。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "は、令和7年の記帳・帳簿の保存の状況について、次の場合に応じて、それぞれ次の数字を記入します。なお、4又は5に当てはまる場合、10万円を超える青色申告特別控除の適用は受けられません。電子帳簿保存法の規定に基づく優良な電子帳簿の要件を満たし、電磁的記録による保存に係る届出書(又は電磁"
+    },
+    {
+     "needle": "程度・仕事の内容は、白色申告者のみ記入します。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": ")」欄...事業専従者の氏名、マイナンバー(個人番号)、続柄、生年月日、従事月数などを記入します。※程度・仕事の内容は、白色申告者のみ記入します。●「特例適用条文等」欄...社会保険診療報酬(措法26)、家内労働者(措法27)、転廃業助成金(措法"
+    },
+    {
+     "needle": "措法26",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "ます。※程度・仕事の内容は、白色申告者のみ記入します。●「特例適用条文等」欄...社会保険診療報酬(措法26)、家内労働者(措法27)、転廃業助成金(措法28の3)などの課税の特例の適用を受ける方は、該当条文"
+    },
+    {
+     "needle": "措法27",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "は、白色申告者のみ記入します。●「特例適用条文等」欄...社会保険診療報酬(措法26)、家内労働者(措法27)、転廃業助成金(措法28の3)などの課税の特例の適用を受ける方は、該当条文を記入します。※次の〔1"
+    }
+   ],
+   "izon": {
+    "n": 11,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/"
+    ],
+    "file_vs_alt_mismatch": []
+   }
+  },
+  {
+   "key": "t3-2_08_1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_08_1.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_08_1.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "content_type": "text/html",
+   "bytes": 15692,
+   "sha256": "a9d9ed5a2e1417f8bcec94f38232a22608fdb7624f6745958d470bacca8eeb69",
+   "saved": "t3-2_08_1.htm",
+   "prev_sha256": "a9d9ed5a2e1417f8bcec94f38232a22608fdb7624f6745958d470bacca8eeb69",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "1円未満の端数があるときは、その端数を切り捨てます。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "方の金額)円F一時所得の金額(E-F)円Gこの金額を第一表の欄に記入します。(B+G)×0.5円H※1円未満の端数があるときは、その端数を切り捨てます。「総合譲渡・一時」欄の金額(A+H)円Iこの金額を第一表の〔11〕欄に記入します。※総合課税の譲渡所"
+    },
+    {
+     "needle": "損益の通算の計算書",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "合で、事業所得、不動産所得、総合課税の譲渡所得のいずれかに赤字があるときは、この計算欄を使用せず、「損益の通算の計算書」を使用して計算してください。申告書の書き方●欄...計算欄Aの金額を転記します。●欄...計算欄B"
+    },
+    {
+     "needle": "総合譲渡用",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "内の資産の譲渡長期保有期間が5年を超える資産の譲渡※所得金額は「譲渡所得の内訳書(確定申告書付表)【総合譲渡用】」で計算し、確定申告書と一緒に提出します。※土地や建物、借地権、株式等の譲渡から生ずる所得は申告分"
+    }
+   ],
+   "izon": {
+    "n": 5,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/"
+    ],
+    "file_vs_alt_mismatch": []
+   }
+  },
+  {
+   "key": "t3-2_09",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_09.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_09.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "content_type": "text/html",
+   "bytes": 10876,
+   "sha256": "27a713784184323199e78847f543038d9c51b211220075eb2b8b97e9a9ae14ae",
+   "saved": "t3-2_09.htm",
+   "prev_sha256": "27a713784184323199e78847f543038d9c51b211220075eb2b8b97e9a9ae14ae",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "〔1〕欄から〔6〕欄までの計＋〔10〕欄＋〔11〕欄の金額を記入",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "得金額等を計算する手順2収入金額等、所得金額等を計算する所得金額の合計第一表〔12〕〔12〕欄...〔1〕欄から〔6〕欄までの計+〔10〕欄+〔11〕欄の金額を記入します。※所得金額の合計を行う場合で、事業所得(営業等・農業)や不動産所得、山林所得、総合課税の譲渡"
+    },
+    {
+     "needle": "第一表〔62〕欄「本年分で差し引く繰越損失額」に記載がある場合",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "を使用して計算してください。ゴルフ会員権等の譲渡損失については、原則として、損益通算ができません。※第一表〔62〕欄「本年分で差し引く繰越損失額」に記載がある場合、〔1〕欄から〔6〕欄までの計+〔10〕欄+〔11〕欄の金額から、〔62〕欄の金額を差し引いた金額を"
+    },
+    {
+     "needle": "〔62〕欄の金額を差し引いた金額を〔12〕欄に記入します。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "し引く繰越損失額」に記載がある場合、〔1〕欄から〔6〕欄までの計+〔10〕欄+〔11〕欄の金額から、〔62〕欄の金額を差し引いた金額を〔12〕欄に記入します。このページの先頭へ税の情報・手続・用紙税について調べる所得税(確定申告書等作成コーナー)タックスアン"
+    }
+   ],
+   "izon": {
+    "n": 16,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/",
+     "/taxes/shiraberu/shinkoku/tebiki/2025/img/izon/"
+    ],
+    "file_vs_alt_mismatch": []
+   }
+  },
+  {
+   "key": "t3-3_10",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_10.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_10.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "content_type": "text/html",
+   "bytes": 10404,
+   "sha256": "29971a01041a3bbc5fca9d81805c0e4aba926a44dd29a0ffb9377fb946d19dcd",
+   "saved": "t3-3_10.htm",
+   "prev_sha256": "29971a01041a3bbc5fca9d81805c0e4aba926a44dd29a0ffb9377fb946d19dcd",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "社会保険料等の金額",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "除の対象となります。申告書の書き方〔13〕欄...支払保険料等の合計額を記入します。※源泉徴収票の「社会保険料等の金額」欄に内書きで小規模企業共済等掛金の額が記載されている場合は、内書きの金額を除いた金額が支払保険料等"
+    },
+    {
+     "needle": "小規模企業共済等掛金",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "方〔13〕欄...支払保険料等の合計額を記入します。※源泉徴収票の「社会保険料等の金額」欄に内書きで小規模企業共済等掛金の額が記載されている場合は、内書きの金額を除いた金額が支払保険料等の金額です。内書きの金額は、小規模"
+    },
+    {
+     "needle": "源泉徴収分",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "す。※源泉徴収票の「社会保険料等の金額」欄に記載された金額を記入する場合は、「保険料等の種類」欄に「源泉徴収分」と記入します。このページの先頭へ税の情報・手続・用紙税について調べる所得税(確定申告書等作成コーナ"
+    },
+    {
+     "needle": "うち年末調整等以外",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "料等の種類」欄には、社会保険の種類を、「支払保険料等の計」欄には、種類ごとの支払保険料等の金額を、「うち年末調整等以外」欄には、「支払保険料等の計」欄に記入した金額のうち、給与所得や公的年金等の源泉徴収票に記載されてい"
+    }
+   ],
+   "izon": {
+    "n": 4,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/"
+    ],
+    "file_vs_alt_mismatch": [
+     [
+      "13",
+      "10"
+     ]
+    ]
+   }
+  },
+  {
+   "key": "t3-3_11",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_11.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_11.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "content_type": "text/html",
+   "bytes": 10042,
+   "sha256": "9c0666fabf3248dc6524463766feb7e2187d883a6262585f1ea1d610ee40e07c",
+   "saved": "t3-3_11.htm",
+   "prev_sha256": "9c0666fabf3248dc6524463766feb7e2187d883a6262585f1ea1d610ee40e07c",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "源泉徴収分",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "ます。※給与所得者が、既に年末調整でこの控除を受けた金額を記入する場合は、「保険料等の種類」の欄に「源泉徴収分」と記入します。このページの先頭へ税の情報・手続・用紙税について調べる所得税(確定申告書等作成コーナ"
+    }
+   ],
+   "izon": {
+    "n": 4,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/"
+    ],
+    "file_vs_alt_mismatch": [
+     [
+      "14",
+      "11"
+     ]
+    ]
+   }
+  },
+  {
+   "key": "t3-3_12",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_12.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_12.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "content_type": "text/html",
+   "bytes": 27050,
+   "sha256": "e7347b85a2a141529e8cdda2cb5926c69a5558933eab259fa08ca11e836876b5",
+   "saved": "t3-3_12.htm",
+   "prev_sha256": "e7347b85a2a141529e8cdda2cb5926c69a5558933eab259fa08ca11e836876b5",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "源泉徴収分",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "ます。※給与所得者が、既に年末調整でこの控除を受けた金額を記入する場合は、「支払保険料等の計」欄に「源泉徴収分」と記入します。設例〔1〕支払った新生命保険料E:204,000円E204,000円×0.25+20"
+    }
+   ],
+   "izon": {
+    "n": 8,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/"
+    ],
+    "file_vs_alt_mismatch": [
+     [
+      "15",
+      "12"
+     ]
+    ]
+   }
+  },
+  {
+   "key": "t3-3_13",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_13.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_13.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "content_type": "text/html",
+   "bytes": 15879,
+   "sha256": "3a8904729a63b8e9bf8e88915098156bb34360a83ea56e34ae2613de9446673a",
+   "saved": "t3-3_13.htm",
+   "prev_sha256": "3a8904729a63b8e9bf8e88915098156bb34360a83ea56e34ae2613de9446673a",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "地震保険料",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "3所得から差し引かれる金額(所得控除)を計算する手順3所得から差し引かれる金額(所得控除)を計算する地震保険料控除第一表〔16〕第二表〔16〕控除の概要損害保険契約等について、あなたが支払った地震等損害部分の保"
+    }
+   ],
+   "izon": {
+    "n": 4,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/"
+    ],
+    "file_vs_alt_mismatch": [
+     [
+      "16",
+      "13"
+     ]
+    ]
+   }
+  },
+  {
+   "key": "t3-3_14",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_14.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_14.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "content_type": "text/html",
+   "bytes": 13286,
+   "sha256": "e904410c1cee90c9c3c987cbdca7a172e8d4c72850cae2a45ef4eac6334042b9",
+   "saved": "t3-3_14.htm",
+   "prev_sha256": "e904410c1cee90c9c3c987cbdca7a172e8d4c72850cae2a45ef4eac6334042b9",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "ひとり親控除",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "から差し引かれる金額(所得控除)を計算する手順3所得から差し引かれる金額(所得控除)を計算する寡婦・ひとり親控除第一表〔17〕~〔18〕第二表〔17〕~〔20〕控除の概要あなたが寡婦又はひとり親である場合の控除控"
+    }
+   ],
+   "izon": {
+    "n": 18,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/"
+    ],
+    "file_vs_alt_mismatch": [
+     [
+      "17",
+      "14"
+     ],
+     [
+      "20",
+      "19"
+     ]
+    ]
+   }
+  },
+  {
+   "key": "t3-3_15_2",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_15_2.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_15_2.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "content_type": "text/html",
+   "bytes": 14918,
+   "sha256": "5b58020b5237a204a4b845ecff78c6bda69e1f15d1dc9f96e296e667d44ef6f7",
+   "saved": "t3-3_15_2.htm",
+   "prev_sha256": "5b58020b5237a204a4b845ecff78c6bda69e1f15d1dc9f96e296e667d44ef6f7",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "勤労学生控除",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "障害者40万円同居特別障害者-75万円申告書の書き方〔19〕~〔20〕欄...控除額を記入します。※勤労学生控除額もある方は、合計額を記入します。●国外居住親族の同一生計配偶者がいる場合「親族関係書類」及び「送金"
+    }
+   ],
+   "izon": {
+    "n": 12,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/"
+    ],
+    "file_vs_alt_mismatch": [
+     [
+      "3",
+      "特障"
+     ],
+     [
+      "3",
+      "障"
+     ]
+    ]
+   }
+  },
+  {
+   "key": "t3-3_17",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_17.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_17.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "content_type": "text/html",
+   "bytes": 16770,
+   "sha256": "eb32a317321af7c54c1e4e2b2843210bad87c7af8b8d41e474dc83e0f5efbd9a",
+   "saved": "t3-3_17.htm",
+   "prev_sha256": "eb32a317321af7c54c1e4e2b2843210bad87c7af8b8d41e474dc83e0f5efbd9a",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "区分１",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "受けられません。申告書の書き方●「配偶者控除」の場合〔21〕~〔22〕欄...控除額を記入します。「区分1」の□は記入しません。●国外居住親族の配偶者がいる場合「親族関係書類」及び「送金関係書類」の両方を給"
+    },
+    {
+     "needle": "国外居住親族",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "●「配偶者控除」の場合〔21〕~〔22〕欄...控除額を記入します。「区分1」の□は記入しません。●国外居住親族の配偶者がいる場合「親族関係書類」及び「送金関係書類」の両方を給与等の支払者に提出・提示している場合"
+    }
+   ],
+   "izon": {
+    "n": 11,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/",
+     "/taxes/shiraberu/shinkoku/tebiki/2025/img/izon/"
+    ],
+    "file_vs_alt_mismatch": []
+   }
+  },
+  {
+   "key": "t3-3_21",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_21.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_21.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "content_type": "text/html",
+   "bytes": 9098,
+   "sha256": "1460dc8a95889697b03f904aa7c6f4c3d20f1d49c3fcd9c61ed3ab7af2abd56e",
+   "saved": "t3-3_21.htm",
+   "prev_sha256": "1460dc8a95889697b03f904aa7c6f4c3d20f1d49c3fcd9c61ed3ab7af2abd56e",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "基礎控除",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "3所得から差し引かれる金額(所得控除)を計算する手順3所得から差し引かれる金額(所得控除)を計算する基礎控除第一表〔25〕控除の概要あなたの合計所得金額が2,500万円以下の場合に適用される控除控除される金額"
+    }
+   ],
+   "izon": {
+    "n": 1,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/"
+    ],
+    "file_vs_alt_mismatch": []
+   }
+  },
+  {
+   "key": "t3-3_22",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_22.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_22.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "content_type": "text/html",
+   "bytes": 8411,
+   "sha256": "ed748e6df9b37a1be57536176ca2b45aec4f3c2bf5e44ce542d52fa987ee9864",
+   "saved": "t3-3_22.htm",
+   "prev_sha256": "ed748e6df9b37a1be57536176ca2b45aec4f3c2bf5e44ce542d52fa987ee9864",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "〔13〕欄から〔25〕欄までを合計",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "から差し引かれる金額(所得控除)を計算する〔13〕から〔25〕までの計第一表〔26〕〔26〕欄・・・〔13〕欄から〔25〕欄までを合計し、記入します。このページの先頭へ税の情報・手続・用紙税について調べる所得税(確定申告書等作成コーナ"
+    }
+   ],
+   "izon": {
+    "n": 6,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/"
+    ],
+    "file_vs_alt_mismatch": []
+   }
+  },
+  {
+   "key": "t3-3_23",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_23.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_23.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "content_type": "text/html",
+   "bytes": 16677,
+   "sha256": "d5a7860eceb4224aba91e34f43997e7abafed783c744a2195ac3b032913f19e3",
+   "saved": "t3-3_23.htm",
+   "prev_sha256": "d5a7860eceb4224aba91e34f43997e7abafed783c744a2195ac3b032913f19e3",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "雑損控除",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "3所得から差し引かれる金額(所得控除)を計算する手順3所得から差し引かれる金額(所得控除)を計算する雑損控除第一表〔27〕第二表〔27〕控除の概要次のいずれかに該当する場合の控除●あなたや、総所得金額等が58"
+    }
+   ],
+   "izon": {
+    "n": 7,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/",
+     "/taxes/shiraberu/shinkoku/tebiki/2025/img/izon/"
+    ],
+    "file_vs_alt_mismatch": []
+   }
+  },
+  {
+   "key": "t3-3_25",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_25.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_25.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "content_type": "text/html",
+   "bytes": 18776,
+   "sha256": "1261f5879657726e7fb2c530c2014f0d1d65f7434a1d4499523432694a70296e",
+   "saved": "t3-3_25.htm",
+   "prev_sha256": "1261f5879657726e7fb2c530c2014f0d1d65f7434a1d4499523432694a70296e",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "条例",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "〔4〕住所地の都道府県共同募金会(社会福祉法人)20,000円〔5〕社会福祉法人(住所地の都道府県が条例で指定)55,000円〔6〕認定NPO法人△△(住所地の都道府県・市区町村ともに条例で指定)15,0"
+    },
+    {
+     "needle": "共同募金",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "□市(ふるさと納税)40,000円〔3〕住所地の日本赤十字社支部90,000円〔4〕住所地の都道府県共同募金会(社会福祉法人)20,000円〔5〕社会福祉法人(住所地の都道府県が条例で指定)55,000円〔6"
+    }
+   ],
+   "izon": {
+    "n": 23,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/",
+     "/taxes/shiraberu/shinkoku/tebiki/2025/img/izon/"
+    ],
+    "file_vs_alt_mismatch": []
+   }
+  },
+  {
+   "key": "t3-3_26",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_26.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_26.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "content_type": "text/html",
+   "bytes": 8280,
+   "sha256": "36b275032757af0b6187f4431a81113082ba02bc49b148e1fd2e79ef3ebd43be",
+   "saved": "t3-3_26.htm",
+   "prev_sha256": "36b275032757af0b6187f4431a81113082ba02bc49b148e1fd2e79ef3ebd43be",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "〔26〕欄から〔29〕欄までを合計",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "かれる金額(所得控除)を計算する合計(所得から差し引かれる金額の合計)第一表〔30〕〔30〕欄...〔26〕欄から〔29〕欄までを合計し、記入します。このページの先頭へ税の情報・手続・用紙税について調べる所得税(確定申告書等作成コーナ"
+    }
+   ],
+   "izon": {
+    "n": 4,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/",
+     "/taxes/shiraberu/shinkoku/tebiki/2025/img/izon/"
+    ],
+    "file_vs_alt_mismatch": []
+   }
+  },
+  {
+   "key": "t3-3_y02",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y02.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y02.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+   "content_type": "text/html",
+   "bytes": 8706,
+   "sha256": "b8be86bf9c5270ab1b154f9dc2b02070be165097df75bfa66f2a2c3c4c81b551",
+   "saved": "t3-3_y02.htm",
+   "prev_sha256": "b8be86bf9c5270ab1b154f9dc2b02070be165097df75bfa66f2a2c3c4c81b551",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+   "same_sha_as_prev": true,
+   "checks": [],
+   "izon": {
+    "n": 4,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2023/img/izon/"
+    ],
+    "file_vs_alt_mismatch": []
+   }
+  },
+  {
+   "key": "t3-4_28",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_28.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_28.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "content_type": "text/html",
+   "bytes": 12269,
+   "sha256": "3dde9ff4b042318409239b1c7e71c45df26611c7c24ed97a62bee7a38be9036a",
+   "saved": "t3-4_28.htm",
+   "prev_sha256": "3dde9ff4b042318409239b1c7e71c45df26611c7c24ed97a62bee7a38be9036a",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "配当控除",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "・用紙税について調べる所得税(確定申告書等作成コーナー)手順4税金の計算をする手順4税金の計算をする配当控除第一表〔33〕控除の概要次の配当等に係る配当所得がある場合の控除●内国法人から支払を受ける配当●特定"
+    }
+   ],
+   "izon": {
+    "n": 4,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/"
+    ],
+    "file_vs_alt_mismatch": []
+   }
+  },
+  {
+   "key": "t3-4_29",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_29.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_29.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "content_type": "text/html",
+   "bytes": 8775,
+   "sha256": "9757b9c56fd2acd4ed74af71f20c1d2fee2353c41c8c94216757960f53cb5a80",
+   "saved": "t3-4_29.htm",
+   "prev_sha256": "9757b9c56fd2acd4ed74af71f20c1d2fee2353c41c8c94216757960f53cb5a80",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "中小企業者が機械等を取得した場合",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "の計算をする手順4税金の計算をする「〔34〕」(区分)第一表〔34〕〔34〕欄...事業を営む方が、中小企業者が機械等を取得した場合の所得税額の特別控除など、事業所得等の特例に係る税額控除の適用を受ける場合には、左側空欄に「投資税額"
+    }
+   ],
+   "izon": {
+    "n": 3,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2023/img/izon/"
+    ],
+    "file_vs_alt_mismatch": []
+   }
+  },
+  {
+   "key": "t3-4_30",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_30.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_30.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "content_type": "text/html",
+   "bytes": 15550,
+   "sha256": "80a75ce5b36c4e88b04a72b7f9e87a043d86ae48843319c501a12e7832f39ec9",
+   "saved": "t3-4_30.htm",
+   "prev_sha256": "80a75ce5b36c4e88b04a72b7f9e87a043d86ae48843319c501a12e7832f39ec9",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "住宅借入金等特別控除額の計算明細書",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "る方へ(住宅の増改築用)(PDF/5,289KB)」申告書の書き方〔35〕欄...「(特定増改築等)住宅借入金等特別控除額の計算明細書」で計算した金額を転記します。※「区分1」の□は、東日本大震災の被災者の方が、住宅の再取得等に係る住"
+    },
+    {
+     "needle": "居住開始年月日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "場合はその額)を〔35〕欄に転記し、「区分2」の□に「1」を記入します。●「特例適用条文等」欄...居住開始年月日等を記入します。以下の場合は、居住開始年月日の頭部に次のように記入します。以下の場合は、居住開始年月"
+    }
+   ],
+   "izon": {
+    "n": 12,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/"
+    ],
+    "file_vs_alt_mismatch": [
+     [
+      "3",
+      ""
+     ]
+    ]
+   }
+  },
+  {
+   "key": "t3-4_31",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_31.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_31.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "content_type": "text/html",
+   "bytes": 9939,
+   "sha256": "aa9fffe0ad22e299d553fcc544e290462e50733a08fb3ea308c5b60d2fa8495d",
+   "saved": "t3-4_31.htm",
+   "prev_sha256": "aa9fffe0ad22e299d553fcc544e290462e50733a08fb3ea308c5b60d2fa8495d",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "政党等寄附金",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "・用紙税について調べる所得税(確定申告書等作成コーナー)手順4税金の計算をする手順4税金の計算をする政党等寄附金等特別控除第一表〔36〕~〔38〕控除の概要●政党等寄附金特別控除あなたが行った特定の政治献金のうち"
+    }
+   ],
+   "izon": {
+    "n": 2,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/"
+    ],
+    "file_vs_alt_mismatch": []
+   }
+  },
+  {
+   "key": "t3-4_32",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_32.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_32.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "content_type": "text/html",
+   "bytes": 10881,
+   "sha256": "ea01823ab18327c3a3dd87785db2186d51e91c1056b642db85dcee42d2149514",
+   "saved": "t3-4_32.htm",
+   "prev_sha256": "ea01823ab18327c3a3dd87785db2186d51e91c1056b642db85dcee42d2149514",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "住宅耐震改修",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "・用紙税について調べる所得税(確定申告書等作成コーナー)手順4税金の計算をする手順4税金の計算をする住宅耐震改修特別控除等第一表〔39〕~〔41〕控除の概要●住宅耐震改修特別控除家屋の耐震改修をした場合で一定の要"
+    },
+    {
+     "needle": "住宅特定改修",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "耐震改修特別控除家屋の耐震改修をした場合で一定の要件を満たすときの控除参照:「住宅耐震改修特別控除・住宅特定改修特別税額控除を受けられる方へ(PDF/1,039KB)」●住宅特定改修特別税額控除家屋のバリアフリー"
+    },
+    {
+     "needle": "認定住宅等新築等",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "参照:「住宅耐震改修特別控除・住宅特定改修特別税額控除を受けられる方へ(PDF/1,039KB)」●認定住宅等新築等特別税額控除認定住宅等の新築や新築の認定住宅の購入をした場合で一定の要件を満たすときの控除参照:「認"
+    }
+   ],
+   "izon": {
+    "n": 4,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/"
+    ],
+    "file_vs_alt_mismatch": []
+   }
+  },
+  {
+   "key": "t3-4_36",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_36.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_36.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "content_type": "text/html",
+   "bytes": 8850,
+   "sha256": "bf0771e9d5945ce04db52dae3f4a03e66b2a06348fb1654e9822eee197e0a9cf",
+   "saved": "t3-4_36.htm",
+   "prev_sha256": "bf0771e9d5945ce04db52dae3f4a03e66b2a06348fb1654e9822eee197e0a9cf",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "「0」",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "34〕欄、〔35〕欄、〔36〕~〔38〕欄、〔39〕~〔41〕欄の金額を差し引いた金額(赤字の場合は「0」)を記入します。このページの先頭へ税の情報・手続・用紙税について調べる所得税(確定申告書等作成コーナ"
+    }
+   ],
+   "izon": {
+    "n": 10,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2023/img/izon/",
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/"
+    ],
+    "file_vs_alt_mismatch": []
+   }
+  },
+  {
+   "key": "t3-4_37",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_37.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_37.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "content_type": "text/html",
+   "bytes": 9538,
+   "sha256": "733c95825b79c85e22f3bea56ed85056809b044241d01550e7a270f3486e9c68",
+   "saved": "t3-4_37.htm",
+   "prev_sha256": "733c95825b79c85e22f3bea56ed85056809b044241d01550e7a270f3486e9c68",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "災害減免",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "・用紙税について調べる所得税(確定申告書等作成コーナー)手順4税金の計算をする手順4税金の計算をする災害減免額第一表〔43〕概要所得金額の合計額(※)が1,000万円以下の方が、災害により住宅や家財について損"
+    }
+   ],
+   "izon": {
+    "n": 2,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/"
+    ],
+    "file_vs_alt_mismatch": []
+   }
+  },
+  {
+   "key": "t3-4_40",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_40.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_40.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "content_type": "text/html",
+   "bytes": 8684,
+   "sha256": "b603317b9d27707f92847cfafaecbea435efa5f9e18e16faed20e7a1c5f3abf7",
+   "saved": "t3-4_40.htm",
+   "prev_sha256": "b603317b9d27707f92847cfafaecbea435efa5f9e18e16faed20e7a1c5f3abf7",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "予定納税額",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "・用紙税について調べる所得税(確定申告書等作成コーナー)手順4税金の計算をする手順4税金の計算をする予定納税額(第1期分・第2期分)第一表〔51〕〔51〕欄...予定納税額がある方は、通知書に記載された予定納税"
+    }
+   ],
+   "izon": {
+    "n": 2,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/"
+    ],
+    "file_vs_alt_mismatch": []
+   }
+  },
+  {
+   "key": "t3-4_40_1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_40_1.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_40_1.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "content_type": "text/html",
+   "bytes": 7985,
+   "sha256": "adaa1e80e00dfb84868cf3b34bee520b8d4a595cea51fe92e0deab97f45cfcca",
+   "saved": "t3-4_40_1.htm",
+   "prev_sha256": "adaa1e80e00dfb84868cf3b34bee520b8d4a595cea51fe92e0deab97f45cfcca",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "same_sha_as_prev": true,
+   "checks": [],
+   "izon": {
+    "n": 4,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2023/img/izon/"
+    ],
+    "file_vs_alt_mismatch": []
+   }
+  },
+  {
+   "key": "t3-4_41_1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_41_1.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_41_1.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "content_type": "text/html",
+   "bytes": 7987,
+   "sha256": "734c709937d6c9b80d63fe8e469e79f5af285c3d011255247c073743ce0634f8",
+   "saved": "t3-4_41_1.htm",
+   "prev_sha256": "734c709937d6c9b80d63fe8e469e79f5af285c3d011255247c073743ce0634f8",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "same_sha_as_prev": true,
+   "checks": [],
+   "izon": {
+    "n": 4,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/"
+    ],
+    "file_vs_alt_mismatch": []
+   }
+  },
+  {
+   "key": "t3-4_42",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_42.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_42.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "content_type": "text/html",
+   "bytes": 8329,
+   "sha256": "5f046ae8ae88b94f97aea5d39a3ab56a4720096254f57fec45e150ebd2ffdef5",
+   "saved": "t3-4_42.htm",
+   "prev_sha256": "5f046ae8ae88b94f97aea5d39a3ab56a4720096254f57fec45e150ebd2ffdef5",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "修正申告",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "・用紙税について調べる所得税(確定申告書等作成コーナー)手順4税金の計算をする手順4税金の計算をする修正申告第一表5455「修正前の第3期分の税額54」欄及び「第3期分の税額の増加額55」欄は、修正申告(法定"
+    }
+   ]
+  },
+  {
+   "key": "t3-4_42_1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_42_1.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_42_1.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "content_type": "text/html",
+   "bytes": 9644,
+   "sha256": "a30e2bb27749b5f60d47024a1df95932b1918aac2b7ebfabb268f1451d628102",
+   "saved": "t3-4_42_1.htm",
+   "prev_sha256": "a30e2bb27749b5f60d47024a1df95932b1918aac2b7ebfabb268f1451d628102",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "外国税額控除",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "・用紙税について調べる所得税(確定申告書等作成コーナー)手順4税金の計算をする手順4税金の計算をする外国税額控除等第一表〔47〕~〔48〕控除の概要●外国税額控除令和7年中に納付した外国所得税がある場合などの控除"
+    }
+   ],
+   "izon": {
+    "n": 4,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/"
+    ],
+    "file_vs_alt_mismatch": []
+   }
+  },
+  {
+   "key": "t3-5_01",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order5/3-5_01.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order5/3-5_01.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "content_type": "text/html",
+   "bytes": 13871,
+   "sha256": "73d9616d93a901d10204c09ca8de45029b037167c4acdd640b9e830fe7386eb0",
+   "saved": "t3-5_01.htm",
+   "prev_sha256": "73d9616d93a901d10204c09ca8de45029b037167c4acdd640b9e830fe7386eb0",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "前年分から繰り越された損失額を総所得金額等から差し引く場合で、翌年以後に繰り越す損失額がないときに、その差し引く繰越損失額を記入します。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "納付届出書」を提出して還付を受けてください。本年分で差し引く繰越損失額第一表〔62〕〔62〕欄...前年分から繰り越された損失額を総所得金額等から差し引く場合で、翌年以後に繰り越す損失額がないときに、その差し引く繰越損失額を記入します。※第四表(損失申告用)を使用する方は、この欄は記入しません。※株式等の譲渡所得等、申告分離課税の上場"
+    },
+    {
+     "needle": "第四表（損失申告用）を使用する方は、この欄は記入しません。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "額等から差し引く場合で、翌年以後に繰り越す損失額がないときに、その差し引く繰越損失額を記入します。※第四表(損失申告用)を使用する方は、この欄は記入しません。※株式等の譲渡所得等、申告分離課税の上場株式等の配当所得等及び先物取引の雑所得等から差し引く繰越損失"
+    },
+    {
+     "needle": "株式等の譲渡所得等、申告分離課税の上場株式等の配当所得等及び先物取引の雑所得等から差し引く繰越損失額は、この繰越損失額には含めません。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "、その差し引く繰越損失額を記入します。※第四表(損失申告用)を使用する方は、この欄は記入しません。※株式等の譲渡所得等、申告分離課税の上場株式等の配当所得等及び先物取引の雑所得等から差し引く繰越損失額は、この繰越損失額には含めません。平均課税対象金額/変動・臨時所得金額第一表〔63〕〔64〕〔63〕欄、〔64〕欄...変動所得や臨時"
+    },
+    {
+     "needle": "公的年金等に係る雑所得以外の合計所得金額",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "手順5その他手順5その他公的年金等以外の合計所得金額第一表〔56〕〔56〕欄...こちらで計算した「公的年金等に係る雑所得以外の合計所得金額」を記入します。※公的年金等の収入がない方は、記入する必要はありません。配偶者の合計所得金額第一表〔"
+    },
+    {
+     "needle": "未納付の源泉徴収税額",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "。※株式等の譲渡所得等を併せて申告する場合は、それらの所得に係る所得税等の源泉徴収税額も合計します。未納付の源泉徴収税額第一表〔61〕〔61〕欄...「申告納税額〔50〕」欄が赤字となる場合で、給与等の支払者において未払"
+    }
+   ],
+   "izon": {
+    "n": 20,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/",
+     "/taxes/shiraberu/shinkoku/tebiki/2025/img/izon/"
+    ],
+    "file_vs_alt_mismatch": [
+     [
+      "56",
+      "丸56"
+     ],
+     [
+      "57",
+      "丸57"
+     ],
+     [
+      "58",
+      "丸58"
+     ],
+     [
+      "60",
+      "丸60"
+     ],
+     [
+      "61",
+      "丸61"
+     ],
+     [
+      "62",
+      "丸62"
+     ]
+    ]
+   }
+  },
+  {
+   "key": "t3-5_02",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order5/3-5_02.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order5/3-5_02.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "content_type": "text/html",
+   "bytes": 10185,
+   "sha256": "edd851e34bf54eb2c79c40a0515d39ecafbe4f463ba464770ff374490f1b08c9",
+   "saved": "t3-5_02.htm",
+   "prev_sha256": "edd851e34bf54eb2c79c40a0515d39ecafbe4f463ba464770ff374490f1b08c9",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "延納",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "手順5延納の届出|国税庁ホーム税の情報・手続・用紙税について調べる所得税(確定申告書等作成コーナー)手順5延納"
+    }
+   ],
+   "izon": {
+    "n": 6,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/"
+    ],
+    "file_vs_alt_mismatch": []
+   }
+  },
+  {
+   "key": "t3-6_03",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order6/3-6_03.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order6/3-6_03.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "content_type": "text/html",
+   "bytes": 14245,
+   "sha256": "6df420f50e1397c1dddba3cb8eb0bc95677623d3110ceba907abdbe3f5bd7e9f",
+   "saved": "t3-6_03.htm",
+   "prev_sha256": "6df420f50e1397c1dddba3cb8eb0bc95677623d3110ceba907abdbe3f5bd7e9f",
+   "prev_last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "same_sha_as_prev": true,
+   "checks": [
+    {
+     "needle": "事業税",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "手順6住民税、事業税に関する事項(申告書第二表)を記入する|国税庁ホーム税の情報・手続・用紙税について調べる所得税(確定"
+    }
+   ],
+   "izon": {
+    "n": 9,
+    "dirs": [
+     "/taxes/shiraberu/shinkoku/tebiki/2024/img/izon/"
+    ],
+    "file_vs_alt_mismatch": []
+   }
+  },
+  {
+   "key": "r07_01",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/01.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/01.pdf",
+   "status": 200,
+   "last_modified": "Mon, 31 Aug 2026 05:00:05 GMT",
+   "content_type": "application/pdf",
+   "bytes": 2173072,
+   "sha256": "833e641919fbc1eb22605a1989c6514eabb742334528d04dd90736ae90afce46",
+   "saved": "r07_01.pdf",
+   "prev_sha256": "833e641919fbc1eb22605a1989c6514eabb742334528d04dd90736ae90afce46",
+   "prev_last_modified": "Mon, 31 Aug 2026 05:00:05 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "r07_02",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/02.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/02.pdf",
+   "status": 200,
+   "last_modified": "Mon, 31 Aug 2026 05:00:05 GMT",
+   "content_type": "application/pdf",
+   "bytes": 913314,
+   "sha256": "1d30dbc3e8823a321fc1ceb83eb0c1d3b9f585f7357168a6c7570d02fd482396",
+   "saved": "r07_02.pdf",
+   "prev_sha256": "1d30dbc3e8823a321fc1ceb83eb0c1d3b9f585f7357168a6c7570d02fd482396",
+   "prev_last_modified": "Mon, 31 Aug 2026 05:00:05 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "r07_03",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/03.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/03.pdf",
+   "status": 200,
+   "last_modified": "Mon, 31 Aug 2026 05:00:05 GMT",
+   "content_type": "application/pdf",
+   "bytes": 1507791,
+   "sha256": "10dfa7825ae19b642eb90edc9a7e2782e26be1fd71a39743d846a4dab52bab28",
+   "saved": "r07_03.pdf",
+   "prev_sha256": "10dfa7825ae19b642eb90edc9a7e2782e26be1fd71a39743d846a4dab52bab28",
+   "prev_last_modified": "Mon, 31 Aug 2026 05:00:05 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "r07_05",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/05.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/05.pdf",
+   "status": 200,
+   "last_modified": "Mon, 31 Aug 2026 05:00:05 GMT",
+   "content_type": "application/pdf",
+   "bytes": 22101,
+   "sha256": "686ecbd849ebe07b11a90d10421561669188e1cfd48b18962bf1be06965a0f24",
+   "saved": "r07_05.pdf",
+   "prev_sha256": "686ecbd849ebe07b11a90d10421561669188e1cfd48b18962bf1be06965a0f24",
+   "prev_last_modified": "Mon, 31 Aug 2026 05:00:05 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "r07_09",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/09.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/09.pdf",
+   "status": 200,
+   "last_modified": "Mon, 31 Aug 2026 05:00:04 GMT",
+   "content_type": "application/pdf",
+   "bytes": 20330,
+   "sha256": "64f619f6a802bc3b1d21222b3e0fff7adb02ee41e7672f661d568a1a58f66ab7",
+   "saved": "r07_09.pdf",
+   "prev_sha256": "64f619f6a802bc3b1d21222b3e0fff7adb02ee41e7672f661d568a1a58f66ab7",
+   "prev_last_modified": "Mon, 31 Aug 2026 05:00:04 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "r07_10",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/10.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/10.pdf",
+   "status": 200,
+   "last_modified": "Mon, 31 Aug 2026 05:00:04 GMT",
+   "content_type": "application/pdf",
+   "bytes": 36392,
+   "sha256": "c3cd9d17c0174972a19c5b8174ad01ac685f4ed2dda9d3e903e6fd315bf5f4c3",
+   "saved": "r07_10.pdf",
+   "prev_sha256": "c3cd9d17c0174972a19c5b8174ad01ac685f4ed2dda9d3e903e6fd315bf5f4c3",
+   "prev_last_modified": "Mon, 31 Aug 2026 05:00:04 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "r07_12",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/12.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/12.pdf",
+   "status": 200,
+   "last_modified": "Mon, 31 Aug 2026 05:00:04 GMT",
+   "content_type": "application/pdf",
+   "bytes": 26865,
+   "sha256": "ade5f59b33e687fb1c486ab1c47da31e99fbd77cda10fd496c8bcc8d1a2fc533",
+   "saved": "r07_12.pdf",
+   "prev_sha256": "ade5f59b33e687fb1c486ab1c47da31e99fbd77cda10fd496c8bcc8d1a2fc533",
+   "prev_last_modified": "Mon, 31 Aug 2026 05:00:04 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "r07_13",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/13.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/13.pdf",
+   "status": 200,
+   "last_modified": "Mon, 31 Aug 2026 05:00:04 GMT",
+   "content_type": "application/pdf",
+   "bytes": 18264,
+   "sha256": "184a71c5efda112d54fccc59837400808e3c84440f49a11559f23e519dceefad",
+   "saved": "r07_13.pdf",
+   "prev_sha256": "184a71c5efda112d54fccc59837400808e3c84440f49a11559f23e519dceefad",
+   "prev_last_modified": "Mon, 31 Aug 2026 05:00:04 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "ref1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/04/pdf/ref1.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/04/pdf/ref1.pdf",
+   "status": 200,
+   "last_modified": "Tue, 30 Jun 2026 08:31:47 GMT",
+   "content_type": "application/pdf",
+   "bytes": 795776,
+   "sha256": "7c602c74703668f06e37b5efe40bf924da885cc8387c7fc3c1dd7e5c8fcb23ea",
+   "saved": "ref1.pdf",
+   "prev_sha256": "7c602c74703668f06e37b5efe40bf924da885cc8387c7fc3c1dd7e5c8fcb23ea",
+   "prev_last_modified": "Tue, 30 Jun 2026 08:31:47 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "ref3",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/03/pdf/ref3.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/03/pdf/ref3.pdf",
+   "status": 200,
+   "last_modified": "Tue, 30 Jun 2026 08:31:47 GMT",
+   "content_type": "application/pdf",
+   "bytes": 710704,
+   "sha256": "6f39bf8118395215a31bb79aa22995b836e8a4fbe92252eb0c4639009d21c826",
+   "saved": "ref3.pdf",
+   "prev_sha256": "6f39bf8118395215a31bb79aa22995b836e8a4fbe92252eb0c4639009d21c826",
+   "prev_last_modified": "Tue, 30 Jun 2026 08:31:47 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "s017",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/017.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/017.pdf",
+   "status": 200,
+   "last_modified": "Tue, 30 Jun 2026 08:31:54 GMT",
+   "content_type": "application/pdf",
+   "bytes": 560128,
+   "sha256": "1e61c20b72c21ee86820be392e8be29226f63d7d9dd891082497f62ca473cb22",
+   "saved": "s017.pdf",
+   "prev_sha256": "1e61c20b72c21ee86820be392e8be29226f63d7d9dd891082497f62ca473cb22",
+   "prev_last_modified": "Tue, 30 Jun 2026 08:31:54 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "ref4",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/03/pdf/ref4.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/03/pdf/ref4.pdf",
+   "status": 200,
+   "last_modified": "Tue, 30 Jun 2026 08:31:47 GMT",
+   "content_type": "application/pdf",
+   "bytes": 433872,
+   "sha256": "9621c80f62e019cfca9b8f7e88f629c209bf23d88c750b268ed210947d7cfc21",
+   "saved": "ref4.pdf",
+   "prev_sha256": "9621c80f62e019cfca9b8f7e88f629c209bf23d88c750b268ed210947d7cfc21",
+   "prev_last_modified": "Tue, 30 Jun 2026 08:31:47 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "kinyu_001-1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/001-1.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/001-1.pdf",
+   "status": 200,
+   "last_modified": "Tue, 20 Oct 2026 08:30:03 GMT",
+   "content_type": "application/pdf",
+   "bytes": 147974,
+   "sha256": "15f1874c67264a5b8d87ed8800f37e9f527e96a46ec6fda5239f00f82a503a99",
+   "saved": "kinyu_001-1.pdf",
+   "prev_sha256": "15f1874c67264a5b8d87ed8800f37e9f527e96a46ec6fda5239f00f82a503a99",
+   "prev_last_modified": "Tue, 20 Oct 2026 08:30:03 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "kinyu_O1-1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/O/O1-1.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/O/O1-1.pdf",
+   "status": 200,
+   "last_modified": "Thu, 24 Sep 2026 05:00:07 GMT",
+   "content_type": "application/pdf",
+   "bytes": 254367,
+   "sha256": "10f878d9502ff67d943330b75fa0c0b604c277d12149093dd222155c17a32b35",
+   "saved": "kinyu_O1-1.pdf",
+   "prev_sha256": "10f878d9502ff67d943330b75fa0c0b604c277d12149093dd222155c17a32b35",
+   "prev_last_modified": "Thu, 24 Sep 2026 05:00:07 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "tebiki_003",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/003.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/003.pdf",
+   "status": 200,
+   "last_modified": "Fri, 12 Dec 2025 08:30:42 GMT",
+   "content_type": "application/pdf",
+   "bytes": 1485553,
+   "sha256": "e3a89abd687f659d190e7ae2da9e4554b5b9f52158903345b699c852717c1226",
+   "saved": "tebiki_003.pdf",
+   "prev_sha256": "e3a89abd687f659d190e7ae2da9e4554b5b9f52158903345b699c852717c1226",
+   "prev_last_modified": "Fri, 12 Dec 2025 08:30:42 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "t06_081",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/pdf/06/06_081.pdf",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/pdf/06/06_081.pdf",
+   "status": 200,
+   "last_modified": "Fri, 18 Sep 2026 05:00:06 GMT",
+   "content_type": "application/pdf",
+   "bytes": 1168580,
+   "sha256": "bb86136345388936bfc8330120cc4e963a193c8ea665dc3e9d4ceaaddd594b94",
+   "saved": "t06_081.pdf",
+   "prev_sha256": "bb86136345388936bfc8330120cc4e963a193c8ea665dc3e9d4ceaaddd594b94",
+   "prev_last_modified": "Fri, 18 Sep 2026 05:00:06 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "t06_082",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/pdf/06/06_082.pdf",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/pdf/06/06_082.pdf",
+   "status": 200,
+   "last_modified": "Fri, 18 Sep 2026 05:00:06 GMT",
+   "content_type": "application/pdf",
+   "bytes": 1005060,
+   "sha256": "32a6289f410db766d3ec95137fbfc88072197897f3d5562f0d31d1a2ebd233ce",
+   "saved": "t06_082.pdf",
+   "prev_sha256": "32a6289f410db766d3ec95137fbfc88072197897f3d5562f0d31d1a2ebd233ce",
+   "prev_last_modified": "Fri, 18 Sep 2026 05:00:06 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "t06_083",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/pdf/06/06_083.pdf",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/pdf/06/06_083.pdf",
+   "status": 200,
+   "last_modified": "Fri, 18 Sep 2026 05:00:06 GMT",
+   "content_type": "application/pdf",
+   "bytes": 913314,
+   "sha256": "195bf804e5f660d140d0bafe71aac6dec47a66f7163af7370f65fb6453ed3052",
+   "saved": "t06_083.pdf",
+   "prev_sha256": "195bf804e5f660d140d0bafe71aac6dec47a66f7163af7370f65fb6453ed3052",
+   "prev_last_modified": "Fri, 18 Sep 2026 05:00:06 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "t06_085",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/pdf/06/06_085.pdf",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/pdf/06/06_085.pdf",
+   "status": 200,
+   "last_modified": "Fri, 18 Sep 2026 05:00:06 GMT",
+   "content_type": "application/pdf",
+   "bytes": 647906,
+   "sha256": "488f4db016d0f5f1915eda8062c7806c1196230fdc1c41c06f53ddece0875f4e",
+   "saved": "t06_085.pdf",
+   "prev_sha256": "488f4db016d0f5f1915eda8062c7806c1196230fdc1c41c06f53ddece0875f4e",
+   "prev_last_modified": "Fri, 18 Sep 2026 05:00:06 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "t06_086",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/pdf/06/06_086.pdf",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/pdf/06/06_086.pdf",
+   "status": 200,
+   "last_modified": "Fri, 18 Sep 2026 05:00:06 GMT",
+   "content_type": "application/pdf",
+   "bytes": 860450,
+   "sha256": "91aae5fd8c76a991e6270e47df83d3dd8b803b2e74ea8f642aa5330a00d15242",
+   "saved": "t06_086.pdf",
+   "prev_sha256": "91aae5fd8c76a991e6270e47df83d3dd8b803b2e74ea8f642aa5330a00d15242",
+   "prev_last_modified": "Fri, 18 Sep 2026 05:00:06 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "t06_093",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/pdf/06/06_093.pdf",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/pdf/06/06_093.pdf",
+   "status": 200,
+   "last_modified": "Fri, 18 Sep 2026 05:00:06 GMT",
+   "content_type": "application/pdf",
+   "bytes": 22101,
+   "sha256": "b5b01d8e79d4ff628761a4c586747532dc68749475c88ddf459c4a85bcf0d7d0",
+   "saved": "t06_093.pdf",
+   "prev_sha256": "b5b01d8e79d4ff628761a4c586747532dc68749475c88ddf459c4a85bcf0d7d0",
+   "prev_last_modified": "Fri, 18 Sep 2026 05:00:06 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "t06_096",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/pdf/06/06_096.pdf",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/pdf/06/06_096.pdf",
+   "status": 200,
+   "last_modified": "Fri, 18 Sep 2026 05:00:06 GMT",
+   "content_type": "application/pdf",
+   "bytes": 36392,
+   "sha256": "ebede9cd8862efd025547eee657975b943f494100688766f92847ad294215031",
+   "saved": "t06_096.pdf",
+   "prev_sha256": "ebede9cd8862efd025547eee657975b943f494100688766f92847ad294215031",
+   "prev_last_modified": "Fri, 18 Sep 2026 05:00:06 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "t06_010-1",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/pdf/06/06_010-1.pdf",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/pdf/06/06_010-1.pdf",
+   "status": 200,
+   "last_modified": "Mon, 06 Jul 2026 01:00:18 GMT",
+   "content_type": "application/pdf",
+   "bytes": 795756,
+   "sha256": "b13247fdae1d28113a7b03f9351ac9b4413599d475fe4bf8d1d8afcfd3ebfdd1",
+   "saved": "t06_010-1.pdf",
+   "prev_sha256": "b13247fdae1d28113a7b03f9351ac9b4413599d475fe4bf8d1d8afcfd3ebfdd1",
+   "prev_last_modified": "Mon, 06 Jul 2026 01:00:18 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "t06_010-3",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/pdf/06/06_010-3.pdf",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/pdf/06/06_010-3.pdf",
+   "status": 200,
+   "last_modified": "Mon, 06 Jul 2026 01:00:18 GMT",
+   "content_type": "application/pdf",
+   "bytes": 560108,
+   "sha256": "f5de7b9432b1d072860ff19f692884e2af98b3ab0a42b65cbb6137f4ceb1df5b",
+   "saved": "t06_010-3.pdf",
+   "prev_sha256": "f5de7b9432b1d072860ff19f692884e2af98b3ab0a42b65cbb6137f4ceb1df5b",
+   "prev_last_modified": "Mon, 06 Jul 2026 01:00:18 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "k260831_02",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/260831/pdf/02.pdf",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/260831/pdf/02.pdf",
+   "status": 200,
+   "last_modified": "Fri, 18 Sep 2026 05:00:04 GMT",
+   "content_type": "application/pdf",
+   "bytes": 2956611,
+   "sha256": "5f739ced0904aca420471858debbf1a59f08e0e298cd6ba6c5089e2b01ccd4ab",
+   "saved": "k260831_02.pdf",
+   "prev_sha256": "5f739ced0904aca420471858debbf1a59f08e0e298cd6ba6c5089e2b01ccd4ab",
+   "prev_last_modified": "Fri, 18 Sep 2026 05:00:04 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "k250630_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/250630/pdf/01.pdf",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/250630/pdf/01.pdf",
+   "status": 200,
+   "last_modified": "Mon, 06 Jul 2026 01:00:06 GMT",
+   "content_type": "application/pdf",
+   "bytes": 207390,
+   "sha256": "40b6de59b2fb5bdcb83028f31b32f1049cc970ad1ebdca55b40c598a65c2519d",
+   "saved": "k250630_01.pdf",
+   "prev_sha256": "40b6de59b2fb5bdcb83028f31b32f1049cc970ad1ebdca55b40c598a65c2519d",
+   "prev_last_modified": "Mon, 06 Jul 2026 01:00:06 GMT",
+   "same_sha_as_prev": true,
+   "checks": []
+  }
+ ]
+}

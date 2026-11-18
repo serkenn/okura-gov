@@ -1,0 +1,129 @@
+{
+  "description": "rules/tax が読む源泉徴収税額表（所得税法 別表第二〜第四。実測の出力を写したもの）。帯の上の式の行（月額表 740,000円以上・日額表 24,000円以上）は数値の表になく、読み込みの関数はその範囲で値を返さない（None）。ファイルを差し替えたら sha256 を直し、tests/test_tax_gensen.py を通すこと。",
+  "files": {
+    "getsugaku_2025-12-31.csv": {
+      "table_id": "getsugaku_2025-12-31",
+      "title": "所得税法 別表第二（給与所得の源泉徴収税額表（月額表））2025-12-31 の版",
+      "law": "所得税法 別表第二（第185条・第186条・第189条関係）",
+      "law_id": "340AC0000000033",
+      "law_revision_id": "340AC0000000033_20251218_507AC0000000013",
+      "asof": "2025-12-31",
+      "applies_to": "令和7年中（2025-01-01〜2025-12-31）に支払う給与等",
+      "source_kind": "法律",
+      "sha256": "4a417b26f2eba465c3b9ffbe7af3ebf88f78ab9b9161b03e191cb4e8b15f124f",
+      "original": "scripts/results/IMPL3_gensen_tables/getsugaku_2025-12-31.csv",
+      "original_sha256": "4a417b26f2eba465c3b9ffbe7af3ebf88f78ab9b9161b03e191cb4e8b15f124f",
+      "produced_by": "scripts/IMPL3_gensen_tables.py",
+      "copied_on": "2026-11-12",
+      "references": [
+        "docs/public-sources/20261111_impl-research3_gensen-laws.md#2",
+        "docs/measurements/20261111_impl-research3_all-fetch-and-checks.md#4",
+        "docs/measurements/20261111_impl-research3_verification.md"
+      ],
+      "per_person_over_seven_yen": 1580
+    },
+    "getsugaku_2026-01-01.csv": {
+      "table_id": "getsugaku_2026-01-01",
+      "title": "所得税法 別表第二（給与所得の源泉徴収税額表（月額表））2026-01-01 の版",
+      "law": "所得税法 別表第二（第185条・第186条・第189条関係）",
+      "law_id": "340AC0000000033",
+      "law_revision_id": "340AC0000000033_20260101_507AC0000000013",
+      "asof": "2026-01-01",
+      "applies_to": "令和8年中（2026-01-01〜2026-12-31）に支払う給与等（2026-01-01・2026-11-30・2026-12-31 の版で数値の表は同じ）",
+      "source_kind": "法律",
+      "sha256": "c15eabc91ccfd4657754250e9f17e8180da579fbb3734eedf29549f69b5623d4",
+      "original": "scripts/results/IMPL3_gensen_tables/getsugaku_2026-01-01.csv",
+      "original_sha256": "c15eabc91ccfd4657754250e9f17e8180da579fbb3734eedf29549f69b5623d4",
+      "produced_by": "scripts/IMPL3_gensen_tables.py",
+      "copied_on": "2026-11-12",
+      "references": [
+        "docs/public-sources/20261111_impl-research3_gensen-laws.md#2",
+        "docs/measurements/20261111_impl-research3_all-fetch-and-checks.md#4",
+        "docs/measurements/20261111_impl-research3_verification.md"
+      ],
+      "per_person_over_seven_yen": 1580
+    },
+    "nichigaku_2025-12-31.csv": {
+      "table_id": "nichigaku_2025-12-31",
+      "title": "所得税法 別表第三（給与所得の源泉徴収税額表（日額表））2025-12-31 の版",
+      "law": "所得税法 別表第三（第185条関係）",
+      "law_id": "340AC0000000033",
+      "law_revision_id": "340AC0000000033_20251218_507AC0000000013",
+      "asof": "2025-12-31",
+      "applies_to": "令和7年中（2025-01-01〜2025-12-31）に支払う給与等",
+      "source_kind": "法律",
+      "sha256": "9d7b891179db4a7b3c1ada88dc8eba849aedd4771fbf95f0c16b0ba71edba8cf",
+      "original": "scripts/results/IMPL3_gensen_tables/nichigaku_2025-12-31.csv",
+      "original_sha256": "9d7b891179db4a7b3c1ada88dc8eba849aedd4771fbf95f0c16b0ba71edba8cf",
+      "produced_by": "scripts/IMPL3_gensen_tables.py",
+      "copied_on": "2026-11-12",
+      "references": [
+        "docs/public-sources/20261111_impl-research3_gensen-laws.md#2",
+        "docs/measurements/20261111_impl-research3_all-fetch-and-checks.md#4",
+        "docs/measurements/20261111_impl-research3_verification.md"
+      ],
+      "per_person_over_seven_yen": 50
+    },
+    "nichigaku_2026-01-01.csv": {
+      "table_id": "nichigaku_2026-01-01",
+      "title": "所得税法 別表第三（給与所得の源泉徴収税額表（日額表））2026-01-01 の版",
+      "law": "所得税法 別表第三（第185条関係）",
+      "law_id": "340AC0000000033",
+      "law_revision_id": "340AC0000000033_20260101_507AC0000000013",
+      "asof": "2026-01-01",
+      "applies_to": "令和8年中（2026-01-01〜2026-12-31）に支払う給与等（2026-01-01・2026-11-30・2026-12-31 の版で数値の表は同じ）",
+      "source_kind": "法律",
+      "sha256": "99b3e861c98a5f8ca5e8467fd8df2adacb88aac9039a6b57fdf81fe60608fc75",
+      "original": "scripts/results/IMPL3_gensen_tables/nichigaku_2026-01-01.csv",
+      "original_sha256": "99b3e861c98a5f8ca5e8467fd8df2adacb88aac9039a6b57fdf81fe60608fc75",
+      "produced_by": "scripts/IMPL3_gensen_tables.py",
+      "copied_on": "2026-11-12",
+      "references": [
+        "docs/public-sources/20261111_impl-research3_gensen-laws.md#2",
+        "docs/measurements/20261111_impl-research3_all-fetch-and-checks.md#4",
+        "docs/measurements/20261111_impl-research3_verification.md"
+      ],
+      "per_person_over_seven_yen": 50
+    },
+    "shoyo_2025-12-31.csv": {
+      "table_id": "shoyo_2025-12-31",
+      "title": "所得税法 別表第四（賞与に対する源泉徴収税額の算出率の表）2025-12-31 の版",
+      "law": "所得税法 別表第四（第186条関係）",
+      "law_id": "340AC0000000033",
+      "law_revision_id": "340AC0000000033_20251218_507AC0000000013",
+      "asof": "2025-12-31",
+      "applies_to": "令和7年中（2025-01-01〜2025-12-31）に支払う給与等",
+      "source_kind": "法律",
+      "sha256": "b27957f7f7b93f5478a6d4b874ba44d03e4f108be5af125c3b4277a2ded8b2be",
+      "original": "scripts/results/IMPL3_gensen_tables/shoyo_2025-12-31.csv",
+      "original_sha256": "b27957f7f7b93f5478a6d4b874ba44d03e4f108be5af125c3b4277a2ded8b2be",
+      "produced_by": "scripts/IMPL3_gensen_tables.py",
+      "copied_on": "2026-11-12",
+      "references": [
+        "docs/public-sources/20261111_impl-research3_gensen-laws.md#2",
+        "docs/measurements/20261111_impl-research3_all-fetch-and-checks.md#4",
+        "docs/measurements/20261111_impl-research3_verification.md"
+      ]
+    },
+    "shoyo_2026-01-01.csv": {
+      "table_id": "shoyo_2026-01-01",
+      "title": "所得税法 別表第四（賞与に対する源泉徴収税額の算出率の表）2026-01-01 の版",
+      "law": "所得税法 別表第四（第186条関係）",
+      "law_id": "340AC0000000033",
+      "law_revision_id": "340AC0000000033_20260101_507AC0000000013",
+      "asof": "2026-01-01",
+      "applies_to": "令和8年中（2026-01-01〜2026-12-31）に支払う給与等（2026-01-01・2026-11-30・2026-12-31 の版で数値の表は同じ）",
+      "source_kind": "法律",
+      "sha256": "212947d60e381b5b1f584c8fbdc7bdfaec69b89c0a66fdba8511689cb32191ef",
+      "original": "scripts/results/IMPL3_gensen_tables/shoyo_2026-01-01.csv",
+      "original_sha256": "212947d60e381b5b1f584c8fbdc7bdfaec69b89c0a66fdba8511689cb32191ef",
+      "produced_by": "scripts/IMPL3_gensen_tables.py",
+      "copied_on": "2026-11-12",
+      "references": [
+        "docs/public-sources/20261111_impl-research3_gensen-laws.md#2",
+        "docs/measurements/20261111_impl-research3_all-fetch-and-checks.md#4",
+        "docs/measurements/20261111_impl-research3_verification.md"
+      ]
+    }
+  }
+}

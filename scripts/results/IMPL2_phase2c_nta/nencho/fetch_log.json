@@ -1,0 +1,30 @@
+{
+ "set": "nencho",
+ "fetched_at": "20261111-151212",
+ "download_dir": ".work/downloads/20261111-151212_IMPL2_phase2c_nta_nencho",
+ "items": [
+  {
+   "id": "nencho2026_107",
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/107.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Mon, 31 Aug 2026 08:30:11 GMT",
+   "bytes": 785130,
+   "sha256": "38907ac31a3a50e00b724feaec9d3d185434d3c79357edeb5fa3bbaf1b4ff4a3",
+   "saved": ".work/downloads/20261111-151212_IMPL2_phase2c_nta_nencho/nencho2026_107.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "ta_1140",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:16 GMT",
+   "bytes": 25305,
+   "sha256": "20cf3d89f75dc48a636117235a463a96eb4e3ed8f7eb5cafb96ba9876ca040e5",
+   "saved": ".work/downloads/20261111-151212_IMPL2_phase2c_nta_nencho/ta_1140.htm",
+   "title": "No.1140 生命保険料控除｜国税庁",
+   "encoding": "utf-8"
+  }
+ ]
+}

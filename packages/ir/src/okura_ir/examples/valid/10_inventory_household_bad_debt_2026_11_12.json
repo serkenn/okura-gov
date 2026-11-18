@@ -1,0 +1,41 @@
+{
+ "schema_version": "0",
+ "persons": [
+  {"id": "p-s", "birth_on": "1980-03-10"}
+ ],
+ "relations": [],
+ "residences": [],
+ "insurance_memberships": [],
+ "facts": [
+  {"id": "biz-shop", "kind": "business", "roles": {"owner": "p-s"}, "when": {"from_on": "2022-04-01"},
+   "attributes": {"description": "架空の雑貨店"}},
+  {"id": "biz-side", "kind": "business", "roles": {"owner": "p-s"}, "when": {"from_on": "2024-01-10"},
+   "attributes": {"description": "架空の手作り品の販売（副業）"}},
+  {"id": "f-inv-notice", "kind": "inventory_method_notice", "roles": {"person": "p-s"}, "when": {"on": "2023-03-10"},
+   "attributes": {"business_id": "biz-shop", "procedure": "selection_notice", "method": "total_average", "asset_class": "merchandise_or_products"}},
+  {"id": "f-inv-2024", "kind": "inventory_count", "roles": {"owner": "p-s"}, "when": {"on": "2024-12-31"},
+   "amounts": {"valuation": 420000},
+   "attributes": {"business_id": "biz-shop", "valuation_method": "total_average", "asset_class": "merchandise_or_products"}},
+  {"id": "f-inv-2025", "kind": "inventory_count", "roles": {"owner": "p-s"}, "when": {"on": "2025-12-31"},
+   "amounts": {"valuation": 380000},
+   "attributes": {"business_id": "biz-shop", "valuation_method": "total_average", "lower_of_cost": false,
+                  "asset_class": "merchandise_or_products", "count_type": "year_end"}},
+  {"id": "f-house-2025", "kind": "household_consumption", "roles": {"owner": "p-s"}, "when": {"on": "2025-12-31"},
+   "amounts": {"normal_sales_price": 60000, "recorded_amount": 45000, "acquisition_cost": 40000},
+   "attributes": {"business_id": "biz-shop", "event": "household_use"}},
+  {"id": "f-bad-2025", "kind": "bad_debt", "roles": {"creditor": "p-s"}, "when": {"on": "2025-11-20"},
+   "amounts": {"amount": 33000},
+   "attributes": {"business_id": "biz-shop", "event": "debt_forgiveness_notice", "receivable_type": "sales"}},
+  {"id": "f-bad-side", "kind": "bad_debt", "roles": {"creditor": "p-s"}, "when": {"on": "2026-02-01"},
+   "amounts": {"amount": 8000},
+   "attributes": {"business_id": "biz-side", "event": "uncollectible", "receivable_type": "sales", "revenue_tax_year": 2025}}
+ ],
+ "assets": [],
+ "filed_documents": [],
+ "judgments": [
+  {"id": "j-side-no-inventory", "kind": "判断.棚卸資産の有無", "judged_by": {"person": "p-s"},
+   "judged_at": "2026-01-20T09:00:00+09:00",
+   "subject": {"person": "p-s", "business_id": "biz-side"}, "when": {"tax_year": 2025}, "value": false}
+ ],
+ "choices": []
+}

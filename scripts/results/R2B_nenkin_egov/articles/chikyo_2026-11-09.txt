@@ -1,0 +1,10 @@
+# chikyo 地方公務員等共済組合法 337AC0000000152 asof=2026-11-09
+# 法令名=地方公務員等共済組合法 law_revision_id=337AC0000000152_20261001_507AC0000000087 改正法令=令和七年法律第八十七号 施行日=2026-10-01 状態=CurrentEnforced
+# 取得URL=https://laws.e-gov.go.jp/api/2/law_data/337AC0000000152?response_format=json&asof=2026-11-09&omit_amendment_suppl_provision=true
+# 取得日時=20261109-181904
+# 生データ SHA-256=d86b3aecfc6e3f447df5da8efd19f08f1e698ff15e09a0c8b2849928529e7356
+
+## 本則 Num=52
+（公課の禁止）
+第五十二条
+（Paragraph1）　租税その他の公課は、組合の給付として支給を受ける金品を標準として、課することができない。ただし、退職年金及び公務遺族年金並びに休業手当金については、この限りでない。

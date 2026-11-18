@@ -1,0 +1,15 @@
+description: 控除対象配偶者（所得税法第2条第1項第33号の2）。同一生計配偶者のうち、合計所得金額がこの額以下である居住者の配偶者。
+居住者の合計所得金額の上限:
+  description: 居住者（本人）の合計所得金額の上限（この額以下）
+  metadata:
+    law: 所得税法第2条第1項第33号の2
+    source_kind: 法律
+    unit: 円
+    比較: 以下
+    reference:
+      - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.1
+  values:
+    2025-01-01:
+      value: 10000000
+      metadata:
+        適用: 令和7年分・令和8年分（令和6年分から同じ：spouse §1.1 の表）

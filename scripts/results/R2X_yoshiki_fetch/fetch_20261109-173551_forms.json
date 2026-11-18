@@ -1,0 +1,160 @@
+{
+ "run": "20261109-173551",
+ "name": "forms",
+ "download_dir": ".work/downloads/20261109-173551_R2X_yoshiki_forms",
+ "user_agent": "okura-gov-research/0.1",
+ "delay_sec": 1.5,
+ "robots": [
+  {
+   "robots_url": "https://www.nta.go.jp/robots.txt",
+   "status": 200,
+   "bytes": 853,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+  }
+ ],
+ "results": [
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/01.pdf",
+   "fetched_at": "2026-11-09T17:35:53+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/01.pdf",
+   "content_type": "application/pdf",
+   "last_modified": "Mon, 31 Aug 2026 05:00:05 GMT",
+   "bytes": 2173072,
+   "sha256": "833e641919fbc1eb22605a1989c6514eabb742334528d04dd90736ae90afce46",
+   "saved": ".work/downloads/20261109-173551_R2X_yoshiki_forms/000_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_01_shinkokusho_pdf_r07_01.pdf"
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/02.pdf",
+   "fetched_at": "2026-11-09T17:35:53+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/02.pdf",
+   "content_type": "application/pdf",
+   "last_modified": "Mon, 31 Aug 2026 05:00:05 GMT",
+   "bytes": 913314,
+   "sha256": "1d30dbc3e8823a321fc1ceb83eb0c1d3b9f585f7357168a6c7570d02fd482396",
+   "saved": ".work/downloads/20261109-173551_R2X_yoshiki_forms/001_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_01_shinkokusho_pdf_r07_02.pdf"
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/03.pdf",
+   "fetched_at": "2026-11-09T17:35:55+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/03.pdf",
+   "content_type": "application/pdf",
+   "last_modified": "Mon, 31 Aug 2026 05:00:05 GMT",
+   "bytes": 1507791,
+   "sha256": "10dfa7825ae19b642eb90edc9a7e2782e26be1fd71a39743d846a4dab52bab28",
+   "saved": ".work/downloads/20261109-173551_R2X_yoshiki_forms/002_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_01_shinkokusho_pdf_r07_03.pdf"
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/05.pdf",
+   "fetched_at": "2026-11-09T17:35:57+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/05.pdf",
+   "content_type": "application/pdf",
+   "last_modified": "Mon, 31 Aug 2026 05:00:05 GMT",
+   "bytes": 22101,
+   "sha256": "686ecbd849ebe07b11a90d10421561669188e1cfd48b18962bf1be06965a0f24",
+   "saved": ".work/downloads/20261109-173551_R2X_yoshiki_forms/003_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_01_shinkokusho_pdf_r07_05.pdf"
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/10.pdf",
+   "fetched_at": "2026-11-09T17:35:59+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/10.pdf",
+   "content_type": "application/pdf",
+   "last_modified": "Mon, 31 Aug 2026 05:00:04 GMT",
+   "bytes": 36392,
+   "sha256": "c3cd9d17c0174972a19c5b8174ad01ac685f4ed2dda9d3e903e6fd315bf5f4c3",
+   "saved": ".work/downloads/20261109-173551_R2X_yoshiki_forms/004_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_01_shinkokusho_pdf_r07_10.pdf"
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/04/pdf/ref1.pdf",
+   "fetched_at": "2026-11-09T17:36:00+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/04/pdf/ref1.pdf",
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:47 GMT",
+   "bytes": 795776,
+   "sha256": "7c602c74703668f06e37b5efe40bf924da885cc8387c7fc3c1dd7e5c8fcb23ea",
+   "saved": ".work/downloads/20261109-173551_R2X_yoshiki_forms/005_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_04_pdf_ref1.pdf"
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/03/pdf/ref3.pdf",
+   "fetched_at": "2026-11-09T17:36:02+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/03/pdf/ref3.pdf",
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:47 GMT",
+   "bytes": 710704,
+   "sha256": "6f39bf8118395215a31bb79aa22995b836e8a4fbe92252eb0c4639009d21c826",
+   "saved": ".work/downloads/20261109-173551_R2X_yoshiki_forms/006_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_03_pdf_ref3.pdf"
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/017.pdf",
+   "fetched_at": "2026-11-09T17:36:04+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/017.pdf",
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:54 GMT",
+   "bytes": 560128,
+   "sha256": "1e61c20b72c21ee86820be392e8be29226f63d7d9dd891082497f62ca473cb22",
+   "saved": ".work/downloads/20261109-173551_R2X_yoshiki_forms/007_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_017.pdf"
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/03/pdf/ref4.pdf",
+   "fetched_at": "2026-11-09T17:36:06+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/03/pdf/ref4.pdf",
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:47 GMT",
+   "bytes": 433872,
+   "sha256": "9621c80f62e019cfca9b8f7e88f629c209bf23d88c750b268ed210947d7cfc21",
+   "saved": ".work/downloads/20261109-173551_R2X_yoshiki_forms/008_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_03_pdf_ref4.pdf"
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/001-1.pdf",
+   "fetched_at": "2026-11-09T17:36:08+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/001-1.pdf",
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 20 Oct 2026 08:30:03 GMT",
+   "bytes": 147974,
+   "sha256": "15f1874c67264a5b8d87ed8800f37e9f527e96a46ec6fda5239f00f82a503a99",
+   "saved": ".work/downloads/20261109-173551_R2X_yoshiki_forms/009_www.nta.go.jp_taxes_shiraberu_shinkoku_tebiki_2025_pdf_001-1.pdf"
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/O/O1-1.pdf",
+   "fetched_at": "2026-11-09T17:36:10+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/O/O1-1.pdf",
+   "content_type": "application/pdf",
+   "last_modified": "Thu, 24 Sep 2026 05:00:07 GMT",
+   "bytes": 254367,
+   "sha256": "10f878d9502ff67d943330b75fa0c0b604c277d12149093dd222155c17a32b35",
+   "saved": ".work/downloads/20261109-173551_R2X_yoshiki_forms/010_www.nta.go.jp_taxes_shiraberu_shinkoku_tebiki_2025_pdf_O_O1-1.pdf"
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/003.pdf",
+   "fetched_at": "2026-11-09T17:36:12+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/003.pdf",
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:42 GMT",
+   "bytes": 1485553,
+   "sha256": "e3a89abd687f659d190e7ae2da9e4554b5b9f52158903345b699c852717c1226",
+   "saved": ".work/downloads/20261109-173551_R2X_yoshiki_forms/011_www.nta.go.jp_taxes_shiraberu_shinkoku_tebiki_2025_pdf_003.pdf"
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/037.pdf",
+   "fetched_at": "2026-11-09T17:36:15+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/037.pdf",
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:40 GMT",
+   "bytes": 2576092,
+   "sha256": "77c8ad203bbd04efcacf42c4c8c95a6a098b80784e51df66347812948b578900",
+   "saved": ".work/downloads/20261109-173551_R2X_yoshiki_forms/012_www.nta.go.jp_taxes_shiraberu_shinkoku_tebiki_2025_pdf_037.pdf"
+  }
+ ]
+}

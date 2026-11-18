@@ -1,0 +1,91 @@
+{
+ "set": "pages2",
+ "fetched_at": "20261109-174635",
+ "download_dir": ".work/downloads/20261109-174635_R2X_aoiro_nta_pages2",
+ "items": [
+  {
+   "id": "ta_bunya_kojinjigyo",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-kojinjigyo.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 17 Dec 2025 05:00:05 GMT",
+   "bytes": 18995,
+   "sha256": "db02558f69ef8a18fd0322e6a07adcf23e854f9d7351d30bdb787e112501c188",
+   "saved": ".work/downloads/20261109-174635_R2X_aoiro_nta_pages2/ta_bunya_kojinjigyo.htm",
+   "title": "個人事業｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "annai_13",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/13.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 28 Oct 2026 01:00:23 GMT",
+   "bytes": 12504,
+   "sha256": "05d56742a9bd12eb73a009d9aafcda012c2d0095beeffcd1ab321d23d87ae0c9",
+   "saved": ".work/downloads/20261109-174635_R2X_aoiro_nta_pages2/annai_13.htm",
+   "title": "A1-11 青色事業専従者給与に関する変更届出手続｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "annai_17_0",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/17_0.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 28 Oct 2026 01:00:22 GMT",
+   "bytes": 13087,
+   "sha256": "3bf159272f0bf6455b85137da6fd85ed1bc13cd91a4ea239e4687b0b08f69f82",
+   "saved": ".work/downloads/20261109-174635_R2X_aoiro_nta_pages2/annai_17_0.htm",
+   "title": "A1-16、H4-10 国税関係帳簿の電磁的記録等による保存等に係る65万円の青色申告特別控除・過少申告加算税の特例の適用の取りやめの届出手続｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "annai_23200002",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/23200002.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 28 Oct 2026 01:00:22 GMT",
+   "bytes": 12839,
+   "sha256": "4d49bf49d81d59b85a64514d2d9b0c1f82ea15dbbff967dbade69e8124b25f85",
+   "saved": ".work/downloads/20261109-174635_R2X_aoiro_nta_pages2/annai_23200002.htm",
+   "title": "A1-4 純損失の金額の繰戻しによる所得税の還付請求手続｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "annai_23200010",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/23200010.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 28 Oct 2026 01:00:22 GMT",
+   "bytes": 12239,
+   "sha256": "67e3638f2ec510fd31d9c14dcd71f013a501341cae7b3eaa6d5ec9dcc37d6577",
+   "saved": ".work/downloads/20261109-174635_R2X_aoiro_nta_pages2/annai_23200010.htm",
+   "title": "A1-12 現金主義による所得計算の特例を受けるための手続｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "annai_23200011",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/23200011.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 28 Oct 2026 01:00:22 GMT",
+   "bytes": 12265,
+   "sha256": "35d064453b7c993d0abff484026913c6dddc2746fffb6856dba66fcdbbc82923",
+   "saved": ".work/downloads/20261109-174635_R2X_aoiro_nta_pages2/annai_23200011.htm",
+   "title": "A1-13 現金主義による所得計算の特例を受けることの取りやめ手続｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "annai_23200016",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/23200016.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 28 Oct 2026 01:00:21 GMT",
+   "bytes": 12553,
+   "sha256": "1707f2fece6827580385ad4499d0bfdcb9f6b60f9dafc74930db44112f8f9996",
+   "saved": ".work/downloads/20261109-174635_R2X_aoiro_nta_pages2/annai_23200016.htm",
+   "title": "A1-14 再び現金主義による所得計算の特例の適用を受けることの承認申請手続｜国税庁",
+   "encoding": "shift_jis"
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+# source=https://www.mhlw.go.jp/web/t_itemsrch_result?type=1&startGengo=4&yearFrom=5&monthFrom=3&dayFrom=1&endGengo=4&yearTo=5&monthTo=3&dayTo=31&shubetsu=&bango=&page=2
+# fetched_at=20261111-025043
+# charset=UTF-8
+
+結果一覧
+
+検索結果
+
+該当件数: 48件中 41件~ 48件
+
+[form action='t_itemsrch_result' method=None]
+
+	[input name='sort' type='hidden' value='0']
+
+		[input name='startGengo' type='hidden' value='4']
+		[input name='endGengo' type='hidden' value='4']
+		[input name='yearFrom' type='hidden' value='5']
+		[input name='yearTo' type='hidden' value='5']
+		[input name='monthFrom' type='hidden' value='3']
+		[input name='monthTo' type='hidden' value='3']
+		[input name='dayFrom' type='hidden' value='1']
+		[input name='dayTo' type='hidden' value='31']
+		[input name='shubetsu' type='hidden' value='']
+		[input name='bango' type='hidden' value='']
+		[input name='page' type='hidden' value='2']
+		[input name='type' type='hidden' value='1']
+
+		前の20件
+
+				 |
+					件名
+
+				 |
+					制定年月日
+
+				 |
+					種別・番号
+
+				 |
+											・老人保健法による老人医療事務の指導監査の実施方針について
+
+					⟨別ウィンドウが開きます⟩
+
+				 | ◆平成05年03月22日
+				 |
+					老企第72号
+
+				 |
+											・老人保健法施行令の一部を改正する政令等の施行について
+
+					⟨別ウィンドウが開きます⟩
+
+				 | ◆平成05年03月26日
+				 |
+					老企第80号
+
+				 |
+											・平成五年度における厚生年金保険の事業運営について
+
+					⟨別ウィンドウが開きます⟩
+
+				 | ◆平成05年03月31日
+				 |
+					庁文発第1261号
+
+				 |
+											・国民年金法に基づく障害給付の取扱いについて
+
+					⟨別ウィンドウが開きます⟩
+
+				 | ◆平成05年03月08日
+				 |
+					庁文発第848号
+
+				 |
+											・国民年金の保険料を追納する場合に納付すべき額を定める件の告示について
+
+					⟨別ウィンドウが開きます⟩
+
+				 | ◆平成05年03月17日
+				 |
+					庁保発第6号
+
+				 |
+											・国民年金の保険料を前納する場合の期間及び納付すべき額を定める件の一部を改正する告示について
+
+					⟨別ウィンドウが開きます⟩
+
+				 | ◆平成05年03月24日
+				 |
+					庁保発第8号
+
+				 |
+											・国民年金法等による年金の額の改定に関する政令の一部を改正する政令等の施行について
+
+					⟨別ウィンドウが開きます⟩
+
+				 | ◆平成05年03月24日
+				 |
+					庁保発第7号
+
+				 |
+											・国民年金法に基づき市町村に交付する事務費に関する政令の一部を改正する政令等の施行について
+
+					⟨別ウィンドウが開きます⟩
+
+				 | ◆平成05年03月26日
+				 |
+					庁保発第9号
+
+		前の20件

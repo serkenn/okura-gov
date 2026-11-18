@@ -1,0 +1,139 @@
+{
+ "set": "tsutatsu2",
+ "fetched_at": "20261111-144713",
+ "download_dir": ".work/downloads/20261111-144713_IMPL2_phase2c_nta_tsutatsu2",
+ "items": [
+  {
+   "id": "kihon_04_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 25 Dec 2025 01:00:06 GMT",
+   "bytes": 11747,
+   "sha256": "7547cbb733896728863b895d91d329d0b8c3d55b68c4298926fa5b633bded1ea",
+   "saved": ".work/downloads/20261111-144713_IMPL2_phase2c_nta_tsutatsu2/kihon_04_01.htm",
+   "title": "法第23条《利子所得》関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_08_05",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/05.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 25 Nov 2025 08:30:05 GMT",
+   "bytes": 9909,
+   "sha256": "30106b4f247464cd7e7bf71ab1c810f499d75163158186867409c82e38fea4e9",
+   "saved": ".work/downloads/20261111-144713_IMPL2_phase2c_nta_tsutatsu2/kihon_08_05.htm",
+   "title": "〔減価償却資産の償却の方法（令第120条関係）〕｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_08_04",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/04.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 25 Dec 2025 01:00:05 GMT",
+   "bytes": 9192,
+   "sha256": "ed0c1161c8f37da62347b874b90dd493cafd507b7251ee18ff487ea8692df2fb",
+   "saved": ".work/downloads/20261111-144713_IMPL2_phase2c_nta_tsutatsu2/kihon_08_04.htm",
+   "title": "法第48条《有価証券の譲渡原価等の計算及びその評価の方法》関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_31_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/31/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:30:18 GMT",
+   "bytes": 12647,
+   "sha256": "b659cb049b3cefd7441da14626de6112418b7d1bcacd69969eee7c280e7470f7",
+   "saved": ".work/downloads/20261111-144713_IMPL2_phase2c_nta_tsutatsu2/kihon_31_01.htm",
+   "title": "法第183条《源泉徴収義務》関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_34_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/34/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:30:18 GMT",
+   "bytes": 6749,
+   "sha256": "59429391d1e420ebf41601c3972f5d87fc1219c0611cf047b7b12fb8d4772679",
+   "saved": ".work/downloads/20261111-144713_IMPL2_phase2c_nta_tsutatsu2/kihon_34_01.htm",
+   "title": "法第201条《徴収税額》関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_35_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/35/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 25 Dec 2025 01:00:05 GMT",
+   "bytes": 10712,
+   "sha256": "13bda1aed253776857478a427cc7b1709a8a2a0f115cf8d55c51065c49cefa17",
+   "saved": ".work/downloads/20261111-144713_IMPL2_phase2c_nta_tsutatsu2/kihon_35_01.htm",
+   "title": "法第203条の3《徴収税額》関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_30_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/30/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:30:18 GMT",
+   "bytes": 7347,
+   "sha256": "1cade9e6ceb2dddc83545545aa8e755d5c9cec8f112ceb6b5929327bfd67f419",
+   "saved": ".work/downloads/20261111-144713_IMPL2_phase2c_nta_tsutatsu2/kihon_30_01.htm",
+   "title": "法第183条から第193条まで《源泉徴収義務及び徴収税額並びに年末調整》共通関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "sochi_41_17",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/57/41/17.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 25 Nov 2025 08:30:03 GMT",
+   "bytes": 5731,
+   "sha256": "88dd756eeb5c2fe9dc6ecfabbad6b8f2e41ecee51f51a06aeb11c70249c0bf9f",
+   "saved": ".work/downloads/20261111-144713_IMPL2_phase2c_nta_tsutatsu2/sochi_41_17.htm",
+   "title": "第41条の18（（政治活動に関する寄附をした場合の寄附金控除の特例又は所得税額の特別控除））関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "sochi_41_17_2",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/57/41/17_2.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 25 Nov 2025 08:30:03 GMT",
+   "bytes": 4683,
+   "sha256": "b14649745d740f7ec760c22ffbbde0503866423bf1a06305be875e6d8d1671f2",
+   "saved": ".work/downloads/20261111-144713_IMPL2_phase2c_nta_tsutatsu2/sochi_41_17_2.htm",
+   "title": "第41条の18の2（（認定特定非営利活動法人等に寄附をした場合の寄附金控除の特例又は所得税額の特別控除））関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "sochi_41_17_3",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/57/41/17_3.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 25 Nov 2025 08:30:03 GMT",
+   "bytes": 4493,
+   "sha256": "e3f20f8ff7b6731ebdbc26910931133ed020f02df2231dc83170050714f16f71",
+   "saved": ".work/downloads/20261111-144713_IMPL2_phase2c_nta_tsutatsu2/sochi_41_17_3.htm",
+   "title": "第41条の18の3（（公益社団法人等に寄附をした場合の所得税額の特別控除））関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "sochi_08_04",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/57/08/04.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 25 Dec 2025 01:00:04 GMT",
+   "bytes": 4276,
+   "sha256": "5a2aab0dae5f2fecbac46f2d213e902527a43f70e2de97101c8682f526e74177",
+   "saved": ".work/downloads/20261111-144713_IMPL2_phase2c_nta_tsutatsu2/sochi_08_04.htm",
+   "title": "第8条の4（（上場株式等に係る配当所得等の課税の特例））関係｜国税庁",
+   "encoding": "shift_jis"
+  }
+ ]
+}

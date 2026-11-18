@@ -1,0 +1,88 @@
+{
+ "set": "mhlw2",
+ "fetched_at": "20261109-174612",
+ "download_dir": ".work/downloads/20261109-174612_R2X_gaps_web_mhlw2",
+ "robots": [
+  {
+   "host": "www.mhlw.go.jp",
+   "url": "https://www.mhlw.go.jp/robots.txt",
+   "status": 200,
+   "sha256": "d410a20234092a01e07cc6531920a5fedda6a96faaa073d94b95bd4c4a436144",
+   "saved": ".work/downloads/20261109-174612_R2X_gaps_web_mhlw2/robots_www.mhlw.go.jp.txt"
+  }
+ ],
+ "items": [
+  {
+   "id": "mhlw_00tc5007_p1",
+   "url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc5007&dataType=1&pageNo=1",
+   "final_url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc5007&dataType=1&pageNo=1",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8",
+   "last_modified": null,
+   "bytes": 19627,
+   "sha256": "a081730f8443bee3b604f984419446173777d96b051c0ee2fe8fbad05a77e2ef",
+   "saved": ".work/downloads/20261109-174612_R2X_gaps_web_mhlw2/mhlw_00tc5007_p1.htm",
+   "title": "・被扶養者の収入の確認における留意点について(◆令和02年04月10日事務連絡)",
+   "encoding": "UTF-8",
+   "text_sha256": "2c89ed331a9f85b514a786167daeaf8972609d46d0fe7dc5804c512d9b31b9e4"
+  },
+  {
+   "id": "mhlw_00tc5007_p2",
+   "url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc5007&dataType=1&pageNo=2",
+   "final_url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc5007&dataType=1&pageNo=2",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8",
+   "last_modified": null,
+   "bytes": 260,
+   "sha256": "c35afce1f9b8bbf177aeb3a9b8cd03c40e292de65221cac4144ada6a482a88cb",
+   "saved": ".work/downloads/20261109-174612_R2X_gaps_web_mhlw2/mhlw_00tc5007_p2.htm",
+   "title": "エラー",
+   "encoding": "UTF-8",
+   "text_sha256": "4b8a2df349082752dd7fe11937bb7b8c2aa912607afabe68273c3151bb3d9243"
+  },
+  {
+   "id": "mhlw_000744680_saishuchi",
+   "url": "https://www.mhlw.go.jp/content/000744680.pdf",
+   "final_url": "https://www.mhlw.go.jp/content/000744680.pdf",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Thu, 09 Feb 2023 00:31:26 GMT",
+   "bytes": 192309,
+   "sha256": "09be84652815620bc8dc3261171aa69c36ed290922ed6eb1ed73891c22b12d3f",
+   "saved": ".work/downloads/20261109-174612_R2X_gaps_web_mhlw2/mhlw_000744680_saishuchi.pdf"
+  },
+  {
+   "id": "mhlw_00tc5958_p1",
+   "url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc5958&dataType=1&pageNo=1",
+   "final_url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc5958&dataType=1&pageNo=1",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html;charset=UTF-8",
+   "last_modified": null,
+   "bytes": 80550,
+   "sha256": "dfa91134ed04ed3eb99517f2c0bd6040c5396ba253df7fa323489619938a84ce",
+   "saved": ".work/downloads/20261109-174612_R2X_gaps_web_mhlw2/mhlw_00tc5958_p1.htm",
+   "title": "・新型コロナウイルスワクチン接種業務に従事する医療職の被扶養者の収入確認の特例に関するＱ＆Ａについて(◆令和03年06月04日事務連絡)",
+   "encoding": "UTF-8",
+   "text_sha256": "16c2331c3fb54c7537d80c2ba794fb4118f0622ed74abcb807bae37be839c697"
+  },
+  {
+   "id": "mhlw_newpage_19044",
+   "url": "https://www.mhlw.go.jp/stf/newpage_19044.html",
+   "final_url": "https://www.mhlw.go.jp/stf/newpage_19044.html",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "last_modified": null,
+   "bytes": 57023,
+   "sha256": "b81d35b5bbbc9a76efb3172ecdff02cebfa66335cbb622d865de2f0a59236300",
+   "saved": ".work/downloads/20261109-174612_R2X_gaps_web_mhlw2/mhlw_newpage_19044.htm",
+   "title": "新型コロナウイルスワクチン接種業務に従事する医療職の被扶養者の収入確認の特例の延長について",
+   "encoding": "UTF-8",
+   "text_sha256": "52a6434c9f8ccb6c7398e2663d90e8affdff804e2ce4206e2b0b23a6cbe5f46b"
+  }
+ ]
+}

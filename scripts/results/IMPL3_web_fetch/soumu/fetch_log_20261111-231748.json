@@ -1,0 +1,64 @@
+{
+ "set": "soumu",
+ "fetched_at": "20261111-231748",
+ "download_dir": ".work/downloads/20261111-231748_IMPL3_web_fetch_soumu",
+ "robots": [
+  {
+   "host": "https://www.soumu.go.jp",
+   "status": 200,
+   "sha256": "e0cc280a3ed01a4ee4785320fdacf31ef4724eddf0a46eb860df651eaede55e4"
+  }
+ ],
+ "items": [
+  {
+   "id": "code_page",
+   "url": "https://www.soumu.go.jp/denshijiti/code.html",
+   "final_url": "https://www.soumu.go.jp/denshijiti/code.html",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 12 May 2026 21:42:43 GMT",
+   "bytes": 41047,
+   "sha256": "040c86bfb4b497f2f8b9a6107c8fb7de3be554f38b7686a909d11b5629a9b331",
+   "saved": ".work/downloads/20261111-231748_IMPL3_web_fetch_soumu/code_page.htm",
+   "title": "総務省｜地方行政のデジタル化｜全国地方公共団体コード",
+   "encoding": "Shift_JIS"
+  },
+  {
+   "id": "furusato_kojin",
+   "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/080430_2_kojin.html",
+   "final_url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/080430_2_kojin.html",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 25 Sep 2026 05:12:38 GMT",
+   "bytes": 92354,
+   "sha256": "635fd01cb21295e79d7c40001c65263d54a8fdfc519eece238c5a82396b82d02",
+   "saved": ".work/downloads/20261111-231748_IMPL3_web_fetch_soumu/furusato_kojin.htm",
+   "title": "総務省｜ふるさと納税ポータルサイト",
+   "encoding": "Shift_JIS"
+  },
+  {
+   "id": "furusato_top",
+   "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/",
+   "final_url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/",
+   "status": 403,
+   "content_type": "text/html",
+   "last_modified": "Fri, 15 May 2026 13:04:27 GMT",
+   "bytes": 39276,
+   "sha256": "6650e8162b136e14b20da3de0dd7cc93195d9652e6bf764dab646d224ad68d51",
+   "saved": ".work/downloads/20261111-231748_IMPL3_web_fetch_soumu/furusato_top.htm"
+  },
+  {
+   "id": "furusato_about",
+   "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/about/",
+   "final_url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/about/",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 30 Jan 2026 06:52:06 GMT",
+   "bytes": 15911,
+   "sha256": "ebe5b6a7d6de6dcb9a67d3bf2208974cc4d7aeb8e0da144171022fb17a585969",
+   "saved": ".work/downloads/20261111-231748_IMPL3_web_fetch_soumu/furusato_about.htm",
+   "title": "総務省｜よくわかる！ふるさと納税｜よくわかる！ふるさと納税",
+   "encoding": "Shift_JIS"
+  }
+ ]
+}

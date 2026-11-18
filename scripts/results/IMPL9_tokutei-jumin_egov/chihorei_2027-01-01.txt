@@ -1,0 +1,3 @@
+# 地方税法施行令 325CO0000000245 asof=2027-01-01
+# law_revision_id=325CO0000000245_20270101_508CO0000000083 改正法令=令和八年政令第八十三号 施行日=2027-01-01 状態=UnEnforced
+# 元データ=.work/downloads/20261112-164859_IMPL9_tokutei-jumin_egov/chihorei_2027-01-01.json

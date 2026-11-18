@@ -1,0 +1,24 @@
+{
+  "set": "kokuho",
+  "fetched_at_local": "20261109-134442",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "yokohama_kokuho_hihokensha",
+      "url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/kokuho/hokensho/hihokensha.html",
+      "status": 200,
+      "final_url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/kokuho/hokensho/hihokensha.html",
+      "content_type": "text/html",
+      "bytes": 53870,
+      "sha256": "38f945b3324c0b1b3dfe17ce6dd85aa334983abfdc15f5d9ac438f2848a778b2",
+      "last_modified": "Wed, 28 Oct 2026 04:02:43 GMT",
+      "etag": "\"d26e-65edea28c07f3\"",
+      "saved": ".work\\downloads\\20261109-134442_R3_kokuho\\yokohama_kokuho_hihokensha.html",
+      "charset": "UTF-8",
+      "title": "被保険者について 横浜市",
+      "text_chars": 7310,
+      "text": ".work\\text\\20261109-134442_R3_kokuho\\yokohama_kokuho_hihokensha.txt",
+      "n_links": 191
+    }
+  ]
+}

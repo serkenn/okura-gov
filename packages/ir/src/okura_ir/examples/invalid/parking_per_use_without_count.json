@@ -1,0 +1,43 @@
+{
+ "schema_version": "0",
+ "persons": [
+  {
+   "id": "p-1",
+   "birth_on": "1980-01-01"
+  }
+ ],
+ "relations": [],
+ "residences": [],
+ "insurance_memberships": [],
+ "facts": [
+  {
+   "id": "f-1",
+   "kind": "commuting_status",
+   "roles": {
+    "worker": "p-1"
+   },
+   "when": {
+    "from_on": "2026-01-01"
+   },
+   "attributes": {
+    "counterparty": "架空商事",
+    "means": "vehicle",
+    "one_way_km": {
+     "num": 5,
+     "den": 1
+    },
+    "parkings": [
+     {
+      "location": "near_workplace",
+      "fee_unit": "per_use",
+      "fee": 100
+     }
+    ]
+   }
+  }
+ ],
+ "assets": [],
+ "filed_documents": [],
+ "judgments": [],
+ "choices": []
+}

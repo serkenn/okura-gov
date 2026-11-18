@@ -1,0 +1,434 @@
+[
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/smartphone-mynaportal-etax",
+  "text": "⟨詳しくはこちら⟩スマホとマイナンバーカードでe-Tax！"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/mynaportal-jidou",
+  "text": "⟨詳しくはこちら⟩ マイナポータル連携で自動入力！"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/cashless-nouhu",
+  "text": "⟨詳しくはこちら⟩使ってみると便利です！キャッシュレス納付！"
+ },
+ {
+  "href": "https://www.keisan.nta.go.jp/kyoutu/ky/sm/top#bsctrl",
+  "text": "⟨詳しくはこちら⟩確定申告書等作成コーナー ⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/kakushin-sakusei/douga.htm",
+  "text": "⟨詳しくはこちら⟩動画で見る確定申告"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/kakushin-sakusei/yoshiki.htm",
+  "text": "⟨詳しくはこちら⟩作成コーナーの操作要領等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/shinkoku-nagare/shinkoku-nagare.htm",
+  "text": "⟨詳しくはこちら⟩申告が必要かなどを調べる"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice_kakushin.htm",
+  "text": "⟨詳しくはこちら⟩インボイス発行事業者の登録を受けた方へ ⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/shinkoku-junbi/etax-riyou.htm",
+  "text": "⟨詳しくはこちら⟩e-Taxの利用方法"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/mynumberinfo/mnp_junbi/kakutei.htm#a0023009-160",
+  "text": "⟨詳しくはこちら⟩マイナポータル連携の利用 ⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/shinkoku-junbi/mynumbercard-shutoku.htm",
+  "text": "⟨詳しくはこちら⟩マイナンバーカードの取得"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/kakushin-sakusei/douga.htm",
+  "text": "⟨詳しくはこちら⟩動画で見る確定申告"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/chatbot/index.htm",
+  "text": "⟨詳しくはこちら⟩チャットボットに相談 ⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/qa/01.htm",
+  "text": "⟨詳しくはこちら⟩確定申告期のよくあるお問合せ ⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm",
+  "text": "⟨詳しくはこちら⟩タックスアンサー（よくある税の質問） ⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/toiawase/faq70.htm",
+  "text": "⟨詳しくはこちら⟩スマホ・パソコン操作に関するよくある疑問 ⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/iryou-koujo.htm",
+  "text": "⟨詳しくはこちら⟩医療費控除を受ける方へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/juutaku.htm",
+  "text": "⟨詳しくはこちら⟩住宅ローン控除を受ける方へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/furusato.htm",
+  "text": "⟨詳しくはこちら⟩ふるさと納税をされた方へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/kabu-haitou-shinkoku.htm",
+  "text": "⟨詳しくはこちら⟩株式の売却をした方や配当等を受け取った方へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/fudousan.htm",
+  "text": "⟨詳しくはこちら⟩不動産等を売却した方へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/zouyozei.htm",
+  "text": "⟨詳しくはこちら⟩贈与税の申告をされる方へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/cashless-nouhu/index.htm",
+  "text": "⟨詳しくはこちら⟩納付や還付の手続を調べる"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/shinkoku-tyuui/",
+  "text": "⟨詳しくはこちら⟩こんな収入の申告漏れにご注意"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/annai/index.htm#a03",
+  "text": "⟨詳しくはこちら⟩納期限までに納付が困難な方へ⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/saigai/index.htm",
+  "text": "⟨詳しくはこちら⟩災害により被害を受けた方へ⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+  "text": "⟨詳しくはこちら⟩記帳・帳簿等の保存について⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/about/organization/access/map.htm",
+  "text": "⟨詳しくはこちら⟩税務署の管轄一覧⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/kakushin-sonota/kakushin-kaijou.htm",
+  "text": "⟨詳しくはこちら⟩確定申告会場へ来場をお考えの方へ"
+ },
+ {
+  "href": "http://www.nta.go.jp/index.htm",
+  "text": "⟨詳しくはこちら⟩国税庁トップページ"
+ },
+ {
+  "href": "http://www.nta.go.jp/iken/mail.htm",
+  "text": "⟨詳しくはこちら⟩ご意見・ご要望"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/links",
+  "text": "⟨詳しくはこちら⟩リンク設定"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/sitemap",
+  "text": "⟨詳しくはこちら⟩サイトマップ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu",
+  "text": "⟨令和7年分 確定申告特集⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/",
+  "text": "トップページ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/",
+  "text": "申告内容別の情報を見る"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/smartphone-mynaportal-etax",
+  "text": "スマホとマイナンバーカードでe-Tax！"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/mynaportal-jidou",
+  "text": "マイナポータル連携で自動入力！"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/cashless-nouhu",
+  "text": "使ってみると便利です！キャッシュレス納付！"
+ },
+ {
+  "href": "https://www.keisan.nta.go.jp/kyoutu/ky/sm/top#bsctrl",
+  "text": "確定申告書等作成コーナー⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/kakushin-sakusei/douga.htm",
+  "text": "動画で見る確定申告"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/kakushin-sakusei/yoshiki.htm",
+  "text": "作成コーナーの操作要領等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/shinkoku-nagare/shinkoku-nagare.htm",
+  "text": "申告が必要かなどを調べる"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice_kakushin.htm",
+  "text": "インボイス発行事業者の登録を受けた方へ⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/shinkoku-junbi/etax-riyou.htm",
+  "text": "e-Taxの利用方法"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/mynumberinfo/mnp_junbi/kakutei.htm#a0023009-160",
+  "text": "マイナポータル連携の利用⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/shinkoku-junbi/mynumbercard-shutoku.htm",
+  "text": "マイナンバーカードの取得"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/kakushin-sakusei/douga.htm",
+  "text": "動画で見る確定申告"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/chatbot/index.htm",
+  "text": "チャットボットに相談⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/qa/01.htm",
+  "text": "確定申告期のよくあるお問合せ⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm",
+  "text": "タックスアンサー（よくある税の質問）⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/toiawase/faq70.htm",
+  "text": "スマホ・パソコン操作に関するよくある疑問⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/iryou-koujo.htm",
+  "text": "医療費控除を受ける方へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/juutaku.htm",
+  "text": "住宅ローン控除を受ける方へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/furusato.htm",
+  "text": "ふるさと納税をされた方へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/kabu-haitou-shinkoku.htm",
+  "text": "株式の売却をした方や配当等を受け取った方へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/fudousan.htm",
+  "text": "不動産等を売却した方へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/zouyozei.htm",
+  "text": "贈与税の申告をされる方へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/cashless-nouhu/index.htm",
+  "text": "納付や還付の手続を調べる"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/shinkoku-tyuui/",
+  "text": "こんな収入の申告漏れにご注意"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/annai/index.htm#a03",
+  "text": "納期限までに納付が困難な方へ⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/saigai/index.htm",
+  "text": "災害により被害を受けた方へ⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+  "text": "記帳・帳簿等の保存について⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/about/organization/access/map.htm",
+  "text": "税務署の管轄一覧⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/kakushin-sonota/kakushin-kaijou.htm",
+  "text": "申告相談のためにお越しになる方へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/publication/pamph/koho/kurashi/pdf/13.pdf",
+  "text": "暮らしの税情報「株式・配当・利子と税」（PDF/631KB）⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/denshi-sonota/kabushikijoto/main.htm",
+  "text": "株式譲渡益課税制度⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm",
+  "text": "タックスアンサー⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/haitou-form.htm",
+  "text": "配当集計フォームのダウンロードをする"
+ },
+ {
+  "href": "https://www.keisan.nta.go.jp/r7yokuaru/cat1/cat13/cat132/cat1321/cat13216/index.html",
+  "text": "配当集計フォームの入力方法などを確認する⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/mynumberinfo/mynapo.htm",
+  "text": "マイナポータル連携特設ページ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/r3_smart_shinkoku/pdf/05.pdf",
+  "text": "「株式の売却や受け取った配当の申告はスマホ作成×e-Tax提出がおすすめ！」（PDF/4,559KB）⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/kakushin-sakusei/yoshiki.htm",
+  "text": "「作成コーナーの操作要領等」"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/kisairei/pdf/0023010-154_01.pdf",
+  "text": "「特定口座の取引内容と前年分以前の株式売却に係る損失額を申告する場合の入力例」（PDF/6,022KB）⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "http://www.youtube.com/user/ntachannel",
+  "text": "YouTube「国税庁動画チャンネル」⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://youtu.be/OqKNUSSNlEE",
+  "text": "⟨自宅からスマホでかんたん手続き（株式の売却・配当などの確定申告）⟩"
+ },
+ {
+  "href": "https://youtu.be/OqKNUSSNlEE",
+  "text": "⟨動画再生⟩"
+ },
+ {
+  "href": "https://youtu.be/OqKNUSSNlEE",
+  "text": "⟨自宅からスマホでかんたん手続き（株式の売却・配当などの確定申告）⟩"
+ },
+ {
+  "href": "https://youtu.be/OqKNUSSNlEE",
+  "text": "⟨動画再生⟩"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=OqKNUSSNlEE&t=151s",
+  "text": "⟨操作のしかた（特定口座をマイナポータル連携した場合）⟩"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=OqKNUSSNlEE&t=151s",
+  "text": "⟨動画再生⟩"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=OqKNUSSNlEE&t=151s",
+  "text": "⟨操作のしかた（特定口座をマイナポータル連携した場合）⟩"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=OqKNUSSNlEE&t=151s",
+  "text": "⟨動画再生⟩"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=OqKNUSSNlEE&t=275s",
+  "text": "⟨操作のしかた（xmlデータの読み込み方法）⟩"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=OqKNUSSNlEE&t=275s",
+  "text": "⟨動画再生⟩"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=OqKNUSSNlEE&t=275s",
+  "text": "⟨操作のしかた（xmlデータの読み込み方法）⟩"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=OqKNUSSNlEE&t=275s",
+  "text": "⟨動画再生⟩"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=OqKNUSSNlEE&t=375s",
+  "text": "⟨操作のしかた（受け取った配当の入力）⟩"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=OqKNUSSNlEE&t=375s",
+  "text": "⟨動画再生⟩"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=OqKNUSSNlEE&t=375s",
+  "text": "⟨操作のしかた（受け取った配当の入力）⟩"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=OqKNUSSNlEE&t=375s",
+  "text": "⟨動画再生⟩"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=OqKNUSSNlEE&t=510s",
+  "text": "⟨操作のしかた（外国株式の配当を申告する場合の入力）⟩"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=OqKNUSSNlEE&t=510s",
+  "text": "⟨動画再生⟩"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=OqKNUSSNlEE&t=510s",
+  "text": "⟨操作のしかた（外国株式の配当を申告する場合の入力）⟩"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=OqKNUSSNlEE&t=510s",
+  "text": "⟨動画再生⟩"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=OqKNUSSNlEE&t=699s",
+  "text": "⟨操作のしかた（配当控除）⟩"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=OqKNUSSNlEE&t=699s",
+  "text": "⟨動画再生⟩"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=OqKNUSSNlEE&t=699s",
+  "text": "⟨操作のしかた（配当控除）⟩"
+ },
+ {
+  "href": "https://www.youtube.com/watch?v=OqKNUSSNlEE&t=699s",
+  "text": "⟨動画再生⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/kisairei/kabushiki/index.htm",
+  "text": "「株式等の譲渡所得等の申告のしかた」⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/denshi-sonota/kabushikijoto/2105/01.htm",
+  "text": "確定申告書等様式コーナー（株式等譲渡益課税関係）⟨別ウィンドウで開きます⟩"
+ },
+ {
+  "href": "https://www.nta.go.jp/index.htm",
+  "text": "国税庁ホームページ"
+ },
+ {
+  "href": "https://www.nta.go.jp/iken/mail.htm",
+  "text": "ご意見・ご要望"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/links",
+  "text": "リンク設定"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/sitemap",
+  "text": "サイトマップ"
+ },
+ {
+  "href": "https://www.keisan.nta.go.jp/kyoutu/ky/sm/top#bsctrl",
+  "text": "確定申告書等作成コーナー"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/chatbot/index.htm",
+  "text": "チャットボットに相談"
+ },
+ {
+  "href": "https://www.nta.go.jp/index.htm",
+  "text": "⟨国税庁ホームページ⟩"
+ }
+]

@@ -1,0 +1,152 @@
+description: >-
+  退職所得の金額（所得税法第30条第2項〜第6項、所得税法施行令第69条・第71条）。原文：docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md
+  §2.1〜§2.4（所法30 は asof 2024-12-31〜2027-01-01 で同文：同 §3）。令和3年法律第11号附則第5条：新所得税法第30条（短期退職手当等）は令和4年分以後。
+  円未満の端数（残額の2分の1）の定めは所法30 にない（課税退職所得金額の千円未満の切捨て〔国税通則法第118条〕は課税所得の段の規則）。
+退職所得控除額:
+  勤続年数の区分:
+    description: 第3項第1号「勤続年数が二十年以下である場合」の二十年
+    metadata: &art30_3
+      law: 所得税法第30条第3項（一「四十万円に当該勤続年数を乗じて計算した金額」、二「八百万円と七十万円に当該勤続年数から二十年を控除した年数を乗じて計算した金額との合計額」）
+      source_kind: 法律
+      reference:
+        - docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md#2.1
+        - docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md#3
+    values:
+      2025-01-01: {value: 20, metadata: {比較: 以下, unit: 年, 適用: 令和7年分・令和8年分の版で同文（taishoku §3）}}
+  一年当たりの額:
+    description: 第3項第1号の四十万円
+    metadata: *art30_3
+    values:
+      2025-01-01: {value: 400000, metadata: {unit: 円}}
+  二十年を超える場合の基礎:
+    description: 第3項第2号の八百万円
+    metadata: *art30_3
+    values:
+      2025-01-01: {value: 8000000, metadata: {unit: 円}}
+  二十年を超える一年当たりの額:
+    description: 第3項第2号の七十万円
+    metadata: *art30_3
+    values:
+      2025-01-01: {value: 700000, metadata: {unit: 円}}
+  最低額:
+    description: 第6項第2号「八十万円に満たない場合には、八十万円」
+    metadata: &art30_6
+      law: 所得税法第30条第6項第2号・第3号、所得税法施行令第71条（障害者になつたことに直接基因して退職した場合）
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md#2.1
+        - docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md#2.4
+    values:
+      2025-01-01: {value: 800000, metadata: {適用: 令和7年分・令和8年分の版で同文（taishoku §3）}}
+  障害退職の加算額:
+    description: 第6項第3号「百万円を加算した金額」
+    metadata: *art30_6
+    values:
+      2025-01-01: {value: 1000000, metadata: {適用: 令和7年分・令和8年分の版で同文（taishoku §3）}}
+二分の一:
+  分子:
+    description: 第2項「残額の二分の一に相当する金額」の分子
+    metadata: &art30_2
+      law: 所得税法第30条第2項（本文・第1号・第2号）
+      source_kind: 法律
+      reference:
+        - docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md#2.1
+    values:
+      2025-01-01: {value: 1, metadata: {適用: 令和7年分・令和8年分の版で同文（taishoku §3）}}
+  分母:
+    description: 第2項「残額の二分の一に相当する金額」の分母
+    metadata: *art30_2
+    values:
+      2025-01-01: {value: 2}
+短期退職手当等:
+  残額の区分:
+    description: 第2項第1号「残額が三百万円以下である場合」の三百万円（第2号の「三百万円に退職所得控除額を加算した金額」も同じ額）
+    metadata: *art30_2
+    values:
+      2025-01-01: {value: 3000000, metadata: {比較: 以下, unit: 円, 適用: 令和4年分以後（令和3年法律第11号附則第5条）。令和7年分・令和8年分の版で同文}}
+  第2号の基礎:
+    description: 第2項第2号「百五十万円と…」の百五十万円
+    metadata: *art30_2
+    values:
+      2025-01-01: {value: 1500000, metadata: {unit: 円}}
+  勤続年数の上限:
+    description: 第4項「短期勤続年数（…役員等以外の者としての…勤続年数が五年以下であるもの）」の五年
+    metadata:
+      law: 所得税法第30条第4項（短期退職手当等）
+      source_kind: 法律
+      unit: 年
+      reference:
+        - docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md#2.1
+    values:
+      2025-01-01: {value: 5, metadata: {比較: 以下}}
+特定役員退職手当等:
+  役員等勤続年数の上限:
+    description: 第5項「役員等勤続年数が五年以下である者」の五年
+    metadata:
+      law: 所得税法第30条第5項（特定役員退職手当等）
+      source_kind: 法律
+      unit: 年
+      reference:
+        - docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md#2.1
+    values:
+      2025-01-01: {value: 5, metadata: {比較: 以下}}
+二以上の退職手当等:
+  description: >-
+    その年中に一般退職手当等・短期退職手当等・特定役員退職手当等のうち二以上がある場合の控除額の割振り（所得税法第30条第7項、
+    所得税法施行令第71条の2第1項・第3項・第5項・第7項）。原文：scripts/results/R2B_taishoku_egov/shotoku-rei_2026-11-09.txt の Num=71_2
+    （要約は docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md#2.4）。
+  重複勤続年数の一年当たりの額:
+    description: 第1項第1号イ(2)・第3項第1号ロ・第5項第1号ロ・第7項第1号ロ・第2号イ(2)「二十万円に重複勤続年数を乗じて計算した金額」の二十万円
+    metadata: &art71_2
+      law: 所得税法施行令第71条の2
+      source_kind: 政令
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md#2.4
+    values:
+      2025-01-01: {value: 200000, metadata: {適用: 令和7年分・令和8年分の版で同文（taishoku §2.4・§3）}}
+  全重複期間の特定役員の一年当たりの額:
+    description: 第7項第1号ハ「十四万円に重複勤続年数（全重複期間により計算した年数に限る。）を乗じて計算した金額」の十四万円
+    metadata: *art71_2
+    values:
+      2025-01-01: {value: 140000}
+  全重複期間の短期の一年当たりの額:
+    description: 第7項第2号イ(3)「十三万円に重複勤続年数（全重複期間により計算した年数に限る。）を乗じて計算した金額」の十三万円
+    metadata: *art71_2
+    values:
+      2025-01-01: {value: 130000}
+前の退職手当等:
+  description: >-
+    前の退職手当等の勤続期間等とみなす期間（所得税法施行令第70条第2項：前の退職手当等の収入金額が前の退職所得控除額に満たないとき）。
+    原文：docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md#2.3
+  一年当たりの額:
+    description: 第2項第1号「当該収入金額を四十万円で除して計算した数」の四十万円
+    metadata: &art70_2
+      law: 所得税法施行令第70条第2項
+      source_kind: 政令
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md#2.3
+    values:
+      2025-01-01: {value: 400000, metadata: {適用: 令和7年分・令和8年分の版で同文（taishoku §2.3）}}
+  区分の額:
+    description: 第2項第1号・第2号「八百万円以下である場合」「八百万円を超える場合」の八百万円
+    metadata: *art70_2
+    values:
+      2025-01-01: {value: 8000000, metadata: {比較: 以下}}
+  区分を超える一年当たりの額:
+    description: 第2項第2号「八百万円を控除した金額を七十万円で除して計算した数に二十を加算した数」の七十万円
+    metadata: *art70_2
+    values:
+      2025-01-01: {value: 700000}
+  区分を超えるときに加算する数:
+    description: 第2項第2号「…に二十を加算した数」の二十
+    metadata:
+      law: 所得税法施行令第70条第2項
+      source_kind: 政令
+      unit: 年
+      reference:
+        - docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md#2.3
+    values:
+      2025-01-01: {value: 20}

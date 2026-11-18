@@ -1,0 +1,5 @@
+# source=.work\downloads\20261109-145308_IMPL_zeigaku_laws\02_shotoku-rei_2026-12-31.json
+# law_revision_id=340CO0000000096_20261201_508CO0000000093 施行日=2026-12-01 状態=UnEnforced
+# needles=['第十一条の三第二項の改正規定']
+
+# hits=0

@@ -1,0 +1,25 @@
+description: >-
+  家内労働者等の事業所得等の所得計算の特例（租税特別措置法第27条、同施行令第18条の2）。原文と年分ごとの額：
+  docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md §2.1（表）。
+額:
+  description: >-
+    措法27「…必要経費に算入すべき金額の合計額が六十五万円（令和8年分以後の版は六十九万円）…に満たないときは…」の額。
+    給与所得を有する場合の「給与所得控除額を控除した残額」は、この版では計算しない（給与所得控除額は kyuyo の未実装の約束：income_kinds の対象外）。
+  metadata:
+    law: 租税特別措置法第27条・租税特別措置法施行令第18条の2第2項
+    source_kind: 法律
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md#2.1
+      - docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md#2.2
+  values:
+    2025-01-01:
+      value: 650000
+      metadata:
+        施行日: 2025-12-01
+        適用: 令和7年法律第13号附則第1条第1号ロ（施行 令和七年十二月一日）・附則第32条第1項（令和七年分以後の所得税について適用）
+    2026-01-01:
+      value: 690000
+      metadata:
+        施行日: 2026-12-01
+        適用: 令和8年法律第12号附則第1条第4号ロ（施行 令和八年十二月一日）・附則第34条第1項（令和八年分以後の所得税について適用）

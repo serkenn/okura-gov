@@ -1,0 +1,95 @@
+{
+  "set": "hotei",
+  "fetched_at_local": "20261109-151000",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work\\downloads\\20261109-151000_IMPL_misc_hotei",
+  "text_dir": ".work\\text\\20261109-151000_IMPL_misc_hotei",
+  "results": [
+    {
+      "id": "hotei_tebiki2026_02",
+      "url": "https://www.nta.go.jp/publication/pamph/hotei/tebiki2026/PDF/02.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/publication/pamph/hotei/tebiki2026/PDF/02.pdf",
+      "content_type": "application/pdf",
+      "bytes": 6694769,
+      "sha256": "15960b2fe6c35fe1ff1fa5a965277bbeaf2d9a724b0831c8d6677bd72aaa2612",
+      "last_modified": "Thu, 01 Oct 2026 08:30:02 GMT",
+      "etag": "\"662771-65cc338d92930\"",
+      "saved": ".work\\downloads\\20261109-151000_IMPL_misc_hotei\\hotei_tebiki2026_02.pdf"
+    },
+    {
+      "id": "hotei_tebiki2025_02",
+      "url": "https://www.nta.go.jp/publication/pamph/hotei/tebiki2025/PDF/02.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/publication/pamph/hotei/tebiki2025/PDF/02.pdf",
+      "content_type": "application/pdf",
+      "bytes": 6001136,
+      "sha256": "ffd159f901f271164e94afb8f5f3bd369c57af19ec7ba4184f671542ca2620ac",
+      "last_modified": "Mon, 01 Sep 2025 05:00:02 GMT",
+      "etag": "\"5b91f0-63db63e88d910\"",
+      "saved": ".work\\downloads\\20261109-151000_IMPL_misc_hotei\\hotei_tebiki2025_02.pdf"
+    },
+    {
+      "id": "hotei_page_23100051",
+      "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hotei/23100051.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hotei/23100051.htm",
+      "content_type": "text/html",
+      "bytes": 16627,
+      "sha256": "72d309aed8021b3efa1f441a322fbe26315c98a63cadaafe94614db92907c97e",
+      "last_modified": "Fri, 06 Nov 2026 01:00:03 GMT",
+      "etag": "\"40f3-65f9121e62b08\"",
+      "saved": ".work\\downloads\\20261109-151000_IMPL_misc_hotei\\hotei_page_23100051.html",
+      "charset": "shift_jis",
+      "title": "F1-1 給与所得の源泉徴収票（同合計表）｜国税庁",
+      "text_chars": 3435,
+      "text": ".work\\text\\20261109-151000_IMPL_misc_hotei\\hotei_page_23100051.txt",
+      "n_links": 67,
+      "matches": {
+        "birth_range": [
+          {
+            "line_no": 59,
+            "text": "令和8年10月1日から、全ての税務署で総合窓口の受付時間を原則として午前9時から午後3時までとしておりますので、皆様の御理解と御協力をお願いいたします。"
+          }
+        ],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": [
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hotei/pdf/r08/goukei01.pdf",
+          "text": "【手書用】給与所得の源泉徴収票等の法定調書合計表（PDF/934KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hotei/pdf/r08/kisai_goukei01.pdf",
+          "text": "【記載要領】給与所得の源泉徴収票等の法定調書合計表（PDF/224KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hotei/pdf/r08/0026009-074-01.pdf",
+          "text": "相違している箇所【HSZ600】（PDF/264KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hotei/pdf/r08/chousho01.pdf",
+          "text": "給与所得の源泉徴収票（税務署提出用）（PDF/796KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hotei/pdf/r08/0026009-129.pdf",
+          "text": "給与所得の源泉徴収票（受給者交付用）（PDF/132KB"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hotei/pdf/r08/kisai_chousho01.pdf",
+          "text": "【記載要領】給与所得の源泉徴収票（PDF/237KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hotei/pdf/0026005-109_01.pdf",
+          "text": "【入力用】給与支払報告書（個人別明細書）・給与所得の源泉徴収票（受給者交付用）（PDF/386KB)"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hotei/pdf/0026005-109_02.pdf",
+          "text": "【手書用】給与支払報告書（個人別明細書）・給与所得の源泉徴収票（受給者交付用）（PDF/199KB）"
+        }
+      ]
+    }
+  ]
+}

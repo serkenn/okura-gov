@@ -1,0 +1,4 @@
+# source=https://kokkai.ndl.go.jp/api/speech?any=%E7%AC%AC%E4%B8%89%E5%8F%B7%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85+%E8%AA%8D%E5%AE%9A&from=1987-01-01&until=1994-12-31&startRecord=1&maximumRecords=100&recordPacking=json
+# fetched_at=20261109-202044
+
+numberOfRecords=0 numberOfReturn=0 startRecord=1 nextRecordPosition=None

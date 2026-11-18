@@ -1,0 +1,75 @@
+{
+ "set": "nta",
+ "fetched_at": "20261112-165125",
+ "download_dir": ".work/downloads/20261112-165125_IMPL9_tokutei-jumin_web_nta",
+ "robots": [
+  {
+   "host": "https://www.nta.go.jp",
+   "status": 200,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+  }
+ ],
+ "items": [
+  {
+   "id": "tebiki_2025_3_2_06",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_06.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_06.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "bytes": 15144,
+   "sha256": "d693641fc03301440ac9f3cdc9f0b12c73bfd9484ea5ab293713a79998f5f38c",
+   "saved": ".work/downloads/20261112-165125_IMPL9_tokutei-jumin_web_nta/tebiki_2025_3_2_06.htm",
+   "title": "手順2 収入金額等、所得金額を計算する｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "tebiki_2025_001_1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/001-1.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/001-1.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 20 Oct 2026 08:30:03 GMT",
+   "bytes": 147974,
+   "sha256": "15f1874c67264a5b8d87ed8800f37e9f527e96a46ec6fda5239f00f82a503a99",
+   "saved": ".work/downloads/20261112-165125_IMPL9_tokutei-jumin_web_nta/tebiki_2025_001_1.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "tebiki_2025_O1_1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/O/O1-1.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/O/O1-1.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Thu, 24 Sep 2026 05:00:07 GMT",
+   "bytes": 254367,
+   "sha256": "10f878d9502ff67d943330b75fa0c0b604c277d12149093dd222155c17a32b35",
+   "saved": ".work/downloads/20261112-165125_IMPL9_tokutei-jumin_web_nta/tebiki_2025_O1_1.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "kisairei_kyuyo",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kisairei/pdf/kyuyo.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kisairei/pdf/kyuyo.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Thu, 18 Jan 2024 08:01:54 GMT",
+   "bytes": 1540254,
+   "sha256": "0de8b75b28731f7c7c078dc678edd8ece623952427bac5a5194806c56fd94711",
+   "saved": ".work/downloads/20261112-165125_IMPL9_tokutei-jumin_web_nta/kisairei_kyuyo.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "yoshiki_039",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/02/pdf/039.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/02/pdf/039.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Thu, 18 Jan 2024 07:57:58 GMT",
+   "bytes": 236146,
+   "sha256": "f4d2a144bdadbb3bd91ab142f5e04e8dd4387d343fac589c695ffde8682f0b4d",
+   "saved": ".work/downloads/20261112-165125_IMPL9_tokutei-jumin_web_nta/yoshiki_039.pdf",
+   "pdf_header_ok": true
+  }
+ ]
+}

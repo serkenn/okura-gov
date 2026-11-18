@@ -1,0 +1,34 @@
+{
+ "run_at": "20261112-013948",
+ "download_dir": ".work\\downloads\\20261112-013948_IMPL4_laws_egov",
+ "fetches": [
+  {
+   "short": "kokuhorei",
+   "law_id": "333CO0000000362",
+   "name": "国民健康保険法施行令",
+   "asof": "2026-04-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/333CO0000000362?response_format=json&asof=2026-04-01",
+   "status": 200,
+   "bytes": 1390901,
+   "sha256": "beb2bf7a591701692b19abe10df7df6badc6f415a178183f1d96668df5d5cb95",
+   "law_revision_id": "333CO0000000362_20260401_508CO0000000002",
+   "amendment_law_num": "令和八年政令第二号",
+   "amendment_enforcement_date": "2026-04-01",
+   "current_revision_status": "PreviousEnforced"
+  },
+  {
+   "short": "kokuhorei",
+   "law_id": "333CO0000000362",
+   "name": "国民健康保険法施行令",
+   "asof": "2027-04-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/333CO0000000362?response_format=json&asof=2027-04-01",
+   "status": 200,
+   "bytes": 1436152,
+   "sha256": "913bd2d8016edf649b7b1fbee0de4547a15dbbcc3db34120777a451c4cce1c42",
+   "law_revision_id": "333CO0000000362_20260801_508CO0000000240",
+   "amendment_law_num": "令和八年政令第二百四十号",
+   "amendment_enforcement_date": "2026-08-01",
+   "current_revision_status": "CurrentEnforced"
+  }
+ ]
+}

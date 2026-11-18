@@ -1,0 +1,24 @@
+{
+ "script": "scripts/SAKUSEI_reconcile.py",
+ "case": "scripts/inputs/SAKUSEI_reconcile/B01_nenkin-kabu.json",
+ "case_sha256": "01752d39a1808c924b3b7661077297afa9164b3d6dde5ae45e3ec4dc1e126c38",
+ "commit": "ae16baf9b21d9a72878a3ab6d6c2a20ef643a71c",
+ "run": "20261113-093700",
+ "query": {
+  "income_tax_years": [
+   2025
+  ],
+  "resident_tax_fiscal_years": [],
+  "kokuho_fiscal_years": [],
+  "dependent_judgment_dates": [],
+  "scenarios": [],
+  "forms": {
+   "persons": [
+    "p-1"
+   ]
+  }
+ },
+ "evaluate_seconds": 14.8,
+ "forms_ok": true,
+ "out_of_scope": []
+}

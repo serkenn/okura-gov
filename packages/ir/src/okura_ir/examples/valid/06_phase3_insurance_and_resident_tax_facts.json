@@ -1,0 +1,81 @@
+{
+ "schema_version": "0",
+ "persons": [
+  {"id": "p-h", "birth_on": "1972-05-01"},
+  {"id": "p-w", "birth_on": "1974-08-20"},
+  {"id": "p-s", "birth_on": "2005-02-14"}
+ ],
+ "relations": [
+  {"id": "rel-marriage-hw", "kind": "marriage", "roles": {"spouse_a": "p-h", "spouse_b": "p-w"},
+   "when": {"from_on": "2001-06-01"}},
+  {"id": "rel-parent-hs", "kind": "parentage", "roles": {"parent": "p-h", "child": "p-s"},
+   "when": {"on": "2005-02-14"}, "attributes": {"basis": "birth_in_marriage"}},
+  {"id": "rel-parent-ws", "kind": "parentage", "roles": {"parent": "p-w", "child": "p-s"},
+   "when": {"on": "2005-02-14"}, "attributes": {"basis": "birth_mother"}}
+ ],
+ "residences": [
+  {"id": "res-h", "kind": "resident_record", "roles": {"person": "p-h"}, "when": {"from_on": "2001-06-01"},
+   "attributes": {"municipality_code": "990041", "household_id": "hh-h", "householder": true}},
+  {"id": "res-w", "kind": "resident_record", "roles": {"person": "p-w"}, "when": {"from_on": "2001-06-01"},
+   "attributes": {"municipality_code": "990041", "household_id": "hh-h", "householder": false,
+                  "relation_to_householder": "spouse"}},
+  {"id": "res-s", "kind": "resident_record", "roles": {"person": "p-s"}, "when": {"from_on": "2005-02-14"},
+   "attributes": {"municipality_code": "990041", "household_id": "hh-h", "householder": false,
+                  "relation_to_householder": "child"}}
+ ],
+ "insurance_memberships": [
+  {"id": "mem-h", "kind": "medical_insurance", "roles": {"member": "p-h"}, "when": {"from_on": "1995-04-01"},
+   "attributes": {"scheme": "local_public_servants_mutual_aid", "insurer_id": "insurer-kyosai-x", "capacity": "insured"}},
+  {"id": "mem-w", "kind": "medical_insurance", "roles": {"member": "p-w", "insured": "p-h"},
+   "when": {"from_on": "2001-06-01", "to_on": "2026-03-31"},
+   "attributes": {"scheme": "local_public_servants_mutual_aid", "insurer_id": "insurer-kyosai-x", "capacity": "dependent"}},
+  {"id": "mem-w-nhi", "kind": "medical_insurance", "roles": {"member": "p-w"}, "when": {"from_on": "2026-04-01"},
+   "attributes": {"scheme": "national_health_insurance", "insurer_id": "nhi-990041", "capacity": "insured"}},
+  {"id": "np-h", "kind": "national_pension", "roles": {"member": "p-h"}, "when": {"from_on": "1995-04-01"},
+   "attributes": {"category": "second"}},
+  {"id": "np-w", "kind": "national_pension", "roles": {"member": "p-w"}, "when": {"from_on": "2026-04-01"},
+   "attributes": {"category": "first"}},
+  {"id": "np-s", "kind": "national_pension", "roles": {"member": "p-s"}, "when": {"from_on": "2025-02-14"},
+   "attributes": {"category": "first"}}
+ ],
+ "facts": [
+  {"id": "sex-w", "kind": "legal_sex", "roles": {"person": "p-w"}, "when": {"from_on": "1974-08-20"},
+   "attributes": {"sex": "female"}},
+  {"id": "sex-h", "kind": "legal_sex", "roles": {"person": "p-h"}, "when": {"from_on": "1972-05-01"},
+   "attributes": {"sex": "male"}},
+  {"id": "enr-s", "kind": "enrollment", "roles": {"person": "p-s"}, "when": {"from_on": "2023-04-01", "to_on": "2027-03-31"},
+   "attributes": {"school_type": "school_act_article1", "attendance": "full_time"}},
+  {"id": "dis-w", "kind": "disability_basis", "roles": {"person": "p-w"}, "when": {"from_on": "2020-07-01"},
+   "attributes": {"basis": "mental_disability_certificate", "grade": 2, "issued_on": "2020-07-01", "valid_until": "2027-06-30"}},
+  {"id": "biz-w", "kind": "business", "roles": {"owner": "p-w"}, "when": {"from_on": "2026-04-01"},
+   "attributes": {"description": "架空の貸室業"}},
+  {"id": "lc-s", "kind": "labor_contract", "roles": {"worker": "p-s"}, "when": {"from_on": "2026-04-01"},
+   "amounts": {"hourly_wage": 1100},
+   "attributes": {"counterparty": "架空書店", "scheduled_minutes_per_week": 900, "scheduled_days_per_week": 3,
+                  "commuting_allowance_stated": true, "commuting_allowance_as_reimbursement": true, "bonus_stated": false,
+                  "fixed_term": true, "labor_conditions_notice": true}},
+  {"id": "npi-s", "kind": "npi_exemption", "roles": {"person": "p-s"}, "when": {"from_on": "2026-04-01", "to_on": "2027-03-31"},
+   "attributes": {"exemption_type": "student_special", "status": "approved", "applied_on": "2026-04-10", "decided_on": "2026-06-01"}},
+  {"id": "tx-2026-0620-dividend-h", "kind": "dividend", "roles": {"recipient": "p-h"}, "when": {"on": "2026-06-20"},
+   "amounts": {"gross": 10000, "withholding_tax": 2031},
+   "attributes": {"counterparty": "架空証券", "security_class": "listed_investment_trust",
+                  "account_type": "withholding_specified_account", "distribution_type": "securities_investment_trust"}}
+ ],
+ "assets": [
+  {"id": "rp-w", "kind": "rental_property", "roles": {"owner": "p-w"}, "when": {"from_on": "2026-04-01"},
+   "attributes": {"property_type": "room", "municipality_code": "990041", "business_id": "biz-w"}},
+  {"id": "home-h", "kind": "residence_property", "roles": {"holder": "p-h"}, "when": {"from_on": "2001-06-01"},
+   "attributes": {"municipality_code": "990041", "tenure": "owned", "facility_type": "dwelling"}}
+ ],
+ "filed_documents": [
+  {"id": "fd-h-2025", "kind": "filed_document", "roles": {"filer": "p-h"}, "when": {"on": "2026-03-10"},
+   "attributes": {"document_type": "final_return", "tax_year": 2025, "recipient": "tax_office",
+                  "reported_amounts": [
+                    {"item": "taxable_income_total", "amount": 4200000},
+                    {"item": "taxable_retirement_income", "amount": 0},
+                    {"item": "taxable_timber_income", "amount": 0}
+                  ]}}
+ ],
+ "judgments": [],
+ "choices": []
+}

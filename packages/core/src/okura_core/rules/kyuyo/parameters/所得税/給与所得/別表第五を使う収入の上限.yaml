@@ -1,0 +1,14 @@
+description: 別表第五で給与所得の金額を求める給与等の収入金額の上限（この額未満）。この額以上は第28条第2項・第3項の式。
+metadata:
+  law: 所得税法第28条第4項（「その年中の給与等の収入金額が六百六十万円未満である場合には」）
+  source_kind: 法律
+  unit: 円
+  比較: 未満
+  reference:
+    - docs/public-sources/20261109_impl-prep_kyuyo-sources.md#1.1
+values:
+  2025-01-01:
+    value: 6600000
+    metadata:
+      適用: 令和7年分（所法 R7）・令和8年分（所法 R8）で同じ文言（docs/public-sources/20261109_impl-prep_kyuyo-sources.md#1.1）
+      law_revision: 340AC0000000033_20251218_507AC0000000013

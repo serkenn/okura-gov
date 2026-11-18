@@ -1,0 +1,403 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "okura-gov/okura_core/result.schema.json",
+  "title": "判定コアの結果（版 1）",
+  "description": "okura_core.evaluate の出力（result.EvaluationResult / EvaluationFailure の to_dict()）。okura_ir.jsonschema_subset が解釈する部分集合だけで書く。",
+  "oneOf": [
+    {"$ref": "#/$defs/success"},
+    {"$ref": "#/$defs/failure"}
+  ],
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "date": {"type": "string", "format": "date"},
+    "state": {"enum": ["対象外", "未確定", "予測", "見積り", "計画"]},
+    "states": {"type": "array", "items": {"$ref": "#/$defs/state"}},
+    "source_kind": {
+      "enum": ["法律", "政令", "省令", "告示", "通達", "通知・事務連絡", "手引き・様式の注記", "国税庁の説明", "保険者の案内", "自治体の資料"]
+    },
+    "flag": {"enum": ["法令の読み", "原文未確認"]},
+    "time": {
+      "oneOf": [
+        {"type": "object", "required": ["tax_year"], "additionalProperties": false,
+         "properties": {"tax_year": {"type": "integer"}}},
+        {"type": "object", "required": ["fiscal_year"], "additionalProperties": false,
+         "properties": {"fiscal_year": {"type": "integer"}}},
+        {"type": "object", "required": ["on"], "additionalProperties": false,
+         "properties": {"on": {"$ref": "#/$defs/date"}}}
+      ]
+    },
+    "value": {
+      "oneOf": [
+        {"type": "null"},
+        {"type": "object", "required": ["type", "amount"], "additionalProperties": false,
+         "properties": {"type": {"const": "yen"}, "amount": {"type": "integer"}}},
+        {"type": "object", "required": ["type", "min", "max"], "additionalProperties": false,
+         "properties": {"type": {"const": "yen_range"}, "min": {"type": "integer"}, "max": {"type": "integer"}}},
+        {"type": "object", "required": ["type", "value"], "additionalProperties": false,
+         "properties": {"type": {"const": "bool"}, "value": {"type": "boolean"}}},
+        {"type": "object", "required": ["type", "value"], "additionalProperties": false,
+         "properties": {"type": {"const": "integer"}, "value": {"type": "integer"}}},
+        {"type": "object", "required": ["type", "value"], "additionalProperties": false,
+         "properties": {"type": {"const": "category"}, "value": {"type": "string"}}},
+        {"type": "object", "required": ["type", "on"], "additionalProperties": false,
+         "properties": {"type": {"const": "date"}, "on": {"$ref": "#/$defs/date"}}}
+      ]
+    },
+    "basis_entry": {
+      "type": "object",
+      "required": ["type", "name", "source_kind", "references", "flags"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {"enum": ["parameter", "data", "rounding", "rule", "injection"]},
+        "name": {"type": "string"},
+        "source_kind": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/source_kind"}]},
+        "references": {"type": "array", "items": {"type": "string"}},
+        "flags": {"type": "array", "items": {"$ref": "#/$defs/flag"}},
+        "law": {"type": "string"},
+        "value": {},
+        "instant": {"$ref": "#/$defs/date"},
+        "effective_from": {"$ref": "#/$defs/date"},
+        "enforced_on": {"$ref": "#/$defs/date"},
+        "detail": {"type": "object"}
+      }
+    },
+    "basis_ref": {"type": "integer", "minimum": 0, "description": "結果の basis（根拠の一覧）の番号（0 始まり）"},
+    "split": {
+      "type": "object",
+      "required": ["id", "means", "target", "candidates", "splits_conclusion"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string"},
+        "means": {"enum": ["注入", "判断", "事実", "一次情報", "公表待ち"]},
+        "target": {"type": "object"},
+        "candidates": {"type": "array", "items": {"type": "string"}},
+        "splits_conclusion": {"type": "boolean"}
+      }
+    },
+    "undetermined": {
+      "oneOf": [
+        {"type": "null"},
+        {"type": "object", "required": ["splits", "outcomes"], "additionalProperties": false,
+         "properties": {
+           "splits": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/split"}},
+           "outcomes": {"type": "array", "items": {
+             "type": "object", "required": ["conditions", "value"], "additionalProperties": false,
+             "properties": {
+               "conditions": {"type": "object", "additionalProperties": {"type": "string"}},
+               "value": {}
+             }}}
+         }}
+      ]
+    },
+    "out_of_scope_category": {"enum": ["範囲外", "年分外", "未対応"]},
+    "out_of_scope_reason": {
+      "oneOf": [
+        {"type": "null"},
+        {"type": "object", "required": ["category", "reason", "record_ids"], "additionalProperties": false,
+         "properties": {
+           "category": {"$ref": "#/$defs/out_of_scope_category"},
+           "reason": {"type": "string"},
+           "record_ids": {"type": "array", "items": {"type": "string"}}
+         }}
+      ]
+    },
+    "result_value": {
+      "type": "object",
+      "required": ["id", "concept", "variable", "person", "time", "value", "states", "basis", "depends_on", "facts",
+                   "undetermined", "out_of_scope", "filing_item", "evaluated"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string"},
+        "concept": {"type": "string"},
+        "variable": {"type": ["string", "null"]},
+        "person": {"type": ["string", "null"]},
+        "time": {"$ref": "#/$defs/time"},
+        "value": {"$ref": "#/$defs/value"},
+        "states": {"$ref": "#/$defs/states"},
+        "basis": {"type": "array", "items": {"$ref": "#/$defs/basis_ref"}},
+        "depends_on": {"type": "array", "items": {"type": "string"}},
+        "facts": {"type": "array", "items": {"type": "string"}},
+        "undetermined": {"$ref": "#/$defs/undetermined"},
+        "out_of_scope": {"$ref": "#/$defs/out_of_scope_reason"},
+        "filing_item": {"type": "boolean"},
+        "evaluated": {"type": "array", "items": {"$ref": "#/$defs/split"}}
+      }
+    },
+    "boundary": {
+      "type": "object",
+      "required": ["id", "concept", "person", "time", "judgment", "compared", "criterion", "kind", "crossing_value",
+                   "difference", "states"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string"},
+        "concept": {"type": "string"},
+        "person": {"type": "string"},
+        "time": {"$ref": "#/$defs/time"},
+        "judgment": {"type": "object", "required": ["value_id", "value"], "additionalProperties": false,
+                     "properties": {"value_id": {"type": "string"}, "value": {"type": "boolean"}}},
+        "compared": {"type": "object", "required": ["value_id", "concept", "current"], "additionalProperties": false,
+                     "properties": {"value_id": {"type": "string"}, "concept": {"type": "string"},
+                                    "current": {"type": "integer"}}},
+        "criterion": {"type": "object", "required": ["value", "comparison", "basis"], "additionalProperties": false,
+                      "properties": {"value": {"type": "integer"},
+                                     "comparison": {"enum": ["以下", "未満", "超", "以上"]},
+                                     "basis": {"$ref": "#/$defs/basis_ref"}}},
+        "kind": {"enum": ["上限", "下限"]},
+        "crossing_value": {"type": "integer"},
+        "difference": {"type": "integer"},
+        "states": {"$ref": "#/$defs/states"}
+      }
+    },
+    "age_boundary": {
+      "type": "object",
+      "required": ["id", "concept", "person", "time", "related", "age", "criterion", "holds", "kind", "crossing_age",
+                   "boundary_on", "days_to_boundary", "states"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string"},
+        "concept": {"type": "string"},
+        "person": {"type": "string"},
+        "time": {"$ref": "#/$defs/time"},
+        "related": {"type": "object", "required": ["value_id", "concept"], "additionalProperties": false,
+                    "properties": {"value_id": {"type": "string"}, "concept": {"type": "string"}}},
+        "age": {"type": "object", "required": ["value_id", "concept", "current", "birth_on", "reference_on", "reference"],
+                "additionalProperties": false,
+                "properties": {"value_id": {"type": "string"}, "concept": {"type": "string"}, "current": {"type": "integer"},
+                               "birth_on": {"type": "string"}, "reference_on": {"type": "string"}, "reference": {"type": "string"}}},
+        "criterion": {"type": "object", "required": ["value", "comparison", "basis"], "additionalProperties": false,
+                      "properties": {"value": {"type": "integer"},
+                                     "comparison": {"enum": ["以下", "未満", "超", "以上"]},
+                                     "basis": {"$ref": "#/$defs/basis_ref"}}},
+        "holds": {"type": "boolean"},
+        "kind": {"enum": ["上限", "下限"]},
+        "crossing_age": {"type": "integer"},
+        "boundary_on": {"type": "string"},
+        "days_to_boundary": {"type": "integer"},
+        "states": {"$ref": "#/$defs/states"}
+      }
+    },
+    "out_of_scope_item": {
+      "type": "object",
+      "required": ["target", "persons", "category", "reason"],
+      "additionalProperties": false,
+      "properties": {
+        "target": {"type": "object"},
+        "persons": {"type": "array", "items": {"type": "string"}},
+        "category": {"$ref": "#/$defs/out_of_scope_category"},
+        "reason": {"type": "string"}
+      }
+    },
+    "filing_entry": {
+      "type": "object",
+      "required": ["value_id", "concept", "person", "time", "amount", "states", "conditions"],
+      "additionalProperties": false,
+      "properties": {
+        "value_id": {"type": "string"},
+        "concept": {"type": "string"},
+        "person": {"type": "string"},
+        "time": {"$ref": "#/$defs/time"},
+        "amount": {"type": "integer"},
+        "states": {"type": "array", "items": {"enum": ["見積り", "計画"]}},
+        "conditions": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "withheld": {
+      "type": "object",
+      "required": ["value_id", "concept", "person", "time", "reasons", "blocking_value_ids"],
+      "additionalProperties": false,
+      "properties": {
+        "value_id": {"type": "string"},
+        "concept": {"type": "string"},
+        "person": {"type": "string"},
+        "time": {"$ref": "#/$defs/time"},
+        "reasons": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "blocking_value_ids": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "difference_side": {
+      "oneOf": [
+        {"type": "null"},
+        {"type": "object", "required": ["value", "states"], "additionalProperties": false,
+         "properties": {"value": {"$ref": "#/$defs/value"}, "states": {"$ref": "#/$defs/states"}}}
+      ]
+    },
+    "difference": {
+      "type": "object",
+      "required": ["value_id", "concept", "person", "time", "fields", "base", "scenario"],
+      "additionalProperties": false,
+      "properties": {
+        "value_id": {"type": "string"},
+        "concept": {"type": "string"},
+        "person": {"type": ["string", "null"]},
+        "time": {"$ref": "#/$defs/time"},
+        "fields": {"type": "array", "minItems": 1,
+                   "items": {"enum": ["value", "states", "undetermined", "out_of_scope", "present"]}},
+        "base": {"$ref": "#/$defs/difference_side"},
+        "scenario": {"$ref": "#/$defs/difference_side"}
+      }
+    },
+    "form_field": {
+      "type": "object",
+      "required": ["form", "position", "value_type", "status", "value", "marks", "conditions", "value_ids", "mapping", "basis"],
+      "properties": {
+        "form": {"type": "string"},
+        "position": {"type": "string"},
+        "unit": {"enum": [1, 100, 1000, 10000]},
+        "status": {"enum": ["出力", "空欄", "未確定", "対象外", "値なし", "対応なし", "出力しない"]},
+        "marks": {"type": "array", "items": {"enum": ["見積り", "計画"]}},
+        "conditions": {"type": "array", "items": {"type": "string"}},
+        "value_ids": {"type": "array", "items": {"type": "string"}},
+        "basis": {"$ref": "#/$defs/basis_ref"}
+      }
+    },
+    "forms_item": {
+      "oneOf": [
+        {"type": "object", "required": ["ok", "person", "tax_year", "filing_type", "forms", "not_produced"],
+         "properties": {
+           "ok": {"const": true},
+           "person": {"type": "string"},
+           "tax_year": {"type": "integer"},
+           "filing_type": {"type": "object"},
+           "forms": {"type": "array", "items": {
+             "type": "object", "required": ["form", "name", "use", "fields"],
+             "properties": {"form": {"type": "string"}, "name": {"type": "string"},
+                            "use": {"type": ["boolean", "null"]},
+                            "fields": {"type": "array", "items": {"$ref": "#/$defs/form_field"}}}}},
+           "not_produced": {"type": "array", "items": {"type": "object"}}
+         }},
+        {"type": "object", "required": ["ok", "person", "tax_year", "category", "reason", "blocking_value_ids"],
+         "properties": {
+           "ok": {"const": false},
+           "person": {"type": "string"},
+           "tax_year": {"type": "integer"},
+           "category": {"enum": ["予測", "未公表", "年分外", "食い違い", "施行日前の提出"]},
+           "reason": {"type": "string"},
+           "blocking_value_ids": {"type": "array", "items": {"type": "string"}}
+         }}
+      ]
+    },
+    "scenario": {
+      "type": "object",
+      "required": ["id", "label", "values", "boundaries", "age_boundaries", "out_of_scope", "filing", "differences", "forms"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string"},
+        "label": {"type": ["string", "null"]},
+        "values": {"type": "array", "items": {"$ref": "#/$defs/result_value"}},
+        "boundaries": {"type": "array", "items": {"$ref": "#/$defs/boundary"}},
+        "age_boundaries": {"type": "array", "items": {"$ref": "#/$defs/age_boundary"}},
+        "out_of_scope": {"type": "array", "items": {"$ref": "#/$defs/out_of_scope_item"}},
+        "filing": {
+          "type": "object",
+          "required": ["entries", "withheld"],
+          "additionalProperties": false,
+          "properties": {
+            "entries": {"type": "array", "items": {"$ref": "#/$defs/filing_entry"}},
+            "withheld": {"type": "array", "items": {"$ref": "#/$defs/withheld"}}
+          }
+        },
+        "differences": {"type": "array", "items": {"$ref": "#/$defs/difference"}},
+        "forms": {"type": "array", "items": {"$ref": "#/$defs/forms_item"}}
+      }
+    },
+    "versions": {
+      "type": "object",
+      "required": ["okura_core", "openfisca_core", "numpy", "python", "ir_schema", "result_schema",
+                   "parameters_sha256", "data_sha256", "input_sha256"],
+      "additionalProperties": false,
+      "properties": {
+        "okura_core": {"type": "string"},
+        "openfisca_core": {"type": "string"},
+        "numpy": {"type": "string"},
+        "python": {"type": "string"},
+        "ir_schema": {"type": "string"},
+        "result_schema": {"type": "string"},
+        "parameters_sha256": {"type": "object", "additionalProperties": {"$ref": "#/$defs/sha256"}},
+        "data_sha256": {"type": "object", "additionalProperties": {"$ref": "#/$defs/sha256"}},
+        "input_sha256": {"$ref": "#/$defs/sha256"}
+      }
+    },
+    "query": {
+      "type": "object",
+      "required": ["income_tax_years", "filing_date", "resident_tax_fiscal_years", "kokuho_fiscal_years",
+                   "dependent_judgment_dates", "scenarios"],
+      "additionalProperties": false,
+      "properties": {
+        "income_tax_years": {"type": "array", "items": {"type": "integer"}},
+        "filing_date": {
+          "oneOf": [
+            {"type": "null"},
+            {"type": "object", "required": ["on", "planned"], "additionalProperties": false,
+             "properties": {"on": {"$ref": "#/$defs/date"}, "planned": {"type": "boolean"}}}
+          ]
+        },
+        "resident_tax_fiscal_years": {"type": "array", "items": {"type": "integer"}},
+        "kokuho_fiscal_years": {"type": "array", "items": {"type": "integer"}},
+        "kokunen_fiscal_years": {"type": "array", "items": {"type": "integer"}},
+        "dependent_judgment_dates": {"type": "array", "items": {"$ref": "#/$defs/date"}},
+        "forms": {
+          "oneOf": [
+            {"type": "null"},
+            {"type": "object", "required": ["persons"], "additionalProperties": false,
+             "properties": {"persons": {"oneOf": [{"type": "null"}, {"type": "array", "items": {"type": "string"}}]}}}
+          ]
+        },
+        "scenarios": {"type": "array", "items": {
+          "type": "object", "required": ["id", "label", "judgments", "choices"], "additionalProperties": false,
+          "properties": {
+            "id": {"type": "string"},
+            "label": {"type": ["string", "null"]},
+            "judgments": {"type": "array", "items": {"type": "object"}},
+            "choices": {"type": "array", "items": {"type": "object"}}
+          }}}
+      }
+    },
+    "injected_summary": {
+      "type": "object",
+      "required": ["id", "point", "issuer", "applies", "source"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string"},
+        "point": {"type": "string"},
+        "issuer": {"type": "object", "required": ["kind", "code"], "additionalProperties": false,
+                   "properties": {"kind": {"enum": ["municipality", "prefecture", "insurer"]}, "code": {"type": "string"}}},
+        "applies": {"type": "object", "required": ["from_on", "to_on"], "additionalProperties": false,
+                    "properties": {"from_on": {"$ref": "#/$defs/date"},
+                                   "to_on": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/date"}]}}},
+        "source": {"type": "object", "required": ["url", "retrieved_on", "source_kind", "title", "sha256"],
+                   "additionalProperties": false,
+                   "properties": {"url": {"type": "string"}, "retrieved_on": {"$ref": "#/$defs/date"},
+                                  "source_kind": {"$ref": "#/$defs/source_kind"},
+                                  "title": {"type": ["string", "null"]},
+                                  "sha256": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/sha256"}]}}}
+      }
+    },
+    "success": {
+      "type": "object",
+      "required": ["ok", "result_schema_version", "versions", "query", "injected", "basis", "scenarios"],
+      "additionalProperties": false,
+      "properties": {
+        "ok": {"const": true},
+        "result_schema_version": {"const": "2"},
+        "versions": {"$ref": "#/$defs/versions"},
+        "query": {"$ref": "#/$defs/query"},
+        "injected": {"type": "array", "items": {"$ref": "#/$defs/injected_summary"}},
+        "basis": {"type": "array", "items": {"$ref": "#/$defs/basis_entry"},
+                  "description": "根拠の一覧。値・境目・欄の basis は、この一覧の番号（同じ根拠は1回だけ置く）"},
+        "scenarios": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/scenario"}}
+      }
+    },
+    "failure": {
+      "type": "object",
+      "required": ["ok", "result_schema_version", "errors"],
+      "additionalProperties": false,
+      "properties": {
+        "ok": {"const": false},
+        "result_schema_version": {"const": "2"},
+        "errors": {"type": "array", "minItems": 1, "items": {
+          "type": "object", "required": ["path", "code", "message"], "additionalProperties": false,
+          "properties": {"path": {"type": "string"}, "code": {"type": "string"}, "message": {"type": "string"}}}}
+      }
+    }
+  }
+}

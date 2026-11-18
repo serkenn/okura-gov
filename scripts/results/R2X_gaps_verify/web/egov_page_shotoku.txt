@@ -1,0 +1,5 @@
+# source=https://laws.e-gov.go.jp/law/340AC0000000033
+# fetched_at=20261109-182805
+# sha256=d984761fd993755a45405911992cb80826830d21b38ade13fe8216a12910dad7
+
+e-Gov 法令検索

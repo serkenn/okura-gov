@@ -1,0 +1,1122 @@
+file	line	heading	class	token
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	4	実装前調査：記録層（beancount ＋ 証憑ファイル）が電帳法・所得税法の保存要件を満たすための設計（仮説）	ascii_expr	impl-prep
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	4	実装前調査：記録層（beancount ＋ 証憑ファイル）が電帳法・所得税法の保存要件を満たすための設計（仮説）	ascii_ident	denchoho
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	8	実装前調査：記録層（beancount ＋ 証憑ファイル）が電帳法・所得税法の保存要件を満たすための設計（仮説）	path	docs/public-sources/20261109_impl-prep_denchoho-requirements.md
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	9	実装前調査：記録層（beancount ＋ 証憑ファイル）が電帳法・所得税法の保存要件を満たすための設計（仮説）	path	docs/measurements/20261109_impl-prep_denchoho-fetch.md
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	10	実装前調査：記録層（beancount ＋ 証憑ファイル）が電帳法・所得税法の保存要件を満たすための設計（仮説）	path	docs/public-sources/20261109_R2-tools_plain-text-accounting-source.md
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	11	実装前調査：記録層（beancount ＋ 証憑ファイル）が電帳法・所得税法の保存要件を満たすための設計（仮説）	path	docs/measurements/20261109_R2-tools_beancount-runtime.md
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	12	実装前調査：記録層（beancount ＋ 証憑ファイル）が電帳法・所得税法の保存要件を満たすための設計（仮説）	path	docs/public-sources/20261109_R1-laws_social-insurance-age-records.md
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	42	H2. 証憑ファイルは受け取ったまま、台帳と分けて、内容のハッシュで識別して保存する	ascii_ident	document
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	42	H2. 証憑ファイルは受け取ったまま、台帳と分けて、内容のハッシュで識別して保存する	other	option "documents"
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	44	H2. 証憑ファイルは受け取ったまま、台帳と分けて、内容のハッシュで識別して保存する	other	evidence/<人のID>/<年>/
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	44	H2. 証憑ファイルは受け取ったまま、台帳と分けて、内容のハッシュで識別して保存する	other	evidence_id = "sha256:<hex>"
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	45	H2. 証憑ファイルは受け取ったまま、台帳と分けて、内容のハッシュで識別して保存する	other	derived_from: <元の evidence_id>
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	47	H2. 証憑ファイルは受け取ったまま、台帳と分けて、内容のハッシュで識別して保存する	other	evidence: "sha256:…"
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	47	H2. 証憑ファイルは受け取ったまま、台帳と分けて、内容のハッシュで識別して保存する	ascii_ident	document
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	47	H2. 証憑ファイルは受け取ったまま、台帳と分けて、内容のハッシュで識別して保存する	other	option "documents"
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	47	H2. 証憑ファイルは受け取ったまま、台帳と分けて、内容のハッシュで識別して保存する	ascii_ident	document
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	47	H2. 証憑ファイルは受け取ったまま、台帳と分けて、内容のハッシュで識別して保存する	other	option "documents"
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	47	H2. 証憑ファイルは受け取ったまま、台帳と分けて、内容のハッシュで識別して保存する	ascii_ident	document
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	54	H3. 真実性は規則第4条第1項第4号（事務処理規程）で満たし、追記のみのハッシュ連鎖ログを規程の運用の記録にする	path	records/<人のID>/kitei.md
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	55	H3. 真実性は規則第4条第1項第4号（事務処理規程）で満たし、追記のみのハッシュ連鎖ログを規程の運用の記録にする	dotted_jp	records/<人のID>/evidence-log.jsonl
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	55	H3. 真実性は規則第4条第1項第4号（事務処理規程）で満たし、追記のみのハッシュ連鎖ログを規程の運用の記録にする	ascii_ident	received
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	55	H3. 真実性は規則第4条第1項第4号（事務処理規程）で満たし、追記のみのハッシュ連鎖ログを規程の運用の記録にする	ascii_ident	derived
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	55	H3. 真実性は規則第4条第1項第4号（事務処理規程）で満たし、追記のみのハッシュ連鎖ログを規程の運用の記録にする	ascii_ident	correction_request
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	55	H3. 真実性は規則第4条第1項第4号（事務処理規程）で満たし、追記のみのハッシュ連鎖ログを規程の運用の記録にする	ascii_ident	deleted
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	55	H3. 真実性は規則第4条第1項第4号（事務処理規程）で満たし、追記のみのハッシュ連鎖ログを規程の運用の記録にする	ascii_ident	correction_request
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	57	H3. 真実性は規則第4条第1項第4号（事務処理規程）で満たし、追記のみのハッシュ連鎖ログを規程の運用の記録にする	ascii_ident	deleted
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	64	H4. 検索は、免除に当たる見込みでも、日付・金額・取引先の索引を自動で作って持つ	ascii_ident	evidence_id
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	64	H4. 検索は、免除に当たる見込みでも、日付・金額・取引先の索引を自動で作って持つ	ascii_ident	person
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	64	H4. 検索は、免除に当たる見込みでも、日付・金額・取引先の索引を自動で作って持つ	ascii_ident	date
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	64	H4. 検索は、免除に当たる見込みでも、日付・金額・取引先の索引を自動で作って持つ	ascii_ident	amount
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	64	H4. 検索は、免除に当たる見込みでも、日付・金額・取引先の索引を自動で作って持つ	ascii_ident	counterparty
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	64	H4. 検索は、免除に当たる見込みでも、日付・金額・取引先の索引を自動で作って持つ	ascii_ident	doc_type
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	64	H4. 検索は、免除に当たる見込みでも、日付・金額・取引先の索引を自動で作って持つ	ascii_ident	tx_ids
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	64	H4. 検索は、免除に当たる見込みでも、日付・金額・取引先の索引を自動で作って持つ	ascii_ident	received_at
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	64	H4. 検索は、免除に当たる見込みでも、日付・金額・取引先の索引を自動で作って持つ	ascii_ident	source
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	67	H4. 検索は、免除に当たる見込みでも、日付・金額・取引先の索引を自動で作って持つ	dotted_jp	<YYYYMMDD>_<取引先>_<金額>_<sha256の先頭8桁>.<拡張子>
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	73	H5. 保存期限は証憑ごとに計算して記録し、最長の7年を既定にする	ascii_ident	retain_from
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	73	H5. 保存期限は証憑ごとに計算して記録し、最長の7年を既定にする	ascii_ident	retain_until
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	74	H5. 保存期限は証憑ごとに計算して記録し、最長の7年を既定にする	other	kisanbi_shorui(受領日)
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	74	H5. 保存期限は証憑ごとに計算して記録し、最長の7年を既定にする	other	manryo(起算日, 年数)
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	80	H6. 見読性とダウンロードの求めへの対応を、エクスポートのコマンド1つにまとめる	other	export --person <人> --year <年>
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	98	H9. 重加算税の加重措置の除外（令和8年分から）とタイムスタンプは、初期の範囲に入れない	ascii_ident	source
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	104	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	evidence_id
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	104	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	person
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	104	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	received_at
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	104	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	source
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	104	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	original_filename
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	104	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	media_type
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	104	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	doc_type
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	104	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	date
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	104	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	amount
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	104	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	currency
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	104	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	counterparty
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	104	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	derived_from
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	104	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	edit_kind
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	104	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	retain_from
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	104	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	retain_until
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	105	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	id
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	105	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	evidence
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	106	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	seq
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	106	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	prev_sha256
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	106	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	kind
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	106	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	at
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	106	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	actor
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	106	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	evidence_id
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	106	H10. 記録層のスキーマに足す語彙（事実だけ）	ascii_ident	sha256
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	111	訂正の記録	path	docs/measurements/20261109_impl-prep_denchoho-verification.md
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	4	仮説：医療費控除・セルフメディケーション税制の記録層・判定コア・出力層の分担（令和7年分・令和8年分）	ascii_ident	iryohi
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	6	仮説：医療費控除・セルフメディケーション税制の記録層・判定コア・出力層の分担（令和7年分・令和8年分）	path	docs/public-sources/20261109_impl-prep_iryohi-law-text.md
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	7	仮説：医療費控除・セルフメディケーション税制の記録層・判定コア・出力層の分担（令和7年分・令和8年分）	path	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	8	仮説：医療費控除・セルフメディケーション税制の記録層・判定コア・出力層の分担（令和7年分・令和8年分）	path	docs/measurements/20261109_impl-prep_iryohi-fetch-and-forms.md
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	9	仮説：医療費控除・セルフメディケーション税制の記録層・判定コア・出力層の分担（令和7年分・令和8年分）	path	docs/measurements/20261109_sakusei-corner_client-analysis.md
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	10	仮説：医療費控除・セルフメディケーション税制の記録層・判定コア・出力層の分担（令和7年分・令和8年分）	path	docs/public-sources/20261109_R1-laws_income-tax.md
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	11	仮説：医療費控除・セルフメディケーション税制の記録層・判定コア・出力層の分担（令和7年分・令和8年分）	path	docs/hypotheses/20261109_R4-modeling_entity-model.md
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	11	仮説：医療費控除・セルフメディケーション税制の記録層・判定コア・出力層の分担（令和7年分・令和8年分）	path	docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	41	H2 記録層（事実）に持つ医療費の支払の項目	ascii_ident	id
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	42	H2 記録層（事実）に持つ医療費の支払の項目	ascii_ident	payer
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	43	H2 記録層（事実）に持つ医療費の支払の項目	ascii_ident	patient
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	44	H2 記録層（事実）に持つ医療費の支払の項目	ascii_ident	provider
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	45	H2 記録層（事実）に持つ医療費の支払の項目	ascii_ident	paid_on
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	46	H2 記録層（事実）に持つ医療費の支払の項目	ascii_ident	incurred_on
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	47	H2 記録層（事実）に持つ医療費の支払の項目	ascii_ident	amount
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	48	H2 記録層（事実）に持つ医療費の支払の項目	ascii_ident	kind
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	49	H2 記録層（事実）に持つ医療費の支払の項目	ascii_ident	evidence
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	50	H2 記録層（事実）に持つ医療費の支払の項目	ascii_ident	selfmed_mark
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	51	H2 記録層（事実）に持つ医療費の支払の項目	ascii_ident	deposit_applied_on
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	54	H2 記録層（事実）に持つ医療費の支払の項目	ascii_ident	incurred_on
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	54	H2 記録層（事実）に持つ医療費の支払の項目	ascii_ident	paid_on
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	55	H2 記録層（事実）に持つ医療費の支払の項目	other	incurred_on = paid_on
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	61	H3 記録層で区別する「医療費の種類」（`kind` の語彙）	ascii_ident	kind
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	63	H3 記録層で区別する「医療費の種類」（`kind` の語彙）	ascii_ident	medical_treatment
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	64	H3 記録層で区別する「医療費の種類」（`kind` の語彙）	ascii_ident	health_checkup
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	65	H3 記録層で区別する「医療費の種類」（`kind` の語彙）	ascii_ident	specific_health_guidance
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	66	H3 記録層で区別する「医療費の種類」（`kind` の語彙）	ascii_ident	medicine
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	67	H3 記録層で区別する「医療費の種類」（`kind` の語彙）	ascii_ident	hospitalization
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	68	H3 記録層で区別する「医療費の種類」（`kind` の語彙）	ascii_ident	care_service
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	69	H3 記録層で区別する「医療費の種類」（`kind` の語彙）	ascii_ident	manual_therapy
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	70	H3 記録層で区別する「医療費の種類」（`kind` の語彙）	ascii_ident	nursing_care
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	71	H3 記録層で区別する「医療費の種類」（`kind` の語彙）	ascii_ident	midwifery
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	72	H3 記録層で区別する「医療費の種類」（`kind` の語彙）	ascii_ident	suction_care
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	73	H3 記録層で区別する「医療費の種類」（`kind` の語彙）	ascii_ident	transport
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	74	H3 記録層で区別する「医療費の種類」（`kind` の語彙）	ascii_ident	medical_device
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	75	H3 記録層で区別する「医療費の種類」（`kind` の語彙）	ascii_ident	diaper
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	76	H3 記録層で区別する「医療費の種類」（`kind` の語彙）	ascii_ident	certified_other
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	77	H3 記録層で区別する「医療費の種類」（`kind` の語彙）	ascii_ident	transplant_mediation
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	78	H3 記録層で区別する「医療費の種類」（`kind` の語彙）	ascii_ident	welfare_levy
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	79	H3 記録層で区別する「医療費の種類」（`kind` の語彙）	ascii_ident	deposit
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	81	H3 記録層で区別する「医療費の種類」（`kind` の語彙）	ascii_ident	kind
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	102	H5 「総所得金額等」は判定コアが「合計所得金額」と別の変数として計算する	ascii_ident	total_income_for_deductions
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	102	H5 「総所得金額等」は判定コアが「合計所得金額」と別の変数として計算する	ascii_ident	total_income_sum
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	109	H6 5%の円未満の端数処理は一次情報がない。名前つきの関数にし、作成コーナーで確かめる	other	threshold_5pct_floor(D)
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	117	H7 セルフメディケーション税制は「取組」と「表示のある購入」の事実で判定し、対象医薬品の一覧は判定コアに持たない	ascii_ident	selfmed_mark
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	133	H9 誰が控除するか：支払1件に支払者は1人。生計一は支払ごとに2つの時点のどちらかで判定し、扶養の所属とは無関係	ascii_ident	id
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	133	H9 誰が控除するか：支払1件に支払者は1人。生計一は支払ごとに2つの時点のどちらかで判定し、扶養の所属とは無関係	ascii_ident	payer
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	152	H11.1 医療費控除の明細書【内訳書】（様式 NTA0K0B560010180）	ascii_ident	patient
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	153	H11.1 医療費控除の明細書【内訳書】（様式 NTA0K0B560010180）	ascii_ident	provider
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	154	H11.1 医療費控除の明細書【内訳書】（様式 NTA0K0B560010180）	ascii_ident	kind
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	160	H11.1 医療費控除の明細書【内訳書】（様式 NTA0K0B560010180）	other	threshold_5pct_floor(D)
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	171	H11.2 セルフメディケーション税制の明細書（様式 NTA0K0B570010060）	ascii_ident	provider
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	178	H11.2 セルフメディケーション税制の明細書（様式 NTA0K0B570010060）	ascii_ident	patient
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	189	H11.4 すべての出力に付ける根拠（D13）	ascii_ident	id
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	189	H11.4 すべての出力に付ける根拠（D13）	ascii_ident	id
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	190	H11.4 すべての出力に付ける根拠（D13）	ascii_ident	threshold_5pct_floor
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	201	訂正の記録	path	docs/measurements/20261109_impl-prep_iryohi-verification.md
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	203	訂正の記録	ascii_ident	selfmed_mark
+docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md	5	仮説：事業所得・業務に係る雑所得の計算を判定コアと記録層にどう置くか（IMPL jigyo）	path	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md
+docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md	6	仮説：事業所得・業務に係る雑所得の計算を判定コアと記録層にどう置くか（IMPL jigyo）	path	docs/measurements/20261109_impl-prep_jigyo-fetch-and-checks.md
+docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md	7	仮説：事業所得・業務に係る雑所得の計算を判定コアと記録層にどう置くか（IMPL jigyo）	path	docs/public-sources/20261109_R3-tsutatsu_nta.md
+docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md	8	仮説：事業所得・業務に係る雑所得の計算を判定コアと記録層にどう置くか（IMPL jigyo）	path	docs/public-sources/20261109_R1-laws_income-tax.md
+docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md	10	仮説：事業所得・業務に係る雑所得の計算を判定コアと記録層にどう置くか（IMPL jigyo）	path	docs/inferences/20261109_impl-prep_jigyo-inferences.md
+docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md	136	訂正の記録	path	docs/measurements/20261109_impl-prep_jigyo-verification.md
+docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md	6	仮説：住民税（扶養・非課税の判定と申告の要否）を判定コアでどう表すか	path	docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md
+docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md	7	仮説：住民税（扶養・非課税の判定と申告の要否）を判定コアでどう表すか	path	docs/measurements/20261109_impl-prep_juminzei-law-fetch-and-thresholds.md
+docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md	8	仮説：住民税（扶養・非課税の判定と申告の要否）を判定コアでどう表すか	path	docs/public-sources/20261109_R1-laws_local-tax.md
+docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md	9	仮説：住民税（扶養・非課税の判定と申告の要否）を判定コアでどう表すか	path	docs/public-sources/20261109_R1-laws_social-insurance-age-records.md
+docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md	10	仮説：住民税（扶養・非課税の判定と申告の要否）を判定コアでどう表すか	path	docs/public-sources/20261109_R4-modeling_concepts.md
+docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md	11	仮説：住民税（扶養・非課税の判定と申告の要否）を判定コアでどう表すか	other	evaluate(中間表現, 年分)
+docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md	125	訂正の記録	path	docs/measurements/20261109_impl-prep_juminzei-verification.md
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	5	健康保険の被扶養者判定：入力の事実・判断の分け方と、判定コアの置き方（仮説）	path	docs/inferences/20261109_impl-prep_kenpo-test-cases.md
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	7	健康保険の被扶養者判定：入力の事実・判断の分け方と、判定コアの置き方（仮説）	path	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	8	健康保険の被扶養者判定：入力の事実・判断の分け方と、判定コアの置き方（仮説）	path	docs/measurements/20261109_impl-prep_kenpo-fetch-and-scan.md
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	9	健康保険の被扶養者判定：入力の事実・判断の分け方と、判定コアの置き方（仮説）	path	docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	10	健康保険の被扶養者判定：入力の事実・判断の分け方と、判定コアの置き方（仮説）	path	docs/public-sources/20261109_R1-laws_social-insurance-age-records.md
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	11	健康保険の被扶養者判定：入力の事実・判断の分け方と、判定コアの置き方（仮説）	path	docs/public-sources/20261109_R4-modeling_concepts.md
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	12	健康保険の被扶養者判定：入力の事実・判断の分け方と、判定コアの置き方（仮説）	path	docs/public-sources/20261109_R3-tsutatsu_nta.md
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	13	健康保険の被扶養者判定：入力の事実・判断の分け方と、判定コアの置き方（仮説）	path	docs/measurements/20261109_R2-tools_openfisca-core-runtime.md
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	14	健康保険の被扶養者判定：入力の事実・判断の分け方と、判定コアの置き方（仮説）	path	docs/hypotheses/20261109_R4-modeling_entity-model.md
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	54	HK1 健保の基準は「年分」ではなく「判定日（認定日）」で引く	other	evaluate_kenpo(中間表現, 判定日 D)
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	56	HK1 健保の基準は「年分」ではなく「判定日（認定日）」で引く	ascii_expr	year:<D>
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	149	訂正の記録	path	docs/measurements/20261109_impl-prep_kenpo-verification.md
+docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md	6	実装前調査（kyuyo）仮説：給与所得の計算規則、別表第五と措置法第29条の4の関係、住民税への波及	path	docs/public-sources/20261109_impl-prep_kyuyo-sources.md
+docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md	7	実装前調査（kyuyo）仮説：給与所得の計算規則、別表第五と措置法第29条の4の関係、住民税への波及	path	docs/measurements/20261109_impl-prep_kyuyo-beppyo5.md
+docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md	8	実装前調査（kyuyo）仮説：給与所得の計算規則、別表第五と措置法第29条の4の関係、住民税への波及	path	docs/measurements/20261109_impl-prep_kyuyo-thresholds.md
+docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md	9	実装前調査（kyuyo）仮説：給与所得の計算規則、別表第五と措置法第29条の4の関係、住民税への波及	path	docs/public-sources/20261109_R1-laws_income-tax.md
+docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md	10	実装前調査（kyuyo）仮説：給与所得の計算規則、別表第五と措置法第29条の4の関係、住民税への波及	path	docs/public-sources/20261109_R1-laws_local-tax.md
+docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md	11	実装前調査（kyuyo）仮説：給与所得の計算規則、別表第五と措置法第29条の4の関係、住民税への波及	path	docs/measurements/20261109_R1-laws_article-extraction.md
+docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md	12	実装前調査（kyuyo）仮説：給与所得の計算規則、別表第五と措置法第29条の4の関係、住民税への波及	path	docs/measurements/20261109_impl-prep_kyuyo-verify.md
+docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md	89	訂正の記録	path	docs/measurements/20261109_impl-prep_kyuyo-verification.md
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	5	実装前の追加調査（misc）：仮説（年齢の判定、親族の範囲、扶養の所属、扶養の連鎖、源泉徴収の事実）	path	docs/inferences/20261109_impl-prep_misc-inferences.md
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	7	実装前の追加調査（misc）：仮説（年齢の判定、親族の範囲、扶養の所属、扶養の連鎖、源泉徴収の事実）	path	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	8	実装前の追加調査（misc）：仮説（年齢の判定、親族の範囲、扶養の所属、扶養の連鎖、源泉徴収の事実）	path	docs/measurements/20261109_impl-prep_misc-fetch-and-age-check.md
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	9	実装前の追加調査（misc）：仮説（年齢の判定、親族の範囲、扶養の所属、扶養の連鎖、源泉徴収の事実）	path	docs/public-sources/20261109_R4-modeling_concepts.md
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	10	実装前の追加調査（misc）：仮説（年齢の判定、親族の範囲、扶養の所属、扶養の連鎖、源泉徴収の事実）	path	docs/public-sources/20261109_R1-laws_social-insurance-age-records.md
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	11	実装前の追加調査（misc）：仮説（年齢の判定、親族の範囲、扶養の所属、扶養の連鎖、源泉徴収の事実）	path	docs/public-sources/20261109_R1-laws_income-tax.md
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	12	実装前の追加調査（misc）：仮説（年齢の判定、親族の範囲、扶養の所属、扶養の連鎖、源泉徴収の事実）	path	docs/public-sources/20261109_R1-laws_local-tax.md
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	13	実装前の追加調査（misc）：仮説（年齢の判定、親族の範囲、扶養の所属、扶養の連鎖、源泉徴収の事実）	path	docs/public-sources/20261109_R3-tsutatsu_nta.md
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	14	実装前の追加調査（misc）：仮説（年齢の判定、親族の範囲、扶養の所属、扶養の連鎖、源泉徴収の事実）	path	docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	15	実装前の追加調査（misc）：仮説（年齢の判定、親族の範囲、扶養の所属、扶養の連鎖、源泉徴収の事実）	path	docs/measurements/20261109_R2-tools_openfisca-core-runtime.md
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	16	実装前の追加調査（misc）：仮説（年齢の判定、親族の範囲、扶養の所属、扶養の連鎖、源泉徴収の事実）	path	docs/measurements/20261109_sakusei-corner_client-analysis.md
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	17	実装前の追加調査（misc）：仮説（年齢の判定、親族の範囲、扶養の所属、扶養の連鎖、源泉徴収の事実）	path	docs/hypotheses/20261109_R4-modeling_entity-model.md
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	17	実装前の追加調査（misc）：仮説（年齢の判定、親族の範囲、扶養の所属、扶養の連鎖、源泉徴収の事実）	path	docs/hypotheses/20261109_R1-laws_hypotheses.md
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	26	H1 年齢は「判定日の終了時に達している年齢」を返す1つの関数で求め、生年月日の範囲はパラメータに持たない	other	年齢(生年月日, 判定日)
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	27	H1 年齢は「判定日の終了時に達している年齢」を返す1つの関数で求め、生年月日の範囲はパラメータに持たない	other	Y − 生まれた年 ＋（1月1日生まれなら1）
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	32	H1 年齢は「判定日の終了時に達している年齢」を返す1つの関数で求め、生年月日の範囲はパラメータに持たない	ascii_ident	jsGetAge
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	143	訂正の記録	path	docs/measurements/20261109_impl-prep_misc-verification.md
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	4	出力層（申告用の出力）の最小の形	ascii_expr	impl-prep
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	4	出力層（申告用の出力）の最小の形	ascii_ident	output
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	7	出力層（申告用の出力）の最小の形	path	docs/public-sources/20261109_impl-prep_output-forms-and-specs.md
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	8	出力層（申告用の出力）の最小の形	path	docs/measurements/20261109_impl-prep_output-fetch-and-parse.md
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	9	出力層（申告用の出力）の最小の形	path	docs/public-sources/20261109_nta-software_terms-of-use.md
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	10	出力層（申告用の出力）の最小の形	path	docs/measurements/20261109_sakusei-corner_client-analysis.md
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	11	出力層（申告用の出力）の最小の形	path	docs/measurements/20261109_impl-prep_output-verification.md
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	26	H1：出力層の最小の形は「申告書の欄ごとの値と根拠の一覧」（以下「欄値表」）。e-Tax の XML は最小の形に含めない	other	NTA1K?A020010230
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	26	H1：出力層の最小の形は「申告書の欄ごとの値と根拠の一覧」（以下「欄値表」）。e-Tax の XML は最小の形に含めない	other	?
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	28	H1：出力層の最小の形は「申告書の欄ごとの値と根拠の一覧」（以下「欄値表」）。e-Tax の XML は最小の形に含めない	ascii_ident	G58
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	30	H1：出力層の最小の形は「申告書の欄ごとの値と根拠の一覧」（以下「欄値表」）。e-Tax の XML は最小の形に含めない	ascii_ident	G109
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	36	H1：出力層の最小の形は「申告書の欄ごとの値と根拠の一覧」（以下「欄値表」）。e-Tax の XML は最小の形に含めない	ascii_ident	G58
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	37	H1：出力層の最小の形は「申告書の欄ごとの値と根拠の一覧」（以下「欄値表」）。e-Tax の XML は最小の形に含めない	other	.data
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	37	H1：出力層の最小の形は「申告書の欄ごとの値と根拠の一覧」（以下「欄値表」）。e-Tax の XML は最小の形に含めない	other	.xtx
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	37	H1：出力層の最小の形は「申告書の欄ごとの値と根拠の一覧」（以下「欄値表」）。e-Tax の XML は最小の形に含めない	other	.data
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	38	H1：出力層の最小の形は「申告書の欄ごとの値と根拠の一覧」（以下「欄値表」）。e-Tax の XML は最小の形に含めない	other	.xtx
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	40	H1：出力層の最小の形は「申告書の欄ごとの値と根拠の一覧」（以下「欄値表」）。e-Tax の XML は最小の形に含めない	path	docs/inferences/20261109_impl-prep_output-checks.md
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	64	H4：欄の鍵は「年分 × 様式ID × 欄コード」とし、欄番号・欄名を必ず併記する。対応表は年分ごとに持つ	ascii_ident	K
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	75	H6：個人番号（マイナンバー）は出力しない。欄値表では空欄として示し、ユーザーが書く	ascii_ident	F02
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	81	H7：申告書第二表のうち住民税・親族の欄は、所得税の出力として出す（住民税の判定とは別）	ascii_ident	G36
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	81	H7：申告書第二表のうち住民税・親族の欄は、所得税の出力として出す（住民税の判定とは別）	ascii_ident	G36
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	89	H8：e-Tax の XML を作るのは、次の3つがそろってから	other	.xtx
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	102	H10：紙の様式ID は「`NTA` ＋1桁＋e-Tax の様式ID（6文字）＋ページ（2桁）＋版（4桁）」で、e-Tax の様式ID と同じ英字の O を使う（2026-11-09 独立検証で追加。もとは公開資料の文書 §5.1 にあった推測を移して書き直した）	form_id	NTA1KOA020010230
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	102	H10：紙の様式ID は「`NTA` ＋1桁＋e-Tax の様式ID（6文字）＋ページ（2桁）＋版（4桁）」で、e-Tax の様式ID と同じ英字の O を使う（2026-11-09 独立検証で追加。もとは公開資料の文書 §5.1 にあった推測を移して書き直した）	form_id	NTA0KOA020020230
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	102	H10：紙の様式ID は「`NTA` ＋1桁＋e-Tax の様式ID（6文字）＋ページ（2桁）＋版（4桁）」で、e-Tax の様式ID と同じ英字の O を使う（2026-11-09 独立検証で追加。もとは公開資料の文書 §5.1 にあった推測を移して書き直した）	form_id	NTA0KOB560010180
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	103	H10：紙の様式ID は「`NTA` ＋1桁＋e-Tax の様式ID（6文字）＋ページ（2桁）＋版（4桁）」で、e-Tax の様式ID と同じ英字の O を使う（2026-11-09 独立検証で追加。もとは公開資料の文書 §5.1 にあった推測を移して書き直した）	form_id	NTA0KOA110010120
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	103	H10：紙の様式ID は「`NTA` ＋1桁＋e-Tax の様式ID（6文字）＋ページ（2桁）＋版（4桁）」で、e-Tax の様式ID と同じ英字の O を使う（2026-11-09 独立検証で追加。もとは公開資料の文書 §5.1 にあった推測を移して書き直した）	ascii_ident	KOA110010120_01
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	109	H11：新様式は機械（AI-OCR）で読む前提の作りで、欄コードはそのための印字である（2026-11-09 独立検証で、公開資料の文書 §1.4 にあった推測を移した）	path	ai-ocr.xlsx
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	120	訂正の記録	path	docs/measurements/20261109_impl-prep_output-verification.md
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	6	実装前の追加調査：OpenFisca-Core と beancount の採用の前提はまだ成り立つか（仮説）	path	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	7	実装前の追加調査：OpenFisca-Core と beancount の採用の前提はまだ成り立つか（仮説）	path	docs/measurements/20261109_impl-prep_tools-beancount-probe.md
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	8	実装前の追加調査：OpenFisca-Core と beancount の採用の前提はまだ成り立つか（仮説）	path	docs/public-sources/20261109_impl-prep_tools-source-notes.md
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	9	実装前の追加調査：OpenFisca-Core と beancount の採用の前提はまだ成り立つか（仮説）	path	docs/measurements/20261109_R2-tools_openfisca-core-runtime.md
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	10	実装前の追加調査：OpenFisca-Core と beancount の採用の前提はまだ成り立つか（仮説）	path	docs/public-sources/20261109_R2-tools_openfisca-core-source.md
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	11	実装前の追加調査：OpenFisca-Core と beancount の採用の前提はまだ成り立つか（仮説）	path	docs/measurements/20261109_R2-tools_beancount-runtime.md
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	12	実装前の追加調査：OpenFisca-Core と beancount の採用の前提はまだ成り立つか（仮説）	path	docs/public-sources/20261109_R2-tools_plain-text-accounting-source.md
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	13	実装前の追加調査：OpenFisca-Core と beancount の採用の前提はまだ成り立つか（仮説）	path	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	14	実装前の追加調査：OpenFisca-Core と beancount の採用の前提はまだ成り立つか（仮説）	path	docs/inferences/20261109_impl-prep_tools-implementation-checks.md
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	29	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	ascii_ident	float
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	29	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	other	floor(x × 0.3)
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	29	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	other	floor(x × 0.29)
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	30	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	ascii_ident	int
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	31	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	other	year:<判定日>
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	32	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	ascii_expr	year:2025-10-15
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	32	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	ascii_expr	year:2025-10-01
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	32	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	ascii_expr	year:2025-10-15
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	32	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	ascii_expr	year:2025-10
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	33	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	other	year:<判定日>
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	33	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	ascii_ident	ADD
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	34	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	other	year:<判定日>
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	34	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	ascii_expr	period.stop
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	34	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	dotted_jp	periods.period(年).stop
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	35	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	other	年齢_年末の翌日
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	35	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	other	年齢_年末
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	35	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	dotted_jp	periods.period(年).stop
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	35	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	other	暦の年齢
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	36	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	other	get_flat_trace()
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	37	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	other	str(Period)
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	38	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	ascii_ident	calculation_time
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	40	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	other	.calc()
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	40	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	ascii_expr	SimpleTracer.record_parameter_access
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	43	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	other	"false"
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	43	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	other	"2005-12"
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	43	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	other	"20051231"
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	43	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	other	1e39
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	43	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	other	"nan"
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	44	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	ascii_ident	assert
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	45	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	other	python -I -X utf8
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	51	H2. beancount（D11）の前提は成り立つ。ただし安全な読み込み関数の条件を R2 のものから改める	ascii_ident	parse_file
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	55	H2. beancount（D11）の前提は成り立つ。ただし安全な読み込み関数の条件を R2 のものから改める	ascii_ident	prescan
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	59	H2. beancount（D11）の前提は成り立つ。ただし安全な読み込み関数の条件を R2 のものから改める	other	C:/**
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	59	H2. beancount（D11）の前提は成り立つ。ただし安全な読み込み関数の条件を R2 のものから改める	other	..
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	59	H2. beancount（D11）の前提は成り立つ。ただし安全な読み込み関数の条件を R2 のものから改める	other	.beancount
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	60	H2. beancount（D11）の前提は成り立つ。ただし安全な読み込み関数の条件を R2 のものから改める	ascii_ident	parse_file
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	61	H2. beancount（D11）の前提は成り立つ。ただし安全な読み込み関数の条件を R2 のものから改める	other	include "NUL"
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	61	H2. beancount（D11）の前提は成り立つ。ただし安全な読み込み関数の条件を R2 のものから改める	ascii_ident	S_ISREG
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	62	H2. beancount（D11）の前提は成り立つ。ただし安全な読み込み関数の条件を R2 のものから改める	other	option "documents"
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	62	H2. beancount（D11）の前提は成り立つ。ただし安全な読み込み関数の条件を R2 のものから改める	other	option "documents"
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	67	H2. beancount（D11）の前提は成り立つ。ただし安全な読み込み関数の条件を R2 のものから改める	other	-I
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	67	H2. beancount（D11）の前提は成り立つ。ただし安全な読み込み関数の条件を R2 のものから改める	other	-I
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	67	H2. beancount（D11）の前提は成り立つ。ただし安全な読み込み関数の条件を R2 のものから改める	path	glob.py
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	67	H2. beancount（D11）の前提は成り立つ。ただし安全な読み込み関数の条件を R2 のものから改める	other	-c
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	67	H2. beancount（D11）の前提は成り立つ。ただし安全な読み込み関数の条件を R2 のものから改める	other	-m
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	67	H2. beancount（D11）の前提は成り立つ。ただし安全な読み込み関数の条件を R2 のものから改める	other	-I
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	70	H2. beancount（D11）の前提は成り立つ。ただし安全な読み込み関数の条件を R2 のものから改める	other	.gpg
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	70	H2. beancount（D11）の前提は成り立つ。ただし安全な読み込み関数の条件を R2 のものから改める	other	.asc
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	70	H2. beancount（D11）の前提は成り立つ。ただし安全な読み込み関数の条件を R2 のものから改める	other	.beancount
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	77	H3. 台帳 → 正規化した取引 JSON のアダプタは、法令の解釈を含めずに作れる	ascii_ident	id
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	77	H3. 台帳 → 正規化した取引 JSON のアダプタは、法令の解釈を含めずに作れる	ascii_ident	Decimal
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	78	H3. 台帳 → 正規化した取引 JSON のアダプタは、法令の解釈を含めずに作れる	ascii_ident	id
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	78	H3. 台帳 → 正規化した取引 JSON のアダプタは、法令の解釈を含めずに作れる	ascii_ident	patiant
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	78	H3. 台帳 → 正規化した取引 JSON のアダプタは、法令の解釈を含めずに作れる	ascii_ident	txid
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	79	H3. 台帳 → 正規化した取引 JSON のアダプタは、法令の解釈を含めずに作れる	other	(50000 + 2000) JPY
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	79	H3. 台帳 → 正規化した取引 JSON のアダプタは、法令の解釈を含めずに作れる	other	10/3
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	79	H3. 台帳 → 正規化した取引 JSON のアダプタは、法令の解釈を含めずに作れる	ascii_ident	Decimal
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	79	H3. 台帳 → 正規化した取引 JSON のアダプタは、法令の解釈を含めずに作れる	other	10/3
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	80	H3. 台帳 → 正規化した取引 JSON のアダプタは、法令の解釈を含めずに作れる	ascii_ident	filename
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	80	H3. 台帳 → 正規化した取引 JSON のアダプタは、法令の解釈を含めずに作れる	ascii_ident	lineno
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	80	H3. 台帳 → 正規化した取引 JSON のアダプタは、法令の解釈を含めずに作れる	ascii_ident	__tolerances__
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	80	H3. 台帳 → 正規化した取引 JSON のアダプタは、法令の解釈を含めずに作れる	ascii_ident	__automatic__
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	92	ユーザーに確認したいこと	ascii_ident	ADD
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	97	訂正の記録	path	docs/measurements/20261109_impl-prep_tools-verification.md
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	8	実装前の追加調査（zeigaku）仮説：子供自身の所得税の計算と申告要否の判定を、判定コアでどう組むか	path	docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	9	実装前の追加調査（zeigaku）仮説：子供自身の所得税の計算と申告要否の判定を、判定コアでどう組むか	path	docs/measurements/20261109_impl-prep_zeigaku-fetch.md
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	10	実装前の追加調査（zeigaku）仮説：子供自身の所得税の計算と申告要否の判定を、判定コアでどう組むか	path	docs/public-sources/20261109_R1-laws_income-tax.md
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	11	実装前の追加調査（zeigaku）仮説：子供自身の所得税の計算と申告要否の判定を、判定コアでどう組むか	path	docs/public-sources/20261109_R3-tsutatsu_nta.md
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	12	実装前の追加調査（zeigaku）仮説：子供自身の所得税の計算と申告要否の判定を、判定コアでどう組むか	path	docs/public-sources/20261109_R4-modeling_concepts.md
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	13	実装前の追加調査（zeigaku）仮説：子供自身の所得税の計算と申告要否の判定を、判定コアでどう組むか	path	docs/measurements/20261109_impl-prep_zeigaku-verify.md
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	14	実装前の追加調査（zeigaku）仮説：子供自身の所得税の計算と申告要否の判定を、判定コアでどう組むか	path	docs/measurements/20261109_impl-prep_zeigaku-verification.md
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	20	H1 所得税の計算は、所得税法第21条の順序どおりの「名前つきの段」の列にする	other	evaluate(中間表現, 年分)
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	39	H2 端数処理は5つの名前つき関数にし、「復興特別所得税額の1円未満切捨て」は切り替えられるようにする	ascii_ident	kazei_hyojun_sen_en_kirisute
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	40	H2 端数処理は5つの名前つき関数にし、「復興特別所得税額の1円未満切捨て」は切り替えられるようにする	ascii_ident	fukko_kazei_hyojun_ichi_en_kirisute
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	41	H2 端数処理は5つの名前つき関数にし、「復興特別所得税額の1円未満切捨て」は切り替えられるようにする	ascii_ident	fukko_zeigaku_ichi_en_kirisute
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	42	H2 端数処理は5つの名前つき関数にし、「復興特別所得税額の1円未満切捨て」は切り替えられるようにする	ascii_ident	kakutei_kingaku_hyaku_en_kirisute
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	43	H2 端数処理は5つの名前つき関数にし、「復興特別所得税額の1円未満切捨て」は切り替えられるようにする	ascii_ident	kanpu_ichi_en_kirisute
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	61	H4 申告要否は、税額の計算とは別の関数にし、「義務あり」「義務なし・還付申告できる」「義務なし・還付なし」と根拠の条を返す	other	shinkoku_yohi(計算の結果, 中間表現, 年分)
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	137	訂正の記録	path	docs/measurements/20261109_impl-prep_zeigaku-verification.md
+docs/hypotheses/20261109_R1-laws_hypotheses.md	7	R1 仮説：年齢の判定、パラメータの日付、法令の変更の監視	path	docs/public-sources/20261109_R1-laws_income-tax.md
+docs/hypotheses/20261109_R1-laws_hypotheses.md	8	R1 仮説：年齢の判定、パラメータの日付、法令の変更の監視	path	docs/public-sources/20261109_R1-laws_local-tax.md
+docs/hypotheses/20261109_R1-laws_hypotheses.md	9	R1 仮説：年齢の判定、パラメータの日付、法令の変更の監視	path	docs/public-sources/20261109_R1-laws_social-insurance-age-records.md
+docs/hypotheses/20261109_R1-laws_hypotheses.md	10	R1 仮説：年齢の判定、パラメータの日付、法令の変更の監視	path	docs/public-sources/20261109_R1-laws_monitoring-sources.md
+docs/hypotheses/20261109_R1-laws_hypotheses.md	11	R1 仮説：年齢の判定、パラメータの日付、法令の変更の監視	path	docs/measurements/20261109_R1-laws_egov-api-monitoring.md
+docs/hypotheses/20261109_R1-laws_hypotheses.md	12	R1 仮説：年齢の判定、パラメータの日付、法令の変更の監視	path	docs/measurements/20261109_R1-laws_article-extraction.md
+docs/hypotheses/20261109_R1-laws_hypotheses.md	30	H3 法令本文の変更の検知は、e-Gov 法令API v2 と一括ダウンロードの日次 CSV で足り、官報の監視は不要	other	/law_revisions/{id}?updated_from=<前回確認日>
+docs/hypotheses/20261109_R1-laws_hypotheses.md	31	H3 法令本文の変更の検知は、e-Gov 法令API v2 と一括ダウンロードの日次 CSV で足り、官報の監視は不要	other	/20…
+docs/hypotheses/20261109_R2-tools_adoption.md	6	R2 ツールの安全性と採用の判断（仮説）	path	docs/public-sources/20261109_R2-tools_openfisca-core-source.md
+docs/hypotheses/20261109_R2-tools_adoption.md	7	R2 ツールの安全性と採用の判断（仮説）	path	docs/measurements/20261109_R2-tools_openfisca-core-runtime.md
+docs/hypotheses/20261109_R2-tools_adoption.md	8	R2 ツールの安全性と採用の判断（仮説）	path	docs/public-sources/20261109_R2-tools_openfisca-japan-source.md
+docs/hypotheses/20261109_R2-tools_adoption.md	9	R2 ツールの安全性と採用の判断（仮説）	path	docs/public-sources/20261109_R2-tools_plain-text-accounting-source.md
+docs/hypotheses/20261109_R2-tools_adoption.md	10	R2 ツールの安全性と採用の判断（仮説）	path	docs/measurements/20261109_R2-tools_beancount-runtime.md
+docs/hypotheses/20261109_R2-tools_adoption.md	11	R2 ツールの安全性と採用の判断（仮説）	path	docs/inferences/20261109_R2-tools_adoption-checks.md
+docs/hypotheses/20261109_R2-tools_adoption.md	21	H1. 致命的な安全上の問題の有無（ツールごと）	other	--configuration-file
+docs/hypotheses/20261109_R2-tools_adoption.md	22	H1. 致命的な安全上の問題の有無（ツールごと）	ascii_ident	plugin
+docs/hypotheses/20261109_R2-tools_adoption.md	22	H1. 致命的な安全上の問題の有無（ツールごと）	ascii_ident	eval
+docs/hypotheses/20261109_R2-tools_adoption.md	22	H1. 致命的な安全上の問題の有無（ツールごと）	ascii_ident	insert_pythonpath
+docs/hypotheses/20261109_R2-tools_adoption.md	22	H1. 致命的な安全上の問題の有無（ツールごと）	ascii_ident	plugin
+docs/hypotheses/20261109_R2-tools_adoption.md	23	H1. 致命的な安全上の問題の有無（ツールごと）	other	source ... \| コマンド
+docs/hypotheses/20261109_R2-tools_adoption.md	24	H1. 致命的な安全上の問題の有無（ツールごと）	ascii_ident	python
+docs/hypotheses/20261109_R2-tools_adoption.md	37	H2. OpenFisca-Core（D6・D7）は採用してよい。ただし `openfisca serve` をそのまま使わない	other	<4.0
+docs/hypotheses/20261109_R2-tools_adoption.md	41	H2. OpenFisca-Core（D6・D7）は採用してよい。ただし `openfisca serve` をそのまま使わない	other	openfisca serve
+docs/hypotheses/20261109_R2-tools_adoption.md	41	H2. OpenFisca-Core（D6・D7）は採用してよい。ただし `openfisca serve` をそのまま使わない	ascii_ident	create_app
+docs/hypotheses/20261109_R2-tools_adoption.md	42	H2. OpenFisca-Core（D6・D7）は採用してよい。ただし `openfisca serve` をそのまま使わない	other	openfisca serve
+docs/hypotheses/20261109_R2-tools_adoption.md	45	H2. OpenFisca-Core（D6・D7）は採用してよい。ただし `openfisca serve` をそのまま使わない	ascii_ident	axes
+docs/hypotheses/20261109_R2-tools_adoption.md	45	H2. OpenFisca-Core（D6・D7）は採用してよい。ただし `openfisca serve` をそのまま使わない	ascii_ident	count
+docs/hypotheses/20261109_R2-tools_adoption.md	47	H2. OpenFisca-Core（D6・D7）は採用してよい。ただし `openfisca serve` をそのまま使わない	ascii_ident	Origin
+docs/hypotheses/20261109_R2-tools_adoption.md	47	H2. OpenFisca-Core（D6・D7）は採用してよい。ただし `openfisca serve` をそのまま使わない	ascii_ident	axes
+docs/hypotheses/20261109_R2-tools_adoption.md	49	H2. OpenFisca-Core（D6・D7）は採用してよい。ただし `openfisca serve` をそのまま使わない	other	-X utf8
+docs/hypotheses/20261109_R2-tools_adoption.md	78	H3. R4 のモデルは OpenFisca-Core に載る。ただし3つの制約がある	ascii_expr	year:2025-10
+docs/hypotheses/20261109_R2-tools_adoption.md	86	H4. AGPL の範囲	ascii_ident	openfisca_core
+docs/hypotheses/20261109_R2-tools_adoption.md	86	H4. AGPL の範囲	ascii_ident	Variable
+docs/hypotheses/20261109_R2-tools_adoption.md	100	H5. plain text accounting は beancount 3（＋beanquery）を、安全な読み込みのラッパーつきで使う	meta_key	payer:
+docs/hypotheses/20261109_R2-tools_adoption.md	100	H5. plain text accounting は beancount 3（＋beanquery）を、安全な読み込みのラッパーつきで使う	meta_key	patient:
+docs/hypotheses/20261109_R2-tools_adoption.md	101	H5. plain text accounting は beancount 3（＋beanquery）を、安全な読み込みのラッパーつきで使う	meta_key	id:
+docs/hypotheses/20261109_R2-tools_adoption.md	102	H5. plain text accounting は beancount 3（＋beanquery）を、安全な読み込みのラッパーつきで使う	ascii_ident	document
+docs/hypotheses/20261109_R2-tools_adoption.md	108	H5. plain text accounting は beancount 3（＋beanquery）を、安全な読み込みのラッパーつきで使う	other	loader.initialize(False)
+docs/hypotheses/20261109_R2-tools_adoption.md	108	H5. plain text accounting は beancount 3（＋beanquery）を、安全な読み込みのラッパーつきで使う	ascii_expr	parser.parse_file
+docs/hypotheses/20261109_R2-tools_adoption.md	108	H5. plain text accounting は beancount 3（＋beanquery）を、安全な読み込みのラッパーつきで使う	ascii_ident	plugin
+docs/hypotheses/20261109_R2-tools_adoption.md	108	H5. plain text accounting は beancount 3（＋beanquery）を、安全な読み込みのラッパーつきで使う	ascii_ident	insert_pythonpath
+docs/hypotheses/20261109_R2-tools_adoption.md	108	H5. plain text accounting は beancount 3（＋beanquery）を、安全な読み込みのラッパーつきで使う	ascii_expr	bean-check
+docs/hypotheses/20261109_R2-tools_adoption.md	114	H5. plain text accounting は beancount 3（＋beanquery）を、安全な読み込みのラッパーつきで使う	ascii_expr	Expenses:Medical
+docs/hypotheses/20261109_R2-tools_adoption.md	115	H5. plain text accounting は beancount 3（＋beanquery）を、安全な読み込みのラッパーつきで使う	other	Expenses:Medical:医療費
+docs/hypotheses/20261109_R2-tools_adoption.md	143	未確認のまま残っていること	other	openfisca serve
+docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md	5	R3 仮説：記録層に持たせる事実と、監視の対象	path	docs/public-sources/20261109_R3-tsutatsu_nta.md
+docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md	6	R3 仮説：記録層に持たせる事実と、監視の対象	path	docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md
+docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md	7	R3 仮説：記録層に持たせる事実と、監視の対象	path	docs/public-sources/20261109_R3-tsutatsu_requirement-sources.md
+docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md	8	R3 仮説：記録層に持たせる事実と、監視の対象	path	docs/public-sources/20261109_R3-tsutatsu_monitoring-sources.md
+docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md	9	R3 仮説：記録層に持たせる事実と、監視の対象	path	docs/measurements/20261109_R3-tsutatsu_fetch-and-monitor-probe.md
+docs/hypotheses/20261109_R4-modeling_entity-model.md	5	R4 エンティティと関係のモデル案（仮説）	path	docs/inferences/20261109_R4-modeling_scenarios.md
+docs/hypotheses/20261109_R4-modeling_entity-model.md	7	R4 エンティティと関係のモデル案（仮説）	path	docs/public-sources/20261109_R4-modeling_concepts.md
+docs/hypotheses/20261109_R4-modeling_entity-model.md	8	R4 エンティティと関係のモデル案（仮説）	path	docs/measurements/20261109_R4-modeling_law-text-fetch.md
+docs/hypotheses/20261109_R4-modeling_entity-model.md	9	R4 エンティティと関係のモデル案（仮説）	path	docs/measurements/20261109_R2-tools_openfisca-core-runtime.md
+docs/hypotheses/20261109_R4-modeling_entity-model.md	10	R4 エンティティと関係のモデル案（仮説）	path	docs/public-sources/20261109_R2-tools_openfisca-core-source.md
+docs/hypotheses/20261109_R4-modeling_entity-model.md	11	R4 エンティティと関係のモデル案（仮説）	path	docs/measurements/20261109_R2-tools_beancount-runtime.md
+docs/hypotheses/20261109_R4-modeling_entity-model.md	12	R4 エンティティと関係のモデル案（仮説）	path	docs/public-sources/20261109_R1-laws_income-tax.md
+docs/hypotheses/20261109_R4-modeling_entity-model.md	13	R4 エンティティと関係のモデル案（仮説）	path	docs/public-sources/20261109_R1-laws_local-tax.md
+docs/hypotheses/20261109_R4-modeling_entity-model.md	14	R4 エンティティと関係のモデル案（仮説）	path	docs/public-sources/20261109_R1-laws_social-insurance-age-records.md
+docs/hypotheses/20261109_R4-modeling_entity-model.md	15	R4 エンティティと関係のモデル案（仮説）	path	docs/measurements/20261109_R1-laws_article-extraction.md
+docs/hypotheses/20261109_R4-modeling_entity-model.md	16	R4 エンティティと関係のモデル案（仮説）	path	docs/public-sources/20261109_R3-tsutatsu_nta.md
+docs/hypotheses/20261109_R4-modeling_entity-model.md	17	R4 エンティティと関係のモデル案（仮説）	path	docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md
+docs/hypotheses/20261109_R4-modeling_entity-model.md	18	R4 エンティティと関係のモデル案（仮説）	path	docs/public-sources/20261109_R3-tsutatsu_requirement-sources.md
+docs/hypotheses/20261109_R4-modeling_entity-model.md	40	H0 層と用語	other	max: 1
+docs/hypotheses/20261109_R4-modeling_entity-model.md	64	H1.1 グループ「扶養所属」（所得税、年分ごと）	other	max: 1
+docs/hypotheses/20261109_R4-modeling_entity-model.md	70	H1.1 グループ「扶養所属」（所得税、年分ごと）	ascii_ident	memberships
+docs/hypotheses/20261109_R4-modeling_entity-model.md	76	H1.1 グループ「扶養所属」（所得税、年分ごと）	other	declared more than once
+docs/hypotheses/20261109_R4-modeling_entity-model.md	83	H1.2 グループ「法律婚」	other	max: 2
+docs/hypotheses/20261109_R4-modeling_entity-model.md	91	H1.2 グループ「法律婚」	other	max: 1
+docs/hypotheses/20261109_R4-modeling_entity-model.md	98	H1.3 グループ「健康保険」（被扶養者の判定日ごと）	other	max: 1
+docs/hypotheses/20261109_R4-modeling_entity-model.md	103	H1.3 グループ「健康保険」（被扶養者の判定日ごと）	ascii_ident	value_from_person
+docs/hypotheses/20261109_R4-modeling_entity-model.md	103	H1.3 グループ「健康保険」（被扶養者の判定日ごと）	other	max: 1
+docs/hypotheses/20261109_R4-modeling_entity-model.md	112	H1.4 住民票上の世帯（グループにしない）	other	max: 1
+docs/hypotheses/20261109_R4-modeling_entity-model.md	131	H1.6 役割の順序と書き忘れのまとめ	other	flattened_roles[0]
+docs/hypotheses/20261109_R4-modeling_entity-model.md	149	H2.1 原則：所属・関係は区間で持ち、判定の時点ごとに切り出して別のシミュレーションにする	ascii_expr	year:Y
+docs/hypotheses/20261109_R4-modeling_entity-model.md	150	H2.1 原則：所属・関係は区間で持ち、判定の時点ごとに切り出して別のシミュレーションにする	ascii_expr	year:Y
+docs/hypotheses/20261109_R4-modeling_entity-model.md	151	H2.1 原則：所属・関係は区間で持ち、判定の時点ごとに切り出して別のシミュレーションにする	ascii_expr	year:Y
+docs/hypotheses/20261109_R4-modeling_entity-model.md	153	H2.1 原則：所属・関係は区間で持ち、判定の時点ごとに切り出して別のシミュレーションにする	ascii_expr	year:Y
+docs/hypotheses/20261109_R4-modeling_entity-model.md	154	H2.1 原則：所属・関係は区間で持ち、判定の時点ごとに切り出して別のシミュレーションにする	other	year:<判定日>
+docs/hypotheses/20261109_R4-modeling_entity-model.md	158	H2.1 原則：所属・関係は区間で持ち、判定の時点ごとに切り出して別のシミュレーションにする	other	year:<判定日>
+docs/hypotheses/20261109_R4-modeling_entity-model.md	210	H3.3 医療費控除：扶養と関係なく、支払った人が控除する	meta_key	payer:
+docs/hypotheses/20261109_R4-modeling_entity-model.md	210	H3.3 医療費控除：扶養と関係なく、支払った人が控除する	meta_key	patient:
+docs/hypotheses/20261109_R4-modeling_entity-model.md	210	H3.3 医療費控除：扶養と関係なく、支払った人が控除する	meta_key	id:
+docs/hypotheses/20261109_R4-modeling_entity-model.md	217	H3.3 医療費控除：扶養と関係なく、支払った人が控除する	other	/trace
+docs/hypotheses/20261109_R4-modeling_entity-model.md	302	H5.4 組の金額（人 × 人 × 日付）	meta_key	payer:
+docs/hypotheses/20261109_R4-modeling_entity-model.md	302	H5.4 組の金額（人 × 人 × 日付）	meta_key	patient:
+docs/hypotheses/20261109_R4-modeling_entity-model.md	302	H5.4 組の金額（人 × 人 × 日付）	meta_key	id:
+docs/hypotheses/20261109_R4-modeling_entity-model.md	328	提案2：状況の組み立てを判定コアの中に置き、クライアントは中間表現を送る（D7 の細部）	ascii_ident	axes
+docs/hypotheses/20261109_R4-modeling_entity-model.md	330	提案2：状況の組み立てを判定コアの中に置き、クライアントは中間表現を送る（D7 の細部）	other	/calculate
+docs/hypotheses/20261109_R4-modeling_entity-model.md	490	未決	other	year:<判定日>
+docs/hypotheses/20261109_round2_aoiro-model.md	5	仮説：青色申告（承認・帳簿・特別控除・専従者給与・純損失・現金主義）を判定コアと記録層にどう置くか（round2 aoiro）	path	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md
+docs/hypotheses/20261109_round2_aoiro-model.md	6	仮説：青色申告（承認・帳簿・特別控除・専従者給与・純損失・現金主義）を判定コアと記録層にどう置くか（round2 aoiro）	path	docs/measurements/20261109_round2_aoiro-fetch-and-checks.md
+docs/hypotheses/20261109_round2_aoiro-model.md	7	仮説：青色申告（承認・帳簿・特別控除・専従者給与・純損失・現金主義）を判定コアと記録層にどう置くか（round2 aoiro）	path	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md
+docs/hypotheses/20261109_round2_aoiro-model.md	8	仮説：青色申告（承認・帳簿・特別控除・専従者給与・純損失・現金主義）を判定コアと記録層にどう置くか（round2 aoiro）	path	docs/public-sources/20261109_impl-prep_denchoho-requirements.md
+docs/hypotheses/20261109_round2_aoiro-model.md	9	仮説：青色申告（承認・帳簿・特別控除・専従者給与・純損失・現金主義）を判定コアと記録層にどう置くか（round2 aoiro）	path	docs/public-sources/20261109_R4-modeling_concepts.md
+docs/hypotheses/20261109_round2_aoiro-model.md	10	仮説：青色申告（承認・帳簿・特別控除・専従者給与・純損失・現金主義）を判定コアと記録層にどう置くか（round2 aoiro）	path	docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md
+docs/hypotheses/20261109_round2_aoiro-model.md	11	仮説：青色申告（承認・帳簿・特別控除・専従者給与・純損失・現金主義）を判定コアと記録層にどう置くか（round2 aoiro）	path	docs/public-sources/20261109_impl-prep_output-forms-and-specs.md
+docs/hypotheses/20261109_round2_aoiro-model.md	12	仮説：青色申告（承認・帳簿・特別控除・専従者給与・純損失・現金主義）を判定コアと記録層にどう置くか（round2 aoiro）	path	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md
+docs/hypotheses/20261109_round2_aoiro-model.md	13	仮説：青色申告（承認・帳簿・特別控除・専従者給与・純損失・現金主義）を判定コアと記録層にどう置くか（round2 aoiro）	path	HANDOFF.md
+docs/hypotheses/20261109_round2_aoiro-model.md	14	仮説：青色申告（承認・帳簿・特別控除・専従者給与・純損失・現金主義）を判定コアと記録層にどう置くか（round2 aoiro）	path	docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md
+docs/hypotheses/20261109_round2_aoiro-model.md	15	仮説：青色申告（承認・帳簿・特別控除・専従者給与・純損失・現金主義）を判定コアと記録層にどう置くか（round2 aoiro）	path	docs/inferences/20261109_round2_aoiro-cases.md
+docs/hypotheses/20261109_round2_aoiro-model.md	55	H3 青色申告特別控除（令和7年分・令和8年分）は、申告の「方法と時期」に依存する。コアは申告の計画を入力として受け、条件つきの結果を返す	path	scripts/R2X_aoiro_checks.py
+docs/hypotheses/20261109_round2_aoiro-model.md	55	H3 青色申告特別控除（令和7年分・令和8年分）は、申告の「方法と時期」に依存する。コアは申告の計画を入力として受け、条件つきの結果を返す	ascii_ident	aoiro_tokubetsu_r7r8
+docs/hypotheses/20261109_round2_aoiro-model.md	69	H4 令和9年分以後の青色申告特別控除は、別の年分の式として持つ。第2項（前々年の総収入金額1,000万円超）の読みは未確定の印をつける	ascii_ident	aoiro_tokubetsu_r9
+docs/hypotheses/20261109_round2_aoiro-model.md	128	H9 純損失の繰戻し還付は「本人の選択」で、コアは繰り戻す額を入力として受け、還付額と残りの純損失を計算する。繰越しとの比較は複数シナリオ（D19）で行う	ascii_ident	kurimodoshi
+docs/hypotheses/20261109_round2_aoiro-model.md	140	H10 端数処理と期限の計算の名前つき関数（D13）	other	期限_月以内(起算の事実の日, 月数, 初日算入=False)
+docs/hypotheses/20261109_round2_aoiro-model.md	141	H10 端数処理と期限の計算の名前つき関数（D13）	other	申告期限(年分)
+docs/hypotheses/20261109_round2_aoiro-model.md	142	H10 端数処理と期限の計算の名前つき関数（D13）	other	青色控除_上限(黒字の合計, 額)
+docs/hypotheses/20261109_round2_aoiro-model.md	142	H10 端数処理と期限の計算の名前つき関数（D13）	other	青色控除_配分(黒字, 順序)
+docs/hypotheses/20261109_round2_aoiro-model.md	143	H10 端数処理と期限の計算の名前つき関数（D13）	other	繰戻し_税額(課税標準)
+docs/hypotheses/20261109_round2_aoiro-model.md	144	H10 端数処理と期限の計算の名前つき関数（D13）	other	専従_期間の判定(区間の集合, 年)
+docs/hypotheses/20261109_round2_aoiro-model.md	145	H10 端数処理と期限の計算の名前つき関数（D13）	other	年齢(生年月日, 基準日)
+docs/hypotheses/20261109_round2_aoiro-model.md	184	訂正の記録	path	docs/measurements/20261109_round2_aoiro-verification.md
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	5	第2ラウンド（elderly-abroad）仮説：老人扶養・同居老親等、国外居住親族、居住者の判定、健保の60歳以上・国内居住要件を実装するための入力・判断・コアと注入の境目	path	docs/inferences/20261109_round2_elderly-abroad-cases.md
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	7	第2ラウンド（elderly-abroad）仮説：老人扶養・同居老親等、国外居住親族、居住者の判定、健保の60歳以上・国内居住要件を実装するための入力・判断・コアと注入の境目	path	docs/public-sources/20261109_round2_elderly-abroad-laws.md
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	8	第2ラウンド（elderly-abroad）仮説：老人扶養・同居老親等、国外居住親族、居住者の判定、健保の60歳以上・国内居住要件を実装するための入力・判断・コアと注入の境目	path	docs/public-sources/20261109_round2_elderly-abroad-guidance.md
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	9	第2ラウンド（elderly-abroad）仮説：老人扶養・同居老親等、国外居住親族、居住者の判定、健保の60歳以上・国内居住要件を実装するための入力・判断・コアと注入の境目	path	docs/measurements/20261109_round2_elderly-abroad-fetch-and-checks.md
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	10	第2ラウンド（elderly-abroad）仮説：老人扶養・同居老親等、国外居住親族、居住者の判定、健保の60歳以上・国内居住要件を実装するための入力・判断・コアと注入の境目	path	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	11	第2ラウンド（elderly-abroad）仮説：老人扶養・同居老親等、国外居住親族、居住者の判定、健保の60歳以上・国内居住要件を実装するための入力・判断・コアと注入の境目	path	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	12	第2ラウンド（elderly-abroad）仮説：老人扶養・同居老親等、国外居住親族、居住者の判定、健保の60歳以上・国内居住要件を実装するための入力・判断・コアと注入の境目	path	docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	13	第2ラウンド（elderly-abroad）仮説：老人扶養・同居老親等、国外居住親族、居住者の判定、健保の60歳以上・国内居住要件を実装するための入力・判断・コアと注入の境目	path	docs/public-sources/20261109_R4-modeling_concepts.md
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	15	第2ラウンド（elderly-abroad）仮説：老人扶養・同居老親等、国外居住親族、居住者の判定、健保の60歳以上・国内居住要件を実装するための入力・判断・コアと注入の境目	path	docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	15	第2ラウンド（elderly-abroad）仮説：老人扶養・同居老親等、国外居住親族、居住者の判定、健保の60歳以上・国内居住要件を実装するための入力・判断・コアと注入の境目	path	docs/hypotheses/20261109_impl-prep_misc-hypotheses.md
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	109	HE3.2 「38万円以上」の判定	ascii_ident	fx_to_yen_floor
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	122	HE3.4 「国外居住親族」の語の扱い	dotted_jp	所得税.非居住者である親族
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	122	HE3.4 「国外居住親族」の語の扱い	dotted_jp	所得税.国外居住親族
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	122	HE3.4 「国外居住親族」の語の扱い	dotted_jp	住民税.国外居住者
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	140	HE5.1 年齢の区分	dotted_jp	健保.60歳の判定時点
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	180	HE7 概念辞書に足す項目（案）	dotted_jp	所得税.老人扶養親族
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	180	HE7 概念辞書に足す項目（案）	dotted_jp	所得税.控除対象扶養親族
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	181	HE7 概念辞書に足す項目（案）	dotted_jp	所得税.同居老親等
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	181	HE7 概念辞書に足す項目（案）	dotted_jp	所得税.老人扶養親族
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	181	HE7 概念辞書に足す項目（案）	dotted_jp	判断.同居を常況
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	182	HE7 概念辞書に足す項目（案）	dotted_jp	住民税.同居直系尊属
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	182	HE7 概念辞書に足す項目（案）	dotted_jp	住民税.老人扶養親族
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	183	HE7 概念辞書に足す項目（案）	dotted_jp	所得税.非居住者である親族
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	183	HE7 概念辞書に足す項目（案）	dotted_jp	判断.住所の所在
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	184	HE7 概念辞書に足す項目（案）	dotted_jp	所得税.控除対象扶養親族.非居住者の区分
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	184	HE7 概念辞書に足す項目（案）	dotted_jp	所得税.国外送金の年合計
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	185	HE7 概念辞書に足す項目（案）	dotted_jp	所得税.国外送金の年合計
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	185	HE7 概念辞書に足す項目（案）	dotted_jp	判断.円換算の方法
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	186	HE7 概念辞書に足す項目（案）	dotted_jp	所得税.国外居住親族の書類の充足
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	187	HE7 概念辞書に足す項目（案）	dotted_jp	住民税.国外居住者
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	187	HE7 概念辞書に足す項目（案）	dotted_jp	所得税.非居住者である親族
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	188	HE7 概念辞書に足す項目（案）	dotted_jp	健保.国内居住要件
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	188	HE7 概念辞書に足す項目（案）	dotted_jp	判断.例外第5号
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	189	HE7 概念辞書に足す項目（案）	dotted_jp	健保.後期高齢者の除外
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	190	HE7 概念辞書に足す項目（案）	dotted_jp	健保.収入基準.60歳以上
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	194	訂正の記録	path	docs/measurements/20261109_round2_elderly-abroad-verification.md
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	5	第2ラウンド（gaps）仮説：残っていた個別の未解決6項目の実装上の扱い	path	docs/measurements/20261109_round2_gaps-fetch-and-checks.md
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	6	第2ラウンド（gaps）仮説：残っていた個別の未解決6項目の実装上の扱い	path	docs/public-sources/20261109_round2_gaps-sources.md
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	7	第2ラウンド（gaps）仮説：残っていた個別の未解決6項目の実装上の扱い	path	docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	7	第2ラウンド（gaps）仮説：残っていた個別の未解決6項目の実装上の扱い	path	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	7	第2ラウンド（gaps）仮説：残っていた個別の未解決6項目の実装上の扱い	path	docs/public-sources/20261109_R1-laws_income-tax.md
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	7	第2ラウンド（gaps）仮説：残っていた個別の未解決6項目の実装上の扱い	path	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	7	第2ラウンド（gaps）仮説：残っていた個別の未解決6項目の実装上の扱い	path	docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	7	第2ラウンド（gaps）仮説：残っていた個別の未解決6項目の実装上の扱い	path	docs/public-sources/20261109_impl-prep_kyuyo-sources.md
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	7	第2ラウンド（gaps）仮説：残っていた個別の未解決6項目の実装上の扱い	path	docs/public-sources/20261109_R4-modeling_concepts.md
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	7	第2ラウンド（gaps）仮説：残っていた個別の未解決6項目の実装上の扱い	path	docs/public-sources/20261109_impl-prep_output-forms-and-specs.md
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	44	HG2 TA No.1810 の令和7年分の（注）は、改正前の1文の形を引き継いだ書き方で、扶養の上限は条文どおり 123万円（令和7年分）・131万円（令和8年分）とする	path	docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	69	HG3 所得金額調整控除は、国の法令だけで決まる構造としてコアに置く。人をまたぐ依存（23歳未満の「扶養親族」）があり、端数の切上げは TA だけが根拠	dotted_jp	所得金額調整控除.第1項の端数＝1円未満切上げ
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	123	HG6 健保の「今後1年間の見込み」は、収入に波がある人でも計算式が一次情報で決まっていない。コアは見込みを作らず、判断（D4）と、見込みの作り方の記録と、保険者ごとの確認方法（注入データ）を分けて持つ	path	docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	127	HG6 健保の「今後1年間の見込み」は、収入に波がある人でも計算式が一次情報で決まっていない。コアは見込みを作らず、判断（D4）と、見込みの作り方の記録と、保険者ごとの確認方法（注入データ）を分けて持つ	path	docs/inferences/20261109_impl-prep_kenpo-test-cases.md
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	142	訂正の記録	path	docs/measurements/20261109_round2_gaps-verification.md
+docs/hypotheses/20261109_round2_genka-model.md	5	仮説：減価償却と損益通算を記録層・判断・判定コアにどう置くか（第2ラウンド genka）	path	docs/public-sources/20261109_round2_genka-laws-and-nta.md
+docs/hypotheses/20261109_round2_genka-model.md	6	仮説：減価償却と損益通算を記録層・判断・判定コアにどう置くか（第2ラウンド genka）	path	docs/measurements/20261109_round2_genka-fetch-and-checks.md
+docs/hypotheses/20261109_round2_genka-model.md	7	仮説：減価償却と損益通算を記録層・判断・判定コアにどう置くか（第2ラウンド genka）	path	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md
+docs/hypotheses/20261109_round2_genka-model.md	8	仮説：減価償却と損益通算を記録層・判断・判定コアにどう置くか（第2ラウンド genka）	path	docs/public-sources/20261109_R1-laws_income-tax.md
+docs/hypotheses/20261109_round2_genka-model.md	9	仮説：減価償却と損益通算を記録層・判断・判定コアにどう置くか（第2ラウンド genka）	path	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md
+docs/hypotheses/20261109_round2_genka-model.md	10	仮説：減価償却と損益通算を記録層・判断・判定コアにどう置くか（第2ラウンド genka）	path	docs/measurements/20261109_round2_genka-verification.md
+docs/hypotheses/20261109_round2_genka-model.md	11	仮説：減価償却と損益通算を記録層・判断・判定コアにどう置くか（第2ラウンド genka）	path	docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md
+docs/hypotheses/20261109_round2_genka-model.md	12	仮説：減価償却と損益通算を記録層・判断・判定コアにどう置くか（第2ラウンド genka）	path	docs/inferences/20261109_round2_genka-examples.md
+docs/hypotheses/20261109_round2_genka-model.md	20	H1 減価償却は「資産台帳（事実）＋判断（D4）＋年分のパラメータ」から決定的に計算でき、所得区分はコアが決める	path	20261109_impl-prep_jigyo-calculation-model.md
+docs/hypotheses/20261109_round2_genka-model.md	70	H2 資産ごとの扱いは、取得日で版を選ぶパラメータと判断で決める決定表になる	other	措法28の2_令和8年分_新旧合算
+docs/hypotheses/20261109_round2_genka-model.md	80	H3 通常の償却（定額法）の式と、一次情報で決まらない端数	other	償却費の端数
+docs/hypotheses/20261109_round2_genka-model.md	88	H4 家事兼用の資産：償却費の全額を計算してから事業専用割合を掛ける。未償却残高をどちらで減らすかは決まっていない	other	事業専用割合後の端数
+docs/hypotheses/20261109_round2_genka-model.md	92	H4 家事兼用の資産：償却費の全額を計算してから事業専用割合を掛ける。未償却残高をどちらで減らすかは決まっていない	other	家事兼用_未償却残高
+docs/hypotheses/20261109_round2_genka-model.md	101	H5 私用で持っていた資産を業務に使い始めた場合は、所令135・85 で「業務供用時の未償却残額」を作ってから定額法を続ける	other	所令85_限度
+docs/hypotheses/20261109_round2_genka-model.md	126	H7 損益通算は所令198 の順序の関数として、人・年分ごとに「所得区分ごとの所得の金額」から計算する。令和7年分と令和8年分で同じ順序を使う	path	20261109_impl-prep_jigyo-calculation-model.md
+docs/hypotheses/20261109_round2_genka-model.md	153	H10 一次情報で決まらない処理の一覧（名前つきの関数・規則にして「出典未確認」の印を付ける）	other	償却費の端数
+docs/hypotheses/20261109_round2_genka-model.md	154	H10 一次情報で決まらない処理の一覧（名前つきの関数・規則にして「出典未確認」の印を付ける）	other	事業専用割合後の端数
+docs/hypotheses/20261109_round2_genka-model.md	155	H10 一次情報で決まらない処理の一覧（名前つきの関数・規則にして「出典未確認」の印を付ける）	other	一括償却_各年の端数
+docs/hypotheses/20261109_round2_genka-model.md	156	H10 一次情報で決まらない処理の一覧（名前つきの関数・規則にして「出典未確認」の印を付ける）	other	家事兼用_未償却残高
+docs/hypotheses/20261109_round2_genka-model.md	157	H10 一次情報で決まらない処理の一覧（名前つきの関数・規則にして「出典未確認」の印を付ける）	other	家事兼用_少額判定
+docs/hypotheses/20261109_round2_genka-model.md	158	H10 一次情報で決まらない処理の一覧（名前つきの関数・規則にして「出典未確認」の印を付ける）	other	措法28の2_令和8年分_新旧合算
+docs/hypotheses/20261109_round2_genka-model.md	159	H10 一次情報で決まらない処理の一覧（名前つきの関数・規則にして「出典未確認」の印を付ける）	other	転用_業務供用後の方法
+docs/hypotheses/20261109_round2_genka-model.md	160	H10 一次情報で決まらない処理の一覧（名前つきの関数・規則にして「出典未確認」の印を付ける）	other	所令85_年数
+docs/hypotheses/20261109_round2_genka-model.md	161	H10 一次情報で決まらない処理の一覧（名前つきの関数・規則にして「出典未確認」の印を付ける）	other	所令85_限度
+docs/hypotheses/20261109_round2_genka-model.md	162	H10 一次情報で決まらない処理の一覧（名前つきの関数・規則にして「出典未確認」の印を付ける）	other	処分年_償却費
+docs/hypotheses/20261109_round2_genka-model.md	163	H10 一次情報で決まらない処理の一覧（名前つきの関数・規則にして「出典未確認」の印を付ける）	other	所令198_文言
+docs/hypotheses/20261109_round2_genka-model.md	171	まとめ：規則ごとの「事実・判断・コアと注入データの境目・未確定の処理」	other	家事兼用_少額判定
+docs/hypotheses/20261109_round2_genka-model.md	172	まとめ：規則ごとの「事実・判断・コアと注入データの境目・未確定の処理」	other	一括償却_各年の端数
+docs/hypotheses/20261109_round2_genka-model.md	173	まとめ：規則ごとの「事実・判断・コアと注入データの境目・未確定の処理」	other	措法28の2_令和8年分_新旧合算
+docs/hypotheses/20261109_round2_genka-model.md	174	まとめ：規則ごとの「事実・判断・コアと注入データの境目・未確定の処理」	other	償却費の端数
+docs/hypotheses/20261109_round2_genka-model.md	174	まとめ：規則ごとの「事実・判断・コアと注入データの境目・未確定の処理」	other	事業専用割合後の端数
+docs/hypotheses/20261109_round2_genka-model.md	174	まとめ：規則ごとの「事実・判断・コアと注入データの境目・未確定の処理」	other	家事兼用_未償却残高
+docs/hypotheses/20261109_round2_genka-model.md	175	まとめ：規則ごとの「事実・判断・コアと注入データの境目・未確定の処理」	other	転用_業務供用後の方法
+docs/hypotheses/20261109_round2_genka-model.md	175	まとめ：規則ごとの「事実・判断・コアと注入データの境目・未確定の処理」	other	所令85_年数
+docs/hypotheses/20261109_round2_genka-model.md	175	まとめ：規則ごとの「事実・判断・コアと注入データの境目・未確定の処理」	other	所令85_限度
+docs/hypotheses/20261109_round2_genka-model.md	176	まとめ：規則ごとの「事実・判断・コアと注入データの境目・未確定の処理」	other	処分年_償却費
+docs/hypotheses/20261109_round2_genka-model.md	177	まとめ：規則ごとの「事実・判断・コアと注入データの境目・未確定の処理」	other	所令198_文言
+docs/hypotheses/20261109_round2_genka-model.md	183	訂正の記録	path	docs/measurements/20261109_round2_genka-verification.md
+docs/hypotheses/20261109_round2_genka-model.md	185	訂正の記録	other	所令85_限度
+docs/hypotheses/20261109_round2_hoken-kifu-model.md	8	第2ラウンド（hoken-kifu）仮説：保険料・寄附金・小規模企業共済等掛金・雑損の控除と、ふるさと納税の住民税の計算を、記録・判断・判定コア・注入データにどう分けるか	path	docs/public-sources/20261109_round2_hoken-kifu-laws.md
+docs/hypotheses/20261109_round2_hoken-kifu-model.md	9	第2ラウンド（hoken-kifu）仮説：保険料・寄附金・小規模企業共済等掛金・雑損の控除と、ふるさと納税の住民税の計算を、記録・判断・判定コア・注入データにどう分けるか	path	docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md
+docs/hypotheses/20261109_round2_hoken-kifu-model.md	10	第2ラウンド（hoken-kifu）仮説：保険料・寄附金・小規模企業共済等掛金・雑損の控除と、ふるさと納税の住民税の計算を、記録・判断・判定コア・注入データにどう分けるか	path	docs/measurements/20261109_round2_hoken-kifu-fetch.md
+docs/hypotheses/20261109_round2_hoken-kifu-model.md	11	第2ラウンド（hoken-kifu）仮説：保険料・寄附金・小規模企業共済等掛金・雑損の控除と、ふるさと納税の住民税の計算を、記録・判断・判定コア・注入データにどう分けるか	path	docs/measurements/20261109_round2_hoken-kifu-formula-checks.md
+docs/hypotheses/20261109_round2_hoken-kifu-model.md	12	第2ラウンド（hoken-kifu）仮説：保険料・寄附金・小規模企業共済等掛金・雑損の控除と、ふるさと納税の住民税の計算を、記録・判断・判定コア・注入データにどう分けるか	path	docs/public-sources/20261109_R1-laws_income-tax.md
+docs/hypotheses/20261109_round2_hoken-kifu-model.md	13	第2ラウンド（hoken-kifu）仮説：保険料・寄附金・小規模企業共済等掛金・雑損の控除と、ふるさと納税の住民税の計算を、記録・判断・判定コア・注入データにどう分けるか	path	docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md
+docs/hypotheses/20261109_round2_hoken-kifu-model.md	47	H3 措法第41条の15の5（23歳未満の扶養親族の特例）は、年分のパラメータと「扶養親族の定義（所法2①三十四）に当たる23歳未満の人がいるか」の判定で組み、扶養の割当て（所法85⑥・所令219）は使わない。ただし結果に「国税庁の説明に基づく」印を付ける	other	所得税.生命保険料控除.23歳未満特例.適用年分 = {令和8年分, 令和9年分}
+docs/hypotheses/20261109_round2_hoken-kifu-model.md	163	訂正の記録	path	docs/measurements/20261109_round2_hoken-kifu-verification.md
+docs/hypotheses/20261109_round2_jinteki-model.md	6	第2ラウンド（jinteki）仮説：障害者控除・寡婦控除・ひとり親控除、住民税の非課税、健保の障害者 180万円の実装モデル	path	docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md
+docs/hypotheses/20261109_round2_jinteki-model.md	7	第2ラウンド（jinteki）仮説：障害者控除・寡婦控除・ひとり親控除、住民税の非課税、健保の障害者 180万円の実装モデル	path	docs/measurements/20261109_round2_jinteki-fetch-and-checks.md
+docs/hypotheses/20261109_round2_jinteki-model.md	8	第2ラウンド（jinteki）仮説：障害者控除・寡婦控除・ひとり親控除、住民税の非課税、健保の障害者 180万円の実装モデル	path	docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md
+docs/hypotheses/20261109_round2_jinteki-model.md	9	第2ラウンド（jinteki）仮説：障害者控除・寡婦控除・ひとり親控除、住民税の非課税、健保の障害者 180万円の実装モデル	path	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md
+docs/hypotheses/20261109_round2_jinteki-model.md	9	第2ラウンド（jinteki）仮説：障害者控除・寡婦控除・ひとり親控除、住民税の非課税、健保の障害者 180万円の実装モデル	path	docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md
+docs/hypotheses/20261109_round2_jinteki-model.md	10	第2ラウンド（jinteki）仮説：障害者控除・寡婦控除・ひとり親控除、住民税の非課税、健保の障害者 180万円の実装モデル	path	docs/public-sources/20261109_R4-modeling_concepts.md
+docs/hypotheses/20261109_round2_jinteki-model.md	10	第2ラウンド（jinteki）仮説：障害者控除・寡婦控除・ひとり親控除、住民税の非課税、健保の障害者 180万円の実装モデル	path	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md
+docs/hypotheses/20261109_round2_jinteki-model.md	11	第2ラウンド（jinteki）仮説：障害者控除・寡婦控除・ひとり親控除、住民税の非課税、健保の障害者 180万円の実装モデル	path	docs/hypotheses/20261109_impl-prep_misc-hypotheses.md
+docs/hypotheses/20261109_round2_jinteki-model.md	11	第2ラウンド（jinteki）仮説：障害者控除・寡婦控除・ひとり親控除、住民税の非課税、健保の障害者 180万円の実装モデル	path	docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md
+docs/hypotheses/20261109_round2_jinteki-model.md	11	第2ラウンド（jinteki）仮説：障害者控除・寡婦控除・ひとり親控除、住民税の非課税、健保の障害者 180万円の実装モデル	path	docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md
+docs/hypotheses/20261109_round2_jinteki-model.md	11	第2ラウンド（jinteki）仮説：障害者控除・寡婦控除・ひとり親控除、住民税の非課税、健保の障害者 180万円の実装モデル	path	docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md
+docs/hypotheses/20261109_round2_jinteki-model.md	183	訂正の記録	path	docs/measurements/20261109_round2_jinteki-verification.md
+docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	6	仮説：住民税の税額（所得割・均等割・調整控除・税額控除）を判定コアでどう表すか	path	docs/public-sources/20261109_round2_juminzei-tax-law-text.md
+docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	7	仮説：住民税の税額（所得割・均等割・調整控除・税額控除）を判定コアでどう表すか	path	docs/public-sources/20261109_round2_juminzei-tax-admin-and-municipal.md
+docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	8	仮説：住民税の税額（所得割・均等割・調整控除・税額控除）を判定コアでどう表すか	path	docs/measurements/20261109_round2_juminzei-tax-fetch-and-checks.md
+docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	9	仮説：住民税の税額（所得割・均等割・調整控除・税額控除）を判定コアでどう表すか	path	docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md
+docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	10	仮説：住民税の税額（所得割・均等割・調整控除・税額控除）を判定コアでどう表すか	path	docs/public-sources/20261109_R1-laws_local-tax.md
+docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	11	仮説：住民税の税額（所得割・均等割・調整控除・税額控除）を判定コアでどう表すか	path	docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md
+docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	14	仮説：住民税の税額（所得割・均等割・調整控除・税額控除）を判定コアでどう表すか	path	docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md
+docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	98	H5 一次情報で決まらない端数処理は、名前つきの関数にして結果に印を付ける	ascii_ident	round_kazei_shotoku_1000
+docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	99	H5 一次情報で決まらない端数処理は、名前つきの関数にして結果に印を付ける	ascii_ident	round_kakutei_100
+docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	100	H5 一次情報で決まらない端数処理は、名前つきの関数にして結果に印を付ける	ascii_ident	round_intermediate
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	5	第2ラウンド（kokuho）仮説：国保料（税）と国民年金保険料の、コアに置く構造・注入するデータ・入力の事実・人の判断の境目	path	docs/inferences/20261109_round2_kokuho-examples.md
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	7	第2ラウンド（kokuho）仮説：国保料（税）と国民年金保険料の、コアに置く構造・注入するデータ・入力の事実・人の判断の境目	path	docs/public-sources/20261109_round2_kokuho-premium-structure.md
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	8	第2ラウンド（kokuho）仮説：国保料（税）と国民年金保険料の、コアに置く構造・注入するデータ・入力の事実・人の判断の境目	path	docs/measurements/20261109_round2_kokuho-law-fetch.md
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	9	第2ラウンド（kokuho）仮説：国保料（税）と国民年金保険料の、コアに置く構造・注入するデータ・入力の事実・人の判断の境目	path	docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	10	第2ラウンド（kokuho）仮説：国保料（税）と国民年金保険料の、コアに置く構造・注入するデータ・入力の事実・人の判断の境目	path	docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	11	第2ラウンド（kokuho）仮説：国保料（税）と国民年金保険料の、コアに置く構造・注入するデータ・入力の事実・人の判断の境目	path	docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	12	第2ラウンド（kokuho）仮説：国保料（税）と国民年金保険料の、コアに置く構造・注入するデータ・入力の事実・人の判断の境目	path	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	13	第2ラウンド（kokuho）仮説：国保料（税）と国民年金保険料の、コアに置く構造・注入するデータ・入力の事実・人の判断の境目	path	docs/public-sources/20261109_R4-modeling_concepts.md
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	155	H11 繰越控除と専従者給与：制度ごとに「どの段階の所得」を使うかが違う	path	docs/hypotheses/20261109_round2_genka-model.md
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	155	H11 繰越控除と専従者給与：制度ごとに「どの段階の所得」を使うかが違う	path	docs/hypotheses/20261109_round2_aoiro-model.md
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	169	H12 中心の概念と依存の向き（概念辞書への登録案）	dotted_jp	住民税.総所得金額等
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	169	H12 中心の概念と依存の向き（概念辞書への登録案）	dotted_jp	国保.基礎控除後の総所得金額等
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	169	H12 中心の概念と依存の向き（概念辞書への登録案）	dotted_jp	国保.軽減判定所得
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	169	H12 中心の概念と依存の向き（概念辞書への登録案）	dotted_jp	国年.免除判定所得
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	169	H12 中心の概念と依存の向き（概念辞書への登録案）	dotted_jp	国年.一部免除判定所得
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	170	H12 中心の概念と依存の向き（概念辞書への登録案）	dotted_jp	国保.世帯
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	170	H12 中心の概念と依存の向き（概念辞書への登録案）	dotted_jp	国保.納付義務者
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	170	H12 中心の概念と依存の向き（概念辞書への登録案）	dotted_jp	国保.被保険者数
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	170	H12 中心の概念と依存の向き（概念辞書への登録案）	dotted_jp	国保.給与所得者等の数
+docs/hypotheses/20261109_round2_kyosai-model.md	5	仮説：共済組合の被扶養者と、住所が別の家族（単身赴任・別居の子・別々の市町村）を判定コアでどう表すか（第2ラウンド）	path	docs/inferences/20261109_round2_kyosai-cases.md
+docs/hypotheses/20261109_round2_kyosai-model.md	7	仮説：共済組合の被扶養者と、住所が別の家族（単身赴任・別居の子・別々の市町村）を判定コアでどう表すか（第2ラウンド）	path	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md
+docs/hypotheses/20261109_round2_kyosai-model.md	8	仮説：共済組合の被扶養者と、住所が別の家族（単身赴任・別居の子・別々の市町村）を判定コアでどう表すか（第2ラウンド）	path	docs/public-sources/20261109_round2_kyosai-separate-address.md
+docs/hypotheses/20261109_round2_kyosai-model.md	9	仮説：共済組合の被扶養者と、住所が別の家族（単身赴任・別居の子・別々の市町村）を判定コアでどう表すか（第2ラウンド）	path	docs/measurements/20261109_round2_kyosai-fetch-and-checks.md
+docs/hypotheses/20261109_round2_kyosai-model.md	10	仮説：共済組合の被扶養者と、住所が別の家族（単身赴任・別居の子・別々の市町村）を判定コアでどう表すか（第2ラウンド）	path	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md
+docs/hypotheses/20261109_round2_kyosai-model.md	11	仮説：共済組合の被扶養者と、住所が別の家族（単身赴任・別居の子・別々の市町村）を判定コアでどう表すか（第2ラウンド）	path	docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md
+docs/hypotheses/20261109_round2_kyosai-model.md	12	仮説：共済組合の被扶養者と、住所が別の家族（単身赴任・別居の子・別々の市町村）を判定コアでどう表すか（第2ラウンド）	path	docs/public-sources/20261109_R4-modeling_concepts.md
+docs/hypotheses/20261109_round2_kyosai-model.md	13	仮説：共済組合の被扶養者と、住所が別の家族（単身赴任・別居の子・別々の市町村）を判定コアでどう表すか（第2ラウンド）	path	docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md
+docs/hypotheses/20261109_round2_kyosai-model.md	14	仮説：共済組合の被扶養者と、住所が別の家族（単身赴任・別居の子・別々の市町村）を判定コアでどう表すか（第2ラウンド）	path	docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md
+docs/hypotheses/20261109_round2_kyosai-model.md	14	仮説：共済組合の被扶養者と、住所が別の家族（単身赴任・別居の子・別々の市町村）を判定コアでどう表すか（第2ラウンド）	path	docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md
+docs/hypotheses/20261109_round2_kyosai-model.md	68	HKY5 生計維持の収入基準：コアは「規則の型」を持ち、数値は保険者データから受け取る	other	{ "同一世帯": ["T1","T2"], "別世帯": ["T1","T4"], "父母": ["T7"], "送金の方法": ["振込"], "学生の子の別世帯": "送金の比較をしない" , 出典: …}
+docs/hypotheses/20261109_round2_kyosai-model.md	103	HKY9 届出と認定日：共済は法律の「30日」をコアで、健保は保険者の決定（事実）を受け取る	other	kyosai_nintei_bi(事実発生日, 届出受理日)
+docs/hypotheses/20261109_round2_kyosai-model.md	103	HKY9 届出と認定日：共済は法律の「30日」をコアで、健保は保険者の決定（事実）を受け取る	ascii_ident	days_within_inclusive_of_start
+docs/hypotheses/20261109_round2_kyosai-model.md	103	HKY9 届出と認定日：共済は法律の「30日」をコアで、健保は保険者の決定（事実）を受け取る	ascii_ident	days_within_excluding_start
+docs/hypotheses/20261109_round2_kyosai-model.md	136	HKY13 一次情報で決まらない端数処理・境界（名前つき関数にし、出典未確認の印を付ける）	other	月額 × 12 < 年額
+docs/hypotheses/20261109_round2_kyosai-model.md	136	HKY13 一次情報で決まらない端数処理・境界（名前つき関数にし、出典未確認の印を付ける）	other	日額 × 360 < 年額
+docs/hypotheses/20261109_round2_kyosai-model.md	138	HKY13 一次情報で決まらない端数処理・境界（名前つき関数にし、出典未確認の印を付ける）	ascii_ident	floor_to_1000
+docs/hypotheses/20261109_round2_kyosai-model.md	154	訂正の記録	path	docs/measurements/20261109_round2_kyosai-verification.md
+docs/hypotheses/20261109_round2_spouse-model.md	6	第2ラウンド（spouse）：配偶者に関する規則の実装の仮説（入力の事実・人の判断・コアと注入データの境目・端数処理）	path	docs/public-sources/20261109_round2_spouse-laws-and-sources.md
+docs/hypotheses/20261109_round2_spouse-model.md	7	第2ラウンド（spouse）：配偶者に関する規則の実装の仮説（入力の事実・人の判断・コアと注入データの境目・端数処理）	path	docs/measurements/20261109_round2_spouse-fetch-and-tables.md
+docs/hypotheses/20261109_round2_spouse-model.md	8	第2ラウンド（spouse）：配偶者に関する規則の実装の仮説（入力の事実・人の判断・コアと注入データの境目・端数処理）	path	docs/public-sources/20261109_R4-modeling_concepts.md
+docs/hypotheses/20261109_round2_spouse-model.md	8	第2ラウンド（spouse）：配偶者に関する規則の実装の仮説（入力の事実・人の判断・コアと注入データの境目・端数処理）	path	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md
+docs/hypotheses/20261109_round2_spouse-model.md	8	第2ラウンド（spouse）：配偶者に関する規則の実装の仮説（入力の事実・人の判断・コアと注入データの境目・端数処理）	path	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md
+docs/hypotheses/20261109_round2_spouse-model.md	8	第2ラウンド（spouse）：配偶者に関する規則の実装の仮説（入力の事実・人の判断・コアと注入データの境目・端数処理）	path	docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md
+docs/hypotheses/20261109_round2_spouse-model.md	8	第2ラウンド（spouse）：配偶者に関する規則の実装の仮説（入力の事実・人の判断・コアと注入データの境目・端数処理）	path	docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md
+docs/hypotheses/20261109_round2_spouse-model.md	8	第2ラウンド（spouse）：配偶者に関する規則の実装の仮説（入力の事実・人の判断・コアと注入データの境目・端数処理）	path	docs/measurements/20261109_impl-prep_kyuyo-thresholds.md
+docs/hypotheses/20261109_round2_spouse-model.md	9	第2ラウンド（spouse）：配偶者に関する規則の実装の仮説（入力の事実・人の判断・コアと注入データの境目・端数処理）	path	docs/hypotheses/20261109_impl-prep_misc-hypotheses.md
+docs/hypotheses/20261109_round2_spouse-model.md	9	第2ラウンド（spouse）：配偶者に関する規則の実装の仮説（入力の事実・人の判断・コアと注入データの境目・端数処理）	path	docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md
+docs/hypotheses/20261109_round2_spouse-model.md	9	第2ラウンド（spouse）：配偶者に関する規則の実装の仮説（入力の事実・人の判断・コアと注入データの境目・端数処理）	path	docs/hypotheses/20261109_R4-modeling_entity-model.md
+docs/hypotheses/20261109_round2_spouse-model.md	17	HS1 「配偶者」は制度ごとに別の概念として持ち、婚姻に関する事実は日付つきの事実として記録する	dotted_jp	所得税.配偶者
+docs/hypotheses/20261109_round2_spouse-model.md	17	HS1 「配偶者」は制度ごとに別の概念として持ち、婚姻に関する事実は日付つきの事実として記録する	dotted_jp	住民税.配偶者
+docs/hypotheses/20261109_round2_spouse-model.md	17	HS1 「配偶者」は制度ごとに別の概念として持ち、婚姻に関する事実は日付つきの事実として記録する	dotted_jp	健保.配偶者
+docs/hypotheses/20261109_round2_spouse-model.md	17	HS1 「配偶者」は制度ごとに別の概念として持ち、婚姻に関する事実は日付つきの事実として記録する	dotted_jp	国年.配偶者
+docs/hypotheses/20261109_round2_spouse-model.md	23	HS1 「配偶者」は制度ごとに別の概念として持ち、婚姻に関する事実は日付つきの事実として記録する	dotted_jp	住民税.配偶者
+docs/hypotheses/20261109_round2_spouse-model.md	23	HS1 「配偶者」は制度ごとに別の概念として持ち、婚姻に関する事実は日付つきの事実として記録する	dotted_jp	所得税.配偶者
+docs/hypotheses/20261109_round2_spouse-model.md	39	HS2 所得税の配偶者控除・配偶者特別控除は、すべて法令の条文で決まる。コアに置き、注入データは要らない	dotted_jp	同一生計配偶者.所得上限
+docs/hypotheses/20261109_round2_spouse-model.md	43	HS2 所得税の配偶者控除・配偶者特別控除は、すべて法令の条文で決まる。コアに置き、注入データは要らない	dotted_jp	第83条の2.超過額の切下げ(超過額)
+docs/hypotheses/20261109_round2_spouse-model.md	44	HS2 所得税の配偶者控除・配偶者特別控除は、すべて法令の条文で決まる。コアに置き、注入データは要らない	other	第83条の2.割合と切上げ(額, 分子, 分母)
+docs/hypotheses/20261109_round2_spouse-model.md	160	訂正の記録	path	docs/measurements/20261109_round2_spouse-verification.md
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	4	様式の欄の対応表（ライブラリが持つデータ）の形と、欄 → 概念の対応（令和7年分）	ascii_ident	round2
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	4	様式の欄の対応表（ライブラリが持つデータ）の形と、欄 → 概念の対応（令和7年分）	ascii_ident	yoshiki
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	7	様式の欄の対応表（ライブラリが持つデータ）の形と、欄 → 概念の対応（令和7年分）	path	docs/public-sources/20261109_round2_yoshiki-forms-r07.md
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	8	様式の欄の対応表（ライブラリが持つデータ）の形と、欄 → 概念の対応（令和7年分）	path	docs/measurements/20261109_round2_yoshiki-fetch-and-extract.md
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	9	様式の欄の対応表（ライブラリが持つデータ）の形と、欄 → 概念の対応（令和7年分）	path	docs/public-sources/20261109_impl-prep_output-forms-and-specs.md
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	9	様式の欄の対応表（ライブラリが持つデータ）の形と、欄 → 概念の対応（令和7年分）	path	docs/measurements/20261109_impl-prep_output-verification.md
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	10	様式の欄の対応表（ライブラリが持つデータ）の形と、欄 → 概念の対応（令和7年分）	path	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	10	様式の欄の対応表（ライブラリが持つデータ）の形と、欄 → 概念の対応（令和7年分）	path	docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	10	様式の欄の対応表（ライブラリが持つデータ）の形と、欄 → 概念の対応（令和7年分）	path	docs/public-sources/20261109_round2b_kabu-law-and-nta.md
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	11	様式の欄の対応表（ライブラリが持つデータ）の形と、欄 → 概念の対応（令和7年分）	path	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	11	様式の欄の対応表（ライブラリが持つデータ）の形と、欄 → 概念の対応（令和7年分）	path	docs/public-sources/20261109_impl-prep_iryohi-law-text.md
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	12	様式の欄の対応表（ライブラリが持つデータ）の形と、欄 → 概念の対応（令和7年分）	path	docs/public-sources/20261109_R4-modeling_concepts.md
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	13	様式の欄の対応表（ライブラリが持つデータ）の形と、欄 → 概念の対応（令和7年分）	path	docs/public-sources/20261109_round2_genka-laws-and-nta.md
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	15	様式の欄の対応表（ライブラリが持つデータ）の形と、欄 → 概念の対応（令和7年分）	path	docs/hypotheses/20261109_impl-prep_output-minimal-layer.md
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	22	H1：欄の鍵は「年分 × 帳票（e-Tax 様式ID＋ページ）× 欄の位置名」。欄コードは位置名の一つの属性で、鍵そのものにしない	form_id	KOA020-01
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	22	H1：欄の鍵は「年分 × 帳票（e-Tax 様式ID＋ページ）× 欄の位置名」。欄コードは位置名の一つの属性で、鍵そのものにしない	form_id	KOA020-02
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	22	H1：欄の鍵は「年分 × 帳票（e-Tax 様式ID＋ページ）× 欄の位置名」。欄コードは位置名の一つの属性で、鍵そのものにしない	form_id	KOA020-03
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	22	H1：欄の鍵は「年分 × 帳票（e-Tax 様式ID＋ページ）× 欄の位置名」。欄コードは位置名の一つの属性で、鍵そのものにしない	form_id	KOA020-04
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	22	H1：欄の鍵は「年分 × 帳票（e-Tax 様式ID＋ページ）× 欄の位置名」。欄コードは位置名の一つの属性で、鍵そのものにしない	other	-05
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	22	H1：欄の鍵は「年分 × 帳票（e-Tax 様式ID＋ページ）× 欄の位置名」。欄コードは位置名の一つの属性で、鍵そのものにしない	form_id	KOA210-01
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	22	H1：欄の鍵は「年分 × 帳票（e-Tax 様式ID＋ページ）× 欄の位置名」。欄コードは位置名の一つの属性で、鍵そのものにしない	other	-04
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	22	H1：欄の鍵は「年分 × 帳票（e-Tax 様式ID＋ページ）× 欄の位置名」。欄コードは位置名の一つの属性で、鍵そのものにしない	form_id	KOA110-01
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	22	H1：欄の鍵は「年分 × 帳票（e-Tax 様式ID＋ページ）× 欄の位置名」。欄コードは位置名の一つの属性で、鍵そのものにしない	other	-02
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	22	H1：欄の鍵は「年分 × 帳票（e-Tax 様式ID＋ページ）× 欄の位置名」。欄コードは位置名の一つの属性で、鍵そのものにしない	form_id	KOB560-01
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	22	H1：欄の鍵は「年分 × 帳票（e-Tax 様式ID＋ページ）× 欄の位置名」。欄コードは位置名の一つの属性で、鍵そのものにしない	form_id	KOB565-01
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	22	H1：欄の鍵は「年分 × 帳票（e-Tax 様式ID＋ページ）× 欄の位置名」。欄コードは位置名の一つの属性で、鍵そのものにしない	form_id	KOB570-01
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	22	H1：欄の鍵は「年分 × 帳票（e-Tax 様式ID＋ページ）× 欄の位置名」。欄コードは位置名の一つの属性で、鍵そのものにしない	form_id	KOB575-01
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	22	H1：欄の鍵は「年分 × 帳票（e-Tax 様式ID＋ページ）× 欄の位置名」。欄コードは位置名の一つの属性で、鍵そのものにしない	other	NTA1K?A020010230
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	23	H1：欄の鍵は「年分 × 帳票（e-Tax 様式ID＋ページ）× 欄の位置名」。欄コードは位置名の一つの属性で、鍵そのものにしない	dotted_jp	KOA020-02/配偶者や親族/行2/住民税.同一
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	23	H1：欄の鍵は「年分 × 帳票（e-Tax 様式ID＋ページ）× 欄の位置名」。欄コードは位置名の一つの属性で、鍵そのものにしない	other	KOA020-02/保険料等/⑮/新生命保険料/支払保険料等の計
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	23	H1：欄の鍵は「年分 × 帳票（e-Tax 様式ID＋ページ）× 欄の位置名」。欄コードは位置名の一つの属性で、鍵そのものにしない	dotted_jp	KOA020-05/繰越損失/年分B/純損失.青色.山林以外/Ⓑ
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	23	H1：欄の鍵は「年分 × 帳票（e-Tax 様式ID＋ページ）× 欄の位置名」。欄コードは位置名の一つの属性で、鍵そのものにしない	ascii_ident	G58
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	30	H1：欄の鍵は「年分 × 帳票（e-Tax 様式ID＋ページ）× 欄の位置名」。欄コードは位置名の一つの属性で、鍵そのものにしない	path	docs/inferences/20261109_round2_yoshiki-checks.md
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	36	H2：対応表の各行は「位置名・値の型・容量・概念・記入の条件・根拠」を持つデータ（年分ごと）。値の型は7種類	ascii_ident	G58
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	37	H2：対応表の各行は「位置名・値の型・容量・概念・記入の条件・根拠」を持つデータ（年分ごと）。値の型は7種類	ascii_ident	G01
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	37	H2：対応表の各行は「位置名・値の型・容量・概念・記入の条件・根拠」を持つデータ（年分ごと）。値の型は7種類	ascii_ident	G09
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	37	H2：対応表の各行は「位置名・値の型・容量・概念・記入の条件・根拠」を持つデータ（年分ごと）。値の型は7種類	ascii_ident	G10
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	37	H2：対応表の各行は「位置名・値の型・容量・概念・記入の条件・根拠」を持つデータ（年分ごと）。値の型は7種類	ascii_ident	G21
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	37	H2：対応表の各行は「位置名・値の型・容量・概念・記入の条件・根拠」を持つデータ（年分ごと）。値の型は7種類	ascii_ident	G36
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	37	H2：対応表の各行は「位置名・値の型・容量・概念・記入の条件・根拠」を持つデータ（年分ごと）。値の型は7種類	ascii_ident	G01
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	37	H2：対応表の各行は「位置名・値の型・容量・概念・記入の条件・根拠」を持つデータ（年分ごと）。値の型は7種類	ascii_ident	G49
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	38	H2：対応表の各行は「位置名・値の型・容量・概念・記入の条件・根拠」を持つデータ（年分ごと）。値の型は7種類	ascii_ident	G109
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	41	H2：対応表の各行は「位置名・値の型・容量・概念・記入の条件・根拠」を持つデータ（年分ごと）。値の型は7種類	ascii_ident	N01
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	41	H2：対応表の各行は「位置名・値の型・容量・概念・記入の条件・根拠」を持つデータ（年分ごと）。値の型は7種類	ascii_ident	N08
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	41	H2：対応表の各行は「位置名・値の型・容量・概念・記入の条件・根拠」を持つデータ（年分ごと）。値の型は7種類	ascii_ident	M01
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	41	H2：対応表の各行は「位置名・値の型・容量・概念・記入の条件・根拠」を持つデータ（年分ごと）。値の型は7種類	ascii_ident	U01
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	42	H2：対応表の各行は「位置名・値の型・容量・概念・記入の条件・根拠」を持つデータ（年分ごと）。値の型は7種類	ascii_ident	F02
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	42	H2：対応表の各行は「位置名・値の型・容量・概念・記入の条件・根拠」を持つデータ（年分ごと）。値の型は7種類	ascii_ident	G10
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	83	H5.1 第一表（`KOA020-01`）	dotted_jp	所得税.事業所得.総収入金額
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	83	H5.1 第一表（`KOA020-01`）	dotted_jp	所得税.事業所得の金額
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	96	H5.1 第一表（`KOA020-01`）	dotted_jp	所得税.総所得金額
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	120	H5.1 第一表（`KOA020-01`）	dotted_jp	所得税.公的年金等に係る雑所得以外の合計所得金額
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	254	訂正の記録	path	docs/measurements/20261109_round2_yoshiki-verification.md
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	5	仮説：不動産所得を判定コア・中間表現・判断台帳にどう置くか（第2ラウンド追加分 fudosan）	path	docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	6	仮説：不動産所得を判定コア・中間表現・判断台帳にどう置くか（第2ラウンド追加分 fudosan）	path	docs/measurements/20261109_round2b_fudosan-fetch-and-checks.md
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	7	仮説：不動産所得を判定コア・中間表現・判断台帳にどう置くか（第2ラウンド追加分 fudosan）	path	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	8	仮説：不動産所得を判定コア・中間表現・判断台帳にどう置くか（第2ラウンド追加分 fudosan）	path	docs/public-sources/20261109_R1-laws_income-tax.md
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	9	仮説：不動産所得を判定コア・中間表現・判断台帳にどう置くか（第2ラウンド追加分 fudosan）	path	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	10	仮説：不動産所得を判定コア・中間表現・判断台帳にどう置くか（第2ラウンド追加分 fudosan）	path	docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	11	仮説：不動産所得を判定コア・中間表現・判断台帳にどう置くか（第2ラウンド追加分 fudosan）	path	docs/public-sources/20261109_impl-prep_output-forms-and-specs.md
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	13	仮説：不動産所得を判定コア・中間表現・判断台帳にどう置くか（第2ラウンド追加分 fudosan）	path	docs/inferences/20261109_round2b_fudosan-inferences.md
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	117	H7 判定ごとの「所得」の数え方は、所得税・住民税は同じ不動産所得（控除・通算・制限の後）で、健保は収入から保険者が認める経費を引いた別の値になる	dotted_jp	所得税.不動産所得の金額
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	117	H7 判定ごとの「所得」の数え方は、所得税・住民税は同じ不動産所得（控除・通算・制限の後）で、健保は収入から保険者が認める経費を引いた別の値になる	dotted_jp	所得税.損益通算の対象となる不動産所得の損失
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	118	H7 判定ごとの「所得」の数え方は、所得税・住民税は同じ不動産所得（控除・通算・制限の後）で、健保は収入から保険者が認める経費を引いた別の値になる	dotted_jp	健保.年間収入.不動産
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	123	H8 様式の欄の対応表（T5-2）は、令和7年分について収支内訳書（G01〜G21）・青色申告決算書1頁（G01〜G24）・申告書第一表（㋒・③）で書ける	ascii_ident	G30
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	123	H8 様式の欄の対応表（T5-2）は、令和7年分について収支内訳書（G01〜G21）・青色申告決算書1頁（G01〜G24）・申告書第一表（㋒・③）で書ける	ascii_ident	G41
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	127	H8 様式の欄の対応表（T5-2）は、令和7年分について収支内訳書（G01〜G21）・青色申告決算書1頁（G01〜G24）・申告書第一表（㋒・③）で書ける	ascii_ident	G41
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	134	H9 一次情報で決まらない端数・値は名前つきの関数にし、結果に印を付ける	dotted_jp	端数.事業専従者控除の除算
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	135	H9 一次情報で決まらない端数・値は名前つきの関数にし、結果に印を付ける	dotted_jp	端数.土地等負債の按分
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	136	H9 一次情報で決まらない端数・値は名前つきの関数にし、結果に印を付ける	dotted_jp	基準.事業的規模の推定
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	137	H9 一次情報で決まらない端数・値は名前つきの関数にし、結果に印を付ける	dotted_jp	解釈.所法56の対象
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	138	H9 一次情報で決まらない端数・値は名前つきの関数にし、結果に印を付ける	dotted_jp	解釈.勤労学生の給与所得等以外の部分
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	152	訂正の記録	path	docs/measurements/20261109_round2b_fudosan-verification.md
+docs/hypotheses/20261109_round2b_invoice-model.md	5	仮説：消費税の課税事業者・インボイス登録・経理方式を、所得税などの判定コアにどう入れるか（第2ラウンド追加分 invoice）	path	docs/public-sources/20261109_round2b_invoice-laws-and-nta.md
+docs/hypotheses/20261109_round2b_invoice-model.md	6	仮説：消費税の課税事業者・インボイス登録・経理方式を、所得税などの判定コアにどう入れるか（第2ラウンド追加分 invoice）	path	docs/measurements/20261109_round2b_invoice-fetch-and-checks.md
+docs/hypotheses/20261109_round2b_invoice-model.md	7	仮説：消費税の課税事業者・インボイス登録・経理方式を、所得税などの判定コアにどう入れるか（第2ラウンド追加分 invoice）	path	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md
+docs/hypotheses/20261109_round2b_invoice-model.md	8	仮説：消費税の課税事業者・インボイス登録・経理方式を、所得税などの判定コアにどう入れるか（第2ラウンド追加分 invoice）	path	docs/public-sources/20261109_round2_genka-laws-and-nta.md
+docs/hypotheses/20261109_round2b_invoice-model.md	9	仮説：消費税の課税事業者・インボイス登録・経理方式を、所得税などの判定コアにどう入れるか（第2ラウンド追加分 invoice）	path	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md
+docs/hypotheses/20261109_round2b_invoice-model.md	10	仮説：消費税の課税事業者・インボイス登録・経理方式を、所得税などの判定コアにどう入れるか（第2ラウンド追加分 invoice）	path	docs/public-sources/20261109_R1-laws_income-tax.md
+docs/hypotheses/20261109_round2b_invoice-model.md	11	仮説：消費税の課税事業者・インボイス登録・経理方式を、所得税などの判定コアにどう入れるか（第2ラウンド追加分 invoice）	path	docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md
+docs/hypotheses/20261109_round2b_invoice-model.md	12	仮説：消費税の課税事業者・インボイス登録・経理方式を、所得税などの判定コアにどう入れるか（第2ラウンド追加分 invoice）	path	docs/public-sources/20261109_round2_kokuho-premium-structure.md
+docs/hypotheses/20261109_round2b_invoice-model.md	13	仮説：消費税の課税事業者・インボイス登録・経理方式を、所得税などの判定コアにどう入れるか（第2ラウンド追加分 invoice）	path	docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md
+docs/hypotheses/20261109_round2b_invoice-model.md	14	仮説：消費税の課税事業者・インボイス登録・経理方式を、所得税などの判定コアにどう入れるか（第2ラウンド追加分 invoice）	path	docs/measurements/20261109_round2b_invoice-verification.md
+docs/hypotheses/20261109_round2b_invoice-model.md	16	仮説：消費税の課税事業者・インボイス登録・経理方式を、所得税などの判定コアにどう入れるか（第2ラウンド追加分 invoice）	path	docs/inferences/20261109_round2b_invoice-cases.md
+docs/hypotheses/20261109_round2b_invoice-model.md	24	H1 消費税の納税義務の状態は、ライブラリが判定せず「人 × 日付の範囲」の外部の事実として受け取る	other	{人, 開始日, 終了日, 状態: 免除 | 免除されない, 理由: 登録 | 選択届出 | 基準期間 | 特定期間 | その他, 証憑への参照}
+docs/hypotheses/20261109_round2b_invoice-model.md	33	H2 経理方式は納税者の選択で、「人 × 年分 × 業務（所得の種類）」ごとに持つ。免除の期間は税込経理に強制する	other	{人, 年分, 業務: 事業 | 不動産 | 雑（業務）, 売上: 税込 | 税抜, 固定資産・繰延資産: 税込 | 税抜, 棚卸資産・山林: 税込 | 税抜, 経費等: 税込 | 税抜}
+docs/hypotheses/20261109_round2b_invoice-model.md	43	H3 税込経理の計算は、記録の税込の額をそのまま使い、消費税等の納付・還付を「申告書ごとの事実」で受けて、年分を決める	other	{人, 課税期間の開始日・終了日, 種類: 確定 | 中間 | 修正 | 更正 | 決定 | 期限後, 申告書の提出日（中間申告で提出しなかったときはみなし提出の日＝提出期限）又は更正・決定の日, 消費税の額, 地方消費税の額, 附帯税の額（別欄）, 証憑}
+docs/hypotheses/20261109_round2b_invoice-model.md	45	H3 税込経理の計算は、記録の税込の額をそのまま使い、消費税等の納付・還付を「申告書ごとの事実」で受けて、年分を決める	other	{対象の申告書, 未払金（未収入金）に計上した年}
+docs/hypotheses/20261109_round2b_invoice-model.md	119	H9 中間表現の語彙（事実の語彙。法令の解釈を含めない）の案	ascii_ident	ct_liability
+docs/hypotheses/20261109_round2b_invoice-model.md	120	H9 中間表現の語彙（事実の語彙。法令の解釈を含めない）の案	ascii_ident	invoice_registration
+docs/hypotheses/20261109_round2b_invoice-model.md	121	H9 中間表現の語彙（事実の語彙。法令の解釈を含めない）の案	ascii_ident	ct_return
+docs/hypotheses/20261109_round2b_invoice-model.md	122	H9 中間表現の語彙（事実の語彙。法令の解釈を含めない）の案	ascii_ident	ct_accounting_method
+docs/hypotheses/20261109_round2b_invoice-model.md	122	H9 中間表現の語彙（事実の語彙。法令の解釈を含めない）の案	ascii_ident	ct_accrual_choice
+docs/hypotheses/20261109_round2b_invoice-model.md	122	H9 中間表現の語彙（事実の語彙。法令の解釈を含めない）の案	ascii_ident	ct_simplified_karibarai
+docs/hypotheses/20261109_round2b_invoice-model.md	123	H9 中間表現の語彙（事実の語彙。法令の解釈を含めない）の案	ascii_ident	price_excluding_ct
+docs/hypotheses/20261109_round2b_invoice-model.md	123	H9 中間表現の語彙（事実の語彙。法令の解釈を含めない）の案	ascii_ident	counterparty_registered
+docs/hypotheses/20261109_round2b_invoice-model.md	128	訂正の記録	path	docs/measurements/20261109_round2b_invoice-verification.md
+docs/hypotheses/20261109_round2b_kabu-model.md	4	株式等の譲渡所得・配当所得と申告の選択：判定コアのモデル（仮説）	ascii_ident	kabu
+docs/hypotheses/20261109_round2b_kabu-model.md	6	株式等の譲渡所得・配当所得と申告の選択：判定コアのモデル（仮説）	path	docs/public-sources/20261109_round2b_kabu-law-and-nta.md
+docs/hypotheses/20261109_round2b_kabu-model.md	7	株式等の譲渡所得・配当所得と申告の選択：判定コアのモデル（仮説）	path	docs/measurements/20261109_round2b_kabu-fetch-and-verify.md
+docs/hypotheses/20261109_round2b_kabu-model.md	8	株式等の譲渡所得・配当所得と申告の選択：判定コアのモデル（仮説）	path	docs/public-sources/20261109_R1-laws_income-tax.md
+docs/hypotheses/20261109_round2b_kabu-model.md	9	株式等の譲渡所得・配当所得と申告の選択：判定コアのモデル（仮説）	path	docs/public-sources/20261109_R1-laws_local-tax.md
+docs/hypotheses/20261109_round2b_kabu-model.md	10	株式等の譲渡所得・配当所得と申告の選択：判定コアのモデル（仮説）	path	docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md
+docs/hypotheses/20261109_round2b_kabu-model.md	11	株式等の譲渡所得・配当所得と申告の選択：判定コアのモデル（仮説）	path	docs/public-sources/20261109_impl-prep_iryohi-law-text.md
+docs/hypotheses/20261109_round2b_kabu-model.md	11	株式等の譲渡所得・配当所得と申告の選択：判定コアのモデル（仮説）	path	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md
+docs/hypotheses/20261109_round2b_kabu-model.md	12	株式等の譲渡所得・配当所得と申告の選択：判定コアのモデル（仮説）	path	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md
+docs/hypotheses/20261109_round2b_kabu-model.md	13	株式等の譲渡所得・配当所得と申告の選択：判定コアのモデル（仮説）	path	docs/public-sources/20261109_impl-prep_output-forms-and-specs.md
+docs/hypotheses/20261109_round2b_kabu-model.md	113	H5. 法令が決める構造（判定コアの計算の順序）	dotted_jp	所得税.合計所得金額
+docs/hypotheses/20261109_round2b_kabu-model.md	113	H5. 法令が決める構造（判定コアの計算の順序）	dotted_jp	所得税.総所得金額等
+docs/hypotheses/20261109_round2b_kabu-model.md	113	H5. 法令が決める構造（判定コアの計算の順序）	dotted_jp	所得税.上場株式等に係る配当所得等の金額
+docs/hypotheses/20261109_round2b_kabu-model.md	113	H5. 法令が決める構造（判定コアの計算の順序）	dotted_jp	所得税.上場株式等に係る譲渡所得等の金額
+docs/hypotheses/20261109_round2b_kabu-model.md	113	H5. 法令が決める構造（判定コアの計算の順序）	dotted_jp	所得税.勤労学生.給与所得等以外の所得
+docs/hypotheses/20261109_round2b_kabu-model.md	113	H5. 法令が決める構造（判定コアの計算の順序）	dotted_jp	住民税.合計所得金額
+docs/hypotheses/20261109_round2b_kabu-model.md	113	H5. 法令が決める構造（判定コアの計算の順序）	dotted_jp	国保.基礎控除後の総所得金額等
+docs/hypotheses/20261109_round2b_kabu-model.md	113	H5. 法令が決める構造（判定コアの計算の順序）	dotted_jp	健保.年間収入
+docs/hypotheses/20261109_round2b_kabu-model.md	113	H5. 法令が決める構造（判定コアの計算の順序）	path	docs/hypotheses/20261109_impl-prep_iryohi-model.md
+docs/hypotheses/20261109_round2b_kabu-model.md	113	H5. 法令が決める構造（判定コアの計算の順序）	ascii_ident	total_income_for_deductions
+docs/hypotheses/20261109_round2b_kabu-model.md	113	H5. 法令が決める構造（判定コアの計算の順序）	ascii_ident	total_income_sum
+docs/hypotheses/20261109_round2b_kabu-model.md	114	H5. 法令が決める構造（判定コアの計算の順序）	other	住民税.課税方式 ← 所得税.提出した申告書の記載（前年分）
+docs/hypotheses/20261109_round2b_kabu-model.md	114	H5. 法令が決める構造（判定コアの計算の順序）	other	国保.基礎控除後の総所得金額等 ← 住民税.総所得金額等
+docs/hypotheses/20261109_round2b_kabu-model.md	114	H5. 法令が決める構造（判定コアの計算の順序）	other	所得税.上場株式等の譲渡損失の繰越額 ← 前年以前3年の申告
+docs/hypotheses/20261109_round2b_kabu-model.md	125	H6. 一次情報で決まらない点・端数処理	other	配当を含むか
+docs/hypotheses/20261109_round2b_kabu-model.md	125	H6. 一次情報で決まらない点・端数処理	other	譲渡益を含むか
+docs/hypotheses/20261109_round2b_kabu-model.md	125	H6. 一次情報で決まらない点・端数処理	other	額の定義
+docs/hypotheses/20261109_round2b_kabu-model.md	125	H6. 一次情報で決まらない点・端数処理	other	継続性の判断
+docs/hypotheses/20261109_round2b_kabu-model.md	155	H8. 実装の範囲の提案	path	R2B_kabu_egov.py
+docs/hypotheses/20261109_round2b_kabu-model.md	159	訂正の記録	path	docs/measurements/20261109_round2b_kabu-verification.md
+docs/hypotheses/20261109_round2b_nenkin-model.md	5	公的年金等の雑所得（老齢・障害・遺族年金）：実装に向けた仮説	path	docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md
+docs/hypotheses/20261109_round2b_nenkin-model.md	6	公的年金等の雑所得（老齢・障害・遺族年金）：実装に向けた仮説	path	docs/measurements/20261109_round2b_nenkin-fetch-and-checks.md
+docs/hypotheses/20261109_round2b_nenkin-model.md	7	公的年金等の雑所得（老齢・障害・遺族年金）：実装に向けた仮説	path	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md
+docs/hypotheses/20261109_round2b_nenkin-model.md	7	公的年金等の雑所得（老齢・障害・遺族年金）：実装に向けた仮説	path	docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md
+docs/hypotheses/20261109_round2b_nenkin-model.md	8	公的年金等の雑所得（老齢・障害・遺族年金）：実装に向けた仮説	path	docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md
+docs/hypotheses/20261109_round2b_nenkin-model.md	8	公的年金等の雑所得（老齢・障害・遺族年金）：実装に向けた仮説	path	docs/measurements/20261109_impl-prep_misc-fetch-and-age-check.md
+docs/hypotheses/20261109_round2b_nenkin-model.md	9	公的年金等の雑所得（老齢・障害・遺族年金）：実装に向けた仮説	path	docs/public-sources/20261109_round2_gaps-sources.md
+docs/hypotheses/20261109_round2b_nenkin-model.md	10	公的年金等の雑所得（老齢・障害・遺族年金）：実装に向けた仮説	path	docs/measurements/20261109_round2b_nenkin-verification.md
+docs/hypotheses/20261109_round2b_nenkin-model.md	12	公的年金等の雑所得（老齢・障害・遺族年金）：実装に向けた仮説	path	docs/inferences/20261109_round2b_nenkin-cases.md
+docs/hypotheses/20261109_round2b_nenkin-model.md	76	H4 非課税の年金は税の所得の数え方から外れるが、健保の年間収入には入る。数え方を概念ごとに分ける	dotted_jp	所得税.合計所得金額
+docs/hypotheses/20261109_round2b_nenkin-model.md	77	H4 非課税の年金は税の所得の数え方から外れるが、健保の年間収入には入る。数え方を概念ごとに分ける	dotted_jp	所得税.総所得金額等
+docs/hypotheses/20261109_round2b_nenkin-model.md	79	H4 非課税の年金は税の所得の数え方から外れるが、健保の年間収入には入る。数え方を概念ごとに分ける	dotted_jp	公的年金等控除.その他の合計所得金額
+docs/hypotheses/20261109_round2b_nenkin-model.md	80	H4 非課税の年金は税の所得の数え方から外れるが、健保の年間収入には入る。数え方を概念ごとに分ける	dotted_jp	所得税.申告不要の判定.その他の所得金額
+docs/hypotheses/20261109_round2b_nenkin-model.md	81	H4 非課税の年金は税の所得の数え方から外れるが、健保の年間収入には入る。数え方を概念ごとに分ける	dotted_jp	所得税.申告不要の判定.その他の所得金額
+docs/hypotheses/20261109_round2b_nenkin-model.md	82	H4 非課税の年金は税の所得の数え方から外れるが、健保の年間収入には入る。数え方を概念ごとに分ける	dotted_jp	住民税.合計所得金額
+docs/hypotheses/20261109_round2b_nenkin-model.md	82	H4 非課税の年金は税の所得の数え方から外れるが、健保の年間収入には入る。数え方を概念ごとに分ける	dotted_jp	住民税.総所得金額等
+docs/hypotheses/20261109_round2b_nenkin-model.md	83	H4 非課税の年金は税の所得の数え方から外れるが、健保の年間収入には入る。数え方を概念ごとに分ける	dotted_jp	健保.年間収入
+docs/hypotheses/20261109_round2b_nenkin-model.md	130	H8 端数処理：条文にない。境目の判定を変えるときだけ「未確定」にする	other	公的年金等控除額の円未満処理
+docs/hypotheses/20261109_round2b_nenkin-model.md	160	訂正の記録	path	docs/measurements/20261109_round2b_nenkin-verification.md
+docs/hypotheses/20261109_round2b_taishoku-model.md	5	退職所得：実装に向けた仮説（第2ラウンド追加分）	path	docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md
+docs/hypotheses/20261109_round2b_taishoku-model.md	6	退職所得：実装に向けた仮説（第2ラウンド追加分）	path	docs/measurements/20261109_round2b_taishoku-fetch-and-checks.md
+docs/hypotheses/20261109_round2b_taishoku-model.md	7	退職所得：実装に向けた仮説（第2ラウンド追加分）	path	docs/measurements/20261109_round2b_taishoku-verification.md
+docs/hypotheses/20261109_round2b_taishoku-model.md	8	退職所得：実装に向けた仮説（第2ラウンド追加分）	path	docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md
+docs/hypotheses/20261109_round2b_taishoku-model.md	8	退職所得：実装に向けた仮説（第2ラウンド追加分）	path	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md
+docs/hypotheses/20261109_round2b_taishoku-model.md	8	退職所得：実装に向けた仮説（第2ラウンド追加分）	path	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md
+docs/hypotheses/20261109_round2b_taishoku-model.md	9	退職所得：実装に向けた仮説（第2ラウンド追加分）	path	docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md
+docs/hypotheses/20261109_round2b_taishoku-model.md	9	退職所得：実装に向けた仮説（第2ラウンド追加分）	path	docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md
+docs/hypotheses/20261109_round2b_taishoku-model.md	10	退職所得：実装に向けた仮説（第2ラウンド追加分）	path	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md
+docs/hypotheses/20261109_round2b_taishoku-model.md	10	退職所得：実装に向けた仮説（第2ラウンド追加分）	path	docs/public-sources/20261109_round2_gaps-sources.md
+docs/hypotheses/20261109_round2b_taishoku-model.md	12	退職所得：実装に向けた仮説（第2ラウンド追加分）	path	docs/inferences/20261109_round2b_taishoku-inferences.md
+docs/hypotheses/20261109_round2b_taishoku-model.md	78	H5 所得の数え方は判定ごとに違う。退職所得は「所得税の合計所得金額・総所得金額等には入る」「住民税の合計所得金額には入らない（源泉徴収されたもの）」「健保の年間収入には（一時金なら）入らない（共済の運用で確認、健保は未確認）」	dotted_jp	所得税.合計所得金額
+docs/hypotheses/20261109_round2b_taishoku-model.md	78	H5 所得の数え方は判定ごとに違う。退職所得は「所得税の合計所得金額・総所得金額等には入る」「住民税の合計所得金額には入らない（源泉徴収されたもの）」「健保の年間収入には（一時金なら）入らない（共済の運用で確認、健保は未確認）」	dotted_jp	所得税.総所得金額等
+docs/hypotheses/20261109_round2b_taishoku-model.md	78	H5 所得の数え方は判定ごとに違う。退職所得は「所得税の合計所得金額・総所得金額等には入る」「住民税の合計所得金額には入らない（源泉徴収されたもの）」「健保の年間収入には（一時金なら）入らない（共済の運用で確認、健保は未確認）」	dotted_jp	住民税.合計所得金額
+docs/hypotheses/20261109_round2b_taishoku-model.md	78	H5 所得の数え方は判定ごとに違う。退職所得は「所得税の合計所得金額・総所得金額等には入る」「住民税の合計所得金額には入らない（源泉徴収されたもの）」「健保の年間収入には（一時金なら）入らない（共済の運用で確認、健保は未確認）」	dotted_jp	健保.年間収入
+docs/hypotheses/20261109_round2b_taishoku-model.md	146	訂正の記録	path	docs/measurements/20261109_round2b_taishoku-verification.md
+docs/hypotheses/20261109_sakusei-corner_test-oracle.md	4	作成コーナーの計算結果を、判定ロジックのテストの照合先に使えるか	ascii_expr	sakusei-corner
+docs/hypotheses/20261109_sakusei-corner_test-oracle.md	6	作成コーナーの計算結果を、判定ロジックのテストの照合先に使えるか	path	docs/measurements/20261109_sakusei-corner_client-analysis.md
+docs/hypotheses/20261109_sakusei-corner_test-oracle.md	30	H3：年齢の判定の式は、作成コーナーと同じ式を使ってよい	ascii_ident	jsGetAge
+docs/inferences/20261109_impl-prep_denchoho-record-layer-checks.md	4	実装前調査：記録層の電帳法対応 — 仮説から導いた推測と検証の方法	ascii_expr	impl-prep
+docs/inferences/20261109_impl-prep_denchoho-record-layer-checks.md	4	実装前調査：記録層の電帳法対応 — 仮説から導いた推測と検証の方法	ascii_ident	denchoho
+docs/inferences/20261109_impl-prep_denchoho-record-layer-checks.md	5	実装前調査：記録層の電帳法対応 — 仮説から導いた推測と検証の方法	path	docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md
+docs/inferences/20261109_impl-prep_denchoho-record-layer-checks.md	19	I2. 台帳（beancount）の取引だけを入力して証憑ファイルを残さない運用は、電帳法第7条の保存にならない。記録層に「証憑が必要な取引に証憑がない」検査を入れれば機械的に防げる	meta_key	evidence:
+docs/inferences/20261109_impl-prep_denchoho-record-layer-checks.md	21	I2. 台帳（beancount）の取引だけを入力して証憑ファイルを残さない運用は、電帳法第7条の保存にならない。記録層に「証憑が必要な取引に証憑がない」検査を入れれば機械的に防げる	meta_key	evidence:
+docs/inferences/20261109_impl-prep_denchoho-record-layer-checks.md	52	I5. 白色の子供の台帳を電子のまま帳簿として保存するには、確認できていない点が2つ残る。それまでは年末の紙出力が安全	path	docs/measurements/20261109_impl-prep_denchoho-fetch.md
+docs/inferences/20261109_impl-prep_denchoho-record-layer-checks.md	52	I5. 白色の子供の台帳を電子のまま帳簿として保存するには、確認できていない点が2つ残る。それまでは年末の紙出力が安全	ascii_expr	tsutatsu-kaisetsu-r0706
+docs/inferences/20261109_impl-prep_denchoho-record-layer-checks.md	75	訂正の記録	path	docs/measurements/20261109_impl-prep_denchoho-verification.md
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	4	推測：S3（父と母がそれぞれ家族の医療費を払う）の再確認と、医療費控除の追加の推測	ascii_ident	iryohi
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	5	推測：S3（父と母がそれぞれ家族の医療費を払う）の再確認と、医療費控除の追加の推測	path	docs/inferences/20261109_R4-modeling_scenarios.md
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	7	推測：S3（父と母がそれぞれ家族の医療費を払う）の再確認と、医療費控除の追加の推測	path	docs/hypotheses/20261109_impl-prep_iryohi-model.md
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	8	推測：S3（父と母がそれぞれ家族の医療費を払う）の再確認と、医療費控除の追加の推測	path	docs/hypotheses/20261109_R4-modeling_entity-model.md
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	9	推測：S3（父と母がそれぞれ家族の医療費を払う）の再確認と、医療費控除の追加の推測	path	docs/hypotheses/20261109_sakusei-corner_test-oracle.md
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	34	前提	path	docs/inferences/20261109_R4-modeling_scenarios.md
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	71	前提	ascii_ident	threshold_5pct_floor
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	90	検証方法	ascii_ident	threshold_5pct_floor
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	169	検証方法	path	docs/measurements/20261109_impl-prep_iryohi-fetch-and-forms.md
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	194	訂正の記録	path	docs/measurements/20261109_impl-prep_iryohi-verification.md
+docs/inferences/20261109_impl-prep_jigyo-inferences.md	4	推測：事業所得・業務に係る雑所得の計算の期待値と検証方法（IMPL jigyo）	path	docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md
+docs/inferences/20261109_impl-prep_jigyo-inferences.md	63	I4 事業所得と業務に係る雑所得の両方がある家内労働者等の配分（令和7年分）	path	scripts/IMPL_jigyo_checks.py
+docs/inferences/20261109_impl-prep_jigyo-inferences.md	77	I5 家事関連費（白色・業務に係る雑所得）	path	docs/inferences/20261109_R4-modeling_scenarios.md
+docs/inferences/20261109_impl-prep_jigyo-inferences.md	116	I8 一時所得の2分の1の端数	ascii_ident	round_ichiji_half
+docs/inferences/20261109_impl-prep_jigyo-inferences.md	152	訂正の記録	path	docs/measurements/20261109_impl-prep_jigyo-verification.md
+docs/inferences/20261109_impl-prep_juminzei-implications.md	5	推測：住民税の判定を実装するときの含意（年度と年分の対応を中心に）	path	docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md
+docs/inferences/20261109_impl-prep_juminzei-implications.md	10	I1 判定コアの入口は「年分」でよいが、住民税は「年分＋1 の年度」として別の結果に出す	other	evaluate(中間表現, 年分)
+docs/inferences/20261109_impl-prep_juminzei-implications.md	12	I1 判定コアの入口は「年分」でよいが、住民税は「年分＋1 の年度」として別の結果に出す	other	evaluate(中間表現, 年分=令和8年分)
+docs/inferences/20261109_impl-prep_juminzei-implications.md	31	I2 非課税の境目のテスト（D15 ②）は実測の計算表をそのまま使える	path	scripts/results/IMPL_juminzei_thresholds/thresholds.json
+docs/inferences/20261109_impl-prep_juminzei-implications.md	43	I2 非課税の境目のテスト（D15 ②）は実測の計算表をそのまま使える	path	IMPL_juminzei_thresholds.py
+docs/inferences/20261109_impl-prep_juminzei-implications.md	71	I4 中間表現に足りない事実がある	path	docs/inferences/20261109_R4-modeling_scenarios.md
+docs/inferences/20261109_impl-prep_juminzei-implications.md	103	I7 年度の切り替わりと法令の改正の取り込み	path	scripts/results/IMPL_juminzei_laws/revisions_chiho*.json
+docs/inferences/20261109_impl-prep_juminzei-implications.md	105	I7 年度の切り替わりと法令の改正の取り込み	path	docs/measurements/20261109_impl-prep_juminzei-verification.md
+docs/inferences/20261109_impl-prep_juminzei-implications.md	105	I7 年度の切り替わりと法令の改正の取り込み	path	law_checks.md
+docs/inferences/20261109_impl-prep_juminzei-implications.md	111	訂正の記録	path	docs/measurements/20261109_impl-prep_juminzei-verification.md
+docs/inferences/20261109_impl-prep_kenpo-test-cases.md	4	健康保険の被扶養者判定：仮説から導いた期待値（境目のテスト案）と検証方法（推測）	path	docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md
+docs/inferences/20261109_impl-prep_kenpo-test-cases.md	5	健康保険の被扶養者判定：仮説から導いた期待値（境目のテスト案）と検証方法（推測）	path	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md
+docs/inferences/20261109_impl-prep_kenpo-test-cases.md	5	健康保険の被扶養者判定：仮説から導いた期待値（境目のテスト案）と検証方法（推測）	path	docs/measurements/20261109_impl-prep_kenpo-fetch-and-scan.md
+docs/inferences/20261109_impl-prep_kenpo-test-cases.md	57	IK2 判定方法の切替え（HK1・HK2）	path	docs/measurements/20261109_impl-prep_kenpo-verification.md
+docs/inferences/20261109_impl-prep_kenpo-test-cases.md	87	IK4 別居の子の援助額基準（HK4）	path	docs/inferences/20261109_R4-modeling_scenarios.md
+docs/inferences/20261109_impl-prep_kenpo-test-cases.md	152	訂正の記録	path	docs/measurements/20261109_impl-prep_kenpo-verification.md
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	5	実装前調査（kyuyo）推測：給与所得の関数・パラメータ・テストケースの設計と、その検証方法	path	docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	6	実装前調査（kyuyo）推測：給与所得の関数・パラメータ・テストケースの設計と、その検証方法	path	docs/measurements/20261109_impl-prep_kyuyo-thresholds.md
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	6	実装前調査（kyuyo）推測：給与所得の関数・パラメータ・テストケースの設計と、その検証方法	path	docs/measurements/20261109_impl-prep_kyuyo-beppyo5.md
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	7	実装前調査（kyuyo）推測：給与所得の関数・パラメータ・テストケースの設計と、その検証方法	path	docs/public-sources/20261109_impl-prep_kyuyo-sources.md
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	7	実装前調査（kyuyo）推測：給与所得の関数・パラメータ・テストケースの設計と、その検証方法	path	docs/public-sources/20261109_R1-laws_income-tax.md
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	11	I1 給与所得の関数とパラメータの形（前提：H1、H2、H6、H7）	other	kyuyo_shotoku(年分, その年中の給与等の収入金額の合計)
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	12	I1 給与所得の関数とパラメータの形（前提：H1、H2、H6、H7）	ascii_ident	beppyo5
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	12	I1 給与所得の関数とパラメータの形（前提：H1、H2、H6、H7）	path	scripts/results/IMPL_kyuyo_beppyo5/beppyo5_<asof>.csv
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	13	I1 給与所得の関数とパラメータの形（前提：H1、H2、H6、H7）	ascii_ident	sochi_29_4_2
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	14	I1 給与所得の関数とパラメータの形（前提：H1、H2、H6、H7）	ascii_ident	floor_yen
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	17	I1 給与所得の関数とパラメータの形（前提：H1、H2、H6、H7）	path	scripts/IMPL_kyuyo_spotcheck.py
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	18	I1 給与所得の関数とパラメータの形（前提：H1、H2、H6、H7）	other	kyuyo_shotoku(y, x) <= x
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	19	I1 給与所得の関数とパラメータの形（前提：H1、H2、H6、H7）	path	IMPL_kyuyo_fetch.py
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	19	I1 給与所得の関数とパラメータの形（前提：H1、H2、H6、H7）	path	IMPL_kyuyo_beppyo5.py
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	45	I2 年分ごとの境目のテストケース（前提：H1、H5、H8。D15 ②）	path	scripts/results/IMPL_kyuyo_thresholds/kyuyo_shotoku_samples.csv
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	53	I3 住民税の給与所得は所得税の関数を年度−1で呼ぶ（前提：H4、H5）	other	jumin_kyuyo_shotoku(年度, 前年の給与収入) = kyuyo_shotoku(年度に対応する前年の年分, 前年の給与収入)
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	59	I3 住民税の給与所得は所得税の関数を年度−1で呼ぶ（前提：H4、H5）	path	IMPL_kyuyo_fetch.py
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	72	I5 令和10年分以後の境目は下がる（現行の条文のまま改正がない場合）（前提：H1）	path	scripts/results/IMPL_kyuyo_thresholds/thresholds.md
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	74	I5 令和10年分以後の境目は下がる（現行の条文のまま改正がない場合）（前提：H1）	path	IMPL_kyuyo_fetch.py
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	89	訂正の記録	path	docs/measurements/20261109_impl-prep_kyuyo-verification.md
+docs/inferences/20261109_impl-prep_misc-inferences.md	4	実装前の追加調査（misc）：推測と検証方法	path	docs/hypotheses/20261109_impl-prep_misc-hypotheses.md
+docs/inferences/20261109_impl-prep_misc-inferences.md	11	I1 年齢関数のテストの期待値（前提：H1）	other	年齢(生年月日, その年の12月31日)
+docs/inferences/20261109_impl-prep_misc-inferences.md	27	I1 年齢関数のテストの期待値（前提：H1）	path	scripts/results/IMPL_misc_age_check/result.md
+docs/inferences/20261109_impl-prep_misc-inferences.md	35	I2 判定日の違う年齢の判定（前提：H1）	path	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md
+docs/inferences/20261109_impl-prep_misc-inferences.md	50	I4 親族の判定のテスト（前提：H2）	path	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md
+docs/inferences/20261109_impl-prep_misc-inferences.md	50	I4 親族の判定のテスト（前提：H2）	path	docs/public-sources/20261109_R4-modeling_concepts.md
+docs/inferences/20261109_impl-prep_misc-inferences.md	57	I5 所属の割当ての結果（前提：H3）	path	docs/public-sources/20261109_R4-modeling_concepts.md
+docs/inferences/20261109_impl-prep_misc-inferences.md	75	I7 扶養の連鎖が税額に効く場面（前提：H5）	path	docs/public-sources/20261109_R1-laws_income-tax.md
+docs/inferences/20261109_impl-prep_misc-inferences.md	83	I7 扶養の連鎖が税額に効く場面（前提：H5）	path	docs/inferences/20261109_R4-modeling_scenarios.md
+docs/inferences/20261109_impl-prep_misc-inferences.md	88	I8 令和7年分では、源泉控除対象親族による除外は起きない（前提：H5・H6）	path	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md
+docs/inferences/20261109_impl-prep_misc-inferences.md	89	I8 令和7年分では、源泉控除対象親族による除外は起きない（前提：H5・H6）	path	docs/public-sources/20261109_R3-tsutatsu_nta.md
+docs/inferences/20261109_impl-prep_misc-inferences.md	98	I9 記録の項目と源泉徴収票の対応（前提：H6）	path	chousho01.pdf
+docs/inferences/20261109_impl-prep_misc-inferences.md	98	I9 記録の項目と源泉徴収票の対応（前提：H6）	path	0026009-129.pdf
+docs/inferences/20261109_impl-prep_misc-inferences.md	98	I9 記録の項目と源泉徴収票の対応（前提：H6）	path	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md
+docs/inferences/20261109_impl-prep_misc-inferences.md	102	訂正の記録	path	docs/measurements/20261109_impl-prep_misc-verification.md
+docs/inferences/20261109_impl-prep_output-checks.md	4	出力層の仮説から導いた推測と、その確かめ方	ascii_expr	impl-prep
+docs/inferences/20261109_impl-prep_output-checks.md	4	出力層の仮説から導いた推測と、その確かめ方	ascii_ident	output
+docs/inferences/20261109_impl-prep_output-checks.md	6	出力層の仮説から導いた推測と、その確かめ方	path	docs/hypotheses/20261109_impl-prep_output-minimal-layer.md
+docs/inferences/20261109_impl-prep_output-checks.md	16	I1：令和8年分の第一表・第二表は、令和7年分の新様式から欄が変わる（H4）	other	/taxes/shiraberu/shinkoku/syotoku/r08.htm
+docs/inferences/20261109_impl-prep_output-checks.md	23	I2：公式の医療費集計フォーム（Ver.3.1）のテンプレートのセルに値を入れただけのファイルは、作成コーナーで読み込める（H3）	ascii_expr	docProps/app.xml
+docs/inferences/20261109_impl-prep_output-checks.md	34	I3：作成コーナーで「合計額だけ入力」した場合と、明細を読み込んだ場合とで、医療費控除額（第一表㉘）は同じになる（H3）	ascii_ident	G62
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G01
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	F01
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	F07
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	K01
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	F02
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G32
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G28
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G34
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G14
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G44
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G39
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G46
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G48
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G50
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G51
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G56
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G59
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G60
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G64
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G65
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G66
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G72
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G74
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G75
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G76
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G78
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G79
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G81
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G82
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G89
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	Z01
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	Z08
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G96
+docs/inferences/20261109_impl-prep_output-checks.md	53	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G97
+docs/inferences/20261109_impl-prep_output-checks.md	54	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	E01
+docs/inferences/20261109_impl-prep_output-checks.md	54	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G08
+docs/inferences/20261109_impl-prep_output-checks.md	54	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G09
+docs/inferences/20261109_impl-prep_output-checks.md	54	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G36
+docs/inferences/20261109_impl-prep_output-checks.md	55	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G01
+docs/inferences/20261109_impl-prep_output-checks.md	62	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G58
+docs/inferences/20261109_impl-prep_output-checks.md	62	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G20
+docs/inferences/20261109_impl-prep_output-checks.md	62	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G110
+docs/inferences/20261109_impl-prep_output-checks.md	62	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G109
+docs/inferences/20261109_impl-prep_output-checks.md	62	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G108
+docs/inferences/20261109_impl-prep_output-checks.md	62	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G62
+docs/inferences/20261109_impl-prep_output-checks.md	62	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	ascii_ident	G21
+docs/inferences/20261109_impl-prep_output-checks.md	76	I7：令和7年分の新様式（2026-09-24 以降）は、照合（D15⑤）の時に旧様式で作られた資料と食い違って見えることがある（H4）	other	NTA1K?A020010230
+docs/inferences/20261109_impl-prep_output-checks.md	76	I7：令和7年分の新様式（2026-09-24 以降）は、照合（D15⑤）の時に旧様式で作られた資料と食い違って見えることがある（H4）	other	?
+docs/inferences/20261109_impl-prep_output-checks.md	80	I8：令和8年分の第一表・第二表の様式ID は `NTA1KOA020010240`・`NTA0KOA020020240` になる（H10・H4。2026-11-09 独立検証で追加）	ascii_ident	NTA
+docs/inferences/20261109_impl-prep_output-checks.md	80	I8：令和8年分の第一表・第二表の様式ID は `NTA1KOA020010240`・`NTA0KOA020020240` になる（H10・H4。2026-11-09 独立検証で追加）	other	0240
+docs/inferences/20261109_impl-prep_output-checks.md	82	I8：令和8年分の第一表・第二表の様式ID は `NTA1KOA020010240`・`NTA0KOA020020240` になる（H10・H4。2026-11-09 独立検証で追加）	other	0240
+docs/inferences/20261109_impl-prep_output-checks.md	84	I8：令和8年分の第一表・第二表の様式ID は `NTA1KOA020010240`・`NTA0KOA020020240` になる（H10・H4。2026-11-09 独立検証で追加）	other	0240
+docs/inferences/20261109_impl-prep_output-checks.md	90	訂正の記録	path	docs/measurements/20261109_impl-prep_output-verification.md
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	4	実装前の追加調査：実装の約束から導いた推測と、その検証方法	path	docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	5	実装前の追加調査：実装の約束から導いた推測と、その検証方法	path	docs/measurements/
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	10	I1. 金額を int にし、率の計算を整数の名前つき関数にすれば、端数の食い違いは起きない	other	率を掛けて切り捨て(金額, 分子, 分母) = (金額 × 分子) // 分母
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	11	I1. 金額を int にし、率の計算を整数の名前つき関数にすれば、端数の食い違いは起きない	path	scripts/IMPL_tools_openfisca_probe.py
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	11	I1. 金額を int にし、率の計算を整数の名前つき関数にすれば、端数の食い違いは起きない	other	(x × k) // 分母
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	16	I2. 判定日が月の途中でも、`year:<判定日>` を期間にし、入力を月の変数に限れば正しく計算できる	other	year:<判定日>
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	17	I2. 判定日が月の途中でも、`year:<判定日>` を期間にし、入力を月の変数に限れば正しく計算できる	ascii_ident	assert
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	17	I2. 判定日が月の途中でも、`year:<判定日>` を期間にし、入力を月の変数に限れば正しく計算できる	ascii_expr	year:2025-10-15
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	21	I3. 累進税率表を使ったことも、式から明示的に記録すれば根拠に残せる	other	.calc()
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	22	I3. 累進税率表を使ったことも、式から明示的に記録すれば根拠に残せる	other	人.simulation.tracer.record_parameter_access(名前, 参照日, 値)
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	22	I3. 累進税率表を使ったことも、式から明示的に記録すれば根拠に残せる	ascii_ident	SimpleTracer
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	22	I3. 累進税率表を使ったことも、式から明示的に記録すれば根拠に残せる	ascii_expr	SimpleTracer.record_parameter_access
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	23	I3. 累進税率表を使ったことも、式から明示的に記録すれば根拠に残せる	ascii_ident	basis_of
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	23	I3. 累進税率表を使ったことも、式から明示的に記録すれば根拠に残せる	ascii_ident	record_parameter_access
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	28	I4. CLI の起動時間の大半は import なので、常駐させれば1回あたり 0.1〜1 秒になる	ascii_ident	evaluate
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	28	I4. CLI の起動時間の大半は import なので、常駐させれば1回あたり 0.1〜1 秒になる	ascii_ident	evaluate
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	43	I6. アダプタの語彙と型を JSON Schema で書けば、中間表現の検査と同じ仕組みで扱える	ascii_expr	impl-probe-tx/0
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	43	I6. アダプタの語彙と型を JSON Schema で書けば、中間表現の検査と同じ仕組みで扱える	ascii_ident	string
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	43	I6. アダプタの語彙と型を JSON Schema で書けば、中間表現の検査と同じ仕組みで扱える	ascii_ident	date
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	43	I6. アダプタの語彙と型を JSON Schema で書けば、中間表現の検査と同じ仕組みで扱える	ascii_ident	decimal
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	43	I6. アダプタの語彙と型を JSON Schema で書けば、中間表現の検査と同じ仕組みで扱える	ascii_ident	id
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	44	I6. アダプタの語彙と型を JSON Schema で書けば、中間表現の検査と同じ仕組みで扱える	path	normalized_sample.json
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	48	訂正の記録	path	docs/measurements/20261109_impl-prep_tools-verification.md
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	4	実装前の追加調査（zeigaku）推測：子供自身の所得税の計算例（令和8年分を主、令和7年分で照合）と検証方法	path	scripts/IMPL_zeigaku_example_calc.py
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	5	実装前の追加調査（zeigaku）推測：子供自身の所得税の計算例（令和8年分を主、令和7年分で照合）と検証方法	path	docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	6	実装前の追加調査（zeigaku）推測：子供自身の所得税の計算例（令和8年分を主、令和7年分で照合）と検証方法	path	docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	6	実装前の追加調査（zeigaku）推測：子供自身の所得税の計算例（令和8年分を主、令和7年分で照合）と検証方法	path	docs/public-sources/20261109_R1-laws_income-tax.md
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	6	実装前の追加調査（zeigaku）推測：子供自身の所得税の計算例（令和8年分を主、令和7年分で照合）と検証方法	path	docs/public-sources/20261109_R3-tsutatsu_nta.md
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	6	実装前の追加調査（zeigaku）推測：子供自身の所得税の計算例（令和8年分を主、令和7年分で照合）と検証方法	path	docs/measurements/20261109_impl-prep_zeigaku-fetch.md
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	56	推測（期待値）と各段の根拠	path	docs/inferences/20261109_R4-modeling_scenarios.md
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	180	検証方法	ascii_ident	fukko_zeigaku_ichi_en_kirisute
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	187	共通の注意	path	docs/inferences/20261109_R4-modeling_scenarios.md
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	193	訂正の記録	path	docs/measurements/20261109_impl-prep_zeigaku-verification.md
+docs/inferences/20261109_R1-laws_inferences.md	5	R1 推測：判定コアのパラメータと監視の設計への当てはめ	path	docs/hypotheses/20261109_R1-laws_hypotheses.md
+docs/inferences/20261109_R1-laws_inferences.md	9	I1 OpenFisca のパラメータは「年分の1月1日」で切り替える（前提：H2）	other	2024-01-01: 480000
+docs/inferences/20261109_R1-laws_inferences.md	9	I1 OpenFisca のパラメータは「年分の1月1日」で切り替える（前提：H2）	other	2025-01-01: 580000
+docs/inferences/20261109_R1-laws_inferences.md	9	I1 OpenFisca のパラメータは「年分の1月1日」で切り替える（前提：H2）	other	2026-01-01: 620000
+docs/inferences/20261109_R1-laws_inferences.md	9	I1 OpenFisca のパラメータは「年分の1月1日」で切り替える（前提：H2）	other	2028-01-01
+docs/inferences/20261109_R1-laws_inferences.md	11	I1 OpenFisca のパラメータは「年分の1月1日」で切り替える（前提：H2）	path	docs/measurements/20261109_R1-laws_article-extraction.md
+docs/inferences/20261109_R1-laws_inferences.md	22	I3 監視ジョブの形（前提：H3、H4）	other	/law_revisions/{id}?updated_from=<前回確認日>
+docs/inferences/20261109_R1-laws_inferences.md	23	I3 監視ジョブの形（前提：H3、H4）	ascii_ident	law_revision_id
+docs/inferences/20261109_R1-laws_inferences.md	23	I3 監視ジョブの形（前提：H3、H4）	other	/law_data/{revision_id}
+docs/inferences/20261109_R1-laws_inferences.md	23	I3 監視ジョブの形（前提：H3、H4）	ascii_ident	current_revision_status
+docs/inferences/20261109_R1-laws_inferences.md	27	I3 監視ジョブの形（前提：H3、H4）	other	/law_revisions
+docs/inferences/20261109_R2-tools_adoption-checks.md	4	R2 採用の仮説から導いた推測と、その検証方法	path	docs/hypotheses/20261109_R2-tools_adoption.md
+docs/inferences/20261109_R2-tools_adoption-checks.md	6	R2 採用の仮説から導いた推測と、その検証方法	path	docs/measurements/
+docs/inferences/20261109_R2-tools_adoption-checks.md	11	I1. Web API のラッパーで、外部ページからの呼び出しと資源の使い果たしを防げる	other	openfisca_web_api.app.create_app(tbs)
+docs/inferences/20261109_R2-tools_adoption-checks.md	12	I1. Web API のラッパーで、外部ページからの呼び出しと資源の使い果たしを防げる	ascii_ident	Origin
+docs/inferences/20261109_R2-tools_adoption-checks.md	13	I1. Web API のラッパーで、外部ページからの呼び出しと資源の使い果たしを防げる	other	app.config["MAX_CONTENT_LENGTH"]
+docs/inferences/20261109_R2-tools_adoption-checks.md	14	I1. Web API のラッパーで、外部ページからの呼び出しと資源の使い果たしを防げる	other	/calculate
+docs/inferences/20261109_R2-tools_adoption-checks.md	14	I1. Web API のラッパーで、外部ページからの呼び出しと資源の使い果たしを防げる	ascii_ident	axes
+docs/inferences/20261109_R2-tools_adoption-checks.md	14	I1. Web API のラッパーで、外部ページからの呼び出しと資源の使い果たしを防げる	other	/trace
+docs/inferences/20261109_R2-tools_adoption-checks.md	17	I1. Web API のラッパーで、外部ページからの呼び出しと資源の使い果たしを防げる	path	scripts/R2_openfisca_check.py
+docs/inferences/20261109_R2-tools_adoption-checks.md	18	I1. Web API のラッパーで、外部ページからの呼び出しと資源の使い果たしを防げる	ascii_ident	axes
+docs/inferences/20261109_R2-tools_adoption-checks.md	24	I2. YAML の読み込みを安全な読み込みに差し替えられる	ascii_expr	openfisca_core.parameters.helpers._load_yaml_file
+docs/inferences/20261109_R2-tools_adoption-checks.md	24	I2. YAML の読み込みを安全な読み込みに差し替えられる	ascii_expr	config.Loader
+docs/inferences/20261109_R2-tools_adoption-checks.md	24	I2. YAML の読み込みを安全な読み込みに差し替えられる	path	helpers.py:45-47
+docs/inferences/20261109_R2-tools_adoption-checks.md	25	I2. YAML の読み込みを安全な読み込みに差し替えられる	ascii_expr	openfisca_core.parameters.config.Loader
+docs/inferences/20261109_R2-tools_adoption-checks.md	25	I2. YAML の読み込みを安全な読み込みに差し替えられる	ascii_expr	yaml.CSafeLoader
+docs/inferences/20261109_R2-tools_adoption-checks.md	25	I2. YAML の読み込みを安全な読み込みに差し替えられる	path	config.py:29-
+docs/inferences/20261109_R2-tools_adoption-checks.md	25	I2. YAML の読み込みを安全な読み込みに差し替えられる	other	!!python/...
+docs/inferences/20261109_R2-tools_adoption-checks.md	26	I2. YAML の読み込みを安全な読み込みに差し替えられる	ascii_expr	openfisca_core.tools.test_runner.Loader
+docs/inferences/20261109_R2-tools_adoption-checks.md	26	I2. YAML の読み込みを安全な読み込みに差し替えられる	path	test_runner.py:129
+docs/inferences/20261109_R2-tools_adoption-checks.md	27	I2. YAML の読み込みを安全な読み込みに差し替えられる	ascii_ident	ConstructorError
+docs/inferences/20261109_R2-tools_adoption-checks.md	34	I3. R4 のモデルの3つの制約は、次の書き方で避けられる	other	/calculate
+docs/inferences/20261109_R2-tools_adoption-checks.md	39	I3. R4 のモデルの3つの制約は、次の書き方で避けられる	other	max: 1
+docs/inferences/20261109_R2-tools_adoption-checks.md	40	I3. R4 のモデルの3つの制約は、次の書き方で避けられる	path	scripts/R2_openfisca_check.py
+docs/inferences/20261109_R2-tools_adoption-checks.md	45	I4. この PC（Windows）では、OpenFisca を UTF-8 モードと gunicorn 以外のサーバーで動かすか、Linux で動かす必要がある	other	openfisca serve
+docs/inferences/20261109_R2-tools_adoption-checks.md	46	I4. この PC（Windows）では、OpenFisca を UTF-8 モードと gunicorn 以外のサーバーで動かすか、Linux で動かす必要がある	other	python -X utf8
+docs/inferences/20261109_R2-tools_adoption-checks.md	46	I4. この PC（Windows）では、OpenFisca を UTF-8 モードと gunicorn 以外のサーバーで動かすか、Linux で動かす必要がある	other	openfisca serve --bind 127.0.0.1:...
+docs/inferences/20261109_R2-tools_adoption-checks.md	48	I4. この PC（Windows）では、OpenFisca を UTF-8 モードと gunicorn 以外のサーバーで動かすか、Linux で動かす必要がある	other	openfisca serve
+docs/inferences/20261109_R2-tools_adoption-checks.md	48	I4. この PC（Windows）では、OpenFisca を UTF-8 モードと gunicorn 以外のサーバーで動かすか、Linux で動かす必要がある	other	ss -ltnp
+docs/inferences/20261109_R2-tools_adoption-checks.md	54	I5. beancount の安全な読み込み関数を、記録層の唯一の入口にできる	ascii_ident	prescan
+docs/inferences/20261109_R3-tsutatsu_monitoring-design.md	4	R3 推測：D9 の監視の組み方と、記録層・判定コアへの影響	path	docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md
+docs/inferences/20261109_R3-tsutatsu_monitoring-design.md	10	I1 毎日の監視は「一覧ページの条件付き GET → 抽出テキストの差分」で足りる（H3 から）	path	docs/public-sources/20261109_R3-tsutatsu_monitoring-sources.md
+docs/inferences/20261109_R3-tsutatsu_monitoring-design.md	11	I1 毎日の監視は「一覧ページの条件付き GET → 抽出テキストの差分」で足りる（H3 から）	path	docs/public-sources/20261109_R3-tsutatsu_monitoring-sources.md
+docs/inferences/20261109_R3-tsutatsu_monitoring-design.md	12	I1 毎日の監視は「一覧ページの条件付き GET → 抽出テキストの差分」で足りる（H3 から）	path	docs/public-sources/20261109_R3-tsutatsu_monitoring-sources.md
+docs/inferences/20261109_R3-tsutatsu_monitoring-design.md	13	I1 毎日の監視は「一覧ページの条件付き GET → 抽出テキストの差分」で足りる（H3 から）	path	docs/public-sources/20261109_R3-tsutatsu_monitoring-sources.md
+docs/inferences/20261109_R3-tsutatsu_monitoring-design.md	15	I1 毎日の監視は「一覧ページの条件付き GET → 抽出テキストの差分」で足りる（H3 から）	path	docs/public-sources/20261109_R3-tsutatsu_monitoring-sources.md
+docs/inferences/20261109_R3-tsutatsu_monitoring-design.md	21	I1 毎日の監視は「一覧ページの条件付き GET → 抽出テキストの差分」で足りる（H3 から）	path	scripts/R3_monitor_probe.py
+docs/inferences/20261109_R3-tsutatsu_monitoring-design.md	22	I1 毎日の監視は「一覧ページの条件付き GET → 抽出テキストの差分」で足りる（H3 から）	ascii_ident	t_doc
+docs/inferences/20261109_R4-modeling_scenarios.md	4	R4 モデル案から導いた推測（具体例）と検証方法	path	docs/measurements/
+docs/inferences/20261109_R4-modeling_scenarios.md	6	R4 モデル案から導いた推測（具体例）と検証方法	path	docs/hypotheses/20261109_R4-modeling_entity-model.md
+docs/inferences/20261109_R4-modeling_scenarios.md	7	R4 モデル案から導いた推測（具体例）と検証方法	path	docs/hypotheses/20261109_R1-laws_hypotheses.md
+docs/inferences/20261109_R4-modeling_scenarios.md	8	R4 モデル案から導いた推測（具体例）と検証方法	path	docs/hypotheses/20261109_R2-tools_adoption.md
+docs/inferences/20261109_R4-modeling_scenarios.md	9	R4 モデル案から導いた推測（具体例）と検証方法	path	docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md
+docs/inferences/20261109_R4-modeling_scenarios.md	10	R4 モデル案から導いた推測（具体例）と検証方法	path	docs/hypotheses/20261109_sakusei-corner_test-oracle.md
+docs/inferences/20261109_R4-modeling_scenarios.md	31	0. 検証の共通手順	ascii_expr	openfisca-core==46.0.1
+docs/inferences/20261109_R4-modeling_scenarios.md	31	0. 検証の共通手順	other	python -I -X utf8
+docs/inferences/20261109_R4-modeling_scenarios.md	32	0. 検証の共通手順	path	scripts/R4_entity_model_check.py
+docs/inferences/20261109_R4-modeling_scenarios.md	32	0. 検証の共通手順	path	scripts/R2_openfisca_check.py
+docs/inferences/20261109_R4-modeling_scenarios.md	32	0. 検証の共通手順	path	scripts/results/R4_entity_model_check/
+docs/inferences/20261109_R4-modeling_scenarios.md	32	0. 検証の共通手順	path	docs/measurements/<実施日>_R4-modeling_entity-model-check.md
+docs/inferences/20261109_R4-modeling_scenarios.md	34	0. 検証の共通手順	other	max: 1
+docs/inferences/20261109_R4-modeling_scenarios.md	34	0. 検証の共通手順	other	max: 2
+docs/inferences/20261109_R4-modeling_scenarios.md	34	0. 検証の共通手順	other	max: 1
+docs/inferences/20261109_R4-modeling_scenarios.md	84	検証方法	other	period: 2026
+docs/inferences/20261109_R4-modeling_scenarios.md	84	検証方法	other	period: year:2026-04-01
+docs/inferences/20261109_R4-modeling_scenarios.md	127	検証方法	other	period: 2025
+docs/inferences/20261109_R4-modeling_scenarios.md	175	検証方法	other	period: 2025
+docs/inferences/20261109_R4-modeling_scenarios.md	214	検証方法	ascii_expr	year:2026
+docs/inferences/20261109_R4-modeling_scenarios.md	214	検証方法	ascii_expr	year:2026-03-31
+docs/inferences/20261109_R4-modeling_scenarios.md	214	検証方法	ascii_expr	year:2026-04-01
+docs/inferences/20261109_R4-modeling_scenarios.md	215	検証方法	other	period: 2026
+docs/inferences/20261109_R4-modeling_scenarios.md	231	入力と推測	other	子 has been declared more than once in 扶養所属…
+docs/inferences/20261109_R4-modeling_scenarios.md	271	検証方法	other	period: 2026
+docs/inferences/20261109_R4-modeling_scenarios.md	299	前提	other	year:<判定日>
+docs/inferences/20261109_R4-modeling_scenarios.md	316	検証方法	other	period: year:2025-09-30
+docs/inferences/20261109_R4-modeling_scenarios.md	316	検証方法	other	period: year:2025-10-01
+docs/inferences/20261109_R4-modeling_scenarios.md	316	検証方法	other	parameters(period.start)
+docs/inferences/20261109_R4-modeling_scenarios.md	316	検証方法	other	parameters(period)
+docs/inferences/20261109_round2_aoiro-cases.md	4	推測：青色申告の規則の期待値と検証方法（round2 aoiro）	path	docs/hypotheses/20261109_round2_aoiro-model.md
+docs/inferences/20261109_round2_aoiro-cases.md	5	推測：青色申告の規則の期待値と検証方法（round2 aoiro）	path	scripts/R2X_aoiro_checks.py
+docs/inferences/20261109_round2_aoiro-cases.md	5	推測：青色申告の規則の期待値と検証方法（round2 aoiro）	path	scripts/results/R2X_aoiro_checks/examples.json
+docs/inferences/20261109_round2_aoiro-cases.md	5	推測：青色申告の規則の期待値と検証方法（round2 aoiro）	path	docs/measurements/20261109_round2_aoiro-fetch-and-checks.md
+docs/inferences/20261109_round2_aoiro-cases.md	107	I8 純損失の繰戻し還付	path	docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md
+docs/inferences/20261109_round2_aoiro-cases.md	109	I8 純損失の繰戻し還付	other	繰戻し_税額
+docs/inferences/20261109_round2_aoiro-cases.md	127	訂正の記録	path	docs/measurements/20261109_round2_aoiro-verification.md
+docs/inferences/20261109_round2_elderly-abroad-cases.md	4	第2ラウンド（elderly-abroad）推測：仮説から導いた期待値（境目と場面のテスト案）と検証方法	path	docs/hypotheses/20261109_round2_elderly-abroad-model.md
+docs/inferences/20261109_round2_elderly-abroad-cases.md	5	第2ラウンド（elderly-abroad）推測：仮説から導いた期待値（境目と場面のテスト案）と検証方法	path	docs/public-sources/20261109_round2_elderly-abroad-laws.md
+docs/inferences/20261109_round2_elderly-abroad-cases.md	5	第2ラウンド（elderly-abroad）推測：仮説から導いた期待値（境目と場面のテスト案）と検証方法	path	docs/public-sources/20261109_round2_elderly-abroad-guidance.md
+docs/inferences/20261109_round2_elderly-abroad-cases.md	5	第2ラウンド（elderly-abroad）推測：仮説から導いた期待値（境目と場面のテスト案）と検証方法	path	docs/measurements/20261109_round2_elderly-abroad-fetch-and-checks.md
+docs/inferences/20261109_round2_elderly-abroad-cases.md	5	第2ラウンド（elderly-abroad）推測：仮説から導いた期待値（境目と場面のテスト案）と検証方法	path	docs/public-sources/20261109_R1-laws_income-tax.md
+docs/inferences/20261109_round2_elderly-abroad-cases.md	5	第2ラウンド（elderly-abroad）推測：仮説から導いた期待値（境目と場面のテスト案）と検証方法	path	docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md
+docs/inferences/20261109_round2_elderly-abroad-cases.md	5	第2ラウンド（elderly-abroad）推測：仮説から導いた期待値（境目と場面のテスト案）と検証方法	path	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md
+docs/inferences/20261109_round2_elderly-abroad-cases.md	56	IE2 同居老親等と住民税の額（HE1・HE2.3）	path	scripts/R2X_elderly-abroad_checks.py
+docs/inferences/20261109_round2_elderly-abroad-cases.md	185	訂正の記録	path	docs/measurements/20261109_round2_elderly-abroad-verification.md
+docs/inferences/20261109_round2_gaps-inferences.md	4	第2ラウンド（gaps）推測：残っていた個別の未解決6項目の仮説から導いた場面と検証方法	path	docs/hypotheses/20261109_round2_gaps-hypotheses.md
+docs/inferences/20261109_round2_gaps-inferences.md	33	IG1 アフィリエイトの所得がある大学生：勤労学生の判定は判断（D4）で分かれ、所得税額は同じ（前提：HG1）	path	docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md
+docs/inferences/20261109_round2_gaps-inferences.md	44	IG2 TA No.1810 の令和7年分の（注）に従うと、扶養の判定を誤る場面（前提：HG2）	path	docs/inferences/20261109_impl-prep_jigyo-inferences.md
+docs/inferences/20261109_round2_gaps-inferences.md	71	IG4 基礎控除の高い所得の境目（前提：HG4）	path	docs/measurements/20261109_impl-prep_kyuyo-thresholds.md
+docs/inferences/20261109_round2_gaps-inferences.md	78	IG5 令和8年分の出力の根拠条文（前提：HG5）	ascii_ident	current_revision_status
+docs/inferences/20261109_round2_gaps-inferences.md	78	IG5 令和8年分の出力の根拠条文（前提：HG5）	path	scripts/R2X_gaps_egov.py
+docs/inferences/20261109_round2_gaps-inferences.md	101	訂正の記録	path	docs/measurements/20261109_round2_gaps-verification.md
+docs/inferences/20261109_round2_genka-examples.md	5	推測：減価償却と損益通算の期待値と検証方法（第2ラウンド genka）	path	docs/hypotheses/20261109_round2_genka-model.md
+docs/inferences/20261109_round2_genka-examples.md	6	推測：減価償却と損益通算の期待値と検証方法（第2ラウンド genka）	path	docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md
+docs/inferences/20261109_round2_genka-examples.md	7	推測：減価償却と損益通算の期待値と検証方法（第2ラウンド genka）	path	docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md
+docs/inferences/20261109_round2_genka-examples.md	8	推測：減価償却と損益通算の期待値と検証方法（第2ラウンド genka）	path	docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md
+docs/inferences/20261109_round2_genka-examples.md	39	I2 償却費の1円未満の端数	other	償却費の端数
+docs/inferences/20261109_round2_genka-examples.md	49	I2 償却費の1円未満の端数	path	scripts/results/R2X_genka_checks/checks.json
+docs/inferences/20261109_round2_genka-examples.md	52	I2 償却費の1円未満の端数	other	償却費の端数
+docs/inferences/20261109_round2_genka-examples.md	57	I3 一括償却資産の1/3の端数	other	一括償却_各年の端数
+docs/inferences/20261109_round2_genka-examples.md	65	I4 家事兼用の資産（未償却残高と少額の判定）	other	家事兼用_未償却残高
+docs/inferences/20261109_round2_genka-examples.md	65	I4 家事兼用の資産（未償却残高と少額の判定）	other	家事兼用_少額判定
+docs/inferences/20261109_round2_genka-examples.md	75	I4 家事兼用の資産（未償却残高と少額の判定）	other	事業専用割合後の端数
+docs/inferences/20261109_round2_genka-examples.md	77	I4 家事兼用の資産（未償却残高と少額の判定）	path	checks.json
+docs/inferences/20261109_round2_genka-examples.md	81	I4 家事兼用の資産（未償却残高と少額の判定）	path	scripts/results/IMPL_jigyo_nta/shitsugi/shitsugi_shotoku_index.links.json
+docs/inferences/20261109_round2_genka-examples.md	86	I5 私用で持っていた資産を業務に使い始めた場合	other	転用_業務供用後の方法
+docs/inferences/20261109_round2_genka-examples.md	86	I5 私用で持っていた資産を業務に使い始めた場合	other	所令85_年数
+docs/inferences/20261109_round2_genka-examples.md	87	I5 私用で持っていた資産を業務に使い始めた場合	path	checks.json
+docs/inferences/20261109_round2_genka-examples.md	90	I5 私用で持っていた資産を業務に使い始めた場合	path	docs/measurements/20261109_round2_genka-verification.md
+docs/inferences/20261109_round2_genka-examples.md	96	I6 除却したときの所得区分ごとの違い	other	処分年_償却費
+docs/inferences/20261109_round2_genka-examples.md	150	訂正の記録	path	docs/measurements/20261109_round2_genka-verification.md
+docs/inferences/20261109_round2_hoken-kifu-cases.md	4	第2ラウンド（hoken-kifu）推測：仮説から導いた具体的な場面と、テストにする値・検証の方法	path	docs/hypotheses/20261109_round2_hoken-kifu-model.md
+docs/inferences/20261109_round2_hoken-kifu-cases.md	6	第2ラウンド（hoken-kifu）推測：仮説から導いた具体的な場面と、テストにする値・検証の方法	path	scripts/R2X_hoken-kifu_calc.py
+docs/inferences/20261109_round2_hoken-kifu-cases.md	6	第2ラウンド（hoken-kifu）推測：仮説から導いた具体的な場面と、テストにする値・検証の方法	path	docs/measurements/20261109_round2_hoken-kifu-formula-checks.md
+docs/inferences/20261109_round2_hoken-kifu-cases.md	20	C2 子が令和9年中に23歳になると、令和9年分は特例が付かない（ほかに23歳未満の扶養親族がいなければ）	path	docs/hypotheses/20261109_impl-prep_misc-hypotheses.md
+docs/inferences/20261109_round2_jinteki-cases.md	5	第2ラウンド（jinteki）推測：障害者・寡婦・ひとり親の場面と境目、検証の方法	path	docs/hypotheses/20261109_round2_jinteki-model.md
+docs/inferences/20261109_round2_jinteki-cases.md	103	I11 寡婦・ひとり親の 500万円の境目（給与だけの人）	path	docs/measurements/20261109_round2_jinteki-fetch-and-checks.md
+docs/inferences/20261109_round2_jinteki-cases.md	116	I12 年分・年度で変わる額の組み合わせ（テストの表）	path	checks.md
+docs/inferences/20261109_round2_jinteki-cases.md	120	訂正の記録	path	docs/measurements/20261109_round2_jinteki-verification.md
+docs/inferences/20261109_round2_juminzei-tax-implications.md	5	推測：住民税の税額の計算の仮説から導く、実装・テスト・データ注入への帰結と検証の方法	path	docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md
+docs/inferences/20261109_round2_juminzei-tax-implications.md	5	推測：住民税の税額の計算の仮説から導く、実装・テスト・データ注入への帰結と検証の方法	path	docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md
+docs/inferences/20261109_round2_juminzei-tax-implications.md	6	推測：住民税の税額の計算の仮説から導く、実装・テスト・データ注入への帰結と検証の方法	path	docs/measurements/20261109_round2_juminzei-tax-fetch-and-checks.md
+docs/inferences/20261109_round2_juminzei-tax-implications.md	7	推測：住民税の税額の計算の仮説から導く、実装・テスト・データ注入への帰結と検証の方法	path	docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md
+docs/inferences/20261109_round2_kokuho-examples.md	4	第2ラウンド（kokuho）推測：家族の場面での国保料（税）・国民年金保険料の帰結と、その検証方法	path	docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md
+docs/inferences/20261109_round2_kokuho-examples.md	5	第2ラウンド（kokuho）推測：家族の場面での国保料（税）・国民年金保険料の帰結と、その検証方法	path	docs/measurements/20261109_round2_kokuho-law-fetch.md
+docs/inferences/20261109_round2_kokuho-examples.md	5	第2ラウンド（kokuho）推測：家族の場面での国保料（税）・国民年金保険料の帰結と、その検証方法	path	scripts/results/R2X_kokuho_values/values.md
+docs/inferences/20261109_round2_kokuho-examples.md	7	第2ラウンド（kokuho）推測：家族の場面での国保料（税）・国民年金保険料の帰結と、その検証方法	path	docs/measurements/
+docs/inferences/20261109_round2_kokuho-examples.md	44	KI3 修学のために別の市町村に住む学生の子は、国保では親の世帯に属するものとみなされ、親の市町村の保険料（税）の世帯に入る	other	/keyword
+docs/inferences/20261109_round2_kokuho-examples.md	56	KI4 年齢による区分は「達する日以後の最初の3月31日」で年度の区切りに合わせて切り替わる	path	scripts/R2X_kokuho_values.py
+docs/inferences/20261109_round2_kokuho-examples.md	57	KI4 年齢による区分は「達する日以後の最初の3月31日」で年度の区切りに合わせて切り替わる	other	/law_revisions
+docs/inferences/20261109_round2_kokuho-examples.md	57	KI4 年齢による区分は「達する日以後の最初の3月31日」で年度の区切りに合わせて切り替わる	path	scripts/R2X_kokuho_egov.py
+docs/inferences/20261109_round2_kokuho-examples.md	57	KI4 年齢による区分は「達する日以後の最初の3月31日」で年度の区切りに合わせて切り替わる	path	article_diffs.json
+docs/inferences/20261109_round2_kokuho-examples.md	62	KI5 国民年金の一部免除の納付額は、令和7年度と令和9年度では端数処理が効く（令和8年度は割り切れる）	path	values.md
+docs/inferences/20261109_round2_kokuho-examples.md	96	KI9 国保の所得割の基礎（令和9年度分）は、令和8年分の住民税の給与所得の計算（74万円の特例が住民税に及ぶか）が決まるまで、給与所得のある人について確定しない	path	scripts/R2X_kokuho_egov.py
+docs/inferences/20261109_round2_kokuho-examples.md	107	KI10 事業の純損失を繰り越している年は、国保の所得割と国民年金の全額免除・納付猶予とで「所得」が違い、免除の方が不利になりうる	path	scripts/R2X_kokuho_egov.py
+docs/inferences/20261109_round2_kyosai-cases.md	4	推測：共済の被扶養者と住所が別の家族の場面で、判定コアが返すべき結果（第2ラウンド）	path	docs/hypotheses/20261109_round2_kyosai-model.md
+docs/inferences/20261109_round2_kyosai-cases.md	4	推測：共済の被扶養者と住所が別の家族の場面で、判定コアが返すべき結果（第2ラウンド）	path	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md
+docs/inferences/20261109_round2_kyosai-cases.md	4	推測：共済の被扶養者と住所が別の家族の場面で、判定コアが返すべき結果（第2ラウンド）	path	docs/public-sources/20261109_round2_kyosai-separate-address.md
+docs/inferences/20261109_round2_kyosai-cases.md	4	推測：共済の被扶養者と住所が別の家族の場面で、判定コアが返すべき結果（第2ラウンド）	path	docs/measurements/20261109_round2_kyosai-fetch-and-checks.md
+docs/inferences/20261109_round2_kyosai-cases.md	7	推測：共済の被扶養者と住所が別の家族の場面で、判定コアが返すべき結果（第2ラウンド）	other	python -I
+docs/inferences/20261109_round2_kyosai-cases.md	18	IKY1 別居の曾祖父母は、健保では範囲内、共済では範囲外	path	scripts/R2X_kyosai_checks.py
+docs/inferences/20261109_round2_kyosai-cases.md	34	IKY3 収入に波があるパート：窓の規則で取消の候補日が変わる	other	python -I
+docs/inferences/20261109_round2_kyosai-cases.md	34	IKY3 収入に波があるパート：窓の規則で取消の候補日が変わる	path	docs/measurements/20261109_round2_kyosai-verification.md
+docs/inferences/20261109_round2_kyosai-cases.md	44	IKY3 収入に波があるパート：窓の規則で取消の候補日が変わる	other	python -I
+docs/inferences/20261109_round2_kyosai-cases.md	67	IKY5 別居の親への仕送り：規則の型で結論が逆になる	other	python -I
+docs/inferences/20261109_round2_kyosai-cases.md	111	IKY8 19歳以上23歳未満の150万円：生年月日と適用開始日の境目	path	scripts/R2X_kyosai_checks.py
+docs/inferences/20261109_round2_kyosai-cases.md	148	訂正の記録	path	docs/measurements/20261109_round2_kyosai-verification.md
+docs/inferences/20261109_round2_spouse-implications.md	5	第2ラウンド（spouse）：仮説から導いた推測（テストの境目、制度間の食い違い、未確定点の確かめ方）	path	docs/hypotheses/20261109_round2_spouse-model.md
+docs/inferences/20261109_round2_spouse-implications.md	5	第2ラウンド（spouse）：仮説から導いた推測（テストの境目、制度間の食い違い、未確定点の確かめ方）	path	docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md
+docs/inferences/20261109_round2_spouse-implications.md	29	IS1 年分ごとの境目のテスト（D15②）は、次の値で組める	path	scripts/results/R2X_spouse_tables/bands.json
+docs/inferences/20261109_round2_spouse-implications.md	55	IS3 年の途中で結婚した年は、所得税と健保・第3号で結論が逆になりうる	path	scripts/R2X_spouse_fetch.py
+docs/inferences/20261109_round2_spouse-implications.md	106	IS9 第3号の年齢と第2号の65歳は「誕生日の前日」で切り替わる。税の「12月31日」とは別の日付関数が要る	path	docs/measurements/20261109_impl-prep_misc-fetch-and-age-check.md
+docs/inferences/20261109_round2_spouse-implications.md	111	訂正の記録	path	docs/measurements/20261109_round2_spouse-verification.md
+docs/inferences/20261109_round2_yoshiki-checks.md	4	様式の欄の対応表の仮説から導いた推測と、その確かめ方	ascii_ident	round2
+docs/inferences/20261109_round2_yoshiki-checks.md	4	様式の欄の対応表の仮説から導いた推測と、その確かめ方	ascii_ident	yoshiki
+docs/inferences/20261109_round2_yoshiki-checks.md	6	様式の欄の対応表の仮説から導いた推測と、その確かめ方	path	docs/hypotheses/20261109_round2_yoshiki-mapping-table.md
+docs/inferences/20261109_round2_yoshiki-checks.md	6	様式の欄の対応表の仮説から導いた推測と、その確かめ方	path	docs/hypotheses/20261109_impl-prep_output-minimal-layer.md
+docs/inferences/20261109_round2_yoshiki-checks.md	6	様式の欄の対応表の仮説から導いた推測と、その確かめ方	path	docs/inferences/20261109_impl-prep_output-checks.md
+docs/inferences/20261109_round2_yoshiki-checks.md	15	I1：e-Tax の「帳票レイアウト設計書」には、欄コードと項目名の対応が帳票のページごとに載っていて、目視で転記した第三表・第四表（二）の欄コードと一致する。第四表（一）の欄にも何らかの識別子がある（H1・H9）	path	docs/public-sources/20261109_impl-prep_output-forms-and-specs.md
+docs/inferences/20261109_round2_yoshiki-checks.md	16	I1：e-Tax の「帳票レイアウト設計書」には、欄コードと項目名の対応が帳票のページごとに載っていて、目視で転記した第三表・第四表（二）の欄コードと一致する。第四表（一）の欄にも何らかの識別子がある（H1・H9）	ascii_ident	zlib
+docs/inferences/20261109_round2_yoshiki-checks.md	18	I1：e-Tax の「帳票レイアウト設計書」には、欄コードと項目名の対応が帳票のページごとに載っていて、目視で転記した第三表・第四表（二）の欄コードと一致する。第四表（一）の欄にも何らかの識別子がある（H1・H9）	path	scripts/results/R2X_yoshiki_rowmap/*.tsv
+docs/inferences/20261109_round2_yoshiki-checks.md	23	I2：令和7年分の対応表のデータを作ると、(帳票, 位置名) は一意で、テキスト層から取り出した欄コードの集合とちょうど一致する（H1）	path	scripts/results/R2X_yoshiki_pdftext/<名>_codes.tsv
+docs/inferences/20261109_round2_yoshiki-checks.md	49	I7：医療費控除の明細書の D の注記の「（丸数字）」は第四表（二）の 93 である（H5.4・H5.6）	path	https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/04/pdf/ref1-ki.pdf
+docs/inferences/20261109_round2_yoshiki-checks.md	49	I7：医療費控除の明細書の D の注記の「（丸数字）」は第四表（二）の 93 である（H5.4・H5.6）	path	tebiki/2025/pdf/008.pdf
+docs/inferences/20261109_round2_yoshiki-checks.md	54	I8：令和8年分の申告書の様式は、令和8年12月ごろの「個人課税事務提要（様式編Ⅰ）」の一部改正（令和7年12月22日の改正と同じ時期）で公表され、そのとき社会保険料控除等の明細書の紙の様式も別冊に加わる（H8）	ascii_expr	https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/kaisei1.htm
+docs/inferences/20261109_round2_yoshiki-checks.md	54	I8：令和8年分の申告書の様式は、令和8年12月ごろの「個人課税事務提要（様式編Ⅰ）」の一部改正（令和7年12月22日の改正と同じ時期）で公表され、そのとき社会保険料控除等の明細書の紙の様式も別冊に加わる（H8）	path	ai-ocr.xlsx
+docs/inferences/20261109_round2_yoshiki-checks.md	54	I8：令和8年分の申告書の様式は、令和8年12月ごろの「個人課税事務提要（様式編Ⅰ）」の一部改正（令和7年12月22日の改正と同じ時期）で公表され、そのとき社会保険料控除等の明細書の紙の様式も別冊に加わる（H8）	ascii_expr	syotoku/r08.htm
+docs/inferences/20261109_round2b_fudosan-inferences.md	5	推測：不動産所得の仮説から導いた期待値と、その検証方法（第2ラウンド追加分 fudosan）	path	docs/hypotheses/20261109_round2b_fudosan-calculation-model.md
+docs/inferences/20261109_round2b_fudosan-inferences.md	6	推測：不動産所得の仮説から導いた期待値と、その検証方法（第2ラウンド追加分 fudosan）	path	docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md
+docs/inferences/20261109_round2b_fudosan-inferences.md	87	I9 所法56 の「事業／業務」を既定で「事業に限る」にすると、業務に係る雑所得の子が親に払う家賃は経費になり、親の不動産所得になる（H6・H9）	dotted_jp	解釈.所法56の対象
+docs/inferences/20261109_round2b_fudosan-inferences.md	94	訂正の記録	path	docs/measurements/20261109_round2b_fudosan-verification.md
+docs/inferences/20261109_round2b_invoice-cases.md	4	推測：消費税の課税事業者・経理方式が、家族の判定に与える影響の場面と期待値（第2ラウンド追加分 invoice）	path	docs/hypotheses/20261109_round2b_invoice-model.md
+docs/inferences/20261109_round2b_invoice-cases.md	5	推測：消費税の課税事業者・経理方式が、家族の判定に与える影響の場面と期待値（第2ラウンド追加分 invoice）	path	scripts/R2B_invoice_examples.py
+docs/inferences/20261109_round2b_invoice-cases.md	5	推測：消費税の課税事業者・経理方式が、家族の判定に与える影響の場面と期待値（第2ラウンド追加分 invoice）	path	scripts/results/R2B_invoice_examples/results.md
+docs/inferences/20261109_round2b_invoice-cases.md	26	I1 登録した最初の年は、税込経理の原則だと消費税等の分だけ所得が大きく出て、扶養の要件の境目をまたぎうる（H3・H5）	path	scripts/R2B_invoice_examples.py
+docs/inferences/20261109_round2b_invoice-cases.md	26	I1 登録した最初の年は、税込経理の原則だと消費税等の分だけ所得が大きく出て、扶養の要件の境目をまたぎうる（H3・H5）	ascii_ident	threshold_I1
+docs/inferences/20261109_round2b_invoice-cases.md	35	I2 税抜経理を選んでも、資産の無い家族の事業なら、所得は「税込・未払金計上」と同じで、経理方式の違いは計上の年だけに出る（H4）	path	scripts/R2B_invoice_examples.py
+docs/inferences/20261109_round2b_invoice-cases.md	35	I2 税抜経理を選んでも、資産の無い家族の事業なら、所得は「税込・未払金計上」と同じで、経理方式の違いは計上の年だけに出る（H4）	ascii_ident	partial_karibarai
+docs/inferences/20261109_round2b_invoice-cases.md	58	I3 税抜経理では、10万円前後の資産の「少額の減価償却資産」の判定が、相手方の登録の有無と取引の日（2026-10-01 の 80％→70％）で変わる（H4・H6）	path	scripts/R2B_invoice_examples.py
+docs/inferences/20261109_round2b_invoice-cases.md	58	I3 税抜経理では、10万円前後の資産の「少額の減価償却資産」の判定が、相手方の登録の有無と取引の日（2026-10-01 の 80％→70％）で変わる（H4・H6）	ascii_ident	shogaku_I3
+docs/inferences/20261109_round2b_invoice-cases.md	87	I8 消費税の課税事業者になった家族がいると、所得税・住民税・国保は同じ事業所得等の値で連動して動くが、健保だけは別の値で動く（H5）	path	docs/inferences/20261109_R4-modeling_scenarios.md
+docs/inferences/20261109_round2b_invoice-cases.md	91	訂正の記録	path	docs/measurements/20261109_round2b_invoice-verification.md
+docs/inferences/20261109_round2b_kabu-scenarios.md	4	株式等の配当・譲渡の申告の選択が家族の判定に与える影響（推測）と、その検証方法	ascii_ident	kabu
+docs/inferences/20261109_round2b_kabu-scenarios.md	5	株式等の配当・譲渡の申告の選択が家族の判定に与える影響（推測）と、その検証方法	path	docs/hypotheses/20261109_round2b_kabu-model.md
+docs/inferences/20261109_round2b_kabu-scenarios.md	6	株式等の配当・譲渡の申告の選択が家族の判定に与える影響（推測）と、その検証方法	path	scripts/R2B_kabu_scenarios.py
+docs/inferences/20261109_round2b_kabu-scenarios.md	6	株式等の配当・譲渡の申告の選択が家族の判定に与える影響（推測）と、その検証方法	path	scripts/results/R2B_kabu_scenarios/scenarios.md
+docs/inferences/20261109_round2b_kabu-scenarios.md	6	株式等の配当・譲渡の申告の選択が家族の判定に与える影響（推測）と、その検証方法	path	docs/measurements/20261109_round2b_kabu-fetch-and-verify.md
+docs/inferences/20261109_round2b_kabu-scenarios.md	21	I1. 学生の子の配当を「申告する」と、扶養親族から特定親族に移り、勤労学生から外れる	dotted_jp	所得税.合計所得金額
+docs/inferences/20261109_round2b_kabu-scenarios.md	68	I7. 健保の被扶養者の年間収入は、税の申告の選択から作ってはいけない	dotted_jp	健保.年間収入
+docs/inferences/20261109_round2b_kabu-scenarios.md	68	I7. 健保の被扶養者の年間収入は、税の申告の選択から作ってはいけない	dotted_jp	所得税.合計所得金額
+docs/inferences/20261109_round2b_kabu-scenarios.md	76	I8. 判定の境目の説明に「どの株式等の所得が効いたか」を出す	path	scripts/R2B_kabu_scenarios.py
+docs/inferences/20261109_round2b_nenkin-cases.md	4	公的年金等の雑所得：仮説から導いた場面ごとの推測と検証方法	path	docs/hypotheses/20261109_round2b_nenkin-model.md
+docs/inferences/20261109_round2b_nenkin-cases.md	99	訂正の記録	path	docs/measurements/20261109_round2b_nenkin-verification.md
+docs/inferences/20261109_round2b_taishoku-inferences.md	4	退職所得：仮説から導く推測と、その検証方法（第2ラウンド追加分）	path	docs/hypotheses/20261109_round2b_taishoku-model.md
+docs/inferences/20261109_round2b_taishoku-inferences.md	6	退職所得：仮説から導く推測と、その検証方法（第2ラウンド追加分）	path	scripts/R2B_taishoku_egov.py
+docs/inferences/20261109_round2b_taishoku-inferences.md	6	退職所得：仮説から導く推測と、その検証方法（第2ラウンド追加分）	path	scripts/R2B_taishoku_checks.py
+docs/inferences/20261109_round2b_taishoku-inferences.md	6	退職所得：仮説から導く推測と、その検証方法（第2ラウンド追加分）	path	scripts/R2B_taishoku_web.py
+docs/inferences/20261109_round2b_taishoku-inferences.md	84	訂正の記録	path	docs/measurements/20261109_round2b_taishoku-verification.md

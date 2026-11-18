@@ -1,0 +1,168 @@
+{
+ "url": "https://laws.e-gov.go.jp/api/2/law_revisions/340M50000040011?response_format=json",
+ "status": 200,
+ "revisions_since_2025": [
+  {
+   "law_revision_id": "340M50000040011_20280101_508M60000040017",
+   "amendment_law_num": "令和八年財務省令第十七号",
+   "amendment_law_title": "所得税法施行規則の一部を改正する省令",
+   "amendment_promulgate_date": "2026-03-31",
+   "amendment_enforcement_date": "2028-01-01",
+   "amendment_scheduled_enforcement_date": "2028-01-01",
+   "current_revision_status": "UnEnforced"
+  },
+  {
+   "law_revision_id": "340M50000040011_20270101_508M60000040017",
+   "amendment_law_num": "令和八年財務省令第十七号",
+   "amendment_law_title": "所得税法施行規則の一部を改正する省令",
+   "amendment_promulgate_date": "2026-03-31",
+   "amendment_enforcement_date": "2027-01-01",
+   "amendment_scheduled_enforcement_date": null,
+   "current_revision_status": "UnEnforced"
+  },
+  {
+   "law_revision_id": "340M50000040011_20270101_507M60000040018",
+   "amendment_law_num": "令和七年財務省令第十八号",
+   "amendment_law_title": "所得税法施行規則の一部を改正する省令",
+   "amendment_promulgate_date": "2025-03-31",
+   "amendment_enforcement_date": "2027-01-01",
+   "amendment_scheduled_enforcement_date": null,
+   "current_revision_status": "UnEnforced"
+  },
+  {
+   "law_revision_id": "340M50000040011_20270101_505M60000040012",
+   "amendment_law_num": "令和五年財務省令第十二号",
+   "amendment_law_title": "所得税法施行規則の一部を改正する省令",
+   "amendment_promulgate_date": "2023-03-31",
+   "amendment_enforcement_date": "2027-01-01",
+   "amendment_scheduled_enforcement_date": null,
+   "current_revision_status": "UnEnforced"
+  },
+  {
+   "law_revision_id": "340M50000040011_20261211_508M60000040017",
+   "amendment_law_num": "令和八年財務省令第十七号",
+   "amendment_law_title": "所得税法施行規則の一部を改正する省令",
+   "amendment_promulgate_date": "2026-03-31",
+   "amendment_enforcement_date": "2026-12-11",
+   "amendment_scheduled_enforcement_date": null,
+   "current_revision_status": "UnEnforced"
+  },
+  {
+   "law_revision_id": "340M50000040011_20261201_508M60000040017",
+   "amendment_law_num": "令和八年財務省令第十七号",
+   "amendment_law_title": "所得税法施行規則の一部を改正する省令",
+   "amendment_promulgate_date": "2026-03-31",
+   "amendment_enforcement_date": "2026-12-01",
+   "amendment_scheduled_enforcement_date": null,
+   "current_revision_status": "UnEnforced"
+  },
+  {
+   "law_revision_id": "340M50000040011_20261001_507M60000040018",
+   "amendment_law_num": "令和七年財務省令第十八号",
+   "amendment_law_title": "所得税法施行規則の一部を改正する省令",
+   "amendment_promulgate_date": "2025-03-31",
+   "amendment_enforcement_date": "2026-10-01",
+   "amendment_scheduled_enforcement_date": null,
+   "current_revision_status": "CurrentEnforced"
+  },
+  {
+   "law_revision_id": "340M50000040011_20260901_506M60000040014",
+   "amendment_law_num": "令和六年財務省令第十四号",
+   "amendment_law_title": "所得税法施行規則の一部を改正する省令",
+   "amendment_promulgate_date": "2024-03-30",
+   "amendment_enforcement_date": "2026-09-01",
+   "amendment_scheduled_enforcement_date": null,
+   "current_revision_status": "PreviousEnforced"
+  },
+  {
+   "law_revision_id": "340M50000040011_20260522_508M60000040017",
+   "amendment_law_num": "令和八年財務省令第十七号",
+   "amendment_law_title": "所得税法施行規則の一部を改正する省令",
+   "amendment_promulgate_date": "2026-03-31",
+   "amendment_enforcement_date": "2026-05-22",
+   "amendment_scheduled_enforcement_date": null,
+   "current_revision_status": "PreviousEnforced"
+  },
+  {
+   "law_revision_id": "340M50000040011_20260401_508M60000040017",
+   "amendment_law_num": "令和八年財務省令第十七号",
+   "amendment_law_title": "所得税法施行規則の一部を改正する省令",
+   "amendment_promulgate_date": "2026-03-31",
+   "amendment_enforcement_date": "2026-04-01",
+   "amendment_scheduled_enforcement_date": null,
+   "current_revision_status": "PreviousEnforced"
+  },
+  {
+   "law_revision_id": "340M50000040011_20260401_507M60000040018",
+   "amendment_law_num": "令和七年財務省令第十八号",
+   "amendment_law_title": "所得税法施行規則の一部を改正する省令",
+   "amendment_promulgate_date": "2025-03-31",
+   "amendment_enforcement_date": "2026-04-01",
+   "amendment_scheduled_enforcement_date": null,
+   "current_revision_status": "PreviousEnforced"
+  },
+  {
+   "law_revision_id": "340M50000040011_20260401_506M60000040014",
+   "amendment_law_num": "令和六年財務省令第十四号",
+   "amendment_law_title": "所得税法施行規則の一部を改正する省令",
+   "amendment_promulgate_date": "2024-03-30",
+   "amendment_enforcement_date": "2026-04-01",
+   "amendment_scheduled_enforcement_date": null,
+   "current_revision_status": "PreviousEnforced"
+  },
+  {
+   "law_revision_id": "340M50000040011_20260101_507M60000040018",
+   "amendment_law_num": "令和七年財務省令第十八号",
+   "amendment_law_title": "所得税法施行規則の一部を改正する省令",
+   "amendment_promulgate_date": "2025-03-31",
+   "amendment_enforcement_date": "2026-01-01",
+   "amendment_scheduled_enforcement_date": null,
+   "current_revision_status": "PreviousEnforced"
+  },
+  {
+   "law_revision_id": "340M50000040011_20260101_505M60000040012",
+   "amendment_law_num": "令和五年財務省令第十二号",
+   "amendment_law_title": "所得税法施行規則の一部を改正する省令",
+   "amendment_promulgate_date": "2023-03-31",
+   "amendment_enforcement_date": "2026-01-01",
+   "amendment_scheduled_enforcement_date": null,
+   "current_revision_status": "PreviousEnforced"
+  },
+  {
+   "law_revision_id": "340M50000040011_20251201_507M60000040018",
+   "amendment_law_num": "令和七年財務省令第十八号",
+   "amendment_law_title": "所得税法施行規則の一部を改正する省令",
+   "amendment_promulgate_date": "2025-03-31",
+   "amendment_enforcement_date": "2025-12-01",
+   "amendment_scheduled_enforcement_date": null,
+   "current_revision_status": "PreviousEnforced"
+  },
+  {
+   "law_revision_id": "340M50000040011_20250401_507M60000040018",
+   "amendment_law_num": "令和七年財務省令第十八号",
+   "amendment_law_title": "所得税法施行規則の一部を改正する省令",
+   "amendment_promulgate_date": "2025-03-31",
+   "amendment_enforcement_date": "2025-04-01",
+   "amendment_scheduled_enforcement_date": null,
+   "current_revision_status": "PreviousEnforced"
+  },
+  {
+   "law_revision_id": "340M50000040011_20250324_507M60000040009",
+   "amendment_law_num": "令和七年財務省令第九号",
+   "amendment_law_title": "租税特別措置法施行規則等の一部を改正する省令",
+   "amendment_promulgate_date": "2025-03-21",
+   "amendment_enforcement_date": "2025-03-24",
+   "amendment_scheduled_enforcement_date": null,
+   "current_revision_status": "PreviousEnforced"
+  },
+  {
+   "law_revision_id": "340M50000040011_20250101_505M60000040012",
+   "amendment_law_num": "令和五年財務省令第十二号",
+   "amendment_law_title": "所得税法施行規則の一部を改正する省令",
+   "amendment_promulgate_date": "2023-03-31",
+   "amendment_enforcement_date": "2025-01-01",
+   "amendment_scheduled_enforcement_date": null,
+   "current_revision_status": "PreviousEnforced"
+  }
+ ]
+}

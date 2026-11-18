@@ -1,0 +1,6 @@
+# source=https://www.mhlw.go.jp/web/t_doc?dataId=00tc5007&dataType=1&pageNo=2
+# fetched_at=20261109-182805
+# sha256=c35afce1f9b8bbf177aeb3a9b8cd03c40e292de65221cac4144ada6a482a88cb
+
+エラー
+[ERR-WEB-004]ページ番号が不正です。設定を確認してください。

@@ -1,0 +1,12 @@
+{
+  "set": "cdx_pmac_hourei",
+  "fetched_at_local": "20261109-202430",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "cdx_pmac_hourei",
+      "url": "https://web.archive.org/cdx/search/cdx?url=pmac.shigaku.go.jp/annai/kanko/jimu/hourei/&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&collapse=urlkey&limit=200",
+      "error": "TimeoutError('The read operation timed out')"
+    }
+  ]
+}

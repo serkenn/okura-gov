@@ -1,0 +1,710 @@
+[
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html#CONT",
+  "text": "メニューを飛ばして本文へ"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/index.html",
+  "text": "〔alt:日本年金機構 Japan Pension Service〕"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/index.html",
+  "text": "年金の制度・手続き"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/index.html",
+  "text": "国民年金"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kounen/index.html",
+  "text": "厚生年金保険"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/jukyu/index.html",
+  "text": "年金の受け取り"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/riyoushabetsu/index.html",
+  "text": "利用者別ガイド"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/seidozenpan/index.html",
+  "text": "年金制度全般"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/nenkinkiroku/index.html",
+  "text": "年金記録に関する取り組み"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/shaho-kyotei/index.html",
+  "text": "社会保障協定"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/tokuteiginou/index.html",
+  "text": "「特定技能」にかかる社会保険関係の書類交付"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/learn/index.html",
+  "text": "年金について学ぼう"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/pamphlet/index.html",
+  "text": "パンフレット"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/doga/index.html",
+  "text": "動画"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/yougo/index.html",
+  "text": "年金用語集"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/scenebetsu/index.html",
+  "text": "シーンから探す"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/shinsei/index.html",
+  "text": "様式のダウンロード"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/shinsei/kokunen/index.html",
+  "text": "申請・届出様式（国民年金）"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/shinsei/kounen/index.html",
+  "text": "申請・届出様式（健康保険・厚生年金保険）"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/shinsei/jukyu/index.html",
+  "text": "申請・届出様式（年金等の受け取り）"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/shinsei/kiroku/index.html",
+  "text": "申請・届出様式（年金記録の照会、訂正請求）"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/shinsei/kyotei/index.html",
+  "text": "申請・届出様式（社会保障協定）"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/shinsei/sonota/index.html",
+  "text": "申請・届出様式（「特定技能」にかかる書類交付）"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/shinsei/nenkiniin/index.html",
+  "text": "申請・届出様式（年金委員）"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/denshibenri_kojin/index.html",
+  "text": "オンラインで手続きする（個人の方）"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/denshibenri/index.html",
+  "text": "オンラインで手続きする（事業所の方）"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/section/index.html",
+  "text": "ご相談・Q&A"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/section/faq/index.html",
+  "text": "Q&Aから探す"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/seidozenpan/chatbot.html",
+  "text": "チャットボットで調べる"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/section/index.html",
+  "text": "相談・手続き窓口"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/index.html",
+  "text": "日本年金機構について"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/message.html",
+  "text": "理事長のごあいさつ"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/kihonjoho/index.html",
+  "text": "基本情報"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/houshin/index.html",
+  "text": "各種方針"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/torikumi/index.html",
+  "text": "日本年金機構の取り組み"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/annual/index.html",
+  "text": "アニュアルレポート"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/kokaitokei/index.html",
+  "text": "情報公開・統計情報"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/goiken/index.html",
+  "text": "ご意見・ご要望、法令等違反通報"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/aboutweb/index.html",
+  "text": "日本年金機構ホームページについて"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/kaiji.html",
+  "text": "法人文書・個人情報の開示"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/press/index.html",
+  "text": "プレスリリース"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/chotatu/index.html",
+  "text": "調達情報"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/recruit/index.html",
+  "text": "採用情報"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/koji/index.html",
+  "text": "公示送達情報"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/sitemap.html",
+  "text": "サイトマップ"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/international/index.html",
+  "text": "language"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/index.html",
+  "text": "年金の制度・手続き"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/shinsei/index.html",
+  "text": "様式のダウンロード"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/section/index.html",
+  "text": "ご相談・Q&A"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/index.html",
+  "text": "日本年金機構について"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/aboutweb/yomiage.html",
+  "text": "音声読み上げ"
+ },
+ {
+  "href": "javascript:void(0)",
+  "text": "標準"
+ },
+ {
+  "href": "javascript:void(0)",
+  "text": "大"
+ },
+ {
+  "href": "javascript:void(0)",
+  "text": "特大"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/sitemap.html",
+  "text": "サイトマップ"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/index.html",
+  "text": "〔alt:日本年金機構 Japan Pension Service〕"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/international/index.html",
+  "text": "language"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/index.html",
+  "text": "年金の制度・手続き"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/index.html",
+  "text": "年金の制度・手続き"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/index.html",
+  "text": "国民年金​"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kounen/index.html",
+  "text": "厚生年金保険"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/jukyu/index.html",
+  "text": "年金の受け取り​"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/riyoushabetsu/index.html",
+  "text": "利用者別ガイド"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/seidozenpan/index.html",
+  "text": "年金制度全般"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/nenkinkiroku/index.html",
+  "text": "年金記録に関する取り組み"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/shaho-kyotei/index.html",
+  "text": "社会保障協定"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/tokuteiginou/index.html",
+  "text": "「特定技能」にかかる社会保険関係の書類交付"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/learn/index.html",
+  "text": "年金について学ぼう"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/pamphlet/index.html",
+  "text": "パンフレット"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/doga/index.html",
+  "text": "動画"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/yougo/index.html",
+  "text": "年金用語集​"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/scenebetsu/hatachi.html",
+  "text": "20歳になったとき"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/scenebetsu/shushoku.html",
+  "text": "就職・転職・退職"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/scenebetsu/kekkon.html",
+  "text": "結婚・離婚・出産・育児"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/scenebetsu/kaigai.html",
+  "text": "海外転出入・海外在住の皆さま"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/scenebetsu/rourei.html",
+  "text": "老齢年金の手続き"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/riyoushabetsu/disability/index.html",
+  "text": "障害のある方"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/scenebetsu/shibou.html",
+  "text": "身近な方が亡くなったとき"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/scenebetsu/hisai.html",
+  "text": "被災したとき"
+ },
+ {
+  "href": "javascript:void(0)",
+  "text": "メニューを閉じる"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/shinsei/index.html",
+  "text": "様式のダウンロード"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/shinsei/index.html",
+  "text": "様式のダウンロード"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/shinsei/kokunen/index.html",
+  "text": "国民年金"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/shinsei/kounen/index.html",
+  "text": "健康保険・厚生年金保険"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/shinsei/jukyu/index.html",
+  "text": "年金等の受け取り"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/shinsei/kiroku/index.html",
+  "text": "年金記録の照会、訂正請求"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/shinsei/kyotei/index.html",
+  "text": "社会保障協定"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/shinsei/sonota/index.html",
+  "text": "特定技能"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/shinsei/nenkiniin/index.html",
+  "text": "年金委員"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/denshibenri_kojin/index.html",
+  "text": "オンラインで手続きする（個人の方）"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/denshibenri/index.html",
+  "text": "オンラインで手続きする（事業所の方）"
+ },
+ {
+  "href": "javascript:void(0)",
+  "text": "メニューを閉じる"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/section/index.html",
+  "text": "ご相談・Q&A"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/section/index.html",
+  "text": "ご相談・Q&A"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/section/faq/index.html",
+  "text": "Q&Aから探す"
+ },
+ {
+  "href": "javascript:void(0)",
+  "text": "チャットボットで調べる"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/section/index.html",
+  "text": "相談・手続き窓口"
+ },
+ {
+  "href": "javascript:void(0)",
+  "text": "メニューを閉じる"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/index.html",
+  "text": "日本年金機構について"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/index.html",
+  "text": "日本年金機構について"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/message.html",
+  "text": "理事長のごあいさつ​"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/kihonjoho/index.html",
+  "text": "基本情報​"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/houshin/index.html",
+  "text": "各種方針​"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/torikumi/index.html",
+  "text": "日本年金機構の取り組み​"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/annual/index.html",
+  "text": "アニュアルレポート​"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/kokaitokei/index.html",
+  "text": "情報公開・統計情報​"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/goiken/index.html",
+  "text": "ご意見・ご要望、法令等違反通報​"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/aboutweb/index.html",
+  "text": "日本年金機構ホームページについて"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/kaiji.html",
+  "text": "法人文書・個人情報の開示​"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/press/index.html",
+  "text": "プレスリリース​"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/chotatu/index.html",
+  "text": "調達情報​"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/recruit/index.html",
+  "text": "採用情報​"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/koji/index.html",
+  "text": "公示送達情報​"
+ },
+ {
+  "href": "javascript:void(0)",
+  "text": "メニューを閉じる"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/index.html",
+  "text": "トップページ"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/index.html",
+  "text": "年金の制度・手続き"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/index.html",
+  "text": "国民年金"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/index.html",
+  "text": "国民年金保険料の免除・猶予・追納"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html#cmstaisho",
+  "text": "1．対象者"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html#cmsshinsei",
+  "text": "2．申請方法"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html#cmstsuino",
+  "text": "3．保険料の追納"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html#cmsroreinenkin",
+  "text": "4．老齢基礎年金との関係"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html#cmsshogainenkin",
+  "text": "5．障害基礎年金等との関係"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html#cmspamphlet",
+  "text": "参考パンフレット"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20150402-01.html#cms02",
+  "text": "（2）学生納付特例の申請可能期間と前年所得の関係（令和8年4月時点）"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/gakutokutaisyouko.html",
+  "text": "学生納付特例対象校一覧"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/denshibenri_kojin/denshibenri_kojin/shinsei_kojin.html",
+  "text": "個人の方の電子申請（国民年金）"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/section/soudan/index.html",
+  "text": "お近くの年金事務所"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/gakutokutaisyouko.html",
+  "text": "学生納付特例対象校一覧"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/shinsei/kokunen/menjoyuyo/gakusei.html",
+  "text": "ケース12：国民年金保険料の納付猶予を受けるとき（学生の方）"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/denshibenri_kojin/n_net/introduction/statement.html",
+  "text": "「ねんきんネット」による届書作成"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/denshibenri_kojin/n_net/registration/summary.html",
+  "text": "「ねんきんネット」の登録方法"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/section/faq/seidozenpan/kisoban/kisonenkinbango/kakuninhoho.html",
+  "text": "基礎年金番号を明らかにすることができる書類"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/seidozenpan/mynumber/yoshiki.html",
+  "text": "マイナンバー法に基づく本人確認措置について"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20150428.html",
+  "text": "国民年金保険料の免除制度・納付猶予制度"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20150428.html#cmsshitsugyo",
+  "text": "3.失業等による特例免除"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20150402-01.html",
+  "text": "国民年金保険料の免除等の申請が可能な期間"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/shinsei/kokunen/menjoyuyo/gakusei.files/gakutoku_selfcheck.pdf",
+  "text": "セルフチェックシート （国民年金保険料 学生納付特例申請用）"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/seidozenpan/mynumber/hihokenshajukyusha.html",
+  "text": "国民年金、厚生年金保険に加入している方・年金を受け取っている方へ（マイナンバーの利用）"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/section/soudan/index.html",
+  "text": "お近くの年金事務所"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20150331.html",
+  "text": "国民年金保険料の追納制度"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20150331.html",
+  "text": "追納"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/hokenryo/zenno.html",
+  "text": "口座振替の早割制度、保険料の前納制度"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/pamphlet/kokuminnenkin.html#cmsmenjo",
+  "text": "学生納付特例リーフレット"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/hokenryo/hokenryo.html",
+  "text": "国民年金保険料"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/gakutokutaisyouko.html",
+  "text": "学生納付特例対象校一覧"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/gakutokujimuhoujin.html",
+  "text": "学生納付特例事務法人について"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20150428.html",
+  "text": "国民年金保険料の免除制度・納付猶予制度"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20150331.html",
+  "text": "国民年金保険料の追納制度"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20150428.html",
+  "text": "国民年金保険料の免除制度・納付猶予制度"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/gakutokutaisyouko.html",
+  "text": "学生納付特例対象校一覧"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/gakutokujimuhoujin.html",
+  "text": "学生納付特例事務法人について"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20150402-01.html",
+  "text": "国民年金保険料の免除等の申請が可能な期間"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20180810.html",
+  "text": "国民年金保険料の産前産後期間の免除制度"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/ikujimenjo.html",
+  "text": "国民年金保険料の育児免除制度"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20190705.html",
+  "text": "国民年金保険料免除・納付猶予継続申請者の配偶者状況変更届"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20140710.html",
+  "text": "国民年金保険料の法定免除制度"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20150331.html",
+  "text": "国民年金保険料の追納制度"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20150402-02.html",
+  "text": "配偶者からの暴力を受けた方の国民年金保険料の特例免除"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20141218.html",
+  "text": "被災された被保険者の皆さまへ、国民年金保険料の免除についてのお知らせ"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20160401.html",
+  "text": "国民年金保険料の全額免除申請等の事務手続きに関する特例"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20150422-02.html",
+  "text": "矯正施設に収容されている方の国民年金保険料の免除等申請手続き"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/ryuchi.html",
+  "text": "留置施設に留置されていた方の国民年金保険料の免除等申請手続き"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/riyoushabetsu/index.html",
+  "text": "利用者別ガイド"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/scenebetsu/index.html",
+  "text": "シーン別ガイド"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/denshibenri_kojin/n_net/index.html",
+  "text": "ねんきんネット"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/yougo/index.html",
+  "text": "年金用語集"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/pamphlet/index.html",
+  "text": "パンフレット"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/seidozenpan/20150601.html",
+  "text": "通知書の見方を調べる"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/aboutweb/aboutsite.html",
+  "text": "このサイトについて"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/aboutweb/kojinjoho.html",
+  "text": "個人情報の保護について"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/aboutweb/kanren/kanren.html",
+  "text": "関連サイト"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/kihonjoho/adress.html",
+  "text": "所在地・連絡先"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/recruit/index.html",
+  "text": "採用情報"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/aboutweb/tw-policy.html",
+  "text": "公式SNS"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/info/goiken/index.html",
+  "text": "〔alt:お客様の声を大切にしています ご意見や法令等違反通報はこちら〕"
+ },
+ {
+  "href": "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html#PTOP",
+  "text": "〔alt:ページ先頭へ〕"
+ }
+]

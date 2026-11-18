@@ -1,0 +1,4 @@
+okura_core: C:\Users\user\Documents\okura-gov\.work\perf4\snap_src\okura_core\__init__.py
+01_student_away_and_parent_on_assignment                        283.6s ok=True
+02_medical_payer_differs_from_patient                           105.5s ok=True
+07_vocabulary_additions_2026_11_11                               67.2s ok=True

@@ -1,0 +1,278 @@
+[
+ {
+  "href": "https://www.nta.go.jp/",
+  "text": "ホーム"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/index.htm",
+  "text": "税の情報・手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/index.htm",
+  "text": "申告手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/index.htm",
+  "text": "申告・申請・届出等、用紙（手続の案内・様式）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/yousiki.htm",
+  "text": "税務手続の案内（税目別一覧）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/mokuji.htm",
+  "text": "申告所得税関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2072.htm",
+  "text": "※青色申告特別控除制度についてはこちらをご参照ください。"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/mypage/index.html",
+  "text": "マイページ"
+ },
+ {
+  "href": "https://login.e-tax.nta.go.jp/login/reception/loginIndividual",
+  "text": "e-Taxソフト（WEB版）個人の方へログインする"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/e-taxsoftsp/e-taxsoftsp1.htm",
+  "text": "e-Taxソフト(WEB版)のご利用に当たって【スマートフォン】"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/e-taxsoftweb/e-taxsoftweb1.htm",
+  "text": "e-Taxソフト(WEB版)のご利用に当たって【パソコン】"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/e-taxsoft/index.html",
+  "text": "e-Taxソフトについて"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/toiawase/1679/01.htm",
+  "text": "PDFファイルが開けない、印刷できないなどの場合はこちらをご覧ください。"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/h28/10.pdf",
+  "text": "所得税の青色申告承認申請書（PDF/617KB）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/h28/10-ki.pdf",
+  "text": "記載要領（PDF/80KB）"
+ },
+ {
+  "href": "https://www.nta.go.jp/about/organization/access/map.htm",
+  "text": "税務署の所在地などを知りたい方"
+ },
+ {
+  "href": "https://www.e-tax.nta.go.jp/info_center/index.html",
+  "text": "e-Taxの利用可能時間"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/sodan/denwa-sodan/index.htm",
+  "text": "国税に関するご相談について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/10.htm",
+  "text": "所得税の青色申告承認申請書、現金主義の所得計算による旨の届出書"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/12.htm",
+  "text": "青色事業専従者給与に関する届出書"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/09_2.htm",
+  "text": "国税関係帳簿の電磁的記録等による保存等に係る65万円の青色申告特別控除・過少申告加算税の特例の適用を受ける旨の届出書"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/09.htm#page-top",
+  "text": "このページの先頭へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/index.htm",
+  "text": "税の情報・手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/index.htm",
+  "text": "税について調べる"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/09.htm#sidenaviAccordionCollapse1",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+  "text": "所得税（確定申告書等作成コーナー）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm",
+  "text": "タックスアンサー（よくある税の質問）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/sodan/index.htm",
+  "text": "税の相談"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/index.htm",
+  "text": "税目別情報"
+ },
+ {
+  "href": "http://www.rosenka.nta.go.jp/",
+  "text": "路線価図・評価倍率表"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/saigai/index.htm",
+  "text": "災害関連情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/kokusai/index.htm",
+  "text": "国際税務関係情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shirabekata/info.htm",
+  "text": "税についての上手な調べ方"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/index.htm",
+  "text": "申告手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/09.htm#sidenaviAccordionCollapse2",
+  "text": "〔alt:メニューを閉じる〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/index.htm",
+  "text": "申告・申請・届出等、用紙（手続の案内・様式）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/mynumberinfo/index.htm",
+  "text": "社会保障・税番号制度(マイナンバー)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/index.htm",
+  "text": "納税・納税証明書手続"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/09.htm#sidenaviAccordionCollapse3",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/annai/index.htm",
+  "text": "納税に関する総合案内"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/nozei-shomei/01.htm",
+  "text": "納税証明書"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/enno-butsuno/01.htm",
+  "text": "延納・物納申請等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/entaizei/keisan/entai.htm",
+  "text": "延滞税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/index.htm",
+  "text": "税理士に関する情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/09.htm#sidenaviAccordionCollapse4",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/index.htm#news",
+  "text": "新着情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/zeirishiseido/seido.htm",
+  "text": "税理士制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/zeirishishiken/zeirishi.htm",
+  "text": "税理士試験"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/chokai/chokai.htm",
+  "text": "税理士に関する懲戒処分等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/search/search.htm",
+  "text": "税理士をお探しの方"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/zeirishiseido/qa.htm",
+  "text": "税理士関係法令等・Ｑ＆Ａ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm",
+  "text": "お酒に関する情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/09.htm#sidenaviAccordionCollapse5",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#syuzei",
+  "text": "酒税関係及び各種施策"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#ippan",
+  "text": "一般的な酒税の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#senmonsyuzei",
+  "text": "専門的な酒税の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#senmonsodan",
+  "text": "専門的な酒税の相談"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#shinkoku",
+  "text": "酒税の申告・納付や届出等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#denwa",
+  "text": "電話相談センター・税務署の案内"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#shingikai",
+  "text": "審議会等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#tokei",
+  "text": "統計情報・各種資料"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#qa",
+  "text": "お酒に関するＱ＆Ａ(よくある質問)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/kids/index.htm",
+  "text": "税の学習コーナー"
+ },
+ {
+  "href": "https://www.nta.go.jp/",
+  "text": "ホーム"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/index.htm",
+  "text": "税の情報・手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/index.htm",
+  "text": "申告手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/index.htm",
+  "text": "申告・申請・届出等、用紙（手続の案内・様式）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/yousiki.htm",
+  "text": "税務手続の案内（税目別一覧）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/mokuji.htm",
+  "text": "申告所得税関係"
+ }
+]

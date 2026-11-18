@@ -1,0 +1,24 @@
+description: 同一生計配偶者（所得税法第2条第1項第33号）の要件のうち、法令の値で決まるもの。
+合計所得金額の上限:
+  description: 同一生計配偶者の合計所得金額の上限（この額以下）
+  metadata:
+    law: 所得税法第2条第1項第33号
+    source_kind: 法律
+    unit: 円
+    比較: 以下
+    reference:
+      - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.1
+      - docs/public-sources/20261109_R1-laws_income-tax.md#2
+  values:
+    2025-01-01:
+      value: 580000
+      metadata:
+        施行日: 2025-12-01
+        適用: 令和7年分以後（令和7年法律第13号附則第2条第1項）。施行は附則第1条第1号イ
+        law_revision: 340AC0000000033_20251218_507AC0000000013
+    2026-01-01:
+      value: 620000
+      metadata:
+        施行日: 2026-12-01
+        適用: 令和8年分以後（令和8年法律第12号附則第2条第1項）。施行は附則第1条第4号イ
+        law_revision: 340AC0000000033_20261201_508AC0000000012

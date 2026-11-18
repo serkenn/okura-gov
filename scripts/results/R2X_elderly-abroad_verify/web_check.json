@@ -1,0 +1,1015 @@
+{
+ "fetch_run": "20261109-182852",
+ "identity": [
+  {
+   "id": "ta_1180",
+   "kind": "pages",
+   "status": 200,
+   "bytes": 23283,
+   "sha256_16": "c92803d8c75aa5c7",
+   "last_modified": "Wed, 09 Sep 2026 01:00:15 GMT",
+   "title": "No.1180 扶養控除｜国税庁",
+   "their_sha256_16": "c92803d8c75aa5c7",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "ta_1180_qa",
+   "kind": "pages",
+   "status": 200,
+   "bytes": 22492,
+   "sha256_16": "02839cb155836ab2",
+   "last_modified": "Wed, 09 Sep 2026 01:00:15 GMT",
+   "title": "No.1180 扶養控除｜国税庁",
+   "their_sha256_16": "02839cb155836ab2",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "ta_1182",
+   "kind": "pages",
+   "status": 200,
+   "bytes": 18127,
+   "sha256_16": "7d8798cf92be99aa",
+   "last_modified": "Wed, 09 Sep 2026 01:00:15 GMT",
+   "title": "No.1182 高齢者を扶養している人が受けられる配偶者控除や扶養控除｜国税庁",
+   "their_sha256_16": "7d8798cf92be99aa",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "shitsugi_shotoku_05_32",
+   "kind": "pages",
+   "status": 200,
+   "bytes": 4595,
+   "sha256_16": "2965b2556536016e",
+   "last_modified": "Wed, 03 Dec 2025 08:31:02 GMT",
+   "title": "「同居」の範囲(長期間入院している場合)｜国税庁",
+   "their_sha256_16": "2965b2556536016e",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "tebiki2025_yogo_y11",
+   "kind": "pages",
+   "status": 200,
+   "bytes": 7497,
+   "sha256_16": "b0ec5aceb7d6f7ce",
+   "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+   "title": "◆老人扶養親族｜国税庁",
+   "their_sha256_16": "b0ec5aceb7d6f7ce",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "tebiki2025_yogo_y12",
+   "kind": "pages",
+   "status": 200,
+   "bytes": 7621,
+   "sha256_16": "01f0cf853cc5db67",
+   "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+   "title": "◆同居老親等｜国税庁",
+   "their_sha256_16": "01f0cf853cc5db67",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "tebiki2025_3_3_27",
+   "kind": "pages",
+   "status": 200,
+   "bytes": 19779,
+   "sha256_16": "fe99421d6c179946",
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "title": "手順3 所得から差し引かれる金額（所得控除）を計算する｜国税庁",
+   "their_sha256_16": "fe99421d6c179946",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "sochiho_tsutatsu_toc",
+   "kind": "pages",
+   "status": 200,
+   "bytes": 77279,
+   "sha256_16": "fd1a8ce56f916aef",
+   "last_modified": "Fri, 02 Oct 2026 08:30:04 GMT",
+   "title": "租税特別措置法に係る所得税の取扱いについて｜国税庁",
+   "their_sha256_16": "fd1a8ce56f916aef",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "kihon_tsutatsu_2_1",
+   "kind": "pages",
+   "status": 200,
+   "bytes": 6682,
+   "sha256_16": "6d7d6ba43294e00a",
+   "last_modified": "Thu, 18 Jan 2024 09:30:24 GMT",
+   "title": "〔居住者、非永住者及び非居住者（第3、4、5号関係）〕｜国税庁",
+   "their_sha256_16": "6d7d6ba43294e00a",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "kihon_tsutatsu_2_47",
+   "kind": "pages",
+   "status": 200,
+   "bytes": 18408,
+   "sha256_16": "52d60882df0b13f9",
+   "last_modified": "Fri, 02 Oct 2026 08:30:05 GMT",
+   "title": "〔障害者（第28号関係）〕｜国税庁",
+   "their_sha256_16": "52d60882df0b13f9",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "kokugai_index",
+   "kind": "pages",
+   "status": 200,
+   "bytes": 10081,
+   "sha256_16": "65d6cab24c19c3f6",
+   "last_modified": "Fri, 27 Mar 2026 05:54:59 GMT",
+   "title": "国外居住親族に係る扶養控除等の適用について｜国税庁",
+   "their_sha256_16": "65d6cab24c19c3f6",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "kokugai_sokin",
+   "kind": "pages",
+   "status": 200,
+   "bytes": 11486,
+   "sha256_16": "15cfec2296cdaa52",
+   "last_modified": "Fri, 27 Mar 2026 05:54:59 GMT",
+   "title": "［手続名] 国外居住親族に対する送金関係書類の明細書｜国税庁",
+   "their_sha256_16": "15cfec2296cdaa52",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "S52_tsuchi",
+   "kind": "pages",
+   "status": 200,
+   "bytes": 7871,
+   "sha256_16": "3a0aec4d588447f7",
+   "last_modified": null,
+   "title": "・収入がある者についての被扶養者の認定について(◆昭和52年04月06日庁保発第9号保発第9号)",
+   "their_sha256_16": "3a0aec4d588447f7",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "R01_kokunai",
+   "kind": "pages",
+   "status": 200,
+   "bytes": 44339,
+   "sha256_16": "8c7a41bd8eb8937a",
+   "last_modified": null,
+   "title": "・被扶養者の国内居住要件等について〔健康保険法〕(◆令和01年11月13日保保発第1113001号)",
+   "their_sha256_16": "8c7a41bd8eb8937a",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "R05_kokunai_kaisei",
+   "kind": "pages",
+   "status": 200,
+   "bytes": 46263,
+   "sha256_16": "a333fbd3a7355dd4",
+   "last_modified": null,
+   "title": "・「被扶養者の国内居住要件等について」の一部改正について(◆令和05年06月19日保保発第619001号)",
+   "their_sha256_16": "a333fbd3a7355dd4",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "nenkin_kyojuyoken",
+   "kind": "pages",
+   "status": 200,
+   "bytes": 35956,
+   "sha256_16": "45b5e40122ec0a3d",
+   "last_modified": "Wed, 14 Oct 2026 00:26:12 GMT",
+   "title": "従業員の家族が海外居住の場合の手続き｜日本年金機構",
+   "their_sha256_16": "45b5e40122ec0a3d",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "nenkin_20141202",
+   "kind": "pages",
+   "status": 200,
+   "bytes": 46959,
+   "sha256_16": "e090abd4c5550dfc",
+   "last_modified": "Wed, 14 Oct 2026 00:26:12 GMT",
+   "title": "従業員（健康保険・厚生年金保険の被保険者）が家族を被扶養者にするとき、被扶養者に異動があったときの手続き｜日本年金機構",
+   "their_sha256_16": "e090abd4c5550dfc",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "kyoukai_faq_dependent",
+   "kind": "pages",
+   "status": 200,
+   "bytes": 71028,
+   "sha256_16": "5074d5504af1172a",
+   "last_modified": null,
+   "title": "被扶養者資格の再確認について｜よくあるご質問｜協会けんぽ",
+   "their_sha256_16": "28b63c1dee5c547a",
+   "same_sha256": false,
+   "same_last_modified": true
+  },
+  {
+   "id": "nta_robots",
+   "kind": "pages",
+   "status": 200,
+   "bytes": 853,
+   "sha256_16": "a5f4e421e5bb2b20",
+   "last_modified": "Wed, 18 Mar 2026 05:00:01 GMT",
+   "title": null,
+   "their_sha256_16": "a5f4e421e5bb2b20",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "mhlw_robots",
+   "kind": "pages",
+   "status": 200,
+   "bytes": 169,
+   "sha256_16": "d410a20234092a01",
+   "last_modified": "Sat, 02 Jun 2018 06:22:34 GMT",
+   "title": null,
+   "their_sha256_16": "d410a20234092a01",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "nenkin_robots",
+   "kind": "pages",
+   "status": 200,
+   "bytes": 149,
+   "sha256_16": "b1b1b2e85299b5a3",
+   "last_modified": "Thu, 07 Mar 2019 08:57:52 GMT",
+   "title": null,
+   "their_sha256_16": "b1b1b2e85299b5a3",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "nencho2026_105",
+   "kind": "pdfs",
+   "status": 200,
+   "bytes": 1063580,
+   "sha256_16": "9460af44b13c8651",
+   "last_modified": "Thu, 24 Sep 2026 08:30:11 GMT",
+   "title": null,
+   "their_sha256_16": "9460af44b13c8651",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "nencho2025_105",
+   "kind": "pdfs",
+   "status": 200,
+   "bytes": 1077260,
+   "sha256_16": "f69eda756f726c1a",
+   "last_modified": "Wed, 03 Sep 2025 08:30:05 GMT",
+   "title": null,
+   "their_sha256_16": "f69eda756f726c1a",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "kokugai_qa_pdf",
+   "kind": "pdfs",
+   "status": 200,
+   "bytes": 712232,
+   "sha256_16": "d8e5bc32f793e7ba",
+   "last_modified": "Mon, 31 Aug 2026 08:30:07 GMT",
+   "title": null,
+   "their_sha256_16": "d8e5bc32f793e7ba",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "kokugai_leaf_pdf",
+   "kind": "pdfs",
+   "status": 200,
+   "bytes": 148124,
+   "sha256_16": "5972507540b2233e",
+   "last_modified": "Mon, 30 Jun 2025 09:29:35 GMT",
+   "title": null,
+   "their_sha256_16": "5972507540b2233e",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "r2kaisei_pdf",
+   "kind": "pdfs",
+   "status": 200,
+   "bytes": 593588,
+   "sha256_16": "c4ee24b9989af4ec",
+   "last_modified": "Thu, 18 Jan 2024 09:16:22 GMT",
+   "title": null,
+   "their_sha256_16": "c4ee24b9989af4ec",
+   "same_sha256": true,
+   "same_last_modified": true
+  },
+  {
+   "id": "kyoukai_guide2607",
+   "kind": "pdfs",
+   "status": 200,
+   "bytes": 1283035,
+   "sha256_16": "c655715c25266bee",
+   "last_modified": "Tue, 23 Jun 2026 05:58:51 GMT",
+   "title": null,
+   "their_sha256_16": "c655715c25266bee",
+   "same_sha256": true,
+   "same_last_modified": true
+  }
+ ],
+ "quotes": [
+  {
+   "id": "GD0-TA1180-date",
+   "where": "GD§0",
+   "page": "ta_1180",
+   "quote": "令和8年4月1日現在法令等",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD0-TA1180QA-date",
+   "where": "GD§0",
+   "page": "ta_1180_qa",
+   "quote": "令和8年4月1日現在法令等",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD0-TA1182-date",
+   "where": "GD§0",
+   "page": "ta_1182",
+   "quote": "令和8年4月1日現在法令等",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD0-SG0532-date",
+   "where": "GD§0",
+   "page": "shitsugi_shotoku_05_32",
+   "quote": "令和7年8月1日現在の法令・通達等",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD0-SG0532-title",
+   "where": "GD§0",
+   "page": "shitsugi_shotoku_05_32",
+   "quote": "「同居」の範囲(長期間入院している場合)",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD0-Y11",
+   "where": "GD§0",
+   "page": "tebiki2025_yogo_y11",
+   "quote": "老人扶養親族",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD0-Y12",
+   "where": "GD§0",
+   "page": "tebiki2025_yogo_y12",
+   "quote": "同居老親等",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD0-S52-title",
+   "where": "GD§0",
+   "page": "S52_tsuchi",
+   "quote": "収入がある者についての被扶養者の認定について",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD0-S52-num",
+   "where": "GD§0",
+   "page": "S52_tsuchi",
+   "quote": "保発第九号",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD0-S52-num2",
+   "where": "GD§0",
+   "page": "S52_tsuchi",
+   "quote": "庁保発第九号",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD0-R01-title",
+   "where": "GD§0",
+   "page": "R01_kokunai",
+   "quote": "被扶養者の国内居住要件等について",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD0-R01-num",
+   "where": "GD§0",
+   "page": "R01_kokunai",
+   "quote": "保保発1113第1号",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD0-R05-num",
+   "where": "GD§0",
+   "page": "R05_kokunai_kaisei",
+   "quote": "保保発0619第1号",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD0-R05-title",
+   "where": "GD§0",
+   "page": "R05_kokunai_kaisei",
+   "quote": "「被扶養者の国内居住要件等について」の一部改正について",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD0-R05-underline",
+   "where": "GD§5.3",
+   "page": "R05_kokunai_kaisei",
+   "quote": "下線部が改正箇所",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD0-NKYOJU-title",
+   "where": "GD§0",
+   "page": "nenkin_kyojuyoken",
+   "quote": "従業員の家族が海外居住の場合の手続き",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD0-NKYOJU-date",
+   "where": "GD§0",
+   "page": "nenkin_kyojuyoken",
+   "quote": "2026年10月6日",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD0-NTET-date",
+   "where": "GD§0",
+   "page": "nenkin_20141202",
+   "quote": "2026年9月30日",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD0-KFAQ-title",
+   "where": "GD§0",
+   "page": "kyoukai_faq_dependent",
+   "quote": "被扶養者資格の再確認",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD0-KGSOKIN-name",
+   "where": "GD§0",
+   "page": "kokugai_sokin",
+   "quote": "国外居住親族に対する送金関係書類の明細書",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD0-KGSOKIN-r4",
+   "where": "GD§0",
+   "page": "kokugai_sokin",
+   "quote": "上記は、令和4年12月までの…説明となります",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD0-KGSOKIN-120-9",
+   "where": "GD§3.4",
+   "page": "kokugai_sokin",
+   "quote": "所得税基本通達120-9",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD0-KGIDX-title",
+   "where": "GD§0",
+   "page": "kokugai_index",
+   "quote": "国外居住親族に係る扶養控除等の適用について",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD1.1-SG-q",
+   "where": "GD§1.1",
+   "page": "shitsugi_shotoku_05_32",
+   "quote": "同居老親等の「同居」については、病気の治療のため入院していることにより所得者等と別居している場合であっても、同居に該当すると聞きましたが、1年以上といった長期入院の場合にも同居に該当しますか。",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD1.1-SG-a",
+   "where": "GD§1.1",
+   "page": "shitsugi_shotoku_05_32",
+   "quote": "病気の治療のための入院である限り、その期間が結果として1年以上といった長期にわたるような場合であっても、同居に該当するものとして取り扱って差し支えありません。ただし、老人ホームなどへ入所している場合には、その老人ホームが居所となり、同居しているとはいえません。",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD1.1-SG-law",
+   "where": "GD§1.1",
+   "page": "shitsugi_shotoku_05_32",
+   "quote": "租税特別措置法第41条の16",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD-SG-note",
+   "where": "GD冒頭",
+   "page": "shitsugi_shotoku_05_32",
+   "quote": "この質疑事例は、照会に係る事実関係を前提とした一般的な回答であり、…この回答内容と異なる課税関係が生ずることがあることにご注意ください。",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD1.1-TA1180-note",
+   "where": "GD§1.1",
+   "page": "ta_1180",
+   "quote": "同居老親等の「同居」については、病気の治療のため入院していることにより納税者等と別居している場合は、その期間が結果として1年以上といった長期にわたるような場合であっても、同居に該当するものとして取り扱って差し支えありません。ただし、老人ホーム等へ入所している場合には、その老人ホームが居所となり、同居しているとはいえません。",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD1.1-Y12",
+   "where": "GD§1.1",
+   "page": "tebiki2025_yogo_y12",
+   "quote": "老人扶養親族のうち、あなたや配偶者の直系尊属（父母、祖父母など）で、あなたや配偶者との同居を常としている方…老人ホームなどへ入所している場合は、同居を常にしているとはいえません。",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD1.2-TA1180-intro",
+   "where": "GD§1.2",
+   "page": "ta_1180",
+   "quote": "控除額は、扶養親族の年齢、同居の有無等により次の表のとおりです。",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD1.2-TA1180-tbl",
+   "where": "GD§1.2",
+   "page": "ta_1180",
+   "quote": "一般の控除対象扶養親族…38万円…特定扶養親族…63万円…老人扶養親族…同居老親等以外の者…48万円…同居老親等…58万円",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD1.2-TA1180-law",
+   "where": "GD§1.2",
+   "page": "ta_1180",
+   "quote": "所法2、79、84、85、措法41の16",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD1.2-TA1182-age",
+   "where": "GD§1.2",
+   "page": "ta_1182",
+   "quote": "年齢70歳（その年12月31日現在の年齢）以上である人",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD1.2-TA1182-tbl",
+   "where": "GD§1.2",
+   "page": "ta_1182",
+   "quote": "同居老親等以外の者…48万円…同居老親等…58万円",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD1.2-TA1182-law",
+   "where": "GD§1.2",
+   "page": "ta_1182",
+   "quote": "所法2、83、84、85、措法41の16、平29改正法附則6",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD1.3-SOTOC-a",
+   "where": "GD§1.3",
+   "page": "sochiho_tsutatsu_toc",
+   "quote": "第41条の15の５…年齢23歳未満の扶養親族を有する場合の生命保険料控除の特例…第41条の17…特定一般用医薬品等購入費を支払った場合の医療費控除の特例",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD2.1-Y11",
+   "where": "GD§2.1",
+   "page": "tebiki2025_yogo_y11",
+   "quote": "控除対象扶養親族のうち、昭和31年1月1日以前に生まれた方（年齢が70歳以上の方）",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD3.1-TA1180-abroad",
+   "where": "GD§3.1",
+   "page": "ta_1180",
+   "quote": "令和5年分以後の所得税においては、非居住者である扶養親族については、次に掲げるいずれかに該当する人に限り、控除対象扶養親族に該当します。",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD3.2-TA1180QA-Q4a",
+   "where": "GD§3.2",
+   "page": "ta_1180_qa",
+   "quote": "令和5年分以後の確定申告",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD3.2-TA1180QA-Q4b",
+   "where": "GD§3.2",
+   "page": "ta_1180_qa",
+   "quote": "上記(イ)から(ハ)のいずれにも該当しない30歳以上70歳未満の国外居住親族については、扶養控除の適用はありません。",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD3.2-TA1180QA-Q4c",
+   "where": "GD§3.2",
+   "page": "ta_1180_qa",
+   "quote": "令和6年分以後の所得税の確定申告書を提出する場合に「送金関係書類」となるもの",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD3.2-TA1180QA-Q4d",
+   "where": "GD§3.2",
+   "page": "ta_1180_qa",
+   "quote": "生活費または教育費に充てるための支払いを、必要の都度、各人に行ったことを明らかにするもの",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD3.2-TB27-note1",
+   "where": "GD§3.2",
+   "page": "tebiki2025_3_3_27",
+   "quote": "国外居住親族の区分が「５」になる場合、扶養控除の適用はありません",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD3.2-TB27-note2",
+   "where": "GD§3.2",
+   "page": "tebiki2025_3_3_27",
+   "quote": "1及び2の両方、2及び3の両方又は1～3の全てに該当する場合は「３」を記入します。2に該当せず、1及び3の両方に該当する場合は、添付又は提示する書類に応じて、『留学ビザ等書類』を使用する場合には、「２」を、『38万円送金関係書類』を使用する場合には「４」を記入します。",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD3.2-TB27-tbl",
+   "where": "GD§3.2",
+   "page": "tebiki2025_3_3_27",
+   "quote": "16歳未満…５…16歳以上30歳未満又は70歳以上…１…留学により国内に住所及び居所を有しなくなった方…２…障害者…３…38万円以上受けている方…４…上記1～3以外の方…５",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD3.2-TB27-r8",
+   "where": "GD§3.2",
+   "page": "tebiki2025_3_3_27",
+   "quote": "令和8年３月16日（月）までに住所所在地の市区町村へ提出しなければなりません",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD3.2-TB27-hikazei",
+   "where": "GD§3.2",
+   "page": "tebiki2025_3_3_27",
+   "quote": "非課税限度額制度適用者",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD3.4-KT07-hist",
+   "where": "GD§3.4",
+   "page": "kihon_tsutatsu_2_47",
+   "quote": "令4課個2-13…令5課個2-25",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD3.4-KT07-a",
+   "where": "GD§3.4",
+   "page": "kihon_tsutatsu_2_47",
+   "quote": "送金した日",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD3.4-KT07-b",
+   "where": "GD§3.4",
+   "page": "kihon_tsutatsu_2_47",
+   "quote": "電信売買相場の仲値",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD3.4-KT07-c",
+   "where": "GD§3.4",
+   "page": "kihon_tsutatsu_2_47",
+   "quote": "現に支出した本邦通貨の額",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD3.4-KT07-d",
+   "where": "GD§3.4",
+   "page": "kihon_tsutatsu_2_47",
+   "quote": "利用をした日",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD3.4-KT07-e",
+   "where": "GD§3.4",
+   "page": "kihon_tsutatsu_2_47",
+   "quote": "移転",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD3.4-KT07-f",
+   "where": "GD§3.4",
+   "page": "kihon_tsutatsu_2_47",
+   "quote": "その年最後の",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD4-KT01-2-1",
+   "where": "GD§4",
+   "page": "kihon_tsutatsu_2_1",
+   "quote": "法に規定する住所とは各人の生活の本拠をいい、生活の本拠であるかどうかは客観的事実によって判定する。",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD4-KT01-2-1n",
+   "where": "GD§4",
+   "page": "kihon_tsutatsu_2_1",
+   "quote": "国の内外にわたって居住地が異動する者の住所が国内にあるかどうかの判定に当たっては、令第14条《国内に住所を有する者と推定する場合》及び第15条《国内に住所を有しない者と推定する場合》の規定があることに留意する。",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD4-KT01-2-2",
+   "where": "GD§4",
+   "page": "kihon_tsutatsu_2_1",
+   "quote": "明らかにその国外に赴いた目的が一時的なものであると認められるときは、当該在外期間中も引き続き国内に居所を有するもの",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD4-KT01-2-4",
+   "where": "GD§4",
+   "page": "kihon_tsutatsu_2_1",
+   "quote": "入国の日の翌日",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD4-KT01-2-4_3",
+   "where": "GD§4",
+   "page": "kihon_tsutatsu_2_1",
+   "quote": "2－4の3",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD5.1-S52-1",
+   "where": "GD§5.1",
+   "page": "S52_tsuchi",
+   "quote": "認定対象者の年間収入が一三〇万円未満(認定対象者が六〇歳以上の者である場合又は概ね厚生年金保険法による障害厚生年金の受給要件に該当する程度の障害者である場合にあっては一八〇万円未満)であって、かつ、被保険者の年間収入の二分の一未満である場合は、原則として被扶養者に該当するものとすること。",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD5.1-S52-2",
+   "where": "GD§5.1",
+   "page": "S52_tsuchi",
+   "quote": "被保険者からの援助に依る収入額より少ない場合には、原則として被扶養者に該当するものとすること。",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD5.1-S52-date",
+   "where": "GD§0",
+   "page": "S52_tsuchi",
+   "quote": "昭和五二年四月六日",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD5.1-KFAQ",
+   "where": "GD§5.1",
+   "page": "kyoukai_faq_dependent",
+   "quote": "令和7年中の課税収入額が130万円（60歳以上は180万円、19歳以上23歳未満かつ配偶者でない場合は150万円）以上の方",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD5.2-NKYOJU",
+   "where": "GD§5.2",
+   "page": "nenkin_kyojuyoken",
+   "quote": "被保険者と同居していることが確認できる公的証明書またはそれに準ずる書類",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD5.3-R01-1a",
+   "where": "GD§5.3",
+   "page": "R01_kokunai",
+   "quote": "住民基本台帳に住民登録されているかどうか(住民票があるかどうか)で判断し、住民票が日本国内にある者は原則、国内居住要件を満たす",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD5.3-R01-1b",
+   "where": "GD§5.3",
+   "page": "R01_kokunai",
+   "quote": "住民票が日本国内にあっても、海外で就労しており、日本で全く生活していないなど、明らかに日本での居住実態がないことが判明した場合は、保険者において、例外的に国内居住要件を満たさないものと判断して差し支えない",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD5.3-R01-2",
+   "where": "GD§5.3",
+   "page": "R01_kokunai",
+   "quote": "これまで日本で生活しており、渡航目的に照らし、今後日本で生活する蓋然性が高いと認められる者(一時的な海外渡航である者)で、かつ渡航目的が就労ではない者を基本に類型化",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD5.3-R01-date",
+   "where": "GD§0",
+   "page": "R01_kokunai",
+   "quote": "令和元年11月13日",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD5.3-R01-start",
+   "where": "GD§5.3",
+   "page": "R01_kokunai",
+   "quote": "令和2年4月1日",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD5.3-NKYOJU-a",
+   "where": "GD§5.3",
+   "page": "nenkin_kyojuyoken",
+   "quote": "扶養される方の年間収入が被保険者からの年間の仕送り額未満であることが必要",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD5.3-NKYOJU-b",
+   "where": "GD§5.3",
+   "page": "nenkin_kyojuyoken",
+   "quote": "扶養される方の年間収入が被保険者の年間収入の2分の1未満であることが必要",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD5.3-NKYOJU-c",
+   "where": "GD§5.3",
+   "page": "nenkin_kyojuyoken",
+   "quote": "海外特例要件",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD5.3-NKYOJU-d",
+   "where": "GD§5.3",
+   "page": "nenkin_kyojuyoken",
+   "quote": "130万円未満（扶養される方が60歳以上または障害厚生年金の受給要件に該当する程度の障害者である場合は180万円未満）",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "GD5.3-NKYOJU-e",
+   "where": "GD§5.3",
+   "page": "nenkin_kyojuyoken",
+   "quote": "被扶養者現況申立書",
+   "ok": true,
+   "missing": null
+  }
+ ],
+ "structure": [
+  {
+   "id": "GD1.3-SOTOC-no4116",
+   "where": "LW§2.3・GD§1.3",
+   "ok": true,
+   "evidence": {
+    "heads_41_15_to_17": [
+     "第41条の15（（先物取引の差金等決済に係る損失の繰越控除））関係",
+     "第41条の15の５（（年齢23歳未満の扶養親族を有する場合の生命保険料控除の特例））関係",
+     "第41条の17（（特定一般用医薬品等購入費を支払った場合の医療費控除の特例））関係"
+    ],
+    "lines_with_41_16": []
+   }
+  },
+  {
+   "id": "GD0-KGIDX-linktext",
+   "where": "GD§0・MS§4-3",
+   "ok": true,
+   "evidence": [
+    {
+     "href": "/publication/pamph/pdf/0022009-107_02.pdf",
+     "text": "国外居住親族に係る扶養控除等Ｑ＆Ａ(源泉所得税関係)（令和７年６月更新）(PDF/420KB)"
+    }
+   ]
+  },
+  {
+   "id": "GD5.1-S52-60count",
+   "where": "GD§5.1・MS§3",
+   "ok": true,
+   "evidence": {
+    "六〇歳以上の者である場合": 3,
+    "一八〇万円未満": 3
+   }
+  },
+  {
+   "id": "GD5.1-S52-notime",
+   "where": "GD§5.1・GD§6-4",
+   "ok": true,
+   "evidence": {
+    "十二月三十一日": false,
+    "時点": false,
+    "12月31日": false,
+    "認定日": false
+   }
+  },
+  {
+   "id": "GD5.3-R01eqR05",
+   "where": "GD§5.3・MS§3",
+   "ok": true,
+   "evidence": {
+    "lines": 108
+   }
+  },
+  {
+   "id": "MS2.2-nta_robots",
+   "where": "MS§2.2",
+   "ok": true,
+   "evidence": [
+    "/service_publication/",
+    "/about/organization/sapporo/service_publication/",
+    "/about/organization/sendai/service_publication/",
+    "/about/organization/kantoshinetsu/service_publication/",
+    "/about/organization/tokyo/service_publication/",
+    "/about/organization/kanazawa/service_publication/",
+    "/about/organization/nagoya/service_publication/",
+    "/about/organization/osaka/service_publication/",
+    "/about/organization/hiroshima/service_publication/",
+    "/about/organization/takamatsu/service_publication/",
+    "/about/organization/fukuoka/service_publication/",
+    "/about/organization/kumamoto/service_publication/",
+    "/about/organization/okinawa/service_publication/"
+   ]
+  },
+  {
+   "id": "MS2.2-mhlw_robots",
+   "where": "MS§2.2",
+   "ok": true,
+   "evidence": [
+    "/cgi-bin/",
+    "/images/",
+    "/topics/bukyoku/iyaku/kaisyu/00-1-010.html"
+   ]
+  },
+  {
+   "id": "MS2.2-nenkin_robots",
+   "where": "MS§2.2",
+   "ok": true,
+   "evidence": [
+    "/service/nenkinkiroku/torikumi/mitougou/shizuoka.files/JigyousyoIchiran_3942_201209.pdf"
+   ]
+  }
+ ]
+}

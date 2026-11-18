@@ -1,0 +1,19 @@
+{
+ "set": "shitsugi2",
+ "fetched_at": "20261109-150717",
+ "download_dir": ".work/downloads/20261109-150717_IMPL_jigyo_nta_shitsugi2",
+ "items": [
+  {
+   "id": "shitsugi_04_34",
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/04/34.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 03 Dec 2025 08:31:03 GMT",
+   "bytes": 5149,
+   "sha256": "76e3d6cfbc3143a92c04f8a40336bbb5370250fc8a214856b17f08daba0ad782",
+   "saved": ".work/downloads/20261109-150717_IMPL_jigyo_nta_shitsugi2/shitsugi_04_34.htm",
+   "title": "ピアノ教室を営む場合の家内労働者等の事業所得等の所得計算の特例｜国税庁",
+   "encoding": "shift_jis"
+  }
+ ]
+}

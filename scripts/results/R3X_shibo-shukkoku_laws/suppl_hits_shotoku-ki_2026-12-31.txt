@@ -1,0 +1,5 @@
+# shotoku-ki 所得税法施行規則 law_id=340M50000040011 法令番号=昭和四十年大蔵省令第十一号 asof=2026-12-31
+# law_revision_id=340M50000040011_20261211_508M60000040017 改正法令=令和八年財務省令第十七号（所得税法施行規則の一部を改正する省令） 施行日=2026-12-11 状態=UnEnforced updated=2026-05-11T09:28:59+09:00
+# 取得URL=https://laws.e-gov.go.jp/api/2/law_data/340M50000040011?response_format=json&asof=2026-12-31
+# 取得日時=20261109-201324 sha256=9ba37bf34afed1f9fdcf7118a41e95831a8c762db62d7bfffd07fda993f4ff69
+

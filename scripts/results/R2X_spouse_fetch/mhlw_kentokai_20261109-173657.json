@@ -1,0 +1,44 @@
+{
+  "set": "mhlw_kentokai",
+  "fetched_at_local": "20261109-173657",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work/downloads/20261109-173657_R2X_spouse_mhlw_kentokai",
+  "results": [
+    {
+      "id": "kentokai1_page",
+      "url": "https://www.mhlw.go.jp/stf/newpage_75888.html",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/stf/newpage_75888.html",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 49238,
+      "sha256": "197e5f6401e23042b033ee66c4a501017f11fcb565949cf407edad4fe36aa955",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work/downloads/20261109-173657_R2X_spouse_mhlw_kentokai/kentokai1_page.html",
+      "charset": "UTF-8",
+      "title": "第１回「国民年金第３号被保険者制度等に関する検討会」資料｜厚生労働省",
+      "text_chars": 5735,
+      "text_sha256": "3a8b845a99bb33310a7cf4257f090d4a2c90da115fa14874e5dfe3a18343f479",
+      "text": "scripts/results/R2X_spouse_fetch/text/20261109-173657_mhlw_kentokai/kentokai1_page.txt",
+      "n_links": 251
+    },
+    {
+      "id": "kentokai_gijiroku",
+      "url": "https://www.mhlw.go.jp/stf/newpage_76904.html",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/stf/newpage_76904.html",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 168287,
+      "sha256": "e81ebcad57fd2c4ca4df319db2ab4155cd603be7031e7276c8fd852d940713b4",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work/downloads/20261109-173657_R2X_spouse_mhlw_kentokai/kentokai_gijiroku.html",
+      "charset": "UTF-8",
+      "title": "国民年金第３号被保険者制度等に関する検討会（議事録）｜厚生労働省",
+      "text_chars": 46120,
+      "text_sha256": "44370fdd01a8e3d1f99b4416239c8d5f2b5793453f4706ddc6cb1ad1de542591",
+      "text": "scripts/results/R2X_spouse_fetch/text/20261109-173657_mhlw_kentokai/kentokai_gijiroku.txt",
+      "n_links": 247
+    }
+  ]
+}

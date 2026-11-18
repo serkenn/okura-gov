@@ -1,0 +1,622 @@
+{
+ "shotoku_R8_vs_TA1195": {
+  "source": "scripts/results/R2X_spouse_fetch/text/20261109-173657_nta_ta/ta1195.txt",
+  "header": "令和8年分以降",
+  "rows": [
+   {
+    "spouse_gt": 620000,
+    "spouse_le": 950000,
+    "amounts": [
+     380000,
+     260000,
+     130000
+    ],
+    "computed": [
+     [
+      380000
+     ],
+     [
+      260000
+     ],
+     [
+      130000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 950000,
+    "spouse_le": 1000000,
+    "amounts": [
+     360000,
+     240000,
+     120000
+    ],
+    "computed": [
+     [
+      360000
+     ],
+     [
+      240000
+     ],
+     [
+      120000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 1000000,
+    "spouse_le": 1050000,
+    "amounts": [
+     310000,
+     210000,
+     110000
+    ],
+    "computed": [
+     [
+      310000
+     ],
+     [
+      210000
+     ],
+     [
+      110000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 1050000,
+    "spouse_le": 1100000,
+    "amounts": [
+     260000,
+     180000,
+     90000
+    ],
+    "computed": [
+     [
+      260000
+     ],
+     [
+      180000
+     ],
+     [
+      90000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 1100000,
+    "spouse_le": 1150000,
+    "amounts": [
+     210000,
+     140000,
+     70000
+    ],
+    "computed": [
+     [
+      210000
+     ],
+     [
+      140000
+     ],
+     [
+      70000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 1150000,
+    "spouse_le": 1200000,
+    "amounts": [
+     160000,
+     110000,
+     60000
+    ],
+    "computed": [
+     [
+      160000
+     ],
+     [
+      110000
+     ],
+     [
+      60000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 1200000,
+    "spouse_le": 1250000,
+    "amounts": [
+     110000,
+     80000,
+     40000
+    ],
+    "computed": [
+     [
+      110000
+     ],
+     [
+      80000
+     ],
+     [
+      40000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 1250000,
+    "spouse_le": 1300000,
+    "amounts": [
+     60000,
+     40000,
+     20000
+    ],
+    "computed": [
+     [
+      60000
+     ],
+     [
+      40000
+     ],
+     [
+      20000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 1300000,
+    "spouse_le": 1330000,
+    "amounts": [
+     30000,
+     20000,
+     10000
+    ],
+    "computed": [
+     [
+      30000
+     ],
+     [
+      20000
+     ],
+     [
+      10000
+     ]
+    ],
+    "match": true
+   }
+  ]
+ },
+ "shotoku_R7_vs_TA1195": {
+  "source": "scripts/results/R2X_spouse_fetch/text/20261109-173657_nta_ta/ta1195.txt",
+  "header": "令和7年分",
+  "rows": [
+   {
+    "spouse_gt": 580000,
+    "spouse_le": 950000,
+    "amounts": [
+     380000,
+     260000,
+     130000
+    ],
+    "computed": [
+     [
+      380000
+     ],
+     [
+      260000
+     ],
+     [
+      130000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 950000,
+    "spouse_le": 1000000,
+    "amounts": [
+     360000,
+     240000,
+     120000
+    ],
+    "computed": [
+     [
+      360000
+     ],
+     [
+      240000
+     ],
+     [
+      120000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 1000000,
+    "spouse_le": 1050000,
+    "amounts": [
+     310000,
+     210000,
+     110000
+    ],
+    "computed": [
+     [
+      310000
+     ],
+     [
+      210000
+     ],
+     [
+      110000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 1050000,
+    "spouse_le": 1100000,
+    "amounts": [
+     260000,
+     180000,
+     90000
+    ],
+    "computed": [
+     [
+      260000
+     ],
+     [
+      180000
+     ],
+     [
+      90000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 1100000,
+    "spouse_le": 1150000,
+    "amounts": [
+     210000,
+     140000,
+     70000
+    ],
+    "computed": [
+     [
+      210000
+     ],
+     [
+      140000
+     ],
+     [
+      70000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 1150000,
+    "spouse_le": 1200000,
+    "amounts": [
+     160000,
+     110000,
+     60000
+    ],
+    "computed": [
+     [
+      160000
+     ],
+     [
+      110000
+     ],
+     [
+      60000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 1200000,
+    "spouse_le": 1250000,
+    "amounts": [
+     110000,
+     80000,
+     40000
+    ],
+    "computed": [
+     [
+      110000
+     ],
+     [
+      80000
+     ],
+     [
+      40000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 1250000,
+    "spouse_le": 1300000,
+    "amounts": [
+     60000,
+     40000,
+     20000
+    ],
+    "computed": [
+     [
+      60000
+     ],
+     [
+      40000
+     ],
+     [
+      20000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 1300000,
+    "spouse_le": 1330000,
+    "amounts": [
+     30000,
+     20000,
+     10000
+    ],
+    "computed": [
+     [
+      30000
+     ],
+     [
+      20000
+     ],
+     [
+      10000
+     ]
+    ],
+    "match": true
+   }
+  ]
+ },
+ "shotoku_kojo_vs_TA1191": {
+  "source": "scripts/results/R2X_spouse_fetch/text/20261109-173657_nta_ta/ta1191.txt",
+  "nta_rows": [
+   [
+    "900万円以下",
+    380000,
+    480000
+   ],
+   [
+    "900万円超950万円以下",
+    260000,
+    320000
+   ],
+   [
+    "950万円超1,000万円以下",
+    130000,
+    160000
+   ]
+  ],
+  "computed_R7": [
+   [
+    380000,
+    480000
+   ],
+   [
+    260000,
+    320000
+   ],
+   [
+    130000,
+    160000
+   ]
+  ],
+  "computed_R8": [
+   [
+    380000,
+    480000
+   ],
+   [
+    260000,
+    320000
+   ],
+   [
+    130000,
+    160000
+   ]
+  ],
+  "match": true
+ },
+ "shichoson_R8nendo_vs_utsunomiya": {
+  "source": "宇都宮市（書き写し。summary.md 参照）",
+  "rows": [
+   {
+    "spouse_gt": 580000,
+    "spouse_le": 1000000,
+    "amounts": [
+     330000,
+     220000,
+     110000
+    ],
+    "computed": [
+     [
+      330000
+     ],
+     [
+      220000
+     ],
+     [
+      110000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 1000000,
+    "spouse_le": 1050000,
+    "amounts": [
+     310000,
+     210000,
+     110000
+    ],
+    "computed": [
+     [
+      310000
+     ],
+     [
+      210000
+     ],
+     [
+      110000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 1050000,
+    "spouse_le": 1100000,
+    "amounts": [
+     260000,
+     180000,
+     90000
+    ],
+    "computed": [
+     [
+      260000
+     ],
+     [
+      180000
+     ],
+     [
+      90000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 1100000,
+    "spouse_le": 1150000,
+    "amounts": [
+     210000,
+     140000,
+     70000
+    ],
+    "computed": [
+     [
+      210000
+     ],
+     [
+      140000
+     ],
+     [
+      70000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 1150000,
+    "spouse_le": 1200000,
+    "amounts": [
+     160000,
+     110000,
+     60000
+    ],
+    "computed": [
+     [
+      160000
+     ],
+     [
+      110000
+     ],
+     [
+      60000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 1200000,
+    "spouse_le": 1250000,
+    "amounts": [
+     110000,
+     80000,
+     40000
+    ],
+    "computed": [
+     [
+      110000
+     ],
+     [
+      80000
+     ],
+     [
+      40000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 1250000,
+    "spouse_le": 1300000,
+    "amounts": [
+     60000,
+     40000,
+     20000
+    ],
+    "computed": [
+     [
+      60000
+     ],
+     [
+      40000
+     ],
+     [
+      20000
+     ]
+    ],
+    "match": true
+   },
+   {
+    "spouse_gt": 1300000,
+    "spouse_le": 1330000,
+    "amounts": [
+     30000,
+     20000,
+     10000
+    ],
+    "computed": [
+     [
+      30000
+     ],
+     [
+      20000
+     ],
+     [
+      10000
+     ]
+    ],
+    "match": true
+   }
+  ]
+ },
+ "dofuken_eq_shichoson_R8nendo": {
+  "kojo_equal": true,
+  "toku_bands_equal": true
+ },
+ "dofuken_eq_shichoson_R9nendo": {
+  "kojo_equal": true,
+  "toku_bands_equal": true
+ }
+}

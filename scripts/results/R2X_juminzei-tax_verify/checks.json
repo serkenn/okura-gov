@@ -1,0 +1,3095 @@
+{
+ "checks": [
+  {
+   "id": "V01",
+   "doc": "PS-L §0",
+   "claim": "地方税法 asof 2026-01-01",
+   "kind": "rev",
+   "ok": true,
+   "got": [
+    "325AC0000000226_20260101_507AC0000000041",
+    "PreviousEnforced",
+    "令和七年法律第四十一号",
+    "2026-01-01"
+   ]
+  },
+  {
+   "id": "V02",
+   "doc": "PS-L §0",
+   "claim": "地方税法 asof 2026-03-31",
+   "kind": "rev",
+   "ok": true,
+   "got": [
+    "325AC0000000226_20260101_507AC0000000041",
+    "PreviousEnforced",
+    "令和七年法律第四十一号",
+    "2026-01-01"
+   ]
+  },
+  {
+   "id": "V03",
+   "doc": "PS-L §0",
+   "claim": "地方税法 asof 2026-04-01",
+   "kind": "rev",
+   "ok": true,
+   "got": [
+    "325AC0000000226_20260401_508AC0000000002",
+    "PreviousEnforced",
+    "令和八年法律第二号",
+    "2026-04-01"
+   ]
+  },
+  {
+   "id": "V04",
+   "doc": "PS-L §0",
+   "claim": "地方税法 asof 2026-11-09",
+   "kind": "rev",
+   "ok": true,
+   "got": [
+    "325AC0000000226_20261101_508AC0000000002",
+    "CurrentEnforced",
+    "令和八年法律第二号",
+    "2026-11-01"
+   ]
+  },
+  {
+   "id": "V05",
+   "doc": "PS-L §0",
+   "claim": "地方税法 asof 2027-01-01",
+   "kind": "rev",
+   "ok": true,
+   "got": [
+    "325AC0000000226_20270101_508AC0000000002",
+    "UnEnforced",
+    "令和八年法律第二号",
+    "2027-01-01"
+   ]
+  },
+  {
+   "id": "V06",
+   "doc": "PS-L §0",
+   "claim": "地方税法 asof 2028-01-01",
+   "kind": "rev",
+   "ok": true,
+   "got": [
+    "325AC0000000226_20280101_508AC0000000002",
+    "UnEnforced",
+    "令和八年法律第二号",
+    "2028-01-01"
+   ]
+  },
+  {
+   "id": "V07",
+   "doc": "PS-L §0",
+   "claim": "地方税法 asof 2030-01-01",
+   "kind": "rev",
+   "ok": true,
+   "got": [
+    "325AC0000000226_20290624_508AC0000000051",
+    "UnEnforced",
+    "令和八年法律第五十一号",
+    null
+   ]
+  },
+  {
+   "id": "V08",
+   "doc": "PS-L §0",
+   "claim": "地方税法施行令 asof 2026-11-09",
+   "kind": "rev",
+   "ok": true,
+   "got": [
+    "325CO0000000245_20261101_508CO0000000083",
+    "CurrentEnforced",
+    "令和八年政令第八十三号",
+    "2026-11-01"
+   ]
+  },
+  {
+   "id": "V09",
+   "doc": "PS-L §0",
+   "claim": "地方税法施行令 asof 2027-01-01",
+   "kind": "rev",
+   "ok": true,
+   "got": [
+    "325CO0000000245_20270101_508CO0000000083",
+    "UnEnforced",
+    "令和八年政令第八十三号",
+    "2027-01-01"
+   ]
+  },
+  {
+   "id": "V10",
+   "doc": "PS-L §0",
+   "claim": "森林環境税法 asof 2026-11-09",
+   "kind": "rev",
+   "ok": true,
+   "got": [
+    "431AC0000000003_20260401_508AC0000000002",
+    "CurrentEnforced",
+    "令和八年法律第二号",
+    "2026-04-01"
+   ]
+  },
+  {
+   "id": "V11",
+   "doc": "PS-L §0",
+   "claim": "森林環境税法 asof 2027-01-01（同じ版）",
+   "kind": "rev",
+   "ok": true,
+   "got": [
+    "431AC0000000003_20260401_508AC0000000002",
+    "CurrentEnforced",
+    "令和八年法律第二号",
+    "2026-04-01"
+   ]
+  },
+  {
+   "id": "V12",
+   "doc": "PS-L §0",
+   "claim": "森林環境税法施行令 asof 2026-11-09",
+   "kind": "rev",
+   "ok": true,
+   "got": [
+    "504CO0000000300_20260401_508CO0000000083",
+    "CurrentEnforced",
+    "令和八年政令第八十三号",
+    "2026-04-01"
+   ]
+  },
+  {
+   "id": "V13",
+   "doc": "PS-L §0",
+   "claim": "森林環境税法施行令 asof 2027-01-01（同じ版）",
+   "kind": "rev",
+   "ok": true,
+   "got": [
+    "504CO0000000300_20260401_508CO0000000083",
+    "CurrentEnforced",
+    "令和八年政令第八十三号",
+    "2026-04-01"
+   ]
+  },
+  {
+   "id": "V14",
+   "doc": "PS-L §0",
+   "claim": "指定都市の政令 asof 2026-11-09",
+   "kind": "rev",
+   "ok": true,
+   "got": [
+    "331CO0000000254_20120401_423CO0000000323",
+    "CurrentEnforced",
+    "平成二十三年政令第三百二十三号",
+    "2012-04-01"
+   ]
+  },
+  {
+   "id": "V15",
+   "doc": "PS-L §0",
+   "claim": "指定都市の政令 asof 2027-01-01（同じ版）",
+   "kind": "rev",
+   "ok": true,
+   "got": [
+    "331CO0000000254_20120401_423CO0000000323",
+    "CurrentEnforced",
+    "平成二十三年政令第三百二十三号",
+    "2012-04-01"
+   ]
+  },
+  {
+   "id": "V16",
+   "doc": "PS-L §0",
+   "claim": "震災臨時特例法 asof 2026-11-09",
+   "kind": "rev",
+   "ok": true,
+   "got": [
+    "423AC0000000118_20111202_000000000000000",
+    "CurrentEnforced",
+    null,
+    "2011-12-02"
+   ]
+  },
+  {
+   "id": "V17",
+   "doc": "PS-L §0",
+   "claim": "森林環境税法の法令番号（平成31年法律第3号）",
+   "kind": "lawnum",
+   "ok": true,
+   "got": "平成三十一年法律第三号"
+  },
+  {
+   "id": "V18",
+   "doc": "PS-L §0",
+   "claim": "同施行令の法令番号（令和4年政令第300号）",
+   "kind": "lawnum",
+   "ok": true,
+   "got": "令和四年政令第三百号"
+  },
+  {
+   "id": "V19",
+   "doc": "PS-L §0",
+   "claim": "指定都市の政令の法令番号（昭和31年政令第254号）",
+   "kind": "lawnum",
+   "ok": true,
+   "got": "昭和三十一年政令第二百五十四号"
+  },
+  {
+   "id": "V20",
+   "doc": "PS-L §0",
+   "claim": "震災臨時特例法の法令番号（平成23年法律第118号）",
+   "kind": "lawnum",
+   "ok": true,
+   "got": "平成二十三年法律第百十八号"
+  },
+  {
+   "id": "V21",
+   "doc": "I5",
+   "claim": "所得税法第86条①一（asof 2025-12-31、令和7年分）：58万円",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "shotoku@2025-12-31 main 86 1/1"
+  },
+  {
+   "id": "V22",
+   "doc": "I5",
+   "claim": "所得税法第86条①一（asof 2026-12-31、令和8年分）：62万円",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "shotoku@2026-12-31 main 86 1/1"
+  },
+  {
+   "id": "V23",
+   "doc": "I5",
+   "claim": "措法第41条の16の2①一イ（asof 2025-12-31、令和7年分）：132万円以下 37万円加算（計95万円）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "sochi@2025-12-31 main 41_16_2 1/1/1"
+  },
+  {
+   "id": "V24",
+   "doc": "I5",
+   "claim": "措法第41条の16の2①一イ（asof 2026-12-31、令和8年分）：489万円以下 42万円加算（計104万円）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "sochi@2026-12-31 main 41_16_2 1/1/1"
+  },
+  {
+   "id": "V25",
+   "doc": "I5",
+   "claim": "措法第41条の16の2①一ロ（asof 2026-12-31）：489万円超 5万円",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "sochi@2026-12-31 main 41_16_2 1/1/2"
+  },
+  {
+   "id": "V26",
+   "doc": "I5",
+   "claim": "措法第41条の16の2①（asof 2026-12-31）：655万円以下が対象",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "sochi@2026-12-31 main 41_16_2 1"
+  },
+  {
+   "id": "A01",
+   "doc": "PS-L §1",
+   "claim": "令8法2 附則第1条：本体は令和8年4月1日施行",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2030-01-01 amend:令和八年三月三一日法律第二号 1 1"
+  },
+  {
+   "id": "A02",
+   "doc": "PS-L §1",
+   "claim": "同 第1条第2号：第292条①6・7・9号、第314条の7⑪（第1号に係る部分を除く）の改正などは令和9年1月1日",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2030-01-01 amend:令和八年三月三一日法律第二号 1 1/2"
+  },
+  {
+   "id": "A03",
+   "doc": "PS-L §1・§8.2",
+   "claim": "同 第1条第1号（第314条の7②③の改正）は令和8年10月1日",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2030-01-01 amend:令和八年三月三一日法律第二号 1 1/1"
+  },
+  {
+   "id": "A04",
+   "doc": "PS-L §1",
+   "claim": "同 第1条第6号（第314条の2①8の2 の改正、附則第11条第3項）は令和10年1月1日",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2030-01-01 amend:令和八年三月三一日法律第二号 1 1/6"
+  },
+  {
+   "id": "A05",
+   "doc": "PS-L §1",
+   "claim": "同 第1条第17号：令和8年法律第64号の施行の日の属する年の翌々年の1月1日（附則第11条第11項・第13項）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2030-01-01 amend:令和八年三月三一日法律第二号 1 1/17"
+  },
+  {
+   "id": "A06",
+   "doc": "PS-L §1",
+   "claim": "同 第11条第1項：令和8年度以後の個人の市町村民税に適用",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2030-01-01 amend:令和八年三月三一日法律第二号 11 1"
+  },
+  {
+   "id": "A07",
+   "doc": "PS-L §1",
+   "claim": "同 第3条第1項：令和8年度以後の個人の道府県民税に適用",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2030-01-01 amend:令和八年三月三一日法律第二号 3 1"
+  },
+  {
+   "id": "A08",
+   "doc": "PS-L §1",
+   "claim": "同 第11条第2項：第292条①7号・9号は令和9年度以後",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2030-01-01 amend:令和八年三月三一日法律第二号 11 2"
+  },
+  {
+   "id": "A09",
+   "doc": "PS-L §1",
+   "claim": "同 第3条第2項：第23条①7号・9号は令和9年度以後",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2030-01-01 amend:令和八年三月三一日法律第二号 3 2"
+  },
+  {
+   "id": "A10",
+   "doc": "PS-L §1",
+   "claim": "同 第11条第3項：第314条の2①8号の2 は令和10年度以後",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2030-01-01 amend:令和八年三月三一日法律第二号 11 3"
+  },
+  {
+   "id": "A11",
+   "doc": "PS-L §1",
+   "claim": "同 第11条第8項：九年一月新法第314条の7⑪・附則第5条の5② は令和10年度以後（令和9年度分までは従前の例）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2030-01-01 amend:令和八年三月三一日法律第二号 11 8"
+  },
+  {
+   "id": "A12",
+   "doc": "PS-L §1",
+   "claim": "同 第3条第9項：第37条の2⑪・附則第5条の5① は令和10年度以後",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2030-01-01 amend:令和八年三月三一日法律第二号 3 9"
+  },
+  {
+   "id": "A13",
+   "doc": "PS-L §1 / I6",
+   "claim": "同 第11条第10項：九年一月新法附則第5条の4⑤〜⑧ は令和8年1月1日以後に居住の用に供する場合に適用",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2030-01-01 amend:令和八年三月三一日法律第二号 11 10"
+  },
+  {
+   "id": "A14",
+   "doc": "PS-L §1",
+   "claim": "同 第3条第12項：九年一月新法附則第5条の4①〜④（道府県）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2030-01-01 amend:令和八年三月三一日法律第二号 3 12"
+  },
+  {
+   "id": "A15",
+   "doc": "PS-L §1",
+   "claim": "同 第11条第11項：十七号施行日の属する年度の翌年度以後",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2030-01-01 amend:令和八年三月三一日法律第二号 11 11"
+  },
+  {
+   "id": "A16",
+   "doc": "PS-L §1",
+   "claim": "同 第11条第13項：附則第35条の3の6 ほか",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2030-01-01 amend:令和八年三月三一日法律第二号 11 13"
+  },
+  {
+   "id": "A17",
+   "doc": "PS-L §1",
+   "claim": "附則第35条の3の6（asof 2030-01-01）は「特定暗号資産に係る譲渡所得等」（暗号資産関係の読み）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2030-01-01 orig 35_3_6 "
+  },
+  {
+   "id": "A18",
+   "doc": "PS-L §1",
+   "claim": "e-Gov の改正附則第11条の見える項（asof 2026-11-09）",
+   "kind": "amendparas",
+   "ok": true,
+   "got": [
+    "1",
+    "4",
+    "5",
+    "6",
+    "7",
+    "14",
+    "15"
+   ]
+  },
+  {
+   "id": "A19",
+   "doc": "PS-L §1",
+   "claim": "同（asof 2027-01-01）",
+   "kind": "amendparas",
+   "ok": true,
+   "got": [
+    "1",
+    "2",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "14",
+    "15"
+   ]
+  },
+  {
+   "id": "A20",
+   "doc": "PS-L §1",
+   "claim": "同（asof 2028-01-01）",
+   "kind": "amendparas",
+   "ok": true,
+   "got": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "12",
+    "14",
+    "15"
+   ]
+  },
+  {
+   "id": "A21",
+   "doc": "PS-L §1",
+   "claim": "同（asof 2030-01-01）",
+   "kind": "amendparas",
+   "ok": true,
+   "got": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15"
+   ]
+  },
+  {
+   "id": "S01",
+   "doc": "PS-L §1 / M §3.3",
+   "claim": "asof 2026-03-31 の第314条の7 に「四十八万円」がない",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "chiho@2026-03-31 main 314_7 "
+  },
+  {
+   "id": "S02",
+   "doc": "PS-L §1 / M §3.3",
+   "claim": "asof 2026-03-31 の第37条の2 に「四十八万円」がない",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "chiho@2026-03-31 main 37_2 "
+  },
+  {
+   "id": "S03",
+   "doc": "PS-L §1 / M §3.3",
+   "claim": "asof 2026-03-31 の附則第5条の4の2 に「四十八万円」がない",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "chiho@2026-03-31 orig 5_4_2 "
+  },
+  {
+   "id": "S04",
+   "doc": "PS-L §1 / M §3.3",
+   "claim": "asof 2026-03-31 の附則第7条の2 に「四十八万円」がない",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "chiho@2026-03-31 orig 7_2 "
+  },
+  {
+   "id": "S05",
+   "doc": "PS-L §1 / M §3.3",
+   "claim": "asof 2026-04-01 の第314条の7⑪一 に基礎控除の差",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-04-01 main 314_7 11/1"
+  },
+  {
+   "id": "S06",
+   "doc": "PS-L §1 / M §3.3",
+   "claim": "asof 2026-04-01 の第37条の2⑪一 に基礎控除の差",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-04-01 main 37_2 11/1"
+  },
+  {
+   "id": "S07",
+   "doc": "PS-L §7 / M §3.3",
+   "claim": "asof 2026-04-01 の附則第5条の4⑤ に基礎控除の差（居住年 平成28年〜令和7年）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-04-01 orig 5_4 5"
+  },
+  {
+   "id": "S08",
+   "doc": "PS-L §8.3 / M §3.3",
+   "claim": "asof 2026-04-01 の附則第7条の2⑤ に基礎控除の差",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-04-01 orig 7_2 5"
+  },
+  {
+   "id": "S09",
+   "doc": "PS-L §7 / M §3.3",
+   "claim": "asof 2026-04-01 には附則第5条の4の2 がない",
+   "kind": "absent",
+   "ok": true
+  },
+  {
+   "id": "S10",
+   "doc": "PS-L §8 / M §3.1",
+   "claim": "asof 2026-01-01 の第314条の7 に「四十八万円」がない",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "chiho@2026-01-01 main 314_7 "
+  },
+  {
+   "id": "S11",
+   "doc": "PS-L §8.3",
+   "claim": "asof 2026-01-01 の附則第7条の2 に「四十八万円」がない",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "chiho@2026-01-01 orig 7_2 "
+  },
+  {
+   "id": "S12",
+   "doc": "PS-L §7",
+   "claim": "asof 2026-01-01 の附則第5条の4の2 に「四十八万円」がない",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "chiho@2026-01-01 orig 5_4_2 "
+  },
+  {
+   "id": "S13",
+   "doc": "PS-L §7",
+   "claim": "asof 2026-01-01 の附則第5条の4 は平成20年度〜平成28年度分の旧制度",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-01-01 orig 5_4 1"
+  },
+  {
+   "id": "S14",
+   "doc": "PS-L §7",
+   "claim": "asof 2026-01-01 の附則第5条の4の2⑤：平成22年度〜令和20年度、3/5",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-01-01 orig 5_4_2 5"
+  },
+  {
+   "id": "T01",
+   "doc": "PS-L §2",
+   "claim": "第313条①：前年の所得について算定した総所得金額、退職所得金額及び山林所得金額",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 313 1"
+  },
+  {
+   "id": "T02",
+   "doc": "PS-L §2",
+   "claim": "第313条②：所得税法等の計算の例、第60条の2〜第60条の4 の例によらない",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 313 2"
+  },
+  {
+   "id": "T03",
+   "doc": "PS-L §2",
+   "claim": "第313条④：事業専従者控除 86万円・50万円・所得÷(専従者数+1) の低い方",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 313 4"
+  },
+  {
+   "id": "T04",
+   "doc": "PS-L §2",
+   "claim": "第313条⑥：住民税の申告書に記載がないと適用しない（申告義務がない場合を除く）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 313 6"
+  },
+  {
+   "id": "T05",
+   "doc": "PS-L §2",
+   "claim": "第313条⑦：15歳未満かは前年12月31日の現況",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 313 7"
+  },
+  {
+   "id": "T06",
+   "doc": "PS-L §2",
+   "claim": "第313条⑧：青色の純損失は「生じた年の末日の属する年度の翌々年度以後」の申告書の連続提出が要件",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 313 8"
+  },
+  {
+   "id": "T07",
+   "doc": "PS-L §2",
+   "claim": "第313条⑨：変動所得等の純損失・雑損失は「翌年度」の申告書の提出とその後の連続提出が要件",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 313 9"
+  },
+  {
+   "id": "T08",
+   "doc": "PS-L §2",
+   "claim": "第313条⑪：所得税の納税義務がない者の特定支出控除は住民税の申告書で",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 313 11"
+  },
+  {
+   "id": "T09",
+   "doc": "PS-L §2",
+   "claim": "第313条⑫：特定配当等は除外",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 313 12"
+  },
+  {
+   "id": "T10",
+   "doc": "PS-L §2",
+   "claim": "第313条⑬：確定申告書に記載があれば⑫を適用しない",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 313 13"
+  },
+  {
+   "id": "T11",
+   "doc": "PS-L §2",
+   "claim": "第313条⑮：特定株式等譲渡所得金額も同じ",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 313 15"
+  },
+  {
+   "id": "T12",
+   "doc": "PS-L §2",
+   "claim": "第292条①13号：合計所得金額は第313条⑧⑨の控除前",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 292 1/13"
+  },
+  {
+   "id": "T13",
+   "doc": "PS-L §2",
+   "claim": "附則第33条の2⑦一：扶養・非課税・調整控除などの合計所得金額に上場株式等の配当所得等を含める読替え",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 33_2 7/1"
+  },
+  {
+   "id": "T14",
+   "doc": "PS-L §2",
+   "claim": "第317条の3①：確定申告書の提出で住民税の申告書の提出とみなす",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 317_3 1"
+  },
+  {
+   "id": "K01",
+   "doc": "PS-L §3",
+   "claim": "第314条の2①一 雑損控除：総所得金額等の1/10 など",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_2 1/1/1"
+  },
+  {
+   "id": "K02",
+   "doc": "PS-L §3",
+   "claim": "同①二 医療費控除：5%（上限10万円）、最高200万円",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_2 1/2"
+  },
+  {
+   "id": "K03",
+   "doc": "PS-L §3",
+   "claim": "同①三 社会保険料控除：全額",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_2 1/3"
+  },
+  {
+   "id": "K04",
+   "doc": "PS-L §3",
+   "claim": "同①四 小規模企業共済等掛金控除：全額",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_2 1/4"
+  },
+  {
+   "id": "K05",
+   "doc": "PS-L §3",
+   "claim": "同①五 生命保険料控除：全体の上限7万円",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_2 1/5"
+  },
+  {
+   "id": "K06",
+   "doc": "PS-L §3",
+   "claim": "同①五イ(1) 新生命保険料：12,000/32,000/56,000円の区分、上限28,000円",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_2 1/5/1/1"
+  },
+  {
+   "id": "K07",
+   "doc": "PS-L §3",
+   "claim": "同①五イ(2) 旧生命保険料：15,000/40,000/70,000円の区分、上限35,000円",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_2 1/5/1/2"
+  },
+  {
+   "id": "K08",
+   "doc": "PS-L §3",
+   "claim": "同①五イ(3) 新旧両方：合計28,000円が上限",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_2 1/5/1/3"
+  },
+  {
+   "id": "K09",
+   "doc": "PS-L §3",
+   "claim": "同①五の三 地震保険料控除：1/2、上限25,000円",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_2 1/5_3"
+  },
+  {
+   "id": "K10",
+   "doc": "PS-L §3",
+   "claim": "同①六 障害者控除 26万円、特別障害者 30万円",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_2 1/6"
+  },
+  {
+   "id": "K11",
+   "doc": "PS-L §3",
+   "claim": "同③ 同居特別障害者 53万円",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_2 3"
+  },
+  {
+   "id": "K12",
+   "doc": "PS-L §3",
+   "claim": "同①八 寡婦控除 26万円",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_2 1/8"
+  },
+  {
+   "id": "K13",
+   "doc": "PS-L §3",
+   "claim": "同①八の二 ひとり親控除 30万円（asof 2026-11-09）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_2 1/8_2"
+  },
+  {
+   "id": "K14",
+   "doc": "PS-L §3",
+   "claim": "同（asof 2027-01-01）も30万円",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2027-01-01 main 314_2 1/8_2"
+  },
+  {
+   "id": "K15",
+   "doc": "PS-L §3",
+   "claim": "同（asof 2028-01-01）は33万円",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2028-01-01 main 314_2 1/8_2"
+  },
+  {
+   "id": "K16",
+   "doc": "PS-L §3",
+   "claim": "同①九 勤労学生控除 26万円",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_2 1/9"
+  },
+  {
+   "id": "K17",
+   "doc": "PS-L §3",
+   "claim": "同①十 配偶者控除 33万（38万）・22万（26万）・11万（13万）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_2 1/10"
+  },
+  {
+   "id": "K18",
+   "doc": "PS-L §3",
+   "claim": "同①十の二 配偶者特別控除（133万円以下、本人1,000万円以下、100万円以下33万円、93万1円、5万円の整数倍−3万円、130万円超3万円、2/3・1/3 の1万円未満切上げ）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_2 1/10_2"
+  },
+  {
+   "id": "K19",
+   "doc": "PS-L §3",
+   "claim": "同①十一 扶養控除 33万円・特定扶養（19歳以上23歳未満）45万円・老人扶養（70歳以上）38万円",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_2 1/11"
+  },
+  {
+   "id": "K20",
+   "doc": "PS-L §3",
+   "claim": "同④ 同居老親等 45万円",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_2 4"
+  },
+  {
+   "id": "K21",
+   "doc": "PS-L §3",
+   "claim": "同①十二 特定親族特別控除（123万円以下、95万円以下45万円 … 120万円超3万円）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_2 1/12"
+  },
+  {
+   "id": "K22",
+   "doc": "PS-L §3",
+   "claim": "同② 基礎控除 43万・29万・15万",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_2 2"
+  },
+  {
+   "id": "K23",
+   "doc": "PS-L §3",
+   "claim": "同⑧ 前年12月31日の現況",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_2 8"
+  },
+  {
+   "id": "K24",
+   "doc": "PS-L §3",
+   "claim": "同⑪ 控除の順序（雑損→医療費→…→基礎、総所得・山林・退職の順）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_2 11"
+  },
+  {
+   "id": "K25",
+   "doc": "PS-L §3 / M §3.2",
+   "claim": "第314条の2：asof 2026-11-09→2027-01-01 で違うのは第1項第6号だけ（第1項本文ではない）",
+   "kind": "diffunits",
+   "ok": true,
+   "got": [
+    "1/6"
+   ]
+  },
+  {
+   "id": "K26",
+   "doc": "PS-L §3",
+   "claim": "第314条の2：asof 2027-01-01→2028-01-01 で違うのは第1項第8号の2 だけ",
+   "kind": "diffunits",
+   "ok": true,
+   "got": [
+    "1/8_2"
+   ]
+  },
+  {
+   "id": "K27",
+   "doc": "PS-L §3",
+   "claim": "附則第4条の5（asof 2026-11-09）：平成30年度から令和9年度まで",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 4_5 1"
+  },
+  {
+   "id": "K28",
+   "doc": "PS-L §3",
+   "claim": "附則第4条の5（asof 2027-01-01）：平成30年度以後",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2027-01-01 orig 4_5 1"
+  },
+  {
+   "id": "K29",
+   "doc": "PS-L §1・§5",
+   "claim": "第292条①七（asof 2026-01-01）：58万円以下",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-01-01 main 292 1/7"
+  },
+  {
+   "id": "K30",
+   "doc": "PS-L §1・§5",
+   "claim": "第292条①七（asof 2026-11-09）：58万円以下",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 292 1/7"
+  },
+  {
+   "id": "K31",
+   "doc": "PS-L §1・§5",
+   "claim": "第292条①七（asof 2027-01-01）：62万円以下",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2027-01-01 main 292 1/7"
+  },
+  {
+   "id": "K32",
+   "doc": "PS-L §1",
+   "claim": "第292条①九（asof 2027-01-01）：62万円以下",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2027-01-01 main 292 1/9"
+  },
+  {
+   "id": "R01",
+   "doc": "PS-L §4",
+   "claim": "第314条の3①：6%（指定都市8%）の標準税率、一の率",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_3 1"
+  },
+  {
+   "id": "R02",
+   "doc": "PS-L §4",
+   "claim": "第35条①：4%（指定都市2%）、同一の標準税率ごとに一の率",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 35 1"
+  },
+  {
+   "id": "R03",
+   "doc": "PS-L §4",
+   "claim": "第314条の3②：課税総所得金額等＝第314条の2 の控除後",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_3 2"
+  },
+  {
+   "id": "R04",
+   "doc": "PS-L §4",
+   "claim": "第1条①五：標準税率の定義",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 1 1/5"
+  },
+  {
+   "id": "R05",
+   "doc": "PS-L §4",
+   "claim": "第314条の3 に「超えることができない」「制限税率」がない",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "chiho@2026-11-09 main 314_3 "
+  },
+  {
+   "id": "R06",
+   "doc": "PS-L §4",
+   "claim": "第35条 に同",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "chiho@2026-11-09 main 35 "
+  },
+  {
+   "id": "R07",
+   "doc": "PS-L §4",
+   "claim": "第310条 に同",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "chiho@2026-11-09 main 310 "
+  },
+  {
+   "id": "R08",
+   "doc": "PS-L §4",
+   "claim": "第38条 に同",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "chiho@2026-11-09 main 38 "
+  },
+  {
+   "id": "R09",
+   "doc": "PS-L §4 / M §3.4",
+   "claim": "本則・原始附則の全文に「制限税率」が0件（asof 2026-11-09）",
+   "kind": "grepcount",
+   "ok": true,
+   "got": 0
+  },
+  {
+   "id": "R10",
+   "doc": "PS-L §4 / M §3.4",
+   "claim": "同（asof 2026-01-01）",
+   "kind": "grepcount",
+   "ok": true,
+   "got": 0
+  },
+  {
+   "id": "R11",
+   "doc": "PS-L §4 / M §3.4",
+   "claim": "同（asof 2027-01-01）",
+   "kind": "grepcount",
+   "ok": true,
+   "got": 0
+  },
+  {
+   "id": "R12",
+   "doc": "PS-L §4",
+   "claim": "指定都市は20市",
+   "kind": "shitei",
+   "ok": true,
+   "got": [
+    "大阪市",
+    "名古屋市",
+    "京都市",
+    "横浜市",
+    "神戸市",
+    "北九州市",
+    "札幌市",
+    "川崎市",
+    "福岡市",
+    "広島市",
+    "仙台市",
+    "千葉市",
+    "さいたま市",
+    "静岡市",
+    "堺市",
+    "新潟市",
+    "浜松市",
+    "岡山市",
+    "相模原市",
+    "熊本市"
+   ]
+  },
+  {
+   "id": "R13",
+   "doc": "PS-L §4",
+   "claim": "指定都市は20市（asof 2027-01-01）",
+   "kind": "shitei",
+   "ok": true,
+   "got": [
+    "大阪市",
+    "名古屋市",
+    "京都市",
+    "横浜市",
+    "神戸市",
+    "北九州市",
+    "札幌市",
+    "川崎市",
+    "福岡市",
+    "広島市",
+    "仙台市",
+    "千葉市",
+    "さいたま市",
+    "静岡市",
+    "堺市",
+    "新潟市",
+    "浜松市",
+    "岡山市",
+    "相模原市",
+    "熊本市"
+   ]
+  },
+  {
+   "id": "R14",
+   "doc": "M §3.2",
+   "claim": "第314条の3 は asof 2026-01-01〜2028-01-01 で同じ",
+   "kind": "same",
+   "ok": true,
+   "lengths": [
+    282,
+    282,
+    282,
+    282
+   ]
+  },
+  {
+   "id": "R15",
+   "doc": "PS-L §4",
+   "claim": "第35条 は 4版で同じ",
+   "kind": "same",
+   "ok": true,
+   "lengths": [
+    285,
+    285,
+    285,
+    285
+   ]
+  },
+  {
+   "id": "J01",
+   "doc": "PS-L §5・§11",
+   "claim": "第314条の6①：前年の合計所得金額2,500万円以下、第314条の3 の所得割の額から",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_6 1"
+  },
+  {
+   "id": "J02",
+   "doc": "PS-L §5",
+   "claim": "同①一：200万円以下はいずれか少ない金額の3%（4%）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_6 1/1"
+  },
+  {
+   "id": "J03",
+   "doc": "PS-L §5",
+   "claim": "同①一イの表（人的控除差）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_6 1/1/1"
+  },
+  {
+   "id": "J04",
+   "doc": "PS-L §5",
+   "claim": "同①二：200万円超は（イ−ロ、5万円を下回るときは5万円）の3%（4%）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_6 1/2"
+  },
+  {
+   "id": "J05",
+   "doc": "PS-L §5",
+   "claim": "同①二ロ：合計課税所得金額−200万円",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_6 1/2/2"
+  },
+  {
+   "id": "J06",
+   "doc": "PS-L §5",
+   "claim": "第314条の6 に「特定親族」がない",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "chiho@2026-11-09 main 314_6 "
+  },
+  {
+   "id": "J07",
+   "doc": "PS-L §5",
+   "claim": "第37条 に「特定親族」がない",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "chiho@2026-11-09 main 37 "
+  },
+  {
+   "id": "J08",
+   "doc": "PS-L §5",
+   "claim": "第37条①一：2%（指定都市1%）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 37 1/1"
+  },
+  {
+   "id": "J09",
+   "doc": "PS-L §5 / M §3.2",
+   "claim": "第314条の6 は asof 2026-01-01〜2028-01-01 で同じ",
+   "kind": "same",
+   "ok": true,
+   "lengths": [
+    1758,
+    1758,
+    1758,
+    1758
+   ]
+  },
+  {
+   "id": "J10",
+   "doc": "PS-L §5",
+   "claim": "第37条 は 4版で同じ",
+   "kind": "same",
+   "ok": true,
+   "lengths": [
+    1746,
+    1746,
+    1746,
+    1746
+   ]
+  },
+  {
+   "id": "J11",
+   "doc": "PS-L §5",
+   "claim": "施行令第48条の7の2①：表の（３）＝ひとり親のうち父",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho-rei@2026-11-09 main 48_7_2 1"
+  },
+  {
+   "id": "J12",
+   "doc": "PS-L §5",
+   "claim": "同②：表の（４）＝ひとり親のうち母",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho-rei@2026-11-09 main 48_7_2 2"
+  },
+  {
+   "id": "D01",
+   "doc": "PS-L §6",
+   "claim": "附則第5条③一：1.6%（2.24%）、1,000万円超の部分 0.8%（1.12%）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 5 3/1"
+  },
+  {
+   "id": "D02",
+   "doc": "PS-L §6",
+   "claim": "同③二：証券投資信託 0.8%（1.12%）／0.4%（0.56%）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 5 3/2"
+  },
+  {
+   "id": "D03",
+   "doc": "PS-L §6",
+   "claim": "同③三：一般外貨建等 0.4%（0.56%）／0.2%（0.28%）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 5 3/3"
+  },
+  {
+   "id": "D04",
+   "doc": "PS-L §6",
+   "claim": "同①一（道府県）：1.2%（0.56%）／0.6%（0.28%）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 5 1/1"
+  },
+  {
+   "id": "D05",
+   "doc": "PS-L §6",
+   "claim": "同①二（道府県）：0.6%（0.28%）／0.3%（0.14%）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 5 1/2"
+  },
+  {
+   "id": "D06",
+   "doc": "PS-L §6",
+   "claim": "同①三（道府県）：0.3%（0.14%）／0.15%（0.07%）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 5 1/3"
+  },
+  {
+   "id": "D07",
+   "doc": "PS-L §6・§11",
+   "claim": "同③：措法第9条①の配当等を除く。第314条の3・第314条の6 の後の所得割の額から控除",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 5 3"
+  },
+  {
+   "id": "D08",
+   "doc": "PS-L §6",
+   "claim": "附則第33条の2⑤後段：上場株式等の配当所得等（分離課税）には附則第5条③を適用しない",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 33_2 5"
+  },
+  {
+   "id": "D09",
+   "doc": "PS-L §9",
+   "claim": "附則第5条④：第314条の8・第314条の9 の読替え",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 5 4"
+  },
+  {
+   "id": "Y01",
+   "doc": "PS-L §7・§11",
+   "claim": "附則第5条の4⑤（asof 2026-11-09）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 5_4 5"
+  },
+  {
+   "id": "Y02",
+   "doc": "PS-L §7",
+   "claim": "同⑤一：措法第41条の住宅借入金等特別税額控除額",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 5_4 5/1"
+  },
+  {
+   "id": "Y03",
+   "doc": "PS-L §7",
+   "claim": "同⑤二：前年分の所得税の額（住宅借入金等特別控除などを適用しないで計算）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 5_4 5/2"
+  },
+  {
+   "id": "Y04",
+   "doc": "PS-L §7",
+   "claim": "同⑦：居住年 平成26年〜令和3年・特定取得／特別特定取得 → 4.2%（5.6%）・81,900円（109,200円）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 5_4 7"
+  },
+  {
+   "id": "Y05",
+   "doc": "PS-L §7",
+   "claim": "同①（道府県）：2/5（1/5）、2%（1%）、39,000円（19,500円）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 5_4 1"
+  },
+  {
+   "id": "Y06",
+   "doc": "PS-L §7",
+   "claim": "同③（道府県）：2.8%（1.4%）、54,600円（27,300円）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 5_4 3"
+  },
+  {
+   "id": "Y07",
+   "doc": "PS-L §7",
+   "claim": "附則第5条の4⑤（asof 2027-01-01）：令和25年度まで、居住年 令和12年まで、加算は平成28年〜令和7年のまま",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2027-01-01 orig 5_4 5"
+  },
+  {
+   "id": "Y08",
+   "doc": "PS-L §9",
+   "claim": "附則第5条の4⑥：第314条の8・第314条の9 の読替え",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 5_4 6"
+  },
+  {
+   "id": "F01",
+   "doc": "PS-L §8.1・§11",
+   "claim": "第314条の7①：30%・2,000円・6%（8%）・特例控除額の加算・第314条の3と前条の後の所得割・所得割の額が上限",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_7 1"
+  },
+  {
+   "id": "F02",
+   "doc": "PS-L §8.1",
+   "claim": "同①一：都道府県等（特別の利益を除く）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_7 1/1"
+  },
+  {
+   "id": "F03",
+   "doc": "PS-L §8.1",
+   "claim": "同①二：共同募金会・日赤（賦課期日現在の住所所在の道府県内）、政令で定めるもの",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_7 1/2"
+  },
+  {
+   "id": "F04",
+   "doc": "PS-L §8.1",
+   "claim": "同①三：所得税法第78条②二・三、措法第41条の18の2②、市町村の条例",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_7 1/3"
+  },
+  {
+   "id": "F05",
+   "doc": "PS-L §8.1",
+   "claim": "同①四：特定非営利活動法人・市町村の条例",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_7 1/4"
+  },
+  {
+   "id": "F06",
+   "doc": "PS-L §8.1",
+   "claim": "同⑫：条例で法人の名称・主たる事務所の所在地を明らかに",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_7 12"
+  },
+  {
+   "id": "F07",
+   "doc": "PS-L §8.2",
+   "claim": "同⑪：特例控除額＝(特例控除対象寄附金−2,000円)×割合×3/5（4/5）、上限は第314条の3・前条の後の所得割の20%",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_7 11"
+  },
+  {
+   "id": "F08",
+   "doc": "PS-L §8.2",
+   "claim": "同⑪一：人的控除差調整額（前条①一イ＋基礎控除の額−48万円）と割合の表",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_7 11/1"
+  },
+  {
+   "id": "F09",
+   "doc": "PS-L §8.2",
+   "claim": "同⑪二：零を下回り山林・退職がないとき 90%",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_7 11/2"
+  },
+  {
+   "id": "F10",
+   "doc": "PS-L §8.2",
+   "claim": "同⑪三：山林（1/5）・退職で表を引く、両方なら低い方",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_7 11/3"
+  },
+  {
+   "id": "F11",
+   "doc": "PS-L §8.1",
+   "claim": "第37条の2①：4%（指定都市2%）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 37_2 1"
+  },
+  {
+   "id": "F12",
+   "doc": "PS-L §8.2",
+   "claim": "第37条の2⑪：2/5（1/5）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 37_2 11"
+  },
+  {
+   "id": "F13",
+   "doc": "PS-L §8.1",
+   "claim": "第37条の2①三：当該道府県の条例",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 37_2 1/3"
+  },
+  {
+   "id": "F14",
+   "doc": "PS-L §8.2",
+   "claim": "附則第5条の6②（市町村民税、平成26年度〜令和20年度）の読替え",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 5_6 2"
+  },
+  {
+   "id": "F15",
+   "doc": "PS-L §8.2",
+   "claim": "附則第5条の5②：分離課税の所得があるとき（附則第33条の2⑤〜第35条の4④）、3/5（4/5）、20%",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 5_5 2"
+  },
+  {
+   "id": "F16",
+   "doc": "PS-L §8.2",
+   "claim": "附則第5条の5②三〜五：50%・60%・75%",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 5_5 2"
+  },
+  {
+   "id": "F17",
+   "doc": "PS-L §8.2",
+   "claim": "第314条の7⑪（asof 2027-01-01）：20% と 115万8千円（154万4千円）の低い方",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2027-01-01 main 314_7 11"
+  },
+  {
+   "id": "F18",
+   "doc": "PS-L §8.2",
+   "claim": "第37条の2⑪（asof 2027-01-01）：77万2千円（38万6千円）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2027-01-01 main 37_2 11"
+  },
+  {
+   "id": "F19",
+   "doc": "PS-L §8.2",
+   "claim": "第314条の7⑪（asof 2026-11-09）に定額の上限はない",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "chiho@2026-11-09 main 314_7 11"
+  },
+  {
+   "id": "F20",
+   "doc": "PS-L §8.2 / PS-A §1",
+   "claim": "附則第5条の6③（asof 2028-01-01）：平成26年度〜令和30年度（市町村民税）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2028-01-01 orig 5_6 3"
+  },
+  {
+   "id": "F21",
+   "doc": "PS-L §8.2 / PS-A §1",
+   "claim": "附則第5条の6④（asof 2028-01-01）：令和31年度以後 84.95% など",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2028-01-01 orig 5_6 4"
+  },
+  {
+   "id": "F22",
+   "doc": "PS-L §8.3・§11",
+   "claim": "附則第7条の2④：当分の間、申告特例通知書の送付、第314条の7①⑪ の後の所得割の額から控除",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 7_2 4"
+  },
+  {
+   "id": "F23",
+   "doc": "PS-L §8.3",
+   "claim": "附則第7条の2⑤：特例控除額×割合（5区分の表）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 7_2 5"
+  },
+  {
+   "id": "F24",
+   "doc": "PS-L §8.3",
+   "claim": "附則第7条の2⑤ の表に 1,800万円・4,000万円の区分がない",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "chiho@2026-11-09 orig 7_2 5"
+  },
+  {
+   "id": "F25",
+   "doc": "PS-L §8.3",
+   "claim": "附則第7条の3②（市町村民税、平成28年度〜令和20年度）の読替え",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 7_3 2"
+  },
+  {
+   "id": "F26",
+   "doc": "PS-L §8.3",
+   "claim": "附則第7条⑬一：所得税法第121条の適用を受けないこととなったとき",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 7 13/1"
+  },
+  {
+   "id": "F27",
+   "doc": "PS-L §8.3",
+   "claim": "附則第7条⑬二：住民税の申告書の提出",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 7 13/2"
+  },
+  {
+   "id": "F28",
+   "doc": "PS-L §8.3 / H3",
+   "claim": "附則第7条⑬三：申告特例通知書を送付した都道府県知事等の数が5を超えたとき",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 7 13/3"
+  },
+  {
+   "id": "F35",
+   "doc": "PS-L §8.3",
+   "claim": "附則第7条⑬四：送付を受けた市町村長が賦課期日現在の住所所在地の市町村長と異なったとき",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 7 13/4"
+  },
+  {
+   "id": "F29",
+   "doc": "M §3.2",
+   "claim": "第314条の7：asof 2026-01-01→2026-11-09 で第1項は同じ",
+   "kind": "same",
+   "ok": true,
+   "lengths": [
+    1031,
+    1031
+   ]
+  },
+  {
+   "id": "F30",
+   "doc": "M §3.2",
+   "claim": "第314条の7：asof 2026-01-01→2026-11-09 で第11項は違う",
+   "kind": "differ",
+   "ok": true
+  },
+  {
+   "id": "F31",
+   "doc": "M §3.2",
+   "claim": "第314条の7：asof 2026-11-09→2027-01-01 で違うのは第1項第3号と第11項だけ",
+   "kind": "diffunits",
+   "ok": true,
+   "got": [
+    "1/3",
+    "11"
+   ]
+  },
+  {
+   "id": "F32",
+   "doc": "M §3.2",
+   "claim": "附則第7条の2：asof 2026-01-01→2026-11-09 で違うのは第2項・第5項だけ",
+   "kind": "diffunits",
+   "ok": true,
+   "got": [
+    "2",
+    "5"
+   ]
+  },
+  {
+   "id": "F33",
+   "doc": "M §3.2",
+   "claim": "附則第7条の2：asof 2026-11-09→2027-01-01 で全項同じ",
+   "kind": "same",
+   "ok": true,
+   "lengths": [
+    1176,
+    1176
+   ]
+  },
+  {
+   "id": "F34",
+   "doc": "M §3.2",
+   "claim": "附則第3条の3：asof 2026-11-09→2027-01-01 で違うのは第1項だけ",
+   "kind": "diffunits",
+   "ok": true,
+   "got": [
+    "1"
+   ]
+  },
+  {
+   "id": "G01",
+   "doc": "PS-L §9・§11",
+   "claim": "第314条の8：第314条の3 及び前二条の後の所得割の額から",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_8 1"
+  },
+  {
+   "id": "G02",
+   "doc": "PS-L §9 / PS-A §1",
+   "claim": "施行令第48条の9の2④：国税の控除限度額の18%（指定都市24%）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho-rei@2026-11-09 main 48_9_2 4"
+  },
+  {
+   "id": "G03",
+   "doc": "PS-A §2.3",
+   "claim": "施行令第7条の19③：道府県民税は国税の控除限度額の12%",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho-rei@2026-11-09 main 7_19 3"
+  },
+  {
+   "id": "G04",
+   "doc": "PS-L §9・§11",
+   "claim": "第314条の9①：配当割額・株式等譲渡所得割額×3/5、第314条の3 及び前三条の後",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_9 1"
+  },
+  {
+   "id": "G05",
+   "doc": "PS-L §9",
+   "claim": "第37条の4：2/5",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 37_4 1"
+  },
+  {
+   "id": "G06",
+   "doc": "PS-L §9",
+   "claim": "第314条の9②：還付、翌年度分の個人住民税・森林環境税への充当",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 314_9 2"
+  },
+  {
+   "id": "N01",
+   "doc": "PS-L §10",
+   "claim": "附則第3条の3④：35万円×(人数+1)+10万円（+32万円）以下は所得割を課さない（分離課税を除く）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 3_3 4"
+  },
+  {
+   "id": "N02",
+   "doc": "PS-L §10・§11",
+   "claim": "附則第3条の3⑤：超える金額×B/(B+C) を第314条の3・第314条の6 の後の所得割から控除",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 3_3 5"
+  },
+  {
+   "id": "N03",
+   "doc": "PS-L §10",
+   "claim": "同⑤二（B）：第314条の3、第314条の6〜第314条の8、附則第5条③、第5条の4⑤、第5条の5②",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 3_3 5/2"
+  },
+  {
+   "id": "N04",
+   "doc": "PS-L §10",
+   "claim": "同⑤三（C）：第35条、第37条〜第37条の3、附則第5条①、第5条の4①、第5条の5①",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 3_3 5/3"
+  },
+  {
+   "id": "N05",
+   "doc": "M §3.7・§5（compute）",
+   "claim": "同⑤二（B）に附則第7条の2（申告特例控除）は入っていない",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "chiho@2026-11-09 orig 3_3 5/2"
+  },
+  {
+   "id": "B01",
+   "doc": "PS-L §12",
+   "claim": "第328条：支払を受けるべき日の属する年の1月1日現在の住所所在の市町村が課する",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 328 1"
+  },
+  {
+   "id": "B02",
+   "doc": "PS-L §12",
+   "claim": "第328条の2①②：その年中の退職所得の金額、所得税法第30条②の計算の例",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 328_2 "
+  },
+  {
+   "id": "B03",
+   "doc": "PS-L §12",
+   "claim": "第328条の3：6%",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 328_3 1"
+  },
+  {
+   "id": "B04",
+   "doc": "PS-L §12",
+   "claim": "第50条の4：4%",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 50_4 1"
+  },
+  {
+   "id": "B05",
+   "doc": "PS-L §12",
+   "claim": "第328条の3 に「標準税率」「指定都市」の語がない",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "chiho@2026-11-09 main 328_3 "
+  },
+  {
+   "id": "B06",
+   "doc": "PS-L §12",
+   "claim": "第50条の4 に同",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "chiho@2026-11-09 main 50_4 "
+  },
+  {
+   "id": "B07",
+   "doc": "PS-L §12",
+   "claim": "第328条の6①一：支払済みの他の退職手当等がない旨の記載 → その支払額で計算",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 328_6 1/1"
+  },
+  {
+   "id": "B08",
+   "doc": "PS-L §12",
+   "claim": "同①二：ある旨の記載 → 合計額で計算して徴収済みの額を引く",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 328_6 1/2"
+  },
+  {
+   "id": "B09",
+   "doc": "PS-L §12 / H10",
+   "claim": "同②：退職所得申告書を出していないとき → その支払額で計算",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 328_6 2"
+  },
+  {
+   "id": "B10",
+   "doc": "PS-L §12",
+   "claim": "退職所得の特例の条は第328条〜第328条の16（第328条の16 がある）",
+   "kind": "present",
+   "ok": true
+  },
+  {
+   "id": "B11",
+   "doc": "PS-L §12",
+   "claim": "同（第328条の17 はない）",
+   "kind": "absent",
+   "ok": true
+  },
+  {
+   "id": "B12",
+   "doc": "PS-L §12",
+   "claim": "道府県民税は第50条の2〜第50条の10（第50条の10 がある）",
+   "kind": "present",
+   "ok": true
+  },
+  {
+   "id": "B13",
+   "doc": "PS-L §12",
+   "claim": "同（第50条の11 はない）",
+   "kind": "absent",
+   "ok": true
+  },
+  {
+   "id": "B14",
+   "doc": "PS-L §12",
+   "claim": "附則第33条の2⑤（上場株式等の配当所得等・市町村民税）：3%（指定都市4%）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 33_2 5"
+  },
+  {
+   "id": "B15",
+   "doc": "PS-L §12",
+   "claim": "附則第33条の2①（道府県民税）：2%（指定都市1%）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 33_2 1"
+  },
+  {
+   "id": "B16",
+   "doc": "PS-L §12",
+   "claim": "附則第35条の2の2（上場株式等の譲渡所得等）：2%（1%）・3%（4%）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 35_2_2 "
+  },
+  {
+   "id": "B17",
+   "doc": "PS-L §12",
+   "claim": "附則第33条の2 に「標準税率」の語がない",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "chiho@2026-11-09 orig 33_2 "
+  },
+  {
+   "id": "E01",
+   "doc": "PS-L §13",
+   "claim": "第294条①：一号（住所）は均等割＋所得割、二号（事務所等のみ）は均等割",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 294 1"
+  },
+  {
+   "id": "E02",
+   "doc": "PS-L §13",
+   "claim": "第294条①二",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 294 1/2"
+  },
+  {
+   "id": "E03",
+   "doc": "PS-L §13",
+   "claim": "第24条①（道府県民税）：同じ形",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 24 1"
+  },
+  {
+   "id": "E04",
+   "doc": "PS-L §13",
+   "claim": "第310条：3,000円",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 310 1"
+  },
+  {
+   "id": "E05",
+   "doc": "PS-L §13",
+   "claim": "第38条：1,000円",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 38 1"
+  },
+  {
+   "id": "E06",
+   "doc": "PS-L §13",
+   "claim": "第310条 は 4版で同じ",
+   "kind": "same",
+   "ok": true,
+   "lengths": [
+    36,
+    36,
+    36,
+    36
+   ]
+  },
+  {
+   "id": "E07",
+   "doc": "PS-L §13",
+   "claim": "第38条 は 4版で同じ",
+   "kind": "same",
+   "ok": true,
+   "lengths": [
+    35,
+    35,
+    35,
+    35
+   ]
+  },
+  {
+   "id": "E08",
+   "doc": "PS-L §13",
+   "claim": "第311条①：その者に対して課する均等割の額を条例で軽減できる",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 311 1"
+  },
+  {
+   "id": "E09",
+   "doc": "PS-L §13",
+   "claim": "第311条①一：納税義務者自身が「均等割を納付する義務がある同一生計配偶者又は扶養親族」である場合",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 311 1/1"
+  },
+  {
+   "id": "E10",
+   "doc": "PS-L §13",
+   "claim": "第311条①二：前号の者を二人以上有する者",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 311 1/2"
+  },
+  {
+   "id": "E11",
+   "doc": "PS-L §13",
+   "claim": "震災臨時特例法第2条①：道府県民税に500円加算は平成26年度〜平成35年度",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "shinsai@2026-11-09 main 2 1"
+  },
+  {
+   "id": "E12",
+   "doc": "PS-L §13",
+   "claim": "同②：市町村民税",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "shinsai@2026-11-09 main 2 2"
+  },
+  {
+   "id": "M01",
+   "doc": "PS-L §14",
+   "claim": "森林環境税法第3条",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "shinrin@2026-11-09 main 3 1"
+  },
+  {
+   "id": "M02",
+   "doc": "PS-L §14",
+   "claim": "第4条①一：生活扶助その他これに準ずるものとして政令で定める扶助",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "shinrin@2026-11-09 main 4 1/1"
+  },
+  {
+   "id": "M03",
+   "doc": "PS-L §14",
+   "claim": "第4条①二：障害者・未成年者・寡婦・ひとり親（合計所得135万円超を除く）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "shinrin@2026-11-09 main 4 1/2"
+  },
+  {
+   "id": "M04",
+   "doc": "PS-L §14",
+   "claim": "第4条①三：政令で定める金額以下",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "shinrin@2026-11-09 main 4 1/3"
+  },
+  {
+   "id": "M05",
+   "doc": "PS-L §14",
+   "claim": "第5条：1,000円",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "shinrin@2026-11-09 main 5 1"
+  },
+  {
+   "id": "M06",
+   "doc": "PS-L §14",
+   "claim": "第6条：賦課期日は1月1日",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "shinrin@2026-11-09 main 6 1"
+  },
+  {
+   "id": "M07",
+   "doc": "PS-L §14",
+   "claim": "第7条：均等割の賦課徴収の例（第6条・第7条・第311条・第321条②・第323条によるものを除く）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "shinrin@2026-11-09 main 7 1"
+  },
+  {
+   "id": "M08",
+   "doc": "PS-L §14",
+   "claim": "第11条：災害・扶助・失業等による免除（政令）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "shinrin@2026-11-09 main 11 1"
+  },
+  {
+   "id": "M09",
+   "doc": "PS-L §14",
+   "claim": "附則第2条①：第2章は令和6年度以後",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "shinrin@2026-11-09 orig 2 1"
+  },
+  {
+   "id": "M10",
+   "doc": "PS-L §14",
+   "claim": "施行令第1条：第1号×(人数+1)+10万円（+第2号）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "shinrin-rei@2026-11-09 main 1 1"
+  },
+  {
+   "id": "M11",
+   "doc": "PS-L §14",
+   "claim": "施行令第1条一：35万円×（前年12月31日の級地の）総務省令で定める率",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "shinrin-rei@2026-11-09 main 1 1/1"
+  },
+  {
+   "id": "M12",
+   "doc": "PS-L §14",
+   "claim": "施行令第1条二：21万円×率",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "shinrin-rei@2026-11-09 main 1 1/2"
+  },
+  {
+   "id": "M13",
+   "doc": "PS-L §14",
+   "claim": "施行令第1条に「条例」の語がない",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "shinrin-rei@2026-11-09 main 1 "
+  },
+  {
+   "id": "M14",
+   "doc": "PS-L §14",
+   "claim": "施行令の見出しに第4条第1項第1号（扶助）に当たる条がない",
+   "kind": "nocaption",
+   "ok": true,
+   "got": [],
+   "captions": {
+    "1": "（法第四条第一項第三号の政令で定める金額）",
+    "2": "（森林環境税に係る徴収金の国への払込み）",
+    "3": "（免除の申請手続）",
+    "4": "（免除の額）",
+    "5": "（法第十一条第一号の政令で定める者）",
+    "6": "（法第十一条第二号の政令で定める扶助）",
+    "7": "（法第十一条第三号の政令で定める特別の事情）",
+    "8": "（過誤納金の控除等をされるべき都道府県又は国への払込予定額等）",
+    "9": "（賦課徴収に関する報告）",
+    "10": "（事務の区分）"
+   }
+  },
+  {
+   "id": "M15",
+   "doc": "PS-L §14",
+   "claim": "施行令第6条（法第11条第2号の扶助）＝生活保護法の扶助のうち生活扶助などを除いたもの",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "shinrin-rei@2026-11-09 main 6 1"
+  },
+  {
+   "id": "Z01",
+   "doc": "PS-L §15",
+   "claim": "第20条の4の2①：課税標準額の千円未満切捨て（政令で定める地方税を除く）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 20_4_2 1"
+  },
+  {
+   "id": "Z02",
+   "doc": "PS-L §15",
+   "claim": "同③：確定金額の百円未満切捨て（政令で定める地方税は1円未満）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 20_4_2 3"
+  },
+  {
+   "id": "Z03",
+   "doc": "PS-L §15",
+   "claim": "同⑥：分割納付の千円未満の端数は最初の納期限に合算（条例で別の定め）",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 20_4_2 6"
+  },
+  {
+   "id": "Z04",
+   "doc": "PS-L §15",
+   "claim": "同⑧：第2項、第3項（全額が100円未満の部分）及び前三項（第5項〜第7項）で一の地方税とみなす。特別徴収は百円",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 main 20_4_2 8"
+  },
+  {
+   "id": "Z05",
+   "doc": "PS-L §15",
+   "claim": "同⑧ は「第四項」を挙げていない（前三項＝第5項〜第7項）",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "chiho@2026-11-09 main 20_4_2 8"
+  },
+  {
+   "id": "Z06",
+   "doc": "PS-L §15",
+   "claim": "施行令第6条の17①：個人の市町村民税を含まない",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "chiho-rei@2026-11-09 main 6_17 1"
+  },
+  {
+   "id": "Z07",
+   "doc": "PS-L §15",
+   "claim": "施行令第6条の17②：同",
+   "kind": "lawnot",
+   "ok": true,
+   "found": [],
+   "where": "chiho-rei@2026-11-09 main 6_17 2"
+  },
+  {
+   "id": "Z08",
+   "doc": "PS-L §15 / M §3.4",
+   "claim": "施行令附則第4条の8：特定寄附信託の1円未満切捨て",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho-rei@2026-11-09 orig 4_8 "
+  },
+  {
+   "id": "Z09",
+   "doc": "PS-L §15",
+   "claim": "附則第5条の8（令和6年度分の特別税額控除）に1円未満切上げ",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 5_8 "
+  },
+  {
+   "id": "Z10",
+   "doc": "PS-L §15",
+   "claim": "附則第5条の12（令和7年度分の特別税額控除）に1円未満切上げ",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 5_12 "
+  },
+  {
+   "id": "Q01",
+   "doc": "検証 §7-1",
+   "claim": "地方税法（asof 2026-11-09）の本則・原始附則に「特別特例取得」の語がない",
+   "kind": "grepcount",
+   "ok": true,
+   "got": 0
+  },
+  {
+   "id": "Q02",
+   "doc": "検証 §7-1",
+   "claim": "租税特別措置法（asof 2025-12-31）の本則・原始附則に「特別特例取得」の語がない",
+   "kind": "grepcount",
+   "ok": true,
+   "got": 0
+  },
+  {
+   "id": "Q03",
+   "doc": "検証 §7-2",
+   "claim": "地方税法施行令 附則第4条の6 は法附則第4条の4 に関する条",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho-rei@2026-11-09 orig 4_6 1"
+  },
+  {
+   "id": "Q04",
+   "doc": "検証 §7-2",
+   "claim": "地方税法施行令 附則第4条の8 は法附則第5条の7（特定寄附信託）の条",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho-rei@2026-11-09 orig 4_8 2"
+  },
+  {
+   "id": "Q05",
+   "doc": "検証 §7-3",
+   "claim": "所得税法第78条③（asof 2025-12-31）は特定公益信託",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "shotoku@2025-12-31 main 78 3"
+  },
+  {
+   "id": "Q06",
+   "doc": "検証 §7-3",
+   "claim": "所得税法第78条②四（asof 2026-12-31）は公益信託",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "shotoku@2026-12-31 main 78 2/4"
+  },
+  {
+   "id": "Q07",
+   "doc": "検証 §7-3",
+   "claim": "第314条の7①三（asof 2027-01-01）：所得税法第78条②二から四まで",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2027-01-01 main 314_7 1/3"
+  },
+  {
+   "id": "Q08",
+   "doc": "検証 §7-4",
+   "claim": "附則第5条の4⑦（asof 2027-01-01）：平成26年〜令和3年、措法第41条第12項の特別特定取得",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2027-01-01 orig 5_4 7"
+  },
+  {
+   "id": "Q09",
+   "doc": "検証 §6",
+   "claim": "附則第5条の4の2①（asof 2026-01-01）：居住年 平成11年〜18年又は平成21年〜令和7年、前条①の適用を受けないとき",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-01-01 orig 5_4_2 1"
+  },
+  {
+   "id": "Q10",
+   "doc": "検証 §7-1",
+   "claim": "附則第45条⑥（asof 2026-11-09）：震災特例法の場合も居住年 平成26年〜令和3年",
+   "kind": "law",
+   "ok": true,
+   "missing": null,
+   "where": "chiho@2026-11-09 orig 45 6"
+  },
+  {
+   "id": "W01",
+   "doc": "PS-A §2.1",
+   "claim": "名古屋市：更新日 2026年4月1日、令和8年度の計算例",
+   "kind": "web",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W02",
+   "doc": "PS-A §2.1",
+   "claim": "名古屋市：家族構成・給与収入・社会保険料・旧契約の一般生命保険料",
+   "kind": "web",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W03",
+   "doc": "PS-A §2.1",
+   "claim": "名古屋市：給与所得・所得控除の内訳と合計",
+   "kind": "web",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W04",
+   "doc": "PS-A §2.1",
+   "claim": "名古屋市：課税総所得金額・税率・調整控除・税額",
+   "kind": "web",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W05",
+   "doc": "PS-A §2.2",
+   "claim": "横浜市：最終更新日 2026年4月1日、家族構成",
+   "kind": "web",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W06",
+   "doc": "PS-A §2.2",
+   "claim": "横浜市：収入・所得控除",
+   "kind": "web",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W07",
+   "doc": "PS-A §2.2",
+   "claim": "横浜市：課税標準・税率・1円未満切捨て・調整控除・百円未満切捨て・均等割・森林環境税・合計",
+   "kind": "web",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W08",
+   "doc": "PS-A §2.3",
+   "claim": "中央区：税額控除の順序",
+   "kind": "web",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W09",
+   "doc": "PS-A §2.3",
+   "claim": "中央区：配当控除は1円未満を1円に切り上げ",
+   "kind": "web",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W10",
+   "doc": "PS-A §2.3",
+   "claim": "中央区：外国税額控除の都民税12%・特別区民税18%",
+   "kind": "web",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W11",
+   "doc": "PS-A §2.3",
+   "claim": "中央区：48万円超50万円未満の行",
+   "kind": "web",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W12",
+   "doc": "PS-A §2.4",
+   "claim": "横浜市「税額控除」（zeigakukoujoR2.html）は令和2年度課税のページ",
+   "kind": "web",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W13",
+   "doc": "PS-A §2.4",
+   "claim": "横浜市（令和2年度課税）のページに1円未満・順序の記載がない",
+   "kind": "webnot",
+   "ok": true,
+   "found": []
+  },
+  {
+   "id": "W14",
+   "doc": "PS-A §2.4",
+   "claim": "和歌山県のページに1円未満・順序の記載がない",
+   "kind": "webnot",
+   "ok": true,
+   "found": []
+  },
+  {
+   "id": "W15",
+   "doc": "PS-A §3",
+   "claim": "総務省 超過課税の状況（画像の代替テキスト）：令和7年4月1日現在の団体",
+   "kind": "web",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W16",
+   "doc": "PS-A §3",
+   "claim": "同：超過課税の規模（令和6年度決算）255.1億・27.8億・21.3億・0.5億",
+   "kind": "web",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W17",
+   "doc": "PS-A §3",
+   "claim": "同：本文の画像は /main_content/001073098.pdf へのリンク",
+   "kind": "link",
+   "ok": true,
+   "got": [
+    "/main_content/001073098.pdf"
+   ]
+  },
+  {
+   "id": "W18",
+   "doc": "PS-A 冒頭",
+   "claim": "取扱通知 PDF の SHA-256 が担当の記録と同じ",
+   "kind": "sha",
+   "ok": true,
+   "got": "107ba94cd6bd4b5e8db4ce3ce6e6e5e475fea94523d52f565daf396011746a02"
+  },
+  {
+   "id": "W19",
+   "doc": "PS-A §2.1",
+   "claim": "名古屋市のページの SHA-256 が担当の記録と同じ",
+   "kind": "sha",
+   "ok": true,
+   "got": "e31ea03689c320af2f9e829cffa1f474d6c7fe091481184adf3a7ebf4e9027a5"
+  },
+  {
+   "id": "W20",
+   "doc": "PS-A §2.2",
+   "claim": "横浜市（計算例）のページの SHA-256 が担当の記録と同じ",
+   "kind": "sha",
+   "ok": true,
+   "got": "4333d084b74e43c55a6e984cce8a287ba33249fea6291a1e0b81db3056ab66c9"
+  },
+  {
+   "id": "W21",
+   "doc": "PS-A §2.3",
+   "claim": "中央区のページの SHA-256 が担当の記録と同じ",
+   "kind": "sha",
+   "ok": true,
+   "got": "439d113607a5ecdf7d3e9b73cbc1d31b8165dc9908cc37271654b48f944a3d84"
+  },
+  {
+   "id": "W22",
+   "doc": "PS-A §3",
+   "claim": "総務省 超過課税の状況のページの SHA-256 が担当の記録と同じ",
+   "kind": "sha",
+   "ok": true,
+   "got": "1198f4c64e18700b71309478ba08522c5809f5f0ee02f8f9b26bc0c595ee7bd7"
+  },
+  {
+   "id": "W23",
+   "doc": "PS-A §2.4",
+   "claim": "横浜市（税額控除）の SHA-256 の先頭が担当の記録と同じ",
+   "kind": "shaprefix",
+   "ok": true,
+   "got": "a6c0088c980818c584e813c90a0a166172d9675e915b642ac127e56cbe4acf81"
+  },
+  {
+   "id": "W24",
+   "doc": "PS-A §2.4",
+   "claim": "和歌山県の SHA-256 の先頭が担当の記録と同じ",
+   "kind": "shaprefix",
+   "ok": true,
+   "got": "3142b6a459166458d2997e9ed0bd41820adfbe145cccacfa277f31b1f6c8200b"
+  },
+  {
+   "id": "W25",
+   "doc": "M §2.2",
+   "claim": "robots.txt：www.soumu.go.jp は 200",
+   "kind": "robots",
+   "ok": true,
+   "got": 200
+  },
+  {
+   "id": "W26",
+   "doc": "M §2.2",
+   "claim": "robots.txt：www.city.nagoya.jp は 200",
+   "kind": "robots",
+   "ok": true,
+   "got": 200
+  },
+  {
+   "id": "W27",
+   "doc": "M §2.2",
+   "claim": "robots.txt：www.city.yokohama.lg.jp は 404",
+   "kind": "robots",
+   "ok": true,
+   "got": 404
+  },
+  {
+   "id": "W28",
+   "doc": "M §2.2",
+   "claim": "robots.txt：www.city.chuo.lg.jp は 404",
+   "kind": "robots",
+   "ok": true,
+   "got": 404
+  },
+  {
+   "id": "W29",
+   "doc": "M §2.2",
+   "claim": "robots.txt：www.pref.wakayama.lg.jp は 404",
+   "kind": "robots",
+   "ok": true,
+   "got": 404
+  },
+  {
+   "id": "W30",
+   "doc": "PS-A §2.2",
+   "claim": "横浜市の計算例のページの題名は「令和８年度市民税・県民税・森林環境税の計算（例）」",
+   "kind": "title",
+   "ok": true,
+   "got": "令和８年度市民税・県民税・森林環境税の計算（例） 横浜市"
+  },
+  {
+   "id": "W31",
+   "doc": "PS-A §2.2",
+   "claim": "横浜市の計算例のページに「計算方法」の語がない（担当の見出し「個人の市民税・県民税の計算方法」はページの題名ではない）",
+   "kind": "webnot",
+   "ok": true,
+   "found": []
+  },
+  {
+   "id": "W32",
+   "doc": "PS-A §2.1",
+   "claim": "名古屋市のページの題名は「市民税・県民税の計算例」",
+   "kind": "title",
+   "ok": true,
+   "got": "市民税・県民税の計算例｜名古屋市公式ウェブサイト"
+  },
+  {
+   "id": "W33",
+   "doc": "PS-A §2.3",
+   "claim": "中央区のページの題名は「税額控除」",
+   "kind": "title",
+   "ok": true,
+   "got": "中央区ホームページ／税額控除"
+  },
+  {
+   "id": "W34",
+   "doc": "PS-A §2.4",
+   "claim": "和歌山県のページの題名は「個人県民税 税額控除」",
+   "kind": "title",
+   "ok": true,
+   "got": "個人県民税 税額控除 | 和歌山県"
+  },
+  {
+   "id": "W35",
+   "doc": "PS-A §3",
+   "claim": "総務省のページの題名は「超過課税の状況」",
+   "kind": "title",
+   "ok": true,
+   "got": "総務省｜地方税制度｜超過課税の状況"
+  },
+  {
+   "id": "X01",
+   "doc": "M §2.2",
+   "claim": "1回目の取得で地方税法 asof 2030-01-01 が 34,170 バイトの HTML（「ご利用のページが見つかりません」）",
+   "kind": "errpage",
+   "ok": true,
+   "got": 34170
+  },
+  {
+   "id": "X02",
+   "doc": "M §2.2",
+   "claim": "同 施行令 asof 2026-11-09 も同じ",
+   "kind": "errpage",
+   "ok": true,
+   "got": 34170
+  },
+  {
+   "id": "X03",
+   "doc": "PS-A 冒頭 / M §2.2",
+   "claim": "行政・自治体のページの2回の取得（17:47・18:18）で6件とも SHA-256 が一致",
+   "kind": "samedirs",
+   "ok": true,
+   "got": {
+    "n1": 6,
+    "n2": 6,
+    "diff": []
+   }
+  },
+  {
+   "id": "X04",
+   "doc": "PS-L 冒頭 / M §3.1",
+   "claim": "担当の evidence.json は 181 件ですべて OK",
+   "kind": "evidence",
+   "ok": true,
+   "got": [
+    181,
+    181
+   ]
+  },
+  {
+   "id": "X05",
+   "doc": "PS-A 冒頭",
+   "claim": "担当の municipal_checks.md は 25 件ですべて OK",
+   "kind": "mdrows",
+   "ok": true,
+   "got": 25
+  }
+ ],
+ "hits": {
+  "articles_now": [
+   [
+    "原始附則",
+    "3_2"
+   ],
+   [
+    "原始附則",
+    "5_11"
+   ],
+   [
+    "原始附則",
+    "5_12"
+   ],
+   [
+    "原始附則",
+    "5_8"
+   ],
+   [
+    "原始附則",
+    "5_9"
+   ],
+   [
+    "本則",
+    "20_4_2"
+   ],
+   [
+    "本則",
+    "314_2"
+   ],
+   [
+    "本則",
+    "321_7_2"
+   ],
+   [
+    "本則",
+    "321_7_8"
+   ],
+   [
+    "本則",
+    "34"
+   ],
+   [
+    "本則",
+    "718_8"
+   ]
+  ],
+  "m34_expected": [
+   [
+    "原始附則",
+    "3_2"
+   ],
+   [
+    "原始附則",
+    "5_11"
+   ],
+   [
+    "原始附則",
+    "5_12"
+   ],
+   [
+    "原始附則",
+    "5_8"
+   ],
+   [
+    "原始附則",
+    "5_9"
+   ],
+   [
+    "本則",
+    "20_4_2"
+   ],
+   [
+    "本則",
+    "314_2"
+   ],
+   [
+    "本則",
+    "321_7_2"
+   ],
+   [
+    "本則",
+    "321_7_8"
+   ],
+   [
+    "本則",
+    "34"
+   ],
+   [
+    "本則",
+    "718_8"
+   ]
+  ],
+  "same_as_m34": true,
+  "only_found": [],
+  "only_m34": [],
+  "counts_by_asof": {
+   "2026-01-01": {
+    "一円未満の端数": 4,
+    "百円未満の端数": 9,
+    "千円未満の端数": 5,
+    "一円に切り上げ|これを切り上げ|切り上げた金額": 6,
+    "制限税率": 0
+   },
+   "2026-11-09": {
+    "一円未満の端数": 4,
+    "百円未満の端数": 9,
+    "千円未満の端数": 5,
+    "一円に切り上げ|これを切り上げ|切り上げた金額": 6,
+    "制限税率": 0
+   },
+   "2027-01-01": {
+    "一円未満の端数": 4,
+    "百円未満の端数": 9,
+    "千円未満の端数": 5,
+    "一円に切り上げ|これを切り上げ|切り上げた金額": 6,
+    "制限税率": 0
+   }
+  },
+  "counts_same_across_asof": true,
+  "author_hits_set": [
+   [
+    "原始附則",
+    "3_2"
+   ],
+   [
+    "原始附則",
+    "5_11"
+   ],
+   [
+    "原始附則",
+    "5_12"
+   ],
+   [
+    "原始附則",
+    "5_8"
+   ],
+   [
+    "原始附則",
+    "5_9"
+   ],
+   [
+    "本則",
+    "20_4_2"
+   ],
+   [
+    "本則",
+    "314_2"
+   ],
+   [
+    "本則",
+    "321_7_2"
+   ],
+   [
+    "本則",
+    "321_7_8"
+   ],
+   [
+    "本則",
+    "34"
+   ],
+   [
+    "本則",
+    "718_8"
+   ]
+  ],
+  "same_as_author_file": true,
+  "chiho_rei_articles_now": [
+   [
+    "原始附則",
+    "15"
+   ],
+   [
+    "原始附則",
+    "3_2"
+   ],
+   [
+    "原始附則",
+    "4_8"
+   ],
+   [
+    "原始附則",
+    "5_2"
+   ],
+   [
+    "原始附則",
+    "6_3"
+   ],
+   [
+    "原始附則",
+    "6_6"
+   ],
+   [
+    "本則",
+    "35_12"
+   ],
+   [
+    "本則",
+    "35_19"
+   ],
+   [
+    "本則",
+    "35_21"
+   ],
+   [
+    "本則",
+    "35_4_7"
+   ],
+   [
+    "本則",
+    "35_9"
+   ],
+   [
+    "本則",
+    "53_7"
+   ],
+   [
+    "本則",
+    "56_89_6"
+   ],
+   [
+    "本則",
+    "9_14_2"
+   ],
+   [
+    "本則",
+    "9_15"
+   ],
+   [
+    "本則",
+    "9_19"
+   ],
+   [
+    "本則",
+    "9_23"
+   ]
+  ]
+ }
+}

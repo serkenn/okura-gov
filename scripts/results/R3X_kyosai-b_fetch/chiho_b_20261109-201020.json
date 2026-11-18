@@ -1,0 +1,72 @@
+{
+  "set": "chiho_b",
+  "fetched_at_local": "20261109-201020",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "kouritu_tokyo_00_tsuchi",
+      "url": "https://www.kouritu.or.jp/tokyo/content/files/0f79f0f5da86d0d0a0fef9885fb76e23.pdf",
+      "status": 200,
+      "final_url": "https://www.kouritu.or.jp/tokyo/content/files/0f79f0f5da86d0d0a0fef9885fb76e23.pdf",
+      "content_type": "application/pdf",
+      "bytes": 201930,
+      "sha256": "012b9f89aef48d8af4c655d6b65294429a2f5de1af59307acf36ec7ebefd9e1b",
+      "last_modified": "Thu, 09 Oct 2025 04:35:30 GMT",
+      "etag": "\"314ca-640b254c40e77\"",
+      "content_disposition": null,
+      "saved": ".work/downloads/20261109-201020_R3X_kyosai-b_chiho_b/kouritu_tokyo_00_tsuchi.pdf"
+    },
+    {
+      "id": "kouritu_tokyo_01_qa",
+      "url": "https://www.kouritu.or.jp/tokyo/content/files/28a6386c07a64e8326868d75bc01aa8d.pdf",
+      "status": 200,
+      "final_url": "https://www.kouritu.or.jp/tokyo/content/files/28a6386c07a64e8326868d75bc01aa8d.pdf",
+      "content_type": "application/pdf",
+      "bytes": 245004,
+      "sha256": "be79b3a4f7d536d6dc72dbd5046d25d0798e9722af5705d61c6900490b063be4",
+      "last_modified": "Thu, 09 Oct 2025 04:35:30 GMT",
+      "etag": "\"3bd0c-640b254c57da8\"",
+      "content_disposition": null,
+      "saved": ".work/downloads/20261109-201020_R3X_kyosai-b_chiho_b/kouritu_tokyo_01_qa.pdf"
+    },
+    {
+      "id": "kouritu_tokyo_03_soumu",
+      "url": "https://www.kouritu.or.jp/tokyo/content/files/3ba94cb45594628e0778652af5dc4b35.pdf",
+      "status": 200,
+      "final_url": "https://www.kouritu.or.jp/tokyo/content/files/3ba94cb45594628e0778652af5dc4b35.pdf",
+      "content_type": "application/pdf",
+      "bytes": 234022,
+      "sha256": "fdff0a968887e133d1decda24e55e2b2b878edfe86aa75af8bd5471f31e05f5a",
+      "last_modified": "Thu, 09 Oct 2025 04:35:30 GMT",
+      "etag": "\"39226-640b254c47407\"",
+      "content_disposition": null,
+      "saved": ".work/downloads/20261109-201020_R3X_kyosai-b_chiho_b/kouritu_tokyo_03_soumu.pdf"
+    },
+    {
+      "id": "kouritu_tokyo_04_mhlw",
+      "url": "https://www.kouritu.or.jp/tokyo/content/files/df544b2f3530eb3bcb33c968da6f091a.pdf",
+      "status": 200,
+      "final_url": "https://www.kouritu.or.jp/tokyo/content/files/df544b2f3530eb3bcb33c968da6f091a.pdf",
+      "content_type": "application/pdf",
+      "bytes": 354210,
+      "sha256": "aa34adcda4aa20524861bb8fe75df808b9887efd1bb856c32333b758ca303728",
+      "last_modified": "Thu, 09 Oct 2025 04:35:30 GMT",
+      "etag": "\"567a2-640b254c4125f\"",
+      "content_disposition": null,
+      "saved": ".work/downloads/20261109-201020_R3X_kyosai-b_chiho_b/kouritu_tokyo_04_mhlw.pdf"
+    },
+    {
+      "id": "chikyosai_info_250924",
+      "url": "https://www.chikyosai.or.jp/info/short/pdf/info_250924.pdf",
+      "status": 200,
+      "final_url": "https://www.chikyosai.or.jp/info/short/pdf/info_250924.pdf",
+      "content_type": "application/pdf",
+      "bytes": 502136,
+      "sha256": "c28d4bcdb60e9afda19741c74006641e1a0c7a6983639fff8da3bce6fd692c41",
+      "last_modified": "Mon, 22 Sep 2025 07:40:18 GMT",
+      "etag": "\"7a978-63f5eee509c80\"",
+      "content_disposition": null,
+      "saved": ".work/downloads/20261109-201020_R3X_kyosai-b_chiho_b/chikyosai_info_250924.pdf"
+    }
+  ]
+}

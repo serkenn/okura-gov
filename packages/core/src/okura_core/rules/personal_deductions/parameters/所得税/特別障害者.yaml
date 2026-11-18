@@ -1,0 +1,29 @@
+description: 特別障害者の範囲（所得税法第2条第1項第29号、所得税法施行令第10条第2項）のうち、手帳の級・等級。令和7年分・令和8年分で同文（jinteki §1.5）。
+身体障害者手帳の級の上限:
+  description: 身体障害者手帳に身体上の障害の程度が一級又は二級である者として記載されている者（所令10②三）。この級以下（一級・二級）
+  metadata:
+    law: 所得税法施行令第10条第2項第3号
+    source_kind: 政令
+    unit: 級
+    比較: 以下
+    reference:
+      - docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md#1.5
+  values:
+    2025-01-01:
+      value: 2
+      metadata:
+        適用: 令和7年分・令和8年分
+精神障害者保健福祉手帳の等級:
+  description: 精神障害者保健福祉手帳に障害等級が一級である者として記載されている者（所令10②二）
+  metadata:
+    law: 所得税法施行令第10条第2項第2号
+    source_kind: 政令
+    unit: 級
+    比較: 一致
+    reference:
+      - docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md#1.5
+  values:
+    2025-01-01:
+      value: 1
+      metadata:
+        適用: 令和7年分・令和8年分

@@ -1,0 +1,53 @@
+{
+  "set": "mof",
+  "fetched_at_local": "20261109-173902",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "mof_unyo_hoshin_R080801",
+      "url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/TU-19591001-2927-11.pdf",
+      "status": 200,
+      "final_url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/TU-19591001-2927-11.pdf",
+      "content_type": "application/pdf",
+      "bytes": 443817,
+      "sha256": "b059e9ae85fa8dfa55e4f012f9c9bd5c12b5fac78bbf4a0d3f320d569dc82fe4",
+      "last_modified": "Wed, 30 Sep 2026 14:00:20 GMT",
+      "etag": "\"6c5a9-65cb3b83a6500\"",
+      "saved": ".work\\downloads\\20261109-173902_R2X_kyosai_mof\\mof_unyo_hoshin_R080801.pdf"
+    },
+    {
+      "id": "mof_tsuutatsu_index",
+      "url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/index.html",
+      "status": 200,
+      "final_url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/index.html",
+      "content_type": "text/html",
+      "bytes": 20926,
+      "sha256": "7484962c8f71c9aaf399a87de0a7708bca1bbbe7dfb93081e90344eb098d15ac",
+      "last_modified": "Fri, 05 Jun 2026 09:25:26 GMT",
+      "etag": "\"5138-6537e3db367d1\"",
+      "saved": ".work\\downloads\\20261109-173902_R2X_kyosai_mof\\mof_tsuutatsu_index.html",
+      "charset": "UTF-8",
+      "title": "通達 : 財務省",
+      "text_chars": 1410,
+      "text": ".work\\text\\20261109-173902_R2X_kyosai_mof\\mof_tsuutatsu_index.txt",
+      "n_links": 94
+    },
+    {
+      "id": "mof_kokuji_tsuutatsu_index",
+      "url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/index.html",
+      "status": 200,
+      "final_url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/index.html",
+      "content_type": "text/html",
+      "bytes": 19953,
+      "sha256": "40ee939bc6ea804de7e59e52c31bfca251735efb54415d328b33c7d708f7694b",
+      "last_modified": "Fri, 05 Jun 2026 09:10:19 GMT",
+      "etag": "\"4d6d-6537e07ab87a7\"",
+      "saved": ".work\\downloads\\20261109-173902_R2X_kyosai_mof\\mof_kokuji_tsuutatsu_index.html",
+      "charset": "UTF-8",
+      "title": "告示・通達等 : 財務省",
+      "text_chars": 1316,
+      "text": ".work\\text\\20261109-173902_R2X_kyosai_mof\\mof_kokuji_tsuutatsu_index.txt",
+      "n_links": 90
+    }
+  ]
+}

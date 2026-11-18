@@ -1,0 +1,5 @@
+# 健康保険法施行令 215IO0000000243 asof=2026-11-09
+# law_revision_id=215IO0000000243_20261001_508CO0000000276 改正法令=令和八年政令第二百七十六号 施行日=2026-10-01 状態=CurrentEnforced
+# 取得URL=https://laws.e-gov.go.jp/api/2/law_data/215IO0000000243?response_format=json&asof=2026-11-09
+# 取得日時=20261109-153140
+

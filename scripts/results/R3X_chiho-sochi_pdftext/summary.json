@@ -1,0 +1,181 @@
+{
+ "aes_selftest_n": {
+  "aes128_encrypt_C1": true,
+  "aes256_encrypt_C3": true,
+  "aes256_decrypt_C3": true
+ },
+ "files": {
+  "h30_gaiyo": {
+   "path": ".work/downloads/20261109-200914_R3X_chiho-sochi_web_docs/h30_gaiyo.pdf",
+   "sha256": "659c3c07beedcd30ea31a10a268fa1aeaca4949c237b5937d4c52fcac7754cd5",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 5,
+   "text_runs": 263,
+   "lines": 110,
+   "pages_without_text": [],
+   "type0_fonts": 4,
+   "type0_fonts_without_tounicode": 0,
+   "replacement_chars": 0
+  },
+  "h30_kaisei_tsuchi": {
+   "path": ".work/downloads/20261109-200914_R3X_chiho-sochi_web_docs/h30_kaisei_tsuchi.pdf",
+   "sha256": "665f7a97d51a42a6d6e293390c0b544690358f9afa562cbbddda8bbee23f78af",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 29,
+   "text_runs": 1177,
+   "lines": 602,
+   "pages_without_text": [],
+   "type0_fonts": 1,
+   "type0_fonts_without_tounicode": 0,
+   "replacement_chars": 0
+  },
+  "h30_ryuiten": {
+   "path": ".work/downloads/20261109-200914_R3X_chiho-sochi_web_docs/h30_ryuiten.pdf",
+   "sha256": "2dd91940bca421487c647e65e712c9aef95553a259f7324ac5cd89623c54be91",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 23,
+   "text_runs": 1150,
+   "lines": 458,
+   "pages_without_text": [],
+   "type0_fonts": 2,
+   "type0_fonts_without_tounicode": 0,
+   "replacement_chars": 0
+  },
+  "r7_kaisei_tsuchi": {
+   "path": ".work/downloads/20261109-200914_R3X_chiho-sochi_web_docs/r7_kaisei_tsuchi.pdf",
+   "sha256": "b4bc06980e8831af20a2a4b926cc8de00adcf3a0065646da204b6ff9fcef444b",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 34,
+   "text_runs": 2574,
+   "lines": 628,
+   "pages_without_text": [],
+   "type0_fonts": 2,
+   "type0_fonts_without_tounicode": 0,
+   "replacement_chars": 0
+  },
+  "r7_ryuiten": {
+   "path": ".work/downloads/20261109-200914_R3X_chiho-sochi_web_docs/r7_ryuiten.pdf",
+   "sha256": "b5607bdc39773d2f268f0dc1bfa79b2f3b1b748144fa166b26e1bc1879d4e1ae",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 25,
+   "text_runs": 1362,
+   "lines": 512,
+   "pages_without_text": [],
+   "type0_fonts": 1,
+   "type0_fonts_without_tounicode": 0,
+   "replacement_chars": 0
+  },
+  "r8_gaiyo": {
+   "path": ".work/downloads/20261109-200914_R3X_chiho-sochi_web_docs/r8_gaiyo.pdf",
+   "sha256": "0b2fa54af7eeb7aac1350c22996ed69a5ecaec7ec15b85470e65c774da67671e",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 2,
+   "text_runs": 443,
+   "lines": 81,
+   "pages_without_text": [],
+   "type0_fonts": 9,
+   "type0_fonts_without_tounicode": 0,
+   "replacement_chars": 0
+  },
+  "r8_houritsu_sansho": {
+   "path": ".work/downloads/20261109-200914_R3X_chiho-sochi_web_docs/r8_houritsu_sansho.pdf",
+   "sha256": "ce7390bbb7164cbd8654897960bb744a5d8312a49302c976a21ec798c8d3392d",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 45,
+   "text_runs": 5329,
+   "lines": 1254,
+   "pages_without_text": [
+    2,
+    3
+   ],
+   "type0_fonts": 23,
+   "type0_fonts_without_tounicode": 17,
+   "replacement_chars": 0
+  },
+  "r8_kaisei_tsuchi": {
+   "path": ".work/downloads/20261109-200914_R3X_chiho-sochi_web_docs/r8_kaisei_tsuchi.pdf",
+   "sha256": "321af651108b58ab5f269d7e2d7556b58e496c56e09c0e60f342e64258e3d6ba",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 47,
+   "text_runs": 2733,
+   "lines": 878,
+   "pages_without_text": [],
+   "type0_fonts": 1,
+   "type0_fonts_without_tounicode": 0,
+   "replacement_chars": 0
+  },
+  "r8_ryuiten": {
+   "path": ".work/downloads/20261109-200914_R3X_chiho-sochi_web_docs/r8_ryuiten.pdf",
+   "sha256": "2a5b45ff6a6e221b498c7fefca9e5529ae31a5a08cdd57a88c706be31ef6b0c4",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 35,
+   "text_runs": 1854,
+   "lines": 706,
+   "pages_without_text": [],
+   "type0_fonts": 1,
+   "type0_fonts_without_tounicode": 0,
+   "replacement_chars": 0
+  },
+  "toriatsukai_dofuken_zenbun": {
+   "path": ".work/downloads/20261109-200914_R3X_chiho-sochi_web_docs/toriatsukai_dofuken_zenbun.pdf",
+   "sha256": "b8c40110f3a48e8d2fefa27207f55daadd44f9ab484515d6ed1e27239fed5991",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 199,
+   "text_runs": 271445,
+   "lines": 7592,
+   "pages_without_text": [],
+   "type0_fonts": 2,
+   "type0_fonts_without_tounicode": 0,
+   "replacement_chars": 0
+  },
+  "toriatsukai_shichoson_r8_betten1": {
+   "path": ".work/downloads/20261109-200914_R3X_chiho-sochi_web_docs/toriatsukai_shichoson_r8_betten1.pdf",
+   "sha256": "d93f2fac00893cf6d3df79cb17fcef0eaab4c85ad8402df4bdc9d557fdade70b",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 49,
+   "text_runs": 2153,
+   "lines": 408,
+   "pages_without_text": [],
+   "type0_fonts": 2,
+   "type0_fonts_without_tounicode": 0,
+   "replacement_chars": 0
+  },
+  "toriatsukai_shichoson_r8_honbun": {
+   "path": ".work/downloads/20261109-200914_R3X_chiho-sochi_web_docs/toriatsukai_shichoson_r8_honbun.pdf",
+   "sha256": "357f9d5c385b928e13583cd1c5acea1f7bb53b5b572d4967a22e519441d77cd4",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 2,
+   "text_runs": 101,
+   "lines": 28,
+   "pages_without_text": [],
+   "type0_fonts": 1,
+   "type0_fonts_without_tounicode": 0,
+   "replacement_chars": 0
+  },
+  "toriatsukai_shichoson_zenbun": {
+   "path": ".work/downloads/20261109-200914_R3X_chiho-sochi_web_docs/toriatsukai_shichoson_zenbun.pdf",
+   "sha256": "107ba94cd6bd4b5e8db4ce3ce6e6e5e475fea94523d52f565daf396011746a02",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 142,
+   "text_runs": 182165,
+   "lines": 5732,
+   "pages_without_text": [],
+   "type0_fonts": 2,
+   "type0_fonts_without_tounicode": 0,
+   "replacement_chars": 0
+  }
+ }
+}

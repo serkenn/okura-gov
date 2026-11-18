@@ -1,0 +1,30 @@
+{
+ "run_at": "20261109-183350",
+ "download_dir": ".work/downloads/20261109-183350_R2X_genka_verify_nta2",
+ "items": [
+  {
+   "id": "kojin_jigyo_index",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 09 Oct 2026 01:00:02 GMT",
+   "bytes": 30279,
+   "sha256": "b662198a9614b2525217da5eecb33c21d51fcb01968930148825e68719271fa0",
+   "saved": ".work/downloads/20261109-183350_R2X_genka_verify_nta2/kojin_jigyo_index.htm",
+   "encoding": "cp932",
+   "title": "個人で事業を行っている方の記帳・帳簿等の保存について｜国税庁"
+  },
+  {
+   "id": "yoshiki_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r07.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 20 Oct 2026 08:30:03 GMT",
+   "bytes": 45317,
+   "sha256": "ff769ff6e512b73df0387db39f5fbc6e58f509fd12f5972e2f84e4117e58ac9f",
+   "saved": ".work/downloads/20261109-183350_R2X_genka_verify_nta2/yoshiki_r07.htm",
+   "encoding": "cp932",
+   "title": "確定申告書等の様式・手引き等（令和７年分の所得税及び復興特別所得税の確定申告分）｜国税庁"
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "set": "mhlw_nenkin",
+ "fetched_at": "20261111-231800",
+ "download_dir": ".work/downloads/20261111-231800_IMPL3_web_fetch_mhlw_nenkin",
+ "robots": [
+  {
+   "host": "https://www.mhlw.go.jp",
+   "status": 200,
+   "sha256": "d410a20234092a01e07cc6531920a5fedda6a96faaa073d94b95bd4c4a436144"
+  },
+  {
+   "host": "https://www.nenkin.go.jp",
+   "status": 200,
+   "sha256": "b1b1b2e85299b5a3b32390684db50f979ced0a08ed48a46b715b9b6c1a5f79c9"
+  }
+ ],
+ "items": [
+  {
+   "id": "mhlw_iryohoken_bukai",
+   "url": "https://www.mhlw.go.jp/stf/shingi/shingi-hosho_126706.html",
+   "final_url": "https://www.mhlw.go.jp/stf/shingi/shingi-hosho_126706.html",
+   "status": 404,
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 48956,
+   "sha256": "37e627f723d829e580aff7df6685c5990de4a540de76531e7f55f03fc88bc7b8",
+   "saved": ".work/downloads/20261111-231800_IMPL3_web_fetch_mhlw_nenkin/mhlw_iryohoken_bukai.htm"
+  },
+  {
+   "id": "nenkin_menjo",
+   "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150428.html",
+   "final_url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150428.html",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 05 Nov 2026 00:00:31 GMT",
+   "bytes": 49988,
+   "sha256": "9460b2f46da7a2fc3b60c2f2154f747bb3f51d4bac076db48790674d7e3480d1",
+   "saved": ".work/downloads/20261111-231800_IMPL3_web_fetch_mhlw_nenkin/nenkin_menjo.htm",
+   "title": "国民年金保険料の免除制度・納付猶予制度｜日本年金機構",
+   "encoding": "UTF-8"
+  },
+  {
+   "id": "nenkin_sanzen",
+   "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20180810.html",
+   "final_url": "https://www.nenkin.go.jp/service/kokunen/menjo/20180810.html",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 14 Oct 2026 00:26:10 GMT",
+   "bytes": 33084,
+   "sha256": "4589f50a142d8315588a0c9a5d330e493eb8db4bbde8215443050fa0280657d3",
+   "saved": ".work/downloads/20261111-231800_IMPL3_web_fetch_mhlw_nenkin/nenkin_sanzen.htm",
+   "title": "国民年金保険料の産前産後期間の免除制度｜日本年金機構",
+   "encoding": "UTF-8"
+  },
+  {
+   "id": "nenkin_fuka",
+   "url": "https://www.nenkin.go.jp/service/kokunen/hokenryo/20150331-02.html",
+   "final_url": "https://www.nenkin.go.jp/service/kokunen/hokenryo/20150331-02.html",
+   "status": 404,
+   "content_type": "text/html",
+   "last_modified": "Tue, 10 Mar 2026 02:06:15 GMT",
+   "bytes": 12949,
+   "sha256": "f5c9ed24a922adecc89b0fd833487eec77de87920e7198af511ecd0e05084b1c",
+   "saved": ".work/downloads/20261111-231800_IMPL3_web_fetch_mhlw_nenkin/nenkin_fuka.htm"
+  },
+  {
+   "id": "nenkin_gakusei",
+   "url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html",
+   "final_url": "https://www.nenkin.go.jp/service/kokunen/menjo/20150514.html",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 05 Nov 2026 00:00:31 GMT",
+   "bytes": 41915,
+   "sha256": "cefed8451ba8780082a86f98b2426b73ee54018d5fe507f91e542f10386e6ce8",
+   "saved": ".work/downloads/20261111-231800_IMPL3_web_fetch_mhlw_nenkin/nenkin_gakusei.htm",
+   "title": "国民年金保険料の学生納付特例制度｜日本年金機構",
+   "encoding": "UTF-8"
+  }
+ ]
+}

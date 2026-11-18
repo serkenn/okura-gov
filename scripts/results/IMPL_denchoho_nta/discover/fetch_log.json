@@ -1,0 +1,42 @@
+{
+ "run_at": "20261109-145606",
+ "stage": "discover",
+ "download_dir": ".work\\downloads\\20261109-145606_denchoho_nta_discover",
+ "items": [
+  {
+   "key": "robots",
+   "url": "https://www.nta.go.jp/robots.txt",
+   "status": 200,
+   "content_type": "text/plain",
+   "bytes": 853,
+   "truncated": false,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+   "last_modified": "Wed, 18 Mar 2026 05:00:01 GMT",
+   "saved": ".work\\downloads\\20261109-145606_denchoho_nta_discover\\robots.txt"
+  },
+  {
+   "key": "jirei-index",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/index.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "bytes": 4733,
+   "truncated": false,
+   "sha256": "5614fc64a1a68809ae674f07c57c7c78db6cdbded4993cb3b10014aaad1df297",
+   "last_modified": "Fri, 28 Jun 2024 05:00:02 GMT",
+   "saved": ".work\\downloads\\20261109-145606_denchoho_nta_discover\\jirei-index.htm",
+   "output": "scripts/results/IMPL_denchoho_nta/discover/jirei-index.txt"
+  },
+  {
+   "key": "tokusetsu-index",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/index.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "bytes": 7112,
+   "truncated": false,
+   "sha256": "be3334466490328576dcd01c37d0c62c990f34f1bb92d0d059dee4fbe302977b",
+   "last_modified": "Tue, 13 Oct 2026 05:00:02 GMT",
+   "saved": ".work\\downloads\\20261109-145606_denchoho_nta_discover\\tokusetsu-index.htm",
+   "output": "scripts/results/IMPL_denchoho_nta/discover/tokusetsu-index.txt"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "set": "shitsugi",
+ "fetched_at": "20261109-174043",
+ "download_dir": ".work/downloads/20261109-174043_R2X_genka_nta_shitsugi",
+ "items": [
+  {
+   "id": "shitsugi_04_17",
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/04/17.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 03 Dec 2025 08:31:04 GMT",
+   "bytes": 7335,
+   "sha256": "2b9756ae2bae08ef91e11f2569ec1f46d5c1b5eb4a66c46986bad424108f4cfd",
+   "saved": ".work/downloads/20261109-174043_R2X_genka_nta_shitsugi/shitsugi_04_17.htm",
+   "title": "非業務用資産を業務の用に供した場合｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "shitsugi_04_14",
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/04/14.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 03 Dec 2025 08:31:04 GMT",
+   "bytes": 5878,
+   "sha256": "3b0c023583ce48b47cb8832f6b085d65f1ed8e223617f6eb5f8c2176c6533dc9",
+   "saved": ".work/downloads/20261109-174043_R2X_genka_nta_shitsugi/shitsugi_04_14.htm",
+   "title": "生計を一にする親族の有する資産に係る特別償却｜国税庁",
+   "encoding": "shift_jis"
+  }
+ ]
+}

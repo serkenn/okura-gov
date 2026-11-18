@@ -1,0 +1,26 @@
+{
+ "set": "soumu_xlsx",
+ "fetched_at": "20261111-232545",
+ "download_dir": ".work/downloads/20261111-232545_IMPL3_web_fetch_soumu_xlsx",
+ "robots": [
+  {
+   "host": "https://www.soumu.go.jp",
+   "status": 200,
+   "sha256": "e0cc280a3ed01a4ee4785320fdacf31ef4724eddf0a46eb860df651eaede55e4"
+  }
+ ],
+ "items": [
+  {
+   "id": "code_list_xlsx",
+   "url": "https://www.soumu.go.jp/main_content/000925835.xlsx",
+   "final_url": "https://www.soumu.go.jp/main_content/000925835.xlsx",
+   "status": 200,
+   "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "last_modified": "Wed, 01 Apr 2026 08:00:54 GMT",
+   "bytes": 97186,
+   "sha256": "7d04c8a7f6a6e76a7823a0414a8422bf2b26bb6070766971df76eab58ea6ff78",
+   "saved": ".work/downloads/20261111-232545_IMPL3_web_fetch_soumu_xlsx/code_list_xlsx.xlsx",
+   "zip_header_ok": true
+  }
+ ]
+}

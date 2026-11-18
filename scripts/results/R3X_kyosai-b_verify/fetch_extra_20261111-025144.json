@@ -1,0 +1,16 @@
+{
+ "fetched_at_local": "20261111-025144",
+ "user_agent": "okura-gov-research/0.1",
+ "download_dir": ".work/downloads/20261111-025144_R3X_kyosai-b_verify_extra",
+ "results": [
+  {
+   "id": "pmac_qa_48",
+   "url": "https://www.pmac.shigaku.go.jp/qa/detail/qa_48.html",
+   "status": 200,
+   "bytes": 20741,
+   "sha256": "149f5faa2a0521243c2598a653ce2bc26e93f794346e482d5b956e7b49ec8123",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025144_R3X_kyosai-b_verify_extra/pmac_qa_48.html"
+  }
+ ]
+}

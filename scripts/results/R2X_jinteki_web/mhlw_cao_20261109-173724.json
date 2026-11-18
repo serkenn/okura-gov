@@ -1,0 +1,36 @@
+{
+  "set": "mhlw_cao",
+  "fetched_at_local": "20261109-173724",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "mhlw_kaigo_020904_2_3",
+      "url": "https://www.mhlw.go.jp/topics/kaigo/kaigi/020904/2-3.html",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/topics/kaigo/kaigi/020904/2-3.html",
+      "content_type": "text/html",
+      "bytes": 57843,
+      "sha256": "4908b9f77f04e0b5063ccc6b974f2f7ee59008369f586182220ad26e1a25c725",
+      "last_modified": "Sat, 02 Jun 2018 23:35:17 GMT",
+      "etag": "\"e1f3-56db127261740\"",
+      "saved": ".work\\downloads\\20261109-173724_R2X_jinteki_mhlw_cao\\mhlw_kaigo_020904_2_3.html",
+      "charset": "Shift_JIS",
+      "title": "老齢者の所得税、地方税上の障害者控除の取扱い",
+      "text_chars": 23390,
+      "text": ".work\\text\\20261109-173724_R2X_jinteki_mhlw_cao\\mhlw_kaigo_020904_2_3.txt",
+      "n_links": 9
+    },
+    {
+      "id": "cao_r07_12mhlw_140",
+      "url": "https://www.cao.go.jp/bunken-suishin/teianbosyu/doc/r07/tb_r7fu_12mhlw_140.pdf",
+      "status": 200,
+      "final_url": "https://www.cao.go.jp/bunken-suishin/teianbosyu/doc/r07/tb_r7fu_12mhlw_140.pdf",
+      "content_type": "application/pdf",
+      "bytes": 192289,
+      "sha256": "adda2dc2835a31e1944e355dafdf5820e7a1e7954acaa95201988b21b5e4338c",
+      "last_modified": "Wed, 27 May 2026 07:00:07 GMT",
+      "etag": "\"2ef21-652c7296992e7\"",
+      "saved": ".work\\downloads\\20261109-173724_R2X_jinteki_mhlw_cao\\cao_r07_12mhlw_140.pdf"
+    }
+  ]
+}

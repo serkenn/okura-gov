@@ -1,0 +1,14 @@
+01_student_away_and_parent_on_assignment__multi.json: 違う $.basis: 長さ 793 != 792
+02_medical_payer_differs_from_patient__multi.json: 違う $.basis: 長さ 787 != 791
+03_business_with_household_apportionment__multi.json: 違う $.scenarios[0].age_boundaries: 長さ 42 != 26
+04_forecast_and_plan_marks__multi.json: 違う $.scenarios[0].values[518].facts: 長さ 4 != 5
+05_commuting_and_withholding_slip__multi.json: 同じ
+06_phase3_insurance_and_resident_tax_facts__multi.json: 違う $.basis: 長さ 674 != 679
+07_vocabulary_additions_2026_11_11__multi.json: 違う $.basis: 長さ 626 != 628
+08_vocabulary_additions_2026_11_12__multi.json: 違う $.basis: 長さ 730 != 732
+09_external_tax_credit_2026_11_12__multi.json: 同じ
+10_inventory_household_bad_debt_2026_11_12__multi.json: 同じ
+11_special_depreciation_2026_11_12__multi.json: 同じ
+12_specific_expense_and_authority_tax_item_2026_11_12__multi.json: 同じ
+13_specific_expense_judgment_and_resident_return_2026_11_12__multi.json: 同じ
+同じ 6 / 違う 7

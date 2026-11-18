@@ -1,0 +1,407 @@
+{
+ "run_at": "20261109-134309",
+ "user_agent": "okura-gov-research/0.1",
+ "sites": {
+  "nta": {
+   "pages": [
+    {
+     "url": "https://www.nta.go.jp/",
+     "status": 200,
+     "final_url": "https://www.nta.go.jp/",
+     "content_type": "text/html",
+     "title": "国税庁",
+     "link_rel_alternate_feeds": [],
+     "hrefs_with_feed_hint": []
+    },
+    {
+     "url": "https://www.nta.go.jp/information/news/news.htm",
+     "status": 200,
+     "final_url": "https://www.nta.go.jp/information/news/news.htm",
+     "content_type": "text/html",
+     "title": "新着情報｜国税庁",
+     "link_rel_alternate_feeds": [],
+     "hrefs_with_feed_hint": []
+    },
+    {
+     "url": "https://www.nta.go.jp/information/rss.htm",
+     "status": 200,
+     "final_url": "https://www.nta.go.jp/error/404.htm",
+     "content_type": "text/html",
+     "title": "指定されたページを表示できませんでした",
+     "link_rel_alternate_feeds": [],
+     "hrefs_with_feed_hint": []
+    },
+    {
+     "url": "https://www.nta.go.jp/about/rss/index.htm",
+     "status": 200,
+     "final_url": "https://www.nta.go.jp/error/404.htm",
+     "content_type": "text/html",
+     "title": "指定されたページを表示できませんでした",
+     "link_rel_alternate_feeds": [],
+     "hrefs_with_feed_hint": []
+    }
+   ],
+   "feeds": [],
+   "robots_txt": {
+    "status": 200,
+    "text_head": "Sitemap: http://www.nta.go.jp/sitemap.xml\r\n\r\nUser-agent: *\r\nDisallow: /service_publication/\r\nDisallow: /about/organization/sapporo/service_publication/\r\nDisallow: /about/organization/sendai/service_publication/\r\nDisallow: /about/organization/kantoshinetsu/service_publication/\r\nDisallow: /about/organization/tokyo/service_publication/\r\nDisallow: /about/organization/kanazawa/service_publication/\r\nDisallow: /about/organization/nagoya/service_publication/\r\nDisallow: /about/organization/osaka/service_publication/\r\nDisallow: /about/organization/hiroshima/service_publication/\r\nDisallow: /about/organization/takamatsu/service_publication/\r\nDisallow: /about/organization/fukuoka/service_publication/\r\nDisallow: /about/organization/kumamoto/service_publication/\r\nDisallow: /about/organization/okinawa/service_publication/\r\n\r\nUser-agent: ndl-japan\r\nDisallow:"
+   }
+  },
+  "egov_laws": {
+   "pages": [
+    {
+     "url": "https://laws.e-gov.go.jp/",
+     "status": 200,
+     "final_url": "https://laws.e-gov.go.jp/",
+     "content_type": "text/html",
+     "title": "e-Gov 法令検索",
+     "link_rel_alternate_feeds": [],
+     "hrefs_with_feed_hint": []
+    }
+   ],
+   "feeds": [],
+   "robots_txt": {
+    "status": 200,
+    "text_head": "<!DOCTYPE html>\n\n<html lang=\"ja\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\n    <title>e-Gov 法令検索</title>\n\n    <meta\n      name=\"description\"\n      content=\"電子政府の総合窓口（e-Gov）。法令（憲法・法律・政令・勅令・府省令・規則）の内容を検索して提供します。\" />\n    <link rel=\"stylesheet\" href=\"/css/common-egov.css\" />\n    <script type=\"module\" crossorigin src=\"/assets/index-902b96a9.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/assets/vendor-c7dcf3ca.js\">\n    <link rel=\"stylesheet\" href=\"/assets/index-be73647f.css\">\n  </head>\n\n  <body class=\"laws laws-home\">\n    <div id=\"app\"></div>\n    <div id=\"modal\" class=\"modal\"></div>\n    \n  </body>\n</html>\n"
+   }
+  },
+  "kanpo": {
+   "pages": [
+    {
+     "url": "https://www.kanpo.go.jp/",
+     "status": 200,
+     "final_url": "https://www.kanpo.go.jp/",
+     "content_type": "text/html",
+     "title": "官報",
+     "link_rel_alternate_feeds": [],
+     "hrefs_with_feed_hint": []
+    }
+   ],
+   "feeds": [],
+   "robots_txt": {
+    "status": 200,
+    "text_head": "User-agent: *\nDisallow: /20\nDisallow: /old/\n\nUser-agent: ndl-japan\nDisallow:\n"
+   }
+  },
+  "mof": {
+   "pages": [
+    {
+     "url": "https://www.mof.go.jp/",
+     "status": 200,
+     "final_url": "https://www.mof.go.jp/",
+     "content_type": "text/html",
+     "title": "財務省",
+     "link_rel_alternate_feeds": [],
+     "hrefs_with_feed_hint": [
+      "/application-contact/feedback/index.html"
+     ]
+    },
+    {
+     "url": "https://www.mof.go.jp/tax_policy/tax_reform/index.html",
+     "status": 200,
+     "final_url": "https://www.mof.go.jp/tax_policy/tax_reform/index.html",
+     "content_type": "text/html",
+     "title": "毎年度の税制改正 : 財務省",
+     "link_rel_alternate_feeds": [],
+     "hrefs_with_feed_hint": [
+      "/application-contact/feedback/index.html"
+     ]
+    }
+   ],
+   "feeds": [
+    {
+     "url": "https://www.mof.go.jp/application-contact/feedback/index.html",
+     "status": 200,
+     "content_type": "text/html",
+     "final_url": "https://www.mof.go.jp/application-contact/feedback/index.html",
+     "note": "フィードではない（HTML 等）",
+     "title": "ご意見箱 : 財務省"
+    }
+   ],
+   "robots_txt": {
+    "status": 404,
+    "text_head": null
+   }
+  },
+  "mhlw": {
+   "pages": [
+    {
+     "url": "https://www.mhlw.go.jp/",
+     "status": 200,
+     "final_url": "https://www.mhlw.go.jp/index.html",
+     "content_type": "text/html",
+     "title": "ホーム｜厚生労働省",
+     "link_rel_alternate_feeds": [],
+     "hrefs_with_feed_hint": [
+      "/rss/",
+      "/rss/index.html",
+      "/stf/news.rdf"
+     ]
+    }
+   ],
+   "feeds": [
+    {
+     "url": "https://www.mhlw.go.jp/rss/",
+     "status": 200,
+     "content_type": "text/html; charset=Shift_JIS",
+     "final_url": "https://www.mhlw.go.jp/rss/",
+     "note": "フィードではない（HTML 等）",
+     "title": "RSS縺ｫ繧医ｋ諠�蝣ｱ驟堺ｿ｡縺ｫ縺､縺�縺ｦ�ｽ懷字逕溷感蜒咲怐"
+    },
+    {
+     "url": "https://www.mhlw.go.jp/rss/index.html",
+     "status": 200,
+     "content_type": "text/html; charset=UTF-8",
+     "final_url": "https://www.mhlw.go.jp/rss/index.html",
+     "note": "フィードではない（HTML 等）",
+     "title": "RSSによる情報配信について｜厚生労働省"
+    },
+    {
+     "url": "https://www.mhlw.go.jp/stf/news.rdf",
+     "status": 200,
+     "content_type": "application/xml",
+     "final_url": "https://www.mhlw.go.jp/stf/news.rdf",
+     "root": "RDF",
+     "items": 121,
+     "head": [
+      {
+       "title": "薬剤師免許に関するオンライン申請手続きのご案内",
+       "link": "https://www.mhlw.go.jp/bunya/iyakuhin/yakuzaishi/menkyo.html",
+       "date": "2026-11-09T12:00:00+09:00"
+      },
+      {
+       "title": "第138回社会保障審議会介護保険部会の資料について",
+       "link": "https://www.mhlw.go.jp/stf/newpage_77213.html",
+       "date": "2026-11-09T08:00:00+09:00"
+      },
+      {
+       "title": "社会保障審議会（介護保険部会）",
+       "link": "https://www.mhlw.go.jp/stf/newpage_77162.html",
+       "date": "2026-11-09T08:00:00+09:00"
+      },
+      {
+       "title": "不正アクセスによる情報漏えい等の事案を踏まえたセキュリティ対策の徹底について（注意喚起）",
+       "link": "https://www.mhlw.go.jp/stf/kinkyu/20261030.html",
+       "date": "2026-11-06T20:30:00+09:00"
+      },
+      {
+       "title": "第２回障害福祉分野における人材確保・生産性向上に関する検討会（資料）",
+       "link": "https://www.mhlw.go.jp/stf/newpage_76944.html",
+       "date": "2026-11-06T18:33:00+09:00"
+      }
+     ]
+    }
+   ],
+   "robots_txt": {
+    "status": 200,
+    "text_head": "# \r\n# robots.txt for http://www.mhlw.go.jp/\r\n# \r\nUser-agent: *        \r\nDisallow: /cgi-bin/   \r\nDisallow: /images/\t\r\nDisallow: /topics/bukyoku/iyaku/kaisyu/00-1-010.html"
+   }
+  },
+  "nenkin": {
+   "pages": [
+    {
+     "url": "https://www.nenkin.go.jp/",
+     "status": 200,
+     "final_url": "https://www.nenkin.go.jp/",
+     "content_type": "text/html",
+     "title": "日本年金機構",
+     "link_rel_alternate_feeds": [],
+     "hrefs_with_feed_hint": []
+    }
+   ],
+   "feeds": [],
+   "robots_txt": {
+    "status": 200,
+    "text_head": "User-Agent: *\r\nDisallow: /service/nenkinkiroku/torikumi/mitougou/shizuoka.files/JigyousyoIchiran_3942_201209.pdf\r\n\r\nUser-agent:ndl-japan\r\nDisallow:\r\n"
+   }
+  }
+ },
+ "primary_pages": {
+  "nta_2025kiso": {
+   "url": "https://www.nta.go.jp/users/gensen/2025kiso/index.htm",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/users/gensen/2025kiso/index.htm",
+   "content_type": "text/html",
+   "title": "令和７年度税制改正による所得税の基礎控除の見直し等について｜国税庁",
+   "lines_with_manen": [
+    "合計所得⾦額132万円以下 ：  95万円（改正前：48万円）",
+    "合計所得⾦額132万円超336万円以下 ： 88万円（令和9年分以後は58万円）（改正前：48万円）",
+    "合計所得⾦額336万円超489万円以下 ：  68万円（令和9年分以後は58万円）（改正前：48万円）",
+    "合計所得⾦額489万円超655万円以下 ：  63万円（令和9年分以後は58万円）（改正前：48万円）",
+    "合計所得⾦額655万円超2,350万円以下 ：  58万円（改正前：48万円）",
+    "改正後の所得税法第86条の規定による基礎控除額58万円に、改正後の租税特別措置法第41条の16の２の規定による加算額を加算した額となります。",
+    "合計所得⾦額が655万円以下の場合は、58万円にそれぞれ37万円、30万円、10万円、5万円を加算した⾦額となります。なお、この加算は、居住者についてのみ適用があります。",
+    "合計所得金額2,350万円超の場合の基礎控除額に改正はありません。",
+    "（1） 給与所得控除について、55万円の最低保障額が65万円に引き上げられました。",
+    "（1） 居住者が特定親族を有する場合には、その居住者の総所得⾦額等から、その特定親族１⼈につき、その特定親族の合計所得⾦額に応じて最⾼63万円を控除する特定親族特別控除が創設されました。",
+    "「特定親族」とは、居住者と⽣計を⼀にする年齢19歳以上23歳未満の親族（配偶者、⻘⾊事業専従者として給与の⽀払を受ける⼈及び⽩⾊事業専従者を除きます。）で合計所得⾦額が58万円超123万円以下の⼈をいいます。",
+    "給与 ： 親族の合計所得⾦額が58万円超100万円以下である場合",
+    "公的年⾦等 ： 親族の合計所得⾦額が58万円超85万円以下である場合",
+    "扶養親族及び同⼀⽣計配偶者の合計所得⾦額の要件 ： 58万円以下（改正前：48万円以下）",
+    "ひとり親の⽣計を⼀にする⼦の総所得⾦額等の合計額の要件 ： 58万円以下（改正前：48万円以下）",
+    "勤労学⽣の合計所得⾦額の要件 ： 85万円以下（改正前：75万円以下）",
+    "また、上記２⑴の給与所得控除の改正に伴い、家内労働者等の事業所得等の所得計算の特例について、必要経費に算入する金額の最低保障額が65万円（改正前：55万円）に引き上げられました。"
+   ],
+   "pdf_links": [
+    "https://www.nta.go.jp/publication/pamph/gensen/0025004-025.pdf",
+    "https://www.nta.go.jp/publication/pamph/gensen/0025005-051.pdf"
+   ]
+  },
+  "nta_2026kiso_guess": {
+   "url": "https://www.nta.go.jp/users/gensen/2026kiso/index.htm",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/users/gensen/2026kiso/index.htm",
+   "content_type": "text/html",
+   "title": "令和８年度税制改正による所得税の基礎控除の引上げ等について｜国税庁",
+   "lines_with_manen": [],
+   "pdf_links": [
+    "https://www.nta.go.jp/publication/pamph/gensen/2026kaisei.pdf",
+    "https://www.nta.go.jp/users/gensen/2026kiso/pdf/0026005-024.pdf"
+   ]
+  },
+  "mof_fy2025": {
+   "url": "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2025/index.html",
+   "status": 200,
+   "final_url": "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2025/index.html",
+   "content_type": "text/html",
+   "title": "令和７年度 : 財務省",
+   "lines_with_manen": [],
+   "pdf_links": [
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2025/07taikou_gaiyou.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2025/20241227taikou.pdf"
+   ]
+  },
+  "mof_fy2025_explanation_guess": {
+   "url": "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2025/explanation/index.html",
+   "status": 200,
+   "final_url": "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2025/explanation/index.html",
+   "content_type": "text/html",
+   "title": "令和７年度　税制改正の解説 : 財務省",
+   "lines_with_manen": [],
+   "pdf_links": [
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2025/explanation/PDF/p0003-0010.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2025/explanation/PDF/p0077-0136.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2025/explanation/PDF/p0137-0264.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2025/explanation/PDF/p0265-0349.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2025/explanation/PDF/p0350-0424.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2025/explanation/PDF/p0425-0554.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2025/explanation/PDF/p0555-0563.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2025/explanation/PDF/p0564-0571.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2025/explanation/PDF/p0572-0759.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2025/explanation/PDF/p0760-0846.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2025/explanation/PDF/p0847-0870.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2025/explanation/PDF/p0871-0897.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2025/explanation/PDF/p0898-0922.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2025/explanation/PDF/p0923-0969.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2025/explanation/PDF/p0970-0984.pdf"
+   ]
+  },
+  "mof_fy2026": {
+   "url": "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/index.html",
+   "status": 200,
+   "final_url": "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/index.html",
+   "content_type": "text/html",
+   "title": "令和８年度 : 財務省",
+   "lines_with_manen": [],
+   "pdf_links": [
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/08taikou_gaiyou.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/20251226taikou.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/20260123kokusai.pdf"
+   ]
+  },
+  "mof_fy2026_explanation_guess": {
+   "url": "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/explanation/index.html",
+   "status": 200,
+   "final_url": "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/explanation/index.html",
+   "content_type": "text/html",
+   "title": "令和８年度　税制改正の解説 : 財務省",
+   "lines_with_manen": [],
+   "pdf_links": [
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/explanation/PDF/p0003-0010.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/explanation/PDF/p0089-0140.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/explanation/PDF/p0141-0209.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/explanation/PDF/p0210-0436.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/explanation/PDF/p0437-0503.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/explanation/PDF/p0504-0716.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/explanation/PDF/p0717-0723.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/explanation/PDF/p0724-0738.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/explanation/PDF/p0739-0799.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/explanation/PDF/p0800-0822.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/explanation/PDF/p0823-0860.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/explanation/PDF/p0861-0886.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/explanation/PDF/p0887-0920.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/explanation/PDF/p0921-0989.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/explanation/PDF/p0990-1005.pdf",
+    "https://www.mof.go.jp/tax_policy/tax_reform/outline/fy2026/explanation/p0531.pdf"
+   ]
+  }
+ },
+ "sitemaps": {
+  "nta": {
+   "url": "https://www.nta.go.jp/sitemap.xml",
+   "status": 200,
+   "content_type": "text/xml",
+   "bytes": 136503,
+   "root": "urlset",
+   "entries": 666,
+   "entries_with_lastmod": 666,
+   "lastmod_max": "2018-04-02",
+   "head": [
+    [
+     [
+      "loc",
+      "https://www.nta.go.jp/"
+     ],
+     [
+      "lastmod",
+      "2018-04-02"
+     ],
+     [
+      "changefreq",
+      "daily"
+     ],
+     [
+      "priority",
+      "1.0"
+     ]
+    ],
+    [
+     [
+      "loc",
+      "https://www.nta.go.jp/about/"
+     ],
+     [
+      "lastmod",
+      "2018-04-02"
+     ],
+     [
+      "changefreq",
+      "weekly"
+     ],
+     [
+      "priority",
+      "0.5"
+     ]
+    ],
+    [
+     [
+      "loc",
+      "https://www.nta.go.jp/about/council/kenkyu.htm"
+     ],
+     [
+      "lastmod",
+      "2018-04-02"
+     ],
+     [
+      "changefreq",
+      "weekly"
+     ],
+     [
+      "priority",
+      "0.5"
+     ]
+    ]
+   ]
+  }
+ }
+}

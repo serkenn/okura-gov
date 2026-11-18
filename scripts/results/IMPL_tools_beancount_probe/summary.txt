@@ -1,0 +1,1577 @@
+## env
+{
+ "python": "3.11.9 (main, Aug 14 2024, 04:18:20) [MSC v.1929 64 bit (AMD64)]",
+ "beancount": "3.2.3",
+ "flags_isolated": 1,
+ "utf8_mode": 1,
+ "gpg_on_PATH": true,
+ "TMP は realpath": true
+}
+
+## A1_新しいディレクトリでの走査の安全性
+{
+ "ok": true,
+ "result": {
+  "4a_insert_pythonpath_plugin": {
+   "prescan_v1（R2）": {
+    "accepted": false,
+    "problems": [
+     "plugin line: 'r2_harmless_plugin' in <TMP>\\001_a1_4a_insert_pythonpath_plugin\\main.beancount",
+     "insert_pythonpath in <TMP>\\001_a1_4a_insert_pythonpath_plugin\\main.beancount"
+    ],
+    "マーカー（前）": [],
+    "マーカー（走査の後）": []
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "plugin 行: 'r2_harmless_plugin': main.beancount",
+     "insert_pythonpath: main.beancount"
+    ],
+    "マーカー（前）": [],
+    "マーカー（走査の後）": []
+   },
+   "safe_load": {
+    "ok": false,
+    "stage": "prescan",
+    "problems_or_errors": [
+     "plugin 行: 'r2_harmless_plugin': main.beancount",
+     "insert_pythonpath: main.beancount"
+    ],
+    "マーカー（後）": [],
+    "pickle キャッシュのファイルが残っているか": false
+   }
+  },
+  "4c_eval_check_commodity": {
+   "prescan_v1（R2）": {
+    "accepted": false,
+    "problems": [
+     "plugin line: 'beancount.plugins.check_commodity' in <TMP>\\004_a1_4c_eval_check_commodity\\main.beancount"
+    ],
+    "マーカー（前）": [],
+    "マーカー（走査の後）": []
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "plugin 行: 'beancount.plugins.check_commodity': main.beancount"
+    ],
+    "マーカー（前）": [],
+    "マーカー（走査の後）": []
+   },
+   "safe_load": {
+    "ok": false,
+    "stage": "prescan",
+    "problems_or_errors": [
+     "plugin 行: 'beancount.plugins.check_commodity': main.beancount"
+    ],
+    "マーカー（後）": [],
+    "pickle キャッシュのファイルが残っているか": false
+   }
+  },
+  "4c_eval_commodity_attr": {
+   "prescan_v1（R2）": {
+    "accepted": false,
+    "problems": [
+     "plugin line: 'beancount.plugins.commodity_attr' in <TMP>\\007_a1_4c_eval_commodity_attr\\main.beancount"
+    ],
+    "マーカー（前）": [],
+    "マーカー（走査の後）": []
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "plugin 行: 'beancount.plugins.commodity_attr': main.beancount"
+    ],
+    "マーカー（前）": [],
+    "マーカー（走査の後）": []
+   },
+   "safe_load": {
+    "ok": false,
+    "stage": "prescan",
+    "problems_or_errors": [
+     "plugin 行: 'beancount.plugins.commodity_attr': main.beancount"
+    ],
+    "マーカー（後）": [],
+    "pickle キャッシュのファイルが残っているか": false
+   }
+  },
+  "4c_eval_check_average_cost": {
+   "prescan_v1（R2）": {
+    "accepted": false,
+    "problems": [
+     "plugin line: 'beancount.plugins.check_average_cost' in <TMP>\\010_a1_4c_eval_check_average_cost\\main.beancount"
+    ],
+    "マーカー（前）": [],
+    "マーカー（走査の後）": []
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "plugin 行: 'beancount.plugins.check_average_cost': main.beancount"
+    ],
+    "マーカー（前）": [],
+    "マーカー（走査の後）": []
+   },
+   "safe_load": {
+    "ok": false,
+    "stage": "prescan",
+    "problems_or_errors": [
+     "plugin 行: 'beancount.plugins.check_average_cost': main.beancount"
+    ],
+    "マーカー（後）": [],
+    "pickle キャッシュのファイルが残っているか": false
+   }
+  },
+  "4d_plugin_in_include": {
+   "prescan_v1（R2）": {
+    "accepted": false,
+    "problems": [
+     "plugin line: 'beancount.plugins.check_commodity' in <TMP>\\013_a1_4d_plugin_in_include\\sub.beancount"
+    ],
+    "マーカー（前）": [],
+    "マーカー（走査の後）": []
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "plugin 行: 'beancount.plugins.check_commodity': sub.beancount"
+    ],
+    "マーカー（前）": [],
+    "マーカー（走査の後）": []
+   },
+   "safe_load": {
+    "ok": false,
+    "stage": "prescan",
+    "problems_or_errors": [
+     "plugin 行: 'beancount.plugins.check_commodity': sub.beancount"
+    ],
+    "マーカー（後）": [],
+    "pickle キャッシュのファイルが残っているか": false
+   }
+  },
+  "4e_insert_pythonpath_in_include": {
+   "prescan_v1（R2）": {
+    "accepted": false,
+    "problems": [
+     "plugin line: 'r2_harmless_plugin' in <TMP>\\016_a1_4e_insert_pythonpath_in_include\\main.beancount",
+     "insert_pythonpath in <TMP>\\016_a1_4e_insert_pythonpath_in_include\\sub\\sub.beancount"
+    ],
+    "マーカー（前）": [],
+    "マーカー（走査の後）": []
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "plugin 行: 'r2_harmless_plugin': main.beancount",
+     "insert_pythonpath: sub/sub.beancount"
+    ],
+    "マーカー（前）": [],
+    "マーカー（走査の後）": []
+   },
+   "safe_load": {
+    "ok": false,
+    "stage": "prescan",
+    "problems_or_errors": [
+     "plugin 行: 'r2_harmless_plugin': main.beancount",
+     "insert_pythonpath: sub/sub.beancount"
+    ],
+    "マーカー（後）": [],
+    "pickle キャッシュのファイルが残っているか": false
+   }
+  },
+  "6_pickle_cache": {
+   "prescan_v1（R2）": {
+    "accepted": true,
+    "problems": [],
+    "マーカー（前）": [],
+    "マーカー（走査の後）": []
+   },
+   "prescan_v2": {
+    "accepted": true,
+    "problems": [],
+    "マーカー（前）": [],
+    "マーカー（走査の後）": []
+   },
+   "safe_load": {
+    "ok": true,
+    "stage": "loaded",
+    "problems_or_errors": [],
+    "マーカー（後）": [],
+    "pickle キャッシュのファイルが残っているか": false
+   }
+  },
+  "clean": {
+   "prescan_v1（R2）": {
+    "accepted": true,
+    "problems": [],
+    "マーカー（前）": [],
+    "マーカー（走査の後）": []
+   },
+   "prescan_v2": {
+    "accepted": true,
+    "problems": [],
+    "マーカー（前）": [],
+    "マーカー（走査の後）": []
+   },
+   "safe_load": {
+    "ok": true,
+    "stage": "loaded",
+    "problems_or_errors": [],
+    "マーカー（後）": [],
+    "pickle キャッシュのファイルが残っているか": false
+   }
+  }
+ },
+ "seconds": 0.703
+}
+
+## A2_parse_file は include を辿らない
+{
+ "ok": true,
+ "result": {
+  "parse_file(main) の include": [
+   "sub.beancount",
+   "missing.beancount",
+   "*.nothing"
+  ],
+  "plugin": [],
+  "errors": [],
+  "entries": [
+   "Open"
+  ],
+  "マーカー": [],
+  "prescan_v1": {
+   "accepted": false,
+   "problems": [
+    "include matched nothing: missing.beancount",
+    "include matched nothing: *.nothing",
+    "plugin line: 'beancount.plugins.check_commodity' in <TMP>\\025_a2\\sub.beancount"
+   ],
+   "n_problems": 3,
+   "files": 2
+  },
+  "prescan_v2": {
+   "accepted": false,
+   "problems": [
+    "include の形が許されない: '*.nothing': main.beancount",
+    "開けない: <TMP>\\025_a2\\missing.beancount: FileNotFoundError",
+    "plugin 行: 'beancount.plugins.check_commodity': sub.beancount"
+   ],
+   "n_problems": 3,
+   "files": [
+    {
+     "path": "main.beancount",
+     "sha256": "6e88154cab4fc10f07ed6e18f12611b74625032b14147fe873d9a8bc904256ec",
+     "bytes": 104
+    },
+    {
+     "path": "sub.beancount",
+     "sha256": "f552358d1a8a7114081cbb5fa0b1e207ee2bd426228f48e772088c8d0bb5102c",
+     "bytes": 212
+    }
+   ]
+  }
+ },
+ "seconds": 0.053
+}
+
+## A3_include の glob が root の外を歩く
+{
+ "ok": true,
+ "result": {
+  "root の外に作ったディレクトリ数": 5000,
+  "相対 ../**/*.beancount": {
+   "glob の一致数": 2,
+   "prescan_v1": {
+    "accepted": false,
+    "n_problems": 1,
+    "problems": [
+     "include outside root: <TMP>\\026_a3_parent\\outside_tree\\d000\\e00\\x.beancount"
+    ],
+    "seconds": 2.774
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "include の形が許されない: '../**/*.beancount': main.beancount"
+    ],
+    "seconds": 0.0105
+   }
+  },
+  "相対 ../outside_tree/**/*.nothing（一致なし）": {
+   "glob の一致数": 0,
+   "prescan_v1": {
+    "accepted": false,
+    "n_problems": 1,
+    "problems": [
+     "include matched nothing: ../outside_tree/**/*.nothing"
+    ],
+    "seconds": 2.596
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "include の形が許されない: '../outside_tree/**/*.nothing': main.beancount"
+    ],
+    "seconds": 0.0106
+   }
+  },
+  "絶対パス C:/**/*.beancount（v2 だけ。v1 はディスク全体を歩くので実行しない）": {
+   "accepted": false,
+   "problems": [
+    "include の形が許されない: 'C:/**/*.beancount': main.beancount"
+   ],
+   "seconds": 0.0294
+  }
+ },
+ "seconds": 16.62
+}
+
+## A4_include の循環
+{
+ "ok": true,
+ "result": {
+  "main ↔ a、main → main": {
+   "prescan_v1": {
+    "accepted": true,
+    "problems": [],
+    "n_problems": 0,
+    "files": 2
+   },
+   "prescan_v2": {
+    "accepted": true,
+    "problems": [],
+    "n_problems": 0,
+    "files": [
+     {
+      "path": "a.beancount",
+      "sha256": "308e7f656bd98b6e0fa79e186187ed87a2056bf674f4b4134c846f2db98b7e10",
+      "bytes": 25
+     },
+     {
+      "path": "main.beancount",
+      "sha256": "9c4db22a4c6a654cfcca9e49cc1e5605190f500ac3a4203ddedf31b32cc6e91a",
+      "bytes": 79
+     }
+    ]
+   },
+   "loader のエラー": [
+    "Duplicate filename parsed: \"<TMP>\\027_a4_cycle\\main.beancount\"",
+    "Duplicate filename parsed: \"<TMP>\\027_a4_cycle\\main.beancount\""
+   ]
+  },
+  "include \"*.beancount\"（自分を含む）": {
+   "prescan_v1": {
+    "accepted": true,
+    "problems": [],
+    "n_problems": 0,
+    "files": 1
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "include の形が許されない: '*.beancount': main.beancount"
+    ],
+    "n_problems": 1,
+    "files": [
+     {
+      "path": "main.beancount",
+      "sha256": "93561cf811a45afc474b21941cdb0e54da7e358176255a1f4ae0c84222f4e1df",
+      "bytes": 54
+     }
+    ]
+   },
+   "loader のエラー": [
+    "Duplicate filename parsed: \"<TMP>\\028_a4_glob_self\\main.beancount\""
+   ]
+  }
+ },
+ "seconds": 0.103
+}
+
+## A5_エンコーディングの細工
+{
+ "ok": true,
+ "result": {
+  "対照（そのまま）": {
+   "prescan_v1": {
+    "accepted": false,
+    "problems": [
+     "plugin line: 'beancount.plugins.check_commodity' in <TMP>\\030_a5\\main.beancount"
+    ]
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "plugin 行: 'beancount.plugins.check_commodity': main.beancount"
+    ]
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": true,
+    "options の plugin": [
+     "beancount.plugins.check_commodity"
+    ],
+    "insert_pythonpath": false,
+    "errors": [
+     "Missing Commodity directive for 'JPY' in 'Assets:Cash'"
+    ]
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "UTF-8 BOM ＋ plugin 行（1行目）": {
+   "prescan_v1": {
+    "accepted": true,
+    "problems": []
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "BOM: main.beancount"
+    ]
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": false,
+    "options の plugin": [],
+    "insert_pythonpath": false,
+    "errors": [
+     "Invalid token: '﻿plugin'"
+    ]
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "UTF-8 BOM ＋ 空行 ＋ plugin 行": {
+   "prescan_v1": {
+    "accepted": false,
+    "problems": [
+     "plugin line: 'beancount.plugins.check_commodity' in <TMP>\\032_a5\\main.beancount"
+    ]
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "BOM: main.beancount",
+     "plugin 行: 'beancount.plugins.check_commodity': main.beancount"
+    ]
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": true,
+    "options の plugin": [
+     "beancount.plugins.check_commodity"
+    ],
+    "insert_pythonpath": false,
+    "errors": [
+     "Invalid token: '﻿'",
+     "Missing Commodity directive for 'JPY' in 'Assets:Cash'"
+    ]
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "CRLF": {
+   "prescan_v1": {
+    "accepted": false,
+    "problems": [
+     "plugin line: 'beancount.plugins.check_commodity' in <TMP>\\033_a5\\main.beancount"
+    ]
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "plugin 行: 'beancount.plugins.check_commodity': main.beancount"
+    ]
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": true,
+    "options の plugin": [
+     "beancount.plugins.check_commodity"
+    ],
+    "insert_pythonpath": false,
+    "errors": [
+     "Missing Commodity directive for 'JPY' in 'Assets:Cash'"
+    ]
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "CR だけ": {
+   "prescan_v1": {
+    "accepted": true,
+    "problems": []
+   },
+   "prescan_v2": {
+    "accepted": true,
+    "problems": []
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": false,
+    "options の plugin": [],
+    "insert_pythonpath": false,
+    "errors": [
+     "syntax error, unexpected DATE, expecting end of file or EOL"
+    ]
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "NUL の行の後に plugin 行": {
+   "prescan_v1": {
+    "accepted": false,
+    "problems": [
+     "plugin line: 'beancount.plugins.check_commodity' in <TMP>\\035_a5\\main.beancount"
+    ]
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "NUL を含む: main.beancount",
+     "plugin 行: 'beancount.plugins.check_commodity': main.beancount"
+    ]
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": true,
+    "options の plugin": [
+     "beancount.plugins.check_commodity"
+    ],
+    "insert_pythonpath": false,
+    "errors": [
+     "Invalid token: '\u0000'",
+     "Missing Commodity directive for 'JPY' in 'Assets:Cash'"
+    ]
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "plugin 行の途中に NUL": {
+   "prescan_v1": {
+    "accepted": true,
+    "problems": []
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "NUL を含む: main.beancount"
+    ]
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": false,
+    "options の plugin": [],
+    "insert_pythonpath": false,
+    "errors": [
+     "Invalid token: 'plu\u0000gin'"
+    ]
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "plugin 行の後に NUL": {
+   "prescan_v1": {
+    "accepted": false,
+    "problems": [
+     "plugin line: 'beancount.plugins.check_commodity' in <TMP>\\037_a5\\main.beancount"
+    ]
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "NUL を含む: main.beancount",
+     "plugin 行: 'beancount.plugins.check_commodity': main.beancount"
+    ]
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": true,
+    "options の plugin": [
+     "beancount.plugins.check_commodity"
+    ],
+    "insert_pythonpath": false,
+    "errors": [
+     "Invalid token: '\u0000'",
+     "Missing Commodity directive for 'JPY' in 'Assets:Cash'"
+    ]
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "不正な UTF-8 のコメントの後に plugin 行": {
+   "prescan_v1": {
+    "accepted": false,
+    "problems": [
+     "plugin line: 'beancount.plugins.check_commodity' in <TMP>\\038_a5\\main.beancount"
+    ]
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "UTF-8 でない（2 バイト目）: main.beancount",
+     "plugin 行: 'beancount.plugins.check_commodity': main.beancount"
+    ]
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": true,
+    "options の plugin": [
+     "beancount.plugins.check_commodity"
+    ],
+    "insert_pythonpath": false,
+    "errors": [
+     "Missing Commodity directive for 'JPY' in 'Assets:Cash'"
+    ]
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "plugin の設定文字列の中に不正な UTF-8": {
+   "prescan_v1": {
+    "accepted": true,
+    "problems": []
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "UTF-8 でない（165 バイト目）: main.beancount"
+    ]
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": false,
+    "options の plugin": [],
+    "insert_pythonpath": false,
+    "errors": [
+     "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 121: invalid start byte"
+    ]
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "UTF-16LE（BOM あり）": {
+   "prescan_v1": {
+    "accepted": true,
+    "problems": []
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "NUL を含む: main.beancount",
+     "UTF-8 でない（0 バイト目）: main.beancount"
+    ]
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": false,
+    "options の plugin": [],
+    "insert_pythonpath": false,
+    "errors": [
+     "Invalid token: '\\xff\\xfep\u0000l\u0000u\u0000g\u0000i\u0000n\u0000'",
+     "Invalid token: '\u0000\"\u0000b\u0000e\u0000a\u0000n\u0000c\u0000o\u0000u\u0000n\u0000t\u0000.\u0000p\u0000l\u0000u\u0000g\u0000i\u0000n\u0000s\u0000.\u0000c\u0000h\u0000e\u0000c\u0000k\u0000_\u0000c\u0000o\u0000m\u0000m\u0000o\u0000d\u0000i\u0000t\u0000y\u0000\"\u0000'",
+     "Invalid token: '\u0000\"\u0000_\u0000_\u0000i\u0000m\u0000p\u0000o\u0000r\u0000t\u0000_\u0000_\u0000(\u0000'\u0000p\u0000a\u0000t\u0000h\u0000l\u0000i\u0000b\u0000'\u0000)\u0000.\u0000P\u0000a\u0000t\u0000h\u0000(\u0000'\u0000C\u0000:\u0000/\u0000U\u0000s\u0000e\u0000r\u0000s\u0000/\u0000u\u0000s\u0000h\u0000i\u0000d\u0000/\u0000A\u0000p\u0000p\u0000D\u0000a\u0000t\u0000a\u0000/\u0000L\u0000o\u0000c\u0000a\u0000l\u0000/\u0000T\u0000e\u0000m\u0000p\u0000/\u0000i\u0000m\u0000p\u0000l\u0000_\u0000b\u0000c\u0000_\u0000p\u0000h\u00007\u0000e\u0000s\u0000v\u0000t\u0000d\u0000/\u00000\u00004\u00000\u0000_\u0000a\u00005\u0000/\u0000e\u0000v\u0000a\u0000l\u0000_"
+    ]
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "UTF-16LE（BOM なし）": {
+   "prescan_v1": {
+    "accepted": true,
+    "problems": []
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "NUL を含む: main.beancount"
+    ]
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": false,
+    "options の plugin": [],
+    "insert_pythonpath": false,
+    "errors": [
+     "Invalid token: 'p\u0000l\u0000u\u0000g\u0000i\u0000n\u0000'",
+     "Invalid token: '\u0000\"\u0000b\u0000e\u0000a\u0000n\u0000c\u0000o\u0000u\u0000n\u0000t\u0000.\u0000p\u0000l\u0000u\u0000g\u0000i\u0000n\u0000s\u0000.\u0000c\u0000h\u0000e\u0000c\u0000k\u0000_\u0000c\u0000o\u0000m\u0000m\u0000o\u0000d\u0000i\u0000t\u0000y\u0000\"\u0000'",
+     "Invalid token: '\u0000\"\u0000_\u0000_\u0000i\u0000m\u0000p\u0000o\u0000r\u0000t\u0000_\u0000_\u0000(\u0000'\u0000p\u0000a\u0000t\u0000h\u0000l\u0000i\u0000b\u0000'\u0000)\u0000.\u0000P\u0000a\u0000t\u0000h\u0000(\u0000'\u0000C\u0000:\u0000/\u0000U\u0000s\u0000e\u0000r\u0000s\u0000/\u0000u\u0000s\u0000h\u0000i\u0000d\u0000/\u0000A\u0000p\u0000p\u0000D\u0000a\u0000t\u0000a\u0000/\u0000L\u0000o\u0000c\u0000a\u0000l\u0000/\u0000T\u0000e\u0000m\u0000p\u0000/\u0000i\u0000m\u0000p\u0000l\u0000_\u0000b\u0000c\u0000_\u0000p\u0000h\u00007\u0000e\u0000s\u0000v\u0000t\u0000d\u0000/\u00000\u00004\u00001\u0000_\u0000a\u00005\u0000/\u0000e\u0000v\u0000a\u0000l\u0000_"
+    ]
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "行頭に空白（字下げ）": {
+   "prescan_v1": {
+    "accepted": false,
+    "problems": [
+     "plugin line: 'beancount.plugins.check_commodity' in <TMP>\\042_a5\\main.beancount"
+    ]
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "plugin 行: 'beancount.plugins.check_commodity': main.beancount"
+    ]
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": true,
+    "options の plugin": [
+     "beancount.plugins.check_commodity"
+    ],
+    "insert_pythonpath": false,
+    "errors": [
+     "syntax error, unexpected INDENT",
+     "Missing Commodity directive for 'JPY' in 'Assets:Cash'"
+    ]
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "行頭にタブ": {
+   "prescan_v1": {
+    "accepted": false,
+    "problems": [
+     "plugin line: 'beancount.plugins.check_commodity' in <TMP>\\043_a5\\main.beancount"
+    ]
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "plugin 行: 'beancount.plugins.check_commodity': main.beancount"
+    ]
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": true,
+    "options の plugin": [
+     "beancount.plugins.check_commodity"
+    ],
+    "insert_pythonpath": false,
+    "errors": [
+     "syntax error, unexpected INDENT",
+     "Missing Commodity directive for 'JPY' in 'Assets:Cash'"
+    ]
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "全角の ｐｌｕｇｉｎ": {
+   "prescan_v1": {
+    "accepted": true,
+    "problems": []
+   },
+   "prescan_v2": {
+    "accepted": true,
+    "problems": []
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": false,
+    "options の plugin": [],
+    "insert_pythonpath": false,
+    "errors": [
+     "Invalid token: 'ｐｌｕｇｉｎ'"
+    ]
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "大文字の PLUGIN": {
+   "prescan_v1": {
+    "accepted": true,
+    "problems": []
+   },
+   "prescan_v2": {
+    "accepted": true,
+    "problems": []
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": false,
+    "options の plugin": [],
+    "insert_pythonpath": false,
+    "errors": [
+     "syntax error, unexpected CURRENCY"
+    ]
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "U+2028（行区切り）で区切る": {
+   "prescan_v1": {
+    "accepted": true,
+    "problems": []
+   },
+   "prescan_v2": {
+    "accepted": true,
+    "problems": []
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": false,
+    "options の plugin": [],
+    "insert_pythonpath": false,
+    "errors": [
+     "Invalid token: '"
+    ]
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "フォームフィード（0x0C）の後に plugin 行": {
+   "prescan_v1": {
+    "accepted": true,
+    "problems": []
+   },
+   "prescan_v2": {
+    "accepted": true,
+    "problems": []
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": false,
+    "options の plugin": [],
+    "insert_pythonpath": false,
+    "errors": [
+     "Invalid token: '"
+    ]
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "1 MB の長いコメント行の後に plugin 行": {
+   "prescan_v1": {
+    "accepted": false,
+    "problems": [
+     "plugin line: 'beancount.plugins.check_commodity' in <TMP>\\048_a5\\main.beancount"
+    ]
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "行が長すぎる（1048577 バイト。parse しない）: main.beancount"
+    ]
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": true,
+    "options の plugin": [
+     "beancount.plugins.check_commodity"
+    ],
+    "insert_pythonpath": false,
+    "errors": [
+     "Missing Commodity directive for 'JPY' in 'Assets:Cash'"
+    ]
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "最終行が plugin 行で改行なし": {
+   "prescan_v1": {
+    "accepted": false,
+    "problems": [
+     "plugin line: 'beancount.plugins.check_commodity' in <TMP>\\049_a5\\main.beancount"
+    ]
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "plugin 行: 'beancount.plugins.check_commodity': main.beancount"
+    ]
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": true,
+    "options の plugin": [
+     "beancount.plugins.check_commodity"
+    ],
+    "insert_pythonpath": false,
+    "errors": [
+     "Missing Commodity directive for 'JPY' in 'Assets:Cash'"
+    ]
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "文字列の中に改行と plugin 行": {
+   "prescan_v1": {
+    "accepted": true,
+    "problems": []
+   },
+   "prescan_v2": {
+    "accepted": true,
+    "problems": []
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": false,
+    "options の plugin": [],
+    "insert_pythonpath": false,
+    "errors": []
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "取引の中に plugin 行": {
+   "prescan_v1": {
+    "accepted": false,
+    "problems": [
+     "plugin line: 'beancount.plugins.check_commodity' in <TMP>\\051_a5\\main.beancount"
+    ]
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "plugin 行: 'beancount.plugins.check_commodity': main.beancount"
+    ]
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": true,
+    "options の plugin": [
+     "beancount.plugins.check_commodity"
+    ],
+    "insert_pythonpath": false,
+    "errors": [
+     "syntax error, unexpected INDENT",
+     "Missing Commodity directive for 'JPY' in 'Assets:Cash'",
+     "Transaction does not balance: (1 JPY)"
+    ]
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "option \"insert_pythonpath\" \"true\"（小文字）": {
+   "prescan_v1": {
+    "accepted": false,
+    "problems": [
+     "insert_pythonpath in <TMP>\\052_a5\\main.beancount"
+    ]
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "insert_pythonpath: main.beancount"
+    ]
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": false,
+    "options の plugin": [],
+    "insert_pythonpath": true,
+    "errors": []
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  },
+  "option \"insert_pythonpath\" \"1\"": {
+   "prescan_v1": {
+    "accepted": false,
+    "problems": [
+     "insert_pythonpath in <TMP>\\053_a5\\main.beancount"
+    ]
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "insert_pythonpath: main.beancount"
+    ]
+   },
+   "走査の後のマーカー": [],
+   "loader（走査なし）": {
+    "コードが実行されたか": false,
+    "options の plugin": [],
+    "insert_pythonpath": true,
+    "errors": []
+   },
+   "v1 が受け入れたのにコードが実行された（すり抜け）": false,
+   "v2 が受け入れたのにコードが実行された（すり抜け）": false
+  }
+ },
+ "seconds": 3.087
+}
+
+## A6_巨大なファイル
+{
+ "ok": true,
+ "result": {
+  "取引 100,000 件（9.1 MB）": {
+   "parse": {
+    "returncode": 0,
+    "wall_s": 6.07,
+    "task": "parse",
+    "parse_s": 5.27,
+    "n_errors": 0,
+    "plugin": [],
+    "peak_working_set_MB": 197.2
+   },
+   "prescan_v1": {
+    "returncode": 0,
+    "wall_s": 6.12,
+    "task": "prescan_v1",
+    "seconds": 5.58,
+    "accepted": true,
+    "problems": [],
+    "peak_working_set_MB": 196.5
+   },
+   "prescan_v2": {
+    "returncode": 0,
+    "wall_s": 7.08,
+    "task": "prescan_v2",
+    "seconds": 6.426,
+    "accepted": true,
+    "problems": [],
+    "peak_working_set_MB": 205.8
+   },
+   "load": {
+    "returncode": 0,
+    "wall_s": 39.78,
+    "task": "load",
+    "load_s": 23.77,
+    "n_entries": 100002,
+    "n_errors": 0,
+    "normalize_s": 14.85,
+    "n_tx": 100000,
+    "peak_working_set_MB": 494.4
+   }
+  },
+  "1行のコメント（x の繰り返し）の後に plugin 行：parse_file の時間": {
+   "1 MB の1行": {
+    "returncode": 0,
+    "wall_s": 1.6,
+    "task": "parse",
+    "parse_s": 1.03,
+    "n_errors": 0,
+    "plugin": [
+     "beancount.plugins.check_commodity"
+    ],
+    "peak_working_set_MB": 27.6
+   },
+   "2 MB の1行": {
+    "returncode": 0,
+    "wall_s": 4.64,
+    "task": "parse",
+    "parse_s": 4.04,
+    "n_errors": 0,
+    "plugin": [
+     "beancount.plugins.check_commodity"
+    ],
+    "peak_working_set_MB": 29.7
+   },
+   "4 MB の1行": {
+    "returncode": 0,
+    "wall_s": 16.81,
+    "task": "parse",
+    "parse_s": 16.26,
+    "n_errors": 0,
+    "plugin": [
+     "beancount.plugins.check_commodity"
+    ],
+    "peak_working_set_MB": 34.8
+   },
+   "8 MB の1行": {
+    "returncode": 0,
+    "wall_s": 65.44,
+    "task": "parse",
+    "parse_s": 64.92,
+    "n_errors": 0,
+    "plugin": [
+     "beancount.plugins.check_commodity"
+    ],
+    "peak_working_set_MB": 42.9
+   },
+   "16 MB の1行": {
+    "timeout": true,
+    "timeout_s": 240
+   }
+  },
+  "最後に作った 16 MB の1行のファイルを prescan_v2（行の長さの上限 65536 バイト）": {
+   "accepted": false,
+   "problems": [
+    "行が長すぎる（16777217 バイト。parse しない）: main.beancount"
+   ],
+   "seconds": 0.0743
+  },
+  "21 MB のファイルを prescan_v2（大きさの上限 20 MB）": {
+   "accepted": false,
+   "problems": [
+    "大きすぎる（22020130 バイト）: <TMP>\\060_a6_toolarge\\main.beancount"
+   ],
+   "seconds": 0.0016
+  },
+  "対照：1 MB の行を16行（16 MB）": {
+   "returncode": 0,
+   "wall_s": 17.57,
+   "task": "parse",
+   "parse_s": 16.93,
+   "n_errors": 0,
+   "plugin": [],
+   "peak_working_set_MB": 28.7
+  }
+ },
+ "seconds": 405.836
+}
+
+## A7_パス
+{
+ "ok": true,
+ "result": {
+  "ファイルのシンボリックリンク（root の中 → 外）": {
+   "作成": "作れなかった: OSError: 1314"
+  },
+  "ディレクトリのジャンクション（root の中 → 外）": {
+   "作成": true,
+   "realpath": "<TMP>\\062_a7\\outside\\evil.beancount",
+   "prescan_v1": {
+    "accepted": false,
+    "problems": [
+     "include outside root: <TMP>\\062_a7\\ledger\\junction\\evil.beancount"
+    ],
+    "n_problems": 1,
+    "files": 2
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "実体のパスが違う（リンク・ジャンクションなど）: <TMP>\\062_a7\\ledger\\junction\\evil.beancount -> <TMP>\\062_a7\\outside\\evil.beancount"
+    ],
+    "n_problems": 1,
+    "files": [
+     {
+      "path": "main.beancount",
+      "sha256": "75a5802ae4d57d7b7b1f2f0131eb6a4f1dfe44d44c0970520e4b97759a690943",
+      "bytes": 66
+     }
+    ]
+   },
+   "マーカー（走査の後）": []
+  },
+  "include \"NUL\"": {
+   "glob": [
+    "<TMP>\\062_a7\\ledger\\NUL"
+   ],
+   "realpath": "<TMP>\\062_a7\\ledger\\NUL",
+   "prescan_v1": {
+    "accepted": true,
+    "problems": [],
+    "n_problems": 0,
+    "files": 2
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "include の形が許されない: 'NUL': main.beancount"
+    ],
+    "n_problems": 1,
+    "files": [
+     {
+      "path": "main.beancount",
+      "sha256": "7078141cff9abf4c2190bd544f5a2d228e04a669991fd66236b479d104bca32e",
+      "bytes": 46
+     }
+    ]
+   },
+   "loader": {
+    "errors": [],
+    "読んだファイル": [
+     "<TMP>\\062_a7\\ledger\\NUL",
+     "<TMP>\\062_a7\\ledger\\main.beancount"
+    ]
+   }
+  },
+  "include \"CON\"": {
+   "glob": [],
+   "realpath": "<TMP>\\062_a7\\ledger\\CON",
+   "prescan_v1（子プロセス、20秒で打ち切り）": {
+    "returncode": 0,
+    "wall_s": 0.59,
+    "task": "prescan_v1",
+    "seconds": 0.02,
+    "accepted": false,
+    "problems": [
+     "include matched nothing: CON"
+    ],
+    "peak_working_set_MB": 26.0
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "include の形が許されない: 'CON': main.beancount"
+    ],
+    "n_problems": 1,
+    "files": [
+     {
+      "path": "main.beancount",
+      "sha256": "ed68012743dd96be59ede8c2e24961ea99d504d31aeb68fc6f94d8085128c230",
+      "bytes": 46
+     }
+    ]
+   }
+  },
+  "代替データストリーム data.beancount:hidden": {
+   "prescan_v1": {
+    "accepted": false,
+    "problems": [
+     "plugin line: 'beancount.plugins.check_commodity' in <TMP>\\062_a7\\ledger\\data.beancount:hidden"
+    ],
+    "n_problems": 1,
+    "files": 2
+   },
+   "prescan_v2": {
+    "accepted": false,
+    "problems": [
+     "include の形が許されない: 'data.beancount:hidden': main.beancount"
+    ],
+    "n_problems": 1,
+    "files": [
+     {
+      "path": "main.beancount",
+      "sha256": "a0295d26169c6baa13d043de469930b411bc4aa4ca91b6bb0bdf58cfaacb2d3c",
+      "bytes": 64
+     }
+    ]
+   },
+   "マーカー（走査の後）": []
+  }
+ },
+ "seconds": 0.767
+}
+
+## A8_documents が root の外
+{
+ "ok": true,
+ "result": {
+  "loader（走査なし）": {
+   "Document": [
+    {
+     "filename": "<TMP>\\063_a8\\outside_docs\\secret.pdf",
+     "date": "2026-01-05"
+    },
+    {
+     "filename": "<TMP>\\063_a8\\outside_docs\\no-such-file.pdf",
+     "date": "2026-01-06"
+    },
+    {
+     "filename": "<TMP>\\063_a8\\outside_docs\\Expenses\\Medical\\2026-02-03.他人の書類.pdf",
+     "date": "2026-02-03"
+    }
+   ],
+   "errors": [
+    "File does not exist: \"<TMP>\\063_a8\\outside_docs\\no-such-file.pdf\""
+   ]
+  },
+  "prescan_v1": {
+   "accepted": true,
+   "problems": [],
+   "n_problems": 0,
+   "files": 1
+  },
+  "prescan_v2": {
+   "accepted": false,
+   "problems": [
+    "option documents（自動の走査は使わない）: ['<TMP>/063_a8/outside_docs']: main.beancount",
+    "document が root の外: main.beancount:3",
+    "document が root の外: main.beancount:4"
+   ],
+   "n_problems": 3,
+   "files": [
+    {
+     "path": "main.beancount",
+     "sha256": "ee03fd692cd15d1494015d6cd98e84b8e57fe8aa603c4c66e306a2434630bd42",
+     "bytes": 267
+    }
+   ]
+  }
+ },
+ "seconds": 0.054
+}
+
+## A9_-I なしでのモジュールの差し替え
+{
+ "ok": true,
+ "result": {
+  "-I -X utf8（推奨）": {
+   "import された glob": "C:\\Users\\user\\AppData\\Roaming\\uv\\python\\cpython-3.11.9-windows-x86_64-none\\Lib\\glob.py",
+   "マーカー": []
+  },
+  "-X utf8 だけ（-I なし）": {
+   "import された glob": "<TMP>\\064_a9_shadow\\glob.py",
+   "マーカー": [
+    "glob_marker.txt"
+   ]
+  }
+ },
+ "seconds": 0.368
+}
+
+## A10_走査と読み込みの間の変更
+{
+ "ok": true,
+ "result": {
+  "走査の後に sub.beancount を書き換えた": {
+   "ok": false,
+   "stage": "loaded",
+   "errors": [],
+   "loaded_files": [
+    "main.beancount",
+    "sub.beancount"
+   ],
+   "scanned_files": [
+    "main.beancount",
+    "sub.beancount"
+   ],
+   "changed_after_scan": [
+    "sub.beancount"
+   ]
+  },
+  "書き換えない": {
+   "ok": true,
+   "stage": "loaded",
+   "errors": [],
+   "loaded_files": [
+    "main.beancount",
+    "sub.beancount"
+   ],
+   "scanned_files": [
+    "main.beancount",
+    "sub.beancount"
+   ],
+   "changed_after_scan": []
+  }
+ },
+ "seconds": 0.1
+}
+
+## B1_メタデータの型
+{
+ "ok": true,
+ "result": {
+  "読み込みのエラー": [],
+  "メタデータの Python の型": {
+   "id": [
+    "str",
+    "tx-types"
+   ],
+   "sv": [
+    "str",
+    "文字列"
+   ],
+   "iv": [
+    "Decimal",
+    "3"
+   ],
+   "dv": [
+    "Decimal",
+    "0.25"
+   ],
+   "neg": [
+    "Decimal",
+    "-5"
+   ],
+   "expr": [
+    "Decimal",
+    "6"
+   ],
+   "div": [
+    "Decimal",
+    "3.333333333333333333333333333"
+   ],
+   "dt": [
+    "date",
+    "2026-01-09"
+   ],
+   "bv": [
+    "bool",
+    "True"
+   ],
+   "acct": [
+    "str",
+    "Assets:Cash"
+   ],
+   "cur": [
+    "str",
+    "JPY"
+   ],
+   "amt": [
+    "Amount",
+    "100 JPY"
+   ],
+   "comma": [
+    "Decimal",
+    "1500"
+   ],
+   "empty": [
+    "NoneType",
+    "None"
+   ],
+   "__tolerances__": [
+    "ImmutableDictWithDefault",
+    "{'JPY': Decimal('0.005')}"
+   ]
+  },
+  "自動で付くメタデータのキー（取引）": [
+   "__tolerances__",
+   "filename",
+   "lineno"
+  ],
+  "posting のメタデータのキー": [
+   [
+    "filename",
+    "lineno"
+   ],
+   [
+    "__automatic__",
+    "filename",
+    "lineno"
+   ]
+  ],
+  "posting の金額": [
+   [
+    "Expenses:Misc",
+    "1000.00"
+   ],
+   [
+    "Assets:Cash",
+    "-1000.00"
+   ]
+  ],
+  "タグ（tg: #x）": {
+   "errors": [],
+   "取引が残ったか": true,
+   "値": [
+    "str",
+    "'x'"
+   ]
+  },
+  "日本語のキー": {
+   "errors": [
+    "Invalid token: '患者:'"
+   ],
+   "取引が残ったか": false,
+   "値": null
+  },
+  "NULL（nv: NULL）": {
+   "errors": [],
+   "取引が残ったか": true,
+   "値": [
+    "NoneType",
+    "None"
+   ]
+  },
+  "大文字始まりのキー": {
+   "errors": [
+    "Invalid token: 'Payer:'"
+   ],
+   "取引が残ったか": false,
+   "値": null
+  },
+  "1文字のキー": {
+   "errors": [
+    "Invalid token: 'p:'"
+   ],
+   "取引が残ったか": false,
+   "値": null
+  },
+  "FALSE（bf: FALSE）": {
+   "errors": [],
+   "取引が残ったか": true,
+   "値": [
+    "bool",
+    "False"
+   ]
+  }
+ },
+ "seconds": 0.246
+}
+
+## B2_アダプタの出力と決定性
+{
+ "ok": true,
+ "result": {
+  "safe_load": {
+   "ok": true,
+   "stage": "loaded",
+   "errors": [],
+   "loaded_files": [
+    "main.beancount"
+   ],
+   "scanned_files": [
+    "main.beancount"
+   ],
+   "changed_after_scan": []
+  },
+  "出力": "scripts/results/IMPL_tools_beancount_probe/normalized_sample.json",
+  "出力の sha256": "b65fd97c8a4320db7fe62f76799c5d98b18c844cc3b694601f99aae9b860817f",
+  "別ディレクトリに写した台帳での出力の sha256": "b65fd97c8a4320db7fe62f76799c5d98b18c844cc3b694601f99aae9b860817f",
+  "同じか": true,
+  "problems": []
+ },
+ "seconds": 0.1
+}
+
+## B3_アダプタの検査
+{
+ "ok": true,
+ "result": {
+  "problems": [
+   {
+    "種類": "id の重複",
+    "id": "tx-2026-0001",
+    "場所": [
+     {
+      "file": "main.beancount",
+      "line": 8
+     },
+     {
+      "file": "main.beancount",
+      "line": 33
+     }
+    ]
+   },
+   {
+    "種類": "id が無いか文字列でない",
+    "場所": {
+     "file": "main.beancount",
+     "line": 39
+    }
+   },
+   {
+    "種類": "id が無いか文字列でない",
+    "場所": {
+     "file": "main.beancount",
+     "line": 44
+    }
+   },
+   {
+    "種類": "語彙に無いメタデータのキー",
+    "id": null,
+    "キー": "patiant"
+   },
+   {
+    "種類": "メタデータの型が違う",
+    "id": null,
+    "キー": "id",
+    "期待": "string",
+    "実際": [
+     "decimal"
+    ]
+   },
+   {
+    "種類": "document の txid が指す取引が無い",
+    "txid": "tx-9999-9999",
+    "場所": {
+     "file": "main.beancount",
+     "line": 49
+    }
+   }
+  ],
+  "load_errors": []
+ },
+ "seconds": 0.061
+}
+

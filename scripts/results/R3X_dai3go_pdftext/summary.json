@@ -1,0 +1,336 @@
+{
+ "aes_selftest": true,
+ "files": {
+  "kounen_tekiyou": {
+   "path": ".work/downloads/20261109-201314_R3X_dai3go_nenkin_gigi/kounen_tekiyou.pdf",
+   "sha256": "09ea323c76fc142713f7f10638299448dbb0ee2e2766de0c09b09a71a90a69f2",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 53,
+   "rows": 10350,
+   "fonts": [
+    "F2:Identity-H+ToUnicode",
+    "F3:WinAnsiEncoding",
+    "F4:WinAnsiEncoding"
+   ]
+  },
+  "kokunen_tekiyou": {
+   "path": ".work/downloads/20261109-201314_R3X_dai3go_nenkin_gigi/kokunen_tekiyou.pdf",
+   "sha256": "de53c9918f912a20d06a246b3a89e529ac61c2546520ed18fdfe460164ac9229",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 3,
+   "rows": 223,
+   "fonts": [
+    "C2_0:Identity-H+ToUnicode",
+    "None:?",
+    "TT0:WinAnsiEncoding+ToUnicode",
+    "TT1:WinAnsiEncoding+ToUnicode"
+   ]
+  },
+  "kokunen_hokenryo": {
+   "path": ".work/downloads/20261109-201314_R3X_dai3go_nenkin_gigi/kokunen_hokenryo.pdf",
+   "sha256": "d4d1c2c83241b642836f623cdc2427c995aa5927fc7df42fae26ac930531dc98",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 12,
+   "rows": 1998,
+   "fonts": [
+    "F2:Identity-H+ToUnicode",
+    "F3:WinAnsiEncoding",
+    "F4:WinAnsiEncoding"
+   ]
+  },
+  "c_0000086586": {
+   "path": ".work/downloads/20261109-201613_R3X_dai3go_mhlw_shiryo/c_0000086586.pdf",
+   "sha256": "45fb861814b5a97b10bab4520a8b270369204290555428f6c5470b3defef2d25",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 10,
+   "rows": 8216,
+   "fonts": [
+    "F2:Identity-H+ToUnicode",
+    "F3:WinAnsiEncoding",
+    "F5:Identity-H+ToUnicode",
+    "F6:Identity-H+ToUnicode",
+    "F7:Identity-H+ToUnicode"
+   ]
+  },
+  "c_0000086587": {
+   "path": ".work/downloads/20261109-201613_R3X_dai3go_mhlw_shiryo/c_0000086587.pdf",
+   "sha256": "f2a8b6049f0fe241b93dd47e4034499287178e3ed986807d81a593651678a261",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 36,
+   "rows": 1779,
+   "fonts": [
+    "F11:Identity-H+ToUnicode",
+    "F12:Identity-H+ToUnicode",
+    "F13:WinAnsiEncoding",
+    "F1:WinAnsiEncoding",
+    "F2:Identity-H+ToUnicode",
+    "F3:Identity-H+ToUnicode",
+    "F4:WinAnsiEncoding",
+    "F7:Identity-H+ToUnicode",
+    "F8:WinAnsiEncoding",
+    "F9:WinAnsiEncoding",
+    "None:?"
+   ]
+  },
+  "c_0000088039": {
+   "path": ".work/downloads/20261109-201613_R3X_dai3go_mhlw_shiryo/c_0000088039.pdf",
+   "sha256": "acbfff62e7d6b5d667719d8e6a049f39cd83437458ff1bd518130940194883b8",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 17,
+   "rows": 682,
+   "fonts": [
+    "F12:Identity-H+ToUnicode",
+    "F1:WinAnsiEncoding",
+    "F2:Identity-H+ToUnicode",
+    "F3:Identity-H+ToUnicode",
+    "F4:Identity-H+ToUnicode",
+    "F8:Identity-H+ToUnicode",
+    "F9:WinAnsiEncoding",
+    "None:?"
+   ]
+  },
+  "c_001743078": {
+   "path": ".work/downloads/20261109-201613_R3X_dai3go_mhlw_shiryo/c_001743078.pdf",
+   "sha256": "753b6cc65681e76b06c67810e88e401f0aa0023e1a1d4d1d9b9b19843d19a6ef",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 2,
+   "rows": 267,
+   "fonts": [
+    "F1:Identity-H+ToUnicode",
+    "F2:WinAnsiEncoding"
+   ]
+  },
+  "c_001745398": {
+   "path": ".work/downloads/20261109-201613_R3X_dai3go_mhlw_shiryo/c_001745398.pdf",
+   "sha256": "37e627f723d829e580aff7df6685c5990de4a540de76531e7f55f03fc88bc7b8",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 0,
+   "rows": 0,
+   "fonts": []
+  },
+  "c_001763351": {
+   "path": ".work/downloads/20261109-201613_R3X_dai3go_mhlw_shiryo/c_001763351.pdf",
+   "sha256": "5743bd2d41bf3e9726075f29b56b42db3b858f5a6aec6ff448c639401f922499",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 35,
+   "rows": 38437,
+   "fonts": [
+    "F1:Identity-H+ToUnicode"
+   ]
+  },
+  "s_2r98520000017893": {
+   "path": ".work/downloads/20261109-201613_R3X_dai3go_mhlw_shiryo/s_2r98520000017893.pdf",
+   "sha256": "07173ab7a0c829c391b9f9b5e30dbca9c3f1a70dc4481d53ec0fe35ae89cf9fb",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 2,
+   "rows": 38,
+   "fonts": [
+    "C2_0:Identity-H+ToUnicode"
+   ]
+  },
+  "s_2r9852000001789o": {
+   "path": ".work/downloads/20261109-201613_R3X_dai3go_mhlw_shiryo/s_2r9852000001789o.pdf",
+   "sha256": "90b9ee08b05b5371e3a28609f3288b86aaa2e665b7da91ddd9fcde922b75c22d",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 13,
+   "rows": 608,
+   "fonts": [
+    "C2_0:Identity-H+ToUnicode",
+    "C2_1:Identity-H+ToUnicode",
+    "TT0:WinAnsiEncoding"
+   ]
+  },
+  "s_2r9852000001q11t": {
+   "path": ".work/downloads/20261109-201613_R3X_dai3go_mhlw_shiryo/s_2r9852000001q11t.pdf",
+   "sha256": "fac62c3d497c2184f36fc53c276d383ca05e57b1ad9e69fb9736e80642a5c79f",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 35,
+   "rows": 3239,
+   "fonts": [
+    "F10:Identity-H+ToUnicode",
+    "F11:WinAnsiEncoding",
+    "F12:Identity-H+ToUnicode",
+    "F13:WinAnsiEncoding",
+    "F14:WinAnsiEncoding",
+    "F15:Identity-H+ToUnicode",
+    "F16:WinAnsiEncoding",
+    "F17:Identity-H+ToUnicode",
+    "F19:WinAnsiEncoding",
+    "F1:Identity-H+ToUnicode",
+    "F20:Identity-H+ToUnicode",
+    "F23:Identity-H+ToUnicode",
+    "F24:WinAnsiEncoding",
+    "F25:Identity-H+ToUnicode",
+    "F2:WinAnsiEncoding",
+    "F3:Identity-H+ToUnicode",
+    "F4:WinAnsiEncoding",
+    "F5:WinAnsiEncoding",
+    "F6:WinAnsiEncoding",
+    "F7:Identity-H+ToUnicode",
+    "F9:Identity-H+ToUnicode",
+    "None:?"
+   ]
+  },
+  "kentokai1_shiryo2": {
+   "path": ".work/downloads/20261109-173836_R2X_spouse_mhlw_kentokai_pdf/kentokai1_shiryo2.pdf",
+   "sha256": "a36904c4d855fa1768cdabafdfe9b53e950d461370eeb45a6cfc709b480ce37b",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 52,
+   "rows": 6690,
+   "fonts": [
+    "F10:Identity-H+ToUnicode",
+    "F11:Identity-H+ToUnicode",
+    "F12:Identity-H+ToUnicode",
+    "F13:WinAnsiEncoding",
+    "F14:Identity-H+ToUnicode",
+    "F15:Identity-H+ToUnicode",
+    "F16:WinAnsiEncoding",
+    "F17:WinAnsiEncoding",
+    "F18:WinAnsiEncoding",
+    "F19:Identity-H+ToUnicode",
+    "F1:WinAnsiEncoding",
+    "F20:WinAnsiEncoding",
+    "F21:Identity-H+ToUnicode",
+    "F22:WinAnsiEncoding",
+    "F23:Identity-H+ToUnicode",
+    "F24:Identity-H+ToUnicode",
+    "F25:WinAnsiEncoding",
+    "F26:WinAnsiEncoding",
+    "F27:WinAnsiEncoding",
+    "F28:Identity-H+ToUnicode",
+    "F29:Identity-H+ToUnicode",
+    "F2:Identity-H+ToUnicode",
+    "F30:WinAnsiEncoding",
+    "F31:Identity-H+ToUnicode",
+    "F3:Identity-H+ToUnicode",
+    "F4:WinAnsiEncoding",
+    "F5:WinAnsiEncoding",
+    "F6:Identity-H+ToUnicode",
+    "F7:WinAnsiEncoding",
+    "F8:WinAnsiEncoding",
+    "F9:WinAnsiEncoding"
+   ]
+  },
+  "shinsa_r02_03_06_04": {
+   "path": ".work/downloads/20261109-202351_R3X_dai3go_shinsakai/shinsa_r02_03_06_04.pdf",
+   "sha256": "b7b72252bb4979279e98a3919e868af23e0423705723e9de6719a664a614c9f2",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 4,
+   "rows": 340,
+   "fonts": [
+    "F0:Identity-H+ToUnicode"
+   ]
+  },
+  "shinsa_r02_03_06_11": {
+   "path": ".work/downloads/20261109-202351_R3X_dai3go_shinsakai/shinsa_r02_03_06_11.pdf",
+   "sha256": "931d690c90d90ac94862fa6d5290fcaed873c932871a30d61e588d9ba6c0a0d8",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 3,
+   "rows": 230,
+   "fonts": [
+    "F0:Identity-H+ToUnicode"
+   ]
+  },
+  "shinsa_r02_03_15_01": {
+   "path": ".work/downloads/20261109-202351_R3X_dai3go_shinsakai/shinsa_r02_03_15_01.pdf",
+   "sha256": "f5245cb5c81d50757709d295bf99af9614b4a55c6f0a802a0c1e74161ca50ba1",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 4,
+   "rows": 296,
+   "fonts": [
+    "F0:Identity-H+ToUnicode"
+   ]
+  },
+  "shinsa_r02_03_06_05": {
+   "path": ".work/downloads/20261111-023033_R3X_dai3go_shinsakai2/shinsa_r02_03_06_05.pdf",
+   "sha256": "08c48156e4e5aa33200e2b6d34486762d7513cdc9d1f3ca8c8a29250c7b8540e",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 5,
+   "rows": 534,
+   "fonts": [
+    "F0:Identity-H+ToUnicode"
+   ]
+  },
+  "shinsa_r04_05_07_02": {
+   "path": ".work/downloads/20261111-023134_R3X_dai3go_shinsakai3/shinsa_r04_05_07_02.pdf",
+   "sha256": "7da2fef0f8e9548640bdce5c61ef6b0510ff9a13329341a2a162211e6b024b96",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 2,
+   "rows": 169,
+   "fonts": [
+    "C0_0:Identity-H+ToUnicode",
+    "None:?"
+   ]
+  },
+  "shinsa_r02_03_06_10": {
+   "path": ".work/downloads/20261111-023134_R3X_dai3go_shinsakai3/shinsa_r02_03_06_10.pdf",
+   "sha256": "a5c281580767d219193823e94f28c4fc2e07d5ef155cd51d57e71546c31d0170",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 5,
+   "rows": 465,
+   "fonts": [
+    "F0:Identity-H+ToUnicode"
+   ]
+  },
+  "c_001746546": {
+   "path": ".work/downloads/20261111-023134_R3X_dai3go_shinsakai3/c_001746546.pdf",
+   "sha256": "a36904c4d855fa1768cdabafdfe9b53e950d461370eeb45a6cfc709b480ce37b",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 52,
+   "rows": 6690,
+   "fonts": [
+    "F10:Identity-H+ToUnicode",
+    "F11:Identity-H+ToUnicode",
+    "F12:Identity-H+ToUnicode",
+    "F13:WinAnsiEncoding",
+    "F14:Identity-H+ToUnicode",
+    "F15:Identity-H+ToUnicode",
+    "F16:WinAnsiEncoding",
+    "F17:WinAnsiEncoding",
+    "F18:WinAnsiEncoding",
+    "F19:Identity-H+ToUnicode",
+    "F1:WinAnsiEncoding",
+    "F20:WinAnsiEncoding",
+    "F21:Identity-H+ToUnicode",
+    "F22:WinAnsiEncoding",
+    "F23:Identity-H+ToUnicode",
+    "F24:Identity-H+ToUnicode",
+    "F25:WinAnsiEncoding",
+    "F26:WinAnsiEncoding",
+    "F27:WinAnsiEncoding",
+    "F28:Identity-H+ToUnicode",
+    "F29:Identity-H+ToUnicode",
+    "F2:Identity-H+ToUnicode",
+    "F30:WinAnsiEncoding",
+    "F31:Identity-H+ToUnicode",
+    "F3:Identity-H+ToUnicode",
+    "F4:WinAnsiEncoding",
+    "F5:WinAnsiEncoding",
+    "F6:Identity-H+ToUnicode",
+    "F7:WinAnsiEncoding",
+    "F8:WinAnsiEncoding",
+    "F9:WinAnsiEncoding"
+   ]
+  }
+ }
+}

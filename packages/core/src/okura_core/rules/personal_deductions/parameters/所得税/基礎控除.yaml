@@ -1,0 +1,132 @@
+description: 基礎控除（所得税法第86条第1項）。居住者の合計所得金額の区分（第1号〜第4号）と額。2,500万円を超えると控除はない。
+第1号:
+  上限:
+    description: 第1号の区分の上限（合計所得金額がこの額以下）
+    metadata:
+      law: 所得税法第86条第1項第1号
+      source_kind: 法律
+      unit: 円
+      比較: 以下
+      reference:
+        - docs/public-sources/20261109_round2_gaps-sources.md#4.1
+        - docs/public-sources/20261109_R1-laws_income-tax.md#2
+    values:
+      2025-01-01:
+        value: 23500000
+        metadata:
+          施行日: 2025-12-01
+          適用: 令和7年分以後（令和7年法律第13号附則第7条）
+          law_revision: 340AC0000000033_20251218_507AC0000000013
+  額:
+    description: 第1号の控除額
+    metadata:
+      law: 所得税法第86条第1項第1号
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round2_gaps-sources.md#4.1
+        - docs/public-sources/20261109_R1-laws_income-tax.md#2
+        - docs/measurements/20261109_R1-laws_article-extraction.md#3
+    values:
+      2025-01-01:
+        value: 580000
+        metadata:
+          施行日: 2025-12-01
+          適用: 令和7年分以後（令和7年法律第13号附則第7条）
+          law_revision: 340AC0000000033_20251218_507AC0000000013
+      2026-01-01:
+        value: 620000
+        metadata:
+          施行日: 2026-12-01
+          適用: 令和8年分以後（令和8年法律第12号附則第9条）
+          law_revision: 340AC0000000033_20261201_508AC0000000012
+第2号:
+  上限:
+    description: 第2号の区分の上限（2,350万円を超え、この額以下）
+    metadata:
+      law: 所得税法第86条第1項第2号
+      source_kind: 法律
+      unit: 円
+      比較: 以下
+      reference:
+        - docs/public-sources/20261109_round2_gaps-sources.md#4.1
+    values:
+      2025-01-01:
+        value: 24000000
+        metadata:
+          施行日: 2025-12-01
+          適用: 令和7年分以後。令和8年分も同じ（gaps §4.1 の表）
+  額:
+    description: 第2号の控除額
+    metadata:
+      law: 所得税法第86条第1項第2号
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round2_gaps-sources.md#4.1
+    values:
+      2025-01-01:
+        value: 480000
+        metadata:
+          施行日: 2025-12-01
+          適用: 令和7年分以後。令和8年分も同じ（gaps §4.1 の表）
+第3号:
+  上限:
+    description: 第3号の区分の上限（2,400万円を超え、この額以下）
+    metadata:
+      law: 所得税法第86条第1項第3号
+      source_kind: 法律
+      unit: 円
+      比較: 以下
+      reference:
+        - docs/public-sources/20261109_round2_gaps-sources.md#4.1
+    values:
+      2025-01-01:
+        value: 24500000
+        metadata:
+          施行日: 2025-12-01
+          適用: 令和7年分以後。令和8年分も同じ
+  額:
+    description: 第3号の控除額
+    metadata:
+      law: 所得税法第86条第1項第3号
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round2_gaps-sources.md#4.1
+    values:
+      2025-01-01:
+        value: 320000
+        metadata:
+          施行日: 2025-12-01
+          適用: 令和7年分以後。令和8年分も同じ
+第4号:
+  上限:
+    description: 第4号の区分の上限（2,450万円を超え、この額以下）。この額を超える居住者には基礎控除がない（第1項の柱書）
+    metadata:
+      law: 所得税法第86条第1項柱書・第4号
+      source_kind: 法律
+      unit: 円
+      比較: 以下
+      reference:
+        - docs/public-sources/20261109_round2_gaps-sources.md#4.1
+    values:
+      2025-01-01:
+        value: 25000000
+        metadata:
+          施行日: 2025-12-01
+          適用: 令和7年分以後。令和8年分も同じ
+  額:
+    description: 第4号の控除額
+    metadata:
+      law: 所得税法第86条第1項第4号
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round2_gaps-sources.md#4.1
+    values:
+      2025-01-01:
+        value: 160000
+        metadata:
+          施行日: 2025-12-01
+          適用: 令和7年分以後。令和8年分も同じ

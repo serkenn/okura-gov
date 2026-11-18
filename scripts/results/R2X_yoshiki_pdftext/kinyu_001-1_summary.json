@@ -1,0 +1,47 @@
+{
+ "file": "009_www.nta.go.jp_taxes_shiraberu_shinkoku_tebiki_2025_pdf_001-1.pdf",
+ "sha256": "15f1874c67264a5b8d87ed8800f37e9f527e96a46ec6fda5239f00f82a503a99",
+ "bytes": 147974,
+ "aes_selftest": true,
+ "encrypted": true,
+ "V": 4,
+ "R": 4,
+ "P": -1068,
+ "aes": true,
+ "key_len": 16,
+ "key_ok": true,
+ "encrypt_obj": 44,
+ "n_objects": 44,
+ "pages": [
+  {
+   "page": 1,
+   "obj": 10,
+   "mediabox": [
+    "0",
+    "0",
+    "595.22",
+    "842"
+   ],
+   "content_bytes": 11276,
+   "n_text_runs": 87,
+   "xobjects": []
+  },
+  {
+   "page": 2,
+   "obj": 11,
+   "mediabox": [
+    "0",
+    "0",
+    "595.22",
+    "842"
+   ],
+   "content_bytes": 10119,
+   "n_text_runs": 87,
+   "xobjects": []
+  }
+ ],
+ "form_ids": [],
+ "titles_in_dicts": [],
+ "n_rows": 174,
+ "n_codes": 0
+}

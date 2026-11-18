@@ -1,0 +1,68 @@
+{
+ "claims_ng": [],
+ "identities_ok": true,
+ "reachability": {
+  "令和7年度分": 54,
+  "令和8年度分": 0,
+  "令和9年度分": 0
+ },
+ "haigusha_tokubetsu_text_ok": true,
+ "examples": [
+  {
+   "name": "名古屋市 令和8年度",
+   "ok": true,
+   "result": {
+    "city": 109800,
+    "pref": 29400,
+    "total": 140200
+   }
+  },
+  {
+   "name": "横浜市 令和8年度",
+   "ok": true,
+   "result": {
+    "city": 196800,
+    "pref": 50100,
+    "total": 247900
+   }
+  },
+  {
+   "name": "仮の例A",
+   "ok": true,
+   "result": {
+    "city": 150900,
+    "pref": 99600,
+    "total": 251500
+   }
+  },
+  {
+   "name": "仮の例B",
+   "ok": true,
+   "result": {
+    "city": 69900,
+    "pref": 45600,
+    "total": 116500
+   }
+  },
+  {
+   "name": "仮の例C",
+   "ok": true,
+   "result": {
+    "city": 3600,
+    "pref": 1400,
+    "total": 6000
+   }
+  }
+ ],
+ "rounding_diff": {
+  "P1": 15,
+  "P2": 225,
+  "P3": 68
+ },
+ "rounding_maxdiff": {
+  "P1": 100,
+  "P2": 200,
+  "P3": 200
+ },
+ "municipal_checks_ok": true
+}

@@ -1,0 +1,52 @@
+# R2X_gaps_verify の照合結果（scripts/R2X_gaps_verify.py check の出力）
+
+- e-Gov の版（［M］§2、16 件）：law_revision_id・状態・施行日が一致しないもの 0 件。生データの SHA-256（先頭16桁）が一致したもの 8 件
+  - shotoku 2025-12-31: rev=True status=True 施行日 claim=2025-12-18 mine=2025-12-18 sha claim=84a2235cb4437184 mine=84a2235cb4437184
+  - shotoku 2026-12-31: rev=True status=True 施行日 claim=2026-12-01 mine=2026-12-01 sha claim=47792299f0fb5a74 mine=47792299f0fb5a74
+  - shotoku 2027-01-01: rev=True status=True 施行日 claim=2027-01-01 mine=2027-01-01 sha claim=d4bf435220bc0b0c mine=d4bf435220bc0b0c
+  - shotoku-ki 2026-11-09: rev=True status=True 施行日 claim=2026-10-01 mine=2026-10-01 sha claim=8721699516ac8202 mine=8721699516ac8202
+  - shotoku-ki 2026-12-31: rev=True status=True 施行日 claim=2026-12-11 mine=2026-12-11 sha claim=9ba37bf34afed1f9 mine=9ba37bf34afed1f9
+  - shotoku-ki 2027-01-01: rev=True status=True 施行日 claim=2027-01-01 mine=2027-01-01 sha claim=1600117df38c4463 mine=1600117df38c4463
+  - sochi 2024-12-31: rev=True status=True 施行日 claim=2024-11-08 mine=2024-11-08 sha claim=696d301305f4cf8c mine=523e5c30398b6543
+  - sochi 2025-12-31: rev=True status=True 施行日 claim=2025-12-31 mine=2025-12-31 sha claim=ef95d90f7bf57e18 mine=b8e90e74c48d7329
+  - sochi 2026-12-31: rev=True status=True 施行日 claim=None mine=None sha claim=763fce2df2b1e709 mine=7b8e7e8b2d920259
+  - sochi 2027-01-01: rev=True status=True 施行日 claim=2027-01-01 mine=2027-01-01 sha claim=8c6ee577201c3be0 mine=20644ced9d0f7f06
+  - sochi-rei 2025-12-31: rev=True status=True 施行日 claim=2025-12-31 mine=2025-12-31 sha claim=a3f62b67c672c552 mine=0f7b14a7fe648285
+  - sochi-rei 2026-12-31: rev=True status=True 施行日 claim=2026-12-01 mine=2026-12-01 sha claim=cc9aa8b1a0a429fb mine=65938d5ba7c4130e
+  - sochi-ki 2025-12-31: rev=True status=True 施行日 claim=2025-12-31 mine=2025-12-31 sha claim=e61bd52d88b1484a mine=093ea211434e10ae
+  - sochi-ki 2026-12-31: rev=True status=True 施行日 claim=None mine=None sha claim=03b356f8297e93b7 mine=cd6778b74ff9a4b7
+  - chiho 2026-01-01: rev=True status=True 施行日 claim=2026-01-01 mine=2026-01-01 sha claim=ba0a40e550be7762 mine=ba0a40e550be7762
+  - chiho 2027-01-01: rev=True status=True 施行日 claim=2027-01-01 mine=2027-01-01 sha claim=ee21722ce5fd1561 mine=ee21722ce5fd1561
+- law_id の引き直し：[('shotoku', '340AC0000000033', '昭和四十年法律第三十三号', True), ('shotoku-rei', '340CO0000000096', '昭和四十年政令第九十六号', True), ('shotoku-ki', '340M50000040011', '昭和四十年大蔵省令第十一号', True), ('sochi', '332AC0000000026', '昭和三十二年法律第二十六号', True), ('sochi-rei', '332CO0000000043', '昭和三十二年政令第四十三号', True), ('sochi-ki', '332M50000040015', '昭和三十二年大蔵省令第十五号', True), ('chiho', '325AC0000000226', '昭和二十五年法律第二百二十六号', True)]
+- 施行日 2027-01-01 の版の改正法令：{'shotoku': ['令和七年法律第十三号', '令和五年法律第三号', '令和八年法律第十二号', '令和六年法律第八号'], 'shotoku-ki': ['令和七年財務省令第十八号', '令和五年財務省令第十二号', '令和八年財務省令第十七号']}
+- 条文の引用（主張×版）：113 件中 一致 113 件
+- 条文の機械的な確認：
+  - 41_3_11_sha: {"2024-12-31": "7788a8dc17d12199", "2025-12-31": "7788a8dc17d12199", "2026-12-31": "7788a8dc17d12199", "2027-01-01": "afa55bd76cedc5a8"}
+  - 41_3_11_same_2024_2026: true
+  - 41_3_11_has_hasu: {"2024-12-31": false, "2025-12-31": false, "2026-12-31": false, "2027-01-01": false}
+  - 41_3_11_yen_in_order: ["八百五十万", "千万", "千万", "八百五十万", "十万", "十万", "十万", "十万", "十万", "十万"]
+  - 41_3_11_hyakubun_no_ju: true
+  - 41_3_11_paragraphs_changed_2026_vs_2027: [4]
+  - 41_3_11_items_changed_p4: [6]
+  - sochi-rei_2025-12-31: {"端数を含む条の数（本則・原始附則）": 43, "所得金額調整控除": [["本則", "26_5"]], "第四十一条の三の十一": [["本則", "5_3"], ["本則", "26_5"]], "第四十一条の三の三": [["本則", "5_3"], ["本則", "26_4_2"], ["本則", "26_4_3"]], "上の3語のいずれかを含む条のうち端数を含む条": [["本則", "5_3"]], "19_4_2 があるか": false}
+  - sochi-ki_2025-12-31: {"所得金額調整控除": [["本則", "18_23_5"], ["本則", "18_23_6"], ["本則", "18_23_8"]], "所得金額調整控除＋端数": [], "texts_sha": {"18_23_3": "7051b28568134715", "18_23_5": "4d2b3662053a3caf", "18_23_6": "4cc4814a23edb50b", "18_23_8": "be36b4ead39f22f6"}}
+  - sochi-rei_2026-12-31: {"端数を含む条の数（本則・原始附則）": 45, "所得金額調整控除": [["本則", "26_5"]], "第四十一条の三の十一": [["本則", "5_3"], ["本則", "19_4_2"], ["本則", "26_5"]], "第四十一条の三の三": [["本則", "5_3"], ["本則", "26_4_2"], ["本則", "26_4_3"]], "上の3語のいずれかを含む条のうち端数を含む条": [["本則", "5_3"]], "19_4_2 があるか": true}
+  - sochi-ki_2026-12-31: {"所得金額調整控除": [["本則", "18_23_5"], ["本則", "18_23_6"], ["本則", "18_23_8"]], "所得金額調整控除＋端数": [], "texts_sha": {"18_23_3": "7051b28568134715", "18_23_5": "4d2b3662053a3caf", "18_23_6": "4cc4814a23edb50b", "18_23_8": "be36b4ead39f22f6"}}
+  - chiho_2026-01-01_raw_counts: {"所得金額調整控除": 0, "四十一条の三の十一": 0}
+  - chiho_2027-01-01_raw_counts: {"所得金額調整控除": 0, "四十一条の三の十一": 0}
+  - shotoku_2025-12-31_kinro_hits: [["本則", "2", "勤労に基づ"]]
+  - shotoku_2026-12-31_kinro_hits: [["本則", "2", "勤労に基づ"]]
+  - shotoku_2027-01-01_kinro_hits: [["本則", "2", "勤労に基づ"]]
+  - shotoku_changed_2025_vs_2026_selected: ["86 1/1", "120 4/2", "2 1/32"]
+  - shotoku_120_4_2_texts: ["期高齢者医療広域連合又は社会保険診療報酬支払基金若しくは国民健康保険法第四十五条第五項（保険医療機関等の診療報酬）に規定する国民健康保険団体連合会の当該居住者が", "期高齢者医療広域連合又は医療情報基盤・診療報酬審査支払機構若しくは国民健康保険法第四十五条第五項（保険医療機関等の診療報酬）に規定する国民健康保険団体連合会の当"]
+  - 47_3_items_same: true
+  - 47_3_R8K17_1_2_mentions_47_3: false
+- 公表資料の取得（［M］§3、42 件）：ステータス・Last-Modified・SHA-256 のどれかが一致しないもの 1 件
+  - {'id': 'kyoukai_faq_dependent_status', 'status_ok': True, 'lm_claim': None, 'lm_mine': None, 'lm_ok': True, 'sha_claim': 'e1a2aea39c610220', 'sha_mine': '72b832049ea96ead', 'sha_ok': False, 'robots_allowed': True}
+- robots.txt：{'www.nta.go.jp': {'claim': 200, 'mine': 200}, 'www.keisan.nta.go.jp': {'claim': 404, 'mine': 404}, 'www.nenkin.go.jp': {'claim': 200, 'mine': 200}, 'www.mhlw.go.jp': {'claim': 200, 'mine': 200}, 'www.soumu.go.jp': {'claim': 200, 'mine': 200}, 'www.kyoukaikenpo.or.jp': {'claim': 404, 'mine': 404}, 'web.archive.org': {'claim': 404, 'mine': 404}, 'laws.e-gov.go.jp': {'claim': None, 'mine': 200}}
+- 公表資料の引用：23 件中 一致 23 件
+- 公表資料の機械的な確認：{"00tc5007_blocks": 6, "00tc5007_items_per_block": [4, 4, 0, 4, 0, 4], "00tc5007_items_same_in_blocks_with_items": true, "00tc5007_has_haishi_shikko": [], "00tc5958_mentions_R2_0410": 4, "C1_counts_mine": {"ta_1175": {"勤労": 13, "net": 0, "both": 0}, "kihon_01_07": {"勤労": 2, "net": 0, "both": 0}, "tebiki_r07_3_3_15": {"勤労": 4, "net": 0, "both": 0}, "nencho2025_qa": {"勤労": 3, "net": 0, "both": 0}, "nencho2026_qa": {"勤労": 3, "net": 0, "both": 0}, "keisan_r7_kinro_cid472": {"勤労": 12, "net": 0, "both": 0}, "tokushu_chui": {"勤労": 0, "net": 1, "both": 0}, "ta_1500": {"勤労": 0, "net": 0, "both": 0}, "kihon_04_09": {"勤労": 0, "net": 0, "both": 0}}, "ta1810_labels": {"ta_1810": "令和8年4月1日現在法令等", "wa_ta_1810_20241105": "令和6年4月1日現在法令等", "wa_ta_1810_20250317": "令和6年4月1日現在法令等", "wa_ta_1810_20251105": "令和7年4月1日現在法令等", "wa_ta_1810_20260915": "令和8年4月1日現在法令等"}, "wa_20260915_eq_current": true, "shitsugi_shotoku_index": {"勤労": 0, "学生": 0, "所得控除の節がある": true}, "web2": [{"id": "nta_qa_r7_kiso_0025005_051", "status": 200, "last_modified": "Fri, 30 May 2025 08:26:01 GMT", "sha16": "af377dfb7700cb28"}, {"id": "nta_qa_r8_kiso_0026005_024", "status": 200, "last_modified": "Fri, 29 May 2026 08:30:02 GMT", "sha16": "a3c12744dbed64e7"}, {"id": "ta_1810_pdf", "status": 200, "last_modified": "Thu, 06 Feb 2025 05:00:01 GMT", "sha16": "288f56f21a83986d"}], "web3": [{"id": "shitsugi_shotoku_index", "status": 200, "last_modified": "Wed, 03 Dec 2025 08:31:08 GMT", "sha16": "265c6c375a970b70"}]}
+- CDX：{"rows": 17, "first": "20190719082907", "last": "20260915033802", "n301": 2, "distinct_digests": 15, "distinct_digests_200": 14, "repeated_digests": ["3FH7G6PETSDDYLMGTLQY2UDHDOS23FXX", "WMCR2F5G5SGJ4FTL6CNGFNECMGVYNFL3"]}
+- 計算：{"C2_R7": {"特例額": 650000, "扶養の要件": 580000, "低い段階の基礎控除": 950000, "扶養の上限（総収入）": 1230000, "本人非課税の上限（総収入）": 1600000, "特定親族の上限（総収入）": 1880000}, "C2_R8": {"特例額": 690000, "扶養の要件": 620000, "低い段階の基礎控除": 1040000, "扶養の上限（総収入）": 1310000, "本人非課税の上限（総収入）": 1730000, "特定親族の上限（総収入）": 1920000}, "C2_R7_1600000": {"合計所得金額": 950000, "扶養親族": false, "特定親族（19〜22歳）": true, "本人非課税": true}, "C3_item1": {"8500000": [0, 0], "8500001": [1, 0], "8500005": [1, 0], "8500010": [1, 1], "9000000": [50000, 50000], "9999999": [150000, 149999], "10000000": [150000, 150000], "12000000": [150000, 150000]}, "C3_item2": {"50000,40000": 0, "50000,80000": 30000, "200000,300000": 100000, "100000,1": 1, "0,500000": 0}, "IG4": {"R7:23500000": 580000, "R7:23500001": 480000, "R7:24000000": 480000, "R7:24000001": 320000, "R7:24500000": 320000, "R7:24500001": 160000, "R7:25000000": 160000, "R7:25000001": 0, "R8:23500000": 620000, "R8:23500001": 480000, "R8:24000000": 480000, "R8:24000001": 320000, "R8:24500000": 320000, "R8:24500001": 160000, "R8:25000000": 160000, "R8:25000001": 0}, "IG4_drop": {"R7": 100000, "R8": 140000}, "IG4_salary": {"25,450,000": 23500000, "25,450,001": 23500001}, "IG1": {"給与所得（令和8年分）": 560000, "合計所得金額": 710000, "89万円以下": true, "基礎控除": 1040000, "課税総所得（基礎控除だけ）": 0, "令和7年分の給与所得（参考：別表第五 1,900,000円未満は収入−650,000）": 650000}, "IG2": {"合計所得金額": 850000, "扶養親族": false, "特定親族特別控除（85万円以下）": 630000, "境目R7": [[1230000, true], [1230001, false]], "境目R8": [[1310000, true], [1310001, false]]}, "IG3": {"A": 50000, "B": 100000, "C_給与所得": 60000, "C_調整控除": 60000, "C_給与所得（控除後）": 0, "C_総所得金額": 200000}, "IG6": {"直近12か月": 1350000, "直近3か月×4": 3600000, "150万÷12": 125000.0}}
+- 参照先の文書：16/16 件で文言を確認
+- 規約：{"docs/hypotheses/20261109_round2_gaps-hypotheses.md": {"http_urls": []}, "docs/inferences/20261109_round2_gaps-inferences.md": {"http_urls": []}}

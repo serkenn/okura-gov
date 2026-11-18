@@ -1,0 +1,192 @@
+{
+ "所得税": {
+  "n_tokens": 21,
+  "tokens": [
+   "所得税.上場株式等に係る譲渡所得等の金額",
+   "所得税.上場株式等に係る配当所得等の金額",
+   "所得税.不動産所得の金額",
+   "所得税.事業所得.総収入金額",
+   "所得税.事業所得の金額",
+   "所得税.公的年金等に係る雑所得以外の合計所得金額",
+   "所得税.勤労学生.給与所得等以外の所得",
+   "所得税.合計所得金額",
+   "所得税.同居老親等",
+   "所得税.国外居住親族",
+   "所得税.国外居住親族の書類の充足",
+   "所得税.国外送金の年合計",
+   "所得税.控除対象扶養親族",
+   "所得税.控除対象扶養親族.非居住者の区分",
+   "所得税.損益通算の対象となる不動産所得の損失",
+   "所得税.申告不要の判定.その他の所得金額",
+   "所得税.総所得金額",
+   "所得税.総所得金額等",
+   "所得税.老人扶養親族",
+   "所得税.配偶者",
+   "所得税.非居住者である親族"
+  ],
+  "files": [
+   "docs/hypotheses/20261109_round2_elderly-abroad-model.md",
+   "docs/hypotheses/20261109_round2_spouse-model.md",
+   "docs/hypotheses/20261109_round2_yoshiki-mapping-table.md",
+   "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md",
+   "docs/hypotheses/20261109_round2b_kabu-model.md",
+   "docs/hypotheses/20261109_round2b_nenkin-model.md",
+   "docs/hypotheses/20261109_round2b_taishoku-model.md",
+   "docs/inferences/20261109_round2b_kabu-scenarios.md"
+  ]
+ },
+ "健保": {
+  "n_tokens": 7,
+  "tokens": [
+   "健保.60歳の判定時点",
+   "健保.収入基準.60歳以上",
+   "健保.国内居住要件",
+   "健保.年間収入",
+   "健保.年間収入.不動産",
+   "健保.後期高齢者の除外",
+   "健保.配偶者"
+  ],
+  "files": [
+   "docs/hypotheses/20261109_round2_elderly-abroad-model.md",
+   "docs/hypotheses/20261109_round2_spouse-model.md",
+   "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md",
+   "docs/hypotheses/20261109_round2b_kabu-model.md",
+   "docs/hypotheses/20261109_round2b_nenkin-model.md",
+   "docs/hypotheses/20261109_round2b_taishoku-model.md",
+   "docs/inferences/20261109_round2b_kabu-scenarios.md"
+  ]
+ },
+ "住民税": {
+  "n_tokens": 6,
+  "tokens": [
+   "住民税.合計所得金額",
+   "住民税.同居直系尊属",
+   "住民税.国外居住者",
+   "住民税.総所得金額等",
+   "住民税.老人扶養親族",
+   "住民税.配偶者"
+  ],
+  "files": [
+   "docs/hypotheses/20261109_round2_elderly-abroad-model.md",
+   "docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md",
+   "docs/hypotheses/20261109_round2_spouse-model.md",
+   "docs/hypotheses/20261109_round2b_kabu-model.md",
+   "docs/hypotheses/20261109_round2b_nenkin-model.md",
+   "docs/hypotheses/20261109_round2b_taishoku-model.md"
+  ]
+ },
+ "国保": {
+  "n_tokens": 6,
+  "tokens": [
+   "国保.世帯",
+   "国保.基礎控除後の総所得金額等",
+   "国保.納付義務者",
+   "国保.給与所得者等の数",
+   "国保.被保険者数",
+   "国保.軽減判定所得"
+  ],
+  "files": [
+   "docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md",
+   "docs/hypotheses/20261109_round2b_kabu-model.md"
+  ]
+ },
+ "判断": {
+  "n_tokens": 4,
+  "tokens": [
+   "判断.住所の所在",
+   "判断.例外第5号",
+   "判断.円換算の方法",
+   "判断.同居を常況"
+  ],
+  "files": [
+   "docs/hypotheses/20261109_round2_elderly-abroad-model.md"
+  ]
+ },
+ "国年": {
+  "n_tokens": 3,
+  "tokens": [
+   "国年.一部免除判定所得",
+   "国年.免除判定所得",
+   "国年.配偶者"
+  ],
+  "files": [
+   "docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md",
+   "docs/hypotheses/20261109_round2_spouse-model.md"
+  ]
+ },
+ "端数": {
+  "n_tokens": 2,
+  "tokens": [
+   "端数.事業専従者控除の除算",
+   "端数.土地等負債の按分"
+  ],
+  "files": [
+   "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md"
+  ]
+ },
+ "解釈": {
+  "n_tokens": 2,
+  "tokens": [
+   "解釈.勤労学生の給与所得等以外の部分",
+   "解釈.所法56の対象"
+  ],
+  "files": [
+   "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md",
+   "docs/inferences/20261109_round2b_fudosan-inferences.md"
+  ]
+ },
+ "periods": {
+  "n_tokens": 1,
+  "tokens": [
+   "periods.period(年).stop"
+  ],
+  "files": [
+   "docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md"
+  ]
+ },
+ "所得金額調整控除": {
+  "n_tokens": 1,
+  "tokens": [
+   "所得金額調整控除.第1項の端数＝1円未満切上げ"
+  ],
+  "files": [
+   "docs/hypotheses/20261109_round2_gaps-hypotheses.md"
+  ]
+ },
+ "同一生計配偶者": {
+  "n_tokens": 1,
+  "tokens": [
+   "同一生計配偶者.所得上限"
+  ],
+  "files": [
+   "docs/hypotheses/20261109_round2_spouse-model.md"
+  ]
+ },
+ "第83条の2": {
+  "n_tokens": 1,
+  "tokens": [
+   "第83条の2.超過額の切下げ(超過額)"
+  ],
+  "files": [
+   "docs/hypotheses/20261109_round2_spouse-model.md"
+  ]
+ },
+ "基準": {
+  "n_tokens": 1,
+  "tokens": [
+   "基準.事業的規模の推定"
+  ],
+  "files": [
+   "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md"
+  ]
+ },
+ "公的年金等控除": {
+  "n_tokens": 1,
+  "tokens": [
+   "公的年金等控除.その他の合計所得金額"
+  ],
+  "files": [
+   "docs/hypotheses/20261109_round2b_nenkin-model.md"
+  ]
+ }
+}

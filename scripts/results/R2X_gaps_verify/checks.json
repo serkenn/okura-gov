@@ -1,0 +1,2557 @@
+{
+ "egov_meta": [
+  {
+   "short": "shotoku",
+   "asof": "2025-12-31",
+   "rev_ok": true,
+   "status_ok": true,
+   "enf_claim": "2025-12-18",
+   "enf_mine": "2025-12-18",
+   "enf_ok": true,
+   "sha_claim": "84a2235cb4437184",
+   "sha_mine": "84a2235cb4437184",
+   "with_amend_suppl": true
+  },
+  {
+   "short": "shotoku",
+   "asof": "2026-12-31",
+   "rev_ok": true,
+   "status_ok": true,
+   "enf_claim": "2026-12-01",
+   "enf_mine": "2026-12-01",
+   "enf_ok": true,
+   "sha_claim": "47792299f0fb5a74",
+   "sha_mine": "47792299f0fb5a74",
+   "with_amend_suppl": true
+  },
+  {
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "rev_ok": true,
+   "status_ok": true,
+   "enf_claim": "2027-01-01",
+   "enf_mine": "2027-01-01",
+   "enf_ok": true,
+   "sha_claim": "d4bf435220bc0b0c",
+   "sha_mine": "d4bf435220bc0b0c",
+   "with_amend_suppl": true
+  },
+  {
+   "short": "shotoku-ki",
+   "asof": "2026-11-09",
+   "rev_ok": true,
+   "status_ok": true,
+   "enf_claim": "2026-10-01",
+   "enf_mine": "2026-10-01",
+   "enf_ok": true,
+   "sha_claim": "8721699516ac8202",
+   "sha_mine": "8721699516ac8202",
+   "with_amend_suppl": true
+  },
+  {
+   "short": "shotoku-ki",
+   "asof": "2026-12-31",
+   "rev_ok": true,
+   "status_ok": true,
+   "enf_claim": "2026-12-11",
+   "enf_mine": "2026-12-11",
+   "enf_ok": true,
+   "sha_claim": "9ba37bf34afed1f9",
+   "sha_mine": "9ba37bf34afed1f9",
+   "with_amend_suppl": true
+  },
+  {
+   "short": "shotoku-ki",
+   "asof": "2027-01-01",
+   "rev_ok": true,
+   "status_ok": true,
+   "enf_claim": "2027-01-01",
+   "enf_mine": "2027-01-01",
+   "enf_ok": true,
+   "sha_claim": "1600117df38c4463",
+   "sha_mine": "1600117df38c4463",
+   "with_amend_suppl": true
+  },
+  {
+   "short": "sochi",
+   "asof": "2024-12-31",
+   "rev_ok": true,
+   "status_ok": true,
+   "enf_claim": "2024-11-08",
+   "enf_mine": "2024-11-08",
+   "enf_ok": true,
+   "sha_claim": "696d301305f4cf8c",
+   "sha_mine": "523e5c30398b6543",
+   "with_amend_suppl": false
+  },
+  {
+   "short": "sochi",
+   "asof": "2025-12-31",
+   "rev_ok": true,
+   "status_ok": true,
+   "enf_claim": "2025-12-31",
+   "enf_mine": "2025-12-31",
+   "enf_ok": true,
+   "sha_claim": "ef95d90f7bf57e18",
+   "sha_mine": "b8e90e74c48d7329",
+   "with_amend_suppl": false
+  },
+  {
+   "short": "sochi",
+   "asof": "2026-12-31",
+   "rev_ok": true,
+   "status_ok": true,
+   "enf_claim": null,
+   "enf_mine": null,
+   "enf_ok": true,
+   "sha_claim": "763fce2df2b1e709",
+   "sha_mine": "7b8e7e8b2d920259",
+   "with_amend_suppl": false
+  },
+  {
+   "short": "sochi",
+   "asof": "2027-01-01",
+   "rev_ok": true,
+   "status_ok": true,
+   "enf_claim": "2027-01-01",
+   "enf_mine": "2027-01-01",
+   "enf_ok": true,
+   "sha_claim": "8c6ee577201c3be0",
+   "sha_mine": "20644ced9d0f7f06",
+   "with_amend_suppl": false
+  },
+  {
+   "short": "sochi-rei",
+   "asof": "2025-12-31",
+   "rev_ok": true,
+   "status_ok": true,
+   "enf_claim": "2025-12-31",
+   "enf_mine": "2025-12-31",
+   "enf_ok": true,
+   "sha_claim": "a3f62b67c672c552",
+   "sha_mine": "0f7b14a7fe648285",
+   "with_amend_suppl": false
+  },
+  {
+   "short": "sochi-rei",
+   "asof": "2026-12-31",
+   "rev_ok": true,
+   "status_ok": true,
+   "enf_claim": "2026-12-01",
+   "enf_mine": "2026-12-01",
+   "enf_ok": true,
+   "sha_claim": "cc9aa8b1a0a429fb",
+   "sha_mine": "65938d5ba7c4130e",
+   "with_amend_suppl": false
+  },
+  {
+   "short": "sochi-ki",
+   "asof": "2025-12-31",
+   "rev_ok": true,
+   "status_ok": true,
+   "enf_claim": "2025-12-31",
+   "enf_mine": "2025-12-31",
+   "enf_ok": true,
+   "sha_claim": "e61bd52d88b1484a",
+   "sha_mine": "093ea211434e10ae",
+   "with_amend_suppl": false
+  },
+  {
+   "short": "sochi-ki",
+   "asof": "2026-12-31",
+   "rev_ok": true,
+   "status_ok": true,
+   "enf_claim": null,
+   "enf_mine": null,
+   "enf_ok": true,
+   "sha_claim": "03b356f8297e93b7",
+   "sha_mine": "cd6778b74ff9a4b7",
+   "with_amend_suppl": false
+  },
+  {
+   "short": "chiho",
+   "asof": "2026-01-01",
+   "rev_ok": true,
+   "status_ok": true,
+   "enf_claim": "2026-01-01",
+   "enf_mine": "2026-01-01",
+   "enf_ok": true,
+   "sha_claim": "ba0a40e550be7762",
+   "sha_mine": "ba0a40e550be7762",
+   "with_amend_suppl": true
+  },
+  {
+   "short": "chiho",
+   "asof": "2027-01-01",
+   "rev_ok": true,
+   "status_ok": true,
+   "enf_claim": "2027-01-01",
+   "enf_mine": "2027-01-01",
+   "enf_ok": true,
+   "sha_claim": "ee21722ce5fd1561",
+   "sha_mine": "ee21722ce5fd1561",
+   "with_amend_suppl": true
+  }
+ ],
+ "revisions": {
+  "shotoku": [
+   "令和七年法律第十三号",
+   "令和五年法律第三号",
+   "令和八年法律第十二号",
+   "令和六年法律第八号"
+  ],
+  "shotoku-ki": [
+   "令和七年財務省令第十八号",
+   "令和五年財務省令第十二号",
+   "令和八年財務省令第十七号"
+  ]
+ },
+ "law": [
+  {
+   "id": "L01",
+   "doc": "M C1・PS 1.1",
+   "desc": "所法2①三十二 の「自己の勤労に基づいて得た…」と10万円の要件（3版）",
+   "short": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L01",
+   "doc": "M C1・PS 1.1",
+   "desc": "所法2①三十二 の「自己の勤労に基づいて得た…」と10万円の要件（3版）",
+   "short": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L01",
+   "doc": "M C1・PS 1.1",
+   "desc": "所法2①三十二 の「自己の勤労に基づいて得た…」と10万円の要件（3版）",
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L02a",
+   "doc": "M C1・PS 1.1",
+   "desc": "勤労学生の合計所得金額 85万円（令和7年分の版）",
+   "short": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L02b",
+   "doc": "M C1・PS 1.1",
+   "desc": "勤労学生の合計所得金額 89万円（令和8年分の版・2027-01-01版）",
+   "short": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L02b",
+   "doc": "M C1・PS 1.1",
+   "desc": "勤労学生の合計所得金額 89万円（令和8年分の版・2027-01-01版）",
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L03a",
+   "doc": "M C4",
+   "desc": "2①三十二ロ「各種学校の生徒」（2025-12-31版）",
+   "short": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L03b",
+   "doc": "M C4",
+   "desc": "2①三十二ロ「各種学校の学生又は生徒」（2026-12-31版）",
+   "short": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L04",
+   "doc": "PS 1.1",
+   "desc": "令和8年法律第12号 附則第1条第4号イ（2026-12-01 施行。2①三十二（ロを除く）・86①一）",
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L05",
+   "doc": "PS 1.1",
+   "desc": "令和8年法律第12号 附則第2条第1項（令和8年分以後）",
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L06",
+   "doc": "PS 1.1",
+   "desc": "令和7年法律第13号 附則第2条第1項（85万円などは令和7年分以後）",
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L07",
+   "doc": "PS 4.1",
+   "desc": "令和7年法律第13号 附則第1条第1号（2025-12-01 施行。86①を含む）",
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L08",
+   "doc": "PS 4.1",
+   "desc": "令和7年法律第13号 附則第7条（86 は令和7年分以後）",
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L09",
+   "doc": "PS 4.1",
+   "desc": "令和8年法律第12号 附則第9条（86 は令和8年分以後）",
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L10",
+   "doc": "PS 1.1",
+   "desc": "所得税法施行令第11条の3 は勤労学生の範囲（学校・課程）",
+   "short": "shotoku-rei",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L11",
+   "doc": "H HG3（PS-CON）",
+   "desc": "合計所得金額は所法2①三十イ(2) で定義（第22条の総所得金額等の合計）",
+   "short": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L11",
+   "doc": "H HG3（PS-CON）",
+   "desc": "合計所得金額は所法2①三十イ(2) で定義（第22条の総所得金額等の合計）",
+   "short": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L12a",
+   "doc": "M C2・PS 2.3",
+   "desc": "扶養親族 58万円・同一生計配偶者 58万円（令和7年分の版）",
+   "short": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L12b",
+   "doc": "M C2・PS 2.3",
+   "desc": "同一生計配偶者 58万円（令和7年分の版）",
+   "short": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L12c",
+   "doc": "M C2・PS 2.3",
+   "desc": "扶養親族 62万円（令和8年分の版）",
+   "short": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L12d",
+   "doc": "M C2・PS 2.3",
+   "desc": "同一生計配偶者 62万円（令和8年分の版）",
+   "short": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L13",
+   "doc": "H HG3（PS-IT）",
+   "desc": "控除対象扶養親族（2①三十四の二）は居住者について年齢16歳以上",
+   "short": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L13",
+   "doc": "H HG3（PS-IT）",
+   "desc": "控除対象扶養親族（2①三十四の二）は居住者について年齢16歳以上",
+   "short": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L14",
+   "doc": "PS 3.1",
+   "desc": "特別障害者は所法2①二十九",
+   "short": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L15",
+   "doc": "H HG3",
+   "desc": "所法85⑥（二以上の居住者の扶養親族に当たる者は、いずれか一の居住者の扶養親族にのみ該当するとみなす）",
+   "short": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L15",
+   "doc": "H HG3",
+   "desc": "所法85⑥（二以上の居住者の扶養親族に当たる者は、いずれか一の居住者の扶養親族にのみ該当するとみなす）",
+   "short": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L16",
+   "doc": "M C2・PS 2.3・I IG2",
+   "desc": "特定親族（所法84の2①）：合計所得金額123万円以下・控除対象扶養親族を除く／85万円以下は63万円",
+   "short": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L16",
+   "doc": "M C2・PS 2.3・I IG2",
+   "desc": "特定親族（所法84の2①）：合計所得金額123万円以下・控除対象扶養親族を除く／85万円以下は63万円",
+   "short": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L17",
+   "doc": "I IG2・IG3",
+   "desc": "特定扶養親族の扶養控除は63万円、一般は38万円（所法84①）",
+   "short": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L17",
+   "doc": "I IG2・IG3",
+   "desc": "特定扶養親族の扶養控除は63万円、一般は38万円（所法84①）",
+   "short": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L18a",
+   "doc": "M C2・PS 2.3",
+   "desc": "家内労働者等の特例額 65万円（措法27①、令和7年分の版）",
+   "short": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L18b",
+   "doc": "M C2・PS 2.3",
+   "desc": "家内労働者等の特例額 69万円（措法27①、令和8年分の版）",
+   "short": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L19",
+   "doc": "PS 3.3・I IG1・IG3",
+   "desc": "措法29の4②：令和8年又は令和9年、69万1千円以上220万円未満。第2号は74万1千円以上219万1千円未満で収入−74万円",
+   "short": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L20a",
+   "doc": "M C2・PS 4.1・H HG4",
+   "desc": "措法41の16の2（令和7年分の版）：655万円以下、86①一の金額に加算、132万円以下37万円…489万円超5万円",
+   "short": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L20b",
+   "doc": "M C2・H HG4",
+   "desc": "措法41の16の2（令和8年分の版）：489万円以下42万円・489万円超（655万円以下）5万円",
+   "short": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L21-1",
+   "doc": "PS 3.1・H HG3",
+   "desc": "措法41の3の11①",
+   "short": "sochi",
+   "asof": "2024-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L21-1",
+   "doc": "PS 3.1・H HG3",
+   "desc": "措法41の3の11①",
+   "short": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L21-1",
+   "doc": "PS 3.1・H HG3",
+   "desc": "措法41の3の11①",
+   "short": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L21-1",
+   "doc": "PS 3.1・H HG3",
+   "desc": "措法41の3の11①",
+   "short": "sochi",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L21-2",
+   "doc": "PS 3.1・H HG3",
+   "desc": "措法41の3の11②",
+   "short": "sochi",
+   "asof": "2024-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L21-2",
+   "doc": "PS 3.1・H HG3",
+   "desc": "措法41の3の11②",
+   "short": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L21-2",
+   "doc": "PS 3.1・H HG3",
+   "desc": "措法41の3の11②",
+   "short": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L21-2",
+   "doc": "PS 3.1・H HG3",
+   "desc": "措法41の3の11②",
+   "short": "sochi",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L21-3",
+   "doc": "PS 3.1・H HG3",
+   "desc": "措法41の3の11③（12月31日の現況、死亡・出国）",
+   "short": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L21-3",
+   "doc": "PS 3.1・H HG3",
+   "desc": "措法41の3の11③（12月31日の現況、死亡・出国）",
+   "short": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L21-4",
+   "doc": "PS 3.1・H HG3",
+   "desc": "措法41の3の11④一〜七の参照先",
+   "short": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L21-4",
+   "doc": "PS 3.1・H HG3",
+   "desc": "措法41の3の11④一〜七の参照先",
+   "short": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L21-4-6",
+   "doc": "PS 3.1・M C3",
+   "desc": "措法41の3の11④六 の 2027-01-01 版の追加文言",
+   "short": "sochi",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L21-5",
+   "doc": "PS 3.1",
+   "desc": "措法41の3の11⑤（所法22②一の読替え）",
+   "short": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L21-5",
+   "doc": "PS 3.1",
+   "desc": "措法41の3の11⑤（所法22②一の読替え）",
+   "short": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L21-6",
+   "doc": "PS 3.1・H HG3",
+   "desc": "措法41の3の11⑥（第2項だけ、所法121③の読替え）",
+   "short": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L21-6",
+   "doc": "PS 3.1・H HG3",
+   "desc": "措法41の3の11⑥（第2項だけ、所法121③の読替え）",
+   "short": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L21-7",
+   "doc": "PS 3.1",
+   "desc": "措法41の3の11⑦（政令委任）",
+   "short": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L21-7",
+   "doc": "PS 3.1",
+   "desc": "措法41の3の11⑦（政令委任）",
+   "short": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L22-1",
+   "doc": "PS 3.2・H HG3",
+   "desc": "措法41の3の12①（年末調整は前条第1項だけ）",
+   "short": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L22-1",
+   "doc": "PS 3.2・H HG3",
+   "desc": "措法41の3の12①（年末調整は前条第1項だけ）",
+   "short": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L22-2",
+   "doc": "PS 3.2",
+   "desc": "措法41の3の12②（最後に給与等の支払を受ける日の前日まで）",
+   "short": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L22-2",
+   "doc": "PS 3.2",
+   "desc": "措法41の3の12②（最後に給与等の支払を受ける日の前日まで）",
+   "short": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L23-1",
+   "doc": "PS 3.3",
+   "desc": "措令26の5①（所法69・154・155 の読替え）",
+   "short": "sochi-rei",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L23-1",
+   "doc": "PS 3.3",
+   "desc": "措令26の5①（所法69・154・155 の読替え）",
+   "short": "sochi-rei",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L23-2",
+   "doc": "PS 3.3",
+   "desc": "措令26の5②（所令198①一）",
+   "short": "sochi-rei",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L23-2",
+   "doc": "PS 3.3",
+   "desc": "措令26の5②（所令198①一）",
+   "short": "sochi-rei",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L23-3",
+   "doc": "PS 3.3",
+   "desc": "措令26の5③（災害減免法の徴収猶予の見積額）",
+   "short": "sochi-rei",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L23-3",
+   "doc": "PS 3.3",
+   "desc": "措令26の5③（災害減免法の徴収猶予の見積額）",
+   "short": "sochi-rei",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L23-4",
+   "doc": "PS 3.3・H HG3",
+   "desc": "措令19の4の2①（2026-12-31 版）",
+   "short": "sochi-rei",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L24a",
+   "doc": "PS 3.2",
+   "desc": "措規18の23の8（年末調整に係る所得金額調整控除の申告書の記載事項）",
+   "short": "sochi-ki",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L24a",
+   "doc": "PS 3.2",
+   "desc": "措規18の23の8（年末調整に係る所得金額調整控除の申告書の記載事項）",
+   "short": "sochi-ki",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L24b",
+   "doc": "PS 3.3",
+   "desc": "措規18の23の5・18の23の6 は令和6年の特別控除（定額減税）の規定",
+   "short": "sochi-ki",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L24b",
+   "doc": "PS 3.3",
+   "desc": "措規18の23の5・18の23の6 は令和6年の特別控除（定額減税）の規定",
+   "short": "sochi-ki",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L24c",
+   "doc": "PS 3.3",
+   "desc": "同上（18の23の6）",
+   "short": "sochi-ki",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L24c",
+   "doc": "PS 3.3",
+   "desc": "同上（18の23の6）",
+   "short": "sochi-ki",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L25a",
+   "doc": "I IG1",
+   "desc": "地方税法314の2①九 勤労学生控除 26万円",
+   "short": "chiho",
+   "asof": "2026-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L25a",
+   "doc": "I IG1",
+   "desc": "地方税法314の2①九 勤労学生控除 26万円",
+   "short": "chiho",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L25b",
+   "doc": "H HG4",
+   "desc": "地方税法314の2②（2,400万円以下 43万円ほか）",
+   "short": "chiho",
+   "asof": "2026-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L25b",
+   "doc": "H HG4",
+   "desc": "地方税法314の2②（2,400万円以下 43万円ほか）",
+   "short": "chiho",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L25c",
+   "doc": "H HG1・I IG1",
+   "desc": "地方税法314の2⑨（所法2①三十二 を準用）",
+   "short": "chiho",
+   "asof": "2026-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L25c",
+   "doc": "H HG1・I IG1",
+   "desc": "地方税法314の2⑨（所法2①三十二 を準用）",
+   "short": "chiho",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L26a",
+   "doc": "M C4・PS 4.1",
+   "desc": "所法86①（令和7年分の版）",
+   "short": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L26b",
+   "doc": "M C4・PS 4.1",
+   "desc": "所法86①（令和8年分の版・2027-01-01版）",
+   "short": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L26b",
+   "doc": "M C4・PS 4.1",
+   "desc": "所法86①（令和8年分の版・2027-01-01版）",
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L26c",
+   "doc": "PS 4.1",
+   "desc": "所法86②（基礎控除という）",
+   "short": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L26c",
+   "doc": "PS 4.1",
+   "desc": "所法86②（基礎控除という）",
+   "short": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L26c",
+   "doc": "PS 4.1",
+   "desc": "所法86②（基礎控除という）",
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L27a",
+   "doc": "M C5・PS 5.1",
+   "desc": "所法120⑥ が内訳書（2025-12-31・2026-12-31版）",
+   "short": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L27a",
+   "doc": "M C5・PS 5.1",
+   "desc": "所法120⑥ が内訳書（2025-12-31・2026-12-31版）",
+   "short": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L27b",
+   "doc": "PS 5.1・H HG5",
+   "desc": "所法120⑥（2027-01-01版）：社会保険料控除等の証明書類に代えて明細書",
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L27c",
+   "doc": "PS 5.1",
+   "desc": "所法120⑦（2027-01-01版）：5年を経過する日までの間、書類の提示・提出",
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L27d",
+   "doc": "M C5・PS 5.1",
+   "desc": "所法120⑧ が内訳書（2027-01-01版）",
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L27e",
+   "doc": "PS 5.1",
+   "desc": "所法120⑨ が非永住者の書類（2027-01-01版）",
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L27f",
+   "doc": "I IG5",
+   "desc": "所法120（内訳書の項）：不動産・事業・山林は白色なら常に、業務に係る雑所得は前々年分の収入金額1,000万円超",
+   "short": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L28a",
+   "doc": "M C5・PS 5.1",
+   "desc": "所規47の3①② が法120⑥ を引く（2026-11-09・2026-12-31版）",
+   "short": "shotoku-ki",
+   "asof": "2026-11-09",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L28a",
+   "doc": "M C5・PS 5.1",
+   "desc": "所規47の3①② が法120⑥ を引く（2026-11-09・2026-12-31版）",
+   "short": "shotoku-ki",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L28b",
+   "doc": "M C5・PS 5.1",
+   "desc": "所規47の3①② が法120⑧ を引く（2027-01-01版）",
+   "short": "shotoku-ki",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L29",
+   "doc": "M C5・PS 5.1",
+   "desc": "令和7年財務省令第18号 附則第1条第4号（第47条の3 の改正規定ほか 令和九年一月一日）",
+   "short": "shotoku-ki",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L30",
+   "doc": "M C5",
+   "desc": "令和8年財務省令第17号 附則第1条第2号（令和九年一月一日：47の2⑭一・53条・別表第五（二十八））",
+   "short": "shotoku-ki",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L31a",
+   "doc": "M C5・PS 5.1",
+   "desc": "令和7年法律第13号 附則第1条第5号イ",
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L31b",
+   "doc": "M C5・PS 5.1・H HG5",
+   "desc": "令和7年法律第13号 附則第8条第2項",
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L32a",
+   "doc": "M C5・PS 5.1",
+   "desc": "令和8年法律第12号 附則第1条第5号イ（所法120 の改正規定、令和九年一月一日）",
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L32b",
+   "doc": "M C5・PS 5.1・H HG5",
+   "desc": "令和8年法律第12号 附則第10条第1項",
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L33",
+   "doc": "PS 3.1・H HG3",
+   "desc": "所法22②一 に「給与所得の金額」（措法41の3の11⑤ の読替えの対象）",
+   "short": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L33",
+   "doc": "PS 3.1・H HG3",
+   "desc": "所法22②一 に「給与所得の金額」（措法41の3の11⑤ の読替えの対象）",
+   "short": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L34",
+   "doc": "PS 3.1",
+   "desc": "所法121③（確定申告を要しない場合。公的年金等）",
+   "short": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L34",
+   "doc": "PS 3.1",
+   "desc": "所法121③（確定申告を要しない場合。公的年金等）",
+   "short": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "X01",
+   "doc": "M §6・H HG5（未取得の補足）",
+   "desc": "所法122③（2027-01-01版）は第120条第3項から第9項までを準用",
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "X02",
+   "doc": "M §6（未取得の補足）",
+   "desc": "所法122③（2026-12-31版）は第120条第3項から第7項までを準用",
+   "short": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "X03",
+   "doc": "M §6（未取得の補足）",
+   "desc": "所法123③・125④・127④（2027-01-01版）も第120条第3項から第9項まで",
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "X04",
+   "doc": "H HG5（未読の補足）",
+   "desc": "所規47の2⑭（2027-01-01版）は法120⑥ の明細書の記載事項",
+   "short": "shotoku-ki",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "X05",
+   "doc": "PS 3.6・H HG3（未確認の補足）",
+   "desc": "地方税法313②：総所得金額等は所得税法その他の所得税に関する法令の規定による所法22②の総所得金額等の計算の例により算定",
+   "short": "chiho",
+   "asof": "2026-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "X05",
+   "doc": "PS 3.6・H HG3（未確認の補足）",
+   "desc": "地方税法313②：総所得金額等は所得税法その他の所得税に関する法令の規定による所法22②の総所得金額等の計算の例により算定",
+   "short": "chiho",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "X03-123",
+   "doc": "M §6（未取得の補足）",
+   "desc": "所法123③（2027-01-01版）の準用の範囲",
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "X03-127",
+   "doc": "M §6（未取得の補足）",
+   "desc": "所法127④（2027-01-01版）の準用の範囲",
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L35a",
+   "doc": "I IG4",
+   "desc": "所法28③五（令和7年分の版）：850万円超は給与所得控除額195万円",
+   "short": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "L35b",
+   "doc": "I IG1",
+   "desc": "所法28③一（令和7年分の版）：190万円以下は65万円",
+   "short": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "missing": null
+  }
+ ],
+ "law_extra": {
+  "41_3_11_sha": {
+   "2024-12-31": "7788a8dc17d12199",
+   "2025-12-31": "7788a8dc17d12199",
+   "2026-12-31": "7788a8dc17d12199",
+   "2027-01-01": "afa55bd76cedc5a8"
+  },
+  "41_3_11_same_2024_2026": true,
+  "41_3_11_has_hasu": {
+   "2024-12-31": false,
+   "2025-12-31": false,
+   "2026-12-31": false,
+   "2027-01-01": false
+  },
+  "41_3_11_yen_in_order": [
+   "八百五十万",
+   "千万",
+   "千万",
+   "八百五十万",
+   "十万",
+   "十万",
+   "十万",
+   "十万",
+   "十万",
+   "十万"
+  ],
+  "41_3_11_hyakubun_no_ju": true,
+  "41_3_11_paragraphs_changed_2026_vs_2027": [
+   4
+  ],
+  "41_3_11_items_changed_p4": [
+   6
+  ],
+  "sochi-rei_2025-12-31": {
+   "端数を含む条の数（本則・原始附則）": 43,
+   "所得金額調整控除": [
+    [
+     "本則",
+     "26_5"
+    ]
+   ],
+   "第四十一条の三の十一": [
+    [
+     "本則",
+     "5_3"
+    ],
+    [
+     "本則",
+     "26_5"
+    ]
+   ],
+   "第四十一条の三の三": [
+    [
+     "本則",
+     "5_3"
+    ],
+    [
+     "本則",
+     "26_4_2"
+    ],
+    [
+     "本則",
+     "26_4_3"
+    ]
+   ],
+   "上の3語のいずれかを含む条のうち端数を含む条": [
+    [
+     "本則",
+     "5_3"
+    ]
+   ],
+   "19_4_2 があるか": false
+  },
+  "sochi-ki_2025-12-31": {
+   "所得金額調整控除": [
+    [
+     "本則",
+     "18_23_5"
+    ],
+    [
+     "本則",
+     "18_23_6"
+    ],
+    [
+     "本則",
+     "18_23_8"
+    ]
+   ],
+   "所得金額調整控除＋端数": [],
+   "texts_sha": {
+    "18_23_3": "7051b28568134715",
+    "18_23_5": "4d2b3662053a3caf",
+    "18_23_6": "4cc4814a23edb50b",
+    "18_23_8": "be36b4ead39f22f6"
+   }
+  },
+  "sochi-rei_2026-12-31": {
+   "端数を含む条の数（本則・原始附則）": 45,
+   "所得金額調整控除": [
+    [
+     "本則",
+     "26_5"
+    ]
+   ],
+   "第四十一条の三の十一": [
+    [
+     "本則",
+     "5_3"
+    ],
+    [
+     "本則",
+     "19_4_2"
+    ],
+    [
+     "本則",
+     "26_5"
+    ]
+   ],
+   "第四十一条の三の三": [
+    [
+     "本則",
+     "5_3"
+    ],
+    [
+     "本則",
+     "26_4_2"
+    ],
+    [
+     "本則",
+     "26_4_3"
+    ]
+   ],
+   "上の3語のいずれかを含む条のうち端数を含む条": [
+    [
+     "本則",
+     "5_3"
+    ]
+   ],
+   "19_4_2 があるか": true
+  },
+  "sochi-ki_2026-12-31": {
+   "所得金額調整控除": [
+    [
+     "本則",
+     "18_23_5"
+    ],
+    [
+     "本則",
+     "18_23_6"
+    ],
+    [
+     "本則",
+     "18_23_8"
+    ]
+   ],
+   "所得金額調整控除＋端数": [],
+   "texts_sha": {
+    "18_23_3": "7051b28568134715",
+    "18_23_5": "4d2b3662053a3caf",
+    "18_23_6": "4cc4814a23edb50b",
+    "18_23_8": "be36b4ead39f22f6"
+   }
+  },
+  "chiho_2026-01-01_raw_counts": {
+   "所得金額調整控除": 0,
+   "四十一条の三の十一": 0
+  },
+  "chiho_2027-01-01_raw_counts": {
+   "所得金額調整控除": 0,
+   "四十一条の三の十一": 0
+  },
+  "shotoku_2025-12-31_kinro_hits": [
+   [
+    "本則",
+    "2",
+    "勤労に基づ"
+   ]
+  ],
+  "shotoku_2026-12-31_kinro_hits": [
+   [
+    "本則",
+    "2",
+    "勤労に基づ"
+   ]
+  ],
+  "shotoku_2027-01-01_kinro_hits": [
+   [
+    "本則",
+    "2",
+    "勤労に基づ"
+   ]
+  ],
+  "shotoku_changed_2025_vs_2026_selected": [
+   "86 1/1",
+   "120 4/2",
+   "2 1/32"
+  ],
+  "shotoku_120_4_2_texts": [
+   "期高齢者医療広域連合又は社会保険診療報酬支払基金若しくは国民健康保険法第四十五条第五項（保険医療機関等の診療報酬）に規定する国民健康保険団体連合会の当該居住者が",
+   "期高齢者医療広域連合又は医療情報基盤・診療報酬審査支払機構若しくは国民健康保険法第四十五条第五項（保険医療機関等の診療報酬）に規定する国民健康保険団体連合会の当"
+  ],
+  "47_3_items_same": true,
+  "47_3_R8K17_1_2_mentions_47_3": false
+ },
+ "web_meta": [
+  {
+   "id": "ta_1175",
+   "status_ok": true,
+   "lm_claim": "2026-09-09 01:00:15",
+   "lm_mine": "2026-09-09 01:00:15",
+   "lm_ok": true,
+   "sha_claim": "fbf07a1c42e16c68",
+   "sha_mine": "fbf07a1c42e16c68",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "ta_1810",
+   "status_ok": true,
+   "lm_claim": "2026-09-09 01:00:07",
+   "lm_mine": "2026-09-09 01:00:07",
+   "lm_ok": true,
+   "sha_claim": "66d23053e2d026aa",
+   "sha_mine": "66d23053e2d026aa",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "ta_1810_qa",
+   "status_ok": true,
+   "lm_claim": "2026-09-09 01:00:07",
+   "lm_mine": "2026-09-09 01:00:07",
+   "lm_ok": true,
+   "sha_claim": "235fea36dfd79690",
+   "sha_mine": "235fea36dfd79690",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "ta_1411",
+   "status_ok": true,
+   "lm_claim": "2026-09-09 01:00:10",
+   "lm_mine": "2026-09-09 01:00:10",
+   "lm_ok": true,
+   "sha_claim": "67ede54d9ec7de57",
+   "sha_mine": "67ede54d9ec7de57",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "ta_1199",
+   "status_ok": true,
+   "lm_claim": "2026-09-09 01:00:14",
+   "lm_mine": "2026-09-09 01:00:14",
+   "lm_ok": true,
+   "sha_claim": "21507083e62c8014",
+   "sha_mine": "21507083e62c8014",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "ta_1500",
+   "status_ok": true,
+   "lm_claim": "2026-09-09 01:00:09",
+   "lm_mine": "2026-09-09 01:00:09",
+   "lm_ok": true,
+   "sha_claim": "c3be3c0c45cdea73",
+   "sha_mine": "c3be3c0c45cdea73",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "kihon_01_07",
+   "status_ok": true,
+   "lm_claim": "2026-10-02 08:30:05",
+   "lm_mine": "2026-10-02 08:30:05",
+   "lm_ok": true,
+   "sha_claim": "52d60882df0b13f9",
+   "sha_mine": "52d60882df0b13f9",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "kihon_04_09",
+   "status_ok": true,
+   "lm_claim": "2024-11-25 05:00:03",
+   "lm_mine": "2024-11-25 05:00:03",
+   "lm_ok": true,
+   "sha_claim": "56b1ea747294e180",
+   "sha_mine": "56b1ea747294e180",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "tokushu_chui",
+   "status_ok": true,
+   "lm_claim": "2026-03-17 01:00:11",
+   "lm_mine": "2026-03-17 01:00:11",
+   "lm_ok": true,
+   "sha_claim": "8ddc372077153494",
+   "sha_mine": "8ddc372077153494",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "tebiki_r07_3_3_15",
+   "status_ok": true,
+   "lm_claim": "2025-12-24 08:30:10",
+   "lm_mine": "2025-12-24 08:30:10",
+   "lm_ok": true,
+   "sha_claim": "e1ff17e6f41c54fd",
+   "sha_mine": "e1ff17e6f41c54fd",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "nencho2025_qa",
+   "status_ok": true,
+   "lm_claim": "2025-08-29 08:30:11",
+   "lm_mine": "2025-08-29 08:30:11",
+   "lm_ok": true,
+   "sha_claim": "b2444e3094d01017",
+   "sha_mine": "b2444e3094d01017",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "nencho2026_qa",
+   "status_ok": true,
+   "lm_claim": "2026-08-31 08:30:08",
+   "lm_mine": "2026-08-31 08:30:08",
+   "lm_ok": true,
+   "sha_claim": "eef620927e52589c",
+   "sha_mine": "eef620927e52589c",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "sochitsu_41_3_11",
+   "status_ok": true,
+   "lm_claim": "2024-11-25 05:00:02",
+   "lm_mine": "2024-11-25 05:00:02",
+   "lm_ok": true,
+   "sha_claim": "80a95a91d225b309",
+   "sha_mine": "80a95a91d225b309",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "sochitsu_41_3_12",
+   "status_ok": true,
+   "lm_claim": "2024-11-25 05:00:02",
+   "lm_mine": "2024-11-25 05:00:02",
+   "lm_ok": true,
+   "sha_claim": "7fb364b783bfba79",
+   "sha_mine": "7fb364b783bfba79",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "keisan_r7_kinro_cid472",
+   "status_ok": true,
+   "lm_claim": "2026-11-08 22:01:46",
+   "lm_mine": "2026-11-08 22:01:46",
+   "lm_ok": true,
+   "sha_claim": "354599d1789671e3",
+   "sha_mine": "354599d1789671e3",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "keisan_r7_kinro_index",
+   "status_ok": true,
+   "lm_claim": "2026-11-08 22:01:46",
+   "lm_mine": "2026-11-08 22:01:46",
+   "lm_ok": true,
+   "sha_claim": "c938400774962ed6",
+   "sha_mine": "c938400774962ed6",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "gigishokai_index",
+   "status_ok": true,
+   "lm_claim": "2026-10-14 00:26:17",
+   "lm_mine": "2026-10-14 00:26:17",
+   "lm_ok": true,
+   "sha_claim": "6a15671a48a12a6d",
+   "sha_mine": "6a15671a48a12a6d",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "gigishokai_kounen_tekiyou",
+   "status_ok": true,
+   "lm_claim": "2026-02-04 02:07:23",
+   "lm_mine": "2026-02-04 02:07:23",
+   "lm_ok": true,
+   "sha_claim": "09ea323c76fc1427",
+   "sha_mine": "09ea323c76fc1427",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "gigishokai_kokunen_tekiyou",
+   "status_ok": true,
+   "lm_claim": "2023-06-01 02:37:28",
+   "lm_mine": "2023-06-01 02:37:28",
+   "lm_ok": true,
+   "sha_claim": "de53c9918f912a20",
+   "sha_mine": "de53c9918f912a20",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "faq_19to22_income",
+   "status_ok": true,
+   "lm_claim": "2026-10-14 00:25:50",
+   "lm_mine": "2026-10-14 00:25:50",
+   "lm_ok": true,
+   "sha_claim": "11b58cd4911a88a4",
+   "sha_mine": "11b58cd4911a88a4",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "vaccine_20220225",
+   "status_ok": true,
+   "lm_claim": "2026-10-14 00:25:35",
+   "lm_mine": "2026-10-14 00:25:35",
+   "lm_ok": true,
+   "sha_claim": "220ea6471cb59b9e",
+   "sha_mine": "220ea6471cb59b9e",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "jimupoint_vol3",
+   "status_ok": true,
+   "lm_claim": "2025-08-05 01:40:56",
+   "lm_mine": "2025-08-05 01:40:56",
+   "lm_ok": true,
+   "sha_claim": "4fe03d20353a0f57",
+   "sha_mine": "4fe03d20353a0f57",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "setsumei_fuyou",
+   "status_ok": true,
+   "lm_claim": "2026-04-24 05:25:32",
+   "lm_mine": "2026-04-24 05:25:32",
+   "lm_ok": true,
+   "sha_claim": "8a3736da2f1fb13c",
+   "sha_mine": "8a3736da2f1fb13c",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "mhlw_000991674",
+   "status_ok": true,
+   "lm_claim": "2022-09-20 09:12:21",
+   "lm_mine": "2022-09-20 09:12:21",
+   "lm_ok": true,
+   "sha_claim": "921d44454041f247",
+   "sha_mine": "921d44454041f247",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "mhlw_T251006S0060",
+   "status_ok": true,
+   "lm_claim": null,
+   "lm_mine": null,
+   "lm_ok": true,
+   "sha_claim": "bf7c76fbeda12ebf",
+   "sha_mine": "bf7c76fbeda12ebf",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "mhlw_00tc5007_p1",
+   "status_ok": true,
+   "lm_claim": null,
+   "lm_mine": null,
+   "lm_ok": true,
+   "sha_claim": "a081730f8443bee3",
+   "sha_mine": "a081730f8443bee3",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "mhlw_00tc5007_p2",
+   "status_ok": true,
+   "lm_claim": null,
+   "lm_mine": null,
+   "lm_ok": true,
+   "sha_claim": "c35afce1f9b8bbf1",
+   "sha_mine": "c35afce1f9b8bbf1",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "mhlw_000744680_saishuchi",
+   "status_ok": true,
+   "lm_claim": "2023-02-09 00:31:26",
+   "lm_mine": "2023-02-09 00:31:26",
+   "lm_ok": true,
+   "sha_claim": "09be84652815620b",
+   "sha_mine": "09be84652815620b",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "mhlw_00tc5958_p1",
+   "status_ok": true,
+   "lm_claim": null,
+   "lm_mine": null,
+   "lm_ok": true,
+   "sha_claim": "dfa91134ed04ed3e",
+   "sha_mine": "dfa91134ed04ed3e",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "mhlw_newpage_19044",
+   "status_ok": true,
+   "lm_claim": null,
+   "lm_mine": null,
+   "lm_ok": true,
+   "sha_claim": "b81d35b5bbbc9a76",
+   "sha_mine": "b81d35b5bbbc9a76",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "mhlw_nenkin_0000086587",
+   "status_ok": true,
+   "lm_claim": "2018-06-12 20:19:23",
+   "lm_mine": "2018-06-12 20:19:23",
+   "lm_ok": true,
+   "sha_claim": "f2a8b6049f0fe241",
+   "sha_mine": "f2a8b6049f0fe241",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "mhlw_shinsa_r02_03_15_01",
+   "status_ok": true,
+   "lm_claim": "2026-07-10 01:41:16",
+   "lm_mine": "2026-07-10 01:41:16",
+   "lm_ok": true,
+   "sha_claim": "f5245cb5c81d5075",
+   "sha_mine": "f5245cb5c81d5075",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "soumu_kanto_110113_1",
+   "status_ok": true,
+   "lm_claim": "2011-01-20 17:16:16",
+   "lm_mine": "2011-01-20 17:16:16",
+   "lm_ok": true,
+   "sha_claim": "6b230b6005ec9fc1",
+   "sha_mine": "6b230b6005ec9fc1",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "soumu_kanto_120607_5",
+   "status_ok": true,
+   "lm_claim": "2012-06-12 08:52:33",
+   "lm_mine": "2012-06-12 08:52:33",
+   "lm_ok": true,
+   "sha_claim": "f10c78e9304f4491",
+   "sha_mine": "f10c78e9304f4491",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "kyoukai_covid19tokurei_nsyutoku",
+   "status_ok": true,
+   "lm_claim": null,
+   "lm_mine": null,
+   "lm_ok": true,
+   "sha_claim": null,
+   "sha_mine": "e68036938403a46f",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "kyoukai_covid19i_fuyousaikakunin",
+   "status_ok": true,
+   "lm_claim": null,
+   "lm_mine": null,
+   "lm_ok": true,
+   "sha_claim": null,
+   "sha_mine": "e68036938403a46f",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "kyoukai_faq_dependent_status",
+   "status_ok": true,
+   "lm_claim": null,
+   "lm_mine": null,
+   "lm_ok": true,
+   "sha_claim": "e1a2aea39c610220",
+   "sha_mine": "72b832049ea96ead",
+   "sha_ok": false,
+   "robots_allowed": true
+  },
+  {
+   "id": "cdx_ta_1810_digest",
+   "status_ok": true,
+   "lm_claim": null,
+   "lm_mine": null,
+   "lm_ok": true,
+   "sha_claim": "b1e2256803d77646",
+   "sha_mine": "b1e2256803d77646",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "wa_ta_1810_20241105",
+   "status_ok": true,
+   "lm_claim": null,
+   "lm_mine": null,
+   "lm_ok": true,
+   "sha_claim": "81c259160e9446ae",
+   "sha_mine": "81c259160e9446ae",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "wa_ta_1810_20250317",
+   "status_ok": true,
+   "lm_claim": null,
+   "lm_mine": null,
+   "lm_ok": true,
+   "sha_claim": "20aceecf7eeb5372",
+   "sha_mine": "20aceecf7eeb5372",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "wa_ta_1810_20251105",
+   "status_ok": true,
+   "lm_claim": null,
+   "lm_mine": null,
+   "lm_ok": true,
+   "sha_claim": "f8e87aee21d75a4a",
+   "sha_mine": "f8e87aee21d75a4a",
+   "sha_ok": true,
+   "robots_allowed": true
+  },
+  {
+   "id": "wa_ta_1810_20260915",
+   "status_ok": true,
+   "lm_claim": null,
+   "lm_mine": null,
+   "lm_ok": true,
+   "sha_claim": "66d23053e2d026aa",
+   "sha_mine": "66d23053e2d026aa",
+   "sha_ok": true,
+   "robots_allowed": true
+  }
+ ],
+ "web": [
+  {
+   "id": "W01",
+   "doc": "PS 1.3",
+   "source": "ta_1175",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W02",
+   "doc": "PS 1.3",
+   "source": "keisan_r7_kinro_cid472",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W03",
+   "doc": "PS 1.3",
+   "source": "tebiki_r07_3_3_15",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W04",
+   "doc": "PS 1.3",
+   "source": "nencho2026_qa",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W05",
+   "doc": "PS 1.3",
+   "source": "nencho2025_qa",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W06",
+   "doc": "PS 1.4",
+   "source": "tokushu_chui",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W07",
+   "doc": "PS 1.4",
+   "source": "ta_1500",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W08",
+   "doc": "PS 1.4",
+   "source": "kihon_04_09",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W09",
+   "doc": "PS 1.2",
+   "source": "kihon_01_07",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W10",
+   "doc": "PS 2.1",
+   "source": "ta_1810",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W11",
+   "doc": "PS 2.4",
+   "source": "ta_1810",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W12",
+   "doc": "PS 2.2",
+   "source": "wa_ta_1810_20251105",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W13",
+   "doc": "PS 2.4",
+   "source": "wa_ta_1810_20251105",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W14",
+   "doc": "PS 2.2",
+   "source": "wa_ta_1810_20241105",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W15",
+   "doc": "PS 2.2",
+   "source": "wa_ta_1810_20250317",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W16",
+   "doc": "PS 3.4",
+   "source": "sochitsu_41_3_11",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W17",
+   "doc": "PS 3.5",
+   "source": "ta_1411",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W18",
+   "doc": "PS 4.2",
+   "source": "ta_1199",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W19",
+   "doc": "PS 6.1",
+   "source": "mhlw_00tc5007_p1",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W20",
+   "doc": "PS 6.2・M C6",
+   "source": "mhlw_00tc5958_p1",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W21",
+   "doc": "PS 6.2",
+   "source": "mhlw_newpage_19044",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W22",
+   "doc": "PS 6.5",
+   "source": "faq_19to22_income",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "W23",
+   "doc": "PS 6.3",
+   "source": "gigishokai_index",
+   "ok": true,
+   "missing": null
+  }
+ ],
+ "cdx": {
+  "rows": 17,
+  "first": "20190719082907",
+  "last": "20260915033802",
+  "n301": 2,
+  "distinct_digests": 15,
+  "distinct_digests_200": 14,
+  "repeated_digests": [
+   "3FH7G6PETSDDYLMGTLQY2UDHDOS23FXX",
+   "WMCR2F5G5SGJ4FTL6CNGFNECMGVYNFL3"
+  ]
+ },
+ "calc": {
+  "C2_R7": {
+   "特例額": 650000,
+   "扶養の要件": 580000,
+   "低い段階の基礎控除": 950000,
+   "扶養の上限（総収入）": 1230000,
+   "本人非課税の上限（総収入）": 1600000,
+   "特定親族の上限（総収入）": 1880000
+  },
+  "C2_R8": {
+   "特例額": 690000,
+   "扶養の要件": 620000,
+   "低い段階の基礎控除": 1040000,
+   "扶養の上限（総収入）": 1310000,
+   "本人非課税の上限（総収入）": 1730000,
+   "特定親族の上限（総収入）": 1920000
+  },
+  "C2_R7_1600000": {
+   "合計所得金額": 950000,
+   "扶養親族": false,
+   "特定親族（19〜22歳）": true,
+   "本人非課税": true
+  },
+  "C3_item1": {
+   "8500000": [
+    0,
+    0
+   ],
+   "8500001": [
+    1,
+    0
+   ],
+   "8500005": [
+    1,
+    0
+   ],
+   "8500010": [
+    1,
+    1
+   ],
+   "9000000": [
+    50000,
+    50000
+   ],
+   "9999999": [
+    150000,
+    149999
+   ],
+   "10000000": [
+    150000,
+    150000
+   ],
+   "12000000": [
+    150000,
+    150000
+   ]
+  },
+  "C3_item2": {
+   "50000,40000": 0,
+   "50000,80000": 30000,
+   "200000,300000": 100000,
+   "100000,1": 1,
+   "0,500000": 0
+  },
+  "IG4": {
+   "R7:23500000": 580000,
+   "R7:23500001": 480000,
+   "R7:24000000": 480000,
+   "R7:24000001": 320000,
+   "R7:24500000": 320000,
+   "R7:24500001": 160000,
+   "R7:25000000": 160000,
+   "R7:25000001": 0,
+   "R8:23500000": 620000,
+   "R8:23500001": 480000,
+   "R8:24000000": 480000,
+   "R8:24000001": 320000,
+   "R8:24500000": 320000,
+   "R8:24500001": 160000,
+   "R8:25000000": 160000,
+   "R8:25000001": 0
+  },
+  "IG4_drop": {
+   "R7": 100000,
+   "R8": 140000
+  },
+  "IG4_salary": {
+   "25,450,000": 23500000,
+   "25,450,001": 23500001
+  },
+  "IG1": {
+   "給与所得（令和8年分）": 560000,
+   "合計所得金額": 710000,
+   "89万円以下": true,
+   "基礎控除": 1040000,
+   "課税総所得（基礎控除だけ）": 0,
+   "令和7年分の給与所得（参考：別表第五 1,900,000円未満は収入−650,000）": 650000
+  },
+  "IG2": {
+   "合計所得金額": 850000,
+   "扶養親族": false,
+   "特定親族特別控除（85万円以下）": 630000,
+   "境目R7": [
+    [
+     1230000,
+     true
+    ],
+    [
+     1230001,
+     false
+    ]
+   ],
+   "境目R8": [
+    [
+     1310000,
+     true
+    ],
+    [
+     1310001,
+     false
+    ]
+   ]
+  },
+  "IG3": {
+   "A": 50000,
+   "B": 100000,
+   "C_給与所得": 60000,
+   "C_調整控除": 60000,
+   "C_給与所得（控除後）": 0,
+   "C_総所得金額": 200000
+  },
+  "IG6": {
+   "直近12か月": 1350000,
+   "直近3か月×4": 3600000,
+   "150万÷12": 125000.0
+  }
+ },
+ "refs": [
+  {
+   "path": "docs/measurements/20261109_impl-prep_jigyo-fetch-and-checks.md",
+   "exists": true,
+   "contains": "66d23053e2d026aa",
+   "ok": true
+  },
+  {
+   "path": "docs/measurements/20261109_impl-prep_jigyo-verification.md",
+   "exists": true,
+   "contains": "法第百二十条第八項",
+   "ok": true
+  },
+  {
+   "path": "docs/measurements/20261109_R3-tsutatsu_fetch-and-monitor-probe.md",
+   "exists": true,
+   "contains": "登載後に URL が消える",
+   "ok": true
+  },
+  {
+   "path": "docs/measurements/20261109_R1-laws_article-extraction.md",
+   "exists": true,
+   "contains": "二千四百万円以下：四十八万円",
+   "ok": true
+  },
+  {
+   "path": "docs/measurements/20261109_impl-prep_kyuyo-thresholds.md",
+   "exists": true,
+   "contains": "25,450,000",
+   "ok": true
+  },
+  {
+   "path": "docs/public-sources/20261109_impl-prep_kyuyo-sources.md",
+   "exists": true,
+   "contains": "特定支出控除や所得金額調整控除の適用がある場合には、表の金額とは異なります",
+   "ok": true
+  },
+  {
+   "path": "docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md",
+   "exists": true,
+   "contains": "第9項（所得税法第2条第1項第32号を準用",
+   "ok": true
+  },
+  {
+   "path": "docs/public-sources/20261109_R4-modeling_concepts.md",
+   "exists": true,
+   "contains": "所法2①三十イ（２）",
+   "ok": true
+  },
+  {
+   "path": "docs/public-sources/20261109_R1-laws_income-tax.md",
+   "exists": true,
+   "contains": "第85条第6項",
+   "ok": true
+  },
+  {
+   "path": "docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md",
+   "exists": true,
+   "contains": "2−45の２",
+   "ok": true
+  },
+  {
+   "path": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+   "exists": true,
+   "contains": "JQA-M A2-3",
+   "ok": true
+  },
+  {
+   "path": "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md",
+   "exists": true,
+   "contains": "## HK2",
+   "ok": true
+  },
+  {
+   "path": "docs/inferences/20261109_impl-prep_kenpo-test-cases.md",
+   "exists": true,
+   "contains": "候補日",
+   "ok": true
+  },
+  {
+   "path": "docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md",
+   "exists": true,
+   "contains": "## H2",
+   "ok": true
+  },
+  {
+   "path": "docs/inferences/20261109_impl-prep_jigyo-inferences.md",
+   "exists": true,
+   "contains": "1,230,001",
+   "ok": true
+  },
+  {
+   "path": "docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md",
+   "exists": true,
+   "contains": "#",
+   "ok": true
+  }
+ ],
+ "rules": {
+  "docs/hypotheses/20261109_round2_gaps-hypotheses.md": {
+   "http_urls": []
+  },
+  "docs/inferences/20261109_round2_gaps-inferences.md": {
+   "http_urls": []
+  }
+ },
+ "lookups": [
+  {
+   "short": "shotoku",
+   "title": "所得税法",
+   "url": "https://laws.e-gov.go.jp/api/2/laws?law_title=%E6%89%80%E5%BE%97%E7%A8%8E%E6%B3%95&response_format=json",
+   "status": 200,
+   "exact": [
+    {
+     "law_id": "340AC0000000033",
+     "law_num": "昭和四十年法律第三十三号",
+     "law_title": "所得税法"
+    }
+   ],
+   "expected_law_id": "340AC0000000033",
+   "match": true
+  },
+  {
+   "short": "shotoku-rei",
+   "title": "所得税法施行令",
+   "url": "https://laws.e-gov.go.jp/api/2/laws?law_title=%E6%89%80%E5%BE%97%E7%A8%8E%E6%B3%95%E6%96%BD%E8%A1%8C%E4%BB%A4&response_format=json",
+   "status": 200,
+   "exact": [
+    {
+     "law_id": "340CO0000000096",
+     "law_num": "昭和四十年政令第九十六号",
+     "law_title": "所得税法施行令"
+    }
+   ],
+   "expected_law_id": "340CO0000000096",
+   "match": true
+  },
+  {
+   "short": "shotoku-ki",
+   "title": "所得税法施行規則",
+   "url": "https://laws.e-gov.go.jp/api/2/laws?law_title=%E6%89%80%E5%BE%97%E7%A8%8E%E6%B3%95%E6%96%BD%E8%A1%8C%E8%A6%8F%E5%89%87&response_format=json",
+   "status": 200,
+   "exact": [
+    {
+     "law_id": "340M50000040011",
+     "law_num": "昭和四十年大蔵省令第十一号",
+     "law_title": "所得税法施行規則"
+    }
+   ],
+   "expected_law_id": "340M50000040011",
+   "match": true
+  },
+  {
+   "short": "sochi",
+   "title": "租税特別措置法",
+   "url": "https://laws.e-gov.go.jp/api/2/laws?law_title=%E7%A7%9F%E7%A8%8E%E7%89%B9%E5%88%A5%E6%8E%AA%E7%BD%AE%E6%B3%95&response_format=json",
+   "status": 200,
+   "exact": [
+    {
+     "law_id": "332AC0000000026",
+     "law_num": "昭和三十二年法律第二十六号",
+     "law_title": "租税特別措置法"
+    }
+   ],
+   "expected_law_id": "332AC0000000026",
+   "match": true
+  },
+  {
+   "short": "sochi-rei",
+   "title": "租税特別措置法施行令",
+   "url": "https://laws.e-gov.go.jp/api/2/laws?law_title=%E7%A7%9F%E7%A8%8E%E7%89%B9%E5%88%A5%E6%8E%AA%E7%BD%AE%E6%B3%95%E6%96%BD%E8%A1%8C%E4%BB%A4&response_format=json",
+   "status": 200,
+   "exact": [
+    {
+     "law_id": "332CO0000000043",
+     "law_num": "昭和三十二年政令第四十三号",
+     "law_title": "租税特別措置法施行令"
+    }
+   ],
+   "expected_law_id": "332CO0000000043",
+   "match": true
+  },
+  {
+   "short": "sochi-ki",
+   "title": "租税特別措置法施行規則",
+   "url": "https://laws.e-gov.go.jp/api/2/laws?law_title=%E7%A7%9F%E7%A8%8E%E7%89%B9%E5%88%A5%E6%8E%AA%E7%BD%AE%E6%B3%95%E6%96%BD%E8%A1%8C%E8%A6%8F%E5%89%87&response_format=json",
+   "status": 200,
+   "exact": [
+    {
+     "law_id": "332M50000040015",
+     "law_num": "昭和三十二年大蔵省令第十五号",
+     "law_title": "租税特別措置法施行規則"
+    }
+   ],
+   "expected_law_id": null,
+   "match": true
+  },
+  {
+   "short": "chiho",
+   "title": "地方税法",
+   "url": "https://laws.e-gov.go.jp/api/2/laws?law_title=%E5%9C%B0%E6%96%B9%E7%A8%8E%E6%B3%95&response_format=json",
+   "status": 200,
+   "exact": [
+    {
+     "law_id": "325AC0000000226",
+     "law_num": "昭和二十五年法律第二百二十六号",
+     "law_title": "地方税法"
+    }
+   ],
+   "expected_law_id": "325AC0000000226",
+   "match": true
+  }
+ ],
+ "robots": {
+  "www.nta.go.jp": {
+   "claim": 200,
+   "mine": 200
+  },
+  "www.keisan.nta.go.jp": {
+   "claim": 404,
+   "mine": 404
+  },
+  "www.nenkin.go.jp": {
+   "claim": 200,
+   "mine": 200
+  },
+  "www.mhlw.go.jp": {
+   "claim": 200,
+   "mine": 200
+  },
+  "www.soumu.go.jp": {
+   "claim": 200,
+   "mine": 200
+  },
+  "www.kyoukaikenpo.or.jp": {
+   "claim": 404,
+   "mine": 404
+  },
+  "web.archive.org": {
+   "claim": 404,
+   "mine": 404
+  },
+  "laws.e-gov.go.jp": {
+   "claim": null,
+   "mine": 200
+  }
+ },
+ "web_extra": {
+  "00tc5007_blocks": 6,
+  "00tc5007_items_per_block": [
+   4,
+   4,
+   0,
+   4,
+   0,
+   4
+  ],
+  "00tc5007_items_same_in_blocks_with_items": true,
+  "00tc5007_has_haishi_shikko": [],
+  "00tc5958_mentions_R2_0410": 4,
+  "C1_counts_mine": {
+   "ta_1175": {
+    "勤労": 13,
+    "net": 0,
+    "both": 0
+   },
+   "kihon_01_07": {
+    "勤労": 2,
+    "net": 0,
+    "both": 0
+   },
+   "tebiki_r07_3_3_15": {
+    "勤労": 4,
+    "net": 0,
+    "both": 0
+   },
+   "nencho2025_qa": {
+    "勤労": 3,
+    "net": 0,
+    "both": 0
+   },
+   "nencho2026_qa": {
+    "勤労": 3,
+    "net": 0,
+    "both": 0
+   },
+   "keisan_r7_kinro_cid472": {
+    "勤労": 12,
+    "net": 0,
+    "both": 0
+   },
+   "tokushu_chui": {
+    "勤労": 0,
+    "net": 1,
+    "both": 0
+   },
+   "ta_1500": {
+    "勤労": 0,
+    "net": 0,
+    "both": 0
+   },
+   "kihon_04_09": {
+    "勤労": 0,
+    "net": 0,
+    "both": 0
+   }
+  },
+  "ta1810_labels": {
+   "ta_1810": "令和8年4月1日現在法令等",
+   "wa_ta_1810_20241105": "令和6年4月1日現在法令等",
+   "wa_ta_1810_20250317": "令和6年4月1日現在法令等",
+   "wa_ta_1810_20251105": "令和7年4月1日現在法令等",
+   "wa_ta_1810_20260915": "令和8年4月1日現在法令等"
+  },
+  "wa_20260915_eq_current": true,
+  "shitsugi_shotoku_index": {
+   "勤労": 0,
+   "学生": 0,
+   "所得控除の節がある": true
+  },
+  "web2": [
+   {
+    "id": "nta_qa_r7_kiso_0025005_051",
+    "status": 200,
+    "last_modified": "Fri, 30 May 2025 08:26:01 GMT",
+    "sha16": "af377dfb7700cb28"
+   },
+   {
+    "id": "nta_qa_r8_kiso_0026005_024",
+    "status": 200,
+    "last_modified": "Fri, 29 May 2026 08:30:02 GMT",
+    "sha16": "a3c12744dbed64e7"
+   },
+   {
+    "id": "ta_1810_pdf",
+    "status": 200,
+    "last_modified": "Thu, 06 Feb 2025 05:00:01 GMT",
+    "sha16": "288f56f21a83986d"
+   }
+  ],
+  "web3": [
+   {
+    "id": "shitsugi_shotoku_index",
+    "status": 200,
+    "last_modified": "Wed, 03 Dec 2025 08:31:08 GMT",
+    "sha16": "265c6c375a970b70"
+   }
+  ]
+ }
+}

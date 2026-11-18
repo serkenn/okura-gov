@@ -1,0 +1,237 @@
+[OK] ver_shotoku_2024-12-31 (M-HKF §1): shotoku asof=2024-12-31: 340AC0000000033_20240612_506AC0000000047 PreviousEnforced sha=9af089a685c8f0ca
+[OK] ver_shotoku_2025-12-31 (M-HKF §1): shotoku asof=2025-12-31: 340AC0000000033_20251218_507AC0000000013 PreviousEnforced sha=84a2235cb4437184
+[OK] ver_shotoku_2026-03-31 (M-HKF §1): shotoku asof=2026-03-31: 340AC0000000033_20260101_507AC0000000013 PreviousEnforced sha=82aa4ab37e1bfd1e
+[OK] ver_shotoku_2026-04-01 (M-HKF §1): shotoku asof=2026-04-01: 340AC0000000033_20260401_508AC0000000012 PreviousEnforced sha=71d18be7c42df610
+[OK] ver_shotoku_2026-12-31 (M-HKF §1): shotoku asof=2026-12-31: 340AC0000000033_20261201_508AC0000000012 UnEnforced sha=47792299f0fb5a74
+[OK] ver_shotoku_2027-01-01 (M-HKF §1): shotoku asof=2027-01-01: 340AC0000000033_20270101_508AC0000000012 UnEnforced sha=d4bf435220bc0b0c
+[OK] ver_shotoku-rei_2025-12-31 (M-HKF §1): shotoku-rei asof=2025-12-31: 340CO0000000096_20251201_507CO0000000120 PreviousEnforced sha=e972344f436ecd9b
+[OK] ver_shotoku-rei_2026-12-31 (M-HKF §1): shotoku-rei asof=2026-12-31: 340CO0000000096_20261201_508CO0000000093 UnEnforced sha=cd63914bb5962edf
+[OK] ver_shotoku-rei_2027-01-01 (M-HKF §1): shotoku-rei asof=2027-01-01: 340CO0000000096_20270101_508CO0000000093 UnEnforced sha=f4965711894ea1c7
+[OK] ver_shotoku-ki_2025-12-31 (M-HKF §1): shotoku-ki asof=2025-12-31: 340M50000040011_20251201_507M60000040018 PreviousEnforced sha=16358c775e2d1dcc
+[OK] ver_shotoku-ki_2026-12-31 (M-HKF §1): shotoku-ki asof=2026-12-31: 340M50000040011_20261211_508M60000040017 UnEnforced sha=9ba37bf34afed1f9
+[OK] ver_shotoku-ki_2027-01-01 (M-HKF §1): shotoku-ki asof=2027-01-01: 340M50000040011_20270101_508M60000040017 UnEnforced sha=1600117df38c4463
+[OK] ver_sochi_2025-12-31 (M-HKF §1): sochi asof=2025-12-31: 332AC0000000026_20251231_507AC1000000081 PreviousEnforced sha=ef95d90f7bf57e18
+[OK] ver_sochi_2026-01-01 (M-HKF §1): sochi asof=2026-01-01: 332AC0000000026_20260101_507AC0000000041 PreviousEnforced sha=fc120ad551878b61
+[OK] ver_sochi_2026-03-31 (M-HKF §1): sochi asof=2026-03-31: 332AC0000000026_20260101_507AC0000000041 PreviousEnforced sha=fc120ad551878b61
+[OK] ver_sochi_2026-04-01 (M-HKF §1): sochi asof=2026-04-01: 332AC0000000026_20260401_508AC0000000012 PreviousEnforced sha=d7499813f8851511
+[OK] ver_sochi_2026-11-09 (M-HKF §1): sochi asof=2026-11-09: 332AC0000000026_20261101_507AC0000000013 CurrentEnforced sha=e6e6013bbc0608c6
+[OK] ver_sochi_2026-12-31 (M-HKF §1): sochi asof=2026-12-31: 332AC0000000026_20261204_508AC0000000012 UnEnforced sha=763fce2df2b1e709
+[OK] ver_sochi_2027-01-01 (M-HKF §1): sochi asof=2027-01-01: 332AC0000000026_20270101_508AC0000000012 UnEnforced sha=8c6ee577201c3be0
+[OK] ver_chiho_2025-12-31 (M-HKF §1): chiho asof=2025-12-31: 325AC0000000226_20251212_507AC0000000087 PreviousEnforced sha=0deae64106b42fdb
+[OK] ver_chiho_2026-01-01 (M-HKF §1): chiho asof=2026-01-01: 325AC0000000226_20260101_507AC0000000041 PreviousEnforced sha=ba0a40e550be7762
+[OK] ver_chiho_2026-03-31 (M-HKF §1): chiho asof=2026-03-31: 325AC0000000226_20260101_507AC0000000041 PreviousEnforced sha=ba0a40e550be7762
+[OK] ver_chiho_2026-04-01 (M-HKF §1): chiho asof=2026-04-01: 325AC0000000226_20260401_508AC0000000002 PreviousEnforced sha=06db2ba6ccfec62e
+[OK] ver_chiho_2026-11-09 (M-HKF §1): chiho asof=2026-11-09: 325AC0000000226_20261101_508AC0000000002 CurrentEnforced sha=3dd29e0078bf24e0
+[OK] ver_chiho_2027-01-01 (M-HKF §1): chiho asof=2027-01-01: 325AC0000000226_20270101_508AC0000000002 UnEnforced sha=ee21722ce5fd1561
+[OK] ver_chiho-rei_2026-11-09 (M-HKF §1): chiho-rei asof=2026-11-09: 325CO0000000245_20261101_508CO0000000083 CurrentEnforced sha=9bc03b230fb0ed10
+[OK] ver_chiho-rei_2027-01-01 (M-HKF §1): chiho-rei asof=2027-01-01: 325CO0000000245_20270101_508CO0000000083 UnEnforced sha=962bfc48e43c49b4
+[OK] revcount_shotoku (M-HKF §1): 改正履歴（2025-01-01 以後）shotoku 29件
+[OK] revcount_shotoku-rei (M-HKF §1): 改正履歴（2025-01-01 以後）shotoku-rei 16件
+[OK] revcount_sochi (M-HKF §1): 改正履歴（2025-01-01 以後）sochi 44件
+[OK] revcount_chiho (M-HKF §1): 改正履歴（2025-01-01 以後）chiho 67件
+[OK] rev_r6_8 (M-HKF §1・PS-HKL §9): 所法の改正 340AC0000000033_20260401_506AC0000000008（令和六年法律第八号、施行 2026-04-01）
+[OK] koeki_shiko (PS-HKL §1・§9): 公益信託に関する法律（令和6年法律第30号）の施行日 2026-04-01（e-Gov の同法の改正履歴に、施行 2026-04-01 の版がある）
+[OK] same_shotoku_72 (M-HKF §2・PS-HKL §1): 所法第72条は 2024-12-31〜2027-01-01 の版で同文
+[OK] same_shotoku_75 (M-HKF §2・PS-HKL §1): 所法第75条は 2024-12-31〜2027-01-01 の版で同文
+[OK] same_shotoku_76 (M-HKF §2・PS-HKL §1): 所法第76条は 2024-12-31〜2027-01-01 の版で同文
+[OK] same_shotoku_77 (M-HKF §2・PS-HKL §1): 所法第77条は 2024-12-31〜2027-01-01 の版で同文
+[OK] same_h18_10_10 (M-HKF §2): 平成18年法律第10号附則第10条は同文
+[OK] chg_shotoku_78 (M-HKF §2・§3.2): 所法第78条は 2026-03-31 と 2026-04-01 の間で変わる
+[OK] chg_shotoku_87 (M-HKF §2): 所法第87条は 2024-12-31→2025-12-31 で「特定親族特別控除」が加わる
+[OK] same_rei_206 (M-HKF §2・PS-HKL §2.2): 所令第206条は3つの版で同文
+[OK] same_rei_208_2 (M-HKF §2・PS-HKL §2.2): 所令第208_2条は3つの版で同文
+[OK] same_rei_208_3 (M-HKF §2・PS-HKL §2.2): 所令第208_3条は3つの版で同文
+[OK] same_rei_208_4 (M-HKF §2・PS-HKL §2.2): 所令第208_4条は3つの版で同文
+[OK] same_rei_208_5 (M-HKF §2・PS-HKL §2.2): 所令第208_5条は3つの版で同文
+[OK] same_rei_208_6 (M-HKF §2・PS-HKL §2.2): 所令第208_6条は3つの版で同文
+[OK] same_rei_208_7 (M-HKF §2・PS-HKL §2.2): 所令第208_7条は3つの版で同文
+[OK] same_rei_208_8 (M-HKF §2・PS-HKL §2.2): 所令第208_8条は3つの版で同文
+[OK] same_rei_209 (M-HKF §2・PS-HKL §2.2): 所令第209条は3つの版で同文
+[OK] same_rei_210 (M-HKF §2・PS-HKL §2.2): 所令第210条は3つの版で同文
+[OK] same_rei_210_2 (M-HKF §2・PS-HKL §2.2): 所令第210_2条は3つの版で同文
+[OK] same_rei_211 (M-HKF §2・PS-HKL §2.2): 所令第211条は3つの版で同文
+[OK] same_rei_212 (M-HKF §2・PS-HKL §2.2): 所令第212条は3つの版で同文
+[OK] same_rei_213 (M-HKF §2・PS-HKL §2.2): 所令第213条は3つの版で同文
+[OK] same_rei_214 (M-HKF §2・PS-HKL §2.2): 所令第214条は3つの版で同文
+[OK] same_rei_215 (M-HKF §2・PS-HKL §2.2): 所令第215条は3つの版で同文
+[OK] same_rei_216 (M-HKF §2・PS-HKL §2.2): 所令第216条は3つの版で同文
+[OK] same_rei_217 (M-HKF §2・PS-HKL §2.2): 所令第217条は3つの版で同文
+[OK] same_rei_262 (M-HKF §2・PS-HKL §2.2): 所令第262条は3つの版で同文
+[OK] rei205_amount (M-HKF §2・§3.4・PS-HKL §1・§6): 所令第205条第1項：58万円以下（2025-12-31）→62万円以下（2026-12-31）
+[NG] ki47_2_paras_r8 (M-HKF §2): 所規第47条の2：2025-12-31→2026-12-31 で変わるのは第3項（公益信託）だけ  -> {"changed_paras": ["3", "11", "13"]}
+[OK] ki47_2_paras_r9 (M-HKF §2): 所規第47条の2：2026-12-31→2027-01-01 で第14項が加わる
+[OK] sochi_41_15_5_absent (M-HKF §2・PS-HKL §1): 措法第41条の15の5 は 2025-12-31 の版にない
+[OK] sochi_41_15_5_same (M-HKF §2・§3.1): 措法第41条の15の5 は 2026-04-01 以後の版で同文
+[OK] sochi_41_15_5_same0 (M-HKF §3.1): 措法第41条の15の5 は 2026-01-01・2026-03-31 で同文（当初の文言）
+[OK] chg_sochi_41_18 (M-HKF §2): 措法第41_18 は 2025-12-31→2026-11-09 で変わる
+[OK] chg_sochi_41_18_2 (M-HKF §2): 措法第41_18_2 は 2025-12-31→2026-11-09 で変わる
+[OK] chg_sochi_41_18_3 (M-HKF §2): 措法第41_18_3 は 2025-12-31→2026-11-09 で変わる
+[NG] sochi_41_18_nature (M-HKF §2): 措法第41条の18〜第41条の18の3 の変更は「公益信託関係の文言」だけ  -> {"41_18①（2026-01-01 から）": "公職の候補者が自らが代表者の特定政党支部にする寄附を除く文言が加わる", "41_18②・41_18_2②・41_18_3①（2026-04-01 から）": "所法78③（特定公益信託）の引用の削除", "41_18_3①二（2026-04-01 から）": "「学生等に対する修学の支援」→「学生に対する修学の支援」"}
+[NG] sochi_41_18_caps (PS-HKL §4): 措法41の18・41の18の2・41の18の3 はいずれも「寄附金控除の特例又は所得税額の特別控除」を定める  -> {"41_18": "（政治活動に関する寄附をした場合の寄附金控除の特例又は所得税額の特別控除）", "41_18_2": "（認定特定非営利活動法人等に寄附をした場合の寄附金控除の特例又は所得税額の特別控除）", "41_18_3": "（公益社団法人等に寄附をした場合の所得税額の特別控除）"}
+[OK] sochirei_41_15_5 (PS-HKL §9・H H3): 措令（asof 2026-11-09）に措法41の15の5 を引く規定はなく、措規は第19条の10（保険料控除申告書の記載事項）だけ（扶養親族の所属を定める規定は見つからない）
+[OK] mhkf_hash_transcription (M-HKF §2): §2 の表の SHA-256（先頭8桁、26件）は担当の article_hashes.json と一致（転記の確認。値そのものは担当のテキスト化に依存）
+[OK] chiho314_2_items_same (M-HKF §2・PS-HKL §1・§7): 地法第314条の2第1項第1号〜第5号の3 は 3つの版で同文
+[OK] chiho314_2_diff_r8 (M-HKF §2): 地法第314条の2 の 2025-12-31→2026-11-09 の差分は第1項第10号の2・第11号・第12号・第6項・第8項・第10項・第11項だけ
+[OK] chiho314_2_diff_r9 (M-HKF §2): 地法第314条の2 の 2026-11-09→2027-01-01 の差分は第1項第6号だけ
+[OK] chg_chiho_314_7 (M-HKF §2): 地法第314_7 は 2025-12-31・2026-11-09・2027-01-01 で互いに違う
+[OK] chg_chiho_37_2 (M-HKF §2): 地法第37_2 は 2025-12-31・2026-11-09・2027-01-01 で互いに違う
+[OK] chiho_suppl_5_5 (M-HKF §2): 地法原始附則第5条の5 は 2025-12-31=2026-11-09、2027-01-01 で変わる
+[OK] chiho_suppl_same_5_7 (M-HKF §2・PS-HKL §8.3): 地法原始附則第5_7 は 2025-12-31〜2027-01-01 で同文
+[OK] chiho_suppl_same_7 (M-HKF §2・PS-HKL §8.3): 地法原始附則第7 は 2025-12-31〜2027-01-01 で同文
+[OK] chiho_suppl_same_5_6 (M-HKF §2・PS-HKL §8.3): 地法原始附則第5_6 は 2025-12-31〜2027-01-01 で同文
+[OK] chiho_suppl_same_7_3 (M-HKF §2・PS-HKL §8.3): 地法原始附則第7_3 は 2025-12-31〜2027-01-01 で同文
+[OK] chiho_h18_7_5 (M-HKF §2): 平成18年法律第7号附則第5条は3つの版で同文
+[OK] chiho_h18_7_11 (M-HKF §2): 平成18年法律第7号附則第11条は3つの版で同文
+[OK] chiho_kw_23 (M-HKF §2・PS-HKL §1): 地法で「二十三歳未満」を含むのは第34条と第314条の2 だけ、「四十一条の十五の五」は0件
+[OK] s41155_orig (M-HKF §3.1・PS-HKL §2.3): 当初の文言は「令和八年分」、判定日「令和八年十二月三十一日」
+[OK] s41155_r8 (M-HKF §3.1・PS-HKL §2.3・H H3): 2026-04-01 以後の文言（令和8年分又は令和9年分、読替え、12月31日判定）
+[OK] s41155_p3 (PS-HKL §2.3): 第3項は所法190二ロ・196①・196①三・198④ を読み替える
+[OK] r7_13_s1_2 (M-HKF §3.1・PS-HKL §1): 令和7年法律第13号附則第1条第2号（令和八年一月一日）ロに「同法第四十一条の十五の四の次に一条を加える改正規定」
+[OK] s41155_suppl_none (M-HKF §3.1): 措法の附則（改正附則を含む）に「四十一条の十五の五」を含む規定はない（asof 2026-11-09）
+[OK] ki47_3_24 (PS-HKL §2.3): 所規第47条第3項第24号（扶養親族の氏名・生年月日・続柄・個人番号）は 2026-01-01 の版から
+[OK] text_76_1_1 (PS-HKL §2〜§6): 所法の文言 76_1_1
+[OK] text_76_1_2 (PS-HKL §2〜§6): 所法の文言 76_1_2
+[OK] text_76_1_3 (PS-HKL §2〜§6): 所法の文言 76_1_3
+[OK] text_76_2 (PS-HKL §2〜§6): 所法の文言 76_2
+[OK] text_76_3 (PS-HKL §2〜§6): 所法の文言 76_3
+[OK] text_76_4 (PS-HKL §2〜§6): 所法の文言 76_4
+[OK] text_76_5 (PS-HKL §2〜§6): 所法の文言 76_5
+[OK] text_76_6 (PS-HKL §2〜§6): 所法の文言 76_6
+[OK] text_76_8 (PS-HKL §2〜§6): 所法の文言 76_8
+[OK] text_76_10 (PS-HKL §2〜§6): 所法の文言 76_10
+[OK] text_76_11 (PS-HKL §2〜§6): 所法の文言 76_11
+[OK] text_75_1 (PS-HKL §2〜§6): 所法の文言 75_1
+[OK] text_75_2 (PS-HKL §2〜§6): 所法の文言 75_2
+[OK] text_77_1 (PS-HKL §2〜§6): 所法の文言 77_1
+[OK] text_77_2 (PS-HKL §2〜§6): 所法の文言 77_2
+[OK] text_72_1 (PS-HKL §2〜§6): 所法の文言 72_1
+[OK] text_78_old (PS-HKL §4): 所法78（2026-03-31）：40/100・2千円・入学・特別の利益・旧第3項の特定公益信託
+[OK] text_78_new (PS-HKL §4・M-HKF §3.2): 所法78②四（2026-04-01）
+[OK] r6_8_suppl (M-HKF §3.2・PS-HKL §1): 令和6年法律第8号附則第1条第9号（公益信託に関する法律の施行の日）イに所法78の改正規定、第3条第1項の経過措置
+[OK] rei205_2 (PS-HKL §6・H H10): 所令205②：扶養等の居住者、配偶者は夫又は妻、その他は総所得金額等が最も大きい居住者
+[OK] rei206 (PS-HKL §6): 所令206：①一〜四、②は第1号〜第3号、③直前の価額、1年（3年）
+[OK] rei208_2 (PS-HKL §5): 所令208の2：旧第二種共済契約
+[OK] rei209 (PS-HKL §2.2): 所令209：保険期間5年未満の保険契約（見出し「生命保険料控除の対象とならない保険契約等」）
+[OK] rei217_koeki (PS-HKL §4（訂正後の文言）): 所令217第3号：公益社団法人及び公益財団法人（所法78②三の特定公益増進法人）
+[OK] rei212 (PS-HKL §2.2): 所令212：法76⑧三の政令で定める要件
+[OK] rei219 (H H3): 所令219：二以上の居住者がある場合の扶養親族及び特定親族の所属（法85⑥）
+[OK] rei262_1_4 (PS-HKL §2.4): 所令262①四：旧生命保険料は9千円を超える旧生命保険契約等に係るものに限る
+[OK] rei262_1_5 (PS-HKL §3): 所令262①五：地震保険料（金額の例外なし）
+[OK] rei262_1_1 (PS-HKL §6): 所令262①一：やむを得ない支出の領収を証する書類
+[OK] rei262_1_3_6 (PS-HKL §4・§5): 所令262①三（小規模企業共済等掛金の額）・六（特定寄附金の明細書その他）
+[OK] ki47_2_1 (PS-HKL §2.4): 所規47の2①：保険契約者の氏名・該当する旨、個人年金は年金受取人の氏名・生年月日・支払開始日・支払期間・払込期間
+[OK] ki47_2_2 (PS-HKL §3): 所規47の2②：保険契約者の氏名、保険又は共済の種類及びその目的
+[OK] ki47_2_3 (PS-HKL §4): 所規47の2③：受領した旨・額・年月日、公益信託の受託者、特定事業者（国税庁長官が指定）
+[OK] shotoku120_6 (PS-HKL §2.4): 所法120⑥（2027-01-01 の版）：明細書の添付で証明書類に代えられる
+[OK] shotoku120_6_app (PS-HKL §2.4): 令和8年法律第12号附則第10条第1項：令和9年1月1日以後に令和8年分以後の確定申告書を提出する場合に適用
+[OK] shotoku2_1_37 (PS-HKL §8.3): 所法2①三十七：第二編第五章第二節第一款及び第二款の申告書（期限後申告書を含む）
+[OK] shotoku_120_127 (M-HKF §3.5・PS-HKL §8.3): 所法120〜123 は第一款、124〜127 は第二款
+[OK] ichienmiman (M-HKF §3.5): 「一円未満」：所法（2026-04-01）0件、所令（2026-12-31）は第319条の7第2項の1件だけ
+[OK] shotoku85_6 (PS-HKL §9): 所法85⑥の文言
+[OK] shotoku2_34 (H H3): 所法2①三十四：扶養親族の合計所得金額 58万円以下（2025-12-31）／62万円以下（2026-12-31）
+[OK] shotoku84_2 (H H3): 特定親族：合計所得金額 123万円以下で控除対象扶養親族に該当しない19歳以上23歳未満の親族（令和8年分の版も同じ）
+[OK] kiso_kojo (H H7・C C6): 基礎控除：令和7年分 58万＋37万＝95万（合計所得132万円以下）、令和8年分 62万＋42万＝104万（489万円以下）
+[OK] h18_10_10_text (PS-HKL §3): 平18法10附則10②：10年以上・平成19年1月1日以後に変更していない・1万円以下／1万5千円／5万円、③一の契約は一方
+[OK] r7_120_s1 (M-HKF §3.4): 令和7年政令第120号附則第1条第1号（令和七年十二月一日）イに第205条第1項の改正規定
+[OK] r7_120_s10_1 (M-HKF §3.4・PS-HKL §1): 同附則第10条第1項：令和7年分以後
+[NG] r7_120_s10_2_scope (M-HKF §3.4・PS-HKL §1): 同附則第10条第2項：施行日前に同年分の確定申告書を出した者（一般）は5年以内に更正の請求ができる  -> {"原文の対象": "所得税法第百二十五条又は第百二十七条の規定による確定申告書を提出した者及び同日前に決定を受けた者"}
+[OK] r8_93_s1 (M-HKF §3.4): 令和8年政令第93号附則第1条第1号：第205条第1項の改正規定は令和八年十二月一日
+[OK] r8_93_s8_1 (M-HKF §3.4・PS-HKL §1): 同附則第8条第1項：令和8年分以後
+[NG] r8_93_s8_2_scope (M-HKF §3.4・PS-HKL §1): 同附則第8条第2項：施行日前に同年分の確定申告書を出した者（一般）は5年以内に更正の請求ができる  -> {"原文の対象": "所得税法第百二十五条又は第百二十七条の規定による確定申告書を提出した者及び同日前に決定を受けた者"}
+[OK] chirei48_6_2025-12-31 (M-HKF §3.4・PS-HKL §1・§7): 地令48の6①（asof 2025-12-31）：四十八万円以下
+[OK] chirei7_13_2025-12-31 (PS-HKL §9（未読とされていた点）): 地令7の13①（道府県民税、asof 2025-12-31）：四十八万円以下
+[OK] chirei48_6_2026-01-01 (M-HKF §3.4・PS-HKL §1・§7): 地令48の6①（asof 2026-01-01）：五十八万円以下
+[OK] chirei7_13_2026-01-01 (PS-HKL §9（未読とされていた点）): 地令7の13①（道府県民税、asof 2026-01-01）：五十八万円以下
+[OK] chirei48_6_2026-11-09 (M-HKF §3.4・PS-HKL §1・§7): 地令48の6①（asof 2026-11-09）：五十八万円以下
+[OK] chirei7_13_2026-11-09 (PS-HKL §9（未読とされていた点）): 地令7の13①（道府県民税、asof 2026-11-09）：五十八万円以下
+[OK] chirei48_6_2027-01-01 (M-HKF §3.4・PS-HKL §1・§7): 地令48の6①（asof 2027-01-01）：六十二万円以下
+[OK] chirei7_13_2027-01-01 (PS-HKL §9（未読とされていた点）): 地令7の13①（道府県民税、asof 2027-01-01）：六十二万円以下
+[OK] r7_119 (M-HKF §3.4): 令和7年政令第119号附則第1条第1号（令和八年一月一日）に第48条の6第1項の改正規定、附則第6条第2項：令和8年度以後
+[OK] r8_83 (M-HKF §3.4): 令和8年政令第83号附則第1条第1号（令和九年一月一日）に第48条の6第1項の改正規定、附則第5条第2項：令和9年度以後
+[OK] chiho314_2_5 (PS-HKL §7): 地法314の2①五：1万2千/3万2千/5万6千/2万8千、1万5千/4万/7万/3万5千、両方2万8千、合計7万
+[OK] chiho314_2_5_3 (PS-HKL §7): 地法314の2①五の三：2分の1、2万5千円
+[OK] chiho314_2_1 (PS-HKL §7): 地法314の2①一：第313条第10項の資産と政令で定める生活に通常必要でない資産を除く、10分の1・5万円
+[OK] chiho314_2_4 (PS-HKL §7): 地法314の2①四：支払った金額の合計額（小規模企業共済・企業型/個人型・条例の共済）
+[OK] chiho314_2_p5_7_11 (PS-HKL §7): 地法314の2⑤（財形は適用しない）・⑦（附帯の新契約のみなし）・⑪（まず雑損控除額）
+[OK] h18_7_11_5 (PS-HKL §7): 平18法7附則11⑤：1/2・2万5千、5千円＋（超える額〔上限1万円〕の1/2）、両方2万5千
+[OK] chiho314_7_1 (PS-HKL §8.1): 地法314の7①：100分の30・2千円・100分の6（指定都市100分の8）・特例控除額を加算・所得割の額が上限
+[OK] chiho314_7_1_3 (PS-HKL §8.1・M-HKF §3.3): 地法314の7①三：所法78②二・三（2026-11-09）→二から四まで（2027-01-01）、市町村の条例で定めるもの
+[OK] chiho314_7_9 (PS-HKL §8.1): 地法314の7⑨：寄附金を支出した時に指定されているか
+[OK] chiho314_7_11 (PS-HKL §8.2): 地法314の7⑪（2026-11-09）：2千円超・5分の3（指定都市5分の4）・所得割の100分の20、表の割合85〜45、差引き負は100分の90
+[OK] chiho314_7_11_old (PS-HKL §1・§8.2・M-HKF §3.3): 地法314の7⑪一の人的控除差調整額は 2026-03-31 まで「前条第一号イに掲げる金額」だけ、2026-04-01 から基礎控除−48万円を加える
+[OK] chiho314_7_0401_paras (M-HKF §3.3): 地法314の7 の 2026-03-31→2026-04-01 の変更：第11項第1号のほか第4項〜第8項（指定の取消し）の整理（第2項第5号の項番号の引用も変わる）
+[NG] chiho314_7_1101_paras (M-HKF §3.3): 地法314の7 の 2026-04-01→2026-11-09 の差分は「第2項と第3項〜第8項」  -> {"changed_paras": ["2", "3"]}
+[OK] chiho314_7_11_r9 (M-HKF §3.3・PS-HKL §1): 地法314の7⑪（2027-01-01）：百十五万八千円（指定都市百五十四万四千円）
+[OK] chiho37_2_11_r9 (M-HKF §3.3・PS-HKL §1): 地法37の2⑪（2027-01-01）：七十七万二千円（指定都市三十八万六千円）、5分の2（5分の1）
+[OK] chiho37_2_1 (PS-HKL §8.1): 地法37の2①：100分の4（指定都市100分の2）
+[OK] chiho_s5_5_r9 (M-HKF §3.3): 地法附則5の5①②（2027-01-01）も同じ額の上限
+[OK] chiho_s5_6_2 (PS-HKL §8.2・M-HKC §6): 地法附則5の6②：平成26年度から令和20年度、84.895〜44.055、49.16・59.37・74.685
+[OK] chiho_s7_3_2 (PS-HKL §8.4・M-HKC §6): 地法附則7の3②：平成28年度から令和20年度、84.895分の5.105 など
+[OK] chiho_s7_2_5 (PS-HKL §8.4): 地法附則7の2⑤（2026-04-01 以後）：区分と 85分の5〜57分の33（900万円超は1区分）
+[OK] chiho_s7 (PS-HKL §8.3・H H8): 地法附則7⑧〜⑬（5以下・1月10日・1月31日・4つの無効事由）、道府県は⑥
+[OK] chiho317_3 (PS-HKL §8.3): 地法317の3①（2027-01-01）
+[OK] r8_2_s1 (M-HKF §3.3・PS-HKL §1): 令和8年法律第2号附則第1条：原則 令和8年4月1日、第1号 令和8年10月1日、第2号 令和9年1月1日（314の7⑪の改正は第1号に係る部分を除く）
+[OK] r8_2_s3_11 (M-HKF §3.3・PS-HKL §1): 同附則第3条①⑤⑨・第11条①④⑧（令和8年度以後、令和10年度以後、百分の五十二・五）
+[OK] web_ta_1110 (M-HKF §4): ta_1110: HTTP 200, Last-Modified Wed, 09 Sep 2026 01:00:17 GMT, SHA-256 377fee05900a97e3
+[OK] web_ta_1135 (M-HKF §4): ta_1135: HTTP 200, Last-Modified Wed, 09 Sep 2026 01:00:16 GMT, SHA-256 7feba875b3b0ce80
+[OK] web_ta_1140 (M-HKF §4): ta_1140: HTTP 200, Last-Modified Wed, 09 Sep 2026 01:00:16 GMT, SHA-256 20cf3d89f75dc48a
+[OK] web_ta_1140_qa (M-HKF §4): ta_1140_qa: HTTP 200, Last-Modified Wed, 09 Sep 2026 01:00:16 GMT, SHA-256 a97fab46521400ee
+[OK] web_ta_1141 (M-HKF §4): ta_1141: HTTP 200, Last-Modified Wed, 09 Sep 2026 01:00:16 GMT, SHA-256 d413caed251207e9
+[OK] web_ta_1145 (M-HKF §4): ta_1145: HTTP 200, Last-Modified Wed, 09 Sep 2026 01:00:16 GMT, SHA-256 13e2dd00c0165c02
+[OK] web_ta_1146 (M-HKF §4): ta_1146: HTTP 200, Last-Modified Wed, 09 Sep 2026 01:00:16 GMT, SHA-256 6b6331a281b23362
+[OK] web_ta_1150 (M-HKF §4): ta_1150: HTTP 200, Last-Modified Wed, 09 Sep 2026 01:00:16 GMT, SHA-256 850e2be9456fb284
+[OK] web_ta_1155 (M-HKF §4): ta_1155: HTTP 200, Last-Modified Wed, 09 Sep 2026 01:00:15 GMT, SHA-256 6f2ea6b344610274
+[OK] web_ta_1902 (M-HKF §4): ta_1902: HTTP 200, Last-Modified Tue, 25 Aug 2026 05:00:01 GMT, SHA-256 27810fec98a6178b
+[OK] web_shitsugi_05_74 (M-HKF §4): shitsugi_05_74: HTTP 200, Last-Modified Wed, 03 Dec 2025 08:31:00 GMT, SHA-256 207e9fd72fffcb53
+[OK] web_shitsugi_05_75 (M-HKF §4): shitsugi_05_75: HTTP 200, Last-Modified Wed, 03 Dec 2025 08:31:00 GMT, SHA-256 c5be17f927c8aac7
+[OK] web_shitsugi_05_76 (M-HKF §4): shitsugi_05_76: HTTP 200, Last-Modified Wed, 03 Dec 2025 08:31:00 GMT, SHA-256 f78dbf2ed3d95c36
+[OK] web_shitsugi_05_68 (M-HKF §4): shitsugi_05_68: HTTP 200, Last-Modified Wed, 03 Dec 2025 08:31:01 GMT, SHA-256 4526423ea6edd742
+[OK] web_shitsugi_05_05 (M-HKF §4): shitsugi_05_05: HTTP 200, Last-Modified Wed, 03 Dec 2025 08:31:03 GMT, SHA-256 4cc1f311ae396d01
+[OK] web_shitsugi_02_37 (M-HKF §4): shitsugi_02_37: HTTP 200, Last-Modified Wed, 03 Dec 2025 08:31:06 GMT, SHA-256 f513bd5fb1d72336
+[OK] web_shitsugi_gensen_03_35 (M-HKF §4): shitsugi_gensen_03_35: HTTP 200, Last-Modified Wed, 03 Dec 2025 08:31:15 GMT, SHA-256 ca8f5848862b9fd1
+[OK] web_kihon_16_01 (M-HKF §4): kihon_16_01: HTTP 200, Last-Modified Thu, 18 Jan 2024 09:30:20 GMT, SHA-256 c00969ebe1eb83e0
+[OK] web_kihon_16_03 (M-HKF §4): kihon_16_03: HTTP 200, Last-Modified Thu, 18 Jan 2024 09:30:20 GMT, SHA-256 c26562a874bbead4
+[OK] web_kihon_16_04 (M-HKF §4): kihon_16_04: HTTP 200, Last-Modified Thu, 25 Dec 2025 01:00:05 GMT, SHA-256 771948518a019004
+[OK] web_kihon_16_05 (M-HKF §4): kihon_16_05: HTTP 200, Last-Modified Fri, 02 Oct 2026 08:30:04 GMT, SHA-256 50f0070469597674
+[OK] web_kihon_16_06 (M-HKF §4): kihon_16_06: HTTP 200, Last-Modified Tue, 25 Nov 2025 08:30:05 GMT, SHA-256 73c6009edd9c2ed3
+[OK] web_nta_furusato (M-HKF §4): nta_furusato: HTTP 200, Last-Modified Tue, 17 Mar 2026 01:00:12 GMT, SHA-256 c5cafeaa8e304f71
+[OK] web_nta_tokyo_onestop (M-HKF §4): nta_tokyo_onestop: HTTP 200, Last-Modified Tue, 17 Mar 2026 08:30:01 GMT, SHA-256 766cc4348aab3594
+[OK] web_soumu_furusato_index (M-HKF §4): soumu_furusato_index: HTTP 200, Last-Modified Wed, 01 Oct 2025 00:14:28 GMT, SHA-256 1ac955a0b8c79972
+[OK] web_soumu_mechanism (M-HKF §4): soumu_mechanism: HTTP 200, Last-Modified Sun, 08 Feb 2026 23:57:31 GMT, SHA-256 732a9085ddf7ecfb
+[OK] web_nencho2026_index (M-HKF §4): nencho2026_index: HTTP 200, Last-Modified Fri, 16 Oct 2026 08:30:09 GMT, SHA-256 3e47f99112faf3ff
+[OK] web_nencho2026_107pdf (M-HKF §4): nencho2026_107pdf: HTTP 200, Last-Modified Mon, 31 Aug 2026 08:30:11 GMT, SHA-256 38907ac31a3a50e0
+[OK] web_nencho2026_105pdf (M-HKF §4): nencho2026_105pdf: HTTP 200, Last-Modified Thu, 24 Sep 2026 08:30:11 GMT, SHA-256 9460af44b13c8651
+[OK] web_ta_genzai (M-HKF §4・PS-HKN 冒頭): TA 10ページとも「[令和8年4月1日現在法令等]」
+[OK] title_kihon_16_01 (M-HKF §4): kihon_16_01 の題名に「法第72条《雑損控除》関係」
+[OK] title_kihon_16_03 (M-HKF §4): kihon_16_03 の題名に「法第76条《生命保険料控除》関係」
+[OK] title_kihon_16_04 (M-HKF §4): kihon_16_04 の題名に「法第77条《地震保険料控除》関係」
+[OK] title_kihon_16_05 (M-HKF §4): kihon_16_05 の題名に「法第78条《寄附金控除》関係」
+[OK] title_kihon_16_06 (M-HKF §4): kihon_16_06 の題名に「法第79条《障害者控除》関係」
+[OK] title_nta_furusato (M-HKF §4): nta_furusato の題名に「ふるさと納税をされた方へ｜令和7年分 確定申告特集」
+[OK] title_soumu_mechanism (M-HKF §4): soumu_mechanism の題名に「税金の控除について」
+[OK] title_nencho2026_index (M-HKF §4): nencho2026_index の題名に「令和8年分　年末調整のしかた」
+[OK] nencho_toc (M-HKF §4): 年末調整のしかた目次：2-3 は 21から28、2 は 8から15
+[OK] quote_ta_1140 (PS-HKN §1.1): ta_1140 の引用・要約（14か所）
+[OK] quote_ta_1140_qa (PS-HKN §1.2): ta_1140_qa の引用・要約（5か所）
+[OK] quote_ta_1141 (PS-HKN §1.3): ta_1141 の引用・要約（5か所）
+[OK] quote_shitsugi_05_74 (PS-HKN §1.4): shitsugi_05_74 の引用・要約（3か所）
+[OK] quote_shitsugi_05_75 (PS-HKN §1.4): shitsugi_05_75 の引用・要約（1か所）
+[OK] quote_shitsugi_05_76 (PS-HKN §1.4): shitsugi_05_76 の引用・要約（2か所）
+[OK] quote_shitsugi_gensen_03_35 (PS-HKN §1.4): shitsugi_gensen_03_35 の引用・要約（3か所）
+[OK] quote_kihon_16_03 (PS-HKN §1.5): kihon_16_03 の引用・要約（7か所）
+[OK] quote_ta_1145 (PS-HKN §2.1): ta_1145 の引用・要約（7か所）
+[OK] quote_ta_1146 (PS-HKN §2.2): ta_1146 の引用・要約（2か所）
+[OK] quote_shitsugi_05_68 (PS-HKN §2.3): shitsugi_05_68 の引用・要約（2か所）
+[OK] quote_kihon_16_04 (PS-HKN §2.4): kihon_16_04 の引用・要約（4か所）
+[OK] quote_ta_1150 (PS-HKN §3.1): ta_1150 の引用・要約（7か所）
+[OK] quote_ta_1155 (PS-HKN §3.2): ta_1155 の引用・要約（10か所）
+[OK] quote_nta_furusato (PS-HKN §3.3): nta_furusato の引用・要約（2か所）
+[OK] quote_nta_tokyo_onestop (PS-HKN §3.3): nta_tokyo_onestop の引用・要約（3か所）
+[OK] quote_soumu_mechanism (PS-HKN §3.4): soumu_mechanism の引用・要約（8か所）
+[OK] quote_shitsugi_02_37 (PS-HKN §3.5): shitsugi_02_37 の引用・要約（2か所）
+[OK] quote_kihon_16_05 (PS-HKN §3.6): kihon_16_05 の引用・要約（9か所）
+[OK] quote_ta_1135 (PS-HKN §4): ta_1135 の引用・要約（5か所）
+[OK] quote_ta_1110 (PS-HKN §5.1): ta_1110 の引用・要約（11か所）
+[OK] quote_shitsugi_05_05 (PS-HKN §5.2): shitsugi_05_05 の引用・要約（1か所）
+[OK] quote_kihon_16_01 (PS-HKN §5.3): kihon_16_01 の引用・要約（7か所）
+[OK] quote_ta_1902 (PS-HKN §5.4): ta_1902 の引用・要約（1か所）

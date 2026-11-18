@@ -1,0 +1,69 @@
+{
+ "file": "025_r7_syotoku_data_downloadData_iryouhi_form_v3.1.xlsx",
+ "sha256": "032f862f33e83a84e26469e7ddf702aa4d03531152168e843ad379b88d61a89a",
+ "bytes": 416343,
+ "has_vba": false,
+ "sheets": [
+  {
+   "index": 1,
+   "name": "医療費集計フォーム",
+   "path": "xl/worksheets/sheet1.xml",
+   "cells": 1021,
+   "formula_cells": 20,
+   "data_validations": [
+    {
+     "sqref": "D9:G1003",
+     "type": "list",
+     "allowBlank": "1",
+     "promptTitle": "",
+     "prompt": "",
+     "errorTitle": "入力形式エラー",
+     "error": "入力された内容は入力形式に合っていません。_x000a_リストから選択し直してください。",
+     "formula1": "$L$2:$M$2"
+    },
+    {
+     "sqref": "B9:B1003",
+     "type": "textLength",
+     "allowBlank": "1",
+     "promptTitle": "",
+     "prompt": "",
+     "errorTitle": "入力形式エラー",
+     "error": "入力された内容は入力形式に合っていません。",
+     "formula1": "0"
+    },
+    {
+     "sqref": "C9:C1003",
+     "type": "textLength",
+     "allowBlank": "1",
+     "promptTitle": "",
+     "prompt": "",
+     "errorTitle": "入力形式エラー",
+     "error": "入力された内容は入力形式に合っていません。",
+     "formula1": "0"
+    },
+    {
+     "sqref": "H9:I1003",
+     "type": "whole",
+     "allowBlank": "1",
+     "promptTitle": "",
+     "prompt": "",
+     "errorTitle": "入力形式エラー",
+     "error": "入力された内容は入力形式に合っていません。",
+     "formula1": "0"
+    }
+   ],
+   "merged_cells": 4,
+   "dimension": "A1:M1004"
+  },
+  {
+   "index": 2,
+   "name": "ご利用に当たって",
+   "path": "xl/worksheets/sheet2.xml",
+   "cells": 79,
+   "formula_cells": 0,
+   "data_validations": [],
+   "merged_cells": 22,
+   "dimension": "B2:L125"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "run_at": "20261109-191930",
+ "download_dir": ".work/downloads/20261109-191930_R2X_aoiro_verify_nta2",
+ "items": [
+  {
+   "id": "shitsugi_04_10",
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/04/10.htm",
+   "status": 200,
+   "last_modified": "Wed, 03 Dec 2025 08:31:04 GMT",
+   "bytes": 5277,
+   "sha256": "abfb79c969dac59ff9512b6be8fc9314fe8feab01980e6d079b886ad6aaa1453",
+   "saved": ".work/downloads/20261109-191930_R2X_aoiro_verify_nta2/shitsugi_04_10.htm"
+  },
+  {
+   "id": "shitsugi_04_09",
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/04/09.htm",
+   "status": 200,
+   "last_modified": "Wed, 03 Dec 2025 08:31:04 GMT",
+   "bytes": 4983,
+   "sha256": "c9eae92bd9047bca77c0d1673af48fb6741684074c3c8e9e74252456bac86aa5",
+   "saved": ".work/downloads/20261109-191930_R2X_aoiro_verify_nta2/shitsugi_04_09.htm"
+  },
+  {
+   "id": "ta_bunya_kojinjigyo",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-kojinjigyo.htm",
+   "status": 200,
+   "last_modified": "Wed, 17 Dec 2025 05:00:05 GMT",
+   "bytes": 18995,
+   "sha256": "db02558f69ef8a18fd0322e6a07adcf23e854f9d7351d30bdb787e112501c188",
+   "saved": ".work/downloads/20261109-191930_R2X_aoiro_verify_nta2/ta_bunya_kojinjigyo.htm"
+  }
+ ]
+}

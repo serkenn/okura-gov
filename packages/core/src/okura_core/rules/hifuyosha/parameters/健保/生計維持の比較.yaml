@@ -1,0 +1,18 @@
+description: 同一の世帯に属する認定対象者の年間収入と被保険者の年間収入の比較（昭和52年通知 記1）。
+同一の世帯の収入の割合:
+  description: 被保険者の年間収入に対する割合（この割合の額未満）
+  分子:
+    description: 割合の分子
+    metadata: &half
+      law: 昭和52年4月6日 保発第9号・庁保発第9号 記1（被保険者の年間収入の2分の1未満）
+      source_kind: 通知・事務連絡
+      unit: 率
+      reference:
+        - docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md#1.1
+    values:
+      2025-01-01: {value: 1}
+  分母:
+    description: 割合の分母
+    metadata: *half
+    values:
+      2025-01-01: {value: 2}

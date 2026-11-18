@@ -1,0 +1,17 @@
+## env
+{"python": "3.11.9 (main, Aug 14 2024, 04:18:20) [MSC v.1929 64 bit (AMD64)]", "utf8_mode": 0, "isolated": 1, "preferred_encoding": "cp932", "tmp": "C:\\Users\\user\\AppData\\Local\\Temp\\r2_openfisca_94eb21du"}
+
+## versions
+{"openfisca-core": "46.0.1", "flask": "3.1.3", "flask-cors": "3.0.10", "werkzeug": "3.1.9", "gunicorn": "22.0.0", "numexpr": "2.14.2", "numpy": "2.4.6", "pyyaml": "6.0.3"}
+
+## pyyaml_has_libyaml
+true
+
+## parameter_yaml_loader
+"yaml.cyaml.CLoader"
+
+## test_yaml_loader
+"yaml.cyaml.CLoader"
+
+## T00_日本語の名前でパッケージを読み込む (NG, 0.067s)
+"ParameterParsingError: Traceback (most recent call last):\n  File \"C:\\Users\\user\\Documents\\okura-gov\\.work\\venvs\\R2-openfisca\\Lib\\site-packages\\openfisca_core\\parameters\\helpers.py\", line 47, in _load_yaml_file\n    return config.yaml.load(f, Loader=config.Loader)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\Documents\\okura-gov\\.work\\venvs\\R2-openfisca\\Lib\\site-packages\\yaml\\__init__.py\", line 81, in load\n    return loader.get_single_data()\n           ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\Documents\\okura-gov\\.work\\venvs\\R2-openfisca\\Lib\\site-packages\\yaml\\constructor.py\", line 49, in get_single_data\n    node = self.get_single_node()\n           ^^^^^^^^^^^^^^^^^^^^^^\n  File \"yaml/_yaml.pyx\", line 669, in yaml._yaml.CParser.get_single_node\n  File \"yaml/_yaml.pyx\", line 859, in yaml._yaml.CParser._parse_next_event\n  File \"yaml/_yaml.pyx\", line 868, in yaml._yaml.input_handler\nUnicodeDecodeError: 'cp932' codec can't decode byte 0x83 in position 32: illegal multibyte sequence\n\r\nError parsing parameter file 'C:\\Users\\user\\AppData\\Local\\Temp\\r2_openfisca_94eb21du\\r2_test_country\\parameters\\ダミー\\所得要件.yaml':\r\nInvalid parameter file content. Check the traceback above for more details."

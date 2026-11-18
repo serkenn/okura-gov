@@ -1,0 +1,252 @@
+description: 配偶者特別控除（所得税法第83条の2第1項）。令和6年分・令和7年分・令和8年分で本文は同じ（spouse §1.3）。
+配偶者の合計所得金額の上限:
+  description: 対象となる生計を一にする配偶者の合計所得金額の上限（この額以下）
+  metadata:
+    law: 所得税法第83条の2第1項柱書
+    source_kind: 法律
+    unit: 円
+    比較: 以下
+    reference:
+      - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.3
+  values:
+    2025-01-01:
+      value: 1330000
+      metadata:
+        適用: 令和7年分・令和8年分（同文）
+居住者の合計所得金額の上限:
+  description: 居住者（本人）の合計所得金額の上限（この額以下。「合計所得金額が千万円以下である当該居住者の配偶者に限る」）
+  metadata:
+    law: 所得税法第83条の2第1項柱書
+    source_kind: 法律
+    unit: 円
+    比較: 以下
+    reference:
+      - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.3
+  values:
+    2025-01-01:
+      value: 10000000
+      metadata:
+        適用: 令和7年分・令和8年分（同文）
+第1号:
+  居住者の合計所得金額の上限:
+    description: 第1号の区分の上限（本人の合計所得金額がこの額以下）
+    metadata:
+      law: 所得税法第83条の2第1項第1号
+      source_kind: 法律
+      unit: 円
+      比較: 以下
+      reference:
+        - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.3
+    values:
+      2025-01-01:
+        value: 9000000
+        metadata:
+          適用: 令和7年分・令和8年分
+  イ:
+    上限:
+      description: イの区分の上限（配偶者の合計所得金額がこの額以下）
+      metadata:
+        law: 所得税法第83条の2第1項第1号イ
+        source_kind: 法律
+        unit: 円
+        比較: 以下
+        reference:
+          - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.3
+      values:
+        2025-01-01:
+          value: 950000
+          metadata:
+            適用: 令和7年分・令和8年分
+    額:
+      description: イの額
+      metadata:
+        law: 所得税法第83条の2第1項第1号イ
+        source_kind: 法律
+        unit: 円
+        reference:
+          - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.3
+          - docs/measurements/20261109_round2_spouse-fetch-and-tables.md#3.2
+      values:
+        2025-01-01:
+          value: 380000
+          metadata:
+            適用: 令和7年分・令和8年分
+  ロ:
+    上限:
+      description: ロの区分の上限（95万円を超え、この額以下）
+      metadata:
+        law: 所得税法第83条の2第1項第1号ロ
+        source_kind: 法律
+        unit: 円
+        比較: 以下
+        reference:
+          - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.3
+      values:
+        2025-01-01:
+          value: 1300000
+          metadata:
+            適用: 令和7年分・令和8年分
+    基準の額:
+      description: ロで、差し引く前の額（三十八万円）
+      metadata:
+        law: 所得税法第83条の2第1項第1号ロ
+        source_kind: 法律
+        unit: 円
+        reference:
+          - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.3
+      values:
+        2025-01-01:
+          value: 380000
+          metadata:
+            適用: 令和7年分・令和8年分
+    超える部分の起点:
+      description: ロで、配偶者の合計所得金額のうちこの額を超える部分の金額を差し引く（九十三万一円）
+      metadata:
+        law: 所得税法第83条の2第1項第1号ロ
+        source_kind: 法律
+        unit: 円
+        reference:
+          - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.3
+      values:
+        2025-01-01:
+          value: 930001
+          metadata:
+            適用: 令和7年分・令和8年分
+    刻み:
+      description: ロの括弧書きの「五万円の整数倍の金額から三万円を控除した金額」の五万円
+      metadata:
+        law: 所得税法第83条の2第1項第1号ロ（括弧書き）
+        source_kind: 法律
+        unit: 円
+        reference:
+          - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.3
+      values:
+        2025-01-01:
+          value: 50000
+          metadata:
+            適用: 令和7年分・令和8年分
+    刻みから引く額:
+      description: ロの括弧書きの「五万円の整数倍の金額から三万円を控除した金額」の三万円
+      metadata:
+        law: 所得税法第83条の2第1項第1号ロ（括弧書き）
+        source_kind: 法律
+        unit: 円
+        reference:
+          - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.3
+      values:
+        2025-01-01:
+          value: 30000
+          metadata:
+            適用: 令和7年分・令和8年分
+  ハ:
+    額:
+      description: ハ（配偶者の合計所得金額が130万円を超える場合。上限133万円まで）の額
+      metadata:
+        law: 所得税法第83条の2第1項第1号ハ
+        source_kind: 法律
+        unit: 円
+        reference:
+          - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.3
+      values:
+        2025-01-01:
+          value: 30000
+          metadata:
+            適用: 令和7年分・令和8年分
+第2号:
+  居住者の合計所得金額の上限:
+    description: 第2号の区分の上限（本人の合計所得金額が900万円を超え、この額以下）
+    metadata:
+      law: 所得税法第83条の2第1項第2号
+      source_kind: 法律
+      unit: 円
+      比較: 以下
+      reference:
+        - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.3
+    values:
+      2025-01-01:
+        value: 9500000
+        metadata:
+          適用: 令和7年分・令和8年分
+  率:
+    分子:
+      description: 第2号で第1号の額に乗じる率（三分の二）の分子
+      metadata:
+        law: 所得税法第83条の2第1項第2号
+        source_kind: 法律
+        unit: 率の分子
+        reference:
+          - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.3
+      values:
+        2025-01-01:
+          value: 2
+          metadata:
+            適用: 令和7年分・令和8年分
+    分母:
+      description: 第2号の率（三分の二）の分母
+      metadata:
+        law: 所得税法第83条の2第1項第2号
+        source_kind: 法律
+        unit: 率の分母
+        reference:
+          - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.3
+      values:
+        2025-01-01:
+          value: 3
+          metadata:
+            適用: 令和7年分・令和8年分
+第3号:
+  居住者の合計所得金額の上限:
+    description: 第3号の区分の上限（本人の合計所得金額が950万円を超え、この額以下）
+    metadata:
+      law: 所得税法第83条の2第1項第3号
+      source_kind: 法律
+      unit: 円
+      比較: 以下
+      reference:
+        - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.3
+    values:
+      2025-01-01:
+        value: 10000000
+        metadata:
+          適用: 令和7年分・令和8年分
+  率:
+    分子:
+      description: 第3号で第1号の額に乗じる率（三分の一）の分子
+      metadata:
+        law: 所得税法第83条の2第1項第3号
+        source_kind: 法律
+        unit: 率の分子
+        reference:
+          - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.3
+      values:
+        2025-01-01:
+          value: 1
+          metadata:
+            適用: 令和7年分・令和8年分
+    分母:
+      description: 第3号の率（三分の一）の分母
+      metadata:
+        law: 所得税法第83条の2第1項第3号
+        source_kind: 法律
+        unit: 率の分母
+        reference:
+          - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.3
+      values:
+        2025-01-01:
+          value: 3
+          metadata:
+            適用: 令和7年分・令和8年分
+端数を切り上げる単位:
+  description: 第2号・第3号の額の端数を切り上げる単位（「一万円未満の端数がある場合には、これを切り上げた金額」）
+  metadata:
+    law: 所得税法第83条の2第1項第2号・第3号（括弧書き）
+    source_kind: 法律
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_round2_spouse-laws-and-sources.md#1.3
+      - docs/measurements/20261109_round2_spouse-fetch-and-tables.md#3.1
+  values:
+    2025-01-01:
+      value: 10000
+      metadata:
+        適用: 令和7年分・令和8年分

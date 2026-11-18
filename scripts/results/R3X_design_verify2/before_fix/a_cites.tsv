@@ -1,0 +1,594 @@
+doc	line	alias	file	ref	result
+round3_design-vocabulary	105	M-VOC	docs/measurements/20261109_round3_design-vocab-scan.md	§4	OK 4. 言い換えの候補の出現数（`variants.json`）
+round3_design-vocabulary	109	BC-run	docs/measurements/20261109_R2-tools_beancount-runtime.md	§2	OK 2. 日本語の文字列・メタデータ・タグ（`2_japanese_text`）
+round3_design-vocabulary	109	BC-run	docs/measurements/20261109_R2-tools_beancount-runtime.md	§3	OK 3. 取引ID（メタデータ `id:`）と beanquery による集計（`3_id_and_qu
+round3_design-vocabulary	109	BC-run	docs/measurements/20261109_R2-tools_beancount-runtime.md	§7	OK 7. 証憑（`document`）（`7_document`）
+round3_design-vocabulary	110	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§5.4	OK 5.4 年の途中の変化
+round3_design-vocabulary	110	PS-D	docs/public-sources/20261109_impl-prep_denchoho-requirements.md	§2.7	OK 2.7 保存の方法として認められるもの・認められないもの（Q&A（取引））
+round3_design-vocabulary	111	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§4.1	OK 4.1 生計を一にする（所得税：法に定義なし、所基通2-47）
+round3_design-vocabulary	111	NTA	docs/public-sources/20261109_R3-tsutatsu_nta.md	§1.1	OK 1.1 2−47 生計を一にするの意義 [通達]
+round3_design-vocabulary	111	NTA	docs/public-sources/20261109_R3-tsutatsu_nta.md	§1.3	OK 1.3 45−1・45−2 家事関連費 [通達]
+round3_design-vocabulary	112	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§4.7	OK 4.7 納税者（控除を受ける人）と、重ねて控除できないこと
+round3_design-vocabulary	112	IRN	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§6.1	OK 6.1 要件と選択（TA1129・TA1131・特集セルフ）
+round3_design-vocabulary	112	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§1.4	OK 1.4 通達（措置法通達 8の4-1）
+round3_design-vocabulary	112	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§2.2	OK 2.2 申告不要を選んだ配当と合計所得金額
+round3_design-vocabulary	113	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§3.1	OK 3.1 令和7年分・令和8年分（2025-12-31 版と 2026-12-31 版で同文。措規9の
+round3_design-vocabulary	113	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§1.1	OK 1.1 年間収入は「今後1年間の見込み」
+round3_design-vocabulary	114	JTL	docs/public-sources/20261109_round2_juminzei-tax-law-text.md	§4	OK 4. 所得割の税率（第314条の3（第35条））と標準税率（F）
+round3_design-vocabulary	114	KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§1.1	OK 1.1 国民健康保険料（国保法）
+round3_design-vocabulary	114	KYL	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§6	OK 6. 収入の範囲・事業収入・年間収入の見込み方（組合ごとの書き方の違い）
+round3_design-vocabulary	116	M-VOC	docs/measurements/20261109_round3_design-vocab-scan.md	§3	OK 3. 名前つきの関数らしい名前の書き方（`named_functions.tsv`）
+round3_design-vocabulary	122	BC-run	docs/measurements/20261109_R2-tools_beancount-runtime.md	§2	OK 2. 日本語の文字列・メタデータ・タグ（`2_japanese_text`）
+round3_design-vocabulary	122	M-VOC	docs/measurements/20261109_round3_design-vocab-scan.md	§1	OK 1. バッククォートで囲んだ語の分類（`token_summary.json`）
+round3_design-vocabulary	123	M-VOC	docs/measurements/20261109_round3_design-vocab-scan.md	§2	OK 2. 概念 ID らしい名前の接頭辞（`prefix_summary.json`）
+round3_design-vocabulary	123	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§8	OK 8. 判定コアの CLI 形（標準入力の JSON → 標準出力の JSON）（P10）
+round3_design-vocabulary	124	M-VOC	docs/measurements/20261109_round3_design-vocab-scan.md	§2	OK 2. 概念 ID らしい名前の接頭辞（`prefix_summary.json`）
+round3_design-vocabulary	125	M-VOC	docs/measurements/20261109_round3_design-vocab-scan.md	§3	OK 3. 名前つきの関数らしい名前の書き方（`named_functions.tsv`）
+round3_design-vocabulary	126	M-VOC	docs/measurements/20261109_round3_design-vocab-scan.md	§4	OK 4. 言い換えの候補の出現数（`variants.json`）
+round3_design-vocabulary	127	M-VOC	docs/measurements/20261109_round3_design-vocab-scan.md	§2	OK 2. 概念 ID らしい名前の接頭辞（`prefix_summary.json`）
+round3_design-vocabulary	128	M-VOC	docs/measurements/20261109_round3_design-vocab-scan.md	§4	OK 4. 言い換えの候補の出現数（`variants.json`）
+round3_design-vocabulary	138	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§4.7	OK 4.7 納税者（控除を受ける人）と、重ねて控除できないこと
+round3_design-vocabulary	138	IRN	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§6.1	OK 6.1 要件と選択（TA1129・TA1131・特集セルフ）
+round3_design-vocabulary	138	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§1.4	OK 1.4 通達（措置法通達 8の4-1）
+round3_design-vocabulary	138	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§2.2	OK 2.2 申告不要を選んだ配当と合計所得金額
+round3_design-vocabulary	138	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§5.2	OK 5.2 申告不要（措法第37条の11の5、措令第25条の10の12）
+round3_design-vocabulary	138	MISC	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md	§3.2	OK 3.2 原文（所令@2026-12-31。他の版も同文）
+round3_design-vocabulary	142	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§1.4	OK 1.4 却下・通知・みなし承認（所法145〜147）
+round3_design-vocabulary	142	PS-D	docs/public-sources/20261109_impl-prep_denchoho-requirements.md	§2.2	OK 2.2 真実性（改ざん防止）：次のいずれか一つ（規則第4条第1項各号）
+round3_design-vocabulary	142	PS-D	docs/public-sources/20261109_impl-prep_denchoho-requirements.md	§6.1	OK 6.1 電子取引データの訂正及び削除の防止に関する事務処理規程（個人事業者の例）
+round3_design-vocabulary	155	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§5.2	OK 5.2 1人が複数の集まりに属すること（原文で言えること）
+round3_design-vocabulary	155	OF-run	docs/measurements/20261109_R2-tools_openfisca-core-runtime.md	T02	OK
+round3_design-vocabulary	155	OUT	docs/public-sources/20261109_impl-prep_output-forms-and-specs.md	§2.2	OK 2.2 第一表（`NTA1K?A020010230`。`?` は §5.1）
+round3_design-vocabulary	156	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§2.2	OK 2.2 年齢と成年
+round3_design-vocabulary	156	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§5.5	OK 5.5 19歳以上23歳未満の年齢の判定時点（R3 の「12月31日」の再確認）
+round3_design-vocabulary	156	MISC	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md	§1.1	OK 1.1 判定の時点（原文）
+round3_design-vocabulary	156	MISC	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md	§1.3	OK 1.3 年齢の数え方と、1月1日生まれの扱い
+round3_design-vocabulary	156	SA	docs/public-sources/20261109_R1-laws_social-insurance-age-records.md	§3	OK 3. 年齢の数え方
+round3_design-vocabulary	157	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§5.1	OK 5.1 判定の時点と期間
+round3_design-vocabulary	157	SP	docs/public-sources/20261109_round2_spouse-laws-and-sources.md	§2.1	OK 2.1 所得税
+round3_design-vocabulary	158	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§2.1	OK 2.1 居住者・非居住者（所法2①三・四・五）
+round3_design-vocabulary	158	EAG	docs/public-sources/20261109_round2_elderly-abroad-guidance.md	§3.3	OK 3.3 判定の時点・範囲（［QA-KG］）
+round3_design-vocabulary	158	EAG	docs/public-sources/20261109_round2_elderly-abroad-guidance.md	§5.3	OK 5.3 国内居住要件と例外（［R01］・［R05］・［N-KYOJU］）
+round3_design-vocabulary	158	EAL	docs/public-sources/20261109_round2_elderly-abroad-laws.md	§4	OK 4. 居住者・非居住者の判定（所得税）
+round3_design-vocabulary	159	EAL	docs/public-sources/20261109_round2_elderly-abroad-laws.md	§4	OK 4. 居住者・非居住者の判定（所得税）
+round3_design-vocabulary	160	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§3.1	OK 3.1 親族（民法725〜729）
+round3_design-vocabulary	160	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§4.2	OK 4.2 世帯・世帯主（住民基本台帳法ほか：定義規定なし）
+round3_design-vocabulary	160	KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§1.1	OK 1.1 国民健康保険料（国保法）
+round3_design-vocabulary	160	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§2.2	OK 2.2 総務省「住民基本台帳事務処理要領」の世帯の定義
+round3_design-vocabulary	161	EAG	docs/public-sources/20261109_round2_elderly-abroad-guidance.md	§1.1	OK 1.1 国税庁の説明（原文）
+round3_design-vocabulary	161	KYA	docs/public-sources/20261109_round2_kyosai-separate-address.md	§1.2	OK 1.2 共済の「同一の世帯」の定義と、単身赴任・転勤（[運用方針]・[組合]）
+round3_design-vocabulary	162	EAG	docs/public-sources/20261109_round2_elderly-abroad-guidance.md	§1.1	OK 1.1 国税庁の説明（原文）
+round3_design-vocabulary	163	GP	docs/public-sources/20261109_round2_gaps-sources.md	§1.1	OK 1.1 条文（F）
+round3_design-vocabulary	163	KYA	docs/public-sources/20261109_round2_kyosai-separate-address.md	§3	OK 3. 別居の学生の子
+round3_design-vocabulary	163	KYL	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§3.1	OK 3.1 第2条関係 第1項第2号（PDF 2〜3ページ。PDF の描画を読んだ）
+round3_design-vocabulary	163	ZG	docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md	§6.1	OK 6.1 定義（所得税法第2条第1項第32号）
+round3_design-vocabulary	163	ZG	docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md	§6.2	OK 6.2 政令で定める者・課程（所得税法施行令第11条の3）
+round3_design-vocabulary	164	JT	docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md	§1.5	OK 1.5 障害者・特別障害者の範囲（F：所令 第10条。3つの版で同じ）
+round3_design-vocabulary	164	JT	docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md	§1.8	OK 1.8 国税庁の案内（E）
+round3_design-vocabulary	164	JT	docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md	§1.9	OK 1.9 厚生労働省の事務連絡（E：要介護認定と市町村長等の認定）
+round3_design-vocabulary	164	JT	docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md	§3	OK 3. 障害者控除の範囲が引用する手帳・認定（F）
+round3_design-vocabulary	165	JT	docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md	§1.8	OK 1.8 国税庁の案内（E）
+round3_design-vocabulary	165	JT	docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md	§1.9	OK 1.9 厚生労働省の事務連絡（E：要介護認定と市町村長等の認定）
+round3_design-vocabulary	166	EAL	docs/public-sources/20261109_round2_elderly-abroad-laws.md	§6.1	OK 6.1 健保法3⑦（asof 2025-12-31・2026-11-09 で同文）
+round3_design-vocabulary	166	KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§1.1	OK 1.1 国民健康保険料（国保法）
+round3_design-vocabulary	166	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§3	OK 3. 夫婦共同扶養の場合の子の認定基準（R4 未決 U8）
+round3_design-vocabulary	166	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§4.1	OK 4.1 法令で確認できたこと・できなかったこと
+round3_design-vocabulary	166	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§8	OK 8. 出典が判定の材料として挙げる事項（一覧）
+round3_design-vocabulary	166	KYL	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§1.2	OK 1.2 違い（条文の文言から言えること）
+round3_design-vocabulary	166	KYL	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§6.4	OK 6.4 収入に波がある人の「年間収入」の見方
+round3_design-vocabulary	167	KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§12.1	OK 12.1 種類と、所得を審査される人
+round3_design-vocabulary	167	SP	docs/public-sources/20261109_round2_spouse-laws-and-sources.md	§5.1	OK 5.1 法令
+round3_design-vocabulary	168	KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§1.1	OK 1.1 国民健康保険料（国保法）
+round3_design-vocabulary	168	KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§3.1	OK 3.1 料（国保令第29条の7第2項〜第5項。2026-04-01 以後の版）
+round3_design-vocabulary	168	KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§4.3	OK 4.3 非自発的失業者の特例（料・税）
+round3_design-vocabulary	168	KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§8	OK 8. 産前産後の減額（出産被保険者）
+round3_design-vocabulary	168	KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§11.3	OK 11.3 産前産後・育児期間の免除（届出による。所得の基準なし）
+round3_design-vocabulary	169	JU	docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md	§1.1	OK 1.1 法律（F）
+round3_design-vocabulary	169	TS	docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md	§6.2	OK 6.2 非課税（F）
+round3_design-vocabulary	170	KYA	docs/public-sources/20261109_round2_kyosai-separate-address.md	§4.1	OK 4.1 誰がどこで課税されるか（条文）
+round3_design-vocabulary	170	KYA	docs/public-sources/20261109_round2_kyosai-separate-address.md	§4.2	OK 4.2 住所の認定（総務省の通知・要領）
+round3_design-vocabulary	171	INV	docs/public-sources/20261109_round2b_invoice-laws-and-nta.md	§1	OK 1. 消費税の納税義務の免除と課税事業者（令和7年分・令和8年分で同じ文言）
+round3_design-vocabulary	172	INV	docs/public-sources/20261109_round2b_invoice-laws-and-nta.md	§1	OK 1. 消費税の納税義務の免除と課税事業者（令和7年分・令和8年分で同じ文言）
+round3_design-vocabulary	172	INV	docs/public-sources/20261109_round2b_invoice-laws-and-nta.md	§8	OK 8. 国税庁の手引き・タックスアンサーの説明（所得税の申告の実務）
+round3_design-vocabulary	173	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§3	OK 3. 夫婦共同扶養の場合の子の認定基準（R4 未決 U8）
+round3_design-vocabulary	173	KYL	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§3.1	OK 3.1 第2条関係 第1項第2号（PDF 2〜3ページ。PDF の描画を読んだ）
+round3_design-vocabulary	174	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§4.1	OK 4.1 要件（令和7年分・令和8年分の版で同文）
+round3_design-vocabulary	174	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§3.4	OK 3.4 事業専従者（所法57、所令165）
+round3_design-vocabulary	180	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§3.1	OK 3.1 親族（民法725〜729）
+round3_design-vocabulary	180	MISC	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md	§2.2	OK 2.2 最高裁判決（［判平3］）
+round3_design-vocabulary	180	MISC	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md	§2.3	OK 2.3 国税庁の資料
+round3_design-vocabulary	181	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§3.1	OK 3.1 親族（民法725〜729）
+round3_design-vocabulary	181	MISC	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md	§2.3	OK 2.3 国税庁の資料
+round3_design-vocabulary	182	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§3.1	OK 3.1 親族（民法725〜729）
+round3_design-vocabulary	182	JT	docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md	§1.6	OK 1.6 寡婦・ひとり親の範囲（F：所令 第11条・第11条の2、所規 第1条の3・第1条の4）
+round3_design-vocabulary	182	MISC	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md	§2.3	OK 2.3 国税庁の資料
+round3_design-vocabulary	182	SP	docs/public-sources/20261109_round2_spouse-laws-and-sources.md	§2.1	OK 2.1 所得税
+round3_design-vocabulary	183	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§3.1	OK 3.1 親族（民法725〜729）
+round3_design-vocabulary	183	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§3.3	OK 3.3 扶養親族に関する区分（所法2①三十四〜三十四の五、84の2）
+round3_design-vocabulary	184	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§4.1	OK 4.1 生計を一にする（所得税：法に定義なし、所基通2-47）
+round3_design-vocabulary	184	EAG	docs/public-sources/20261109_round2_elderly-abroad-guidance.md	§1.1	OK 1.1 国税庁の説明（原文）
+round3_design-vocabulary	184	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§2.3	OK 2.3 健康保険の通知・Q&A・案内での「同一世帯」
+round3_design-vocabulary	185	KYA	docs/public-sources/20261109_round2_kyosai-separate-address.md	§1.2	OK 1.2 共済の「同一の世帯」の定義と、単身赴任・転勤（[運用方針]・[組合]）
+round3_design-vocabulary	185	KYL	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§3.1	OK 3.1 第2条関係 第1項第2号（PDF 2〜3ページ。PDF の描画を読んだ）
+round3_design-vocabulary	193	BC-run	docs/measurements/20261109_R2-tools_beancount-runtime.md	§2	OK 2. 日本語の文字列・メタデータ・タグ（`2_japanese_text`）
+round3_design-vocabulary	193	BC-run	docs/measurements/20261109_R2-tools_beancount-runtime.md	§3	OK 3. 取引ID（メタデータ `id:`）と beanquery による集計（`3_id_and_qu
+round3_design-vocabulary	193	BC-run	docs/measurements/20261109_R2-tools_beancount-runtime.md	§7	OK 7. 証憑（`document`）（`7_document`）
+round3_design-vocabulary	193	JG	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md	§4.1	OK 4.1 業務に係る雑所得の現金主義（所法67②、所令196の2・196の3・197③、所規40②〜④
+round3_design-vocabulary	193	PS-D	docs/public-sources/20261109_impl-prep_denchoho-requirements.md	§2.7	OK 2.7 保存の方法として認められるもの・認められないもの（Q&A（取引））
+round3_design-vocabulary	194	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§1.2	OK 1.2 収入の種類ごとの扱い
+round3_design-vocabulary	194	KYS	docs/public-sources/20261109_impl-prep_kyuyo-sources.md	§1.4	OK 1.4 別表第五の改正の施行と適用（改正法の附則の原文）
+round3_design-vocabulary	194	NTA	docs/public-sources/20261109_R3-tsutatsu_nta.md	§2.3	OK 2.3 年末調整のしかた・扶養控除等申告書 [QA]
+round3_design-vocabulary	195	JG	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md	§4.1	OK 4.1 業務に係る雑所得の現金主義（所法67②、所令196の2・196の3・197③、所規40②〜④
+round3_design-vocabulary	195	JG	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md	§8	OK 8. 原文が参照している事実（記録層の設計への含意は仮説の文書へ移した）
+round3_design-vocabulary	195	NTA	docs/public-sources/20261109_R3-tsutatsu_nta.md	§1.4	OK 1.4 35−2 業務に係る雑所得（令和4年10月7日改正）[通達]
+round3_design-vocabulary	195	NTA	docs/public-sources/20261109_R3-tsutatsu_nta.md	§1.5	OK 1.5 給与所得と事業所得の区分 [通達]（所得税基本通達には一般的な判断基準の項がない）
+round3_design-vocabulary	196	JG	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md	§1.1	OK 1.1 条文の原文
+round3_design-vocabulary	196	JG	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md	§7.4	OK 7.4 収支内訳書（一般用）の様式（【令和５年分以降用】、様式ID NTA0KOA110010120
+round3_design-vocabulary	196	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§1.2	OK 1.2 収入の種類ごとの扱い
+round3_design-vocabulary	196	KYL	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§6.3	OK 6.3 事業収入
+round3_design-vocabulary	196	NTA	docs/public-sources/20261109_R3-tsutatsu_nta.md	§1.3	OK 1.3 45−1・45−2 家事関連費 [通達]
+round3_design-vocabulary	197	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§4.1	OK 4.1 要件（令和7年分・令和8年分の版で同文）
+round3_design-vocabulary	197	JG	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md	§8	OK 8. 原文が参照している事実（記録層の設計への含意は仮説の文書へ移した）
+round3_design-vocabulary	198	IRL	docs/public-sources/20261109_impl-prep_iryohi-law-text.md	§1	OK 1. 所得税法 第73条（医療費控除）
+round3_design-vocabulary	198	IRL	docs/public-sources/20261109_impl-prep_iryohi-law-text.md	§5.2	OK 5.2 所得税法施行規則 第47条の2 第12項・第13項（2025-12-31 版）
+round3_design-vocabulary	198	IRN	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§1	OK 1. 所得税基本通達 73−1〜73−10 [通達]
+round3_design-vocabulary	198	IRN	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§3	OK 3. 医療費控除の対象となる医療費 [TA]（TA1122）と、明細書の「医療費の区分」
+round3_design-vocabulary	198	IRN	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§6.3	OK 6.3 対象医薬品の範囲と、令和7年分・令和8年分の違い（TA1132、厚労除外、厚労QA）
+round3_design-vocabulary	198	IRN	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§6.4	OK 6.4 対象医薬品の見分け方（レシートの表示）
+round3_design-vocabulary	198	IRN	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§7	OK 7. 誰が控除するか・同じ医療費の重複 [QA][厚労]
+round3_design-vocabulary	198	IRN	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§8	OK 8. 年分への帰属と、医療費に当たるか（質疑応答事例）[QA]
+round3_design-vocabulary	199	IRN	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§1	OK 1. 所得税基本通達 73−1〜73−10 [通達]
+round3_design-vocabulary	199	IRN	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§4	OK 4. 補塡の扱い [TA][QA][様式]
+round3_design-vocabulary	200	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§5.3	OK 5.3 支払った人と、受益した人
+round3_design-vocabulary	200	ZG	docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md	§7.1	OK 7.1 条文
+round3_design-vocabulary	200	ZG	docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md	§7.2	OK 7.2 国税庁の一次情報
+round3_design-vocabulary	201	HKL	docs/public-sources/20261109_round2_hoken-kifu-laws.md	§5	OK 5. 小規模企業共済等掛金控除（所得税法第75条。所法R6〜R9 で同文）
+round3_design-vocabulary	201	HKN	docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md	§4	OK 4. 小規模企業共済等掛金控除（TA No.1135。https://www.nta.go.jp/t
+round3_design-vocabulary	202	HKL	docs/public-sources/20261109_round2_hoken-kifu-laws.md	§2.2	OK 2.2 新・旧と契約の範囲（第5項〜第10項）
+round3_design-vocabulary	202	HKL	docs/public-sources/20261109_round2_hoken-kifu-laws.md	§3	OK 3. 地震保険料控除（所得税法第77条。所法R7〜R9 で同文）と旧長期損害保険料
+round3_design-vocabulary	202	HKN	docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md	§1.5	OK 1.5 所得税基本通達（法第76条関係。https://www.nta.go.jp/law/tsut
+round3_design-vocabulary	202	HKN	docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md	§2	OK 2. 地震保険料控除
+round3_design-vocabulary	203	HKL	docs/public-sources/20261109_round2_hoken-kifu-laws.md	§4	OK 4. 寄附金控除（所得税法第78条）
+round3_design-vocabulary	203	HKN	docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md	§3	OK 3. 寄附金控除・ふるさと納税
+round3_design-vocabulary	204	HKL	docs/public-sources/20261109_round2_hoken-kifu-laws.md	§6	OK 6. 雑損控除（所得税法第72条。所法R6〜R9 で同文）
+round3_design-vocabulary	204	HKN	docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md	§5	OK 5. 雑損控除
+round3_design-vocabulary	205	NK	docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md	§1.1	OK 1.1 条文（F）
+round3_design-vocabulary	205	NK	docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md	§3	OK 3. 収入すべき時期（E：所基通 36−14）
+round3_design-vocabulary	205	NK	docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md	§4.1	OK 4.1 各年金法の「公課の禁止」（F）
+round3_design-vocabulary	206	TS	docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md	§1.1	OK 1.1 条文（F）
+round3_design-vocabulary	206	TS	docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md	§1.2	OK 1.2 通達・案内（F）
+round3_design-vocabulary	206	TS	docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md	§4.2	OK 4.2 源泉徴収（F）
+round3_design-vocabulary	207	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§1.1	OK 1.1 申告分離課税（第1項）
+round3_design-vocabulary	207	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§2.1	OK 2.1 条文
+round3_design-vocabulary	207	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§3	OK 3. 配当控除（所法第92条、措法第9条）
+round3_design-vocabulary	208	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§4	OK 4. 上場株式等の譲渡（措法第37条の11、第37条の10）
+round3_design-vocabulary	208	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§6	OK 6. 損益通算と繰越控除（措法第37条の12の2、措令第25条の11の2）
+round3_design-vocabulary	209	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§3.3	OK 3.3 扶養親族に関する区分（所法2①三十四〜三十四の五、84の2）
+round3_design-vocabulary	209	EAG	docs/public-sources/20261109_round2_elderly-abroad-guidance.md	§3.4	OK 3.4 送金の判定（所基通2−50、［QA-KG］Q7・Q32〜Q45）
+round3_design-vocabulary	209	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§8	OK 8. 出典が判定の材料として挙げる事項（一覧）
+round3_design-vocabulary	209	KYA	docs/public-sources/20261109_round2_kyosai-separate-address.md	§2	OK 2. 別居の家族の生計維持の基準（仕送り）：保険者ごとの書き方
+round3_design-vocabulary	209	NTA	docs/public-sources/20261109_R3-tsutatsu_nta.md	§1.1	OK 1.1 2−47 生計を一にするの意義 [通達]
+round3_design-vocabulary	210	JG	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md	§6	OK 6. 一時所得（所法34）と総所得金額での2分の1（所法22②二）
+round3_design-vocabulary	210	JG	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md	§8	OK 8. 原文が参照している事実（記録層の設計への含意は仮説の文書へ移した）
+round3_design-vocabulary	211	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§1.2	OK 1.2 収入の種類ごとの扱い
+round3_design-vocabulary	211	SH	docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md	§1.4	OK 1.4 「年間収入」の定義
+round3_design-vocabulary	212	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§3.4	OK 3.4 事業専従者（所法57、所令165）
+round3_design-vocabulary	212	FD	docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md	§2.2	OK 2.2 総収入金額と収入すべき時期
+round3_design-vocabulary	212	FD	docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md	§5.1	OK 5.1 所法56（見出し「事業から対価を受ける親族がある場合の必要経費の特例」）の原文
+round3_design-vocabulary	218	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§4.7	OK 4.7 納税者（控除を受ける人）と、重ねて控除できないこと
+round3_design-vocabulary	218	JU	docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md	§4.2	OK 4.2 政令（F）：地方税法施行令第46条の3〜第46条の5（asof 2026-01-01 以後）
+round3_design-vocabulary	218	MISC	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md	§3.2	OK 3.2 原文（所令@2026-12-31。他の版も同文）
+round3_design-vocabulary	218	MISC	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md	§3.3	OK 3.3 国税庁の資料
+round3_design-vocabulary	218	MISC	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md	§5.1	OK 5.1 法令の原文
+round3_design-vocabulary	218	MISC	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md	§5.2	OK 5.2 国税庁の資料
+round3_design-vocabulary	218	SP	docs/public-sources/20261109_round2_spouse-laws-and-sources.md	§1.4	OK 1.4 配偶者特別控除が適用されない場合（所法 第83条の2第2項）
+round3_design-vocabulary	219	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§5.2	OK 5.2 純損失の繰越控除（所法70、所令201、所基通70−13〜70−15）
+round3_design-vocabulary	219	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§5.3	OK 5.3 純損失の繰戻しによる還付（所法140〜142、所令271・272、所規54、所基通140・1
+round3_design-vocabulary	219	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§1.4	OK 1.4 通達（措置法通達 8の4-1）
+round3_design-vocabulary	219	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§6	OK 6. 損益通算と繰越控除（措法第37条の12の2、措令第25条の11の2）
+round3_design-vocabulary	219	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§8.1	OK 8.1 課税方式は所得税の確定申告に従う（第313条第12項〜第15項）
+round3_design-vocabulary	219	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§5.3	OK 5.3 手引き（損失申告用）の記入の規則（F）
+round3_design-vocabulary	220	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§3.3	OK 3.3 令和9年分以後（2027-01-01 版。措法25の2・措規9の6）
+round3_design-vocabulary	220	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§6	OK 6. 現金主義の特例（所法67①、所令195〜197、所規39の2・40・40の2・56②）
+round3_design-vocabulary	220	JG	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md	§4.1	OK 4.1 業務に係る雑所得の現金主義（所法67②、所令196の2・196の3・197③、所規40②〜④
+round3_design-vocabulary	220	JG	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md	§4.3	OK 4.3 「前々年分の収入金額」を使う他の規定
+round3_design-vocabulary	221	MISC	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md	§5.4	OK 5.4 源泉徴収票に何が書かれるか（記録の資料として）
+round3_design-vocabulary	221	NTA	docs/public-sources/20261109_R3-tsutatsu_nta.md	§2.3	OK 2.3 年末調整のしかた・扶養控除等申告書 [QA]
+round3_design-vocabulary	221	TS	docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md	§4.2	OK 4.2 源泉徴収（F）
+round3_design-vocabulary	221	TS	docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md	§6.1	OK 6.1 分離課税の条文（F。地法 asof 2026-01-01・2026-11-09・2027-0
+round3_design-vocabulary	221	ZG	docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md	§3.1	OK 3.1 令和7年分・令和8年分に適用される条文（復興法R7・復興法R8。第8〜13条・第17〜19条
+round3_design-vocabulary	221	ZG	docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md	§4.1	OK 4.1 確定申告書での控除（所法R7・所法R8 で同文）
+round3_design-vocabulary	222	ZG	docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md	§4.3	OK 4.3 予定納税
+round3_design-vocabulary	223	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§1.2	OK 1.2 収入の種類ごとの扱い
+round3_design-vocabulary	223	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§8	OK 8. 出典が判定の材料として挙げる事項（一覧）
+round3_design-vocabulary	223	SH	docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md	§1.3	OK 1.3 労働契約の内容による年間収入の判定（令和8年4月1日から）[通知]
+round3_design-vocabulary	224	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§1.4	OK 1.4 所得税の扶養との関係（書類の省略）
+round3_design-vocabulary	224	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§8	OK 8. 出典が判定の材料として挙げる事項（一覧）
+round3_design-vocabulary	224	SH	docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md	§1.5	OK 1.5 「年収の壁」対応策（事業主の証明）の現状 [通知]
+round3_design-vocabulary	225	JT	docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md	§4.1	OK 4.1 根拠（E：通知。法令ではない）
+round3_design-vocabulary	225	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§3	OK 3. 夫婦共同扶養の場合の子の認定基準（R4 未決 U8）
+round3_design-vocabulary	225	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§5.1	OK 5.1 認定の時点と適用の切替え
+round3_design-vocabulary	225	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§5.2	OK 5.2 基準を超えた・要件を満たさなくなったときに、いつから外れるか
+round3_design-vocabulary	225	KYL	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§5	OK 5. 私学：私学共済（日本私立学校振興・共済事業団）
+round3_design-vocabulary	225	KYL	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§7	OK 7. 届出の期限と、認定日・取消日
+round3_design-vocabulary	226	KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§11.3	OK 11.3 産前産後・育児期間の免除（届出による。所得の基準なし）
+round3_design-vocabulary	226	KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§12.1	OK 12.1 種類と、所得を審査される人
+round3_design-vocabulary	226	ZG	docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md	§8.1	OK 8.1 条文
+round3_design-vocabulary	227	EAG	docs/public-sources/20261109_round2_elderly-abroad-guidance.md	§3.2	OK 3.2 必要な書類（確定申告と年末調整）
+round3_design-vocabulary	227	EAL	docs/public-sources/20261109_round2_elderly-abroad-laws.md	§3.2	OK 3.2 確定申告での書類（所法120③二・三、所令262③④、所規47の2⑤〜⑩。3版で同文）
+round3_design-vocabulary	227	EAL	docs/public-sources/20261109_round2_elderly-abroad-laws.md	§3.3	OK 3.3 源泉徴収・年末調整での書類（所法194①七・⑤〜⑦、190二ハ〜ホ、所令316の2②③、所規
+round3_design-vocabulary	228	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§1.2	OK 1.2 申請の期限（所法144、所基通144−1、手続の案内）
+round3_design-vocabulary	228	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§1.3	OK 1.3 申請書の記載事項（所規55）と様式
+round3_design-vocabulary	228	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§1.4	OK 1.4 却下・通知・みなし承認（所法145〜147）
+round3_design-vocabulary	228	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§1.5	OK 1.5 取消し（所法150、所基通150−1）
+round3_design-vocabulary	228	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§1.6	OK 1.6 取りやめ・業務の廃止（所法151、所規66）
+round3_design-vocabulary	229	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§2.2	OK 2.2 正規の簿記（所規57〜61）
+round3_design-vocabulary	229	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§2.3	OK 2.3 簡易帳簿と添付書類（所規56①ただし書・65）
+round3_design-vocabulary	229	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§2.5	OK 2.5 電子帳簿（電帳法・電帳規）との関係（青色申告特別控除の要件に使うところ）
+round3_design-vocabulary	229	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§6	OK 6. 現金主義の特例（所法67①、所令195〜197、所規39の2・40・40の2・56②）
+round3_design-vocabulary	229	GE	docs/public-sources/20261109_round2_genka-laws-and-nta.md	§2.1	OK 2.1 条文
+round3_design-vocabulary	229	JG	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md	§4.1	OK 4.1 業務に係る雑所得の現金主義（所法67②、所令196の2・196の3・197③、所規40②〜④
+round3_design-vocabulary	230	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§4.2	OK 4.2 届出と変更（所令164②、所規36の4）
+round3_design-vocabulary	231	IRL	docs/public-sources/20261109_impl-prep_iryohi-law-text.md	§4.5	OK 4.5 租税特別措置法施行規則 第19条の10の2の2（明細書の記載事項。2025-12-31 版＝
+round3_design-vocabulary	231	IRN	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§6.1	OK 6.1 要件と選択（TA1129・TA1131・特集セルフ）
+round3_design-vocabulary	231	IRN	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§6.2	OK 6.2 一定の取組（TA1133、告示181、厚労QA）
+round3_design-vocabulary	232	HKL	docs/public-sources/20261109_round2_hoken-kifu-laws.md	§2.2	OK 2.2 新・旧と契約の範囲（第5項〜第10項）
+round3_design-vocabulary	232	HKL	docs/public-sources/20261109_round2_hoken-kifu-laws.md	§2.4	OK 2.4 証明書（所令第262条第1項第4号、所規第47条の2第1項）
+round3_design-vocabulary	232	HKL	docs/public-sources/20261109_round2_hoken-kifu-laws.md	§3	OK 3. 地震保険料控除（所得税法第77条。所法R7〜R9 で同文）と旧長期損害保険料
+round3_design-vocabulary	232	HKN	docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md	§1.6	OK 1.6 「令和8年分 年末調整のしかた」2-3（https://www.nta.go.jp/publ
+round3_design-vocabulary	232	HKN	docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md	§2	OK 2. 地震保険料控除
+round3_design-vocabulary	233	TS	docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md	§2.2	OK 2.2 勤続年数（F）
+round3_design-vocabulary	233	TS	docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md	§2.3	OK 2.3 前の退職手当等との重複（所令70）と改正（F）
+round3_design-vocabulary	233	TS	docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md	§4.2	OK 4.2 源泉徴収（F）
+round3_design-vocabulary	234	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§5.1	OK 5.1 制度（タックスアンサー No.1476、「令和8年4月1日現在法令等」）
+round3_design-vocabulary	234	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§5.2	OK 5.2 申告不要（措法第37条の11の5、措令第25条の10の12）
+round3_design-vocabulary	234	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§6	OK 6. 損益通算と繰越控除（措法第37条の12の2、措令第25条の11の2）
+round3_design-vocabulary	235	INV	docs/public-sources/20261109_round2b_invoice-laws-and-nta.md	§4	OK 4. 消費税の申告期限と中間申告（所得税の計上の年に関係する日付）
+round3_design-vocabulary	235	INV	docs/public-sources/20261109_round2b_invoice-laws-and-nta.md	§5	OK 5. 所得税の取扱い：経理通達（平成元年3月29日付直所3-8ほか）
+round3_design-vocabulary	235	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§2	OK 2. 第一表（個12-1072、様式ID `NTA1K?A020010230`）：欄ごとの記入の規則
+round3_design-vocabulary	236	JTL	docs/public-sources/20261109_round2_juminzei-tax-law-text.md	§14	OK 14. 森林環境税（森林環境税及び森林環境譲与税に関する法律、同施行令）（F）
+round3_design-vocabulary	236	KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§1.1	OK 1.1 国民健康保険料（国保法）
+round3_design-vocabulary	236	KYA	docs/public-sources/20261109_round2_kyosai-separate-address.md	§4.1	OK 4.1 誰がどこで課税されるか（条文）
+round3_design-vocabulary	237	JU	docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md	§6.1	OK 6.1 法律・政令（F）
+round3_design-vocabulary	243	GE	docs/public-sources/20261109_round2_genka-laws-and-nta.md	§1	OK 1. 減価償却資産の定義と範囲
+round3_design-vocabulary	243	GE	docs/public-sources/20261109_round2_genka-laws-and-nta.md	§2.1	OK 2.1 条文
+round3_design-vocabulary	243	GE	docs/public-sources/20261109_round2_genka-laws-and-nta.md	§2.2	OK 2.2 耐用年数省令
+round3_design-vocabulary	243	GE	docs/public-sources/20261109_round2_genka-laws-and-nta.md	§3.1	OK 3.1 所令138・139（白色・青色、事業所得・雑所得を問わない）
+round3_design-vocabulary	243	GE	docs/public-sources/20261109_round2_genka-laws-and-nta.md	§3.2	OK 3.2 措法28の2（中小事業者の少額減価償却資産。青色、事業所得・不動産所得・山林所得だけ）
+round3_design-vocabulary	243	GE	docs/public-sources/20261109_round2_genka-laws-and-nta.md	§5.1	OK 5.1 除却・取壊し・滅失（所法51）
+round3_design-vocabulary	243	GE	docs/public-sources/20261109_round2_genka-laws-and-nta.md	§5.2	OK 5.2 譲渡（所法33・38、所令81）
+round3_design-vocabulary	244	FD	docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md	§1.1	OK 1.1 所得税法第26条第1項（見出し「不動産所得」）
+round3_design-vocabulary	244	FD	docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md	§2.3	OK 2.3 必要経費（国税庁の説明）
+round3_design-vocabulary	244	FD	docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md	§4.3	OK 4.3 措法41の4（見出し「不動産所得に係る損益通算の特例」）と措令26の6
+round3_design-vocabulary	245	FD	docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md	§2.2	OK 2.2 総収入金額と収入すべき時期
+round3_design-vocabulary	246	FD	docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md	§2.3	OK 2.3 必要経費（国税庁の説明）
+round3_design-vocabulary	246	FD	docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md	§4.3	OK 4.3 措法41の4（見出し「不動産所得に係る損益通算の特例」）と措令26の6
+round3_design-vocabulary	247	FD	docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md	§3.1	OK 3.1 判定の基準（国税庁の解釈。法令に数値の基準はない）
+round3_design-vocabulary	247	FD	docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md	§8.1	OK 8.1 収支内訳書（不動産所得用）【令和２年分以降用】（様式ID NTA0KOA130010090・
+round3_design-vocabulary	248	KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§3.1	OK 3.1 料（国保令第29条の7第2項〜第5項。2026-04-01 以後の版）
+round3_design-vocabulary	248	KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§3.2	OK 3.2 税（地法第703条の4第3項〜第37項。2026-04-01 以後の版）
+round3_design-vocabulary	254	PS-D	docs/public-sources/20261109_impl-prep_denchoho-requirements.md	§2.4	OK 2.4 検索要件の緩和（規則第4条第1項本文の括弧書き）
+round3_design-vocabulary	254	PS-D	docs/public-sources/20261109_impl-prep_denchoho-requirements.md	§2.5	OK 2.5 検索機能の確保の具体的な方法（通達4-9〜4-12、Q&A（取引）問19・問48〜問58）
+round3_design-vocabulary	254	PS-D	docs/public-sources/20261109_impl-prep_denchoho-requirements.md	§2.7	OK 2.7 保存の方法として認められるもの・認められないもの（Q&A（取引））
+round3_design-vocabulary	254	PS-D	docs/public-sources/20261109_impl-prep_denchoho-requirements.md	§2.8	OK 2.8 電子取引に当たるものの例（個人・小規模に関係するもの）
+round3_design-vocabulary	254	PS-D	docs/public-sources/20261109_impl-prep_denchoho-requirements.md	§5	OK 5. 帳簿・書類の保存期間（所得税法・所得税法施行規則）
+round3_design-vocabulary	255	PS-D	docs/public-sources/20261109_impl-prep_denchoho-requirements.md	§2.2	OK 2.2 真実性（改ざん防止）：次のいずれか一つ（規則第4条第1項各号）
+round3_design-vocabulary	255	PS-D	docs/public-sources/20261109_impl-prep_denchoho-requirements.md	§6.1	OK 6.1 電子取引データの訂正及び削除の防止に関する事務処理規程（個人事業者の例）
+round3_design-vocabulary	268	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§4.1	OK 4.1 生計を一にする（所得税：法に定義なし、所基通2-47）
+round3_design-vocabulary	268	IRN	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§1	OK 1. 所得税基本通達 73−1〜73−10 [通達]
+round3_design-vocabulary	268	NTA	docs/public-sources/20261109_R3-tsutatsu_nta.md	§1.1	OK 1.1 2−47 生計を一にするの意義 [通達]
+round3_design-vocabulary	269	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§3.1	OK 3.1 親族（民法725〜729）
+round3_design-vocabulary	269	SP	docs/public-sources/20261109_round2_spouse-laws-and-sources.md	§4	OK 4. 健康保険の被扶養者としての配偶者
+round3_design-vocabulary	270	EAG	docs/public-sources/20261109_round2_elderly-abroad-guidance.md	§1.1	OK 1.1 国税庁の説明（原文）
+round3_design-vocabulary	270	EAL	docs/public-sources/20261109_round2_elderly-abroad-laws.md	§2.2	OK 2.2 原文から読める要件の構造（原文の読み取り）
+round3_design-vocabulary	270	KYA	docs/public-sources/20261109_round2_kyosai-separate-address.md	§4.3	OK 4.3 扶養控除は、扶養親族が別の市町村に住んでいても適用されるか（条文の文言）
+round3_design-vocabulary	271	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§2.1	OK 2.1 法令
+round3_design-vocabulary	271	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§2.3	OK 2.3 健康保険の通知・Q&A・案内での「同一世帯」
+round3_design-vocabulary	272	KYA	docs/public-sources/20261109_round2_kyosai-separate-address.md	§1.2	OK 1.2 共済の「同一の世帯」の定義と、単身赴任・転勤（[運用方針]・[組合]）
+round3_design-vocabulary	272	KYL	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§3.1	OK 3.1 第2条関係 第1項第2号（PDF 2〜3ページ。PDF の描画を読んだ）
+round3_design-vocabulary	273	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§2.1	OK 2.1 居住者・非居住者（所法2①三・四・五）
+round3_design-vocabulary	273	EAG	docs/public-sources/20261109_round2_elderly-abroad-guidance.md	§4	OK 4. 居住者・非居住者の判定（所得税基本通達）
+round3_design-vocabulary	273	EAL	docs/public-sources/20261109_round2_elderly-abroad-laws.md	§4	OK 4. 居住者・非居住者の判定（所得税）
+round3_design-vocabulary	274	EAG	docs/public-sources/20261109_round2_elderly-abroad-guidance.md	§5.3	OK 5.3 国内居住要件と例外（［R01］・［R05］・［N-KYOJU］）
+round3_design-vocabulary	275	EAG	docs/public-sources/20261109_round2_elderly-abroad-guidance.md	§6	OK 6. 分からなかったこと・一次情報が見つからなかったこと
+round3_design-vocabulary	276	NTA	docs/public-sources/20261109_R3-tsutatsu_nta.md	§1.4	OK 1.4 35−2 業務に係る雑所得（令和4年10月7日改正）[通達]
+round3_design-vocabulary	277	FD	docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md	§3.1	OK 3.1 判定の基準（国税庁の解釈。法令に数値の基準はない）
+round3_design-vocabulary	278	NTA	docs/public-sources/20261109_R3-tsutatsu_nta.md	§1.5	OK 1.5 給与所得と事業所得の区分 [通達]（所得税基本通達には一般的な判断基準の項がない）
+round3_design-vocabulary	279	NTA	docs/public-sources/20261109_R3-tsutatsu_nta.md	§1.3	OK 1.3 45−1・45−2 家事関連費 [通達]
+round3_design-vocabulary	280	GE	docs/public-sources/20261109_round2_genka-laws-and-nta.md	§4	OK 4. 家事兼用の資産
+round3_design-vocabulary	280	HKN	docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md	§2	OK 2. 地震保険料控除
+round3_design-vocabulary	280	JG	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md	§1.1	OK 1.1 条文の原文
+round3_design-vocabulary	280	JG	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md	§1.2	OK 1.2 原文から確定すること（U10 への答え）
+round3_design-vocabulary	280	NTA	docs/public-sources/20261109_R3-tsutatsu_nta.md	§1.3	OK 1.3 45−1・45−2 家事関連費 [通達]
+round3_design-vocabulary	281	IRN	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§1	OK 1. 所得税基本通達 73−1〜73−10 [通達]
+round3_design-vocabulary	281	IRN	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§3	OK 3. 医療費控除の対象となる医療費 [TA]（TA1122）と、明細書の「医療費の区分」
+round3_design-vocabulary	281	IRN	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§8	OK 8. 年分への帰属と、医療費に当たるか（質疑応答事例）[QA]
+round3_design-vocabulary	281	NTA	docs/public-sources/20261109_R3-tsutatsu_nta.md	§1.2	OK 1.2 73−1〜73−10 医療費控除 [通達]
+round3_design-vocabulary	282	IRN	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§4	OK 4. 補塡の扱い [TA][QA][様式]
+round3_design-vocabulary	283	IRN	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§6.4	OK 6.4 対象医薬品の見分け方（レシートの表示）
+round3_design-vocabulary	284	JT	docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md	§1.5	OK 1.5 障害者・特別障害者の範囲（F：所令 第10条。3つの版で同じ）
+round3_design-vocabulary	284	JT	docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md	§1.7	OK 1.7 通達（E：所得税基本通達。法令ではない）
+round3_design-vocabulary	284	JT	docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md	§1.8	OK 1.8 国税庁の案内（E）
+round3_design-vocabulary	284	JT	docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md	§4.2	OK 4.2 「障害厚生年金の受給要件に該当する程度」の障害等級（F）
+round3_design-vocabulary	284	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§8	OK 8. 出典が判定の材料として挙げる事項（一覧）
+round3_design-vocabulary	285	GP	docs/public-sources/20261109_round2_gaps-sources.md	§1.1	OK 1.1 条文（F）
+round3_design-vocabulary	285	GP	docs/public-sources/20261109_round2_gaps-sources.md	§1.3	OK 1.3 国税庁の説明（F）
+round3_design-vocabulary	285	M-GP	docs/measurements/20261109_round2_gaps-fetch-and-checks.md	C1	OK
+round3_design-vocabulary	286	JG	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md	§2.1	OK 2.1 条文の原文と年分ごとの額
+round3_design-vocabulary	286	JG	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md	§2.5	OK 2.5 「特定の者」の範囲（質疑応答事例 04/34、「令和７年８月１日現在施行の法令・通達等に基づ
+round3_design-vocabulary	287	GE	docs/public-sources/20261109_round2_genka-laws-and-nta.md	§2.2	OK 2.2 耐用年数省令
+round3_design-vocabulary	287	GE	docs/public-sources/20261109_round2_genka-laws-and-nta.md	§3.1	OK 3.1 所令138・139（白色・青色、事業所得・雑所得を問わない）
+round3_design-vocabulary	287	GE	docs/public-sources/20261109_round2_genka-laws-and-nta.md	§5.2	OK 5.2 譲渡（所法33・38、所令81）
+round3_design-vocabulary	288	FD	docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md	§1.2	OK 1.2 譲渡所得になる借地権等の設定（所法33①、所令79・80）
+round3_design-vocabulary	288	FD	docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md	§1.3	OK 1.3 所得税基本通達・TA による区分（国税庁の解釈）
+round3_design-vocabulary	288	FD	docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md	§4.3	OK 4.3 措法41の4（見出し「不動産所得に係る損益通算の特例」）と措令26の6
+round3_design-vocabulary	289	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§2.2	OK 2.2 正規の簿記（所規57〜61）
+round3_design-vocabulary	290	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§4.1	OK 4.1 要件（令和7年分・令和8年分の版で同文）
+round3_design-vocabulary	290	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§4.2	OK 4.2 届出と変更（所令164②、所規36の4）
+round3_design-vocabulary	291	TS	docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md	§1.2	OK 1.2 通達・案内（F）
+round3_design-vocabulary	291	TS	docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md	§2.4	OK 2.4 障害退職・短期・特定役員の細目（F）
+round3_design-vocabulary	292	NK	docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md	§1.1	OK 1.1 条文（F）
+round3_design-vocabulary	292	NK	docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md	§4.2	OK 4.2 所得税法の非課税所得（F：所法 第9条第1項第3号）
+round3_design-vocabulary	293	HKL	docs/public-sources/20261109_round2_hoken-kifu-laws.md	§6	OK 6. 雑損控除（所得税法第72条。所法R6〜R9 で同文）
+round3_design-vocabulary	293	HKN	docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md	§5	OK 5. 雑損控除
+round3_design-vocabulary	294	HKN	docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md	§3	OK 3. 寄附金控除・ふるさと納税
+round3_design-vocabulary	295	HKN	docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md	§1.1	OK 1.1 TA No.1140「生命保険料控除」（https://www.nta.go.jp/taxe
+round3_design-vocabulary	296	GP	docs/public-sources/20261109_round2_gaps-sources.md	§6.1	OK 6.1 厚生労働省 事務連絡「被扶養者の収入の確認における留意点について」（F）
+round3_design-vocabulary	296	GP	docs/public-sources/20261109_round2_gaps-sources.md	§6.3	OK 6.3 日本年金機構「疑義照会回答（厚生年金保険 適用）」の被扶養者（異動）届（F）
+round3_design-vocabulary	296	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§10	OK 10. 健康保険の被扶養者の「年間収入」と株式の収入
+round3_design-vocabulary	296	KYL	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§6.4	OK 6.4 収入に波がある人の「年間収入」の見方
+round3_design-vocabulary	297	KYL	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§3.1	OK 3.1 第2条関係 第1項第2号（PDF 2〜3ページ。PDF の描画を読んだ）
+round3_design-vocabulary	297	KYL	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§5	OK 5. 私学：私学共済（日本私立学校振興・共済事業団）
+round3_design-vocabulary	298	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§1.1	OK 1.1 申告分離課税（第1項）
+round3_design-vocabulary	299	JT	docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md	§2.5	OK 2.5 総務省の取扱通知（E：技術的助言。法令ではない）
+round3_design-vocabulary	305	CON	docs/public-sources/20261109_R4-modeling_concepts.md	§4.7	OK 4.7 納税者（控除を受ける人）と、重ねて控除できないこと
+round3_design-vocabulary	305	JU	docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md	§4.2	OK 4.2 政令（F）：地方税法施行令第46条の3〜第46条の5（asof 2026-01-01 以後）
+round3_design-vocabulary	305	MISC	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md	§3.2	OK 3.2 原文（所令@2026-12-31。他の版も同文）
+round3_design-vocabulary	306	MISC	docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md	§3.2	OK 3.2 原文（所令@2026-12-31。他の版も同文）
+round3_design-vocabulary	306	SP	docs/public-sources/20261109_round2_spouse-laws-and-sources.md	§1.4	OK 1.4 配偶者特別控除が適用されない場合（所法 第83条の2第2項）
+round3_design-vocabulary	307	IRN	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§6.1	OK 6.1 要件と選択（TA1129・TA1131・特集セルフ）
+round3_design-vocabulary	308	HKL	docs/public-sources/20261109_round2_hoken-kifu-laws.md	§2.1	OK 2.1 控除額（第1項〜第4項）
+round3_design-vocabulary	308	HKL	docs/public-sources/20261109_round2_hoken-kifu-laws.md	§3	OK 3. 地震保険料控除（所得税法第77条。所法R7〜R9 で同文）と旧長期損害保険料
+round3_design-vocabulary	308	HKN	docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md	§1.4	OK 1.4 質疑応答事例（所得税）
+round3_design-vocabulary	309	HKL	docs/public-sources/20261109_round2_hoken-kifu-laws.md	§4	OK 4. 寄附金控除（所得税法第78条）
+round3_design-vocabulary	310	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§1.2	OK 1.2 選択の単位（第2項）
+round3_design-vocabulary	310	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§2.1	OK 2.1 条文
+round3_design-vocabulary	310	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§5.2	OK 5.2 申告不要（措法第37条の11の5、措令第25条の10の12）
+round3_design-vocabulary	310	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§6	OK 6. 損益通算と繰越控除（措法第37条の12の2、措令第25条の11の2）
+round3_design-vocabulary	311	JG	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md	§4.1	OK 4.1 業務に係る雑所得の現金主義（所法67②、所令196の2・196の3・197③、所規40②〜④
+round3_design-vocabulary	312	INV	docs/public-sources/20261109_round2b_invoice-laws-and-nta.md	§5	OK 5. 所得税の取扱い：経理通達（平成元年3月29日付直所3-8ほか）
+round3_design-vocabulary	313	GE	docs/public-sources/20261109_round2_genka-laws-and-nta.md	§3.1	OK 3.1 所令138・139（白色・青色、事業所得・雑所得を問わない）
+round3_design-vocabulary	313	GE	docs/public-sources/20261109_round2_genka-laws-and-nta.md	§3.2	OK 3.2 措法28の2（中小事業者の少額減価償却資産。青色、事業所得・不動産所得・山林所得だけ）
+round3_design-vocabulary	313	GE	docs/public-sources/20261109_round2_genka-laws-and-nta.md	§5.1	OK 5.1 除却・取壊し・滅失（所法51）
+round3_design-vocabulary	314	FD	docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md	§2.2	OK 2.2 総収入金額と収入すべき時期
+round3_design-vocabulary	314	FD	docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md	§2.3	OK 2.3 必要経費（国税庁の説明）
+round3_design-vocabulary	315	EAG	docs/public-sources/20261109_round2_elderly-abroad-guidance.md	§3.4	OK 3.4 送金の判定（所基通2−50、［QA-KG］Q7・Q32〜Q45）
+round3_design-vocabulary	316	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§5.3	OK 5.3 純損失の繰戻しによる還付（所法140〜142、所令271・272、所規54、所基通140・1
+round3_design-vocabulary	316	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§1.1	OK 1.1 法令（e-Gov 法令API v2。版は［M］§6）
+round3_design-vocabulary	316	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§5.3	OK 5.3 手引き（損失申告用）の記入の規則（F）
+round3_design-vocabulary	317	NK	docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md	§6	OK 6. 確定申告を要しない場合（F：所法 第121条。3つの版で同文：[M] V1）
+round3_design-vocabulary	317	ZG	docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md	§5.3	OK 5.3 還付申告（第122条）・確定損失申告（第123条）
+round3_design-vocabulary	318	JU	docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md	§6.1	OK 6.1 法律・政令（F）
+round3_design-vocabulary	318	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§3	OK 3. 第二表（個12-1073、様式ID `NTA0K?A020020230`）：欄コードの有無と記
+round3_design-vocabulary	319	HKL	docs/public-sources/20261109_round2_hoken-kifu-laws.md	§8.3	OK 8.3 申告の特例（ワンストップ特例。地法附則第7条。地法 2025-12-31〜2027-01-0
+round3_design-vocabulary	319	JTA	docs/public-sources/20261109_round2_juminzei-tax-admin-and-municipal.md	§1	OK 1. 総務省「地方税法の施行に関する取扱いについて（市町村税関係）」改正後全文（平成22年4月1日総
+round3_design-vocabulary	320	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§3	OK 3. 夫婦共同扶養の場合の子の認定基準（R4 未決 U8）
+round3_design-vocabulary	321	KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§12.1	OK 12.1 種類と、所得を審査される人
+round3_design-vocabulary	322	JG	docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md	§7.4	OK 7.4 収支内訳書（一般用）の様式（【令和５年分以降用】、様式ID NTA0KOA110010120
+round3_design-vocabulary	322	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§6	OK 6. 青色申告決算書（一般用）（個12-1083、様式ID `NTA0KOA210010110`〜`
+round3_design-vocabulary	323	KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§5.1	OK 5.1 制度（タックスアンサー No.1476、「令和8年4月1日現在法令等」）
+round3_design-vocabulary	323	TS	docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md	§4.2	OK 4.2 源泉徴収（F）
+round3_design-vocabulary	329	GP	docs/public-sources/20261109_round2_gaps-sources.md	§6.1	OK 6.1 厚生労働省 事務連絡「被扶養者の収入の確認における留意点について」（F）
+round3_design-vocabulary	329	GP	docs/public-sources/20261109_round2_gaps-sources.md	§6.2	OK 6.2 ワクチン接種業務の特例の Q&A（保険者向け）が示す保険者ごとの確認方法（F）
+round3_design-vocabulary	329	GP	docs/public-sources/20261109_round2_gaps-sources.md	§6.3	OK 6.3 日本年金機構「疑義照会回答（厚生年金保険 適用）」の被扶養者（異動）届（F）
+round3_design-vocabulary	329	GP	docs/public-sources/20261109_round2_gaps-sources.md	§6.5	OK 6.5 日本年金機構の案内（F）
+round3_design-vocabulary	329	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§1.1	OK 1.1 年間収入は「今後1年間の見込み」
+round3_design-vocabulary	329	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§8	OK 8. 出典が判定の材料として挙げる事項（一覧）
+round3_design-vocabulary	329	SH	docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md	§1.2	OK 1.2 19歳以上23歳未満は150万円未満（令和7年10月1日から）[通知]
+round3_design-vocabulary	330	KP	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§8	OK 8. 出典が判定の材料として挙げる事項（一覧）
+round3_design-vocabulary	331	KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§4.1	OK 4.1 料（国保令第29条の7第2項第4号・第5号、第27条の2第1項第1号）
+round3_design-vocabulary	332	AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§3.1	OK 3.1 令和7年分・令和8年分（2025-12-31 版と 2026-12-31 版で同文。措規9の
+round3_design-vocabulary	332	ZG	docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md	§4.2	OK 4.2 還付
+round3_design-vocabulary	338	M-VOC	docs/measurements/20261109_round3_design-vocab-scan.md		番号なし
+round3_design-output	20	M-VER	docs/measurements/20261109_round3_design-verification.md		ファイルがない
+round3_design-output	28	M-VER	docs/measurements/20261109_round3_design-verification.md		ファイルがない
+round3_design-output	53	M-VER	docs/measurements/20261109_round3_design-verification.md		ファイルがない
+round3_design-output	77	M-VER	docs/measurements/20261109_round3_design-verification.md		ファイルがない
+round3_design-output	89	M-VER	docs/measurements/20261109_round3_design-verification.md		ファイルがない
+round3_design-output	102	M-VER	docs/measurements/20261109_round3_design-verification.md		ファイルがない
+round3_design-output	103	M-VER	docs/measurements/20261109_round3_design-verification.md		ファイルがない
+round3_design-output	104	M-VER	docs/measurements/20261109_round3_design-verification.md		ファイルがない
+round3_design-output	119	M-VER	docs/measurements/20261109_round3_design-verification.md		ファイルがない
+round3_design-output	165	M-VER	docs/measurements/20261109_round3_design-verification.md		ファイルがない
+round3_design-output	166	M-VER	docs/measurements/20261109_round3_design-verification.md		ファイルがない
+round3_design-output	168	M-VER	docs/measurements/20261109_round3_design-verification.md		ファイルがない
+round3_design-output	174	PS-K	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§1.1	OK 1.1 年間収入は「今後1年間の見込み」
+round3_design-output	175	M-GP	docs/measurements/20261109_round2_gaps-fetch-and-checks.md	C6	OK
+round3_design-output	175	PS-GP	docs/public-sources/20261109_round2_gaps-sources.md	§6.1	OK 6.1 厚生労働省 事務連絡「被扶養者の収入の確認における留意点について」（F）
+round3_design-output	175	PS-GP	docs/public-sources/20261109_round2_gaps-sources.md	§6.2	OK 6.2 ワクチン接種業務の特例の Q&A（保険者向け）が示す保険者ごとの確認方法（F）
+round3_design-output	176	PS-IR	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§4	OK 4. 補塡の扱い [TA][QA][様式]
+round3_design-output	176	PS-SP	docs/public-sources/20261109_round2_spouse-laws-and-sources.md	§1.8	OK 1.8 通達・質疑応答事例・タックスアンサーの Q&A（年の途中の死亡、専従者、非課税の給付）
+round3_design-output	177	PS-AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§1.2	OK 1.2 申請の期限（所法144、所基通144−1、手続の案内）
+round3_design-output	177	PS-AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§1.4	OK 1.4 却下・通知・みなし承認（所法145〜147）
+round3_design-output	177	PS-AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§3.1	OK 3.1 令和7年分・令和8年分（2025-12-31 版と 2026-12-31 版で同文。措規9の
+round3_design-output	178	PS-EA	docs/public-sources/20261109_round2_elderly-abroad-guidance.md	§5.3	OK 5.3 国内居住要件と例外（［R01］・［R05］・［N-KYOJU］）
+round3_design-output	179	PS-IR	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§6.1	OK 6.1 要件と選択（TA1129・TA1131・特集セルフ）
+round3_design-output	179	PS-KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§1.4	OK 1.4 通達（措置法通達 8の4-1）
+round3_design-output	180	M-HKC	docs/measurements/20261109_round2_hoken-kifu-formula-checks.md	§2	OK 2. 1円未満の端数
+round3_design-output	180	M-HKF	docs/measurements/20261109_round2_hoken-kifu-fetch.md	§3.5	OK 3.5 その他
+round3_design-output	180	M-JZ	docs/measurements/20261109_round2_juminzei-tax-fetch-and-checks.md	§3.4	OK 3.4 全文での語の出現（`hits_<略称>_<asof>.json`）
+round3_design-output	180	M-JZ	docs/measurements/20261109_round2_juminzei-tax-fetch-and-checks.md	§3.8	OK 3.8 1円未満の扱いの感度（`rounding.md`）
+round3_design-output	181	PS-EA	docs/public-sources/20261109_round2_elderly-abroad-guidance.md	§6	OK 6. 分からなかったこと・一次情報が見つからなかったこと
+round3_design-output	181	PS-GP	docs/public-sources/20261109_round2_gaps-sources.md	§1.5	OK 1.5 見つからなかったもの
+round3_design-output	181	PS-K	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§7	OK 7. 分からなかったこと・一次情報が見つからなかったこと
+round3_design-output	181	PS-KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§13	OK 13. 分からなかったこと・一次情報が見つからなかったこと
+round3_design-output	181	PS-KY	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§8	OK 8. 分からなかったこと・一次情報が見つからなかったこと
+round3_design-output	181	PS-NK	docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md	§10	OK 10. 分からなかったこと・一次情報が見つからなかったこと
+round3_design-output	181	PS-SP	docs/public-sources/20261109_round2_spouse-laws-and-sources.md	§6	OK 6. 分からなかったこと・一次情報が見つからなかったこと
+round3_design-output	182	PS-JT	docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md	§1.7	OK 1.7 通達（E：所得税基本通達。法令ではない）
+round3_design-output	182	PS-JT	docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md	§2.5	OK 2.5 総務省の取扱通知（E：技術的助言。法令ではない）
+round3_design-output	182	PS-JT	docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md	§4.1	OK 4.1 根拠（E：通知。法令ではない）
+round3_design-output	182	PS-K	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§0	OK 0. 出典一覧
+round3_design-output	182	PS-KY	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§2	OK 2. 認定（「主として組合員の収入により生計を維持する」）の委任の構造
+round3_design-output	182	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§1.2	OK 1.2 法令解釈通達「『個人課税事務提要（様式編Ⅰ）』の制定について」（F）
+round3_design-output	183	PS-JZA	docs/public-sources/20261109_round2_juminzei-tax-admin-and-municipal.md	§2	OK 2. 自治体の計算例（令和8年度分）
+round3_design-output	183	PS-JZA	docs/public-sources/20261109_round2_juminzei-tax-admin-and-municipal.md	§3	OK 3. 総務省「超過課税の状況」
+round3_design-output	183	PS-K	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§1.3	OK 1.3 保険者による違い
+round3_design-output	183	PS-KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§1.1	OK 1.1 国民健康保険料（国保法）
+round3_design-output	183	PS-KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§3	OK 3. 賦課総額と、所得割・資産割・被保険者均等割・世帯別平等割の組合せ（方式）
+round3_design-output	183	PS-KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§5	OK 5. 賦課限度額（年度ごと）
+round3_design-output	183	PS-KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§6	OK 6. 低所得者の軽減（7割・5割・2割）
+round3_design-output	183	PS-KY	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§6.3	OK 6.3 事業収入
+round3_design-output	183	PS-KY	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§6.4	OK 6.4 収入に波がある人の「年間収入」の見方
+round3_design-output	184	PS-KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§13	OK 13. 分からなかったこと・一次情報が見つからなかったこと
+round3_design-output	184	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§11	OK 11. 令和8年分の様式の公表状況（2026-11-09 時点）（F）
+round3_design-output	185	KTH	docs/measurements/20261109_impl-prep_kyuyo-thresholds.md	§4	OK 4. 年末調整に旧の別表第五が使われる場合（令和8年分、`nencho_vs_kakutei_r8.
+round3_design-output	185	PS-HKN	docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md	§1.6	OK 1.6 「令和8年分 年末調整のしかた」2-3（https://www.nta.go.jp/publ
+round3_design-output	185	PS-KY	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§8	OK 8. 分からなかったこと・一次情報が見つからなかったこと
+round3_design-output	185	PS-NK	docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md	§7.2	OK 7.2 行政の案内（E）
+round3_design-output	185	PS-SP	docs/public-sources/20261109_round2_spouse-laws-and-sources.md	§6	OK 6. 分からなかったこと・一次情報が見つからなかったこと
+round3_design-output	186	PS-IR	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§4	OK 4. 補塡の扱い [TA][QA][様式]
+round3_design-output	186	PS-NK	docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md	§3	OK 3. 収入すべき時期（E：所基通 36−14）
+round3_design-output	187	YM	docs/measurements/20261109_round2_yoshiki-fetch-and-extract.md	§4.1	OK 4.1 読んだもの（F）
+round3_design-output	187	YM	docs/measurements/20261109_round2_yoshiki-fetch-and-extract.md	§4.2	OK 4.2 医療費控除の明細書の行数の食い違い（F）
+round3_design-output	187	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§3	OK 3. 第二表（個12-1073、様式ID `NTA0K?A020020230`）：欄コードの有無と記
+round3_design-output	187	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§6.2	OK 6.2 2ページ
+round3_design-output	187	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§9	OK 9. 医療費控除の明細書・セルフメディケーション税制の明細書（F）
+round3_design-output	188	OUT	docs/public-sources/20261109_impl-prep_output-forms-and-specs.md	§2.2	OK 2.2 第一表（`NTA1K?A020010230`。`?` は §5.1）
+round3_design-output	188	OUT	docs/public-sources/20261109_impl-prep_output-forms-and-specs.md	§2.3	OK 2.3 第二表（`NTA0K?A020020230`。`?` は §5.1）
+round3_design-output	188	OUT	docs/public-sources/20261109_impl-prep_output-forms-and-specs.md	§3	OK 3. 法令：確定申告書の記載事項と添付書類（e-Gov 法令API v2）
+round3_design-output	190	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§4	OK 4. 根拠（計算の過程）の取り出し（P05、P06）
+round3_design-output	190	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§8	OK 8. 判定コアの CLI 形（標準入力の JSON → 標準出力の JSON）（P10）
+round3_design-output	190	SRC	docs/public-sources/20261109_impl-prep_tools-source-notes.md	§1.4	OK 1.4 トレース（計算の過程）の構造（F）
+round3_design-output	239	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§2.3	OK 2.3 期間の文字列表現で日が落ちる
+round3_design-output	239	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§4	OK 4. 根拠（計算の過程）の取り出し（P05、P06）
+round3_design-output	239	SRC	docs/public-sources/20261109_impl-prep_tools-source-notes.md	§1.2	OK 1.2 期間の文字列表現は日を落とす（F）
+round3_design-output	240	EGOV	docs/measurements/20261109_R1-laws_egov-api-monitoring.md	§2	OK 2. 改正履歴（/law_revisions/{law_id}）
+round3_design-output	240	KB5	docs/measurements/20261109_impl-prep_kyuyo-beppyo5.md	§2	OK 2. 取得した版
+round3_design-output	240	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§3	OK 3. 施行日をキーにしたパラメータと、適用開始日をキーにしたパラメータ（P03）
+round3_design-output	240	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§4	OK 4. 根拠（計算の過程）の取り出し（P05、P06）
+round3_design-output	240	SRC	docs/public-sources/20261109_impl-prep_tools-source-notes.md	§1.5	OK 1.5 パラメータのメタデータ（F）
+round3_design-output	241	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§4	OK 4. 根拠（計算の過程）の取り出し（P05、P06）
+round3_design-output	241	SRC	docs/public-sources/20261109_impl-prep_tools-source-notes.md	§1.4	OK 1.4 トレース（計算の過程）の構造（F）
+round3_design-output	242	M-HKC	docs/measurements/20261109_round2_hoken-kifu-formula-checks.md	§2	OK 2. 1円未満の端数
+round3_design-output	242	M-HKF	docs/measurements/20261109_round2_hoken-kifu-fetch.md	§3.5	OK 3.5 その他
+round3_design-output	242	M-JZ	docs/measurements/20261109_round2_juminzei-tax-fetch-and-checks.md	§3.4	OK 3.4 全文での語の出現（`hits_<略称>_<asof>.json`）
+round3_design-output	242	M-JZ	docs/measurements/20261109_round2_juminzei-tax-fetch-and-checks.md	§3.8	OK 3.8 1円未満の扱いの感度（`rounding.md`）
+round3_design-output	242	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§2	OK 2. 第一表（個12-1072、様式ID `NTA1K?A020010230`）：欄ごとの記入の規則
+round3_design-output	244	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§8	OK 8. 判定コアの CLI 形（標準入力の JSON → 標準出力の JSON）（P10）
+round3_design-output	246	PS-KY	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§0.2	OK 0.2 運用方針・組合の公表資料（取得 2026-11-09）
+round3_design-output	246	PS-KY	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§8	OK 8. 分からなかったこと・一次情報が見つからなかったこと
+round3_design-output	247	PS-JU	docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md	§0	OK 0. 取得した版
+round3_design-output	247	PS-JU	docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md	§7	OK 7. 年度と年分の対応、住民税の給与所得（調べること7の材料）
+round3_design-output	250	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§8	OK 8. 判定コアの CLI 形（標準入力の JSON → 標準出力の JSON）（P10）
+round3_design-output	250	PS-KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§11.1	OK 11.1 条文
+round3_design-output	254	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§4	OK 4. 根拠（計算の過程）の取り出し（P05、P06）
+round3_design-output	254	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§8	OK 8. 判定コアの CLI 形（標準入力の JSON → 標準出力の JSON）（P10）
+round3_design-output	255	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§4	OK 4. 根拠（計算の過程）の取り出し（P05、P06）
+round3_design-output	255	SRC	docs/public-sources/20261109_impl-prep_tools-source-notes.md	§2.4	OK 2.4 自動で付くメタデータ（F）
+round3_design-output	256	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§4	OK 4. 根拠（計算の過程）の取り出し（P05、P06）
+round3_design-output	256	SRC	docs/public-sources/20261109_impl-prep_tools-source-notes.md	§1.4	OK 1.4 トレース（計算の過程）の構造（F）
+round3_design-output	260	EGOV	docs/measurements/20261109_R1-laws_egov-api-monitoring.md	§2	OK 2. 改正履歴（/law_revisions/{law_id}）
+round3_design-output	260	KB5	docs/measurements/20261109_impl-prep_kyuyo-beppyo5.md	§2	OK 2. 取得した版
+round3_design-output	260	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§2.3	OK 2.3 期間の文字列表現で日が落ちる
+round3_design-output	260	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§3	OK 3. 施行日をキーにしたパラメータと、適用開始日をキーにしたパラメータ（P03）
+round3_design-output	260	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§4	OK 4. 根拠（計算の過程）の取り出し（P05、P06）
+round3_design-output	260	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§8	OK 8. 判定コアの CLI 形（標準入力の JSON → 標準出力の JSON）（P10）
+round3_design-output	260	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§9	OK 9. 性能（P11）
+round3_design-output	260	PS-JU	docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md	§0	OK 0. 取得した版
+round3_design-output	260	PS-JU	docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md	§7	OK 7. 年度と年分の対応、住民税の給与所得（調べること7の材料）
+round3_design-output	260	PS-KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§11.1	OK 11.1 条文
+round3_design-output	260	PS-KY	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§0.2	OK 0.2 運用方針・組合の公表資料（取得 2026-11-09）
+round3_design-output	260	PS-KY	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§8	OK 8. 分からなかったこと・一次情報が見つからなかったこと
+round3_design-output	260	SRC	docs/public-sources/20261109_impl-prep_tools-source-notes.md	§1.2	OK 1.2 期間の文字列表現は日を落とす（F）
+round3_design-output	260	SRC	docs/public-sources/20261109_impl-prep_tools-source-notes.md	§1.4	OK 1.4 トレース（計算の過程）の構造（F）
+round3_design-output	260	SRC	docs/public-sources/20261109_impl-prep_tools-source-notes.md	§1.5	OK 1.5 パラメータのメタデータ（F）
+round3_design-output	260	SRC	docs/public-sources/20261109_impl-prep_tools-source-notes.md	§2.4	OK 2.4 自動で付くメタデータ（F）
+round3_design-output	260	TV	docs/measurements/20261109_impl-prep_tools-verification.md	§1	OK 1. [OFP] OpenFisca-Core 46.0.1 の実測
+round3_design-output	270	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§9	OK 9. 性能（P11）
+round3_design-output	316	PS-JT	docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md	§2.4	OK 2.4 非課税（F：地法 第295条第1項。令和8年度分〜令和10年度分の版で同じ）
+round3_design-output	316	PS-K	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§0	OK 0. 出典一覧
+round3_design-output	316	PS-SP	docs/public-sources/20261109_round2_spouse-laws-and-sources.md	§1.1	OK 1.1 定義（所法 第2条第1項第33号〜第33号の4）
+round3_design-output	317	M-GP	docs/measurements/20261109_round2_gaps-fetch-and-checks.md	C4	OK
+round3_design-output	317	M-HKC	docs/measurements/20261109_round2_hoken-kifu-formula-checks.md	§6	OK 6. ふるさと納税（住民税の特例控除）の割合
+round3_design-output	317	PS-KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§6	OK 6. 低所得者の軽減（7割・5割・2割）
+round3_design-output	317	PS-SP	docs/public-sources/20261109_round2_spouse-laws-and-sources.md	§1.3	OK 1.3 配偶者特別控除（所法 第83条の2）
+round3_design-output	318	M-GP	docs/measurements/20261109_round2_gaps-fetch-and-checks.md	C2	OK
+round3_design-output	318	PS-GP	docs/public-sources/20261109_round2_gaps-sources.md	§2.1	OK 2.1 現在の TA No.1810（F）
+round3_design-output	318	PS-GP	docs/public-sources/20261109_round2_gaps-sources.md	§2.3	OK 2.3 条文の値（F。値の読み取りは［M］C2、条文の引用は［PS-JG］§2・［PS-IT］§2）
+round3_design-output	319	KTH	docs/measurements/20261109_impl-prep_kyuyo-thresholds.md	§2	OK 2. 所得税（年分）：境目と公開資料の照合（`thresholds.md`）
+round3_design-output	319	KTH	docs/measurements/20261109_impl-prep_kyuyo-thresholds.md	§3	OK 3. 住民税（年度）：境目
+round3_design-output	319	KTH	docs/measurements/20261109_impl-prep_kyuyo-thresholds.md	§5	OK 5. 端数・刻みのまとめ（実測した範囲）
+round3_design-output	320	KTH	docs/measurements/20261109_impl-prep_kyuyo-thresholds.md	§5	OK 5. 端数・刻みのまとめ（実測した範囲）
+round3_design-output	320	M-JT	docs/measurements/20261109_round2_jinteki-fetch-and-checks.md	§5	OK 5. 給与収入 6,777,778円と寡婦・ひとり親の 500万円（`checks.md` §3）
+round3_design-output	321	PS-SP	docs/public-sources/20261109_round2_spouse-laws-and-sources.md	§1.2	OK 1.2 配偶者控除（所法 第83条）
+round3_design-output	321	PS-SP	docs/public-sources/20261109_round2_spouse-laws-and-sources.md	§1.3	OK 1.3 配偶者特別控除（所法 第83条の2）
+round3_design-output	322	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§4	OK 4. 根拠（計算の過程）の取り出し（P05、P06）
+round3_design-output	361	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§8	OK 8. 判定コアの CLI 形（標準入力の JSON → 標準出力の JSON）（P10）
+round3_design-output	391	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§8	OK 8. 判定コアの CLI 形（標準入力の JSON → 標準出力の JSON）（P10）
+round3_design-output	391	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§9	OK 9. 性能（P11）
+round3_design-output	392	OF-run	docs/measurements/20261109_R2-tools_openfisca-core-runtime.md	§2.2	OK 2.2 グループと役割（T01〜T05、T14、T12n）— R4 向け
+round3_design-output	393	PS-IR	docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md	§6.1	OK 6.1 要件と選択（TA1129・TA1131・特集セルフ）
+round3_design-output	393	PS-KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§1.4	OK 1.4 通達（措置法通達 8の4-1）
+round3_design-output	394	PS-AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§3.1	OK 3.1 令和7年分・令和8年分（2025-12-31 版と 2026-12-31 版で同文。措規9の
+round3_design-output	394	PS-AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§5.3	OK 5.3 純損失の繰戻しによる還付（所法140〜142、所令271・272、所規54、所基通140・1
+round3_design-output	395	PS-HKN	docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md	§1.4	OK 1.4 質疑応答事例（所得税）
+round3_design-output	405	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§9	OK 9. 性能（P11）
+round3_design-output	462	PS-KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§1.1	OK 1.1 国民健康保険料（国保法）
+round3_design-output	462	PS-KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§3	OK 3. 賦課総額と、所得割・資産割・被保険者均等割・世帯別平等割の組合せ（方式）
+round3_design-output	462	PS-KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§5	OK 5. 賦課限度額（年度ごと）
+round3_design-output	462	PS-KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§6	OK 6. 低所得者の軽減（7割・5割・2割）
+round3_design-output	462	PS-KH	docs/public-sources/20261109_round2_kokuho-premium-structure.md	§13	OK 13. 分からなかったこと・一次情報が見つからなかったこと
+round3_design-output	463	M-JZ	docs/measurements/20261109_round2_juminzei-tax-fetch-and-checks.md	§3.7	OK 3.7 計算の読みによる自治体の計算例の再現（`examples.md`）
+round3_design-output	463	PS-JZA	docs/public-sources/20261109_round2_juminzei-tax-admin-and-municipal.md	§2	OK 2. 自治体の計算例（令和8年度分）
+round3_design-output	463	PS-JZA	docs/public-sources/20261109_round2_juminzei-tax-admin-and-municipal.md	§3	OK 3. 総務省「超過課税の状況」
+round3_design-output	464	PS-KY	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§6.3	OK 6.3 事業収入
+round3_design-output	464	PS-KY	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§6.4	OK 6.4 収入に波がある人の「年間収入」の見方
+round3_design-output	464	PS-KY	docs/public-sources/20261109_round2_kyosai-law-and-criteria.md	§8	OK 8. 分からなかったこと・一次情報が見つからなかったこと
+round3_design-output	465	PS-GP	docs/public-sources/20261109_round2_gaps-sources.md	§6.2	OK 6.2 ワクチン接種業務の特例の Q&A（保険者向け）が示す保険者ごとの確認方法（F）
+round3_design-output	465	PS-K	docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md	§1.3	OK 1.3 保険者による違い
+round3_design-output	466	PS-EA	docs/public-sources/20261109_round2_elderly-abroad-guidance.md	§5.1	OK 5.1 60歳以上の 180万円（［S52］）
+round3_design-output	466	PS-EA	docs/public-sources/20261109_round2_elderly-abroad-guidance.md	§6	OK 6. 分からなかったこと・一次情報が見つからなかったこと
+round3_design-output	467	PS-KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§10	OK 10. 健康保険の被扶養者の「年間収入」と株式の収入
+round3_design-output	548	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§8	OK 8. 不動産所得用の様式（D20 で対象に入った分。概略）
+round3_design-output	549	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§0	OK 0. まとめ
+round3_design-output	557	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§0	OK 0. まとめ
+round3_design-output	557	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§1.1	OK 1.1 法令（e-Gov 法令API v2。版は［M］§6）
+round3_design-output	557	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§1.2	OK 1.2 法令解釈通達「『個人課税事務提要（様式編Ⅰ）』の制定について」（F）
+round3_design-output	558	YM	docs/measurements/20261109_round2_yoshiki-fetch-and-extract.md	§3.1	OK 3.1 ページの中身の種類（F）
+round3_design-output	558	YM	docs/measurements/20261109_round2_yoshiki-fetch-and-extract.md	§3.2	OK 3.2 青色申告決算書（一般用）の欄コードと科目の対応の確かめ方（F）
+round3_design-output	558	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§0	OK 0. まとめ
+round3_design-output	558	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§3	OK 3. 第二表（個12-1073、様式ID `NTA0K?A020020230`）：欄コードの有無と記
+round3_design-output	558	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§5	OK 5. 第四表（損失申告用。（一）個12-1075、（二）個12-1076、様式ID `NTA0K?A
+round3_design-output	558	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§6	OK 6. 青色申告決算書（一般用）（個12-1083、様式ID `NTA0KOA210010110`〜`
+round3_design-output	558	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§9	OK 9. 医療費控除の明細書・セルフメディケーション税制の明細書（F）
+round3_design-output	558	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§13	OK 13. 分からなかったこと
+round3_design-output	559	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§0	OK 0. まとめ
+round3_design-output	559	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§1.3	OK 1.3 一部改正（F）
+round3_design-output	559	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§1.5	OK 1.5 AI-OCR と欄コード（e-Tax の仕様公開ページ）（F）
+round3_design-output	560	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§0	OK 0. まとめ
+round3_design-output	560	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§5.3	OK 5.3 手引き（損失申告用）の記入の規則（F）
+round3_design-output	561	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§0	OK 0. まとめ
+round3_design-output	561	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§10	OK 10. 社会保険料控除等の明細書（令和8年分以後）（F）
+round3_design-output	561	YS	docs/public-sources/20261109_round2_yoshiki-forms-r07.md	§11	OK 11. 令和8年分の様式の公表状況（2026-11-09 時点）（F）
+round3_design-output	562	OUT	docs/public-sources/20261109_impl-prep_output-forms-and-specs.md	§2.2	OK 2.2 第一表（`NTA1K?A020010230`。`?` は §5.1）
+round3_design-output	562	OUT	docs/public-sources/20261109_impl-prep_output-forms-and-specs.md	§2.5	OK 2.5 手引き（令和7年分、HTML 版）から、このプロジェクトに関係する欄の書き方（F）
+round3_design-output	563	OUT	docs/public-sources/20261109_impl-prep_output-forms-and-specs.md	§5.1	OK 5.1 紙の様式ID
+round3_design-output	563	OUT	docs/public-sources/20261109_impl-prep_output-forms-and-specs.md	§5.3	OK 5.3 e-Tax「令和9年1月受付開始予定の帳票一覧（予定）」
+round3_design-output	563	OUTV	docs/measurements/20261109_impl-prep_output-verification.md	V2	OK
+round3_design-output	564	OUT	docs/public-sources/20261109_impl-prep_output-forms-and-specs.md	§6.1	OK 6.1 一覧（F）
+round3_design-output	564	OUT	docs/public-sources/20261109_impl-prep_output-forms-and-specs.md	§6.2	OK 6.2 医療費集計フォーム（Ver.3.1）の形式
+round3_design-output	565	OUT	docs/public-sources/20261109_impl-prep_output-forms-and-specs.md	§7.2	OK 7.2 e-Tax仕様書一覧（KSK2 対応版）
+round3_design-output	565	OUT	docs/public-sources/20261109_impl-prep_output-forms-and-specs.md	§7.3	OK 7.3 e-Taxソフト（WEB版）での外部作成データの読込（F）
+round3_design-output	565	OUT	docs/public-sources/20261109_impl-prep_output-forms-and-specs.md	§8.1	OK 8.1 「e-Tax等仕様公開に当たっての注意事項」（仕様公開ページ `index.html#anc
+round3_design-output	566	OUT	docs/public-sources/20261109_impl-prep_output-forms-and-specs.md	§3	OK 3. 法令：確定申告書の記載事項と添付書類（e-Gov 法令API v2）
+round3_design-output	566	OUTV	docs/measurements/20261109_impl-prep_output-verification.md	V3	OK
+round3_design-output	567	PS-GP	docs/public-sources/20261109_round2_gaps-sources.md	§5.1	OK 5.1 条文（F）
+round3_design-output	568	PS-ZG	docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md	§6.3	OK 6.3 証明書の要否
+round3_design-output	568	PS-ZG	docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md	§7.3	OK 7.3 添付書類（国民年金の保険料）
+round3_design-output	569	PS-KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§11.1	OK 11.1 申告書第三表（分離課税用）
+round3_design-output	569	PS-KB	docs/public-sources/20261109_round2b_kabu-law-and-nta.md	§11.2	OK 11.2 第一表・第二表と付表
+round3_design-output	570	PS-AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§7	OK 7. 所得税青色申告決算書（一般用）の欄（令和7年分）
+round3_design-output	570	PS-AO	docs/public-sources/20261109_round2_aoiro-laws-and-nta.md	§7.5	OK 7.5 様式の改定の予定（既存の調査）
+round3_design-output	571	YV	docs/measurements/20261109_round2_yoshiki-verification.md	§3	OK 3. 訂正
+round3_design-output	622	OFP	docs/measurements/20261109_impl-prep_tools-openfisca-probe.md	§4	OK 4. 根拠（計算の過程）の取り出し（P05、P06）

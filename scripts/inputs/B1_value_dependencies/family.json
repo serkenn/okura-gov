@@ -1,0 +1,507 @@
+{
+ "schema_version": "0",
+ "_comment": "架空の家庭（実測 scripts/B1_value_dependencies.py の入力）。5人が4つの架空の市町村（990011〜990014）に住む。母は給与所得が均等割の非課税の基準（級地で変わる）の近く、子1は賦課期日（2027-01-01）に18歳になる（判定の時点で未成年者かが変わる）。子3は所得がなく、父の扶養親族（扶養の所属の選択あり）。",
+ "persons": [
+  {
+   "id": "p-f",
+   "birth_on": "1975-06-01"
+  },
+  {
+   "id": "p-m",
+   "birth_on": "1976-06-01"
+  },
+  {
+   "id": "p-c1",
+   "birth_on": "2009-01-02"
+  },
+  {
+   "id": "p-c2",
+   "birth_on": "2000-08-08"
+  },
+  {
+   "id": "p-c3",
+   "birth_on": "2005-05-05"
+  }
+ ],
+ "relations": [
+  {
+   "id": "rel-mar",
+   "kind": "marriage",
+   "roles": {
+    "spouse_a": "p-f",
+    "spouse_b": "p-m"
+   },
+   "when": {
+    "from_on": "1999-04-01"
+   }
+  },
+  {
+   "id": "rel-f-c1",
+   "kind": "parentage",
+   "roles": {
+    "parent": "p-f",
+    "child": "p-c1"
+   },
+   "when": {
+    "on": "2009-01-02"
+   },
+   "attributes": {
+    "basis": "birth_in_marriage"
+   }
+  },
+  {
+   "id": "rel-m-c1",
+   "kind": "parentage",
+   "roles": {
+    "parent": "p-m",
+    "child": "p-c1"
+   },
+   "when": {
+    "on": "2009-01-02"
+   },
+   "attributes": {
+    "basis": "birth_mother"
+   }
+  },
+  {
+   "id": "rel-f-c2",
+   "kind": "parentage",
+   "roles": {
+    "parent": "p-f",
+    "child": "p-c2"
+   },
+   "when": {
+    "on": "2000-08-08"
+   },
+   "attributes": {
+    "basis": "birth_in_marriage"
+   }
+  },
+  {
+   "id": "rel-m-c2",
+   "kind": "parentage",
+   "roles": {
+    "parent": "p-m",
+    "child": "p-c2"
+   },
+   "when": {
+    "on": "2000-08-08"
+   },
+   "attributes": {
+    "basis": "birth_mother"
+   }
+  },
+  {
+   "id": "rel-sep-fm",
+   "kind": "separation_reason",
+   "roles": {
+    "person": "p-f",
+    "other_person": "p-m"
+   },
+   "when": {
+    "from_on": "2024-04-01"
+   },
+   "attributes": {
+    "reason": "work_related"
+   }
+  },
+  {
+   "id": "rel-sep-c1m",
+   "kind": "separation_reason",
+   "roles": {
+    "person": "p-c1",
+    "other_person": "p-m"
+   },
+   "when": {
+    "from_on": "2024-04-01"
+   },
+   "attributes": {
+    "reason": "study"
+   }
+  },
+  {
+   "id": "rel-f-c3",
+   "kind": "parentage",
+   "roles": {
+    "parent": "p-f",
+    "child": "p-c3"
+   },
+   "when": {
+    "on": "2005-05-05"
+   },
+   "attributes": {
+    "basis": "birth_in_marriage"
+   }
+  },
+  {
+   "id": "rel-m-c3",
+   "kind": "parentage",
+   "roles": {
+    "parent": "p-m",
+    "child": "p-c3"
+   },
+   "when": {
+    "on": "2005-05-05"
+   },
+   "attributes": {
+    "basis": "birth_mother"
+   }
+  }
+ ],
+ "residences": [
+  {
+   "id": "res-f",
+   "kind": "resident_record",
+   "roles": {
+    "person": "p-f"
+   },
+   "when": {
+    "from_on": "2024-04-01"
+   },
+   "attributes": {
+    "municipality_code": "990011",
+    "household_id": "hh-f",
+    "householder": true,
+    "relation_to_householder": "householder"
+   }
+  },
+  {
+   "id": "res-m",
+   "kind": "resident_record",
+   "roles": {
+    "person": "p-m"
+   },
+   "when": {
+    "from_on": "2024-04-01"
+   },
+   "attributes": {
+    "municipality_code": "990012",
+    "household_id": "hh-m",
+    "householder": true,
+    "relation_to_householder": "householder"
+   }
+  },
+  {
+   "id": "res-c1",
+   "kind": "resident_record",
+   "roles": {
+    "person": "p-c1"
+   },
+   "when": {
+    "from_on": "2024-04-01"
+   },
+   "attributes": {
+    "municipality_code": "990013",
+    "household_id": "hh-c1",
+    "householder": true,
+    "relation_to_householder": "householder"
+   }
+  },
+  {
+   "id": "res-c2",
+   "kind": "resident_record",
+   "roles": {
+    "person": "p-c2"
+   },
+   "when": {
+    "from_on": "2024-04-01"
+   },
+   "attributes": {
+    "municipality_code": "990014",
+    "household_id": "hh-c2",
+    "householder": true,
+    "relation_to_householder": "householder"
+   }
+  },
+  {
+   "id": "res-c3",
+   "kind": "resident_record",
+   "roles": {
+    "person": "p-c3"
+   },
+   "when": {
+    "from_on": "2024-04-01"
+   },
+   "attributes": {
+    "municipality_code": "990012",
+    "household_id": "hh-m",
+    "householder": false,
+    "relation_to_householder": "child"
+   }
+  }
+ ],
+ "insurance_memberships": [],
+ "facts": [
+  {
+   "id": "slip-f",
+   "kind": "withholding_slip",
+   "roles": {
+    "recipient": "p-f"
+   },
+   "when": {
+    "tax_year": 2026
+   },
+   "amounts": {
+    "payment_amount": 6000000,
+    "withholding_tax": 150000,
+    "social_insurance": 850000,
+    "housing_loan_credit": 0
+   },
+   "attributes": {
+    "slip_type": "salary",
+    "counterparty": "架空の会社A",
+    "year_end_adjusted": true
+   }
+  },
+  {
+   "id": "slip-m",
+   "kind": "withholding_slip",
+   "roles": {
+    "recipient": "p-m"
+   },
+   "when": {
+    "tax_year": 2026
+   },
+   "amounts": {
+    "payment_amount": 1100000,
+    "withholding_tax": 0,
+    "social_insurance": 0,
+    "housing_loan_credit": 0
+   },
+   "attributes": {
+    "slip_type": "salary",
+    "counterparty": "架空の会社B",
+    "year_end_adjusted": true
+   }
+  },
+  {
+   "id": "slip-c1",
+   "kind": "withholding_slip",
+   "roles": {
+    "recipient": "p-c1"
+   },
+   "when": {
+    "tax_year": 2026
+   },
+   "amounts": {
+    "payment_amount": 1500000,
+    "withholding_tax": 0,
+    "social_insurance": 0,
+    "housing_loan_credit": 0
+   },
+   "attributes": {
+    "slip_type": "salary",
+    "counterparty": "架空の会社C",
+    "year_end_adjusted": true
+   }
+  },
+  {
+   "id": "slip-c2",
+   "kind": "withholding_slip",
+   "roles": {
+    "recipient": "p-c2"
+   },
+   "when": {
+    "tax_year": 2026
+   },
+   "amounts": {
+    "payment_amount": 3800000,
+    "withholding_tax": 80000,
+    "social_insurance": 550000,
+    "housing_loan_credit": 0
+   },
+   "attributes": {
+    "slip_type": "salary",
+    "counterparty": "架空の会社D",
+    "year_end_adjusted": true
+   }
+  }
+ ],
+ "assets": [],
+ "filed_documents": [],
+ "judgments": [
+  {
+   "id": "j-liv-fm",
+   "kind": "判断.生計を一にする",
+   "judged_by": {
+    "person": "p-f"
+   },
+   "judged_at": "2027-02-01T09:00:00+09:00",
+   "subject": {
+    "person": "p-f",
+    "other_person": "p-m"
+   },
+   "when": {
+    "from_on": "1999-04-01"
+   },
+   "value": true
+  },
+  {
+   "id": "j-liv-fc1",
+   "kind": "判断.生計を一にする",
+   "judged_by": {
+    "person": "p-f"
+   },
+   "judged_at": "2027-02-01T09:00:00+09:00",
+   "subject": {
+    "person": "p-f",
+    "other_person": "p-c1"
+   },
+   "when": {
+    "from_on": "2009-01-02"
+   },
+   "value": true
+  },
+  {
+   "id": "j-liv-mc1",
+   "kind": "判断.生計を一にする",
+   "judged_by": {
+    "person": "p-m"
+   },
+   "judged_at": "2027-02-01T09:00:00+09:00",
+   "subject": {
+    "person": "p-m",
+    "other_person": "p-c1"
+   },
+   "when": {
+    "from_on": "2009-01-02"
+   },
+   "value": true
+  },
+  {
+   "id": "j-liv-fc2",
+   "kind": "判断.生計を一にする",
+   "judged_by": {
+    "person": "p-f"
+   },
+   "judged_at": "2027-02-01T09:00:00+09:00",
+   "subject": {
+    "person": "p-f",
+    "other_person": "p-c2"
+   },
+   "when": {
+    "from_on": "2023-04-01"
+   },
+   "value": false
+  },
+  {
+   "id": "j-liv-mc2",
+   "kind": "判断.生計を一にする",
+   "judged_by": {
+    "person": "p-m"
+   },
+   "judged_at": "2027-02-01T09:00:00+09:00",
+   "subject": {
+    "person": "p-m",
+    "other_person": "p-c2"
+   },
+   "when": {
+    "from_on": "2023-04-01"
+   },
+   "value": false
+  },
+  {
+   "id": "j-liv-fc3",
+   "kind": "判断.生計を一にする",
+   "judged_by": {
+    "person": "p-f"
+   },
+   "judged_at": "2027-02-01T09:00:00+09:00",
+   "subject": {
+    "person": "p-f",
+    "other_person": "p-c3"
+   },
+   "when": {
+    "from_on": "2005-05-05"
+   },
+   "value": true
+  },
+  {
+   "id": "j-liv-mc3",
+   "kind": "判断.生計を一にする",
+   "judged_by": {
+    "person": "p-m"
+   },
+   "judged_at": "2027-02-01T09:00:00+09:00",
+   "subject": {
+    "person": "p-m",
+    "other_person": "p-c3"
+   },
+   "when": {
+    "from_on": "2005-05-05"
+   },
+   "value": true
+  }
+ ],
+ "choices": [
+  {
+   "id": "c-ref-f",
+   "kind": "選択.還付申告",
+   "chosen_by": "p-f",
+   "chosen_at": "2027-02-01T09:00:00+09:00",
+   "subject": {
+    "person": "p-f"
+   },
+   "when": {
+    "tax_year": 2026
+   },
+   "value": false
+  },
+  {
+   "id": "c-ref-m",
+   "kind": "選択.還付申告",
+   "chosen_by": "p-m",
+   "chosen_at": "2027-02-01T09:00:00+09:00",
+   "subject": {
+    "person": "p-m"
+   },
+   "when": {
+    "tax_year": 2026
+   },
+   "value": false
+  },
+  {
+   "id": "c-ref-c1",
+   "kind": "選択.還付申告",
+   "chosen_by": "p-c1",
+   "chosen_at": "2027-02-01T09:00:00+09:00",
+   "subject": {
+    "person": "p-c1"
+   },
+   "when": {
+    "tax_year": 2026
+   },
+   "value": false
+  },
+  {
+   "id": "c-ref-c2",
+   "kind": "選択.還付申告",
+   "chosen_by": "p-c2",
+   "chosen_at": "2027-02-01T09:00:00+09:00",
+   "subject": {
+    "person": "p-c2"
+   },
+   "when": {
+    "tax_year": 2026
+   },
+   "value": false
+  },
+  {
+   "id": "c-alloc-c3",
+   "kind": "選択.扶養の所属",
+   "chosen_by": "p-f",
+   "chosen_at": "2025-12-01T09:00:00+09:00",
+   "subject": {
+    "person": "p-c3"
+   },
+   "when": {
+    "tax_year": 2026
+   },
+   "value": {
+    "filer": "p-f",
+    "document_type": "employee_dependents_declaration",
+    "section": "dependent_relative"
+   }
+  }
+ ]
+}

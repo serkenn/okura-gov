@@ -1,0 +1,16 @@
+{
+ "file": "004_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_kaisei_251222_pdf_01.pdf",
+ "sha256": "cef7341bcdc17df02e20fa687912c2b7dd29503e8e4345f96b3b99a5cd533e7d",
+ "bytes": 166858,
+ "aes_selftest": true,
+ "encrypted": true,
+ "V": 5,
+ "R": 6,
+ "unsupported": "V5 以上（AESV3）の暗号化は未対応。文字は取り出していない",
+ "n_objects": 0,
+ "pages": [],
+ "form_ids": [],
+ "titles_in_dicts": [],
+ "n_rows": 0,
+ "n_codes": 0
+}

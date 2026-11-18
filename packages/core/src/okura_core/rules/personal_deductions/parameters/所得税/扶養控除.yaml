@@ -1,0 +1,57 @@
+description: 扶養控除（所得税法第84条第1項）と同居の老親等に係る扶養控除の特例（租税特別措置法第41条の16第1項）の額。控除対象扶養親族1人につき。
+一般の額:
+  description: 控除対象扶養親族（特定扶養親族・老人扶養親族以外）1人の額
+  metadata:
+    law: 所得税法第84条第1項
+    source_kind: 法律
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_R1-laws_income-tax.md#2
+      - docs/public-sources/20261109_round2_elderly-abroad-laws.md#1.1
+  values:
+    2025-01-01:
+      value: 380000
+      metadata:
+        適用: 令和7年分・令和8年分（所法84① の本文は同文：elderly-abroad-laws §1.1）
+特定扶養親族の額:
+  description: 特定扶養親族1人の額
+  metadata:
+    law: 所得税法第84条第1項（括弧書き）
+    source_kind: 法律
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_R1-laws_income-tax.md#2
+      - docs/public-sources/20261109_round2_elderly-abroad-laws.md#1.1
+  values:
+    2025-01-01:
+      value: 630000
+      metadata:
+        適用: 令和7年分・令和8年分（同文）
+老人扶養親族の額:
+  description: 老人扶養親族1人の額（同居老親等の加算の前）
+  metadata:
+    law: 所得税法第84条第1項（括弧書き）
+    source_kind: 法律
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_round2_elderly-abroad-laws.md#1.1
+      - docs/public-sources/20261109_round2_elderly-abroad-laws.md#1.2
+  values:
+    2025-01-01:
+      value: 480000
+      metadata:
+        適用: 令和7年分・令和8年分（同文）
+同居老親等の加算額:
+  description: 老人扶養親族が居住者又はその配偶者の直系尊属で、いずれかとの同居を常況としている場合に第84条第1項の金額に加算する額
+  metadata:
+    law: 租税特別措置法第41条の16第1項
+    source_kind: 法律
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_round2_elderly-abroad-laws.md#2.1
+      - docs/public-sources/20261109_round2_elderly-abroad-laws.md#1.2
+  values:
+    2025-01-01:
+      value: 100000
+      metadata:
+        適用: 令和7年分・令和8年分（asof 2025-12-31・2026-11-09・2026-12-31 の3版で同文。適用期限の文言なし）

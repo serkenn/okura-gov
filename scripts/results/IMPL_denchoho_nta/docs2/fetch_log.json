@@ -1,0 +1,29 @@
+{
+ "run_at": "20261109-152013",
+ "stage": "docs2",
+ "download_dir": ".work\\downloads\\20261109-152013_denchoho_nta_docs2",
+ "items": [
+  {
+   "key": "pamph-chobo-r0507",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/pdf/0023006-085_02.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "bytes": 733200,
+   "truncated": false,
+   "sha256": "e8ba06ebf554fecec950eb46b26d77a93b2e59fd17dcc4b8395939a9f5931793",
+   "last_modified": "Thu, 18 Jan 2024 09:34:07 GMT",
+   "saved": ".work\\downloads\\20261109-152013_denchoho_nta_docs2\\pamph-chobo-r0507.pdf"
+  },
+  {
+   "key": "pamph-r0806",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/pdf/0026006-122.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "bytes": 965128,
+   "truncated": false,
+   "sha256": "b13bcf821f6b641566f3e9650558fd180118f42c51d0513b9289b309057a15a9",
+   "last_modified": "Fri, 26 Jun 2026 05:00:12 GMT",
+   "saved": ".work\\downloads\\20261109-152013_denchoho_nta_docs2\\pamph-r0806.pdf"
+  }
+ ]
+}

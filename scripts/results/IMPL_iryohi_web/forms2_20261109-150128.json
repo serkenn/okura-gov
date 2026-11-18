@@ -1,0 +1,62 @@
+{
+  "set": "forms2",
+  "fetched_at_local": "20261109-150128",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "meisai_iryohi_ref1",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/04/pdf/ref1.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/04/pdf/ref1.pdf",
+      "content_type": "application/pdf",
+      "bytes": 795776,
+      "sha256": "7c602c74703668f06e37b5efe40bf924da885cc8387c7fc3c1dd7e5c8fcb23ea",
+      "last_modified": "Tue, 30 Jun 2026 08:31:47 GMT",
+      "saved": ".work/downloads/20261109-150128_IMPL_iryohi_forms2/meisai_iryohi_ref1.pdf"
+    },
+    {
+      "id": "meisai_iryohi_jiyo_ref3",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/03/pdf/ref3.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/03/pdf/ref3.pdf",
+      "content_type": "application/pdf",
+      "bytes": 710704,
+      "sha256": "6f39bf8118395215a31bb79aa22995b836e8a4fbe92252eb0c4639009d21c826",
+      "last_modified": "Tue, 30 Jun 2026 08:31:47 GMT",
+      "saved": ".work/downloads/20261109-150128_IMPL_iryohi_forms2/meisai_iryohi_jiyo_ref3.pdf"
+    },
+    {
+      "id": "meisai_selfmed_017",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/017.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/017.pdf",
+      "content_type": "application/pdf",
+      "bytes": 560128,
+      "sha256": "1e61c20b72c21ee86820be392e8be29226f63d7d9dd891082497f62ca473cb22",
+      "last_modified": "Tue, 30 Jun 2026 08:31:54 GMT",
+      "saved": ".work/downloads/20261109-150128_IMPL_iryohi_forms2/meisai_selfmed_017.pdf"
+    },
+    {
+      "id": "meisai_selfmed_jiyo_ref4",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/03/pdf/ref4.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/03/pdf/ref4.pdf",
+      "content_type": "application/pdf",
+      "bytes": 433872,
+      "sha256": "9621c80f62e019cfca9b8f7e88f629c209bf23d88c750b268ed210947d7cfc21",
+      "last_modified": "Tue, 30 Jun 2026 08:31:47 GMT",
+      "saved": ".work/downloads/20261109-150128_IMPL_iryohi_forms2/meisai_selfmed_jiyo_ref4.pdf"
+    },
+    {
+      "id": "iryouhi_form_v31",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/iryouhi_form_v3.1.xlsx",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/iryouhi_form_v3.1.xlsx",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "bytes": 423539,
+      "sha256": "b69cadc0d073e5e56bee6a2ef6daaf82138ced7468780f1269dec681dffee842",
+      "last_modified": "Wed, 14 Jan 2026 08:30:05 GMT",
+      "saved": ".work/downloads/20261109-150128_IMPL_iryohi_forms2/iryouhi_form_v31.xlsx"
+    }
+  ]
+}

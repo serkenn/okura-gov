@@ -1,0 +1,56 @@
+description: >-
+  純損失の繰戻しによる還付（所得税法第140条）の計算に使う値。税率は「前年分」に適用する所得税法第89条第1項の表で、日付のキーはその繰戻しの年分（前年分の表を指す）。
+  所法R6・R7・R8 で本文が同一（docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md §2）。税の計算そのものの税率表は tax の担当（当年分の課税総所得金額に使う）。
+課税標準の端数の単位:
+  description: 課税標準（税率の適用の前）の端数を切り捨てる単位（千円未満）。所基通140・141−4 が通則法118① を準用
+  metadata: &base
+    law: 所得税基本通達140・141−4（国税通則法第118条第1項の準用）
+    source_kind: 通達
+    unit: 円
+    適用: 令和7年分・令和8年分の通達と通則法の版で同文（docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md §1.2）。当初の施行日は確かめていない（施行日は未確認）
+    reference:
+      - docs/public-sources/20261109_round2_aoiro-laws-and-nta.md#5.3
+      - docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md#1.2
+  values:
+    2025-01-01: {value: 1000}
+税額の端数の単位:
+  description: 各号の所得税の額の端数を切り捨てる単位（百円未満）。所基通140・141−4 が通則法119① を準用（様式 ⑬・㉑ の「100円未満の端数切捨て」）
+  metadata: *base
+  values:
+    2025-01-01: {value: 100}
+税率:
+  description: 所得税法第89条第1項の表（前年分に適用）。段ごとの上限（この額以下）と率
+  第1段:
+    上限: {description: 上限（195万円以下）, metadata: &tax {law: 所得税法第89条第1項（所法R6・R7・R8 で同文）, source_kind: 法律, unit: 円, 適用: 所法R6・R7・R8 で本文が同一（docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md §2）。この表の当初の施行日は確かめていない（施行日は未確認）, reference: [docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md#2]}, values: {2025-01-01: {value: 1950000}}}
+    率:
+      分子: {description: 率の分子, metadata: *tax, values: {2025-01-01: {value: 5}}}
+      分母: {description: 率の分母, metadata: *tax, values: {2025-01-01: {value: 100}}}
+  第2段:
+    上限: {description: 上限（330万円以下）, metadata: *tax, values: {2025-01-01: {value: 3300000}}}
+    率:
+      分子: {description: 率の分子, metadata: *tax, values: {2025-01-01: {value: 10}}}
+      分母: {description: 率の分母, metadata: *tax, values: {2025-01-01: {value: 100}}}
+  第3段:
+    上限: {description: 上限（695万円以下）, metadata: *tax, values: {2025-01-01: {value: 6950000}}}
+    率:
+      分子: {description: 率の分子, metadata: *tax, values: {2025-01-01: {value: 20}}}
+      分母: {description: 率の分母, metadata: *tax, values: {2025-01-01: {value: 100}}}
+  第4段:
+    上限: {description: 上限（900万円以下）, metadata: *tax, values: {2025-01-01: {value: 9000000}}}
+    率:
+      分子: {description: 率の分子, metadata: *tax, values: {2025-01-01: {value: 23}}}
+      分母: {description: 率の分母, metadata: *tax, values: {2025-01-01: {value: 100}}}
+  第5段:
+    上限: {description: 上限（1800万円以下）, metadata: *tax, values: {2025-01-01: {value: 18000000}}}
+    率:
+      分子: {description: 率の分子, metadata: *tax, values: {2025-01-01: {value: 33}}}
+      分母: {description: 率の分母, metadata: *tax, values: {2025-01-01: {value: 100}}}
+  第6段:
+    上限: {description: 上限（4000万円以下）, metadata: *tax, values: {2025-01-01: {value: 40000000}}}
+    率:
+      分子: {description: 率の分子, metadata: *tax, values: {2025-01-01: {value: 40}}}
+      分母: {description: 率の分母, metadata: *tax, values: {2025-01-01: {value: 100}}}
+  最高段:
+    率:
+      分子: {description: 率の分子（4000万円を超える金額）, metadata: *tax, values: {2025-01-01: {value: 45}}}
+      分母: {description: 率の分母, metadata: *tax, values: {2025-01-01: {value: 100}}}

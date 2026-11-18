@@ -1,0 +1,3 @@
+01 final sims 108 distinct objects 108 distinct input values 92
+02 final sims 133 distinct objects 101 distinct input values 92
+08 final sims 175 distinct objects 166 distinct input values 99

@@ -1,0 +1,56 @@
+{
+ "run_at": "20261112-015221",
+ "download_dir": ".work\\downloads\\20261112-015221_IMPL4_verify_recheck",
+ "fetches": [
+  {
+   "short": "shoho",
+   "asof": "2023-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=json&asof=2023-01-01",
+   "status": 200,
+   "sha256": "577363a15f15a6c89d0891b0dd7bc471b806cd7d73cb353993090c34ce7e8217",
+   "law_revision_id": "340AC0000000033_20230101_504AC0000000004",
+   "amendment_enforcement_date": "2023-01-01",
+   "current_revision_status": "PreviousEnforced"
+  },
+  {
+   "short": "shoho",
+   "asof": "2023-06-30",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=json&asof=2023-06-30",
+   "status": 200,
+   "sha256": "9bcedbd6e9f97600eb2f0326652e8cbe96eefbe22a681532caee589443f92703",
+   "law_revision_id": "340AC0000000033_20230607_505AC0000000047",
+   "amendment_enforcement_date": "2023-06-07",
+   "current_revision_status": "PreviousEnforced"
+  },
+  {
+   "short": "kokunen",
+   "asof": "2026-09-30",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/334AC0000000141?response_format=json&asof=2026-09-30",
+   "status": 200,
+   "sha256": "19679f9952ed98afa3daf604a0d6bbe59dae4c2972ce054685ea441e54d5a3f3",
+   "law_revision_id": "334AC0000000141_20260525_506AC0000000052",
+   "amendment_enforcement_date": "2026-05-25",
+   "current_revision_status": "PreviousEnforced"
+  },
+  {
+   "short": "kokunenki",
+   "asof": "2026-03-31",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/335M50000100012?response_format=json&asof=2026-03-31",
+   "status": 200,
+   "sha256": "85cfcd41a258ff153f3bfe3c76d352b7a9a5de11ae76dda95cfcf2697222246a",
+   "law_revision_id": "335M50000100012_20251201_507M60000100100",
+   "amendment_enforcement_date": "2025-12-01",
+   "current_revision_status": "PreviousEnforced"
+  },
+  {
+   "short": "shorei",
+   "asof": "2023-12-31",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096?response_format=json&asof=2023-12-31",
+   "status": 200,
+   "sha256": "726ce2696d53baec2a384618fc844a1269984a0848fd9b68b4efb300c54d65b6",
+   "law_revision_id": "340CO0000000096_20231001_504CO0000000136",
+   "amendment_enforcement_date": "2023-10-01",
+   "current_revision_status": "PreviousEnforced"
+  }
+ ]
+}

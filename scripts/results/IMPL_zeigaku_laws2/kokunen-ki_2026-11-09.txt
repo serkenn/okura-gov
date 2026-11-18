@@ -1,0 +1,5 @@
+# kokunen-ki 国民年金法施行規則 335M50000100012 asof=2026-11-09
+# law_revision_id=335M50000100012_20261001_508M60000100121 改正法令=令和八年厚生労働省令第百二十一号 施行日=2026-10-01 状態=CurrentEnforced
+# 取得URL=https://laws.e-gov.go.jp/api/2/law_data/335M50000100012?response_format=json&asof=2026-11-09
+# 取得日時=20261109-145751
+

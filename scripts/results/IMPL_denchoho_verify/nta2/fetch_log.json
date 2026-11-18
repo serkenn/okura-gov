@@ -1,0 +1,96 @@
+{
+ "run_at": "20261109-161619",
+ "download_dir": ".work/downloads/20261109-161619_IMPL_denchoho_verify_nta2",
+ "fetches": [
+  {
+   "key": "jirei-index",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/index.htm",
+   "status": 200,
+   "bytes": 4733,
+   "sha256": "5614fc64a1a68809ae674f07c57c7c78db6cdbded4993cb3b10014aaad1df297",
+   "last_modified": "Fri, 28 Jun 2024 05:00:02 GMT",
+   "content_type": "text/html",
+   "saved": ".work/downloads/20261109-161619_IMPL_denchoho_verify_nta2/jirei-index.htm.download"
+  },
+  {
+   "key": "tokusetsu-index",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/index.htm",
+   "status": 200,
+   "bytes": 7112,
+   "sha256": "be3334466490328576dcd01c37d0c62c990f34f1bb92d0d059dee4fbe302977b",
+   "last_modified": "Tue, 13 Oct 2026 05:00:02 GMT",
+   "content_type": "text/html",
+   "saved": ".work/downloads/20261109-161619_IMPL_denchoho_verify_nta2/tokusetsu-index.htm.download"
+  },
+  {
+   "key": "pamphlet",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/08.htm",
+   "status": 200,
+   "bytes": 6793,
+   "sha256": "fd744d027707e2dec2c9420726b39cf3d6020553e602edfe013755f438e3f634",
+   "last_modified": "Fri, 26 Jun 2026 05:00:12 GMT",
+   "content_type": "text/html",
+   "saved": ".work/downloads/20261109-161619_IMPL_denchoho_verify_nta2/pamphlet.htm.download"
+  },
+  {
+   "key": "tokusetsu-01",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/01.htm",
+   "status": 200,
+   "bytes": 9880,
+   "sha256": "eb2ec1ce784d220456f2ba46dc4bfe1a70a72b04fdda30dcb24bb86a36076e2c",
+   "last_modified": "Fri, 03 Jul 2026 08:30:06 GMT",
+   "content_type": "text/html",
+   "saved": ".work/downloads/20261109-161619_IMPL_denchoho_verify_nta2/tokusetsu-01.htm.download"
+  },
+  {
+   "key": "tokusetsu-02",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/02.htm",
+   "status": 200,
+   "bytes": 10367,
+   "sha256": "d581534ebdb4a66a758c760e9061ca4d9bfde0e9a0754ec2acd3e45c49222181",
+   "last_modified": "Fri, 26 Jun 2026 05:00:12 GMT",
+   "content_type": "text/html",
+   "saved": ".work/downloads/20261109-161619_IMPL_denchoho_verify_nta2/tokusetsu-02.htm.download"
+  },
+  {
+   "key": "qa-dentori-r0807-diff",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_06.pdf",
+   "status": 200,
+   "bytes": 1727800,
+   "sha256": "e53c593218d0f873d95507269bf416c8e5e92ce562c8e61099fcde17888e589e",
+   "last_modified": "Fri, 10 Jul 2026 01:00:04 GMT",
+   "content_type": "application/pdf",
+   "saved": ".work/downloads/20261109-161619_IMPL_denchoho_verify_nta2/qa-dentori-r0807-diff.pdf.download"
+  },
+  {
+   "key": "tsutatsu-kaisetsu-r0706",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/2506/pdf/01-4.pdf",
+   "status": 200,
+   "bytes": 842261,
+   "sha256": "efd7edb0464af88e77b3e495121bd8276face4766f8bccb8a615b6bd5a783917",
+   "last_modified": "Fri, 27 Jun 2025 04:56:12 GMT",
+   "content_type": "application/pdf",
+   "saved": ".work/downloads/20261109-161619_IMPL_denchoho_verify_nta2/tsutatsu-kaisetsu-r0706.pdf.download"
+  },
+  {
+   "key": "pamph-r7kaisei",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0025003-097_01.pdf",
+   "status": 200,
+   "bytes": 608179,
+   "sha256": "671da822d2a7d8724d4dbc81b30e1dac00574ce5996903a2c920e9a2c0930e6d",
+   "last_modified": "Wed, 02 Apr 2025 05:00:05 GMT",
+   "content_type": "application/pdf",
+   "saved": ".work/downloads/20261109-161619_IMPL_denchoho_verify_nta2/pamph-r7kaisei.pdf.download"
+  },
+  {
+   "key": "kitei-hojin",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/word/0021006-031_d.docx",
+   "status": 200,
+   "bytes": 24833,
+   "sha256": "ed5421413216bb26b6f48b89af1b38b1a0022fb1b34fd0fd77f7be47e277c3f1",
+   "last_modified": "Fri, 10 Jul 2026 01:00:04 GMT",
+   "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "saved": ".work/downloads/20261109-161619_IMPL_denchoho_verify_nta2/kitei-hojin.docx.download"
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "run": "20261109-150303",
+ "name": "terms2",
+ "download_dir": ".work/downloads/20261109-150303_terms2",
+ "user_agent": "okura-gov-research/0.1",
+ "delay_sec": 1.5,
+ "robots": [
+  {
+   "robots_url": "https://www.e-tax.nta.go.jp/robots.txt",
+   "status": 404
+  }
+ ],
+ "results": [
+  {
+   "url": "https://www.e-tax.nta.go.jp/sanko/sankomenu.htm",
+   "fetched_at": "2026-11-09T15:03:05+0900",
+   "status": 200,
+   "final_url": "https://www.e-tax.nta.go.jp/sanko/sankomenu.htm",
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 11241,
+   "sha256": "60fa95c460b588b205ee657321aaa25e53fe49294b45bd686093ded4b057df60",
+   "saved": ".work/downloads/20261109-150303_terms2/000_www.e-tax.nta.go.jp_sanko_sankomenu.htm",
+   "encoding": "utf-8",
+   "text": "scripts/results/IMPL_output_fetch/20261109-150303_terms2/000_www.e-tax.nta.go.jp_sanko_sankomenu.htm.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-150303_terms2/000_www.e-tax.nta.go.jp_sanko_sankomenu.htm.links.tsv",
+   "n_links": 20
+  },
+  {
+   "url": "https://www.e-tax.nta.go.jp/topics/2026/topics_20261030_shiyo.htm",
+   "fetched_at": "2026-11-09T15:03:05+0900",
+   "status": 200,
+   "final_url": "https://www.e-tax.nta.go.jp/topics/2026/topics_20261030_shiyo.htm",
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 8222,
+   "sha256": "d91b8e20368b508cdca1266b250e7c9e1cda476ad0ebdd1d10f67bce7b78312a",
+   "saved": ".work/downloads/20261109-150303_terms2/001_www.e-tax.nta.go.jp_topics_2026_topics_20261030_shiyo.htm",
+   "encoding": "utf-8",
+   "text": "scripts/results/IMPL_output_fetch/20261109-150303_terms2/001_www.e-tax.nta.go.jp_topics_2026_topics_20261030_shiyo.htm.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-150303_terms2/001_www.e-tax.nta.go.jp_topics_2026_topics_20261030_shiyo.htm.links.tsv",
+   "n_links": 16
+  },
+  {
+   "url": "https://www.e-tax.nta.go.jp/topics/2026/topics_20260924_shiyo.htm",
+   "fetched_at": "2026-11-09T15:03:07+0900",
+   "status": 200,
+   "final_url": "https://www.e-tax.nta.go.jp/topics/2026/topics_20260924_shiyo.htm",
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 5244,
+   "sha256": "f26af27b856c8d8e3f50ad481633fbb76f4b0fbbb4ab873b1e24d01e37a95477",
+   "saved": ".work/downloads/20261109-150303_terms2/002_www.e-tax.nta.go.jp_topics_2026_topics_20260924_shiyo.htm",
+   "encoding": "utf-8",
+   "text": "scripts/results/IMPL_output_fetch/20261109-150303_terms2/002_www.e-tax.nta.go.jp_topics_2026_topics_20260924_shiyo.htm.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-150303_terms2/002_www.e-tax.nta.go.jp_topics_2026_topics_20260924_shiyo.htm.links.tsv",
+   "n_links": 3
+  },
+  {
+   "url": "https://www.e-tax.nta.go.jp/topics/2026/topics_20260910.htm",
+   "fetched_at": "2026-11-09T15:03:09+0900",
+   "status": 200,
+   "final_url": "https://www.e-tax.nta.go.jp/topics/2026/topics_20260910.htm",
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 6906,
+   "sha256": "8c3cd601c28636c21f924a912385a7ef216393acdba24477e08624ec2751cea4",
+   "saved": ".work/downloads/20261109-150303_terms2/003_www.e-tax.nta.go.jp_topics_2026_topics_20260910.htm",
+   "encoding": "utf-8",
+   "text": "scripts/results/IMPL_output_fetch/20261109-150303_terms2/003_www.e-tax.nta.go.jp_topics_2026_topics_20260910.htm.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-150303_terms2/003_www.e-tax.nta.go.jp_topics_2026_topics_20260910.htm.links.tsv",
+   "n_links": 9
+  },
+  {
+   "url": "https://www.e-tax.nta.go.jp/horeito/index.htm",
+   "fetched_at": "2026-11-09T15:03:11+0900",
+   "status": 200,
+   "final_url": "https://www.e-tax.nta.go.jp/horeito/index.html",
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 30310,
+   "sha256": "3a0d4ce8b943a53e1f418d933694b2cf148123a0a3545347cd9590bb225aed84",
+   "saved": ".work/downloads/20261109-150303_terms2/004_www.e-tax.nta.go.jp_horeito_index.htm",
+   "encoding": "utf-8",
+   "text": "scripts/results/IMPL_output_fetch/20261109-150303_terms2/004_www.e-tax.nta.go.jp_horeito_index.htm.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-150303_terms2/004_www.e-tax.nta.go.jp_horeito_index.htm.links.tsv",
+   "n_links": 46
+  }
+ ]
+}

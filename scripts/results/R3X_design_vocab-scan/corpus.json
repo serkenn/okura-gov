@@ -1,0 +1,371 @@
+{
+ "files": [
+  {
+   "file": "docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md",
+   "bytes": 20439,
+   "sha256": "ca9c4add0a85b1d8b0628ca3e561b04baecd68ae812538688e5e5a7761fdec9b",
+   "lines": 113
+  },
+  {
+   "file": "docs/hypotheses/20261109_impl-prep_iryohi-model.md",
+   "bytes": 30186,
+   "sha256": "661eb0de770e89be8d1a1f9de02306871666c48188d6e04c06ff09defe5eb57c",
+   "lines": 204
+  },
+  {
+   "file": "docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md",
+   "bytes": 22915,
+   "sha256": "28e54bf24722d452a089f087afb7cfc053008f849d5bbb664e890bae616939a5",
+   "lines": 139
+  },
+  {
+   "file": "docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md",
+   "bytes": 17126,
+   "sha256": "b1c246abca3e78b9148f3155b442f5d9f4d187607e27e4113833e6e3a4b5298a",
+   "lines": 127
+  },
+  {
+   "file": "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md",
+   "bytes": 27891,
+   "sha256": "b842ecacbe1e9b54fa52f7acf166f32711f62a83558c802e2fd18b9319643f94",
+   "lines": 156
+  },
+  {
+   "file": "docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md",
+   "bytes": 12736,
+   "sha256": "3869ad80d89caa6048cc394b973fbc17c3a90d4014c5950f327444ca0945bd69",
+   "lines": 95
+  },
+  {
+   "file": "docs/hypotheses/20261109_impl-prep_misc-hypotheses.md",
+   "bytes": 25135,
+   "sha256": "eff5a84db2b30d55e070e388ed8e55ffd2d3e07cae96e2fafbb395929a3b43db",
+   "lines": 145
+  },
+  {
+   "file": "docs/hypotheses/20261109_impl-prep_output-minimal-layer.md",
+   "bytes": 18662,
+   "sha256": "7e322a41efd4556a77f910486a2f2c2ff7af954b8fbed7d0bd280ca78fe2a27b",
+   "lines": 128
+  },
+  {
+   "file": "docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md",
+   "bytes": 16600,
+   "sha256": "ae857641a57bc79f7271e2487f7f875b6a0a184dbcd064f81d53db04f751974f",
+   "lines": 103
+  },
+  {
+   "file": "docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md",
+   "bytes": 21886,
+   "sha256": "b5b6e07984bbc19e1e93ae879662e1eed10d7bbadea526c15a4737f2134e3815",
+   "lines": 144
+  },
+  {
+   "file": "docs/hypotheses/20261109_R1-laws_hypotheses.md",
+   "bytes": 5937,
+   "sha256": "52b5f27e122e79a7c52309aea050b654b16b72ce75f9bc0915edbaee138191aa",
+   "lines": 47
+  },
+  {
+   "file": "docs/hypotheses/20261109_R2-tools_adoption.md",
+   "bytes": 17927,
+   "sha256": "5bdfd1f94741f9cdcaedd80298d8e8cf798bdcc89b42148b25b3896c53a743de",
+   "lines": 145
+  },
+  {
+   "file": "docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md",
+   "bytes": 6773,
+   "sha256": "243b2d1451aaf7caaf3ee1906a55afb70b42c5c594b6fd696a227b03ae07d101",
+   "lines": 42
+  },
+  {
+   "file": "docs/hypotheses/20261109_R4-modeling_entity-model.md",
+   "bytes": 55738,
+   "sha256": "393e0b74f587d2341db3cf7fcf43bb3001b517985fdeacbad9ee9269665d462d",
+   "lines": 505
+  },
+  {
+   "file": "docs/hypotheses/20261109_round2_aoiro-model.md",
+   "bytes": 34924,
+   "sha256": "5a1e6e70c8ddb60645e3246c911d51ba9481fadd8b6e5bbdff57d91346a2ef89",
+   "lines": 184
+  },
+  {
+   "file": "docs/hypotheses/20261109_round2_elderly-abroad-model.md",
+   "bytes": 31633,
+   "sha256": "5b046b8b64000f0200a4a7c2634631aefbbdb1749c6b6dd149c83bcfc1d911b6",
+   "lines": 197
+  },
+  {
+   "file": "docs/hypotheses/20261109_round2_gaps-hypotheses.md",
+   "bytes": 26892,
+   "sha256": "17406a5a4fa9ea99a7d579a90b5e6298070e6b55d076801d5416f61737e8502f",
+   "lines": 143
+  },
+  {
+   "file": "docs/hypotheses/20261109_round2_genka-model.md",
+   "bytes": 39506,
+   "sha256": "b339cb3ebcbab49d4802348cd9846d70c0fd28b1c4dd35b57fdc8f4c8f6ca78c",
+   "lines": 185
+  },
+  {
+   "file": "docs/hypotheses/20261109_round2_hoken-kifu-model.md",
+   "bytes": 31071,
+   "sha256": "513dd04c07de4ed5ba40705c353d9e9e8647dcd8d4a3137e1a5cfe03e25ce1fd",
+   "lines": 164
+  },
+  {
+   "file": "docs/hypotheses/20261109_round2_jinteki-model.md",
+   "bytes": 27048,
+   "sha256": "ab6941eebdee7a40cffc91a627233b49e3a0dc7423b57df5cc47ed56ff7bff9b",
+   "lines": 183
+  },
+  {
+   "file": "docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md",
+   "bytes": 21814,
+   "sha256": "a00c92cc115a8ca8b4e619eab016cca529efc4216ef2209862ec853569e6c4a2",
+   "lines": 161
+  },
+  {
+   "file": "docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md",
+   "bytes": 24390,
+   "sha256": "5126cd2f876e30cf47486bd1953cb72902c00937f9271d66409de683bcd4ab80",
+   "lines": 171
+  },
+  {
+   "file": "docs/hypotheses/20261109_round2_kyosai-model.md",
+   "bytes": 31869,
+   "sha256": "3814ff02eb17b567e9a9e79e2c4e3f7f04cf4add6ff116bc12dfb3921e9f1ae8",
+   "lines": 154
+  },
+  {
+   "file": "docs/hypotheses/20261109_round2_spouse-model.md",
+   "bytes": 28444,
+   "sha256": "86aa306eb5b49531df15fa0ce2873b571660b3ef638f154395d8b41c04f01f35",
+   "lines": 162
+  },
+  {
+   "file": "docs/hypotheses/20261109_round2_yoshiki-mapping-table.md",
+   "bytes": 34704,
+   "sha256": "9ba54c7ade4b4ddfe94944973b34c7594a2ade9c3cb1326055108e1c354269d6",
+   "lines": 254
+  },
+  {
+   "file": "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md",
+   "bytes": 25273,
+   "sha256": "7074e05ecba5c5dcdc3f48d035f8ad42d48c422fc239dc97fa7add6ca4906c56",
+   "lines": 153
+  },
+  {
+   "file": "docs/hypotheses/20261109_round2b_invoice-model.md",
+   "bytes": 25909,
+   "sha256": "e87f38e1bb1a3e85614f95be9716a917fafe83b69d29186f1e2b1fe7e8f3dec9",
+   "lines": 128
+  },
+  {
+   "file": "docs/hypotheses/20261109_round2b_kabu-model.md",
+   "bytes": 27561,
+   "sha256": "82c7d9e3ba22eac88973934b9411d3eb0f5fd605662a45b8d990657e55d409ca",
+   "lines": 159
+  },
+  {
+   "file": "docs/hypotheses/20261109_round2b_nenkin-model.md",
+   "bytes": 26768,
+   "sha256": "631bba0d5f2f6f694115bd67bb6ef76b512a91dacbeda8748297f62c63c1cd6d",
+   "lines": 162
+  },
+  {
+   "file": "docs/hypotheses/20261109_round2b_taishoku-model.md",
+   "bytes": 25267,
+   "sha256": "c8ddff6e622d7068cf2a9f0f3c0cc064563a6df17006196394f93e6e076a2925",
+   "lines": 146
+  },
+  {
+   "file": "docs/hypotheses/20261109_sakusei-corner_test-oracle.md",
+   "bytes": 4825,
+   "sha256": "ad917926fe0b1162a6dd065adf382e865268e26156ca8b8710b3fda73b07a931",
+   "lines": 31
+  },
+  {
+   "file": "docs/inferences/20261109_impl-prep_denchoho-record-layer-checks.md",
+   "bytes": 11206,
+   "sha256": "2f33679860c811a4351b7db51a0b168aace225525533a1b9789cadbbaebdbdb7",
+   "lines": 77
+  },
+  {
+   "file": "docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md",
+   "bytes": 15248,
+   "sha256": "cfb75be71061c9b3d1af98a74c57fd520b9f6309bd86a9b775e397631d0ac51d",
+   "lines": 194
+  },
+  {
+   "file": "docs/inferences/20261109_impl-prep_jigyo-inferences.md",
+   "bytes": 17026,
+   "sha256": "e71b28b8f3a0639650a813d0466a3feaafb3ca2feb1107cb87b7791c9b08bc0e",
+   "lines": 154
+  },
+  {
+   "file": "docs/inferences/20261109_impl-prep_juminzei-implications.md",
+   "bytes": 15300,
+   "sha256": "020ada3d4bcd5f227d40e88340e6e3b9bc18e7704d9d09ee8116fc87db3b79b6",
+   "lines": 113
+  },
+  {
+   "file": "docs/inferences/20261109_impl-prep_kenpo-test-cases.md",
+   "bytes": 19058,
+   "sha256": "d5ecb19b9e55fa8746aebe9c0d232b793d62573a303de2132d26c2834b0efaf5",
+   "lines": 157
+  },
+  {
+   "file": "docs/inferences/20261109_impl-prep_kyuyo-inferences.md",
+   "bytes": 13147,
+   "sha256": "6a5ddf92987027b2cad2a1c12dfaacf01ee799a22182986184267ceaae304ba2",
+   "lines": 92
+  },
+  {
+   "file": "docs/inferences/20261109_impl-prep_misc-inferences.md",
+   "bytes": 14344,
+   "sha256": "11712e2c7df16cc9000b59e9f8305768bab03a4c7674429532613d4af82a3b11",
+   "lines": 104
+  },
+  {
+   "file": "docs/inferences/20261109_impl-prep_output-checks.md",
+   "bytes": 12894,
+   "sha256": "b439e848ba0e0b60dc8c10ca48ebf7d46541c0e1afd7d39d3af76c454e99afbe",
+   "lines": 98
+  },
+  {
+   "file": "docs/inferences/20261109_impl-prep_tools-implementation-checks.md",
+   "bytes": 6853,
+   "sha256": "674b34ed66ecac706e9906171061317d93197a0a4dfa872a12f28b2324866668",
+   "lines": 54
+  },
+  {
+   "file": "docs/inferences/20261109_impl-prep_zeigaku-examples.md",
+   "bytes": 20539,
+   "sha256": "433699a9ec3d6d18253613481a9b56c4bd8bd9e6ab80ff777c7e5b42e68ed3f0",
+   "lines": 200
+  },
+  {
+   "file": "docs/inferences/20261109_R1-laws_inferences.md",
+   "bytes": 5309,
+   "sha256": "bd6c3cb83c3a99c8714d2d3edae6b09b46f9d399daa645e111dcc48b42dd9bdc",
+   "lines": 32
+  },
+  {
+   "file": "docs/inferences/20261109_R2-tools_adoption-checks.md",
+   "bytes": 7507,
+   "sha256": "9b38b0c15d154dffdbe6367f2cd59ea227b71083ffc288bb319dc148799f8459",
+   "lines": 56
+  },
+  {
+   "file": "docs/inferences/20261109_R3-tsutatsu_monitoring-design.md",
+   "bytes": 5119,
+   "sha256": "1b4dd784c2098acccf6c3050c153808c8f66d8c929fb5ca74e535c5fd70b0d12",
+   "lines": 43
+  },
+  {
+   "file": "docs/inferences/20261109_R4-modeling_scenarios.md",
+   "bytes": 31221,
+   "sha256": "92e78862e18febff89711e1ed7313ccb04bef556e788598e35dba53141182838",
+   "lines": 325
+  },
+  {
+   "file": "docs/inferences/20261109_round2_aoiro-cases.md",
+   "bytes": 16297,
+   "sha256": "dd9baec3cc4c607f5557a1ffc7aa74e1c9d085e4872a2191312197b574582341",
+   "lines": 127
+  },
+  {
+   "file": "docs/inferences/20261109_round2_elderly-abroad-cases.md",
+   "bytes": 24277,
+   "sha256": "915bc2d84f1f1d7e75e1db0fdbf93911f33fd1d48be51b49aa78cac3c4302950",
+   "lines": 188
+  },
+  {
+   "file": "docs/inferences/20261109_round2_gaps-inferences.md",
+   "bytes": 16463,
+   "sha256": "827c2d7d9334c9cb6aeed143a31f236543dbeb631c1d2248f547bb7abbbd7ede",
+   "lines": 102
+  },
+  {
+   "file": "docs/inferences/20261109_round2_genka-examples.md",
+   "bytes": 19972,
+   "sha256": "bbeafbe87558f2dcb8f5c9d6b2c451fe33dd65fca12701e493c77c9b59a010da",
+   "lines": 153
+  },
+  {
+   "file": "docs/inferences/20261109_round2_hoken-kifu-cases.md",
+   "bytes": 14004,
+   "sha256": "4cf6ef785f7f77b30b5ebd499c4caa9ece4f852ba542aeb5efe4070928de1847",
+   "lines": 97
+  },
+  {
+   "file": "docs/inferences/20261109_round2_jinteki-cases.md",
+   "bytes": 14664,
+   "sha256": "686e1f0fc289e5046c11087299e974f000ea23c83ee9085b22ed79e5f16d081d",
+   "lines": 120
+  },
+  {
+   "file": "docs/inferences/20261109_round2_juminzei-tax-implications.md",
+   "bytes": 9787,
+   "sha256": "2e3dda34dda39be80b24982f5cc7c598a31278b6e36a6d1cb7b40b23f1323cfd",
+   "lines": 71
+  },
+  {
+   "file": "docs/inferences/20261109_round2_kokuho-examples.md",
+   "bytes": 16906,
+   "sha256": "1d8d0525bbaa2a1f3811d81a9872e9f0aedeb741cbc04e96aef121441581ad41",
+   "lines": 108
+  },
+  {
+   "file": "docs/inferences/20261109_round2_kyosai-cases.md",
+   "bytes": 19734,
+   "sha256": "ca68bf4ca51e2fbcd6b9eb959a9ffebfeae5ee2809b972a99c7d4f535ca17c43",
+   "lines": 148
+  },
+  {
+   "file": "docs/inferences/20261109_round2_spouse-implications.md",
+   "bytes": 16255,
+   "sha256": "5d5c3a9ba77a3979a6b567248f826e2ae39a9d352088f744b0693a42afede86f",
+   "lines": 113
+  },
+  {
+   "file": "docs/inferences/20261109_round2_yoshiki-checks.md",
+   "bytes": 10729,
+   "sha256": "c5a62e38763576f901fd286cd0fd9b3f3f0ebc770db62620d99c099ab508e8c9",
+   "lines": 60
+  },
+  {
+   "file": "docs/inferences/20261109_round2b_fudosan-inferences.md",
+   "bytes": 12788,
+   "sha256": "c7183b7271ab554b471b43eaee308a536fb12429cae82f2f587a4c367af4fd1e",
+   "lines": 95
+  },
+  {
+   "file": "docs/inferences/20261109_round2b_invoice-cases.md",
+   "bytes": 12211,
+   "sha256": "6dedaaa13260a5eea41e407e5fdf2ee3b221db2401cd211228abe6f5e3e77aae",
+   "lines": 91
+  },
+  {
+   "file": "docs/inferences/20261109_round2b_kabu-scenarios.md",
+   "bytes": 13038,
+   "sha256": "d1c048b44a4ee33715151656e88bdcd5adfa47f5c2bd347acf2f498c1c621ad9",
+   "lines": 82
+  },
+  {
+   "file": "docs/inferences/20261109_round2b_nenkin-cases.md",
+   "bytes": 12145,
+   "sha256": "5c9ed744d4d79cbf6389c88d103c489893dbb00ae56dc0502b5b1fcd4ed86245",
+   "lines": 101
+  },
+  {
+   "file": "docs/inferences/20261109_round2b_taishoku-inferences.md",
+   "bytes": 16833,
+   "sha256": "d56751f49c2d70b907fc8cc10710fff64fde282692b7e5141d80e5b2091fba66",
+   "lines": 84
+  }
+ ],
+ "n_files": 61
+}

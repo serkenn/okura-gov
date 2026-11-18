@@ -1,0 +1,23 @@
+description: 労働契約の内容による年間収入の判定（令和7年10月1日 保保発1001第3号・年管管発1001第3号。認定日が令和8年4月1日以降）。
+適用開始日:
+  description: この判定を使える判定日（認定日）の始まり（文字列。日付のキーでなく値で持つ：パラメータの日付のキーは1月1日）
+  metadata:
+    law: 令和7年10月1日 保保発1001第3号・年管管発1001第3号（令和8年4月1日から適用）、令和8年3月9日 事務連絡 Q&A（第2版）Q10
+    source_kind: 通知・事務連絡
+    unit: 日付
+    reference:
+      - docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md#1.3
+      - docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md#5.1
+  values:
+    2025-01-01: {value: "2026-04-01", metadata: {施行日: 2026-04-01}}
+契約期間の年数:
+  description: 被扶養者になった日から起算した契約期間の下限（年。これ未満の契約は使えない）
+  metadata:
+    law: 日本年金機構の案内（2026年5月1日）の (ア)、令和8年3月9日 事務連絡 Q&A（第2版）Q2-2
+    source_kind: 保険者の案内
+    unit: 年
+    reference:
+      - docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md#1.3
+      - docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md#8
+  values:
+    2025-01-01: {value: 1}

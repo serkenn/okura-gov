@@ -1,0 +1,32 @@
+{
+ "set": "soumu_pdf",
+ "fetched_at": "20261111-231757",
+ "download_dir": ".work/downloads/20261111-231757_IMPL3_web_fetch_soumu_pdf",
+ "robots": [],
+ "items": [
+  {
+   "id": "code_spec",
+   "url": "https://www.soumu.go.jp/main_content/000137948.pdf",
+   "final_url": "https://www.soumu.go.jp/main_content/000137948.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Wed, 22 Jan 2025 12:48:29 GMT",
+   "bytes": 84194,
+   "sha256": "e3c0814a9ee744879c45b7775ffe7d078f12c09fe699729b004a22c249f0d7ab",
+   "saved": ".work/downloads/20261111-231757_IMPL3_web_fetch_soumu_pdf/code_spec.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "furusato_report2019",
+   "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/file/report20190401_04.pdf",
+   "final_url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/file/report20190401_04.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Mon, 01 Apr 2019 03:00:10 GMT",
+   "bytes": 357562,
+   "sha256": "2d2a16514fdf5bdd6cecc2c28dd25ae61150b6a2632a556b472b202a5bfbcdea",
+   "saved": ".work/downloads/20261111-231757_IMPL3_web_fetch_soumu_pdf/furusato_report2019.pdf",
+   "pdf_header_ok": true
+  }
+ ]
+}

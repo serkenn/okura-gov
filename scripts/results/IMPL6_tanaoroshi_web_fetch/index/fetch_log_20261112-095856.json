@@ -1,0 +1,42 @@
+{
+ "set": "index",
+ "fetched_at": "20261112-095856",
+ "download_dir": ".work/downloads/20261112-095856_IMPL6_tanaoroshi_web_fetch_index",
+ "robots": [
+  {
+   "host": "https://www.nta.go.jp",
+   "status": 200,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+  }
+ ],
+ "items": [
+  {
+   "id": "kihon_index",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 25 Dec 2025 01:00:06 GMT",
+   "bytes": 38254,
+   "sha256": "74710f9540adcb9b7e6b181ba716e93be44be38195cc0c7dfe1a8e02fcf16e4f",
+   "saved": ".work/downloads/20261112-095856_IMPL6_tanaoroshi_web_fetch_index/kihon_index.htm",
+   "title": "通達目次 / 所得税基本通達｜国税庁",
+   "not_found": false,
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "tebiki_index",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/index.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/index.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 24 Dec 2025 08:30:07 GMT",
+   "bytes": 23541,
+   "sha256": "9d38caf67c8cf5dd9fde7ded36a7d1c5e7fe6a46c8174f416f46b21673e40f15",
+   "saved": ".work/downloads/20261112-095856_IMPL6_tanaoroshi_web_fetch_index/tebiki_index.htm",
+   "title": "令和7年分 所得税及び復興特別所得税の確定申告の手引き｜国税庁",
+   "not_found": false,
+   "encoding": "shift_jis"
+  }
+ ]
+}

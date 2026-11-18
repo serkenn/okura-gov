@@ -1,0 +1,37 @@
+{
+ "run_at": "20261109-175958",
+ "mode": "suppl",
+ "download_dir": ".work/downloads/20261109-175958_R2X_aoiro_laws_suppl",
+ "fetches": [
+  {
+   "url": "https://laws.e-gov.go.jp/api/2/law_revisions/340M50000040011?response_format=json",
+   "sha256": "234e64b232e8df01db53267ba20f2d3af52a3e7eeb917eb9023aff9a8966fad0",
+   "picked": 14
+  },
+  {
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340M50000040011?response_format=json&asof=2026-11-09",
+   "sha256": "8721699516ac82025eea0430429b197da1e58afe195debe1fb441dfea14eacf5",
+   "law_revision_id": "340M50000040011_20261001_507M60000040018",
+   "law_title": "所得税法施行規則",
+   "amendment_law_num": "令和七年財務省令第十八号",
+   "amendment_law_title": "所得税法施行規則の一部を改正する省令",
+   "amendment_enforcement_date": "2026-10-01",
+   "amendment_promulgate_date": "2025-03-31",
+   "current_revision_status": "CurrentEnforced",
+   "updated": "2026-05-11T10:24:14+09:00"
+  },
+  {
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340M50000040011?response_format=json&asof=2027-01-01",
+   "sha256": "1600117df38c4463510ee5b18f455eb0d2dd3821c8a245c8fd42e444ec9c689f",
+   "law_revision_id": "340M50000040011_20270101_508M60000040017",
+   "law_title": "所得税法施行規則",
+   "amendment_law_num": "令和八年財務省令第十七号",
+   "amendment_law_title": "所得税法施行規則の一部を改正する省令",
+   "amendment_enforcement_date": "2027-01-01",
+   "amendment_promulgate_date": "2026-03-31",
+   "current_revision_status": "UnEnforced",
+   "updated": "2026-05-11T10:31:01+09:00"
+  }
+ ],
+ "errors": []
+}

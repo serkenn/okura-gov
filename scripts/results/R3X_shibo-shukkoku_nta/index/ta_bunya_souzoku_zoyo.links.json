@@ -1,0 +1,322 @@
+[
+ {
+  "href": "https://www.nta.go.jp/",
+  "text": "ホーム"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/index.htm",
+  "text": "税の情報・手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/index.htm",
+  "text": "税について調べる"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm",
+  "text": "タックスアンサー（よくある税の質問）"
+ },
+ {
+  "href": "https://www.keisan.nta.go.jp/sozoku/yohihantei/top#bsctrl",
+  "text": "相続税の申告要否判定コーナー"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code04-01",
+  "text": "相続と税金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code04-02",
+  "text": "相続税の計算と税額控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code04-03",
+  "text": "相続税の申告と納税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code04-04",
+  "text": "相続時精算課税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code05-01",
+  "text": "贈与と税金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code05-02",
+  "text": "夫婦間の居住用不動産の贈与"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code05-03",
+  "text": "住宅取得等資金の贈与を受けたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code05-04",
+  "text": "親子間の土地の無償使用"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code05-05",
+  "text": "相続時精算課税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code06",
+  "text": "相続財産や贈与財産の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1464.htm",
+  "text": "1464 譲渡した株式等の取得費"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1467.htm",
+  "text": "1467 贈与により非居住者に資産が移転した場合の譲渡所得等の特例（国外転出（贈与）時課税）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1468.htm",
+  "text": "1468 相続又は遺贈により非居住者に資産が移転した場合の譲渡所得等の特例（国外転出（相続）時課税）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1477.htm",
+  "text": "1477 相続により取得した非上場株式をその発行会社に譲渡した場合の課税の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1620.htm",
+  "text": "1620 相続等により取得した年金受給権に係る生命保険契約等に基づく年金の課税関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1750.htm",
+  "text": "1750 死亡保険金を受け取ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1755.htm",
+  "text": "1755 生命保険契約に係る満期保険金等を受け取ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3105.htm",
+  "text": "3105 譲渡所得の対象となる資産と課税方法"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3214.htm",
+  "text": "3214 土地建物を売ったときの収入金額に含める金額"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3267.htm",
+  "text": "3267 相続財産を譲渡した場合の取得費の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3270.htm",
+  "text": "3270 相続や贈与によって取得した土地・建物の取得費と取得の時期"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3306.htm",
+  "text": "3306 被相続人の居住用財産（空き家）を売ったときの特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3307.htm",
+  "text": "3307 被相続人が老人ホーム等に入所していた場合の被相続人居住用家屋"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6602.htm",
+  "text": "6602 相続で事業を引き継いだ場合の納税義務について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7190.htm",
+  "text": "7190 登録免許税のあらまし"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7191.htm",
+  "text": "7191 登録免許税の税額表"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/osirase/9205.htm",
+  "text": "9205 延滞税について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/osirase/9209.htm",
+  "text": "9209 コンビニ納付(バーコード)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/osirase/9209-2.htm",
+  "text": "9209-2 コンビニ納付（QRコード）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-souzoku-zoyo.htm#page-top",
+  "text": "このページの先頭へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/index.htm",
+  "text": "税の情報・手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/index.htm",
+  "text": "税について調べる"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-souzoku-zoyo.htm#sidenaviAccordionCollapse1",
+  "text": "〔alt:メニューを閉じる〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+  "text": "所得税（確定申告書等作成コーナー）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm",
+  "text": "タックスアンサー（よくある税の質問）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/sodan/index.htm",
+  "text": "税の相談"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/index.htm",
+  "text": "税目別情報"
+ },
+ {
+  "href": "http://www.rosenka.nta.go.jp/",
+  "text": "路線価図・評価倍率表"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/saigai/index.htm",
+  "text": "災害関連情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/kokusai/index.htm",
+  "text": "国際税務関係情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shirabekata/info.htm",
+  "text": "税についての上手な調べ方"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/index.htm",
+  "text": "申告手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-souzoku-zoyo.htm#sidenaviAccordionCollapse2",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/index.htm",
+  "text": "申告・申請・届出等、用紙（手続の案内・様式）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/mynumberinfo/index.htm",
+  "text": "社会保障・税番号制度(マイナンバー)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/index.htm",
+  "text": "納税・納税証明書手続"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-souzoku-zoyo.htm#sidenaviAccordionCollapse3",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/annai/index.htm",
+  "text": "納税に関する総合案内"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/nozei-shomei/01.htm",
+  "text": "納税証明書"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/enno-butsuno/01.htm",
+  "text": "延納・物納申請等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/entaizei/keisan/entai.htm",
+  "text": "延滞税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/index.htm",
+  "text": "税理士に関する情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-souzoku-zoyo.htm#sidenaviAccordionCollapse4",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/index.htm#news",
+  "text": "新着情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/zeirishiseido/seido.htm",
+  "text": "税理士制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/zeirishishiken/zeirishi.htm",
+  "text": "税理士試験"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/chokai/chokai.htm",
+  "text": "税理士に関する懲戒処分等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/search/search.htm",
+  "text": "税理士をお探しの方"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/zeirishiseido/qa.htm",
+  "text": "税理士関係法令等・Ｑ＆Ａ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm",
+  "text": "お酒に関する情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-souzoku-zoyo.htm#sidenaviAccordionCollapse5",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#syuzei",
+  "text": "酒税関係及び各種施策"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#ippan",
+  "text": "一般的な酒税の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#senmonsyuzei",
+  "text": "専門的な酒税の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#senmonsodan",
+  "text": "専門的な酒税の相談"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#shinkoku",
+  "text": "酒税の申告・納付や届出等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#denwa",
+  "text": "電話相談センター・税務署の案内"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#shingikai",
+  "text": "審議会等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#tokei",
+  "text": "統計情報・各種資料"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#qa",
+  "text": "お酒に関するＱ＆Ａ(よくある質問)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/kids/index.htm",
+  "text": "税の学習コーナー"
+ },
+ {
+  "href": "https://www.nta.go.jp/",
+  "text": "ホーム"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/index.htm",
+  "text": "税の情報・手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/index.htm",
+  "text": "税について調べる"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm",
+  "text": "タックスアンサー（よくある税の質問）"
+ }
+]

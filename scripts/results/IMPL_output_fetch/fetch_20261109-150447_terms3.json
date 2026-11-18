@@ -1,0 +1,45 @@
+{
+ "run": "20261109-150447",
+ "name": "terms3",
+ "download_dir": ".work/downloads/20261109-150447_terms3",
+ "user_agent": "okura-gov-research/0.1",
+ "delay_sec": 1.5,
+ "robots": [
+  {
+   "robots_url": "https://www.e-tax.nta.go.jp/robots.txt",
+   "status": 404
+  }
+ ],
+ "results": [
+  {
+   "url": "https://www.e-tax.nta.go.jp/chuijiko/chosakuken.htm",
+   "fetched_at": "2026-11-09T15:04:49+0900",
+   "status": 200,
+   "final_url": "https://www.e-tax.nta.go.jp/chuijiko/chosakuken.htm",
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 7521,
+   "sha256": "325ea4c6f4fe446604518ed5bf800b79963934c2b8d6a6b88c8705ad834cd9f4",
+   "saved": ".work/downloads/20261109-150447_terms3/000_www.e-tax.nta.go.jp_chuijiko_chosakuken.htm",
+   "encoding": "utf-8",
+   "text": "scripts/results/IMPL_output_fetch/20261109-150447_terms3/000_www.e-tax.nta.go.jp_chuijiko_chosakuken.htm.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-150447_terms3/000_www.e-tax.nta.go.jp_chuijiko_chosakuken.htm.links.tsv",
+   "n_links": 7
+  },
+  {
+   "url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo.htm",
+   "fetched_at": "2026-11-09T15:04:50+0900",
+   "status": 200,
+   "final_url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo.htm",
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 4961,
+   "sha256": "add69e01375d76cace366728fe088a2f0b6aeb00e8f01351675982e029c249e1",
+   "saved": ".work/downloads/20261109-150447_terms3/001_www.e-tax.nta.go.jp_shiyo_ksk2_ksk2_shiyo.htm",
+   "encoding": "utf-8",
+   "text": "scripts/results/IMPL_output_fetch/20261109-150447_terms3/001_www.e-tax.nta.go.jp_shiyo_ksk2_ksk2_shiyo.htm.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-150447_terms3/001_www.e-tax.nta.go.jp_shiyo_ksk2_ksk2_shiyo.htm.links.tsv",
+   "n_links": 4
+  }
+ ]
+}

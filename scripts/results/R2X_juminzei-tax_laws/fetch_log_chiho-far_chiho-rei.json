@@ -1,0 +1,57 @@
+{
+ "run_at": "20261109-180344",
+ "download_dir": ".work\\downloads\\20261109-180344_R2X_juminzei-tax_laws",
+ "only": [
+  "chiho-far",
+  "chiho-rei"
+ ],
+ "lookups": [],
+ "fetches": [
+  {
+   "short": "chiho-far",
+   "law": "地方税法",
+   "law_id": "325AC0000000226",
+   "law_num": "昭和二十五年法律第二百二十六号",
+   "asof": "2030-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=json&asof=2030-01-01",
+   "bytes": 12376424,
+   "law_revision_id": "325AC0000000226_20290624_508AC0000000051",
+   "amendment_law_num": "令和八年法律第五十一号",
+   "amendment_law_title": "社会福祉法等の一部を改正する法律",
+   "amendment_enforcement_date": null,
+   "updated": "2026-07-29T08:42:00+09:00",
+   "current_revision_status": "UnEnforced"
+  },
+  {
+   "short": "chiho-rei",
+   "law": "地方税法施行令",
+   "law_id": "325CO0000000245",
+   "law_num": "昭和二十五年政令第二百四十五号",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325CO0000000245?response_format=json&asof=2026-11-09",
+   "bytes": 7509563,
+   "law_revision_id": "325CO0000000245_20261101_508CO0000000083",
+   "amendment_law_num": "令和八年政令第八十三号",
+   "amendment_law_title": "地方税法施行令等の一部を改正する政令",
+   "amendment_enforcement_date": "2026-11-01",
+   "updated": "2026-10-22T09:02:54+09:00",
+   "current_revision_status": "CurrentEnforced"
+  },
+  {
+   "short": "chiho-rei",
+   "law": "地方税法施行令",
+   "law_id": "325CO0000000245",
+   "law_num": "昭和二十五年政令第二百四十五号",
+   "asof": "2027-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325CO0000000245?response_format=json&asof=2027-01-01",
+   "bytes": 7524467,
+   "law_revision_id": "325CO0000000245_20270101_508CO0000000083",
+   "amendment_law_num": "令和八年政令第八十三号",
+   "amendment_law_title": "地方税法施行令等の一部を改正する政令",
+   "amendment_enforcement_date": "2027-01-01",
+   "updated": "2026-08-24T13:40:33+09:00",
+   "current_revision_status": "UnEnforced"
+  }
+ ],
+ "errors": []
+}

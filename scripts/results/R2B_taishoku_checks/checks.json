@@ -1,0 +1,995 @@
+{
+ "generated_by": "scripts/R2B_taishoku_checks.py",
+ "inputs": [
+  "scripts\\results\\R2B_taishoku_egov\\shotoku_2024-12-31.txt",
+  "scripts\\results\\R2B_taishoku_egov\\shotoku_2025-12-31.txt",
+  "scripts\\results\\R2B_taishoku_egov\\shotoku_2026-11-09.txt",
+  "scripts\\results\\R2B_taishoku_egov\\shotoku_2026-12-31.txt",
+  "scripts\\results\\R2B_taishoku_egov\\shotoku_2027-01-01.txt"
+ ],
+ "checks": {
+  "C1_beppyo6": [
+   {
+    "asof": "2024-12-31",
+    "rows_checked": 40,
+    "mismatches": [],
+    "row_41_plus_text_found": true,
+    "formula_matches_41_plus_rule_41_to_60": true
+   },
+   {
+    "asof": "2025-12-31",
+    "rows_checked": 40,
+    "mismatches": [],
+    "row_41_plus_text_found": true,
+    "formula_matches_41_plus_rule_41_to_60": true
+   },
+   {
+    "asof": "2026-11-09",
+    "rows_checked": 40,
+    "mismatches": [],
+    "row_41_plus_text_found": true,
+    "formula_matches_41_plus_rule_41_to_60": true
+   },
+   {
+    "asof": "2026-12-31",
+    "rows_checked": 40,
+    "mismatches": [],
+    "row_41_plus_text_found": true,
+    "formula_matches_41_plus_rule_41_to_60": true
+   },
+   {
+    "asof": "2027-01-01",
+    "rows_checked": 40,
+    "mismatches": [],
+    "row_41_plus_text_found": true,
+    "formula_matches_41_plus_rule_41_to_60": true
+   }
+  ],
+  "C2_rate_table": {
+   "law_table": [
+    {
+     "upper": 1950000,
+     "rate": "5/100"
+    },
+    {
+     "upper": 3300000,
+     "rate": "10/100"
+    },
+    {
+     "upper": 6950000,
+     "rate": "20/100"
+    },
+    {
+     "upper": 9000000,
+     "rate": "23/100"
+    },
+    {
+     "upper": 18000000,
+     "rate": "33/100"
+    },
+    {
+     "upper": 40000000,
+     "rate": "40/100"
+    },
+    {
+     "upper": null,
+     "rate": "45/100"
+    }
+   ],
+   "quick": [
+    {
+     "over": 0,
+     "upper": 1950000,
+     "rate_pct": 5,
+     "deduction": 0
+    },
+    {
+     "over": 1950000,
+     "upper": 3300000,
+     "rate_pct": 10,
+     "deduction": 97500
+    },
+    {
+     "over": 3300000,
+     "upper": 6950000,
+     "rate_pct": 20,
+     "deduction": 427500
+    },
+    {
+     "over": 6950000,
+     "upper": 9000000,
+     "rate_pct": 23,
+     "deduction": 636000
+    },
+    {
+     "over": 9000000,
+     "upper": 18000000,
+     "rate_pct": 33,
+     "deduction": 1536000
+    },
+    {
+     "over": 18000000,
+     "upper": 40000000,
+     "rate_pct": 40,
+     "deduction": 2796000
+    },
+    {
+     "over": 40000000,
+     "upper": null,
+     "rate_pct": 45,
+     "deduction": 4796000
+    }
+   ],
+   "nta_deductions": [
+    0,
+    97500,
+    427500,
+    636000,
+    1536000,
+    2796000,
+    4796000
+   ],
+   "match_all": true
+  },
+  "C3_kinzoku": [
+   {
+    "case": "TA2735 A社 平29.4.1〜令8.3.31",
+    "start": "2017-04-01",
+    "end": "2026-03-31",
+    "y_m_d": [
+     9,
+     0,
+     0
+    ],
+    "expect": 9,
+    "got": 9,
+    "ok": true
+   },
+   {
+    "case": "TA2735 B社の通算 平29.4.1〜令8.7.31（9年4か月）",
+    "start": "2017-04-01",
+    "end": "2026-07-31",
+    "y_m_d": [
+     9,
+     4,
+     0
+    ],
+    "expect": 10,
+    "got": 10,
+    "ok": true
+   },
+   {
+    "case": "TA1420/TA2732 10年2か月（例：平28.4.1〜令8.5.31）",
+    "start": "2016-04-01",
+    "end": "2026-05-31",
+    "y_m_d": [
+     10,
+     2,
+     0
+    ],
+    "expect": 11,
+    "got": 11,
+    "ok": true
+   },
+   {
+    "case": "TA2732 29年2か月（例：平9.4.1〜令8.5.31）",
+    "start": "1997-04-01",
+    "end": "2026-05-31",
+    "y_m_d": [
+     29,
+     2,
+     0
+    ],
+    "expect": 30,
+    "got": 30,
+    "ok": true
+   },
+   {
+    "case": "TA2740 4年2か月（例：令4.4.1〜令8.5.31）",
+    "start": "2022-04-01",
+    "end": "2026-05-31",
+    "y_m_d": [
+     4,
+     2,
+     0
+    ],
+    "expect": 5,
+    "got": 5,
+    "ok": true
+   },
+   {
+    "case": "TA2741 A社 役員 令4.5.1〜令8.5.31（4年1か月）",
+    "start": "2022-05-01",
+    "end": "2026-05-31",
+    "y_m_d": [
+     4,
+     1,
+     0
+    ],
+    "expect": 5,
+    "got": 5,
+    "ok": true
+   },
+   {
+    "case": "TA2741 B社 使用人 令4.8.1〜令8.5.31（3年10か月）",
+    "start": "2022-08-01",
+    "end": "2026-05-31",
+    "y_m_d": [
+     3,
+     10,
+     0
+    ],
+    "expect": 4,
+    "got": 4,
+    "ok": true
+   },
+   {
+    "case": "TA2741 A社 使用人 令3.2.1〜令8.1.31（5年）",
+    "start": "2021-02-01",
+    "end": "2026-01-31",
+    "y_m_d": [
+     5,
+     0,
+     0
+    ],
+    "expect": 5,
+    "got": 5,
+    "ok": true
+   },
+   {
+    "case": "境目：ちょうど5年（令3.4.1〜令8.3.31）",
+    "start": "2021-04-01",
+    "end": "2026-03-31",
+    "y_m_d": [
+     5,
+     0,
+     0
+    ],
+    "expect": 5,
+    "got": 5,
+    "ok": true
+   },
+   {
+    "case": "境目：5年と1日（令3.4.1〜令8.4.1）",
+    "start": "2021-04-01",
+    "end": "2026-04-01",
+    "y_m_d": [
+     5,
+     0,
+     1
+    ],
+    "expect": 6,
+    "got": 6,
+    "ok": true
+   }
+  ],
+  "C4_shotoku": [
+   {
+    "case": "TA1420 例1 控除額 11年",
+    "expect": 4400000,
+    "got": 4400000,
+    "ok": true
+   },
+   {
+    "case": "TA1420 例2 控除額 30年",
+    "expect": 15000000,
+    "got": 15000000,
+    "ok": true
+   },
+   {
+    "case": "TA2732 例1 (800万−440万)×1/2",
+    "expect": 1800000,
+    "got": 1800000.0,
+    "ok": true
+   },
+   {
+    "case": "TA2732 例2 (2,300万−1,500万)×1/2",
+    "expect": 4000000,
+    "got": 4000000.0,
+    "ok": true
+   },
+   {
+    "case": "TA2740 短期 800万・5年",
+    "expect": 4500000,
+    "got": 4500000,
+    "ok": true
+   },
+   {
+    "case": "TA2737 例1 特定役員 500万・5年",
+    "expect": 3000000,
+    "got": 3000000,
+    "ok": true
+   },
+   {
+    "case": "TA2737 例2 使用人800万＋役員500万・13年（役員3年）",
+    "expect": 5800000,
+    "got": 5800000.0,
+    "ok": true
+   },
+   {
+    "case": "TA2737 例3 重複3年（兼務役員）・15年（役員等5年）",
+    "expect": 5300000,
+    "got": 5300000.0,
+    "ok": true
+   },
+   {
+    "case": "TA2741 短期500万（4年）＋特定役員1,500万（5年）・重複4年",
+    "expect": 16500000,
+    "got": 16500000,
+    "ok": true
+   },
+   {
+    "case": "TA2741 同 特定役員退職所得控除額",
+    "expect": 1200000,
+    "got": 1200000,
+    "ok": true
+   },
+   {
+    "case": "TA2741 同 短期退職所得控除額",
+    "expect": 800000,
+    "got": 800000,
+    "ok": true
+   },
+   {
+    "case": "80万円の最低保障（勤続1年）",
+    "expect": 800000,
+    "got": 800000,
+    "ok": true
+   },
+   {
+    "case": "障害退職（勤続1年）＝80万円＋100万円",
+    "expect": 1800000,
+    "got": 1800000,
+    "ok": true
+   }
+  ],
+  "C5_gensen": [
+   {
+    "case": "TA2732 例1 課税退職所得180万円",
+    "expect": 91890,
+    "got": 91890,
+    "ok": true
+   },
+   {
+    "case": "TA2732 例2 課税退職所得400万円",
+    "expect": 380322,
+    "got": 380322,
+    "ok": true
+   },
+   {
+    "case": "TA2732 別紙の注 課税退職所得700万円",
+    "expect": 994454,
+    "got": 994454,
+    "ok": true
+   },
+   {
+    "case": "TA2732 申告書なし 800万円×20.42%",
+    "expect": 1633600,
+    "got": 1633600,
+    "ok": true
+   },
+   {
+    "case": "TA2735 A社 (400万−360万)×1/2＝20万",
+    "expect": 10210,
+    "got": 10210,
+    "ok": true
+   },
+   {
+    "case": "TA2735 B社 合計で90万円の税額",
+    "expect": 45945,
+    "got": 45945,
+    "ok": true
+   },
+   {
+    "case": "TA2735 B社 差引",
+    "expect": 35735,
+    "got": 35735,
+    "ok": true
+   }
+  ],
+  "C6_juminzei": {
+   "hayami_rows": [
+    {
+     "before_half": 0,
+     "base": 0,
+     "expect": [
+      0,
+      0
+     ],
+     "got": [
+      0,
+      0
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 3999,
+     "base": 1000,
+     "expect": [
+      0,
+      0
+     ],
+     "got": [
+      0,
+      0
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 4000,
+     "base": 2000,
+     "expect": [
+      100,
+      0
+     ],
+     "got": [
+      100,
+      0
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 5999,
+     "base": 2000,
+     "expect": [
+      100,
+      0
+     ],
+     "got": [
+      100,
+      0
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 6000,
+     "base": 3000,
+     "expect": [
+      100,
+      100
+     ],
+     "got": [
+      100,
+      100
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 7999,
+     "base": 3000,
+     "expect": [
+      100,
+      100
+     ],
+     "got": [
+      100,
+      100
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 8000,
+     "base": 4000,
+     "expect": [
+      200,
+      100
+     ],
+     "got": [
+      200,
+      100
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 9999,
+     "base": 4000,
+     "expect": [
+      200,
+      100
+     ],
+     "got": [
+      200,
+      100
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 10000,
+     "base": 5000,
+     "expect": [
+      300,
+      200
+     ],
+     "got": [
+      300,
+      200
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 13999,
+     "base": 6000,
+     "expect": [
+      300,
+      200
+     ],
+     "got": [
+      300,
+      200
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 20000,
+     "base": 10000,
+     "expect": [
+      600,
+      400
+     ],
+     "got": [
+      600,
+      400
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 23999,
+     "base": 11000,
+     "expect": [
+      600,
+      400
+     ],
+     "got": [
+      600,
+      400
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 100000,
+     "base": 50000,
+     "expect": [
+      3000,
+      2000
+     ],
+     "got": [
+      3000,
+      2000
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 103999,
+     "base": 51000,
+     "expect": [
+      3000,
+      2000
+     ],
+     "got": [
+      3000,
+      2000
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 104000,
+     "base": 52000,
+     "expect": [
+      3100,
+      2000
+     ],
+     "got": [
+      3100,
+      2000
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 105999,
+     "base": 52000,
+     "expect": [
+      3100,
+      2000
+     ],
+     "got": [
+      3100,
+      2000
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 106000,
+     "base": 53000,
+     "expect": [
+      3100,
+      2100
+     ],
+     "got": [
+      3100,
+      2100
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 107999,
+     "base": 53000,
+     "expect": [
+      3100,
+      2100
+     ],
+     "got": [
+      3100,
+      2100
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 198000,
+     "base": 99000,
+     "expect": [
+      5900,
+      3900
+     ],
+     "got": [
+      5900,
+      3900
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 199999,
+     "base": 99000,
+     "expect": [
+      5900,
+      3900
+     ],
+     "got": [
+      5900,
+      3900
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 200000,
+     "base": 100000,
+     "expect": [
+      6000,
+      4000
+     ],
+     "got": [
+      6000,
+      4000
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 203999,
+     "base": 101000,
+     "expect": [
+      6000,
+      4000
+     ],
+     "got": [
+      6000,
+      4000
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 298000,
+     "base": 149000,
+     "expect": [
+      8900,
+      5900
+     ],
+     "got": [
+      8900,
+      5900
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 299999,
+     "base": 149000,
+     "expect": [
+      8900,
+      5900
+     ],
+     "got": [
+      8900,
+      5900
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 300000,
+     "base": 150000,
+     "expect": [
+      9000,
+      6000
+     ],
+     "got": [
+      9000,
+      6000
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 303999,
+     "base": 151000,
+     "expect": [
+      9000,
+      6000
+     ],
+     "got": [
+      9000,
+      6000
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 398000,
+     "base": 199000,
+     "expect": [
+      11900,
+      7900
+     ],
+     "got": [
+      11900,
+      7900
+     ],
+     "ok": true
+    },
+    {
+     "before_half": 399999,
+     "base": 199000,
+     "expect": [
+      11900,
+      7900
+     ],
+     "got": [
+      11900,
+      7900
+     ],
+     "ok": true
+    }
+   ],
+   "example_TA2732_ex1_payment_8m_11y": {
+    "base": 1800000,
+    "city": 108000,
+    "pref": 72000
+   }
+  },
+  "C7_rei70": {
+   "n_cases": 886,
+   "n_diff": 16,
+   "diff_years": [
+    2031,
+    2032,
+    2033,
+    2034,
+    2035
+   ],
+   "first_diff_year": 2031,
+   "diff_examples": [
+    {
+     "year": 2031,
+     "prior_year": 2026,
+     "prior_is_ideco": true,
+     "current_has_ideco": false,
+     "old": false,
+     "new": true,
+     "same": false
+    },
+    {
+     "year": 2032,
+     "prior_year": 2026,
+     "prior_is_ideco": true,
+     "current_has_ideco": false,
+     "old": false,
+     "new": true,
+     "same": false
+    },
+    {
+     "year": 2032,
+     "prior_year": 2027,
+     "prior_is_ideco": true,
+     "current_has_ideco": false,
+     "old": false,
+     "new": true,
+     "same": false
+    },
+    {
+     "year": 2033,
+     "prior_year": 2026,
+     "prior_is_ideco": true,
+     "current_has_ideco": false,
+     "old": false,
+     "new": true,
+     "same": false
+    },
+    {
+     "year": 2033,
+     "prior_year": 2027,
+     "prior_is_ideco": true,
+     "current_has_ideco": false,
+     "old": false,
+     "new": true,
+     "same": false
+    },
+    {
+     "year": 2033,
+     "prior_year": 2028,
+     "prior_is_ideco": true,
+     "current_has_ideco": false,
+     "old": false,
+     "new": true,
+     "same": false
+    },
+    {
+     "year": 2034,
+     "prior_year": 2026,
+     "prior_is_ideco": true,
+     "current_has_ideco": false,
+     "old": false,
+     "new": true,
+     "same": false
+    },
+    {
+     "year": 2034,
+     "prior_year": 2027,
+     "prior_is_ideco": true,
+     "current_has_ideco": false,
+     "old": false,
+     "new": true,
+     "same": false
+    },
+    {
+     "year": 2034,
+     "prior_year": 2028,
+     "prior_is_ideco": true,
+     "current_has_ideco": false,
+     "old": false,
+     "new": true,
+     "same": false
+    },
+    {
+     "year": 2034,
+     "prior_year": 2029,
+     "prior_is_ideco": true,
+     "current_has_ideco": false,
+     "old": false,
+     "new": true,
+     "same": false
+    },
+    {
+     "year": 2035,
+     "prior_year": 2026,
+     "prior_is_ideco": true,
+     "current_has_ideco": false,
+     "old": false,
+     "new": true,
+     "same": false
+    },
+    {
+     "year": 2035,
+     "prior_year": 2027,
+     "prior_is_ideco": true,
+     "current_has_ideco": false,
+     "old": false,
+     "new": true,
+     "same": false
+    },
+    {
+     "year": 2035,
+     "prior_year": 2028,
+     "prior_is_ideco": true,
+     "current_has_ideco": false,
+     "old": false,
+     "new": true,
+     "same": false
+    },
+    {
+     "year": 2035,
+     "prior_year": 2029,
+     "prior_is_ideco": true,
+     "current_has_ideco": false,
+     "old": false,
+     "new": true,
+     "same": false
+    },
+    {
+     "year": 2035,
+     "prior_year": 2030,
+     "prior_is_ideco": true,
+     "current_has_ideco": false,
+     "old": false,
+     "new": true,
+     "same": false
+    },
+    {
+     "year": 2031,
+     "prior_year": "2026-03-31",
+     "prior_is_ideco": false,
+     "current_has_ideco": false,
+     "other_priors": [
+      [
+       "2026-03-31",
+       false
+      ],
+      [
+       "2027-06-30",
+       true
+      ]
+     ],
+     "old": false,
+     "new": true,
+     "same": false
+    }
+   ],
+   "same_for_2025_2026": true
+  },
+  "C8_gokei": [
+   {
+    "case": "作成コーナー scid1322 住民税（源泉徴収された退職所得を除く）",
+    "expect": 400000,
+    "got": 400000,
+    "ok": true
+   },
+   {
+    "case": "同じ人の所得税の合計所得金額（所法2①三十イ(2)：退職所得金額を含む）",
+    "expect": null,
+    "got": 800000
+   },
+   {
+    "case": "質疑応答 05/85 配偶者特別控除の判定",
+    "expect": 1350000,
+    "got": 1350000,
+    "over_1_33m": true,
+    "ok": true
+   },
+   {
+    "case": "同上の退職所得 30万円＝(300万円−控除)×1/2 から逆算した控除額",
+    "kojo_implied": 2400000,
+    "years_if_40man": 6.0
+   }
+  ],
+  "C9_text": {
+   "shotoku_2_32_kinro": {
+    "2024-12-31": "七十五万円",
+    "2025-12-31": "八十五万円",
+    "2026-11-09": "八十五万円",
+    "2026-12-31": "八十九万円",
+    "2027-01-01": "八十九万円"
+   },
+   "chiho_292_7_9": {
+    "2026-01-01": [
+     "五十八万円",
+     "五十八万円"
+    ],
+    "2026-11-09": [
+     "五十八万円",
+     "五十八万円"
+    ],
+    "2027-01-01": [
+     "六十二万円",
+     "六十二万円"
+    ]
+   },
+   "chiho_fusoku_3_3_excl": {
+    "2026-01-01": {
+     "道府県民税の所得割（第五十条の二の規定により課する所得割を除く。": true,
+     "市町村民税の所得割（分離課税に係る所得割を除く。": true
+    },
+    "2026-11-09": {
+     "道府県民税の所得割（第五十条の二の規定により課する所得割を除く。": true,
+     "市町村民税の所得割（分離課税に係る所得割を除く。": true
+    },
+    "2027-01-01": {
+     "道府県民税の所得割（第五十条の二の規定により課する所得割を除く。": true,
+     "市町村民税の所得割（分離課税に係る所得割を除く。": true
+    }
+   }
+  }
+ }
+}

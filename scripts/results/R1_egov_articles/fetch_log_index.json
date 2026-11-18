@@ -1,0 +1,116 @@
+{
+ "run_at": "20261109-132901",
+ "mode": "index",
+ "fetches": [
+  {
+   "short": "shotoku",
+   "law_id": "340AC0000000033",
+   "asof": "2027-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=json&asof=2027-01-01",
+   "law_revision_id": "340AC0000000033_20270101_508AC0000000012",
+   "amendment_law_num": "令和八年法律第十二号",
+   "amendment_enforcement_date": "2027-01-01",
+   "current_revision_status": "UnEnforced"
+  },
+  {
+   "short": "shotoku-rei",
+   "law_id": "340CO0000000096",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096?response_format=json&asof=2026-11-09",
+   "law_revision_id": "340CO0000000096_20260522_508CO0000000093",
+   "amendment_law_num": "令和八年政令第九十三号",
+   "amendment_enforcement_date": "2026-05-22",
+   "current_revision_status": "CurrentEnforced"
+  },
+  {
+   "short": "sochi",
+   "law_id": "332AC0000000026",
+   "asof": "2027-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/332AC0000000026?response_format=json&asof=2027-01-01",
+   "law_revision_id": "332AC0000000026_20270101_508AC0000000012",
+   "amendment_law_num": "令和八年法律第十二号",
+   "amendment_enforcement_date": "2027-01-01",
+   "current_revision_status": "UnEnforced"
+  },
+  {
+   "short": "chiho",
+   "law_id": "325AC0000000226",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=json&asof=2026-11-09",
+   "law_revision_id": "325AC0000000226_20261101_508AC0000000002",
+   "amendment_law_num": "令和八年法律第二号",
+   "amendment_enforcement_date": "2026-11-01",
+   "current_revision_status": "CurrentEnforced"
+  },
+  {
+   "short": "kenpo",
+   "law_id": "211AC0000000070",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/211AC0000000070?response_format=json&asof=2026-11-09",
+   "law_revision_id": "211AC0000000070_20261001_507AC0000000087",
+   "amendment_law_num": "令和七年法律第八十七号",
+   "amendment_enforcement_date": "2026-10-01",
+   "current_revision_status": "CurrentEnforced"
+  },
+  {
+   "short": "kokunen",
+   "law_id": "334AC0000000141",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/334AC0000000141?response_format=json&asof=2026-11-09",
+   "law_revision_id": "334AC0000000141_20261001_507AC0000000074",
+   "amendment_law_num": "令和七年法律第七十四号",
+   "amendment_enforcement_date": "2026-10-01",
+   "current_revision_status": "CurrentEnforced"
+  },
+  {
+   "short": "kokunen-rei",
+   "law_id": "334CO0000000184",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/334CO0000000184?response_format=json&asof=2026-11-09",
+   "law_revision_id": "334CO0000000184_20261001_508CO0000000226",
+   "amendment_law_num": "令和八年政令第二百二十六号",
+   "amendment_enforcement_date": "2026-10-01",
+   "current_revision_status": "CurrentEnforced"
+  },
+  {
+   "short": "nenrei",
+   "law_id": "135AC1000000050",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/135AC1000000050?response_format=json&asof=2026-11-09",
+   "law_revision_id": "135AC1000000050_19021222_000000000000000",
+   "amendment_law_num": null,
+   "amendment_enforcement_date": "1902-12-22",
+   "current_revision_status": "CurrentEnforced"
+  },
+  {
+   "short": "minpo",
+   "law_id": "129AC0000000089",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/129AC0000000089?response_format=json&asof=2026-11-09",
+   "law_revision_id": "129AC0000000089_20260624_508AC0000000045",
+   "amendment_law_num": "令和八年法律第四十五号",
+   "amendment_enforcement_date": "2026-06-24",
+   "current_revision_status": "CurrentEnforced"
+  },
+  {
+   "short": "denchou",
+   "law_id": "410AC0000000025",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/410AC0000000025?response_format=json&asof=2026-11-09",
+   "law_revision_id": "410AC0000000025_20250401_507AC0000000013",
+   "amendment_law_num": "令和七年法律第十三号",
+   "amendment_enforcement_date": "2025-04-01",
+   "current_revision_status": "CurrentEnforced"
+  },
+  {
+   "short": "denchou-ki",
+   "law_id": "410M50000040043",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/410M50000040043?response_format=json&asof=2026-11-09",
+   "law_revision_id": "410M50000040043_20250401_507M60000040028",
+   "amendment_law_num": "令和七年財務省令第二十八号",
+   "amendment_enforcement_date": "2025-04-01",
+   "current_revision_status": "CurrentEnforced"
+  }
+ ]
+}

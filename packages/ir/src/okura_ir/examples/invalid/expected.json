@@ -1,0 +1,409 @@
+{
+ "authority_decision_tax_item_mismatch.json": {
+  "description": "市町村の個別の処分の種類と税目が合わない（修学中の特例の認定は国保）。特定支出の候補の支出の内数・除く部分が支出金額を超える",
+  "problems": [
+   {
+    "code": "authority_decision_tax_item_mismatch",
+    "path": "$.facts[0].attributes.tax_item"
+   },
+   {
+    "code": "specific_expense_parts_exceed_amount",
+    "path": "$.facts[1].amounts.special_seat_fee"
+   },
+   {
+    "code": "specific_expense_parts_exceed_amount",
+    "path": "$.facts[1].amounts.reimbursed_nontaxable"
+   }
+  ]
+ },
+ "specific_expense_judgment_mismatch.json": {
+  "description": "転居費でない支出に relocation_item、通常の範囲の額が支出金額を超える、図書の支出に通常の範囲の判断（2026-11-12 の2回目）",
+  "problems": [
+   {
+    "code": "specific_expense_field_mismatch",
+    "path": "$.facts[0].attributes.relocation_item"
+   },
+   {
+    "code": "specific_expense_parts_exceed_amount",
+    "path": "$.judgments[0].value.countable_amount"
+   },
+   {
+    "code": "specific_expense_field_mismatch",
+    "path": "$.judgments[1].subject"
+   }
+  ]
+ },
+ "bool_in_amount.json": {
+  "description": "金額の欄に真偽値",
+  "problems": [
+   {
+    "code": "type",
+    "path": "$.facts[0].amounts.amount"
+   }
+  ]
+ },
+ "both_on_and_period.json": {
+  "description": "日付と区間の両方を書いた（どちらか一方の種類）",
+  "problems": [
+   {
+    "code": "one_of_none",
+    "path": "$.facts[1].when"
+   }
+  ]
+ },
+ "choice_with_mark.json": {
+  "description": "選択に印を書いた（選択は印を持たない）",
+  "problems": [
+   {
+    "code": "additional_property",
+    "path": "$.choices[0].mark"
+   }
+  ]
+ },
+ "commuting_exceeds_gross.json": {
+  "description": "通勤手当が総支給額を超える（内数）",
+  "problems": [
+   {
+    "code": "commuting_exceeds_gross",
+    "path": "$.facts[0].amounts.commuting_allowance"
+   }
+  ]
+ },
+ "commuting_vehicle_without_km.json": {
+  "description": "交通用具の通勤に片道の距離がない",
+  "problems": [
+   {
+    "code": "commuting_km_required",
+    "path": "$.facts[0].attributes.one_way_km"
+   }
+  ]
+ },
+ "compact_date.json": {
+  "description": "区切りのない日付（Python の fromisoformat は受け付けるが拒否する）",
+  "problems": [
+   {
+    "code": "format",
+    "path": "$.facts[0].when.on"
+   }
+  ]
+ },
+ "datetime_not_real.json": {
+  "description": "形は合うが実在しない日時",
+  "problems": [
+   {
+    "code": "invalid_datetime",
+    "path": "$.judgments[0].judged_at"
+   }
+  ]
+ },
+ "datetime_without_offset.json": {
+  "description": "時差のない日時",
+  "problems": [
+   {
+    "code": "pattern",
+    "path": "$.judgments[0].judged_at"
+   }
+  ]
+ },
+ "death_before_birth.json": {
+  "description": "死亡日が生年月日より前",
+  "problems": [
+   {
+    "code": "death_before_birth",
+    "path": "$.persons[0].death_on"
+   }
+  ]
+ },
+ "dependent_without_insured.json": {
+  "description": "被扶養者の資格に被保険者がない",
+  "problems": [
+   {
+    "code": "dependent_without_insured",
+    "path": "$.insurance_memberships[0].roles.insured"
+   }
+  ]
+ },
+ "duplicate_id.json": {
+  "description": "人と記録の id が重複",
+  "problems": [
+   {
+    "code": "duplicate_id",
+    "path": "$.facts[0].id"
+   }
+  ]
+ },
+ "duplicate_key.json": {
+  "description": "重複したキー（json.loads なら後の値で黙って上書きされる）",
+  "problems": [
+   {
+    "code": "json_duplicate_key",
+    "path": "$"
+   }
+  ]
+ },
+ "float_in_amount.json": {
+  "description": "金額の欄に小数（整数の値でも小数の形は拒否）",
+  "problems": [
+   {
+    "code": "type",
+    "path": "$.facts[0].amounts.amount"
+   }
+  ]
+ },
+ "forecast_with_wrong_mark.json": {
+  "description": "見込み.* に印「見積り」",
+  "problems": [
+   {
+    "code": "enum",
+    "path": "$.judgments[1].mark"
+   }
+  ]
+ },
+ "forecast_without_mark.json": {
+  "description": "見込み.* に印「予測」がない",
+  "problems": [
+   {
+    "code": "required",
+    "path": "$.judgments[1].mark"
+   }
+  ]
+ },
+ "huge_amount.json": {
+  "description": "上限を超える金額",
+  "problems": [
+   {
+    "code": "maximum",
+    "path": "$.facts[0].amounts.amount"
+   }
+  ]
+ },
+ "invalid_date.json": {
+  "description": "実在しない日付",
+  "problems": [
+   {
+    "code": "format",
+    "path": "$.facts[0].when.on"
+   }
+  ]
+ },
+ "missing_section.json": {
+  "description": "根の配列が足りない（空でも書く）",
+  "problems": [
+   {
+    "code": "required",
+    "path": "$.choices"
+   }
+  ]
+ },
+ "misspelled_role.json": {
+  "description": "役割の名前の書き間違い",
+  "problems": [
+   {
+    "code": "required",
+    "path": "$.facts[0].roles.patient"
+   },
+   {
+    "code": "additional_property",
+    "path": "$.facts[0].roles.patiant"
+   }
+  ]
+ },
+ "nan_amount.json": {
+  "description": "NaN（JSON の仕様の外）",
+  "problems": [
+   {
+    "code": "json_constant",
+    "path": "$"
+   }
+  ]
+ },
+ "negative_amount.json": {
+  "description": "0 以上の金額の欄に負の数",
+  "problems": [
+   {
+    "code": "minimum",
+    "path": "$.facts[0].amounts.amount"
+   }
+  ]
+ },
+ "overlapping_resident_records.json": {
+  "description": "同じ人の住民票の記録の区間が重なる",
+  "problems": [
+   {
+    "code": "overlapping_interval",
+    "path": "$.residences[1].when"
+   }
+  ]
+ },
+ "parking_per_use_without_count.json": {
+  "description": "利用の都度の駐車場の料金に1か月の利用回数がない",
+  "problems": [
+   {
+    "code": "parking_field_required",
+    "path": "$.facts[0].attributes.parkings[0].uses_per_month"
+   }
+  ]
+ },
+ "period_reversed.json": {
+  "description": "区間の to_on が from_on より前",
+  "problems": [
+   {
+    "code": "period_reversed",
+    "path": "$.judgments[0].when"
+   }
+  ]
+ },
+ "ratio_over_one.json": {
+  "description": "割合が 1 を超える",
+  "problems": [
+   {
+    "code": "ratio_out_of_range",
+    "path": "$.judgments[1].value.ratio"
+   }
+  ]
+ },
+ "reimbursement_targets_non_medical.json": {
+  "description": "補塡の対象が医療費の支払でない記録",
+  "problems": [
+   {
+    "code": "reference_kind_mismatch",
+    "path": "$.facts[1].attributes.target_payment_ids[0]"
+   }
+  ]
+ },
+ "replacement_cycle.json": {
+  "description": "判断の置き換えが循環",
+  "problems": [
+   {
+    "code": "replacement_cycle",
+    "path": "$.judgments[0].replaces"
+   }
+  ]
+ },
+ "replacement_fork.json": {
+  "description": "1つの判断を2つの判断が置き換えている",
+  "problems": [
+   {
+    "code": "replacement_fork",
+    "path": "$.judgments[2].replaces"
+   }
+  ]
+ },
+ "replacement_kind_mismatch.json": {
+  "description": "種類の違う判断を置き換えている",
+  "problems": [
+   {
+    "code": "replacement_kind_mismatch",
+    "path": "$.judgments[1].replaces"
+   }
+  ]
+ },
+ "replacement_time_order.json": {
+  "description": "置き換える判断の日時が置き換えられる判断より前",
+  "problems": [
+   {
+    "code": "replacement_time_order",
+    "path": "$.judgments[1].replaces"
+   }
+  ]
+ },
+ "replacement_unknown.json": {
+  "description": "置き換える先の判断がない",
+  "problems": [
+   {
+    "code": "unknown_reference",
+    "path": "$.judgments[0].replaces"
+   }
+  ]
+ },
+ "retroactive_without_original_due_on.json": {
+  "description": "差額の追給に元の支給日がない",
+  "problems": [
+   {
+    "code": "retroactive_without_original_due_on",
+    "path": "$.facts[0].attributes.original_due_on"
+   }
+  ]
+ },
+ "salary_without_due_on.json": {
+  "description": "給与の支払に支給日（due_on）がない（D23 K3 で必須）",
+  "problems": [
+   {
+    "code": "required",
+    "path": "$.facts[0].attributes.due_on"
+   }
+  ]
+ },
+ "same_person_relation.json": {
+  "description": "関係の両側が同じ人",
+  "problems": [
+   {
+    "code": "same_person",
+    "path": "$.relations[0].roles"
+   }
+  ]
+ },
+ "same_person_subject.json": {
+  "description": "判断の対象の2人が同じ人",
+  "problems": [
+   {
+    "code": "same_person",
+    "path": "$.judgments[0].subject"
+   }
+  ]
+ },
+ "string_in_amount.json": {
+  "description": "金額の欄に式の文字列（OpenFisca の numexpr が評価してしまう形）",
+  "problems": [
+   {
+    "code": "type",
+    "path": "$.facts[0].amounts.amount"
+   }
+  ]
+ },
+ "string_in_ratio.json": {
+  "description": "割合の分子に文字列",
+  "problems": [
+   {
+    "code": "type",
+    "path": "$.judgments[1].value.ratio.num"
+   }
+  ]
+ },
+ "unknown_kind.json": {
+  "description": "知らない事実の種類",
+  "problems": [
+   {
+    "code": "unknown_kind",
+    "path": "$.facts[0].kind"
+   }
+  ]
+ },
+ "unknown_person_in_role.json": {
+  "description": "役割の人が persons にない",
+  "problems": [
+   {
+    "code": "unknown_person",
+    "path": "$.facts[0].roles.patient"
+   }
+  ]
+ },
+ "unsupported_version.json": {
+  "description": "知らない版",
+  "problems": [
+   {
+    "code": "unsupported_schema_version",
+    "path": "$.schema_version"
+   }
+  ]
+ },
+ "when_not_allowed.json": {
+  "description": "時を持たない判断に when を書いた",
+  "problems": [
+   {
+    "code": "forbidden",
+    "path": "$.judgments[1].when"
+   }
+  ]
+ }
+}

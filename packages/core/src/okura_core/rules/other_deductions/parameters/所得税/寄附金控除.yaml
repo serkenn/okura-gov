@@ -1,0 +1,31 @@
+description: >-
+  寄附金控除（所得税法第78条第1項）。控除の額＝min(特定寄附金の合計, 総所得金額等 × 百分の四十) − 二千円。
+  第1項は令和7年分・令和8年分の版で同文（第2項第4号の追加・旧第3項の削除は 2026-04-01 の版から：
+  docs/public-sources/20261109_round2_hoken-kifu-laws.md §1・§4）。百分の四十の1円未満の端数の定めは docs にない。
+総所得金額等の率:
+  分子:
+    description: 特定寄附金の合計の上限に使う、総所得金額等に乗じる率の分子（「百分の四十」）
+    metadata: &art78
+      law: 所得税法第78条第1項（「一　その年中に支出した特定寄附金の額の合計額（当該合計額がその者のその年分の総所得金額、退職所得金額及び山林所得金額の合計額の百分の四十に相当する金額を超える場合には、当該百分の四十に相当する金額）　二　二千円」）
+      source_kind: 法律
+      reference:
+        - docs/public-sources/20261109_round2_hoken-kifu-laws.md#4
+        - docs/public-sources/20261109_round2_hoken-kifu-laws.md#1
+        - docs/measurements/20261109_round2_hoken-kifu-formula-checks.md#5
+    values:
+      2025-01-01:
+        value: 40
+        metadata: &r7r8
+          適用: >-
+            令和7年分・令和8年分の版で第1項は同文（docs/measurements/20261109_round2_hoken-kifu-fetch.md §3.2 の差分は第2項・第3項だけ）。
+            この規定を設けた改正法と当初の施行日は docs で確かめていない
+  分母:
+    description: 同じ率の分母（「百分の四十」）
+    metadata: *art78
+    values:
+      2025-01-01: {value: 100, metadata: *r7r8}
+足切り:
+  description: 差し引く額（第2号「二千円」）
+  metadata: *art78
+  values:
+    2025-01-01: {value: 2000, metadata: *r7r8}

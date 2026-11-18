@@ -1,0 +1,48 @@
+{
+ "run": "20261109-151326",
+ "name": "tebiki2",
+ "download_dir": ".work/downloads/20261109-151326_tebiki2",
+ "user_agent": "okura-gov-research/0.1",
+ "delay_sec": 1.5,
+ "robots": [
+  {
+   "robots_url": "https://www.nta.go.jp/robots.txt",
+   "status": 200,
+   "bytes": 853,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+   "text": "Sitemap: http://www.nta.go.jp/sitemap.xml\r\n\r\nUser-agent: *\r\nDisallow: /service_publication/\r\nDisallow: /about/organization/sapporo/service_publication/\r\nDisallow: /about/organization/sendai/service_publication/\r\nDisallow: /about/organization/kantoshinetsu/service_publication/\r\nDisallow: /about/organization/tokyo/service_publication/\r\nDisallow: /about/organization/kanazawa/service_publication/\r\nDisallow: /about/organization/nagoya/service_publication/\r\nDisallow: /about/organization/osaka/service_publication/\r\nDisallow: /about/organization/hiroshima/service_publication/\r\nDisallow: /about/organization/takamatsu/service_publication/\r\nDisallow: /about/organization/fukuoka/service_publication/\r\nDisallow: /about/organization/kumamoto/service_publication/\r\nDisallow: /about/organization/okinawa/service_publication/\r\n\r\nUser-agent: ndl-japan\r\nDisallow:"
+  }
+ ],
+ "results": [
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_27.htm",
+   "fetched_at": "2026-11-09T15:13:27+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_27.htm",
+   "content_type": "text/html",
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "bytes": 19779,
+   "sha256": "fe99421d6c179946de07a4d8964a3ef565e9a30367ca30c33de255739116c667",
+   "saved": ".work/downloads/20261109-151326_tebiki2/000_www.nta.go.jp_taxes_shiraberu_shinkoku_tebiki_2025_03_order3_3-3_27.htm",
+   "encoding": "shift_jis",
+   "text": "scripts/results/IMPL_output_fetch/20261109-151326_tebiki2/000_www.nta.go.jp_taxes_shiraberu_shinkoku_tebiki_2025_03_order3_3-3_27.htm.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-151326_tebiki2/000_www.nta.go.jp_taxes_shiraberu_shinkoku_tebiki_2025_03_order3_3-3_27.htm.links.tsv",
+   "n_links": 61
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_29.htm",
+   "fetched_at": "2026-11-09T15:13:28+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_29.htm",
+   "content_type": "text/html",
+   "last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "bytes": 8775,
+   "sha256": "9757b9c56fd2acd4ed74af71f20c1d2fee2353c41c8c94216757960f53cb5a80",
+   "saved": ".work/downloads/20261109-151326_tebiki2/001_www.nta.go.jp_taxes_shiraberu_shinkoku_tebiki_2025_03_order4_3-4_29.htm",
+   "encoding": "shift_jis",
+   "text": "scripts/results/IMPL_output_fetch/20261109-151326_tebiki2/001_www.nta.go.jp_taxes_shiraberu_shinkoku_tebiki_2025_03_order4_3-4_29.htm.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-151326_tebiki2/001_www.nta.go.jp_taxes_shiraberu_shinkoku_tebiki_2025_03_order4_3-4_29.htm.links.tsv",
+   "n_links": 50
+  }
+ ]
+}

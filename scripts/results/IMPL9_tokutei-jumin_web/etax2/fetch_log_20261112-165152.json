@@ -1,0 +1,27 @@
+{
+ "set": "etax2",
+ "fetched_at": "20261112-165152",
+ "download_dir": ".work/downloads/20261112-165152_IMPL9_tokutei-jumin_web_etax2",
+ "robots": [
+  {
+   "host": "https://www.e-tax.nta.go.jp",
+   "status": 404,
+   "sha256": "5f7262ac5fe116c65502744103974ec7fc706043b73b67d21a209bd532c6d6f9"
+  }
+ ],
+ "items": [
+  {
+   "id": "ksk2_shiyo3",
+   "url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo3.htm",
+   "final_url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo3.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 23540,
+   "sha256": "7b0da8d393b10b74674db1cf3bf1892a47eb635417a7f7348fc92d2446f21452",
+   "saved": ".work/downloads/20261112-165152_IMPL9_tokutei-jumin_web_etax2/ksk2_shiyo3.htm",
+   "title": "e-Tax仕様書一覧 | 【e-Tax】国税電子申告・納税システム(イータックス)",
+   "encoding": "utf-8"
+  }
+ ]
+}

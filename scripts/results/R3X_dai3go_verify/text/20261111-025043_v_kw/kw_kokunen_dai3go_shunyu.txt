@@ -1,0 +1,54 @@
+# source=https://www.mhlw.go.jp/web/t_docsrch_keyword?keyword=%E5%9B%BD%E6%B0%91%E5%B9%B4%E9%87%91%E7%AC%AC%E4%B8%89%E5%8F%B7%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85+%E5%8F%8E%E5%85%A5&type=1&mode=0
+# fetched_at=20261111-025043
+# charset=UTF-8
+
+結果一覧
+
+検索結果
+
+該当件数: 5件中 1件~ 5件
+
+[form action='??t_docsrch_keyword_ja??' method=None]
+
+		[input name='type' type='hidden' value='1']
+		[input name='page' type='hidden' value='0']
+		[input name='keyword' type='hidden' value='国民年金第三号被保険者 収入']
+		[input name='mode' type='hidden' value='0']
+
+			[select name='sort' type=None value=None]
+				並べ替え順序選択
+				制定年月日 新しい順
+				制定年月日 古い順
+				改正年月日 新しい順
+				改正年月日 古い順
+
+				 | 件名
+				 |
+					制定年月日
+
+				 | 種別・番号
+
+				 | ・平成三年度における厚生年金保険の事業運営について
+				 ⟨別ウィンドウが開きます⟩
+				 | ◆平成03年03月30日
+				 | 庁文発第1099号
+
+				 | ・国民年金市町村事務取扱準則
+				 ⟨別ウィンドウが開きます⟩
+				 | ◆昭和42年03月15日
+				 | 庁保発第4号
+
+				 | ・国民年金の被保険者の適用及び保険料に関する事務の取扱いについて
+				 ⟨別ウィンドウが開きます⟩
+				 | ◆昭和61年04月01日
+				 | 庁保険発第17号
+
+				 | ・国民年金法等の一部を改正する法律の施行に伴う実施事務の取扱いについて
+				 ⟨別ウィンドウが開きます⟩
+				 | ◆平成07年03月29日
+				 | 庁文発第1935号
+
+				 | ・日本年金機構の設立に伴う既存通知等の取扱い等について
+				 ⟨別ウィンドウが開きます⟩
+				 | ◆平成22年01月01日
+				 | 年発第101002号

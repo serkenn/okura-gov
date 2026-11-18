@@ -1,0 +1,164 @@
+[
+ {
+  "id": "W01",
+  "where": "PS§1.6 札幌 第19条②",
+  "source": "sapporo_jorei",
+  "ok": true,
+  "missing": []
+ },
+ {
+  "id": "W02",
+  "where": "PS§1.6 札幌 第19条①",
+  "source": "sapporo_jorei",
+  "ok": true,
+  "missing": []
+ },
+ {
+  "id": "W03",
+  "where": "PS§2.1 札幌 附則第3条の3",
+  "source": "sapporo_jorei",
+  "ok": true,
+  "missing": []
+ },
+ {
+  "id": "W04",
+  "where": "PS§6.2 札幌 第30条①ただし書2〜4",
+  "source": "sapporo_jorei",
+  "ok": true,
+  "missing": []
+ },
+ {
+  "id": "W05",
+  "where": "（検証で発見）札幌 第28条の３第15号＝特定親族特別控除額、第16号＝基礎控除額",
+  "source": "sapporo_jorei",
+  "ok": true,
+  "missing": []
+ },
+ {
+  "id": "W06",
+  "where": "同上（未施行の改正を表示したページでも同じ）",
+  "source": "sapporo_jorei_misikou",
+  "ok": true,
+  "missing": []
+ },
+ {
+  "id": "W07",
+  "where": "PS§4.2 札幌 第30条⑦",
+  "source": "sapporo_jorei",
+  "ok": true,
+  "missing": []
+ },
+ {
+  "id": "W08",
+  "where": "PS§6.2 札幌 第30条の2",
+  "source": "sapporo_jorei",
+  "ok": true,
+  "missing": []
+ },
+ {
+  "id": "W09",
+  "where": "PS§3.2 目黒区",
+  "source": "meguro",
+  "ok": true,
+  "missing": []
+ },
+ {
+  "id": "W10",
+  "where": "PS§3.2 さいたま市",
+  "source": "saitama",
+  "ok": true,
+  "missing": []
+ },
+ {
+  "id": "W11",
+  "where": "PS§3.2 横浜市港南区",
+  "source": "yokohama_konan",
+  "ok": true,
+  "missing": []
+ },
+ {
+  "id": "W12",
+  "where": "PS§3.2・§8.3 世田谷区",
+  "source": "setagaya",
+  "ok": true,
+  "missing": []
+ },
+ {
+  "id": "W13",
+  "where": "PS§8.3・M§5.4 江戸川区",
+  "source": "edogawa",
+  "ok": true,
+  "missing": []
+ },
+ {
+  "id": "W14",
+  "where": "PS§3.2・§8.3・M§5.4 柏市",
+  "source": "kashiwa",
+  "ok": true,
+  "missing": []
+ },
+ {
+  "id": "W15",
+  "where": "PS§1.5・§7・§8.3 神戸市",
+  "source": "kobe",
+  "ok": true,
+  "missing": []
+ },
+ {
+  "id": "W16",
+  "where": "PS§7・§8.3・M§5.4 仙台市",
+  "source": "sendai",
+  "ok": true,
+  "missing": []
+ },
+ {
+  "id": "W17",
+  "where": "PS§7・§8.3 千葉市",
+  "source": "chiba",
+  "ok": true,
+  "missing": []
+ },
+ {
+  "id": "W18",
+  "where": "PS§7・§8.3 大阪府",
+  "source": "osaka_pref",
+  "ok": true,
+  "missing": []
+ },
+ {
+  "id": "W19",
+  "where": "PS§8.3 横浜市（令和8年度の改正）",
+  "source": "yokohama_r8",
+  "ok": true,
+  "missing": []
+ },
+ {
+  "id": "W20",
+  "where": "PS§8.2 令和8年の「改正後全文」＝001071661.pdf",
+  "source": "soumu_ichiran04",
+  "ok": true,
+  "missing": [],
+  "links": [
+   [
+    "/main_content/001067044.pdf",
+    "同通知別添(1)"
+   ],
+   [
+    "/main_content/001067045.pdf",
+    "同通知別添(2)"
+   ],
+   [
+    "/main_content/001067046.pdf",
+    "同通知別添(3)"
+   ],
+   [
+    "/main_content/001071661.pdf",
+    "改正後全文"
+   ],
+   [
+    "/main_content/001052119.pdf",
+    "令和8年度地方税制改正・地方税務行政の運営に当たっての留意事項等について"
+   ]
+  ]
+ }
+]

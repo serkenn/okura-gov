@@ -1,0 +1,151 @@
+{
+ "file": "001_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_kaisei_260831_pdf_02.pdf",
+ "sha256": "5f739ced0904aca420471858debbf1a59f08e0e298cd6ba6c5089e2b01ccd4ab",
+ "bytes": 2956611,
+ "aes_selftest": true,
+ "encrypted": true,
+ "V": 4,
+ "R": 4,
+ "P": -1068,
+ "aes": true,
+ "key_len": 16,
+ "key_ok": true,
+ "encrypt_obj": 131,
+ "n_objects": 130,
+ "pages": [
+  {
+   "page": 1,
+   "obj": 5,
+   "mediabox": [
+    "0.0",
+    "0.0",
+    "841.92004",
+    "595.32001"
+   ],
+   "content_bytes": 2001697,
+   "n_text_runs": 0,
+   "xobjects": []
+  },
+  {
+   "page": 2,
+   "obj": 6,
+   "mediabox": [
+    "0.0",
+    "0.0",
+    "841.92004",
+    "595.32001"
+   ],
+   "content_bytes": 2056933,
+   "n_text_runs": 0,
+   "xobjects": []
+  },
+  {
+   "page": 3,
+   "obj": 7,
+   "mediabox": [
+    "0.0",
+    "0.0",
+    "841.92004",
+    "595.32001"
+   ],
+   "content_bytes": 2120576,
+   "n_text_runs": 0,
+   "xobjects": []
+  },
+  {
+   "page": 4,
+   "obj": 8,
+   "mediabox": [
+    "0.0",
+    "0.0",
+    "841.92004",
+    "595.32001"
+   ],
+   "content_bytes": 1923801,
+   "n_text_runs": 0,
+   "xobjects": []
+  },
+  {
+   "page": 5,
+   "obj": 9,
+   "mediabox": [
+    "0.0",
+    "0.0",
+    "841.92004",
+    "595.32001"
+   ],
+   "content_bytes": 2373306,
+   "n_text_runs": 0,
+   "xobjects": []
+  },
+  {
+   "page": 6,
+   "obj": 10,
+   "mediabox": [
+    "0.0",
+    "0.0",
+    "841.92004",
+    "595.32001"
+   ],
+   "content_bytes": 2463967,
+   "n_text_runs": 0,
+   "xobjects": []
+  },
+  {
+   "page": 7,
+   "obj": 11,
+   "mediabox": [
+    "0.0",
+    "0.0",
+    "841.92004",
+    "595.32001"
+   ],
+   "content_bytes": 2098260,
+   "n_text_runs": 0,
+   "xobjects": []
+  },
+  {
+   "page": 8,
+   "obj": 12,
+   "mediabox": [
+    "0.0",
+    "0.0",
+    "841.92004",
+    "595.32001"
+   ],
+   "content_bytes": 1992933,
+   "n_text_runs": 0,
+   "xobjects": []
+  },
+  {
+   "page": 9,
+   "obj": 13,
+   "mediabox": [
+    "0.0",
+    "0.0",
+    "841.92004",
+    "595.32001"
+   ],
+   "content_bytes": 2736318,
+   "n_text_runs": 0,
+   "xobjects": []
+  },
+  {
+   "page": 10,
+   "obj": 14,
+   "mediabox": [
+    "0.0",
+    "0.0",
+    "841.92004",
+    "595.32001"
+   ],
+   "content_bytes": 720488,
+   "n_text_runs": 0,
+   "xobjects": []
+  }
+ ],
+ "form_ids": [],
+ "titles_in_dicts": [],
+ "n_rows": 0,
+ "n_codes": 0
+}

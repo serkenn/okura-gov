@@ -1,0 +1,392 @@
+{
+ "inputs": [
+  "scripts/results/IMPL_jigyo_laws/sochi_2025-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/sochi_2026-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/sochi_2027-01-01.txt",
+  "scripts/results/IMPL_jigyo_laws/sochi_2030-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/sochi-rei_2025-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/sochi-rei_2026-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/sochi-rei_2030-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/shotoku_2025-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/shotoku_2026-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/shotoku_2027-01-01.txt",
+  "scripts/results/IMPL_jigyo_laws/shotoku_2030-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/shotoku_2025-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/shotoku_2026-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/shotoku_2027-01-01.txt",
+  "scripts/results/IMPL_jigyo_laws/shotoku_2030-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/shotoku-rei_2025-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/shotoku-rei_2026-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/shotoku-rei_2030-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/shotoku-ki_2025-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/shotoku-ki_2026-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/shotoku-ki_2030-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/shotoku_2025-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/shotoku_2026-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/shotoku_2027-01-01.txt",
+  "scripts/results/IMPL_jigyo_laws/shotoku_2030-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/sochi_2025-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/sochi_2026-12-31.txt",
+  "scripts/results/IMPL_jigyo_laws/sochi_2027-01-01.txt",
+  "scripts/results/IMPL_jigyo_laws/sochi_2030-12-31.txt",
+  "scripts/results/R1_egov_articles/shotoku_2025-12-31.txt",
+  "scripts/results/R1_egov_articles/shotoku_2026-12-01.txt",
+  "scripts/results/IMPL_jigyo_nta/ta_index/ta_1810.txt"
+ ],
+ "checks": {
+  "C1_kanai_amounts": {
+   "sochi27@2025-12-31": [
+    650000
+   ],
+   "sochi27@2026-12-31": [
+    690000
+   ],
+   "sochi27@2027-01-01": [
+    690000
+   ],
+   "sochi27@2030-12-31": [
+    690000
+   ],
+   "sochirei18_2@2025-12-31": [
+    650000
+   ],
+   "sochirei18_2@2026-12-31": [
+    690000
+   ],
+   "sochirei18_2@2030-12-31": [
+    690000
+   ]
+  },
+  "C3_ichiji": {
+   "shotoku34_3@2025-12-31": [
+    500000,
+    500000
+   ],
+   "shotoku22_2_ii_has_half@2025-12-31": true,
+   "shotoku34_3@2026-12-31": [
+    500000,
+    500000
+   ],
+   "shotoku22_2_ii_has_half@2026-12-31": true,
+   "shotoku34_3@2027-01-01": [
+    500000,
+    500000
+   ],
+   "shotoku22_2_ii_has_half@2027-01-01": true,
+   "shotoku34_3@2030-12-31": [
+    500000,
+    500000
+   ],
+   "shotoku22_2_ii_has_half@2030-12-31": true
+  },
+  "C4_thresholds": {
+   "shotoku232_2@2025-12-31": [
+    3000000
+   ],
+   "shotoku45_3@2025-12-31": [
+    3000000
+   ],
+   "shotoku120_shushi@2025-12-31": {
+    "paragraph": 6,
+    "amounts": [
+     10000000
+    ]
+   },
+   "shotoku232_2@2026-12-31": [
+    3000000
+   ],
+   "shotoku45_3@2026-12-31": [
+    3000000
+   ],
+   "shotoku120_shushi@2026-12-31": {
+    "paragraph": 6,
+    "amounts": [
+     10000000
+    ]
+   },
+   "shotoku232_2@2027-01-01": [
+    3000000
+   ],
+   "shotoku45_3@2027-01-01": [
+    3000000
+   ],
+   "shotoku120_shushi@2027-01-01": {
+    "paragraph": 8,
+    "amounts": [
+     10000000
+    ]
+   },
+   "shotoku232_2@2030-12-31": [
+    3000000
+   ],
+   "shotoku45_3@2030-12-31": [
+    3000000
+   ],
+   "shotoku120_shushi@2030-12-31": {
+    "paragraph": 8,
+    "amounts": [
+     10000000
+    ]
+   },
+   "shotokurei196_2@2025-12-31": [
+    3000000
+   ],
+   "shotokurei96_item1_has_zatsu@2025-12-31": true,
+   "shotokurei96_item2_has_zatsu@2025-12-31": false,
+   "shotokurei96_item2_requires_aoiro@2025-12-31": true,
+   "shotokurei196_2@2026-12-31": [
+    3000000
+   ],
+   "shotokurei96_item1_has_zatsu@2026-12-31": true,
+   "shotokurei96_item2_has_zatsu@2026-12-31": false,
+   "shotokurei96_item2_requires_aoiro@2026-12-31": true,
+   "shotokurei196_2@2030-12-31": [
+    3000000
+   ],
+   "shotokurei96_item1_has_zatsu@2030-12-31": true,
+   "shotokurei96_item2_has_zatsu@2030-12-31": false,
+   "shotokurei96_item2_requires_aoiro@2030-12-31": true
+  },
+  "C5_retention": {
+   "shotokuki102_4_years@2025-12-31": [
+    7,
+    5
+   ],
+   "shotokuki102_8_years@2025-12-31": [
+    5
+   ],
+   "shotokuki102_4_years@2026-12-31": [
+    7,
+    5
+   ],
+   "shotokuki102_8_years@2026-12-31": [
+    5
+   ],
+   "shotokuki102_4_years@2030-12-31": [
+    7,
+    5
+   ],
+   "shotokuki102_8_years@2030-12-31": [
+    5
+   ]
+  },
+  "C6_scope": {
+   "shotoku45_1_lists_zatsu@2025-12-31": true,
+   "shotoku37_1_lists_zatsu@2025-12-31": true,
+   "shotoku67_2_present@2025-12-31": true,
+   "shotoku67_1_requires_aoiro@2025-12-31": true,
+   "shotoku35_5_present@2025-12-31": false,
+   "shotoku45_1_lists_zatsu@2026-12-31": true,
+   "shotoku37_1_lists_zatsu@2026-12-31": true,
+   "shotoku67_2_present@2026-12-31": true,
+   "shotoku67_1_requires_aoiro@2026-12-31": true,
+   "shotoku35_5_present@2026-12-31": false,
+   "shotoku45_1_lists_zatsu@2027-01-01": true,
+   "shotoku37_1_lists_zatsu@2027-01-01": true,
+   "shotoku67_2_present@2027-01-01": true,
+   "shotoku67_1_requires_aoiro@2027-01-01": true,
+   "shotoku35_5_present@2027-01-01": true,
+   "shotoku45_1_lists_zatsu@2030-12-31": true,
+   "shotoku37_1_lists_zatsu@2030-12-31": true,
+   "shotoku67_2_present@2030-12-31": true,
+   "shotoku67_1_requires_aoiro@2030-12-31": true,
+   "shotoku35_5_present@2030-12-31": true
+  },
+  "C8_aoiro_amounts": {
+   "sochi25_2@2025-12-31": [
+    100000,
+    550000,
+    650000
+   ],
+   "sochi25_2@2026-12-31": [
+    100000,
+    550000,
+    650000
+   ],
+   "sochi25_2@2027-01-01": [
+    100000,
+    650000,
+    750000,
+    10000000
+   ],
+   "sochi25_2@2030-12-31": [
+    100000,
+    650000,
+    750000,
+    10000000
+   ]
+  },
+  "C9_ta1810_vs_law": {
+   "fuyo_limit_from_law": {
+    "R7": 580000,
+    "R8": 620000
+   },
+   "kanai_amount_from_law": {
+    "R7": 650000,
+    "R8": 690000
+   },
+   "ta1810_amounts_found": [
+    380000,
+    480000,
+    550000,
+    650000,
+    690000,
+    950000,
+    1030000,
+    1040000,
+    1310000,
+    1600000,
+    1730000,
+    10000000
+   ],
+   "R7_only_kanai_income_upper_for_fuyo(=kanai+fuyo)": 1230000,
+   "R7_only_kanai_income_upper_for_no_tax(=kanai+kiso_in_TA)": 1600000,
+   "R8_only_kanai_income_upper_for_fuyo(=kanai+fuyo)": 1310000,
+   "R8_only_kanai_income_upper_for_no_tax(=kanai+kiso_in_TA)": 1730000,
+   "TA_states_R8_131man_for_fuyo": true,
+   "TA_states_R7_160man_for_both_no_tax_and_fuyo": true,
+   "TA_states_R8_173man_for_no_tax": true
+  },
+  "C10_allocation_equivalence_R7base": {
+   "compared": 24120,
+   "equal": 21524,
+   "diff": 2596,
+   "diff_only_when_E_biz_gt_R_biz": true,
+   "examples": [
+    {
+     "R_biz": 50000,
+     "E_biz": 100000,
+     "R_misc": 300000,
+     "E_misc": 0,
+     "salary": 300000,
+     "seirei": [
+      50000,
+      250000
+     ],
+     "nta_sheet": [
+      100000,
+      250000
+     ]
+    },
+    {
+     "R_biz": 50000,
+     "E_biz": 100000,
+     "R_misc": 300000,
+     "E_misc": 100000,
+     "salary": 300000,
+     "seirei": [
+      50000,
+      250000
+     ],
+     "nta_sheet": [
+      100000,
+      250000
+     ]
+    },
+    {
+     "R_biz": 50000,
+     "E_biz": 100000,
+     "R_misc": 300000,
+     "E_misc": 200000,
+     "salary": 300000,
+     "seirei": [
+      50000,
+      250000
+     ],
+     "nta_sheet": [
+      100000,
+      250000
+     ]
+    },
+    {
+     "R_biz": 50000,
+     "E_biz": 100000,
+     "R_misc": 350000,
+     "E_misc": 0,
+     "salary": 300000,
+     "seirei": [
+      50000,
+      250000
+     ],
+     "nta_sheet": [
+      100000,
+      250000
+     ]
+    },
+    {
+     "R_biz": 50000,
+     "E_biz": 100000,
+     "R_misc": 350000,
+     "E_misc": 100000,
+     "salary": 300000,
+     "seirei": [
+      50000,
+      250000
+     ],
+     "nta_sheet": [
+      100000,
+      250000
+     ]
+    }
+   ]
+  },
+  "C11_salary_adjustment_readings": [
+   {
+    "salary_income": 0,
+    "R7_F_literal(65万-所法28③一)": 650000,
+    "R7_F_nta_sheet(65万-給与収入)": 650000,
+    "R8_F_with_sochi29_4(69万-min(74万,収入))": 690000,
+    "R8_F_nta_style(69万-給与収入)": 690000
+   },
+   {
+    "salary_income": 100000,
+    "R7_F_literal(65万-所法28③一)": 0,
+    "R7_F_nta_sheet(65万-給与収入)": 550000,
+    "R8_F_with_sochi29_4(69万-min(74万,収入))": 590000,
+    "R8_F_nta_style(69万-給与収入)": 590000
+   },
+   {
+    "salary_income": 300000,
+    "R7_F_literal(65万-所法28③一)": 0,
+    "R7_F_nta_sheet(65万-給与収入)": 350000,
+    "R8_F_with_sochi29_4(69万-min(74万,収入))": 390000,
+    "R8_F_nta_style(69万-給与収入)": 390000
+   },
+   {
+    "salary_income": 640000,
+    "R7_F_literal(65万-所法28③一)": 0,
+    "R7_F_nta_sheet(65万-給与収入)": 10000,
+    "R8_F_with_sochi29_4(69万-min(74万,収入))": 50000,
+    "R8_F_nta_style(69万-給与収入)": 50000
+   },
+   {
+    "salary_income": 650000,
+    "R7_F_literal(65万-所法28③一)": 0,
+    "R7_F_nta_sheet(65万-給与収入)": 0,
+    "R8_F_with_sochi29_4(69万-min(74万,収入))": 40000,
+    "R8_F_nta_style(69万-給与収入)": 40000
+   },
+   {
+    "salary_income": 690000,
+    "R7_F_literal(65万-所法28③一)": 0,
+    "R7_F_nta_sheet(65万-給与収入)": 0,
+    "R8_F_with_sochi29_4(69万-min(74万,収入))": 0,
+    "R8_F_nta_style(69万-給与収入)": 0
+   },
+   {
+    "salary_income": 700000,
+    "R7_F_literal(65万-所法28③一)": 0,
+    "R7_F_nta_sheet(65万-給与収入)": 0,
+    "R8_F_with_sochi29_4(69万-min(74万,収入))": 0,
+    "R8_F_nta_style(69万-給与収入)": 0
+   },
+   {
+    "salary_income": 740000,
+    "R7_F_literal(65万-所法28③一)": 0,
+    "R7_F_nta_sheet(65万-給与収入)": 0,
+    "R8_F_with_sochi29_4(69万-min(74万,収入))": 0,
+    "R8_F_nta_style(69万-給与収入)": 0
+   }
+  ]
+ }
+}

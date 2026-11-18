@@ -1,0 +1,68 @@
+{
+ "schema_version": "0",
+ "persons": [
+  {"id": "p-h", "birth_on": "1975-04-10"},
+  {"id": "p-w", "birth_on": "1978-09-01"},
+  {"id": "p-s", "birth_on": "2006-03-03"},
+  {"id": "p-c", "birth_on": "2025-12-01"}
+ ],
+ "relations": [
+  {"id": "rel-marriage-hw", "kind": "marriage", "roles": {"spouse_a": "p-h", "spouse_b": "p-w"},
+   "when": {"from_on": "2003-05-01"},
+   "attributes": {"spouse_missing": {"since_on": "2024-02-01", "circumstance": "peril", "peril_ended_on": "2024-02-10"}}},
+  {"id": "rel-parent-hs", "kind": "parentage", "roles": {"parent": "p-h", "child": "p-s"},
+   "when": {"on": "2006-03-03"}, "attributes": {"basis": "birth_in_marriage"}},
+  {"id": "rel-parent-wc", "kind": "parentage", "roles": {"parent": "p-w", "child": "p-c"},
+   "when": {"on": "2025-12-01"}, "attributes": {"basis": "birth_mother"}}
+ ],
+ "residences": [
+  {"id": "res-h", "kind": "resident_record", "roles": {"person": "p-h"}, "when": {"from_on": "2003-05-01"},
+   "attributes": {"municipality_code": "990051", "household_id": "hh-h", "householder": true}}
+ ],
+ "insurance_memberships": [],
+ "facts": [
+  {"id": "f-civil-w", "kind": "civil_status", "roles": {"person": "p-w"}, "when": {"from_on": "2025-01-01"},
+   "attributes": {"japanese_national": false, "designated_activity": "other"}},
+  {"id": "f-leave-w", "kind": "childcare_leave", "roles": {"person": "p-w"}, "when": {"from_on": "2026-01-26", "to_on": "2026-11-30"},
+   "attributes": {"leave_type": "childcare_leave", "counterparty": "架空商事", "child_ids": ["p-c"]}},
+  {"id": "f-enroll-s", "kind": "enrollment", "roles": {"person": "p-s"}, "when": {"from_on": "2024-04-01"},
+   "attributes": {"school_type": "specialized_training_college", "course_division": "postsecondary", "establisher_type": "school_corporation",
+                  "course_certificate": true, "establisher_certificate": false, "enrollment_certificate": true}},
+  {"id": "f-dis-h", "kind": "disability_basis", "roles": {"person": "p-h"}, "when": {"from_on": "2020-01-01"},
+   "attributes": {"basis": "war_injury_certificate", "war_injury_class": "item_3"}},
+  {"id": "f-bonus-h", "kind": "salary_payment", "roles": {"recipient": "p-h"}, "when": {"on": "2026-06-30"},
+   "amounts": {"gross": 500000, "withholding_tax": 0},
+   "attributes": {"counterparty": "架空同族会社", "payment_type": "officer_bonus_by_resolution", "due_on": "2026-06-30",
+                  "resolution_on": "2026-05-20", "amount_fixed_on": "2026-05-25", "payer_withholding_exempt_household": false,
+                  "paid_outside_japan": false, "payer_family_company_officer": true, "interest_or_rent_from_payer": true}},
+  {"id": "f-casualty-h", "kind": "casualty", "roles": {"owner": "p-h"}, "when": {"on": "2026-07-01"},
+   "attributes": {"cause": "storm_or_flood", "disaster_ended_on": "2026-07-05"}},
+  {"id": "f-donation-h", "kind": "donation", "roles": {"donor": "p-h"}, "when": {"on": "2026-10-01"}, "amounts": {"amount": 30000},
+   "attributes": {"recipient_name": "架空市", "recipient_type": "local_government",
+                  "recipient_local_government_code": "990061", "recipient_local_government_kind": "municipality"}},
+  {"id": "f-donation-red", "kind": "donation", "roles": {"donor": "p-h"}, "when": {"on": "2026-10-02"}, "amounts": {"amount": 5000},
+   "attributes": {"recipient_name": "架空の支部", "recipient_type": "japanese_red_cross"}},
+  {"id": "f-broker-h", "kind": "brokerage_annual", "roles": {"holder": "p-h"}, "when": {"tax_year": 2026},
+   "amounts": {"dividends_received": 100000, "withholding_tax": 15315, "dividend_local_tax": 5000, "transfer_local_tax": 0},
+   "attributes": {"account_id": "acct-1", "withholding_elected": true}},
+  {"id": "f-loan-h", "kind": "housing_loan_credit", "roles": {"person": "p-h"}, "when": {"tax_year": 2026},
+   "amounts": {"credit_amount": 120000}, "attributes": {"moved_in_on": "2019-04-01", "acquisition_category": "specified_acquisition"}}
+ ],
+ "assets": [],
+ "filed_documents": [],
+ "judgments": [
+  {"id": "j-casualty-h", "kind": "判断.雑損の計算", "judged_by": {"person": "p-h"}, "judged_at": "2026-08-01T10:00:00+09:00",
+   "subject": {"casualty_id": "f-casualty-h"}, "value": {"unavoidable_circumstances": true}},
+  {"id": "j-business-h", "kind": "判断.事業の休止・重要部分の譲渡", "judged_by": {"person": "p-h"}, "judged_at": "2027-02-01T10:00:00+09:00",
+   "subject": {"person": "p-h"}, "when": {"tax_year": 2026}, "value": "neither"},
+  {"id": "j-income-s", "kind": "見込み.年間収入", "judged_by": {"person": "p-h"}, "judged_at": "2026-04-01T09:00:00+09:00", "mark": "予測",
+   "subject": {"person": "p-s"}, "when": {"on": "2026-04-01"},
+   "value": {"amounts": [{"income_type": "salary", "amount": 600000}, {"income_type": "scholarship_loan", "amount": 480000},
+                         {"income_type": "scholarship_grant", "amount": 120000}]}}
+ ],
+ "choices": [
+  {"id": "c-carryback-h", "kind": "選択.損失申告と繰戻し", "chosen_by": "p-h", "chosen_at": "2027-02-10T10:00:00+09:00",
+   "subject": {"person": "p-h"}, "when": {"tax_year": 2026},
+   "value": {"file_loss_return": true, "carryback_amount": 0, "second_prior_year_carryback_amount": 0}}
+ ]
+}

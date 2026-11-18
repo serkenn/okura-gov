@@ -1,0 +1,68 @@
+{
+  "set": "kokkai",
+  "fetched_at_local": "20261109-201314",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work/downloads/20261109-201314_R3X_dai3go_kokkai",
+  "results": [
+    {
+      "id": "kk_hifuyo_nintei_S61_H06",
+      "url": "https://kokkai.ndl.go.jp/api/speech?any=%E8%A2%AB%E6%89%B6%E9%A4%8A%E9%85%8D%E5%81%B6%E8%80%85+%E8%AA%8D%E5%AE%9A%E5%9F%BA%E6%BA%96&from=1985-01-01&until=1994-12-31&startRecord=1&maximumRecords=100&recordPacking=json",
+      "status": 200,
+      "final_url": "https://kokkai.ndl.go.jp/api/speech?any=%E8%A2%AB%E6%89%B6%E9%A4%8A%E9%85%8D%E5%81%B6%E8%80%85+%E8%AA%8D%E5%AE%9A%E5%9F%BA%E6%BA%96&from=1985-01-01&until=1994-12-31&startRecord=1&maximumRecords=100&recordPacking=json",
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 8807,
+      "sha256": "b91e918ad75059a62b9125a0f7a89fcdea4fc4b791426c89bd0216fe1ed40c94",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work/downloads/20261109-201314_R3X_dai3go_kokkai/kk_hifuyo_nintei_S61_H06.json",
+      "text_chars": 3173,
+      "text_sha256": "15fb0fb10705c74ef9fa1c02e0b613aaf9e5d8dcb3242fdbd6df405598e70968",
+      "text": "scripts/results/R3X_dai3go_fetch/text/20261109-201314_kokkai/kk_hifuyo_nintei_S61_H06.txt"
+    },
+    {
+      "id": "kk_dai3go_130_H04_H06",
+      "url": "https://kokkai.ndl.go.jp/api/speech?any=%E7%AC%AC%E4%B8%89%E5%8F%B7%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85+%E7%99%BE%E4%B8%89%E5%8D%81%E4%B8%87%E5%86%86&from=1992-01-01&until=1994-12-31&startRecord=1&maximumRecords=100&recordPacking=json",
+      "status": 200,
+      "final_url": "https://kokkai.ndl.go.jp/api/speech?any=%E7%AC%AC%E4%B8%89%E5%8F%B7%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85+%E7%99%BE%E4%B8%89%E5%8D%81%E4%B8%87%E5%86%86&from=1992-01-01&until=1994-12-31&startRecord=1&maximumRecords=100&recordPacking=json",
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 3127,
+      "sha256": "93df6a995e196700291defee3fe7d76124557f35fd64e5601c5ef3f5d0679f42",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work/downloads/20261109-201314_R3X_dai3go_kokkai/kk_dai3go_130_H04_H06.json",
+      "text_chars": 1175,
+      "text_sha256": "6258533ff8440f3172ec54940dd347e6634cec3598c9e71381ced29c3e973730",
+      "text": "scripts/results/R3X_dai3go_fetch/text/20261109-201314_kokkai/kk_dai3go_130_H04_H06.txt"
+    },
+    {
+      "id": "kk_dai3go_kijun_all",
+      "url": "https://kokkai.ndl.go.jp/api/speech?any=%E7%AC%AC%E4%B8%89%E5%8F%B7%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85+%E8%AA%8D%E5%AE%9A%E5%9F%BA%E6%BA%96+%E9%80%9A%E7%9F%A5&from=1985-01-01&until=2026-11-08&startRecord=1&maximumRecords=100&recordPacking=json",
+      "status": 200,
+      "final_url": "https://kokkai.ndl.go.jp/api/speech?any=%E7%AC%AC%E4%B8%89%E5%8F%B7%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85+%E8%AA%8D%E5%AE%9A%E5%9F%BA%E6%BA%96+%E9%80%9A%E7%9F%A5&from=1985-01-01&until=2026-11-08&startRecord=1&maximumRecords=100&recordPacking=json",
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 11361,
+      "sha256": "2b31a769e93f039f3a8e7275e94ce50ee35eb5a9ed408c1587c32175d8e0ef4a",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work/downloads/20261109-201314_R3X_dai3go_kokkai/kk_dai3go_kijun_all.json",
+      "text_chars": 3950,
+      "text_sha256": "93369cd87ca81219a713fb113eb0424d043eceb7a49a3b01825d8608acab6d37",
+      "text": "scripts/results/R3X_dai3go_fetch/text/20261109-201314_kokkai/kk_dai3go_kijun_all.txt"
+    },
+    {
+      "id": "kk_hifuyo_haigusha_nintei_all",
+      "url": "https://kokkai.ndl.go.jp/api/speech?any=%E8%A2%AB%E6%89%B6%E9%A4%8A%E9%85%8D%E5%81%B6%E8%80%85%E3%81%AE%E8%AA%8D%E5%AE%9A&from=1985-01-01&until=2026-11-08&startRecord=1&maximumRecords=100&recordPacking=json",
+      "status": 200,
+      "final_url": "https://kokkai.ndl.go.jp/api/speech?any=%E8%A2%AB%E6%89%B6%E9%A4%8A%E9%85%8D%E5%81%B6%E8%80%85%E3%81%AE%E8%AA%8D%E5%AE%9A&from=1985-01-01&until=2026-11-08&startRecord=1&maximumRecords=100&recordPacking=json",
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 13197,
+      "sha256": "86821b89f38bf2cb26c262439f62ecf5e6caf69b89d8e625ae3f1d2bdb3351f5",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work/downloads/20261109-201314_R3X_dai3go_kokkai/kk_hifuyo_haigusha_nintei_all.json",
+      "text_chars": 4823,
+      "text_sha256": "d200d0823ca215cdf86aead91d18bf3d0d1bb2fb38a659b06610297637cae3a7",
+      "text": "scripts/results/R3X_dai3go_fetch/text/20261109-201314_kokkai/kk_hifuyo_haigusha_nintei_all.txt"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+[
+ {
+  "id": "tokyo_kojin_ju",
+  "author_log": "local_20261109-180919.json",
+  "same_sha256": false,
+  "author_last_modified": null,
+  "xcheck_last_modified": null
+ },
+ {
+  "id": "higashiosaka_0000001683",
+  "author_log": "local_20261109-180919.json",
+  "same_sha256": true,
+  "author_last_modified": "Sun, 08 Nov 2026 15:10:20 GMT",
+  "xcheck_last_modified": "Sun, 08 Nov 2026 15:10:20 GMT"
+ },
+ {
+  "id": "yokohama_faq_answer6",
+  "author_log": "local_20261109-180919.json",
+  "same_sha256": true,
+  "author_last_modified": "Wed, 28 Oct 2026 06:16:39 GMT",
+  "xcheck_last_modified": "Wed, 28 Oct 2026 06:16:39 GMT"
+ },
+ {
+  "id": "nenkin_faq_gensen_05",
+  "author_log": "nenkin_20261109-180919.json",
+  "same_sha256": true,
+  "author_last_modified": "Wed, 14 Oct 2026 00:25:47 GMT",
+  "xcheck_last_modified": "Wed, 14 Oct 2026 00:25:47 GMT"
+ },
+ {
+  "id": "nenkin_faq_fuyou_hikazei",
+  "author_log": "nenkin_20261109-180919.json",
+  "same_sha256": true,
+  "author_last_modified": "Wed, 14 Oct 2026 00:25:44 GMT",
+  "xcheck_last_modified": "Wed, 14 Oct 2026 00:25:44 GMT"
+ },
+ {
+  "id": "nenkin_shotokuzeikojo",
+  "author_log": "nenkin_20261109-180919.json",
+  "same_sha256": true,
+  "author_last_modified": "Wed, 14 Oct 2026 00:26:08 GMT",
+  "xcheck_last_modified": "Wed, 14 Oct 2026 00:26:08 GMT"
+ },
+ {
+  "id": "ta_1600_img01",
+  "author_log": "nta_img_20261109-181054.json",
+  "same_sha256": true,
+  "author_last_modified": "Tue, 09 Apr 2024 01:09:24 GMT",
+  "xcheck_last_modified": "Tue, 09 Apr 2024 01:09:24 GMT"
+ },
+ {
+  "id": "ta_1600_img02",
+  "author_log": "nta_img_20261109-181054.json",
+  "same_sha256": true,
+  "author_last_modified": "Tue, 09 Apr 2024 01:09:24 GMT",
+  "xcheck_last_modified": "Tue, 09 Apr 2024 01:09:24 GMT"
+ },
+ {
+  "id": "ta_1600_img03",
+  "author_log": "nta_img_20261109-181054.json",
+  "same_sha256": true,
+  "author_last_modified": "Tue, 09 Apr 2024 01:09:24 GMT",
+  "xcheck_last_modified": "Tue, 09 Apr 2024 01:09:24 GMT"
+ },
+ {
+  "id": "kihon_02_02",
+  "author_log": "nta_kihon_20261109-180919.json",
+  "same_sha256": true,
+  "author_last_modified": "Thu, 18 Jan 2024 09:30:24 GMT",
+  "xcheck_last_modified": "Thu, 18 Jan 2024 09:30:24 GMT"
+ },
+ {
+  "id": "kihon_04_09",
+  "author_log": "nta_kihon_20261109-180919.json",
+  "same_sha256": true,
+  "author_last_modified": "Mon, 25 Nov 2024 05:00:03 GMT",
+  "xcheck_last_modified": "Mon, 25 Nov 2024 05:00:03 GMT"
+ },
+ {
+  "id": "kihon_05_01",
+  "author_log": "nta_kihon_20261109-180919.json",
+  "same_sha256": true,
+  "author_last_modified": "Tue, 25 Nov 2025 08:30:06 GMT",
+  "xcheck_last_modified": "Tue, 25 Nov 2025 08:30:06 GMT"
+ },
+ {
+  "id": "kurashi_03_1",
+  "author_log": "nta_kihon_20261109-180919.json",
+  "same_sha256": true,
+  "author_last_modified": "Thu, 09 Jul 2026 08:30:42 GMT",
+  "xcheck_last_modified": "Thu, 09 Jul 2026 08:30:42 GMT"
+ },
+ {
+  "id": "ta_1600",
+  "author_log": "nta_ta_20261109-180919.json",
+  "same_sha256": true,
+  "author_last_modified": "Wed, 09 Sep 2026 01:00:08 GMT",
+  "xcheck_last_modified": "Wed, 09 Sep 2026 01:00:08 GMT"
+ },
+ {
+  "id": "ta_1605",
+  "author_log": "nta_ta_20261109-180919.json",
+  "same_sha256": true,
+  "author_last_modified": "Wed, 09 Sep 2026 01:00:08 GMT",
+  "xcheck_last_modified": "Wed, 09 Sep 2026 01:00:08 GMT"
+ },
+ {
+  "id": "ta_1500",
+  "author_log": "nta_ta_20261109-180919.json",
+  "same_sha256": true,
+  "author_last_modified": "Wed, 09 Sep 2026 01:00:09 GMT",
+  "xcheck_last_modified": "Wed, 09 Sep 2026 01:00:09 GMT"
+ },
+ {
+  "id": "ta_2011",
+  "author_log": "nta_ta_20261109-180919.json",
+  "same_sha256": true,
+  "author_last_modified": "Wed, 09 Sep 2026 01:00:06 GMT",
+  "xcheck_last_modified": "Wed, 09 Sep 2026 01:00:06 GMT"
+ },
+ {
+  "id": "ta_1180_qa",
+  "author_log": "nta_ta_20261109-180919.json",
+  "same_sha256": true,
+  "author_last_modified": "Wed, 09 Sep 2026 01:00:15 GMT",
+  "xcheck_last_modified": "Wed, 09 Sep 2026 01:00:15 GMT"
+ }
+]

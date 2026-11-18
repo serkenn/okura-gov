@@ -1,0 +1,5 @@
+# fukko-ki 復興特別所得税に関する省令 424M60000040006 asof=2026-12-31
+# law_revision_id=424M60000040006_20260901_506M60000040028 改正法令=令和六年財務省令第二十八号 施行日=2026-09-01 状態=CurrentEnforced
+# 取得URL=https://laws.e-gov.go.jp/api/2/law_data/424M60000040006?response_format=json&asof=2026-12-31
+# 取得日時=20261109-151321
+

@@ -1,0 +1,350 @@
+[
+{
+"href": "https://www.nta.go.jp/",
+"text": "ホーム"
+},
+{
+"href": "https://www.nta.go.jp/taxes/index.htm",
+"text": "税の情報・手続・用紙"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/index.htm",
+"text": "税について調べる"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+"text": "所得税（確定申告書等作成コーナー）"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm#seido",
+"text": "記帳・帳簿等の保存制度"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm#kicho",
+"text": "簡易な方法による記帳"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm#pamphlet",
+"text": "パンフレット・動画"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm#setsumeikai",
+"text": "記帳説明会"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm#shidou",
+"text": "記帳指導"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm#shinkoku",
+"text": "青色申告"
+},
+{
+"href": "https://www.nta.go.jp/publication/pamph/01.htm#a-14",
+"text": "帳簿の提出がない場合等の加算税の加重措置に関するＱ＆Ａ"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/setsumeikai.htm",
+"text": "「記帳説明会のご案内」"
+},
+{
+"href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/toiawase/1679/01.htm",
+"text": "PDFファイルが開けない、印刷できないなどの場合はこちらをご覧ください。"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/kichou02.pdf",
+"text": "事業所得や不動産所得等のある方には帳簿の記帳･保存義務があります！（PDF/480KB）"
+},
+{
+"href": "https://www.nta.go.jp/publication/pamph/pdf/0021010-076.pdf",
+"text": "e-Taxによる申告又は優良な電子帳簿の保存により65万円の青色申告特別控除を適用しましょう！（PDF/660KB）"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/0026004-012.pdf",
+"text": "簡易簿記による10万円の青色申告特別控除を適用している皆様へ（PDF/704KB）"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/0026007-003_01.pdf",
+"text": "事業所得や不動産所得等のある方には帳簿の記帳･保存義務があります！（PDF/663KB）"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/0026007-003_02.pdf",
+"text": "優良な電子帳簿の保存又はデジタルシームレス保存により75万円の青色申告特別控除を適用しましょう！（PDF/933KB）"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/kichou03.pdf",
+"text": "帳簿の記帳のしかた（事業所得者用）（PDF/5,022KB）"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/kichou04.pdf",
+"text": "帳簿の様式例（事業所得者用）（PDF/64KB）"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/kichou04.xlsx",
+"text": "（EXCEL/22KB）"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/kichou05.pdf",
+"text": "帳簿の記帳のしかた（農業所得者用）（PDF/6,007KB）"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/kichou06.pdf",
+"text": "帳簿の様式例（農業所得者用）（PDF/69KB）"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/kichou06.xlsx",
+"text": "（EXCEL/16KB）"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/kichou07.pdf",
+"text": "帳簿の記帳のしかた（不動産所得者用）（PDF/4,801KB）"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/kichou08.pdf",
+"text": "帳簿の様式例（不動産所得者用）（PDF/62KB）"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/kichou08.xlsx",
+"text": "（EXCEL/22KB）"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/kichou09.pdf",
+"text": "白色申告者の決算の手引き（一般用）（PDF/7,387KB）"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/kichou10.pdf",
+"text": "白色申告者の決算の手引き（農業所得用）（PDF/5,040KB）"
+},
+{
+"href": "https://www.youtube.com/playlist?list=PLu9kixYOfBRJioKNzeKppQGcEwS1tTky_",
+"text": "「記帳・決算のしかた」YouTube「国税庁動画チャンネル」（外部サイト）"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/0023005-091_01.pdf",
+"text": "記帳のしかた（青色申告編） YouTube「国税庁動画チャンネル」掲載資料(PDF/3,184KB)"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/0023005-091_02.pdf",
+"text": "記帳のしかた（白色申告編） YouTube「国税庁動画チャンネル」掲載資料(PDF/2,760KB)"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/0025005-084.pdf",
+"text": "記帳のしかた（消費税編） YouTube「国税庁動画チャンネル」掲載資料(PDF/1,542KB)"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/0021012-127_01.pdf",
+"text": "決算のしかた（青色申告編） YouTube「国税庁動画チャンネル」掲載資料(PDF/1,632KB)"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/0021012-127_02.pdf",
+"text": "決算のしかた（白色申告編） YouTube「国税庁動画チャンネル」掲載資料(PDF/1,681KB)"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/0021012-127_03.pdf",
+"text": "決算のしかた（農業所得編） YouTube「国税庁動画チャンネル」掲載資料(PDF/1,678KB)"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/setsumeikai.htm",
+"text": "記帳説明会のご案内"
+},
+{
+"href": "https://www.nta.go.jp/about/organization/access/map.htm",
+"text": "税務署の所在地の案内"
+},
+{
+"href": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=_6DkBnJJi0qvMEVxNh0TRGCrBmuM43hOtIe5XJfEh9BUREVRV1Y1OUtJUEkxMTQwQTFDRVBMOUc3WiQlQCN0PWcu",
+"text": "オンラインによる記帳指導の受講に係る申込フォーム（令和８年度用）"
+},
+{
+"href": "https://www.nta.go.jp/chuijiko/ms365policy.htm",
+"text": "こちら"
+},
+{
+"href": "https://www.nta.go.jp/publication/pamph/shotoku/kichou01.pdf",
+"text": "「はじめてみませんか？青色申告」（パンフレット）（PDF/3,729KB）"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm#page-top",
+"text": "このページの先頭へ"
+},
+{
+"href": "https://www.nta.go.jp/taxes/index.htm",
+"text": "税の情報・手続・用紙"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/index.htm",
+"text": "税について調べる"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm#sidenaviAccordionCollapse1",
+"text": ""
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+"text": "所得税（確定申告書等作成コーナー）"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm",
+"text": "タックスアンサー（よくある税の質問）"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/sodan/index.htm",
+"text": "税の相談"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/index.htm",
+"text": "税目別情報"
+},
+{
+"href": "http://www.rosenka.nta.go.jp/",
+"text": "路線価図・評価倍率表"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/saigai/index.htm",
+"text": "災害関連情報"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/kokusai/index.htm",
+"text": "国際税務関係情報"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shirabekata/info.htm",
+"text": "税についての上手な調べ方"
+},
+{
+"href": "https://www.nta.go.jp/taxes/tetsuzuki/index.htm",
+"text": "申告手続・用紙"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm#sidenaviAccordionCollapse2",
+"text": ""
+},
+{
+"href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/index.htm",
+"text": "申告・申請・届出等、用紙（手続の案内・様式）"
+},
+{
+"href": "https://www.nta.go.jp/taxes/tetsuzuki/mynumberinfo/index.htm",
+"text": "社会保障・税番号制度(マイナンバー)"
+},
+{
+"href": "https://www.nta.go.jp/taxes/nozei/index.htm",
+"text": "納税・納税証明書手続"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm#sidenaviAccordionCollapse3",
+"text": ""
+},
+{
+"href": "https://www.nta.go.jp/taxes/nozei/annai/index.htm",
+"text": "納税に関する総合案内"
+},
+{
+"href": "https://www.nta.go.jp/taxes/nozei/nozei-shomei/01.htm",
+"text": "納税証明書"
+},
+{
+"href": "https://www.nta.go.jp/taxes/nozei/enno-butsuno/01.htm",
+"text": "延納・物納申請等"
+},
+{
+"href": "https://www.nta.go.jp/taxes/nozei/entaizei/keisan/entai.htm",
+"text": "延滞税"
+},
+{
+"href": "https://www.nta.go.jp/taxes/zeirishi/index.htm",
+"text": "税理士に関する情報"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm#sidenaviAccordionCollapse4",
+"text": ""
+},
+{
+"href": "https://www.nta.go.jp/taxes/zeirishi/index.htm#news",
+"text": "新着情報"
+},
+{
+"href": "https://www.nta.go.jp/taxes/zeirishi/zeirishiseido/seido.htm",
+"text": "税理士制度"
+},
+{
+"href": "https://www.nta.go.jp/taxes/zeirishi/zeirishishiken/zeirishi.htm",
+"text": "税理士試験"
+},
+{
+"href": "https://www.nta.go.jp/taxes/zeirishi/chokai/chokai.htm",
+"text": "税理士に関する懲戒処分等"
+},
+{
+"href": "https://www.nta.go.jp/taxes/zeirishi/search/search.htm",
+"text": "税理士をお探しの方"
+},
+{
+"href": "https://www.nta.go.jp/taxes/zeirishi/zeirishiseido/qa.htm",
+"text": "税理士関係法令等・Ｑ＆Ａ"
+},
+{
+"href": "https://www.nta.go.jp/taxes/sake/index.htm",
+"text": "お酒に関する情報"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/index.htm#sidenaviAccordionCollapse5",
+"text": ""
+},
+{
+"href": "https://www.nta.go.jp/taxes/sake/index.htm#syuzei",
+"text": "酒税関係及び各種施策"
+},
+{
+"href": "https://www.nta.go.jp/taxes/sake/index.htm#ippan",
+"text": "一般的な酒税の取扱い"
+},
+{
+"href": "https://www.nta.go.jp/taxes/sake/index.htm#senmonsyuzei",
+"text": "専門的な酒税の取扱い"
+},
+{
+"href": "https://www.nta.go.jp/taxes/sake/index.htm#senmonsodan",
+"text": "専門的な酒税の相談"
+},
+{
+"href": "https://www.nta.go.jp/taxes/sake/index.htm#shinkoku",
+"text": "酒税の申告・納付や届出等"
+},
+{
+"href": "https://www.nta.go.jp/taxes/sake/index.htm#denwa",
+"text": "電話相談センター・税務署の案内"
+},
+{
+"href": "https://www.nta.go.jp/taxes/sake/index.htm#shingikai",
+"text": "審議会等"
+},
+{
+"href": "https://www.nta.go.jp/taxes/sake/index.htm#tokei",
+"text": "統計情報・各種資料"
+},
+{
+"href": "https://www.nta.go.jp/taxes/sake/index.htm#qa",
+"text": "お酒に関するＱ＆Ａ(よくある質問)"
+},
+{
+"href": "https://www.nta.go.jp/taxes/kids/index.htm",
+"text": "税の学習コーナー"
+},
+{
+"href": "https://www.nta.go.jp/",
+"text": "ホーム"
+},
+{
+"href": "https://www.nta.go.jp/taxes/index.htm",
+"text": "税の情報・手続・用紙"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/index.htm",
+"text": "税について調べる"
+},
+{
+"href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+"text": "所得税（確定申告書等作成コーナー）"
+}
+]

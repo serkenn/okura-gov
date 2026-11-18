@@ -1,0 +1,46 @@
+{
+ "set": "keisan",
+ "fetched_at": "20261109-173928",
+ "download_dir": ".work/downloads/20261109-173928_R2X_gaps_web_keisan",
+ "robots": [
+  {
+   "host": "www.keisan.nta.go.jp",
+   "url": "https://www.keisan.nta.go.jp/robots.txt",
+   "status": 404,
+   "sha256": "e2bd8f0bfa6b6105614ebe0c51829c6780393b8668887227bafc56b71fbefc73",
+   "saved": ".work/downloads/20261109-173928_R2X_gaps_web_keisan/robots_www.keisan.nta.go.jp.txt"
+  }
+ ],
+ "items": [
+  {
+   "id": "keisan_r7_kinro_cid472",
+   "url": "https://www.keisan.nta.go.jp/r7yokuaru/cat2/cat22/cat228/cid472.html",
+   "final_url": "https://www.keisan.nta.go.jp/r7yokuaru/cat2/cat22/cat228/cid472.html",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Sun, 08 Nov 2026 22:01:46 GMT",
+   "bytes": 15538,
+   "sha256": "354599d1789671e373aaeb438d3f1d4908b1973ca7526e3c263c5e68861eba00",
+   "saved": ".work/downloads/20261109-173928_R2X_gaps_web_keisan/keisan_r7_kinro_cid472.htm",
+   "title": "【確定申告書等作成コーナー】-勤労学生控除とは",
+   "encoding": "UTF-8",
+   "text_sha256": "1384fe5f82087e33040246f4e038d3b0eeb043f53558f2f0094900ab2915bd48"
+  },
+  {
+   "id": "keisan_r7_kinro_index",
+   "url": "https://www.keisan.nta.go.jp/r7yokuaru/cat2/cat22/cat228/index.html",
+   "final_url": "https://www.keisan.nta.go.jp/r7yokuaru/cat2/cat22/cat228/index.html",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Sun, 08 Nov 2026 22:01:46 GMT",
+   "bytes": 7105,
+   "sha256": "c938400774962ed69647a72532058abe008ee58259190c9f2cb078d19549ced3",
+   "saved": ".work/downloads/20261109-173928_R2X_gaps_web_keisan/keisan_r7_kinro_index.htm",
+   "title": "【確定申告書等作成コーナー】-勤労学生控除",
+   "encoding": "UTF-8",
+   "text_sha256": "3ecb08a1efd1deac44ff35a1e206e5d123e1a71049198b47a17149dc8cacbdc5"
+  }
+ ]
+}

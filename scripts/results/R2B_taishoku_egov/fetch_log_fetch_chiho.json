@@ -1,0 +1,53 @@
+{
+ "run_at": "20261109-181307",
+ "mode": "fetch",
+ "only": [
+  "chiho"
+ ],
+ "download_dir": ".work\\downloads\\20261109-181307_R2B_taishoku_egov_fetch",
+ "fetches": [
+  {
+   "short": "chiho",
+   "law_id": "325AC0000000226",
+   "law_title": "地方税法",
+   "law_num": "昭和二十五年法律第二百二十六号",
+   "asof": "2026-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=json&asof=2026-01-01",
+   "law_revision_id": "325AC0000000226_20260101_507AC0000000041",
+   "amendment_law_num": "令和七年法律第四十一号",
+   "amendment_enforcement_date": "2026-01-01",
+   "current_revision_status": "PreviousEnforced",
+   "sha256": "ba0a40e550be7762907faf5f82a17a14ed9c9e6fd21060f5fc7765e1c1321779",
+   "bytes": 12431689
+  },
+  {
+   "short": "chiho",
+   "law_id": "325AC0000000226",
+   "law_title": "地方税法",
+   "law_num": "昭和二十五年法律第二百二十六号",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=json&asof=2026-11-09",
+   "law_revision_id": "325AC0000000226_20261101_508AC0000000002",
+   "amendment_law_num": "令和八年法律第二号",
+   "amendment_enforcement_date": "2026-11-01",
+   "current_revision_status": "CurrentEnforced",
+   "sha256": "3dd29e0078bf24e09c79436ce7b0f00fd2cfb5a5bbcb97bd4f4352971be68d53",
+   "bytes": 12181725
+  },
+  {
+   "short": "chiho",
+   "law_id": "325AC0000000226",
+   "law_title": "地方税法",
+   "law_num": "昭和二十五年法律第二百二十六号",
+   "asof": "2027-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=json&asof=2027-01-01",
+   "law_revision_id": "325AC0000000226_20270101_508AC0000000002",
+   "amendment_law_num": "令和八年法律第二号",
+   "amendment_enforcement_date": "2027-01-01",
+   "current_revision_status": "UnEnforced",
+   "sha256": "ee21722ce5fd15615bdd5139c9152f55388200c3965ee9c78e10800c82c2b716",
+   "bytes": 12224062
+  }
+ ],
+ "errors": []
+}

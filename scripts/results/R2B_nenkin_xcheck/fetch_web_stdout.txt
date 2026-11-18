@@ -1,0 +1,24 @@
+{"id": "robots_nta", "status": 200, "bytes": 853, "last_modified": "Wed, 18 Mar 2026 05:00:01 GMT", "error": null}
+{"id": "robots_nenkin", "status": 200, "bytes": 149, "last_modified": "Thu, 07 Mar 2019 08:57:52 GMT", "error": null}
+{"id": "robots_tokyo", "status": 200, "bytes": 716, "last_modified": null, "error": null}
+{"id": "robots_higashiosaka", "status": 404, "bytes": 13746, "last_modified": "Fri, 01 Jul 2022 10:40:06 GMT", "error": null}
+{"id": "robots_yokohama", "status": 404, "bytes": 29856, "last_modified": "Sun, 05 Apr 2026 01:28:17 GMT", "error": null}
+{"id": "ta_1600", "status": 200, "bytes": 19985, "last_modified": "Wed, 09 Sep 2026 01:00:08 GMT", "error": null}
+{"id": "ta_1605", "status": 200, "bytes": 15328, "last_modified": "Wed, 09 Sep 2026 01:00:08 GMT", "error": null}
+{"id": "ta_1500", "status": 200, "bytes": 20260, "last_modified": "Wed, 09 Sep 2026 01:00:09 GMT", "error": null}
+{"id": "ta_2011", "status": 200, "bytes": 21290, "last_modified": "Wed, 09 Sep 2026 01:00:06 GMT", "error": null}
+{"id": "ta_1180_qa", "status": 200, "bytes": 22492, "last_modified": "Wed, 09 Sep 2026 01:00:15 GMT", "error": null}
+{"id": "kihon_02_02", "status": 200, "bytes": 12729, "last_modified": "Thu, 18 Jan 2024 09:30:24 GMT", "error": null}
+{"id": "kihon_04_09", "status": 200, "bytes": 12566, "last_modified": "Mon, 25 Nov 2024 05:00:03 GMT", "error": null}
+{"id": "kihon_05_01", "status": 200, "bytes": 27416, "last_modified": "Tue, 25 Nov 2025 08:30:06 GMT", "error": null}
+{"id": "kurashi_03_1", "status": 200, "bytes": 12597, "last_modified": "Thu, 09 Jul 2026 08:30:42 GMT", "error": null}
+{"id": "nenkin_faq_gensen_05", "status": 200, "bytes": 24434, "last_modified": "Wed, 14 Oct 2026 00:25:47 GMT", "error": null}
+{"id": "nenkin_faq_fuyou_hikazei", "status": 200, "bytes": 24578, "last_modified": "Wed, 14 Oct 2026 00:25:44 GMT", "error": null}
+{"id": "nenkin_shotokuzeikojo", "status": 200, "bytes": 27699, "last_modified": "Wed, 14 Oct 2026 00:26:08 GMT", "error": null}
+{"id": "tokyo_kojin_ju", "status": 200, "bytes": 615386, "last_modified": null, "error": null}
+{"id": "higashiosaka_0000001683", "status": 200, "bytes": 26587, "last_modified": "Sun, 08 Nov 2026 15:10:20 GMT", "error": null}
+{"id": "yokohama_faq_answer6", "status": 200, "bytes": 56664, "last_modified": "Wed, 28 Oct 2026 06:16:39 GMT", "error": null}
+{"id": "ta_1600_img01", "status": 200, "bytes": 104673, "last_modified": "Tue, 09 Apr 2024 01:09:24 GMT", "error": null}
+{"id": "ta_1600_img02", "status": 200, "bytes": 104300, "last_modified": "Tue, 09 Apr 2024 01:09:24 GMT", "error": null}
+{"id": "ta_1600_img03", "status": 200, "bytes": 103947, "last_modified": "Tue, 09 Apr 2024 01:09:24 GMT", "error": null}
+done C:\Users\user\Documents\okura-gov\.work\downloads\20261109-183737_R2B_nenkin_xcheck_web

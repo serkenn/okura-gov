@@ -1,0 +1,152 @@
+{
+ "run": "20261109-173443",
+ "name": "discover",
+ "download_dir": ".work/downloads/20261109-173443_R2X_yoshiki_discover",
+ "user_agent": "okura-gov-research/0.1",
+ "delay_sec": 1.5,
+ "robots": [
+  {
+   "robots_url": "https://www.e-tax.nta.go.jp/robots.txt",
+   "status": 404
+  },
+  {
+   "robots_url": "https://www.nta.go.jp/robots.txt",
+   "status": 200,
+   "bytes": 853,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+  }
+ ],
+ "results": [
+  {
+   "url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_layout.htm",
+   "fetched_at": "2026-11-09T17:34:45+0900",
+   "status": 200,
+   "final_url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_layout.htm",
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 9499,
+   "sha256": "13e5f9d9466e7f1c253d8933faa0b49629bf3bca786802c30e514fa92bd876de",
+   "saved": ".work/downloads/20261109-173443_R2X_yoshiki_discover/000_www.e-tax.nta.go.jp_shiyo_ksk2_ksk2_layout.htm",
+   "encoding": "utf-8",
+   "text": "scripts/results/R2X_yoshiki_fetch/20261109-173443_discover/000_www.e-tax.nta.go.jp_shiyo_ksk2_ksk2_layout.htm.txt",
+   "links": "scripts/results/R2X_yoshiki_fetch/20261109-173443_discover/000_www.e-tax.nta.go.jp_shiyo_ksk2_ksk2_layout.htm.links.tsv",
+   "n_links": 10
+  },
+  {
+   "url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_ai-ocr.htm",
+   "fetched_at": "2026-11-09T17:34:45+0900",
+   "status": 200,
+   "final_url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_ai-ocr.htm",
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 9064,
+   "sha256": "dbba5302c95a4c3a2602f59582431b6ec35fb8e0e11c2c19743d6de6cfdc3edc",
+   "saved": ".work/downloads/20261109-173443_R2X_yoshiki_discover/001_www.e-tax.nta.go.jp_shiyo_ksk2_ksk2_ai-ocr.htm",
+   "encoding": "utf-8",
+   "text": "scripts/results/R2X_yoshiki_fetch/20261109-173443_discover/001_www.e-tax.nta.go.jp_shiyo_ksk2_ksk2_ai-ocr.htm.txt",
+   "links": "scripts/results/R2X_yoshiki_fetch/20261109-173443_discover/001_www.e-tax.nta.go.jp_shiyo_ksk2_ksk2_ai-ocr.htm.links.tsv",
+   "n_links": 8
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r08.htm",
+   "fetched_at": "2026-11-09T17:34:48+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/error/404.htm",
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:39:47 GMT",
+   "bytes": 2007,
+   "sha256": "700138cae1f347c2be03b380ba74007e704ceb81fe2a62d547e3559d4b851d55",
+   "saved": ".work/downloads/20261109-173443_R2X_yoshiki_discover/002_www.nta.go.jp_taxes_shiraberu_shinkoku_syotoku_r08.htm",
+   "encoding": "Shift_JIS",
+   "text": "scripts/results/R2X_yoshiki_fetch/20261109-173443_discover/002_www.nta.go.jp_taxes_shiraberu_shinkoku_syotoku_r08.htm.txt",
+   "links": "scripts/results/R2X_yoshiki_fetch/20261109-173443_discover/002_www.nta.go.jp_taxes_shiraberu_shinkoku_syotoku_r08.htm.links.tsv",
+   "n_links": 3
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r07.htm",
+   "fetched_at": "2026-11-09T17:34:51+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r07.htm",
+   "content_type": "text/html",
+   "last_modified": "Tue, 20 Oct 2026 08:30:03 GMT",
+   "bytes": 45317,
+   "sha256": "ff769ff6e512b73df0387db39f5fbc6e58f509fd12f5972e2f84e4117e58ac9f",
+   "saved": ".work/downloads/20261109-173443_R2X_yoshiki_discover/003_www.nta.go.jp_taxes_shiraberu_shinkoku_syotoku_r07.htm",
+   "encoding": "shift_jis",
+   "text": "scripts/results/R2X_yoshiki_fetch/20261109-173443_discover/003_www.nta.go.jp_taxes_shiraberu_shinkoku_syotoku_r07.htm.txt",
+   "links": "scripts/results/R2X_yoshiki_fetch/20261109-173443_discover/003_www.nta.go.jp_taxes_shiraberu_shinkoku_syotoku_r07.htm.links.tsv",
+   "n_links": 223
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/sodan/ai-ocr.xlsx",
+   "fetched_at": "2026-11-09T17:34:53+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/sodan/ai-ocr.xlsx",
+   "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "last_modified": "Thu, 05 Nov 2026 05:00:01 GMT",
+   "bytes": 109168,
+   "sha256": "99af2fe209fe817bef3cee6eb9bc9a3169cbe1a519ff9cba09cdb407817cab0c",
+   "saved": ".work/downloads/20261109-173443_R2X_yoshiki_discover/004_www.nta.go.jp_taxes_shiraberu_sodan_ai-ocr.xlsx"
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/1557_2.htm",
+   "fetched_at": "2026-11-09T17:34:55+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/1557_2.htm",
+   "content_type": "text/html",
+   "last_modified": "Mon, 31 Aug 2026 05:00:02 GMT",
+   "bytes": 110760,
+   "sha256": "cf201c944bcb03d939ab1cff01e1deb9041208888249121c7cfb8b2faa93ecb3",
+   "saved": ".work/downloads/20261109-173443_R2X_yoshiki_discover/005_www.nta.go.jp_taxes_tetsuzuki_shinsei_annai_shinkoku_annai_1557_2.htm",
+   "encoding": "shift_jis",
+   "text": "scripts/results/R2X_yoshiki_fetch/20261109-173443_discover/005_www.nta.go.jp_taxes_tetsuzuki_shinsei_annai_shinkoku_annai_1557_2.htm.txt",
+   "links": "scripts/results/R2X_yoshiki_fetch/20261109-173443_discover/005_www.nta.go.jp_taxes_tetsuzuki_shinsei_annai_shinkoku_annai_1557_2.htm.links.tsv",
+   "n_links": 438
+  },
+  {
+   "url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo3.htm",
+   "fetched_at": "2026-11-09T17:34:57+0900",
+   "status": 200,
+   "final_url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo3.htm",
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 23540,
+   "sha256": "7b0da8d393b10b74674db1cf3bf1892a47eb635417a7f7348fc92d2446f21452",
+   "saved": ".work/downloads/20261109-173443_R2X_yoshiki_discover/006_www.e-tax.nta.go.jp_shiyo_ksk2_ksk2_shiyo3.htm",
+   "encoding": "utf-8",
+   "text": "scripts/results/R2X_yoshiki_fetch/20261109-173443_discover/006_www.e-tax.nta.go.jp_shiyo_ksk2_ksk2_shiyo3.htm.txt",
+   "links": "scripts/results/R2X_yoshiki_fetch/20261109-173443_discover/006_www.e-tax.nta.go.jp_shiyo_ksk2_ksk2_shiyo3.htm.links.tsv",
+   "n_links": 55
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/index.htm",
+   "fetched_at": "2026-11-09T17:34:58+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/index.htm",
+   "content_type": "text/html",
+   "last_modified": "Wed, 04 Mar 2026 08:30:15 GMT",
+   "bytes": 8710,
+   "sha256": "a1093b20b2fe4b6feda660eeb7d6682c2f08ade32e478919f5150d53902a25e8",
+   "saved": ".work/downloads/20261109-173443_R2X_yoshiki_discover/007_www.nta.go.jp_taxes_shiraberu_shinkoku_tebiki_index.htm",
+   "encoding": "utf-8",
+   "text": "scripts/results/R2X_yoshiki_fetch/20261109-173443_discover/007_www.nta.go.jp_taxes_shiraberu_shinkoku_tebiki_index.htm.txt",
+   "links": "scripts/results/R2X_yoshiki_fetch/20261109-173443_discover/007_www.nta.go.jp_taxes_shiraberu_shinkoku_tebiki_index.htm.links.tsv",
+   "n_links": 56
+  },
+  {
+   "url": "https://www.nta.go.jp/law/tsutatsu/menu.htm",
+   "fetched_at": "2026-11-09T17:35:00+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/menu.htm",
+   "content_type": "text/html",
+   "last_modified": "Fri, 06 Nov 2026 08:30:06 GMT",
+   "bytes": 18563,
+   "sha256": "263283b0ffb0f0d454f20ab86cc2d863264074afb02e9cf9f846cde74ba00149",
+   "saved": ".work/downloads/20261109-173443_R2X_yoshiki_discover/008_www.nta.go.jp_law_tsutatsu_menu.htm",
+   "encoding": "UTF-8",
+   "text": "scripts/results/R2X_yoshiki_fetch/20261109-173443_discover/008_www.nta.go.jp_law_tsutatsu_menu.htm.txt",
+   "links": "scripts/results/R2X_yoshiki_fetch/20261109-173443_discover/008_www.nta.go.jp_law_tsutatsu_menu.htm.links.tsv",
+   "n_links": 86
+  }
+ ]
+}

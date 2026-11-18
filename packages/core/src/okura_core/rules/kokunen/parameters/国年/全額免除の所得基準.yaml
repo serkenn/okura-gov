@@ -1,0 +1,41 @@
+description: 全額免除・納付猶予の所得の基準（国民年金法施行令第6条の7・第6条の8、H16経過令第22条・H26経過令第11条で納付猶予に準用）。
+一人当たりの額:
+  description: （扶養親族等の数＋1）に乗じる額
+  metadata:
+    law: 国民年金法施行令第6条の7
+    source_kind: 政令
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#12.2
+  values:
+    2024-01-01:
+      value: 350000
+      metadata:
+        適用: 令和7年度〜（2025-04-01・2026-04-01・2026-11-09 の各版で同じ値：[KHP] §12.2）
+加算額:
+  description: 加算する額
+  metadata:
+    law: 国民年金法施行令第6条の7
+    source_kind: 政令
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#12.2
+  values:
+    2024-01-01:
+      value: 320000
+      metadata:
+        適用: 令和7年度〜（各版で同じ値）
+障害者等の所得の上限:
+  description: 地方税法に定める障害者・寡婦・ひとり親の前年の所得の上限（この額以下。国民年金法第90条第1項第3号）
+  metadata:
+    law: 国民年金法第90条第1項第3号、同施行令第6条の7の2・第6条の8
+    source_kind: 政令
+    unit: 円
+    比較: 以下
+    reference:
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#12.1
+  values:
+    2024-01-01:
+      value: 1350000
+      metadata:
+        適用: 令和7年度〜（[KHP] §12.1 の国年令第6条の8）

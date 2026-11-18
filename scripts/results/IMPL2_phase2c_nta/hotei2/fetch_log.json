@@ -1,0 +1,79 @@
+{
+ "set": "hotei2",
+ "fetched_at": "20261111-150345",
+ "download_dir": ".work/downloads/20261111-150345_IMPL2_phase2c_nta_hotei2",
+ "items": [
+  {
+   "id": "hotei_3_2_0",
+   "url": "https://www.nta.go.jp/publication/pamph/hotei/tebikihtml/3-2-0.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 05 Nov 2026 05:00:11 GMT",
+   "bytes": 7720,
+   "sha256": "326f79a0c5d87562837d9a0d28ef5704ba1f0057d6df553bffc6885b461c706d",
+   "saved": ".work/downloads/20261111-150345_IMPL2_phase2c_nta_hotei2/hotei_3_2_0.htm",
+   "title": "各欄の記載要領｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "hotei_3_2_5",
+   "url": "https://www.nta.go.jp/publication/pamph/hotei/tebikihtml/3-2-5.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 05 Nov 2026 05:00:11 GMT",
+   "bytes": 6493,
+   "sha256": "c1ccfad2d87e72ec0fc5b0e0e193b2196a73c96fc71ac2d5ab97849b4d18ccca",
+   "saved": ".work/downloads/20261111-150345_IMPL2_phase2c_nta_hotei2/hotei_3_2_5.htm",
+   "title": "「支払金額」欄｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "hotei_3_2_6",
+   "url": "https://www.nta.go.jp/publication/pamph/hotei/tebikihtml/3-2-6.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 05 Nov 2026 05:00:11 GMT",
+   "bytes": 6711,
+   "sha256": "e9bcd59f464936447d826666963384eadd454def4a648ad87dccddf2ac2a2bb3",
+   "saved": ".work/downloads/20261111-150345_IMPL2_phase2c_nta_hotei2/hotei_3_2_6.htm",
+   "title": "「源泉徴収税額」欄｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "hotei_4_2_0",
+   "url": "https://www.nta.go.jp/publication/pamph/hotei/tebikihtml/4-2-0.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 05 Nov 2026 05:00:11 GMT",
+   "bytes": 7419,
+   "sha256": "bccac0a5409a48572cce4b2d361e825ea8c91d05f9d8a75755debf411e22991b",
+   "saved": ".work/downloads/20261111-150345_IMPL2_phase2c_nta_hotei2/hotei_4_2_0.htm",
+   "title": "各欄の記載要領｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "hotei_4_2_5",
+   "url": "https://www.nta.go.jp/publication/pamph/hotei/tebikihtml/4-2-5.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 05 Nov 2026 05:00:11 GMT",
+   "bytes": 6579,
+   "sha256": "fc1009980e7bba069cc32b85d535fc6f5a888c4219079fa4e53f343f423e8541",
+   "saved": ".work/downloads/20261111-150345_IMPL2_phase2c_nta_hotei2/hotei_4_2_5.htm",
+   "title": "「支払金額」欄｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "hotei_4_2_6",
+   "url": "https://www.nta.go.jp/publication/pamph/hotei/tebikihtml/4-2-6.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 05 Nov 2026 05:00:11 GMT",
+   "bytes": 6804,
+   "sha256": "b7abe156f64e8181d6ed744de7d3c76b864e08d8c3bd466cea9fc0492c9ba339",
+   "saved": ".work/downloads/20261111-150345_IMPL2_phase2c_nta_hotei2/hotei_4_2_6.htm",
+   "title": "「源泉徴収税額」欄｜国税庁",
+   "encoding": "shift_jis"
+  }
+ ]
+}

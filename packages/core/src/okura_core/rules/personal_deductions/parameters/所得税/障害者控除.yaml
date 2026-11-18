@@ -1,0 +1,41 @@
+description: 障害者控除（所得税法第79条）の額。令和7年分・令和8年分（・令和9年分）で同じ金額（jinteki §1.2）。
+障害者の額:
+  description: 障害者1人の額（本人：第1項、同一生計配偶者・扶養親族：第2項）
+  metadata:
+    law: 所得税法第79条第1項・第2項
+    source_kind: 法律
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md#1.2
+      - docs/measurements/20261109_round2_jinteki-fetch-and-checks.md#3
+  values:
+    2025-01-01:
+      value: 270000
+      metadata:
+        適用: 令和7年分・令和8年分
+特別障害者の額:
+  description: 特別障害者1人の額（第1項・第2項の括弧書き）
+  metadata:
+    law: 所得税法第79条第1項・第2項
+    source_kind: 法律
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md#1.2
+  values:
+    2025-01-01:
+      value: 400000
+      metadata:
+        適用: 令和7年分・令和8年分
+同居特別障害者の額:
+  description: 同一生計配偶者又は扶養親族である特別障害者で、同居を常況としている者1人の額（第3項）
+  metadata:
+    law: 所得税法第79条第3項
+    source_kind: 法律
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md#1.2
+  values:
+    2025-01-01:
+      value: 750000
+      metadata:
+        適用: 令和7年分・令和8年分

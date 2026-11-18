@@ -1,0 +1,93 @@
+[
+ {
+  "file": "000_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_kaisei_260831_pdf_01.pdf",
+  "sha256": "7cca5c45aa393a19cb1d3cca6ac6dd01b05277471e5b28b40e4afb993942228c",
+  "encrypted": true,
+  "Filter": "Standard",
+  "V": "4",
+  "R": "4",
+  "Length": "16",
+  "P": "-1068",
+  "cfm": [
+   "AESV2"
+  ]
+ },
+ {
+  "file": "001_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_kaisei_260831_pdf_02.pdf",
+  "sha256": "5f739ced0904aca420471858debbf1a59f08e0e298cd6ba6c5089e2b01ccd4ab",
+  "encrypted": true,
+  "Filter": "Standard",
+  "V": "4",
+  "R": "4",
+  "Length": "16",
+  "P": "-1068",
+  "cfm": [
+   "AESV2"
+  ]
+ },
+ {
+  "file": "002_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_kaisei_250630_pdf_01.pdf",
+  "sha256": "40b6de59b2fb5bdcb83028f31b32f1049cc970ad1ebdca55b40c598a65c2519d",
+  "encrypted": true,
+  "Filter": "Standard",
+  "V": "4",
+  "R": "4",
+  "Length": "16",
+  "P": "-1068",
+  "cfm": [
+   "AESV2"
+  ]
+ },
+ {
+  "file": "003_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_kaisei_260327_pdf_01.pdf",
+  "sha256": "084cfdb8176d14f53d0906caa9224d6e995fcbd458faa8b42f1c8a76eccd25aa",
+  "encrypted": true,
+  "Filter": "Standard",
+  "V": "5",
+  "R": "6",
+  "Length": "256",
+  "P": "2324",
+  "cfm": [
+   "AESV3"
+  ]
+ },
+ {
+  "file": "004_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_kaisei_251222_pdf_01.pdf",
+  "sha256": "cef7341bcdc17df02e20fa687912c2b7dd29503e8e4345f96b3b99a5cd533e7d",
+  "encrypted": true,
+  "Filter": "Standard",
+  "V": "5",
+  "R": "6",
+  "Length": "256",
+  "P": "2324",
+  "cfm": [
+   "AESV3"
+  ]
+ },
+ {
+  "file": "tebiki_003.pdf",
+  "sha256": "e3a89abd687f659d190e7ae2da9e4554b5b9f52158903345b699c852717c1226",
+  "encrypted": true,
+  "Filter": "Standard",
+  "V": "5",
+  "R": "6",
+  "Length": "256",
+  "P": "2324",
+  "cfm": [
+   "AESV3"
+  ]
+ },
+ {
+  "file": "012_www.nta.go.jp_taxes_shiraberu_shinkoku_tebiki_2025_pdf_037.pdf",
+  "sha256": "77c8ad203bbd04efcacf42c4c8c95a6a098b80784e51df66347812948b578900",
+  "encrypted": true,
+  "Filter": "Standard",
+  "V": "5",
+  "R": "6",
+  "Length": "256",
+  "P": "2324",
+  "cfm": [
+   "AESV3"
+  ]
+ }
+]

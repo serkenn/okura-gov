@@ -1,0 +1,44 @@
+# source=https://www.mhlw.go.jp/web/t_docsrch_keyword?keyword=%E7%AC%AC%E4%B8%89%E5%8F%B7%E8%A2%AB%E4%BF%9D%E9%99%BA%E8%80%85%E3%81%AE%E8%AA%8D%E5%AE%9A&type=1&mode=0
+# fetched_at=20261109-201022
+# charset=UTF-8
+
+結果一覧
+
+検索結果
+
+該当件数: 3件中 1件~ 3件
+
+[form action='??t_docsrch_keyword_ja??' method=None]
+
+		[input name='type' type='hidden' value='1']
+		[input name='page' type='hidden' value='0']
+		[input name='keyword' type='hidden' value='第三号被保険者の認定']
+		[input name='mode' type='hidden' value='0']
+
+			[select name='sort' type=None value=None]
+				並べ替え順序選択
+				制定年月日 新しい順
+				制定年月日 古い順
+				改正年月日 新しい順
+				改正年月日 古い順
+
+				 | 件名
+				 |
+					制定年月日
+
+				 | 種別・番号
+
+				 | ・国民年金法等の一部を改正する法律の施行に係る国民年金関係の事前準備事務の実施について
+				 ⟨別ウィンドウが開きます⟩
+				 | ◆昭和60年10月12日
+				 | 庁保発第30号
+
+				 | ・国民年金法等の一部を改正する法律等による改正後の国民年金法等の施行について（抄）
+				 ⟨別ウィンドウが開きます⟩
+				 | ◆昭和61年03月31日
+				 | 庁保発第12号
+
+				 | ・地方分権の推進を図るための関係法律の整備等に関する法律等の施行に伴う国民年金事務の移行時における取扱いについて
+				 ⟨別ウィンドウが開きます⟩
+				 | ◆平成12年02月28日
+				 | 庁保険発第7号

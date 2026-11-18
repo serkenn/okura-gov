@@ -1,0 +1,48 @@
+{
+ "run_at": "20261109-150604",
+ "download_dir": ".work\\downloads\\20261109-150604_IMPL_zeigaku_laws2",
+ "fetches": [
+  {
+   "short": "shotoku-r9",
+   "title": "所得税法",
+   "law_id": "340AC0000000033",
+   "asof": "2027-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=json&asof=2027-01-01",
+   "law_revision_id": "340AC0000000033_20270101_508AC0000000012",
+   "amendment_enforcement_date": "2027-01-01",
+   "current_revision_status": "UnEnforced",
+   "picked": [
+    [
+     "本則",
+     "120"
+    ],
+    [
+     "附則 令和八年三月三一日法律第一二号",
+     "1"
+    ],
+    [
+     "附則 令和八年三月三一日法律第一二号",
+     "10"
+    ]
+   ]
+  },
+  {
+   "short": "shotoku-rei-r9",
+   "title": "所得税法施行令",
+   "law_id": "340CO0000000096",
+   "asof": "2027-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096?response_format=json&asof=2027-01-01",
+   "law_revision_id": "340CO0000000096_20270101_508CO0000000093",
+   "amendment_enforcement_date": "2027-01-01",
+   "current_revision_status": "UnEnforced",
+   "picked": [
+    [
+     "本則",
+     "262"
+    ]
+   ]
+  }
+ ],
+ "keyword": [],
+ "errors": []
+}

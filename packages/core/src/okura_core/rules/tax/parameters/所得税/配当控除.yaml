@@ -1,0 +1,86 @@
+description: >-
+  配当控除（所得税法第92条第1項）の基準額と率。第92条は令和7年分・令和8年分で同文
+  （docs/public-sources/20261111_impl-research_haito-laws-and-nta.md の前書き）。率の1円未満の端数は calc.HAITO_FLOOR。
+課税総所得金額等の基準:
+  description: 第1号〜第3号の区分の基準（「千万円」）
+  metadata: &art92
+    law: 所得税法第92条第1項第1号〜第3号
+    source_kind: 法律
+    reference:
+      - docs/public-sources/20261111_impl-research_haito-laws-and-nta.md#2
+      - docs/measurements/20261111_impl-research_phase2c-fetch-and-checks.md#5
+  values:
+    2025-01-01:
+      value: 10000000
+      metadata: &same
+        適用: 令和7年分・令和8年分・2027-01-01 の版で第92条は同文。この規定を設けた改正法と当初の施行日は docs で確かめていない
+剰余金の配当等の率:
+  分子:
+    description: 剰余金の配当等に係る配当所得の控除率の分子（百分の十）
+    metadata: *art92
+    values:
+      2025-01-01: {value: 10, metadata: *same}
+  分母:
+    description: 同じ率の分母
+    metadata: *art92
+    values:
+      2025-01-01: {value: 100, metadata: *same}
+剰余金の配当等の低い率:
+  分子:
+    description: 課税総所得金額等が千万円を超える部分の剰余金の配当等の控除率の分子（百分の五）
+    metadata: *art92
+    values:
+      2025-01-01: {value: 5, metadata: *same}
+  分母:
+    description: 同じ率の分母
+    metadata: *art92
+    values:
+      2025-01-01: {value: 100, metadata: *same}
+証券投資信託の率:
+  分子:
+    description: 証券投資信託の収益の分配に係る配当所得の控除率の分子（百分の五）
+    metadata: *art92
+    values:
+      2025-01-01: {value: 5, metadata: *same}
+  分母:
+    description: 同じ率の分母
+    metadata: *art92
+    values:
+      2025-01-01: {value: 100, metadata: *same}
+証券投資信託の低い率:
+  分子:
+    description: 課税総所得金額等が千万円を超える部分の証券投資信託の収益の分配の控除率の分子（百分の二・五）
+    metadata: *art92
+    values:
+      2025-01-01: {value: 25, metadata: *same}
+  分母:
+    description: 同じ率の分母（百分の二・五を 25/1000 で表す）
+    metadata: *art92
+    values:
+      2025-01-01: {value: 1000, metadata: *same}
+一般外貨建等証券投資信託の率:
+  分子:
+    description: 一般外貨建等証券投資信託の収益の分配に係る配当所得の控除率の分子（百分の二・五。措法9④ の第1号ロ・第2号ロの読替え）
+    metadata: &art9
+      law: 租税特別措置法第9条第4項（所得税法第92条第1項の読替え）
+      source_kind: 法律
+      reference:
+        - docs/public-sources/20261111_impl-research_haito-laws-and-nta.md#3.1
+    values:
+      2025-01-01: {value: 25, metadata: &same9 {適用: 措法の 2025-12-31・2026-11-11・2026-12-31・2027-01-01 の版で第9条第4項は同文。この規定を設けた改正法と当初の施行日は docs で確かめていない}}
+  分母:
+    description: 同じ率の分母（百分の二・五を 25/1000 で表す）
+    metadata: *art9
+    values:
+      2025-01-01: {value: 1000, metadata: *same9}
+一般外貨建等証券投資信託の低い率:
+  分子:
+    description: 課税総所得金額等が千万円を超える部分の一般外貨建等証券投資信託の収益の分配の控除率の分子（百分の一・二五。措法9④ の第2号ロ・第3号ロ）
+    metadata: *art9
+    values:
+      2025-01-01: {value: 125, metadata: *same9}
+  分母:
+    description: 同じ率の分母（百分の一・二五を 125/10000 で表す）
+    metadata: *art9
+    values:
+      2025-01-01: {value: 10000, metadata: *same9}

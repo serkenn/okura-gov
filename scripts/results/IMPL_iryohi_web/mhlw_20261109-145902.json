@@ -1,0 +1,95 @@
+{
+  "set": "mhlw",
+  "fetched_at_local": "20261109-145902",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "mhlw_qa_r080807",
+      "url": "https://www.mhlw.go.jp/content/10800000/001461529.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/10800000/001461529.pdf",
+      "content_type": "application/pdf",
+      "bytes": 233415,
+      "sha256": "eb9687525fa06bfc4562ccc7587498077f11a8025ed37b811bbb7c689e40873e",
+      "last_modified": "Fri, 07 Aug 2026 06:02:42 GMT",
+      "saved": ".work/downloads/20261109-145902_IMPL_iryohi_mhlw/mhlw_qa_r080807.pdf"
+    },
+    {
+      "id": "mhlw_receipt_jimurenraku",
+      "url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-10800000-Iseikyoku/0000138818.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/file/06-Seisakujouhou-10800000-Iseikyoku/0000138818.pdf",
+      "content_type": "application/pdf",
+      "bytes": 54729,
+      "sha256": "637744ffcf004242c308b268ba50172cb3bd6e7e0681c3a2cfdeb3381bee8185",
+      "last_modified": "Mon, 18 Jun 2018 22:11:58 GMT",
+      "saved": ".work/downloads/20261109-145902_IMPL_iryohi_mhlw/mhlw_receipt_jimurenraku.pdf"
+    },
+    {
+      "id": "mhlw_exclude_r071231",
+      "url": "https://www.mhlw.go.jp/content/10800000/001596290.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/10800000/001596290.pdf",
+      "content_type": "application/pdf",
+      "bytes": 196325,
+      "sha256": "d3afa5c50eaba4c5c87f2b526f496747b3323e94b0cc79742448ab3efea17201",
+      "last_modified": "Mon, 17 Nov 2025 10:00:35 GMT",
+      "saved": ".work/downloads/20261109-145902_IMPL_iryohi_mhlw/mhlw_exclude_r071231.pdf"
+    },
+    {
+      "id": "mhlw_kokuji178_switch",
+      "url": "https://www.mhlw.go.jp/content/10800000/001750283.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/10800000/001750283.pdf",
+      "content_type": "application/pdf",
+      "bytes": 60798,
+      "sha256": "3e99d5ee21079a37755dcfda9bee8d8afffe1f02a4f2ed11906a71c495532ad4",
+      "last_modified": "Wed, 16 Sep 2026 02:16:55 GMT",
+      "saved": ".work/downloads/20261109-145902_IMPL_iryohi_mhlw/mhlw_kokuji178_switch.pdf"
+    },
+    {
+      "id": "mhlw_kokuji251_nonswitch",
+      "url": "https://www.mhlw.go.jp/content/10800000/001750284.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/10800000/001750284.pdf",
+      "content_type": "application/pdf",
+      "bytes": 46349,
+      "sha256": "806bfbd74af27cdb76b335b823d38b02fa6324a220df4652e7c77644d0196f68",
+      "last_modified": "Wed, 16 Sep 2026 02:16:56 GMT",
+      "saved": ".work/downloads/20261109-145902_IMPL_iryohi_mhlw/mhlw_kokuji251_nonswitch.pdf"
+    },
+    {
+      "id": "mhlw_kokuji251_nonswitch_r9",
+      "url": "https://www.mhlw.go.jp/content/10800000/001750285.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/10800000/001750285.pdf",
+      "content_type": "application/pdf",
+      "bytes": 82171,
+      "sha256": "122ec42e83b7f967134b3d79909d0da23c99b0adba7cdc851ae63fd6ca996d78",
+      "last_modified": "Fri, 02 Oct 2026 06:29:45 GMT",
+      "saved": ".work/downloads/20261109-145902_IMPL_iryohi_mhlw/mhlw_kokuji251_nonswitch_r9.pdf"
+    },
+    {
+      "id": "mhlw_kokuji307_kensa_r9",
+      "url": "https://www.mhlw.go.jp/content/10800000/001750286.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/10800000/001750286.pdf",
+      "content_type": "application/pdf",
+      "bytes": 31082,
+      "sha256": "59e9d54b9b6ca79f6ec4282ac4395c6786e87fc9d722c1daae42a93208f70c1c",
+      "last_modified": "Fri, 02 Oct 2026 06:29:47 GMT",
+      "saved": ".work/downloads/20261109-145902_IMPL_iryohi_mhlw/mhlw_kokuji307_kensa_r9.pdf"
+    },
+    {
+      "id": "mhlw_r8kaisei_todokede",
+      "url": "https://www.mhlw.go.jp/content/10800000/001741727.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/10800000/001741727.pdf",
+      "content_type": "application/pdf",
+      "bytes": 71097,
+      "sha256": "90344f6c021d9fe858a13dcdb3d273e5bc226c7e0fc13f994be5ed1550d24f30",
+      "last_modified": "Mon, 24 Aug 2026 02:02:54 GMT",
+      "saved": ".work/downloads/20261109-145902_IMPL_iryohi_mhlw/mhlw_r8kaisei_todokede.pdf"
+    }
+  ]
+}

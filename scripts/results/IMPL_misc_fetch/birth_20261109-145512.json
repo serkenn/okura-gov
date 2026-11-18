@@ -1,0 +1,427 @@
+{
+  "set": "birth",
+  "fetched_at_local": "20261109-145512",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work\\downloads\\20261109-145512_IMPL_misc_birth",
+  "text_dir": ".work\\text\\20261109-145512_IMPL_misc_birth",
+  "results": [
+    {
+      "id": "form_r07_fuyo",
+      "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2025bun_01.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2025bun_01.pdf",
+      "content_type": "application/pdf",
+      "bytes": 764201,
+      "sha256": "1d3e1ebea76a108be2f90b6babf7bd923eeaae697aef1c1df801133d4e7ec00d",
+      "last_modified": "Tue, 24 Sep 2024 08:30:06 GMT",
+      "etag": "\"ba929-622d9501332b8\"",
+      "saved": ".work\\downloads\\20261109-145512_IMPL_misc_birth\\form_r07_fuyo.pdf"
+    },
+    {
+      "id": "form_r07_fuyo_1",
+      "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2025bun_01-1.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2025bun_01-1.pdf",
+      "content_type": "application/pdf",
+      "bytes": 645100,
+      "sha256": "528a683c42452df258bf6a87760117757d175b2fc4dc7fafb7e45c98decf615e",
+      "last_modified": "Tue, 01 Oct 2024 05:00:01 GMT",
+      "etag": "\"9d7ec-62363319d49b0\"",
+      "saved": ".work\\downloads\\20261109-145512_IMPL_misc_birth\\form_r07_fuyo_1.pdf"
+    },
+    {
+      "id": "form_r07_fuyo_kisai",
+      "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2025bun_02.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2025bun_02.pdf",
+      "content_type": "application/pdf",
+      "bytes": 4850320,
+      "sha256": "b88eae10c779623688d62c43e7b22a25e548c422ec39735a9f6938e3252033af",
+      "last_modified": "Tue, 24 Sep 2024 08:30:06 GMT",
+      "etag": "\"4a0290-622d95010d928\"",
+      "saved": ".work\\downloads\\20261109-145512_IMPL_misc_birth\\form_r07_fuyo_kisai.pdf"
+    },
+    {
+      "id": "form_r08_fuyo",
+      "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_01.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_01.pdf",
+      "content_type": "application/pdf",
+      "bytes": 1177114,
+      "sha256": "15bae0d3fbca3dde48ebd2db2851af37eefee0f1e2ae682b9313e9d2e3fb427c",
+      "last_modified": "Wed, 03 Sep 2025 08:30:03 GMT",
+      "etag": "\"11f61a-63de169463668\"",
+      "saved": ".work\\downloads\\20261109-145512_IMPL_misc_birth\\form_r08_fuyo.pdf"
+    },
+    {
+      "id": "form_r08_fuyo_kisai",
+      "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_02.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/error/404.htm",
+      "content_type": "text/html",
+      "bytes": 2007,
+      "sha256": "700138cae1f347c2be03b380ba74007e704ceb81fe2a62d547e3559d4b851d55",
+      "last_modified": "Thu, 18 Jan 2024 09:39:47 GMT",
+      "etag": "\"7d7-60f3524e648f8\"",
+      "saved": ".work\\downloads\\20261109-145512_IMPL_misc_birth\\form_r08_fuyo_kisai.html",
+      "charset": "Shift_JIS",
+      "title": "指定されたページを表示できませんでした",
+      "text_chars": 264,
+      "text": ".work\\text\\20261109-145512_IMPL_misc_birth\\form_r08_fuyo_kisai.txt",
+      "n_links": 2,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "form_page_1648_01",
+      "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/annai/1648_01.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/annai/1648_01.htm",
+      "content_type": "text/html",
+      "bytes": 15013,
+      "sha256": "578e964143bde65d7f4166708938f74ef18eb822013541d0038708d56779705d",
+      "last_modified": "Fri, 16 Oct 2026 08:30:06 GMT",
+      "etag": "\"3aa5-65df0f8b704b0\"",
+      "saved": ".work\\downloads\\20261109-145512_IMPL_misc_birth\\form_page_1648_01.html",
+      "charset": "shift_jis",
+      "title": "A2-1 給与所得者の扶養控除等の（異動）申告｜国税庁",
+      "text_chars": 3579,
+      "text": ".work\\text\\20261109-145512_IMPL_misc_birth\\form_page_1648_01.txt",
+      "n_links": 68,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [
+          {
+            "line_no": 35,
+            "text": "※簡易な扶養控除等申告書を提出する場合は、次の【簡易対応様式】をご利用いただくこともできます。"
+          },
+          {
+            "line_no": 42,
+            "text": "※簡易な扶養控除等申告書を提出する場合は、次の【簡易対応様式】をご利用いただくこともできます。"
+          },
+          {
+            "line_no": 53,
+            "text": "なお、適用される税額表が日額表の丙欄とされる人は、この申告書を提出する必要はありません。"
+          }
+        ],
+        "age_rule": []
+      },
+      "pdf_links": [
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2027bun_01.pdf",
+          "text": "令和９年分給与所得者の扶養控除等（異動）申告書（PDF/711KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2027bun_01_input.pdf",
+          "text": "入力用（PDF/1,444KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/309.pdf",
+          "text": "≪記載例≫令和９年分給与所得者の扶養控除等（異動）申告書（PDF/1,107KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2027bun_01-1.pdf",
+          "text": "【簡易対応様式】令和９年分給与所得者の扶養控除等（異動）申告書（PDF/816KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2027bun_01-1_input.pdf",
+          "text": "入力用（PDF/1,559KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2027bun_02-2.pdf",
+          "text": "≪記載例≫令和９年分給与所得者の扶養控除等（異動）申告書（簡易な申告書）（PDF/995KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_01.pdf",
+          "text": "令和８年分給与所得者の扶養控除等（異動）申告書（PDF/1,135KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_01_input.pdf",
+          "text": "入力用（PDF/2,167KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/publication/pamph/gensen/nencho2025/pdf/309.pdf",
+          "text": "≪記載例≫令和８年分給与所得者の扶養控除等（異動）申告書（PDF/2,052KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_01-1.pdf",
+          "text": "【簡易対応様式】令和８年分給与所得者の扶養控除等（異動）申告書（PDF/1,264KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_01-1_input.pdf",
+          "text": "入力用（PDF/2,295KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_02-2.pdf",
+          "text": "≪記載例≫令和８年分給与所得者の扶養控除等（異動）申告書（簡易な申告書）（PDF/1,448KB）"
+        }
+      ]
+    },
+    {
+      "id": "form_page_1648_73",
+      "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/annai/1648_73.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/annai/1648_73.htm",
+      "content_type": "text/html",
+      "bytes": 13885,
+      "sha256": "6560c1d1e04c3613b7b89cad085d9ebdb1d7983198b29955df2335c0f5a5bd19",
+      "last_modified": "Fri, 16 Oct 2026 08:30:06 GMT",
+      "etag": "\"363d-65df0f8b1c108\"",
+      "saved": ".work\\downloads\\20261109-145512_IMPL_misc_birth\\form_page_1648_73.html",
+      "charset": "shift_jis",
+      "title": "A2-4 給与所得者の基礎控除、配偶者（特別）控除、特定親族特別控除及び所得金額調整控除の申告｜国税庁",
+      "text_chars": 3141,
+      "text": ".work\\text\\20261109-145512_IMPL_misc_birth\\form_page_1648_73.txt",
+      "n_links": 64,
+      "matches": {
+        "birth_range": [
+          {
+            "line_no": 24,
+            "text": "※　令和８年分の様式は、令和８年12月１日以後に行う年末調整において使用します。"
+          },
+          {
+            "line_no": 25,
+            "text": "令和８年分の所得税について、令和８年11月30日以前に年末調整を行う場合には、令和７年分の様式を補正して使用する等してください。"
+          }
+        ],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": [
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_06.pdf",
+          "text": "令和８年分給与所得者の基礎控除申告書兼給与所得者の配偶者控除等申告書兼給与所得者の特定親族特別控除申告書兼所得金額調整控除申告書（PDF/595KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_06_input.pdf",
+          "text": "入力用（PDF/1,239KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/306.pdf",
+          "text": "≪記載例≫令和８年分給与所得者の基礎控除申告書兼給与所得者の配偶者控除等申告書兼給与所得者の特定親族特別控除申告書兼所得金額調整控除申告書（PDF/1,330KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2025bun_06.pdf",
+          "text": "令和７年分給与所得者の基礎控除申告書兼給与所得者の配偶者控除等申告書兼給与所得者の特定親族特別控除申告書兼所得金額調整控除申告書（PDF/1,235KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2025bun_06_input.pdf",
+          "text": "入力用（PDF/2,224KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/publication/pamph/gensen/nencho2025/pdf/306.pdf",
+          "text": "≪記載例≫令和７年分給与所得者の基礎控除申告書兼給与所得者の配偶者控除等申告書兼給与所得者の特定親族特別控除申告書兼所得金額調整控除申告書（PDF/4,388KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/205.pdf",
+          "text": "合計所得金額の計算について（令和８年分）（PDF/741KB）"
+        }
+      ]
+    },
+    {
+      "id": "shinkokusyo_index",
+      "url": "https://www.nta.go.jp/users/gensen/nencho/shinkokusyo/index.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/users/gensen/nencho/shinkokusyo/index.htm",
+      "content_type": "text/html",
+      "bytes": 14466,
+      "sha256": "3fdfcbe7248226f0d344018c5931be747ce4a3c9d2ad30a866cd89d1c1cc125a",
+      "last_modified": "Fri, 16 Oct 2026 08:30:02 GMT",
+      "etag": "\"3882-65df0f87a26a8\"",
+      "saved": ".work\\downloads\\20261109-145512_IMPL_misc_birth\\shinkokusyo_index.html",
+      "charset": "shift_jis",
+      "title": "各種申告書・記載例（扶養控除等申告書など）｜国税庁",
+      "text_chars": 3138,
+      "text": ".work\\text\\20261109-145512_IMPL_misc_birth\\shinkokusyo_index.txt",
+      "n_links": 52,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": [
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_01.pdf",
+          "text": "令和８年分扶養控除等（異動）申告書（PDF/1,135KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_01_input.pdf",
+          "text": "入力用（PDF/2,167KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/305.pdf",
+          "text": "《記載例》令和８年分扶養控除等申告書（PDF/2,052KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2027bun_01.pdf",
+          "text": "令和９年分扶養控除等（異動）申告書（PDF/697KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2027bun_01_input.pdf",
+          "text": "入力用（PDF/1,438KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/309.pdf",
+          "text": "《記載例》令和９年分扶養控除等申告書（PDF/1,107KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2027bun_01-1.pdf",
+          "text": "【簡易対応様式】令和９年分扶養控除等（異動）申告書（PDF/816KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2027bun_01-1_input.pdf",
+          "text": "入力用（PDF/2,295KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2027bun_02-2.pdf",
+          "text": "《記載例》令和９年分扶養控除等申告書(簡易な申告書)（PDF/995KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/publication/pamph/pdf/0024005-130_01.pdf",
+          "text": "簡易な扶養控除等申告書に関するFAQ（源泉所得税関係）（PDF/473KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_06.pdf",
+          "text": "令和８年分基礎控除申告書兼配偶者控除等申告書兼特定親族特別控除申告書兼所得金額調整控除申告書（PDF/605KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_06_input.pdf",
+          "text": "入力用（PDF/1,239KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/306.pdf",
+          "text": "《記載例》令和８年分基礎控除申告書兼配偶者控除等申告書兼特定親族特別控除申告書兼所得金額調整控除申告書（PDF/1,330KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_04.pdf",
+          "text": "令和８年分保険料控除申告書（PDF/823KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_04_input.pdf",
+          "text": "入力用（PDF/2,359KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/307.pdf",
+          "text": "《記載例》令和８年分保険料控除申告書（PDF/1,413KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/308.pdf",
+          "text": "《記載例》給与所得者の住宅借入金等特別控除申告書兼住宅借入金等特別控除計算明細書の記載例（PDF/5,524KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_03.pdf",
+          "text": "令和８年分源泉徴収簿（PDF/1,015KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_03_input.pdf",
+          "text": "入力用（PDF/2,053KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2027bun_03.pdf",
+          "text": "令和９年分源泉徴収簿（PDF/409KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2027bun_03_input.pdf",
+          "text": "入力用（PDF/1,519KB）"
+        },
+        {
+          "href": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/302_en.pdf",
+          "text": "《英語版》年末調整では、勤務先に「各種申告書」を提出することで、いろいろな控除が受けられます。（給与所得者用リーフレット）（PDF/181KB）"
+        }
+      ]
+    },
+    {
+      "id": "tebiki2025_yogo_y13",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y13.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y13.htm",
+      "content_type": "text/html",
+      "bytes": 8579,
+      "sha256": "83cc42e4c564066069119725c3001c6f58d822210e3602b3cdb2c6ffda05b773",
+      "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+      "etag": "\"2183-646ae77dad5a0\"",
+      "saved": ".work\\downloads\\20261109-145512_IMPL_misc_birth\\tebiki2025_yogo_y13.html",
+      "charset": "shift_jis",
+      "title": "◆控除対象扶養親族｜国税庁",
+      "text_chars": 1306,
+      "text": ".work\\text\\20261109-145512_IMPL_misc_birth\\tebiki2025_yogo_y13.txt",
+      "n_links": 46,
+      "matches": {
+        "birth_range": [
+          {
+            "line_no": 8,
+            "text": "扶養親族のうち、平成22年1月1日以前に生まれた方（年齢が16歳以上の方）"
+          },
+          {
+            "line_no": 10,
+            "text": "● 平成８年１月２日から平成22年１月１日の間に生まれた方（年齢が16歳以上30歳未満の方）"
+          },
+          {
+            "line_no": 11,
+            "text": "● 昭和31年１月１日以前に生まれた方（年齢が70歳以上の方）"
+          },
+          {
+            "line_no": 12,
+            "text": "● 昭和31年１月２日から平成８年１月１日の間に生まれて（年齢が30歳以上70歳未満）留学により国外に住所及び居所を有しなくなった方"
+          },
+          {
+            "line_no": 13,
+            "text": "● 昭和31年１月２日から平成８年１月１日の間に生まれて（年齢が30歳以上70歳未満）障害者である方"
+          },
+          {
+            "line_no": 14,
+            "text": "● 昭和31年１月２日から平成８年１月１日の間に生まれて（年齢が30歳以上70歳未満）あなたから令和７年中において生活費又は教育費に充てるための支払を38万円以上受けている方"
+          }
+        ],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "nencho2026_105",
+      "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/105.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/105.pdf",
+      "content_type": "application/pdf",
+      "bytes": 1063580,
+      "sha256": "9460af44b13c8651c3a7bcb3f770946397793fcd4f0db19b2e7e8d612e4188f5",
+      "last_modified": "Thu, 24 Sep 2026 08:30:11 GMT",
+      "etag": "\"103a9c-65c3668836d68\"",
+      "saved": ".work\\downloads\\20261109-145512_IMPL_misc_birth\\nencho2026_105.pdf"
+    },
+    {
+      "id": "nencho2025_105",
+      "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2025/pdf/105.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2025/pdf/105.pdf",
+      "content_type": "application/pdf",
+      "bytes": 1077260,
+      "sha256": "f69eda756f726c1ac4a6dc1773924e87cfccbd5ae83c3ce67f211e5c96a9d747",
+      "last_modified": "Wed, 03 Sep 2025 08:30:05 GMT",
+      "etag": "\"10700c-63de1696ad568\"",
+      "saved": ".work\\downloads\\20261109-145512_IMPL_misc_birth\\nencho2025_105.pdf"
+    },
+    {
+      "id": "nencho2026_304",
+      "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/304.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/304.pdf",
+      "content_type": "application/pdf",
+      "bytes": 6823497,
+      "sha256": "e9703c946a1f0bb622f301fc2eb2aef8224018864f0ea7d07000757a3cb9e7f2",
+      "last_modified": "Mon, 05 Oct 2026 01:00:04 GMT",
+      "etag": "\"681e49-65d0d66fc1738\"",
+      "saved": ".work\\downloads\\20261109-145512_IMPL_misc_birth\\nencho2026_304.pdf"
+    }
+  ]
+}

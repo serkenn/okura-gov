@@ -1,0 +1,80 @@
+style	token	file	line
+mixed	kisanbi_shorui(受領日)	docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	74
+mixed	manryo(起算日, 年数)	docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	74
+ascii	threshold_5pct_floor(D)	docs/hypotheses/20261109_impl-prep_iryohi-model.md	109
+ascii	threshold_5pct_floor	docs/hypotheses/20261109_impl-prep_iryohi-model.md	190
+mixed	evaluate(中間表現, 年分)	docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md	11
+mixed	evaluate_kenpo(中間表現, 判定日 D)	docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	54
+japanese	年齢(生年月日, 判定日)	docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	26
+ascii	jsGetAge	docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	32
+mixed	floor(x × 0.3)	docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	29
+mixed	floor(x × 0.29)	docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	29
+japanese	年齢_年末の翌日	docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	35
+japanese	年齢_年末	docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	35
+japanese	暦の年齢	docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	35
+mixed	evaluate(中間表現, 年分)	docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	20
+ascii	kazei_hyojun_sen_en_kirisute	docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	39
+ascii	fukko_kazei_hyojun_ichi_en_kirisute	docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	40
+ascii	fukko_zeigaku_ichi_en_kirisute	docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	41
+ascii	kakutei_kingaku_hyaku_en_kirisute	docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	42
+ascii	kanpu_ichi_en_kirisute	docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	43
+mixed	shinkoku_yohi(計算の結果, 中間表現, 年分)	docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	61
+ascii	aoiro_tokubetsu_r7r8	docs/hypotheses/20261109_round2_aoiro-model.md	55
+ascii	aoiro_tokubetsu_r9	docs/hypotheses/20261109_round2_aoiro-model.md	69
+mixed	期限_月以内(起算の事実の日, 月数, 初日算入=False)	docs/hypotheses/20261109_round2_aoiro-model.md	140
+japanese	申告期限(年分)	docs/hypotheses/20261109_round2_aoiro-model.md	141
+japanese	青色控除_上限(黒字の合計, 額)	docs/hypotheses/20261109_round2_aoiro-model.md	142
+japanese	青色控除_配分(黒字, 順序)	docs/hypotheses/20261109_round2_aoiro-model.md	142
+japanese	繰戻し_税額(課税標準)	docs/hypotheses/20261109_round2_aoiro-model.md	143
+japanese	専従_期間の判定(区間の集合, 年)	docs/hypotheses/20261109_round2_aoiro-model.md	144
+japanese	年齢(生年月日, 基準日)	docs/hypotheses/20261109_round2_aoiro-model.md	145
+ascii	fx_to_yen_floor	docs/hypotheses/20261109_round2_elderly-abroad-model.md	109
+japanese	所得金額調整控除.第1項の端数＝1円未満切上げ	docs/hypotheses/20261109_round2_gaps-hypotheses.md	69
+japanese	措法28の2_令和8年分_新旧合算	docs/hypotheses/20261109_round2_genka-model.md	70
+japanese	償却費の端数	docs/hypotheses/20261109_round2_genka-model.md	80
+japanese	事業専用割合後の端数	docs/hypotheses/20261109_round2_genka-model.md	88
+japanese	家事兼用_未償却残高	docs/hypotheses/20261109_round2_genka-model.md	92
+japanese	所令85_限度	docs/hypotheses/20261109_round2_genka-model.md	101
+japanese	一括償却_各年の端数	docs/hypotheses/20261109_round2_genka-model.md	155
+japanese	家事兼用_少額判定	docs/hypotheses/20261109_round2_genka-model.md	157
+japanese	転用_業務供用後の方法	docs/hypotheses/20261109_round2_genka-model.md	159
+japanese	所令85_年数	docs/hypotheses/20261109_round2_genka-model.md	160
+japanese	処分年_償却費	docs/hypotheses/20261109_round2_genka-model.md	162
+japanese	所令198_文言	docs/hypotheses/20261109_round2_genka-model.md	163
+ascii	round_kazei_shotoku_1000	docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	98
+ascii	round_kakutei_100	docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	99
+ascii	round_intermediate	docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	100
+mixed	kyosai_nintei_bi(事実発生日, 届出受理日)	docs/hypotheses/20261109_round2_kyosai-model.md	103
+ascii	days_within_inclusive_of_start	docs/hypotheses/20261109_round2_kyosai-model.md	103
+ascii	days_within_excluding_start	docs/hypotheses/20261109_round2_kyosai-model.md	103
+ascii	floor_to_1000	docs/hypotheses/20261109_round2_kyosai-model.md	138
+japanese	第83条の2.超過額の切下げ(超過額)	docs/hypotheses/20261109_round2_spouse-model.md	43
+japanese	第83条の2.割合と切上げ(額, 分子, 分母)	docs/hypotheses/20261109_round2_spouse-model.md	44
+ascii	round2	docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	4
+japanese	端数.事業専従者控除の除算	docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	134
+japanese	端数.土地等負債の按分	docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	135
+japanese	{人, 課税期間の開始日・終了日, 種類: 確定 | 中間 | 修正 | 更正 | 決定 | 期限後, 申告書の提出日（中間申告で提出しなかったときはみなし提出の日＝提出期限）又は更正・決定の日, 消費税の額, 地方消費税の額, 附帯税の額（別欄）, 証憑}	docs/hypotheses/20261109_round2b_invoice-model.md	43
+japanese	公的年金等控除額の円未満処理	docs/hypotheses/20261109_round2b_nenkin-model.md	130
+ascii	jsGetAge	docs/hypotheses/20261109_sakusei-corner_test-oracle.md	30
+ascii	threshold_5pct_floor	docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	71
+ascii	round_ichiji_half	docs/inferences/20261109_impl-prep_jigyo-inferences.md	116
+mixed	evaluate(中間表現, 年分)	docs/inferences/20261109_impl-prep_juminzei-implications.md	10
+mixed	evaluate(中間表現, 年分=令和8年分)	docs/inferences/20261109_impl-prep_juminzei-implications.md	12
+mixed	kyuyo_shotoku(年分, その年中の給与等の収入金額の合計)	docs/inferences/20261109_impl-prep_kyuyo-inferences.md	11
+ascii	floor_yen	docs/inferences/20261109_impl-prep_kyuyo-inferences.md	14
+ascii	kyuyo_shotoku(y, x) <= x	docs/inferences/20261109_impl-prep_kyuyo-inferences.md	18
+mixed	jumin_kyuyo_shotoku(年度, 前年の給与収入) = kyuyo_shotoku(年度に対応する前年の年分, 前年の給与収入)	docs/inferences/20261109_impl-prep_kyuyo-inferences.md	53
+japanese	年齢(生年月日, その年の12月31日)	docs/inferences/20261109_impl-prep_misc-inferences.md	11
+ascii	evaluate	docs/inferences/20261109_impl-prep_tools-implementation-checks.md	28
+ascii	fukko_zeigaku_ichi_en_kirisute	docs/inferences/20261109_impl-prep_zeigaku-examples.md	180
+japanese	繰戻し_税額	docs/inferences/20261109_round2_aoiro-cases.md	109
+japanese	償却費の端数	docs/inferences/20261109_round2_genka-examples.md	39
+japanese	一括償却_各年の端数	docs/inferences/20261109_round2_genka-examples.md	57
+japanese	家事兼用_未償却残高	docs/inferences/20261109_round2_genka-examples.md	65
+japanese	家事兼用_少額判定	docs/inferences/20261109_round2_genka-examples.md	65
+japanese	事業専用割合後の端数	docs/inferences/20261109_round2_genka-examples.md	75
+japanese	転用_業務供用後の方法	docs/inferences/20261109_round2_genka-examples.md	86
+japanese	所令85_年数	docs/inferences/20261109_round2_genka-examples.md	86
+japanese	処分年_償却費	docs/inferences/20261109_round2_genka-examples.md	96
+ascii	round2	docs/inferences/20261109_round2_yoshiki-checks.md	4
+ascii	threshold_I1	docs/inferences/20261109_round2b_invoice-cases.md	26

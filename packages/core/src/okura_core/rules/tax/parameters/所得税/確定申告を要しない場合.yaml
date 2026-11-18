@@ -1,0 +1,67 @@
+description: 確定申告を要しない場合（所得税法第121条）の金額の基準のうち、この版の判定で使うもの。
+給与等の金額の上限:
+  description: 第1項（給与所得を有する居住者）の、その年中に支払を受けるべき給与等の金額の上限（この額以下）
+  metadata:
+    law: 所得税法第121条第1項本文（「その年中に支払を受けるべき…給与等の金額が二千万円以下であるもの」）
+    source_kind: 法律
+    unit: 円
+    比較: 以下
+    reference:
+      - docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md#5.2
+  values:
+    2025-01-01:
+      value: 20000000
+      metadata: {適用: 所法R8 の本文（zeigaku §5.2）。令和7年分の版との差は docs に記録がない（同じ表 §10 で令和7年分・令和8年分とも同じ）。この項の施行日は docs で確かめていない}
+公的年金等の収入金額の上限:
+  description: 第3項（公的年金等に係る雑所得を有する居住者）の、その年中の公的年金等の収入金額の上限（この額以下）
+  metadata:
+    law: 所得税法第121条第3項（「その年中の公的年金等の収入金額が四百万円以下であるもの」）
+    source_kind: 法律
+    unit: 円
+    比較: 以下
+    reference:
+      - docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md#6
+  values:
+    2025-01-01:
+      value: 4000000
+      metadata: {適用: 3つの版で同文（nenkin §6）。この項の施行日は docs で確かめていない}
+給与所得及び退職所得以外の所得金額の上限:
+  description: 第1項第1号・第2号の「給与所得及び退職所得以外の所得金額」の上限（この額以下）
+  metadata:
+    law: 所得税法第121条第1項第1号・第2号（「二十万円以下」）
+    source_kind: 法律
+    unit: 円
+    比較: 以下
+    reference:
+      - docs/public-sources/20261111_impl-research_121-laws-and-nta.md#1
+  values:
+    2025-01-01:
+      value: 200000
+      metadata: {適用: 所法R7・R8 の版で第121条は同文（docs/public-sources/20261111_impl-research_121-laws-and-nta.md の前書き）。この項の施行日は docs で確かめていない}
+公的年金等に係る雑所得以外の所得金額の上限:
+  description: 第3項の「公的年金等に係る雑所得以外の所得金額」の上限（この額以下）
+  metadata:
+    law: 所得税法第121条第3項（「二十万円以下」）
+    source_kind: 法律
+    unit: 円
+    比較: 以下
+    reference:
+      - docs/public-sources/20261111_impl-research_121-laws-and-nta.md#1
+      - docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md#6
+  values:
+    2025-01-01:
+      value: 200000
+      metadata: {適用: 所法R7・R8 の版で第121条は同文。この項の施行日は docs で確かめていない}
+第2号ロの給与等の金額の基準:
+  description: 第1項第2号ロの「百五十万円」（給与等の金額がこの額と各控除の額の合計額以下）
+  metadata:
+    law: 所得税法第121条第1項第2号ロ（「百五十万円と社会保険料控除の額…との合計額以下」）
+    source_kind: 法律
+    unit: 円
+    比較: 以下
+    reference:
+      - docs/public-sources/20261111_impl-research_121-laws-and-nta.md#1
+  values:
+    2025-01-01:
+      value: 1500000
+      metadata: {適用: 所法R7・R8 の版で第121条は同文。特定親族特別控除の語は令和7年分の版から（docs/public-sources/20261111_impl-research_121-laws-and-nta.md の前書き）。この項の施行日は docs で確かめていない}

@@ -1,0 +1,62 @@
+{
+  "set": "nenkin_gigi",
+  "fetched_at_local": "20261109-201314",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work/downloads/20261109-201314_R3X_dai3go_nenkin_gigi",
+  "results": [
+    {
+      "id": "gigishokai_page",
+      "url": "https://www.nenkin.go.jp/service/seidozenpan/gigishokai.html",
+      "status": 200,
+      "final_url": "https://www.nenkin.go.jp/service/seidozenpan/gigishokai.html",
+      "content_type": "text/html",
+      "bytes": 26705,
+      "sha256": "6a15671a48a12a6ddd1879d59be55957004bc55574eb301eabf19c4a8688143a",
+      "last_modified": "Wed, 14 Oct 2026 00:26:17 GMT",
+      "etag": null,
+      "saved": ".work/downloads/20261109-201314_R3X_dai3go_nenkin_gigi/gigishokai_page.html",
+      "charset": "UTF-8",
+      "title": "主な疑義照会と回答について｜日本年金機構",
+      "n_links": 134,
+      "text_chars": 3121,
+      "text_sha256": "fbe02c407aeb9a884561336587d6425aafae2c3beb609bba59e9cf1d15465b06",
+      "text": "scripts/results/R3X_dai3go_fetch/text/20261109-201314_nenkin_gigi/gigishokai_page.txt"
+    },
+    {
+      "id": "kokunen_tekiyou",
+      "url": "https://www.nenkin.go.jp/service/seidozenpan/gigishokai.files/kokunen_tekiyou.pdf",
+      "status": 200,
+      "final_url": "https://www.nenkin.go.jp/service/seidozenpan/gigishokai.files/kokunen_tekiyou.pdf",
+      "content_type": "application/pdf",
+      "bytes": 210668,
+      "sha256": "de53c9918f912a20d06a246b3a89e529ac61c2546520ed18fdfe460164ac9229",
+      "last_modified": "Thu, 01 Jun 2023 02:37:28 GMT",
+      "etag": null,
+      "saved": ".work/downloads/20261109-201314_R3X_dai3go_nenkin_gigi/kokunen_tekiyou.pdf"
+    },
+    {
+      "id": "kokunen_hokenryo",
+      "url": "https://www.nenkin.go.jp/service/seidozenpan/gigishokai.files/kokunen_hokenryo.pdf",
+      "status": 200,
+      "final_url": "https://www.nenkin.go.jp/service/seidozenpan/gigishokai.files/kokunen_hokenryo.pdf",
+      "content_type": "application/pdf",
+      "bytes": 313231,
+      "sha256": "d4d1c2c83241b642836f623cdc2427c995aa5927fc7df42fae26ac930531dc98",
+      "last_modified": "Wed, 04 Feb 2026 02:05:29 GMT",
+      "etag": null,
+      "saved": ".work/downloads/20261109-201314_R3X_dai3go_nenkin_gigi/kokunen_hokenryo.pdf"
+    },
+    {
+      "id": "kounen_tekiyou",
+      "url": "https://www.nenkin.go.jp/service/seidozenpan/gigishokai.files/kounen_tekiyou.pdf",
+      "status": 200,
+      "final_url": "https://www.nenkin.go.jp/service/seidozenpan/gigishokai.files/kounen_tekiyou.pdf",
+      "content_type": "application/pdf",
+      "bytes": 974508,
+      "sha256": "09ea323c76fc142713f7f10638299448dbb0ee2e2766de0c09b09a71a90a69f2",
+      "last_modified": "Wed, 04 Feb 2026 02:07:23 GMT",
+      "etag": null,
+      "saved": ".work/downloads/20261109-201314_R3X_dai3go_nenkin_gigi/kounen_tekiyou.pdf"
+    }
+  ]
+}

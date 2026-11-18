@@ -1,0 +1,73 @@
+{
+  "set": "nta_pdf",
+  "fetched_at_local": "20261109-180732",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work\\downloads\\20261109-180732_R2B_taishoku_nta_pdf",
+  "results": [
+    {
+      "id": "fuyo_2025bun_01",
+      "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2025bun_01.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2025bun_01.pdf",
+      "content_type": "application/pdf",
+      "bytes": 764201,
+      "sha256": "1d3e1ebea76a108be2f90b6babf7bd923eeaae697aef1c1df801133d4e7ec00d",
+      "last_modified": "Tue, 24 Sep 2024 08:30:06 GMT",
+      "etag": "\"ba929-622d9501332b8\"",
+      "saved": ".work\\downloads\\20261109-180732_R2B_taishoku_nta_pdf\\fuyo_2025bun_01.pdf"
+    },
+    {
+      "id": "fuyo_2026bun_01",
+      "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_01.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_01.pdf",
+      "content_type": "application/pdf",
+      "bytes": 1177114,
+      "sha256": "15bae0d3fbca3dde48ebd2db2851af37eefee0f1e2ae682b9313e9d2e3fb427c",
+      "last_modified": "Wed, 03 Sep 2025 08:30:03 GMT",
+      "etag": "\"11f61a-63de169463668\"",
+      "saved": ".work\\downloads\\20261109-180732_R2B_taishoku_nta_pdf\\fuyo_2026bun_01.pdf"
+    },
+    {
+      "id": "fuyo_2025bun_02",
+      "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2025bun_02.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2025bun_02.pdf",
+      "content_type": "application/pdf",
+      "bytes": 4850320,
+      "sha256": "b88eae10c779623688d62c43e7b22a25e548c422ec39735a9f6938e3252033af",
+      "last_modified": "Tue, 24 Sep 2024 08:30:06 GMT",
+      "etag": "\"4a0290-622d95010d928\"",
+      "saved": ".work\\downloads\\20261109-180732_R2B_taishoku_nta_pdf\\fuyo_2025bun_02.pdf"
+    },
+    {
+      "id": "fuyo_2026bun_02",
+      "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_02.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/error/404.htm",
+      "content_type": "text/html",
+      "bytes": 2007,
+      "sha256": "700138cae1f347c2be03b380ba74007e704ceb81fe2a62d547e3559d4b851d55",
+      "last_modified": "Thu, 18 Jan 2024 09:39:47 GMT",
+      "etag": "\"7d7-60f3524e648f8\"",
+      "saved": ".work\\downloads\\20261109-180732_R2B_taishoku_nta_pdf\\fuyo_2026bun_02.html",
+      "n_links": 2,
+      "charset": "Shift_JIS",
+      "title": "指定されたページを表示できませんでした",
+      "text_chars": 264,
+      "text": "scripts\\results\\R2B_taishoku_web\\text\\nta_pdf_20261109-180732\\fuyo_2026bun_02.txt"
+    },
+    {
+      "id": "aramashi2026_01",
+      "url": "https://www.nta.go.jp/publication/pamph/gensen/aramashi2026/pdf/01.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/publication/pamph/gensen/aramashi2026/pdf/01.pdf",
+      "content_type": "application/pdf",
+      "bytes": 733406,
+      "sha256": "3e09c81c06d547d0353651e97aaea937a8ebffd9ad7b75daf8ecdb963ca519ba",
+      "last_modified": "Fri, 12 Dec 2025 08:30:09 GMT",
+      "etag": "\"b30de-645bd11c9e720\"",
+      "saved": ".work\\downloads\\20261109-180732_R2B_taishoku_nta_pdf\\aramashi2026_01.pdf"
+    }
+  ]
+}

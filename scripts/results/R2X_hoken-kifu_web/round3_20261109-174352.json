@@ -1,0 +1,27 @@
+{
+ "set": "round3",
+ "run_at": "20261109-174352",
+ "user_agent": "okura-gov-research/0.1",
+ "robots": [
+  {
+   "robots": "https://www.nta.go.jp/robots.txt",
+   "status": 200,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+   "saved": "robots_www_nta_go_jp.txt"
+  }
+ ],
+ "items": [
+  {
+   "id": "nencho2026_107pdf",
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/107.pdf",
+   "fetched_at": "2026-11-09 17:43:52",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/107.pdf",
+   "content_type": "application/pdf",
+   "bytes": 785130,
+   "sha256": "38907ac31a3a50e00b724feaec9d3d185434d3c79357edeb5fa3bbaf1b4ff4a3",
+   "last_modified": "Mon, 31 Aug 2026 08:30:11 GMT",
+   "saved": ".work/downloads/20261109-174352_R2X_hoken-kifu_round3/nencho2026_107pdf.pdf"
+  }
+ ]
+}

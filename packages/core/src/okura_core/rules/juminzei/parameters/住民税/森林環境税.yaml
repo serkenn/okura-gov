@@ -1,0 +1,67 @@
+description: >-
+  森林環境税（森林環境税及び森林環境譲与税に関する法律・同施行令。国税で、住所地の市町村が個人住民税の均等割と併せて賦課徴収する）。
+  非課税の金額は政令の式で級地から直接決まる（市町村の条例の額によらない：docs/public-sources/20261109_round2_juminzei-tax-law-text.md §14）。
+  令和6年度以後の年度分に適用（附則第2条）。
+額:
+  description: 森林環境税の税率（年額1,000円。第5条）
+  metadata: &shinrin
+    law: 森林環境税及び森林環境譲与税に関する法律第3条〜第7条、同施行令第1条
+    source_kind: 法律
+    unit: 円
+    reference: [docs/public-sources/20261109_round2_juminzei-tax-law-text.md#14]
+  values:
+    2025-01-01: {value: 1000, metadata: &r89 {適用: 令和8年度分・令和9年度分（令和6年度以後の年度分。日付のキーは所得の年分の1月1日）}}
+非課税:
+  基本額:
+    description: 35万円×級地の率×（同一生計配偶者及び扶養親族の数＋1）の35万円（施行令第1条）
+    metadata: *shinrin
+    values:
+      2025-01-01: {value: 350000, metadata: *r89}
+  定額:
+    description: 加算する10万円
+    metadata: *shinrin
+    values:
+      2025-01-01: {value: 100000, metadata: *r89}
+  加算額:
+    description: 同一生計配偶者又は扶養親族を有する場合の21万円×級地の率の21万円
+    metadata: *shinrin
+    values:
+      2025-01-01: {value: 210000, metadata: *r89}
+  級地の率:
+    一級地:
+      分子:
+        description: 1級地の率（1.0）の分子。前年の12月31日の級地。率は地方税法施行規則第9条の21第2項の表と同じ値で読んだ
+        metadata: &kyuchi
+          law: 森林環境税及び森林環境譲与税に関する法律施行令第1条（「施行規則の率」）、地方税法施行規則第9条の21第2項
+          source_kind: 省令
+          reference: [docs/public-sources/20261109_round2_juminzei-tax-law-text.md#14, docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md#1.3]
+          flags: [原文未確認]
+        values:
+          2025-01-01: {value: 10, metadata: *r89}
+      分母:
+        description: 同じ率の分母
+        metadata: *kyuchi
+        values:
+          2025-01-01: {value: 10, metadata: *r89}
+    二級地:
+      分子:
+        description: 2級地の率（0.9）の分子
+        metadata: *kyuchi
+        values:
+          2025-01-01: {value: 9, metadata: *r89}
+      分母:
+        description: 同じ率の分母
+        metadata: *kyuchi
+        values:
+          2025-01-01: {value: 10, metadata: *r89}
+    三級地:
+      分子:
+        description: 3級地の率（0.8）の分子
+        metadata: *kyuchi
+        values:
+          2025-01-01: {value: 8, metadata: *r89}
+      分母:
+        description: 同じ率の分母
+        metadata: *kyuchi
+        values:
+          2025-01-01: {value: 10, metadata: *r89}

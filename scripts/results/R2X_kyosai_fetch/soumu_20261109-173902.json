@@ -1,0 +1,31 @@
+{
+  "set": "soumu",
+  "fetched_at_local": "20261109-173902",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "soumu_yoryo_001094645",
+      "url": "https://www.soumu.go.jp/main_content/001094645.pdf",
+      "status": 200,
+      "final_url": "https://www.soumu.go.jp/main_content/001094645.pdf",
+      "content_type": "application/pdf",
+      "bytes": 751096,
+      "sha256": "aee75810dca37cd181768c03f6d1885aa635a14279ba0967298cf9135148383c",
+      "last_modified": "Thu, 01 Oct 2026 09:13:31 GMT",
+      "etag": "\"b75f8-65cc3d462bf7d\"",
+      "saved": ".work\\downloads\\20261109-173902_R2X_kyosai_soumu\\soumu_yoryo_001094645.pdf"
+    },
+    {
+      "id": "soumu_toriatsukai_shichoson_001071661",
+      "url": "https://www.soumu.go.jp/main_content/001071661.pdf",
+      "status": 200,
+      "final_url": "https://www.soumu.go.jp/main_content/001071661.pdf",
+      "content_type": "application/pdf",
+      "bytes": 792394,
+      "sha256": "107ba94cd6bd4b5e8db4ce3ce6e6e5e475fea94523d52f565daf396011746a02",
+      "last_modified": "Thu, 07 May 2026 04:14:33 GMT",
+      "etag": "\"c174a-65132847cbfbb\"",
+      "saved": ".work\\downloads\\20261109-173902_R2X_kyosai_soumu\\soumu_toriatsukai_shichoson_001071661.pdf"
+    }
+  ]
+}

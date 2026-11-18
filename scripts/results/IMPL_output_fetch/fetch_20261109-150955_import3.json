@@ -1,0 +1,124 @@
+{
+ "run": "20261109-150955",
+ "name": "import3",
+ "download_dir": ".work/downloads/20261109-150955_import3",
+ "user_agent": "okura-gov-research/0.1",
+ "delay_sec": 1.5,
+ "robots": [
+  {
+   "robots_url": "https://www.keisan.nta.go.jp/robots.txt",
+   "status": 404
+  },
+  {
+   "robots_url": "https://www.e-tax.nta.go.jp/robots.txt",
+   "status": 404
+  }
+ ],
+ "results": [
+  {
+   "url": "https://www.keisan.nta.go.jp/r7yokuaru/cat1/cat15/cid179.html",
+   "fetched_at": "2026-11-09T15:09:57+0900",
+   "status": 200,
+   "final_url": "https://www.keisan.nta.go.jp/r7yokuaru/cat1/cat15/cid179.html",
+   "content_type": "text/html",
+   "last_modified": "Sun, 08 Nov 2026 22:01:44 GMT",
+   "bytes": 16761,
+   "sha256": "79646fdd671e9aa078ae027800aacc821ff98ff9b7203d83e098416e92a330cf",
+   "saved": ".work/downloads/20261109-150955_import3/000_www.keisan.nta.go.jp_r7yokuaru_cat1_cat15_cid179.html",
+   "encoding": "UTF-8",
+   "text": "scripts/results/IMPL_output_fetch/20261109-150955_import3/000_www.keisan.nta.go.jp_r7yokuaru_cat1_cat15_cid179.html.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-150955_import3/000_www.keisan.nta.go.jp_r7yokuaru_cat1_cat15_cid179.html.links.tsv",
+   "n_links": 21
+  },
+  {
+   "url": "https://www.keisan.nta.go.jp/r7yokuaru/cat1/cat15/cid1102.html",
+   "fetched_at": "2026-11-09T15:09:58+0900",
+   "status": 200,
+   "final_url": "https://www.keisan.nta.go.jp/r7yokuaru/cat1/cat15/cid1102.html",
+   "content_type": "text/html",
+   "last_modified": "Sun, 08 Nov 2026 22:01:44 GMT",
+   "bytes": 14193,
+   "sha256": "a0a0c6cc16dc6eea5ea99ed04480f5093038f67f7f625bbfb3d7eca620df8aa4",
+   "saved": ".work/downloads/20261109-150955_import3/001_www.keisan.nta.go.jp_r7yokuaru_cat1_cat15_cid1102.html",
+   "encoding": "UTF-8",
+   "text": "scripts/results/IMPL_output_fetch/20261109-150955_import3/001_www.keisan.nta.go.jp_r7yokuaru_cat1_cat15_cid1102.html.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-150955_import3/001_www.keisan.nta.go.jp_r7yokuaru_cat1_cat15_cid1102.html.links.tsv",
+   "n_links": 19
+  },
+  {
+   "url": "https://www.keisan.nta.go.jp/r7yokuaru/cat1/cat15/cid119.html",
+   "fetched_at": "2026-11-09T15:10:00+0900",
+   "status": 200,
+   "final_url": "https://www.keisan.nta.go.jp/r7yokuaru/cat1/cat15/cid119.html",
+   "content_type": "text/html",
+   "last_modified": "Sun, 08 Nov 2026 22:01:44 GMT",
+   "bytes": 15575,
+   "sha256": "a51b6bef49c51802f2569732a54751e2b2d805c79683c1aa8b4ded7dcfb1427d",
+   "saved": ".work/downloads/20261109-150955_import3/002_www.keisan.nta.go.jp_r7yokuaru_cat1_cat15_cid119.html",
+   "encoding": "UTF-8",
+   "text": "scripts/results/IMPL_output_fetch/20261109-150955_import3/002_www.keisan.nta.go.jp_r7yokuaru_cat1_cat15_cid119.html.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-150955_import3/002_www.keisan.nta.go.jp_r7yokuaru_cat1_cat15_cid119.html.links.tsv",
+   "n_links": 20
+  },
+  {
+   "url": "https://www.e-tax.nta.go.jp/toiawase/qa/e-taxweb/49.htm",
+   "fetched_at": "2026-11-09T15:10:03+0900",
+   "status": 200,
+   "final_url": "https://www.e-tax.nta.go.jp/toiawase/qa/e-taxweb/49.htm",
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 25717,
+   "sha256": "e33025e2225d4a41da8a15ad0bc183150c6ba72d05735354f09d1a7144a70ac5",
+   "saved": ".work/downloads/20261109-150955_import3/003_www.e-tax.nta.go.jp_toiawase_qa_e-taxweb_49.htm",
+   "encoding": "utf-8",
+   "text": "scripts/results/IMPL_output_fetch/20261109-150955_import3/003_www.e-tax.nta.go.jp_toiawase_qa_e-taxweb_49.htm.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-150955_import3/003_www.e-tax.nta.go.jp_toiawase_qa_e-taxweb_49.htm.links.tsv",
+   "n_links": 35
+  },
+  {
+   "url": "https://www.e-tax.nta.go.jp/toiawase/qa/e-taxweb/16.htm",
+   "fetched_at": "2026-11-09T15:10:05+0900",
+   "status": 200,
+   "final_url": "https://www.e-tax.nta.go.jp/toiawase/qa/e-taxweb/16.htm",
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 11579,
+   "sha256": "c697a43b7f9910b7f237780c0bc2c4d158d97ad526f48834a9b5174349dd69f1",
+   "saved": ".work/downloads/20261109-150955_import3/004_www.e-tax.nta.go.jp_toiawase_qa_e-taxweb_16.htm",
+   "encoding": "utf-8",
+   "text": "scripts/results/IMPL_output_fetch/20261109-150955_import3/004_www.e-tax.nta.go.jp_toiawase_qa_e-taxweb_16.htm.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-150955_import3/004_www.e-tax.nta.go.jp_toiawase_qa_e-taxweb_16.htm.links.tsv",
+   "n_links": 14
+  },
+  {
+   "url": "https://www.e-tax.nta.go.jp/toiawase/faq/gaiyo/04.htm",
+   "fetched_at": "2026-11-09T15:10:07+0900",
+   "status": 200,
+   "final_url": "https://www.e-tax.nta.go.jp/toiawase/faq/gaiyo/04.htm",
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 6622,
+   "sha256": "5935e0588015b61d0259bbba9a191e922e0156c5d5ae8df1e4bdef1168e0ff1b",
+   "saved": ".work/downloads/20261109-150955_import3/005_www.e-tax.nta.go.jp_toiawase_faq_gaiyo_04.htm",
+   "encoding": "utf-8",
+   "text": "scripts/results/IMPL_output_fetch/20261109-150955_import3/005_www.e-tax.nta.go.jp_toiawase_faq_gaiyo_04.htm.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-150955_import3/005_www.e-tax.nta.go.jp_toiawase_faq_gaiyo_04.htm.links.tsv",
+   "n_links": 6
+  },
+  {
+   "url": "https://www.keisan.nta.go.jp/r7yokuaru/cat1/cat16/index.html",
+   "fetched_at": "2026-11-09T15:10:09+0900",
+   "status": 200,
+   "final_url": "https://www.keisan.nta.go.jp/r7yokuaru/cat1/cat16/index.html",
+   "content_type": "text/html",
+   "last_modified": "Sun, 08 Nov 2026 22:01:44 GMT",
+   "bytes": 7219,
+   "sha256": "a95ed3d6b80e7223bd3fa76e6f75b0f0765e7d96195170b183463aaae2e575b0",
+   "saved": ".work/downloads/20261109-150955_import3/006_www.keisan.nta.go.jp_r7yokuaru_cat1_cat16_index.html",
+   "encoding": "UTF-8",
+   "text": "scripts/results/IMPL_output_fetch/20261109-150955_import3/006_www.keisan.nta.go.jp_r7yokuaru_cat1_cat16_index.html.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-150955_import3/006_www.keisan.nta.go.jp_r7yokuaru_cat1_cat16_index.html.links.tsv",
+   "n_links": 9
+  }
+ ]
+}

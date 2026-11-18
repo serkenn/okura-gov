@@ -1,0 +1,17 @@
+{
+ "fetched_at": "20261111-152910",
+ "status": 404,
+ "allowed": {
+  "https://www.keisan.nta.go.jp/r5yokuaru/aoiroshinkoku/hitsuyokeihi/genkashokyakuhi/hasushori.html": true,
+  "https://www.keisan.nta.go.jp/r6yokuaru/aoiroshinkoku/hitsuyokeihi/genkashokyakuhi/hasushori.html": true,
+  "https://www.keisan.nta.go.jp/r7yokuaru/aoiroshinkoku/hitsuyokeihi/genkashokyakuhi/hasushori.html": true,
+  "https://www.keisan.nta.go.jp/r7yokuaru/aoiroshinkoku/hitsuyokeihi/genkashokyakuhi/teigakuho.html": true,
+  "https://www.keisan.nta.go.jp/r7yokuaru/aoiroshinkoku/hitsuyokeihi/genkashokyakuhi/ikkatsushokyaku.html": true,
+  "https://www.keisan.nta.go.jp/r7yokuaru/aoiroshinkoku/hitsuyokeihi/genkashokyakuhi/shogakugenkashokyaku.html": true,
+  "https://www.keisan.nta.go.jp/r7yokuaru/aoiroshinkoku/hitsuyokeihi/genkashokyakuhi/shokyakukikan.html": true,
+  "https://www.keisan.nta.go.jp/r7yokuaru/aoiroshinkoku/hitsuyokeihi/genkashokyakuhi/shokyakuzuminyuryoku.html": true,
+  "https://www.keisan.nta.go.jp/r7yokuaru/aoiroshinkoku/hitsuyokeihi/genkashokyakuhi/kyuteigakuho.html": true,
+  "https://www.keisan.nta.go.jp/r7yokuaru/aoiroshinkoku/hitsuyokeihi/genkashokyakuhi/index.html": true
+ },
+ "body_head": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"ja-JP\" xml:lang=\"ja-JP\">\r\n\t<head>\r\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=shift_jis\" />\r\n\t\t<title>�y�m��\\�������쐬�R�[�i�[�z-�V�X�e���G���[</title>\r\n\t\t<meta http-equiv=\"Content-Script-Type\" content=\"text/javascript\" />\r\n\t\t<meta http-equiv=\"Content-Style-Type\" content=\"text/css\" />\r\n\t\t<meta http-equiv=\"pragma\" content=\"no-cache\" />\r\n\t\t<meta http-equiv=\"cache"
+}

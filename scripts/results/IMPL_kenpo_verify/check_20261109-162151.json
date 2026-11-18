@@ -1,0 +1,2526 @@
+{
+ "checked_at_local": "20261109-162151",
+ "phrases": [
+  {
+   "item": "PS§0 S52 番号",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "S52",
+   "phrase": "(保発第九号・庁保発第九号)",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 S52 発出者・宛先",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "S52",
+   "phrase": "各道府県知事あて厚生省保険局長・社会保険庁医療保険部長通知",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 S52 記4",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "S52",
+   "phrase": "今後の被扶養者の認定について行うものとすること",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.3 S52 保険者の取扱い",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "S52",
+   "phrase": "保険者が行う取扱い",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.3 S52 参考として",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "S52",
+   "phrase": "左記要領を参考として",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.3 S52 同一世帯",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "S52",
+   "phrase": "被保険者と同一世帯に属している場合",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.3 S52 援助",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "S52",
+   "phrase": "被保険者からの援助に依る収入額より少ない場合",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§8 S52 記3",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "S52",
+   "phrase": "最も妥当と認められる認定を行うものとすること",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 R7QA19 宛先（機構）",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R7QA19",
+   "phrase": "日本年金機構事業管理部門あて厚生労働省保険局保険課・厚生労働省年金局事業管理課通知",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 R7QA19 宛先（協会・組合）",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R7QA19",
+   "phrase": "全国健康保険協会・健康保険組合あて厚生労働省保険局保険課通知",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 R7QA19 Q7 引用先 Q24",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R7QA19",
+   "phrase": "の別紙Q24を参照のこと",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 R7QA19 Q7 引用先 Q19",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R7QA19",
+   "phrase": "の別紙Q19を参照のこと",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.1 R7QA19 Q5",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R7QA19",
+   "phrase": "今後1年間の収入を見込むこととなる",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.5 R7QA19 Q4 12月31日",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R7QA19",
+   "phrase": "その年の12月31日現在の年齢で判定する",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.5 R7QA19 Q4 例",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R7QA19",
+   "phrase": "N年10月に19歳の誕生日を迎える場合には、N年(暦年)における年間収入要件は150万円未満となる",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.5 R7QA19 Q4 1月1日",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R7QA19",
+   "phrase": "誕生日が1月1日である者は12月31日において年齢が加算される",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.5 R7QA19 Q6",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R7QA19",
+   "phrase": "12月31日現在の年齢が22歳である年(暦年)の翌年においては年間収入130万円未満",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.1 R7QA19 Q8",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R7QA19",
+   "phrase": "令和7年10月1日より前に遡って認定する場合の19歳以上23歳未満の被扶養者の認定対象者の年間収入の要件は130万円未満",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 R7 局長通知 適用日",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R7_19_23_a",
+   "phrase": "令和7年10月1日から適用",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 R3FUFU 番号1",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R3FUFU",
+   "phrase": "保保発0430第2号",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 R3FUFU 番号2",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R3FUFU",
+   "phrase": "保国発0430第1号",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 R3FUFU 適用日",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R3FUFU",
+   "phrase": "令和3年8月1日から適用する",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 R3FUFU 昭和60年通知",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R3FUFU",
+   "phrase": "昭和60年6月13日付け保険発第66号・庁保険発第22号通知",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 R3FUFU 廃止",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R3FUFU",
+   "phrase": "本通知をもって昭和60年通知は廃止する",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§3 附帯決議",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R3FUFU",
+   "phrase": "令和元年法律第9号)に対する附帯決議",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§3 1(1) 員数",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R3FUFU",
+   "phrase": "被扶養者とすべき者の員数にかかわらず",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§3 1(2) 1割",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R3FUFU",
+   "phrase": "年間収入の差額が年間収入の多い方の1割以内である場合",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§3 1(5) 5日",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R3FUFU",
+   "phrase": "届出を受理した日より5日以内(書類不備の是正を求める期間及び土日祝日を除く。)",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§3 1(5) 標準報酬",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R3FUFU",
+   "phrase": "届出が提出された日の属する月の標準報酬月額が高い方の被扶養者とする",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§3 2(1) 国保",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R3FUFU",
+   "phrase": "直近の年間所得で見込んだ年間収入",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§3 2(3) 課税証明",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R3FUFU",
+   "phrase": "直近の課税(非課税)証明書の所得金額が多い方",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§3 3 育休",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R3FUFU",
+   "phrase": "第43条の2に定める育児休業等を取得した場合",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§3 4 逆転",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R3FUFU",
+   "phrase": "年間収入が多くなった被保険者の方の保険者等が認定することを確認してから削除",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 H30A 第1号",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30A",
+   "phrase": "(保保発0829第1号)",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 H30A 第2号",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30A",
+   "phrase": "(保保発0829第2号)",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 H30A 適用日",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30A",
+   "phrase": "平成30年10月1日から適用",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.3 H30A 記2(2)",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30A",
+   "phrase": "同一世帯であることを確認できる公的証明書等の添付を求める",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.3 H30A 記2(3)",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30A",
+   "phrase": "仕送りが振込の場合は預金通帳等の写し",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 H30A 機構あて番号",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30A_kikou",
+   "phrase": "(年管管発0829第4号)",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.1 H30QA-H Q13",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_H",
+   "phrase": "国内認定対象者の過去の収入、現時点の収入又は将来の収入の見込みなどから、今後1年間の収入を見込むものとする",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§6 H30QA-H Q12 給与",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_H",
+   "phrase": "勤務先から発行された収入証明書",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§6 H30QA-H Q12 自営",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_H",
+   "phrase": "自営業による収入、不動産収入等がある場合",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.3 H30QA-H Q15",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_H",
+   "phrase": "民生委員による証明書の添付でも差し支えない",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.1 H30QA-H Q16 初回",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_H",
+   "phrase": "初回の仕送りがなされた時点で",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.2 H30QA-H Q16 遡って削除",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_H",
+   "phrase": "当該事実が確認できなくなった時点に遡って削除するものとする",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§6 H30QA-H Q17",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_H",
+   "phrase": "16歳未満の子である場合は、収入を確認するための書類は要さない",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§6 H30QA-H Q18",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_H",
+   "phrase": "国内認定対象者が学生の場合は、送金事実と仕送り額を確認するための書類を省略して差し支えない",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.3 H30QA-H Q19 年1回",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_H",
+   "phrase": "認定後、少なくとも年1回は保険者において被扶養者に係る確認を行い",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.2 H30QA-H Q19 ①",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_H",
+   "phrase": "保険者において事前に定めた日)以降で、被扶養者を削除する届出を提出させること",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.2 H30QA-H Q19 ②",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_H",
+   "phrase": "認定時に遡って取り消すこととなる",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.3 H30QA-N Q3",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_N",
+   "phrase": "保険者等の判断により、判断基準を追加や緩和することは認められない",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.3 H30QA-H に同旨なし",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_H",
+   "phrase": "判断基準を追加や緩和することは認められない",
+   "found": false,
+   "expected_found": false,
+   "ok": true
+  },
+  {
+   "item": "PS§1.3 H30QA-N Q5",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_N",
+   "phrase": "厚生労働省から認定の見直し及び通知に基づく事務の徹底について指導を行う",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.4 H30QA-N Q13",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_N",
+   "phrase": "「事業主確認欄」の「確認」部分を○で囲んで",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.1 H30QA-N Q14",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_N",
+   "phrase": "認定対象者の過去の収入、現時点の収入又は将来の収入の見込みなどから、今後1年間の収入を見込むものとする",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.3 H30QA-N Q17",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_N",
+   "phrase": "「国内認定対象者の年間収入が被保険者の年間収入の2分の1未満であること」を要件とする対象者であること等を確認するために求める",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.3 H30QA-N Q18",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_N",
+   "phrase": "本人確認を行う際に同一世帯であることの確認も行うこととしている",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.3 H30QA-N Q19",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_N",
+   "phrase": "民生委員等による同居の証明書の添付でも差し支えない",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.3 H30QA-N Q21",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_N",
+   "phrase": "同居はしているものの、世帯を分離している、または、近所に住んでいる等の事情で現金の手渡しや現物(食料、衣料等)を渡すことにて生計維持をしている場合",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.1 H30QA-N Q22 遡って",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_N",
+   "phrase": "遡って資格取得日で扶養認定して差し支えない",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.2 H30QA-N Q22 見直し",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_N",
+   "phrase": "被扶養者の認定を見直すこととする",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§8 H30QA-N Q23",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "H30QA_N",
+   "phrase": "仕送りの対象者を複数名である場合は対象者を",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 R01 番号",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R01",
+   "phrase": "(保保発1113第1号)",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 R01 施行",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R01",
+   "phrase": "いずれも令和2年4月1日から施行することとされた",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.3 R01 第1",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R01",
+   "phrase": "住民基本台帳に住民登録されているかどうか(住民票があるかどうか)で判断",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 R01 最終改正",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R05",
+   "phrase": "最終改正　令和5年6月19日保保発0619第1号",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 R8QA2 発出者・宛先",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R8QA2",
+   "phrase": "全国健康保険協会・健康保険組合・日本年金機構あて厚生労働省保険局保険課・厚生労働省年金局事業管理課通知",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 R8QA2 第1版から追加・修正",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R8QA2",
+   "phrase": "一部QAを追加・修正",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.2 連名通知 注1",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R7_rodo",
+   "phrase": "(注1)労働基準法第11条に規定される賃金をいい、諸手当及び賞与も含まれる。",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.2 連名通知 適用日",
+   "kind": "web",
+   "set": "mhlw_tdoc",
+   "id": "R7_rodo",
+   "phrase": "令和8年4月1日から適用すること",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "MS§1 R030430 7件",
+   "kind": "web",
+   "set": "mhlw_search",
+   "id": "srch_R030430",
+   "phrase": "該当件数: 7件",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "MS§1 S600613 0件",
+   "kind": "web",
+   "set": "mhlw_search",
+   "id": "srch_S600613",
+   "phrase": "該当件数: 0件",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "MS§1 H300829 8件",
+   "kind": "web",
+   "set": "mhlw_search",
+   "id": "srch_H300829",
+   "phrase": "該当件数: 8件",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "MS§1 R011113 4件",
+   "kind": "web",
+   "set": "mhlw_search",
+   "id": "srch_R011113",
+   "phrase": "該当件数: 4件",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "MS§1 R050619 3件",
+   "kind": "web",
+   "set": "mhlw_search",
+   "id": "srch_R050619",
+   "phrase": "該当件数: 3件",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "MS§1 R080301-0331 176件",
+   "kind": "web",
+   "set": "mhlw_search",
+   "id": "srch_R080301_0331",
+   "phrase": "該当件数: 176件",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "MS§1 R080309-0310 3件",
+   "kind": "web",
+   "set": "mhlw_search",
+   "id": "srch_R080309_0310",
+   "phrase": "該当件数: 3件",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "MS§1 R080309-0310 Q&A第2版",
+   "kind": "web",
+   "set": "mhlw_search",
+   "id": "srch_R080309_0310",
+   "phrase": "Ｑ＆Ａ（第２版）について",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 N-TET 更新日",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "更新日：2026年9月30日",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.1 N-TET 年間収入",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "年間収入とは、過去の収入のことではなく、被扶養者に該当する時点および認定された日以降の年間の見込み収入額",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.2 N-TET 月額",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "月額108,333円以下",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.2 N-TET 日額",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "日額3,611円以下",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.2 N-TET 基本手当",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "基本手当（3,612円以上）の支給が始まった場合は、扶養削除の届出が必要",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.2 N-TET 含む収入",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "被扶養者の収入には、雇用保険の失業等給付、公的年金、健康保険の傷病手当金や出産手当金も含まれます",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.2 N-TET 非課税収入",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "障害年金、遺族年金、傷病手当金、出産手当金、失業給付等の非課税対象となる収入がある場合は、別途「受取金額のわかる通知書等のコピー」が必要",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.2 N-TET 自営",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "自営業者についての収入額は、当該事業遂行のための必要経費を控除した額",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.3 N-TET 同居不要",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "被保険者と同居している必要がない者",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.3 N-TET 同居必要",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "被保険者と同居していることが必要な者",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.3 N-TET 同居確認",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "同居の確認は、日本年金機構で行うため、原則、書類の添付は不要ですが、確認できない場合には、住民票の提出を求めることがあります",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.3 N-TET 住民票",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "被保険者が世帯主で、被扶養者と同一世帯である場合に限ります",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§3 N-TET 夫婦",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "被扶養者の人数にかかわらず、年間収入の多い方の被扶養者として認定",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§3 N-TET 国保",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "直近の年間所得で見込んだ額を年間収入として記載",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§3 N-TET 育休",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "当該休業期間中の被扶養者の異動にかかる手続きは不要",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§4.2 N-TET 削除 被保険者",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "健康保険、船員保険の被保険者または共済組合、国保組合等の組合員になったとき",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§4.2 N-TET 削除 他の被保険者",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "婚姻等により他の被保険者に扶養されるようになったとき",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§4.2 N-TET 削除 後期",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "後期高齢者医療制度の被保険者になったとき",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.4 N-TET 5日",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "事実発生から5日以内",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.1 N-TET 60日",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "受付日より60日以上さかのぼる場合",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.4 N-TET 所得税",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "所得税法の規定による控除対象配偶者または扶養親族となっている者",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.4 N-TET 1,000万",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "合計所得金額が1,000万円を超える場合",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§6 N-TET 学生",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_TET",
+   "phrase": "16歳未満または16歳以上の学生の場合は不要",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 N-HEN 更新日",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_HEN",
+   "phrase": "更新日：2026年10月22日",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.4 N-HEN 事業主確認",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_HEN",
+   "phrase": "所得税法上の控除対象配偶者・扶養親族であることを事業主が確認し、事業主確認欄の「確認」を○（丸印）で囲んでいる場合",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.4 N-HEN 16歳未満",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_HEN",
+   "phrase": "扶養認定を受ける方の年齢が16歳未満の場合",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "検証で追加 N-HEN 源泉徴収票",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_HEN",
+   "phrase": "よくある誤りとして「源泉徴収票」が添付され提出される場合があります",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 N-0819 更新日",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_0819",
+   "phrase": "更新日：2025年8月19日",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.5 N-0819 判定時点",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_0819",
+   "phrase": "扶養認定日が属する年の12月31日時点の年齢で判定",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "IK1 N-0819 令和7年11月の例",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_0819",
+   "phrase": "令和7年11月に19歳の誕生日を迎える場合には、令和7年（暦年）における年間収入要件は150万円未満",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "検証で追加 N-0819 認定済みの者",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_0819",
+   "phrase": "令和7年9月30日以前に扶養認定済みの19歳以上23歳未満の被扶養者については、令和7年10月1日以降は年間収入が150万円以上見込まれる場合に被扶養者の削除",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 N-FAQ 更新日",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_FAQ",
+   "phrase": "更新日：2025年8月19日",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.5 N-FAQ 判定時点",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_FAQ",
+   "phrase": "扶養認定日が属する年の12月31日時点の年齢で判定",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "IK1 N-FAQ の例は N年10月",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_FAQ",
+   "phrase": "Ｎ年10月に19歳の誕生日を迎える場合",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "IK1 N-FAQ に令和7年11月の例なし",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_FAQ",
+   "phrase": "令和7年11月",
+   "found": false,
+   "expected_found": false,
+   "ok": true
+  },
+  {
+   "item": "PS§1.2 機構0501 通勤手当",
+   "kind": "web",
+   "set": "nenkin",
+   "id": "N_0501",
+   "phrase": "「通勤手当有」等となっており、手当の金額が不明確な場合",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.3 K-FAQ 1 規則50条",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_FAQ",
+   "phrase": "健康保険法施行規則第50条に基づき",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 K-FAQ 9月19日",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_FAQ",
+   "phrase": "令和8年9月19日現在",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 K-FAQ 提出期限",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_FAQ",
+   "phrase": "令和8年12月11日",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§4.2 K-FAQ 8 重複",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_FAQ",
+   "phrase": "他の健康保険の資格と重複して加入していないか",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.3 K-FAQ 10",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_FAQ",
+   "phrase": "実態として同居をしていれば同居の扱いとなります",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "IK4 K-FAQ 11",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_FAQ",
+   "phrase": "被扶養者本人の収入よりも仕送り額が少ないなどの場合は",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.2 K-FAQ 15 自営",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_FAQ",
+   "phrase": "自営業の方の年収は、年間総収入から必要経費を差し引いた額",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.2 K-FAQ 15 必要経費",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_FAQ",
+   "phrase": "社会通念上明らかに当該所得を得るために必要な経費であり、それ以外の費用は差し引くことはできません",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.2 K-FAQ 17 3年連続",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_FAQ",
+   "phrase": "一時的に収入が増加している状態が３年連続している場合は扶養解除の手続きが必要",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.2 K-FAQ 17 基本給",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_FAQ",
+   "phrase": "基本給が上がった場合や恒常的な手当が新設された場合など",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.3 K-FAQ 19 別居",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_FAQ",
+   "phrase": "19：「別居」となります",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.2 K-FAQ 20 奨学金",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_FAQ",
+   "phrase": "貸与型の奨学金は収入に含まれませんが、給付型の奨学金は収入に含まれる場合があります",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.2 K-FAQ 23",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_FAQ",
+   "phrase": "今後１年間の収入を見込んだうえで年収要件に該当するのか確認",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.2 K-FAQ 26 資格重複",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_FAQ",
+   "phrase": "健康保険組合等の資格取得年月日、後期高齢者医療制度の資格取得年月日",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.2 K-FAQ 26 別居",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_FAQ",
+   "phrase": "被保険者と別居した日",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.2 K-FAQ 26 収入",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_FAQ",
+   "phrase": "就職年月日、時給が上がった日、年金額改定年月日など収入が増加した日",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.2 K-FAQ 26 申出日",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_FAQ",
+   "phrase": "日付が不明な場合は、申出日を記入してください",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.2 K-FAQ 32",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_FAQ",
+   "phrase": "協会けんぽが被扶養者資格を総合的に判断",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.4 K-FAQ 54",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_FAQ",
+   "phrase": "所得税法上の扶養要件と健康保険の扶養要件は異なる",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§8 K-FAQ 55",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_FAQ",
+   "phrase": "18歳未満の被扶養者に関する収入要件の確認は不要",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.3 K-SEN 同一の世帯",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_SEN",
+   "phrase": "「同一の世帯」とは、同居して家計を共にしている状態をいいます",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.3 K-SEN 生計維持",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_SEN",
+   "phrase": "必ずしも被保険者と一緒に生活をしていなくてもかまいません",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.2 K-SEN 経費",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_SEN",
+   "phrase": "収入から控除できる経費は事業所得の金額を計算する場合の必要経費とは異なります",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.2 K-SEN 減価償却",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_SEN",
+   "phrase": "減価償却費（一般所得、農業所得、不動産所得）",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.5 K-SEN 12月31日",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_SEN",
+   "phrase": "19歳以上23歳未満（その年の12月31日時点の年齢）",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.2 K-TOK 連続2回",
+   "kind": "web",
+   "set": "kyokai",
+   "id": "K_TOK",
+   "phrase": "原則、連続2回まで被扶養者の認定が可能",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.2 ITS 通勤手当",
+   "kind": "web",
+   "set": "other",
+   "id": "ITS",
+   "phrase": "基本給、諸手当、通勤手当、賞与及び固定残業代は年間収入に算入します",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 ITS 適用",
+   "kind": "web",
+   "set": "other",
+   "id": "ITS",
+   "phrase": "令和8年4月1日からの被扶養者認定における年間収入の取扱い",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 YORYO リンク名",
+   "kind": "web",
+   "set": "other",
+   "id": "soumu_gaiyou",
+   "phrase": "住民基本台帳事務処理要領（令和8年6月14日施行）",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "HK9 TA1180 58万",
+   "kind": "web",
+   "set": "nta",
+   "id": "TA1180",
+   "phrase": "年間の合計所得金額が58万円以下",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "HK9 TA1180 62万",
+   "kind": "web",
+   "set": "nta",
+   "id": "TA1180",
+   "phrase": "令和8年12月1日に施行され、令和8年分から適用される金額は「62万円以下」です",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "HK9 TA1177 197万・188万",
+   "kind": "web",
+   "set": "nta",
+   "id": "TA1177",
+   "phrase": "給与のみの場合は給与収入が197万円以下（令和7年分は188万円以下）",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "HK9 TA1177 控除対象扶養親族でない",
+   "kind": "web",
+   "set": "nta",
+   "id": "TA1177",
+   "phrase": "控除対象扶養親族に該当しないこと",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§0 JQA 厚労省掲載版",
+   "kind": "web",
+   "set": "extra",
+   "id": "mhlw_taiou",
+   "phrase": "事業主の証明に依る被扶養者認定に関するQ&A［201KB］（令和５年12月25日更新）",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.1 健保法3⑦二",
+   "kind": "egov",
+   "set": "kenpo",
+   "id": "2026-11-09",
+   "phrase": "被保険者の三親等内の親族で前号に掲げる者以外のものであって、その被保険者と同一の世帯に属し、主としてその被保険者により生計を維持するもの",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§4.1 健保法3⑦ただし書",
+   "kind": "egov",
+   "set": "kenpo",
+   "id": "2026-11-09",
+   "phrase": "後期高齢者医療の被保険者等である者その他この法律の適用を除外すべき特別の理由がある者として厚生労働省令で定める者は、この限りでない",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§4.1 健保法3①九 イ又はロ",
+   "kind": "egov",
+   "set": "kenpo",
+   "id": "2026-11-09",
+   "phrase": "かつ、イ又はロのいずれかの要件に該当するもの",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§4.1 健保法3①九 イ",
+   "kind": "egov",
+   "set": "kenpo",
+   "id": "2026-11-09",
+   "phrase": "イ 一週間の所定労働時間が二十時間未満であること。",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§4.1 健保法3①九 ロ",
+   "kind": "egov",
+   "set": "kenpo",
+   "id": "2026-11-09",
+   "phrase": "第五十条に規定する高等学校の生徒、同法第八十三条に規定する大学の学生その他の厚生労働省令で定める者であること。",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "MS§5 健保法3①九 旧ロ 8.8万（2026-04-01）",
+   "kind": "egov",
+   "set": "kenpo",
+   "id": "2026-04-01",
+   "phrase": "八万八千円未満であること",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "MS§5 健保法3①九 イからハ（2026-04-01）",
+   "kind": "egov",
+   "set": "kenpo",
+   "id": "2026-04-01",
+   "phrase": "イからハまでのいずれかの要件に該当するもの",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§3 健保法43の2 育児休業等",
+   "kind": "egov",
+   "set": "kenpo",
+   "id": "2026-11-09",
+   "phrase": "（以下「育児休業等」という。）",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.4 健保則38① 5日",
+   "kind": "egov",
+   "set": "kenpo-ki",
+   "id": "2026-11-09",
+   "phrase": "被扶養者を有するに至ったときは、五日以内に",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.1 健保則38①二",
+   "kind": "egov",
+   "set": "kenpo-ki",
+   "id": "2026-11-09",
+   "phrase": "同一の世帯に属した年月日及び扶養するに至った理由",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.4 健保則38② その都度",
+   "kind": "egov",
+   "set": "kenpo-ki",
+   "id": "2026-11-09",
+   "phrase": "前項に掲げる事項に変更があったときは、その都度",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§5.3 健保則50①",
+   "kind": "egov",
+   "set": "kenpo-ki",
+   "id": "2026-11-09",
+   "phrase": "保険者は、毎年一定の期日を定め、資格確認書の検認若しくは更新又は被扶養者に係る確認をすることができる",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§4.1 健保則37の3 二",
+   "kind": "egov",
+   "set": "kenpo-ki",
+   "id": "2026-11-09",
+   "phrase": "本邦において一年を超えない期間滞在し、観光、保養その他これらに類似する活動を行うもの",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.1 住基法6①",
+   "kind": "egov",
+   "set": "jumin",
+   "id": "2026-11-09",
+   "phrase": "個人を単位とする住民票を世帯ごとに編成して、住民基本台帳を作成しなければならない",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.1 住基法7四",
+   "kind": "egov",
+   "set": "jumin",
+   "id": "2026-11-09",
+   "phrase": "世帯主についてはその旨、世帯主でない者については世帯主の氏名及び世帯主との続柄",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§2.1 住基法25 14日",
+   "kind": "egov",
+   "set": "jumin",
+   "id": "2026-11-09",
+   "phrase": "その変更があつた日から十四日以内に",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§4.1 国保法6一",
+   "kind": "egov",
+   "set": "kokuho",
+   "id": "2026-11-09",
+   "phrase": "一 健康保険法（大正十一年法律第七十号）の規定による被保険者",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§4.1 国保法6五",
+   "kind": "egov",
+   "set": "kokuho",
+   "id": "2026-11-09",
+   "phrase": "五 健康保険法の規定による被扶養者",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "検証で追加 国保法19①ただし書",
+   "kind": "egov",
+   "set": "kokuho",
+   "id": "2026-11-09",
+   "phrase": "第六条各号（第十号を除く。）のいずれかに該当する者及び他の組合が行う国民健康保険の被保険者は、この限りでない",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "IK1 民法143②",
+   "kind": "egov",
+   "set": "minpo",
+   "id": "2026-11-09",
+   "phrase": "その起算日に応当する日の前日に満了する",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "IK1 年齢計算ニ関スル法律②",
+   "kind": "egov",
+   "set": "nenrei",
+   "id": "2026-11-09",
+   "phrase": "民法第百四十三条ノ規定ハ年齢ノ計算ニ之ヲ準用ス",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "HK9 所法84の2① 123万",
+   "kind": "egov",
+   "set": "shotoku",
+   "id": "2026-12-01",
+   "phrase": "合計所得金額が百二十三万円以下であるものに限る。）で控除対象扶養親族に該当しないもの",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§1.2 労基法11",
+   "kind": "egov",
+   "set": "rouki",
+   "id": "2026-11-09",
+   "phrase": "この法律で賃金とは、賃金、給料、手当、賞与その他名称の如何を問わず、労働の対償として使用者が労働者に支払うすべてのものをいう",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  },
+  {
+   "item": "PS§6 労基法15",
+   "kind": "egov",
+   "set": "rouki",
+   "id": "2026-11-09",
+   "phrase": "使用者は、労働契約の締結に際し、労働者に対して賃金、労働時間その他の労働条件を明示しなければならない",
+   "found": true,
+   "expected_found": true,
+   "ok": true
+  }
+ ],
+ "revisions": [
+  {
+   "law": "kenpo",
+   "asof": "2025-10-01",
+   "expected": "211AC0000000070_20250620_507AC0000000074",
+   "got": "211AC0000000070_20250620_507AC0000000074",
+   "ok": true
+  },
+  {
+   "law": "kenpo",
+   "asof": "2025-12-31",
+   "expected": "211AC0000000070_20251212_507AC0000000087",
+   "got": "211AC0000000070_20251212_507AC0000000087",
+   "ok": true
+  },
+  {
+   "law": "kenpo",
+   "asof": "2026-04-01",
+   "expected": "211AC0000000070_20260401_507AC0000000087",
+   "got": "211AC0000000070_20260401_507AC0000000087",
+   "ok": true
+  },
+  {
+   "law": "kenpo",
+   "asof": "2026-11-09",
+   "expected": "211AC0000000070_20261001_507AC0000000087",
+   "got": "211AC0000000070_20261001_507AC0000000087",
+   "ok": true
+  },
+  {
+   "law": "kenpo-rei",
+   "asof": "2026-11-09",
+   "expected": "215IO0000000243_20261001_508CO0000000276",
+   "got": "215IO0000000243_20261001_508CO0000000276",
+   "ok": true
+  },
+  {
+   "law": "kenpo-ki",
+   "asof": "2025-10-01",
+   "expected": "215M10000008036_20250601_507M60000100062",
+   "got": "215M10000008036_20250601_507M60000100062",
+   "ok": true
+  },
+  {
+   "law": "kenpo-ki",
+   "asof": "2025-12-31",
+   "expected": "215M10000008036_20251201_507M60000100118",
+   "got": "215M10000008036_20251201_507M60000100118",
+   "ok": true
+  },
+  {
+   "law": "kenpo-ki",
+   "asof": "2026-04-01",
+   "expected": "215M10000008036_20260401_508M60000100054",
+   "got": "215M10000008036_20260401_508M60000100054",
+   "ok": true
+  },
+  {
+   "law": "kenpo-ki",
+   "asof": "2026-11-09",
+   "expected": "215M10000008036_20261001_508M60000100144",
+   "got": "215M10000008036_20261001_508M60000100144",
+   "ok": true
+  },
+  {
+   "law": "jumin",
+   "asof": "2026-11-09",
+   "expected": "342AC0000000081_20261024_508AC0000000066",
+   "got": "342AC0000000081_20261024_508AC0000000066",
+   "ok": true
+  },
+  {
+   "law": "kokuho",
+   "asof": "2026-11-09",
+   "expected": "333AC0000000192_20261001_507AC0000000087",
+   "got": "333AC0000000192_20261001_507AC0000000087",
+   "ok": true
+  }
+ ],
+ "sha": [
+  {
+   "set": "mhlw_tdoc",
+   "id": "S52",
+   "expected_prefix": "3a0aec4d588447f7",
+   "got_prefix": "3a0aec4d588447f7",
+   "expected_bytes": 7871,
+   "got_bytes": 7871,
+   "sha_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "set": "mhlw_tdoc",
+   "id": "R7QA19",
+   "expected_prefix": "ab13f28cfdfee9aa",
+   "got_prefix": "ab13f28cfdfee9aa",
+   "expected_bytes": 36705,
+   "got_bytes": 36705,
+   "sha_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "set": "mhlw_tdoc",
+   "id": "R3FUFU",
+   "expected_prefix": "877a6884fd3de8dd",
+   "got_prefix": "877a6884fd3de8dd",
+   "expected_bytes": 16027,
+   "got_bytes": 16027,
+   "sha_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "set": "mhlw_tdoc",
+   "id": "H30A",
+   "expected_prefix": "74819dc27ce6ccf6",
+   "got_prefix": "74819dc27ce6ccf6",
+   "expected_bytes": 15158,
+   "got_bytes": 15158,
+   "sha_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "set": "mhlw_tdoc",
+   "id": "H30QA_H",
+   "expected_prefix": "0c43dac8f2fa0aba",
+   "got_prefix": "0c43dac8f2fa0aba",
+   "expected_bytes": 59894,
+   "got_bytes": 59894,
+   "sha_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "set": "mhlw_tdoc",
+   "id": "H30QA_N",
+   "expected_prefix": "b2f78b198f7164c3",
+   "got_prefix": "b2f78b198f7164c3",
+   "expected_bytes": 39261,
+   "got_bytes": 39261,
+   "sha_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "set": "mhlw_tdoc",
+   "id": "R01",
+   "expected_prefix": "8c7a41bd8eb8937a",
+   "got_prefix": "8c7a41bd8eb8937a",
+   "expected_bytes": 44339,
+   "got_bytes": 44339,
+   "sha_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "set": "mhlw_tdoc",
+   "id": "R05",
+   "expected_prefix": "a333fbd3a7355dd4",
+   "got_prefix": "a333fbd3a7355dd4",
+   "expected_bytes": 46263,
+   "got_bytes": 46263,
+   "sha_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "set": "mhlw_tdoc",
+   "id": "R8QA2",
+   "expected_prefix": "5e59c9a4b7f675e3",
+   "got_prefix": "5e59c9a4b7f675e3",
+   "expected_bytes": 10956,
+   "got_bytes": 10956,
+   "sha_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "set": "mhlw_pdf",
+   "id": "content_001678029",
+   "expected_prefix": "dc76229c5e2a60a8",
+   "got_prefix": "dc76229c5e2a60a8",
+   "expected_bytes": 179658,
+   "got_bytes": 179658,
+   "sha_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "set": "nenkin",
+   "id": "N_TET",
+   "expected_prefix": "e090abd4c5550dfc",
+   "got_prefix": "e090abd4c5550dfc",
+   "expected_bytes": 46959,
+   "got_bytes": 46959,
+   "sha_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "set": "nenkin",
+   "id": "N_HEN",
+   "expected_prefix": "d8a686f9d22e1de7",
+   "got_prefix": "d8a686f9d22e1de7",
+   "expected_bytes": 47439,
+   "got_bytes": 47439,
+   "sha_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "set": "nenkin",
+   "id": "N_FAQ",
+   "expected_prefix": "2595c8961984db7f",
+   "got_prefix": "2595c8961984db7f",
+   "expected_bytes": 24655,
+   "got_bytes": 24655,
+   "sha_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "set": "kyokai",
+   "id": "K_FAQ",
+   "expected_prefix": "87da9750c230082d",
+   "got_prefix": "78517ba0d0cb0830",
+   "expected_bytes": 71028,
+   "got_bytes": 71028,
+   "sha_ok": false,
+   "bytes_ok": true
+  },
+  {
+   "set": "kyokai",
+   "id": "K_SEN",
+   "expected_prefix": "85a8087e767cf166",
+   "got_prefix": "eb11b32598c44ed4",
+   "expected_bytes": 37945,
+   "got_bytes": 37945,
+   "sha_ok": false,
+   "bytes_ok": true
+  },
+  {
+   "set": "kyokai",
+   "id": "JQA",
+   "expected_prefix": "2a15f6217f652020",
+   "got_prefix": "2a15f6217f652020",
+   "expected_bytes": 198221,
+   "got_bytes": 198221,
+   "sha_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "set": "other",
+   "id": "YORYO",
+   "expected_prefix": "aee75810dca37cd1",
+   "got_prefix": "aee75810dca37cd1",
+   "expected_bytes": 751096,
+   "got_bytes": 751096,
+   "sha_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "set": "other",
+   "id": "ITS",
+   "expected_prefix": "142549e4917e44c0",
+   "got_prefix": "142549e4917e44c0",
+   "expected_bytes": 14986,
+   "got_bytes": 14986,
+   "sha_ok": true,
+   "bytes_ok": true
+  }
+ ],
+ "images": {
+  "t_img_sizes": [
+   808
+  ],
+  "t_img_ok": true,
+  "t_img_res_min": 33613,
+  "t_img_res_max": 65004,
+  "t_img_res_ok": true,
+  "t_img_res_types": [
+   "image/png"
+  ]
+ },
+ "scan": [
+  {
+   "law": "kenpo",
+   "asof": "2026-11-09",
+   "pattern": "被扶養者[^。]{0,80}(被保険者である|被保険者となった|被保険者となる|二以上|同時に|重複|他の保険者)",
+   "expected": 0,
+   "got": 0,
+   "ok": true
+  },
+  {
+   "law": "kenpo",
+   "asof": "2026-11-09",
+   "pattern": "(被保険者である|二以上の)[^。]{0,80}被扶養者",
+   "expected": 2,
+   "got": 2,
+   "ok": true
+  },
+  {
+   "law": "kenpo",
+   "asof": "2026-11-09",
+   "pattern": "同一の世帯",
+   "expected": 4,
+   "got": 4,
+   "ok": true
+  },
+  {
+   "law": "kenpo",
+   "asof": "2026-11-09",
+   "pattern": "世帯に属",
+   "expected": 4,
+   "got": 4,
+   "ok": true
+  },
+  {
+   "law": "kenpo-rei",
+   "asof": "2026-11-09",
+   "pattern": "被扶養者[^。]{0,80}(被保険者である|被保険者となった|被保険者となる|二以上|同時に|重複|他の保険者)",
+   "expected": 2,
+   "got": 2,
+   "ok": true
+  },
+  {
+   "law": "kenpo-rei",
+   "asof": "2026-11-09",
+   "pattern": "同一の世帯",
+   "expected": 3,
+   "got": 3,
+   "ok": true
+  },
+  {
+   "law": "kenpo-ki",
+   "asof": "2026-11-09",
+   "pattern": "被扶養者[^。]{0,80}(被保険者である|被保険者となった|被保険者となる|二以上|同時に|重複|他の保険者)",
+   "expected": 0,
+   "got": 0,
+   "ok": true
+  },
+  {
+   "law": "kenpo-ki",
+   "asof": "2026-11-09",
+   "pattern": "同一の世帯",
+   "expected": 4,
+   "got": 4,
+   "ok": true
+  },
+  {
+   "law": "jumin",
+   "asof": "2026-11-09",
+   "pattern": "「世帯」とは",
+   "expected": 0,
+   "got": 0,
+   "ok": true
+  },
+  {
+   "law": "kokuho",
+   "asof": "2026-11-09",
+   "pattern": "被扶養者",
+   "expected": 18,
+   "got": 18,
+   "ok": true
+  },
+  {
+   "law": "kenpo",
+   "asof": "2026-11-09",
+   "pattern": "「(同一の)?世帯」とは",
+   "expected": 0,
+   "got": 0,
+   "ok": true
+  },
+  {
+   "law": "kenpo-rei",
+   "asof": "2026-11-09",
+   "pattern": "「(同一の)?世帯」とは",
+   "expected": 0,
+   "got": 0,
+   "ok": true
+  },
+  {
+   "law": "kenpo-ki",
+   "asof": "2026-11-09",
+   "pattern": "「(同一の)?世帯」とは",
+   "expected": 0,
+   "got": 0,
+   "ok": true
+  }
+ ],
+ "r3_same_text": {
+  "r3_lines": 316,
+  "now_lines": 316,
+  "same": true
+ },
+ "calc": [
+  {
+   "item": "PS§1.2 月額 130万",
+   "expr": "floor(1300000/12)",
+   "value": 108333,
+   "doc": 108333,
+   "ok": true
+  },
+  {
+   "item": "IK3 108,333×12",
+   "expr": "108333*12",
+   "value": 1299996,
+   "doc": 1299996,
+   "ok": true
+  },
+  {
+   "item": "PS§1.2 日額 130万",
+   "expr": "floor(1300000/360)",
+   "value": 3611,
+   "doc": 3611,
+   "ok": true
+  },
+  {
+   "item": "IK3 3,611×360",
+   "expr": "3611*360",
+   "value": 1299960,
+   "doc": 1299960,
+   "ok": true
+  },
+  {
+   "item": "IK3 3,612×360",
+   "expr": "3612*360",
+   "value": 1300320,
+   "doc": 1300320,
+   "ok": true
+  },
+  {
+   "item": "IK3 3,612×360 >= 130万",
+   "expr": "3612*360>=1300000",
+   "value": true,
+   "doc": true,
+   "ok": true
+  },
+  {
+   "item": "JQA 108,334 = 130万/12 の切り上げ",
+   "expr": "ceil(1300000/12)",
+   "value": 108334,
+   "doc": 108334,
+   "ok": true
+  },
+  {
+   "item": "IK3 150万/12",
+   "expr": "1500000/12",
+   "value": 125000.0,
+   "doc": 125000,
+   "ok": true
+  },
+  {
+   "item": "IK3 150万/360",
+   "expr": "floor(1500000/360)",
+   "value": 4166,
+   "doc": 4166,
+   "ok": true
+  },
+  {
+   "item": "IK3 180万/12",
+   "expr": "1800000/12",
+   "value": 150000.0,
+   "doc": 150000,
+   "ok": true
+  },
+  {
+   "item": "IK3 180万/360",
+   "expr": "1800000/360",
+   "value": 5000.0,
+   "doc": 5000,
+   "ok": true
+  },
+  {
+   "item": "IK3 反証：130万/365 の切り捨て",
+   "expr": "floor(1300000/365)",
+   "value": 3561,
+   "doc": 3561,
+   "ok": true
+  },
+  {
+   "item": "IK1 a 年齢",
+   "expr": "age(2006-11-20 → 2025-12-31)",
+   "value": 19,
+   "doc": 19,
+   "ok": true
+  },
+  {
+   "item": "IK1 a 基準額",
+   "expr": "threshold(2006-11-20,2025-09-30,spouse=False)",
+   "value": 1300000,
+   "doc": 1300000,
+   "ok": true
+  },
+  {
+   "item": "IK1 b 年齢",
+   "expr": "age(2006-11-20 → 2025-12-31)",
+   "value": 19,
+   "doc": 19,
+   "ok": true
+  },
+  {
+   "item": "IK1 b 基準額",
+   "expr": "threshold(2006-11-20,2025-10-01,spouse=False)",
+   "value": 1500000,
+   "doc": 1500000,
+   "ok": true
+  },
+  {
+   "item": "IK1 c 年齢",
+   "expr": "age(2007-01-01 → 2025-12-31)",
+   "value": 19,
+   "doc": 19,
+   "ok": true
+  },
+  {
+   "item": "IK1 c 基準額",
+   "expr": "threshold(2007-01-01,2025-11-01,spouse=False)",
+   "value": 1500000,
+   "doc": 1500000,
+   "ok": true
+  },
+  {
+   "item": "IK1 d 年齢",
+   "expr": "age(2007-01-02 → 2025-12-31)",
+   "value": 18,
+   "doc": 18,
+   "ok": true
+  },
+  {
+   "item": "IK1 d 基準額",
+   "expr": "threshold(2007-01-02,2025-11-01,spouse=False)",
+   "value": 1300000,
+   "doc": 1300000,
+   "ok": true
+  },
+  {
+   "item": "IK1 e 年齢",
+   "expr": "age(2007-01-02 → 2026-12-31)",
+   "value": 19,
+   "doc": 19,
+   "ok": true
+  },
+  {
+   "item": "IK1 e 基準額",
+   "expr": "threshold(2007-01-02,2026-01-05,spouse=False)",
+   "value": 1500000,
+   "doc": 1500000,
+   "ok": true
+  },
+  {
+   "item": "IK1 f 年齢",
+   "expr": "age(2003-01-02 → 2025-12-31)",
+   "value": 22,
+   "doc": 22,
+   "ok": true
+  },
+  {
+   "item": "IK1 f 基準額",
+   "expr": "threshold(2003-01-02,2025-11-01,spouse=False)",
+   "value": 1500000,
+   "doc": 1500000,
+   "ok": true
+  },
+  {
+   "item": "IK1 g 年齢",
+   "expr": "age(2003-01-01 → 2025-12-31)",
+   "value": 23,
+   "doc": 23,
+   "ok": true
+  },
+  {
+   "item": "IK1 g 基準額",
+   "expr": "threshold(2003-01-01,2025-11-01,spouse=False)",
+   "value": 1300000,
+   "doc": 1300000,
+   "ok": true
+  },
+  {
+   "item": "IK1 h 年齢",
+   "expr": "age(2003-01-02 → 2026-12-31)",
+   "value": 23,
+   "doc": 23,
+   "ok": true
+  },
+  {
+   "item": "IK1 h 基準額",
+   "expr": "threshold(2003-01-02,2026-02-01,spouse=False)",
+   "value": 1300000,
+   "doc": 1300000,
+   "ok": true
+  },
+  {
+   "item": "IK1 i 年齢",
+   "expr": "age(2005-05-05 → 2026-12-31)",
+   "value": 21,
+   "doc": 20,
+   "ok": false
+  },
+  {
+   "item": "IK1 i 基準額",
+   "expr": "threshold(2005-05-05,2026-02-01,spouse=True)",
+   "value": 1300000,
+   "doc": 1300000,
+   "ok": true
+  },
+  {
+   "item": "IK2 基本（時給1,200×週15h×52週）",
+   "expr": "1200*15*52",
+   "value": 936000,
+   "doc": 936000,
+   "ok": true
+  },
+  {
+   "item": "IK2 通勤手当 月5,000×12",
+   "expr": "5000*12",
+   "value": 60000,
+   "doc": 60000,
+   "ok": true
+  },
+  {
+   "item": "IK2 従来（基本＋時間外60万）",
+   "expr": "936000+600000",
+   "value": 1536000,
+   "doc": 1536000,
+   "ok": true
+  },
+  {
+   "item": "IK2 労働契約（基本＋通勤）",
+   "expr": "936000+60000",
+   "value": 996000,
+   "doc": 996000,
+   "ok": true
+  },
+  {
+   "item": "IK2 従来 >= 150万",
+   "expr": "1536000>=1500000",
+   "value": true,
+   "doc": true,
+   "ok": true
+  },
+  {
+   "item": "IK2 労働契約 < 150万",
+   "expr": "996000<1500000",
+   "value": true,
+   "doc": true,
+   "ok": true
+  },
+  {
+   "item": "IK2 換算の別法 ×365/7週",
+   "expr": "round(1200*15*365/7)",
+   "value": 938571,
+   "doc": 938571,
+   "ok": true
+  },
+  {
+   "item": "IK2 換算の別法 ×4.3週×12月",
+   "expr": "1200*15*4.3*12",
+   "value": 928800,
+   "doc": 928800,
+   "ok": true
+  },
+  {
+   "item": "IK2 別法でも労働契約 < 150万",
+   "expr": "max(938571,928800)+60000<1500000",
+   "value": true,
+   "doc": true,
+   "ok": true
+  },
+  {
+   "item": "IK2 別法でも従来 >= 150万",
+   "expr": "min(938571,928800)+600000>=1500000",
+   "value": true,
+   "doc": true,
+   "ok": true
+  },
+  {
+   "item": "IK7 給与所得（令和8年分特例）",
+   "expr": "1450000-740000",
+   "value": 710000,
+   "doc": 710000,
+   "ok": true
+  },
+  {
+   "item": "IK7 給与所得は 62万超123万以下",
+   "expr": "620000<710000<=1230000",
+   "value": true,
+   "doc": true,
+   "ok": true
+  },
+  {
+   "item": "IK2 通勤手当で結論が変わる範囲の下限",
+   "expr": "min{x: x<1500000<=x+60000}",
+   "value": 1440000,
+   "doc": 1450000,
+   "ok": false
+  },
+  {
+   "item": "IK2 通勤手当で結論が変わる範囲の上限",
+   "expr": "max{x: x<1500000}",
+   "value": 1499999,
+   "doc": 1499999,
+   "ok": true
+  },
+  {
+   "item": "IK5 1割（600万の1割）",
+   "expr": "6000000*0.1",
+   "value": 600000,
+   "doc": 600000,
+   "ok": true
+  },
+  {
+   "item": "IK5 a 差70万 > 60万",
+   "expr": "700000>600000",
+   "value": true,
+   "doc": true,
+   "ok": true
+  },
+  {
+   "item": "IK5 b 差50万 <= 60万",
+   "expr": "500000<=600000",
+   "value": true,
+   "doc": true,
+   "ok": true
+  },
+  {
+   "item": "IK7 1,450,000 は 136万超197万以下",
+   "expr": "1360000<1450000<=1970000",
+   "value": true,
+   "doc": true,
+   "ok": true
+  },
+  {
+   "item": "IK7 1,450,000 < 150万",
+   "expr": "1450000<1500000",
+   "value": true,
+   "doc": true,
+   "ok": true
+  },
+  {
+   "item": "IK7 親の2分の1（600万/2）",
+   "expr": "6000000/2 > 1450000",
+   "value": true,
+   "doc": true,
+   "ok": true
+  },
+  {
+   "item": "HK9 62万+74万",
+   "expr": "620000+740000",
+   "value": 1360000,
+   "doc": 1360000,
+   "ok": true
+  },
+  {
+   "item": "HK9 123万+74万",
+   "expr": "1230000+740000",
+   "value": 1970000,
+   "doc": 1970000,
+   "ok": true
+  },
+  {
+   "item": "HK9 令和7年分 58万+65万",
+   "expr": "580000+650000",
+   "value": 1230000,
+   "doc": 1230000,
+   "ok": true
+  },
+  {
+   "item": "HK9 令和7年分 123万+65万",
+   "expr": "1230000+650000",
+   "value": 1880000,
+   "doc": 1880000,
+   "ok": true
+  },
+  {
+   "item": "IK4 100万 < 120万（援助）",
+   "expr": "1000000<1200000",
+   "value": true,
+   "doc": true,
+   "ok": true
+  },
+  {
+   "item": "IK4 100万 >= 80万",
+   "expr": "1000000>=800000",
+   "value": true,
+   "doc": true,
+   "ok": true
+  }
+ ],
+ "kyokai_text_same": [
+  {
+   "old": "kyokai_faq_dependent_status",
+   "new": "K_FAQ",
+   "same": true,
+   "old_text_sha256": "52ba098fbe9c0a42",
+   "new_text_sha256": "52ba098fbe9c0a42"
+  },
+  {
+   "old": "kyokai_senpo_glossary_004",
+   "new": "K_SEN",
+   "same": true,
+   "old_text_sha256": "900122fc86aa805f",
+   "new_text_sha256": "900122fc86aa805f"
+  },
+  {
+   "old": "kyokai_pr_004_tokurei",
+   "new": "K_TOK",
+   "same": true,
+   "old_text_sha256": "53077fa43e8f05d0",
+   "new_text_sha256": "53077fa43e8f05d0"
+  }
+ ]
+}

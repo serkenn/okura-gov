@@ -1,0 +1,20 @@
+{
+  "set": "hokensha",
+  "fetched_at_local": "20261109-180809",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work\\downloads\\20261109-180809_R2B_taishoku_hokensha",
+  "results": [
+    {
+      "id": "chikyosai_osaka_2023",
+      "url": "https://osaka.chikyosai.or.jp/files/kaiin/hifuyousya_gendogaku_2023.pdf?230331",
+      "status": 200,
+      "final_url": "https://osaka.chikyosai.or.jp/files/kaiin/hifuyousya_gendogaku_2023.pdf?230331",
+      "content_type": "application/pdf",
+      "bytes": 580884,
+      "sha256": "03798e7d2b423b68876876bd5a54867a366bcc0cd3d5ec99465be0138516c6d3",
+      "last_modified": "Fri, 31 Mar 2023 00:11:26 GMT",
+      "etag": "\"8dd14-5f8270cd12780\"",
+      "saved": ".work\\downloads\\20261109-180809_R2B_taishoku_hokensha\\chikyosai_osaka_2023.pdf"
+    }
+  ]
+}

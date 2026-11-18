@@ -1,0 +1,25 @@
+{
+  "set": "soumu",
+  "fetched_at_local": "20261109-180806",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work\\downloads\\20261109-180806_R2B_taishoku_soumu",
+  "results": [
+    {
+      "id": "soumu_65871",
+      "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/65871.html",
+      "status": 200,
+      "final_url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/65871.html",
+      "content_type": "text/html",
+      "bytes": 43420,
+      "sha256": "ddaa098456bd018a5e587e41ae72db14651b018736a0c8ac7d5fa05837df3c50",
+      "last_modified": "Tue, 12 May 2026 21:57:16 GMT",
+      "etag": "\"a99c-651a5f24f4352\"",
+      "saved": ".work\\downloads\\20261109-180806_R2B_taishoku_soumu\\soumu_65871.html",
+      "n_links": 129,
+      "charset": "Shift_JIS",
+      "title": "総務省｜地方税制度｜平成25年1月1日以降の退職所得に対する住民税の特別徴収について",
+      "text_chars": 4536,
+      "text": "scripts\\results\\R2B_taishoku_web\\text\\soumu_20261109-180806\\soumu_65871.txt"
+    }
+  ]
+}

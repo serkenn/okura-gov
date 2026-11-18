@@ -1,0 +1,24 @@
+{
+  "set": "mhlw_tdoc_qa2",
+  "fetched_at_local": "20261109-150016",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "R8_rodokeiyaku_qa2",
+      "url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc9817&dataType=1&pageNo=1",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc9817&dataType=1&pageNo=1",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 10956,
+      "sha256": "5e59c9a4b7f675e31c075eda590f5f8e99c4067f77b8e22922cf2d83e0905e7e",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-150016_IMPL_kenpo_mhlw_tdoc_qa2\\R8_rodokeiyaku_qa2.html",
+      "charset": "UTF-8",
+      "title": "・労働契約内容による年間収入が基準額未満である場合の被扶養者の認定における年間収入の取扱いに係るＱ＆Ａ（第２版）について(◆令和08年03月09日事務連絡)",
+      "text_chars": 1555,
+      "text": ".work\\text\\20261109-150016_IMPL_kenpo_mhlw_tdoc_qa2\\R8_rodokeiyaku_qa2.txt",
+      "n_links": 27
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+ "script": "scripts/SAKUSEI_reconcile.py",
+ "case": "scripts/inputs/SAKUSEI_reconcile/C02_jigyo-aoiro.json",
+ "case_sha256": "844b44c1253f05144bfcad27747e3e3c7d518af2c0166dad6f1ba010825a4794",
+ "commit": "ae16baf9b21d9a72878a3ab6d6c2a20ef643a71c",
+ "run": "20261113-091915",
+ "query": {
+  "income_tax_years": [
+   2025
+  ],
+  "resident_tax_fiscal_years": [],
+  "kokuho_fiscal_years": [],
+  "dependent_judgment_dates": [],
+  "scenarios": [],
+  "forms": {
+   "persons": [
+    "p-1"
+   ]
+  }
+ },
+ "evaluate_seconds": 2.6,
+ "forms_ok": true,
+ "out_of_scope": []
+}

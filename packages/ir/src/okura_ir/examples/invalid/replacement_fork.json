@@ -1,0 +1,108 @@
+{
+ "schema_version": "0",
+ "persons": [
+  {
+   "id": "p-1",
+   "birth_on": "1980-01-01"
+  },
+  {
+   "id": "p-2",
+   "birth_on": "2010-01-01"
+  }
+ ],
+ "relations": [
+  {
+   "id": "r-1",
+   "kind": "parentage",
+   "roles": {
+    "parent": "p-1",
+    "child": "p-2"
+   },
+   "when": {
+    "on": "2010-01-01"
+   },
+   "attributes": {
+    "basis": "birth_in_marriage"
+   }
+  }
+ ],
+ "residences": [],
+ "insurance_memberships": [],
+ "facts": [
+  {
+   "id": "f-1",
+   "kind": "medical_payment",
+   "roles": {
+    "payer": "p-1",
+    "patient": "p-2"
+   },
+   "when": {
+    "on": "2026-02-10"
+   },
+   "amounts": {
+    "amount": 3000
+   },
+   "attributes": {
+    "incurred_on": "2026-02-03",
+    "medical_kinds": [
+     "medical_treatment"
+    ]
+   }
+  }
+ ],
+ "assets": [],
+ "filed_documents": [],
+ "judgments": [
+  {
+   "id": "j-1",
+   "kind": "判断.生計を一にする",
+   "judged_by": {
+    "person": "p-1"
+   },
+   "judged_at": "2026-01-10T09:00:00+09:00",
+   "subject": {
+    "person": "p-1",
+    "other_person": "p-2"
+   },
+   "when": {
+    "from_on": "2010-01-01"
+   },
+   "value": true
+  },
+  {
+   "id": "j-2",
+   "kind": "判断.生計を一にする",
+   "judged_by": {
+    "person": "p-1"
+   },
+   "judged_at": "2026-01-10T09:00:00+09:00",
+   "subject": {
+    "person": "p-1",
+    "other_person": "p-2"
+   },
+   "when": {
+    "from_on": "2010-01-01"
+   },
+   "value": true,
+   "replaces": "j-1"
+  },
+  {
+   "id": "j-3",
+   "kind": "判断.生計を一にする",
+   "judged_by": {
+    "person": "p-1"
+   },
+   "judged_at": "2026-01-10T09:00:00+09:00",
+   "subject": {
+    "person": "p-1",
+    "other_person": "p-2"
+   },
+   "when": {
+    "from_on": "2010-01-01"
+   },
+   "value": true,
+   "replaces": "j-1"
+  }
+ ],
+ "choices": []
+}

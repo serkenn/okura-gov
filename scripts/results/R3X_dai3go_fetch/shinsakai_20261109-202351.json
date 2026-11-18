@@ -1,0 +1,44 @@
+{
+  "set": "shinsakai",
+  "fetched_at_local": "20261109-202351",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work/downloads/20261109-202351_R3X_dai3go_shinsakai",
+  "results": [
+    {
+      "id": "shinsa_r02_03_15_01",
+      "url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/dl/05-r02_03/15_01.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/dl/05-r02_03/15_01.pdf",
+      "content_type": "application/pdf",
+      "bytes": 654986,
+      "sha256": "f5245cb5c81d50757709d295bf99af9614b4a55c6f0a802a0c1e74161ca50ba1",
+      "last_modified": "Fri, 10 Jul 2026 01:41:16 GMT",
+      "etag": "\"9fe8a-65637d62c581b\"",
+      "saved": ".work/downloads/20261109-202351_R3X_dai3go_shinsakai/shinsa_r02_03_15_01.pdf"
+    },
+    {
+      "id": "shinsa_r02_03_06_11",
+      "url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/dl/05-r02_03/06_11.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/dl/05-r02_03/06_11.pdf",
+      "content_type": "application/pdf",
+      "bytes": 654041,
+      "sha256": "931d690c90d90ac94862fa6d5290fcaed873c932871a30d61e588d9ba6c0a0d8",
+      "last_modified": "Fri, 10 Jul 2026 01:42:07 GMT",
+      "etag": "\"9fad9-65637d92c2a58\"",
+      "saved": ".work/downloads/20261109-202351_R3X_dai3go_shinsakai/shinsa_r02_03_06_11.pdf"
+    },
+    {
+      "id": "shinsa_r02_03_06_04",
+      "url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/dl/05-r02_03/06_04.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/dl/05-r02_03/06_04.pdf",
+      "content_type": "application/pdf",
+      "bytes": 657784,
+      "sha256": "b7b72252bb4979279e98a3919e868af23e0423705723e9de6719a664a614c9f2",
+      "last_modified": "Fri, 10 Jul 2026 01:42:19 GMT",
+      "etag": "\"a0978-65637d9e4ee6c\"",
+      "saved": ".work/downloads/20261109-202351_R3X_dai3go_shinsakai/shinsa_r02_03_06_04.pdf"
+    }
+  ]
+}

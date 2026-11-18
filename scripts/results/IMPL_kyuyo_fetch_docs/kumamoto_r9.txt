@@ -1,0 +1,224 @@
+# kumamoto_r9
+# URL=https://www.city.kumamoto.jp/kiji00373630/index.html
+# final_url=https://www.city.kumamoto.jp/kiji00373630/index.html
+# 取得日時=20261109-145902
+# status=200 encoding=utf-8
+# Last-Modified=Fri, 06 Nov 2026 15:18:30 GMT
+# SHA-256=dd5769318abd20e3f7f596995f9b45206f378c23cb919675704a8cc9d120bcf4
+
+﻿
+令和8年度税制改正概要（令和9年度以降から適用される個人住民税の主な改正） / 熊本市公式サイト
+ヘッダーをスキップ
+オープニングへ
+閲覧支援
+Language
+さがす
+緊急情報
+自動で開かない
+緊急情報
+一覧へ
+｜
+防災サイト
+ハザードマップ
+避難場所
+避難情報
+避難所情報
+配備体制状況
+Language
+Language
+English
+中文(简体字)
+中文(繁體字)
+한국어
+日本語
+やさしい日本語
+元に戻す
+閲覧支援
+文字サイズを変更する
+背景色を変更する
+音声読み上げ
+読み上げる
+やさしい日本語
+適用する
+元に戻す
+MENU
+TOP
+よくある質問
+電子申請・施設予約
+防災・救急
+戸籍・住民票
+税金・年金・保険
+ごみ・環境
+住宅・くらし
+子育て・教育
+健康・医療・福祉
+観光・イベント
+芸術・文化
+スポーツ
+ビジネス
+市政情報
+休日当番医
+補助金
+例規・要綱
+入札
+人口推移
+職員採用
+組織から探す
+施設を探す
+アクセスランキングから探す
+区役所
+中央区
+東区
+西区
+南区
+北区
+外国から来た人へ
+Foreigners
+閉じる
+本文へジャンプ
+令和8年度税制改正概要（令和9年度以降から適用される個人住民税の主な改正）
+最終更新日：2026年10月30日
+（ID:73630）
+印刷
+物価上昇局面における税負担の調整及び就業調整対策の観点から、給与所得控除の最低保障額の引上げ等が行われることとなりました。
+※改正は令和9年度個人住民税（令和8年1月1日から12月31日までの収入を基礎とする個人住民税）から適用されます。
+1．給与所得控除の見直し
+給与等の収入金額が220万円以下の方について、給与所得控除の最低保障額が65万円から69万円に引き上げられます。
+また、令和9年度分及び令和10年度分の市民税・県民税については、給与所得控除額の最低保障額をさらに5万円引き上げることとされました。
+よって、令和8年中及び令和9年中の給与収入が220万円以下の方については、給与所得控除の最低保障額が74万円となります。
+（給与収入が220万円を超える場合の給与所得控除額は変更ありません。）
+2．各種扶養控除等に係る所得要件の引上げ
+扶養控除等の対象となる扶養親族等の所得要件額が4万円引き上げられます。
+【参考】1．給与所得控除の見直し　2.各種扶養控除等に係る所得要件の引き上げの改正による給与収入のみの各種所得要件（給与収入のみの方に限る）
+※扶養親族がおらず、本人が未成年者・障害者・寡婦・ひとり親に該当しない場合。
+3．住宅ローン控除の延長
+住宅借入金等特別税額控除（住宅ローン控除）について、適用期限が5年延長され、令和8年1月1日から令和12年12月31日までの入居についても適用対象となりました。
+前の記事へ
+次の記事へ
+このページに関する
+お問い合わせは
+（ID:73630）
+ページの先頭へ
+市の手続きやイベントなどのお問い合せ
+熊本市コールセンター（ひごまるコール）
+096-334-1500
+年中無休（8時から20時）
+AIチャットボットで質問
+みなさんの声をお寄せください 一覧へ
+市政へのご意見・ご提案（市民の声）
+道路の損壊・資源物の持ち去りなどの通報
+パブリックコメント
+市民向けアンケート
+このホームページについて
+ホームページについて
+プライバシーポリシー
+著作権・リンク・免責事項
+過去のサイト
+サイトマップ
+市政だより  一覧へ
+リンク集  一覧へ
+所在地
+〒860-8601熊本市中央区手取本町1番1号
+市役所へのアクセス
+庁舎フロア案内図
+電話
+096-328-2111（代表）
+主な窓口の受付時間
+月曜から金曜日の午前9時～午後4時30分
+（ただし、祝・休日、12月29日～翌年1月3日を除く）
+※受付時間は窓口によって異なります。
+窓口の受付時間変更について
+組織一覧・各課お問い合わせ先
+法人番号
+9000020431001
+© 2025 Kumamoto City.
+
+## links
+- ヘッダーをスキップ -> https://www.city.kumamoto.jp/kiji00373630/index.html#maincontent
+-  -> https://www.city.kumamoto.jp/default.html
+- オープニングへ -> https://www.city.kumamoto.jp/index.html
+- 閲覧支援 -> javascript:void(0)
+- Language -> javascript:void(0)
+- さがす -> javascript:void(0)
+- 緊急情報 -> https://www.city.kumamoto.jp/bousai/default.html
+-  -> javascript:void(0)
+- 一覧へ -> https://www.city.kumamoto.jp/kinkyu.html
+- 防災サイト -> https://www.city.kumamoto.jp/bousai/default.html
+- ハザードマップ -> https://www.city.kumamoto.jp/bousai/list00909.html
+- 避難場所 -> https://www.city.kumamoto.jp/dynamic/info/pub/default.aspx?c_id=60
+- 避難情報 -> https://city-kumamoto.my.salesforce-sites.com/
+- 避難所情報 -> https://city-kumamoto.my.salesforce-sites.com/
+- 配備体制状況 -> https://city-kumamoto.my.salesforce-sites.com/
+-  -> javascript:void(0)
+- Language -> javascript:void(0);
+- English -> https://www.city.kumamoto.jp.e.fm.hp.transer.com/kiji00373630/index.html
+- 中文(简体字) -> https://www.city.kumamoto.jp.c.fm.hp.transer.com/kiji00373630/index.html
+- 中文(繁體字) -> https://www.city.kumamoto.jp.t.fm.hp.transer.com/kiji00373630/index.html
+- 한국어 -> https://www.city.kumamoto.jp.k.fm.hp.transer.com/kiji00373630/index.html
+- 日本語 -> https://www.city.kumamoto.jp/kiji00373630/index.html
+- やさしい日本語 -> javascript:void(0);
+- 元に戻す -> javascript:void(0);
+-  -> javascript:void(0)
+-  -> https://www.city.kumamoto.jp/kiji00373630/index.html#top
+-  -> https://www.city.kumamoto.jp/kiji00373630/index.html#top
+-  -> https://www.city.kumamoto.jp/kiji00373630/index.html#top
+-  -> https://www.city.kumamoto.jp/kiji00373630/index.html#top
+-  -> https://www.city.kumamoto.jp/kiji00373630/index.html#top
+- 読み上げる -> https://app-as.readspeaker.com/cgi-bin/rsent?customerid=6163&lang=ja_jp&readid=container&url=
+- 適用する -> javascript:void(0);
+- 元に戻す -> javascript:void(0);
+-  -> javascript:void(0)
+- TOP -> https://www.city.kumamoto.jp/default.html
+- よくある質問 -> https://higomaru-call.jp/faq/CCFaqIndex.asp
+- 電子申請・施設予約 -> https://www.city.kumamoto.jp/list04035.html
+- 防災・救急 -> https://www.city.kumamoto.jp/list04011.html
+- 戸籍・住民票 -> https://www.city.kumamoto.jp/list04001.html
+- 税金・年金・保険 -> https://www.city.kumamoto.jp/list04002.html
+- ごみ・環境 -> https://www.city.kumamoto.jp/list04003.html
+- 住宅・くらし -> https://www.city.kumamoto.jp/list04004.html
+- 子育て・教育 -> https://www.city.kumamoto.jp/list04005.html
+- 健康・医療・福祉 -> https://www.city.kumamoto.jp/list04006.html
+- 観光・イベント -> https://www.city.kumamoto.jp/list04007.html
+- 芸術・文化 -> https://www.city.kumamoto.jp/list04008.html
+- スポーツ -> https://www.city.kumamoto.jp/list04009.html
+- ビジネス -> https://www.city.kumamoto.jp/list04010.html
+- 市政情報 -> https://www.city.kumamoto.jp/list04012.html
+- 休日当番医 -> https://www.city.kumamoto.jp/kiji003102/index.html
+- 補助金 -> https://www.city.kumamoto.jp/list01102.html
+- 例規・要綱 -> https://www.city.kumamoto.jp/kiji0033879/index.html
+- 入札 -> https://www.city.kumamoto.jp/list04195.html
+- 人口推移 -> https://www.city.kumamoto.jp/dynamic/statistics/pub/default.aspx?c_id=26
+- 職員採用 -> https://www.city.kumamoto.jp/saiyou/default.html
+- 組織から探す -> https://www.city.kumamoto.jp/classset002.html
+- 施設を探す -> https://www.city.kumamoto.jp/dynamic/info/pub/default.aspx?c_id=59
+- アクセスランキングから探す -> https://www.city.kumamoto.jp/dynamic/ranking/pub/default.aspx?c_id=36
+- 中央区 -> https://www.city.kumamoto.jp/chuo/default.html
+- 東区 -> https://www.city.kumamoto.jp/higashi/default.html
+- 西区 -> https://www.city.kumamoto.jp/nishi/default.html
+- 南区 -> https://www.city.kumamoto.jp/minami/default.html
+- 北区 -> https://www.city.kumamoto.jp/kita/default.html
+- 外国から来た人へ
+                                Foreigners -> https://www.city.kumamoto.jp/list04036.html
+- 閉じる -> javascript:void(0)
+- 本文へジャンプ -> https://www.city.kumamoto.jp/kiji00373630/index.html#mainBlock
+- 印刷 -> javascript:void(0)
+- ページの先頭へ -> https://www.city.kumamoto.jp/kiji00373630/index.html#top
+-  -> javascript:void(0);
+- 熊本市コールセンター（ひごまるコール） -> http://higomaru-call.jp/index.htm
+- AIチャットボットで質問 -> https://higomaru-call.jp/faq/CCFaqIndex.asp
+- 一覧へ -> https://www.city.kumamoto.jp/list04253.html
+- 市政へのご意見・ご提案（市民の声） -> https://www.city.kumamoto.jp/list04456.html
+- 道路の損壊・資源物の持ち去りなどの通報 -> https://www.city.kumamoto.jp/list04460.html
+- パブリックコメント -> https://www.city.kumamoto.jp/list04457.html
+- 市民向けアンケート -> https://www.city.kumamoto.jp/dynamic/entry/pub/default.aspx?c_id=37
+- ホームページについて -> https://www.city.kumamoto.jp/kiji0033642/index.html
+- プライバシーポリシー -> https://www.city.kumamoto.jp/kiji0033644/index.html
+- 著作権・リンク・免責事項 -> https://www.city.kumamoto.jp/kiji0033645/index.html
+- 過去のサイト -> https://www.city.kumamoto.jp/kiji00361118/index.html
+- サイトマップ -> https://www.city.kumamoto.jp/sitemap.html
+- 一覧へ -> https://www.city.kumamoto.jp//list04484.html
+- 一覧へ -> https://www.city.kumamoto.jp/dynamic/link_m/pub/default.aspx?c_id=76
+- 市役所へのアクセス -> https://www.city.kumamoto.jp/kiji0033984/index.html
+- 庁舎フロア案内図 -> https://www.city.kumamoto.jp/kiji0032280/index.html
+- 窓口の受付時間変更について -> https://www.city.kumamoto.jp/kiji00366571/index.html
+- 組織一覧・各課お問い合わせ先 -> https://www.city.kumamoto.jp/kiji0032009/index.html

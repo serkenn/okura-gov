@@ -1,0 +1,40 @@
+{
+ "tsutatsu": {
+  "kihon_01_03": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/03.htm",
+  "kihon_06_01": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/06/01.htm",
+  "kihon_08_01": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/01.htm",
+  "kihon_08_02": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/02.htm",
+  "kihon_08_03": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/03.htm",
+  "kihon_09_02": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/09/02.htm"
+ },
+ "tebiki": {
+  "t_3_01": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/3_01.htm",
+  "t_3_1_01": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order1/3-1_01.htm",
+  "t_3_2_01": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_01.htm",
+  "t_3_2_07": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_07.htm",
+  "t_3_3_13": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_13.htm",
+  "t_3_4_29": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_29.htm",
+  "t_3_4_30": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_30.htm",
+  "t_3_4_32": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_32.htm",
+  "t_3_4_36": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_36.htm",
+  "t_3_5_01": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order5/3-5_01.htm",
+  "t_3_6_01": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order6/3-6_01.htm",
+  "t_3_6_02": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order6/3-6_02.htm",
+  "t_1_14": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/01/1_14.htm",
+  "t_6_01": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/06/6_01.htm",
+  "syotoku_r07": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r07.htm"
+ },
+ "pdf": {
+  "tebiki_003_sonshitsu": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/003.pdf",
+  "tebiki_002_guess": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/002.pdf",
+  "kakikata_037_aoiro": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/037.pdf",
+  "kakikata_034_shushi": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/034.pdf",
+  "kabushiki_index": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/kisairei/kabushiki/index.htm"
+ },
+ "kabu": {
+  "kabu_Q7_jirei1_shinkokusho": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/Q/Q7.pdf",
+  "kabu_Q11_jirei2_shinkokusho": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/Q/Q11.pdf",
+  "kabu_Q13_jirei3_shinkokusho": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/Q/Q13.pdf",
+  "kabu_Q15": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/Q/Q15.pdf"
+ }
+}

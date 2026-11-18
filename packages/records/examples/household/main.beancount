@@ -1,0 +1,151 @@
+option "title" "架空の家庭（テスト用）"
+option "operating_currency" "JPY"
+include "accounts.beancount"
+
+2026-01-25 * "架空商事" "1月分の給与"
+  id: "tx-2026-0125-salary-a"
+  fact_kind: "salary_payment"
+  recipient: "p-a"
+  counterparty: "架空商事"
+  payment_type: "regular"
+  due_on: 2026-01-25
+  Income:Salary:A             -300000 JPY
+    fact_amount: "gross"
+  Expenses:Tax:Withholding       8000 JPY
+    fact_amount: "withholding_tax"
+  Expenses:SocialInsurance      45000 JPY
+    fact_amount: "social_insurance_withheld"
+  Assets:Bank:A                247000 JPY
+
+2026-02-10 * "架空総合病院" "入院費"
+  id: "tx-2026-0210-hospital"
+  fact_kind: "medical_payment"
+  payer: "p-a"
+  patient: "p-g"
+  incurred_on: 2026-01-28
+  provider: "架空総合病院"
+  medical_kinds: "medical_treatment hospitalization"
+  Expenses:Medical             120,000 JPY
+    fact_amount: "amount"
+  Liabilities:Card:A
+
+2026-02-10 document Expenses:Medical "receipts/2026-02-10-hospital.pdf"
+  transaction_id: "tx-2026-0210-hospital"
+
+2026-03-04 * "架空タクシー" "通院のタクシー"
+  id: "tx-2026-0304-taxi"
+  fact_kind: "medical_payment"
+  payer: "p-a"
+  patient: "p-g"
+  incurred_on: 2026-03-04
+  medical_kinds: "transport"
+  memo: "歩行が困難なため"
+  Expenses:Medical               3200 JPY
+    fact_amount: "amount"
+  Assets:Cash
+
+2026-03-15 * "架空デザイン事務所" "制作の報酬"
+  id: "tx-2026-0315-design"
+  fact_kind: "business_receipt"
+  recipient: "p-b"
+  business_id: "biz-b"
+  counterparty: "架空デザイン事務所"
+  Income:Business:B            -55000 JPY
+    fact_amount: "amount"
+  Expenses:Tax:Withholding       5615 JPY
+    fact_amount: "withholding_tax"
+  Assets:Bank:B                 49385 JPY
+
+2026-03-20 * "架空電力" "電気代"
+  id: "tx-2026-0320-electricity"
+  fact_kind: "business_expense"
+  payer: "p-b"
+  business_id: "biz-b"
+  expense_category: "utilities"
+  Expenses:Utilities             12000 JPY
+    fact_amount: "amount"
+  Assets:Bank:B
+
+2026-04-25 * "仕送り"
+  id: "tx-2026-0425-allowance"
+  fact_kind: "remittance"
+  sender: "p-a"
+  recipient: "p-c"
+  method: "bank_transfer"
+  purpose: "living_expenses"
+  Expenses:Family:Allowance      80000 JPY
+    fact_amount: "amount"
+  Assets:Bank:A
+
+2026-04-30 * "口座からの引き出し"
+  id: "tx-2026-0430-withdrawal"
+  x_note: "事実にしない記帳（fact_kind なし）"
+  Assets:Bank:A                 -10000 JPY
+  Assets:Cash                    10000 JPY
+
+2026-06-20 * "架空証券" "投資信託の収益の分配"
+  id: "tx-2026-0620-dividend"
+  fact_kind: "dividend"
+  recipient: "p-a"
+  counterparty: "架空証券"
+  security_class: "listed_investment_trust"
+  account_type: "withholding_specified_account"
+  distribution_type: "securities_investment_trust"
+  Income:Dividend:A              -10000 JPY
+    fact_amount: "gross"
+  Expenses:Tax:Withholding        2031 JPY
+    fact_amount: "withholding_tax"
+  Assets:Bank:A                   7969 JPY
+
+2026-09-25 * "架空商事" "9月分の給与（未払）"
+  id: "tx-2026-0925-salary-a-unpaid"
+  fact_kind: "salary_payment"
+  recipient: "p-a"
+  counterparty: "架空商事"
+  payment_type: "regular"
+  due_on: 2026-09-25
+  unpaid: TRUE
+  pay_period: "monthly"
+  uncollectible_amount: 300000 JPY
+  uncollectible_on: 2026-11-10
+  Income:Salary:A             -300000 JPY
+    fact_amount: "gross"
+  Assets:Receivable:A          300000 JPY
+
+2026-10-05 * "架空県共同募金会" "共同募金"
+  id: "tx-2026-1005-community-chest"
+  fact_kind: "donation"
+  donor: "p-a"
+  recipient_name: "架空県共同募金会"
+  recipient_type: "community_chest"
+  receipt_issued: TRUE
+  receipt_statement: "none"
+  recipient_office_prefecture_code: "990001"
+  mic_approved_solicitation: TRUE
+  Expenses:Donation              3000 JPY
+    fact_amount: "amount"
+  Assets:Cash
+
+2026-10-30 * "国民年金保険料の前納（子の分）"
+  id: "tx-2026-1030-npi-prepay"
+  fact_kind: "social_insurance_payment"
+  payer: "p-a"
+  liable_person: "p-c"
+  premium_type: "national_pension"
+  prepaid_period: "2026-10-01/2027-03-31"
+  prepaid_due_dates: "2026-11-30 2026-12-31 2027-01-31 2027-02-28 2027-03-31 2027-04-30"
+  Expenses:SocialInsurance     104000 JPY
+    fact_amount: "amount"
+  Assets:Bank:A
+
+2026-11-20 * "架空生命" "生命保険料の前納"
+  id: "tx-2026-1120-life-prepay"
+  fact_kind: "insurance_payment"
+  payer: "p-a"
+  contract_id: "a-life-a"
+  flow: "premium"
+  prepaid: TRUE
+  prepaid_due_dates: "2026-12-01 2027-12-01"
+  Expenses:Insurance           240000 JPY
+    fact_amount: "amount"
+  Assets:Bank:A

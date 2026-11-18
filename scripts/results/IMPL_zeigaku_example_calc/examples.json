@@ -1,0 +1,329 @@
+{
+ "cases": [
+  {
+   "id": "Z1",
+   "year": 2026,
+   "kyuyo_income": 1400000,
+   "kyuyo_payers": 1,
+   "kyuyo_all_withheld": true,
+   "is_student_art1": true,
+   "gensen_total": 40000
+  },
+  {
+   "id": "Z1-R7",
+   "year": 2025,
+   "kyuyo_income": 1400000,
+   "kyuyo_payers": 1,
+   "kyuyo_all_withheld": true,
+   "is_student_art1": true,
+   "gensen_total": 40000
+  },
+  {
+   "id": "Z1-nokinro",
+   "year": 2026,
+   "kyuyo_income": 1400000,
+   "kyuyo_payers": 1,
+   "kyuyo_all_withheld": true,
+   "is_student_art1": false,
+   "gensen_total": 40000
+  },
+  {
+   "id": "Z2",
+   "year": 2026,
+   "kyuyo_income": 1400000,
+   "zatsu_income": 600000,
+   "zatsu_expense": 100000,
+   "kyuyo_payers": 1,
+   "kyuyo_all_withheld": true,
+   "is_student_art1": true,
+   "gensen_total": 101260
+  },
+  {
+   "id": "Z3",
+   "year": 2026,
+   "kyuyo_income": 1400000,
+   "zatsu_income": 600000,
+   "zatsu_expense": 100000,
+   "kyuyo_payers": 1,
+   "kyuyo_all_withheld": true,
+   "is_student_art1": true,
+   "gensen_total": 0
+  },
+  {
+   "id": "Z3-small",
+   "year": 2026,
+   "kyuyo_income": 1400000,
+   "zatsu_income": 300000,
+   "zatsu_expense": 100000,
+   "kyuyo_payers": 1,
+   "kyuyo_all_withheld": true,
+   "is_student_art1": true,
+   "gensen_total": 0
+  },
+  {
+   "id": "Z5-R7",
+   "year": 2025,
+   "kyuyo_income": 1400000,
+   "zatsu_income": 421000,
+   "zatsu_expense": 100000,
+   "kyuyo_payers": 1,
+   "kyuyo_all_withheld": true,
+   "is_student_art1": true,
+   "gensen_total": 101260
+  }
+ ],
+ "results": [
+  {
+   "case": "Z1",
+   "year": 2026,
+   "kyuyo_shotoku": 660000,
+   "zatsu_shotoku": 0,
+   "sotoku": 660000,
+   "gokei": 660000,
+   "kojo": {
+    "shakai_hoken": 0,
+    "kinro_gakusei": 270000,
+    "kiso": 1040000
+   },
+   "kojo_total": 1310000,
+   "kazei_sotoku": 0,
+   "shotokuzei": 0,
+   "fukko_exact": "0",
+   "fukko_tebiki": 0,
+   "settlement": {
+    "tebiki_1yen_floor_first": {
+     "kind": "還付",
+     "amount": 40000
+    },
+    "strict_no_floor_first": {
+     "kind": "還付",
+     "amount": 40000
+    }
+   },
+   "duty_120": false,
+   "exempt_121_1": true,
+   "duty": false,
+   "refund_possible": true
+  },
+  {
+   "case": "Z1-R7",
+   "year": 2025,
+   "kyuyo_shotoku": 750000,
+   "zatsu_shotoku": 0,
+   "sotoku": 750000,
+   "gokei": 750000,
+   "kojo": {
+    "shakai_hoken": 0,
+    "kinro_gakusei": 270000,
+    "kiso": 950000
+   },
+   "kojo_total": 1220000,
+   "kazei_sotoku": 0,
+   "shotokuzei": 0,
+   "fukko_exact": "0",
+   "fukko_tebiki": 0,
+   "settlement": {
+    "tebiki_1yen_floor_first": {
+     "kind": "還付",
+     "amount": 40000
+    },
+    "strict_no_floor_first": {
+     "kind": "還付",
+     "amount": 40000
+    }
+   },
+   "duty_120": false,
+   "exempt_121_1": true,
+   "duty": false,
+   "refund_possible": true
+  },
+  {
+   "case": "Z1-nokinro",
+   "year": 2026,
+   "kyuyo_shotoku": 660000,
+   "zatsu_shotoku": 0,
+   "sotoku": 660000,
+   "gokei": 660000,
+   "kojo": {
+    "shakai_hoken": 0,
+    "kinro_gakusei": 0,
+    "kiso": 1040000
+   },
+   "kojo_total": 1040000,
+   "kazei_sotoku": 0,
+   "shotokuzei": 0,
+   "fukko_exact": "0",
+   "fukko_tebiki": 0,
+   "settlement": {
+    "tebiki_1yen_floor_first": {
+     "kind": "還付",
+     "amount": 40000
+    },
+    "strict_no_floor_first": {
+     "kind": "還付",
+     "amount": 40000
+    }
+   },
+   "duty_120": false,
+   "exempt_121_1": true,
+   "duty": false,
+   "refund_possible": true
+  },
+  {
+   "case": "Z2",
+   "year": 2026,
+   "kyuyo_shotoku": 660000,
+   "zatsu_shotoku": 500000,
+   "sotoku": 1160000,
+   "gokei": 1160000,
+   "kojo": {
+    "shakai_hoken": 0,
+    "kinro_gakusei": 0,
+    "kiso": 1040000
+   },
+   "kojo_total": 1040000,
+   "kazei_sotoku": 120000,
+   "shotokuzei": 6000,
+   "fukko_exact": "126",
+   "fukko_tebiki": 126,
+   "settlement": {
+    "tebiki_1yen_floor_first": {
+     "kind": "還付",
+     "amount": 95134
+    },
+    "strict_no_floor_first": {
+     "kind": "還付",
+     "amount": 95134
+    }
+   },
+   "duty_120": false,
+   "exempt_121_1": false,
+   "duty": false,
+   "refund_possible": true
+  },
+  {
+   "case": "Z3",
+   "year": 2026,
+   "kyuyo_shotoku": 660000,
+   "zatsu_shotoku": 500000,
+   "sotoku": 1160000,
+   "gokei": 1160000,
+   "kojo": {
+    "shakai_hoken": 0,
+    "kinro_gakusei": 0,
+    "kiso": 1040000
+   },
+   "kojo_total": 1040000,
+   "kazei_sotoku": 120000,
+   "shotokuzei": 6000,
+   "fukko_exact": "126",
+   "fukko_tebiki": 126,
+   "settlement": {
+    "tebiki_1yen_floor_first": {
+     "kind": "納付",
+     "amount": 6100
+    },
+    "strict_no_floor_first": {
+     "kind": "納付",
+     "amount": 6100
+    }
+   },
+   "duty_120": true,
+   "exempt_121_1": false,
+   "duty": true,
+   "refund_possible": false
+  },
+  {
+   "case": "Z3-small",
+   "year": 2026,
+   "kyuyo_shotoku": 660000,
+   "zatsu_shotoku": 200000,
+   "sotoku": 860000,
+   "gokei": 860000,
+   "kojo": {
+    "shakai_hoken": 0,
+    "kinro_gakusei": 270000,
+    "kiso": 1040000
+   },
+   "kojo_total": 1310000,
+   "kazei_sotoku": 0,
+   "shotokuzei": 0,
+   "fukko_exact": "0",
+   "fukko_tebiki": 0,
+   "settlement": {
+    "tebiki_1yen_floor_first": {
+     "kind": "納付",
+     "amount": 0
+    },
+    "strict_no_floor_first": {
+     "kind": "納付",
+     "amount": 0
+    }
+   },
+   "duty_120": false,
+   "exempt_121_1": true,
+   "duty": false,
+   "refund_possible": false
+  },
+  {
+   "case": "Z5-R7",
+   "year": 2025,
+   "kyuyo_shotoku": 750000,
+   "zatsu_shotoku": 321000,
+   "sotoku": 1071000,
+   "gokei": 1071000,
+   "kojo": {
+    "shakai_hoken": 0,
+    "kinro_gakusei": 0,
+    "kiso": 950000
+   },
+   "kojo_total": 950000,
+   "kazei_sotoku": 121000,
+   "shotokuzei": 6050,
+   "fukko_exact": "2541/20",
+   "fukko_tebiki": 127,
+   "settlement": {
+    "tebiki_1yen_floor_first": {
+     "kind": "還付",
+     "amount": 95083
+    },
+    "strict_no_floor_first": {
+     "kind": "還付",
+     "amount": 95082
+    }
+   },
+   "duty_120": false,
+   "exempt_121_1": false,
+   "duty": false,
+   "refund_possible": true
+  }
+ ],
+ "property_kinro_no_effect": [
+  {
+   "year": 2025,
+   "range": [
+    651000,
+    1899000
+   ],
+   "step": 1000,
+   "counterexamples": [],
+   "n_counterexamples": 0
+  },
+  {
+   "year": 2026,
+   "range": [
+    741000,
+    2190000
+   ],
+   "step": 1000,
+   "counterexamples": [],
+   "n_counterexamples": 0
+  }
+ ],
+ "weekdays": {
+  "2026-03-15": "Sunday",
+  "2026-03-16": "Monday",
+  "2027-03-15": "Monday",
+  "2027-02-16": "Tuesday"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "run_at": "20261109-181328",
+ "download_dir": ".work\\downloads\\20261109-181328_R2X_juminzei-tax_laws",
+ "only": [
+  "chiho"
+ ],
+ "lookups": [],
+ "fetches": [
+  {
+   "short": "chiho",
+   "law": "地方税法",
+   "law_id": "325AC0000000226",
+   "law_num": "昭和二十五年法律第二百二十六号",
+   "asof": "2026-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=json&asof=2026-01-01",
+   "bytes": 12431689,
+   "law_revision_id": "325AC0000000226_20260101_507AC0000000041",
+   "amendment_law_num": "令和七年法律第四十一号",
+   "amendment_law_title": "下請代金支払遅延等防止法及び下請中小企業振興法の一部を改正する法律",
+   "amendment_enforcement_date": "2026-01-01",
+   "updated": "2026-03-07T12:33:52+09:00",
+   "current_revision_status": "PreviousEnforced"
+  },
+  {
+   "short": "chiho",
+   "law": "地方税法",
+   "law_id": "325AC0000000226",
+   "law_num": "昭和二十五年法律第二百二十六号",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=json&asof=2026-11-09",
+   "bytes": 12181725,
+   "law_revision_id": "325AC0000000226_20261101_508AC0000000002",
+   "amendment_law_num": "令和八年法律第二号",
+   "amendment_law_title": "地方税法等の一部を改正する法律",
+   "amendment_enforcement_date": "2026-11-01",
+   "updated": "2026-10-22T09:12:03+09:00",
+   "current_revision_status": "CurrentEnforced"
+  },
+  {
+   "short": "chiho",
+   "law": "地方税法",
+   "law_id": "325AC0000000226",
+   "law_num": "昭和二十五年法律第二百二十六号",
+   "asof": "2027-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=json&asof=2027-01-01",
+   "bytes": 12224062,
+   "law_revision_id": "325AC0000000226_20270101_508AC0000000002",
+   "amendment_law_num": "令和八年法律第二号",
+   "amendment_law_title": "地方税法等の一部を改正する法律",
+   "amendment_enforcement_date": "2027-01-01",
+   "updated": "2026-06-16T15:38:44+09:00",
+   "current_revision_status": "UnEnforced"
+  },
+  {
+   "short": "chiho",
+   "law": "地方税法",
+   "law_id": "325AC0000000226",
+   "law_num": "昭和二十五年法律第二百二十六号",
+   "asof": "2028-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=json&asof=2028-01-01",
+   "bytes": 12323795,
+   "law_revision_id": "325AC0000000226_20280101_508AC0000000002",
+   "amendment_law_num": "令和八年法律第二号",
+   "amendment_law_title": "地方税法等の一部を改正する法律",
+   "amendment_enforcement_date": "2028-01-01",
+   "updated": "2026-07-28T16:51:04+09:00",
+   "current_revision_status": "UnEnforced"
+  }
+ ],
+ "errors": []
+}

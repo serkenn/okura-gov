@@ -1,0 +1,70 @@
+{
+ "run_at": "20261109-151742",
+ "download_dir": ".work\\downloads\\20261109-151742_IMPL_juminzei_municipal",
+ "robots": {
+  "https://www.city.meguro.tokyo.jp": {
+   "status": 404
+  },
+  "https://www.city.yokohama.lg.jp": {
+   "status": 404
+  },
+  "https://www.city.saitama.lg.jp": {
+   "status": 404
+  }
+ },
+ "fetches": [
+  {
+   "name": "meguro_miseinen",
+   "url": "https://www.city.meguro.tokyo.jp/zeimu/kurashi/juuminzei/zeiseikaisei5.html",
+   "why": "目黒区：成年年齢の引下げと住民税の未成年者の非課税（生年月日の境目）",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "final_url": "https://www.city.meguro.tokyo.jp/zeimu/kurashi/juuminzei/zeiseikaisei5.html",
+   "bytes": 21604,
+   "sha256": "6b3b512fb0ca0676f08e0d99b8127410132712c8934359ae5b95b8746b2daeeb",
+   "saved": ".work\\downloads\\20261109-151742_IMPL_juminzei_municipal\\meguro_miseinen.html",
+   "fetched_at": "2026-11-09T15:17:46",
+   "title": "令和5年度の主な改正点 | 目黒区",
+   "encoding": "UTF-8",
+   "text": "scripts/results/IMPL_juminzei_municipal/meguro_miseinen.txt"
+  },
+  {
+   "name": "yokohama_konan_miseinen",
+   "url": "https://www.city.yokohama.lg.jp/konan/kurashi/koseki_zei_hoken/zeikin/kojin/miseinensha.html",
+   "why": "横浜市港南区：未成年者の住民税",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "final_url": "https://www.city.yokohama.lg.jp/konan/kurashi/koseki_zei_hoken/zeikin/kojin/miseinensha.html",
+   "bytes": 46315,
+   "sha256": "6b272267d0425a07f491363b952386571b4c73b5adccb2878822f6e74acec9d0",
+   "saved": ".work\\downloads\\20261109-151742_IMPL_juminzei_municipal\\yokohama_konan_miseinen.html",
+   "fetched_at": "2026-11-09T15:17:50",
+   "title": "民法改正に伴う未成年者の非課税措置の改正について 横浜市港南区",
+   "encoding": "UTF-8",
+   "text": "scripts/results/IMPL_juminzei_municipal/yokohama_konan_miseinen.txt"
+  },
+  {
+   "name": "saitama_miseinen",
+   "url": "https://www.city.saitama.lg.jp/001/153/004/002/001/003/p092338.html",
+   "why": "さいたま市：未成年者の非課税（成年年齢の引下げ）",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "final_url": "https://www.city.saitama.lg.jp/001/153/004/002/001/003/p092338.html",
+   "bytes": 37736,
+   "sha256": "7fc9505d744d2f22f3248c7720e2201907c9effd8f0dfd88be7639440fc35316",
+   "saved": ".work\\downloads\\20261109-151742_IMPL_juminzei_municipal\\saitama_miseinen.html",
+   "fetched_at": "2026-11-09T15:17:54",
+   "title": "さいたま市／令和5年度から適用される個人市民税・県民税の主な改正",
+   "encoding": "utf-8",
+   "text": "scripts/results/IMPL_juminzei_municipal/saitama_miseinen.txt"
+  }
+ ],
+ "only": [
+  "meguro_miseinen",
+  "saitama_miseinen",
+  "yokohama_konan_miseinen"
+ ]
+}

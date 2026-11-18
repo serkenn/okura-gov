@@ -1,0 +1,97 @@
+{
+ "aes_selftest": true,
+ "files": {
+  "shushi_fudosan_r07": {
+   "path": ".work/downloads/20261109-180251_R2B_fudosan_nta_forms/shushi_fudosan_r07.pdf",
+   "sha256": "64f619f6a802bc3b1d21222b3e0fff7adb02ee41e7672f661d568a1a58f66ab7",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 2,
+   "rows": 532,
+   "fonts": [
+    "HNN1:90ms-RKSJ-H",
+    "HNN2:90ms-RKSJ-H",
+    "VNN2:90ms-RKSJ-V"
+   ],
+   "type0_fonts": 6,
+   "type0_fonts_without_tounicode": 6,
+   "tounicode_cmap_streams": 0
+  },
+  "shushi_fudosan_kakikata_r07": {
+   "path": ".work/downloads/20261109-180251_R2B_fudosan_nta_forms/shushi_fudosan_kakikata_r07.pdf",
+   "sha256": "43d3ef2e015358de4ff64d6656519e4c876b1afd66a8e6fda8d2b87980c1e745",
+   "encrypt": "AESV3(V5,R6)",
+   "key_ok": true,
+   "pages": 8,
+   "rows": 2013,
+   "fonts": [
+    "C0_0:Identity-H",
+    "C0_0:Identity-H+ToUnicode",
+    "C0_1:Identity-H",
+    "C0_1:Identity-H+ToUnicode",
+    "C0_2:Identity-H",
+    "C0_2:Identity-H+ToUnicode",
+    "C0_3:Identity-H",
+    "C0_3:Identity-H+ToUnicode",
+    "C0_4:Identity-H",
+    "C0_4:Identity-H+ToUnicode",
+    "C0_5:Identity-H",
+    "C0_5:Identity-H+ToUnicode",
+    "C0_5:Identity-V+ToUnicode",
+    "None:?"
+   ],
+   "type0_fonts": 20,
+   "type0_fonts_without_tounicode": 12,
+   "tounicode_cmap_streams": 8
+  },
+  "kessan_fudosan_r07": {
+   "path": ".work/downloads/20261109-180251_R2B_fudosan_nta_forms/kessan_fudosan_r07.pdf",
+   "sha256": "ade5f59b33e687fb1c486ab1c47da31e99fbd77cda10fd496c8bcc8d1a2fc533",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 4,
+   "rows": 816,
+   "fonts": [
+    "HNN1:90ms-RKSJ-H",
+    "HNN2:90ms-RKSJ-H",
+    "VNN1:90ms-RKSJ-V",
+    "VNN2:90ms-RKSJ-V"
+   ],
+   "type0_fonts": 13,
+   "type0_fonts_without_tounicode": 13,
+   "tounicode_cmap_streams": 0
+  },
+  "kessan_fudosan_kakikata_r07": {
+   "path": ".work/downloads/20261109-180251_R2B_fudosan_nta_forms/kessan_fudosan_kakikata_r07.pdf",
+   "sha256": "36ae83ad49ef3b733db174180be927d3e45adbc870ebf98d3dcdc8a9b20abda5",
+   "encrypt": "AESV3(V5,R6)",
+   "key_ok": true,
+   "pages": 8,
+   "rows": 3716,
+   "fonts": [
+    "C0_0:Identity-H",
+    "C0_10:Identity-H",
+    "C0_1:Identity-H",
+    "C0_2:Identity-H",
+    "C0_3:Identity-H",
+    "C0_4:Identity-H",
+    "C0_5:Identity-H",
+    "C0_6:Identity-H",
+    "C0_7:Identity-H",
+    "C0_8:Identity-H",
+    "C0_9:Identity-H",
+    "None:?",
+    "TT0:WinAnsiEncoding",
+    "TT1:WinAnsiEncoding"
+   ],
+   "type0_fonts": 14,
+   "type0_fonts_without_tounicode": 14,
+   "tounicode_cmap_streams": 0
+  }
+ },
+ "aes_selftest_r2b": {
+  "aes128_encrypt_C1": true,
+  "aes256_encrypt_C3": true,
+  "aes256_decrypt_C3": true
+ }
+}

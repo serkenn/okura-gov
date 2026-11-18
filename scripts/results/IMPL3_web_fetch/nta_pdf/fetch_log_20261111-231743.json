@@ -1,0 +1,44 @@
+{
+ "set": "nta_pdf",
+ "fetched_at": "20261111-231743",
+ "download_dir": ".work/downloads/20261111-231743_IMPL3_web_fetch_nta_pdf",
+ "robots": [],
+ "items": [
+  {
+   "id": "kokugai_qa_gensen",
+   "url": "https://www.nta.go.jp/publication/pamph/pdf/0022009-107_02.pdf",
+   "final_url": "https://www.nta.go.jp/publication/pamph/pdf/0022009-107_02.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Mon, 31 Aug 2026 08:30:07 GMT",
+   "bytes": 712232,
+   "sha256": "d8e5bc32f793e7ba25500eae31fa44a3b8a47ec5be9fd3fef1465f1c72b5aa78",
+   "saved": ".work/downloads/20261111-231743_IMPL3_web_fetch_nta_pdf/kokugai_qa_gensen.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "haito_keisansho",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/pdf/10-03.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/pdf/10-03.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:29 GMT",
+   "bytes": 609200,
+   "sha256": "361dc33c6c5e97b2b5df7be68216c44136cddfbc626c14cead7ce731da312b9a",
+   "saved": ".work/downloads/20261111-231743_IMPL3_web_fetch_nta_pdf/haito_keisansho.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "haito_keisansho_ki",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/pdf/10-03-ki.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/pdf/10-03-ki.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:29 GMT",
+   "bytes": 476049,
+   "sha256": "1d762db149991830b236daa714a6cc597878fecde67bafd5859e7efefe3a15c2",
+   "saved": ".work/downloads/20261111-231743_IMPL3_web_fetch_nta_pdf/haito_keisansho_ki.pdf",
+   "pdf_header_ok": true
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+  "set": "mhlw_pdf",
+  "fetched_at_local": "20261109-152941",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "content_001678029",
+      "url": "https://www.mhlw.go.jp/content/001678029.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/001678029.pdf",
+      "content_type": "application/pdf",
+      "bytes": 179658,
+      "sha256": "dc76229c5e2a60a8fa6601736980d61ef8959140bb4726677b2aa9e2357d1b67",
+      "last_modified": "Wed, 01 Apr 2026 01:24:37 GMT",
+      "saved": ".work\\downloads\\20261109-152941_kenpo_verify_mhlw_pdf\\content_001678029.pdf"
+    }
+  ]
+}

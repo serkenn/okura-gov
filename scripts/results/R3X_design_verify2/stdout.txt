@@ -1,0 +1,24 @@
+[-] targets {'round3_design-vocabulary': 'f0207e6bb6e95ba2', 'round3_design-output': '9cc05d6b15adaec8', 'round3_design-vocab-scan': 'f7cab26cdad939b7'} corpus 69
+[-] round3 in corpus ['round3_chiho-sochi-reading', 'round3_dai3go-basis', 'round3_juminzei-extra-model', 'round3_kyosai-b-parameters', 'round3_shibo-shukkoku-model', 'round3_dai3go-next-steps', 'round3_juminzei-extra-implications', 'round3_shibo-shukkoku-cases']
+[a] cites=738 not_ok=10
+     ('round3_design-vocabulary', 361, 'M-VOC')  番号なし docs/measurements/20261109_round3_design-vocab-scan.md
+     ('round3_design-vocabulary', 519, 'M-VER')  番号なし docs/measurements/20261109_round3_design-verification.md
+     ('round3_design-vocabulary', 521, 'CS')  番号なし ublic-sources/20261109_round3_chiho-sochi-law-and-notices.md
+     ('round3_design-vocabulary', 521, 'KYB')  番号なし lic-sources/20261109_round3_kyosai-b-ministerial-criteria.md
+     ('round3_design-vocabulary', 521, 'SS')  番号なし ublic-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md
+     ('round3_design-output', 646, 'PS-SS')  番号なし ublic-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md
+     ('round3_design-output', 652, 'M-VER')  番号なし docs/measurements/20261109_round3_design-verification.md
+     ('round3_design-output', 656, 'PS-CS')  番号なし ublic-sources/20261109_round3_chiho-sochi-law-and-notices.md
+     ('round3_design-output', 656, 'PS-KYB')  番号なし lic-sources/20261109_round3_kyosai-b-ministerial-criteria.md
+     ('round3_design-output', 656, 'PS-SS')  番号なし ublic-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md
+[a] rows with refs=294 bigram<0.5=126
+[a] paths=100 missing=[('round3_design-vocabulary', 7, 'docs/hypotheses/20261109_round3_design-vocabulary-concepts.md'), ('round3_design-vocabulary', 8, 'docs/hypotheses/20261109_round3_design-vocabulary-conflicts.md'), ('round3_design-vocabulary', 70, 'docs/hypotheses/20261109_'), ('round3_design-vocabulary', 70, 'docs/inferences/20261109_'), ('round3_design-vocab-scan', 90, 'docs/hypotheses/20261109_')]
+[b] counts {"VOC_F-P": 20, "VOC_F-R": 7, "VOC_F-T": 20, "VOC_F-D": 21, "VOC_F-A": 7, "VOC_F-E": 2, "VOC_J-": 33, "VOC_C-": 20, "VOC_P-": 5, "VOC_N": 7, "VOC_F_total": 77, "VOC_section4_numbers": [["事実の語彙", "77"], ["人の判断", "33"], ["納税者の選択", "20"], ["名前の付け方の案", "7"]], "OUTD_O": 75, "OUTD_O_max": "O75", "OUTD_UO_defined": 30, "OUTD_UO_used_not_defined": [], "OUTD_UO_defined_not_used_outside_7": ["UO25"], "OUTD_D": 25, "OUTD_1.2_marks": [["未確定", "状態"], ["対象外", "状態"], ["見込み", "印"], ["法令が求める見積り", "印"], ["条件つき", "印"], ["出典未確認", "印"], ["原文未確認", "印"], ["端数の根拠が法令以外", "印"], ["食い違い", "印"], ["後の記録に依存", "印"], ["あふれ", "欄の印"], ["出力しない欄", "欄の印"]], "OUTD_numbers_in_text": ["75", "12", "25"]}
+[b] corpus=69 not_in_VOC_sec3=[] not_in_OUTD=['R2-tools_adoption', 'R3-tsutatsu_record-facts-and-monitoring', 'sakusei-corner_test-oracle', 'impl-prep_zeigaku-examples', 'R1-laws_inferences', 'R2-tools_adoption-checks', 'R4-modeling_scenarios', 'round2_hoken-kifu-cases']
+[b] quoted mark-like strings=197 without O row (same doc & words>=0.5)=70
+[b] fact-like rows=153 best<0.3=62
+[b] VOC refs to concepts/conflicts docs: X=32 concepts=10 conflicts=11
+[c] lines with D17-D21 words=123
+[d] round3_design-vocabulary: urls=0 bad_alias={} hyp_in_evidence=[] personal=[] name_ok=True
+[d] round3_design-output: urls=0 bad_alias={} hyp_in_evidence=[(256, '根拠（公開資料・実測）', '—（公開資料・実測の根拠はない。設計の案 (I)。関係する仮説は §2.5）〔独立検証で書き方を直した：根拠の列に仮説を置かない（AGENTS.md）。［M-VER］§5〕'), (258, '根拠（公開資料・実測）', '—（公開資料・実測の根拠はない。D12 の決定による。関係する仮説は §2.5）〔独立検証で書き方を直した：根拠の列に仮説を置かない（AGENTS.md）。［M-VER］§5〕'), (260, '根拠（公開資料・実測）', '［PS-JU］§0・§7、［PS-CS］§1.2（地方税法第292条第5項）、［PS-KYB］§1.3・§2.1（認定の対象の日）〔独立検証で後の2つを足した。関係する仮説 `round3_chiho-sochi-reading` H4、`')] personal=[] name_ok=True
+[d] round3_design-vocab-scan: urls=0 bad_alias={} hyp_in_evidence=[] personal=[] name_ok=True

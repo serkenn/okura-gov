@@ -1,0 +1,85 @@
+{
+ "file": "003_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_01_shinkokusho_pdf_r07_05.pdf",
+ "sha256": "686ecbd849ebe07b11a90d10421561669188e1cfd48b18962bf1be06965a0f24",
+ "bytes": 22101,
+ "aes_selftest": true,
+ "encrypted": true,
+ "V": 4,
+ "R": 4,
+ "P": -1068,
+ "aes": true,
+ "key_len": 16,
+ "key_ok": true,
+ "encrypt_obj": 43,
+ "n_objects": 43,
+ "pages": [
+  {
+   "page": 1,
+   "obj": 14,
+   "mediabox": [
+    "0",
+    "0",
+    "842",
+    "595"
+   ],
+   "content_bytes": 45013,
+   "n_text_runs": 281,
+   "xobjects": [
+    {
+     "name": "IMG0",
+     "obj": 42,
+     "subtype": "Image",
+     "w": 629,
+     "h": 629,
+     "filter": "FlateDecode"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "obj": 13,
+   "mediabox": [
+    "0",
+    "0",
+    "842",
+    "595"
+   ],
+   "content_bytes": 35161,
+   "n_text_runs": 247,
+   "xobjects": [
+    {
+     "name": "IMG0",
+     "obj": 41,
+     "subtype": "Image",
+     "w": 629,
+     "h": 629,
+     "filter": "FlateDecode"
+    }
+   ]
+  }
+ ],
+ "form_ids": [
+  {
+   "id": "NTA0KOA110010120",
+   "chars_4_to_6": [
+    "0(U+0030)",
+    "K(U+004B)",
+    "O(U+004F)"
+   ]
+  },
+  {
+   "id": "NTA0KOA110020120",
+   "chars_4_to_6": [
+    "0(U+0030)",
+    "K(U+004B)",
+    "O(U+004F)"
+   ]
+  }
+ ],
+ "titles_in_dicts": [
+  "KOA110010120_01",
+  "KOA110020120_01"
+ ],
+ "n_rows": 528,
+ "n_codes": 116
+}

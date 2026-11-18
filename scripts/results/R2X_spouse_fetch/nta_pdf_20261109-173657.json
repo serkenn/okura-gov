@@ -1,0 +1,68 @@
+{
+  "set": "nta_pdf",
+  "fetched_at_local": "20261109-173657",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work/downloads/20261109-173657_R2X_spouse_nta_pdf",
+  "results": [
+    {
+      "id": "nencho2025_106",
+      "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2025/pdf/106.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2025/pdf/106.pdf",
+      "content_type": "application/pdf",
+      "bytes": 5109936,
+      "sha256": "82d223b7bdcd521e5445c5758cfc1fac71abe5a8d56181e3e25fa22cfc009b05",
+      "last_modified": "Fri, 29 Aug 2025 08:30:15 GMT",
+      "etag": "\"4df8b0-63d7cd4cc1ed0\"",
+      "saved": ".work/downloads/20261109-173657_R2X_spouse_nta_pdf/nencho2025_106.pdf"
+    },
+    {
+      "id": "nencho2026_106",
+      "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/106.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/106.pdf",
+      "content_type": "application/pdf",
+      "bytes": 891035,
+      "sha256": "ee4ae06f99998f5f964cf34355fac63021dd78ac7a8a5cb350006d1b895cbc23",
+      "last_modified": "Mon, 31 Aug 2026 08:30:11 GMT",
+      "etag": "\"d989b-65a539c557aa8\"",
+      "saved": ".work/downloads/20261109-173657_R2X_spouse_nta_pdf/nencho2026_106.pdf"
+    },
+    {
+      "id": "kiso2026_qa",
+      "url": "https://www.nta.go.jp/users/gensen/2026kiso/pdf/0026005-024.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/users/gensen/2026kiso/pdf/0026005-024.pdf",
+      "content_type": "application/pdf",
+      "bytes": 305115,
+      "sha256": "a3c12744dbed64e7a03383868baa055f51eb1d0434ee3267d6374d2fe959cea8",
+      "last_modified": "Fri, 29 May 2026 08:30:02 GMT",
+      "etag": "\"4a7db-652f0a6aa9de0\"",
+      "saved": ".work/downloads/20261109-173657_R2X_spouse_nta_pdf/kiso2026_qa.pdf"
+    },
+    {
+      "id": "form2026bun_06",
+      "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_06.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_06.pdf",
+      "content_type": "application/pdf",
+      "bytes": 619395,
+      "sha256": "c3806d528ec07799215187ab1e78cbfe10cf597884d6573b5c01b906d26461da",
+      "last_modified": "Mon, 31 Aug 2026 08:30:05 GMT",
+      "etag": "\"97383-65a539bf44fa8\"",
+      "saved": ".work/downloads/20261109-173657_R2X_spouse_nta_pdf/form2026bun_06.pdf"
+    },
+    {
+      "id": "form2025bun_06",
+      "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2025bun_06.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2025bun_06.pdf",
+      "content_type": "application/pdf",
+      "bytes": 1263776,
+      "sha256": "7b22cf50c8471045966de088d84d9d4e3a47df8c23b1ad587d9873f9a00c07bf",
+      "last_modified": "Fri, 29 Aug 2025 08:30:10 GMT",
+      "etag": "\"1348a0-63d7cd4769460\"",
+      "saved": ".work/downloads/20261109-173657_R2X_spouse_nta_pdf/form2025bun_06.pdf"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+ "run_at": "20261109-202205",
+ "user_agent": "okura-gov-research/0.1",
+ "download_dir": ".work/downloads/20261109-202205_R3X_dai3go_egov",
+ "fetches": [
+  {
+   "url": "https://laws.e-gov.go.jp/api/2/law_revisions/334CO0000000184",
+   "status": 200,
+   "bytes": 33423
+  },
+  {
+   "asof": "2017-04-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/334CO0000000184?response_format=json&asof=2017-04-01",
+   "status": 200,
+   "bytes": 496257,
+   "law_revision_id": "334CO0000000184_20170401_429CO0000000100",
+   "amendment_law_num": "平成二十九年政令第百号",
+   "amendment_enforcement_date": "2017-04-01",
+   "current_revision_status": "PreviousEnforced"
+  },
+  {
+   "asof": "2009-12-31",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/334CO0000000184?response_format=json&asof=2009-12-31",
+   "status": 400,
+   "bytes": 107
+  },
+  {
+   "asof": "2010-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/334CO0000000184?response_format=json&asof=2010-01-01",
+   "status": 400,
+   "bytes": 107
+  },
+  {
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/334CO0000000184?response_format=json&asof=2026-11-09",
+   "status": 200,
+   "bytes": 551734,
+   "law_revision_id": "334CO0000000184_20261001_508CO0000000226",
+   "amendment_law_num": "令和八年政令第二百二十六号",
+   "amendment_enforcement_date": "2026-10-01",
+   "current_revision_status": "CurrentEnforced"
+  }
+ ]
+}

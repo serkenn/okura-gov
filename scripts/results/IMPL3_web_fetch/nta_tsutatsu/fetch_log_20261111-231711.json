@@ -1,0 +1,144 @@
+{
+ "set": "nta_tsutatsu",
+ "fetched_at": "20261111-231711",
+ "download_dir": ".work/downloads/20261111-231711_IMPL3_web_fetch_nta_tsutatsu",
+ "robots": [
+  {
+   "host": "https://www.nta.go.jp",
+   "status": 200,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+  }
+ ],
+ "items": [
+  {
+   "id": "kihon_01_07",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/07.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/07.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 02 Oct 2026 08:30:05 GMT",
+   "bytes": 18408,
+   "sha256": "52d60882df0b13f94fd2869ce1d9d2bf458ec654dca38a68ef225ac5b0506301",
+   "saved": ".work/downloads/20261111-231711_IMPL3_web_fetch_nta_tsutatsu/kihon_01_07.htm",
+   "title": "〔障害者（第28号関係）〕｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_01_08",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/08.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/08.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:30:24 GMT",
+   "bytes": 4615,
+   "sha256": "b57943f268a2d319e2646cfd1cc915e2305dfb56d229e661e65de55a6178caf7",
+   "saved": ".work/downloads/20261111-231711_IMPL3_web_fetch_nta_tsutatsu/kihon_01_08.htm",
+   "title": "法第3条《居住者及び非居住者等の区分》関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_09_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/09/01.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/09/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 25 Nov 2025 08:30:05 GMT",
+   "bytes": 9920,
+   "sha256": "8f4e8849c99b2757bb65bd8c129778277c4372379695b4d86df17c5475d6a556",
+   "saved": ".work/downloads/20261111-231711_IMPL3_web_fetch_nta_tsutatsu/kihon_09_01.htm",
+   "title": "〔固定資産等の損失〕｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_16_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/01.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:30:20 GMT",
+   "bytes": 15735,
+   "sha256": "c00969ebe1eb83e0528faf332c93d90326196e27a0631c7547c712e38c485b96",
+   "saved": ".work/downloads/20261111-231711_IMPL3_web_fetch_nta_tsutatsu/kihon_16_01.htm",
+   "title": "法第72条《雑損控除》関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_16_03",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/03.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/03.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:30:20 GMT",
+   "bytes": 12217,
+   "sha256": "c26562a874bbead4ad368fbbd31c38d95604b75f4d76ce84ab30f85cd407e2e5",
+   "saved": ".work/downloads/20261111-231711_IMPL3_web_fetch_nta_tsutatsu/kihon_16_03.htm",
+   "title": "法第76条《生命保険料控除》関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_16_06",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/06.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/06.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 25 Nov 2025 08:30:05 GMT",
+   "bytes": 9685,
+   "sha256": "73c6009edd9c2ed350eab73aca71530dc58a45807da74a34539cd959f604f023",
+   "saved": ".work/downloads/20261111-231711_IMPL3_web_fetch_nta_tsutatsu/kihon_16_06.htm",
+   "title": "法第79条《障害者控除》関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_24_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/24/01.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/24/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 25 Nov 2025 08:30:04 GMT",
+   "bytes": 23513,
+   "sha256": "d7082384a0572f3766920c5f455d996118454a7ee6e08dac7913fc893c047d09",
+   "saved": ".work/downloads/20261111-231711_IMPL3_web_fetch_nta_tsutatsu/kihon_24_01.htm",
+   "title": "法第165条《総合課税に係る所得税の課税標準、税額等の計算》関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_31_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/31/01.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/31/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:30:18 GMT",
+   "bytes": 12647,
+   "sha256": "b659cb049b3cefd7441da14626de6112418b7d1bcacd69969eee7c280e7470f7",
+   "saved": ".work/downloads/20261111-231711_IMPL3_web_fetch_nta_tsutatsu/kihon_31_01.htm",
+   "title": "法第183条《源泉徴収義務》関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "sanrin_soti31_02",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/710826/sanrin/sanjyou/soti31/02.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/710826/sanrin/sanjyou/soti31/02.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:24:09 GMT",
+   "bytes": 13355,
+   "sha256": "83ca984d922b480df73c6e8170e5001be61b22bba946384ed4fce94ae1190a0f",
+   "saved": ".work/downloads/20261111-231711_IMPL3_web_fetch_nta_tsutatsu/sanrin_soti31_02.htm",
+   "title": "措置法第31条《長期譲渡所得の課税の特例》・第32条《短期譲渡所得の課税の特例》共通関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "sochi_41_02",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/57/41/02.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/57/41/02.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 02 Oct 2026 08:30:02 GMT",
+   "bytes": 5612,
+   "sha256": "951f85d56c4056bd727a15e56d6e068ccc61ab611745d9d6fc6b6bbf8f959091",
+   "saved": ".work/downloads/20261111-231711_IMPL3_web_fetch_nta_tsutatsu/sochi_41_02.htm",
+   "title": "第41条の2の2（（年末調整に係る住宅借入金等を有する場合の所得税額の特別控除））関係｜国税庁",
+   "encoding": "shift_jis"
+  }
+ ]
+}

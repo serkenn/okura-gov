@@ -1,0 +1,108 @@
+description: >-
+  租税特別措置法第29条の4第2項（給与所得控除の最低控除額等の特例）。令和8年又は令和9年において、その年中の給与等の
+  収入金額が69万1千円以上220万円未満のとき、給与所得の金額は所得税法第28条第2項から第4項までにかかわらずこの項で決まる。
+  原文：docs/public-sources/20261109_impl-prep_kyuyo-sources.md#2.1（措法 R8、asof 2026-12-01）。
+適用:
+  description: この年分に第2項を適用するか（条文「令和八年又は令和九年において」）
+  metadata: &sochi
+    law: 租税特別措置法第29条の4第2項
+    source_kind: 法律
+    reference:
+      - docs/public-sources/20261109_impl-prep_kyuyo-sources.md#2.1
+      - docs/public-sources/20261109_impl-prep_kyuyo-sources.md#2.2
+      - docs/measurements/20261109_impl-prep_kyuyo-beppyo5.md#5
+    law_revision: 332AC0000000026_20261201_508AC0000000012
+  values:
+    2025-01-01:
+      value: false
+      metadata:
+        適用: 令和7年分にはこの規定がない（令和8年法律第12号で新設。附則第1条第4号ロ）
+    2026-01-01:
+      value: true
+      metadata:
+        施行日: 2026-12-01
+        適用: 令和8年分・令和9年分（条文の「令和八年又は令和九年において」）。第2項の支払日による制限の経過措置はない（附則第36条が制限するのは第4項だけ）
+    2028-01-01:
+      value: false
+      metadata:
+        適用: 令和10年分以後は条文の「令和八年又は令和九年において」の外
+第1号:
+  以上:
+    description: 第1号の収入金額の下限（六十九万千円以上）
+    metadata: *sochi
+    values:
+      2026-01-01: {value: 691000, metadata: {施行日: 2026-12-01, 比較: 以上}}
+  未満:
+    description: 第1号の収入金額の上限（七十四万千円未満）
+    metadata: *sochi
+    values:
+      2026-01-01: {value: 741000, metadata: {施行日: 2026-12-01, 比較: 未満}}
+  給与所得:
+    description: 第1号の給与所得の金額（「ないものとする」＝0円）
+    metadata: *sochi
+    values:
+      2026-01-01: {value: 0, metadata: {施行日: 2026-12-01}}
+第2号:
+  以上:
+    description: 第2号の収入金額の下限（七十四万千円以上）
+    metadata: *sochi
+    values:
+      2026-01-01: {value: 741000, metadata: {施行日: 2026-12-01, 比較: 以上}}
+  未満:
+    description: 第2号の収入金額の上限（二百十九万千円未満）
+    metadata: *sochi
+    values:
+      2026-01-01: {value: 2191000, metadata: {施行日: 2026-12-01, 比較: 未満}}
+  控除額:
+    description: 第2号で収入金額から控除する額（「当該収入金額から七十四万円を控除した残額」）
+    metadata: *sochi
+    values:
+      2026-01-01: {value: 740000, metadata: {施行日: 2026-12-01}}
+第3号:
+  以上:
+    description: 第3号の収入金額の下限（二百十九万千円以上）
+    metadata: *sochi
+    values:
+      2026-01-01: {value: 2191000, metadata: {施行日: 2026-12-01, 比較: 以上}}
+  未満:
+    description: 第3号の収入金額の上限（二百十九万三千円未満）
+    metadata: *sochi
+    values:
+      2026-01-01: {value: 2193000, metadata: {施行日: 2026-12-01, 比較: 未満}}
+  給与所得:
+    description: 第3号の給与所得の金額（百四十五万千円）
+    metadata: *sochi
+    values:
+      2026-01-01: {value: 1451000, metadata: {施行日: 2026-12-01}}
+第4号:
+  以上:
+    description: 第4号の収入金額の下限（二百十九万三千円以上）
+    metadata: *sochi
+    values:
+      2026-01-01: {value: 2193000, metadata: {施行日: 2026-12-01, 比較: 以上}}
+  未満:
+    description: 第4号の収入金額の上限（二百十九万六千円未満）
+    metadata: *sochi
+    values:
+      2026-01-01: {value: 2196000, metadata: {施行日: 2026-12-01, 比較: 未満}}
+  給与所得:
+    description: 第4号の給与所得の金額（百四十五万三千円）
+    metadata: *sochi
+    values:
+      2026-01-01: {value: 1453000, metadata: {施行日: 2026-12-01}}
+第5号:
+  以上:
+    description: 第5号の収入金額の下限（二百十九万六千円以上）
+    metadata: *sochi
+    values:
+      2026-01-01: {value: 2196000, metadata: {施行日: 2026-12-01, 比較: 以上}}
+  未満:
+    description: 第5号の収入金額の上限（二百二十万円未満）
+    metadata: *sochi
+    values:
+      2026-01-01: {value: 2200000, metadata: {施行日: 2026-12-01, 比較: 未満}}
+  給与所得:
+    description: 第5号の給与所得の金額（百四十五万六千円）
+    metadata: *sochi
+    values:
+      2026-01-01: {value: 1456000, metadata: {施行日: 2026-12-01}}

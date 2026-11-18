@@ -1,0 +1,303 @@
+{
+ "run_at": "20261109-181534",
+ "download_dir": ".work/downloads/20261109-181534_R2X_hoken-kifu_verify_web",
+ "text_dir": ".work/text/20261109-181534_R2X_hoken-kifu_verify_web",
+ "robots": {
+  "www.nta.go.jp": {
+   "status": 200,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+  },
+  "www.soumu.go.jp": {
+   "status": 200,
+   "sha256": "e0cc280a3ed01a4ee4785320fdacf31ef4724eddf0a46eb860df651eaede55e4"
+  }
+ },
+ "pages": [
+  {
+   "id": "ta_1110",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm",
+   "status": 200,
+   "last_modified": "Wed, 09 Sep 2026 01:00:17 GMT",
+   "sha256": "377fee05900a97e3440a1c46c6f41ca8a6a15482a31f17826852a19ff96c38db",
+   "bytes": 21261,
+   "title": "No.1110 災害や盗難などで資産に損害を受けたとき(雑損控除)｜国税庁",
+   "genzai_horei": "[令和8年4月1日現在法令等]"
+  },
+  {
+   "id": "ta_1135",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1135.htm",
+   "status": 200,
+   "last_modified": "Wed, 09 Sep 2026 01:00:16 GMT",
+   "sha256": "7feba875b3b0ce80b04421bca1a3ca54715d25065f2b7471477d8940cc31f5e0",
+   "bytes": 15894,
+   "title": "No.1135 小規模企業共済等掛金控除｜国税庁",
+   "genzai_horei": "[令和8年4月1日現在法令等]"
+  },
+  {
+   "id": "ta_1140",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm",
+   "status": 200,
+   "last_modified": "Wed, 09 Sep 2026 01:00:16 GMT",
+   "sha256": "20cf3d89f75dc48a636117235a463a96eb4e3ed8f7eb5cafb96ba9876ca040e5",
+   "bytes": 25305,
+   "title": "No.1140 生命保険料控除｜国税庁",
+   "genzai_horei": "[令和8年4月1日現在法令等]"
+  },
+  {
+   "id": "ta_1140_qa",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140_qa.htm",
+   "status": 200,
+   "last_modified": "Wed, 09 Sep 2026 01:00:16 GMT",
+   "sha256": "a97fab46521400eeaf8d1063bc0548ad8ff57936c4cda305fcd6f8bf56a1b958",
+   "bytes": 10398,
+   "title": "No.1140 生命保険料控除｜国税庁",
+   "genzai_horei": "[令和8年4月1日現在法令等]"
+  },
+  {
+   "id": "ta_1141",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1141.htm",
+   "status": 200,
+   "last_modified": "Wed, 09 Sep 2026 01:00:16 GMT",
+   "sha256": "d413caed251207e950fd2f39b51b1ec17eb4abe113cad46a12fe7ec8077cec69",
+   "bytes": 21318,
+   "title": "No.1141 生命保険料控除の対象となる保険契約等｜国税庁",
+   "genzai_horei": "[令和8年4月1日現在法令等]"
+  },
+  {
+   "id": "ta_1145",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1145.htm",
+   "status": 200,
+   "last_modified": "Wed, 09 Sep 2026 01:00:16 GMT",
+   "sha256": "13e2dd00c0165c025f4269aaa712cf9cbac025695082e389e3746fff015e3bd2",
+   "bytes": 18042,
+   "title": "No.1145 地震保険料控除｜国税庁",
+   "genzai_horei": "[令和8年4月1日現在法令等]"
+  },
+  {
+   "id": "ta_1146",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1146.htm",
+   "status": 200,
+   "last_modified": "Wed, 09 Sep 2026 01:00:16 GMT",
+   "sha256": "6b6331a281b23362c5e0fd981b0d8147dc214352a037af39ebba98a8d4e8da88",
+   "bytes": 15118,
+   "title": "No.1146 地震保険料控除の対象となる保険や共済の契約｜国税庁",
+   "genzai_horei": "[令和8年4月1日現在法令等]"
+  },
+  {
+   "id": "ta_1150",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1150.htm",
+   "status": 200,
+   "last_modified": "Wed, 09 Sep 2026 01:00:16 GMT",
+   "sha256": "850e2be9456fb284951cb2fbedce71dc2c8a25653b1cb92c54175534ef37e9bf",
+   "bytes": 28493,
+   "title": "No.1150 一定の寄附金を支払ったとき(寄附金控除)｜国税庁",
+   "genzai_horei": "[令和8年4月1日現在法令等]"
+  },
+  {
+   "id": "ta_1155",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1155.htm",
+   "status": 200,
+   "last_modified": "Wed, 09 Sep 2026 01:00:15 GMT",
+   "sha256": "6f2ea6b344610274ed0a03bb8dea32d75ed1e6a6d4e2416c4694c0bfadd5d979",
+   "bytes": 20508,
+   "title": "No.1155 ふるさと納税(寄附金控除)｜国税庁",
+   "genzai_horei": "[令和8年4月1日現在法令等]"
+  },
+  {
+   "id": "ta_1902",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1902.htm",
+   "status": 200,
+   "last_modified": "Tue, 25 Aug 2026 05:00:01 GMT",
+   "sha256": "27810fec98a6178b8e1edc682f186fbd2b360ec415db10d3b726f500b8daa281",
+   "bytes": 20134,
+   "title": "No.1902 災害減免法による所得税の軽減免除｜国税庁",
+   "genzai_horei": "[令和8年4月1日現在法令等]"
+  },
+  {
+   "id": "shitsugi_05_74",
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/05/74.htm",
+   "status": 200,
+   "last_modified": "Wed, 03 Dec 2025 08:31:00 GMT",
+   "sha256": "207e9fd72fffcb5387c2cc02f4087bd8de3135172eee7cf0b5752cb10fe5ff22",
+   "bytes": 7320,
+   "title": "旧生命保険料と新生命保険料の支払がある場合の生命保険料控除額｜国税庁",
+   "genzai_horei": null
+  },
+  {
+   "id": "shitsugi_05_75",
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/05/75.htm",
+   "status": 200,
+   "last_modified": "Wed, 03 Dec 2025 08:31:00 GMT",
+   "sha256": "c5be17f927c8aac775d9fb0e4e48d871a8d1d622695a96dffde678005f63629d",
+   "bytes": 5105,
+   "title": "1枚の生命保険料控除証明書に旧生命保険料と新生命保険料の記載がある場合｜国税庁",
+   "genzai_horei": null
+  },
+  {
+   "id": "shitsugi_05_76",
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/05/76.htm",
+   "status": 200,
+   "last_modified": "Wed, 03 Dec 2025 08:31:00 GMT",
+   "sha256": "f78dbf2ed3d95c36bcbbf9710e9c3cb39ab9acacf175ea6861bf2f70c8fa642b",
+   "bytes": 6774,
+   "title": "生命保険料控除の限度額計算｜国税庁",
+   "genzai_horei": null
+  },
+  {
+   "id": "shitsugi_05_68",
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/05/68.htm",
+   "status": 200,
+   "last_modified": "Wed, 03 Dec 2025 08:31:01 GMT",
+   "sha256": "4526423ea6edd742bcd5800cec2b3ebe12fff94369cbe1b0d8e39cc533373ea8",
+   "bytes": 5964,
+   "title": "地震保険料控除に関する経過措置｜国税庁",
+   "genzai_horei": null
+  },
+  {
+   "id": "shitsugi_05_05",
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/05/05.htm",
+   "status": 200,
+   "last_modified": "Wed, 03 Dec 2025 08:31:03 GMT",
+   "sha256": "4cc1f311ae396d01e2e280d1da99d08c3fd8173dd702f99bb761c6d03b05c91a",
+   "bytes": 4187,
+   "title": "詐欺による損失｜国税庁",
+   "genzai_horei": null
+  },
+  {
+   "id": "shitsugi_02_37",
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/02/37.htm",
+   "status": 200,
+   "last_modified": "Wed, 03 Dec 2025 08:31:06 GMT",
+   "sha256": "f513bd5fb1d72336b9699055309bc8d554e32bd2f028ebe2e46292adb470ddfa",
+   "bytes": 5861,
+   "title": "「ふるさと納税」を支出した者が地方公共団体から謝礼を受けた場合の課税関係｜国税庁",
+   "genzai_horei": null
+  },
+  {
+   "id": "shitsugi_gensen_03_35",
+   "url": "https://www.nta.go.jp/law/shitsugi/gensen/03/35.htm",
+   "status": 200,
+   "last_modified": "Wed, 03 Dec 2025 08:31:15 GMT",
+   "sha256": "ca8f5848862b9fd1866a8310ecec824e442b6b1fbc20e8d971a95a92fe5a613b",
+   "bytes": 5363,
+   "title": "妻名義の生命保険料控除証明書に基づく生命保険料控除｜国税庁",
+   "genzai_horei": null
+  },
+  {
+   "id": "kihon_16_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/01.htm",
+   "status": 200,
+   "last_modified": "Thu, 18 Jan 2024 09:30:20 GMT",
+   "sha256": "c00969ebe1eb83e0528faf332c93d90326196e27a0631c7547c712e38c485b96",
+   "bytes": 15735,
+   "title": "法第72条《雑損控除》関係｜国税庁",
+   "genzai_horei": null
+  },
+  {
+   "id": "kihon_16_03",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/03.htm",
+   "status": 200,
+   "last_modified": "Thu, 18 Jan 2024 09:30:20 GMT",
+   "sha256": "c26562a874bbead4ad368fbbd31c38d95604b75f4d76ce84ab30f85cd407e2e5",
+   "bytes": 12217,
+   "title": "法第76条《生命保険料控除》関係｜国税庁",
+   "genzai_horei": null
+  },
+  {
+   "id": "kihon_16_04",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/04.htm",
+   "status": 200,
+   "last_modified": "Thu, 25 Dec 2025 01:00:05 GMT",
+   "sha256": "771948518a01900481ffbd43a3bafdad42d7d1e6b1adfe59e804f91fda6ec9e6",
+   "bytes": 8182,
+   "title": "法第77条《地震保険料控除》関係｜国税庁",
+   "genzai_horei": null
+  },
+  {
+   "id": "kihon_16_05",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/05.htm",
+   "status": 200,
+   "last_modified": "Fri, 02 Oct 2026 08:30:04 GMT",
+   "sha256": "50f0070469597674fd8abbb1eaf13a6c421abf80719f574d75079c17d14fb3cf",
+   "bytes": 8832,
+   "title": "法第78条《寄附金控除》関係｜国税庁",
+   "genzai_horei": null
+  },
+  {
+   "id": "kihon_16_06",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/06.htm",
+   "status": 200,
+   "last_modified": "Tue, 25 Nov 2025 08:30:05 GMT",
+   "sha256": "73c6009edd9c2ed350eab73aca71530dc58a45807da74a34539cd959f604f023",
+   "bytes": 9685,
+   "title": "法第79条《障害者控除》関係｜国税庁",
+   "genzai_horei": null
+  },
+  {
+   "id": "nta_furusato",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/furusato.htm",
+   "status": 200,
+   "last_modified": "Tue, 17 Mar 2026 01:00:12 GMT",
+   "sha256": "c5cafeaa8e304f717291c1473452f05ecabbc50fbe1ee2c840b0c7550ac61f5f",
+   "bytes": 38052,
+   "title": "ふるさと納税をされた方へ｜令和7年分 確定申告特集",
+   "genzai_horei": null
+  },
+  {
+   "id": "nta_tokyo_onestop",
+   "url": "https://www.nta.go.jp/about/organization/tokyo/topics/furusato_nozei_onestop/index.htm",
+   "status": 200,
+   "last_modified": "Tue, 17 Mar 2026 08:30:01 GMT",
+   "sha256": "766cc4348aab359417f5bb908c14f188b9ffa55ff21e03d133576a01de4de661",
+   "bytes": 12154,
+   "title": "「ふるさと納税ワンストップ特例」の申請書を提出された方｜東京国税局",
+   "genzai_horei": null
+  },
+  {
+   "id": "soumu_furusato_index",
+   "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/policy/",
+   "status": 200,
+   "last_modified": "Wed, 01 Oct 2025 00:14:28 GMT",
+   "sha256": "1ac955a0b8c79972dc2229c11e2af635d39cc9c1f7054a6456c936f89442cf48",
+   "bytes": 13039,
+   "title": "総務省｜ふるさと納税の理念｜ふるさと納税の理念",
+   "genzai_horei": null
+  },
+  {
+   "id": "soumu_mechanism",
+   "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/furusato/mechanism/deduction.html",
+   "status": 200,
+   "last_modified": "Sun, 08 Feb 2026 23:57:31 GMT",
+   "sha256": "732a9085ddf7ecfb873a6e34e07dbfc0682f04e06ffef104f63aaaf2069e4cc9",
+   "bytes": 20519,
+   "title": "総務省｜ふるさと納税のしくみ｜税金の控除について",
+   "genzai_horei": null
+  },
+  {
+   "id": "nencho2026_index",
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/01.htm",
+   "status": 200,
+   "last_modified": "Fri, 16 Oct 2026 08:30:09 GMT",
+   "sha256": "3e47f99112faf3ff6215f96bd4ebba7dda2268f1ff3b4dfc55d994f395251fa2",
+   "bytes": 19740,
+   "title": "令和8年分　年末調整のしかた｜国税庁",
+   "genzai_horei": null
+  },
+  {
+   "id": "nencho2026_107pdf",
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/107.pdf",
+   "status": 200,
+   "last_modified": "Mon, 31 Aug 2026 08:30:11 GMT",
+   "sha256": "38907ac31a3a50e00b724feaec9d3d185434d3c79357edeb5fa3bbaf1b4ff4a3",
+   "bytes": 785130
+  },
+  {
+   "id": "nencho2026_105pdf",
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/105.pdf",
+   "status": 200,
+   "last_modified": "Thu, 24 Sep 2026 08:30:11 GMT",
+   "sha256": "9460af44b13c8651c3a7bcb3f770946397793fcd4f0db19b2e7e8d612e4188f5",
+   "bytes": 1063580
+  }
+ ]
+}

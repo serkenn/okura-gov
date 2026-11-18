@@ -1,0 +1,18 @@
+description: docs で確かめた国保令・地方税法施行令の版が、軽減の基準額・賦課限度額を定めている最後の年度（situation の年分 F−1 の値が年度 F と違えば、その年度の政令の基準は未登録：公表待ち）
+metadata:
+  law: 国民健康保険法施行令第29条の7、地方税法施行令第56条の88の2・第56条の89
+  source_kind: 政令
+  reference:
+    - docs/public-sources/20261109_round2_kokuho-premium-structure.md#0
+    - docs/public-sources/20261109_round2_kokuho-premium-structure.md#13
+values:
+  2024-01-01:
+    value: 2025
+    metadata:
+      施行日: 2025-04-01
+      適用: 令和7年度（令和7年政令第32号・第119号の版。日付のキーは所得の年分の1月1日）
+  2025-01-01:
+    value: 2026
+    metadata:
+      施行日: 2026-04-01
+      適用: 令和8年度（令和8年政令第2号・第83号の版）。令和9年度の版は 2026-11-09 時点で未登録（[KHP] §13-1）

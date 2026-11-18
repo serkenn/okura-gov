@@ -1,0 +1,20 @@
+{
+  "set": "mhlw_kentokai_pdf",
+  "fetched_at_local": "20261109-173836",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work/downloads/20261109-173836_R2X_spouse_mhlw_kentokai_pdf",
+  "results": [
+    {
+      "id": "kentokai1_shiryo2",
+      "url": "https://www.mhlw.go.jp/content/12500000/001746546.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/12500000/001746546.pdf",
+      "content_type": "application/pdf",
+      "bytes": 3300054,
+      "sha256": "a36904c4d855fa1768cdabafdfe9b53e950d461370eeb45a6cfc709b480ce37b",
+      "last_modified": "Mon, 07 Sep 2026 07:27:08 GMT",
+      "etag": "\"325ad6-65adf8bb10e9b\"",
+      "saved": ".work/downloads/20261109-173836_R2X_spouse_mhlw_kentokai_pdf/kentokai1_shiryo2.pdf"
+    }
+  ]
+}

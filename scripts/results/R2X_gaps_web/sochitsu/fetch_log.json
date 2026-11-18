@@ -1,0 +1,46 @@
+{
+ "set": "sochitsu",
+ "fetched_at": "20261109-174503",
+ "download_dir": ".work/downloads/20261109-174503_R2X_gaps_web_sochitsu",
+ "robots": [
+  {
+   "host": "www.nta.go.jp",
+   "url": "https://www.nta.go.jp/robots.txt",
+   "status": 200,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+   "saved": ".work/downloads/20261109-174503_R2X_gaps_web_sochitsu/robots_www.nta.go.jp.txt"
+  }
+ ],
+ "items": [
+  {
+   "id": "sochitsu_41_3_11",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/57/41/03_2.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/57/41/03_2.htm",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Mon, 25 Nov 2024 05:00:02 GMT",
+   "bytes": 5477,
+   "sha256": "80a95a91d225b30901c4cf6515775e697299782cbf7aa6b40f5f1cbbdf14729e",
+   "saved": ".work/downloads/20261109-174503_R2X_gaps_web_sochitsu/sochitsu_41_3_11.htm",
+   "title": "第41条の3の11（（所得金額調整控除））関係｜国税庁",
+   "encoding": "shift_jis",
+   "text_sha256": "9a1477a1ad0979b1d9aa60f11ac64550742a47a63863cb90c92e84250187fe40"
+  },
+  {
+   "id": "sochitsu_41_3_12",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/57/41/03_4.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/57/41/03_4.htm",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Mon, 25 Nov 2024 05:00:02 GMT",
+   "bytes": 4499,
+   "sha256": "7fb364b783bfba790b06e7f0ec22a96bdcb3c03182846c69fab1391a297f6a43",
+   "saved": ".work/downloads/20261109-174503_R2X_gaps_web_sochitsu/sochitsu_41_3_12.htm",
+   "title": "第41条の3の12（（年末調整に係る所得金額調整控除））関係｜国税庁",
+   "encoding": "shift_jis",
+   "text_sha256": "b930205c32d97e58891993d3f5f496fe76f3f3f1cac00396c23f0d512eee5b5e"
+  }
+ ]
+}

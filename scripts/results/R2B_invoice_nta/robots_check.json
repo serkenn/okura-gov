@@ -1,0 +1,106 @@
+{
+ "fetched_at": "20261109-181021",
+ "url": "https://www.nta.go.jp/robots.txt",
+ "status": 200,
+ "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+ "saved": ".work/downloads/20261109-181021_R2B_invoice_nta_robots/robots.txt",
+ "disallow_lines": [
+  "Disallow: /service_publication/",
+  "Disallow: /about/organization/sapporo/service_publication/",
+  "Disallow: /about/organization/sendai/service_publication/",
+  "Disallow: /about/organization/kantoshinetsu/service_publication/",
+  "Disallow: /about/organization/tokyo/service_publication/",
+  "Disallow: /about/organization/kanazawa/service_publication/",
+  "Disallow: /about/organization/nagoya/service_publication/",
+  "Disallow: /about/organization/osaka/service_publication/",
+  "Disallow: /about/organization/hiroshima/service_publication/",
+  "Disallow: /about/organization/takamatsu/service_publication/",
+  "Disallow: /about/organization/fukuoka/service_publication/",
+  "Disallow: /about/organization/kumamoto/service_publication/",
+  "Disallow: /about/organization/okinawa/service_publication/",
+  "Disallow:"
+ ],
+ "urls": {
+  "pages/tsutatsu_890329": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/890329/01.htm",
+   "allowed": true
+  },
+  "pages/tsutatsu_890329_kaisei_r03": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/2102xx/pdf/01.pdf",
+   "allowed": true
+  },
+  "pages/ta_6909": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6909.htm",
+   "allowed": true
+  },
+  "pages/ta_6501": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6501.htm",
+   "allowed": true
+  },
+  "pages/ta_shohi_index": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-shohizei.htm",
+   "allowed": true
+  },
+  "pages/faq_keiri": {
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/hojin/shouhizei_faq/01.htm",
+   "allowed": true
+  },
+  "pages/invoice_review": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice-review/index.htm",
+   "allowed": true
+  },
+  "pages/invoice_top": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice.htm",
+   "allowed": true
+  },
+  "pages/pamph_r08kaisei": {
+   "url": "https://www.nta.go.jp/publication/pamph/shohi/kaisei/pdf/r08kaisei.pdf",
+   "allowed": true
+  },
+  "pages/pamph_0026004_066": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/pdf/0026004-066_01.pdf",
+   "allowed": true
+  },
+  "pages2/tsutatsu_menu": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/menu.htm",
+   "allowed": true
+  },
+  "pages2/ta_6913": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6913.htm",
+   "allowed": true
+  },
+  "pages2/ta_index2": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm",
+   "allowed": true
+  },
+  "pages2/invoice_faq": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice_faq.htm",
+   "allowed": true
+  },
+  "pages2/invoice_2tokurei": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice_2tokurei.htm",
+   "allowed": true
+  },
+  "pages2/leaflet_r08": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice-review/pdf/0026004-099-01-1.pdf",
+   "allowed": true
+  },
+  "pages2/invoice_review_print": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice-review/pdf/0026004-099-01-2.pdf",
+   "allowed": true
+  },
+  "pages2/shushi_kakikata_r07": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/034.pdf",
+   "allowed": true
+  },
+  "pages2/aoiro_tebiki_r07": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/025.pdf",
+   "allowed": true
+  },
+  "pages2/shiro_tebiki_r07": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kojin_jigyo/kichou09.pdf",
+   "allowed": true
+  }
+ },
+ "all_allowed": true
+}

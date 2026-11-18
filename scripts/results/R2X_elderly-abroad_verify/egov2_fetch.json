@@ -1,0 +1,72 @@
+{
+ "run_at": "20261109-184008",
+ "download_dir": ".work\\downloads\\20261109-184008_R2X_elderly-abroad_verify_egov2",
+ "user_agent": "okura-gov-research/0.1",
+ "fetches": [
+  {
+   "short": "shotoku",
+   "law_id": "340AC0000000033",
+   "asof": "2027-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=json&asof=2027-01-01",
+   "status": 200,
+   "sha256": "d4bf435220bc0b0ce6358a13800ec5605a238630b8a477d4e2587d57918dd35e",
+   "bytes": 16402071,
+   "law_title": "所得税法",
+   "law_revision_id": "340AC0000000033_20270101_508AC0000000012",
+   "amendment_law_num": "令和八年法律第十二号",
+   "amendment_law_title": "所得税法等の一部を改正する法律",
+   "amendment_enforcement_date": "2027-01-01",
+   "current_revision_status": "UnEnforced",
+   "updated": "2026-07-28T12:10:38+09:00"
+  },
+  {
+   "short": "shotoku",
+   "law_id": "340AC0000000033",
+   "asof": "2027-03-15",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=json&asof=2027-03-15",
+   "status": 200,
+   "sha256": "d4bf435220bc0b0ce6358a13800ec5605a238630b8a477d4e2587d57918dd35e",
+   "bytes": 16402071,
+   "law_title": "所得税法",
+   "law_revision_id": "340AC0000000033_20270101_508AC0000000012",
+   "amendment_law_num": "令和八年法律第十二号",
+   "amendment_law_title": "所得税法等の一部を改正する法律",
+   "amendment_enforcement_date": "2027-01-01",
+   "current_revision_status": "UnEnforced",
+   "updated": "2026-07-28T12:10:38+09:00"
+  },
+  {
+   "short": "shotoku-rei",
+   "law_id": "340CO0000000096",
+   "asof": "2027-03-15",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096?response_format=json&asof=2027-03-15",
+   "status": 200,
+   "sha256": "f4965711894ea1c7b149f1e8db4069c87646cc070445c1afd5f1abe633883da9",
+   "bytes": 3629167,
+   "law_title": "所得税法施行令",
+   "law_revision_id": "340CO0000000096_20270101_508CO0000000093",
+   "amendment_law_num": "令和八年政令第九十三号",
+   "amendment_law_title": "所得税法施行令の一部を改正する政令",
+   "amendment_enforcement_date": "2027-01-01",
+   "current_revision_status": "UnEnforced",
+   "updated": "2026-04-21T11:05:13+09:00"
+  },
+  {
+   "short": "shotoku-ki",
+   "law_id": "340M50000040011",
+   "asof": "2027-03-15",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340M50000040011?response_format=json&asof=2027-03-15",
+   "status": 200,
+   "sha256": "1600117df38c4463510ee5b18f455eb0d2dd3821c8a245c8fd42e444ec9c689f",
+   "bytes": 2364138,
+   "law_title": "所得税法施行規則",
+   "law_revision_id": "340M50000040011_20270101_508M60000040017",
+   "amendment_law_num": "令和八年財務省令第十七号",
+   "amendment_law_title": "所得税法施行規則の一部を改正する省令",
+   "amendment_enforcement_date": "2027-01-01",
+   "current_revision_status": "UnEnforced",
+   "updated": "2026-05-11T10:31:01+09:00"
+  }
+ ],
+ "revision_lists": {}
+}

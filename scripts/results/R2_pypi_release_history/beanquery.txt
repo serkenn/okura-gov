@@ -1,0 +1,13 @@
+package: beanquery
+latest: 0.2.0
+requires_python: >=3.8
+license: GNU GENERAL PUBLIC LICENSE
+
+# 最近30件（最初のファイルのアップロード日時, バージョン）
+2024-06-16T19:42:58 0.1.dev0
+2024-11-05T21:46:07 0.1.0
+2025-03-24T20:27:51 0.2.0
+
+# 最新版 0.2.0 の配布ファイル（ファイル名, 種類, sha256）
+beanquery-0.2.0-py3-none-any.whl bdist_wheel 980b7a328486d58cfd3e8fa98983fd501c33cf3a9be67f8b1e16c81e94018a3c
+beanquery-0.2.0.tar.gz sdist 2d72b50a39003435c7fed183666572b8ea878b9860499d0f196b38469384cd2c

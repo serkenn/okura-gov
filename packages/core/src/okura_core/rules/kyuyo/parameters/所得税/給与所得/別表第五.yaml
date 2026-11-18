@@ -1,0 +1,32 @@
+description: 給与所得の金額を求める所得税法 別表第五の版（rules/kyuyo/data/ の表 ID）。年分の全体に、その年分に適用される版を使う。
+metadata:
+  law: 所得税法第28条第4項・別表第五
+  source_kind: 法律
+  unit: 表ID
+  reference:
+    - docs/public-sources/20261109_impl-prep_kyuyo-sources.md#1.1
+    - docs/public-sources/20261109_impl-prep_kyuyo-sources.md#1.4
+    - docs/measurements/20261109_impl-prep_kyuyo-beppyo5.md#3
+    - docs/measurements/20261109_impl-prep_kyuyo-beppyo5.md#4
+  flags:
+    - 法令の読み
+  reading:
+    - docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md#H1
+    - docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md#H3
+  note: >-
+    最後の支払が12月1日前の給与等に旧の表を使う経過措置（令和7年法律第13号附則第9条第2項、令和8年法律第12号附則第13条第2項）は
+    「源泉徴収に関する経過措置」で年末調整にだけ効くと読み、確定申告の給与所得には使わない。
+    読みの支え：国税庁 Q&A（docs/public-sources/20261109_impl-prep_kyuyo-sources.md#4.2・#4.3。根拠の種類は国税庁の説明）。
+values:
+  2025-01-01:
+    value: beppyo5_2025-12-31
+    metadata:
+      施行日: 2025-12-01
+      適用: 令和7年分以後（令和7年法律第13号附則第3条第1項）。施行は附則第1条第1号イ
+      law_revision: 340AC0000000033_20251218_507AC0000000013
+  2026-01-01:
+    value: beppyo5_2026-12-01
+    metadata:
+      施行日: 2026-12-01
+      適用: 令和8年分以後（令和8年法律第12号附則第3条第1項）。施行は附則第1条第4号イ
+      law_revision: 340AC0000000033_20261201_508AC0000000012

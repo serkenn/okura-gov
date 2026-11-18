@@ -1,0 +1,121 @@
+{
+ "iryouhi_rows_9_to_1003": 995,
+ "unit_multiples": {
+  "0000": 10000,
+  "000": 1000,
+  "00": 100
+ },
+ "max_9digits": 999999999,
+ "form_id_contains_etax_id": {
+  "第一表": {
+   "KOA020": false,
+   "KOA110": false,
+   "KOB560": false
+  },
+  "第二表": {
+   "KOA020": false,
+   "KOA110": false,
+   "KOB560": false
+  },
+  "収支内訳書1": {
+   "KOA020": false,
+   "KOA110": true,
+   "KOB560": false
+  },
+  "収支内訳書2": {
+   "KOA020": false,
+   "KOA110": true,
+   "KOB560": false
+  },
+  "医療費明細書": {
+   "KOA020": false,
+   "KOA110": false,
+   "KOB560": false
+  }
+ },
+ "form_id_chars": {
+  "第一表": [
+   "1(U+0031)",
+   "K(U+004B)",
+   "0(U+0030)"
+  ],
+  "第二表": [
+   "0(U+0030)",
+   "K(U+004B)",
+   "0(U+0030)"
+  ],
+  "収支内訳書1": [
+   "0(U+0030)",
+   "K(U+004B)",
+   "O(U+004F)"
+  ],
+  "収支内訳書2": [
+   "0(U+0030)",
+   "K(U+004B)",
+   "O(U+004F)"
+  ],
+  "医療費明細書": [
+   "0(U+0030)",
+   "K(U+004B)",
+   "0(U+0030)"
+  ]
+ },
+ "form_id_decomposition": {
+  "第一表": {
+   "as_transcribed": "NTA1K0A020010230",
+   "with_letter_O": "NTA1KOA020010230",
+   "prefix": "NTA1",
+   "etax_part": "KOA020",
+   "page2": "01",
+   "ver4": "0230",
+   "ver4_as_number": "23.0",
+   "etax_ver_r8jan": "23.0",
+   "etax_ver_r9jan": "24.0"
+  },
+  "第二表": {
+   "as_transcribed": "NTA0K0A020020230",
+   "with_letter_O": "NTA0KOA020020230",
+   "prefix": "NTA0",
+   "etax_part": "KOA020",
+   "page2": "02",
+   "ver4": "0230",
+   "ver4_as_number": "23.0",
+   "etax_ver_r8jan": "23.0",
+   "etax_ver_r9jan": "24.0"
+  },
+  "収支内訳書1": {
+   "as_transcribed": "NTA0KOA110010120",
+   "with_letter_O": "NTA0KOA110010120",
+   "prefix": "NTA0",
+   "etax_part": "KOA110",
+   "page2": "01",
+   "ver4": "0120",
+   "ver4_as_number": "12.0",
+   "etax_ver_r8jan": null,
+   "etax_ver_r9jan": "13.0"
+  },
+  "収支内訳書2": {
+   "as_transcribed": "NTA0KOA110020120",
+   "with_letter_O": "NTA0KOA110020120",
+   "prefix": "NTA0",
+   "etax_part": "KOA110",
+   "page2": "02",
+   "ver4": "0120",
+   "ver4_as_number": "12.0",
+   "etax_ver_r8jan": null,
+   "etax_ver_r9jan": "13.0"
+  },
+  "医療費明細書": {
+   "as_transcribed": "NTA0K0B560010180",
+   "with_letter_O": "NTA0KOB560010180",
+   "prefix": "NTA0",
+   "etax_part": "KOB560",
+   "page2": "01",
+   "ver4": "0180",
+   "ver4_as_number": "18.0",
+   "etax_ver_r8jan": "18.0",
+   "etax_ver_r9jan": null
+  }
+ },
+ "fukko_rate_equal": true
+}

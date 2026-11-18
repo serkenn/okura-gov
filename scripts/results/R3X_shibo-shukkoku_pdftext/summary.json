@@ -1,0 +1,78 @@
+{
+ "aes_selftest_n": {
+  "aes128_encrypt_C1": true,
+  "aes256_encrypt_C3": true,
+  "aes256_decrypt_C3": true
+ },
+ "files": {
+  "fuhyo_shibou": {
+   "path": ".work/downloads/20261109-201804_R3X_shibo-shukkoku_nta_forms/fuhyo_shibou.pdf",
+   "sha256": "eb783a916a2705c62f81c027f6d416f4d4b2718ee869cb3029ad63fd732f0543",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 1,
+   "text_runs": 0,
+   "lines": 0,
+   "pages_without_text": [
+    1
+   ],
+   "type0_fonts": 0,
+   "type0_fonts_without_tounicode": 0,
+   "replacement_chars": 0
+  },
+  "ininjo_junkaku": {
+   "path": ".work/downloads/20261109-201804_R3X_shibo-shukkoku_nta_forms/ininjo_junkaku.pdf",
+   "sha256": "a157edaf3515f3b2b7dd59914ae9d7c87c6630deff4212095f1bfd51a17f2b4f",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 1,
+   "text_runs": 205,
+   "lines": 31,
+   "pages_without_text": [],
+   "type0_fonts": 2,
+   "type0_fonts_without_tounicode": 0,
+   "replacement_chars": 0
+  },
+  "r8_kiso_qa": {
+   "path": ".work/downloads/20261109-201804_R3X_shibo-shukkoku_nta_forms/r8_kiso_qa.pdf",
+   "sha256": "a3c12744dbed64e7a03383868baa055f51eb1d0434ee3267d6374d2fe959cea8",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 14,
+   "text_runs": 1752,
+   "lines": 279,
+   "pages_without_text": [],
+   "type0_fonts": 1,
+   "type0_fonts_without_tounicode": 0,
+   "replacement_chars": 0
+  },
+  "r7_kiso_qa": {
+   "path": ".work/downloads/20261109-202010_R3X_shibo-shukkoku_nta_forms2/r7_kiso_qa.pdf",
+   "sha256": "af377dfb7700cb28a8c328bdb83916b148e9ff24bf2064e2be35c76bb793805b",
+   "encrypt": "AESV3(V5,R6)",
+   "key_ok": true,
+   "pages": 31,
+   "text_runs": 3448,
+   "lines": 991,
+   "pages_without_text": [],
+   "type0_fonts": 3,
+   "type0_fonts_without_tounicode": 0,
+   "replacement_chars": 290
+  },
+  "fuhyo_kisaiyoryo": {
+   "path": ".work/downloads/20261109-211539_R3X_shibo-shukkoku_nta_forms3/fuhyo_kisaiyoryo.pdf",
+   "sha256": "f742bc6599532467c4cf89cb43f1002ba1427c0368e075471af3133e7050a8e7",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": false,
+   "pages": 1,
+   "text_runs": 0,
+   "lines": 0,
+   "pages_without_text": [
+    1
+   ],
+   "type0_fonts": 6,
+   "type0_fonts_without_tounicode": 4,
+   "replacement_chars": 0
+  }
+ }
+}

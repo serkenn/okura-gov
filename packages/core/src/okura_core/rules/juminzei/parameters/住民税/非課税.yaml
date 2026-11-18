@@ -1,0 +1,79 @@
+description: >-
+  非課税の法令の値。第295条第1項第2号の135万円、所得割の非課税（附則第3条の3第4項：35万円・10万円・32万円。級地・条例で変わらない）、
+  均等割の非課税の10万円（施行令第47条の3第1号の定額。基本額・加算額は条例の額で注入データ）。
+  令和8年度分・令和9年度分で文言は同じ（docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md §1.5・§2.1）。
+第295条第1項の合計所得金額の上限:
+  description: 障害者・未成年者・寡婦・ひとり親の前年の合計所得金額の上限（135万円を超えなければ非課税。第295条第1項第2号）
+  metadata:
+    law: 地方税法第295条第1項第2号
+    source_kind: 法律
+    unit: 円
+    比較: 以下
+    reference: [docs/public-sources/20261109_R1-laws_local-tax.md#4, docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md#3.1, docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md#2.4]
+  values:
+    2025-01-01: {value: 1350000, metadata: &r89 {適用: 令和8年度分・令和9年度分（文言が同じ。日付のキーは所得の年分の1月1日）}}
+所得割:
+  人数ごとの額:
+    description: 35万円×（同一生計配偶者及び扶養親族の数＋1）の35万円（附則第3条の3第4項。道府県民税は第1項）
+    metadata: &shotokuwari
+      law: 地方税法附則第3条の3第1項・第4項
+      source_kind: 法律
+      unit: 円
+      reference: [docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md#2.1, docs/public-sources/20261109_round2_juminzei-tax-law-text.md#10]
+    values:
+      2025-01-01: {value: 350000, metadata: *r89}
+  定額:
+    description: 加算する10万円
+    metadata: *shotokuwari
+    values:
+      2025-01-01: {value: 100000, metadata: *r89}
+  扶養がある場合の加算額:
+    description: 同一生計配偶者又は扶養親族を有する場合に加算する32万円
+    metadata: *shotokuwari
+    values:
+      2025-01-01: {value: 320000, metadata: *r89}
+数える扶養親族の年齢の上限:
+  description: >-
+    非課税の判定で数える扶養親族は「年齢十六歳未満の者及び…控除対象扶養親族に限る」（附則第3条の3第4項、施行令第47条の3第1号）の16歳。
+    居住者の扶養親族は全員がどちらかに当たり、非居住者の扶養親族の一部だけが数えられない。年齢の時点は前年の12月31日の読み（未発見：§9）
+  metadata:
+    law: 地方税法附則第3条の3第4項、同施行令第47条の3第1号
+    source_kind: 法律
+    flags: [法令の読み]
+    reference: [docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md#1.4, docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md#2.1]
+  values:
+    2025-01-01: {value: 16, metadata: *r89}
+均等割:
+  定額:
+    description: 均等割の非課税の基準で加算する10万円（施行令第47条の3第1号の定額。基本額・加算額は条例の額で注入データ）
+    metadata:
+      law: 地方税法第295条第3項、同施行令第47条の3第1号
+      source_kind: 政令
+      unit: 円
+      reference: [docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md#1.2, docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md#1.4]
+    values:
+      2025-01-01: {value: 100000, metadata: *r89}
+  基本額の上限:
+    description: 条例の基本額の上限（35万円×級地の率を超えない範囲で参酌：施行令第47条の3第2号）。基本額が注入されていないとき、政令の基準どおりの型の額に使う
+    metadata: &kinto
+      law: 地方税法施行令第47条の3第2号・第3号、同施行規則第9条の21第2項
+      source_kind: 政令
+      unit: 円
+      reference: [docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md#1.2, docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md#1.4]
+    values:
+      2025-01-01: {value: 350000, metadata: *r89}
+  加算額の上限:
+    description: 条例の加算額の上限（21万円×級地の率）
+    metadata: *kinto
+    values:
+      2025-01-01: {value: 210000, metadata: *r89}
+  級地の率:
+    一級地:
+      分子: {description: 1級地の率（1.0）の分子（施行規則第9条の21第2項）, metadata: &kyu {law: 地方税法施行規則第9条の21第2項, source_kind: 省令, reference: [docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md#1.3]}, values: {2025-01-01: {value: 10, metadata: *r89}}}
+      分母: {description: 同じ率の分母, metadata: *kyu, values: {2025-01-01: {value: 10, metadata: *r89}}}
+    二級地:
+      分子: {description: 2級地の率（0.9）の分子, metadata: *kyu, values: {2025-01-01: {value: 9, metadata: *r89}}}
+      分母: {description: 同じ率の分母, metadata: *kyu, values: {2025-01-01: {value: 10, metadata: *r89}}}
+    三級地:
+      分子: {description: 3級地の率（0.8）の分子, metadata: *kyu, values: {2025-01-01: {value: 8, metadata: *r89}}}
+      分母: {description: 同じ率の分母, metadata: *kyu, values: {2025-01-01: {value: 10, metadata: *r89}}}

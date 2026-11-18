@@ -1,0 +1,2714 @@
+{
+ "n": 291,
+ "ng": [
+  "G-PS-jigyo-sec"
+ ],
+ "results": [
+  {
+   "id": "A-lawid-shotoku",
+   "doc": "PS§0",
+   "desc": "所得税法 の law_id は 340AC0000000033",
+   "ok": true,
+   "evidence": [
+    {
+     "law_id": "340AC0000000033",
+     "law_num": "昭和四十年法律第三十三号"
+    }
+   ]
+  },
+  {
+   "id": "A-lawid-shotoku-rei",
+   "doc": "PS§0",
+   "desc": "所得税法施行令 の law_id は 340CO0000000096",
+   "ok": true,
+   "evidence": [
+    {
+     "law_id": "340CO0000000096",
+     "law_num": "昭和四十年政令第九十六号"
+    }
+   ]
+  },
+  {
+   "id": "A-lawid-sochi",
+   "doc": "PS§0",
+   "desc": "租税特別措置法 の law_id は 332AC0000000026",
+   "ok": true,
+   "evidence": [
+    {
+     "law_id": "332AC0000000026",
+     "law_num": "昭和三十二年法律第二十六号"
+    }
+   ]
+  },
+  {
+   "id": "A-lawid-sochi-rei",
+   "doc": "PS§0",
+   "desc": "租税特別措置法施行令 の law_id は 332CO0000000043",
+   "ok": true,
+   "evidence": [
+    {
+     "law_id": "332CO0000000043",
+     "law_num": "昭和三十二年政令第四十三号"
+    }
+   ]
+  },
+  {
+   "id": "A-lawid-chiho",
+   "doc": "PS§0",
+   "desc": "地方税法 の law_id は 325AC0000000226",
+   "ok": true,
+   "evidence": [
+    {
+     "law_id": "325AC0000000226",
+     "law_num": "昭和二十五年法律第二百二十六号"
+    }
+   ]
+  },
+  {
+   "id": "A-rid-PS-shotoku-2025-12-31",
+   "doc": "PS§0",
+   "desc": "shotoku asof 2025-12-31 の版は 340AC0000000033_20251218_507AC0000000013",
+   "ok": true,
+   "evidence": {
+    "got": "340AC0000000033_20251218_507AC0000000013"
+   }
+  },
+  {
+   "id": "A-rid-PS-shotoku-2026-11-09",
+   "doc": "PS§0",
+   "desc": "shotoku asof 2026-11-09 の版は 340AC0000000033_20261001_507AC0000000070",
+   "ok": true,
+   "evidence": {
+    "got": "340AC0000000033_20261001_507AC0000000070"
+   }
+  },
+  {
+   "id": "A-rid-PS-shotoku-2026-12-31",
+   "doc": "PS§0",
+   "desc": "shotoku asof 2026-12-31 の版は 340AC0000000033_20261201_508AC0000000012",
+   "ok": true,
+   "evidence": {
+    "got": "340AC0000000033_20261201_508AC0000000012"
+   }
+  },
+  {
+   "id": "A-rid-PS-shotoku-2027-01-01",
+   "doc": "PS§0",
+   "desc": "shotoku asof 2027-01-01 の版は 340AC0000000033_20270101_508AC0000000012",
+   "ok": true,
+   "evidence": {
+    "got": "340AC0000000033_20270101_508AC0000000012"
+   }
+  },
+  {
+   "id": "A-rid-PS-shotoku-rei-2025-12-31",
+   "doc": "PS§0",
+   "desc": "shotoku-rei asof 2025-12-31 の版は 340CO0000000096_20251201_507CO0000000120",
+   "ok": true,
+   "evidence": {
+    "got": "340CO0000000096_20251201_507CO0000000120"
+   }
+  },
+  {
+   "id": "A-rid-PS-shotoku-rei-2026-11-09",
+   "doc": "PS§0",
+   "desc": "shotoku-rei asof 2026-11-09 の版は 340CO0000000096_20260522_508CO0000000093",
+   "ok": true,
+   "evidence": {
+    "got": "340CO0000000096_20260522_508CO0000000093"
+   }
+  },
+  {
+   "id": "A-rid-PS-shotoku-rei-2026-12-31",
+   "doc": "PS§0",
+   "desc": "shotoku-rei asof 2026-12-31 の版は 340CO0000000096_20261201_508CO0000000093",
+   "ok": true,
+   "evidence": {
+    "got": "340CO0000000096_20261201_508CO0000000093"
+   }
+  },
+  {
+   "id": "A-rid-PS-shotoku-rei-2027-01-01",
+   "doc": "PS§0",
+   "desc": "shotoku-rei asof 2027-01-01 の版は 340CO0000000096_20270101_508CO0000000093",
+   "ok": true,
+   "evidence": {
+    "got": "340CO0000000096_20270101_508CO0000000093"
+   }
+  },
+  {
+   "id": "A-rid-PS-sochi-2025-12-31",
+   "doc": "PS§0",
+   "desc": "sochi asof 2025-12-31 の版は 332AC0000000026_20251231_507AC1000000081",
+   "ok": true,
+   "evidence": {
+    "got": "332AC0000000026_20251231_507AC1000000081"
+   }
+  },
+  {
+   "id": "A-rid-PS-sochi-2026-11-09",
+   "doc": "PS§0",
+   "desc": "sochi asof 2026-11-09 の版は 332AC0000000026_20261101_507AC0000000013",
+   "ok": true,
+   "evidence": {
+    "got": "332AC0000000026_20261101_507AC0000000013"
+   }
+  },
+  {
+   "id": "A-rid-PS-sochi-2026-12-31",
+   "doc": "PS§0",
+   "desc": "sochi asof 2026-12-31 の版は 332AC0000000026_20261204_508AC0000000012",
+   "ok": true,
+   "evidence": {
+    "got": "332AC0000000026_20261204_508AC0000000012"
+   }
+  },
+  {
+   "id": "A-rid-PS-sochi-2027-01-01",
+   "doc": "PS§0",
+   "desc": "sochi asof 2027-01-01 の版は 332AC0000000026_20270101_508AC0000000012",
+   "ok": true,
+   "evidence": {
+    "got": "332AC0000000026_20270101_508AC0000000012"
+   }
+  },
+  {
+   "id": "A-rid-PS-sochi-rei-2025-12-31",
+   "doc": "PS§0",
+   "desc": "sochi-rei asof 2025-12-31 の版は 332CO0000000043_20251231_507CO0000000401",
+   "ok": true,
+   "evidence": {
+    "got": "332CO0000000043_20251231_507CO0000000401"
+   }
+  },
+  {
+   "id": "A-rid-PS-sochi-rei-2026-12-31",
+   "doc": "PS§0",
+   "desc": "sochi-rei asof 2026-12-31 の版は 332CO0000000043_20261201_508CO0000000098",
+   "ok": true,
+   "evidence": {
+    "got": "332CO0000000043_20261201_508CO0000000098"
+   }
+  },
+  {
+   "id": "A-rid-PS-chiho-2025-12-31",
+   "doc": "PS§0",
+   "desc": "chiho asof 2025-12-31 の版は 325AC0000000226_20251212_507AC0000000087",
+   "ok": true,
+   "evidence": {
+    "got": "325AC0000000226_20251212_507AC0000000087"
+   }
+  },
+  {
+   "id": "A-rid-PS-chiho-2026-12-31",
+   "doc": "PS§0",
+   "desc": "chiho asof 2026-12-31 の版は 325AC0000000226_20261126_508AC0000000002",
+   "ok": true,
+   "evidence": {
+    "got": "325AC0000000226_20261126_508AC0000000002"
+   }
+  },
+  {
+   "id": "A-rid-PS-chiho-2027-01-01",
+   "doc": "PS§0",
+   "desc": "chiho asof 2027-01-01 の版は 325AC0000000226_20270101_508AC0000000002",
+   "ok": true,
+   "evidence": {
+    "got": "325AC0000000226_20270101_508AC0000000002"
+   }
+  },
+  {
+   "id": "A-rid-M-shotoku-2025-12-31",
+   "doc": "M§2.1",
+   "desc": "shotoku asof 2025-12-31：340AC0000000033_20251218_507AC0000000013（PreviousEnforced）",
+   "ok": true,
+   "evidence": {
+    "got": "340AC0000000033_20251218_507AC0000000013",
+    "status": "PreviousEnforced"
+   }
+  },
+  {
+   "id": "A-rid-M-shotoku-2026-11-09",
+   "doc": "M§2.1",
+   "desc": "shotoku asof 2026-11-09：340AC0000000033_20261001_507AC0000000070（CurrentEnforced）",
+   "ok": true,
+   "evidence": {
+    "got": "340AC0000000033_20261001_507AC0000000070",
+    "status": "CurrentEnforced"
+   }
+  },
+  {
+   "id": "A-rid-M-shotoku-2026-12-31",
+   "doc": "M§2.1",
+   "desc": "shotoku asof 2026-12-31：340AC0000000033_20261201_508AC0000000012（UnEnforced）",
+   "ok": true,
+   "evidence": {
+    "got": "340AC0000000033_20261201_508AC0000000012",
+    "status": "UnEnforced"
+   }
+  },
+  {
+   "id": "A-rid-M-shotoku-2027-01-01",
+   "doc": "M§2.1",
+   "desc": "shotoku asof 2027-01-01：340AC0000000033_20270101_508AC0000000012（UnEnforced）",
+   "ok": true,
+   "evidence": {
+    "got": "340AC0000000033_20270101_508AC0000000012",
+    "status": "UnEnforced"
+   }
+  },
+  {
+   "id": "A-rid-M-shotoku-rei-2025-12-31",
+   "doc": "M§2.1",
+   "desc": "shotoku-rei asof 2025-12-31：340CO0000000096_20251201_507CO0000000120",
+   "ok": true,
+   "evidence": {
+    "got": "340CO0000000096_20251201_507CO0000000120",
+    "status": "PreviousEnforced"
+   }
+  },
+  {
+   "id": "A-rid-M-shotoku-rei-2026-11-09",
+   "doc": "M§2.1",
+   "desc": "shotoku-rei asof 2026-11-09：340CO0000000096_20260522_508CO0000000093",
+   "ok": true,
+   "evidence": {
+    "got": "340CO0000000096_20260522_508CO0000000093",
+    "status": "CurrentEnforced"
+   }
+  },
+  {
+   "id": "A-rid-M-shotoku-rei-2026-12-31",
+   "doc": "M§2.1",
+   "desc": "shotoku-rei asof 2026-12-31：340CO0000000096_20261201_508CO0000000093",
+   "ok": true,
+   "evidence": {
+    "got": "340CO0000000096_20261201_508CO0000000093",
+    "status": "UnEnforced"
+   }
+  },
+  {
+   "id": "A-rid-M-shotoku-rei-2027-01-01",
+   "doc": "M§2.1",
+   "desc": "shotoku-rei asof 2027-01-01：340CO0000000096_20270101_508CO0000000093",
+   "ok": true,
+   "evidence": {
+    "got": "340CO0000000096_20270101_508CO0000000093",
+    "status": "UnEnforced"
+   }
+  },
+  {
+   "id": "A-rid-M-sochi-2025-12-31",
+   "doc": "M§2.1",
+   "desc": "sochi asof 2025-12-31：332AC0000000026_20251231_507AC1000000081",
+   "ok": true,
+   "evidence": {
+    "got": "332AC0000000026_20251231_507AC1000000081",
+    "status": "PreviousEnforced"
+   }
+  },
+  {
+   "id": "A-rid-M-sochi-2026-11-09",
+   "doc": "M§2.1",
+   "desc": "sochi asof 2026-11-09：332AC0000000026_20261101_507AC0000000013",
+   "ok": true,
+   "evidence": {
+    "got": "332AC0000000026_20261101_507AC0000000013",
+    "status": "CurrentEnforced"
+   }
+  },
+  {
+   "id": "A-rid-M-sochi-2026-12-31",
+   "doc": "M§2.1",
+   "desc": "sochi asof 2026-12-31：332AC0000000026_20261204_508AC0000000012",
+   "ok": true,
+   "evidence": {
+    "got": "332AC0000000026_20261204_508AC0000000012",
+    "status": "UnEnforced"
+   }
+  },
+  {
+   "id": "A-rid-M-sochi-2027-01-01",
+   "doc": "M§2.1",
+   "desc": "sochi asof 2027-01-01：332AC0000000026_20270101_508AC0000000012",
+   "ok": true,
+   "evidence": {
+    "got": "332AC0000000026_20270101_508AC0000000012",
+    "status": "UnEnforced"
+   }
+  },
+  {
+   "id": "A-rid-M-sochi-rei-2025-12-31",
+   "doc": "M§2.1",
+   "desc": "sochi-rei asof 2025-12-31：332CO0000000043_20251231_507CO0000000401",
+   "ok": true,
+   "evidence": {
+    "got": "332CO0000000043_20251231_507CO0000000401",
+    "status": "PreviousEnforced"
+   }
+  },
+  {
+   "id": "A-rid-M-sochi-rei-2026-12-31",
+   "doc": "M§2.1",
+   "desc": "sochi-rei asof 2026-12-31：332CO0000000043_20261201_508CO0000000098",
+   "ok": true,
+   "evidence": {
+    "got": "332CO0000000043_20261201_508CO0000000098",
+    "status": "UnEnforced"
+   }
+  },
+  {
+   "id": "A-rid-M-chiho-2025-12-31",
+   "doc": "M§2.1",
+   "desc": "chiho asof 2025-12-31：325AC0000000226_20251212_507AC0000000087",
+   "ok": true,
+   "evidence": {
+    "got": "325AC0000000226_20251212_507AC0000000087",
+    "status": "PreviousEnforced"
+   }
+  },
+  {
+   "id": "A-rid-M-chiho-2026-12-31",
+   "doc": "M§2.1",
+   "desc": "chiho asof 2026-12-31：325AC0000000226_20261126_508AC0000000002",
+   "ok": true,
+   "evidence": {
+    "got": "325AC0000000226_20261126_508AC0000000002",
+    "status": "UnEnforced"
+   }
+  },
+  {
+   "id": "A-rid-M-chiho-2027-01-01",
+   "doc": "M§2.1",
+   "desc": "chiho asof 2027-01-01：325AC0000000226_20270101_508AC0000000002",
+   "ok": true,
+   "evidence": {
+    "got": "325AC0000000226_20270101_508AC0000000002",
+    "status": "UnEnforced"
+   }
+  },
+  {
+   "id": "A-revs-shotoku",
+   "doc": "M§2.1",
+   "desc": "/law_revisions（amendment_date_from=2025-01-01）の件数 29",
+   "ok": true,
+   "evidence": {
+    "n": 29,
+    "n_all": 84
+   }
+  },
+  {
+   "id": "A-revs-shotoku-rei",
+   "doc": "M§2.1",
+   "desc": "/law_revisions（amendment_date_from=2025-01-01）の件数 16",
+   "ok": true,
+   "evidence": {
+    "n": 16,
+    "n_all": 63
+   }
+  },
+  {
+   "id": "A-revs-sochi",
+   "doc": "M§2.1",
+   "desc": "/law_revisions（amendment_date_from=2025-01-01）の件数 44",
+   "ok": true,
+   "evidence": {
+    "n": 44,
+    "n_all": 176
+   }
+  },
+  {
+   "id": "A-revs-sochi-rei",
+   "doc": "M§2.1",
+   "desc": "/law_revisions（amendment_date_from=2025-01-01）の件数 35",
+   "ok": true,
+   "evidence": {
+    "n": 35,
+    "n_all": 150
+   }
+  },
+  {
+   "id": "A-R8-unenforced",
+   "doc": "PS§6",
+   "desc": "令和8年分の版（asof 2026-12-31）は 2026-11-09 時点で UnEnforced（所法）",
+   "ok": true,
+   "evidence": {
+    "law_revision_id": "340AC0000000033_20261201_508AC0000000012",
+    "amendment_law_num": "令和八年法律第十二号",
+    "amendment_law_title": "所得税法等の一部を改正する法律",
+    "amendment_enforcement_date": "2026-12-01",
+    "amendment_promulgate_date": "2026-03-31",
+    "current_revision_status": "UnEnforced",
+    "updated": "2026-07-28T10:44:31+09:00"
+   }
+  },
+  {
+   "id": "A-198-2025-12-31",
+   "doc": "M§5/PS§4.2",
+   "desc": "所令198 三号・六号の文言 asof 2025-12-31：「及び」、版 340CO0000000096_20251201_507CO0000000120",
+   "ok": true,
+   "evidence": {
+    "got": "340CO0000000096_20251201_507CO0000000120"
+   }
+  },
+  {
+   "id": "A-198-2026-03-31",
+   "doc": "M§5/PS§4.2",
+   "desc": "所令198 三号・六号の文言 asof 2026-03-31：「及び」、版 340CO0000000096_20260101_507CO0000000120",
+   "ok": true,
+   "evidence": {
+    "got": "340CO0000000096_20260101_507CO0000000120"
+   }
+  },
+  {
+   "id": "A-198-2026-04-01",
+   "doc": "M§5/PS§4.2",
+   "desc": "所令198 三号・六号の文言 asof 2026-04-01：「又は」、版 340CO0000000096_20260401_508CO0000000093",
+   "ok": true,
+   "evidence": {
+    "got": "340CO0000000096_20260401_508CO0000000093"
+   }
+  },
+  {
+   "id": "A-198-2026-11-09",
+   "doc": "M§5/PS§4.2",
+   "desc": "所令198 三号・六号の文言 asof 2026-11-09：「又は」、版 340CO0000000096_20260522_508CO0000000093",
+   "ok": true,
+   "evidence": {
+    "got": "340CO0000000096_20260522_508CO0000000093"
+   }
+  },
+  {
+   "id": "A-198-2026-12-31",
+   "doc": "M§5/PS§4.2",
+   "desc": "所令198 三号・六号の文言 asof 2026-12-31：「又は」、版 340CO0000000096_20261201_508CO0000000093",
+   "ok": true,
+   "evidence": {
+    "got": "340CO0000000096_20261201_508CO0000000093"
+   }
+  },
+  {
+   "id": "A-198-2027-01-01",
+   "doc": "M§5/PS§4.2",
+   "desc": "所令198 三号・六号の文言 asof 2027-01-01：「又は」、版 340CO0000000096_20270101_508CO0000000093",
+   "ok": true,
+   "evidence": {
+    "got": "340CO0000000096_20270101_508CO0000000093"
+   }
+  },
+  {
+   "id": "A-198-2028-01-01",
+   "doc": "M§5/PS§4.2",
+   "desc": "所令198 三号・六号の文言 asof 2028-01-01：「又は」、版 340CO0000000096_20280101_508CO0000000093",
+   "ok": true,
+   "evidence": {
+    "got": "340CO0000000096_20280101_508CO0000000093"
+   }
+  },
+  {
+   "id": "A-198-2028-item3",
+   "doc": "M§5/PS§4.2",
+   "desc": "2028-01-01 の版の所令198三号に「法第三十三条第三項第一号又は第三号」",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "A-178-2028",
+   "doc": "M§5",
+   "desc": "2028-01-01 の版の所令178②に「法第三十三条第三項第三号」が入る（2026-11-09 の版にはない）",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "A-R8-93-art1",
+   "doc": "PS§4.2/M§5",
+   "desc": "令和8年政令第93号 附則第1条本文「この政令は、令和八年四月一日から施行する。」",
+   "ok": true,
+   "evidence": [
+    "令和八年三月三一日政令第九三号"
+   ]
+  },
+  {
+   "id": "A-R8-93-item5",
+   "doc": "PS§4.2/M§5",
+   "desc": "同条第5号：「第百九十八条第三号の改正規定（「及び」を「又は」に改める部分を除く。）」は第3号の施行日の属する年の翌年の1月1日",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "B-26-1",
+   "doc": "PS",
+   "desc": "shotoku 26 1 の文言（2025-12-31, 2026-12-31, 2027-01-01）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true,
+    "2027-01-01": true
+   }
+  },
+  {
+   "id": "B-26-2",
+   "doc": "PS",
+   "desc": "shotoku 26 2 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-33-1",
+   "doc": "PS",
+   "desc": "shotoku 33 1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-33-3-1",
+   "doc": "PS",
+   "desc": "shotoku 33 3-1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-37-1",
+   "doc": "PS",
+   "desc": "shotoku 37 1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei79-1",
+   "doc": "PS",
+   "desc": "shotoku-rei 79 1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei79-1-1",
+   "doc": "PS",
+   "desc": "shotoku-rei 79 1-1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei79-1-2",
+   "doc": "PS",
+   "desc": "shotoku-rei 79 1-2 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei79-1-3",
+   "doc": "PS",
+   "desc": "shotoku-rei 79 1-3 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei79-3",
+   "doc": "PS",
+   "desc": "shotoku-rei 79 3 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei80",
+   "doc": "PS",
+   "desc": "shotoku-rei 80 2 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-51-1",
+   "doc": "PS",
+   "desc": "shotoku 51 1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-51-2",
+   "doc": "PS",
+   "desc": "shotoku 51 2 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-51-4",
+   "doc": "PS",
+   "desc": "shotoku 51 4 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-64-1",
+   "doc": "PS",
+   "desc": "shotoku 64 1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-152",
+   "doc": "PS",
+   "desc": "shotoku 152 1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei180-2-1",
+   "doc": "PS",
+   "desc": "shotoku-rei 180 2-1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei180-2-2",
+   "doc": "PS",
+   "desc": "shotoku-rei 180 2-2 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-57-1",
+   "doc": "PS",
+   "desc": "shotoku 57 1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-57-3-1",
+   "doc": "PS",
+   "desc": "shotoku 57 3-1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-57-3-2",
+   "doc": "PS",
+   "desc": "shotoku 57 3-2 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-57-4",
+   "doc": "PS",
+   "desc": "shotoku 57 4 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-63",
+   "doc": "PS",
+   "desc": "shotoku 63 1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei179",
+   "doc": "PS",
+   "desc": "shotoku-rei 179 1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-69-1",
+   "doc": "PS",
+   "desc": "shotoku 69 1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-69-2",
+   "doc": "PS",
+   "desc": "shotoku 69 2 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei178-1-2",
+   "doc": "PS",
+   "desc": "shotoku-rei 178 1-2 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei200",
+   "doc": "PS",
+   "desc": "shotoku-rei 200 1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei198-1",
+   "doc": "PS",
+   "desc": "shotoku-rei 198 1-1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei198-2",
+   "doc": "PS",
+   "desc": "shotoku-rei 198 1-2 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei198-3",
+   "doc": "PS",
+   "desc": "shotoku-rei 198 1-3 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei198-4",
+   "doc": "PS",
+   "desc": "shotoku-rei 198 1-4 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei198-5",
+   "doc": "PS",
+   "desc": "shotoku-rei 198 1-5 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei198-6",
+   "doc": "PS",
+   "desc": "shotoku-rei 198 1-6 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-41_4-1",
+   "doc": "PS",
+   "desc": "sochi 41_4 1 の文言（2025-12-31, 2026-12-31, 2027-01-01）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true,
+    "2027-01-01": true
+   }
+  },
+  {
+   "id": "B-41_4-2",
+   "doc": "PS",
+   "desc": "sochi 41_4 2 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei26_6-1-1",
+   "doc": "PS",
+   "desc": "sochi-rei 26_6 1-1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei26_6-1-2",
+   "doc": "PS",
+   "desc": "sochi-rei 26_6 1-2 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei26_6-2",
+   "doc": "PS",
+   "desc": "sochi-rei 26_6 2 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-41_4_2-1",
+   "doc": "PS",
+   "desc": "sochi 41_4_2 1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei26_6_2-4",
+   "doc": "PS",
+   "desc": "sochi-rei 26_6_2 4 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei26_6_2-6",
+   "doc": "PS",
+   "desc": "sochi-rei 26_6_2 6 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-41_4_3-1",
+   "doc": "PS",
+   "desc": "sochi 41_4_3 1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-41_4_3-2-1",
+   "doc": "PS",
+   "desc": "sochi 41_4_3 2-1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-41_4_3-3",
+   "doc": "PS",
+   "desc": "sochi 41_4_3 3 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-rei26_6_3-1",
+   "doc": "PS",
+   "desc": "sochi-rei 26_6_3 1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-25_2-1",
+   "doc": "PS",
+   "desc": "sochi 25_2 1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-25_2-2",
+   "doc": "PS",
+   "desc": "sochi 25_2 2 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-25_2-3",
+   "doc": "PS",
+   "desc": "sochi 25_2 3 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-25_2-4",
+   "doc": "PS",
+   "desc": "sochi 25_2 4 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-25_2-R9-2",
+   "doc": "PS",
+   "desc": "sochi 25_2 2 の文言（2027-01-01）",
+   "ok": true,
+   "evidence": {
+    "2027-01-01": true
+   }
+  },
+  {
+   "id": "B-25_2-R9-4",
+   "doc": "PS",
+   "desc": "sochi 25_2 4 の文言（2027-01-01）",
+   "ok": true,
+   "evidence": {
+    "2027-01-01": true
+   }
+  },
+  {
+   "id": "B-25_2-R9-5",
+   "doc": "PS",
+   "desc": "sochi 25_2 5 の文言（2027-01-01）",
+   "ok": true,
+   "evidence": {
+    "2027-01-01": true
+   }
+  },
+  {
+   "id": "B-143",
+   "doc": "PS",
+   "desc": "shotoku 143 1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-70-1",
+   "doc": "PS",
+   "desc": "shotoku 70 1 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-70-2",
+   "doc": "PS",
+   "desc": "shotoku 70 2 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-2-30-i2",
+   "doc": "PS",
+   "desc": "shotoku 2 1-30 の文言（2025-12-31, 2026-11-09, 2026-12-31, 2027-01-01）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-11-09": true,
+    "2026-12-31": true,
+    "2027-01-01": true
+   }
+  },
+  {
+   "id": "B-2-32-kyuyo",
+   "doc": "PS",
+   "desc": "shotoku 2 1-32 の文言（2025-12-31, 2026-11-09, 2026-12-31, 2027-01-01）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-11-09": true,
+    "2026-12-31": true,
+    "2027-01-01": true
+   }
+  },
+  {
+   "id": "B-2-33-senju",
+   "doc": "PS",
+   "desc": "shotoku 2 1-33 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-2-34-senju",
+   "doc": "PS",
+   "desc": "shotoku 2 1-34 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-2-34-term-R8",
+   "doc": "PS",
+   "desc": "shotoku 2 1-34 の文言（2026-11-09, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2026-11-09": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-56",
+   "doc": "PS",
+   "desc": "shotoku 56 1 の文言（2025-12-31, 2026-11-09, 2026-12-31, 2027-01-01）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-11-09": true,
+    "2026-12-31": true,
+    "2027-01-01": true
+   }
+  },
+  {
+   "id": "B-chiho313-2",
+   "doc": "PS",
+   "desc": "chiho 313 2 の文言（2025-12-31, 2026-12-31, 2027-01-01）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true,
+    "2027-01-01": true
+   }
+  },
+  {
+   "id": "B-chiho313-3",
+   "doc": "PS",
+   "desc": "chiho 313 3 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-chiho313-4",
+   "doc": "PS",
+   "desc": "chiho 313 4 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-chiho313-5",
+   "doc": "PS",
+   "desc": "chiho 313 5 の文言（2025-12-31, 2026-12-31）",
+   "ok": true,
+   "evidence": {
+    "2025-12-31": true,
+    "2026-12-31": true
+   }
+  },
+  {
+   "id": "B-25_2-R9-no55",
+   "doc": "PS§3.4/H4",
+   "desc": "措法25の2（2027-01-01）の本文に「五十五万円」がない（65万円・75万円はある）",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "B-56-no-gyomu",
+   "doc": "PS§5.1/M C2-56",
+   "desc": "所法56 の本文に「業務」の語がない（4つの版）",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "B-67-caption",
+   "doc": "PS§9-7",
+   "desc": "現行の所法67 の見出しは「小規模事業者等の収入及び費用の帰属時期」、67の2 は「リース取引に係る所得の金額の計算」（参考）",
+   "ok": true,
+   "evidence": {
+    "67": "（小規模事業者等の収入及び費用の帰属時期）",
+    "67_2": "（リース取引に係る所得の金額の計算）"
+   }
+  },
+  {
+   "id": "B-no-hasu",
+   "doc": "PS§9-3",
+   "desc": "所法57・措令26の6 の本文に「端数」の語がない（R7・R8）。措通41の4−3 の本文にも「端数」がない",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "B-chiho-no41_4-2025-12-31",
+   "doc": "PS§4.5/M C2",
+   "desc": "地方税法（2025-12-31）の全文に「第四十一条の四」がない",
+   "ok": true,
+   "evidence": 0
+  },
+  {
+   "id": "B-chiho-no41_4-2026-12-31",
+   "doc": "PS§4.5/M C2",
+   "desc": "地方税法（2026-12-31）の全文に「第四十一条の四」がない",
+   "ok": true,
+   "evidence": 0
+  },
+  {
+   "id": "B-chiho-no41_4-2027-01-01",
+   "doc": "PS§4.5/M C2",
+   "desc": "地方税法（2027-01-01）の全文に「第四十一条の四」がない",
+   "ok": true,
+   "evidence": 0
+  },
+  {
+   "id": "C3-2025-12-31",
+   "doc": "PS§6/M C3",
+   "desc": "所法2①三十二・三十四（2025-12-31）：勤労学生 85万円・10万円、扶養親族 58万円",
+   "ok": true,
+   "evidence": {
+    "got": [
+     85,
+     10,
+     58,
+     58
+    ],
+    "同一生計配偶者": 58
+   }
+  },
+  {
+   "id": "C3-2026-11-09",
+   "doc": "PS§6/M C3",
+   "desc": "所法2①三十二・三十四（2026-11-09）：勤労学生 85万円・10万円、扶養親族 58万円",
+   "ok": true,
+   "evidence": {
+    "got": [
+     85,
+     10,
+     58,
+     58
+    ],
+    "同一生計配偶者": 58
+   }
+  },
+  {
+   "id": "C3-2026-12-31",
+   "doc": "PS§6/M C3",
+   "desc": "所法2①三十二・三十四（2026-12-31）：勤労学生 89万円・10万円、扶養親族 62万円",
+   "ok": true,
+   "evidence": {
+    "got": [
+     89,
+     10,
+     62,
+     62
+    ],
+    "同一生計配偶者": 62
+   }
+  },
+  {
+   "id": "C3-2027-01-01",
+   "doc": "PS§6/M C3",
+   "desc": "所法2①三十二・三十四（2027-01-01）：勤労学生 89万円・10万円、扶養親族 62万円",
+   "ok": true,
+   "evidence": {
+    "got": [
+     89,
+     10,
+     62,
+     62
+    ],
+    "同一生計配偶者": 62
+   }
+  },
+  {
+   "id": "C1-shotoku-26",
+   "doc": "PS§0/M C1",
+   "desc": "shotoku 26 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-shotoku-33",
+   "doc": "PS§0/M C1",
+   "desc": "shotoku 33 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-shotoku-36",
+   "doc": "PS§0/M C1",
+   "desc": "shotoku 36 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-shotoku-37",
+   "doc": "PS§0/M C1",
+   "desc": "shotoku 37 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-shotoku-51",
+   "doc": "PS§0/M C1",
+   "desc": "shotoku 51 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-shotoku-56",
+   "doc": "PS§0/M C1",
+   "desc": "shotoku 56 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-shotoku-57",
+   "doc": "PS§0/M C1",
+   "desc": "shotoku 57 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-shotoku-63",
+   "doc": "PS§0/M C1",
+   "desc": "shotoku 63 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-shotoku-64",
+   "doc": "PS§0/M C1",
+   "desc": "shotoku 64 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-shotoku-69",
+   "doc": "PS§0/M C1",
+   "desc": "shotoku 69 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-shotoku-70",
+   "doc": "PS§0/M C1",
+   "desc": "shotoku 70 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-shotoku-143",
+   "doc": "PS§0/M C1",
+   "desc": "shotoku 143 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-shotoku-152",
+   "doc": "PS§0/M C1",
+   "desc": "shotoku 152 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-shotoku-rei-79",
+   "doc": "PS§0/M C1",
+   "desc": "shotoku-rei 79 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-shotoku-rei-80",
+   "doc": "PS§0/M C1",
+   "desc": "shotoku-rei 80 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-shotoku-rei-178",
+   "doc": "PS§0/M C1",
+   "desc": "shotoku-rei 178 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-shotoku-rei-179",
+   "doc": "PS§0/M C1",
+   "desc": "shotoku-rei 179 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-shotoku-rei-180",
+   "doc": "PS§0/M C1",
+   "desc": "shotoku-rei 180 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-shotoku-rei-200",
+   "doc": "PS§0/M C1",
+   "desc": "shotoku-rei 200 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-sochi-41_4",
+   "doc": "PS§0/M C1",
+   "desc": "sochi 41_4 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-sochi-41_4_2",
+   "doc": "PS§0/M C1",
+   "desc": "sochi 41_4_2 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-sochi-41_4_3",
+   "doc": "PS§0/M C1",
+   "desc": "sochi 41_4_3 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-sochi-rei-26_6",
+   "doc": "PS§0/M C1",
+   "desc": "sochi-rei 26_6 は 2025-12-31〜2026-12-31 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-sochi-rei-26_6_2",
+   "doc": "PS§0/M C1",
+   "desc": "sochi-rei 26_6_2 は 2025-12-31〜2026-12-31 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-sochi-rei-26_6_3",
+   "doc": "PS§0/M C1",
+   "desc": "sochi-rei 26_6_3 は 2025-12-31〜2026-12-31 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-chiho-313-1-11",
+   "doc": "PS§0/M C1",
+   "desc": "地方税法313 ①〜⑪ は 2025-12-31・2026-12-31・2027-01-01 で同文",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-chiho-313-12",
+   "doc": "M C1",
+   "desc": "地方税法313⑫ は版の間で変わる（担当の「第12項の特定配当等の文言だけが変わる」の前半）",
+   "ok": true,
+   "evidence": {
+    "n_distinct": 2
+   }
+  },
+  {
+   "id": "C1-chiho-313-13-16",
+   "doc": "M C1",
+   "desc": "地方税法313 ⑬以降は版の間で同文（「第12項…だけが変わる」の後半）",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-25_2",
+   "doc": "PS§3.4/M C1",
+   "desc": "措法25の2 は 2025-12-31・2026-11-09・2026-12-31 で同文、2027-01-01 で変わる",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-198",
+   "doc": "PS§4.2/M C1",
+   "desc": "所令198：2025-12-31 と 2026-11-09 以後の差は「及び」→「又は」だけ（2026-11-09〜2027-01-01 は同文）",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C1-2",
+   "doc": "PS§0",
+   "desc": "所法2 は 2025-12-31 と 2026-12-31 で変わる",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-robots",
+   "doc": "M§2.2",
+   "desc": "robots.txt の SHA-256 が a5f4e421…d8528 で、対象の URL はすべて許可",
+   "ok": true,
+   "evidence": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+  },
+  {
+   "id": "D-hash-ta_1370",
+   "doc": "M§2.2",
+   "desc": "ta_1370：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Wed, 09 Sep 2026 01:00:10 GMT",
+    "bytes": 18307,
+    "sha256": "da714720865ff067"
+   }
+  },
+  {
+   "id": "D-hash-ta_1373",
+   "doc": "M§2.2",
+   "desc": "ta_1373：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Wed, 09 Sep 2026 01:00:10 GMT",
+    "bytes": 15889,
+    "sha256": "0b053da9a95a46a4"
+   }
+  },
+  {
+   "id": "D-hash-ta_1376",
+   "doc": "M§2.2",
+   "desc": "ta_1376：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Wed, 09 Sep 2026 01:00:10 GMT",
+    "bytes": 14528,
+    "sha256": "2fd1538516c6484d"
+   }
+  },
+  {
+   "id": "D-hash-ta_1391",
+   "doc": "M§2.2",
+   "desc": "ta_1391：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Wed, 09 Sep 2026 01:00:10 GMT",
+    "bytes": 14664,
+    "sha256": "1b7d43446bd3ec70"
+   }
+  },
+  {
+   "id": "D-hash-ta_1399",
+   "doc": "M§2.2",
+   "desc": "ta_1399：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Wed, 09 Sep 2026 01:00:10 GMT",
+    "bytes": 16499,
+    "sha256": "e2f17566db3d3876"
+   }
+  },
+  {
+   "id": "D-hash-ta_2250",
+   "doc": "M§2.2",
+   "desc": "ta_2250：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Wed, 09 Sep 2026 01:00:03 GMT",
+    "bytes": 19079,
+    "sha256": "81cabb299948105a"
+   }
+  },
+  {
+   "id": "D-hash-ta_2072",
+   "doc": "M§2.2",
+   "desc": "ta_2072：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Wed, 09 Sep 2026 01:00:05 GMT",
+    "bytes": 18706,
+    "sha256": "de4d48788c2cdaf2"
+   }
+  },
+  {
+   "id": "D-hash-ta_2075",
+   "doc": "M§2.2",
+   "desc": "ta_2075：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Wed, 09 Sep 2026 01:00:05 GMT",
+    "bytes": 20170,
+    "sha256": "e8f8fde1bfd353d8"
+   }
+  },
+  {
+   "id": "D-hash-ta_2210",
+   "doc": "M§2.2",
+   "desc": "ta_2210：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Wed, 09 Sep 2026 01:00:04 GMT",
+    "bytes": 22617,
+    "sha256": "40767a3ae083b75f"
+   }
+  },
+  {
+   "id": "D-hash-kihon_04_02",
+   "doc": "M§2.2",
+   "desc": "kihon_04_02：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Thu, 18 Jan 2024 09:30:23 GMT",
+    "bytes": 12102,
+    "sha256": "b6af300ee6469a0e"
+   }
+  },
+  {
+   "id": "D-hash-kihon_05_01",
+   "doc": "M§2.2",
+   "desc": "kihon_05_01：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Tue, 25 Nov 2025 08:30:06 GMT",
+    "bytes": 27416,
+    "sha256": "6e42d433d5cc2383"
+   }
+  },
+  {
+   "id": "D-hash-kihon_09_01",
+   "doc": "M§2.2",
+   "desc": "kihon_09_01：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Tue, 25 Nov 2025 08:30:05 GMT",
+    "bytes": 9920,
+    "sha256": "8f4e8849c99b2757"
+   }
+  },
+  {
+   "id": "D-hash-kihon_09_02",
+   "doc": "M§2.2",
+   "desc": "kihon_09_02：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Fri, 02 Oct 2026 08:30:05 GMT",
+    "bytes": 9535,
+    "sha256": "b26e20744c0f2034"
+   }
+  },
+  {
+   "id": "D-hash-kihon_11_01",
+   "doc": "M§2.2",
+   "desc": "kihon_11_01：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Thu, 18 Jan 2024 09:30:20 GMT",
+    "bytes": 5436,
+    "sha256": "357de2fabe640a6a"
+   }
+  },
+  {
+   "id": "D-hash-kihon_13_01",
+   "doc": "M§2.2",
+   "desc": "kihon_13_01：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Thu, 18 Jan 2024 09:30:20 GMT",
+    "bytes": 18589,
+    "sha256": "329de50863233404"
+   }
+  },
+  {
+   "id": "D-hash-kihon_15_01",
+   "doc": "M§2.2",
+   "desc": "kihon_15_01：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Tue, 25 Nov 2025 08:30:05 GMT",
+    "bytes": 15465,
+    "sha256": "ead14cdf750a9590"
+   }
+  },
+  {
+   "id": "D-hash-sochitsu_41_4",
+   "doc": "M§2.2",
+   "desc": "sochitsu_41_4：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Thu, 25 Dec 2025 01:00:03 GMT",
+    "bytes": 7081,
+    "sha256": "f4321d6d9d528c54"
+   }
+  },
+  {
+   "id": "D-hash-sochitsu_41_4_2",
+   "doc": "M§2.2",
+   "desc": "sochitsu_41_4_2：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Thu, 25 Dec 2025 01:00:03 GMT",
+    "bytes": 6585,
+    "sha256": "003e706f4a67994e"
+   }
+  },
+  {
+   "id": "D-hash-sochitsu_41_4_3",
+   "doc": "M§2.2",
+   "desc": "sochitsu_41_4_3：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Thu, 25 Dec 2025 01:00:03 GMT",
+    "bytes": 5374,
+    "sha256": "71437866a1120ea8"
+   }
+  },
+  {
+   "id": "D-hash-pdf_shushi_r07",
+   "doc": "M§2.2",
+   "desc": "pdf_shushi_r07：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Mon, 31 Aug 2026 05:00:04 GMT",
+    "bytes": 20330,
+    "sha256": "64f619f6a802bc3b"
+   }
+  },
+  {
+   "id": "D-hash-pdf_shushi_kakikata_r07",
+   "doc": "M§2.2",
+   "desc": "pdf_shushi_kakikata_r07：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Fri, 12 Dec 2025 08:30:42 GMT",
+    "bytes": 1886396,
+    "sha256": "43d3ef2e015358de"
+   }
+  },
+  {
+   "id": "D-hash-pdf_kessan_r07",
+   "doc": "M§2.2",
+   "desc": "pdf_kessan_r07：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Mon, 31 Aug 2026 05:00:04 GMT",
+    "bytes": 26865,
+    "sha256": "ade5f59b33e687fb"
+   }
+  },
+  {
+   "id": "D-hash-pdf_kessan_kakikata_r07",
+   "doc": "M§2.2",
+   "desc": "pdf_kessan_kakikata_r07：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Fri, 12 Dec 2025 08:30:40 GMT",
+    "bytes": 2542599,
+    "sha256": "36ae83ad49ef3b73"
+   }
+  },
+  {
+   "id": "D-hash-yoshiki_r07",
+   "doc": "M§2.2",
+   "desc": "yoshiki_r07：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Tue, 20 Oct 2026 08:30:03 GMT",
+    "bytes": 45317,
+    "sha256": "ff769ff6e512b73d"
+   }
+  },
+  {
+   "id": "D-hash-yoshiki_r08",
+   "doc": "M§2.2",
+   "desc": "yoshiki_r08：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Thu, 18 Jan 2024 09:39:47 GMT",
+    "bytes": 2007,
+    "sha256": "700138cae1f347c2"
+   }
+  },
+  {
+   "id": "D-hash-shitsugi_02_27",
+   "doc": "M§2.2",
+   "desc": "shitsugi_02_27：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Wed, 03 Dec 2025 08:31:06 GMT",
+    "bytes": 5868,
+    "sha256": "26eb83cc9663b82e"
+   }
+  },
+  {
+   "id": "D-hash-shitsugi_04_14",
+   "doc": "M§2.2",
+   "desc": "shitsugi_04_14：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Wed, 03 Dec 2025 08:31:04 GMT",
+    "bytes": 5878,
+    "sha256": "3b0c023583ce48b4"
+   }
+  },
+  {
+   "id": "D-hash-kobetsu_731106",
+   "doc": "M§2.2",
+   "desc": "kobetsu_731106：Last-Modified・バイト数・SHA-256 が［M］§2.2 と同じ",
+   "ok": true,
+   "evidence": {
+    "lm": "Thu, 18 Jan 2024 09:25:14 GMT",
+    "bytes": 7561,
+    "sha256": "b1c33a7fe5946c79"
+   }
+  },
+  {
+   "id": "D-r08-404",
+   "doc": "PS§8.3/M§2.2",
+   "desc": "令和8年分の様式一覧（r08.htm）は /error/404.htm に転送され、題名「指定されたページを表示できませんでした」",
+   "ok": true,
+   "evidence": "https://www.nta.go.jp/error/404.htm"
+  },
+  {
+   "id": "D-asof-ta_1370",
+   "doc": "PS§0",
+   "desc": "ta_1370 は [令和8年4月1日現在法令等]",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-asof-ta_1373",
+   "doc": "PS§0",
+   "desc": "ta_1373 は [令和8年4月1日現在法令等]",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-asof-ta_1376",
+   "doc": "PS§0",
+   "desc": "ta_1376 は [令和8年4月1日現在法令等]",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-asof-ta_1391",
+   "doc": "PS§0",
+   "desc": "ta_1391 は [令和8年4月1日現在法令等]",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-asof-ta_1399",
+   "doc": "PS§0",
+   "desc": "ta_1399 は [令和8年4月1日現在法令等]",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-asof-ta_2072",
+   "doc": "PS§0",
+   "desc": "ta_2072 は [令和8年4月1日現在法令等]",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-asof-ta_2075",
+   "doc": "PS§0",
+   "desc": "ta_2075 は [令和8年4月1日現在法令等]",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-asof-ta_2210",
+   "doc": "PS§0",
+   "desc": "ta_2210 は [令和8年4月1日現在法令等]",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-asof-ta_2250",
+   "doc": "PS§0",
+   "desc": "ta_2250 は [令和8年4月1日現在法令等]",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-asof-shitsugi_02_27",
+   "doc": "PS§0",
+   "desc": "shitsugi_02_27 は「令和7年8月1日現在の法令・通達等」",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-asof-shitsugi_04_14",
+   "doc": "PS§0",
+   "desc": "shitsugi_04_14 は「令和7年8月1日現在の法令・通達等」",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-link-r07/09.pdf",
+   "doc": "PS§0",
+   "desc": "令和7年分の様式一覧に「収支内訳書（不動産所得用）【令和２年分以降用】」→ r07/09.pdf",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-link-2025/pdf/019.pdf",
+   "doc": "PS§0",
+   "desc": "令和7年分の様式一覧に「令和７年分収支内訳書（不動産所得用）の書き方」→ 2025/pdf/019.pdf",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-link-r07/12.pdf",
+   "doc": "PS§0",
+   "desc": "令和7年分の様式一覧に「所得税青色申告決算書（不動産所得用）【令和２年分以降用】」→ r07/12.pdf",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-link-2025/pdf/039.pdf",
+   "doc": "PS§0",
+   "desc": "令和7年分の様式一覧に「令和７年分青色申告決算書（不動産所得用）の書き方」→ 2025/pdf/039.pdf",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-26-1",
+   "doc": "PS",
+   "desc": "kihon_04_02 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-26-2",
+   "doc": "PS",
+   "desc": "kihon_04_02 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-26-3",
+   "doc": "PS",
+   "desc": "kihon_04_02 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-26-4",
+   "doc": "PS",
+   "desc": "kihon_04_02 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-26-5",
+   "doc": "PS",
+   "desc": "kihon_04_02 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-26-6",
+   "doc": "PS",
+   "desc": "kihon_04_02 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-26-7",
+   "doc": "PS",
+   "desc": "kihon_04_02 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-26-8",
+   "doc": "PS",
+   "desc": "kihon_04_02 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-26-9",
+   "doc": "PS",
+   "desc": "kihon_04_02 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-27-2",
+   "doc": "PS",
+   "desc": "kihon_04_02 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-27-3",
+   "doc": "PS",
+   "desc": "kihon_04_02 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-36-5",
+   "doc": "PS",
+   "desc": "kihon_05_01 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-36-6",
+   "doc": "PS",
+   "desc": "kihon_05_01 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-36-7",
+   "doc": "PS",
+   "desc": "kihon_05_01 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-51-5",
+   "doc": "PS",
+   "desc": "kihon_09_01 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-51-1..9",
+   "doc": "PS",
+   "desc": "kihon_09_01 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-51-10",
+   "doc": "PS",
+   "desc": "kihon_09_02 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-56-1",
+   "doc": "PS",
+   "desc": "kihon_11_01 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-57-2,3",
+   "doc": "PS",
+   "desc": "kihon_11_01 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-63/64",
+   "doc": "PS",
+   "desc": "kihon_13_01 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-s41_4-1",
+   "doc": "PS",
+   "desc": "sochitsu_41_4 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-s41_4-2",
+   "doc": "PS",
+   "desc": "sochitsu_41_4 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-s41_4-3",
+   "doc": "PS",
+   "desc": "sochitsu_41_4 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-s41_4-4",
+   "doc": "PS",
+   "desc": "sochitsu_41_4 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-731106-head",
+   "doc": "PS",
+   "desc": "kobetsu_731106 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-731106-1",
+   "doc": "PS",
+   "desc": "kobetsu_731106 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-731106-2",
+   "doc": "PS",
+   "desc": "kobetsu_731106 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-731106-3",
+   "doc": "PS",
+   "desc": "kobetsu_731106 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-TA1370",
+   "doc": "PS",
+   "desc": "ta_1370 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-TA1373",
+   "doc": "PS",
+   "desc": "ta_1373 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-TA1376-qa",
+   "doc": "PS",
+   "desc": "ta_1376 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-TA1391",
+   "doc": "PS",
+   "desc": "ta_1391 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-TA1399",
+   "doc": "PS",
+   "desc": "ta_1399 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-TA2072",
+   "doc": "PS",
+   "desc": "ta_2072 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-TA2075",
+   "doc": "PS",
+   "desc": "ta_2075 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-TA2210",
+   "doc": "PS",
+   "desc": "ta_2210 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-TA2250-4",
+   "doc": "PS",
+   "desc": "ta_2250 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-TA1391-extra",
+   "doc": "PS",
+   "desc": "ta_1391 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-QA02-27",
+   "doc": "PS",
+   "desc": "shitsugi_02_27 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-QA04-14",
+   "doc": "PS",
+   "desc": "shitsugi_04_14 の文言",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-51-10-only-ascii",
+   "doc": "PS§0",
+   "desc": "〔貸倒損失〕のページの最初は 51-10（PS§0 の「51−10〜」）",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "E-enc-shushi_r07",
+   "doc": "M§4.1",
+   "desc": "shushi_r07：AESV2（V4・R4）、鍵の検査が通る、2頁",
+   "ok": true,
+   "evidence": {
+    "encrypt": {
+     "encrypted": true,
+     "V": 4,
+     "R": 4,
+     "P": -1068,
+     "Length": 16,
+     "CFM": "AESV2",
+     "key_ok": true
+    },
+    "pages": 2,
+    "rows": 533
+   }
+  },
+  {
+   "id": "E-enc-kessan_r07",
+   "doc": "M§4.1",
+   "desc": "kessan_r07：AESV2（V4・R4）、鍵の検査が通る、4頁",
+   "ok": true,
+   "evidence": {
+    "encrypt": {
+     "encrypted": true,
+     "V": 4,
+     "R": 4,
+     "P": -1068,
+     "Length": 16,
+     "CFM": "AESV2",
+     "key_ok": true
+    },
+    "pages": 4,
+    "rows": 817
+   }
+  },
+  {
+   "id": "E-aes-selftest",
+   "doc": "—",
+   "desc": "AES-128 復号の自己検査（FIPS-197 C.1）",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "E-kakikata-pdf_shushi_kakikata_r07",
+   "doc": "M§4.1/§4.2",
+   "desc": "pdf_shushi_kakikata_r07：AESV3（V5・R6）、8頁、Type0 フォント 20・/ToUnicode 8（暗号化されない辞書の文字列で数えた）",
+   "ok": true,
+   "evidence": {
+    "V5R6": true,
+    "count": 8,
+    "type0": 20,
+    "tounicode": 8,
+    "identity_h": 19,
+    "cidfonttype0": 20
+   }
+  },
+  {
+   "id": "E-kakikata-pdf_kessan_kakikata_r07",
+   "doc": "M§4.1/§4.2",
+   "desc": "pdf_kessan_kakikata_r07：AESV3（V5・R6）、8頁、Type0 フォント 14・/ToUnicode 0（暗号化されない辞書の文字列で数えた）",
+   "ok": true,
+   "evidence": {
+    "V5R6": true,
+    "count": 8,
+    "type0": 14,
+    "tounicode": 0,
+    "identity_h": 14,
+    "cidfonttype0": 14
+   }
+  },
+  {
+   "id": "E-shushi-codes",
+   "doc": "PS§8.1/M C5",
+   "desc": "収支内訳書（不動産所得用）1頁：G01〜G21 の科目名（G14 は科目名の印字なし）",
+   "ok": true,
+   "evidence": {
+    "mismatch": {},
+    "got": {
+     "G01": "賃貸料",
+     "G02": "礼金・権利金更新料",
+     "G03": "名義書換料その他",
+     "G04": "小計",
+     "G05": "計",
+     "G06": "給料賃金",
+     "G07": "減価償却費",
+     "G08": "貸倒金",
+     "G09": "地代家賃",
+     "G10": "借入金利子",
+     "G11": "租税公課",
+     "G12": "損害保険料",
+     "G13": "修繕費",
+     "G14": "",
+     "G15": "雑費",
+     "G16": "小計イホ（～までの計）",
+     "G17": "経費計（～までの計＋）",
+     "G18": "専従者控除前の所得金額",
+     "G19": "専従者控除",
+     "G20": "所得金額",
+     "G21": "土地等を取得するために要した負債の利子の額"
+    }
+   }
+  },
+  {
+   "id": "E-shushi-formid",
+   "doc": "PS§8.1",
+   "desc": "収支内訳書の様式ID：1頁 NTA0KOA130010090、2頁 NTA0KOA130020090",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "E-kessan-codes",
+   "doc": "PS§8.2/M C5",
+   "desc": "青色申告決算書（不動産所得用）1頁：G01〜G24 の科目名（G03・G12〜G16 は科目名の印字なし）",
+   "ok": true,
+   "evidence": {
+    "mismatch": {},
+    "got": {
+     "G01": "賃貸料",
+     "G02": "礼金・権利金更新料",
+     "G03": "",
+     "G04": "計",
+     "G05": "租税公課",
+     "G06": "損害保険料",
+     "G07": "修繕費",
+     "G08": "減価償却費",
+     "G09": "借入金利子",
+     "G10": "地代家賃",
+     "G11": "給料賃金",
+     "G12": "",
+     "G13": "",
+     "G14": "",
+     "G15": "",
+     "G16": "",
+     "G17": "その他の経費",
+     "G18": "計",
+     "G19": "差引金額",
+     "G20": "専従者給与",
+     "G21": "青色申告特別控除前の所得金額",
+     "G22": "65万円又は55万円又青色申告は10万円とのいず特別控除額れか少ない方の金額",
+     "G23": "所得金額",
+     "G24": "土地等を取得するために要した負債の利子の額"
+    }
+   }
+  },
+  {
+   "id": "E-kessan-22",
+   "doc": "PS§8.2",
+   "desc": "決算書㉒：「65万円又は55万円又は10万円と㉑のいずれか少ない方の金額」（PDF の行ごとの文字列）",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "E-kessan-24note",
+   "doc": "PS§8.2",
+   "desc": "決算書1頁の注記：「㉓欄が赤字の人で…その負債の利子の額を書いてください。」（PDF の行ごとの文字列）",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "E-kessan-p4-range",
+   "doc": "PS§8.2",
+   "desc": "決算書4頁：資産の部 G01〜G24（期首）・G25〜G49（期末）、負債・資本の部 G50〜G72（期首）・G73〜G97（期末）",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "E-kessan-p4-jigyonushi",
+   "doc": "PS§8.2（訂正）",
+   "desc": "決算書4頁の PDF の文字に「事業主貸」（期末 G48）・「事業主借」（期末 G94）・「元入金」（G71・G95）・「青色申告特別控除前の所得金額」（期末 G96）がある",
+   "ok": true,
+   "evidence": {
+    "事業主貸": [
+     null,
+     "G48"
+    ],
+    "事業主借": [
+     null,
+     "G94"
+    ],
+    "元入金": [
+     "G71",
+     "G95"
+    ],
+    "青色申告特別控除": [
+     null,
+     "G96"
+    ],
+    "前の所得金額": [
+     null,
+     "G96"
+    ]
+   }
+  },
+  {
+   "id": "E-shushi-p2",
+   "doc": "PS§8.1",
+   "desc": "収支内訳書2頁：減価償却費の計算（貸付割合の列）・借入金利子・地代家賃・修繕費・税理士等の報酬の内訳・貸付不動産の保有状況（空家・空地、駐車場の屋根付・青空）・特殊事情",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "E-shushi-p1-right",
+   "doc": "PS§8.1",
+   "desc": "収支内訳書1頁の右：不動産所得の収入の内訳（貸家・貸地等の別、用途、不動産の所在地、賃借人の住所・氏名、賃貸契約期間、貸付面積、賃貸料、保証金・敷金）、給料賃金の内訳、事業専従者の氏名等",
+   "ok": true,
+   "evidence": []
+  },
+  {
+   "id": "E-kessan-p2-p3",
+   "doc": "PS§8.2",
+   "desc": "決算書2頁：不動産所得の収入の内訳・給料賃金の内訳・専従者給与の内訳。3頁：減価償却費の計算・地代家賃の内訳・借入金利子の内訳（金融機関を除く）・税理士・弁護士等の報酬・料金の内訳",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-1373-link-0227",
+   "doc": "M§2.2",
+   "desc": "TA1373 から質疑応答 02/27 へのリンクがある",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "D-1376-link-qa",
+   "doc": "PS§9-8",
+   "desc": "TA1376 から「未分割遺産から生じる不動産所得」の QA（1376_qa.htm）へのリンクがある",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C4-41_4-example",
+   "doc": "M C4",
+   "desc": "措令26の6① と書き方 p.3 の例（△100・90 → △10 ほか）",
+   "ok": true,
+   "evidence": [
+    [
+     -100,
+     90,
+     -10,
+     -10
+    ],
+    [
+     -100,
+     120,
+     0,
+     0
+    ],
+    [
+     -100,
+     100,
+     0,
+     0
+    ],
+    [
+     50,
+     90,
+     50,
+     50
+    ]
+   ]
+  },
+  {
+   "id": "C4-25_2-limit",
+   "doc": "M C4",
+   "desc": "10万円・不動産 △30万円・事業 8万円 → 8万円（事業から）",
+   "ok": true,
+   "evidence": [
+    80000,
+    [
+     0,
+     80000,
+     0
+    ]
+   ]
+  },
+  {
+   "id": "C4-25_2-order",
+   "doc": "M C4",
+   "desc": "65万円・不動産 40万円・事業 50万円 → 40万円・25万円",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "C4-57-3",
+   "doc": "M C4",
+   "desc": "所法57③：配偶者1人・150万円 → 75万円、配偶者以外1人・300万円 → 50万円",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "I1",
+   "doc": "I",
+   "desc": "I1：⑮ △800,000、みなす額 500,000、③ △300,000、合計所得金額 2,700,000／利子 900,000 なら ③ 0・3,000,000",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "I2",
+   "doc": "I",
+   "desc": "I2：所法56 適用で C の事業所得 960,000（扶養親族の上限 620,000 を超える）、不適用なら 500,000（上限以下）・P の不動産所得 460,000",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "I9",
+   "doc": "I",
+   "desc": "I9：既定の解釈で C の雑所得 500,000、P の不動産所得 460,000",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "I3",
+   "doc": "I",
+   "desc": "I3：給与所得 400,000＋不動産所得 120,000 → 合計 520,000（≦850,000）だが給与所得等以外 120,000 > 100,000 → 勤労学生に当たらない。90,000 なら当たる",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "I4",
+   "doc": "I",
+   "desc": "I4：控除前 1,000,000 → 65万円で 350,000・55万円で 450,000（≦580,000）、10万円で 900,000（>580,000）",
+   "ok": true,
+   "evidence": [
+    350000,
+    450000,
+    900000
+   ]
+  },
+  {
+   "id": "I5",
+   "doc": "I",
+   "desc": "I5：不動産所得 450,000（≦580,000）。健保（協会けんぽの公表を注入）1,400,000〜1,500,000 → 130万円基準で当たらない・180万円基準で満たす。注入なし 450,000〜1,500,000 → 130万円で未確定",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "I6",
+   "doc": "I",
+   "desc": "I6：X +200,000・Y △500,000 → 不動産所得 △300,000（Y の赤字の範囲内）→ 通算に回る損失 0、総所得金額 2,000,000",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "I7",
+   "doc": "I",
+   "desc": "I7：支払日基準 12回 × 50,000 = 600,000、期間対応 2月〜12月 = 550,000",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "I8",
+   "doc": "I",
+   "desc": "I8：不動産 △1,000,000 → 給与 600,000 → 0、一時 300,000 → 0、純損失 100,000、総所得金額 0",
+   "ok": true,
+   "evidence": {
+    "rest": 100000,
+    "after": {
+     "給与": 0,
+     "一時": 0
+    }
+   }
+  },
+  {
+   "id": "G-nourl-H",
+   "doc": "H",
+   "desc": "［H］に外部の URL（http）がない",
+   "ok": true,
+   "evidence": []
+  },
+  {
+   "id": "G-nourl-I",
+   "doc": "I",
+   "desc": "［I］に外部の URL（http）がない",
+   "ok": true,
+   "evidence": []
+  },
+  {
+   "id": "G-H-refs",
+   "doc": "H",
+   "desc": "［H］が根拠として参照する文書は measurements・public-sources だけ（推測の文書への案内の1行を除く）",
+   "ok": true,
+   "evidence": [
+    "docs/measurements/20261109_round2b_fudosan-fetch-and-checks.md",
+    "docs/public-sources/20261109_R1-laws_income-tax.md",
+    "docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md",
+    "docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md",
+    "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md",
+    "docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md"
+   ]
+  },
+  {
+   "id": "G-I-refs",
+   "doc": "I",
+   "desc": "［I］が参照する文書は hypotheses だけ",
+   "ok": true,
+   "evidence": [
+    "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md",
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md"
+   ]
+  },
+  {
+   "id": "G-refs-exist",
+   "doc": "all",
+   "desc": "4つの文書が参照する docs/ の文書がすべて存在する",
+   "ok": true,
+   "evidence": []
+  },
+  {
+   "id": "G-scripts-exist",
+   "doc": "M",
+   "desc": "［M］［PS］が参照するスクリプト・出力のファイルが存在する",
+   "ok": true,
+   "evidence": []
+  },
+  {
+   "id": "G-no-pii",
+   "doc": "all",
+   "desc": "個人・家族を特定する語（長男・長女・ユーザーの家族 など）がない",
+   "ok": true,
+   "evidence": []
+  },
+  {
+   "id": "G-PS-jigyo-sec",
+   "doc": "PS冒頭",
+   "desc": "（訂正前の主張）［PS］冒頭の「帳簿（所法148・232）、収支内訳書の添付（所法120）：jigyo §5〜§6」は jigyo の §5〜§6 にある。NG なら誤り",
+   "ok": false,
+   "evidence": {
+    "jigyo§5〜§6 の見出し": [
+     "## 5. 所得税法第35条第5項（令和8年法律第12号で追加、令和9年分以後）",
+     "## 6. 一時所得（所法34）と総所得金額での2分の1（所法22②二）"
+    ]
+   }
+  },
+  {
+   "id": "G-PS-jigyo-sec-actual",
+   "doc": "PS冒頭",
+   "desc": "所法148 は jigyo §3.1、所法232 は §4.3・§7.1、所法120 は §4.3・§7 にある（訂正後の参照先）",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "G-OF-codes",
+   "doc": "H8",
+   "desc": "［OF］§2.2 に第一表の ㋒ 不動産 `G30`、③ 不動産 `G41`、区分 `G11`・`G12`",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "G-OF-12",
+   "doc": "PS§8.3",
+   "desc": "［OF］§1.2 に「令和８年９月19日（土）から」と収支内訳書（農業所得用・不動産所得用）・青色申告決算書（…不動産所得用…）",
+   "ok": true,
+   "evidence": null
+  },
+  {
+   "id": "G-KP",
+   "doc": "PS§7/H7",
+   "desc": "［KP］§1.2：不動産収入は年間収入に含む、減価償却費（不動産所得）は控除できない、令和8年度リーフレットの認められない経費の例",
+   "ok": true,
+   "evidence": null
+  }
+ ]
+}

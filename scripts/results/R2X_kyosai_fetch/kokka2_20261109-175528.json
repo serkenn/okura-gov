@@ -1,0 +1,41 @@
+{
+  "set": "kokka2",
+  "fetched_at_local": "20261109-175528",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "keikyo_kenpo_621",
+      "url": "https://www.keikyo.jp/kenpo/621.html",
+      "status": 200,
+      "final_url": "https://www.keikyo.jp/kenpo/621.html",
+      "content_type": "text/html",
+      "bytes": 31653,
+      "sha256": "9d48330cca9b7114afb8a2698e11d2fae514ca66ae2159fdf9cdfe770d97ecff",
+      "last_modified": "Thu, 01 Oct 2026 02:56:01 GMT",
+      "etag": "\"7ba5-65cbe8e546093\"",
+      "saved": ".work\\downloads\\20261109-175528_R2X_kyosai_kokka2\\keikyo_kenpo_621.html",
+      "charset": "UTF-8",
+      "title": "被扶養者について | 警察共済組合",
+      "text_chars": 5056,
+      "text": ".work\\text\\20261109-175528_R2X_kyosai_kokka2\\keikyo_kenpo_621.txt",
+      "n_links": 93
+    },
+    {
+      "id": "mofkyosai_reg_155",
+      "url": "http://mofkyosai.gijiroku.com/mofqa/reg_view_honbun.asp?RMODE=1&ISrchID=155",
+      "status": 200,
+      "final_url": "http://mofkyosai.gijiroku.com/mofqa/reg_view_honbun.asp?RMODE=1&ISrchID=155",
+      "content_type": "text/html",
+      "bytes": 115894,
+      "sha256": "da1aa89150f749b497356645607355eabbaec839243ae34037c69b9a371abc68",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-175528_R2X_kyosai_kokka2\\mofkyosai_reg_155.html",
+      "charset": "cp932",
+      "title": "財務省共済組合定款・規則集等データベース－詳細情報",
+      "text_chars": 55270,
+      "text": ".work\\text\\20261109-175528_R2X_kyosai_kokka2\\mofkyosai_reg_155.txt",
+      "n_links": 1
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+Sitemap: http://www.nta.go.jp/sitemap.xml
+User-agent: *
+Disallow: /service_publication/
+Disallow: /about/organization/sapporo/service_publication/
+Disallow: /about/organization/sendai/service_publication/
+Disallow: /about/organization/kantoshinetsu/service_publication/
+Disallow: /about/organization/tokyo/service_publication/
+Disallow: /about/organization/kanazawa/service_publication/
+Disallow: /about/organization/nagoya/service_publication/
+Disallow: /about/organization/osaka/service_publication/
+Disallow: /about/organization/hiroshima/service_publication/
+Disallow: /about/organization/takamatsu/service_publication/
+Disallow: /about/organization/fukuoka/service_publication/
+Disallow: /about/organization/kumamoto/service_publication/
+Disallow: /about/organization/okinawa/service_publication/
+User-agent: ndl-japan
+Disallow:

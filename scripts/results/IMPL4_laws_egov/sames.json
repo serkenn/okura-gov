@@ -1,0 +1,270 @@
+{
+ "shoho": {
+  "asofs": [
+   "2022-12-31",
+   "2023-12-31",
+   "2024-12-31",
+   "2025-12-31",
+   "2026-12-31"
+  ],
+  "sha256": {
+   "2022-12-31": {
+    "64": "2b7b6accf9f91bbcb055974a9dc4e7f038edbb38a413429a1a6dadea253b5ed6",
+    "89": "34b2e47607ad0407bf5e22c3a567237c44258ddae7f0e746a939d720634fe87a",
+    "152": "d5ecb55828fcb08b472bf395f0af8310252692d0fa36903bca219f905d15512d"
+   },
+   "2023-12-31": {
+    "64": "2b7b6accf9f91bbcb055974a9dc4e7f038edbb38a413429a1a6dadea253b5ed6",
+    "89": "34b2e47607ad0407bf5e22c3a567237c44258ddae7f0e746a939d720634fe87a",
+    "152": "d5ecb55828fcb08b472bf395f0af8310252692d0fa36903bca219f905d15512d"
+   },
+   "2024-12-31": {
+    "64": "2b7b6accf9f91bbcb055974a9dc4e7f038edbb38a413429a1a6dadea253b5ed6",
+    "89": "34b2e47607ad0407bf5e22c3a567237c44258ddae7f0e746a939d720634fe87a",
+    "152": "d5ecb55828fcb08b472bf395f0af8310252692d0fa36903bca219f905d15512d"
+   },
+   "2025-12-31": {
+    "64": "2b7b6accf9f91bbcb055974a9dc4e7f038edbb38a413429a1a6dadea253b5ed6",
+    "89": "34b2e47607ad0407bf5e22c3a567237c44258ddae7f0e746a939d720634fe87a",
+    "152": "d5ecb55828fcb08b472bf395f0af8310252692d0fa36903bca219f905d15512d"
+   },
+   "2026-12-31": {
+    "64": "2b7b6accf9f91bbcb055974a9dc4e7f038edbb38a413429a1a6dadea253b5ed6",
+    "89": "34b2e47607ad0407bf5e22c3a567237c44258ddae7f0e746a939d720634fe87a",
+    "152": "d5ecb55828fcb08b472bf395f0af8310252692d0fa36903bca219f905d15512d"
+   }
+  },
+  "changed_between_consecutive": {
+   "2022-12-31..2023-12-31": [],
+   "2023-12-31..2024-12-31": [],
+   "2024-12-31..2025-12-31": [],
+   "2025-12-31..2026-12-31": []
+  }
+ },
+ "shorei": {
+  "asofs": [
+   "2025-12-31",
+   "2026-12-31"
+  ],
+  "sha256": {
+   "2025-12-31": {
+    "120": "bdb684706bd65c4058f90f223585d86ea42e39b54a12f9e0c5ab3893bb3bfc8f",
+    "120_2": "18379741c94185f789cf0647cbcc5ed11d99ae6c01b13d9f287708577c889e17",
+    "125": "257ca610a636bee2dba4f741c8c15001c39cdae2e02e4f4aff38221501131770",
+    "180": "739dc609e1f7d35d53b7e29bb25cca87fe4c38c7a4d66d103653156ab88a8c95",
+    "217": "7ee9a4f685e16a97a509e3ef3b8ff35603f70a13ac4e1e97d6c862a79f94d347",
+    "274": "1af22c46356f3daedb0b4149987b71dd4321f20fbec40a1736ad6f35eaed4fe9"
+   },
+   "2026-12-31": {
+    "120": "bdb684706bd65c4058f90f223585d86ea42e39b54a12f9e0c5ab3893bb3bfc8f",
+    "120_2": "7c5f5d81267a7e94ecaedf3528e6e14c06ea0435c4eda1b731893b3de4d8fe35",
+    "125": "86c05df1b7601e18eabe3a45b9b9d274a9631bdae5cef6b6e2a70258a3e41c87",
+    "180": "739dc609e1f7d35d53b7e29bb25cca87fe4c38c7a4d66d103653156ab88a8c95",
+    "217": "7ee9a4f685e16a97a509e3ef3b8ff35603f70a13ac4e1e97d6c862a79f94d347",
+    "274": "1af22c46356f3daedb0b4149987b71dd4321f20fbec40a1736ad6f35eaed4fe9"
+   }
+  },
+  "changed_between_consecutive": {
+   "2025-12-31..2026-12-31": [
+    "120_2",
+    "125"
+   ]
+  }
+ },
+ "sochi": {
+  "asofs": [
+   "2025-12-31",
+   "2026-12-31"
+  ],
+  "sha256": {
+   "2025-12-31": {},
+   "2026-12-31": {}
+  },
+  "changed_between_consecutive": {
+   "2025-12-31..2026-12-31": []
+  }
+ },
+ "kokunen": {
+  "asofs": [
+   "2026-04-01",
+   "2026-11-12",
+   "2027-04-01"
+  ],
+  "sha256": {
+   "2026-04-01": {
+    "30": "0447c2655e533f3e977d85c9787beb6ed3486cc2cac360873791bdc7494d39b8",
+    "87_2": "1490f084c8febec409eb201e47e5ec5ea56fe4ff4d377ae7474bf0e42c221099",
+    "89": "24e2d254cea2cc4f4cb884c672f0d5053c5a92c644ba2f8eee2cc7282915534c"
+   },
+   "2026-11-12": {
+    "30": "0447c2655e533f3e977d85c9787beb6ed3486cc2cac360873791bdc7494d39b8",
+    "87_2": "bbb8556578bde72e1f85a241283c65e7fbb1294af1c3cced35f678ff25df09df",
+    "88_3": "33cb1b89e1d7927720cf4aa80d47503106af06f603eac6777df75adbf0fb9464",
+    "89": "086ce6a4b254fc05488c629d5c00fbd933fb68abd1f16079a49c42cfe739363c"
+   },
+   "2027-04-01": {
+    "30": "0447c2655e533f3e977d85c9787beb6ed3486cc2cac360873791bdc7494d39b8",
+    "87_2": "bbb8556578bde72e1f85a241283c65e7fbb1294af1c3cced35f678ff25df09df",
+    "88_3": "33cb1b89e1d7927720cf4aa80d47503106af06f603eac6777df75adbf0fb9464",
+    "89": "086ce6a4b254fc05488c629d5c00fbd933fb68abd1f16079a49c42cfe739363c"
+   }
+  },
+  "changed_between_consecutive": {
+   "2026-04-01..2026-11-12": [
+    "87_2",
+    "88_3",
+    "89"
+   ],
+   "2026-11-12..2027-04-01": []
+  }
+ },
+ "kokunenrei": {
+  "asofs": [
+   "2026-04-01",
+   "2026-11-12"
+  ],
+  "sha256": {
+   "2026-04-01": {
+    "4_6": "52878bd7360fa0920b0f1c9873ad730637b560234b2a1f985a6f4e66e49a425d",
+    "6_6": "045899cd02f59fd34ae84a346dd9695c6a1eabf1e70f2a1bbf19f855be8b79cc"
+   },
+   "2026-11-12": {
+    "4_6": "52878bd7360fa0920b0f1c9873ad730637b560234b2a1f985a6f4e66e49a425d",
+    "6_6": "045899cd02f59fd34ae84a346dd9695c6a1eabf1e70f2a1bbf19f855be8b79cc"
+   }
+  },
+  "changed_between_consecutive": {
+   "2026-04-01..2026-11-12": []
+  }
+ },
+ "kokunenki": {
+  "asofs": [
+   "2026-11-12"
+  ],
+  "sha256": {
+   "2026-11-12": {
+    "77_6": "791fe4bd4ecaedbece441b19acfee1691198b32b40bb0831ab2fcc4de8440dcc"
+   }
+  },
+  "changed_between_consecutive": {}
+ },
+ "kokuho": {
+  "asofs": [
+   "2026-04-01",
+   "2026-11-12",
+   "2027-04-01"
+  ],
+  "sha256": {
+   "2026-04-01": {
+    "5": "4ee10864ebcb5488c048edf97b4c0740a799c7e08b756c32182fdad2aaaea783",
+    "6": "d3a38187590fd7d18d62e842655e05423c488cfebf7e53b5c3979fc188ab4e52",
+    "116": "8d9e527fb0e0b59a1bd96eff8dd7ec1a658d3f9757decf0deae72bacec1906b0",
+    "116_2": "8316efca63938d55bc911fddde1dd199d22df36bf54a35950ff95429fb2cf785"
+   },
+   "2026-11-12": {
+    "5": "4ee10864ebcb5488c048edf97b4c0740a799c7e08b756c32182fdad2aaaea783",
+    "6": "d3a38187590fd7d18d62e842655e05423c488cfebf7e53b5c3979fc188ab4e52",
+    "116": "8d9e527fb0e0b59a1bd96eff8dd7ec1a658d3f9757decf0deae72bacec1906b0",
+    "116_2": "8316efca63938d55bc911fddde1dd199d22df36bf54a35950ff95429fb2cf785"
+   },
+   "2027-04-01": {
+    "5": "4ee10864ebcb5488c048edf97b4c0740a799c7e08b756c32182fdad2aaaea783",
+    "6": "d3a38187590fd7d18d62e842655e05423c488cfebf7e53b5c3979fc188ab4e52",
+    "116": "8d9e527fb0e0b59a1bd96eff8dd7ec1a658d3f9757decf0deae72bacec1906b0",
+    "116_2": "d23c55c645d421a6f2e2ce0b8efc67cc2c91bbc9102fb3c9f1de922ac77a3e44"
+   }
+  },
+  "changed_between_consecutive": {
+   "2026-04-01..2026-11-12": [],
+   "2026-11-12..2027-04-01": [
+    "116_2"
+   ]
+  }
+ },
+ "kokuhoki": {
+  "asofs": [
+   "2026-11-12"
+  ],
+  "sha256": {
+   "2026-11-12": {
+    "5_2": "8d5dd657d35b67f33eb9a205bfad48133b794ed2763de2a2e9808760fc0e328d"
+   }
+  },
+  "changed_between_consecutive": {}
+ },
+ "chiho": {
+  "asofs": [
+   "2026-04-01",
+   "2027-04-01"
+  ],
+  "sha256": {
+   "2026-04-01": {
+    "20_4_2": "79d722bccd8929b9c75d2cade252aa4df003ebe5bec7a41158074547e3f9ab7a",
+    "37_2": "9bdf9dfd23823ccca06f39840700c5aae0b8e7094340460687613c745c52e3c8",
+    "314_7": "55f356052d2e92c843d011bd756aaaeaf9764637c4abf204ebbf1f294c058362",
+    "703_4": "4a5f105f5c4b654b86679e578c04713d3cf8f095bd57f1eb1baaa529ee48e06e",
+    "附則35_2_6": "9474440d9940e2362fbb68fef6e024b51a7c5f51be32d66904af32a225f2b1a9"
+   },
+   "2027-04-01": {
+    "20_4_2": "79d722bccd8929b9c75d2cade252aa4df003ebe5bec7a41158074547e3f9ab7a",
+    "37_2": "9f3ac92b76d1a157c986c5cc78048db90ff1decc6eaba7935925af102beec012",
+    "314_7": "98e6b4f62a734b1162d6f5d43c86be5f38697ce1d5029d41cdc3ea72d0d14ec3",
+    "703_4": "07b5b1ac0d9326f01f52d55c056907f5befff4b7a0391dcf541723711cd12a9f",
+    "附則35_2_6": "9474440d9940e2362fbb68fef6e024b51a7c5f51be32d66904af32a225f2b1a9"
+   }
+  },
+  "changed_between_consecutive": {
+   "2026-04-01..2027-04-01": [
+    "314_7",
+    "37_2",
+    "703_4"
+   ]
+  }
+ },
+ "chihorei": {
+  "asofs": [
+   "2026-04-01",
+   "2027-04-01"
+  ],
+  "sha256": {
+   "2026-04-01": {},
+   "2027-04-01": {}
+  },
+  "changed_between_consecutive": {
+   "2026-04-01..2027-04-01": []
+  }
+ },
+ "shafuku": {
+  "asofs": [
+   "2026-11-12"
+  ],
+  "sha256": {
+   "2026-11-12": {
+    "112": "01949ed4adafdc9e3ce2ea32f45f0b3943ae05397d8e079746b97462b8966c30",
+    "113": "fda4d9bbbd1980f9c9e1dc95714e69e3aa4d41b583b4e1316702304f1076063a"
+   }
+  },
+  "changed_between_consecutive": {}
+ },
+ "kokuhorei": {
+  "asofs": [
+   "2026-04-01",
+   "2027-04-01"
+  ],
+  "sha256": {
+   "2026-04-01": {
+    "27_2": "9cc703679a48303d7b07480e58a5b0b1317875badfee1d590d3d6d3a3ac38835",
+    "29_7": "9520b048ab9dc7b447be587e3b2ce258b88f9df5ebfd9ff33861bd0140c63a39"
+   },
+   "2027-04-01": {
+    "27_2": "0ddb8df7612aa6245335c1d14c4646292f59398373f56e7b6fecc9a02aaf0a8a",
+    "29_7": "9520b048ab9dc7b447be587e3b2ce258b88f9df5ebfd9ff33861bd0140c63a39"
+   }
+  },
+  "changed_between_consecutive": {
+   "2026-04-01..2027-04-01": [
+    "27_2"
+   ]
+  }
+ }
+}

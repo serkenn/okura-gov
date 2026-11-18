@@ -1,0 +1,46 @@
+okura_core: C:\Users\user\Documents\okura-gov\.work\perf2\dev_src\okura_core\__init__.py
+import 6.44s build_system 0.98s
+01_student_away_and_parent_on_assignment__one                  1.174s       694 KiB  ok=True
+01_student_away_and_parent_on_assignment__y25                  1.365s       916 KiB  ok=True
+01_student_away_and_parent_on_assignment__fy                   4.987s       853 KiB  ok=True
+01_student_away_and_parent_on_assignment__dd                   5.150s        78 KiB  ok=True
+02_medical_payer_differs_from_patient__one                     7.262s      1185 KiB  ok=True
+02_medical_payer_differs_from_patient__y25                     4.435s      1151 KiB  ok=True
+02_medical_payer_differs_from_patient__fy                      5.254s      1274 KiB  ok=True
+02_medical_payer_differs_from_patient__dd                      7.208s        93 KiB  ok=True
+03_business_with_household_apportionment__one                 16.973s       524 KiB  ok=True
+03_business_with_household_apportionment__y25                  8.413s       467 KiB  ok=True
+03_business_with_household_apportionment__fy                   7.135s       460 KiB  ok=True
+03_business_with_household_apportionment__dd                  14.118s        51 KiB  ok=True
+04_forecast_and_plan_marks__one                                2.361s       537 KiB  ok=True
+04_forecast_and_plan_marks__y25                                1.151s       497 KiB  ok=True
+04_forecast_and_plan_marks__fy                                 8.384s       446 KiB  ok=True
+04_forecast_and_plan_marks__dd                                 5.912s        53 KiB  ok=True
+05_commuting_and_withholding_slip__one                         0.460s       465 KiB  ok=True
+05_commuting_and_withholding_slip__y25                         0.876s       478 KiB  ok=True
+05_commuting_and_withholding_slip__fy                          0.578s       458 KiB  ok=True
+05_commuting_and_withholding_slip__dd                          0.423s        52 KiB  ok=True
+06_phase3_insurance_and_resident_tax_facts__one                4.415s      1236 KiB  ok=True
+06_phase3_insurance_and_resident_tax_facts__y25               14.713s      1549 KiB  ok=True
+06_phase3_insurance_and_resident_tax_facts__fy                 7.264s      1170 KiB  ok=True
+06_phase3_insurance_and_resident_tax_facts__dd                 4.321s       102 KiB  ok=True
+07_vocabulary_additions_2026_11_11__one                       11.283s      1794 KiB  ok=True
+07_vocabulary_additions_2026_11_11__y25                       10.383s      1384 KiB  ok=True
+07_vocabulary_additions_2026_11_11__fy                        14.565s      1508 KiB  ok=True
+07_vocabulary_additions_2026_11_11__dd                        11.507s       140 KiB  ok=True
+08_vocabulary_additions_2026_11_12__one                      ERROR TypeError: unhashable type: 'dict'
+08_vocabulary_additions_2026_11_12__y25                      ERROR ValueError: 判断.国内源泉所得の内訳 の値の領域から候補を作れない（DecisionSlot.candidates を書く）
+08_vocabulary_additions_2026_11_12__fy                       ERROR TypeError: unhashable type: 'dict'
+08_vocabulary_additions_2026_11_12__dd                       ERROR TypeError: unhashable type: 'dict'
+09_external_tax_credit_2026_11_12__one                         0.672s       483 KiB  ok=True
+09_external_tax_credit_2026_11_12__y25                         0.672s       470 KiB  ok=True
+09_external_tax_credit_2026_11_12__fy                          0.840s       529 KiB  ok=True
+09_external_tax_credit_2026_11_12__dd                          0.727s        52 KiB  ok=True
+10_inventory_household_bad_debt_2026_11_12__one                1.697s       331 KiB  ok=True
+10_inventory_household_bad_debt_2026_11_12__y25                1.690s       316 KiB  ok=True
+10_inventory_household_bad_debt_2026_11_12__fy                 1.831s       232 KiB  ok=True
+10_inventory_household_bad_debt_2026_11_12__dd                 1.508s        41 KiB  ok=True
+11_special_depreciation_2026_11_12__one                        6.012s       516 KiB  ok=True
+11_special_depreciation_2026_11_12__y25                        6.031s       501 KiB  ok=True
+11_special_depreciation_2026_11_12__fy                         6.921s       422 KiB  ok=True
+11_special_depreciation_2026_11_12__dd                         5.500s        41 KiB  ok=True

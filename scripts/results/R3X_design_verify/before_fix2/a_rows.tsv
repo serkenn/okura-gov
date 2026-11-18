@@ -1,0 +1,227 @@
+doc	line	coverage	n_terms	refs	missing_terms	row_head
+docs/hypotheses/20261109_round3_design-vocabulary.md	105	0.5	2	M-VOC§4	部品名	統合元の文書は、同じものを「事実台帳」「人と関係の記録」「取引でない事実」「取引ではない事実の台帳」、「判断台帳」「人の判断」「判断の記録」と書き分けている（出現数は［M-VOC］§4）。SCOPE §3 の部品名にそろえ、次の6種類に分け
+docs/hypotheses/20261109_round3_design-vocabulary.md	109	0.0	1	BC-run§2 BC-run§3 BC-run§7	入出金	| 取引 | 入出金。台帳の取引と、決まった語彙のメタデータ | beancount（D11）。メタデータのキーは ASCII だけ | 含めない | ［BC-run］§2、§3、§7 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	110	0.38	13	CON§5.4 PS-D§2.7	処分 契約 属性 提案 物件 証憑 資産 追記	| 事実台帳 | 取引でない事実：人の属性、人と人の関係、書類・届出・処分の記載、資産・物件・契約、外部で計算した値、証憑 | 追記のみの JSON Lines（SCOPE §10 T4、提案） | 含めない | ［CON］§5.4、［PS
+docs/hypotheses/20261109_round3_design-vocabulary.md	111	0.33	6	CON§4.1 NTA§1.1 NTA§1.3	割合 按分 評価 追記	| 判断台帳：人の判断 | D4。法令が評価を求めるもの（生計を一にする、按分の割合など） | 追記のみの JSON（D12） | 人が当てはめた結果を持つ | ［CON］§4.1、［NTA］§1.1、§1.3 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	112	0.56	9	KB§1.4 KB§2.2 IRN§6.1 CON§4.7	同上 提出後 新旧 課税方式	| 判断台帳：納税者の選択 | 法令が納税者に選ばせるもの（課税方式、新旧の選択、扶養の所属の記載など）。提出後は事実台帳の「記載」になる（0.3） | 同上 | 同上 | ［KB］§1.4、§2.2、［IRN］§6.1、［CON］§4.7
+docs/hypotheses/20261109_round3_design-vocabulary.md	113	0.57	7	KP§1.1 AO§3.1	健保 同上 計画	| 判断台帳：見込み・計画 | D19 の「見込み」の印の元になるもの（健保の今後1年の収入の見込み、申告の計画など） | 同上 | 同上 | ［KP］§1.1、［AO］§3.1 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	114	0.5	8	JTL§4 KH§1.1 KYL§6	データ 一覧 宣言的 適用期間	| 注入データ | 市町村・保険者・国の一覧のデータ（出典・適用期間つき） | 宣言的なデータ（D19） | 団体の定めそのもの | ［JTL］§4、［KH］§1.1、［KYL］§6 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	116	0.5	4	M-VOC§3	シナリオ 統合案	- 「問い」（年分・年度・判定日・シナリオ）は記録ではなく `evaluate` の引数（SCOPE §8）。統合元には `evaluate(中間表現, 年分)`・`evaluate_kenpo(中間表現, 判定日 D)`・`shinkok
+docs/hypotheses/20261109_round3_design-vocabulary.md	122	0.25	8	BC-run§2 M-VOC§1	中間表現 単独 参照 役割名 日時 汎用	| N1 | 事実の語彙のキー（中間表現の JSON Schema、beancount のメタデータ） | 英小文字の snake_case。日付は `_on`、日時は `_at`、識別子は `_id`、人の参照は役割名（`payer`・`
+docs/hypotheses/20261109_round3_design-vocabulary.md	123	0.64	14	M-VOC§2 OFP§8	共済 森林環境税 概念辞書 段足 法令	| N2 | 法令の概念の ID（概念辞書） | `<制度>.<法令の語>`。制度は 所得税・住民税・森林環境税・国保・国年・健保・共済。必要なときだけ `.<部分>` を1段足す（例：`所得税.事業所得.総収入金額`）(I) | SCOP
+docs/hypotheses/20261109_round3_design-vocabulary.md	124	0.0	5	M-VOC§2	依存 参照 概念辞書 納税者 見込	| N3 | 人の判断・納税者の選択・見込みの種類 | `判断.<名前>`・`選択.<名前>`・`見込み.<名前>`。概念辞書とは別の表（判断台帳の語彙）に置き、概念の「依存」の欄からは参照してよい (I) | 統合元に `判断.同居を常況
+docs/hypotheses/20261109_round3_design-vocabulary.md	125	0.35	20	M-VOC§3	コード 出典 出典未確認 別名 手引 既定 様式 法令 注記 混在 辞書 通達 関数名	| N4 | 名前つきの関数（端数・期間・年齢など） | `端数.<制度>.<対象>`、`期間.<名前>`、`年齢.<名前>`。コードの関数名（ASCII）は別名として辞書に持つ。出典の種類（法令・通達・TA・手引き・様式の注記・既定・出典
+docs/hypotheses/20261109_round3_design-vocabulary.md	126	1.0	3	M-VOC§4		| N5 | 注入点 | `注入.<種類>.<項目>`（種類は concepts の文書 §4 の表） (I) | 統合元は「注入データ」「注入するデータ」「保険者データ」などと書き分ける［M-VOC］§4 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	127	0.25	4	M-VOC§2	一次情報 切替 既定値	| N6 | 解釈の切替え（一次情報で決まらない読み方） | `解釈.<制度>.<名前>`。既定値と、結果に付ける印を持つ (I) | 統合元に `解釈.所法56の対象` などがある［M-VOC］§2 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	128	0.29	14	M-VOC§4	住民税 健保 共済 国保 国年 年齢 引数 所得税 決定 計算	| N7 | 問いの欄 | `年分`（所得税）、`年度`（住民税・国保・国年）、`判定日`（健保・共済・第3号）。`認定日` は保険者の決定（事実）、`基準日` は年齢の計算の引数として別に使う (I) | 統合元で 判定日 123・認定日
+docs/hypotheses/20261109_round3_design-vocabulary.md	138	0.71	7	CON§4.7 MISC§3.2 KB§1.4 KB§2.2 KB§5.2 IRN§6.1	提出後 課税方式	- 根拠：申告書等の記載で所属が決まり、記載で変えられる（所令219①）［CON］§4.7、［MISC］§3.2。課税方式の選択は提出後に変えられない［KB］§1.4、§2.2、§5.2。セルフメディケーション税制との選択も同じ［IRN］§
+docs/hypotheses/20261109_round3_design-vocabulary.md	142	0.38	16	PS-D§2.2 PS-D§6.1 AO§1.4	保険者 参照 外部 市町村 役割 日時 本人 決定 要件 証憑	`record_id`、`recorded_at`（記録した日時）、`evidence`（証憑 ID の並び）、事実の日付（`*_on`）又は区間（`from_on`・`to_on`）、役割ごとの人の参照、`source_kind`（本人の
+docs/hypotheses/20261109_round3_design-vocabulary.md	155	0.67	3	CON§5.2 OF-run:T02 OUT§2.2	識別子	| F-P01 | 人 `person_id` | 人 | 記録の中の人の識別子。氏名・個人番号は語彙に入れない（出力でも出さない） | ［CON］§5.2、［OF-run］T02、［OUT］§2.2 | 〈R4〉H5.1、〈OUTH〉H6
+docs/hypotheses/20261109_round3_design-vocabulary.md	156	0.75	4	SA§3 CON§2.2 MISC§1.1 MISC§1.3 KP§5.5	基準日	| F-P02 | 生年月日 `birth_on` | 人 | 年齢は判定コアが基準日から計算する | ［SA］§3、［CON］§2.2、［MISC］§1.1、§1.3、［KP］§5.5 | 〈R4〉H5.1、〈MISC〉H1、〈ELD〉H
+docs/hypotheses/20261109_round3_design-vocabulary.md	157	1.0	3	CON§5.1 SP§2.1		| F-P03 | 死亡日 `death_on` | 人 | 判定の時点を変える | ［CON］§5.1、［SP］§2.1 | 〈R4〉H5.1、〈SPO〉HS8 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	158	0.67	15	CON§2.1 EAL§4 EAG§3.3 EAG§5.3	予定 入国日 出国日 滞在 観光等	| F-P04 | 国外での滞在 `abroad_stay` | 人×区間 | 国、出国日・入国日、渡航目的の区分（留学・赴任・赴任への同行・就労・永住・観光等）、予定の期間、査証・在留資格 | ［CON］§2.1、［EAL］§4、［EAG
+docs/hypotheses/20261109_round3_design-vocabulary.md	159	0.78	9	EAL§4	材料 永住許可	| F-P05 | 国籍・永住許可・国内の職業と資産・公務員か `civil_status` | 人×区間 | 所令13〜15 の推定の材料 | ［EAL］§4 | 〈ELD〉HE0 E8・E12 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	160	0.89	9	CON§3.1 CON§4.2 KP§2.2 KH§1.1	国内	| F-P06 | 住民票の記録 `resident_record` | 人×区間 | 住所の市町村（国内か）、世帯ID、世帯主か、世帯主との続柄の記載（「未届の夫／妻」を含む） | ［CON］§3.1、§4.2、［KP］§2.2、［KH］
+docs/hypotheses/20261109_round3_design-vocabulary.md	161	1.0	6	EAG§1.1 KYA§1.2		| F-P07 | 住居 `dwelling_stay` | 人×住居×区間 | 住居ID、同じ建物か・同じ敷地の別棟か・共同住宅の別室か | ［EAG］§1.1、［KYA］§1.2 | 〈ELD〉HE0 E3、〈KYO〉HKY4 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	162	0.4	5	EAG§1.1	医療機関 施設 施設入所	| F-P08 | 入院・施設入所 `institution_stay` | 人×区間 | 医療機関か施設か、施設の種類、治療のためか | ［EAG］§1.1 | 〈ELD〉HE0 E4・E5、〈JIN〉H8 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	163	0.91	11	ZG§6.1 ZG§6.2 GP§1.1 KYL§3.1 KYA§3	全日制	| F-P09 | 在学 `enrollment` | 人×区間 | 学校の種類（学校教育法第1条の学校・専修学校・各種学校・認定職業訓練）、課程、全日制か定時制・通信制・夜間か | ［ZG］§6.1、§6.2、［GP］§1.1、［KYL］
+docs/hypotheses/20261109_round3_design-vocabulary.md	164	0.67	24	JT§1.5 JT§1.8 JT§1.9 JT§3	判定日 原爆被爆者 有効期間 有効期限 機関 申請日 複数持 認定日	| F-P10 | 障害の根拠 `disability_basis` | 人×種類×区間 | 手帳（身体：級別、精神：障害等級と有効期限、戦傷病者：項症）、知的障害の判定（機関・判定日）、原爆被爆者の認定、市町村長等の認定（区分・認定日・有
+docs/hypotheses/20261109_round3_design-vocabulary.md	165	1.0	3	JT§1.8 JT§1.9		| F-P11 | 要介護認定 `care_level` | 人×区間 | 記録してよいが、税の障害者の判定には使わない | ［JT］§1.8、§1.9 | 〈JIN〉H1・H8 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	166	0.65	20	KP§3 KP§4.1 KP§8 KYL§1.2 KYL§6.4 EAL§6.1 KH§1.1	健保組合 国家公務員共済 地方公務員共済 支部 私学共済 船員保険 識別子	| F-P12 | 医療保険の資格 `insurance_membership` | 人×区間 | **制度**（協会けんぽ・健保組合・船員保険・国家公務員共済・地方公務員共済・私学共済・国保・後期高齢者医療）と**保険者の識別子**（組合
+docs/hypotheses/20261109_round3_design-vocabulary.md	167	0.71	7	KH§12.1 SP§5.1	年金制度 種別	| F-P13 | 年金制度の資格 `pension_membership` | 人×区間（月） | 国民年金の種別（第1号・第2号・第3号）、厚生年金の資格、年金の受給権 | ［KH］§12.1、［SP］§5.1 | 〈KOK〉H2 #1
+docs/hypotheses/20261109_round3_design-vocabulary.md	168	0.85	13	KH§1.1 KH§3.1 KH§4.3 KH§8 KH§11.3	出産日 離職日	| F-P14 | 国保の特例と事由 `kokuho_event` | 人×区間・日付 | 修学中・入院等の特例とみなされる住所と世帯、特定同一世帯所属者になった日、非自発的失業（区分・離職日）、出産予定日・出産日・多胎か | ［KH］§1
+docs/hypotheses/20261109_round3_design-vocabulary.md	169	0.6	5	JU§1.1 TS§6.2	住民税 受給	| F-P15 | 生活扶助の受給 `public_assistance` | 人×区間 | 住民税の非課税（1月1日の現況）に使う | ［JU］§1.1、［TS］§6.2 | 〈JUH〉H3、〈TAI〉H4 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	170	0.67	9	KYA§4.1 KYA§4.2	住所地以外 住民票 課税市町村	| F-P16 | 課税市町村 `municipal_tax_domicile` | 人×年度 | その年度に住民税を課す市町村（住民票の市町村、又は住民票と違う市町村が課税した決定）、住所地以外で家屋敷・事務所を有するとして課税する市町村
+docs/hypotheses/20261109_round3_design-vocabulary.md	171	0.73	11	INV§1	外部 状態 理由	| F-P17 | 消費税の納税義務の状態 `ct_liability` | 人×日付の区間 | 状態（免除・免除されない）、理由（登録・選択届出・基準期間・特定期間・その他）。判定は外部（D20） | ［INV］§1 | 〈INV〉H1・
+docs/hypotheses/20261109_round3_design-vocabulary.md	172	0.67	6	INV§1 INV§8	失効日 必須	| F-P18 | 適格請求書発行事業者の登録 `invoice_registration` | 人×日付 | 登録日・失効日（登録番号は必須にしない） | ［INV］§1、§8 | 〈INV〉H9 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	173	0.67	3	KYL§3.1 KP§3	支給者	| F-P19 | 扶養手当の受給 `dependent_allowance` | 受給者×対象者×区間 | 支給者 | ［KYL］§3.1、［KP］§3 | 〈KYO〉HKY10 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	174	0.89	9	CON§3.4 AO§4.1	事由	| F-P20 | 事業専従者としての従事 `business_engagement` | 事業主×親族×区間 | 従事した期間、従事できなかった事由（死亡・長期の病気・婚姻など）、事業を営んだ期間 | ［CON］§3.4、［AO］§4.1
+docs/hypotheses/20261109_round3_design-vocabulary.md	180	0.17	6	MISC§2.2 MISC§2.3 CON§3.1	出生 婚姻中 成立 母子 親子関係	| F-R01 | 親子関係の成立 `parentage` | 人×人×日付 | 出生（母子）、婚姻中の出生か認知か、認知の日 | ［MISC］§2.2、§2.3、［CON］§3.1 | 〈MISC〉H2、〈ELD〉HE0 E2 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	181	1.0	3	MISC§2.3 CON§3.1		| F-R02 | 養子縁組・離縁 `adoption` | 人×人×日付 | 縁組の日、離縁の日 | ［MISC］§2.3、［CON］§3.1 | 〈MISC〉H2 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	182	0.64	11	CON§3.1 SP§2.1 MISC§2.3 JT§1.6	事由 姻族関係終了 生死不明 起算日	| F-R03 | 婚姻 `marriage` | 人×人×日付 | 届出の日、離婚の日、生存配偶者の姻族関係終了の意思表示の日、配偶者の生死不明の事由と起算日（配偶者の死亡は F-P03） | ［CON］§3.1、［SP］§2.1、［MI
+docs/hypotheses/20261109_round3_design-vocabulary.md	183	0.8	5	CON§3.1 CON§3.3	里親委託	| F-R04 | 里親委託・養護受託 `foster_placement` | 人×人×区間 | 親族でないが扶養親族・特定親族の対象になる | ［CON］§3.1、§3.3 | 〈R4〉H5.2、〈MISC〉H2 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	184	0.67	6	CON§4.1 KP§2.3 EAG§1.1	住居 候補	| F-R05 | 同居（起居を共にする） `cohabitation` | 人×人×区間 | 別居した日を含む。住居（F-P07）・入院（F-P08）から候補を作れる (I) | ［CON］§4.1、［KP］§2.3、［EAG］§1.1 
+docs/hypotheses/20261109_round3_design-vocabulary.md	185	0.64	11	KYA§1.2 KYL§3.1	修学 就職 施設入所 独立	| F-R06 | 別居の理由 `separation_reason` | 人×人×区間 | 組合員・被保険者の転勤／勤務上の別居／入院・施設入所／修学／就職・独立／その他 | ［KYA］§1.2、［KYL］§3.1 | 〈KYO〉HKY4
+docs/hypotheses/20261109_round3_design-vocabulary.md	193	0.45	11	BC-run§2 BC-run§3 BC-run§7 PS-D§2.7 JG§4.1	共通メタデータ 役割 検査 発生 自分 識別子	| F-T00 | 取引の共通メタデータ | 取引 | `id`（取引ID。重複は自分で検査）、`evidence`（証憑 ID の並び）、役割の人（`payer`・`payee`・`recipient` など）、`incurred_on`
+docs/hypotheses/20261109_round3_design-vocabulary.md	194	0.55	11	KYS§1.4 KP§1.2 NTA§2.3	天引 支給項目 源泉徴収税額 社会保険料 総支給額	| F-T01 | 給与の支払 `salary_payment` | 受給者×支払者×支払日 | 支給項目（基本給・時間外・通勤手当・賞与）、総支給額、源泉徴収税額、天引きの社会保険料 | ［KYS］§1.4、［KP］§1.2、［NTA］§
+docs/hypotheses/20261109_round3_design-vocabulary.md	195	0.67	12	JG§4.1 JG§8 NTA§1.4 NTA§1.5	労働条件通知書 書面 業務委託契約 識別子	| F-T02 | 業務の売上・報酬の受取 `business_receipt` | 人×業務×取引 | 相手方の識別子、契約の書面の種類（雇用契約・労働条件通知書・業務委託契約など）、源泉徴収された額 | ［JG］§4.1、§8、［NTA
+docs/hypotheses/20261109_round3_design-vocabulary.md	196	0.67	12	NTA§1.3 JG§1.1 JG§7.4 KYL§6.3 KP§1.2	全額 外部 対応 決算書	| F-T03 | 業務の支出・家事関連費の支出 `business_expense` | 人×業務×取引 | 全額で記録する。費目（収支内訳書・決算書の科目に対応づけられる費目）、支払先の人（家族か外部か） | ［NTA］§1.3、［JG
+docs/hypotheses/20261109_round3_design-vocabulary.md	197	1.0	7	JG§8 AO§4.1		| F-T04 | 支払う側の給与・報酬と源泉徴収 `payroll_paid` | 事業主×受取人 | 給料賃金・専従者給与・税理士等の報酬、源泉徴収した額 | ［JG］§8、［AO］§4.1 | 〈JIG〉H11、〈AOI〉H6 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	198	0.4	5	IRL§1 IRL§5.2 IRN§1 IRN§3 IRN§6.3 IRN§6.4 IRN§7 IRN§8	カード 口座 複数可	| F-T05 | 医療費の支払 `medical_payment` | 支払1件 | `payer`・`patient`・`provider`・`paid_on`・`incurred_on`・`amount`・`medical_kind`
+docs/hypotheses/20261109_round3_design-vocabulary.md	199	0.7	10	IRN§1 IRN§4	受取人 受取日 集合	| F-T06 | 補塡の給付 `reimbursement` | 給付1件 | 受取人、金額、受取日、給付の種類、金額の状態（確定額／見込額）、対象の支払IDの集合 | ［IRN］§1、§4 | 〈IRY〉H4、〈R4〉H5.4、〈R3〉
+docs/hypotheses/20261109_round3_design-vocabulary.md	200	0.7	10	ZG§7.1 ZG§7.2 CON§5.3	対象期間 支払日 支払者	| F-T07 | 社会保険料の支払 `social_insurance_payment` | 支払1件 | 支払者、負担すべき人、種類（所法74②の号）、支払日、前納の対象期間、給与からの天引きか | ［ZG］§7.1、§7.2、［CON
+docs/hypotheses/20261109_round3_design-vocabulary.md	201	0.57	7	HKL§5 HKN§4	天引 支払日 支払者	| F-T08 | 小規模企業共済等掛金の支払 `mutual_aid_payment` | 支払1件 | 掛金の種類、加入者、支払者、支払日、天引きか | ［HKL］§5、［HKN］§4 | 〈HOK〉H9 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	202	0.75	12	HKL§2.2 HKL§3 HKN§1.5 HKN§2	支払日 支払者 有無	| F-T09 | 保険料の支払と剰余金 `insurance_payment` | 支払・受取1件 | 契約ID、支払者、支払日、金額、前納、振替貸付け、剰余金・割戻金（充当の有無） | ［HKL］§2.2、§3、［HKN］§1.5、§2
+docs/hypotheses/20261109_round3_design-vocabulary.md	203	0.75	12	HKL§4 HKN§3	価額 支出日 返礼品	| F-T10 | 寄附の支出と返礼品 `donation` | 支出・受取1件 | 支出日、金額、寄附先の名称、受領証の記載、返礼品の有無と価額、入学との関係の事実 | ［HKL］§4、［HKN］§3 | 〈HOK〉H6・H7、〈JUT〉
+docs/hypotheses/20261109_round3_design-vocabulary.md	204	0.7	20	HKL§6 HKN§5	事象 取得日 地震 損失直前 発生日 資料	| F-T11 | 雑損の事象と災害等関連支出 `casualty` | 事象・支出 | 発生日、原因の事実（地震・火災・盗難など）、資産（所有者・種類・取得日・取得価額・事業用か）、損失直前の価額の資料、保険金・損害賠償金、関連支出（日・
+docs/hypotheses/20261109_round3_design-vocabulary.md	205	0.38	16	NK§1.1 NK§3 NK§4.1	受給者 名称 国内 天引 対象期間 支払者 支払金額 支給事由 源泉徴収税額 社会保険料	| F-T12 | 年金の支払 `pension_payment` | 支払1件 | 受給者、支払者（国内か）、制度、給付の名称・支給事由、法令等による支給日、対象期間、支払金額、天引きの社会保険料、源泉徴収税額 | ［NK］§1.1、§3
+docs/hypotheses/20261109_round3_design-vocabulary.md	206	0.73	11	TS§1.1 TS§1.2 TS§4.2	支払日 材料 退職日	| F-T13 | 退職手当等の支払 `retirement_payment` | 支払1件 | 支払を受けるべき日の材料（退職日・決議の日・給付事由が生じた日）、支払日、収入金額、種類（所令72③の号など）、本人の掛金 | ［TS］§1.
+docs/hypotheses/20261109_round3_design-vocabulary.md	207	0.25	12	KB§1.1 KB§2.1 KB§3	収入金額 受入 受取 支払日 支払者 源泉徴収口座 源泉徴収税 配当割 銘柄	| F-T14 | 配当等の受取 `dividend` | 受取1回 | 支払者、支払日、銘柄の区分、収入金額、源泉徴収税・配当割、受入れ先（源泉徴収口座／それ以外／NISA）、基準日 | ［KB］§1.1、§2.1、§3 | 〈KAB〉H
+docs/hypotheses/20261109_round3_design-vocabulary.md	208	0.33	9	KB§4 KB§6	一般口座 取得費 対価 譲渡日 譲渡費用 銘柄	| F-T15 | 一般口座の譲渡 `security_sale` | 譲渡1回 | 銘柄、譲渡日、対価、取得費、譲渡費用、売委託か相対か | ［KB］§4、§6 | 〈KAB〉H3 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	209	0.91	22	CON§3.3 NTA§1.1 KP§8 EAG§3.4 KYA§2	名目 外貨額	| F-T16 | 送金 `remittance` | 送金1件 | 送金者、受取人、方法（為替・カード・電子決済手段・手渡し・現物）、送金日・利用日・移転日、金額（外貨額・通貨・円の額・相場・手数料）、名目（生活費・学資金・療養費など）、
+docs/hypotheses/20261109_round3_design-vocabulary.md	210	0.8	10	JG§6 JG§8	支払者 理由	| F-T17 | 一時所得の受取 `windfall_receipt` | 受取1件 | 支払者、理由（懸賞・保険・贈与など）、業務との関係、直接要した支出の取引ID | ［JG］§6、§8 | 〈JIG〉H6・H11 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	211	0.9	10	KP§1.2 SH§1.4	支給開始日	| F-T18 | 給付・その他の受取 `benefit_receipt` | 受取1件 | 失業給付（日額・支給開始日）、傷病手当金・出産手当金、奨学金（給付型か貸与型か） | ［KP］§1.2、［SH］§1.4 | 〈KEN〉HK0 #
+docs/hypotheses/20261109_round3_design-vocabulary.md	212	0.38	8	FD§2.2 FD§5.1 CON§3.4	受取人 家族 支払者 物件 賃料	| F-T19 | 賃料・敷金・家族の間の対価 `rent_flow` | 取引 | 物件・契約の ID、支払者と受取人の人 ID | ［FD］§2.2、§5.1、［CON］§3.4 | 〈FUD〉H2・H6・H10、〈R4〉H5.4 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	218	0.75	20	MISC§3.2 MISC§3.3 MISC§5.1 MISC§5.2 JU§4.2 SP§1.4 CON§4.7	地令 基礎控除申告書 提出先 提出日 提出者	| F-D01 | 申告書等の提出と記載 `filed_declaration` | 人×年分×書類 | 書類の種類（確定申告書、給与所得者の扶養控除等申告書、従たる給与の扶養控除等申告書、配偶者控除等申告書、基礎控除申告書、特定親族特別控
+docs/hypotheses/20261109_round3_design-vocabulary.md	219	0.92	24	KB§1.4 KB§6 KB§8.1 AO§5.2 AO§5.3 YS§5.3	基礎控除 課税所得金額	| F-D02 | 提出した確定申告書・損失申告書の控え `filed_return` | 人×年分 | 申告した配当・口座・課税方式、損益通算・繰越の記載、純損失の金額（部分ごと）と青色か、繰越控除で使った額、繰戻しの額、課税所得金額と所
+docs/hypotheses/20261109_round3_design-vocabulary.md	220	0.73	11	JG§4.1 JG§4.3 AO§3.3 AO§6	不明 出典 確定値	| F-D03 | 前々年分の業務の収入金額（確定値） `prior_income_fixed` | 人×業務×年分 | 業務に係る雑所得・事業・不動産の収入金額。出典と確定の時点つき。なければ「不明」 | ［JG］§4.1、§4.3、［A
+docs/hypotheses/20261109_round3_design-vocabulary.md	221	0.85	20	MISC§5.4 ZG§3.1 ZG§4.1 TS§4.2 TS§6.1 NTA§2.3	支払調書 支払金額 社会保険料等	| F-D04 | 源泉徴収票・支払調書の記載 `withholding_slip` | 人×支払者×年 | 支払金額、源泉徴収税額（所得税と復興特別所得税の合計）、年末調整の有無、「乙欄」、控除対象扶養親族等の氏名、社会保険料等の金額、中
+docs/hypotheses/20261109_round3_design-vocabulary.md	222	0.75	4	ZG§4.3	予納税額	| F-D05 | 予定納税の通知 `prepayment_notice` | 人×年分 | 予納税額（第1期・第2期の合計） | ［ZG］§4.3 | 〈ZEI〉H8 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	223	0.93	14	KP§1.2 KP§8 SH§1.3	有無	| F-D06 | 労働契約の内容と申立て `labor_contract` | 人×契約×区間 | 時給、所定の労働時間・日数、手当・賞与の額、契約期間、シフト制か、労働条件通知書の有無、「給与収入のみ」の申立て | ［KP］§1.2、§
+docs/hypotheses/20261109_round3_design-vocabulary.md	224	1.0	9	KP§1.4 KP§8 SH§1.5		| F-D07 | 事業主の証明・確認 `employer_attestation` | 人×確認の回・年 | 一時的な収入変動の証明（対象期間、使った回）、所得税法上の扶養の事業主確認 | ［KP］§1.4、§8、［SH］§1.5 | 〈
+docs/hypotheses/20261109_round3_design-vocabulary.md	225	0.81	16	KP§3 KP§5.1 KP§5.2 KYL§5 KYL§7 JT§4.1	削除日 協議結果 発信日	| F-D08 | 保険者の決定・届出 `insurer_decision` | 人×区間 | 被扶養者の届出日・発信日・認定日・削除日・不認定（理由・決定日）、夫婦共同扶養の協議結果、保険者が 180万円の基準で認定した事実 | ［KP］
+docs/hypotheses/20261109_round3_design-vocabulary.md	226	0.64	11	KH§11.3 KH§12.1 ZG§8.1	一部免除 免除等 承認 申請日	| F-D09 | 国民年金の免除等の申請と承認 `npi_exemption` | 人×区間（月） | 種類（全額・一部免除・納付猶予・学生納付特例・産前産後）、申請日、承認された期間 | ［KH］§11.3、§12.1、［ZG］§8.1
+docs/hypotheses/20261109_round3_design-vocabulary.md	227	0.75	12	EAL§3.2 EAL§3.3 EAG§3.2	有無 発行日 発行者	| F-D10 | 国外居住親族の書類 `foreign_kin_document` | 書類 | 種類（親族関係書類・留学ビザ等書類・送金関係書類・38万円送金書類）、対象の人、発行者、発行日、翻訳文の有無、提出・提示した先と時と書類 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	228	0.89	18	AO§1.2 AO§1.3 AO§1.4 AO§1.5 AO§1.6	提出日 開始日	| F-D11 | 青色申告の手続 `blue_return_procedure` | 人 | 申請書（提出日・最初の年・業務の開始日・相続による承継）、税務署の通知（承認・却下・取消しの日と年・号）、取りやめ届出（日・年分）、業務の全部の
+docs/hypotheses/20261109_round3_design-vocabulary.md	229	0.73	22	AO§2.2 AO§2.3 AO§2.5 AO§6 JG§4.1 GE§2.1	方式 期末 期首 残高 状態 現金式簡易帳簿	| F-D12 | 帳簿と届出の状態 `bookkeeping_status` | 人×業務×年分 | 帳簿の方式（正規の簿記・簡易帳簿・現金式簡易帳簿）、期首・期末の残高、棚卸表、電子帳簿の適用・廃止の届出、現金主義の届出・取りやめ（青色
+docs/hypotheses/20261109_round3_design-vocabulary.md	230	0.92	13	AO§4.2	職務	| F-D13 | 専従者の届出 `family_employee_notice` | 事業主×専従者 | 届出書・変更届出書の提出日、職務の内容、給料の月額と支給期、賞与・昇給の基準、新たに専従者となった日 | ［AO］§4.2 | 〈A
+docs/hypotheses/20261109_round3_design-vocabulary.md	231	0.67	6	IRL§4.5 IRN§6.1 IRN§6.2	実施主体 本人	| F-D14 | セルフメディケーションの取組 `health_checkup_record` | 人×年 | 取組の種類、実施主体、受けた日、証明書類（申告する本人のものだけ使う） | ［IRL］§4.5、［IRN］§6.1、§6.2 
+docs/hypotheses/20261109_round3_design-vocabulary.md	232	0.52	23	HKL§2.2 HKL§2.4 HKL§3 HKN§1.6 HKN§2	年間 所有者 控除証明書 支払者 支払開始日等 続柄 締結日 被保険者 見込 附帯契約 電子	| F-D15 | 保険の契約と控除証明書 `insurance_contract` | 契約 | 契約ID、保険会社、契約者、被保険者、受取人とその人と支払者の続柄、締結日、附帯契約、保険期間、個人年金の受取人・支払開始日等。地震保険の目
+docs/hypotheses/20261109_round3_design-vocabulary.md	233	0.76	17	TS§2.2 TS§2.3 TS§4.2	中断 就職日 履歴 退職日	| F-D16 | 退職の申告書と勤務期間 `retirement_record` | 受給者×支払者 | 退職所得の受給に関する申告書の提出と記載、就職日・退職日・役員等の期間・中断・通算の定め・前の退職手当等の期間・加入者期間、前年以前
+docs/hypotheses/20261109_round3_design-vocabulary.md	234	0.4	15	KB§5.1 KB§5.2 KB§6	取得費 対価 差引 有無 残額 源泉徴収税額 繰越損失 通算後 連続申告	| F-D17 | 特定口座の年間取引と繰越損失 `brokerage_annual` | 口座×年 | 源泉徴収の有無、対価・取得費・差引の損益、受け入れた配当等、源泉徴収税額、口座内の通算後の額。繰越損失（生じた年・残額・連続申告） |
+docs/hypotheses/20261109_round3_design-vocabulary.md	235	0.5	18	INV§4 INV§5 YS§2	処分 地方消費税額 外部 居住開始年月日等 提出日又 有無 登録 相手方 附帯税額	| F-D18 | 外部で計算した値 `external_amount` | 人×年分 | 住宅借入金等特別控除の額と居住開始年月日等、消費税等の申告書・処分（`ct_return`：課税期間・種類・提出日又は処分の日・消費税額・地方消費税
+docs/hypotheses/20261109_round3_design-vocabulary.md	236	0.57	14	KH§1.1 KYA§4.1 JTL§14	住民票 個別 処分 承認 決定 認定	| F-D19 | 市町村・保険者の個別の処分 `authority_decision` | 人・世帯×年度 | 減免の承認、国保の修学中の特例の認定、住民票と違う住所での課税の決定 | ［KH］§1.1、［KYA］§4.1、［JTL］§1
+docs/hypotheses/20261109_round3_design-vocabulary.md	237	0.88	8	JU§6.1	提出義務者	| F-D20 | 1月1日の給与・年金の支払者 `jan1_payer_status` | 人×年度 | 1月1日に給与・公的年金等を受けている支払者があるか、その支払者が報告書の提出義務者か、前年に辞めた支払者からの給与の総額 | ［J
+docs/hypotheses/20261109_round3_design-vocabulary.md	243	0.52	23	GE§1 GE§2.1 GE§2.2 GE§3.1 GE§3.2 GE§5.1 GE§5.2	使用期間 保険金等 内訳 処分価額 取得日 名称 態様 数量 消費税額 識別子 雑所得用	| F-A01 | 減価償却資産 `asset` | 資産 | 資産ID、名称、数量と取引の単位、取得日と取得の態様、取得価額の内訳（取引ID・消費税額）、業務の用に供した日と業務の識別子、所有者、中古の前の使用期間、貸付けか、処分（日・種
+docs/hypotheses/20261109_round3_design-vocabulary.md	244	0.33	12	FD§1.1 FD§2.3 FD§4.3	別荘 取得日 所在地 所有 所有者 持分 有無 賃貸物件	| F-A02 | 賃貸物件 `rental_property` | 物件 | ID、種類、所在地、所有者（持分）、取得日・取得の対価・取得の契約、併用の有無、別荘として所有しているか | ［FD］§1.1、§2.3、§4.3 | 〈FUD
+docs/hypotheses/20261109_round3_design-vocabulary.md	245	0.5	10	FD§2.2	借主 家族 条件 物件 賃料	| F-A03 | 賃貸借契約 `lease` | 契約 | ID、物件、借主の人ID（家族なら人の ID）、期間、支払日の定め、賃料・共益費・敷金の条件 | ［FD］§2.2 | 〈FUD〉H2・H10 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	246	0.6	5	FD§2.3 FD§4.3	使途 利率	| F-A04 | 借入れ `loan` | 借入れ | ID、使途の資産、元本、利率 | ［FD］§2.3、§4.3 | 〈FUD〉H3・H10 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	247	0.91	11	FD§3.1 FD§8.1	棟数	| F-A05 | 貸付不動産の保有状況 `rental_inventory` | 人×年 | 室数・棟数・貸地や駐車場の件数・面積（空室を含む）、管理の状況 | ［FD］§3.1、§8.1 | 〈FUD〉H4 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	248	0.57	7	KH§3.1 KH§3.2	内訳 家屋分 市町村	| F-A06 | 固定資産税額 `property_tax` | 世帯の人×年度 | 土地・家屋分の内訳（国保の資産割を採る市町村だけで使う） | ［KH］§3.1、§3.2 | 〈KOK〉H2 #10 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	254	0.5	6	PS-D§2.4 PS-D§2.5 PS-D§2.7 PS-D§2.8 PS-D§5	取得経路 証憑 通貨	| F-E01 | 証憑 `evidence_record` | 証憑 | `evidence_id`（SHA-256）、`person`、`received_at`、取得経路 `source`、`original_filename`、`m
+docs/hypotheses/20261109_round3_design-vocabulary.md	255	0.0	6	PS-D§2.2 PS-D§6.1	操作 操作者 日時 訂正申請 証憑 項目	| F-E02 | 証憑の操作の記録 `evidence_log` | ログ | `seq`・`prev_sha256`・記録の種類・日時・操作者、訂正申請の項目 | ［PS-D］§2.2、§6.1 | 〈DEN〉H3・H10 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	268	0.5	6	CON§4.1 NTA§1.1 IRN§1	住居 時点 材料	| J-01 | `判断.生計を一にする` | 人×人×区間 | 材料は同居・送金・住居の事実。判定の時点はコアが区間から切り出す | ［CON］§4.1、［NTA］§1.1、［IRN］§1 | 〈R4〉H1.5・H4、〈SPO〉HS8、〈
+docs/hypotheses/20261109_round3_design-vocabulary.md	269	0.83	6	CON§3.1 SP§4	材料	| J-02 | `判断.事実婚` | 人×人×区間 | 材料は住民票の「未届の夫／妻」の記載、戸籍、同居 | ［CON］§3.1、［SP］§4 | 〈R4〉H4、〈SPO〉HS1・HS8、〈MISC〉H2 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	270	0.88	8	EAL§2.2 EAG§1.1 KYA§4.3	住民税	| J-03 | `判断.同居を常況` | 人×人×年 | 所得税の同居老親等・同居特別障害者、住民税の同居直系尊属・同居特別障害者。配偶者・生計を一にする親族との組でも持つ | ［EAL］§2.2、［EAG］§1.1、［KYA］§4.3 
+docs/hypotheses/20261109_round3_design-vocabulary.md	271	1.0	5	KP§2.1 KP§2.3		| J-04 | `判断.健保の同一の世帯` | 被保険者×本人×区間 | 判断に使った基準（同居と家計の実態／住民票）の欄つき | ［KP］§2.1、§2.3 | 〈KEN〉HK3（区分の食い違いは conflicts X21） |
+docs/hypotheses/20261109_round3_design-vocabulary.md	272	0.75	4	KYL§3.1 KYA§1.2	材料	| J-05 | `判断.共済の生計を共にする`・`判断.一時的な別居` | 組合員×本人×区間 | 共済の「同一の世帯」をコアが導く材料 | ［KYL］§3.1、［KYA］§1.2 | 〈KYO〉HKY4 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	273	0.6	5	CON§2.1 EAL§4 EAG§4	住民税 前年	| J-06 | `判断.住所の所在`（居住者か） | 人×区間 | 12月31日（住民税は前年12月31日）に住所が国内にあるか | ［CON］§2.1、［EAL］§4、［EAG］§4 | 〈ELD〉J1、〈R4〉H4 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	274	1.0	3	EAG§5.3		| J-07 | `判断.国内居住の例外第5号` | 人×区間 | 健保の国内居住要件の例外 | ［EAG］§5.3 | 〈ELD〉J6 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	275	0.67	3	EAG§6	入院側	| J-08 | `判断.老人ホーム等` | 施設 | 施設が「老人ホーム等」か（入院側か） | ［EAG］§6 | 〈ELD〉J3・HE6 U1 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	276	0.0	2	NTA§1.4	所得区分 材料	| J-09 | `判断.事業と称するに至る程度` | 人×業務×年分 | 所得区分の材料。区分そのものはコア | ［NTA］§1.4 | 〈R4〉H4、〈JIG〉H10、〈GAP〉HG1 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	277	0.0	2	FD§3.1	真偽 警告	| J-10 | `判断.不動産の事業的規模` | 人×年分 | 真偽・根拠。コアは「おおむね10室・5棟」で警告だけ出す | ［FD］§3.1 | 〈FUD〉H4・H10、〈AOI〉H12 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	278	1.0	0	NTA§1.5		| J-11 | `判断.雇用か請負か` | 契約 | 区分が明らかでないとき | ［NTA］§1.5 | 〈R4〉H4、〈R3〉H1 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	279	0.67	3	NTA§1.3	支出	| J-12 | `判断.業務関連性` | 支出 | 支出が業務に関連するか | ［NTA］§1.3 | 〈R4〉H4 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	280	0.93	14	NTA§1.3 JG§1.1 JG§1.2 GE§4 HKN§2	業務割合	| J-13 | `判断.按分の割合` | 支出・資産・家屋×年分 | 目的（家事関連費の業務割合／資産の事業専用割合／家屋の居住割合（地震保険）／家族に使わせている部分）、按分の基準（面積・時間）、明らかに区分できるか | ［NTA］§1
+docs/hypotheses/20261109_round3_design-vocabulary.md	281	0.57	7	NTA§1.2 IRN§1 IRN§3 IRN§8	交通手段 必要性 治療目的	| J-14 | `判断.医療費の範囲` | 支払 | 通常必要か、治療目的か（予防・美容でないか）、交通手段・付添いの必要性 | ［NTA］§1.2、［IRN］§1、§3、§8 | 〈IRY〉H3、〈R4〉H4、〈R3〉H1 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	282	0.5	4	IRN§4	互助組織 補塡目的	| J-15 | `判断.補塡の対象` | 給付 | 事実で決まらないときの対象の医療費、互助組織の給付が補塡目的か | ［IRN］§4 | 〈IRY〉H4 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	283	1.0	2	IRN§6.4		| J-16 | `判断.セルフメディケーション表示の上書き` | 購入 | レシートの表示の誤り、表示と年分のずれ | ［IRN］§6.4 | 〈IRY〉H7 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	284	0.87	15	JT§1.5 JT§1.7 JT§1.8 JT§4.2 KP§8	事理弁識能力 物差	| J-17 | `判断.障害の程度` | 人×区間 | 常に就床・複雑な介護、事理弁識能力、知的障害の重度の判定（療育手帳の表示から）、申請中の「明らかに」、健保 180万円の障害年金の物差しでの程度 | ［JT］§1.5、§1.7、§1
+docs/hypotheses/20261109_round3_design-vocabulary.md	285	0.0	1	GP§1.1 GP§1.3 M-GP:C1	未判断	| J-18 | `判断.自己の勤労に基づく` | 所得の源 | 値は「基づく／基づかない／未判断」 | ［GP］§1.1、§1.3、［M-GP］C1 | 〈GAP〉HG1、〈i-GAP〉IG1 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	286	1.0	1	JG§2.1 JG§2.5		| J-19 | `判断.家内労働者等` | 人×年分 | 措法27 の対象か | ［JG］§2.1、§2.5 | 〈JIG〉H2・まとめ |
+docs/hypotheses/20261109_round3_design-vocabulary.md	287	1.0	10	GE§2.2 GE§3.1 GE§5.2		| J-20 | `判断.減価償却の区分` | 資産 | 耐用年数の区分（別表の行）、中古の耐用年数、使用可能期間1年未満か、業務の性質上基本的に重要か、主要な業務としての貸付けか | ［GE］§2.2、§3.1、§5.2 | 〈GEN〉H
+docs/hypotheses/20261109_round3_design-vocabulary.md	288	0.67	9	FD§1.2 FD§1.3 FD§4.3	保管責任 別荘 時価	| J-21 | `判断.不動産の区分の材料` | 契約・物件 | 保管責任のある駐車場か、簡易な施設か、土地の価額（時価）、別荘の目的 | ［FD］§1.2、§1.3、§4.3 | 〈FUD〉H1・H5・H10 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	289	0.8	5	AO§2.2	範囲	| J-22 | `判断.正規の簿記の宣言` | 人×業務×年分 | 正規の簿記で記録・作成している旨（根拠＝台帳の範囲と貸借対照表の出力） | ［AO］§2.2 | 〈AOI〉H2・H12 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	290	0.88	8	AO§4.1 AO§4.2	金額化	| J-23 | `判断.専従者給与の相当性` | 事業主×専従者×年分 | 相当と認められる額、専ら従事が妨げられない者か、心身の障害、相当の理由、賞与の基準の金額化 | ［AO］§4.1、§4.2 | 〈AOI〉H6 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	291	0.67	6	TS§1.2 TS§2.4	支払者 通常	| J-24 | `判断.退職の性質` | 支払 | 退職手当等に当たるか、障害退職か、一般・特定役員の割り振り（通常は支払者の区分を事実として受ける） | ［TS］§1.2、§2.4 | 〈TAI〉H8 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	292	0.71	7	NK§1.1 NK§4.2	公務遺族年金 外国	| J-25 | `判断.年金の性質` | 支払 | 外国の年金が公的な制度か、企業年金の本人負担分、公務遺族年金の扱い | ［NK］§1.1、§4.2 | 〈NEN〉H3・H10 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	293	0.89	9	HKL§6 HKN§5	損失額	| J-26 | `判断.雑損の計算` | 事象 | 生活に通常必要でない資産か、損失額の計算方法（時価／取得費相当額）、原状回復の区分、支出の年分 | ［HKL］§6、［HKN］§5 | 〈HOK〉H10 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	294	1.0	4	HKN§3		| J-27 | `判断.寄附の性質` | 寄附 | 学校の入学に関してするものか、特別の利益が及ぶか | ［HKN］§3 | 〈HOK〉H6 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	295	1.0	3	HKN§1.1		| J-28 | `判断.生命保険の区分` | 契約 | 主たる保障内容による区分、剰余金の按分 | ［HKN］§1.1 | 〈HOK〉H1 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	296	1.0	7	GP§6.1 GP§6.3 KYL§6.4 KB§10		| J-29 | `判断.収入の恒常性` | 収入・経費 | 一時的か恒常的か、「明らか」か、配当・譲渡益が継続的か、判断の分かれる経費が明らかに必要か | ［GP］§6.1、§6.3、［KYL］§6.4、［KB］§10 | 〈GAP〉HG
+docs/hypotheses/20261109_round3_design-vocabulary.md	297	1.0	5	KYL§3.1 KYL§5		| J-30 | `判断.主たる扶養者` | 本人×区間 | 共済の共同扶養で主たる扶養者か、優先する扶養義務者 | ［KYL］§3.1、§5 | 〈KYO〉HKY10 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	298	0.6	5	KB§1.1	家族 情報	| J-31 | `判断.大口株主等` | 配当 | 同族会社との合算を含む（家族の外の法人の情報が要る） | ［KB］§1.1 | 〈KAB〉H1・H4（区分の食い違いは conflicts X28） |
+docs/hypotheses/20261109_round3_design-vocabulary.md	299	1.0	4	JT§2.5		| J-32 | `判断.扶養費の一部負担` | 人×年 | 住民税の非課税の寡婦の判定だけで使う | ［JT］§2.5 | 〈JIN〉H5・H8 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	305	1.0	3	CON§4.7 MISC§3.2 JU§4.2		| C-01 | `選択.扶養の所属` | 人×年分×書類 | 誰の申告書等に誰をどの区分で記載するか | ［CON］§4.7、［MISC］§3.2、［JU］§4.2 | 〈R4〉H3.2、〈MISC〉H3、〈JUH〉H4、〈JIN〉H4 
+docs/hypotheses/20261109_round3_design-vocabulary.md	306	0.88	8	SP§1.4 MISC§3.2	書類	| C-02 | `選択.配偶者の記載` | 人×年分×書類 | 配偶者控除等の記載、所令218・218の2 の記載、年の中途の死亡と再婚の配偶者の選択 | ［SP］§1.4、［MISC］§3.2 | 〈SPO〉HS5、〈MISC〉H4 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	307	0.0	2	IRN§6.1	提出後 申告者	| C-03 | `選択.医療費控除かセルフメディケーション税制か` | 申告者×年分 | 提出後は変えられない | ［IRN］§6.1 | 〈IRY〉H8、〈YOS〉H5.1 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	308	0.71	7	HKL§2.1 HKL§3 HKN§1.4	既定 最大	| C-04 | `選択.保険料控除の区分` | 人×年分・契約 | 生命保険の新のみ・旧のみ・両方、地震保険と旧長期の選択（既定はコアが最大を選ぶ） | ［HKL］§2.1、§3、［HKN］§1.4 | 〈HOK〉H2・H5 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	309	1.0	3	HKL§4		| C-05 | `選択.寄附金の控除の方式` | 寄附 | 所得控除か税額控除か | ［HKL］§4 | 〈HOK〉H6 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	310	1.0	11	KB§1.2 KB§2.1 KB§5.2 KB§6		| C-06 | `選択.株式等の申告` | 配当1回・口座・人×年分 | 配当の申告不要／申告、総合／分離、源泉徴収口座の譲渡の申告不要／申告、損益通算・繰越控除の適用 | ［KB］§1.2、§2.1、§5.2、§6 | 〈KAB〉H1・
+docs/hypotheses/20261109_round3_design-vocabulary.md	311	1.0	3	JG§4.1		| C-07 | `選択.現金主義（業務に係る雑所得）` | 人×年分 | 確定申告書への記載が要件 | ［JG］§4.1 | 〈JIG〉H4 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	312	0.91	11	INV§5	棚卸資産等	| C-08 | `選択.消費税等の経理方式` | 人×年分×業務 | 売上・固定資産等・棚卸資産等・経費等ごとの税込・税抜、未払金（未収入金）への計上、経理通達 1の2 の選択 | ［INV］§5 | 〈INV〉H2・H3・H9（D20 
+docs/hypotheses/20261109_round3_design-vocabulary.md	313	1.0	6	GE§3.1 GE§3.2 GE§5.1		| C-09 | `選択.減価償却` | 資産 | 一括償却、措法28の2 の適用、処分の年の償却費 | ［GE］§3.1、§3.2、§5.1 | 〈GEN〉H1 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	314	0.67	6	FD§2.2 FD§2.3	措令 期間対応	| C-10 | `選択.不動産所得の計上` | 契約・借入れ | 直所2−78 の期間対応、措令26の6②、基通36−6 ただし書 | ［FD］§2.2、§2.3 | 〈FUD〉H2・H3・H10 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	315	0.8	5	EAG§3.4	換算方法	| C-11 | `選択.円換算の方法` | 人×年分 | 38万円の判定の換算方法と使った仲値の金融機関 | ［EAG］§3.4 | 〈ELD〉J5 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	316	1.0	2	AO§5.3 YS§1.1 YS§5.3		| C-12 | `選択.損失申告と繰戻し` | 人×年分 | 損失申告をするか、純損失を繰り戻すか・その額 | ［AO］§5.3、［YS］§1.1、§5.3 | 〈AOI〉H9、〈YOS〉H4 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	317	1.0	1	ZG§5.3 NK§6		| C-13 | `選択.還付申告` | 人×年分 | 還付申告をするか | ［ZG］§5.3、［NK］§6 | 〈NEN〉H10、〈TAI〉H8 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	318	0.62	8	YS§3 JU§6.1	公的年金等以外 徴収方法 特定支出控除	| C-14 | `選択.住民税の申告` | 人×年度 | 給与・公的年金等以外の所得の住民税の徴収方法、住民税の申告で受けたい控除・特定支出控除 | ［YS］§3、［JU］§6.1 | 〈YOS〉H5.2、〈JUT〉H3、〈NEN〉H10
+docs/hypotheses/20261109_round3_design-vocabulary.md	319	0.83	6	HKL§8.3 JTA§1	申請先	| C-15 | `選択.ワンストップ特例` | 人×年 | 申請の有無と申請先、確定申告・住民税の申告をするか | ［HKL］§8.3、［JTA］§1 | 〈HOK〉H8、〈JUT〉H3 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	320	1.0	4	KP§3		| C-16 | `選択.夫婦共同扶養の届出` | 子×区間 | 夫婦の年間収入の差が1割以内のときの届出 | ［KP］§3 | 〈KEN〉HK0 #14・HK6 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	321	0.0	2	KH§12.1	承認 申請	| C-17 | `選択.国民年金の免除の申請` | 人×年度 | 申請するか（承認は F-D09） | ［KH］§12.1 | 〈KOK〉H3 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	322	0.75	8	YS§6 JG§7.4	割当 科目表	| C-18 | `選択.様式への割当て` | 人×年分 | 決算書・内訳書の科目の割当て（科目表）、売上先・仕入先の明細の選び方 | ［YS］§6、［JG］§7.4 | 〈YOS〉H5.5・H7、〈JIG〉H7 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	323	1.0	11	KB§5.1 TS§4.2		| C-19 | 届出で事実になる選択 | 口座・支払 | 特定口座の源泉徴収の有無（その年の最初の譲渡まで）、退職所得の受給に関する申告書を出すか。判定コアには事実（F-D17・F-D16）として入る | ［KB］§5.1、［TS］§4.
+docs/hypotheses/20261109_round3_design-vocabulary.md	329	0.83	12	KP§1.1 KP§8 GP§6.1 GP§6.2 GP§6.3 GP§6.5 SH§1.2	変化 証憑	| P-01 | `見込み.年間収入`（健保・共済・第3号） | 人×判定日×収入の種類 | 種類ごとの見込み額と、作り方の記録（材料の期間、方法、証憑、一時的とした増加、分かっている将来の変化）。総額だけを許すかは未決（〈KEN〉UK2）
+docs/hypotheses/20261109_round3_design-vocabulary.md	330	1.0	6	KP§8		| P-02 | `見込み.援助額`・`見込み.被保険者の年間収入` | 組×判定日・人×判定日 | 今後1年の援助（予定回数・各回の額）、被保険者本人の今後1年の年間収入 | ［KP］§8 | 〈KEN〉HK0 #7・#12 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	331	0.1	10	KH§4.1	シナリオ 今年 保険料 加入 将来 未提出 脱退 見積 途中	| P-03 | `見込み.将来の所得・加入` | 人×年分・年度 | 将来の年度の保険料を見積もるための今年の所得、年度の途中の加入・脱退、未提出の年分の選択（シナリオ） | ［KH］§4.1 | 〈KOK〉H3、〈KAB〉H4 |
+docs/hypotheses/20261109_round3_design-vocabulary.md	332	0.4	10	AO§3.1 ZG§4.2	切替 提出予定日 提出日 書面 期限内 決算書	| P-04 | `計画.申告の方法と時期` | 人×年分 | e-Tax か書面か、提出日、期限内か、決算書の添付・控除の記載、提出予定日（添付書類の切替え） | ［AO］§3.1、［ZG］§4.2 | 〈AOI〉H3、〈ZEI〉H9（印
+docs/hypotheses/20261109_round3_design-vocabulary.md	338	0.0	2		推測 項目	すべての `docs/hypotheses/20261109_*` と `docs/inferences/20261109_*`（61 文書。［M-VOC］の corpus）について、どの項目に入れたかを示す。推測の文書は多くが仮説の語彙を
+docs/hypotheses/20261109_round3_design-output.md	20	0.0	13		ユーザー 作成時 前提 原文未確認 提案 未入力 未提出 決定 独立検証 確認 端数 見積 訂正	- 前提にした決定（根拠ではない）：HANDOFF の D5（改）・D7（改）・D12・D13・D14・D17・D19・D20・**D21**、SCOPE.md 版2 の §2・§3・§4・§6・§7・§8・§10（T2・T9・T10）。決
+docs/hypotheses/20261109_round3_design-output.md	28	0.0	29		作成時 依存 候補 出典未確認 原文未取得 原文未確認 各文書 国税庁 対象外 属性 意味 既定値 未提出 未確定 条件 欄値表 法令 法令以外 状態 独立検証 申告用 端数 見積 見込 訂正 説明 通知 通達 部分	1. **印**：文書ごとに増えた書き方は **65**（SCOPE §8 の4つ＋各文書の61。〔独立検証で 63 に2つ足した：［M-VER］§3.4〕）。意味の重なりを統合し、**12** にする案：結果の状態 2（未確定・対象外）、
+docs/hypotheses/20261109_round3_design-output.md	53	0.0	10		作成時 出典未確認 原文未確認 法令 法令以外 独立検証 端数 見積 見込 訂正	〔独立検証で訂正：作成時は 9。「法令が求める見積り」「原文未確認」「端数の根拠が法令以外」の3行を D21 R2・R4・R5 に合わせて足し、「見込み」「出典未確認」の行を直した。［M-VER］§4〕
+docs/hypotheses/20261109_round3_design-output.md	77	0.0	41		タックスアンサー パラメータ 事務連絡 作成時 保険者 取扱通知 告示 国税庁 報告書 外部 大臣 年末調整 手引 技術的助言 政令 既定 書類 様式 法令 法令以外 法令等 法令解釈通達 法律 独立検証 省令 端数 端数以外 組合 総務省 自治体 見積 規則 訂正 計算 記入要領 説明 資料 質疑応答事例 通知 運用方針 関数	| 根拠の種類 | 法令（法律・政令・省令）／告示／法令解釈通達／国税庁の説明（タックスアンサー・質疑応答事例・手引き・年末調整のしかた）／通知・事務連絡／総務省の取扱通知（技術的助言）／大臣の定め・運用方針／保険者・組合の資料／自治体の資
+docs/hypotheses/20261109_round3_design-output.md	89	0.0	14		作成時 候補 全部評価 出典未確認 判定 手順 未確定 独立検証 真偽 端数 結論 訂正 評価 金額	5. **出典未確認**：金額には伝える。判定（真偽・区分）は、候補で結論が同じなら伝えない（根拠に「候補を評価した」と残す）。違えば未確定。〔独立検証で訂正：作成時は端数もここに含め「UO6」としていた。根拠のない端数は D21 R5 で
+docs/hypotheses/20261109_round3_design-output.md	102	0.0	1		見込	| O01 | 見込み | SCOPE §2-5・§8；`round2_kokuho-core-vs-injected` H3〔独立検証で訂正：作成時は H5。「見込み」は H3 の節にある：［M-VER］§3.2〕；`round2_spo
+docs/hypotheses/20261109_round3_design-output.md	103	0.0	1		出典未確認	| O02 | 出典未確認 | SCOPE §2-3・§8；`impl-prep_kenpo-input-facts` HK2；`round2_genka-model` H2・H3・H10；`round2b_fudosan-calculat
+docs/hypotheses/20261109_round3_design-output.md	104	0.0	1		未確定	| O03 | 未確定 | SCOPE §2-4・§8；`round2_kokuho-core-vs-injected` H9；`round2_juminzei-tax-calc-model` H6；`round2_kyosai-model
+docs/hypotheses/20261109_round3_design-output.md	119	0.0	8		出典未確認 国税庁 未特定 条文 解釈 説明 読替 適用日	| O18 | 国税庁の解釈による（条文の読替えは未特定） | `round2b_kabu-model` H2・H6 の表〔独立検証で訂正：作成時は H8 の表：［M-VER］§3.2〕 | 根拠の種類「国税庁の説明」＋出典未確認（条文・適
+docs/hypotheses/20261109_round3_design-output.md	165	0.0	8		一覧 収入 届出 書類 注記 独立検証 証憑 項目	| O64 | 「収入の証憑がない」と注記 | `impl-prep_kenpo-test-cases` IK7 | 結果の項目（届出に要る書類の一覧。印にしない）〔独立検証で足した：［M-VER］§3.4〕 |
+docs/hypotheses/20261109_round3_design-output.md	166	0.0	4		注記 独立検証 調査確認 項目	| O65 | 「詳しい調査確認の対象になりうるか」を注記 | `round2_kyosai-model` HKY6 の節（運用方針4 の調査の程度） | 結果の項目（印にしない）〔独立検証で足した：［M-VER］§3.4〕 |
+docs/hypotheses/20261109_round3_design-output.md	168	0.0	10		作成時 対象外 属性 未確定 状態 独立検証 統合後 訂正 走査 項目	数えたもの：O01〜O65 の 65（作成時の 63 に、独立検証の別の走査で見つかった O64・O65 を足した。［M-VER］§3.4）。統合後：状態 2（未確定・対象外）＋値の印 8＋欄の印 2＝**12**。O16・O22〜O25・
+docs/hypotheses/20261109_round3_design-output.md	174	0.75	8	PS-K§1.1	健保 実績	| 見込み | 健保の年間収入は「今後1年間の収入を見込む」もので、過去の実績ではない | ［PS-K］§1.1 |
+docs/hypotheses/20261109_round3_design-output.md	175	0.8	5	PS-GP§6.1 PS-GP§6.2 M-GP:C6	見方	| 見込み | 収入に波がある人の見方は保険者ごとの確認方法による | ［PS-GP］§6.1・§6.2、［M-GP］C6 |
+docs/hypotheses/20261109_round3_design-output.md	176	0.88	17	PS-SP§1.8 PS-IR§4	国税庁 場面	| 見込み（UO1） | 国税庁の資料が「見積り」で判定・控除することを求める場面がある：年の中途で本人が死亡した場合の配偶者の所得の見積り、確定申告の時までに確定していない補塡の見込額 | ［PS-SP］§1.8、［PS-IR］§4 |
+docs/hypotheses/20261109_round3_design-output.md	177	0.64	11	PS-AO§1.2 PS-AO§1.4 PS-AO§3.1	方法 期限内 条件 青色申告特別控除	| 条件つき | 青色申告特別控除の額が、申告の方法（e-Tax か書面か）と期限内かで違う。承認の申請には期限があり、税務署長は却下できる | ［PS-AO］§1.2・§1.4・§3.1 |
+docs/hypotheses/20261109_round3_design-output.md	178	0.67	6	PS-EA§5.3	余地 条件	| 条件つき | 健保の国内居住要件に例外と保険者の判断の余地がある | ［PS-EA］§5.3 |
+docs/hypotheses/20261109_round3_design-output.md	179	0.77	13	PS-KB§1.4 PS-IR§6.1	提出後 条件 課税方式	| 条件つき・入力の誤り | 申告書の提出後は、更正の請求・修正申告でも選択を変えられないと国税庁の原文が書く選択がある（上場株式等の配当の課税方式、セルフメディケーション税制と医療費控除） | ［PS-KB］§1.4、［PS-IR］§6.
+docs/hypotheses/20261109_round3_design-output.md	180	0.91	11	M-HKF§3.5 M-HKC§2 M-JZ§3.4 M-JZ§3.8	出典未確認	| 出典未確認 | 生命保険料控除などの1円未満の端数を定める規定が見つからない。地方税法でも所得割の算出・税額控除などの1円未満の定めがない。端数の扱いで税額が変わる件数がある | ［M-HKF］§3.5、［M-HKC］§2、［M-JZ］
+docs/hypotheses/20261109_round3_design-output.md	181	0.91	22	PS-SP§6 PS-KY§8 PS-K§7 PS-KH§13 PS-GP§1.5 PS-EA§6 PS-NK§10	出典未確認 各トピック	| 出典未確認 | 一次情報が見つからなかった点が、各トピックで記録されている（年の中途の婚姻・離婚の扱い、住民税の配偶者の範囲、種別の変更の日、共済の大臣の定めの原文と適用日、通勤手当・賞与の扱い、国保の端数、勤労学生の「自己の勤労に基づ
+docs/hypotheses/20261109_round3_design-output.md	182	0.93	15	PS-JT§1.7 PS-JT§2.5 PS-JT§4.1 PS-K§0 PS-KY§2 YS§1.2	区別	| 根拠の種類 | 通達・国税庁の案内・事務連絡・取扱通知は「法令ではない」と区別して記録されている。健保の基準は委任のない通知、共済は法律→政令→大臣の定めの委任 | ［PS-JT］§1.7・§2.5・§4.1、［PS-K］§0、［PS-
+docs/hypotheses/20261109_round3_design-output.md	183	0.76	17	PS-KH§1.1 PS-KH§3 PS-KH§5 PS-KH§6 PS-JZA§2 PS-JZA§3 PS-KY§6.3 PS-KY§6.4 PS-K§1.3	国保料 未確定 法令 骨組	| 未確定（注入） | 国保料は法令が骨組みと上限を決め、条例が方式・率・額を決める。住民税の税率・均等割は団体ごとに違い、標準と違う団体がある。共済・健保の基準は組合・保険者ごとに書き方が違う | ［PS-KH］§1.1・§3・§5・§6
+docs/hypotheses/20261109_round3_design-output.md	184	0.5	8	PS-KH§13 YS§11	公表待 政令 未公表 未確定	| 未確定（公表待ち） | 令和9年度の国保の政令の値と、令和8年分の申告書の様式が未公表 | ［PS-KH］§13、［YS］§11 |
+docs/hypotheses/20261109_round3_design-output.md	185	0.62	16	PS-SP§6 PS-KY§8 PS-HKN§1.6 PS-NK§7.2 KTH§4	一致 健保組合 控除証明書 支払額 組合資料 自治体	| 食い違い | 機構の第3号の認定と健保組合の認定の運用が食い違ったときの扱いが分からない。古い版の組合資料がある。控除証明書の額はその年の支払額と一致しないことがある。住民税の65歳の判定について自治体の案内の書き方が違う。年末調整と確
+docs/hypotheses/20261109_round3_design-output.md	186	0.82	11	PS-NK§3 PS-IR§4	依存 受取額	| 後の記録に依存 | 公的年金等の収入すべき時期は支給日などで決まり、さかのぼった支払がありうる。補塡の見込額と後日の受取額が違えば訂正が要る | ［PS-NK］§3、［PS-IR］§4 |
+docs/hypotheses/20261109_round3_design-output.md	187	0.9	10	YS§3 YS§6.2 YS§9 YM§4.1 YM§4.2	区画	| あふれ | 様式の区画ごとに行数が決まっている。決算書は「適宜の用紙にその明細を記載し添付」と注記する | ［YS］§3・§6.2・§9、［YM］§4.1・§4.2 |
+docs/hypotheses/20261109_round3_design-output.md	188	1.0	5	OUT§2.2 OUT§2.3 OUT§3		| 出力しない欄 | 申告書の記載事項に個人番号が含まれ、様式に個人番号・受取口座の欄がある | ［OUT］§2.2・§2.3・§3 |
+docs/hypotheses/20261109_round3_design-output.md	190	1.0	7	OFP§4 OFP§8 SRC§1.4		| 伝わり方 | トレースの木は変数のノードと子（依存）を持つ。累進税率表を `.calc()` で引いたことは記録されない。取引 ID はトレースに入らず、状況の組み立てで対応づけて出せた | ［OFP］§4・§8、［SRC］§1.4 |
+docs/hypotheses/20261109_round3_design-output.md	239	1.0	6	OFP§2.3 OFP§4 SRC§1.2		| 計算 | 変数（概念 ID への対応）、人、**期間（日まで含めた区間）**、値、依存したノードの ID の列 | ［OFP］§2.3・§4、［SRC］§1.2（期間の文字列表現は日を落とすので、キーに日まで含める）・§1.4 |
+docs/hypotheses/20261109_round3_design-output.md	240	0.58	12	OFP§3 OFP§4 SRC§1.5 KB5§2 EGOV§2	以上 以下 出典 単位 比較	| パラメータ | 名前、参照日、値、**適用開始日**（YAML の日付のキー）、施行日、出典（`docs/public-sources` の文書と節）、根拠の種類（§1.3）、法令の版（e-Gov の版の ID など）、単位、比較の向き
+docs/hypotheses/20261109_round3_design-output.md	241	1.0	2	OFP§4 SRC§1.4		| 税率表 | 引いた表の名前・参照日・使った段 | ［OFP］§4、［SRC］§1.4（`.calc()` は記録されないので式の側で明示する） |
+docs/hypotheses/20261109_round3_design-output.md	242	0.27	11	M-HKF§3.5 M-HKC§2 M-JZ§3.4 M-JZ§3.8 YS§2	候補 既定 法令 注記 自治体 評価 資料 関数	| 名前つきの関数 | 名前、根拠の種類（法令・手引き・様式の注記・自治体の資料・既定）、出典、候補と候補ごとの値（候補で評価したとき） | ［M-HKF］§3.5、［M-HKC］§2、［M-JZ］§3.4・§3.8、［YS］§2（手引きの
+docs/hypotheses/20261109_round3_design-output.md	244	0.0	9	OFP§8	出所 報告書 外部 提出 書類 申告書 計算 記載 記録アダプタ	| 事実 | 取引 ID（記録アダプタ）、事実台帳の ID、提出した申告書の記載の ID、書類の値の出所（外部で計算した値、報告書の値） | ［OFP］§8（取引 ID は状況の組み立てで変数・期間・人に対応づけて出せた） |
+docs/hypotheses/20261109_round3_design-output.md	246	0.42	12	PS-KY§0.2 PS-KY§8	保険者 出典 取得日 団体 注入点 適用期間 項目	| 注入データ | 注入点の ID、団体（市町村・道府県・制度・保険者）、年度・適用期間、出典（URL・取得日・版＝更新日・Last-Modified）、データの SHA-256、国の定めとぶつかった項目 | ［PS-KY］§0.2・§8（
+docs/hypotheses/20261109_round3_design-output.md	247	0.88	8	PS-JU§0 PS-JU§7	判定日	| 時点 | 年分・年度・判定日、法令の版を選んだ規則（住民税は年度と、改正法の附則が適用するとした年度） | ［PS-JU］§0・§7 |
+docs/hypotheses/20261109_round3_design-output.md	250	0.43	14	OFP§8 PS-KH§11.1	区別 対応表 概念辞書 様式 正規化 法令 法令パッケージ 結果全体	結果全体の版：判定コア（法令パッケージ）・openfisca-core・numpy の版、パラメータのファイルの SHA-256（［OFP］§8 で出せた）、概念辞書と様式の対応表の版、正規化した入力の SHA-256（案）。政令の値が翌年
+docs/hypotheses/20261109_round3_design-output.md	254	1.0	4	OFP§4 OFP§8		- 同じ入力と同じ版なら、標準出力のバイト列が同じ（［OFP］§4・§8 で、キーを並べ替えた JSON と、時間を標準エラーに分けた形で確かめられた）。
+docs/hypotheses/20261109_round3_design-output.md	255	0.67	6	OFP§4 SRC§2.4	個人番号 記録アダプタ	- 出さないもの：実行ごとに変わる値（トレースの `calculation_time` など。［OFP］§4）、絶対パス（記録アダプタの自動のメタデータ `filename`。［SRC］§2.4）、個人番号（§1.2 の「出力しない欄」）。
+docs/hypotheses/20261109_round3_design-output.md	256	1.0	2	OFP§4 SRC§1.4		- 日付の値は文字列にする（トレースの日付の値はそのままでは JSON にできない。［OFP］§4、［SRC］§1.4）。
+docs/hypotheses/20261109_round3_design-output.md	260	1.0	0	OFP§2.3 OFP§3 OFP§4 OFP§8 OFP§9 SRC§1.2 SRC§1.4 SRC§1.5 SRC§2.4 TV§1 KB5§2 EGOV§2 PS-KY§0.2 PS-KY§8 PS-KH§11.1 PS-JU§0 PS-JU§7		［OFP］§2.3・§3・§4・§8・§9、［SRC］§1.2・§1.4・§1.5・§2.4、［TV］§1、［KB5］§2、［EGOV］§2、［PS-KY］§0.2・§8、［PS-KH］§11.1、［PS-JU］§0・§7。
+docs/hypotheses/20261109_round3_design-output.md	270	0.4	5	OFP§9	依存 全部 要約	- UO9：根拠の詳しさ（依存の木の全部か、要約か、問いで選ぶか）。［OFP］§9 では、家族5〜10人・26 シミュレーションで出力が 189〜343 KB になった。
+docs/hypotheses/20261109_round3_design-output.md	316	0.67	6	PS-SP§1.1 PS-K§0 PS-JT§2.4	制度 比較	| 比較の向きが制度・規定で違う（「以下」「未満」「超える場合を除く」） | ［PS-SP］§1.1、［PS-K］§0（事務連絡の件名「基準額未満」）、［PS-JT］§2.4 |
+docs/hypotheses/20261109_round3_design-output.md	317	0.89	9	PS-SP§1.3 M-GP:C4 M-HKC§6 PS-KH§6	段階	| 段階で額が跳ぶ（配偶者特別控除の段階、基礎控除の高い所得の段階、ふるさと納税の特例控除の割合の区分、国保の軽減の区分） | ［PS-SP］§1.3、［M-GP］C4、［M-HKC］§6、［PS-KH］§6 |
+docs/hypotheses/20261109_round3_design-output.md	318	0.75	4	PS-GP§2.1 PS-GP§2.3 M-GP:C2	注記	| 2つの上限が別にある（国税庁の注記と条文の値） | ［PS-GP］§2.1・§2.3、［M-GP］C2 |
+docs/hypotheses/20261109_round3_design-output.md	319	1.0	8	KTH§2 KTH§3 KTH§5		| 給与収入で表した境目は、別表と措置法の区分から1円単位で求まり、国税庁の資料と照合できた | ［KTH］§2・§3・§5 |
+docs/hypotheses/20261109_round3_design-output.md	320	0.33	3	M-JT§5 KTH§5	境目 結論	| 境目のすぐ近くで端数の扱いが結論を変える例 | ［M-JT］§5、［KTH］§5 |
+docs/hypotheses/20261109_round3_design-output.md	321	0.83	6	PS-SP§1.2 PS-SP§1.3	依存	| 人をまたぐ依存（配偶者の合計所得金額が本人の控除の要件） | ［PS-SP］§1.2・§1.3 |
+docs/hypotheses/20261109_round3_design-output.md	322	1.0	2	OFP§4		| 依存の木から効く先を列挙できる | ［OFP］§4 |
+docs/hypotheses/20261109_round3_design-output.md	361	0.0	3	OFP§8	シナリオ 全部 評価	- 誤りのときは、全部のシナリオを評価せず、`{"ok": false, "エラー": [{"場所": …, "内容": …}]}` の形で返す（［OFP］§8 の CLI の形に合わせる）。
+docs/hypotheses/20261109_round3_design-output.md	391	0.86	7	OFP§8 OFP§9	評価	| 1回の呼び出しで判定の時点ごとのシミュレーションを作ってまとめて返せた。同じ入力で標準出力が同じ。評価の時間はシミュレーションの数にほぼ比例 | ［OFP］§8・§9 |
+docs/hypotheses/20261109_round3_design-output.md	392	0.8	5	OF-run§2.2	候補	| 同じ人を同じ種類の2つのグループに書くと OpenFisca がエラーにする（所属の候補は別のシミュレーションにする） | ［OF-run］§2.2 |
+docs/hypotheses/20261109_round3_design-output.md	393	0.5	2	PS-KB§1.4 PS-IR§6.1	提出後	| 申告書の提出後は変えられない選択がある | ［PS-KB］§1.4、［PS-IR］§6.1 |
+docs/hypotheses/20261109_round3_design-output.md	394	0.75	4	PS-AO§3.1 PS-AO§5.3	計画	| 申告の計画で額が変わる。純損失は一部だけ繰り戻し、残りを繰り越せる | ［PS-AO］§3.1・§5.3 |
+docs/hypotheses/20261109_round3_design-output.md	395	1.0	3	PS-HKN§1.4		| どの保険料について控除を受けるかを納税者が選べる | ［PS-HKN］§1.4 |
+docs/hypotheses/20261109_round3_design-output.md	405	0.33	9	OFP§9	シナリオ 上限 候補 未確定 組合 評価	- UO15：シナリオの数と、未確定の候補の組合せの上限（評価の時間はシミュレーションの数にほぼ比例する：［OFP］§9）。
+docs/hypotheses/20261109_round3_design-output.md	462	0.91	11	PS-KH§1.1 PS-KH§3 PS-KH§5 PS-KH§6 PS-KH§13	骨組	| 国保料は法令が骨組み・上限を、条例が方式・率・額を決める。限度額・軽減の区分は法令で決まる。令和9年度の政令の値は未登録 | ［PS-KH］§1.1・§3・§5・§6・§13 |
+docs/hypotheses/20261109_round3_design-output.md	463	0.89	9	PS-JZA§2 PS-JZA§3 M-JZ§3.7	住民税	| 住民税の税率・均等割は団体ごとに違い、標準と違う団体がある。注入値を与えると自治体の計算例が再現できた | ［PS-JZA］§2・§3、［M-JZ］§3.7 |
+docs/hypotheses/20261109_round3_design-output.md	464	1.0	8	PS-KY§6.3 PS-KY§6.4 PS-KY§8		| 共済の組合ごとに、事業収入・収入に波がある人の見方が違う。大臣の定めの原文・適用日が分からないものがある | ［PS-KY］§6.3・§6.4・§8 |
+docs/hypotheses/20261109_round3_design-output.md	465	1.0	3	PS-K§1.3 PS-GP§6.2		| 健保の保険者による違い、保険者ごとの確認方法 | ［PS-K］§1.3、［PS-GP］§6.2 |
+docs/hypotheses/20261109_round3_design-output.md	466	0.67	3	PS-EA§5.1 PS-EA§6	判定時点	| 健保の60歳の判定時点が一次情報にない | ［PS-EA］§5.1・§6 |
+docs/hypotheses/20261109_round3_design-output.md	467	1.0	6	PS-KB§10		| 株式の収入を健保の年間収入にどう数えるかは保険者の公表による | ［PS-KB］§10 |
+docs/hypotheses/20261109_round3_design-output.md	548	0.83	6	YS§8	帳票	| D22 | 不動産所得用の決算書・内訳書 | `round2b_fudosan-calculation-model`（D20 で対象） | YH1 の帳票の一覧にない（［YS］§8 は概略だけ） | 帳票が足りない | 未決（UO24）
+docs/hypotheses/20261109_round3_design-output.md	549	0.89	9	YS§0	対応表	| D23 | 公的年金等に係る雑所得以外の合計所得金額に関する計算書 | （どの仮説も対応表に入れていない） | ［YS］§0 #2 に通達の様式番号がある。第一表 56 の欄と関係 | 帳票が足りない | 未決（UO24） |
+docs/hypotheses/20261109_round3_design-output.md	557	1.0	6	YS§0 YS§1.1 YS§1.2		| 様式は法令でなく通達の別冊で定まり、法令は記載事項と添付書類を定める | ［YS］§0（1・2）・§1.1・§1.2 |
+docs/hypotheses/20261109_round3_design-output.md	558	1.0	8	YS§0 YS§3 YS§5 YS§6 YS§9 YS§13 YM§3.1 YM§3.2		| 欄コードはページごとに振られ、印字のない欄があり、欠番がある。丸数字の欄番号も様式ごとに意味が違う | ［YS］§0（4・5）・§3・§5・§6・§9・§13、［YM］§3.1・§3.2 |
+docs/hypotheses/20261109_round3_design-output.md	559	0.88	8	YS§0 YS§1.3 YS§1.5	様式変更	| AI-OCR 対応の様式変更（令和8年8月31日以後）と、e-Tax の説明「各項目に識別コードを追加」 | ［YS］§0（3）・§1.3・§1.5 |
+docs/hypotheses/20261109_round3_design-output.md	560	1.0	4	YS§0 YS§5.3		| 損失申告では第一表の一部の欄を記入しない | ［YS］§0（6）・§5.3 |
+docs/hypotheses/20261109_round3_design-output.md	561	1.0	5	YS§0 YS§10 YS§11		| 令和8年分の様式は未公表。社会保険料控除等の明細書の紙の様式は見つからない | ［YS］§0（7・8）・§10・§11 |
+docs/hypotheses/20261109_round3_design-output.md	562	1.0	6	OUT§2.2〜2.5 OUT§2.2 OUT§2.5		| 単位の印字、記入要領の変更点、手引きの端数の書き方 | ［OUT］§2.2〜§2.5 |
+docs/hypotheses/20261109_round3_design-output.md	563	1.0	3	OUT§5.1〜5.3 OUT§5.1 OUT§5.3 OUTV:V2		| 紙の様式 ID と e-Tax の帳票のバージョン | ［OUT］§5.1〜§5.3、［OUTV］V2 |
+docs/hypotheses/20261109_round3_design-output.md	564	1.0	4	OUT§6.1 OUT§6.2		| 作成コーナーに取り込めるファイル、医療費集計フォームの形式 | ［OUT］§6.1・§6.2 |
+docs/hypotheses/20261109_round3_design-output.md	565	0.67	3	OUT§7.2 OUT§7.3 OUT§8.1	公開状況	| e-Tax の仕様書の公開状況と注意事項 | ［OUT］§7.2・§7.3・§8.1 |
+docs/hypotheses/20261109_round3_design-output.md	566	0.75	4	OUT§3 OUTV:V3	追加	| 令和8年分の記載事項の追加（施行規則の号） | ［OUT］§3、［OUTV］V3 |
+docs/hypotheses/20261109_round3_design-output.md	567	0.0	3	PS-GP§5.1	引用 根拠条文 添付書類	| 添付書類の根拠条文が 2027-01-01 から変わる引用 | ［PS-GP］§5.1 |
+docs/hypotheses/20261109_round3_design-output.md	568	1.0	5	PS-ZG§6.3 PS-ZG§7.3		| 添付・提示の要否（勤労学生、社会保険料） | ［PS-ZG］§6.3・§7.3 |
+docs/hypotheses/20261109_round3_design-output.md	569	1.0	2	PS-KB§11.1 PS-KB§11.2		| 第三表の欄（株式等） | ［PS-KB］§11.1・§11.2 |
+docs/hypotheses/20261109_round3_design-output.md	570	1.0	4	PS-AO§7 PS-AO§7.5		| 青色申告決算書の欄と様式の改定の予定 | ［PS-AO］§7・§7.5 |
+docs/hypotheses/20261109_round3_design-output.md	571	0.0	1	YV§3	独立検証	| 独立検証で直した節 | ［YV］§3 |
+docs/hypotheses/20261109_round3_design-output.md	622	0.6	5	OFP§4	グループ 家族	- 印の伝わり方（§1.4）は、OpenFisca のトレースで人・グループをまたぐ依存がどう見えるかを実測していない（［OFP］§4 は2人の家族の木を見ただけ）。

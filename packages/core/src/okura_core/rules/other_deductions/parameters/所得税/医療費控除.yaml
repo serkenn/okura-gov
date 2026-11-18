@@ -1,0 +1,36 @@
+description: >-
+  医療費控除（所得税法第73条第1項）。控除の額＝補塡後の医療費の合計 − min(総所得金額等 × 百分の五, 十万円)、上限二百万円。
+  令和7年分（asof 2025-12-31）・令和8年分（asof 2026-12-31）の版で第73条の本文が同じ（docs/public-sources/20261109_impl-prep_iryohi-law-text.md §0.1）。
+  百分の五の1円未満の端数の定めは見つかっていない（同 §6）。式では根拠のない端数として候補の全部で評価する（HANDOFF D22 S3）。
+足切りの率:
+  分子:
+    description: 総所得金額等に乗じる率の分子（「百分の五」）
+    metadata: &art73
+      law: 所得税法第73条第1項（「…の合計額の百分の五に相当する金額（当該金額が十万円を超える場合には、十万円）を超えるときは、その超える部分の金額（当該金額が二百万円を超える場合には、二百万円）」）
+      source_kind: 法律
+      reference:
+        - docs/public-sources/20261109_impl-prep_iryohi-law-text.md#1
+        - docs/public-sources/20261109_impl-prep_iryohi-law-text.md#0.1
+        - docs/measurements/20261109_impl-prep_iryohi-verification.md#2.1
+    values:
+      2025-01-01:
+        value: 5
+        metadata: &r7r8
+          適用: >-
+            令和7年分（asof 2025-12-31）・令和8年分（asof 2026-12-31）の版で本文が同じことを確かめた。
+            この規定を設けた改正法と当初の施行日は docs で確かめていない
+  分母:
+    description: 総所得金額等に乗じる率の分母（「百分の五」）
+    metadata: *art73
+    values:
+      2025-01-01: {value: 100, metadata: *r7r8}
+足切りの上限:
+  description: 足切りの額の上限（「当該金額が十万円を超える場合には、十万円」）
+  metadata: *art73
+  values:
+    2025-01-01: {value: 100000, metadata: *r7r8}
+控除の上限:
+  description: 医療費控除の額の上限（「当該金額が二百万円を超える場合には、二百万円」）
+  metadata: *art73
+  values:
+    2025-01-01: {value: 2000000, metadata: *r7r8}

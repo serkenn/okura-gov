@@ -1,0 +1,196 @@
+{
+ "aes_selftest": true,
+ "files": {
+  "kessan_ippan_r07": {
+   "path": ".work/downloads/20261109-174711_R2X_aoiro_nta_forms/kessan_ippan_r07.pdf",
+   "sha256": "c3cd9d17c0174972a19c5b8174ad01ac685f4ed2dda9d3e903e6fd315bf5f4c3",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 4,
+   "rows": 991,
+   "fonts": [
+    "HNN1:90ms-RKSJ-H",
+    "HNN2:90ms-RKSJ-H",
+    "VNN1:90ms-RKSJ-V",
+    "VNN2:90ms-RKSJ-V"
+   ]
+  },
+  "kessan_genkin_r07": {
+   "path": ".work/downloads/20261109-174711_R2X_aoiro_nta_forms/kessan_genkin_r07.pdf",
+   "sha256": "184a71c5efda112d54fccc59837400808e3c84440f49a11559f23e519dceefad",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 2,
+   "rows": 400,
+   "fonts": [
+    "HNN1:90ms-RKSJ-H",
+    "HNN2:90ms-RKSJ-H",
+    "VNN1:90ms-RKSJ-V",
+    "VNN2:90ms-RKSJ-V"
+   ]
+  },
+  "shinsei_aoiro": {
+   "path": ".work/downloads/20261109-174711_R2X_aoiro_nta_forms/shinsei_aoiro.pdf",
+   "sha256": "a4e3fc8b15abe41ecd5980352fc3916f80967ae85f5410479c9c8563046ec1bf",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 1,
+   "rows": 0,
+   "fonts": []
+  },
+  "shinsei_aoiro_ki": {
+   "path": ".work/downloads/20261109-174711_R2X_aoiro_nta_forms/shinsei_aoiro_ki.pdf",
+   "sha256": "77baaa0debf60e28b073c92def376c91188ac8c0a944db4a492cd208d5459006",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 1,
+   "rows": 48,
+   "fonts": [
+    "TT1:Identity-H+ToUnicode"
+   ]
+  },
+  "todoke_65man": {
+   "path": ".work/downloads/20261109-174729_R2X_aoiro_nta_forms2/todoke_65man.pdf",
+   "sha256": "b507448e6a1ab6846674b886ad58d39cd53d6887530ba36392df389a83c1af5b",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 1,
+   "rows": 0,
+   "fonts": []
+  },
+  "todoke_65man_ki": {
+   "path": ".work/downloads/20261109-174729_R2X_aoiro_nta_forms2/todoke_65man_ki.pdf",
+   "sha256": "1dde8a4fd0d2e94d2a408c8d4bf0b563f54e7b78364eff8e57b05112135bed7f",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 2,
+   "rows": 161,
+   "fonts": [
+    "None:?",
+    "TT3:Identity-H+ToUnicode"
+   ]
+  },
+  "todoke_senju": {
+   "path": ".work/downloads/20261109-174729_R2X_aoiro_nta_forms2/todoke_senju.pdf",
+   "sha256": "5684a36c2b96b0dff074a7a262afbd950c8eaa2cbf2d55b1c5177a18325a351d",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 1,
+   "rows": 0,
+   "fonts": []
+  },
+  "todoke_senju_ki": {
+   "path": ".work/downloads/20261109-174729_R2X_aoiro_nta_forms2/todoke_senju_ki.pdf",
+   "sha256": "c8689907257f5eb7a5d515903b039728fca84c98be06587806b99cd080493df2",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 1,
+   "rows": 167,
+   "fonts": [
+    "None:?",
+    "TT1:Identity-H+ToUnicode",
+    "TT3:WinAnsiEncoding"
+   ]
+  },
+  "todoke_yame": {
+   "path": ".work/downloads/20261109-174729_R2X_aoiro_nta_forms2/todoke_yame.pdf",
+   "sha256": "b36c35c0329719cf876bf95456ad72cf9d6cd1b39143a3bc024d6313037bc525",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 1,
+   "rows": 0,
+   "fonts": []
+  },
+  "todoke_yame_ki": {
+   "path": ".work/downloads/20261109-174729_R2X_aoiro_nta_forms2/todoke_yame_ki.pdf",
+   "sha256": "ce784ca32f5e24d5cfe7b28659ec85d05c275909a53645aa35f668801aafff8c",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 1,
+   "rows": 16,
+   "fonts": [
+    "C2_0:Identity-H+ToUnicode"
+   ]
+  },
+  "kanpu_kurimodoshi": {
+   "path": ".work/downloads/20261109-174729_R2X_aoiro_nta_forms2/kanpu_kurimodoshi.pdf",
+   "sha256": "9b7c9881634f8feaee09f7cc7d04ba2daeb00385a479262ea588c5423c1cea7a",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 1,
+   "rows": 0,
+   "fonts": []
+  },
+  "kanpu_kurimodoshi_ki": {
+   "path": ".work/downloads/20261109-174729_R2X_aoiro_nta_forms2/kanpu_kurimodoshi_ki.pdf",
+   "sha256": "83b51e9daf2e2ad9204330f1ee908decebb0f6047bd90fe86b0a432cb4525e9c",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 1,
+   "rows": 245,
+   "fonts": [
+    "C2_0:Identity-H+ToUnicode",
+    "C2_1:Identity-H+ToUnicode",
+    "C2_2:Identity-H+ToUnicode"
+   ]
+  },
+  "todoke_genkin": {
+   "path": ".work/downloads/20261109-174729_R2X_aoiro_nta_forms2/todoke_genkin.pdf",
+   "sha256": "72118e58a7f3bdb185360865bd97d1036dfeb27da01365c240c32c929ea4a250",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 2,
+   "rows": 0,
+   "fonts": []
+  },
+  "shinsei_aoiro_genkin": {
+   "path": ".work/downloads/20261109-174729_R2X_aoiro_nta_forms2/shinsei_aoiro_genkin.pdf",
+   "sha256": "87a8138c4e6a56291c247fe4f9505c9f0f629a2dd6762387bbf746f096a91e05",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 2,
+   "rows": 905,
+   "fonts": [
+    "F1:Identity-H+ToUnicode",
+    "F2:Identity-V+ToUnicode",
+    "None:?"
+   ]
+  },
+  "shinkoku_dai4_r07": {
+   "path": ".work/downloads/20261109-174711_R2X_aoiro_nta_forms/shinkoku_dai4_r07.pdf",
+   "sha256": "10dfa7825ae19b642eb90edc9a7e2782e26be1fd71a39743d846a4dab52bab28",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 2,
+   "rows": 0,
+   "fonts": []
+  },
+  "kessan_ippan_kakikata_r07": {
+   "path": ".work/downloads/20261109-174711_R2X_aoiro_nta_forms/kessan_ippan_kakikata_r07.pdf",
+   "sha256": "77c8ad203bbd04efcacf42c4c8c95a6a098b80784e51df66347812948b578900",
+   "encrypt": "AESV3(V5,R6) 非対応",
+   "key_ok": null,
+   "pages": 0,
+   "rows": 0,
+   "fonts": []
+  },
+  "kessan_tebiki_ippan_r07": {
+   "path": ".work/downloads/20261109-174711_R2X_aoiro_nta_forms/kessan_tebiki_ippan_r07.pdf",
+   "sha256": "d688dd73e82a13b5b8f4d8d559f16cc82da948f5a249d9a2ac75361dc855f82c",
+   "encrypt": "AESV3(V5,R6) 非対応",
+   "key_ok": null,
+   "pages": 0,
+   "rows": 0,
+   "fonts": []
+  },
+  "sonshitsu_tebiki_r07": {
+   "path": ".work/downloads/20261109-174711_R2X_aoiro_nta_forms/sonshitsu_tebiki_r07.pdf",
+   "sha256": "e3a89abd687f659d190e7ae2da9e4554b5b9f52158903345b699c852717c1226",
+   "encrypt": "AESV3(V5,R6) 非対応",
+   "key_ok": null,
+   "pages": 0,
+   "rows": 0,
+   "fonts": []
+  }
+ }
+}

@@ -1,0 +1,14 @@
+01_student_away_and_parent_on_assignment: 標本 8・比べた値 7392・食い違い 0
+02_medical_payer_differs_from_patient: 標本 8・比べた値 7536・食い違い 0
+03_business_with_household_apportionment: 標本 8・比べた値 2504・食い違い 0
+04_forecast_and_plan_marks: 標本 8・比べた値 5728・食い違い 0
+05_commuting_and_withholding_slip: 標本 8・比べた値 4800・食い違い 0
+06_phase3_insurance_and_resident_tax_facts: 標本 8・比べた値 5880・食い違い 0
+07_vocabulary_additions_2026_11_11: 標本 8・比べた値 5600・食い違い 0
+08_vocabulary_additions_2026_11_12: 標本 8・比べた値 7328・食い違い 0
+09_external_tax_credit_2026_11_12: 標本 8・比べた値 4912・食い違い 0
+10_inventory_household_bad_debt_2026_11_12: 標本 8・比べた値 1120・食い違い 0
+11_special_depreciation_2026_11_12: 標本 8・比べた値 2344・食い違い 0
+12_specific_expense_and_authority_tax_item_2026_11_12: 標本 8・比べた値 2400・食い違い 0
+13_specific_expense_judgment_and_resident_return_2026_11_12: 標本 8・比べた値 2400・食い違い 0
+合計 {'比べた': 59944, '食い違い': 0}

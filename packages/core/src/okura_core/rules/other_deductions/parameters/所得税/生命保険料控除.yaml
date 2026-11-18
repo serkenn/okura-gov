@@ -1,0 +1,521 @@
+description: >-
+  生命保険料控除（所得税法第76条第1項〜第4項）と、年齢23歳未満の扶養親族を有する場合の特例（租税特別措置法第41条の15の5）。
+  区分ごとの式（イ〜ニ）、新旧の両方を支払った場合の上限、合計の上限。所法76 は所法R6〜R9 で同文
+  （docs/public-sources/20261109_round2_hoken-kifu-laws.md §1・§2.1）。端数の定めは条文にない（同 §9）。
+  式の1円未満は国税庁「令和8年分 年末調整のしかた」の切上げに従う（rules/other_deductions/basis.py の HOKEN_CEIL）。
+一般の生命保険料の新旧合計の上限:
+  description: 新生命保険料と旧生命保険料の両方を支払った場合の控除額の上限（第1項第3号「四万円」）
+  metadata:
+    law: 所得税法第76条第1項第3号
+    source_kind: 法律
+    reference:
+      - docs/public-sources/20261109_round2_hoken-kifu-laws.md#2.1
+      - docs/measurements/20261109_round2_hoken-kifu-formula-checks.md#1
+  values:
+    2025-01-01:
+      value: 40000
+      metadata: &r7r8
+        適用: 所法R6〜R9 の4つの版で第76条の本文が同じ（docs/measurements/20261109_round2_hoken-kifu-fetch.md §2）。この規定を設けた改正法と当初の施行日は docs で確かめていない
+個人年金保険料の新旧合計の上限:
+  description: 新個人年金保険料と旧個人年金保険料の両方を支払った場合の控除額の上限（第3項第3号「四万円」）
+  metadata:
+    law: 所得税法第76条第3項第3号
+    source_kind: 法律
+    reference:
+      - docs/public-sources/20261109_round2_hoken-kifu-laws.md#2.1
+  values:
+    2025-01-01: {value: 40000, metadata: *r7r8}
+合計の上限:
+  description: 第1項から第3項までの控除額の合計の上限（第4項「十二万円」）
+  metadata:
+    law: 所得税法第76条第4項
+    source_kind: 法律
+    reference:
+      - docs/public-sources/20261109_round2_hoken-kifu-laws.md#2.1
+      - docs/measurements/20261109_round2_hoken-kifu-formula-checks.md#1
+  values:
+    2025-01-01: {value: 120000, metadata: *r7r8}
+新生命保険料:
+  イ:
+    以下:
+      description: 新生命保険料（第1項第1号）イ：この額以下ならその合計額
+      metadata: &new_life
+        law: 所得税法第76条第1項第1号イ〜ニ（新生命保険料：二万円以下 全額、四万円以下 二万円＋超える部分の二分の一、八万円以下 三万円＋四万円を超える部分の四分の一、超 四万円）
+        source_kind: 法律
+        reference:
+          - docs/public-sources/20261109_round2_hoken-kifu-laws.md#2.1
+          - docs/public-sources/20261109_round2_hoken-kifu-laws.md#1
+          - docs/measurements/20261109_round2_hoken-kifu-formula-checks.md#1
+      values:
+        2025-01-01: {value: 20000, metadata: *r7r8}
+  ロ:
+    以下:
+      description: 新生命保険料（第1項第1号）ロの上限
+      metadata: *new_life
+      values:
+        2025-01-01: {value: 40000, metadata: *r7r8}
+    加算額:
+      description: 新生命保険料（第1項第1号）ロの加える額
+      metadata: *new_life
+      values:
+        2025-01-01: {value: 20000, metadata: *r7r8}
+    控除する金額:
+      description: 新生命保険料（第1項第1号）ロで合計額から控除する額
+      metadata: *new_life
+      values:
+        2025-01-01: {value: 20000, metadata: *r7r8}
+    率:
+      分子:
+        description: 新生命保険料（第1項第1号）ロの率の分子（二分の一）
+        metadata: *new_life
+        values:
+          2025-01-01: {value: 1, metadata: *r7r8}
+      分母:
+        description: 新生命保険料（第1項第1号）ロの率の分母（二分の一）
+        metadata: *new_life
+        values:
+          2025-01-01: {value: 2, metadata: *r7r8}
+  ハ:
+    以下:
+      description: 新生命保険料（第1項第1号）ハの上限
+      metadata: *new_life
+      values:
+        2025-01-01: {value: 80000, metadata: *r7r8}
+    加算額:
+      description: 新生命保険料（第1項第1号）ハの加える額
+      metadata: *new_life
+      values:
+        2025-01-01: {value: 30000, metadata: *r7r8}
+    控除する金額:
+      description: 新生命保険料（第1項第1号）ハで合計額から控除する額
+      metadata: *new_life
+      values:
+        2025-01-01: {value: 40000, metadata: *r7r8}
+    率:
+      分子:
+        description: 新生命保険料（第1項第1号）ハの率の分子（四分の一）
+        metadata: *new_life
+        values:
+          2025-01-01: {value: 1, metadata: *r7r8}
+      分母:
+        description: 新生命保険料（第1項第1号）ハの率の分母（四分の一）
+        metadata: *new_life
+        values:
+          2025-01-01: {value: 4, metadata: *r7r8}
+  ニ:
+    額:
+      description: 新生命保険料（第1項第1号）ニ：上の段を超えるときの額
+      metadata: *new_life
+      values:
+        2025-01-01: {value: 40000, metadata: *r7r8}
+旧生命保険料:
+  イ:
+    以下:
+      description: 旧生命保険料（第1項第2号）イ：この額以下ならその合計額
+      metadata: &old_life
+        law: 所得税法第76条第1項第2号イ〜ニ（旧生命保険料：二万五千円以下 全額、五万円以下 二万五千円＋二分の一、十万円以下 三万七千五百円＋四分の一、超 五万円）
+        source_kind: 法律
+        reference:
+          - docs/public-sources/20261109_round2_hoken-kifu-laws.md#2.1
+          - docs/public-sources/20261109_round2_hoken-kifu-laws.md#1
+          - docs/measurements/20261109_round2_hoken-kifu-formula-checks.md#1
+      values:
+        2025-01-01: {value: 25000, metadata: *r7r8}
+  ロ:
+    以下:
+      description: 旧生命保険料（第1項第2号）ロの上限
+      metadata: *old_life
+      values:
+        2025-01-01: {value: 50000, metadata: *r7r8}
+    加算額:
+      description: 旧生命保険料（第1項第2号）ロの加える額
+      metadata: *old_life
+      values:
+        2025-01-01: {value: 25000, metadata: *r7r8}
+    控除する金額:
+      description: 旧生命保険料（第1項第2号）ロで合計額から控除する額
+      metadata: *old_life
+      values:
+        2025-01-01: {value: 25000, metadata: *r7r8}
+    率:
+      分子:
+        description: 旧生命保険料（第1項第2号）ロの率の分子（二分の一）
+        metadata: *old_life
+        values:
+          2025-01-01: {value: 1, metadata: *r7r8}
+      分母:
+        description: 旧生命保険料（第1項第2号）ロの率の分母（二分の一）
+        metadata: *old_life
+        values:
+          2025-01-01: {value: 2, metadata: *r7r8}
+  ハ:
+    以下:
+      description: 旧生命保険料（第1項第2号）ハの上限
+      metadata: *old_life
+      values:
+        2025-01-01: {value: 100000, metadata: *r7r8}
+    加算額:
+      description: 旧生命保険料（第1項第2号）ハの加える額
+      metadata: *old_life
+      values:
+        2025-01-01: {value: 37500, metadata: *r7r8}
+    控除する金額:
+      description: 旧生命保険料（第1項第2号）ハで合計額から控除する額
+      metadata: *old_life
+      values:
+        2025-01-01: {value: 50000, metadata: *r7r8}
+    率:
+      分子:
+        description: 旧生命保険料（第1項第2号）ハの率の分子（四分の一）
+        metadata: *old_life
+        values:
+          2025-01-01: {value: 1, metadata: *r7r8}
+      分母:
+        description: 旧生命保険料（第1項第2号）ハの率の分母（四分の一）
+        metadata: *old_life
+        values:
+          2025-01-01: {value: 4, metadata: *r7r8}
+  ニ:
+    額:
+      description: 旧生命保険料（第1項第2号）ニ：上の段を超えるときの額
+      metadata: *old_life
+      values:
+        2025-01-01: {value: 50000, metadata: *r7r8}
+介護医療保険料:
+  イ:
+    以下:
+      description: 介護医療保険料（第2項）イ：この額以下ならその合計額
+      metadata: &care
+        law: 所得税法第76条第2項第1号〜第4号（介護医療保険料：新生命保険料と同じ額の式）
+        source_kind: 法律
+        reference:
+          - docs/public-sources/20261109_round2_hoken-kifu-laws.md#2.1
+          - docs/public-sources/20261109_round2_hoken-kifu-laws.md#1
+          - docs/measurements/20261109_round2_hoken-kifu-formula-checks.md#1
+      values:
+        2025-01-01: {value: 20000, metadata: *r7r8}
+  ロ:
+    以下:
+      description: 介護医療保険料（第2項）ロの上限
+      metadata: *care
+      values:
+        2025-01-01: {value: 40000, metadata: *r7r8}
+    加算額:
+      description: 介護医療保険料（第2項）ロの加える額
+      metadata: *care
+      values:
+        2025-01-01: {value: 20000, metadata: *r7r8}
+    控除する金額:
+      description: 介護医療保険料（第2項）ロで合計額から控除する額
+      metadata: *care
+      values:
+        2025-01-01: {value: 20000, metadata: *r7r8}
+    率:
+      分子:
+        description: 介護医療保険料（第2項）ロの率の分子（二分の一）
+        metadata: *care
+        values:
+          2025-01-01: {value: 1, metadata: *r7r8}
+      分母:
+        description: 介護医療保険料（第2項）ロの率の分母（二分の一）
+        metadata: *care
+        values:
+          2025-01-01: {value: 2, metadata: *r7r8}
+  ハ:
+    以下:
+      description: 介護医療保険料（第2項）ハの上限
+      metadata: *care
+      values:
+        2025-01-01: {value: 80000, metadata: *r7r8}
+    加算額:
+      description: 介護医療保険料（第2項）ハの加える額
+      metadata: *care
+      values:
+        2025-01-01: {value: 30000, metadata: *r7r8}
+    控除する金額:
+      description: 介護医療保険料（第2項）ハで合計額から控除する額
+      metadata: *care
+      values:
+        2025-01-01: {value: 40000, metadata: *r7r8}
+    率:
+      分子:
+        description: 介護医療保険料（第2項）ハの率の分子（四分の一）
+        metadata: *care
+        values:
+          2025-01-01: {value: 1, metadata: *r7r8}
+      分母:
+        description: 介護医療保険料（第2項）ハの率の分母（四分の一）
+        metadata: *care
+        values:
+          2025-01-01: {value: 4, metadata: *r7r8}
+  ニ:
+    額:
+      description: 介護医療保険料（第2項）ニ：上の段を超えるときの額
+      metadata: *care
+      values:
+        2025-01-01: {value: 40000, metadata: *r7r8}
+新個人年金保険料:
+  イ:
+    以下:
+      description: 新個人年金保険料（第3項第1号）イ：この額以下ならその合計額
+      metadata: &new_annuity
+        law: 所得税法第76条第3項第1号イ〜ニ（新個人年金保険料：新生命保険料と同じ額の式）
+        source_kind: 法律
+        reference:
+          - docs/public-sources/20261109_round2_hoken-kifu-laws.md#2.1
+          - docs/public-sources/20261109_round2_hoken-kifu-laws.md#1
+          - docs/measurements/20261109_round2_hoken-kifu-formula-checks.md#1
+      values:
+        2025-01-01: {value: 20000, metadata: *r7r8}
+  ロ:
+    以下:
+      description: 新個人年金保険料（第3項第1号）ロの上限
+      metadata: *new_annuity
+      values:
+        2025-01-01: {value: 40000, metadata: *r7r8}
+    加算額:
+      description: 新個人年金保険料（第3項第1号）ロの加える額
+      metadata: *new_annuity
+      values:
+        2025-01-01: {value: 20000, metadata: *r7r8}
+    控除する金額:
+      description: 新個人年金保険料（第3項第1号）ロで合計額から控除する額
+      metadata: *new_annuity
+      values:
+        2025-01-01: {value: 20000, metadata: *r7r8}
+    率:
+      分子:
+        description: 新個人年金保険料（第3項第1号）ロの率の分子（二分の一）
+        metadata: *new_annuity
+        values:
+          2025-01-01: {value: 1, metadata: *r7r8}
+      分母:
+        description: 新個人年金保険料（第3項第1号）ロの率の分母（二分の一）
+        metadata: *new_annuity
+        values:
+          2025-01-01: {value: 2, metadata: *r7r8}
+  ハ:
+    以下:
+      description: 新個人年金保険料（第3項第1号）ハの上限
+      metadata: *new_annuity
+      values:
+        2025-01-01: {value: 80000, metadata: *r7r8}
+    加算額:
+      description: 新個人年金保険料（第3項第1号）ハの加える額
+      metadata: *new_annuity
+      values:
+        2025-01-01: {value: 30000, metadata: *r7r8}
+    控除する金額:
+      description: 新個人年金保険料（第3項第1号）ハで合計額から控除する額
+      metadata: *new_annuity
+      values:
+        2025-01-01: {value: 40000, metadata: *r7r8}
+    率:
+      分子:
+        description: 新個人年金保険料（第3項第1号）ハの率の分子（四分の一）
+        metadata: *new_annuity
+        values:
+          2025-01-01: {value: 1, metadata: *r7r8}
+      分母:
+        description: 新個人年金保険料（第3項第1号）ハの率の分母（四分の一）
+        metadata: *new_annuity
+        values:
+          2025-01-01: {value: 4, metadata: *r7r8}
+  ニ:
+    額:
+      description: 新個人年金保険料（第3項第1号）ニ：上の段を超えるときの額
+      metadata: *new_annuity
+      values:
+        2025-01-01: {value: 40000, metadata: *r7r8}
+旧個人年金保険料:
+  イ:
+    以下:
+      description: 旧個人年金保険料（第3項第2号）イ：この額以下ならその合計額
+      metadata: &old_annuity
+        law: 所得税法第76条第3項第2号イ〜ニ（旧個人年金保険料：旧生命保険料と同じ額の式）
+        source_kind: 法律
+        reference:
+          - docs/public-sources/20261109_round2_hoken-kifu-laws.md#2.1
+          - docs/public-sources/20261109_round2_hoken-kifu-laws.md#1
+          - docs/measurements/20261109_round2_hoken-kifu-formula-checks.md#1
+      values:
+        2025-01-01: {value: 25000, metadata: *r7r8}
+  ロ:
+    以下:
+      description: 旧個人年金保険料（第3項第2号）ロの上限
+      metadata: *old_annuity
+      values:
+        2025-01-01: {value: 50000, metadata: *r7r8}
+    加算額:
+      description: 旧個人年金保険料（第3項第2号）ロの加える額
+      metadata: *old_annuity
+      values:
+        2025-01-01: {value: 25000, metadata: *r7r8}
+    控除する金額:
+      description: 旧個人年金保険料（第3項第2号）ロで合計額から控除する額
+      metadata: *old_annuity
+      values:
+        2025-01-01: {value: 25000, metadata: *r7r8}
+    率:
+      分子:
+        description: 旧個人年金保険料（第3項第2号）ロの率の分子（二分の一）
+        metadata: *old_annuity
+        values:
+          2025-01-01: {value: 1, metadata: *r7r8}
+      分母:
+        description: 旧個人年金保険料（第3項第2号）ロの率の分母（二分の一）
+        metadata: *old_annuity
+        values:
+          2025-01-01: {value: 2, metadata: *r7r8}
+  ハ:
+    以下:
+      description: 旧個人年金保険料（第3項第2号）ハの上限
+      metadata: *old_annuity
+      values:
+        2025-01-01: {value: 100000, metadata: *r7r8}
+    加算額:
+      description: 旧個人年金保険料（第3項第2号）ハの加える額
+      metadata: *old_annuity
+      values:
+        2025-01-01: {value: 37500, metadata: *r7r8}
+    控除する金額:
+      description: 旧個人年金保険料（第3項第2号）ハで合計額から控除する額
+      metadata: *old_annuity
+      values:
+        2025-01-01: {value: 50000, metadata: *r7r8}
+    率:
+      分子:
+        description: 旧個人年金保険料（第3項第2号）ハの率の分子（四分の一）
+        metadata: *old_annuity
+        values:
+          2025-01-01: {value: 1, metadata: *r7r8}
+      分母:
+        description: 旧個人年金保険料（第3項第2号）ハの率の分母（四分の一）
+        metadata: *old_annuity
+        values:
+          2025-01-01: {value: 4, metadata: *r7r8}
+  ニ:
+    額:
+      description: 旧個人年金保険料（第3項第2号）ニ：上の段を超えるときの額
+      metadata: *old_annuity
+      values:
+        2025-01-01: {value: 50000, metadata: *r7r8}
+措法第41条の15の5:
+  適用:
+    description: その年分に措法第41条の15の5（年齢23歳未満の扶養親族を有する場合の生命保険料控除の特例）を当てうるか（条文「令和八年分又は令和九年分」）
+    metadata:
+      law: 租税特別措置法第41条の15の5第1項
+      source_kind: 法律
+      reference:
+        - docs/public-sources/20261109_round2_hoken-kifu-laws.md#2.3
+        - docs/public-sources/20261109_round2_hoken-kifu-laws.md#1
+        - docs/measurements/20261109_round2_hoken-kifu-fetch.md#3.1
+    values:
+      2025-01-01:
+        value: false
+        metadata:
+          適用: 令和7年分にはこの条がない（措法 asof 2025-12-31 の版にない）
+      2026-01-01:
+        value: true
+        metadata: &sp2026
+          施行日: 2026-01-01
+          適用: >-
+            令和7年法律第13号附則第1条第2号ロ（令和8年1月1日施行）で新設（当初は「令和八年分」だけ）。令和8年法律第12号で
+            「令和八年分又は令和九年分」に改正（asof 2026-04-01 の版から。law_revision 332AC0000000026_20260401_508AC0000000012）。
+            読替えの額は両方の版で同じ
+      2028-01-01:
+        value: false
+        metadata:
+          適用: 令和10年分以後は条文の「令和八年分又は令和九年分」の外
+  扶養親族の年齢の上限:
+    description: 特例の対象の扶養親族の年齢（この年齢未満。第1項「年齢二十三歳未満」）
+    metadata:
+      law: 租税特別措置法第41条の15の5第1項
+      source_kind: 法律
+      比較: 未満
+      reference:
+        - docs/public-sources/20261109_round2_hoken-kifu-laws.md#2.3
+    values:
+      2026-01-01: {value: 23, metadata: *sp2026}
+  一般の生命保険料の新旧合計の上限:
+    description: 読替え後の第1項第3号の上限（「四万円」→「六万円」）
+    metadata:
+      law: 租税特別措置法第41条の15の5第1項（所得税法第76条第1項第3号の読替え）
+      source_kind: 法律
+      reference:
+        - docs/public-sources/20261109_round2_hoken-kifu-laws.md#2.3
+        - docs/measurements/20261109_round2_hoken-kifu-formula-checks.md#1
+    values:
+      2026-01-01: {value: 60000, metadata: *sp2026}
+  新生命保険料:
+    イ:
+      以下:
+        description: 読替え後の新生命保険料（措法第41条の15の5第1項）イ：この額以下ならその合計額
+        metadata: &sp_new
+          law: 租税特別措置法第41条の15の5第1項（所得税法第76条第1項第1号の読替え：イ・ロ「二万円」→「三万円」、ロ・ハ「四万円」→「六万円」、ハ「八万円」→「十二万円」・「三万円」→「四万五千円」、ニ「八万円」→「十二万円」・「四万円」→「六万円」）
+          source_kind: 法律
+          reference:
+            - docs/public-sources/20261109_round2_hoken-kifu-laws.md#2.3
+            - docs/measurements/20261109_round2_hoken-kifu-formula-checks.md#1
+        values:
+          2026-01-01: {value: 30000, metadata: *sp2026}
+    ロ:
+      以下:
+        description: 読替え後の新生命保険料（措法第41条の15の5第1項）ロの上限
+        metadata: *sp_new
+        values:
+          2026-01-01: {value: 60000, metadata: *sp2026}
+      加算額:
+        description: 読替え後の新生命保険料（措法第41条の15の5第1項）ロの加える額
+        metadata: *sp_new
+        values:
+          2026-01-01: {value: 30000, metadata: *sp2026}
+      控除する金額:
+        description: 読替え後の新生命保険料（措法第41条の15の5第1項）ロで合計額から控除する額
+        metadata: *sp_new
+        values:
+          2026-01-01: {value: 30000, metadata: *sp2026}
+      率:
+        分子:
+          description: 読替え後の新生命保険料（措法第41条の15の5第1項）ロの率の分子（二分の一）
+          metadata: *sp_new
+          values:
+            2026-01-01: {value: 1, metadata: *sp2026}
+        分母:
+          description: 読替え後の新生命保険料（措法第41条の15の5第1項）ロの率の分母（二分の一）
+          metadata: *sp_new
+          values:
+            2026-01-01: {value: 2, metadata: *sp2026}
+    ハ:
+      以下:
+        description: 読替え後の新生命保険料（措法第41条の15の5第1項）ハの上限
+        metadata: *sp_new
+        values:
+          2026-01-01: {value: 120000, metadata: *sp2026}
+      加算額:
+        description: 読替え後の新生命保険料（措法第41条の15の5第1項）ハの加える額
+        metadata: *sp_new
+        values:
+          2026-01-01: {value: 45000, metadata: *sp2026}
+      控除する金額:
+        description: 読替え後の新生命保険料（措法第41条の15の5第1項）ハで合計額から控除する額
+        metadata: *sp_new
+        values:
+          2026-01-01: {value: 60000, metadata: *sp2026}
+      率:
+        分子:
+          description: 読替え後の新生命保険料（措法第41条の15の5第1項）ハの率の分子（四分の一）
+          metadata: *sp_new
+          values:
+            2026-01-01: {value: 1, metadata: *sp2026}
+        分母:
+          description: 読替え後の新生命保険料（措法第41条の15の5第1項）ハの率の分母（四分の一）
+          metadata: *sp_new
+          values:
+            2026-01-01: {value: 4, metadata: *sp2026}
+    ニ:
+      額:
+        description: 読替え後の新生命保険料（措法第41条の15の5第1項）ニ：上の段を超えるときの額
+        metadata: *sp_new
+        values:
+          2026-01-01: {value: 60000, metadata: *sp2026}

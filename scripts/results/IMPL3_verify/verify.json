@@ -1,0 +1,354 @@
+{
+ "run_at": "20261111-233300",
+ "download_dir": ".work/downloads/20261111-233300_IMPL3_verify",
+ "xml": [
+  {
+   "id": "V1 所令134 95%・五で除す R7",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096?response_format=xml&asof=2025-12-31",
+   "status": 200,
+   "law_revision_id": "340CO0000000096_20251201_507CO0000000120",
+   "sha256": "951c7e73296dbd73c71dce155e6a9e7723c2e51d1169442ab798e3ee60ef1705",
+   "found": {
+    "その取得価額（減価償却資産の償却費の額の計算の基礎となる取得価額をいい": true,
+    "の百分の九十五に相当する金額": true,
+    "を五で除して計算した金額": true
+   },
+   "absent": {},
+   "ok": true
+  },
+  {
+   "id": "V1 所令134 95%・五で除す R8",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096?response_format=xml&asof=2026-12-31",
+   "status": 200,
+   "law_revision_id": "340CO0000000096_20261201_508CO0000000093",
+   "sha256": "c33c96a917a6fea0a9715d425556ffe5589cc2e29fc8c89fd151fc1c54b53e58",
+   "found": {
+    "の百分の九十五に相当する金額": true,
+    "を五で除して計算した金額": true
+   },
+   "absent": {},
+   "ok": true
+  },
+  {
+   "id": "V1b 所令120 旧定額法・旧定率法の定義 R8",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096?response_format=xml&asof=2026-12-31",
+   "status": 200,
+   "law_revision_id": "340CO0000000096_20261201_508CO0000000093",
+   "sha256": "c33c96a917a6fea0a9715d425556ffe5589cc2e29fc8c89fd151fc1c54b53e58",
+   "found": {
+    "旧定額法（当該減価償却資産の取得価額からその残存価額を控除した金額にその償却費が毎年同一となるように": true,
+    "旧定率法（当該減価償却資産の取得価額（第二年目以後の償却の場合にあつては": true
+   },
+   "absent": {},
+   "ok": true
+  },
+  {
+   "id": "V1c 所令205 62万円 R8・58万円 R7",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096?response_format=xml&asof=2026-12-31",
+   "status": 200,
+   "law_revision_id": "340CO0000000096_20261201_508CO0000000093",
+   "sha256": "c33c96a917a6fea0a9715d425556ffe5589cc2e29fc8c89fd151fc1c54b53e58",
+   "found": {
+    "山林所得金額の合計額が六十二万円以下であるもの": true
+   },
+   "absent": {},
+   "ok": true
+  },
+  {
+   "id": "V1c 所令205 58万円 R7",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096?response_format=xml&asof=2025-12-31",
+   "status": 200,
+   "law_revision_id": "340CO0000000096_20251201_507CO0000000120",
+   "sha256": "951c7e73296dbd73c71dce155e6a9e7723c2e51d1169442ab798e3ee60ef1705",
+   "found": {
+    "山林所得金額の合計額が五十八万円以下であるもの": true
+   },
+   "absent": {},
+   "ok": true
+  },
+  {
+   "id": "V2 耐用年数省令 別表 R8",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340M50000040015?response_format=xml&asof=2026-12-31",
+   "status": 200,
+   "law_revision_id": "340M50000040015_20260522_508M60000040029",
+   "sha256": "8aabe84ffdbd36ae92f16975d4b6dbd2a5ac9760d452fb41136b46fb1fc5564a",
+   "found": {
+    "一〇〇・一〇〇〇・二〇六": true,
+    "一〇〇・二〇〇〇・二五〇〇・〇六五五二": true,
+    "一〇〇・二五〇〇・三三四〇・〇四四四八": true
+   },
+   "absent": {},
+   "ok": true
+  },
+  {
+   "id": "V3 所法 別表第二 R8（105,000円未満・170・3,700）",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=xml&asof=2026-12-31",
+   "status": 200,
+   "law_revision_id": "340AC0000000033_20261201_508AC0000000012",
+   "sha256": "0ee4d9aa4fd7bb5550597ed08665588639a9473e6bd9f6387126de41603a0020",
+   "found": {
+    "１０５，０００円未満": true,
+    "１０５，０００１０７，０００１７００００００００３，７００": true
+   },
+   "absent": {},
+   "ok": true
+  },
+  {
+   "id": "V3 所法 別表第二 R7（88,000円未満・130・3,100）",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=xml&asof=2025-12-31",
+   "status": 200,
+   "law_revision_id": "340AC0000000033_20251218_507AC0000000013",
+   "sha256": "daea5074a24112fe2fcbca545256b835ad89b42f519549eb858fba4746d71b63",
+   "found": {
+    "８８，０００円未満": true,
+    "８８，０００８９，０００１３００００００００３，１００": true
+   },
+   "absent": {},
+   "ok": true
+  },
+  {
+   "id": "V4 措令4の2⑨ と 25の11の2⑳ に所令205 R8",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/332CO0000000043?response_format=xml&asof=2026-12-31",
+   "status": 200,
+   "law_revision_id": "332CO0000000043_20261201_508CO0000000098",
+   "sha256": "689597884c788b94db0f81a8b4f974e3e762b52b2a259edc083a441d61f8b8c9",
+   "found": {
+    "第二百四条第一項第二号、第二百五条、第二百十九条第二項第二号、第二百二十一条の三第二項": true,
+    "第百七十九条第一号イ及び第二号イ、第百八十条第二項第一号、第二百四条第一項第二号、第二百五条並びに第二百十九条第二項第二号": true
+   },
+   "absent": {},
+   "ok": true
+  },
+  {
+   "id": "V4 同 R7",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/332CO0000000043?response_format=xml&asof=2025-12-31",
+   "status": 200,
+   "law_revision_id": "332CO0000000043_20251231_507CO0000000401",
+   "sha256": "a2ec6abeef6cf4597c62f633f8313c80939278b15ec542cdbaae68abf6ce22bc",
+   "found": {
+    "第二百四条第一項第二号、第二百五条、第二百十九条第二項第二号、第二百二十一条の三第二項": true,
+    "第百七十九条第一号イ及び第二号イ、第百八十条第二項第一号、第二百四条第一項第二号、第二百五条並びに第二百十九条第二項第二号": true
+   },
+   "absent": {},
+   "ok": true
+  },
+  {
+   "id": "V4b 措法41の2の2⑥二 所法120の読替え R8",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/332AC0000000026?response_format=xml&asof=2026-12-31",
+   "status": 200,
+   "law_revision_id": "332AC0000000026_20261204_508AC0000000012",
+   "sha256": "69394c9cff9a9ba4ba1e988530be18388491857929f3d39463790ed291cf9d8c",
+   "found": {
+    "同項中「配当控除の額」とあるのは、「配当控除の額と租税特別措置法第四十一条の二の二第一項（年末調整に係る住宅借入金等を有する場合の所得税額の特別控除）の規定により控除される金額との合計額」とする": true
+   },
+   "absent": {},
+   "ok": true
+  },
+  {
+   "id": "V6 国保令29の7 限度額 R9年度の版",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/333CO0000000362?response_format=xml&asof=2027-04-01",
+   "status": 200,
+   "law_revision_id": "333CO0000000362_20260801_508CO0000000240",
+   "sha256": "41e7dffd51eedd191464031e1e88e71ec62744e32f50ecabdd72ee4d503d0cfa",
+   "found": {
+    "基礎賦課額は、六十七万円を超えることができない": true,
+    "後期高齢者支援金等賦課額は、二十六万円を超えることができない": true,
+    "介護納付金賦課額は、十七万円を超えることができない": true,
+    "子ども・子育て支援納付金賦課額は、三万円を超えることができない": true
+   },
+   "absent": {},
+   "ok": true
+  },
+  {
+   "id": "V6b 地令56の88の2 R9年度の版",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325CO0000000245?response_format=xml&asof=2027-04-01",
+   "status": 200,
+   "law_revision_id": "325CO0000000245_20270101_508CO0000000083",
+   "sha256": "102107963d1ea34759ae5e7ec04189bb5b4b7697d2b29367d8bf3fa2deab7465",
+   "found": {
+    "法第七百三条の四第十一項に規定する政令で定める金額は、六十七万円とする": true
+   },
+   "absent": {},
+   "ok": true
+  },
+  {
+   "id": "V7 地法 改正附則：314の7⑪・附則5の5②は令和10年度以後",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=xml&asof=2027-04-01",
+   "status": 200,
+   "law_revision_id": "325AC0000000226_20270401_508AC0000000051",
+   "sha256": "34e07f6ffbe0c77c95434c1f6acee9bf50bfa1541258f80f4eb3d6be1dfdfe7e",
+   "found": {
+    "第三百十四条の七第十一項及び附則第五条の五第二項の規定は、令和十年度以後の年度分の個人の市町村民税について適用し": true
+   },
+   "absent": {},
+   "ok": true
+  },
+  {
+   "id": "V7b 地法703の4・703の5（国保税）の改正は令和9年度以後",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=xml&asof=2027-04-01",
+   "status": 200,
+   "law_revision_id": "325AC0000000226_20270401_508AC0000000051",
+   "sha256": "34e07f6ffbe0c77c95434c1f6acee9bf50bfa1541258f80f4eb3d6be1dfdfe7e",
+   "found": {
+    "改正後の地方税法第七百三条の四及び第七百三条の五の規定は、令和九年度以後の年度分の国民健康保険税について適用し": true
+   },
+   "absent": {},
+   "ok": true
+  },
+  {
+   "id": "V8 国年令6の8 135万円・6の7の2",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/334CO0000000184?response_format=xml&asof=2026-04-01",
+   "status": 200,
+   "law_revision_id": "334CO0000000184_20260401_508CO0000000075",
+   "sha256": "87fec19bb7d245bb6b76a060658a57607346a35d68b5680ee2131a76e5778a1c",
+   "found": {
+    "法第九十条第一項第三号に規定する政令で定める額は、百三十五万円とする": true,
+    "地方税法第二百九十二条第一項第十号に規定する障害者、同項第十一号に規定する寡婦及び同項第十二号に規定するひとり親とする": true
+   },
+   "absent": {},
+   "ok": true
+  },
+  {
+   "id": "V8b 国年法90の2・90の3 の第2号の文言",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/334AC0000000141?response_format=xml&asof=2026-04-01",
+   "status": 200,
+   "law_revision_id": "334AC0000000141_20260401_507AC0000000074",
+   "sha256": "172e13e9b3590db87f3aacf9dcb5dd5989afa46215c99fb1fd16d97a056deb30",
+   "found": {
+    "二前条第一項第二号及び第三号に該当するとき。": true,
+    "二第九十条第一項第二号及び第三号に該当するとき。": true,
+    "平成二十八年七月から令和十七年六月までの期間において、五十歳に達する日の属する月の前月までの被保険者期間": true
+   },
+   "absent": {},
+   "ok": true
+  }
+ ],
+ "revisions": [
+  {
+   "law": "国保令",
+   "url": "https://laws.e-gov.go.jp/api/2/law_revisions/333CO0000000362?response_format=json",
+   "status": 200,
+   "enforced_2027_or_later": [
+    {
+     "enf": "2027-08-01",
+     "law": "令和八年政令第二百四十号",
+     "promulgated": "2026-07-29",
+     "status": "UnEnforced"
+    }
+   ]
+  },
+  {
+   "law": "地方税法施行令",
+   "url": "https://laws.e-gov.go.jp/api/2/law_revisions/325CO0000000245?response_format=json",
+   "status": 200,
+   "enforced_2027_or_later": [
+    {
+     "enf": "2117-12-31",
+     "law": "令和八年政令第二百五十一号",
+     "promulgated": "2026-08-07",
+     "status": "UnEnforced"
+    },
+    {
+     "enf": "2029-04-01",
+     "law": "令和八年政令第八十三号",
+     "promulgated": "2026-03-31",
+     "status": "UnEnforced"
+    },
+    {
+     "enf": "2029-01-01",
+     "law": "令和八年政令第八十三号",
+     "promulgated": "2026-03-31",
+     "status": "UnEnforced"
+    },
+    {
+     "enf": "2028-04-01",
+     "law": "令和八年政令第八十三号",
+     "promulgated": "2026-03-31",
+     "status": "UnEnforced"
+    },
+    {
+     "enf": "2028-01-01",
+     "law": "令和八年政令第八十三号",
+     "promulgated": "2026-03-31",
+     "status": "UnEnforced"
+    },
+    {
+     "enf": "2027-06-18",
+     "law": "令和八年政令第八十三号",
+     "promulgated": "2026-03-31",
+     "status": "UnEnforced"
+    },
+    {
+     "enf": "2027-05-26",
+     "law": "令和八年政令第八十三号",
+     "promulgated": "2026-03-31",
+     "status": "UnEnforced"
+    },
+    {
+     "enf": "2027-01-01",
+     "law": "令和八年政令第八十三号",
+     "promulgated": "2026-03-31",
+     "status": "UnEnforced"
+    },
+    {
+     "enf": "2027-01-01",
+     "law": "令和七年政令第百十九号",
+     "promulgated": "2025-03-31",
+     "status": "UnEnforced"
+    },
+    {
+     "enf": "2027-01-01",
+     "law": "令和六年政令第百三十八号",
+     "promulgated": "2024-03-30",
+     "status": "UnEnforced"
+    }
+   ]
+  },
+  {
+   "law": "国年令",
+   "url": "https://laws.e-gov.go.jp/api/2/law_revisions/334CO0000000184?response_format=json",
+   "status": 200,
+   "enforced_2027_or_later": []
+  }
+ ],
+ "web": [
+  {
+   "id": "kokugai_qa_01",
+   "url": "https://www.nta.go.jp/publication/pamph/pdf/0022009-107_01.pdf",
+   "status": 200,
+   "bytes": 148124,
+   "sha256": "5972507540b2233e73f88e0404b1a50fb81e7b823d2927d4d907597284f32141",
+   "saved": ".work/downloads/20261111-233300_IMPL3_verify/kokugai_qa_01.pdf"
+  },
+  {
+   "id": "soumu_code_page",
+   "url": "https://www.soumu.go.jp/denshijiti/code.html",
+   "status": 200,
+   "bytes": 41047,
+   "sha256": "040c86bfb4b497f2f8b9a6107c8fb7de3be554f38b7686a909d11b5629a9b331",
+   "saved": ".work/downloads/20261111-233300_IMPL3_verify/soumu_code_page.htm",
+   "encoding": "cp932",
+   "contains": {
+    "令和6年1月1日更新": true,
+    "000925835.xlsx": false,
+    "上場株式等に係る配当所得等の金額": false,
+    "これと同様に取り扱う": false
+   }
+  },
+  {
+   "id": "nta_sanrin_31_32",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/710826/sanrin/sanjyou/soti31/02.htm",
+   "status": 200,
+   "bytes": 13355,
+   "sha256": "83ca984d922b480df73c6e8170e5001be61b22bba946384ed4fce94ae1190a0f",
+   "saved": ".work/downloads/20261111-233300_IMPL3_verify/nta_sanrin_31_32.htm",
+   "encoding": "cp932",
+   "contains": {
+    "令和6年1月1日更新": false,
+    "000925835.xlsx": false,
+    "上場株式等に係る配当所得等の金額": true,
+    "これと同様に取り扱う": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+# source=https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo.htm
+# final_url=https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo.htm
+# fetched_at=2026-11-09T15:04:50+0900
+# sha256=add69e01375d76cace366728fe088a2f0b6aeb00e8f01351675982e029c249e1
+# encoding=utf-8
+
+国税システムの更改に伴うe-Taxの仕様公開と送信試験 | 【e-Tax】国税電子申告・納税システム(イータックス)
+本文へ
+ホーム
+ソフトウェア開発業者の方へ
+国税システムの更改
+国税システムの更改に伴うe-Taxの仕様公開と送信試験
+国税システムの更改に伴うe-Taxの仕様公開と送信試験
+このページは削除しました。現在の仕様公開ページへ自動遷移します。
+（旧）　https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo.htm
+（新）　https://www.e-tax.nta.go.jp/shiyo/index.html

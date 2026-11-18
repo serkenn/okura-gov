@@ -1,0 +1,88 @@
+description: 一部免除（4分の3・半額・4分の1）と学生納付特例の所得の基準（国民年金法施行令第6条の8の2・第6条の9・第6条の9の2）。
+四分の三免除:
+  description: 4分の3免除の基準額（扶養親族等がないとき）
+  metadata:
+    law: 国民年金法施行令第6条の8の2
+    source_kind: 政令
+    unit: 円
+    比較: 以下
+    reference:
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#12.2
+  values:
+    2024-01-01:
+      value: 880000
+      metadata:
+        適用: 令和7年度〜（各版で同じ値：[KHP] §12.2）
+半額免除:
+  description: 半額免除・学生納付特例の基準額（扶養親族等がないとき）
+  metadata:
+    law: 国民年金法施行令第6条の9
+    source_kind: 政令
+    unit: 円
+    比較: 以下
+    reference:
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#12.2
+      - docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md#8.1
+  values:
+    2024-01-01:
+      value: 1280000
+      metadata:
+        適用: 令和7年度〜（2025-04-01 版と 2026-11-09 版で同文）
+四分の一免除:
+  description: 4分の1免除の基準額（扶養親族等がないとき）
+  metadata:
+    law: 国民年金法施行令第6条の9の2
+    source_kind: 政令
+    unit: 円
+    比較: 以下
+    reference:
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#12.2
+  values:
+    2024-01-01:
+      value: 1680000
+      metadata:
+        適用: 令和7年度〜（各版で同じ値）
+加算:
+  description: 扶養親族等1人あたりの加算額（特定年齢扶養親族は控除対象扶養親族に限る）
+  一般:
+    description: 扶養親族等1人あたり
+    metadata:
+      law: 国民年金法施行令第6条の8の2・第6条の9・第6条の9の2
+      source_kind: 政令
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round2_kokuho-premium-structure.md#12.2
+        - docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md#8.1
+    values:
+      2024-01-01:
+        value: 380000
+        metadata:
+          適用: 令和7年度〜（各版で同じ値）
+  老人等:
+    description: 同一生計配偶者（70歳以上）・老人扶養親族1人あたり
+    metadata:
+      law: 国民年金法施行令第6条の8の2・第6条の9・第6条の9の2、第5条の4第1項
+      source_kind: 政令
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round2_kokuho-premium-structure.md#12.2
+        - docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md#8.1
+    values:
+      2024-01-01:
+        value: 480000
+        metadata:
+          適用: 令和7年度〜（各版で同じ値）
+  特定扶養親族等:
+    description: 特定扶養親族等（特定扶養親族又は19歳未満の控除対象扶養親族）1人あたり
+    metadata:
+      law: 国民年金法施行令第6条の8の2・第6条の9・第6条の9の2、第5条の4第1項
+      source_kind: 政令
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round2_kokuho-premium-structure.md#12.2
+        - docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md#8.1
+    values:
+      2024-01-01:
+        value: 630000
+        metadata:
+          適用: 令和7年度〜（各版で同じ値）

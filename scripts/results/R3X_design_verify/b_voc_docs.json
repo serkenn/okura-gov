@@ -1,0 +1,15 @@
+{
+ "n_corpus": 61,
+ "n_listed": 69,
+ "not_listed": [],
+ "listed_not_in_corpus": [
+  "round3_chiho-sochi-reading",
+  "round3_dai3go-basis",
+  "round3_dai3go-next-steps",
+  "round3_juminzei-extra-implications",
+  "round3_juminzei-extra-model",
+  "round3_kyosai-b-parameters",
+  "round3_shibo-shukkoku-cases",
+  "round3_shibo-shukkoku-model"
+ ]
+}

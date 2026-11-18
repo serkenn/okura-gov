@@ -1,0 +1,78 @@
+{
+ "fetched_at": "20261111-110613",
+ "url": "https://www.nta.go.jp/robots.txt",
+ "status": 200,
+ "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+ "saved": ".work/downloads/20261111-110613_IMPL2_kyuyo-jiki_nta_robots/robots.txt",
+ "disallow_lines": [
+  "Disallow: /service_publication/",
+  "Disallow: /about/organization/sapporo/service_publication/",
+  "Disallow: /about/organization/sendai/service_publication/",
+  "Disallow: /about/organization/kantoshinetsu/service_publication/",
+  "Disallow: /about/organization/tokyo/service_publication/",
+  "Disallow: /about/organization/kanazawa/service_publication/",
+  "Disallow: /about/organization/nagoya/service_publication/",
+  "Disallow: /about/organization/osaka/service_publication/",
+  "Disallow: /about/organization/hiroshima/service_publication/",
+  "Disallow: /about/organization/takamatsu/service_publication/",
+  "Disallow: /about/organization/fukuoka/service_publication/",
+  "Disallow: /about/organization/kumamoto/service_publication/",
+  "Disallow: /about/organization/okinawa/service_publication/",
+  "Disallow:"
+ ],
+ "urls": {
+  "pages/kihon_05_01": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/01.htm",
+   "allowed": true
+  },
+  "pages/kihon_02_04": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/04.htm",
+   "allowed": true
+  },
+  "pages/kihon_04_03": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/03.htm",
+   "allowed": true
+  },
+  "pages/kihon_28_01": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/28/01.htm",
+   "allowed": true
+  },
+  "pages/kihon_31_01": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/31/01.htm",
+   "allowed": true
+  },
+  "pages/kihon_32_01": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/32/01.htm",
+   "allowed": true
+  },
+  "pages/sokihon_01_03": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/03.htm",
+   "allowed": true
+  },
+  "pages/shitsugi_hotei_7_05": {
+   "url": "https://www.nta.go.jp/law/shitsugi/hotei/7/05.htm",
+   "allowed": true
+  },
+  "pages/shitsugi_hotei_7_16": {
+   "url": "https://www.nta.go.jp/law/shitsugi/hotei/7/16.htm",
+   "allowed": true
+  },
+  "pages/nencho2025_01": {
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2025/01.htm",
+   "allowed": true
+  },
+  "pages/nencho2026_01": {
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/01.htm",
+   "allowed": true
+  },
+  "pdfs/nencho2025_103": {
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2025/pdf/103.pdf",
+   "allowed": true
+  },
+  "pdfs/nencho2026_103": {
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/103.pdf",
+   "allowed": true
+  }
+ },
+ "all_allowed": true
+}

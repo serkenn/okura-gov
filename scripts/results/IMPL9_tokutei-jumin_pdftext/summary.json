@@ -1,0 +1,80 @@
+{
+ "aes_selftest": true,
+ "aes_selftest_r2b": {
+  "aes128_encrypt_C1": true,
+  "aes256_encrypt_C3": true,
+  "aes256_decrypt_C3": true
+ },
+ "files": {
+  "kinyu001_1": {
+   "path": ".work/downloads/20261112-165125_IMPL9_tokutei-jumin_web_nta/tebiki_2025_001_1.pdf",
+   "sha256": "15f1874c67264a5b8d87ed8800f37e9f527e96a46ec6fda5239f00f82a503a99",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 2,
+   "rows": 174,
+   "fonts": [
+    "None:?",
+    "TT1:Identity-H+ToUnicode",
+    "TT2:Identity-H+ToUnicode",
+    "TT3:Identity-H+ToUnicode"
+   ],
+   "type0_fonts": 3,
+   "type0_fonts_without_tounicode": 0,
+   "tounicode_cmap_streams": 3
+  },
+  "kinyuO1_1": {
+   "path": ".work/downloads/20261112-165125_IMPL9_tokutei-jumin_web_nta/tebiki_2025_O1_1.pdf",
+   "sha256": "10f878d9502ff67d943330b75fa0c0b604c277d12149093dd222155c17a32b35",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 1,
+   "rows": 124,
+   "fonts": [
+    "C2_0:Identity-H+ToUnicode",
+    "C2_1:Identity-H+ToUnicode",
+    "TT1:WinAnsiEncoding+ToUnicode"
+   ],
+   "type0_fonts": 2,
+   "type0_fonts_without_tounicode": 0,
+   "tounicode_cmap_streams": 5
+  },
+  "kisairei_kyuyo": {
+   "path": ".work/downloads/20261112-165125_IMPL9_tokutei-jumin_web_nta/kisairei_kyuyo.pdf",
+   "sha256": "0de8b75b28731f7c7c078dc678edd8ece623952427bac5a5194806c56fd94711",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 4,
+   "rows": 383,
+   "fonts": [
+    "F1:Identity-H+ToUnicode",
+    "F2:WinAnsiEncoding",
+    "F3:Identity-H+ToUnicode",
+    "F4:WinAnsiEncoding",
+    "F5:Identity-H+ToUnicode"
+   ],
+   "type0_fonts": 3,
+   "type0_fonts_without_tounicode": 0,
+   "tounicode_cmap_streams": 3
+  },
+  "yoshiki039": {
+   "path": ".work/downloads/20261112-165125_IMPL9_tokutei-jumin_web_nta/yoshiki_039.pdf",
+   "sha256": "f4d2a144bdadbb3bd91ab142f5e04e8dd4387d343fac589c695ffde8682f0b4d",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 4,
+   "rows": 2172,
+   "fonts": [
+    "F0:Identity-H+ToUnicode",
+    "F1:Identity-H+ToUnicode",
+    "F3:Identity-H+ToUnicode",
+    "F4:Identity-V+ToUnicode",
+    "F5:Identity-V+ToUnicode",
+    "None:?"
+   ],
+   "type0_fonts": 6,
+   "type0_fonts_without_tounicode": 0,
+   "tounicode_cmap_streams": 6
+  }
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "file": "000_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_kaisei_260831_pdf_01.pdf",
+ "sha256": "7cca5c45aa393a19cb1d3cca6ac6dd01b05277471e5b28b40e4afb993942228c",
+ "bytes": 108811,
+ "aes_selftest": true,
+ "encrypted": true,
+ "V": 4,
+ "R": 4,
+ "P": -1068,
+ "aes": true,
+ "key_len": 16,
+ "key_ok": true,
+ "encrypt_obj": 16,
+ "n_objects": 16,
+ "pages": [
+  {
+   "page": 1,
+   "obj": 7,
+   "mediabox": [
+    "0.0",
+    "0.0",
+    "595.32001",
+    "841.92004"
+   ],
+   "content_bytes": 395125,
+   "n_text_runs": 0,
+   "xobjects": []
+  }
+ ],
+ "form_ids": [],
+ "titles_in_dicts": [],
+ "n_rows": 0,
+ "n_codes": 0
+}

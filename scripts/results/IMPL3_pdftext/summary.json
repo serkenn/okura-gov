@@ -1,0 +1,106 @@
+{
+ "aes_selftest": true,
+ "aes_selftest_r2b": {
+  "aes128_encrypt_C1": true,
+  "aes256_encrypt_C3": true,
+  "aes256_decrypt_C3": true
+ },
+ "files": {
+  "kokugai_qa": {
+   "path": ".work/downloads/20261111-231743_IMPL3_web_fetch_nta_pdf/kokugai_qa_gensen.pdf",
+   "sha256": "d8e5bc32f793e7ba25500eae31fa44a3b8a47ec5be9fd3fef1465f1c72b5aa78",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 26,
+   "rows": 3731,
+   "fonts": [
+    "C2_0:Identity-H+ToUnicode",
+    "C2_1:Identity-H+ToUnicode",
+    "None:?",
+    "TT1:WinAnsiEncoding+ToUnicode",
+    "TT2:WinAnsiEncoding+ToUnicode",
+    "TT3:WinAnsiEncoding+ToUnicode"
+   ],
+   "type0_fonts": 3,
+   "type0_fonts_without_tounicode": 0,
+   "tounicode_cmap_streams": 9
+  },
+  "haito_keisansho": {
+   "path": ".work/downloads/20261111-231743_IMPL3_web_fetch_nta_pdf/haito_keisansho.pdf",
+   "sha256": "361dc33c6c5e97b2b5df7be68216c44136cddfbc626c14cead7ce731da312b9a",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 1,
+   "rows": 0,
+   "fonts": [],
+   "type0_fonts": 0,
+   "type0_fonts_without_tounicode": 0,
+   "tounicode_cmap_streams": 0
+  },
+  "haito_keisansho_ki": {
+   "path": ".work/downloads/20261111-231743_IMPL3_web_fetch_nta_pdf/haito_keisansho_ki.pdf",
+   "sha256": "1d762db149991830b236daa714a6cc597878fecde67bafd5859e7efefe3a15c2",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 1,
+   "rows": 86,
+   "fonts": [
+    "C2_0:Identity-H+ToUnicode",
+    "C2_1:Identity-H+ToUnicode",
+    "C2_2:Identity-H+ToUnicode",
+    "None:?",
+    "TT0:WinAnsiEncoding"
+   ],
+   "type0_fonts": 3,
+   "type0_fonts_without_tounicode": 0,
+   "tounicode_cmap_streams": 3
+  },
+  "code_spec": {
+   "path": ".work/downloads/20261111-231757_IMPL3_web_fetch_soumu_pdf/code_spec.pdf",
+   "sha256": "e3c0814a9ee744879c45b7775ffe7d078f12c09fe699729b004a22c249f0d7ab",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 5,
+   "rows": 230,
+   "fonts": [
+    "None:?",
+    "TT1:Identity-H+ToUnicode",
+    "TT2:Identity-V+ToUnicode"
+   ],
+   "type0_fonts": 2,
+   "type0_fonts_without_tounicode": 0,
+   "tounicode_cmap_streams": 1
+  },
+  "furusato_report2019": {
+   "path": ".work/downloads/20261111-231757_IMPL3_web_fetch_soumu_pdf/furusato_report2019.pdf",
+   "sha256": "2d2a16514fdf5bdd6cecc2c28dd25ae61150b6a2632a556b472b202a5bfbcdea",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 15,
+   "rows": 1058,
+   "fonts": [
+    "C2_0:Identity-H+ToUnicode",
+    "C2_1:Identity-H+ToUnicode",
+    "None:?"
+   ],
+   "type0_fonts": 12,
+   "type0_fonts_without_tounicode": 1,
+   "tounicode_cmap_streams": 11
+  },
+  "kokugai_qa_01": {
+   "path": ".work/downloads/20261111-233300_IMPL3_verify/kokugai_qa_01.pdf",
+   "sha256": "5972507540b2233e73f88e0404b1a50fb81e7b823d2927d4d907597284f32141",
+   "encrypt": "AESV3(V5,R6)",
+   "key_ok": true,
+   "pages": 3,
+   "rows": 725,
+   "fonts": [
+    "F0:Identity-H+ToUnicode",
+    "None:?"
+   ],
+   "type0_fonts": 3,
+   "type0_fonts_without_tounicode": 0,
+   "tounicode_cmap_streams": 3
+  }
+ }
+}

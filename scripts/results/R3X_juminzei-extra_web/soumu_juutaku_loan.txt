@@ -1,0 +1,504 @@
+# https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/090929.html
+# 取得 20261109-201103 状態 200 文字コード shift_jis
+
+
+総務省｜所得税から住宅ローン控除額を引ききれなかった方｜新築・購入等で住宅ローンを組む方・組んでいる方へ 個人住民税の住宅ローン控除がうけられる場合があります。
+
+メインナビゲーションへジャンプ
+
+メインコンテンツへジャンプ
+
+フッターへジャンプ
+
+ご意見・ご提案
+
+ENGLISH(TOP)
+
+MIC ICT Policy (
+
+English /
+
+Français /
+
+Español /
+
+Русский /
+
+中文 /
+
+عربي
+
+)
+
+総務省の紹介総務省の紹介
+
+総務省の紹介 TOP
+
+大臣・副大臣・政務官
+
+所在地・連絡先
+
+採用情報
+
+各種募集
+
+子どもページ
+
+広報・報道広報・報道
+
+広報・報道 TOP
+
+大臣会見・発言等
+
+報道資料
+
+報道予定
+
+広報誌・パンフレット
+
+行事案内
+
+フォトギャラリー
+
+政策政策
+
+政策 TOP
+
+白書
+
+統計情報
+
+意見募集(パブリックコメント）
+
+組織案内組織案内
+
+組織案内 TOP
+
+外局等
+
+地方支分部局
+
+審議会・委員会・会議等
+
+研究会等
+
+所管法令所管法令
+
+所管法令 TOP
+
+国会提出法案
+
+新規制定・改正法令・告示
+
+通知・通達
+
+予算・決算予算・決算
+
+予算・決算 TOP
+
+予算
+
+決算
+
+申請・手続申請・手続
+
+申請・手続 TOP
+
+調達情報・電子入札
+
+申請・届出等の手続案内
+
+個人情報保護
+
+法令適用事前確認手続
+
+公文書管理
+
+情報公開
+
+公益通報者保護・コンプライアンス
+
+災害用備蓄食品の提供
+
+政策評価政策評価
+
+政策評価 TOP
+
+政策評価ポータルサイト
+
+独立行政法人評価ポータルサイト
+
+サイトマップ
+
+プライバシーポリシー
+
+当省ホームページについて
+
+総務省トップ >
+政策 >
+地方行財政 >
+地方税制度 >
+税源移譲 >
+所得税から住宅ローン控除額を引ききれなかった方 >
+新築・購入等で住宅ローンを組む方・組んでいる方へ 個人住民税の住宅ローン控除がうけられる場合があります。
+
+新築・購入等で住宅ローンを組む方・組んでいる方へ 個人住民税の住宅ローン控除がうけられる場合があります。
+
+平成21年度税制改正において、住宅ローン減税制度について、所得税から控除しきれなかった額を個人住民税で税額控除することとされました。
+
+目次
+
+新たな個人住民税における住宅借入金等特別税額控除（住宅ローン控除）
+
+税源移譲の経過措置としての住宅借入金等特別税額控除（住宅ローン控除）
+
+新たな個人住民税における住宅借入金等特別税額控除（住宅ローン控除）
+
+厳しい経済状況を踏まえ、住宅投資を活性化し、景気浮揚の突破口にしようという狙いから、所得税における最大控除可能額を過去最大規模に引き上げ、中低所得者層の方への実効的な負担軽減となるようにするものです。
+
+前年分の所得税において控除しきれなかった金額がある場合は、翌年度の個人住民税で控除されます。
+
+平成21年から令和12年12月31日までの間に居住し、所得税の住宅ローン減税制度（住宅借入金等特別控除）を受けた方で、所得税において控除しきれなかった金額がある場合は、翌年度の個人住民税において住宅ローン控除が適用されます。
+
+[画像の代替テキスト] 控除額の算出方法 個人住民税の住宅ローン控除額（A）＝所得税における住宅ローン控除可能額−住宅ローン控除適用前の前年の所得税額
+
+（注） 上記の式で算出された控除額が、「前年分の所得税の課税総所得金額等の5％(97,500円を限度)(B)」を超えた場合には、控除額は(B)の金額になります。
+
+ただし、居住年が平成26年から令和3年12月31日までであって、当該住宅の取得等が特定取得（※1）又は特別特定所得（※2）である場合には、上記の式で算出された控除額が、「前年分の所得税の課税総所得金額等の7％(136,500円を限度)(C)」を超えた場合には、控除額は(C)の金額になります。
+
+※1 特定取得とは、住宅の取得等の対価の額又は費用の額に含まれる消費税額等（消費税額及び地方消費税額の合計額）が、8％又は10％の税率により課されるべき消費税額等である場合におけるその住宅の取得等をいいます。
+
+※2 特別特定所得とは、住宅の取得等の対価の額又は費用の額に含まれる消費税額等（消費税額及び地方消費税額の合計額）が10％の税率により課されるべき消費税額等である場合におけるその住宅の取得等をいいます。
+
+個人住民税の住宅ローン控除の適用にあたって、市区町村への申告は不要です。
+
+市区町村において、住宅ローン控除を受ける方が税務署等（所得税）へ申告した情報を把握できる仕組みとし、市区町村（個人住民税）への申告は不要となりました。
+
+具体的には、確定申告の添付資料の見直しや給与支払報告書等の改正により、住宅ローン控除額を算出するために必要な情報を、市区町村が把握できるようにし、控除を行うこととしました。
+
+※確定申告や年末調整で、住宅ローン控除を受ける方の手続きは、今までと変わりません。
+
+なお、税源移譲の経過措置としての住宅ローン控除（平成11年から平成18年までの間に入居した方）を受けていた方についても、同様に市区町村（個人住民税）への申告は不要となりました。
+
+＜参考＞住宅ローン控除適用のイメージ
+
+[画像の代替テキスト] 控除を受ける方は、年末調整を行う源泉徴収義務者に対し(1)年末調整で住宅ローン減税制度の適用を申告(2)年末調整を行う源泉徴収義務者は市区町村に給与支払い報告書を提出 (1)所管の税務署に確定申告で住宅ローン減税制度を申告(2)所管の税務署は市区町村に確定申告書等（住民税用）を回付(3)市区町村は控除を受ける方に対し給与支払い報告書・確定申告書等から内容を確認し翌年度の個人住民税において、住宅ローン控除を適用する
+
+＜参考＞年末調整を行った方の住宅ローン控除額の算出例
+
+（例）
+
+| 居住開始年月日
+| 平成21年5月12日
+
+| 住宅ローン控除可能額
+| 225,000円
+
+| 住宅ローン控除適用前の前年の所得税額
+| 190,000円
+
+[画像の代替テキスト] 源泉徴収税額の項目が0円のときのみ、住宅ローン控除が適用になる場合があります。 個人住民税における住宅ローン控除額：225,000-190,000＝35,000円
+
+＜参考＞所得税の最大控除可能額
+
+所得税における住宅ローン控除の最大控除可能額等、所得税における住宅ローン減税制度の概要については下記HPをご参照ください。
+
+住宅を新築又は新築住宅を取得した場合(住宅借入金等特別控除)（国税庁HP）
+
+ページトップへ戻る
+
+税源移譲の経過措置としての住宅借入金等特別税額控除（住宅ローン控除）
+
+税源移譲の経過措置としての住宅ローン控除は、平成19年に行われた税源移譲により、所得税が減額となり、所得税で控除できる金額が減少する場合があるため、平成18年末までに入居し、所得税の住宅ローン減税制度を受けている方で、所得税から控除しきれなかった額がある場合は、翌年度の個人住民税から控除できるとした制度です。
+
+[画像の代替テキスト] これまで所得税から控除できた住宅ローン控除額が減少
+
+この控除をうけるには、市区町村への申告が必要でしたが、新たな住宅ローン控除の創設に伴い、平成22年度分個人住民税から市区町村への申告は不要となります。
+
+ただし、申告の必要がある場合には、これまでと同様に市区町村へ申告を行っていただき、控除の適用を受けることができます。
+
+これは、退職所得・山林所得を有する方、所得税において平均課税の適用を受けている方（平成11年から平成18年までに入居した方）については、新たな住宅ローン控除と税源移譲の経過措置としての住宅ローン控除とで、控除される金額が異なる場合があるためです。
+
+申告をされる場合には、毎年3月15日までに、住所地の市区町村へ申告書を提出する必要があります。
+
+※ 期限までに申告されなかった場合は、自動的に、申告を不要とする新たな住宅ローン控除の適用を受けることになります。
+
+ページトップへ戻る
+
+所得税から住宅ローン控除額を引ききれなかった方
+
+サイドナビここから
+
+地方税制の概要
+
+毎年度の地方税制改正
+
+関連資料・データ
+
+所管法令・通知
+
+審議会・研究会等
+
+やさしい地方税
+
+サイドナビここまで
+
+総務省の紹介
+
+大臣・副大臣・政務官
+
+所在地・連絡先
+
+採用情報
+
+各種募集
+
+子どもページ
+
+広報・報道
+
+大臣会見・発言等
+
+報道資料
+
+報道予定
+
+広報誌・パンフレット
+
+行事案内
+
+フォトギャラリー
+
+政策
+
+白書
+
+統計情報
+
+意見募集(パブリックコメント）
+
+組織案内
+
+外局等
+
+地方支分部局
+
+審議会・委員会・会議等
+
+研究会等
+
+所管法令
+
+国会提出法案
+
+新規制定・改正法令・告示
+
+通知・通達
+
+予算・決算
+
+予算
+
+決算
+
+申請・手続
+
+調達情報・電子入札
+
+申請・届出等の手続案内
+
+個人情報保護
+
+法令適用事前確認手続
+
+公文書管理
+
+情報公開
+
+公益通報者保護・コンプライアンス
+
+災害用備蓄食品の提供
+
+政策評価
+
+政策評価ポータルサイト
+
+独立行政法人評価ポータルサイト
+
+総務省ソーシャルアカウント一覧
+
+[画像の代替テキスト] 総務省公式X(旧Twitter)（外部サイトにリンクします）
+
+[画像の代替テキスト] 総務省公式Facebook（外部サイトにリンクします）
+
+[画像の代替テキスト] 総務省公式Instagram（外部サイトにリンクします）
+
+[画像の代替テキスト] 総務省動画チャンネル（YouTube）（外部サイトにリンクします）
+
+[画像の代替テキスト] 総務省公式note（外部サイトにリンクします）
+
+関連リンク
+
+[画像の代替テキスト] 消防庁 webサイト・別ウィンドウで開きます
+
+[画像の代替テキスト] 総務省統計局 webサイト・別ウィンドウで開きます
+
+[画像の代替テキスト] e-Stat（イースタット）政府統計の総合窓口・別ウィンドウで開きます
+
+サイトマップ
+
+プライバシーポリシー
+
+当省ホームページについて
+
+法人番号2000012020001 〒100-8926 東京都千代田区霞が関2−1−2 中央合同庁舎第2号館【所在地図】
+
+電話03-5253-5111（代表）
+※ 電話リレーサービス（手話リンク）のご利用について
+
+© 2009 Ministry of Internal Affairs and Communications All Rights Reserved.
+
+| |
+
+Save
+
+
+# リンク
+#jumpToNavi
+#jumpToContents
+#jumpToFooter
+/index.html
+/form/common/opinions.html
+/english/index.html
+/main_sosiki/joho_tsusin/eng/
+/main_sosiki/joho_tsusin/fr/
+/main_sosiki/joho_tsusin/esp/
+/main_sosiki/joho_tsusin/rus/
+/main_sosiki/joho_tsusin/chs/
+/main_sosiki/joho_tsusin/ar/
+javascript:ptspkLoader('toggle')
+/menu_syokai/index.html
+/menu_syokai/index.html
+/menu_sosiki/annai/soshiki/index.html
+/menu_sosiki/annai/map-1.html
+/menu_syokai/saiyou/index.html
+/menu_syokai/bosyu/index.html
+/menu_kyotsuu/kids/index.html
+/menu_news/index.html
+/menu_news/index.html
+/menu_news/kaiken/index.html
+/menu_news/s-news/index.html
+/menu_news/release001.html
+/menu_news/kouhoushi/index.html
+/menu_news/gyouji/index.html
+/photo_gallery/index.html
+/menu_seisaku/index.html
+/menu_seisaku/index.html
+/menu_seisaku/hakusyo/index.html
+/menu_seisaku/toukei/index.html
+/menu_seisaku/iken_bosyu/index.html
+/menu_sosiki/index.html
+/menu_sosiki/index.html
+/menu_kyotsuu/gaikyoku/index.html
+/menu_kyotsuu/chihou.html
+/menu_sosiki/singi/index.html
+/menu_sosiki/kenkyu/kenkyu.html
+/menu_hourei/index.html
+/menu_hourei/index.html
+/menu_hourei/k_houan.html
+/menu_hourei/s_houritsu.html
+/menu_hourei/tsutatsu/t_tsutatsu.html
+/menu_yosan/index.html
+/menu_yosan/index.html
+/menu_yosan/yosan.html
+/menu_yosan/kesan.html
+/menu_sinsei/index.html
+/menu_sinsei/index.html
+/menu_sinsei/cyoutatsu/index.html
+/menu_sinsei/shinsei/index.html
+/menu_sinsei/kojin_jyouhou/index.html
+/menu_sinsei/hourei_tekiyou/index.html
+/menu_sinsei/koubunsho/index.html
+/menu_sinsei/jyouhou_koukai/index.html
+/menu_sinsei/koekitsuho/index.html
+/menu_sinsei/saigaiyo_bichiku/index.html
+/menu_seisakuhyouka/index.html
+/menu_seisakuhyouka/index.html
+/main_sosiki/hyouka/seisaku_n/portal/index.html
+/main_sosiki/gyoukan/kanri/portal/index.html
+/menu_kyotsuu/sitemap.html
+/menu_kyotsuu/policy/policy.html
+/menu_kyotsuu/policy/tyosaku.html
+/index.html
+/menu_seisaku/index.html
+/menu_seisaku/chiho/index.html
+/main_sosiki/jichi_zeisei/czaisei/czais.html
+/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/zeigenijou2.html
+/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/gengakusochi_1.html
+#new
+#keika
+https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1213_qa.htm
+#pTop
+#pTop
+/main_sosiki/jichi_zeisei/czaisei/czais.html
+/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran04.html
+/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/czei_shiryo_ichiran.html
+/menu_hourei/chihouzei.html
+/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/149767_31.html
+/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/150790_01.html
+/menu_syokai/index.html
+/menu_sosiki/annai/soshiki/index.html
+/menu_sosiki/annai/map-1.html
+/menu_syokai/saiyou/index.html
+/menu_syokai/bosyu/index.html
+/menu_kyotsuu/kids/index.html
+/menu_news/index.html
+/menu_news/kaiken/index.html
+/menu_news/s-news/index.html
+/menu_news/release001.html
+/menu_news/kouhoushi/index.html
+/menu_news/gyouji/index.html
+/photo_gallery/index.html
+/menu_seisaku/index.html
+/menu_seisaku/hakusyo/index.html
+/menu_seisaku/toukei/index.html
+/menu_seisaku/iken_bosyu/index.html
+/menu_sosiki/index.html
+/menu_kyotsuu/gaikyoku/index.html
+/menu_kyotsuu/chihou.html
+/menu_sosiki/singi/index.html
+/menu_sosiki/kenkyu/kenkyu.html
+https://www.soumu.go.jp/menu_hourei/index.html
+/menu_hourei/k_houan.html
+/menu_hourei/s_houritsu.html
+/menu_hourei/tsutatsu/t_tsutatsu.html
+https://www.soumu.go.jp/menu_yosan/index.html
+/menu_yosan/yosan.html
+/menu_yosan/kesan.html
+https://www.soumu.go.jp/menu_sinsei/index.html
+/menu_sinsei/cyoutatsu/index.html
+/menu_sinsei/shinsei/index.html
+/menu_sinsei/kojin_jyouhou/index.html
+/menu_sinsei/hourei_tekiyou/index.html
+/menu_sinsei/koubunsho/index.html
+/menu_sinsei/jyouhou_koukai/index.html
+/menu_sinsei/koekitsuho/index.html
+/menu_sinsei/saigaiyo_bichiku/index.html
+/menu_seisakuhyouka/index.html
+/main_sosiki/hyouka/seisaku_n/portal/index.html
+/main_sosiki/gyoukan/kanri/portal/index.html
+https://www.soumu.go.jp/sns/index.html
+https://x.com/MIC_JAPAN
+https://www.facebook.com/MICJAPAN.gov
+https://www.instagram.com/mic_koho/
+https://www.youtube.com/user/soumuchannel
+https://soumu-gov.note.jp/
+https://www.soumu.go.jp/menu_kyotsuu/link.html
+https://www.fdma.go.jp/
+https://www.stat.go.jp/
+https://www.e-stat.go.jp/
+/menu_kyotsuu/sitemap.html
+/menu_kyotsuu/policy/policy.html
+/menu_kyotsuu/policy/tyosaku.html
+/menu_sosiki/annai/map-1.html
+/menu_kyotsuu/policy/shuwa-link.html

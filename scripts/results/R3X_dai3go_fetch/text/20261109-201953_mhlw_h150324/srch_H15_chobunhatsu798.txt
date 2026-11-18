@@ -1,0 +1,31 @@
+# source=https://www.mhlw.go.jp/web/t_itemsrch_result?type=1&startGengo=4&yearFrom=15&monthFrom=1&dayFrom=1&endGengo=4&yearTo=15&monthTo=12&dayTo=31&shubetsu=%E5%BA%81%E6%96%87%E7%99%BA&bango=798
+# fetched_at=20261109-201953
+# charset=UTF-8
+
+結果一覧
+
+検索結果
+
+該当件数: 0件中 0件~ 0件
+
+[form action='t_itemsrch_result' method=None]
+
+		[select name='sort' type=None value=None]
+			並べ替え順序選択
+			制定年月日 新しい順
+			制定年月日 古い順
+			改正年月日 新しい順
+			改正年月日 古い順
+
+		[input name='startGengo' type='hidden' value='4']
+		[input name='endGengo' type='hidden' value='4']
+		[input name='yearFrom' type='hidden' value='15']
+		[input name='yearTo' type='hidden' value='15']
+		[input name='monthFrom' type='hidden' value='1']
+		[input name='monthTo' type='hidden' value='12']
+		[input name='dayFrom' type='hidden' value='1']
+		[input name='dayTo' type='hidden' value='31']
+		[input name='shubetsu' type='hidden' value='庁文発']
+		[input name='bango' type='hidden' value='798']
+		[input name='page' type='hidden' value='0']
+		[input name='type' type='hidden' value='1']

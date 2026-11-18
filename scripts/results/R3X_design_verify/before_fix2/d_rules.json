@@ -1,0 +1,18 @@
+{
+ "docs/hypotheses/20261109_round3_design-vocabulary.md": {
+  "urls": [],
+  "aliases_not_measurement_or_public": {},
+  "evidence_cells_with_hypotheses": []
+ },
+ "docs/hypotheses/20261109_round3_design-output.md": {
+  "urls": [],
+  "aliases_not_measurement_or_public": {},
+  "evidence_cells_with_hypotheses": [
+   [
+    245,
+    "根拠（公開資料・実測）",
+    "（D12。関係する仮説 `round2_gaps-hypotheses` HG6）"
+   ]
+  ]
+ }
+}

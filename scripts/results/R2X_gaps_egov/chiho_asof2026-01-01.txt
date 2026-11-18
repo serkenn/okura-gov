@@ -1,0 +1,5 @@
+# chiho 325AC0000000226 asof=2026-01-01
+# 法令名=地方税法 law_revision_id=325AC0000000226_20260101_507AC0000000041 改正法令=令和七年法律第四十一号 施行日=2026-01-01 状態=PreviousEnforced
+# 取得URL=https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=json&asof=2026-01-01
+# 取得日時=20261109-174524
+# 生データ SHA-256=ba0a40e550be7762907faf5f82a17a14ed9c9e6fd21060f5fc7765e1c1321779

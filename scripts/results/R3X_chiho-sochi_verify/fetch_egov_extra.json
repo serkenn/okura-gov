@@ -1,0 +1,20 @@
+{
+ "run_at": "20261111-023655",
+ "download_dir": ".work/downloads/20261111-023655_R3X_chiho-sochi_verify_egov-extra",
+ "fetches": [
+  {
+   "short": "shotoku",
+   "law_id": "340AC0000000033",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=json&asof=2026-11-09",
+   "status": 200,
+   "file": "340AC0000000033_2026-11-09.json",
+   "sha256": "94c4a7ad83726cde60787967ed4e959585ad0af9279d25db9aa02264b3fe606b",
+   "bytes": 16405085,
+   "law_title": "所得税法",
+   "law_revision_id": "340AC0000000033_20261001_507AC0000000070",
+   "amendment_law_num": "令和七年法律第七十号",
+   "current_revision_status": "CurrentEnforced"
+  }
+ ]
+}

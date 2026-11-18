@@ -1,0 +1,76 @@
+{
+ "set": "pdf",
+ "fetched_at": "20261112-100614",
+ "download_dir": ".work/downloads/20261112-100614_IMPL6_tanaoroshi_web_fetch_pdf",
+ "robots": [
+  {
+   "host": "https://www.nta.go.jp",
+   "status": 200,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+  }
+ ],
+ "items": [
+  {
+   "id": "tebiki_003_sonshitsu",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/003.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/003.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:42 GMT",
+   "bytes": 1485553,
+   "sha256": "e3a89abd687f659d190e7ae2da9e4554b5b9f52158903345b699c852717c1226",
+   "saved": ".work/downloads/20261112-100614_IMPL6_tanaoroshi_web_fetch_pdf/tebiki_003_sonshitsu.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "tebiki_002_guess",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/002.pdf",
+   "final_url": "https://www.nta.go.jp/error/404.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:39:47 GMT",
+   "bytes": 2007,
+   "sha256": "700138cae1f347c2be03b380ba74007e704ceb81fe2a62d547e3559d4b851d55",
+   "saved": ".work/downloads/20261112-100614_IMPL6_tanaoroshi_web_fetch_pdf/tebiki_002_guess.pdf",
+   "pdf_header_ok": false
+  },
+  {
+   "id": "kakikata_037_aoiro",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/037.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/037.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:40 GMT",
+   "bytes": 2576092,
+   "sha256": "77c8ad203bbd04efcacf42c4c8c95a6a098b80784e51df66347812948b578900",
+   "saved": ".work/downloads/20261112-100614_IMPL6_tanaoroshi_web_fetch_pdf/kakikata_037_aoiro.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "kakikata_034_shushi",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/034.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/034.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:41 GMT",
+   "bytes": 1527542,
+   "sha256": "5ac5dabb0eff09479009347c825edffbed28ec5d9a746afd8fc14fcc65a15aba",
+   "saved": ".work/downloads/20261112-100614_IMPL6_tanaoroshi_web_fetch_pdf/kakikata_034_shushi.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "kabushiki_index",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/kisairei/kabushiki/index.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/kisairei/kabushiki/index.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 27 Mar 2026 05:55:07 GMT",
+   "bytes": 13974,
+   "sha256": "d97d9288336ef59550d6ace8d96124f54875ae2b99377ddbfcf067504af8c7da",
+   "saved": ".work/downloads/20261112-100614_IMPL6_tanaoroshi_web_fetch_pdf/kabushiki_index.htm",
+   "title": "令和7年分株式等の譲渡所得等の申告のしかた｜国税庁",
+   "not_found": false,
+   "encoding": "shift_jis"
+  }
+ ]
+}

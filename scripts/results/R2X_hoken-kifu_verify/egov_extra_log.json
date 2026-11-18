@@ -1,0 +1,88 @@
+{
+ "run_at": "20261109-184028",
+ "download_dir": ".work/downloads/20261109-184028_R2X_hoken-kifu_verify_egov_extra",
+ "requests": [
+  {
+   "name": "sochirei",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/332CO0000000043?response_format=json&asof=2026-11-09",
+   "status": 200,
+   "sha256": "d0ad21a838fd3d2a3b107a001b91a31ee00c267dc776bcd608b0ef018cf5494d",
+   "law_title": "租税特別措置法施行令",
+   "law_revision_id": "332CO0000000043_20261101_507CO0000000127",
+   "current_revision_status": "CurrentEnforced",
+   "hits_41_15_5": []
+  },
+  {
+   "name": "sochiki",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/332M50000040015?response_format=json&asof=2026-11-09",
+   "status": 200,
+   "sha256": "2e5d3e585b99e15ffb030c8b6fa0dcc6ccf7cc9532924fa5b6438a68cc05767c",
+   "law_title": "租税特別措置法施行規則",
+   "law_revision_id": "332M50000040015_20261101_507M60000040026",
+   "current_revision_status": "CurrentEnforced",
+   "hits_41_15_5": [
+    {
+     "part": "M",
+     "amend": "",
+     "art": "19_10",
+     "para": "1",
+     "item": "",
+     "cap": "（年齢二十三歳未満の扶養親族を有する場合の生命保険料控除の特例）",
+     "text": "法第四十一条の十五の五第三項の規定により読み替えて適用される所得税法第百九十六条第一項に規定するその他の財務省令で定める事項は、次に掲げる事項とする。"
+    },
+    {
+     "part": "M",
+     "amend": "",
+     "art": "19_10",
+     "para": "1",
+     "item": "1",
+     "cap": "（年齢二十三歳未満の扶養親族を有する場合の生命保険料控除の特例）",
+     "text": "法第四十一条の十五の五第一項に規定する扶養親族の氏名、生年月日、住所（国内に住所がない場合には、居所。以下この号において同じ。）、個人番号及び所得税法第百九十六条第三項に規定する給与所得者の保険料控除申告書を提出する同条第一項の居住者（以下この号において「申告者」という。）との続柄（個人番号を有しない者にあつては、氏名、生年月日、住所及び当該申告者との続柄）並びにその同法第二条第一項第三十号に規定する合計所得金額又はその見積額"
+    }
+   ]
+  },
+  {
+   "name": "koeki_revisions",
+   "url": "https://laws.e-gov.go.jp/api/2/law_revisions/506AC0000000030?response_format=json",
+   "status": 200,
+   "sha256": "6ee67fe8db8e557f0639fc52ab42de5016a43f932243705b3561c1deea043dae",
+   "law_info": {
+    "law_type": "Act",
+    "law_id": "506AC0000000030",
+    "law_num": "令和六年法律第三十号",
+    "law_num_era": "Reiwa",
+    "law_num_year": 6,
+    "law_num_type": "Act",
+    "law_num_num": "030",
+    "promulgation_date": "2024-05-22"
+   },
+   "revisions": [
+    {
+     "law_revision_id": "506AC0000000030_20260401_000000000000000",
+     "law_title": "公益信託に関する法律",
+     "amendment_law_num": null,
+     "amendment_law_title": null,
+     "amendment_promulgate_date": "2024-05-22",
+     "amendment_enforcement_date": "2026-04-01",
+     "current_revision_status": "CurrentEnforced"
+    },
+    {
+     "law_revision_id": "506AC0000000030_20240522_000000000000000",
+     "law_title": "公益信託に関する法律",
+     "amendment_law_num": null,
+     "amendment_law_title": null,
+     "amendment_promulgate_date": "2024-05-22",
+     "amendment_enforcement_date": "2024-05-22",
+     "current_revision_status": "PreviousEnforced"
+    }
+   ]
+  },
+  {
+   "name": "koeki_shikoki_search",
+   "url": "https://laws.e-gov.go.jp/api/2/laws?response_format=json&law_title=%E5%85%AC%E7%9B%8A%E4%BF%A1%E8%A8%97%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E6%B3%95%E5%BE%8B%E3%81%AE%E6%96%BD%E8%A1%8C%E6%9C%9F%E6%97%A5",
+   "status": 200,
+   "sha256": "7937bc6628279dec4daaf5fd6ac5c79fac87bb3b300018521d91636961b56d57",
+   "laws": []
+  }
+ ]
+}

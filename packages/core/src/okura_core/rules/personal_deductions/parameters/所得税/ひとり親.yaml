@@ -1,0 +1,37 @@
+description: ひとり親（所得税法第2条第1項第31号、所得税法施行令第11条の2第2項）の要件のうち、法令の値で決まるもの。
+合計所得金額の上限:
+  description: ひとり親の合計所得金額の上限（この額以下）
+  metadata:
+    law: 所得税法第2条第1項第31号ロ
+    source_kind: 法律
+    unit: 円
+    比較: 以下
+    reference:
+      - docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md#1.1
+      - docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md#1.4
+  values:
+    2025-01-01:
+      value: 5000000
+      metadata:
+        適用: 令和7年分・令和8年分（asof 2027-01-01 まで同じ文言：jinteki §1.4）
+子の総所得金額等の上限:
+  description: ひとり親の子（政令で定める子）の総所得金額・退職所得金額・山林所得金額の合計額の上限（この額以下）
+  metadata:
+    law: 所得税法施行令第11条の2第2項
+    source_kind: 政令
+    unit: 円
+    比較: 以下
+    reference:
+      - docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md#1.4
+      - docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md#4.3
+  values:
+    2025-01-01:
+      value: 580000
+      metadata:
+        施行日: 2025-12-01
+        適用: 令和7年分以後（令和7年政令第120号附則第2条第1項）。施行は附則第1条第1号イ
+    2026-01-01:
+      value: 620000
+      metadata:
+        施行日: 2026-12-01
+        適用: 令和8年分以後（令和8年政令第93号附則第2条第1項）。施行は附則第1条第1号

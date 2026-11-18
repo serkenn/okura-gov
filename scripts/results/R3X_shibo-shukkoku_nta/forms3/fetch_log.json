@@ -1,0 +1,18 @@
+{
+ "set": "forms3",
+ "fetched_at": "20261109-211539",
+ "download_dir": ".work/downloads/20261109-211539_R3X_shibo-shukkoku_nta_forms3",
+ "items": [
+  {
+   "id": "fuhyo_kisaiyoryo",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/fuhyo/f01.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:57 GMT",
+   "bytes": 2421938,
+   "sha256": "f742bc6599532467c4cf89cb43f1002ba1427c0368e075471af3133e7050a8e7",
+   "saved": ".work/downloads/20261109-211539_R3X_shibo-shukkoku_nta_forms3/fuhyo_kisaiyoryo.pdf",
+   "pdf_header_ok": true
+  }
+ ]
+}

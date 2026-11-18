@@ -1,0 +1,134 @@
+{
+ "run_at": "20261109-150415",
+ "download_dir": ".work\\downloads\\20261109-150415_IMPL_juminzei_municipal",
+ "robots": {
+  "https://www.soumu.go.jp": {
+   "status": 200
+  },
+  "https://www.city.kashiwa.lg.jp": {
+   "status": 404
+  }
+ },
+ "fetches": [
+  {
+   "name": "soumu_ichiran04",
+   "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran04.html",
+   "why": "総務省：税制改正（地方税）の一覧。取扱通知の PDF へのリンク元",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "final_url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran04.html",
+   "bytes": 186095,
+   "sha256": "ab72810a39d3c3a81a81448619edf8027cb21d4419c187bb8769df35cfd240ce",
+   "saved": ".work\\downloads\\20261109-150415_IMPL_juminzei_municipal\\soumu_ichiran04.html",
+   "fetched_at": "2026-11-09T15:04:19",
+   "title": "総務省｜地方税制度｜税制改正（地方税）",
+   "encoding": "Shift_JIS",
+   "text": "scripts/results/IMPL_juminzei_municipal/soumu_ichiran04.txt"
+  },
+  {
+   "name": "soumu_tsuchi_r8_honbun",
+   "url": "https://www.soumu.go.jp/main_content/001067041.pdf",
+   "why": "取扱通知（市町村税関係）の一部改正について（総税市第25号）本文",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "application/pdf",
+   "final_url": "https://www.soumu.go.jp/main_content/001067041.pdf",
+   "bytes": 66769,
+   "sha256": "357f9d5c385b928e13583cd1c5acea1f7bb53b5b572d4967a22e519441d77cd4",
+   "saved": ".work\\downloads\\20261109-150415_IMPL_juminzei_municipal\\soumu_tsuchi_r8_honbun.pdf",
+   "fetched_at": "2026-11-09T15:04:21"
+  },
+  {
+   "name": "soumu_tsuchi_r8_betten1",
+   "url": "https://www.soumu.go.jp/main_content/001067044.pdf",
+   "why": "同 別添(1)",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "application/pdf",
+   "final_url": "https://www.soumu.go.jp/main_content/001067044.pdf",
+   "bytes": 360184,
+   "sha256": "d93f2fac00893cf6d3df79cb17fcef0eaab4c85ad8402df4bdc9d557fdade70b",
+   "saved": ".work\\downloads\\20261109-150415_IMPL_juminzei_municipal\\soumu_tsuchi_r8_betten1.pdf",
+   "fetched_at": "2026-11-09T15:04:23"
+  },
+  {
+   "name": "soumu_tsuchi_r8_betten2",
+   "url": "https://www.soumu.go.jp/main_content/001067045.pdf",
+   "why": "同 別添(2)",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "application/pdf",
+   "final_url": "https://www.soumu.go.jp/main_content/001067045.pdf",
+   "bytes": 108568,
+   "sha256": "435833b0d170e738ae91c82ef26c24ed90d1de2d5b001a8f8addc23c37243fe4",
+   "saved": ".work\\downloads\\20261109-150415_IMPL_juminzei_municipal\\soumu_tsuchi_r8_betten2.pdf",
+   "fetched_at": "2026-11-09T15:04:25"
+  },
+  {
+   "name": "soumu_tsuchi_r8_betten3",
+   "url": "https://www.soumu.go.jp/main_content/001067046.pdf",
+   "why": "同 別添(3)",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "application/pdf",
+   "final_url": "https://www.soumu.go.jp/main_content/001067046.pdf",
+   "bytes": 108651,
+   "sha256": "815203e8c8d49d617876613e4d00a9a6293b10c99c22f948eedb6afce6b05840",
+   "saved": ".work\\downloads\\20261109-150415_IMPL_juminzei_municipal\\soumu_tsuchi_r8_betten3.pdf",
+   "fetched_at": "2026-11-09T15:04:27"
+  },
+  {
+   "name": "soumu_tsuchi_r8_shinkyu",
+   "url": "https://www.soumu.go.jp/main_content/001071661.pdf",
+   "why": "同 新旧対照表（令和8年）",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "application/pdf",
+   "final_url": "https://www.soumu.go.jp/main_content/001071661.pdf",
+   "bytes": 792394,
+   "sha256": "107ba94cd6bd4b5e8db4ce3ce6e6e5e475fea94523d52f565daf396011746a02",
+   "saved": ".work\\downloads\\20261109-150415_IMPL_juminzei_municipal\\soumu_tsuchi_r8_shinkyu.pdf",
+   "fetched_at": "2026-11-09T15:04:30"
+  },
+  {
+   "name": "soumu_tsuchi_r7_zenbun",
+   "url": "https://www.soumu.go.jp/main_content/001007020.pdf",
+   "why": "取扱通知（市町村税関係）令和7年の一部改正（総税市第23号）の新旧対照表または改正後全文",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "application/pdf",
+   "final_url": "https://www.soumu.go.jp/main_content/001007020.pdf",
+   "bytes": 698311,
+   "sha256": "e1d94493ebf7706d7dc10a00d17eae73c30a8f94b3ba8148e48449ad4a5482c2",
+   "saved": ".work\\downloads\\20261109-150415_IMPL_juminzei_municipal\\soumu_tsuchi_r7_zenbun.pdf",
+   "fetched_at": "2026-11-09T15:04:32"
+  },
+  {
+   "name": "kashiwa_r8hikazei",
+   "url": "https://www.city.kashiwa.lg.jp/shiminzei/kojinshiminzei/r8hikazei.html",
+   "why": "柏市（2級地）：令和8年度以降の非課税の基準",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "final_url": "https://www.city.kashiwa.lg.jp/shiminzei/kojinshiminzei/r8hikazei.html",
+   "bytes": 23565,
+   "sha256": "8c35bf722ef22ba43450441af42f59cbdbbc01a35e311131be24e3a7c2eb0440",
+   "saved": ".work\\downloads\\20261109-150415_IMPL_juminzei_municipal\\kashiwa_r8hikazei.html",
+   "fetched_at": "2026-11-09T15:04:39",
+   "title": "令和8年度以降、個人住民税がかからないかた（非課税） | 柏市",
+   "encoding": "UTF-8",
+   "text": "scripts/results/IMPL_juminzei_municipal/kashiwa_r8hikazei.txt"
+  }
+ ],
+ "only": [
+  "kashiwa_r8hikazei",
+  "soumu_ichiran04",
+  "soumu_tsuchi_r7_zenbun",
+  "soumu_tsuchi_r8_betten1",
+  "soumu_tsuchi_r8_betten2",
+  "soumu_tsuchi_r8_betten3",
+  "soumu_tsuchi_r8_honbun",
+  "soumu_tsuchi_r8_shinkyu"
+ ]
+}

@@ -1,0 +1,16 @@
+; 勘定の開設（勘定科目名に法的な意味を持たせない。D3・D11）
+2026-01-01 open Assets:Bank:A JPY
+2026-01-01 open Assets:Bank:B JPY
+2026-01-01 open Assets:Cash JPY
+2026-01-01 open Assets:Receivable:A JPY
+2026-01-01 open Liabilities:Card:A JPY
+2026-01-01 open Income:Salary:A JPY
+2026-01-01 open Income:Business:B JPY
+2026-01-01 open Income:Dividend:A JPY
+2026-01-01 open Expenses:Tax:Withholding JPY
+2026-01-01 open Expenses:SocialInsurance JPY
+2026-01-01 open Expenses:Insurance JPY
+2026-01-01 open Expenses:Medical JPY
+2026-01-01 open Expenses:Utilities JPY
+2026-01-01 open Expenses:Donation JPY
+2026-01-01 open Expenses:Family:Allowance JPY

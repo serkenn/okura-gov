@@ -1,0 +1,71 @@
+{
+  "set": "forms",
+  "fetched_at_local": "20261109-145902",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "annai_1557_2",
+      "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/1557_2.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/1557_2.htm",
+      "content_type": "text/html",
+      "bytes": 110760,
+      "sha256": "cf201c944bcb03d939ab1cff01e1deb9041208888249121c7cfb8b2faa93ecb3",
+      "last_modified": "Mon, 31 Aug 2026 05:00:02 GMT",
+      "saved": ".work/downloads/20261109-145902_IMPL_iryohi_forms/annai_1557_2.html",
+      "charset": "cp932",
+      "title": "A1-1 申告書・申告書付表と税額計算書等 一覧（申告所得税）｜国税庁",
+      "text_chars": 39322,
+      "text": ".work/text/20261109-145902_IMPL_iryohi_forms/annai_1557_2.txt",
+      "n_links": 432
+    },
+    {
+      "id": "kakutei_koujyo",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei/koujyo.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei/koujyo.htm",
+      "content_type": "text/html",
+      "bytes": 11210,
+      "sha256": "51a248fe7c08107ba80af8f590fc240e94db081508ae4f5dfa7feb4e77150c9a",
+      "last_modified": "Tue, 10 Feb 2026 01:00:01 GMT",
+      "saved": ".work/downloads/20261109-145902_IMPL_iryohi_forms/kakutei_koujyo.html",
+      "charset": "shift_jis",
+      "title": "控除証明書等の電子的交付について｜国税庁",
+      "text_chars": 2397,
+      "text": ".work/text/20261109-145902_IMPL_iryohi_forms/kakutei_koujyo.txt",
+      "n_links": 50
+    },
+    {
+      "id": "iryou_shuukei",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/iryou-shuukei.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/iryou-shuukei.htm",
+      "content_type": "text/html",
+      "bytes": 32516,
+      "sha256": "29ca9dc2fa850b5f9f75df40b89cfe7eca8ec79c20fc2d2cd6186ab86a0758c0",
+      "last_modified": "Tue, 17 Mar 2026 01:00:12 GMT",
+      "saved": ".work/downloads/20261109-145902_IMPL_iryohi_forms/iryou_shuukei.html",
+      "charset": "UTF-8",
+      "title": "医療費集計フォームのダウンロード｜令和7年分 確定申告特集",
+      "text_chars": 6381,
+      "text": ".work/text/20261109-145902_IMPL_iryohi_forms/iryou_shuukei.txt",
+      "n_links": 75
+    },
+    {
+      "id": "kakushin_yoshiki",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/kakushin-sakusei/yoshiki.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/kakushin-sakusei/yoshiki.htm",
+      "content_type": "text/html",
+      "bytes": 29937,
+      "sha256": "dc19d53eddcc00574545be2eb7a5e00f6c6e6142744e20f990f7ef0e6cbd6cd7",
+      "last_modified": "Tue, 17 Mar 2026 01:00:12 GMT",
+      "saved": ".work/downloads/20261109-145902_IMPL_iryohi_forms/kakushin_yoshiki.html",
+      "charset": "UTF-8",
+      "title": "作成コーナーの操作要領等｜令和7年分 確定申告特集",
+      "text_chars": 4483,
+      "text": ".work/text/20261109-145902_IMPL_iryohi_forms/kakushin_yoshiki.txt",
+      "n_links": 81
+    }
+  ]
+}

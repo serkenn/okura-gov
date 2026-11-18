@@ -1,0 +1,38 @@
+{
+ "set": "etax",
+ "fetched_at": "20261112-165136",
+ "download_dir": ".work/downloads/20261112-165136_IMPL9_tokutei-jumin_web_etax",
+ "robots": [
+  {
+   "host": "https://www.e-tax.nta.go.jp",
+   "status": 404,
+   "sha256": "5f7262ac5fe116c65502744103974ec7fc706043b73b67d21a209bd532c6d6f9"
+  }
+ ],
+ "items": [
+  {
+   "id": "shiyo_index",
+   "url": "https://www.e-tax.nta.go.jp/shiyo/index.htm",
+   "final_url": "https://www.e-tax.nta.go.jp/shiyo/index.html",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 99259,
+   "sha256": "d442020219b6fcd188e78729567d737b000670582d1dfb88cbfa72baa0dfe116",
+   "saved": ".work/downloads/20261112-165136_IMPL9_tokutei-jumin_web_etax/shiyo_index.htm",
+   "title": "ソフトウェア開発業者の方へ | 【e-Tax】国税電子申告・納税システム(イータックス)",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "shiyo3",
+   "url": "https://www.e-tax.nta.go.jp/shiyo/shiyo3.htm",
+   "final_url": "https://www.e-tax.nta.go.jp/shiyo/shiyo3.htm",
+   "status": 404,
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 4628,
+   "sha256": "5f7262ac5fe116c65502744103974ec7fc706043b73b67d21a209bd532c6d6f9",
+   "saved": ".work/downloads/20261112-165136_IMPL9_tokutei-jumin_web_etax/shiyo3.htm"
+  }
+ ]
+}

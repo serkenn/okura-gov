@@ -1,0 +1,22 @@
+description: 事業主の証明による一時的な収入増の扱い（年収の壁・支援強化パッケージ。令和7年10月1日 保保発1001第1号で恒久化）。
+連続の回数の上限:
+  description: 同一の者について事業主の証明を使える連続の回数（以下）
+  metadata:
+    law: 令和5年10月20日 保保発1020第3号（同年12月25日一部改正）の Q&A、令和7年10月1日 保保発1001第1号
+    source_kind: 通知・事務連絡
+    unit: 回
+    reference:
+      - docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md#1.5
+      - docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md#1.2
+  values:
+    2025-01-01: {value: 2, metadata: {比較: 以下}}
+数える証明の始まり:
+  description: 数える事業主の証明の日の始まり（措置の詳細を示した令和5年10月20日以降の認定・確認に適用：JQA-M A1-4）
+  metadata:
+    law: 事業主の証明に依る被扶養者認定に関するQ&A（令和5年12月25日更新）A1-4
+    source_kind: 通知・事務連絡
+    unit: 日付
+    reference:
+      - docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md#0
+  values:
+    2025-01-01: {value: "2023-10-20"}

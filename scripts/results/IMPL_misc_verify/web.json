@@ -1,0 +1,837 @@
+{
+ "run_at": "20261109-155946",
+ "html_dir": ".work\\downloads\\20261109-155946_IMPL_misc_verify_html",
+ "pdf_dir": ".work\\downloads\\20261109-155946_IMPL_misc_verify_pdf",
+ "pages": {
+  "ta_1180": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180.htm",
+   "status": 200,
+   "bytes": 23283,
+   "sha256": "c92803d8c75aa5c7971b19a0803e0cf1279d272ed7d9c71d4595c94e11d1771a",
+   "last_modified": "Wed, 09 Sep 2026 01:00:15 GMT",
+   "title": "No.1180 扶養控除｜国税庁",
+   "is_error_page": false,
+   "date_marks": [
+    "[令和8年4月1日現在法令等]"
+   ],
+   "text_head": " No.1180 扶養控除｜国税庁 ホーム 税の情報・手続・用紙 税について調べる タックスアンサー（よくある税の質問） No.1180 扶養控除 No.1180 扶養控除 [令和8年4月1日現在法令等] 対象税目 所得税 概要 納税者に所得税法上の控除対象扶養親族となる人がいる場合には、一定の金額の所得控除が受けられます。これを扶養控除といいます。 扶養控除の金額 控除額は、扶養親族の年齢、同居"
+  },
+  "ta_1180_qa": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180_qa.htm",
+   "status": 200,
+   "bytes": 22492,
+   "sha256": "02839cb155836ab2ed4396d6a72522f96c098999ff8c62a6d99c5e8a7143f9fd",
+   "last_modified": "Wed, 09 Sep 2026 01:00:15 GMT",
+   "title": "No.1180 扶養控除｜国税庁",
+   "is_error_page": false,
+   "date_marks": [
+    "[令和8年4月1日現在法令等]"
+   ],
+   "text_head": " No.1180 扶養控除｜国税庁 ホーム 税の情報・手続・用紙 税について調べる タックスアンサー（よくある税の質問） No.1180 扶養控除 No.1180 扶養控除 [令和8年4月1日現在法令等] 「生計を一にする」の意義 Q1 「生計を一にする」というためには同居が要件とされますか。 A1 「生計を一にする」とは、必ずしも同居を要件とするものではありません。例えば、勤務、修学、療養等の都"
+  },
+  "ta_1177": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1177.htm",
+   "status": 200,
+   "bytes": 19476,
+   "sha256": "f75c20fcbf5ef8fb52946c9ee8a43812fde662367644324462a5f0a74c9ca32a",
+   "last_modified": "Wed, 09 Sep 2026 01:00:15 GMT",
+   "title": "No.1177 特定親族特別控除｜国税庁",
+   "is_error_page": false,
+   "date_marks": [
+    "[令和8年4月1日現在法令等]"
+   ],
+   "text_head": " No.1177 特定親族特別控除｜国税庁 ホーム 税の情報・手続・用紙 税について調べる タックスアンサー（よくある税の質問） No.1177 特定親族特別控除 No.1177 特定親族特別控除 [令和8年4月1日現在法令等] 対象税目 所得税 概要 納税者に、生計を一にする年齢19歳以上23歳未満の親族等で、合計所得金額が一定金額以下の控除対象扶養親族に該当しない者（以下「特定親族」といいます"
+  },
+  "ta_1900": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm",
+   "status": 200,
+   "bytes": 17785,
+   "sha256": "68ad70cadf7276e27ac84c26ff4b56e5af0d96513581465d89f2601bd6567ee5",
+   "last_modified": "Wed, 09 Sep 2026 01:00:07 GMT",
+   "title": "No.1900 給与所得者で確定申告が必要な人｜国税庁",
+   "is_error_page": false,
+   "date_marks": [
+    "[令和8年4月1日現在法令等]"
+   ],
+   "text_head": " No.1900 給与所得者で確定申告が必要な人｜国税庁 ホーム 税の情報・手続・用紙 税について調べる タックスアンサー（よくある税の質問） No.1900 給与所得者で確定申告が必要な人 No.1900 給与所得者で確定申告が必要な人 [令和8年4月1日現在法令等] 対象税目 所得税 概要 大部分の給与所得者の方は、給与の支払者が行う年末調整によって所得税額が確定し、納税も完了しますから、確定"
+  },
+  "ta_2511": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2511.htm",
+   "status": 200,
+   "bytes": 19026,
+   "sha256": "55ead732325f901653ac38b8bd1858856bfdad5e91861dabeaba3613e73873a5",
+   "last_modified": "Thu, 10 Sep 2026 01:00:10 GMT",
+   "title": "No.2511 税額表の種類と使い方｜国税庁",
+   "is_error_page": false,
+   "date_marks": [
+    "[令和8年4月1日現在法令等]"
+   ],
+   "text_head": " No.2511 税額表の種類と使い方｜国税庁 ホーム 税の情報・手続・用紙 税について調べる タックスアンサー（よくある税の質問） No.2511 税額表の種類と使い方 No.2511 税額表の種類と使い方 [令和8年4月1日現在法令等] 対象税目 源泉所得税 概要 給与等を支払うときに源泉徴収をする所得税および復興特別所得税（令和9年分以後は所得税、防衛特別所得税および復興特別所得税）の額は、"
+  },
+  "ta_2514": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2514.htm",
+   "status": 200,
+   "bytes": 14141,
+   "sha256": "3cacee7456baa1a7e79a3bcc09200f3a36c355e46a0d011bd135073cafc775b2",
+   "last_modified": "Thu, 10 Sep 2026 01:00:09 GMT",
+   "title": "No.2514 パートやアルバイトの源泉徴収｜国税庁",
+   "is_error_page": false,
+   "date_marks": [
+    "[令和8年4月1日現在法令等]"
+   ],
+   "text_head": " No.2514 パートやアルバイトの源泉徴収｜国税庁 ホーム 税の情報・手続・用紙 税について調べる タックスアンサー（よくある税の質問） No.2514 パートやアルバイトの源泉徴収 No.2514 パートやアルバイトの源泉徴収 [令和8年4月1日現在法令等] 対象税目 源泉所得税 概要 通常、パートやアルバイトに、給与を支払う際に源泉徴収する税額は、一般の社員と同様に「給与所得者の扶養控除等"
+  },
+  "ta_2520": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2520.htm",
+   "status": 200,
+   "bytes": 16511,
+   "sha256": "ca76da2d36442be0c10ea9832c7b793171a6d935d48bb9c4b52a14facd7103f8",
+   "last_modified": "Thu, 10 Sep 2026 01:00:09 GMT",
+   "title": "No.2520 2か所以上から給与をもらっている人の源泉徴収｜国税庁",
+   "is_error_page": false,
+   "date_marks": [
+    "[令和8年4月1日現在法令等]"
+   ],
+   "text_head": " No.2520 2か所以上から給与をもらっている人の源泉徴収｜国税庁 ホーム 税の情報・手続・用紙 税について調べる タックスアンサー（よくある税の質問） No.2520 2か所以上から給与をもらっている人の源泉徴収 No.2520 2か所以上から給与をもらっている人の源泉徴収 [令和8年4月1日現在法令等] 対象税目 源泉所得税 概要 2か所以上の給与の支払者から給与をもらっている人の給与に対"
+  },
+  "yogo_senmon": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/yogo/senmon.htm",
+   "status": 200,
+   "bytes": 21839,
+   "sha256": "e0d5142e9eabe61f557703bacafbb7baf2af7eb63cf01bfcd0ebae32a6fb8e74",
+   "last_modified": "Wed, 16 Sep 2026 05:00:01 GMT",
+   "title": "専門用語集｜国税庁",
+   "is_error_page": false,
+   "date_marks": [],
+   "text_head": " 専門用語集｜国税庁 ホーム 税の情報・手続・用紙 税について調べる タックスアンサー（よくある税の質問） 専門用語集 専門用語集 この専門用語集では、タックスアンサー（よくある質問）で使用されている用語を説明しています。 令和8年4月1日現在法令等 用語一覧 総所得金額等 合計所得金額 同一生計配偶者 控除対象配偶者 老人控除対象配偶者 源泉控除対象配偶者 扶養親族 控除対象扶養親族 特定扶養親"
+  },
+  "sg_s0564": {
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/05/64.htm",
+   "status": 200,
+   "bytes": 4567,
+   "sha256": "acefc1183804bb5a00617a1ddcca0524c9682f93cdfb8cee32d5c408a0d03bc1",
+   "last_modified": "Wed, 03 Dec 2025 08:31:01 GMT",
+   "title": "死亡した配偶者の父母に係る扶養控除｜国税庁",
+   "is_error_page": false,
+   "date_marks": [
+    "令和7年8月1日現在の法令・通達等"
+   ],
+   "text_head": " 死亡した配偶者の父母に係る扶養控除｜国税庁 ホーム 法令等 質疑応答事例 所得税 死亡した配偶者の父母に係る扶養控除 死亡した配偶者の父母に係る扶養控除 【照会要旨】 老人扶養親族が配偶者の直系尊属で、かつ、納税者と同居している場合には、扶養控除額が10万円加算されますが(租税特別措置法第41条の16第1項)、この「配偶者の直系尊属」には死亡した配偶者の父母も含まれますか。 【回答要旨】 配偶者"
+  },
+  "sg_s0567": {
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/05/67.htm",
+   "status": 200,
+   "bytes": 5104,
+   "sha256": "aaa28b7e20889acfc62053327d1cec453b39340737560536ab67190916109cfa",
+   "last_modified": "Wed, 03 Dec 2025 08:31:01 GMT",
+   "title": "配偶者の子に係る扶養控除｜国税庁",
+   "is_error_page": false,
+   "date_marks": [
+    "令和7年8月1日現在の法令・通達等"
+   ],
+   "text_head": " 配偶者の子に係る扶養控除｜国税庁 ホーム 法令等 質疑応答事例 所得税 配偶者の子に係る扶養控除 配偶者の子に係る扶養控除 【照会要旨】 再婚した妻には前夫との間の子ども（16歳）がいます。再婚後、その子どもと一緒に生活しますが、私（夫）の扶養控除の対象になりますか。 なお、その子どもとの養子縁組はしていません。 【回答要旨】 養子縁組をしていない場合であっても、配偶者の子は1親等の姻族に該当し"
+  },
+  "sg_g0309": {
+   "url": "https://www.nta.go.jp/law/shitsugi/gensen/03/09.htm",
+   "status": 200,
+   "bytes": 5187,
+   "sha256": "90f8cca9bc805fba7074c88e267770a138cdf5e65984ee3c25269d49e187985f",
+   "last_modified": "Wed, 03 Dec 2025 08:31:16 GMT",
+   "title": "2以上の所得者がいる場合の扶養親族等の所属｜国税庁",
+   "is_error_page": false,
+   "date_marks": [
+    "令和7年8月1日現在の法令・通達等"
+   ],
+   "text_head": " 2以上の所得者がいる場合の扶養親族等の所属｜国税庁 ホーム 法令等 質疑応答事例 源泉所得税 2以上の所得者がいる場合の扶養親族等の所属 2以上の所得者がいる場合の扶養親族等の所属 【照会要旨】 A社の従業員Bは、いわゆる共働きで妻は別の会社に勤務しています。Bには長男と長女がおり、いずれも高校生ですが、長男はBの扶養親族とし、長女については妻の扶養親族とすることはできますか。 【回答要旨】 重"
+  },
+  "p1648": {
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/annai/1648_01.htm",
+   "status": 200,
+   "bytes": 15013,
+   "sha256": "578e964143bde65d7f4166708938f74ef18eb822013541d0038708d56779705d",
+   "last_modified": "Fri, 16 Oct 2026 08:30:06 GMT",
+   "title": "A2-1　給与所得者の扶養控除等の（異動）申告｜国税庁",
+   "is_error_page": false,
+   "date_marks": [],
+   "text_head": " A2-1 給与所得者の扶養控除等の（異動）申告｜国税庁 ホーム 税の情報・手続・用紙 申告手続・用紙 申告・申請・届出等、用紙（手続の案内・様式） 税務手続の案内（税目別一覧） A2 源泉所得税関係 A2-1 給与所得者の扶養控除等の（異動）申告 A2-1 給与所得者の扶養控除等の（異動）申告 ［概要］ 給与の支払を受ける人（給与所得者）が、その給与について扶養控除などの諸控除を受けるために行う"
+  },
+  "t25_y10": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y10.htm",
+   "status": 200,
+   "bytes": 7527,
+   "sha256": "af5d95c983b32ee0e6b80ec6896ba32b09fa549c1ae9716f0078ec4e1021b9a8",
+   "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+   "title": "◆特定扶養親族｜国税庁",
+   "is_error_page": false,
+   "date_marks": [],
+   "text_head": " ◆特定扶養親族｜国税庁 ホーム 税の情報・手続・用紙 税について調べる 所得税（確定申告書等作成コーナー） 特定扶養親族 特定扶養親族 控除対象扶養親族のうち、平成15年1月2日から平成19年1月1日までの間に生まれた方（年齢が19歳以上23歳未満の方） このページの先頭へ 税の情報・手続・用紙 税について調べるメニューを閉じる 所得税（確定申告書等作成コーナー） タックスアンサー（よくある税の"
+  },
+  "t25_y11": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y11.htm",
+   "status": 200,
+   "bytes": 7497,
+   "sha256": "b0ec5aceb7d6f7cec1fa00c64b95e45d624b5ee32d5ddd289d7e229dc2c88834",
+   "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+   "title": "◆老人扶養親族｜国税庁",
+   "is_error_page": false,
+   "date_marks": [],
+   "text_head": " ◆老人扶養親族｜国税庁 ホーム 税の情報・手続・用紙 税について調べる 所得税（確定申告書等作成コーナー） 老人扶養親族 老人扶養親族 控除対象扶養親族のうち、昭和31年1月1日以前に生まれた方（年齢が70歳以上の方） このページの先頭へ 税の情報・手続・用紙 税について調べるメニューを閉じる 所得税（確定申告書等作成コーナー） タックスアンサー（よくある税の質問） 税の相談 税目別情報 路線価"
+  },
+  "t25_y13": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y13.htm",
+   "status": 200,
+   "bytes": 8579,
+   "sha256": "83cc42e4c564066069119725c3001c6f58d822210e3602b3cdb2c6ffda05b773",
+   "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+   "title": "◆控除対象扶養親族｜国税庁",
+   "is_error_page": false,
+   "date_marks": [],
+   "text_head": " ◆控除対象扶養親族｜国税庁 ホーム 税の情報・手続・用紙 税について調べる 所得税（確定申告書等作成コーナー） 控除対象扶養親族 控除対象扶養親族 扶養親族のうち、平成22年1月1日以前に生まれた方（年齢が16歳以上の方） なお、扶養親族が国外居住親族である場合には、次のいずれかに該当する方に限り、控除対象扶養親族に該当します。 ● 平成８年１月２日から平成22年１月１日の間に生まれた方（年齢が"
+  },
+  "t26_y13": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2026/03/order3/yogo/3-3_y13.htm",
+   "status": 200,
+   "bytes": 2007,
+   "sha256": "700138cae1f347c2be03b380ba74007e704ceb81fe2a62d547e3559d4b851d55",
+   "last_modified": "Thu, 18 Jan 2024 09:39:47 GMT",
+   "title": "指定されたページを表示できませんでした",
+   "is_error_page": true,
+   "date_marks": [],
+   "text_head": " 指定されたページを表示できませんでした 指定されたページを表示できませんでした お探しのページは、移動または削除されたか、もしくはご指定のアドレス（URL）が誤っている可能性があります。 国税庁ホームページ内の情報をお探しの場合は、「サイト内検索」をご利用ください。 【国税庁ホームページ】 https://www.nta.go.jp/ 【サイトマップ】 https://www.nta.go.jp"
+  },
+  "hanrei_62674": {
+   "url": "https://www.courts.go.jp/hanrei/62674/detail2/index.html",
+   "status": 200,
+   "bytes": 55982,
+   "sha256": "d5f1d9fba2efa6a77d3aa3a6f0c1d845fe890ee6336e7d483ab73a7649f92683",
+   "last_modified": "Thu, 21 May 2026 11:54:22 GMT",
+   "title": "裁判例結果詳細 | 最高裁判所",
+   "is_error_page": false,
+   "date_marks": [],
+   "text_head": " 裁判例結果詳細 | 最高裁判所 裁判所 - Courts in Japan 本文へ 文字サイズの調整について お問い合わせ サイトマップ English サイト内検索 裁判所を利用する 裁判所を探す 裁判例を調べる 裁判員制度を調べる 採用情報 統計・資料 裁判所を知る 裁判所を利用するトップページ 手続を利用する 手続案内（トップページ） 申立て等で使う書類 後見ポータルサイト 手数料、申立書"
+  },
+  "kihon_16_06": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/06.htm",
+   "status": 200,
+   "bytes": 9685,
+   "sha256": "73c6009edd9c2ed350eab73aca71530dc58a45807da74a34539cd959f604f023",
+   "last_modified": "Tue, 25 Nov 2025 08:30:05 GMT",
+   "title": "法第79条《障害者控除》関係｜国税庁",
+   "is_error_page": false,
+   "date_marks": [],
+   "text_head": " 法第79条《障害者控除》関係｜国税庁 ホーム 法令等 法令解釈通達 法第79条《障害者控除》関係 法第79条《障害者控除》関係 （障害者控除を受ける場合の配偶者控除等） 79−1 障害者である同一生計配偶者又は扶養親族が居住者の控除対象配偶者に該当し、かつ、他の居住者の控除対象扶養親族に該当する場合又は2以上の居住者の控除対象扶養親族に該当する場合において、当該障害者である控除対象配偶者又は控除",
+   "mentions_219_2": [],
+   "excerpt_85": []
+  },
+  "t25_y09": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y09.htm",
+   "status": 200,
+   "bytes": 7966,
+   "sha256": "314268fc2b0358bc68ab27c5baab35defde53265e536d67b4b2707871732f82a",
+   "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+   "title": "◆扶養親族｜国税庁",
+   "is_error_page": false,
+   "date_marks": [],
+   "text_head": " ◆扶養親族｜国税庁 ホーム 税の情報・手続・用紙 税について調べる 所得税（確定申告書等作成コーナー） 扶養親族 扶養親族 令和７年12月31日（年の中途で死亡した場合には、その死亡の日）の現況において、次のいずれにも該当する方 ●配偶者以外の親族（6親等内の血族及び3親等内の姻族）、都道府県知事から養育を委託された児童（いわゆる里子）又は市町村長から養護を委託された老人である。 ●あなたと生計"
+  },
+  "nta_robots": {
+   "url": "https://www.nta.go.jp/robots.txt",
+   "status": 200,
+   "bytes": 853,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+   "last_modified": "Wed, 18 Mar 2026 05:00:01 GMT",
+   "title": "",
+   "is_error_page": false,
+   "date_marks": [],
+   "text_head": "Sitemap: http://www.nta.go.jp/sitemap.xml User-agent: * Disallow: /service_publication/ Disallow: /about/organization/sapporo/service_publication/ Disallow: /about/organization/sendai/service_publicat",
+   "disallow_for_star": [
+    "/service_publication/",
+    "/about/organization/sapporo/service_publication/",
+    "/about/organization/sendai/service_publication/",
+    "/about/organization/kantoshinetsu/service_publication/",
+    "/about/organization/tokyo/service_publication/",
+    "/about/organization/kanazawa/service_publication/",
+    "/about/organization/nagoya/service_publication/",
+    "/about/organization/osaka/service_publication/",
+    "/about/organization/hiroshima/service_publication/",
+    "/about/organization/takamatsu/service_publication/",
+    "/about/organization/fukuoka/service_publication/",
+    "/about/organization/kumamoto/service_publication/",
+    "/about/organization/okinawa/service_publication/"
+   ]
+  },
+  "courts_robots": {
+   "url": "https://www.courts.go.jp/robots.txt",
+   "status": 200,
+   "bytes": 3143,
+   "sha256": "65e5db57e9d0d461bef21147c647580a3ecd291db4964166d89fda162f7467ca",
+   "last_modified": "Tue, 27 Oct 2026 04:20:46 GMT",
+   "title": "",
+   "is_error_page": false,
+   "date_marks": [],
+   "text_head": "# www.courts.go.jp User-agent: * Disallow: /saikosai/tetuzuki/kozisotatu/index.html Disallow: /sapporo-h/saiban/kozisotatu/index.html Disallow: /sapporo/saiban/kozisotatu/index.html Disallow: /hakodat",
+   "disallow_for_star": [
+    "/saikosai/tetuzuki/kozisotatu/index.html",
+    "/sapporo-h/saiban/kozisotatu/index.html",
+    "/sapporo/saiban/kozisotatu/index.html",
+    "/hakodate/saiban/kozisotatu/index.html",
+    "/asahikawa/saiban/kozisotatu/index.html",
+    "/kushiro/saiban/kozisotatu/index.html",
+    "/sendai-h/saiban/kozisotatu/index.html",
+    "/sendai/saiban/kozisotatu/index.html",
+    "/fukushima/saiban/kozisotatu/index.html",
+    "/yamagata/saiban/kozisotatu/index.html",
+    "/morioka/saiban/kozisotatu/index.html",
+    "/akita/saiban/kozisotatu/index.html",
+    "/aomori/saiban/kozisotatu/index.html",
+    "/tokyo-h/saiban/kozisotatu/index.html",
+    "/tokyo/saiban/kozisotatu/index.html",
+    "/tokyo-f/saiban/kozisotatu/index.html",
+    "/tokyo-s/saiban/kozisotatu/index.html",
+    "/yokohama/saiban/kozisotatu/index.html",
+    "/saitama/saiban/kozisotatu/index.html",
+    "/chiba/saiban/kozisotatu/index.html",
+    "/mito/saiban/kozisotatu/index.html",
+    "/utsunomiya/saiban/kozisotatu/index.html",
+    "/maebashi/saiban/kozisotatu/index.html",
+    "/shizuoka/saiban/kozisotatu/index.html",
+    "/koufu/saiban/kozisotatu/index.html",
+    "/nagano/saiban/kozisotatu/index.html",
+    "/niigata/saiban/kozisotatu/index.html",
+    "/nagoya-h/saiban/kozisotatu/index.html",
+    "/nagoya/saiban/kozisotatu/index.html",
+    "/nagoya-f/saiban/kozisotatu/index.html",
+    "/tsu/saiban/kozisotatu/index.html",
+    "/gifu/saiban/kozisotatu/index.html",
+    "/fukui/saiban/kozisotatu/index.html",
+    "/kanazawa/saiban/kozisotatu/index.html",
+    "/toyama/saiban/kozisotatu/index.html",
+    "/osaka-h/saiban/kozisotatu/index.html",
+    "/osaka/saiban/kozisotatu/index.html",
+    "/kyoto/saiban/kozisotatu/index.html",
+    "/kobe/saiban/kozisotatu/index.html",
+    "/nara/saiban/kozisotatu/index.html",
+    "/otsu/saiban/kozisotatu/index.html",
+    "/wakayama/saiban/kozisotatu/index.html",
+    "/hiroshima-h/saiban/kozisotatu/index.html",
+    "/hiroshima/saiban/kozisotatu/index.html",
+    "/yamaguchi/saiban/kozisotatu/index.html",
+    "/okayama/saiban/kozisotatu/index.html",
+    "/tottori/saiban/kozisotatu/index.html",
+    "/matsue/saiban/kozisotatu/index.html",
+    "/takamatsu-h/saiban/kozisotatu/index.html",
+    "/takamatsu/saiban/kozisotatu/index.html",
+    "/tokushima/saiban/kozisotatu/index.html",
+    "/kouchi/saiban/kozisotatu/index.html",
+    "/matsuyama/saiban/kozisotatu/index.html",
+    "/fukuoka-h/saiban/kozisotatu/index.html",
+    "/fukuoka/saiban/kozisotatu/index.html",
+    "/saga/saiban/kozisotatu/index.html",
+    "/nagasaki/saiban/kozisotatu/index.html",
+    "/oita/saiban/kozisotatu/index.html",
+    "/kumamoto/saiban/kozisotatu/index.html",
+    "/kagoshima/saiban/kozisotatu/index.html",
+    "/miyazaki/saiban/kozisotatu/index.html",
+    "/naha/saiban/kozisotatu/index.html",
+    "/ip/tetuduki/kozisotatu/index.html",
+    "/about/sonota/kensin/giketsunoyoushi/index.html"
+   ]
+  }
+ },
+ "pdfs": {
+  "form_r07_fuyo": {
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2025bun_01.pdf",
+   "status": 200,
+   "bytes": 764201,
+   "sha256": "1d3e1ebea76a108be2f90b6babf7bd923eeaae697aef1c1df801133d4e7ec00d",
+   "last_modified": "Tue, 24 Sep 2024 08:30:06 GMT",
+   "content_type": "application/pdf",
+   "is_pdf": true
+  },
+  "form_r08_fuyo": {
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_01.pdf",
+   "status": 200,
+   "bytes": 1177114,
+   "sha256": "15bae0d3fbca3dde48ebd2db2851af37eefee0f1e2ae682b9313e9d2e3fb427c",
+   "last_modified": "Wed, 03 Sep 2025 08:30:03 GMT",
+   "content_type": "application/pdf",
+   "is_pdf": true
+  },
+  "nencho2025_105": {
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2025/pdf/105.pdf",
+   "status": 200,
+   "bytes": 1077260,
+   "sha256": "f69eda756f726c1ac4a6dc1773924e87cfccbd5ae83c3ce67f211e5c96a9d747",
+   "last_modified": "Wed, 03 Sep 2025 08:30:05 GMT",
+   "content_type": "application/pdf",
+   "is_pdf": true
+  },
+  "nencho2026_105": {
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/105.pdf",
+   "status": 200,
+   "bytes": 1063580,
+   "sha256": "9460af44b13c8651c3a7bcb3f770946397793fcd4f0db19b2e7e8d612e4188f5",
+   "last_modified": "Thu, 24 Sep 2026 08:30:11 GMT",
+   "content_type": "application/pdf",
+   "is_pdf": true
+  },
+  "nencho2025_106": {
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2025/pdf/106.pdf",
+   "status": 200,
+   "bytes": 5109936,
+   "sha256": "82d223b7bdcd521e5445c5758cfc1fac71abe5a8d56181e3e25fa22cfc009b05",
+   "last_modified": "Fri, 29 Aug 2025 08:30:15 GMT",
+   "content_type": "application/pdf",
+   "is_pdf": true
+  },
+  "nencho2026_106": {
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/106.pdf",
+   "status": 200,
+   "bytes": 891035,
+   "sha256": "ee4ae06f99998f5f964cf34355fac63021dd78ac7a8a5cb350006d1b895cbc23",
+   "last_modified": "Mon, 31 Aug 2026 08:30:11 GMT",
+   "content_type": "application/pdf",
+   "is_pdf": true
+  },
+  "hotei2025_02": {
+   "url": "https://www.nta.go.jp/publication/pamph/hotei/tebiki2025/PDF/02.pdf",
+   "status": 200,
+   "bytes": 6001136,
+   "sha256": "ffd159f901f271164e94afb8f5f3bd369c57af19ec7ba4184f671542ca2620ac",
+   "last_modified": "Mon, 01 Sep 2025 05:00:02 GMT",
+   "content_type": "application/pdf",
+   "is_pdf": true
+  },
+  "hotei2026_02": {
+   "url": "https://www.nta.go.jp/publication/pamph/hotei/tebiki2026/PDF/02.pdf",
+   "status": 200,
+   "bytes": 6694769,
+   "sha256": "15960b2fe6c35fe1ff1fa5a965277bbeaf2d9a724b0831c8d6677bd72aaa2612",
+   "last_modified": "Thu, 01 Oct 2026 08:30:02 GMT",
+   "content_type": "application/pdf",
+   "is_pdf": true
+  },
+  "chousho_r08": {
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hotei/pdf/r08/0026009-129.pdf",
+   "status": 200,
+   "bytes": 134427,
+   "sha256": "cb701f7f2ed4a713bae4029b110c6a9796e550c14443b26a47115649ba40740e",
+   "last_modified": "Mon, 28 Sep 2026 01:00:07 GMT",
+   "content_type": "application/pdf",
+   "is_pdf": true
+  },
+  "chousho_r08_kisai": {
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hotei/pdf/r08/kisai_chousho01.pdf",
+   "status": 200,
+   "bytes": 241782,
+   "sha256": "76e9642ac58e12eb72096c13ab34bf77ce8beac02364dccf7cf322221f663c6e",
+   "last_modified": "Thu, 08 Oct 2026 05:00:02 GMT",
+   "content_type": "application/pdf",
+   "is_pdf": true
+  },
+  "kokugai_qa": {
+   "url": "https://www.nta.go.jp/publication/pamph/pdf/0022009-107_02.pdf",
+   "status": 200,
+   "bytes": 712232,
+   "sha256": "d8e5bc32f793e7ba25500eae31fa44a3b8a47ec5be9fd3fef1465f1c72b5aa78",
+   "last_modified": "Mon, 31 Aug 2026 08:30:07 GMT",
+   "content_type": "application/pdf",
+   "is_pdf": true
+  },
+  "hanrei_pdf": {
+   "url": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-62674.pdf",
+   "status": 200,
+   "bytes": 6618,
+   "sha256": "db1ab6887ca692aad07ed7d60946484ffb7248394cbeba102f464bef758c3fc8",
+   "last_modified": "Tue, 09 Sep 2025 11:34:07 GMT",
+   "content_type": "application/pdf",
+   "is_pdf": true
+  }
+ },
+ "quotes": [
+  {
+   "page": "ta_1180",
+   "quote": "控除対象扶養親族とは、扶養親族のうち、その年12月31日現在の年齢が16歳以上の人をいいます。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_1180",
+   "quote": "配偶者以外の親族（6親等内の血族および3親等内の姻族をいいます。）または…里子…や…養護を委託された老人であること。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_1180",
+   "quote": "令和8年4月1日現在法令等",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_1180_qa",
+   "quote": "親族とは、（1）六親等内の血族、（2）配偶者、（3）三親等内の姻族をいいますが、図表で示すと次のようになります。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_1180_qa",
+   "quote": "子のある者と再婚した場合のその子（所得なし）は、一親等の姻族に該当しますので、あなたと生計を一にしており、かつ、その子が16歳以上であれば扶養控除の対象となります。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_1180_qa",
+   "quote": "兄弟のうち、だれか1人だけが扶養控除の対象とすることができます。したがって、たとえ兄弟が均等に送金している場合であっても、兄弟がそれぞれ重複して控除の対象とすることはできません。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_1180_qa",
+   "quote": "12月31日の現況において、ある一人の者を対象として複数の納税者がそれぞれ重複して配偶者控除や扶養控除を受けることはできません。しかし、年の途中で死亡または出国した納税者の控除対象配偶者または控除対象扶養親族に該当した人であっても、その後、その年中において相続人等他の納税者の控除対象配偶者または控除対象扶養親族に該当する場合は、その納税者の控除対象配偶者または控除対象扶養親族として控除の対象となることができます。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_1180_qa",
+   "quote": "令和8年4月1日現在法令等",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_1177",
+   "quote": "令和8年4月1日現在法令等",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_1900",
+   "quote": "令和8年4月1日現在法令等",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_1900",
+   "quote": "給与を1か所から受けていて、かつ、その給与の全部が源泉徴収の対象となる場合において、各種の所得金額（給与所得、退職所得を除く。）の合計額が20万円を超える人",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_2511",
+   "quote": "令和8年4月1日現在法令等",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_2511",
+   "quote": "「給与所得者の扶養控除等申告書」を提出している人に支払う給与については「甲欄」を、その他の人に支払う給与については「乙欄」を使って税額を求めます。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_2511",
+   "quote": "パートやアルバイトに対して日給や時間給で給与を支払う場合は、あらかじめ雇用契約の期間が2か月以内と決められていれば、「日額表」の「丙欄」を使って税額を求めます。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_2511",
+   "quote": "夫婦の双方がお互いに源泉控除対象配偶者に係る控除の適用を受けることはできません。また、親族の双方がお互いに特定親族に係る控除の適用を受けることや、特定親族に係る控除の適用を受けている親族を特定親族として控除の適用を受けることはできませんので、ご注意ください。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_2514",
+   "quote": "令和8年4月1日現在法令等",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_2514",
+   "quote": "あらかじめ定められている雇用契約の期間が2か月以内であること。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_2514",
+   "quote": "日々雇い入れている場合には、継続して2か月を超えて支払をしないこと。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_2514",
+   "quote": "契約期間が2か月を超えた日から、「日額表」の「丙欄」を使うことができません。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_2520",
+   "quote": "令和8年4月1日現在法令等",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_2520",
+   "quote": "主たる給与とは、「給与所得者の扶養控除等申告書」を提出している人に支払う給与をいい、…「甲欄」で求めます。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_2520",
+   "quote": "従たる給与とは、主たる給与の支払者以外の給与の支払者が支払う給与をいい、…「乙欄」で求めます。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_2520",
+   "quote": "原則として従たる給与については年末調整できませんので、所得者本人が確定申告することにより…精算を行う必要があります。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "yogo_senmon",
+   "quote": "配偶者以外の親族（6親等内の血族および3親等内の姻族をいいます。）または…",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "sg_s0567",
+   "quote": "ここでいう「親族」とは、民法の規定に従い、6親等内の血族及び3親等内の姻族をいい（民法第725条）、「姻族」とは、配偶者の血族及び自己の血族の配偶者をいいますので、配偶者の子は、1親等の姻族に該当することとなります。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "sg_s0567",
+   "quote": "なお、養子縁組をした場合には、血族間におけるのと同一の親族関係が生じますので（民法第727条）、1親等の血族に該当することとなります。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "sg_s0567",
+   "quote": "令和7年8月1日現在の法令・通達等に基づく",
+   "result": "MISSING",
+   "missing_fragment": "令和7年8月1日現在の法令・通達等に基づく"
+  },
+  {
+   "page": "sg_s0567",
+   "quote": "所得税法第2条第1項第34号、第34号の2、第84条",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "sg_s0567",
+   "quote": "民法第725条、第727条",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "sg_s0564",
+   "quote": "配偶者の死亡により婚姻関係は解消されますが、その配偶者の父母との姻族関係が直ちに否定されるわけではなく、生存している配偶者が婚姻関係を終了させる意思表示をしない限り死亡した配偶者の直系尊属も「配偶者の直系尊属」に含まれます。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "sg_s0564",
+   "quote": "令和7年8月1日現在の法令・通達等に基づく",
+   "result": "MISSING",
+   "missing_fragment": "令和7年8月1日現在の法令・通達等に基づく"
+  },
+  {
+   "page": "sg_s0564",
+   "quote": "租税特別措置法第41条の16第1項",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "sg_s0564",
+   "quote": "民法第728条第2項",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "sg_g0309",
+   "quote": "重複しない限り、いずれの者の扶養親族としても差し支えありません。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "sg_g0309",
+   "quote": "同じ世帯に所得者が2人以上いる場合には、これらの者の扶養親族等を、その夫や妻若しくは同じ世帯の他の所得者のいずれの者の控除対象配偶者や扶養親族とするのかといった疑義が生じますが、このような場合には、「給与所得者の扶養控除等申告書」に記載されたところによることとされています。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "sg_g0309",
+   "quote": "令和7年8月1日現在の法令・通達等に基づく",
+   "result": "MISSING",
+   "missing_fragment": "令和7年8月1日現在の法令・通達等に基づく"
+  },
+  {
+   "page": "sg_g0309",
+   "quote": "所得税法施行令第218条、第219条",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "sg_g0309",
+   "quote": "この質疑事例は、照会に係る事実関係を前提とした一般的な回答であり、…この回答内容と異なる課税関係が生ずることがあることにご注意ください。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "p1648",
+   "quote": "国内において給与の支給を受ける居住者は、源泉控除対象配偶者や扶養親族の有無にかかわらず原則としてこの申告を行わなければなりません。この申告を行わない場合は、月々（日々）の源泉徴収の際に受けることのできる諸控除が受けられず、また年末調整も行われないことになります。また、2以上の給与の支払者から給与の支払を受ける場合には、そのいずれか一の給与の支払者に対してのみ提出することができます。なお、適用される税額表が日額表の丙欄とされる人は、この申告書を提出する必要はありません。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "p1648",
+   "quote": "「給与所得者の扶養控除等（異動）申告書」は、個人住民税の「給与所得者の扶養親族申告書」と統合した様式となっています。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "p1648",
+   "quote": "所得税法第194条",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "p1648",
+   "quote": "所得税法施行令第316条の2",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "p1648",
+   "quote": "地方税法第45条の3の2",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "p1648",
+   "quote": "第317条の3の2",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "t25_y13",
+   "quote": "扶養親族のうち、平成22年1月1日以前に生まれた方（年齢が16歳以上の方）",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "t25_y13",
+   "quote": "平成8年1月2日から平成22年1月1日までの間",
+   "result": "MISSING",
+   "missing_fragment": "平成8年1月2日から平成22年1月1日までの間"
+  },
+  {
+   "page": "t25_y13",
+   "quote": "昭和31年1月2日から平成8年1月1日までの間",
+   "result": "MISSING",
+   "missing_fragment": "昭和31年1月2日から平成8年1月1日までの間"
+  },
+  {
+   "page": "t25_y10",
+   "quote": "平成15年1月2日から平成19年1月1日までの間",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "t25_y11",
+   "quote": "昭和31年1月1日以前",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_2511",
+   "quote": "この「扶養親族等の数」とは、源泉控除対象配偶者と源泉控除対象親族との合計数をいいます",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_2511",
+   "quote": "（4）の日雇賃金については「丙欄」を使って税額を求めます。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "ta_1900",
+   "quote": "給与を2か所以上から受けていて、…年末調整されなかった給与の収入金額と、各種の所得金額…との合計額が20万円を超える人",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "t25_y09",
+   "quote": "扶養親族",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "t25_y13",
+   "quote": "平成８年１月２日から平成22年１月１日の間に生まれた方（年齢が16歳以上30歳未満の方）",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "t25_y13",
+   "quote": "昭和31年１月２日から平成８年１月１日の間に生まれて（年齢が30歳以上70歳未満）",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "hanrei_62674",
+   "quote": "扶養控除の対象となる親族の範囲を定める所得税法（昭和六一年法律第一〇九号による改正前のもの）八四条、二条一項三四号の規定は、憲法一三条、一四条一項、二四条、二五条に違反しない。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "hanrei_62674",
+   "quote": "昭和62(行コ)110",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "sg_s0567",
+   "quote": "令和7年8月1日現在の法令・通達等に基づいて作成しています。",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "hanrei_62674",
+   "quote": "平成3年10月17日",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "hanrei_62674",
+   "quote": "最高裁判所第一小法廷",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "hanrei_62674",
+   "quote": "平成2(行ツ)12",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "hanrei_62674",
+   "quote": "集民 第163号381頁",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "hanrei_62674",
+   "quote": "平成元年9月19日",
+   "result": "ok",
+   "missing_fragment": null
+  },
+  {
+   "page": "hanrei_62674",
+   "quote": "婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者との間の未認知の子又はその者の連れ子と所得税法（昭和六一年法律第一〇九号による改正前のもの）八四条、二条一項三四号に規定する扶養控除の対象となる親族",
+   "result": "ok",
+   "missing_fragment": null
+  }
+ ]
+}

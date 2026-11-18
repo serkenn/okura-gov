@@ -1,0 +1,47 @@
+{
+ "run": "20261109-180323",
+ "name": "teiyo",
+ "download_dir": ".work/downloads/20261109-180323_R2X_yoshiki_teiyo",
+ "user_agent": "okura-gov-research/0.1",
+ "delay_sec": 1.5,
+ "robots": [
+  {
+   "robots_url": "https://www.nta.go.jp/robots.txt",
+   "status": 200,
+   "bytes": 853,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+  }
+ ],
+ "results": [
+  {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/01.htm",
+   "fetched_at": "2026-11-09T18:03:36+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/01.htm",
+   "content_type": "text/html",
+   "last_modified": "Tue, 13 Oct 2026 08:30:03 GMT",
+   "bytes": 55177,
+   "sha256": "6cd09d829f7e675303f2bc279da39f87bdcb250671b7affb15b5dc5ca479c429",
+   "saved": ".work/downloads/20261109-180323_R2X_yoshiki_teiyo/000_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_001115_01.htm",
+   "encoding": "shift_jis",
+   "text": "scripts/results/R2X_yoshiki_fetch/20261109-180323_teiyo/000_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_001115_01.htm.txt",
+   "links": "scripts/results/R2X_yoshiki_fetch/20261109-180323_teiyo/000_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_001115_01.htm.links.tsv",
+   "n_links": 306
+  },
+  {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/kaisei1.htm",
+   "fetched_at": "2026-11-09T18:03:36+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/kaisei1.htm",
+   "content_type": "text/html",
+   "last_modified": "Fri, 18 Sep 2026 05:00:03 GMT",
+   "bytes": 23234,
+   "sha256": "775f28b86f48a58018f58a1142e4f2c05a16ca28e40b1e39d5ad220a5b291f99",
+   "saved": ".work/downloads/20261109-180323_R2X_yoshiki_teiyo/001_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_kaisei_kaisei1.htm",
+   "encoding": "shift_jis",
+   "text": "scripts/results/R2X_yoshiki_fetch/20261109-180323_teiyo/001_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_kaisei_kaisei1.htm.txt",
+   "links": "scripts/results/R2X_yoshiki_fetch/20261109-180323_teiyo/001_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_kaisei_kaisei1.htm.links.tsv",
+   "n_links": 87
+  }
+ ]
+}

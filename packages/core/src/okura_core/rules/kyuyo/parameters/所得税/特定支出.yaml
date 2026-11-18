@@ -1,0 +1,34 @@
+description: >-
+  給与所得者の特定支出の控除の特例（所得税法第57条の2、同施行規則第36条の5）の額。令和7年分・令和8年分で本文が同じ
+  （docs/public-sources/20261112_impl-research8_tokutei-shishutsu-laws.md §1・§3。2026-11-12 に足した：README KY-11）。
+勤務必要経費の上限:
+  description: 第2項第7号（図書・衣服・交際費等）の支出の合計額の上限（六十五万円までの支出に限る）
+  metadata:
+    law: 所得税法第57条の2第2項第7号（「当該支出の額の合計額が六十五万円を超える場合には、六十五万円までの支出に限る。」）
+    source_kind: 法律
+    unit: 円
+    reference:
+      - docs/public-sources/20261112_impl-research8_tokutei-shishutsu-laws.md#1
+      - docs/public-sources/20261112_impl-research8_tokutei-shishutsu-laws.md#1.1
+    law_revision: 340AC0000000033_20251218_507AC0000000013
+  values:
+    2025-01-01:
+      value: 650000
+      metadata:
+        比較: 以下
+        適用: 令和7年分・令和8年分（asof 2025-12-31・2026-12-31 で本文が同じ。第7号の現行の文言は平成26年法律第10号：平成28年分以後）
+寝台料金の除外の上限:
+  description: 特別車両料金等（施行令第167条の3第1項第1号・第2項第1号）から除く寝台料金の上限（寝台料金で六千六百円以下のものを除く）
+  metadata:
+    law: 所得税法施行規則第36条の5第3項・第4項
+    source_kind: 省令
+    unit: 円
+    reference:
+      - docs/public-sources/20261112_impl-research8_tokutei-shishutsu-laws.md#3
+    law_revision: 340M50000040011_20251201_507M60000040018
+  values:
+    2025-01-01:
+      value: 6600
+      metadata:
+        比較: 以下
+        適用: 令和7年分・令和8年分（asof 2025-12-31・2026-12-31 で本文が同じ。この額の施行日は確かめていない）

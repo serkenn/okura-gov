@@ -1,0 +1,82 @@
+{
+ "schema_version": "0",
+ "persons": [
+  {
+   "id": "p-1",
+   "birth_on": "1990-01-01"
+  }
+ ],
+ "relations": [],
+ "residences": [],
+ "insurance_memberships": [],
+ "facts": [
+  {
+   "id": "f-1",
+   "kind": "specific_expense",
+   "roles": {
+    "payer": "p-1"
+   },
+   "when": {
+    "on": "2026-05-01"
+   },
+   "amounts": {
+    "amount": 1000
+   },
+   "attributes": {
+    "category": "business_travel",
+    "certified_by": "payer",
+    "relocation_item": "lodging"
+   }
+  },
+  {
+   "id": "f-2",
+   "kind": "specific_expense",
+   "roles": {
+    "payer": "p-1"
+   },
+   "when": {
+    "on": "2026-05-02"
+   },
+   "amounts": {
+    "amount": 5000
+   },
+   "attributes": {
+    "category": "books",
+    "certified_by": "payer"
+   }
+  }
+ ],
+ "assets": [],
+ "filed_documents": [],
+ "judgments": [
+  {
+   "id": "j-1",
+   "kind": "判断.特定支出の通常の範囲の額",
+   "judged_by": {
+    "person": "p-1"
+   },
+   "judged_at": "2027-01-20T09:00:00+09:00",
+   "subject": {
+    "record_id": "f-1"
+   },
+   "value": {
+    "countable_amount": 1200
+   }
+  },
+  {
+   "id": "j-2",
+   "kind": "判断.特定支出の通常の範囲の額",
+   "judged_by": {
+    "person": "p-1"
+   },
+   "judged_at": "2027-01-20T09:00:00+09:00",
+   "subject": {
+    "record_id": "f-2"
+   },
+   "value": {
+    "countable_amount": 100
+   }
+  }
+ ],
+ "choices": []
+}

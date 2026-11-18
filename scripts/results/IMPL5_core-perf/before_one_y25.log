@@ -1,0 +1,18 @@
+okura_core: C:\Users\user\Documents\okura-gov\.work\perf\snap_src\okura_core\__init__.py
+import 3.78s build_system 0.56s
+01_student_away_and_parent_on_assignment__one                  5.903s      1955 KiB  ok=True
+01_student_away_and_parent_on_assignment__y25                  6.057s      2574 KiB  ok=True
+02_medical_payer_differs_from_patient__one                    92.898s      2847 KiB  ok=True
+02_medical_payer_differs_from_patient__y25                    47.100s      2782 KiB  ok=True
+03_business_with_household_apportionment__one                117.307s       724 KiB  ok=True
+03_business_with_household_apportionment__y25                 59.297s       657 KiB  ok=True
+04_forecast_and_plan_marks__one                               20.270s       841 KiB  ok=True
+04_forecast_and_plan_marks__y25                                9.596s      1153 KiB  ok=True
+05_commuting_and_withholding_slip__one                         2.565s       897 KiB  ok=True
+05_commuting_and_withholding_slip__y25                         5.195s       860 KiB  ok=True
+06_phase3_insurance_and_resident_tax_facts__one               71.701s      1612 KiB  ok=True
+06_phase3_insurance_and_resident_tax_facts__y25              193.839s      3252 KiB  ok=True
+07_vocabulary_additions_2026_11_11__one                      134.922s      2983 KiB  ok=True
+07_vocabulary_additions_2026_11_11__y25                      114.469s      2713 KiB  ok=True
+08_vocabulary_additions_2026_11_12__one                      ERROR TypeError: unhashable type: 'dict'
+08_vocabulary_additions_2026_11_12__y25                      ERROR ValueError: 判断.国内源泉所得の内訳 の値の領域から候補を作れない（DecisionSlot.candidates を書く）

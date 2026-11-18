@@ -1,0 +1,347 @@
+{
+ "run_at": "20261111-111437",
+ "download_dir": ".work/downloads/20261111-111437_IMPL2_kyuyo-jiki_verify",
+ "articles": [
+  {
+   "check": "V1 所法36① 2025-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=xml&asof=2025-01-01",
+   "status": 200,
+   "sha256": "c68d7e2bd1b5fcaaab9071a49af480f481650360b82ebf84b1021a005c9bd83b",
+   "law_revision_id": "340AC0000000033_20250101_505AC0000000003",
+   "found_article": true,
+   "must": {
+    "別段の定めがあるものを除き、その年において収入すべき金額": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "check": "V1 所法183② 2025-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=xml&asof=2025-01-01",
+   "status": 200,
+   "sha256": "c68d7e2bd1b5fcaaab9071a49af480f481650360b82ebf84b1021a005c9bd83b",
+   "law_revision_id": "340AC0000000033_20250101_505AC0000000003",
+   "found_article": true,
+   "must": {
+    "支払の確定した日から一年を経過した日までにその支払がされない場合には、その一年を経過した日においてその支払があつたものとみなして": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "check": "V1 所法190一 2025-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=xml&asof=2025-01-01",
+   "status": 200,
+   "sha256": "c68d7e2bd1b5fcaaab9071a49af480f481650360b82ebf84b1021a005c9bd83b",
+   "law_revision_id": "340AC0000000033_20250101_505AC0000000003",
+   "found_article": true,
+   "must": {
+    "その年中にその居住者に対し支払うべきことが確定した給与等": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "check": "V1 所法9①十七 2025-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=xml&asof=2025-01-01",
+   "status": 200,
+   "sha256": "c68d7e2bd1b5fcaaab9071a49af480f481650360b82ebf84b1021a005c9bd83b",
+   "law_revision_id": "340AC0000000033_20250101_505AC0000000003",
+   "found_article": true,
+   "must": {
+    "相続、遺贈又は個人からの贈与により取得するもの": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "check": "V1 所法28① 2025-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=xml&asof=2025-01-01",
+   "status": 200,
+   "sha256": "c68d7e2bd1b5fcaaab9071a49af480f481650360b82ebf84b1021a005c9bd83b",
+   "law_revision_id": "340AC0000000033_20250101_505AC0000000003",
+   "found_article": true,
+   "must": {
+    "給与所得とは、俸給、給料、賃金、歳費及び賞与並びにこれらの性質を有する給与": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "check": "V1 所法36① 2026-11-11",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=xml&asof=2026-11-11",
+   "status": 200,
+   "sha256": "bf6869bc9ca55e4b20db4d3a2133aca06d5877eab9e2980612688033fc888121",
+   "law_revision_id": "340AC0000000033_20261001_507AC0000000070",
+   "found_article": true,
+   "must": {
+    "別段の定めがあるものを除き、その年において収入すべき金額": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "check": "V1 所法183② 2026-11-11",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=xml&asof=2026-11-11",
+   "status": 200,
+   "sha256": "bf6869bc9ca55e4b20db4d3a2133aca06d5877eab9e2980612688033fc888121",
+   "law_revision_id": "340AC0000000033_20261001_507AC0000000070",
+   "found_article": true,
+   "must": {
+    "支払の確定した日から一年を経過した日までにその支払がされない場合には、その一年を経過した日においてその支払があつたものとみなして": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "check": "V1 所法190一 2026-11-11",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=xml&asof=2026-11-11",
+   "status": 200,
+   "sha256": "bf6869bc9ca55e4b20db4d3a2133aca06d5877eab9e2980612688033fc888121",
+   "law_revision_id": "340AC0000000033_20261001_507AC0000000070",
+   "found_article": true,
+   "must": {
+    "その年中にその居住者に対し支払うべきことが確定した給与等": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "check": "V1 所法9①十七 2026-11-11",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=xml&asof=2026-11-11",
+   "status": 200,
+   "sha256": "bf6869bc9ca55e4b20db4d3a2133aca06d5877eab9e2980612688033fc888121",
+   "law_revision_id": "340AC0000000033_20261001_507AC0000000070",
+   "found_article": true,
+   "must": {
+    "相続、遺贈又は個人からの贈与により取得するもの": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "check": "V1 所法28① 2026-11-11",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=xml&asof=2026-11-11",
+   "status": 200,
+   "sha256": "bf6869bc9ca55e4b20db4d3a2133aca06d5877eab9e2980612688033fc888121",
+   "law_revision_id": "340AC0000000033_20261001_507AC0000000070",
+   "found_article": true,
+   "must": {
+    "給与所得とは、俸給、給料、賃金、歳費及び賞与並びにこれらの性質を有する給与": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "check": "V1 所法36① 2027-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=xml&asof=2027-01-01",
+   "status": 200,
+   "sha256": "00cf8aee912faf86d7b56fd939b8ac76bde3731d10341e66ce60a5aebe01b262",
+   "law_revision_id": "340AC0000000033_20270101_508AC0000000012",
+   "found_article": true,
+   "must": {
+    "別段の定めがあるものを除き、その年において収入すべき金額": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "check": "V1 所法183② 2027-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=xml&asof=2027-01-01",
+   "status": 200,
+   "sha256": "00cf8aee912faf86d7b56fd939b8ac76bde3731d10341e66ce60a5aebe01b262",
+   "law_revision_id": "340AC0000000033_20270101_508AC0000000012",
+   "found_article": true,
+   "must": {
+    "支払の確定した日から一年を経過した日までにその支払がされない場合には、その一年を経過した日においてその支払があつたものとみなして": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "check": "V1 所法190一 2027-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=xml&asof=2027-01-01",
+   "status": 200,
+   "sha256": "00cf8aee912faf86d7b56fd939b8ac76bde3731d10341e66ce60a5aebe01b262",
+   "law_revision_id": "340AC0000000033_20270101_508AC0000000012",
+   "found_article": true,
+   "must": {
+    "その年中にその居住者に対し支払うべきことが確定した給与等": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "check": "V1 所法9①十七 2027-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=xml&asof=2027-01-01",
+   "status": 200,
+   "sha256": "00cf8aee912faf86d7b56fd939b8ac76bde3731d10341e66ce60a5aebe01b262",
+   "law_revision_id": "340AC0000000033_20270101_508AC0000000012",
+   "found_article": true,
+   "must": {
+    "相続、遺贈又は個人からの贈与により取得するもの": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "check": "V1 所法28① 2027-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=xml&asof=2027-01-01",
+   "status": 200,
+   "sha256": "00cf8aee912faf86d7b56fd939b8ac76bde3731d10341e66ce60a5aebe01b262",
+   "law_revision_id": "340AC0000000033_20270101_508AC0000000012",
+   "found_article": true,
+   "must": {
+    "給与所得とは、俸給、給料、賃金、歳費及び賞与並びにこれらの性質を有する給与": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "check": "V2 相続税法3①二 2026-11-11",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000073?response_format=xml&asof=2026-11-11",
+   "status": 200,
+   "sha256": "b5c7da444d774de23cf9edb964a2edadbff47e4096a8c8d57cd4e2d3315e0790",
+   "law_revision_id": "325AC0000000073_20260401_506AC0000000008",
+   "found_article": true,
+   "must": {
+    "被相続人に支給されるべきであつた退職手当金、功労金その他これらに準ずる給与": true,
+    "被相続人の死亡後三年以内に支給が確定したもの": true
+   },
+   "must_not": {},
+   "ok": true
+  }
+ ],
+ "nta": [
+  {
+   "name": "kihon_05_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/05/01.htm",
+   "status": 200,
+   "last_modified": "Tue, 25 Nov 2025 08:30:06 GMT",
+   "sha256": "6e42d433d5cc23832c10b3a5d5bd909f524cca7bdf7353b87551844757df959b",
+   "encoding": "shift_jis",
+   "first_fetch_sha256": "6e42d433d5cc23832c10b3a5d5bd909f524cca7bdf7353b87551844757df959b",
+   "same_as_first_fetch": true,
+   "must": {
+    "契約又は慣習その他株主総会の決議等により支給日が定められている給与等（次の(2)に掲げるものを除く。）についてはその支給日、その日が定められていないものについてはその支給を受けた日": true,
+    "その支給日が定められているものについてはその支給日、その日が定められていないものについてはその改訂の効力が生じた日": true
+   },
+   "must_not": {
+    "給与所得の収入金額の収入すべき時期は、その支給を受けた日によるものとする": false
+   },
+   "ok": true
+  },
+  {
+   "name": "kihon_02_04",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/04.htm",
+   "status": 200,
+   "last_modified": "Thu, 25 Dec 2025 01:00:06 GMT",
+   "sha256": "d76a85dbe547d975eebf852c7c34076be564de566d27c74af3623cfebc70fd84",
+   "encoding": "shift_jis",
+   "first_fetch_sha256": "d76a85dbe547d975eebf852c7c34076be564de566d27c74af3623cfebc70fd84",
+   "same_as_first_fetch": true,
+   "must": {
+    "その死亡後に支給期の到来するもののうち相続税法の規定により相続税の課税価格計算の基礎に算入されるものについては、課税しないものとする": true,
+    "支給期については、36－9、36－10及び36－14の(1)に定めるところによる": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "name": "sokihon_01_03",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2/01/03.htm",
+   "status": 200,
+   "last_modified": "Thu, 18 Jan 2024 09:29:57 GMT",
+   "sha256": "71625e7b6406d740d2069318115949770274d0fba6cc6140929654782377d777",
+   "encoding": "shift_jis",
+   "first_fetch_sha256": "71625e7b6406d740d2069318115949770274d0fba6cc6140929654782377d777",
+   "same_as_first_fetch": true,
+   "must": {
+    "相続開始の時において支給期の到来していない俸給、給料等は、法第3条第1項第2号に規定する退職手当金等には該当しないで、本来の相続財産に属するものであるから留意する": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "name": "shitsugi_hotei_7_05",
+   "url": "https://www.nta.go.jp/law/shitsugi/hotei/7/05.htm",
+   "status": 200,
+   "last_modified": "Wed, 03 Dec 2025 08:31:10 GMT",
+   "sha256": "f90d6ba96ba35e3e38a2db204e4d5364c19e558729e92aec2f1b8556c7edd375",
+   "encoding": "shift_jis",
+   "first_fetch_sha256": "f90d6ba96ba35e3e38a2db204e4d5364c19e558729e92aec2f1b8556c7edd375",
+   "same_as_first_fetch": true,
+   "must": {
+    "その死亡後に支給期の到来するものについては、本来の相続財産として、相続税の課税対象となるため": true,
+    "死亡時までに支給期の到来している給与等については": true,
+    "所得税法基本通達36－9に定めるところによります": true
+   },
+   "must_not": {
+    "支払日の属する年": false
+   },
+   "ok": true
+  },
+  {
+   "name": "shitsugi_hotei_7_16",
+   "url": "https://www.nta.go.jp/law/shitsugi/hotei/7/16.htm",
+   "status": 200,
+   "last_modified": "Wed, 03 Dec 2025 08:31:09 GMT",
+   "sha256": "244681805372191f69562f20242f5fa5ea9f3fc9780a3da79d164376bd5cac49",
+   "encoding": "shift_jis",
+   "first_fetch_sha256": "244681805372191f69562f20242f5fa5ea9f3fc9780a3da79d164376bd5cac49",
+   "same_as_first_fetch": true,
+   "must": {
+    "死亡前に支払が確定している給与の合計額を記載します": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "name": "kihon_31_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/31/01.htm",
+   "status": 200,
+   "last_modified": "Thu, 18 Jan 2024 09:30:18 GMT",
+   "sha256": "b659cb049b3cefd7441da14626de6112418b7d1bcacd69969eee7c280e7470f7",
+   "encoding": "shift_jis",
+   "first_fetch_sha256": "b659cb049b3cefd7441da14626de6112418b7d1bcacd69969eee7c280e7470f7",
+   "same_as_first_fetch": true,
+   "must": {
+    "その支払の確定した日（36－9に定める日をいう。）の属する年の翌年の応当日の翌日": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "name": "kihon_32_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/32/01.htm",
+   "status": 200,
+   "last_modified": "Tue, 25 Nov 2025 08:30:04 GMT",
+   "sha256": "fb9625f6710b048db0132ce296f447b02ac4239085d5f28070cef1ff74357a05",
+   "encoding": "shift_jis",
+   "first_fetch_sha256": "fb9625f6710b048db0132ce296f447b02ac4239085d5f28070cef1ff74357a05",
+   "same_as_first_fetch": true,
+   "must": {
+    "給与等の支払を受ける者が死亡により退職した場合": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "name": "tebikihtml_2_3_4",
+   "url": "https://www.nta.go.jp/publication/pamph/hotei/tebikihtml/2-3-4.htm",
+   "status": 200,
+   "last_modified": "Thu, 05 Nov 2026 05:00:12 GMT",
+   "sha256": "e3ec2036e489656b418ac751500ef637140bd8a8e987920a9c0dbdc4c263ad14",
+   "encoding": "shift_jis",
+   "first_fetch_sha256": "e3ec2036e489656b418ac751500ef637140bd8a8e987920a9c0dbdc4c263ad14",
+   "same_as_first_fetch": true,
+   "must": {
+    "令和８年中に支払の確定した給与等": true,
+    "未払のものがあるときは、その未払額を内書きしてください": true
+   },
+   "must_not": {},
+   "ok": true
+  }
+ ],
+ "all_ok": true
+}

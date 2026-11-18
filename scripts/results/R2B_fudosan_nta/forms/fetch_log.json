@@ -1,0 +1,88 @@
+{
+ "set": "forms",
+ "fetched_at": "20261109-180251",
+ "download_dir": ".work/downloads/20261109-180251_R2B_fudosan_nta_forms",
+ "robots": {
+  "url": "https://www.nta.go.jp/robots.txt",
+  "status": 200,
+  "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+ },
+ "items": [
+  {
+   "id": "shushi_fudosan_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/09.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/09.pdf",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Mon, 31 Aug 2026 05:00:04 GMT",
+   "bytes": 20330,
+   "sha256": "64f619f6a802bc3b1d21222b3e0fff7adb02ee41e7672f661d568a1a58f66ab7",
+   "saved": ".work/downloads/20261109-180251_R2B_fudosan_nta_forms/shushi_fudosan_r07.pdf"
+  },
+  {
+   "id": "shushi_fudosan_kakikata_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/019.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/019.pdf",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:42 GMT",
+   "bytes": 1886396,
+   "sha256": "43d3ef2e015358de4ff64d6656519e4c876b1afd66a8e6fda8d2b87980c1e745",
+   "saved": ".work/downloads/20261109-180251_R2B_fudosan_nta_forms/shushi_fudosan_kakikata_r07.pdf"
+  },
+  {
+   "id": "kessan_fudosan_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/12.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/12.pdf",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Mon, 31 Aug 2026 05:00:04 GMT",
+   "bytes": 26865,
+   "sha256": "ade5f59b33e687fb1c486ab1c47da31e99fbd77cda10fd496c8bcc8d1a2fc533",
+   "saved": ".work/downloads/20261109-180251_R2B_fudosan_nta_forms/kessan_fudosan_r07.pdf"
+  },
+  {
+   "id": "kessan_fudosan_kakikata_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/039.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/039.pdf",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:40 GMT",
+   "bytes": 2542599,
+   "sha256": "36ae83ad49ef3b733db174180be927d3e45adbc870ebf98d3dcdc8a9b20abda5",
+   "saved": ".work/downloads/20261109-180251_R2B_fudosan_nta_forms/kessan_fudosan_kakikata_r07.pdf"
+  },
+  {
+   "id": "yoshiki_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r07.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r07.htm",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 20 Oct 2026 08:30:03 GMT",
+   "bytes": 45317,
+   "sha256": "ff769ff6e512b73df0387db39f5fbc6e58f509fd12f5972e2f84e4117e58ac9f",
+   "saved": ".work/downloads/20261109-180251_R2B_fudosan_nta_forms/yoshiki_r07.htm",
+   "title": "確定申告書等の様式・手引き等（令和７年分の所得税及び復興特別所得税の確定申告分）｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "yoshiki_r08",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r08.htm",
+   "final_url": "https://www.nta.go.jp/error/404.htm",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:39:47 GMT",
+   "bytes": 2007,
+   "sha256": "700138cae1f347c2be03b380ba74007e704ceb81fe2a62d547e3559d4b851d55",
+   "saved": ".work/downloads/20261109-180251_R2B_fudosan_nta_forms/yoshiki_r08.htm",
+   "title": "指定されたページを表示できませんでした",
+   "encoding": "Shift_JIS"
+  }
+ ]
+}

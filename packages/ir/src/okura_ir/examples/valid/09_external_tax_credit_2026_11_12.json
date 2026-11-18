@@ -1,0 +1,31 @@
+{
+ "schema_version": "0",
+ "persons": [
+  {"id": "p-a", "birth_on": "1970-06-15"},
+  {"id": "p-b", "birth_on": "1972-02-20"}
+ ],
+ "relations": [
+  {"id": "rel-marriage-ab", "kind": "marriage", "roles": {"spouse_a": "p-a", "spouse_b": "p-b"},
+   "when": {"from_on": "1998-04-01"}}
+ ],
+ "residences": [],
+ "insurance_memberships": [],
+ "facts": [
+  {"id": "f-etc-a-biz", "kind": "external_tax_credit", "roles": {"person": "p-a"}, "when": {"tax_year": 2025},
+   "amounts": {"credit_amount": 30000},
+   "attributes": {"credit_type": "business_income_special", "source_note": "架空の付表で計算した投資税額等の合計"}},
+  {"id": "f-etc-a-seismic", "kind": "external_tax_credit", "roles": {"person": "p-a"}, "when": {"tax_year": 2025},
+   "amounts": {"credit_amount": 25000},
+   "attributes": {"credit_type": "seismic_retrofit"}},
+  {"id": "f-etc-a-reno", "kind": "external_tax_credit", "roles": {"person": "p-a"}, "when": {"tax_year": 2025},
+   "amounts": {"credit_amount": 40000},
+   "attributes": {"credit_type": "specified_housing_renovation"}},
+  {"id": "f-etc-b-new", "kind": "external_tax_credit", "roles": {"person": "p-b"}, "when": {"tax_year": 2025},
+   "amounts": {"credit_amount": 50000},
+   "attributes": {"credit_type": "certified_housing_new_build", "source_note": "架空の計算明細書"}}
+ ],
+ "assets": [],
+ "filed_documents": [],
+ "judgments": [],
+ "choices": []
+}

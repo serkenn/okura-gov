@@ -1,0 +1,2247 @@
+{
+ "aes_selftest": true,
+ "files": {
+  "r07_10": {
+   "sha256": "c3cd9d17c0174972a19c5b8174ad01ac685f4ed2dda9d3e903e6fd315bf5f4c3",
+   "enc": {
+    "obj": 63,
+    "V": 4,
+    "R": 4,
+    "AESV2": true,
+    "P": -1068
+   },
+   "key_ok": true,
+   "n_pages": 4,
+   "per_page": [
+    {
+     "page": 1,
+     "n_runs": 214,
+     "n_codes": 48,
+     "images": [
+      {
+       "name": "IMG0",
+       "w": 629,
+       "h": 629,
+       "sha256_decrypted": null
+      }
+     ]
+    },
+    {
+     "page": 2,
+     "n_runs": 241,
+     "n_codes": 42,
+     "images": [
+      {
+       "name": "IMG0",
+       "w": 629,
+       "h": 629,
+       "sha256_decrypted": null
+      }
+     ]
+    },
+    {
+     "page": 3,
+     "n_runs": 221,
+     "n_codes": 66,
+     "images": [
+      {
+       "name": "IMG0",
+       "w": 629,
+       "h": 629,
+       "sha256_decrypted": null
+      }
+     ]
+    },
+    {
+     "page": 4,
+     "n_runs": 315,
+     "n_codes": 97,
+     "images": [
+      {
+       "name": "IMG0",
+       "w": 629,
+       "h": 629,
+       "sha256_decrypted": null
+      }
+     ]
+    }
+   ],
+   "n_codes": 253,
+   "form_ids": [
+    "NTA0KOA210010110",
+    "NTA0KOA210020110",
+    "NTA0KOA210030110",
+    "NTA0KOA210040110"
+   ]
+  },
+  "r07_05": {
+   "sha256": "686ecbd849ebe07b11a90d10421561669188e1cfd48b18962bf1be06965a0f24",
+   "enc": {
+    "obj": 43,
+    "V": 4,
+    "R": 4,
+    "AESV2": true,
+    "P": -1068
+   },
+   "key_ok": true,
+   "n_pages": 2,
+   "per_page": [
+    {
+     "page": 1,
+     "n_runs": 281,
+     "n_codes": 51,
+     "images": [
+      {
+       "name": "IMG0",
+       "w": 629,
+       "h": 629,
+       "sha256_decrypted": null
+      }
+     ]
+    },
+    {
+     "page": 2,
+     "n_runs": 247,
+     "n_codes": 65,
+     "images": [
+      {
+       "name": "IMG0",
+       "w": 629,
+       "h": 629,
+       "sha256_decrypted": null
+      }
+     ]
+    }
+   ],
+   "n_codes": 116,
+   "form_ids": [
+    "NTA0KOA110010120",
+    "NTA0KOA110020120"
+   ]
+  },
+  "r07_09": {
+   "sha256": "64f619f6a802bc3b1d21222b3e0fff7adb02ee41e7672f661d568a1a58f66ab7",
+   "enc": {
+    "obj": 42,
+    "V": 4,
+    "R": 4,
+    "AESV2": true,
+    "P": -1068
+   },
+   "key_ok": true,
+   "n_pages": 2,
+   "per_page": [
+    {
+     "page": 1,
+     "n_runs": 296,
+     "n_codes": 30,
+     "images": [
+      {
+       "name": "IMG0",
+       "w": 629,
+       "h": 629,
+       "sha256_decrypted": null
+      }
+     ]
+    },
+    {
+     "page": 2,
+     "n_runs": 236,
+     "n_codes": 22,
+     "images": [
+      {
+       "name": "IMG0",
+       "w": 629,
+       "h": 629,
+       "sha256_decrypted": null
+      }
+     ]
+    }
+   ],
+   "n_codes": 52,
+   "form_ids": [
+    "NTA0KOA130010090",
+    "NTA0KOA130020090"
+   ]
+  },
+  "r07_12": {
+   "sha256": "ade5f59b33e687fb1c486ab1c47da31e99fbd77cda10fd496c8bcc8d1a2fc533",
+   "enc": {
+    "obj": 63,
+    "V": 4,
+    "R": 4,
+    "AESV2": true,
+    "P": -1068
+   },
+   "key_ok": true,
+   "n_pages": 4,
+   "per_page": [
+    {
+     "page": 1,
+     "n_runs": 150,
+     "n_codes": 27,
+     "images": [
+      {
+       "name": "IMG0",
+       "w": 629,
+       "h": 629,
+       "sha256_decrypted": null
+      }
+     ]
+    },
+    {
+     "page": 2,
+     "n_runs": 225,
+     "n_codes": 7,
+     "images": [
+      {
+       "name": "IMG0",
+       "w": 629,
+       "h": 629,
+       "sha256_decrypted": null
+      }
+     ]
+    },
+    {
+     "page": 3,
+     "n_runs": 206,
+     "n_codes": 36,
+     "images": [
+      {
+       "name": "IMG0",
+       "w": 629,
+       "h": 629,
+       "sha256_decrypted": null
+      }
+     ]
+    },
+    {
+     "page": 4,
+     "n_runs": 235,
+     "n_codes": 98,
+     "images": [
+      {
+       "name": "IMG0",
+       "w": 629,
+       "h": 629,
+       "sha256_decrypted": null
+      }
+     ]
+    }
+   ],
+   "n_codes": 168,
+   "form_ids": [
+    "NTA0KOA220010080",
+    "NTA0KOA220020080",
+    "NTA0KOA220030080",
+    "NTA0KOA220040080"
+   ]
+  },
+  "r07_13": {
+   "sha256": "184a71c5efda112d54fccc59837400808e3c84440f49a11559f23e519dceefad",
+   "enc": {
+    "obj": 43,
+    "V": 4,
+    "R": 4,
+    "AESV2": true,
+    "P": -1068
+   },
+   "key_ok": true,
+   "n_pages": 2,
+   "per_page": [
+    {
+     "page": 1,
+     "n_runs": 200,
+     "n_codes": 31,
+     "images": [
+      {
+       "name": "IMG0",
+       "w": 629,
+       "h": 629,
+       "sha256_decrypted": null
+      }
+     ]
+    },
+    {
+     "page": 2,
+     "n_runs": 200,
+     "n_codes": 34,
+     "images": [
+      {
+       "name": "IMG0",
+       "w": 629,
+       "h": 629,
+       "sha256_decrypted": null
+      }
+     ]
+    }
+   ],
+   "n_codes": 65,
+   "form_ids": [
+    "NTA0KOA230010090",
+    "NTA0KOA230020090"
+   ]
+  },
+  "r07_01": {
+   "sha256": "833e641919fbc1eb22605a1989c6514eabb742334528d04dd90736ae90afce46",
+   "enc": {
+    "obj": 19,
+    "V": 4,
+    "R": 4,
+    "AESV2": true,
+    "P": -1068
+   },
+   "key_ok": true,
+   "n_pages": 2,
+   "per_page": [
+    {
+     "page": 1,
+     "n_runs": 0,
+     "n_codes": 0,
+     "images": [
+      {
+       "name": "image",
+       "w": 2481,
+       "h": 3508,
+       "sha256_decrypted": "c7c918d36719634923d89c3fc61ccab9768e731e6ffa1503b207b217687fafce"
+      }
+     ]
+    },
+    {
+     "page": 2,
+     "n_runs": 0,
+     "n_codes": 0,
+     "images": [
+      {
+       "name": "image",
+       "w": 2481,
+       "h": 3508,
+       "sha256_decrypted": "8b47cf9b5bd98a48da2e10f839ce2ab5bda32cf42e6781bbcb05a71918b6765a"
+      }
+     ]
+    }
+   ],
+   "n_codes": 0,
+   "form_ids": []
+  },
+  "r07_02": {
+   "sha256": "1d30dbc3e8823a321fc1ceb83eb0c1d3b9f585f7357168a6c7570d02fd482396",
+   "enc": {
+    "obj": 8,
+    "V": 4,
+    "R": 4,
+    "AESV2": true,
+    "P": -1068
+   },
+   "key_ok": true,
+   "n_pages": 1,
+   "per_page": [
+    {
+     "page": 1,
+     "n_runs": 0,
+     "n_codes": 0,
+     "images": [
+      {
+       "name": "image",
+       "w": 2481,
+       "h": 3508,
+       "sha256_decrypted": "4b1abec5220252f4a65abd951837f7984218b804b44a5c855204547abd1f6a7a"
+      }
+     ]
+    }
+   ],
+   "n_codes": 0,
+   "form_ids": []
+  },
+  "r07_03": {
+   "sha256": "10dfa7825ae19b642eb90edc9a7e2782e26be1fd71a39743d846a4dab52bab28",
+   "enc": {
+    "obj": 19,
+    "V": 4,
+    "R": 4,
+    "AESV2": true,
+    "P": -1068
+   },
+   "key_ok": true,
+   "n_pages": 2,
+   "per_page": [
+    {
+     "page": 1,
+     "n_runs": 0,
+     "n_codes": 0,
+     "images": [
+      {
+       "name": "image",
+       "w": 2481,
+       "h": 3508,
+       "sha256_decrypted": "141ed059a8b98f5063b8e0639710c91ca565500b723d7f55f11761898acab104"
+      }
+     ]
+    },
+    {
+     "page": 2,
+     "n_runs": 0,
+     "n_codes": 0,
+     "images": [
+      {
+       "name": "image",
+       "w": 2481,
+       "h": 3508,
+       "sha256_decrypted": "26084ca0a28f74d778085c9c95badd465551066336623424c8961a3605a4c9df"
+      }
+     ]
+    }
+   ],
+   "n_codes": 0,
+   "form_ids": []
+  },
+  "ref1": {
+   "sha256": "7c602c74703668f06e37b5efe40bf924da885cc8387c7fc3c1dd7e5c8fcb23ea",
+   "enc": {
+    "obj": 7,
+    "V": 4,
+    "R": 4,
+    "AESV2": true,
+    "P": 2836
+   },
+   "key_ok": true,
+   "n_pages": 1,
+   "per_page": [
+    {
+     "page": 1,
+     "n_runs": 0,
+     "n_codes": 0,
+     "images": [
+      {
+       "name": "image",
+       "w": 2481,
+       "h": 3508,
+       "sha256_decrypted": "7365cefde3b153b7cf1b615123b4834702f87b19ede906982c3c9f4a423e4024"
+      }
+     ]
+    }
+   ],
+   "n_codes": 0,
+   "form_ids": []
+  },
+  "ref3": {
+   "sha256": "6f39bf8118395215a31bb79aa22995b836e8a4fbe92252eb0c4639009d21c826",
+   "enc": {
+    "obj": 7,
+    "V": 4,
+    "R": 4,
+    "AESV2": true,
+    "P": 2836
+   },
+   "key_ok": true,
+   "n_pages": 1,
+   "per_page": [
+    {
+     "page": 1,
+     "n_runs": 0,
+     "n_codes": 0,
+     "images": [
+      {
+       "name": "image",
+       "w": 2481,
+       "h": 3508,
+       "sha256_decrypted": "2ee151ab54bcf9810cf82cb42bc63d9c6b7eb36ecab39799d0047b01d7b452ca"
+      }
+     ]
+    }
+   ],
+   "n_codes": 0,
+   "form_ids": []
+  },
+  "s017": {
+   "sha256": "1e61c20b72c21ee86820be392e8be29226f63d7d9dd891082497f62ca473cb22",
+   "enc": {
+    "obj": 7,
+    "V": 4,
+    "R": 4,
+    "AESV2": true,
+    "P": 2836
+   },
+   "key_ok": true,
+   "n_pages": 1,
+   "per_page": [
+    {
+     "page": 1,
+     "n_runs": 0,
+     "n_codes": 0,
+     "images": [
+      {
+       "name": "image",
+       "w": 2481,
+       "h": 3508,
+       "sha256_decrypted": "2c31b2f426b59be321d8be3c77bbb2cbac267d2b953a5055e7953f7a5c2abc74"
+      }
+     ]
+    }
+   ],
+   "n_codes": 0,
+   "form_ids": []
+  },
+  "ref4": {
+   "sha256": "9621c80f62e019cfca9b8f7e88f629c209bf23d88c750b268ed210947d7cfc21",
+   "enc": {
+    "obj": 7,
+    "V": 4,
+    "R": 4,
+    "AESV2": true,
+    "P": 2836
+   },
+   "key_ok": true,
+   "n_pages": 1,
+   "per_page": [
+    {
+     "page": 1,
+     "n_runs": 0,
+     "n_codes": 0,
+     "images": [
+      {
+       "name": "image",
+       "w": 2481,
+       "h": 3508,
+       "sha256_decrypted": "d4662314dec32e9d4ce239e4bb0cdd30be3df94a6f0e2cf72900e50821d8f348"
+      }
+     ]
+    }
+   ],
+   "n_codes": 0,
+   "form_ids": []
+  },
+  "k260831_02": {
+   "sha256": "5f739ced0904aca420471858debbf1a59f08e0e298cd6ba6c5089e2b01ccd4ab",
+   "enc": {
+    "obj": 131,
+    "V": 4,
+    "R": 4,
+    "AESV2": true,
+    "P": -1068
+   },
+   "key_ok": true,
+   "n_pages": 10,
+   "per_page": [
+    {
+     "page": 1,
+     "n_runs": 0,
+     "n_codes": 0,
+     "images": []
+    },
+    {
+     "page": 2,
+     "n_runs": 0,
+     "n_codes": 0,
+     "images": []
+    },
+    {
+     "page": 3,
+     "n_runs": 0,
+     "n_codes": 0,
+     "images": []
+    },
+    {
+     "page": 4,
+     "n_runs": 0,
+     "n_codes": 0,
+     "images": []
+    },
+    {
+     "page": 5,
+     "n_runs": 0,
+     "n_codes": 0,
+     "images": []
+    },
+    {
+     "page": 6,
+     "n_runs": 0,
+     "n_codes": 0,
+     "images": []
+    },
+    {
+     "page": 7,
+     "n_runs": 0,
+     "n_codes": 0,
+     "images": []
+    },
+    {
+     "page": 8,
+     "n_runs": 0,
+     "n_codes": 0,
+     "images": []
+    },
+    {
+     "page": 9,
+     "n_runs": 0,
+     "n_codes": 0,
+     "images": []
+    },
+    {
+     "page": 10,
+     "n_runs": 0,
+     "n_codes": 0,
+     "images": []
+    }
+   ],
+   "n_codes": 0,
+   "form_ids": []
+  },
+  "kinyu_001-1": {
+   "sha256": "15f1874c67264a5b8d87ed8800f37e9f527e96a46ec6fda5239f00f82a503a99",
+   "enc": {
+    "obj": 44,
+    "V": 4,
+    "R": 4,
+    "AESV2": true,
+    "P": -1068
+   },
+   "key_ok": true,
+   "n_pages": 2,
+   "per_page": [
+    {
+     "page": 1,
+     "n_runs": 82,
+     "n_codes": 0,
+     "images": []
+    },
+    {
+     "page": 2,
+     "n_runs": 85,
+     "n_codes": 0,
+     "images": []
+    }
+   ],
+   "n_codes": 0,
+   "form_ids": []
+  },
+  "kinyu_O1-1": {
+   "sha256": "10f878d9502ff67d943330b75fa0c0b604c277d12149093dd222155c17a32b35",
+   "enc": {
+    "obj": 136,
+    "V": 4,
+    "R": 4,
+    "AESV2": true,
+    "P": -1068
+   },
+   "key_ok": true,
+   "n_pages": 1,
+   "per_page": [
+    {
+     "page": 1,
+     "n_runs": 124,
+     "n_codes": 1,
+     "images": []
+    }
+   ],
+   "n_codes": 1,
+   "form_ids": []
+  },
+  "k250630_01": {
+   "sha256": "40b6de59b2fb5bdcb83028f31b32f1049cc970ad1ebdca55b40c598a65c2519d",
+   "enc": {
+    "obj": 1601,
+    "V": 4,
+    "R": 4,
+    "AESV2": true,
+    "P": -1068
+   },
+   "key_ok": true,
+   "n_pages": 8,
+   "per_page": [
+    {
+     "page": 1,
+     "n_runs": 131,
+     "n_codes": 0,
+     "images": []
+    },
+    {
+     "page": 2,
+     "n_runs": 139,
+     "n_codes": 0,
+     "images": []
+    },
+    {
+     "page": 3,
+     "n_runs": 141,
+     "n_codes": 0,
+     "images": []
+    },
+    {
+     "page": 4,
+     "n_runs": 142,
+     "n_codes": 0,
+     "images": []
+    },
+    {
+     "page": 5,
+     "n_runs": 46,
+     "n_codes": 0,
+     "images": []
+    },
+    {
+     "page": 6,
+     "n_runs": 20,
+     "n_codes": 0,
+     "images": []
+    },
+    {
+     "page": 7,
+     "n_runs": 7,
+     "n_codes": 0,
+     "images": []
+    },
+    {
+     "page": 8,
+     "n_runs": 40,
+     "n_codes": 0,
+     "images": []
+    }
+   ],
+   "n_codes": 0,
+   "form_ids": []
+  },
+  "tebiki_003": {
+   "sha256": "e3a89abd687f659d190e7ae2da9e4554b5b9f52158903345b699c852717c1226",
+   "enc": {
+    "obj": 405,
+    "V": 5,
+    "R": 6,
+    "AESV2": false,
+    "unsupported": true
+   },
+   "key_ok": null,
+   "n_pages": 0,
+   "per_page": [],
+   "n_codes": 0,
+   "form_ids": []
+  }
+ },
+ "checks": [
+  {
+   "label": "10.pdf 暗号 AESV2・鍵 OK",
+   "pass": true,
+   "detail": "{'obj': 63, 'V': 4, 'R': 4, 'AESV2': True, 'P': -1068}"
+  },
+  {
+   "label": "10.pdf 欄コードの数 253",
+   "pass": true,
+   "detail": "253"
+  },
+  {
+   "label": "10.pdf 様式ID NTA0KOA210010110〜040110",
+   "pass": true,
+   "detail": "['NTA0KOA210010110', 'NTA0KOA210020110', 'NTA0KOA210030110', 'NTA0KOA210040110']"
+  },
+  {
+   "label": "10.pdf 印字「青色申告特別控除については、「決算の手引き」の「青色申告…」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf 印字「登録番号を記載する場合は上段に、法人番号を記載する場合は下段に記入し…」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf 印字「なお、登録番号を記載する場合には、先頭に「T」を付けてください…」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf 印字「平成19年４月１日以後に取得した減価償却資産について定率法を採用する…」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf 印字「65万円又は55万円の青色申告特別控除を受ける人は必ず記入してくださ…」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf 印字「それ以外の人でも分かる箇所はできるだけ記入してください…」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf 印字「「元入金」は、「期首の資産の総額」から「期首の負債の総額」を差し引い…」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf 印字「原価計算を行っていない人は、記入する必要はありません。…」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf 印字「欄の金額は、1ページの「損益計算書」の欄に移記してください。…」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf 印字「貸倒引当金、専従者給与や３ページの割増（特別）償却以外の特典を利用す…」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf 印字「（１ページの「損益計算書」の欄の金額を書いてください。）…」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf 版の表示「令和五年分以降用」（漢数字）がテキスト層にある",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf 1ページに G01 がある（ページごとの振り直し）",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf 2ページに G01 がある（ページごとの振り直し）",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf 3ページに G01 がある（ページごとの振り直し）",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf 4ページに G01 がある（ページごとの振り直し）",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p1 G01 行番号1・売上（収入）金額",
+   "pass": true,
+   "detail": "row=1 left=売上（収入）金額1（雑収入を含む）"
+  },
+  {
+   "label": "10.pdf p1 G02 行番号2・期首商品",
+   "pass": true,
+   "detail": "row=2 left=期首商品（製品）2棚卸高"
+  },
+  {
+   "label": "10.pdf p1 G03 行番号3・仕入金額",
+   "pass": true,
+   "detail": "row=3 left=仕入金額3（製品製造原価）"
+  },
+  {
+   "label": "10.pdf p1 G04 行番号4・小計",
+   "pass": true,
+   "detail": "row=4 left=23小計4（ ＋ ）"
+  },
+  {
+   "label": "10.pdf p1 G05 行番号5・期末商品",
+   "pass": true,
+   "detail": "row=5 left=期末商品（製品）5棚卸高"
+  },
+  {
+   "label": "10.pdf p1 G06 行番号6・差引原価",
+   "pass": true,
+   "detail": "row=6 left=45差引原価（ － ）6"
+  },
+  {
+   "label": "10.pdf p1 G07 行番号7・差引金額",
+   "pass": true,
+   "detail": "row=7 left=差引金額716（ － ）"
+  },
+  {
+   "label": "10.pdf p1 G08 行番号8・租税公課",
+   "pass": true,
+   "detail": "row=8 left=8租税公課"
+  },
+  {
+   "label": "10.pdf p1 G09 行番号9・荷造運賃",
+   "pass": true,
+   "detail": "row=9 left=9荷造運賃"
+  },
+  {
+   "label": "10.pdf p1 G10 行番号10・水道光熱費",
+   "pass": true,
+   "detail": "row=10 left=10水道光熱費"
+  },
+  {
+   "label": "10.pdf p1 G11 行番号11・旅費交通費",
+   "pass": true,
+   "detail": "row=11 left=11旅費交通費"
+  },
+  {
+   "label": "10.pdf p1 G12 行番号12・通信費",
+   "pass": true,
+   "detail": "row=12 left=12通信費"
+  },
+  {
+   "label": "10.pdf p1 G13 行番号13・広告宣伝費",
+   "pass": true,
+   "detail": "row=13 left=13広告宣伝費"
+  },
+  {
+   "label": "10.pdf p1 G14 行番号14・接待交際費",
+   "pass": true,
+   "detail": "row=14 left=14接待交際費"
+  },
+  {
+   "label": "10.pdf p1 G15 行番号15・損害保険料",
+   "pass": true,
+   "detail": "row=15 left=15損害保険料"
+  },
+  {
+   "label": "10.pdf p1 G16 行番号16・修繕費",
+   "pass": true,
+   "detail": "row=16 left=16修繕費"
+  },
+  {
+   "label": "10.pdf p1 G17 行番号17・消耗品費",
+   "pass": true,
+   "detail": "row=17 left=金額171消耗品費"
+  },
+  {
+   "label": "10.pdf p1 G18 行番号18・減価償却費",
+   "pass": true,
+   "detail": "row=18 left=（製品）182減価償却費"
+  },
+  {
+   "label": "10.pdf p1 G19 行番号19・福利厚生費",
+   "pass": true,
+   "detail": "row=19 left=193福利厚生費"
+  },
+  {
+   "label": "10.pdf p1 G20 行番号20・給料賃金",
+   "pass": true,
+   "detail": "row=20 left=23420給料賃金"
+  },
+  {
+   "label": "10.pdf p1 G21 行番号21・外注工賃",
+   "pass": true,
+   "detail": "row=21 left=（製品）215外注工賃"
+  },
+  {
+   "label": "10.pdf p1 G22 行番号22・利子割引料",
+   "pass": true,
+   "detail": "row=22 left=45226利子割引料"
+  },
+  {
+   "label": "10.pdf p1 G23 行番号23・地代家賃",
+   "pass": true,
+   "detail": "row=23 left=723地代家賃6"
+  },
+  {
+   "label": "10.pdf p1 G24 行番号24・貸倒金",
+   "pass": true,
+   "detail": "row=24 left=824貸倒金"
+  },
+  {
+   "label": "10.pdf p1 G25 行番号25・（空欄）",
+   "pass": true,
+   "detail": "row=25 left=925"
+  },
+  {
+   "label": "10.pdf p1 G26 行番号26・（空欄）",
+   "pass": true,
+   "detail": "row=26 left=1026"
+  },
+  {
+   "label": "10.pdf p1 G27 行番号27・（空欄）",
+   "pass": true,
+   "detail": "row=27 left=2711"
+  },
+  {
+   "label": "10.pdf p1 G28 行番号28・（空欄）",
+   "pass": true,
+   "detail": "row=28 left=1228"
+  },
+  {
+   "label": "10.pdf p1 G29 行番号29・（空欄）",
+   "pass": true,
+   "detail": "row=29 left=1329"
+  },
+  {
+   "label": "10.pdf p1 G30 行番号30・（空欄）",
+   "pass": true,
+   "detail": "row=30 left=1430"
+  },
+  {
+   "label": "10.pdf p1 G31 行番号31・雑費",
+   "pass": true,
+   "detail": "row=31 left=1531雑費"
+  },
+  {
+   "label": "10.pdf p1 G32 行番号32・計",
+   "pass": true,
+   "detail": "row=32 left=1632計"
+  },
+  {
+   "label": "10.pdf p1 G33 行番号33・差引金額",
+   "pass": true,
+   "detail": "row=33 left=差引金額33732（ － ）"
+  },
+  {
+   "label": "10.pdf p1 G34 行番号34・貸倒引当金",
+   "pass": true,
+   "detail": "row=34 left=17貸倒引当金34"
+  },
+  {
+   "label": "10.pdf p1 G35 行番号35・（空欄）",
+   "pass": true,
+   "detail": "row=35 left=3518"
+  },
+  {
+   "label": "10.pdf p1 G36 行番号36・（空欄）",
+   "pass": true,
+   "detail": "row=36 left=3619"
+  },
+  {
+   "label": "10.pdf p1 G37 行番号37・計",
+   "pass": true,
+   "detail": "row=37 left=計3720"
+  },
+  {
+   "label": "10.pdf p1 G38 行番号38・専従者給与",
+   "pass": true,
+   "detail": "row=38 left=2138専従者給与"
+  },
+  {
+   "label": "10.pdf p1 G39 行番号39・貸倒引当金",
+   "pass": true,
+   "detail": "row=39 left=2239貸倒引当金"
+  },
+  {
+   "label": "10.pdf p1 G40 行番号40・（空欄）",
+   "pass": true,
+   "detail": "row=40 left=2340"
+  },
+  {
+   "label": "10.pdf p1 G41 行番号41・（空欄）",
+   "pass": true,
+   "detail": "row=41 left=2441"
+  },
+  {
+   "label": "10.pdf p1 G42 行番号42・計",
+   "pass": true,
+   "detail": "row=42 left=4225計"
+  },
+  {
+   "label": "10.pdf p1 G43 行番号43・青色申告特別控除前の所得金額",
+   "pass": true,
+   "detail": "row=43 left=青色申告特別控除前の所得金額2643423733（ ＋ － ）"
+  },
+  {
+   "label": "10.pdf p1 G44 行番号44・青色申告特別控除額",
+   "pass": true,
+   "detail": "row=44 left=27青色申告特別控除額44"
+  },
+  {
+   "label": "10.pdf p1 G45 行番号45・所得金額",
+   "pass": true,
+   "detail": "row=45 left=所得金額28454344（ － ）"
+  },
+  {
+   "label": "10.pdf p1 L01 がある",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p1 U01 がある",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p1 U02 がある",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p2 月1：売上 G01・仕入 G17 が同じ行",
+   "pass": true,
+   "detail": "(59.8, 480.6) (204.9, 480.6) row=1"
+  },
+  {
+   "label": "10.pdf p2 月2：売上 G02・仕入 G18 が同じ行",
+   "pass": true,
+   "detail": "(59.8, 462.9) (204.9, 462.9) row=2"
+  },
+  {
+   "label": "10.pdf p2 月3：売上 G03・仕入 G19 が同じ行",
+   "pass": true,
+   "detail": "(59.8, 445.5) (204.9, 445.5) row=3"
+  },
+  {
+   "label": "10.pdf p2 月4：売上 G04・仕入 G20 が同じ行",
+   "pass": true,
+   "detail": "(59.8, 427.7) (204.9, 427.7) row=4"
+  },
+  {
+   "label": "10.pdf p2 月5：売上 G05・仕入 G21 が同じ行",
+   "pass": true,
+   "detail": "(59.8, 409.8) (204.9, 409.8) row=5"
+  },
+  {
+   "label": "10.pdf p2 月6：売上 G06・仕入 G22 が同じ行",
+   "pass": true,
+   "detail": "(59.8, 392.1) (204.9, 392.1) row=6"
+  },
+  {
+   "label": "10.pdf p2 月7：売上 G07・仕入 G23 が同じ行",
+   "pass": true,
+   "detail": "(59.8, 374.5) (204.9, 374.5) row=7"
+  },
+  {
+   "label": "10.pdf p2 月8：売上 G08・仕入 G24 が同じ行",
+   "pass": true,
+   "detail": "(59.8, 356.8) (204.9, 356.8) row=8"
+  },
+  {
+   "label": "10.pdf p2 月9：売上 G09・仕入 G25 が同じ行",
+   "pass": true,
+   "detail": "(59.8, 339.0) (204.9, 339.0) row=9"
+  },
+  {
+   "label": "10.pdf p2 月10：売上 G10・仕入 G26 が同じ行",
+   "pass": true,
+   "detail": "(59.8, 321.3) (204.9, 321.3) row=10"
+  },
+  {
+   "label": "10.pdf p2 月11：売上 G11・仕入 G27 が同じ行",
+   "pass": true,
+   "detail": "(59.8, 303.8) (204.9, 303.8) row=11"
+  },
+  {
+   "label": "10.pdf p2 月12：売上 G12・仕入 G28 が同じ行",
+   "pass": true,
+   "detail": "(59.8, 285.9) (204.9, 285.9) row=12"
+  },
+  {
+   "label": "10.pdf p2 G13 家事消費等",
+   "pass": true,
+   "detail": "家事消費等"
+  },
+  {
+   "label": "10.pdf p2 G14 雑収入",
+   "pass": true,
+   "detail": "雑収入"
+  },
+  {
+   "label": "10.pdf p2 G15 計",
+   "pass": true,
+   "detail": "計"
+  },
+  {
+   "label": "10.pdf p2 G16 うち軽減税率対象",
+   "pass": true,
+   "detail": "うち軽減税率対象"
+  },
+  {
+   "label": "10.pdf p2 G29 計",
+   "pass": true,
+   "detail": "計"
+  },
+  {
+   "label": "10.pdf p2 G30 うち軽減税率対象",
+   "pass": true,
+   "detail": "うち軽減税率対象"
+  },
+  {
+   "label": "10.pdf p2 E05 がない",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p2 E01〜E04・E06〜E09 がある",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p2 G31〜G34 がある",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p2 G31・G32 は同じ行で E04 より下",
+   "pass": true,
+   "detail": "(458.1, 395.4) (715.8, 395.4) E04=(352.0, 429.7)"
+  },
+  {
+   "label": "10.pdf p2 G33・G34 は同じ行で E09 より下",
+   "pass": true,
+   "detail": "(458.0, 276.0) (715.8, 275.8) E09=(351.8, 293.0)"
+  },
+  {
+   "label": "10.pdf p2 最大の欄コード番号",
+   "pass": true,
+   "detail": "['G30', 'G31', 'G32', 'G33', 'G34']"
+  },
+  {
+   "label": "10.pdf p3 行 ('E13', 'E14', 'E15', 'G12', 'G13')：名・所在地・金額は同じ高さ、登録番号（上段）・法人番号（下段）は同じ x で上下",
+   "pass": true,
+   "detail": "[('E13', (31.9, 543.5)), ('E14', (166.5, 543.5)), ('E15', (360.9, 549.0)), ('G12', (360.9, 537.7)), ('G13', (468.8, 543.5))]"
+  },
+  {
+   "label": "10.pdf p3 行 ('E16', 'E17', 'E18', 'G14', 'G15')：名・所在地・金額は同じ高さ、登録番号（上段）・法人番号（下段）は同じ x で上下",
+   "pass": true,
+   "detail": "[('E16', (31.9, 521.4)), ('E17', (166.8, 521.4)), ('E18', (360.9, 526.7)), ('G14', (360.9, 515.6)), ('G15', (468.8, 521.4))]"
+  },
+  {
+   "label": "10.pdf p3 行 ('E19', 'E20', 'E21', 'G16', 'G17')：名・所在地・金額は同じ高さ、登録番号（上段）・法人番号（下段）は同じ x で上下",
+   "pass": true,
+   "detail": "[('E19', (31.9, 499.0)), ('E20', (166.8, 499.0)), ('E21', (360.9, 504.2)), ('G16', (360.9, 493.5)), ('G17', (468.8, 499.0))]"
+  },
+  {
+   "label": "10.pdf p3 行 ('E22', 'E23', 'E24', 'G18', 'G19')：名・所在地・金額は同じ高さ、登録番号（上段）・法人番号（下段）は同じ x で上下",
+   "pass": true,
+   "detail": "[('E22', (31.9, 476.9)), ('E23', (166.8, 476.9)), ('E24', (360.9, 482.3)), ('G18', (360.9, 471.4)), ('G19', (468.8, 476.9))]"
+  },
+  {
+   "label": "10.pdf p3 行 ('E25', 'E26', 'E27', 'G22', 'G23')：名・所在地・金額は同じ高さ、登録番号（上段）・法人番号（下段）は同じ x で上下",
+   "pass": true,
+   "detail": "[('E25', (31.9, 415.7)), ('E26', (166.8, 415.7)), ('E27', (360.9, 421.0)), ('G22', (360.9, 410.0)), ('G23', (468.8, 415.7))]"
+  },
+  {
+   "label": "10.pdf p3 行 ('E28', 'E29', 'E30', 'G24', 'G25')：名・所在地・金額は同じ高さ、登録番号（上段）・法人番号（下段）は同じ x で上下",
+   "pass": true,
+   "detail": "[('E28', (31.9, 392.9)), ('E29', (166.8, 392.9)), ('E30', (360.9, 398.6)), ('G24', (360.9, 387.4)), ('G25', (468.8, 392.9))]"
+  },
+  {
+   "label": "10.pdf p3 行 ('E31', 'E32', 'E33', 'G26', 'G27')：名・所在地・金額は同じ高さ、登録番号（上段）・法人番号（下段）は同じ x で上下",
+   "pass": true,
+   "detail": "[('E31', (31.9, 370.8)), ('E32', (166.8, 370.8)), ('E33', (360.9, 375.9)), ('G26', (360.9, 365.2)), ('G27', (468.8, 370.8))]"
+  },
+  {
+   "label": "10.pdf p3 行 ('E34', 'E35', 'E36', 'G28', 'G29')：名・所在地・金額は同じ高さ、登録番号（上段）・法人番号（下段）は同じ x で上下",
+   "pass": true,
+   "detail": "[('E34', (31.9, 348.6)), ('E35', (166.8, 348.6)), ('E36', (360.9, 354.1)), ('G28', (360.9, 342.8)), ('G29', (468.8, 348.6))]"
+  },
+  {
+   "label": "10.pdf p3 G20 上記以外の売上先の計",
+   "pass": true,
+   "detail": "上記以外の売上先の計"
+  },
+  {
+   "label": "10.pdf p3 G30 上記以外の仕入先の計",
+   "pass": true,
+   "detail": "上記以外の仕入先の計"
+  },
+  {
+   "label": "10.pdf p3 E12 本年中における特殊事情（見出しの下）",
+   "pass": true,
+   "detail": "本年中における特殊事情「」を付けてください"
+  },
+  {
+   "label": "10.pdf p3 G21 「計（1）」",
+   "pass": true,
+   "detail": "計（1）"
+  },
+  {
+   "label": "10.pdf p3 G31 「計（6）」",
+   "pass": true,
+   "detail": "計（6）"
+  },
+  {
+   "label": "10.pdf p3 減価償却 7 行：(E0n 名称, M0n 取得年月, G0n 取得価額) n=1〜7",
+   "pass": true,
+   "detail": "[]"
+  },
+  {
+   "label": "10.pdf p3 E08〜E11・M08 がない",
+   "pass": true,
+   "detail": "['E01', 'E02', 'E03', 'E04', 'E05', 'E06', 'E07', 'E12', 'E13', 'E14', 'E15', 'E16', 'E17', 'E18', 'E19', 'E20', 'E21', 'E22', 'E23', 'E24', 'E25', 'E26', 'E27', 'E28', 'E29', 'E30', 'E31', 'E32', 'E33', 'E34', 'E35', 'E36', 'M01', 'M02', 'M03', 'M04', 'M05', 'M06', 'M07']"
+  },
+  {
+   "label": "10.pdf p4 行の数 25",
+   "pass": true,
+   "detail": "[447.5, 430.8, 414.2, 397.5, 380.8, 364.2, 347.5, 330.8, 314.2, 297.5, 280.8, 264.2, 247.5, 230.8, 214.2, 197.5, 180.8, 164.2, 147.5, 130.8, 114.2, 97.5, 80.8, 63.9, 47.9]"
+  },
+  {
+   "label": "10.pdf p4 貸借対照表の欄コードの配置（公開資料 §6.4 の表）",
+   "pass": true,
+   "detail": "{}"
+  },
+  {
+   "label": "10.pdf p4 資産 行1 現金",
+   "pass": true,
+   "detail": "現　　　　　金"
+  },
+  {
+   "label": "10.pdf p4 資産 行2 当座預金",
+   "pass": true,
+   "detail": "当　座　預　金"
+  },
+  {
+   "label": "10.pdf p4 資産 行3 定期預金",
+   "pass": true,
+   "detail": "定　期　預　金"
+  },
+  {
+   "label": "10.pdf p4 資産 行4 その他の預金",
+   "pass": true,
+   "detail": "その他の預金"
+  },
+  {
+   "label": "10.pdf p4 資産 行5 受取手形",
+   "pass": true,
+   "detail": "受　取　手　形"
+  },
+  {
+   "label": "10.pdf p4 資産 行6 売掛金",
+   "pass": true,
+   "detail": "売　  掛　  金"
+  },
+  {
+   "label": "10.pdf p4 資産 行7 有価証券",
+   "pass": true,
+   "detail": "有　価　証　券"
+  },
+  {
+   "label": "10.pdf p4 資産 行8 棚卸資産",
+   "pass": true,
+   "detail": "棚　卸　資　産"
+  },
+  {
+   "label": "10.pdf p4 資産 行9 前払金",
+   "pass": true,
+   "detail": "前　　払　　金"
+  },
+  {
+   "label": "10.pdf p4 資産 行10 貸付金",
+   "pass": true,
+   "detail": "貸　　付　  金"
+  },
+  {
+   "label": "10.pdf p4 資産 行11 建物",
+   "pass": true,
+   "detail": "建　　　　　物"
+  },
+  {
+   "label": "10.pdf p4 資産 行12 建物附属設備",
+   "pass": true,
+   "detail": "建物附属設備"
+  },
+  {
+   "label": "10.pdf p4 資産 行13 機械装置",
+   "pass": true,
+   "detail": "機　械　装　置"
+  },
+  {
+   "label": "10.pdf p4 資産 行14 車両運搬具",
+   "pass": true,
+   "detail": "車 両 運 搬 具"
+  },
+  {
+   "label": "10.pdf p4 資産 行15 工具器具備品",
+   "pass": true,
+   "detail": "工具 器具 備品"
+  },
+  {
+   "label": "10.pdf p4 資産 行16 土地",
+   "pass": true,
+   "detail": "土　　　　　地"
+  },
+  {
+   "label": "10.pdf p4 資産 行17 空欄",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p4 資産 行18 空欄",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p4 資産 行19 空欄",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p4 資産 行20 空欄",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p4 資産 行21 空欄",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p4 資産 行22 空欄",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p4 資産 行23 空欄",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p4 資産 行24 事業主貸",
+   "pass": true,
+   "detail": "事　業　主　貸"
+  },
+  {
+   "label": "10.pdf p4 資産 行25 合計",
+   "pass": true,
+   "detail": "合　　　　　計"
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行1 支払手形",
+   "pass": true,
+   "detail": "支　払　手　形"
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行2 買掛金",
+   "pass": true,
+   "detail": "買　　掛　　金"
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行3 借入金",
+   "pass": true,
+   "detail": "借　　入　　金"
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行4 未払金",
+   "pass": true,
+   "detail": "未　　払　　金"
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行5 前受金",
+   "pass": true,
+   "detail": "前　　受　　金"
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行6 預り金",
+   "pass": true,
+   "detail": "預　　り　　金"
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行7 空欄",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行8 空欄",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行9 空欄",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行10 空欄",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行11 空欄",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行12 空欄",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行13 空欄",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行14 貸倒引当金",
+   "pass": true,
+   "detail": "貸倒引当金"
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行15 空欄",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行16 空欄",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行17 空欄",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行18 空欄",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行19 空欄",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行20 空欄",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行21 空欄",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行22 事業主借",
+   "pass": true,
+   "detail": "事　業　主　借"
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行23 元入金",
+   "pass": true,
+   "detail": "元　　入　　金"
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行24 青色申告特別控除前の所得金額",
+   "pass": true,
+   "detail": "青色申告特別控除前の所得金額"
+  },
+  {
+   "label": "10.pdf p4 負債・資本 行25 合計",
+   "pass": true,
+   "detail": "合　　　　　計"
+  },
+  {
+   "label": "05.pdf 欄コードの数 116",
+   "pass": true,
+   "detail": "116"
+  },
+  {
+   "label": "05.pdf 様式ID",
+   "pass": true,
+   "detail": "['NTA0KOA110010120', 'NTA0KOA110020120']"
+  },
+  {
+   "label": "05.pdf p2 行 ('E01', 'E02', 'E24', 'G21', 'G01')",
+   "pass": true,
+   "detail": "[('E01', (27.2, 543.2)), ('E02', (145.8, 543.2)), ('E24', (341.6, 548.1)), ('G21', (341.6, 538.3)), ('G01', (448.6, 543.5))]"
+  },
+  {
+   "label": "05.pdf p2 行 ('E03', 'E04', 'E25', 'G22', 'G02')",
+   "pass": true,
+   "detail": "[('E03', (27.2, 524.0)), ('E04', (145.8, 524.0)), ('E25', (341.6, 528.8)), ('G22', (341.6, 519.3)), ('G02', (448.6, 524.4))]"
+  },
+  {
+   "label": "05.pdf p2 行 ('E05', 'E06', 'E26', 'G23', 'G03')",
+   "pass": true,
+   "detail": "[('E05', (27.2, 504.7)), ('E06', (145.8, 504.7)), ('E26', (341.6, 509.6)), ('G23', (341.6, 500.0)), ('G03', (448.6, 505.1))]"
+  },
+  {
+   "label": "05.pdf p2 行 ('E07', 'E08', 'E27', 'G24', 'G04')",
+   "pass": true,
+   "detail": "[('E07', (27.2, 485.4)), ('E08', (145.8, 485.4)), ('E27', (341.6, 490.1)), ('G24', (341.6, 480.6)), ('G04', (448.6, 485.8))]"
+  },
+  {
+   "label": "05.pdf p2 行 ('E09', 'E10', 'E28', 'G25', 'G08')",
+   "pass": true,
+   "detail": "[('E09', (27.0, 418.7)), ('E10', (145.8, 418.7)), ('E28', (341.6, 423.5)), ('G25', (341.6, 414.0)), ('G08', (449.5, 418.9))]"
+  },
+  {
+   "label": "05.pdf p2 行 ('E11', 'E12', 'E29', 'G26', 'G09')",
+   "pass": true,
+   "detail": "[('E11', (27.0, 399.5)), ('E12', (145.8, 399.5)), ('E29', (341.6, 404.2)), ('G26', (341.6, 395.0)), ('G09', (449.5, 399.8))]"
+  },
+  {
+   "label": "05.pdf p2 行 ('E13', 'E14', 'E30', 'G27', 'G10')",
+   "pass": true,
+   "detail": "[('E13', (27.0, 380.2)), ('E14', (145.8, 380.2)), ('E30', (341.6, 385.0)), ('G27', (341.6, 375.4)), ('G10', (449.5, 380.4))]"
+  },
+  {
+   "label": "05.pdf p2 行 ('E15', 'E16', 'E31', 'G28', 'G11')",
+   "pass": true,
+   "detail": "[('E15', (27.0, 361.3)), ('E16', (145.8, 360.9)), ('E31', (341.6, 365.5)), ('G28', (341.6, 356.2)), ('G11', (449.5, 361.1))]"
+  },
+  {
+   "label": "05.pdf p2 G05 上記以外の売上先の計",
+   "pass": true,
+   "detail": "上記以外の売上先の計"
+  },
+  {
+   "label": "05.pdf p2 G06 軽減税率対象",
+   "pass": true,
+   "detail": "1右記のうち軽減税率対象(円)仕入金額の明細"
+  },
+  {
+   "label": "05.pdf p2 G07 計",
+   "pass": true,
+   "detail": "1右記のうち軽減税率対象1計（）(円)仕入金額の明細"
+  },
+  {
+   "label": "05.pdf p2 G12 上記以外の仕入先の計",
+   "pass": true,
+   "detail": "上記以外の仕入先の計"
+  },
+  {
+   "label": "05.pdf p2 G13 軽減税率対象",
+   "pass": true,
+   "detail": "右記のうち軽減税率対象6(円)減価償却費の計算"
+  },
+  {
+   "label": "05.pdf p2 G14 計",
+   "pass": true,
+   "detail": "右記のうち軽減税率対象6計（）6(円)減価償却費の計算"
+  },
+  {
+   "label": "05.pdf p2 E23 本年中における特殊事情（見出しの下）",
+   "pass": true,
+   "detail": "(円)本年中における特殊事情さい"
+  },
+  {
+   "label": "05.pdf p2 G06 「右記（1）のうち軽減税率対象」",
+   "pass": true,
+   "detail": "1右記のうち軽減税率対象(円)仕入金額の明細"
+  },
+  {
+   "label": "05.pdf p2 G13 「右記（6）のうち軽減税率対象」",
+   "pass": true,
+   "detail": "右記のうち軽減税率対象6(円)減価償却費の計算"
+  },
+  {
+   "label": "05.pdf p2 減価償却 6 行：(E17〜E22, M01〜M06, G15〜G20)",
+   "pass": true,
+   "detail": "[]"
+  },
+  {
+   "label": "09.pdf 欄コードの数 52",
+   "pass": true,
+   "detail": "52"
+  },
+  {
+   "label": "09.pdf 様式ID",
+   "pass": true,
+   "detail": "['NTA0KOA130010090', 'NTA0KOA130020090']"
+  },
+  {
+   "label": "09.pdf p1 G01 賃貸料",
+   "pass": true,
+   "detail": "1賃貸料"
+  },
+  {
+   "label": "09.pdf p1 G02 礼金",
+   "pass": true,
+   "detail": "礼金・権利金そ2更新料の"
+  },
+  {
+   "label": "09.pdf p1 G03 名義書換料",
+   "pass": true,
+   "detail": "入他名義書換料3その他の"
+  },
+  {
+   "label": "09.pdf p1 G04 小計",
+   "pass": true,
+   "detail": "金収小計（  ＋  ）234入"
+  },
+  {
+   "label": "09.pdf p1 G05 計",
+   "pass": true,
+   "detail": "額514計（  ＋  ）"
+  },
+  {
+   "label": "09.pdf p1 G06 給料賃金",
+   "pass": true,
+   "detail": "6給料賃金"
+  },
+  {
+   "label": "09.pdf p1 G07 減価償却費",
+   "pass": true,
+   "detail": "7減価償却費経"
+  },
+  {
+   "label": "09.pdf p1 G08 貸倒金",
+   "pass": true,
+   "detail": "8貸倒金"
+  },
+  {
+   "label": "09.pdf p1 G09 地代家賃",
+   "pass": true,
+   "detail": "9地代家賃"
+  },
+  {
+   "label": "09.pdf p1 G10 借入金利子",
+   "pass": true,
+   "detail": "借入金利子10"
+  },
+  {
+   "label": "09.pdf p1 G11 租税公課",
+   "pass": true,
+   "detail": "租税公課イそ"
+  },
+  {
+   "label": "09.pdf p1 G12 損害保険料",
+   "pass": true,
+   "detail": "損害保険料ロの"
+  },
+  {
+   "label": "09.pdf p1 G13 修繕費",
+   "pass": true,
+   "detail": "修繕費ハ他"
+  },
+  {
+   "label": "09.pdf p1 G15 雑費",
+   "pass": true,
+   "detail": "経雑費ホ"
+  },
+  {
+   "label": "09.pdf p1 G16 小計",
+   "pass": true,
+   "detail": "費費小計11イホ（　～　までの計）"
+  },
+  {
+   "label": "09.pdf p1 G17 経費計",
+   "pass": true,
+   "detail": "経費計1261011（　～　までの計＋　）"
+  },
+  {
+   "label": "09.pdf p1 G18 専従者控除前の所得金額",
+   "pass": true,
+   "detail": "専従者控除前の所得金額13512（－）"
+  },
+  {
+   "label": "09.pdf p1 G19 専従者控除",
+   "pass": true,
+   "detail": "専従者控除14"
+  },
+  {
+   "label": "09.pdf p1 G20 所得金額",
+   "pass": true,
+   "detail": "所得金額151314（－）"
+  },
+  {
+   "label": "09.pdf p1 G21 土地等を取得するために要した負債の利子",
+   "pass": true,
+   "detail": "土地等を取得するために要した負債の利子の額"
+  },
+  {
+   "label": "12.pdf 欄コードの数 168",
+   "pass": true,
+   "detail": "168"
+  },
+  {
+   "label": "12.pdf 様式ID",
+   "pass": true,
+   "detail": "['NTA0KOA220010080', 'NTA0KOA220020080', 'NTA0KOA220030080', 'NTA0KOA220040080']"
+  },
+  {
+   "label": "13.pdf 欄コードの数 65",
+   "pass": true,
+   "detail": "65"
+  },
+  {
+   "label": "13.pdf 様式ID",
+   "pass": true,
+   "detail": "['NTA0KOA230010090', 'NTA0KOA230020090']"
+  },
+  {
+   "label": "r07_01 テキスト層なし・2 ページ",
+   "pass": true,
+   "detail": "pages=2 runs=0 big_images=[(2481, 3508), (2481, 3508)]"
+  },
+  {
+   "label": "r07_02 テキスト層なし・1 ページ",
+   "pass": true,
+   "detail": "pages=1 runs=0 big_images=[(2481, 3508)]"
+  },
+  {
+   "label": "r07_03 テキスト層なし・2 ページ",
+   "pass": true,
+   "detail": "pages=2 runs=0 big_images=[(2481, 3508), (2481, 3508)]"
+  },
+  {
+   "label": "ref1 テキスト層なし・1 ページ",
+   "pass": true,
+   "detail": "pages=1 runs=0 big_images=[(2481, 3508)]"
+  },
+  {
+   "label": "ref3 テキスト層なし・1 ページ",
+   "pass": true,
+   "detail": "pages=1 runs=0 big_images=[(2481, 3508)]"
+  },
+  {
+   "label": "s017 テキスト層なし・1 ページ",
+   "pass": true,
+   "detail": "pages=1 runs=0 big_images=[(2481, 3508)]"
+  },
+  {
+   "label": "ref4 テキスト層なし・1 ページ",
+   "pass": true,
+   "detail": "pages=1 runs=0 big_images=[(2481, 3508)]"
+  },
+  {
+   "label": "k260831_02 テキスト層なし・10 ページ",
+   "pass": true,
+   "detail": "pages=10 runs=0 big_images=[]"
+  },
+  {
+   "label": "kinyu_001-1 文言「特親」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "kinyu_001-1 文言「万円単位」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "kinyu_001-1 文言「１」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "kinyu_001-1 文言「準確定」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "kinyu_O1-1 文言「G01」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "kinyu_O1-1 文言「G07」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "kinyu_O1-1 文言「G13」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "kinyu_O1-1 文言「所法」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "kinyu_O1-1 文言「措法」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "kinyu_O1-1 文言「震法」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "kinyu_O1-1 文言「差引金額の合計額」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "kinyu_O1-1 文言「G65」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "k250630_01 文言「医療費控除の明細書【令和７年分以降用】」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "k250630_01 文言「医療費控除の明細書（次葉）【令和６年分以降用】」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "k250630_01 文言「セルフメディケーション税制の明細書【令和６年分以降用】」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "k250630_01 文言「AI-OCR読取対応のための帳票のレイアウト変更」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "k250630_01 文言「改訂様式一覧」",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "label": "003.pdf は AES-256（V5・R6）",
+   "pass": true,
+   "detail": "{'obj': 405, 'V': 5, 'R': 6, 'AESV2': False, 'unsupported': True}"
+  },
+  {
+   "label": "一致 r07_01 ↔ ['t06_081', 't06_082']",
+   "pass": true,
+   "detail": "contents=[True, True] images=[True, True] big=[1, 1]"
+  },
+  {
+   "label": "一致 r07_02 ↔ ['t06_083']",
+   "pass": true,
+   "detail": "contents=[True] images=[True] big=[1]"
+  },
+  {
+   "label": "一致 r07_03 ↔ ['t06_085', 't06_086']",
+   "pass": true,
+   "detail": "contents=[True, True] images=[True, True] big=[1, 1]"
+  },
+  {
+   "label": "一致 r07_05 ↔ ['t06_093']",
+   "pass": true,
+   "detail": "contents=[True, True] images=[True, True] big=[0, 0]"
+  },
+  {
+   "label": "一致 r07_10 ↔ ['t06_096']",
+   "pass": true,
+   "detail": "contents=[True, True, True, True] images=[True, True, True, True] big=[0, 0, 0, 0]"
+  },
+  {
+   "label": "一致 ref1 ↔ ['t06_010-1']",
+   "pass": true,
+   "detail": "contents=[True] images=[True] big=[1]"
+  },
+  {
+   "label": "一致 s017 ↔ ['t06_010-3']",
+   "pass": true,
+   "detail": "contents=[True] images=[True] big=[1]"
+  }
+ ],
+ "p2_E_rows": {
+  "E01": [
+   [
+    352.0,
+    480.5
+   ],
+   ""
+  ],
+  "E02": [
+   [
+    352.0,
+    463.8
+   ],
+   ""
+  ],
+  "E03": [
+   [
+    352.0,
+    446.7
+   ],
+   ""
+  ],
+  "E04": [
+   [
+    352.0,
+    429.7
+   ],
+   ""
+  ],
+  "E06": [
+   [
+    351.8,
+    344.5
+   ],
+   ""
+  ],
+  "E07": [
+   [
+    351.8,
+    327.2
+   ],
+   ""
+  ],
+  "E08": [
+   [
+    351.8,
+    309.6
+   ],
+   ""
+  ],
+  "E09": [
+   [
+    351.8,
+    293.0
+   ],
+   ""
+  ]
+ },
+ "p2_sonota": [
+  [
+   2,
+   382.8,
+   412.5,
+   "その他（"
+  ]
+ ],
+ "O1-1_text_sample": [
+  "＜記入要領＞",
+  "令和８年９月",
+  "24",
+  "日以降",
+  "に",
+  "提出",
+  "する",
+  "申告書",
+  "について、",
+  "様式変更",
+  "により、",
+  "記",
+  "入",
+  "方法",
+  "が",
+  "変更",
+  "となった",
+  "部分",
+  "については、",
+  "以下",
+  "のとおりです。",
+  "記載",
+  "がないものについては、",
+  "申告",
+  "の",
+  "しかた",
+  "等",
+  "を",
+  "参照",
+  "し、",
+  "記入",
+  "してください。",
+  "【",
+  "申告書第",
+  "三",
+  "表",
+  "】",
+  "該当箇所",
+  "新様式",
+  "旧様式",
+  "記",
+  "入",
+  "方法",
+  "法",
+  "G",
+  "01",
+  "、",
+  "G",
+  "07",
+  "、",
+  "G",
+  "13",
+  "所法",
+  "所得税法",
+  "の",
+  "特例",
+  "について",
+  "記入",
+  "する",
+  "場合",
+  "は、",
+  "「１」を",
+  "記入",
+  "します。",
+  "特",
+  "例",
+  "適",
+  "用",
+  "条",
+  "文",
+  "措法",
+  "租税特別措置法",
+  "の",
+  "特例",
+  "について",
+  "記入",
+  "する",
+  "場合",
+  "は、",
+  "「",
+  "２",
+  "」を",
+  "記入",
+  "します。",
+  "震法",
+  "震災特例法",
+  "の",
+  "特例",
+  "について",
+  "記入",
+  "する",
+  "場合",
+  "は、",
+  "「３」",
+  "を",
+  "記入",
+  "します。",
+  "〇",
+  "分離課税",
+  "の",
+  "短期・長期譲渡所得",
+  "に",
+  "関",
+  "する",
+  "事項",
+  "「差引金額",
+  "の",
+  "合計額」",
+  "は",
+  "G65",
+  "欄",
+  "にのみ",
+  "記入",
+  "します。",
+  "その",
+  "右側",
+  "の",
+  "空欄",
+  "には",
+  "何",
+  "も",
+  "記入",
+  "しないでくださ",
+  "い。"
+ ],
+ "compare": [
+  {
+   "a": "r07_01",
+   "b": [
+    "t06_081",
+    "t06_082"
+   ],
+   "pages_a": 2,
+   "pages_b": 2,
+   "contents_equal": [
+    true,
+    true
+   ],
+   "large_images_equal": [
+    true,
+    true
+   ],
+   "large_images_per_page_a": [
+    1,
+    1
+   ],
+   "file_sha_equal": false
+  },
+  {
+   "a": "r07_02",
+   "b": [
+    "t06_083"
+   ],
+   "pages_a": 1,
+   "pages_b": 1,
+   "contents_equal": [
+    true
+   ],
+   "large_images_equal": [
+    true
+   ],
+   "large_images_per_page_a": [
+    1
+   ],
+   "file_sha_equal": false
+  },
+  {
+   "a": "r07_03",
+   "b": [
+    "t06_085",
+    "t06_086"
+   ],
+   "pages_a": 2,
+   "pages_b": 2,
+   "contents_equal": [
+    true,
+    true
+   ],
+   "large_images_equal": [
+    true,
+    true
+   ],
+   "large_images_per_page_a": [
+    1,
+    1
+   ],
+   "file_sha_equal": false
+  },
+  {
+   "a": "r07_05",
+   "b": [
+    "t06_093"
+   ],
+   "pages_a": 2,
+   "pages_b": 2,
+   "contents_equal": [
+    true,
+    true
+   ],
+   "large_images_equal": [
+    true,
+    true
+   ],
+   "large_images_per_page_a": [
+    0,
+    0
+   ],
+   "file_sha_equal": false
+  },
+  {
+   "a": "r07_10",
+   "b": [
+    "t06_096"
+   ],
+   "pages_a": 4,
+   "pages_b": 4,
+   "contents_equal": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "large_images_equal": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "large_images_per_page_a": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "file_sha_equal": false
+  },
+  {
+   "a": "ref1",
+   "b": [
+    "t06_010-1"
+   ],
+   "pages_a": 1,
+   "pages_b": 1,
+   "contents_equal": [
+    true
+   ],
+   "large_images_equal": [
+    true
+   ],
+   "large_images_per_page_a": [
+    1
+   ],
+   "file_sha_equal": false
+  },
+  {
+   "a": "s017",
+   "b": [
+    "t06_010-3"
+   ],
+   "pages_a": 1,
+   "pages_b": 1,
+   "contents_equal": [
+    true
+   ],
+   "large_images_equal": [
+    true
+   ],
+   "large_images_per_page_a": [
+    1
+   ],
+   "file_sha_equal": false
+  }
+ ]
+}

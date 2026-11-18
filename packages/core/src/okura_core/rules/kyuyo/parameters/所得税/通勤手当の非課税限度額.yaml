@@ -1,0 +1,367 @@
+description: >-
+  非課税とされる通勤手当の限度額（所得税法第9条第1項第5号、所得税法施行令第20条の2、所得税法施行規則第2条の2）。
+  限度額の版は「受けるべき通勤手当」の日（支給日）で選ぶ（年分では選ばない）ので、版ごとの値を子に持ち、版の適用開始日を葉に持つ
+  （所得税のパラメータの日付のキーは年分の1月1日：packages/core/tests/test_architecture.py）。令和7年分は改正前と令和7年4月以後の、
+  令和8年分は令和7年4月以後と令和8年4月以後の版を、支給日で使い分ける。
+距離の区分:
+  description: 第2号の距離の区分（片道。通勤経路に沿った長さ km）。2km 未満は第2号の対象外
+  2km以上10km未満:
+    以上:
+      description: 区分の下端（km）
+      metadata: &km
+        law: 所得税法施行令第20条の2第2号（距離の区分）
+        source_kind: 政令
+        unit: km
+        reference:
+          - docs/public-sources/20261111_impl-research_tsukin-laws-and-nta.md#2.2
+      values:
+        2025-01-01: {value: 2, metadata: {比較: 以上}}
+    未満:
+      description: 区分の上端（km）
+      metadata: *km
+      values:
+        2025-01-01: {value: 10, metadata: {比較: 未満}}
+  10km以上15km未満:
+    以上:
+      description: 区分の下端（km）
+      metadata: *km
+      values:
+        2025-01-01: {value: 10, metadata: {比較: 以上}}
+    未満:
+      description: 区分の上端（km）
+      metadata: *km
+      values:
+        2025-01-01: {value: 15, metadata: {比較: 未満}}
+  15km以上25km未満:
+    以上:
+      description: 区分の下端（km）
+      metadata: *km
+      values:
+        2025-01-01: {value: 15, metadata: {比較: 以上}}
+    未満:
+      description: 区分の上端（km）
+      metadata: *km
+      values:
+        2025-01-01: {value: 25, metadata: {比較: 未満}}
+  25km以上35km未満:
+    以上:
+      description: 区分の下端（km）
+      metadata: *km
+      values:
+        2025-01-01: {value: 25, metadata: {比較: 以上}}
+    未満:
+      description: 区分の上端（km）
+      metadata: *km
+      values:
+        2025-01-01: {value: 35, metadata: {比較: 未満}}
+  35km以上45km未満:
+    以上:
+      description: 区分の下端（km）
+      metadata: *km
+      values:
+        2025-01-01: {value: 35, metadata: {比較: 以上}}
+    未満:
+      description: 区分の上端（km）
+      metadata: *km
+      values:
+        2025-01-01: {value: 45, metadata: {比較: 未満}}
+  45km以上55km未満:
+    以上:
+      description: 区分の下端（km）
+      metadata: *km
+      values:
+        2025-01-01: {value: 45, metadata: {比較: 以上}}
+    未満:
+      description: 区分の上端（km）
+      metadata: *km
+      values:
+        2025-01-01: {value: 55, metadata: {比較: 未満}}
+  55km以上65km未満:
+    以上:
+      description: 区分の下端（km）
+      metadata: *km
+      values:
+        2025-01-01: {value: 55, metadata: {比較: 以上}}
+    未満:
+      description: 区分の上端（km）
+      metadata: *km
+      values:
+        2025-01-01: {value: 65, metadata: {比較: 未満}}
+  65km以上75km未満:
+    以上:
+      description: 区分の下端（km）
+      metadata: *km
+      values:
+        2025-01-01: {value: 65, metadata: {比較: 以上}}
+    未満:
+      description: 区分の上端（km）
+      metadata: *km
+      values:
+        2025-01-01: {value: 75, metadata: {比較: 未満}}
+  75km以上85km未満:
+    以上:
+      description: 区分の下端（km）
+      metadata: *km
+      values:
+        2025-01-01: {value: 75, metadata: {比較: 以上}}
+    未満:
+      description: 区分の上端（km）
+      metadata: *km
+      values:
+        2025-01-01: {value: 85, metadata: {比較: 未満}}
+  85km以上95km未満:
+    以上:
+      description: 区分の下端（km）
+      metadata: *km
+      values:
+        2025-01-01: {value: 85, metadata: {比較: 以上}}
+    未満:
+      description: 区分の上端（km）
+      metadata: *km
+      values:
+        2025-01-01: {value: 95, metadata: {比較: 未満}}
+  95km以上:
+    以上:
+      description: 区分の下端（km）
+      metadata: *km
+      values:
+        2025-01-01: {value: 95, metadata: {比較: 以上}}
+版:
+  description: 支給日で選ぶ版。各版の値は所得税法施行令第20条の2 のその版の条文の値（一次情報の表：docs の §2.2）
+  改正前:
+    交通機関等の上限:
+      description: 交通機関・有料道路・定期乗車券と併用の号の上限（十五万円）
+      metadata: &v0
+        law: 所得税法施行令第20条の2
+        source_kind: 政令
+        unit: 円
+        reference:
+        - docs/public-sources/20261111_impl-research_tsukin-laws-and-nta.md#2.2
+        - docs/public-sources/20261111_impl-research_tsukin-laws-and-nta.md#2.3
+        適用: 令和7年3月31日以前に受けるべき通勤手当（所得税法施行令の改正前の第20条の2）
+      values:
+        2025-01-01: {value: 150000}
+    駐車場等料金相当額の上限:
+      description: 駐車場等料金相当額の上限（改正前・R7 は駐車場等の号がなく 0）
+      metadata: *v0
+      values:
+        2025-01-01: {value: 0}
+    金額:
+      description: 第2号の距離の区分ごとの一月当たりの金額
+      2km以上10km未満:
+        description: 一月当たりの金額
+        metadata: *v0
+        values:
+          2025-01-01: {value: 4200}
+      10km以上15km未満:
+        description: 一月当たりの金額
+        metadata: *v0
+        values:
+          2025-01-01: {value: 7100}
+      15km以上25km未満:
+        description: 一月当たりの金額
+        metadata: *v0
+        values:
+          2025-01-01: {value: 12900}
+      25km以上35km未満:
+        description: 一月当たりの金額
+        metadata: *v0
+        values:
+          2025-01-01: {value: 18700}
+      35km以上45km未満:
+        description: 一月当たりの金額
+        metadata: *v0
+        values:
+          2025-01-01: {value: 24400}
+      45km以上55km未満:
+        description: 一月当たりの金額
+        metadata: *v0
+        values:
+          2025-01-01: {value: 28000}
+      55km以上65km未満:
+        description: 一月当たりの金額
+        metadata: *v0
+        values:
+          2025-01-01: {value: 31600}
+      65km以上75km未満:
+        description: 一月当たりの金額
+        metadata: *v0
+        values:
+          2025-01-01: {value: 31600}
+      75km以上85km未満:
+        description: 一月当たりの金額
+        metadata: *v0
+        values:
+          2025-01-01: {value: 31600}
+      85km以上95km未満:
+        description: 一月当たりの金額
+        metadata: *v0
+        values:
+          2025-01-01: {value: 31600}
+      95km以上:
+        description: 一月当たりの金額
+        metadata: *v0
+        values:
+          2025-01-01: {value: 31600}
+  令和7年4月以後:
+    適用開始日:
+      description: この版を適用する受けるべき日の始まり（文字列。日付のキーでなく値で持つ）
+      metadata: &v1
+        law: 所得税法施行令第20条の2
+        source_kind: 政令
+        unit: 円
+        reference:
+        - docs/public-sources/20261111_impl-research_tsukin-laws-and-nta.md#2.2
+        - docs/public-sources/20261111_impl-research_tsukin-laws-and-nta.md#2.3
+        適用: 令和7年4月1日以後に受けるべき通勤手当（令和7年政令第380号附則②）
+        施行日: 2025-11-20
+      values:
+        2025-01-01: {value: "2025-04-01"}
+    交通機関等の上限:
+      description: 交通機関・有料道路・定期乗車券と併用の号の上限（十五万円）
+      metadata: *v1
+      values:
+        2025-01-01: {value: 150000}
+    駐車場等料金相当額の上限:
+      description: 駐車場等料金相当額の上限（改正前・R7 は駐車場等の号がなく 0）
+      metadata: *v1
+      values:
+        2025-01-01: {value: 0}
+    金額:
+      description: 第2号の距離の区分ごとの一月当たりの金額
+      2km以上10km未満:
+        description: 一月当たりの金額
+        metadata: *v1
+        values:
+          2025-01-01: {value: 4200}
+      10km以上15km未満:
+        description: 一月当たりの金額
+        metadata: *v1
+        values:
+          2025-01-01: {value: 7300}
+      15km以上25km未満:
+        description: 一月当たりの金額
+        metadata: *v1
+        values:
+          2025-01-01: {value: 13500}
+      25km以上35km未満:
+        description: 一月当たりの金額
+        metadata: *v1
+        values:
+          2025-01-01: {value: 19700}
+      35km以上45km未満:
+        description: 一月当たりの金額
+        metadata: *v1
+        values:
+          2025-01-01: {value: 25900}
+      45km以上55km未満:
+        description: 一月当たりの金額
+        metadata: *v1
+        values:
+          2025-01-01: {value: 32300}
+      55km以上65km未満:
+        description: 一月当たりの金額
+        metadata: *v1
+        values:
+          2025-01-01: {value: 38700}
+      65km以上75km未満:
+        description: 一月当たりの金額
+        metadata: *v1
+        values:
+          2025-01-01: {value: 38700}
+      75km以上85km未満:
+        description: 一月当たりの金額
+        metadata: *v1
+        values:
+          2025-01-01: {value: 38700}
+      85km以上95km未満:
+        description: 一月当たりの金額
+        metadata: *v1
+        values:
+          2025-01-01: {value: 38700}
+      95km以上:
+        description: 一月当たりの金額
+        metadata: *v1
+        values:
+          2025-01-01: {value: 38700}
+  令和8年4月以後:
+    適用開始日:
+      description: この版を適用する受けるべき日の始まり（文字列。日付のキーでなく値で持つ）
+      metadata: &v2
+        law: 所得税法施行令第20条の2
+        source_kind: 政令
+        unit: 円
+        reference:
+        - docs/public-sources/20261111_impl-research_tsukin-laws-and-nta.md#2.2
+        - docs/public-sources/20261111_impl-research_tsukin-laws-and-nta.md#2.3
+        適用: 令和8年4月1日以後に受けるべき通勤手当（令和8年政令第93号附則第4条）
+        施行日: 2026-04-01
+      values:
+        2025-01-01: {value: "2026-04-01"}
+    交通機関等の上限:
+      description: 交通機関・有料道路・定期乗車券と併用の号の上限（十五万円）
+      metadata: *v2
+      values:
+        2025-01-01: {value: 150000}
+    駐車場等料金相当額の上限:
+      description: 駐車場等料金相当額の上限（改正前・R7 は駐車場等の号がなく 0）
+      metadata: *v2
+      values:
+        2025-01-01: {value: 5000}
+    金額:
+      description: 第2号の距離の区分ごとの一月当たりの金額
+      2km以上10km未満:
+        description: 一月当たりの金額
+        metadata: *v2
+        values:
+          2025-01-01: {value: 4200}
+      10km以上15km未満:
+        description: 一月当たりの金額
+        metadata: *v2
+        values:
+          2025-01-01: {value: 7300}
+      15km以上25km未満:
+        description: 一月当たりの金額
+        metadata: *v2
+        values:
+          2025-01-01: {value: 13500}
+      25km以上35km未満:
+        description: 一月当たりの金額
+        metadata: *v2
+        values:
+          2025-01-01: {value: 19700}
+      35km以上45km未満:
+        description: 一月当たりの金額
+        metadata: *v2
+        values:
+          2025-01-01: {value: 25900}
+      45km以上55km未満:
+        description: 一月当たりの金額
+        metadata: *v2
+        values:
+          2025-01-01: {value: 32300}
+      55km以上65km未満:
+        description: 一月当たりの金額
+        metadata: *v2
+        values:
+          2025-01-01: {value: 38700}
+      65km以上75km未満:
+        description: 一月当たりの金額
+        metadata: *v2
+        values:
+          2025-01-01: {value: 45700}
+      75km以上85km未満:
+        description: 一月当たりの金額
+        metadata: *v2
+        values:
+          2025-01-01: {value: 52700}
+      85km以上95km未満:
+        description: 一月当たりの金額
+        metadata: *v2
+        values:
+          2025-01-01: {value: 59600}
+      95km以上:
+        description: 一月当たりの金額
+        metadata: *v2
+        values:
+          2025-01-01: {value: 66400}

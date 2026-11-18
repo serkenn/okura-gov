@@ -1,0 +1,1972 @@
+{
+ "egov_text_dir": ".work/text/20261109-181533_R2X_hoken-kifu_verify_egov",
+ "web_text_dir": ".work/text/20261109-181534_R2X_hoken-kifu_verify_web",
+ "n": 237,
+ "ng": 6,
+ "checks": [
+  {
+   "id": "ver_shotoku_2024-12-31",
+   "doc": "M-HKF §1",
+   "claim": "shotoku asof=2024-12-31: 340AC0000000033_20240612_506AC0000000047 PreviousEnforced sha=9af089a685c8f0ca",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_shotoku_2025-12-31",
+   "doc": "M-HKF §1",
+   "claim": "shotoku asof=2025-12-31: 340AC0000000033_20251218_507AC0000000013 PreviousEnforced sha=84a2235cb4437184",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_shotoku_2026-03-31",
+   "doc": "M-HKF §1",
+   "claim": "shotoku asof=2026-03-31: 340AC0000000033_20260101_507AC0000000013 PreviousEnforced sha=82aa4ab37e1bfd1e",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_shotoku_2026-04-01",
+   "doc": "M-HKF §1",
+   "claim": "shotoku asof=2026-04-01: 340AC0000000033_20260401_508AC0000000012 PreviousEnforced sha=71d18be7c42df610",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_shotoku_2026-12-31",
+   "doc": "M-HKF §1",
+   "claim": "shotoku asof=2026-12-31: 340AC0000000033_20261201_508AC0000000012 UnEnforced sha=47792299f0fb5a74",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_shotoku_2027-01-01",
+   "doc": "M-HKF §1",
+   "claim": "shotoku asof=2027-01-01: 340AC0000000033_20270101_508AC0000000012 UnEnforced sha=d4bf435220bc0b0c",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_shotoku-rei_2025-12-31",
+   "doc": "M-HKF §1",
+   "claim": "shotoku-rei asof=2025-12-31: 340CO0000000096_20251201_507CO0000000120 PreviousEnforced sha=e972344f436ecd9b",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_shotoku-rei_2026-12-31",
+   "doc": "M-HKF §1",
+   "claim": "shotoku-rei asof=2026-12-31: 340CO0000000096_20261201_508CO0000000093 UnEnforced sha=cd63914bb5962edf",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_shotoku-rei_2027-01-01",
+   "doc": "M-HKF §1",
+   "claim": "shotoku-rei asof=2027-01-01: 340CO0000000096_20270101_508CO0000000093 UnEnforced sha=f4965711894ea1c7",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_shotoku-ki_2025-12-31",
+   "doc": "M-HKF §1",
+   "claim": "shotoku-ki asof=2025-12-31: 340M50000040011_20251201_507M60000040018 PreviousEnforced sha=16358c775e2d1dcc",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_shotoku-ki_2026-12-31",
+   "doc": "M-HKF §1",
+   "claim": "shotoku-ki asof=2026-12-31: 340M50000040011_20261211_508M60000040017 UnEnforced sha=9ba37bf34afed1f9",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_shotoku-ki_2027-01-01",
+   "doc": "M-HKF §1",
+   "claim": "shotoku-ki asof=2027-01-01: 340M50000040011_20270101_508M60000040017 UnEnforced sha=1600117df38c4463",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_sochi_2025-12-31",
+   "doc": "M-HKF §1",
+   "claim": "sochi asof=2025-12-31: 332AC0000000026_20251231_507AC1000000081 PreviousEnforced sha=ef95d90f7bf57e18",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_sochi_2026-01-01",
+   "doc": "M-HKF §1",
+   "claim": "sochi asof=2026-01-01: 332AC0000000026_20260101_507AC0000000041 PreviousEnforced sha=fc120ad551878b61",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_sochi_2026-03-31",
+   "doc": "M-HKF §1",
+   "claim": "sochi asof=2026-03-31: 332AC0000000026_20260101_507AC0000000041 PreviousEnforced sha=fc120ad551878b61",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_sochi_2026-04-01",
+   "doc": "M-HKF §1",
+   "claim": "sochi asof=2026-04-01: 332AC0000000026_20260401_508AC0000000012 PreviousEnforced sha=d7499813f8851511",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_sochi_2026-11-09",
+   "doc": "M-HKF §1",
+   "claim": "sochi asof=2026-11-09: 332AC0000000026_20261101_507AC0000000013 CurrentEnforced sha=e6e6013bbc0608c6",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_sochi_2026-12-31",
+   "doc": "M-HKF §1",
+   "claim": "sochi asof=2026-12-31: 332AC0000000026_20261204_508AC0000000012 UnEnforced sha=763fce2df2b1e709",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_sochi_2027-01-01",
+   "doc": "M-HKF §1",
+   "claim": "sochi asof=2027-01-01: 332AC0000000026_20270101_508AC0000000012 UnEnforced sha=8c6ee577201c3be0",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_chiho_2025-12-31",
+   "doc": "M-HKF §1",
+   "claim": "chiho asof=2025-12-31: 325AC0000000226_20251212_507AC0000000087 PreviousEnforced sha=0deae64106b42fdb",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_chiho_2026-01-01",
+   "doc": "M-HKF §1",
+   "claim": "chiho asof=2026-01-01: 325AC0000000226_20260101_507AC0000000041 PreviousEnforced sha=ba0a40e550be7762",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_chiho_2026-03-31",
+   "doc": "M-HKF §1",
+   "claim": "chiho asof=2026-03-31: 325AC0000000226_20260101_507AC0000000041 PreviousEnforced sha=ba0a40e550be7762",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_chiho_2026-04-01",
+   "doc": "M-HKF §1",
+   "claim": "chiho asof=2026-04-01: 325AC0000000226_20260401_508AC0000000002 PreviousEnforced sha=06db2ba6ccfec62e",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_chiho_2026-11-09",
+   "doc": "M-HKF §1",
+   "claim": "chiho asof=2026-11-09: 325AC0000000226_20261101_508AC0000000002 CurrentEnforced sha=3dd29e0078bf24e0",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_chiho_2027-01-01",
+   "doc": "M-HKF §1",
+   "claim": "chiho asof=2027-01-01: 325AC0000000226_20270101_508AC0000000002 UnEnforced sha=ee21722ce5fd1561",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_chiho-rei_2026-11-09",
+   "doc": "M-HKF §1",
+   "claim": "chiho-rei asof=2026-11-09: 325CO0000000245_20261101_508CO0000000083 CurrentEnforced sha=9bc03b230fb0ed10",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ver_chiho-rei_2027-01-01",
+   "doc": "M-HKF §1",
+   "claim": "chiho-rei asof=2027-01-01: 325CO0000000245_20270101_508CO0000000083 UnEnforced sha=962bfc48e43c49b4",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "revcount_shotoku",
+   "doc": "M-HKF §1",
+   "claim": "改正履歴（2025-01-01 以後）shotoku 29件",
+   "ok": true,
+   "detail": {
+    "got": 29
+   }
+  },
+  {
+   "id": "revcount_shotoku-rei",
+   "doc": "M-HKF §1",
+   "claim": "改正履歴（2025-01-01 以後）shotoku-rei 16件",
+   "ok": true,
+   "detail": {
+    "got": 16
+   }
+  },
+  {
+   "id": "revcount_sochi",
+   "doc": "M-HKF §1",
+   "claim": "改正履歴（2025-01-01 以後）sochi 44件",
+   "ok": true,
+   "detail": {
+    "got": 44
+   }
+  },
+  {
+   "id": "revcount_chiho",
+   "doc": "M-HKF §1",
+   "claim": "改正履歴（2025-01-01 以後）chiho 67件",
+   "ok": true,
+   "detail": {
+    "got": 67
+   }
+  },
+  {
+   "id": "rev_r6_8",
+   "doc": "M-HKF §1・PS-HKL §9",
+   "claim": "所法の改正 340AC0000000033_20260401_506AC0000000008（令和六年法律第八号、施行 2026-04-01）",
+   "ok": true,
+   "detail": [
+    {
+     "law_revision_id": "340AC0000000033_20260401_506AC0000000008",
+     "amendment_promulgate_date": "2024-03-30",
+     "amendment_enforcement_date": "2026-04-01",
+     "amendment_law_title": "所得税法等の一部を改正する法律",
+     "amendment_law_num": "令和六年法律第八号",
+     "current_revision_status": "PreviousEnforced"
+    }
+   ]
+  },
+  {
+   "id": "koeki_shiko",
+   "doc": "PS-HKL §1・§9",
+   "claim": "公益信託に関する法律（令和6年法律第30号）の施行日 2026-04-01（e-Gov の同法の改正履歴に、施行 2026-04-01 の版がある）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "same_shotoku_72",
+   "doc": "M-HKF §2・PS-HKL §1",
+   "claim": "所法第72条は 2024-12-31〜2027-01-01 の版で同文",
+   "ok": true,
+   "detail": [
+    "110fdd1edc05",
+    "110fdd1edc05",
+    "110fdd1edc05",
+    "110fdd1edc05",
+    "110fdd1edc05",
+    "110fdd1edc05"
+   ]
+  },
+  {
+   "id": "same_shotoku_75",
+   "doc": "M-HKF §2・PS-HKL §1",
+   "claim": "所法第75条は 2024-12-31〜2027-01-01 の版で同文",
+   "ok": true,
+   "detail": [
+    "53840e60f397",
+    "53840e60f397",
+    "53840e60f397",
+    "53840e60f397",
+    "53840e60f397",
+    "53840e60f397"
+   ]
+  },
+  {
+   "id": "same_shotoku_76",
+   "doc": "M-HKF §2・PS-HKL §1",
+   "claim": "所法第76条は 2024-12-31〜2027-01-01 の版で同文",
+   "ok": true,
+   "detail": [
+    "54e784b0471d",
+    "54e784b0471d",
+    "54e784b0471d",
+    "54e784b0471d",
+    "54e784b0471d",
+    "54e784b0471d"
+   ]
+  },
+  {
+   "id": "same_shotoku_77",
+   "doc": "M-HKF §2・PS-HKL §1",
+   "claim": "所法第77条は 2024-12-31〜2027-01-01 の版で同文",
+   "ok": true,
+   "detail": [
+    "8f1c46d4c89a",
+    "8f1c46d4c89a",
+    "8f1c46d4c89a",
+    "8f1c46d4c89a",
+    "8f1c46d4c89a",
+    "8f1c46d4c89a"
+   ]
+  },
+  {
+   "id": "same_h18_10_10",
+   "doc": "M-HKF §2",
+   "claim": "平成18年法律第10号附則第10条は同文",
+   "ok": true,
+   "detail": [
+    "339cd6fe4530",
+    "339cd6fe4530",
+    "339cd6fe4530",
+    "339cd6fe4530",
+    "339cd6fe4530",
+    "339cd6fe4530"
+   ]
+  },
+  {
+   "id": "chg_shotoku_78",
+   "doc": "M-HKF §2・§3.2",
+   "claim": "所法第78条は 2026-03-31 と 2026-04-01 の間で変わる",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chg_shotoku_87",
+   "doc": "M-HKF §2",
+   "claim": "所法第87条は 2024-12-31→2025-12-31 で「特定親族特別控除」が加わる",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "same_rei_206",
+   "doc": "M-HKF §2・PS-HKL §2.2",
+   "claim": "所令第206条は3つの版で同文",
+   "ok": true,
+   "detail": [
+    "a280882ade29",
+    "a280882ade29",
+    "a280882ade29"
+   ]
+  },
+  {
+   "id": "same_rei_208_2",
+   "doc": "M-HKF §2・PS-HKL §2.2",
+   "claim": "所令第208_2条は3つの版で同文",
+   "ok": true,
+   "detail": [
+    "18ac6d01ba7b",
+    "18ac6d01ba7b",
+    "18ac6d01ba7b"
+   ]
+  },
+  {
+   "id": "same_rei_208_3",
+   "doc": "M-HKF §2・PS-HKL §2.2",
+   "claim": "所令第208_3条は3つの版で同文",
+   "ok": true,
+   "detail": [
+    "26b397776c5a",
+    "26b397776c5a",
+    "26b397776c5a"
+   ]
+  },
+  {
+   "id": "same_rei_208_4",
+   "doc": "M-HKF §2・PS-HKL §2.2",
+   "claim": "所令第208_4条は3つの版で同文",
+   "ok": true,
+   "detail": [
+    "e55477ebd0e2",
+    "e55477ebd0e2",
+    "e55477ebd0e2"
+   ]
+  },
+  {
+   "id": "same_rei_208_5",
+   "doc": "M-HKF §2・PS-HKL §2.2",
+   "claim": "所令第208_5条は3つの版で同文",
+   "ok": true,
+   "detail": [
+    "ac809869e6cc",
+    "ac809869e6cc",
+    "ac809869e6cc"
+   ]
+  },
+  {
+   "id": "same_rei_208_6",
+   "doc": "M-HKF §2・PS-HKL §2.2",
+   "claim": "所令第208_6条は3つの版で同文",
+   "ok": true,
+   "detail": [
+    "edeb46287a86",
+    "edeb46287a86",
+    "edeb46287a86"
+   ]
+  },
+  {
+   "id": "same_rei_208_7",
+   "doc": "M-HKF §2・PS-HKL §2.2",
+   "claim": "所令第208_7条は3つの版で同文",
+   "ok": true,
+   "detail": [
+    "8f80a3e1ae29",
+    "8f80a3e1ae29",
+    "8f80a3e1ae29"
+   ]
+  },
+  {
+   "id": "same_rei_208_8",
+   "doc": "M-HKF §2・PS-HKL §2.2",
+   "claim": "所令第208_8条は3つの版で同文",
+   "ok": true,
+   "detail": [
+    "3fb6f35598ee",
+    "3fb6f35598ee",
+    "3fb6f35598ee"
+   ]
+  },
+  {
+   "id": "same_rei_209",
+   "doc": "M-HKF §2・PS-HKL §2.2",
+   "claim": "所令第209条は3つの版で同文",
+   "ok": true,
+   "detail": [
+    "e392c5e08f33",
+    "e392c5e08f33",
+    "e392c5e08f33"
+   ]
+  },
+  {
+   "id": "same_rei_210",
+   "doc": "M-HKF §2・PS-HKL §2.2",
+   "claim": "所令第210条は3つの版で同文",
+   "ok": true,
+   "detail": [
+    "bbdb34cdde53",
+    "bbdb34cdde53",
+    "bbdb34cdde53"
+   ]
+  },
+  {
+   "id": "same_rei_210_2",
+   "doc": "M-HKF §2・PS-HKL §2.2",
+   "claim": "所令第210_2条は3つの版で同文",
+   "ok": true,
+   "detail": [
+    "5fa298c726fb",
+    "5fa298c726fb",
+    "5fa298c726fb"
+   ]
+  },
+  {
+   "id": "same_rei_211",
+   "doc": "M-HKF §2・PS-HKL §2.2",
+   "claim": "所令第211条は3つの版で同文",
+   "ok": true,
+   "detail": [
+    "6aa086566d99",
+    "6aa086566d99",
+    "6aa086566d99"
+   ]
+  },
+  {
+   "id": "same_rei_212",
+   "doc": "M-HKF §2・PS-HKL §2.2",
+   "claim": "所令第212条は3つの版で同文",
+   "ok": true,
+   "detail": [
+    "c53aa4265aac",
+    "c53aa4265aac",
+    "c53aa4265aac"
+   ]
+  },
+  {
+   "id": "same_rei_213",
+   "doc": "M-HKF §2・PS-HKL §2.2",
+   "claim": "所令第213条は3つの版で同文",
+   "ok": true,
+   "detail": [
+    "a3f1a7e83943",
+    "a3f1a7e83943",
+    "a3f1a7e83943"
+   ]
+  },
+  {
+   "id": "same_rei_214",
+   "doc": "M-HKF §2・PS-HKL §2.2",
+   "claim": "所令第214条は3つの版で同文",
+   "ok": true,
+   "detail": [
+    "dcedd234dbfb",
+    "dcedd234dbfb",
+    "dcedd234dbfb"
+   ]
+  },
+  {
+   "id": "same_rei_215",
+   "doc": "M-HKF §2・PS-HKL §2.2",
+   "claim": "所令第215条は3つの版で同文",
+   "ok": true,
+   "detail": [
+    "aac57743ce1b",
+    "aac57743ce1b",
+    "aac57743ce1b"
+   ]
+  },
+  {
+   "id": "same_rei_216",
+   "doc": "M-HKF §2・PS-HKL §2.2",
+   "claim": "所令第216条は3つの版で同文",
+   "ok": true,
+   "detail": [
+    "e68a2e12db60",
+    "e68a2e12db60",
+    "e68a2e12db60"
+   ]
+  },
+  {
+   "id": "same_rei_217",
+   "doc": "M-HKF §2・PS-HKL §2.2",
+   "claim": "所令第217条は3つの版で同文",
+   "ok": true,
+   "detail": [
+    "026fdfb9e975",
+    "026fdfb9e975",
+    "026fdfb9e975"
+   ]
+  },
+  {
+   "id": "same_rei_262",
+   "doc": "M-HKF §2・PS-HKL §2.2",
+   "claim": "所令第262条は3つの版で同文",
+   "ok": true,
+   "detail": [
+    "155fde9b87bc",
+    "155fde9b87bc",
+    "155fde9b87bc"
+   ]
+  },
+  {
+   "id": "rei205_amount",
+   "doc": "M-HKF §2・§3.4・PS-HKL §1・§6",
+   "claim": "所令第205条第1項：58万円以下（2025-12-31）→62万円以下（2026-12-31）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ki47_2_paras_r8",
+   "doc": "M-HKF §2",
+   "claim": "所規第47条の2：2025-12-31→2026-12-31 で変わるのは第3項（公益信託）だけ",
+   "ok": false,
+   "detail": {
+    "changed_paras": [
+     "3",
+     "11",
+     "13"
+    ]
+   }
+  },
+  {
+   "id": "ki47_2_paras_r9",
+   "doc": "M-HKF §2",
+   "claim": "所規第47条の2：2026-12-31→2027-01-01 で第14項が加わる",
+   "ok": true,
+   "detail": {
+    "changed_paras": [
+     "14",
+     "15"
+    ]
+   }
+  },
+  {
+   "id": "sochi_41_15_5_absent",
+   "doc": "M-HKF §2・PS-HKL §1",
+   "claim": "措法第41条の15の5 は 2025-12-31 の版にない",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "sochi_41_15_5_same",
+   "doc": "M-HKF §2・§3.1",
+   "claim": "措法第41条の15の5 は 2026-04-01 以後の版で同文",
+   "ok": true,
+   "detail": [
+    "11e77a8c9318",
+    "11e77a8c9318",
+    "11e77a8c9318",
+    "11e77a8c9318"
+   ]
+  },
+  {
+   "id": "sochi_41_15_5_same0",
+   "doc": "M-HKF §3.1",
+   "claim": "措法第41条の15の5 は 2026-01-01・2026-03-31 で同文（当初の文言）",
+   "ok": true,
+   "detail": [
+    "371257181acc",
+    "371257181acc"
+   ]
+  },
+  {
+   "id": "chg_sochi_41_18",
+   "doc": "M-HKF §2",
+   "claim": "措法第41_18 は 2025-12-31→2026-11-09 で変わる",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chg_sochi_41_18_2",
+   "doc": "M-HKF §2",
+   "claim": "措法第41_18_2 は 2025-12-31→2026-11-09 で変わる",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chg_sochi_41_18_3",
+   "doc": "M-HKF §2",
+   "claim": "措法第41_18_3 は 2025-12-31→2026-11-09 で変わる",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "sochi_41_18_nature",
+   "doc": "M-HKF §2",
+   "claim": "措法第41条の18〜第41条の18の3 の変更は「公益信託関係の文言」だけ",
+   "ok": false,
+   "detail": {
+    "41_18①（2026-01-01 から）": "公職の候補者が自らが代表者の特定政党支部にする寄附を除く文言が加わる",
+    "41_18②・41_18_2②・41_18_3①（2026-04-01 から）": "所法78③（特定公益信託）の引用の削除",
+    "41_18_3①二（2026-04-01 から）": "「学生等に対する修学の支援」→「学生に対する修学の支援」"
+   }
+  },
+  {
+   "id": "sochi_41_18_caps",
+   "doc": "PS-HKL §4",
+   "claim": "措法41の18・41の18の2・41の18の3 はいずれも「寄附金控除の特例又は所得税額の特別控除」を定める",
+   "ok": false,
+   "detail": {
+    "41_18": "（政治活動に関する寄附をした場合の寄附金控除の特例又は所得税額の特別控除）",
+    "41_18_2": "（認定特定非営利活動法人等に寄附をした場合の寄附金控除の特例又は所得税額の特別控除）",
+    "41_18_3": "（公益社団法人等に寄附をした場合の所得税額の特別控除）"
+   }
+  },
+  {
+   "id": "sochirei_41_15_5",
+   "doc": "PS-HKL §9・H H3",
+   "claim": "措令（asof 2026-11-09）に措法41の15の5 を引く規定はなく、措規は第19条の10（保険料控除申告書の記載事項）だけ（扶養親族の所属を定める規定は見つからない）",
+   "ok": true,
+   "detail": {
+    "措令": "332CO0000000043_20261101_507CO0000000127",
+    "措規": "332M50000040015_20261101_507M60000040026",
+    "措規の該当": [
+     "19_10"
+    ]
+   }
+  },
+  {
+   "id": "mhkf_hash_transcription",
+   "doc": "M-HKF §2",
+   "claim": "§2 の表の SHA-256（先頭8桁、26件）は担当の article_hashes.json と一致（転記の確認。値そのものは担当のテキスト化に依存）",
+   "ok": true,
+   "detail": []
+  },
+  {
+   "id": "chiho314_2_items_same",
+   "doc": "M-HKF §2・PS-HKL §1・§7",
+   "claim": "地法第314条の2第1項第1号〜第5号の3 は 3つの版で同文",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chiho314_2_diff_r8",
+   "doc": "M-HKF §2",
+   "claim": "地法第314条の2 の 2025-12-31→2026-11-09 の差分は第1項第10号の2・第11号・第12号・第6項・第8項・第10項・第11項だけ",
+   "ok": true,
+   "detail": {
+    "diff": [
+     [
+      "1",
+      "10_2"
+     ],
+     [
+      "1",
+      "11"
+     ],
+     [
+      "1",
+      "12"
+     ],
+     [
+      "10",
+      ""
+     ],
+     [
+      "11",
+      ""
+     ],
+     [
+      "6",
+      ""
+     ],
+     [
+      "8",
+      ""
+     ]
+    ]
+   }
+  },
+  {
+   "id": "chiho314_2_diff_r9",
+   "doc": "M-HKF §2",
+   "claim": "地法第314条の2 の 2026-11-09→2027-01-01 の差分は第1項第6号だけ",
+   "ok": true,
+   "detail": {
+    "diff": [
+     [
+      "1",
+      "6"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "chg_chiho_314_7",
+   "doc": "M-HKF §2",
+   "claim": "地法第314_7 は 2025-12-31・2026-11-09・2027-01-01 で互いに違う",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chg_chiho_37_2",
+   "doc": "M-HKF §2",
+   "claim": "地法第37_2 は 2025-12-31・2026-11-09・2027-01-01 で互いに違う",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chiho_suppl_5_5",
+   "doc": "M-HKF §2",
+   "claim": "地法原始附則第5条の5 は 2025-12-31=2026-11-09、2027-01-01 で変わる",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chiho_suppl_same_5_7",
+   "doc": "M-HKF §2・PS-HKL §8.3",
+   "claim": "地法原始附則第5_7 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "detail": [
+    "e6c05be83afe",
+    "e6c05be83afe",
+    "e6c05be83afe",
+    "e6c05be83afe"
+   ]
+  },
+  {
+   "id": "chiho_suppl_same_7",
+   "doc": "M-HKF §2・PS-HKL §8.3",
+   "claim": "地法原始附則第7 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "detail": [
+    "53cc56b8b671",
+    "53cc56b8b671",
+    "53cc56b8b671",
+    "53cc56b8b671"
+   ]
+  },
+  {
+   "id": "chiho_suppl_same_5_6",
+   "doc": "M-HKF §2・PS-HKL §8.3",
+   "claim": "地法原始附則第5_6 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "detail": [
+    "0e1cf43f064a",
+    "0e1cf43f064a",
+    "0e1cf43f064a",
+    "0e1cf43f064a"
+   ]
+  },
+  {
+   "id": "chiho_suppl_same_7_3",
+   "doc": "M-HKF §2・PS-HKL §8.3",
+   "claim": "地法原始附則第7_3 は 2025-12-31〜2027-01-01 で同文",
+   "ok": true,
+   "detail": [
+    "d13595d6f84f",
+    "d13595d6f84f",
+    "d13595d6f84f",
+    "d13595d6f84f"
+   ]
+  },
+  {
+   "id": "chiho_h18_7_5",
+   "doc": "M-HKF §2",
+   "claim": "平成18年法律第7号附則第5条は3つの版で同文",
+   "ok": true,
+   "detail": [
+    "1aba1b8184b9",
+    "1aba1b8184b9",
+    "1aba1b8184b9"
+   ]
+  },
+  {
+   "id": "chiho_h18_7_11",
+   "doc": "M-HKF §2",
+   "claim": "平成18年法律第7号附則第11条は3つの版で同文",
+   "ok": true,
+   "detail": [
+    "b7f0691e6cbc",
+    "b7f0691e6cbc",
+    "b7f0691e6cbc"
+   ]
+  },
+  {
+   "id": "chiho_kw_23",
+   "doc": "M-HKF §2・PS-HKL §1",
+   "claim": "地法で「二十三歳未満」を含むのは第34条と第314条の2 だけ、「四十一条の十五の五」は0件",
+   "ok": true,
+   "detail": {
+    "2025-12-31": [
+     [
+      [
+       "M",
+       "314_2"
+      ],
+      [
+       "M",
+       "34"
+      ]
+     ],
+     0
+    ],
+    "2026-11-09": [
+     [
+      [
+       "M",
+       "314_2"
+      ],
+      [
+       "M",
+       "34"
+      ]
+     ],
+     0
+    ],
+    "2027-01-01": [
+     [
+      [
+       "M",
+       "314_2"
+      ],
+      [
+       "M",
+       "34"
+      ]
+     ],
+     0
+    ]
+   }
+  },
+  {
+   "id": "s41155_orig",
+   "doc": "M-HKF §3.1・PS-HKL §2.3",
+   "claim": "当初の文言は「令和八年分」、判定日「令和八年十二月三十一日」",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "s41155_r8",
+   "doc": "M-HKF §3.1・PS-HKL §2.3・H H3",
+   "claim": "2026-04-01 以後の文言（令和8年分又は令和9年分、読替え、12月31日判定）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "s41155_p3",
+   "doc": "PS-HKL §2.3",
+   "claim": "第3項は所法190二ロ・196①・196①三・198④ を読み替える",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "r7_13_s1_2",
+   "doc": "M-HKF §3.1・PS-HKL §1",
+   "claim": "令和7年法律第13号附則第1条第2号（令和八年一月一日）ロに「同法第四十一条の十五の四の次に一条を加える改正規定」",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "s41155_suppl_none",
+   "doc": "M-HKF §3.1",
+   "claim": "措法の附則（改正附則を含む）に「四十一条の十五の五」を含む規定はない（asof 2026-11-09）",
+   "ok": true,
+   "detail": {
+    "hits": 0
+   }
+  },
+  {
+   "id": "ki47_3_24",
+   "doc": "PS-HKL §2.3",
+   "claim": "所規第47条第3項第24号（扶養親族の氏名・生年月日・続柄・個人番号）は 2026-01-01 の版から",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "text_76_1_1",
+   "doc": "PS-HKL §2〜§6",
+   "claim": "所法の文言 76_1_1",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "text_76_1_2",
+   "doc": "PS-HKL §2〜§6",
+   "claim": "所法の文言 76_1_2",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "text_76_1_3",
+   "doc": "PS-HKL §2〜§6",
+   "claim": "所法の文言 76_1_3",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "text_76_2",
+   "doc": "PS-HKL §2〜§6",
+   "claim": "所法の文言 76_2",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "text_76_3",
+   "doc": "PS-HKL §2〜§6",
+   "claim": "所法の文言 76_3",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "text_76_4",
+   "doc": "PS-HKL §2〜§6",
+   "claim": "所法の文言 76_4",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "text_76_5",
+   "doc": "PS-HKL §2〜§6",
+   "claim": "所法の文言 76_5",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "text_76_6",
+   "doc": "PS-HKL §2〜§6",
+   "claim": "所法の文言 76_6",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "text_76_8",
+   "doc": "PS-HKL §2〜§6",
+   "claim": "所法の文言 76_8",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "text_76_10",
+   "doc": "PS-HKL §2〜§6",
+   "claim": "所法の文言 76_10",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "text_76_11",
+   "doc": "PS-HKL §2〜§6",
+   "claim": "所法の文言 76_11",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "text_75_1",
+   "doc": "PS-HKL §2〜§6",
+   "claim": "所法の文言 75_1",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "text_75_2",
+   "doc": "PS-HKL §2〜§6",
+   "claim": "所法の文言 75_2",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "text_77_1",
+   "doc": "PS-HKL §2〜§6",
+   "claim": "所法の文言 77_1",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "text_77_2",
+   "doc": "PS-HKL §2〜§6",
+   "claim": "所法の文言 77_2",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "text_72_1",
+   "doc": "PS-HKL §2〜§6",
+   "claim": "所法の文言 72_1",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "text_78_old",
+   "doc": "PS-HKL §4",
+   "claim": "所法78（2026-03-31）：40/100・2千円・入学・特別の利益・旧第3項の特定公益信託",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "text_78_new",
+   "doc": "PS-HKL §4・M-HKF §3.2",
+   "claim": "所法78②四（2026-04-01）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "r6_8_suppl",
+   "doc": "M-HKF §3.2・PS-HKL §1",
+   "claim": "令和6年法律第8号附則第1条第9号（公益信託に関する法律の施行の日）イに所法78の改正規定、第3条第1項の経過措置",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "rei205_2",
+   "doc": "PS-HKL §6・H H10",
+   "claim": "所令205②：扶養等の居住者、配偶者は夫又は妻、その他は総所得金額等が最も大きい居住者",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "rei206",
+   "doc": "PS-HKL §6",
+   "claim": "所令206：①一〜四、②は第1号〜第3号、③直前の価額、1年（3年）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "rei208_2",
+   "doc": "PS-HKL §5",
+   "claim": "所令208の2：旧第二種共済契約",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "rei209",
+   "doc": "PS-HKL §2.2",
+   "claim": "所令209：保険期間5年未満の保険契約（見出し「生命保険料控除の対象とならない保険契約等」）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "rei217_koeki",
+   "doc": "PS-HKL §4（訂正後の文言）",
+   "claim": "所令217第3号：公益社団法人及び公益財団法人（所法78②三の特定公益増進法人）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "rei212",
+   "doc": "PS-HKL §2.2",
+   "claim": "所令212：法76⑧三の政令で定める要件",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "rei219",
+   "doc": "H H3",
+   "claim": "所令219：二以上の居住者がある場合の扶養親族及び特定親族の所属（法85⑥）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "rei262_1_4",
+   "doc": "PS-HKL §2.4",
+   "claim": "所令262①四：旧生命保険料は9千円を超える旧生命保険契約等に係るものに限る",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "rei262_1_5",
+   "doc": "PS-HKL §3",
+   "claim": "所令262①五：地震保険料（金額の例外なし）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "rei262_1_1",
+   "doc": "PS-HKL §6",
+   "claim": "所令262①一：やむを得ない支出の領収を証する書類",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "rei262_1_3_6",
+   "doc": "PS-HKL §4・§5",
+   "claim": "所令262①三（小規模企業共済等掛金の額）・六（特定寄附金の明細書その他）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ki47_2_1",
+   "doc": "PS-HKL §2.4",
+   "claim": "所規47の2①：保険契約者の氏名・該当する旨、個人年金は年金受取人の氏名・生年月日・支払開始日・支払期間・払込期間",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ki47_2_2",
+   "doc": "PS-HKL §3",
+   "claim": "所規47の2②：保険契約者の氏名、保険又は共済の種類及びその目的",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "ki47_2_3",
+   "doc": "PS-HKL §4",
+   "claim": "所規47の2③：受領した旨・額・年月日、公益信託の受託者、特定事業者（国税庁長官が指定）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "shotoku120_6",
+   "doc": "PS-HKL §2.4",
+   "claim": "所法120⑥（2027-01-01 の版）：明細書の添付で証明書類に代えられる",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "shotoku120_6_app",
+   "doc": "PS-HKL §2.4",
+   "claim": "令和8年法律第12号附則第10条第1項：令和9年1月1日以後に令和8年分以後の確定申告書を提出する場合に適用",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "shotoku2_1_37",
+   "doc": "PS-HKL §8.3",
+   "claim": "所法2①三十七：第二編第五章第二節第一款及び第二款の申告書（期限後申告書を含む）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "shotoku_120_127",
+   "doc": "M-HKF §3.5・PS-HKL §8.3",
+   "claim": "所法120〜123 は第一款、124〜127 は第二款",
+   "ok": true,
+   "detail": {
+    "120": "第二編　居住者の納税義務 / 第五章　申告、納付及び還付 / 第二節　確定申告並びにこれに伴う納付及び還付 / 第一款　確定申告",
+    "121": "第二編　居住者の納税義務 / 第五章　申告、納付及び還付 / 第二節　確定申告並びにこれに伴う納付及び還付 / 第一款　確定申告",
+    "122": "第二編　居住者の納税義務 / 第五章　申告、納付及び還付 / 第二節　確定申告並びにこれに伴う納付及び還付 / 第一款　確定申告",
+    "123": "第二編　居住者の納税義務 / 第五章　申告、納付及び還付 / 第二節　確定申告並びにこれに伴う納付及び還付 / 第一款　確定申告",
+    "124": "第二編　居住者の納税義務 / 第五章　申告、納付及び還付 / 第二節　確定申告並びにこれに伴う納付及び還付 / 第二款　死亡又は出国の場合の確定申告",
+    "125": "第二編　居住者の納税義務 / 第五章　申告、納付及び還付 / 第二節　確定申告並びにこれに伴う納付及び還付 / 第二款　死亡又は出国の場合の確定申告",
+    "126": "第二編　居住者の納税義務 / 第五章　申告、納付及び還付 / 第二節　確定申告並びにこれに伴う納付及び還付 / 第二款　死亡又は出国の場合の確定申告",
+    "127": "第二編　居住者の納税義務 / 第五章　申告、納付及び還付 / 第二節　確定申告並びにこれに伴う納付及び還付 / 第二款　死亡又は出国の場合の確定申告"
+   }
+  },
+  {
+   "id": "ichienmiman",
+   "doc": "M-HKF §3.5",
+   "claim": "「一円未満」：所法（2026-04-01）0件、所令（2026-12-31）は第319条の7第2項の1件だけ",
+   "ok": true,
+   "detail": {
+    "shotoku": 0,
+    "rei": [
+     [
+      "319_7",
+      "2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "shotoku85_6",
+   "doc": "PS-HKL §9",
+   "claim": "所法85⑥の文言",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "shotoku2_34",
+   "doc": "H H3",
+   "claim": "所法2①三十四：扶養親族の合計所得金額 58万円以下（2025-12-31）／62万円以下（2026-12-31）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "shotoku84_2",
+   "doc": "H H3",
+   "claim": "特定親族：合計所得金額 123万円以下で控除対象扶養親族に該当しない19歳以上23歳未満の親族（令和8年分の版も同じ）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "kiso_kojo",
+   "doc": "H H7・C C6",
+   "claim": "基礎控除：令和7年分 58万＋37万＝95万（合計所得132万円以下）、令和8年分 62万＋42万＝104万（489万円以下）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "h18_10_10_text",
+   "doc": "PS-HKL §3",
+   "claim": "平18法10附則10②：10年以上・平成19年1月1日以後に変更していない・1万円以下／1万5千円／5万円、③一の契約は一方",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "r7_120_s1",
+   "doc": "M-HKF §3.4",
+   "claim": "令和7年政令第120号附則第1条第1号（令和七年十二月一日）イに第205条第1項の改正規定",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "r7_120_s10_1",
+   "doc": "M-HKF §3.4・PS-HKL §1",
+   "claim": "同附則第10条第1項：令和7年分以後",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "r7_120_s10_2_scope",
+   "doc": "M-HKF §3.4・PS-HKL §1",
+   "claim": "同附則第10条第2項：施行日前に同年分の確定申告書を出した者（一般）は5年以内に更正の請求ができる",
+   "ok": false,
+   "detail": {
+    "原文の対象": "所得税法第百二十五条又は第百二十七条の規定による確定申告書を提出した者及び同日前に決定を受けた者"
+   }
+  },
+  {
+   "id": "r8_93_s1",
+   "doc": "M-HKF §3.4",
+   "claim": "令和8年政令第93号附則第1条第1号：第205条第1項の改正規定は令和八年十二月一日",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "r8_93_s8_1",
+   "doc": "M-HKF §3.4・PS-HKL §1",
+   "claim": "同附則第8条第1項：令和8年分以後",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "r8_93_s8_2_scope",
+   "doc": "M-HKF §3.4・PS-HKL §1",
+   "claim": "同附則第8条第2項：施行日前に同年分の確定申告書を出した者（一般）は5年以内に更正の請求ができる",
+   "ok": false,
+   "detail": {
+    "原文の対象": "所得税法第百二十五条又は第百二十七条の規定による確定申告書を提出した者及び同日前に決定を受けた者"
+   }
+  },
+  {
+   "id": "chirei48_6_2025-12-31",
+   "doc": "M-HKF §3.4・PS-HKL §1・§7",
+   "claim": "地令48の6①（asof 2025-12-31）：四十八万円以下",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chirei7_13_2025-12-31",
+   "doc": "PS-HKL §9（未読とされていた点）",
+   "claim": "地令7の13①（道府県民税、asof 2025-12-31）：四十八万円以下",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chirei48_6_2026-01-01",
+   "doc": "M-HKF §3.4・PS-HKL §1・§7",
+   "claim": "地令48の6①（asof 2026-01-01）：五十八万円以下",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chirei7_13_2026-01-01",
+   "doc": "PS-HKL §9（未読とされていた点）",
+   "claim": "地令7の13①（道府県民税、asof 2026-01-01）：五十八万円以下",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chirei48_6_2026-11-09",
+   "doc": "M-HKF §3.4・PS-HKL §1・§7",
+   "claim": "地令48の6①（asof 2026-11-09）：五十八万円以下",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chirei7_13_2026-11-09",
+   "doc": "PS-HKL §9（未読とされていた点）",
+   "claim": "地令7の13①（道府県民税、asof 2026-11-09）：五十八万円以下",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chirei48_6_2027-01-01",
+   "doc": "M-HKF §3.4・PS-HKL §1・§7",
+   "claim": "地令48の6①（asof 2027-01-01）：六十二万円以下",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chirei7_13_2027-01-01",
+   "doc": "PS-HKL §9（未読とされていた点）",
+   "claim": "地令7の13①（道府県民税、asof 2027-01-01）：六十二万円以下",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "r7_119",
+   "doc": "M-HKF §3.4",
+   "claim": "令和7年政令第119号附則第1条第1号（令和八年一月一日）に第48条の6第1項の改正規定、附則第6条第2項：令和8年度以後",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "r8_83",
+   "doc": "M-HKF §3.4",
+   "claim": "令和8年政令第83号附則第1条第1号（令和九年一月一日）に第48条の6第1項の改正規定、附則第5条第2項：令和9年度以後",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chiho314_2_5",
+   "doc": "PS-HKL §7",
+   "claim": "地法314の2①五：1万2千/3万2千/5万6千/2万8千、1万5千/4万/7万/3万5千、両方2万8千、合計7万",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chiho314_2_5_3",
+   "doc": "PS-HKL §7",
+   "claim": "地法314の2①五の三：2分の1、2万5千円",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chiho314_2_1",
+   "doc": "PS-HKL §7",
+   "claim": "地法314の2①一：第313条第10項の資産と政令で定める生活に通常必要でない資産を除く、10分の1・5万円",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chiho314_2_4",
+   "doc": "PS-HKL §7",
+   "claim": "地法314の2①四：支払った金額の合計額（小規模企業共済・企業型/個人型・条例の共済）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chiho314_2_p5_7_11",
+   "doc": "PS-HKL §7",
+   "claim": "地法314の2⑤（財形は適用しない）・⑦（附帯の新契約のみなし）・⑪（まず雑損控除額）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "h18_7_11_5",
+   "doc": "PS-HKL §7",
+   "claim": "平18法7附則11⑤：1/2・2万5千、5千円＋（超える額〔上限1万円〕の1/2）、両方2万5千",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chiho314_7_1",
+   "doc": "PS-HKL §8.1",
+   "claim": "地法314の7①：100分の30・2千円・100分の6（指定都市100分の8）・特例控除額を加算・所得割の額が上限",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chiho314_7_1_3",
+   "doc": "PS-HKL §8.1・M-HKF §3.3",
+   "claim": "地法314の7①三：所法78②二・三（2026-11-09）→二から四まで（2027-01-01）、市町村の条例で定めるもの",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chiho314_7_9",
+   "doc": "PS-HKL §8.1",
+   "claim": "地法314の7⑨：寄附金を支出した時に指定されているか",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chiho314_7_11",
+   "doc": "PS-HKL §8.2",
+   "claim": "地法314の7⑪（2026-11-09）：2千円超・5分の3（指定都市5分の4）・所得割の100分の20、表の割合85〜45、差引き負は100分の90",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chiho314_7_11_old",
+   "doc": "PS-HKL §1・§8.2・M-HKF §3.3",
+   "claim": "地法314の7⑪一の人的控除差調整額は 2026-03-31 まで「前条第一号イに掲げる金額」だけ、2026-04-01 から基礎控除−48万円を加える",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chiho314_7_0401_paras",
+   "doc": "M-HKF §3.3",
+   "claim": "地法314の7 の 2026-03-31→2026-04-01 の変更：第11項第1号のほか第4項〜第8項（指定の取消し）の整理（第2項第5号の項番号の引用も変わる）",
+   "ok": true,
+   "detail": {
+    "changed_paras": [
+     "2",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "11"
+    ]
+   }
+  },
+  {
+   "id": "chiho314_7_1101_paras",
+   "doc": "M-HKF §3.3",
+   "claim": "地法314の7 の 2026-04-01→2026-11-09 の差分は「第2項と第3項〜第8項」",
+   "ok": false,
+   "detail": {
+    "changed_paras": [
+     "2",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": "chiho314_7_11_r9",
+   "doc": "M-HKF §3.3・PS-HKL §1",
+   "claim": "地法314の7⑪（2027-01-01）：百十五万八千円（指定都市百五十四万四千円）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chiho37_2_11_r9",
+   "doc": "M-HKF §3.3・PS-HKL §1",
+   "claim": "地法37の2⑪（2027-01-01）：七十七万二千円（指定都市三十八万六千円）、5分の2（5分の1）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chiho37_2_1",
+   "doc": "PS-HKL §8.1",
+   "claim": "地法37の2①：100分の4（指定都市100分の2）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chiho_s5_5_r9",
+   "doc": "M-HKF §3.3",
+   "claim": "地法附則5の5①②（2027-01-01）も同じ額の上限",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chiho_s5_6_2",
+   "doc": "PS-HKL §8.2・M-HKC §6",
+   "claim": "地法附則5の6②：平成26年度から令和20年度、84.895〜44.055、49.16・59.37・74.685",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chiho_s7_3_2",
+   "doc": "PS-HKL §8.4・M-HKC §6",
+   "claim": "地法附則7の3②：平成28年度から令和20年度、84.895分の5.105 など",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chiho_s7_2_5",
+   "doc": "PS-HKL §8.4",
+   "claim": "地法附則7の2⑤（2026-04-01 以後）：区分と 85分の5〜57分の33（900万円超は1区分）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chiho_s7",
+   "doc": "PS-HKL §8.3・H H8",
+   "claim": "地法附則7⑧〜⑬（5以下・1月10日・1月31日・4つの無効事由）、道府県は⑥",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "chiho317_3",
+   "doc": "PS-HKL §8.3",
+   "claim": "地法317の3①（2027-01-01）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "r8_2_s1",
+   "doc": "M-HKF §3.3・PS-HKL §1",
+   "claim": "令和8年法律第2号附則第1条：原則 令和8年4月1日、第1号 令和8年10月1日、第2号 令和9年1月1日（314の7⑪の改正は第1号に係る部分を除く）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "r8_2_s3_11",
+   "doc": "M-HKF §3.3・PS-HKL §1",
+   "claim": "同附則第3条①⑤⑨・第11条①④⑧（令和8年度以後、令和10年度以後、百分の五十二・五）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_ta_1110",
+   "doc": "M-HKF §4",
+   "claim": "ta_1110: HTTP 200, Last-Modified Wed, 09 Sep 2026 01:00:17 GMT, SHA-256 377fee05900a97e3",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_ta_1135",
+   "doc": "M-HKF §4",
+   "claim": "ta_1135: HTTP 200, Last-Modified Wed, 09 Sep 2026 01:00:16 GMT, SHA-256 7feba875b3b0ce80",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_ta_1140",
+   "doc": "M-HKF §4",
+   "claim": "ta_1140: HTTP 200, Last-Modified Wed, 09 Sep 2026 01:00:16 GMT, SHA-256 20cf3d89f75dc48a",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_ta_1140_qa",
+   "doc": "M-HKF §4",
+   "claim": "ta_1140_qa: HTTP 200, Last-Modified Wed, 09 Sep 2026 01:00:16 GMT, SHA-256 a97fab46521400ee",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_ta_1141",
+   "doc": "M-HKF §4",
+   "claim": "ta_1141: HTTP 200, Last-Modified Wed, 09 Sep 2026 01:00:16 GMT, SHA-256 d413caed251207e9",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_ta_1145",
+   "doc": "M-HKF §4",
+   "claim": "ta_1145: HTTP 200, Last-Modified Wed, 09 Sep 2026 01:00:16 GMT, SHA-256 13e2dd00c0165c02",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_ta_1146",
+   "doc": "M-HKF §4",
+   "claim": "ta_1146: HTTP 200, Last-Modified Wed, 09 Sep 2026 01:00:16 GMT, SHA-256 6b6331a281b23362",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_ta_1150",
+   "doc": "M-HKF §4",
+   "claim": "ta_1150: HTTP 200, Last-Modified Wed, 09 Sep 2026 01:00:16 GMT, SHA-256 850e2be9456fb284",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_ta_1155",
+   "doc": "M-HKF §4",
+   "claim": "ta_1155: HTTP 200, Last-Modified Wed, 09 Sep 2026 01:00:15 GMT, SHA-256 6f2ea6b344610274",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_ta_1902",
+   "doc": "M-HKF §4",
+   "claim": "ta_1902: HTTP 200, Last-Modified Tue, 25 Aug 2026 05:00:01 GMT, SHA-256 27810fec98a6178b",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_shitsugi_05_74",
+   "doc": "M-HKF §4",
+   "claim": "shitsugi_05_74: HTTP 200, Last-Modified Wed, 03 Dec 2025 08:31:00 GMT, SHA-256 207e9fd72fffcb53",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_shitsugi_05_75",
+   "doc": "M-HKF §4",
+   "claim": "shitsugi_05_75: HTTP 200, Last-Modified Wed, 03 Dec 2025 08:31:00 GMT, SHA-256 c5be17f927c8aac7",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_shitsugi_05_76",
+   "doc": "M-HKF §4",
+   "claim": "shitsugi_05_76: HTTP 200, Last-Modified Wed, 03 Dec 2025 08:31:00 GMT, SHA-256 f78dbf2ed3d95c36",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_shitsugi_05_68",
+   "doc": "M-HKF §4",
+   "claim": "shitsugi_05_68: HTTP 200, Last-Modified Wed, 03 Dec 2025 08:31:01 GMT, SHA-256 4526423ea6edd742",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_shitsugi_05_05",
+   "doc": "M-HKF §4",
+   "claim": "shitsugi_05_05: HTTP 200, Last-Modified Wed, 03 Dec 2025 08:31:03 GMT, SHA-256 4cc1f311ae396d01",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_shitsugi_02_37",
+   "doc": "M-HKF §4",
+   "claim": "shitsugi_02_37: HTTP 200, Last-Modified Wed, 03 Dec 2025 08:31:06 GMT, SHA-256 f513bd5fb1d72336",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_shitsugi_gensen_03_35",
+   "doc": "M-HKF §4",
+   "claim": "shitsugi_gensen_03_35: HTTP 200, Last-Modified Wed, 03 Dec 2025 08:31:15 GMT, SHA-256 ca8f5848862b9fd1",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_kihon_16_01",
+   "doc": "M-HKF §4",
+   "claim": "kihon_16_01: HTTP 200, Last-Modified Thu, 18 Jan 2024 09:30:20 GMT, SHA-256 c00969ebe1eb83e0",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_kihon_16_03",
+   "doc": "M-HKF §4",
+   "claim": "kihon_16_03: HTTP 200, Last-Modified Thu, 18 Jan 2024 09:30:20 GMT, SHA-256 c26562a874bbead4",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_kihon_16_04",
+   "doc": "M-HKF §4",
+   "claim": "kihon_16_04: HTTP 200, Last-Modified Thu, 25 Dec 2025 01:00:05 GMT, SHA-256 771948518a019004",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_kihon_16_05",
+   "doc": "M-HKF §4",
+   "claim": "kihon_16_05: HTTP 200, Last-Modified Fri, 02 Oct 2026 08:30:04 GMT, SHA-256 50f0070469597674",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_kihon_16_06",
+   "doc": "M-HKF §4",
+   "claim": "kihon_16_06: HTTP 200, Last-Modified Tue, 25 Nov 2025 08:30:05 GMT, SHA-256 73c6009edd9c2ed3",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_nta_furusato",
+   "doc": "M-HKF §4",
+   "claim": "nta_furusato: HTTP 200, Last-Modified Tue, 17 Mar 2026 01:00:12 GMT, SHA-256 c5cafeaa8e304f71",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_nta_tokyo_onestop",
+   "doc": "M-HKF §4",
+   "claim": "nta_tokyo_onestop: HTTP 200, Last-Modified Tue, 17 Mar 2026 08:30:01 GMT, SHA-256 766cc4348aab3594",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_soumu_furusato_index",
+   "doc": "M-HKF §4",
+   "claim": "soumu_furusato_index: HTTP 200, Last-Modified Wed, 01 Oct 2025 00:14:28 GMT, SHA-256 1ac955a0b8c79972",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_soumu_mechanism",
+   "doc": "M-HKF §4",
+   "claim": "soumu_mechanism: HTTP 200, Last-Modified Sun, 08 Feb 2026 23:57:31 GMT, SHA-256 732a9085ddf7ecfb",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_nencho2026_index",
+   "doc": "M-HKF §4",
+   "claim": "nencho2026_index: HTTP 200, Last-Modified Fri, 16 Oct 2026 08:30:09 GMT, SHA-256 3e47f99112faf3ff",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_nencho2026_107pdf",
+   "doc": "M-HKF §4",
+   "claim": "nencho2026_107pdf: HTTP 200, Last-Modified Mon, 31 Aug 2026 08:30:11 GMT, SHA-256 38907ac31a3a50e0",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_nencho2026_105pdf",
+   "doc": "M-HKF §4",
+   "claim": "nencho2026_105pdf: HTTP 200, Last-Modified Thu, 24 Sep 2026 08:30:11 GMT, SHA-256 9460af44b13c8651",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "web_ta_genzai",
+   "doc": "M-HKF §4・PS-HKN 冒頭",
+   "claim": "TA 10ページとも「[令和8年4月1日現在法令等]」",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "title_kihon_16_01",
+   "doc": "M-HKF §4",
+   "claim": "kihon_16_01 の題名に「法第72条《雑損控除》関係」",
+   "ok": true,
+   "detail": "法第72条《雑損控除》関係｜国税庁"
+  },
+  {
+   "id": "title_kihon_16_03",
+   "doc": "M-HKF §4",
+   "claim": "kihon_16_03 の題名に「法第76条《生命保険料控除》関係」",
+   "ok": true,
+   "detail": "法第76条《生命保険料控除》関係｜国税庁"
+  },
+  {
+   "id": "title_kihon_16_04",
+   "doc": "M-HKF §4",
+   "claim": "kihon_16_04 の題名に「法第77条《地震保険料控除》関係」",
+   "ok": true,
+   "detail": "法第77条《地震保険料控除》関係｜国税庁"
+  },
+  {
+   "id": "title_kihon_16_05",
+   "doc": "M-HKF §4",
+   "claim": "kihon_16_05 の題名に「法第78条《寄附金控除》関係」",
+   "ok": true,
+   "detail": "法第78条《寄附金控除》関係｜国税庁"
+  },
+  {
+   "id": "title_kihon_16_06",
+   "doc": "M-HKF §4",
+   "claim": "kihon_16_06 の題名に「法第79条《障害者控除》関係」",
+   "ok": true,
+   "detail": "法第79条《障害者控除》関係｜国税庁"
+  },
+  {
+   "id": "title_nta_furusato",
+   "doc": "M-HKF §4",
+   "claim": "nta_furusato の題名に「ふるさと納税をされた方へ｜令和7年分 確定申告特集」",
+   "ok": true,
+   "detail": "ふるさと納税をされた方へ｜令和7年分 確定申告特集"
+  },
+  {
+   "id": "title_soumu_mechanism",
+   "doc": "M-HKF §4",
+   "claim": "soumu_mechanism の題名に「税金の控除について」",
+   "ok": true,
+   "detail": "総務省｜ふるさと納税のしくみ｜税金の控除について"
+  },
+  {
+   "id": "title_nencho2026_index",
+   "doc": "M-HKF §4",
+   "claim": "nencho2026_index の題名に「令和8年分　年末調整のしかた」",
+   "ok": true,
+   "detail": "令和8年分　年末調整のしかた｜国税庁"
+  },
+  {
+   "id": "nencho_toc",
+   "doc": "M-HKF §4",
+   "claim": "年末調整のしかた目次：2-3 は 21から28、2 は 8から15",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_ta_1140",
+   "doc": "PS-HKN §1.1",
+   "claim": "ta_1140 の引用・要約（14か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_ta_1140_qa",
+   "doc": "PS-HKN §1.2",
+   "claim": "ta_1140_qa の引用・要約（5か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_ta_1141",
+   "doc": "PS-HKN §1.3",
+   "claim": "ta_1141 の引用・要約（5か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_shitsugi_05_74",
+   "doc": "PS-HKN §1.4",
+   "claim": "shitsugi_05_74 の引用・要約（3か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_shitsugi_05_75",
+   "doc": "PS-HKN §1.4",
+   "claim": "shitsugi_05_75 の引用・要約（1か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_shitsugi_05_76",
+   "doc": "PS-HKN §1.4",
+   "claim": "shitsugi_05_76 の引用・要約（2か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_shitsugi_gensen_03_35",
+   "doc": "PS-HKN §1.4",
+   "claim": "shitsugi_gensen_03_35 の引用・要約（3か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_kihon_16_03",
+   "doc": "PS-HKN §1.5",
+   "claim": "kihon_16_03 の引用・要約（7か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_ta_1145",
+   "doc": "PS-HKN §2.1",
+   "claim": "ta_1145 の引用・要約（7か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_ta_1146",
+   "doc": "PS-HKN §2.2",
+   "claim": "ta_1146 の引用・要約（2か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_shitsugi_05_68",
+   "doc": "PS-HKN §2.3",
+   "claim": "shitsugi_05_68 の引用・要約（2か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_kihon_16_04",
+   "doc": "PS-HKN §2.4",
+   "claim": "kihon_16_04 の引用・要約（4か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_ta_1150",
+   "doc": "PS-HKN §3.1",
+   "claim": "ta_1150 の引用・要約（7か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_ta_1155",
+   "doc": "PS-HKN §3.2",
+   "claim": "ta_1155 の引用・要約（10か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_nta_furusato",
+   "doc": "PS-HKN §3.3",
+   "claim": "nta_furusato の引用・要約（2か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_nta_tokyo_onestop",
+   "doc": "PS-HKN §3.3",
+   "claim": "nta_tokyo_onestop の引用・要約（3か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_soumu_mechanism",
+   "doc": "PS-HKN §3.4",
+   "claim": "soumu_mechanism の引用・要約（8か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_shitsugi_02_37",
+   "doc": "PS-HKN §3.5",
+   "claim": "shitsugi_02_37 の引用・要約（2か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_kihon_16_05",
+   "doc": "PS-HKN §3.6",
+   "claim": "kihon_16_05 の引用・要約（9か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_ta_1135",
+   "doc": "PS-HKN §4",
+   "claim": "ta_1135 の引用・要約（5か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_ta_1110",
+   "doc": "PS-HKN §5.1",
+   "claim": "ta_1110 の引用・要約（11か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_shitsugi_05_05",
+   "doc": "PS-HKN §5.2",
+   "claim": "shitsugi_05_05 の引用・要約（1か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_kihon_16_01",
+   "doc": "PS-HKN §5.3",
+   "claim": "kihon_16_01 の引用・要約（7か所）",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "id": "quote_ta_1902",
+   "doc": "PS-HKN §5.4",
+   "claim": "ta_1902 の引用・要約（1か所）",
+   "ok": true,
+   "detail": null
+  }
+ ]
+}

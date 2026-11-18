@@ -1,0 +1,1698 @@
+{
+ "run_at": "20261109-161219",
+ "download_dir": ".work\\downloads\\20261109-161219_IMPL_output_verify_web",
+ "pages": [
+  {
+   "key": "system",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/sodan/system.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/sodan/system.htm",
+   "status": 200,
+   "last_modified": "Thu, 05 Nov 2026 05:00:01 GMT",
+   "bytes": 14429,
+   "sha256": "64d023cca886bdda16c8272d0aaadb9bf5b985a770af262356d4d051dc95c748",
+   "prev_sha256": "64d023cca886bdda16c8272d0aaadb9bf5b985a770af262356d4d051dc95c748",
+   "same_as_prev": true,
+   "checks": [
+    {
+     "needle": "国税庁では、令和８年９月24日に国税システムを更改しました。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "国税システムの更改について|国税庁ホーム税の情報・手続・用紙国税システムの更改について国税システムの更改について国税庁では、令和8年9月24日に国税システムを更改しました。納税者の皆様にご理解いただきたいことをお知らせします。申告書等の様式が変わりました一部の書面申告書や申請・届出書、法定調"
+    },
+    {
+     "needle": "一部の書面申告書や申請・届出書、法定調書の様式が新しくなりました。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "月24日に国税システムを更改しました。納税者の皆様にご理解いただきたいことをお知らせします。申告書等の様式が変わりました一部の書面申告書や申請・届出書、法定調書の様式が新しくなりました。詳細は、様式変更された申告書等の公表時期・受付開始時期(Excel/107KB)や、書面提出に当たって(PDF/119K"
+    },
+    {
+     "needle": "様式の受付開始後は、最新の様式で提出をお願いします。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "た申告書等の公表時期・受付開始時期(Excel/107KB)や、書面提出に当たって(PDF/119KB)をご覧ください。様式の受付開始後は、最新の様式で提出をお願いします。なお、様式の変更に伴い、申告書の控用はなくなり、申告書の配色は原則、白黒になりました。※e-Tax申告を推進しています。"
+    },
+    {
+     "needle": "様式の変更に伴い、申告書の控用はなくなり、申告書の配色は原則、白黒になりました。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": ")や、書面提出に当たって(PDF/119KB)をご覧ください。様式の受付開始後は、最新の様式で提出をお願いします。なお、様式の変更に伴い、申告書の控用はなくなり、申告書の配色は原則、白黒になりました。※e-Tax申告を推進しています。ベンダーソフトから最新の様式が出力されない場合などには、その様式でも提出はできますが、"
+    },
+    {
+     "needle": "お問い合わせ番号",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "様式の内容自体が変更されている場合がありますので、最新の申告書等であるかをご確認ください。税務署から送付される通知等に、お問い合わせ番号を印字します税務署から送付される通知等には、その通知等を特定するための「番号」として、「お問い合わせ番号」(13桁)を印"
+    },
+    {
+     "needle": "13桁",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "い合わせ番号を印字します税務署から送付される通知等には、その通知等を特定するための「番号」として、「お問い合わせ番号」(13桁)を印字(PDF/185KB)します。「お問い合わせ番号」を税務署の担当者にお伝えいただくことで、その通知等についてのお"
+    },
+    {
+     "needle": "ai-ocr.xlsx",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "一覧)ホーム税の情報・手続・用紙国税システムの更改について//taxes//taxes/shiraberu/sodan/ai-ocr.xlsx/taxes/shiraberu/sodan/pdf/0026004-138_01.pdf/taxes/shiraber"
+    },
+    {
+     "needle": "0026004-138_01.pdf",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "taxes/shiraberu/sodan/ai-ocr.xlsx/taxes/shiraberu/sodan/pdf/0026004-138_01.pdf/taxes/shiraberu/sodan/pdf/0026004-138_02.pdf/taxes/nozei/no"
+    },
+    {
+     "needle": "固定IPアドレスから動的IPアドレス",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "い合わせ番号」欄(13桁)に変更された点です。e-TaxのIPアドレスが変わりましたe-TaxのIPアドレスについては、固定IPアドレスから動的IPアドレス(接続のたびにIPアドレスが変化)に変更しました。e-Taxに接続する際、IPアドレスを指定して接続している方は、URL"
+    }
+   ]
+  },
+  {
+   "key": "info25",
+   "url": "https://www.keisan.nta.go.jp/oshirase/r7info/info25.html",
+   "final_url": "https://www.keisan.nta.go.jp/oshirase/r7info/info25.html",
+   "status": 200,
+   "last_modified": "Mon, 28 Sep 2026 05:03:20 GMT",
+   "bytes": 5247,
+   "sha256": "4be64ab9ec185b63a00c98cdd0997aaba4120ee76047d29f85dfc44ca6901f66",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "国税システムの更改に伴い、確定申告書等作成コーナーで作成される所得税の一部の申告書・決算書等の様式が変更となりました。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "国税庁NATIONALTAXAGENCY確定申告書等作成コーナーお知らせ所得税の一部の申告書・決算書等の様式変更について国税システムの更改に伴い、確定申告書等作成コーナーで作成される所得税の一部の申告書・決算書等の様式が変更となりました。確定申告書等作成コーナーで作成される様式の変更について更改の詳細についてはこちら(外部サイト)#CONT/r7yokua"
+    }
+   ]
+  },
+  {
+   "key": "cid1244",
+   "url": "https://www.keisan.nta.go.jp/r7yokuaru/sankou/cid1244.html",
+   "final_url": "https://www.keisan.nta.go.jp/r7yokuaru/sankou/cid1244.html",
+   "status": 200,
+   "last_modified": "Sun, 08 Nov 2026 22:01:49 GMT",
+   "bytes": 12842,
+   "sha256": "57ad932ae22ed1500a2700f6a5a8e2ee12fcd2531d975de0723f4a3fc4164a6e",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "令和８年９月19日（土）から",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "質問参考情報確定申告書等作成コーナーで作成される様式の変更について確定申告書等作成コーナーで作成される様式の変更について令和8年9月19日(土)から、以下の様式については、様式が変更となります所得税(令和5~7年分)申告書一表・二表・三表・四表・申告書(損失申告用)付"
+    },
+    {
+     "needle": "収支内訳書（一般用）",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "付表(東日本大震災の被災者の方用)年分の所得税及び復興特別所得税の申告書(損失申告用)付表(東日本大震災の被災者の方用)収支内訳書(一般用)収支内訳書(農業所得用)収支内訳書(不動産所得用)青色申告決算書(一般用)青色申告決算書(農業所得用)青色申告決算書(不"
+    },
+    {
+     "needle": "所得税の更正の請求書",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "特別控除額の計算明細書・(付表)連帯債務がある場合の住宅借入金等の年末残高の計算明細書財産債務調書(及び同合計表・次葉)所得税の更正の請求書この情報により問題が解決しましたか?よくある質問で問題が解決しない場合は...1.操作に関するお問い合わせヘルプデスク2"
+    },
+    {
+     "needle": "財産債務調書",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "義用)(特定増改築等)住宅借入金等特別控除額の計算明細書・(付表)連帯債務がある場合の住宅借入金等の年末残高の計算明細書財産債務調書(及び同合計表・次葉)所得税の更正の請求書この情報により問題が解決しましたか?よくある質問で問題が解決しない場合は..."
+    },
+    {
+     "needle": "住宅借入金等特別控除額の計算明細書",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "告決算書(一般用)青色申告決算書(農業所得用)青色申告決算書(不動産所得用)青色申告決算書(現金主義用)(特定増改築等)住宅借入金等特別控除額の計算明細書・(付表)連帯債務がある場合の住宅借入金等の年末残高の計算明細書財産債務調書(及び同合計表・次葉)所得税の更正の請求書こ"
+    },
+    {
+     "needle": "令和５～７年分",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "成コーナーで作成される様式の変更について令和8年9月19日(土)から、以下の様式については、様式が変更となります所得税(令和5~7年分)申告書一表・二表・三表・四表・申告書(損失申告用)付表(東日本大震災の被災者の方用)年分の所得税及び復興特別所得税の申"
+    },
+    {
+     "needle": "申告書（損失申告用）付表",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "年9月19日(土)から、以下の様式については、様式が変更となります所得税(令和5~7年分)申告書一表・二表・三表・四表・申告書(損失申告用)付表(東日本大震災の被災者の方用)年分の所得税及び復興特別所得税の申告書(損失申告用)付表(東日本大震災の被災者の方用)収支"
+    }
+   ]
+  },
+  {
+   "key": "r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r07.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r07.htm",
+   "status": 200,
+   "last_modified": "Tue, 20 Oct 2026 08:30:03 GMT",
+   "bytes": 45317,
+   "sha256": "ff769ff6e512b73df0387db39f5fbc6e58f509fd12f5972e2f84e4117e58ac9f",
+   "prev_sha256": "ff769ff6e512b73df0387db39f5fbc6e58f509fd12f5972e2f84e4117e58ac9f",
+   "same_as_prev": true,
+   "checks": [
+    {
+     "needle": "令和７年分以降用",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "DFファイルが開けない、印刷できないなどの場合は、こちらをご覧ください様式手引き・説明等申告書等1申告書第一表・第二表【令和7年分以降用】(PDF/2,123KB)・令和7年分所得税及び復興特別所得税の手引き(PDF/22,505KB)(HTML)・様式変"
+    },
+    {
+     "needle": "yoshiki/01/shinkokusho/pdf/r07/01.pdf",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "shinsei/annai/toiawase/1679/01.htm/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/01.pdf/taxes/shiraberu/shinkoku/tebiki/2025/pdf/001.pdf/taxes/shir"
+    },
+    {
+     "needle": "yoshiki/01/shinkokusho/pdf/r07/05.pdf",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "koku/tebiki/2025/pdf/027teisei.pdf/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/05.pdf/taxes/shiraberu/shinkoku/tebiki/2025/pdf/034.pdf/taxes/shir"
+    },
+    {
+     "needle": "yoshiki/04/pdf/ref1.pdf",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "u/shinkoku/tebiki/2025/pdf/041.pdf/taxes/shiraberu/shinkoku/yoshiki/04/pdf/ref1.pdf/taxes/shiraberu/shinkoku/tebiki/2025/pdf/008.pdf/taxes/shir"
+    },
+    {
+     "needle": "ref3.pdf",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "/04/pdf/ref1-ki.pdf/taxes/shiraberu/shinkoku/yoshiki/03/pdf/ref3.pdf/taxes/shiraberu/shinkoku/yoshiki/017.pdf/taxes/shiraberu/sh"
+    },
+    {
+     "needle": "001-1.pdf",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "iki/2025/index.htm/taxes/shiraberu/shinkoku/tebiki/2025/pdf/001-1.pdf/taxes/shiraberu/shinkoku/tebiki/2025/pdf/050.pdf/taxes/shir"
+    }
+   ]
+  },
+  {
+   "key": "tebiki_index",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/index.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/index.htm",
+   "status": 200,
+   "last_modified": "Wed, 04 Mar 2026 08:30:15 GMT",
+   "bytes": 8710,
+   "sha256": "a1093b20b2fe4b6feda660eeb7d6682c2f08ade32e478919f5150d53902a25e8",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "令和7年分",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "ム税の情報・手続・用紙税について調べる所得税(確定申告書等作成コーナー)確定申告に関する手引き等確定申告に関する手引き等令和7年分の確定申告に関する手引き等令和6年分の確定申告に関する手引き等令和5年分の確定申告に関する手引き等令和4年分の確定申告に"
+    },
+    {
+     "needle": "令和8年分",
+     "expect_found": false,
+     "found": false,
+     "pass": true,
+     "context": ""
+    }
+   ]
+  },
+  {
+   "key": "t_3-2_06",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_06.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_06.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "bytes": 15144,
+   "sha256": "d693641fc03301440ac9f3cdc9f0b12c73bfd9484ea5ab293713a79998f5f38c",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "所得金額調整控除",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "00円円8,500,000円~A-1,950,000円円※1円未満の端数があるときは、その端数を切り捨てます。Step3所得金額調整控除の計算次の(1)や(2)に該当する場合は、それぞれの算式により計算します。(1)あなたの給与等の収入金額(税込)が850"
+    },
+    {
+     "needle": "特定支出控除",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": ")に該当する場合は「2」を、(1)及び(2)の両方に該当する場合は「3」を記入します。※欄の「区分」の□は、給与所得者の特定支出控除を受ける場合にのみ、「給与所得者の特定支出に関する明細書」の区分番号を記入します。給与所得者が各年において特定支出(通勤"
+    }
+   ]
+  },
+  {
+   "key": "t_3-2_07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_07.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_07.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "bytes": 32251,
+   "sha256": "369d8893cd64616fc0139d4b5b75147f6b2a5d98c623f30cea0faf1a927bbf17",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "現金主義",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "を転記します。欄...計算欄Iの金額を転記します。欄...計算欄Jの金額を転記します。※業務に係る雑所得の金額の計算上、現金主義の特例を適用する場合は、欄の「区分」の□に「1」を記入します。参照:『雑所得』※欄の「区分」の□には、個人年金保険に係る"
+    },
+    {
+     "needle": "1,000万円を超える",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "300万円を超える場合、現金預金取引等関係書類(作成・受領した請求書、領収書その他書類)を5年間保存する必要があります。1,000万円を超える場合、に加えて、その年分の確定申告書に収支内訳書(一般用)を添付する必要があります。※家内労働者等に該当する方は、事業所"
+    },
+    {
+     "needle": "収支内訳書",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "た請求書、領収書その他書類)を5年間保存する必要があります。1,000万円を超える場合、に加えて、その年分の確定申告書に収支内訳書(一般用)を添付する必要があります。※家内労働者等に該当する方は、事業所得(営業等・農業)を参照してください。(3)その"
+    }
+   ]
+  },
+  {
+   "key": "t_3-3_15",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_15.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_15.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "bytes": 10266,
+   "sha256": "e1ff17e6f41c54fd74ffd8152a0f23d900d804962fe153c3d0490a02dd432d1e",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "年調以外かつ専修学校等",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "の生徒である場合や職業訓練法人の認定職業訓練を受けている場合で、年末調整においてこの控除の適用を受けていない場合は、「□年調以外かつ専修学校等」をチェック()します。このページの先頭へ税の情報・手続・用紙税について調べる所得税(確定申告書等作成コーナー)タックス"
+    }
+   ]
+  },
+  {
+   "key": "t_3-3_19",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_19.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_19.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "bytes": 12365,
+   "sha256": "55d097f88a8bfa970a169a5b969970eb3d134ecde4595ad82d2be5dec1a9058b",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "国外居住親族",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "として配偶者(特別)控除、扶養控除又は障害者控除の対象とされている方については、扶養控除の適用はありません。●扶養親族が国外居住親族である場合には、一定の方に限り、控除対象扶養親族に該当します。控除される金額区分控除額一般の控除対象扶養親族38万円特定"
+    },
+    {
+     "needle": "扶養控除欄の「区分」",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "ち扶養控除の適用を受けるに当たって提出・提示が必要となる書類(※1)の全てを給与等の支払者に提出・提示している場合以外は扶養控除欄の「区分」の□に「1」を、これらの書類の全てを給与等の支払者に提出・提示している場合は「2」を記入します。国外居住親族の扶養親族が"
+    }
+   ]
+  },
+  {
+   "key": "t_3-3_20",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_20.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_20.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "bytes": 11587,
+   "sha256": "a9281d313eaf645943a8e91cbf9b6e5187f2c67af697e2d70fd662676405bdcb",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "人数",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "住親族の扶養親族がいる場合」の区分の記入の仕方を参照し、記入します。申告書の書き方欄...控除額の合計額を記入します。「人数」の□は、控除の適用を受ける人数を記入します。「配偶者や親族に関する事項(~、、)」欄の記入方法は、「配偶者(特別)控除"
+    },
+    {
+     "needle": "特定親族特別控除",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "等作成コーナー)手順3所得から差し引かれる金額(所得控除)を計算する手順3所得から差し引かれる金額(所得控除)を計算する特定親族特別控除第一表控除の概要あなたに特定親族がいる場合に、特定親族のそれぞれの合計所得金額に応じて受けられる控除●特定親族が他の納税"
+    }
+   ]
+  },
+  {
+   "key": "t_3-3_24",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_24.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_24.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "bytes": 19352,
+   "sha256": "9ef4bd40b7bcad881941be49d6283b88fc799bd01681be6bbfe96498f583b73b",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "セルフメディケーション税制の明細書",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "疾病の予防への取組に要した費用(人間ドックの受診費用など)は、控除の対象になりません。(参考)控除される金額の計算欄※『セルフメディケーション税制の明細書』で計算します。支払った医療費(合計)円A保険金などで補填される金額(※)円B差引金額(A-B)(マイナスのときは0円)"
+    },
+    {
+     "needle": "医療費控除の明細書",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "定の金額以上ある場合の控除※参照:『医療費控除を受けられる方へ(PDF/963KB)』(参考)控除される金額の計算欄※『医療費控除の明細書』で計算します。支払った医療費(合計)円A保険金などで補填される金額(※1)円B差引金額(A-B)(マイナスのときは0円"
+    },
+    {
+     "needle": "区分",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "知に基づいて医療費控除の明細書の記載を省略する場合には、医療費通知の添付も必要となります。医療費控除を選択する場合は、「区分」の□は記入しません。セルフメディケーション税制による医療費控除の特例を選択する場合は、「区分」の□に「1」を記入します"
+    }
+   ]
+  },
+  {
+   "key": "t_3-3_27",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_27.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_27.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "bytes": 19779,
+   "sha256": "fe99421d6c179946de07a4d8964a3ef565e9a30367ca30c33de255739116c667",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "年末調整を受けた給与を有する方であっても",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "3所得税等の所得控除に該当しませんので、第一表の~欄(配偶者(特別)控除)又は欄(扶養控除)に金額は記入しません。なお、年末調整を受けた給与を有する方であっても「配偶者や親族に関する事項(~、、)」欄の記入は省略せず、同一生計配偶者又は16歳未満の扶養親族の氏名・マイナンバー(個"
+    },
+    {
+     "needle": "同一生計配偶者又は16歳未満の扶養親族の氏名・マイナンバー（個人番号）・続柄・生年月日を記入します",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "は記入しません。なお、年末調整を受けた給与を有する方であっても「配偶者や親族に関する事項(~、、)」欄の記入は省略せず、同一生計配偶者又は16歳未満の扶養親族の氏名・マイナンバー(個人番号)・続柄・生年月日を記入します。※4「住民税・事業税に関する事項」の「上記の配偶者・親族・事業専従者のうち別居の者の氏名・住所」欄にそれぞれの氏名・住"
+    }
+   ]
+  },
+  {
+   "key": "t_3-4_26",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_26.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_26.htm",
+   "status": 200,
+   "last_modified": "Fri, 17 Apr 2026 08:30:02 GMT",
+   "bytes": 14799,
+   "sha256": "6a712e5523ac705acb475278626dbd82d7734707138cc1dd8aa02a2b9c451319",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "千円未満の端数切捨て",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "計算欄所得金額の合計(第一表欄の金額)円A所得から差し引かれる金額の合計(第一表欄の金額)円B差引金額(※)(A-B)(千円未満の端数切捨て),000円C※1,000円未満の場合(赤字の場合を含む「0」)は、0円となります。課税される所得金額に対する税額の計算"
+    }
+   ]
+  },
+  {
+   "key": "t_3-4_45",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_45.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_45.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "bytes": 10157,
+   "sha256": "96323f99c658f083a8cb9cf37eb4327b7e13cbf1e96d6dce369d8a11944586e8",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "1円未満の端数があるときは、その端数を切り捨てます",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "併せて申告・納付することとされています。計算欄基準所得税額(第一表欄の金額)円A復興特別所得税額(A×0.021)円B※1円未満の端数があるときは、その端数を切り捨てます。申告書の書き方欄...計算欄Bの金額を転記します。設例基準所得税額A:176,500円A176,500円×0.021="
+    },
+    {
+     "needle": "×0.021",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "9年分まで、所得税と併せて申告・納付することとされています。計算欄基準所得税額(第一表欄の金額)円A復興特別所得税額(A×0.021)円B※1円未満の端数があるときは、その端数を切り捨てます。申告書の書き方欄...計算欄Bの金額を転記します。設例基準所"
+    }
+   ]
+  },
+  {
+   "key": "t_3-4_39",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_39.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_39.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "bytes": 8615,
+   "sha256": "8584f6d0de995958d38d2ba816036d7b9b374df705e3bfc2406980f192779073",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "100円未満の端数を切り捨てた金額（黒字の金額が100円未満の場合は「0」）",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "る申告納税額第一表欄...欄の金額から、~欄、欄の金額を差し引き、次により記入します。●差し引いた金額が黒字の場合...100円未満の端数を切り捨てた金額(黒字の金額が100円未満の場合は「0」)●差し引いた金額が赤字の場合...金額の頭に「△」又は「-」を付けてそのままの金額このページの先頭へ税の情報・手続・用紙"
+    },
+    {
+     "needle": "そのままの金額",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "捨てた金額(黒字の金額が100円未満の場合は「0」)●差し引いた金額が赤字の場合...金額の頭に「△」又は「-」を付けてそのままの金額このページの先頭へ税の情報・手続・用紙税について調べる所得税(確定申告書等作成コーナー)タックスアンサー(よくある税の質"
+    }
+   ]
+  },
+  {
+   "key": "t_3-4_41",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_41.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_41.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "bytes": 9451,
+   "sha256": "9403c59e427f717239f99460a4f4c4cd24e4152d805aee14981b24b5a4f39f0c",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "100円未満の端数",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "をする第3期分の税額第一表欄...欄の金額から欄の金額を差し引き、次により記入します。●差し引いた金額が黒字の場合...100円未満の端数を切り捨てた金額(黒字の金額が100円未満の場合は「0」)を欄に記入納税の方法は、こちらを参照してください。なお、令和7"
+    }
+   ]
+  },
+  {
+   "key": "t_3-6_02",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order6/3-6_02.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order6/3-6_02.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "bytes": 25957,
+   "sha256": "c6132a1a1a2ff91a3a9503df32943bb7582f2f4a32de20fbbf4ace0b3515f90b",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "特別徴収",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "の金額(第一表欄の金額)円A確定申告不要制度を選択した非上場株式の少額配当等円B配当に関する住民税の特例(A+B)円C※特別徴収された住民税額(配当割額)は、配当割額控除額欄に記入してください。申告書の書き方「非上場株式の少額配当等」欄...計算欄"
+    },
+    {
+     "needle": "自分で納付",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "とができます。給与から差し引くことを希望する場合には、「特別徴収」欄にを記入し、また、給与から差し引かないで別に窓口等に自分で納付することを希望する場合には、「自分で納付」欄にを記入します。※給与所得及び令和8年4月1日において65歳以上の方の公的年"
+    }
+   ]
+  },
+  {
+   "key": "t_2_03",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/02/2_03.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/02/2_03.htm",
+   "status": 200,
+   "last_modified": "Wed, 24 Dec 2025 08:30:11 GMT",
+   "bytes": 4909,
+   "sha256": "ea82bef2d029b72d70cabfa4fa5323d3b711ff892363ec7906f9c2b5d15a2f77",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "収受日付印",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "お、業務センターに直接持参する方法で提出することはできませんので、ご注意ください。【令和7年1月からの申告書等の控えへの収受日付印の押なつについて】税務行政のデジタル化における国税に関する手続等の見直しの一環として、令和7年1月から、申告書等の控えに"
+    },
+    {
+     "needle": "令和７年１月",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "函により、提出することもできます。なお、業務センターに直接持参する方法で提出することはできませんので、ご注意ください。【令和7年1月からの申告書等の控えへの収受日付印の押なつについて】税務行政のデジタル化における国税に関する手続等の見直しの一環として、"
+    },
+    {
+     "needle": "信書便",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "確定申告書、収支内訳書、青色申告決算書などを画面の案内に沿って自動計算で作成し、e-Taxにより送信できます。2郵便又は信書便により、住所地等の所轄税務署又は業務センター(※)に送付する。※一部の税務署では、複数の税務署の内部事務を専担部署(業務"
+    },
+    {
+     "needle": "時間外収受箱",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "日とみなします。この日付が申告期限内となるよう、お早めにご送付ください。3住所地等の所轄税務署の受付に提出する。税務署の時間外収受箱への投函により、提出することもできます。なお、業務センターに直接持参する方法で提出することはできませんので、ご注意くださ"
+    }
+   ]
+  },
+  {
+   "key": "shiyo_index",
+   "url": "https://www.e-tax.nta.go.jp/shiyo/index.html",
+   "final_url": "https://www.e-tax.nta.go.jp/shiyo/index.html",
+   "status": 200,
+   "last_modified": null,
+   "bytes": 99259,
+   "sha256": "d442020219b6fcd188e78729567d737b000670582d1dfb88cbfa72baa0dfe116",
+   "prev_sha256": "d442020219b6fcd188e78729567d737b000670582d1dfb88cbfa72baa0dfe116",
+   "same_as_prev": true,
+   "checks": [
+    {
+     "needle": "一般公開することとしています",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "ェアを当ホームページから提供しています。そこで、次の2つの考えに基づき、関連する仕様を財務・会計ソフトウェア開発者向けに一般公開することとしています。民間のソフトウェア開発業者が提供する会計ソフトウェアからのデータ引継ぎを行うなどにより、納税者等においてより使い勝手の"
+    },
+    {
+     "needle": "公開内容は、今後の検討（法制面を含みます。）や技術動向などにより、変更される場合があります。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "ービス等を利用した法定調書の提出を行うAPI仕様書」にて定義されます。e-Tax等仕様公開に当たっての注意事項内容の変更公開内容は、今後の検討(法制面を含みます。)や技術動向などにより、変更される場合があります。著作権各仕様書の内容は著作権の対象となっています。著作権は、日本国著作権法及び国際条約により保護されています。ただし、こ"
+    },
+    {
+     "needle": "各仕様書の内容は著作権の対象となっています。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "ての注意事項内容の変更公開内容は、今後の検討(法制面を含みます。)や技術動向などにより、変更される場合があります。著作権各仕様書の内容は著作権の対象となっています。著作権は、日本国著作権法及び国際条約により保護されています。ただし、このことは、財務・会計ソフトウェア開発者がこの仕様に"
+    },
+    {
+     "needle": "財務・会計ソフトウェア開発者がこの仕様に基づいた供給者ソフトウェアを開発し、市場に供給することを妨げるものではありません。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "様書の内容は著作権の対象となっています。著作権は、日本国著作権法及び国際条約により保護されています。ただし、このことは、財務・会計ソフトウェア開発者がこの仕様に基づいた供給者ソフトウェアを開発し、市場に供給することを妨げるものではありません。免責事項各仕様書の内容の正確性については万全を期していますが、国税庁は、この仕様書に含まれる情報の利用に伴って発生した不"
+    },
+    {
+     "needle": "国税庁は、この仕様書に含まれる情報の利用に伴って発生した不利益や問題について、誰に対しても何ら責任を負うものではありません。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "アを開発し、市場に供給することを妨げるものではありません。免責事項各仕様書の内容の正確性については万全を期していますが、国税庁は、この仕様書に含まれる情報の利用に伴って発生した不利益や問題について、誰に対しても何ら責任を負うものではありません。その他各仕様に関するお問い合わせ及びテスト送信の申し込みは、「電子メールによるお問い合わせ」から送信いただくようお願いし"
+    },
+    {
+     "needle": "e-Tax等仕様公開に当たっての注意事項」に同意したものとみなされます。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "公開に当たっての注意事項」を確認の上、ダウンロードを行ってください。なお、仕様書ダウンロードコーナーを利用された方は、「e-Tax等仕様公開に当たっての注意事項」に同意したものとみなされます。e-Tax仕様書一覧(令和8年10月30日更新)更新履歴開発に当たっての注意事項源泉徴収票等のオンライン送信に係る仕様書"
+    },
+    {
+     "needle": "AI-OCR化対象帳票レイアウトの提供について",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "8年10月30日更新)更新履歴開発に当たっての注意事項AI-OCR化対象帳票対象の帳票は、仕様書ダウンロードコーナーの「AI-OCR化対象帳票レイアウトの提供について」のとおりです。仕様書は所定のデータ(Excel、PDF等)で提供しています。仕様書ダウンロードコーナーのご利用に当たっ"
+    },
+    {
+     "needle": "令和8年10月30日更新",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "受信、電子署名及びCSV変換)の更新予定令和9年1月の各種モジュール(送受信、電子署名及びCSV変換)の更新予定確認表(令和8年10月30日更新)過去の更新履歴令和8年度令和8年9月の各種モジュール(送受信、電子署名及びCSV変換)の更新予定確認表(令和8年8月2"
+    },
+    {
+     "needle": "リバースエンジニアリング",
+     "expect_found": false,
+     "found": false,
+     "pass": true,
+     "context": ""
+    },
+    {
+     "needle": "仕様書は所定のデータ（Word、Excel等）で提供しています。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "いて各仕様書e-Tax仕様書現在提供している仕様書は、仕様書ダウンロードコーナーの「e-Tax仕様書一覧」のとおりです。仕様書は所定のデータ(Word、Excel等)で提供しています。仕様書ダウンロードコーナーのご利用に当たっては、「e-Tax等仕様公開に当たっての注意事項」を確認の上、ダウンロードを行"
+    },
+    {
+     "needle": "MacOS",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "トウェアからのデータ引継ぎを行うなどにより、納税者等においてより使い勝手の良い製品が提供される可能性があります。同じく、MacOSなどの提供ソフトで当庁において対応できないOS等に対応した製品が提供される可能性があります。源泉徴収票等のオンライン送信"
+    },
+    {
+     "needle": "会計ソフトウェアからのデータ引継ぎ",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "づき、関連する仕様を財務・会計ソフトウェア開発者向けに一般公開することとしています。民間のソフトウェア開発業者が提供する会計ソフトウェアからのデータ引継ぎを行うなどにより、納税者等においてより使い勝手の良い製品が提供される可能性があります。同じく、MacOSなどの提供ソフト"
+    },
+    {
+     "needle": "確定申告書等作成コーナーを利用することで、所得税の確定申告書に活用することが可能",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "年1月以降、金融商品取引業者等から電磁的に交付された「特定口座年間取引報告書」(注)を、国税庁ホームページで提供している確定申告書等作成コーナーを利用することで、所得税の確定申告書に活用することが可能となります。また、令和3年1月以降において、令和2年分以降の確定申告書を作成する際に金融機関から電磁的に交付された「住宅"
+    }
+   ]
+  },
+  {
+   "key": "ksk2_shiyo3",
+   "url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo3.htm",
+   "final_url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo3.htm",
+   "status": 200,
+   "last_modified": null,
+   "bytes": 23540,
+   "sha256": "7b0da8d393b10b74674db1cf3bf1892a47eb635417a7f7348fc92d2446f21452",
+   "prev_sha256": "7b0da8d393b10b74674db1cf3bf1892a47eb635417a7f7348fc92d2446f21452",
+   "same_as_prev": true,
+   "checks": [
+    {
+     "needle": "仕様書ダウンロードファイルはCAB形式となっておりますので",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "らご希望の仕様書を確認の上、ダウンロード欄の「CAB形式」をクリックすることにより、対象の仕様書がダウンロードされます。仕様書ダウンロードファイルはCAB形式となっておりますので、ダウンロード後は適宜の場所に保存の上、解凍処理を行ってからご使用ください。なお、e-Tax仕様書のファイル容量によって"
+    },
+    {
+     "needle": "約126MB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "あります。e-Tax仕様書一覧e-Tax仕様書一覧項番仕様書名ダウンロード更新日全仕様書(一括ダウンロード)CAB形式:約126MB令和8年8月28日1データ形式等に関する仕様書(注意事項)CAB形式:約772KB令和8年1月30日2受付システムインタ"
+    },
+    {
+     "needle": "令和8年8月28日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "-Tax仕様書一覧e-Tax仕様書一覧項番仕様書名ダウンロード更新日全仕様書(一括ダウンロード)CAB形式:約126MB令和8年8月28日1データ形式等に関する仕様書(注意事項)CAB形式:約772KB令和8年1月30日2受付システムインターフェイスに関する"
+    },
+    {
+     "needle": "約772KB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "仕様書(一括ダウンロード)CAB形式:約126MB令和8年8月28日1データ形式等に関する仕様書(注意事項)CAB形式:約772KB令和8年1月30日2受付システムインターフェイスに関する仕様書(注意事項)CAB形式:約9.2MB令和8年8月28日AP"
+    },
+    {
+     "needle": "約9.2MB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "注意事項)CAB形式:約772KB令和8年1月30日2受付システムインターフェイスに関する仕様書(注意事項)CAB形式:約9.2MB令和8年8月28日API仕様書(※APIについてはこちらをご確認ください)CAB形式:約2.5MB令和8年8月12日3電"
+    },
+    {
+     "needle": "約2.5MB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "注意事項)CAB形式:約9.2MB令和8年8月28日API仕様書(※APIについてはこちらをご確認ください)CAB形式:約2.5MB令和8年8月12日3電子署名に関する仕様書CAB形式:約106KB令和8年6月15日4送受信モジュールインターフェイス仕"
+    },
+    {
+     "needle": "約8.9MB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "イス仕様書(注意事項)CAB形式:約13.6MB令和8年8月28日7手続一覧・手続内帳票対応表・対象帳票一覧CAB形式:約8.9MB令和8年8月28日8帳票間連動仕様書CAB形式:約1.2MB令和8年8月12日9XML構造設計書及び帳票フィールド仕様書"
+    },
+    {
+     "needle": "約1.2MB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "28日7手続一覧・手続内帳票対応表・対象帳票一覧CAB形式:約8.9MB令和8年8月28日8帳票間連動仕様書CAB形式:約1.2MB令和8年8月12日9XML構造設計書及び帳票フィールド仕様書【所得税関係】CAB形式:約8.1MB令和8年1月30日10"
+    },
+    {
+     "needle": "約8.1MB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "連動仕様書CAB形式:約1.2MB令和8年8月12日9XML構造設計書及び帳票フィールド仕様書【所得税関係】CAB形式:約8.1MB令和8年1月30日10XML構造設計書及び帳票フィールド仕様書【法人税関係】CAB形式:約35.1MB令和8年8月12日"
+    },
+    {
+     "needle": "令和8年1月30日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "ダウンロード)CAB形式:約126MB令和8年8月28日1データ形式等に関する仕様書(注意事項)CAB形式:約772KB令和8年1月30日2受付システムインターフェイスに関する仕様書(注意事項)CAB形式:約9.2MB令和8年8月28日API仕様書(※API"
+    },
+    {
+     "needle": "約9.4MB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "2日18XML構造設計書【受付発行】CAB形式:約1.3MB令和8年6月15日19XMLスキーマ(注意事項)CAB形式:約9.4MB令和8年8月28日20税務用財務諸表タクソノミーCAB形式:約902KB令和8年6月15日21市区町村テーブル仕様書CA"
+    },
+    {
+     "needle": "約8.0MB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "動仕様書CAB形式:約1.3MB令和8年10月30日9XML構造設計書及び帳票フィールド仕様書【所得税関係】CAB形式:約8.0MB令和8年10月30日10XML構造設計書及び帳票フィールド仕様書【法人税関係】CAB形式:約29.4MB令和8年10月3"
+    },
+    {
+     "needle": "令和8年10月30日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "x仕様書(ドラフト版)一覧項番仕様書名ダウンロード更新日1データ形式等に関する仕様書(注意事項)CAB形式:約772KB令和8年10月30日2受付システムインターフェイスに関する仕様書(注意事項)CAB形式:約9.2MB令和8年10月30日API仕様書(※AP"
+    },
+    {
+     "needle": "令和9年1月4日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "して提供している暫定版です。確定までに変更となる可能性がありますので、あらかじめご留意ください。なお、今回の更新内容は、令和9年1月4日(月)の受付開始予定となります。各帳票の受付開始予定日は、「令和9年1月のe-Taxソフト更新対象帳票一覧(予定)につい"
+    },
+    {
+     "needle": "令和8年9月24日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "書CAB形式:約39KB令和8年1月30日22CSV情報連携CAB形式:約272KB令和8年1月30日今回の更新内容は、令和8年9月24日(木)の受付開始予定となります。各帳票の受付開始予定日は、「令和8年9月のe-Taxソフト更新対象帳票一覧(予定)につい"
+    },
+    {
+     "needle": "download/e-tax09.CAB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "load/e-tax07.CAB/shiyo/ksk2/download/e-tax08.CAB/shiyo/ksk2/download/e-tax09.CAB/shiyo/ksk2/download/e-tax10.CAB/shiyo/ksk2/download/e-tax11"
+    },
+    {
+     "needle": "draft/e-tax09.CAB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "2/draft/e-tax07.CAB/shiyo/ksk2/draft/e-tax08.CAB/shiyo/ksk2/draft/e-tax09.CAB/shiyo/ksk2/draft/e-tax10.CAB/shiyo/ksk2/draft/e-tax11.CAB/s"
+    },
+    {
+     "needle": "download/e-tax19.CAB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "ksk2/download/e-tax18.CAB/shiyo/shiyo2.htm#anc02/shiyo/ksk2/download/e-tax19.CAB/shiyo/ksk2/download/e-tax20.CAB/shiyo/ksk2/download/e-tax21"
+    }
+   ]
+  },
+  {
+   "key": "ksk2_shiyo2",
+   "url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo2.htm",
+   "final_url": "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_shiyo2.htm",
+   "status": 200,
+   "last_modified": null,
+   "bytes": 27240,
+   "sha256": "656f90e23797173ac71e9201a51725319a71562abe340e89e5a354ee981ccc7f",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "令和７年分の所得税の申告手続について",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "等支払報告書及び源泉徴収票の電子的提出の一元化に係る仕様公開について贈与税申告の作成について連結確定申告書の送信について令和7年分の所得税の申告手続について【WEB回答機能】格納方法について【WEB回答機能】回答方法について自動ダイレクトに係るメッセージについて令和6年4月1"
+    },
+    {
+     "needle": "給与等の支給額が増加した場合",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "において、以下の帳票は電子データ(XML形式)の対象外となるため、イメージデータ(PDF形式)により提出をお願いします。給与等の支給額が増加した場合の所得税額の特別控除に関する明細書情報技術事業適応設備を取得した場合、事業適応設備を取得した場合又は生産工程効率化設備等"
+    },
+    {
+     "needle": "イメージデータ（PDF形式）",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "月5日以降に受付を開始する令和7年分の所得税の申告手続において、以下の帳票は電子データ(XML形式)の対象外となるため、イメージデータ(PDF形式)により提出をお願いします。給与等の支給額が増加した場合の所得税額の特別控除に関する明細書情報技術事業適応設備を取得した場"
+    },
+    {
+     "needle": "所得税の額から控除される特別控除額に関する明細書",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "設備を取得した場合、事業適応設備を取得した場合又は生産工程効率化設備等を取得した場合等の所得税額の特別控除に関する明細書所得税の額から控除される特別控除額に関する明細書【WEB回答機能】格納方法についてお尋ね文書は、郵送又はメッセージボックスへ格納されます。なお、お尋ね文書が発出される時"
+    }
+   ]
+  },
+  {
+   "key": "topics_20260924_chohyo",
+   "url": "https://www.e-tax.nta.go.jp/shiyo/chohyo/topics_20260924_chohyo.htm",
+   "final_url": "https://www.e-tax.nta.go.jp/shiyo/chohyo/topics_20260924_chohyo.htm",
+   "status": 200,
+   "last_modified": null,
+   "bytes": 5179,
+   "sha256": "1d26587cb03e63cdc7aedb5df9f7706ada8ecc1c74e1eb2f7b936c95b7eb56b6",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "令和9年1月4日（月）",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "帳票一覧(予定)についてお知らせ掲載日:令和8年9月24日令和9年1月のe-Taxソフト更新対象帳票一覧(予定)について令和9年1月4日(月)にe-Taxソフトの更新を行うことに伴い、令和8年11月25日(水)にe-Taxの仕様公開を予定しております。仕様公開に"
+    },
+    {
+     "needle": "令和8年11月25日（水）",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "年1月のe-Taxソフト更新対象帳票一覧(予定)について令和9年1月4日(月)にe-Taxソフトの更新を行うことに伴い、令和8年11月25日(水)にe-Taxの仕様公開を予定しております。仕様公開に先立ち、以下のとおり、予定している更新対象帳票一覧を掲載しましたので"
+    },
+    {
+     "needle": "令和8年9月24日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "ム(イータックス)本文へホームお知らせ一覧令和9年1月のe-Taxソフト更新対象帳票一覧(予定)についてお知らせ掲載日:令和8年9月24日令和9年1月のe-Taxソフト更新対象帳票一覧(予定)について令和9年1月4日(月)にe-Taxソフトの更新を行うことに"
+    }
+   ]
+  },
+  {
+   "key": "topics_20261030_shiyo",
+   "url": "https://www.e-tax.nta.go.jp/topics/2026/topics_20261030_shiyo.htm",
+   "final_url": "https://www.e-tax.nta.go.jp/topics/2026/topics_20261030_shiyo.htm",
+   "status": 200,
+   "last_modified": null,
+   "bytes": 8222,
+   "sha256": "d91b8e20368b508cdca1266b250e7c9e1cda476ad0ebdd1d10f67bce7b78312a",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "仕様書の確定版及びXMLスキーマの仕様は、令和8年11月25日（水）に掲載を予定しております。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "す。各帳票の受付開始予定日は、「令和9年1月のe-Taxソフト更新対象帳票一覧(予定)について」をご参照ください。また、仕様書の確定版及びXMLスキーマの仕様は、令和8年11月25日(水)に掲載を予定しております。おって、今回更新する「イメージデータで送信可能な手続」については、「令和9年1月の「イメージデータで送信可能な手続」の更"
+    },
+    {
+     "needle": "令和8年10月30日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": ")本文へホームお知らせ一覧e-Tax仕様書等(ドラフト版)の掲載について【令和9年1月4日受付開始予定】お知らせ掲載日:令和8年10月30日e-Tax仕様書等(ドラフト版)の掲載について【令和9年1月4日受付開始予定】e-Tax仕様書等(ドラフト版)について、"
+    }
+   ]
+  },
+  {
+   "key": "topics_20260924_shiyo",
+   "url": "https://www.e-tax.nta.go.jp/topics/2026/topics_20260924_shiyo.htm",
+   "final_url": "https://www.e-tax.nta.go.jp/topics/2026/topics_20260924_shiyo.htm",
+   "status": 200,
+   "last_modified": null,
+   "bytes": 5244,
+   "sha256": "f26af27b856c8d8e3f50ad481633fbb76f4b0fbbb4ab873b1e24d01e37a95477",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "令和8年10月30日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "様書一覧)【令和8年10月13日追記】令和8年9月24日にお知らせしました、国税システム更改前の各仕様書の公開について、令和8年10月30日(金)に公開の終了を予定しています。国税庁では、令和8年9月24日に、国税システムの更改を実施しました。更改後のe-Ta"
+    },
+    {
+     "needle": "10月13日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "e-Tax仕様書等の掲載について(国税システム更改前に係る仕様書一覧)お知らせ掲載日:令和8年9月24日更新日:令和8年10月13日e-Tax仕様書等の掲載について(国税システム更改前に係る仕様書一覧)【令和8年10月13日追記】令和8年9月24日にお"
+    }
+   ]
+  },
+  {
+   "key": "topics_20260910",
+   "url": "https://www.e-tax.nta.go.jp/topics/2026/topics_20260910.htm",
+   "final_url": "https://www.e-tax.nta.go.jp/topics/2026/topics_20260910.htm",
+   "status": 200,
+   "last_modified": null,
+   "bytes": 6906,
+   "sha256": "8c3cd601c28636c21f924a912385a7ef216393acdba24477e08624ec2751cea4",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "令和8年8月28日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "仕様書等の掲載誤りについてお知らせ掲載日:令和8年9月10日国税システムの更改に伴うe-Tax仕様書等の掲載誤りについて令和8年8月28日に掲載した国税システムの更改に伴うe-Tax仕様書等の一部について誤って掲載していたことが判明しましたのでお知らせします"
+    },
+    {
+     "needle": "誤り",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "国税システムの更改に伴うe-Tax仕様書等の掲載誤りについて|【e-Tax】国税電子申告・納税システム(イータックス)本文へホームお知らせ一覧国税システムの更改に伴うe-T"
+    }
+   ]
+  },
+  {
+   "key": "faq08",
+   "url": "https://www.e-tax.nta.go.jp/toiawase/faq/nyuryoku/08.htm",
+   "final_url": "https://www.e-tax.nta.go.jp/toiawase/faq/nyuryoku/08.htm",
+   "status": 200,
+   "last_modified": null,
+   "bytes": 9159,
+   "sha256": "1bf75b6338f22a1951d0299a7e7de7ecab0780b6e31da3089e8963e5ac016744",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "令和7年10月31日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "控除」を入力したいe-Tax・作成コーナーヘルプデスクに実際にお問い合わせがあった上位70のFAQ【入力・保存】更新日:令和7年10月31日作成コーナーで「医療費控除」を入力したい医療費控除は、確定申告書等作成コーナーの「控除の入力(1/2)」画面や「所得・控"
+    },
+    {
+     "needle": "医療費集計フォーム",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "のをご確認ください。【共通】1.医療費控除を入力する画面の入口【医療費控除】2.マイナポータルから情報を取得した場合3.医療費集計フォームの利用4.医療費通知(お知らせ)を入力(手入力)5.医療費の領収書等を入力(手入力)6.医療費の合計額のみを入力(明細書"
+    },
+    {
+     "needle": "医療費の合計額のみを入力",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "得した場合3.医療費集計フォームの利用4.医療費通知(お知らせ)を入力(手入力)5.医療費の領収書等を入力(手入力)6.医療費の合計額のみを入力(明細書は別途提出)【セルフメディケーション税制】7.セルフメディケーション税制の入力【画面番号】SS-AA-010a、"
+    },
+    {
+     "needle": "セルフメディケーション税制",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "から入力します。また、マイナポータル連携を利用して情報を取得することも可能です。医療費控除の入力では、「医療費控除」、「セルフメディケーション税制」いずれか適用を受ける控除を選択します。詳しい入力方法等は、以下から該当するものをご確認ください。【共通】1.医療費控除"
+    },
+    {
+     "needle": "マイナポータル",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "の入力(1/2)」画面や「所得・控除の入力」画面の「医療費控除」を押して、「医療費控除の入力」画面から入力します。また、マイナポータル連携を利用して情報を取得することも可能です。医療費控除の入力では、「医療費控除」、「セルフメディケーション税制」いずれか"
+    }
+   ]
+  },
+  {
+   "key": "ta1119",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1119.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1119.htm",
+   "status": 200,
+   "last_modified": "Wed, 09 Sep 2026 01:00:17 GMT",
+   "bytes": 24002,
+   "sha256": "e1cffd9ccddf54b7a4cb4955144c12f8108cbfd7f57cbcfdd7725abbd0653506",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "マイナンバーカード方式",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "連合会を指します。(注3)「医療費通知情報」については、国税庁ホームページに掲載されている「確定申告書等作成コーナー」のマイナンバーカード方式によるe-Taxを利用する際に、「マイナポータル連携」によりマイナポータル経由で取得し、確定申告書に自動入力することがで"
+    },
+    {
+     "needle": "医療費通知情報",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "記録印刷書面(QRコード付控除証明書(注1)のことをいいます。QRコードは、株式会社デンソーウェーブの登録商標です。)2医療費通知情報(審査支払機関(注2)が発行する医療費の額等を通知するXML形式のデータのことをいい、令和3年9月以降の支払い分から対応"
+    },
+    {
+     "needle": "その医療保険者の電子署名およびその電子署名に係る電子証明書が付されたもの",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "。(注2)電子申告(e-Tax)により確定申告を行う際に、医療保険者から交付された「医療費通知」データ(XML形式)で、その医療保険者の電子署名およびその電子署名に係る電子証明書が付されたものを所得税の確定申告書データに添付して送信する場合を含みます。以下同じです。令和4年1月1日以後に令和3年分以後の確定申告"
+    }
+   ]
+  },
+  {
+   "key": "ta1119qa",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1119_qa.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1119_qa.htm",
+   "status": 200,
+   "last_modified": "Wed, 09 Sep 2026 01:00:17 GMT",
+   "bytes": 32124,
+   "sha256": "e560d3fa311ac1f86bd298863ebad10c5d99203530b46c8c281494530882763e",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "確定申告書等作成コーナーでは、医療保険者から交付される「医療費通知」データ（XML形式）を利用して確定申告書を作成することができます",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "。作成した確定申告書等は、1電子申告(e-Tax)により送信、または2印刷して書面により税務署に提出することができます。確定申告書等作成コーナーでは、医療保険者から交付される「医療費通知」データ(XML形式)を利用して確定申告書を作成することができます。これらのデータ(XML形式)を利用して確定申告書を作成する場合には、当該データを添付書類データとして確定申告書データ等"
+    },
+    {
+     "needle": "QRコード付証明書等作成システム",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": ")するか、医療保険者から交付を受けた書面の「医療費通知」または「医療費通知」データ(XML形式)を国税庁ホームページの「QRコード付証明書等作成システム」で読み込み、作成・印刷した書面を確定申告書に添付して提出する必要があります。(注)QRコードは、株式会社デンソーウェー"
+    },
+    {
+     "needle": "「医療費通知」データを被保険者に提供することは、各医療保険者の任意",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "として確定申告書データ等とともに送信することができます。ただし、e-Taxでの申告や確定申告書等作成コーナーで使用できる「医療費通知」データを被保険者に提供することは、各医療保険者の任意とされています。そのため、医療保険者からどのように「医療費通知」データの提供を受けるかは、申告をされる方が加入している健"
+    },
+    {
+     "needle": "「医療費通知情報」の原本はデータ（XML形式）となります",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "年9月から12月の診療分のみが取得可能です。令和4年分以降の「医療費通知情報」は、1年間の診療分が取得可能です。(注3)「医療費通知情報」の原本はデータ(XML形式)となります。そのため、マイナポータルのWEB画面またはPDFを印刷・ダウンロードしたものは、原本ではありませんので、医療費控除の参"
+    }
+   ]
+  },
+  {
+   "key": "cid1211",
+   "url": "https://www.keisan.nta.go.jp/r7yokuaru/cat2/cat22/cat221/cid1211.html",
+   "final_url": "https://www.keisan.nta.go.jp/r7yokuaru/cat2/cat22/cat221/cid1211.html",
+   "status": 200,
+   "last_modified": "Sun, 08 Nov 2026 22:01:46 GMT",
+   "bytes": 15248,
+   "sha256": "7934ad95d05dc1f361bf528f0f6cdef76c765e9f10e20abfcfb82158b9c68c3b",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "995",
+     "expect_found": false,
+     "found": false,
+     "pass": true,
+     "context": ""
+    },
+    {
+     "needle": "医療費集計フォームを利用する",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "【確定申告書等作成コーナー】-医療費集計フォームを利用する場合の入力方法このページの本文へ移動国税庁NATIONALTAXAGENCY確定申告書等作成コーナーよくある質問令和7年"
+    },
+    {
+     "needle": "医療費集計フォームの読込",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "医療費控除の一覧」画面で、「医療費集計フォームを利用する」を選択し、「集計フォーム読込画面へ」ボタンを押す。STEP3「医療費集計フォームの読込」画面で「ファイルを選択」を押し、読込を行う医療費集計フォームのファイルを選択します。ファイルを選択後、「選択したファイ"
+    },
+    {
+     "needle": "ver3.1",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "読み込む」ボタンを押し、医療費集計フォームを読み込みます。医療費集計フォームのご利用に当たっては、推奨環境をご確認の上、ver3.1の医療費集計フォームをご利用ください。推奨環境等を確認する方はこちらこの情報により問題が解決しましたか?よくある質問で問"
+    }
+   ]
+  },
+  {
+   "key": "cid119",
+   "url": "https://www.keisan.nta.go.jp/r7yokuaru/cat1/cat15/cid119.html",
+   "final_url": "https://www.keisan.nta.go.jp/r7yokuaru/cat1/cat15/cid119.html",
+   "status": 200,
+   "last_modified": "Sun, 08 Nov 2026 22:01:44 GMT",
+   "bytes": 15575,
+   "sha256": "a51b6bef49c51802f2569732a54751e2b2d805c79683c1aa8b4ded7dcfb1427d",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": ".data",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "ってご不明な点に関するお問い合わせ関連する内容令和6年分の確定申告書等作成コーナー公開以前に作成された確定申告書データ(.data形式)を利用する場合確定申告書データを利用する方法(更正の請求書・修正申告書の作成)途中まで作成した続きから再開する方法"
+    },
+    {
+     "needle": "税金の計算に影響のない項目を昨年分のデータから引き継ぐ",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "存したデータを利用する方法昨年作成コーナーを利用した際に保存したデータを利用する方法昨年分の保存データを読み込むことで、税金の計算に影響のない項目を昨年分のデータから引き継ぐことができます。STEP1作成コーナーのトップページにある「保存データを利用して作成」をクリックします。STEP2過去の"
+    },
+    {
+     "needle": "更正の請求書・修正申告書の作成",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "申告書等作成コーナー公開以前に作成された確定申告書データ(.data形式)を利用する場合確定申告書データを利用する方法(更正の請求書・修正申告書の作成)途中まで作成した続きから再開する方法が知りたい。入力したデータの保存場所が分からない場合昨年作成コーナーを利用した際に"
+    }
+   ]
+  },
+  {
+   "key": "cid1102",
+   "url": "https://www.keisan.nta.go.jp/r7yokuaru/cat1/cat15/cid1102.html",
+   "final_url": "https://www.keisan.nta.go.jp/r7yokuaru/cat1/cat15/cid1102.html",
+   "status": 200,
+   "last_modified": "Sun, 08 Nov 2026 22:01:44 GMT",
+   "bytes": 14193,
+   "sha256": "a0a0c6cc16dc6eea5ea99ed04480f5093038f67f7f625bbfb3d7eca620df8aa4",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "昨年作成コーナーを利用した際に保存したデータを利用する方法",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "更正の請求書・修正申告書の作成)途中まで作成した続きから再開する方法が知りたい。入力したデータの保存場所が分からない場合昨年作成コーナーを利用した際に保存したデータを利用する方法保存したデータを読み込むとエラーになるのですが、なぜですか?作成コーナーで保存した電子申告等データ(拡張子が「.xtx」"
+    }
+   ]
+  },
+  {
+   "key": "cid179",
+   "url": "https://www.keisan.nta.go.jp/r7yokuaru/cat1/cat15/cid179.html",
+   "final_url": "https://www.keisan.nta.go.jp/r7yokuaru/cat1/cat15/cid179.html",
+   "status": 200,
+   "last_modified": "Sun, 08 Nov 2026 22:01:44 GMT",
+   "bytes": 16761,
+   "sha256": "79646fdd671e9aa078ae027800aacc821ff98ff9b7203d83e098416e92a330cf",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": ".xtx",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "【確定申告書等作成コーナー】-作成コーナーで保存した電子申告等データ(拡張子が「.xtx」)を利用する方法このページの本文へ移動国税庁NATIONALTAXAGENCY確定申告書等作成コーナーよくある質問令和"
+    },
+    {
+     "needle": "e-Taxソフトや他の会計ソフト等に組み込んで送信する",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "データ(拡張子が「.xtx」)を利用する方法保存した電子申告等データ(拡張子が「.xtx」)は以下のことに利用できます。e-Taxソフトや他の会計ソフト等に組み込んで送信する作成コーナーのトップページから読み込んで内容を表示させる収支内訳書や青色申告決算書の電子申告等データ(拡張子が「.xtx"
+    },
+    {
+     "needle": "収支内訳書や青色申告決算書の電子申告等データ（拡張子が「.xtx」）を、所得税の申告書データと併せて送信する",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "できます。e-Taxソフトや他の会計ソフト等に組み込んで送信する作成コーナーのトップページから読み込んで内容を表示させる収支内訳書や青色申告決算書の電子申告等データ(拡張子が「.xtx」)を、所得税の申告書データと併せて送信する(注)作成したデータに丸付き文字やかっこ付き文字などが含まれていると、e-Taxソフトでの組み込みができませんのでご注意"
+    }
+   ]
+  },
+  {
+   "key": "etaxweb49",
+   "url": "https://www.e-tax.nta.go.jp/toiawase/qa/e-taxweb/49.htm",
+   "final_url": "https://www.e-tax.nta.go.jp/toiawase/qa/e-taxweb/49.htm",
+   "status": 200,
+   "last_modified": null,
+   "bytes": 25717,
+   "sha256": "e33025e2225d4a41da8a15ad0bc183150c6ba72d05735354f09d1a7144a70ac5",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "民間会計ソフト等で作成した申告書等データ(拡張子.xtx)をe-Taxソフト(WEB版)で読み込んで送信を行うことは可能です。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "0月22日民間会計ソフト等で作成した申告書等データをe-Taxソフト(WEB版)で読み込んで送信を行うことはできますか。民間会計ソフト等で作成した申告書等データ(拡張子.xtx)をe-Taxソフト(WEB版)で読み込んで送信を行うことは可能です。具体的な操作方法は以下をご確認ください。なお、操作例では、e-Taxソフト(WEB版)でマイナンバーカードを読み取る際に"
+    },
+    {
+     "needle": "作成済みデータの利用",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "合は、「QRコード認証」をご確認ください。2.ログイン後、「申請・納付手続を行う」をクリックしてください。拡大表示3.「作成済みデータの利用」の「操作に進む」をクリックしてください。拡大表示4.「参照」をクリックします。拡大表示5.作成済みの申告書等データ(拡"
+    },
+    {
+     "needle": "令和8年10月22日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "Taxソフト(WEB版)で読み込んで送信を行うことはできますか。e-Taxソフト(WEB版)についてよくある質問更新日:令和8年10月22日民間会計ソフト等で作成した申告書等データをe-Taxソフト(WEB版)で読み込んで送信を行うことはできますか。民間会計ソ"
+    }
+   ]
+  },
+  {
+   "key": "gaiyo04",
+   "url": "https://www.e-tax.nta.go.jp/toiawase/faq/gaiyo/04.htm",
+   "final_url": "https://www.e-tax.nta.go.jp/toiawase/faq/gaiyo/04.htm",
+   "status": 200,
+   "last_modified": null,
+   "bytes": 6622,
+   "sha256": "5935e0588015b61d0259bbba9a191e922e0156c5d5ae8df1e4bdef1168e0ff1b",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "e-TaxソフトWEB版で作成ができない手続であっても、作成済のデータ（拡張子が「.xtx」）があれば、内容の表示及び送信をすることができます。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "たい作成ができる手続については、まずは、e-Taxホームページの「ご利用ガイド」又は「利用可能手続」をご確認ください。※e-TaxソフトWEB版で作成ができない手続であっても、作成済のデータ(拡張子が「.xtx」)があれば、内容の表示及び送信をすることができます。「e-Taxソフト(WEB版)ご利用ガイド」「利用可能手続」(参考)1.e-Taxソフト(WEB版)で作成できる法定調書"
+    },
+    {
+     "needle": "令和7年10月31日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "できる手続は何か知りたいe-Tax・作成コーナーヘルプデスクに実際にお問い合わせがあった上位70のFAQ【概要】更新日:令和7年10月31日【パソコン】e-Taxソフト(WEB版)から作成ができる手続は何か知りたい作成ができる手続については、まずは、e-Tax"
+    }
+   ]
+  },
+  {
+   "key": "etaxweb16",
+   "url": "https://www.e-tax.nta.go.jp/toiawase/qa/e-taxweb/16.htm",
+   "final_url": "https://www.e-tax.nta.go.jp/toiawase/qa/e-taxweb/16.htm",
+   "status": 200,
+   "last_modified": null,
+   "bytes": 11579,
+   "sha256": "c697a43b7f9910b7f237780c0bc2c4d158d97ad526f48834a9b5174349dd69f1",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "令和6年5月20日",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "示」とありますが、このメニューの操作方法について教えてください。e-Taxソフト(WEB版)についてよくある質問更新日:令和6年5月20日「作成した申告・申請データ(拡張子「.xtx」)の表示」とありますが、このメニューの操作方法について教えてください。この"
+    },
+    {
+     "needle": "受信通知",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "告・申請データ(拡張子「.xtx」)の表示」とありますが、このメニューの操作方法について教えてください。このメニューは、受信通知(※)からダウンロードした申告・申請データ(拡張子は.xtx)を表示する際に使用します。操作手順については、以下のとおり"
+    },
+    {
+     "needle": "ログイン画面又はTOP画面から",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "用します。操作手順については、以下のとおりです。(※)受信通知の表示方法は、「こちら」をご確認ください。【操作手順】1.ログイン画面又はTOP画面から「作成した申告・申請データ(拡張子「.xtx」)の表示」をクリックします。拡大表示2.「参照」をクリックします。拡大表示"
+    }
+   ]
+  },
+  {
+   "key": "chosakuken",
+   "url": "https://www.e-tax.nta.go.jp/chuijiko/chosakuken.htm",
+   "final_url": "https://www.e-tax.nta.go.jp/chuijiko/chosakuken.htm",
+   "status": 200,
+   "last_modified": null,
+   "bytes": 7521,
+   "sha256": "325ea4c6f4fe446604518ed5bf800b79963934c2b8d6a6b88c8705ad834cd9f4",
+   "prev_sha256": "325ea4c6f4fe446604518ed5bf800b79963934c2b8d6a6b88c8705ad834cd9f4",
+   "same_as_prev": true,
+   "checks": [
+    {
+     "needle": "e-Taxホームページで公開している情報（以下「コンテンツ」といいます。）の利用については、",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "著作権(1)コンテンツの利用について(2)リンク設定について(3)商標について(4)その他(1)コンテンツの利用についてe-Taxホームページで公開している情報(以下「コンテンツ」といいます。)の利用については、別に定める「国税庁ホームページ利用規約」が適用されます。(2)リンク設定についてe-Taxホームページへのリンク設定は、"
+    },
+    {
+     "needle": "国税庁ホームページ利用規約」が適用されます。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "ツの利用についてe-Taxホームページで公開している情報(以下「コンテンツ」といいます。)の利用については、別に定める「国税庁ホームページ利用規約」が適用されます。(2)リンク設定についてe-Taxホームページへのリンク設定は、ご自由に設定いただけます。e-Taxリンクバナーにつきま"
+    }
+   ]
+  },
+  {
+   "key": "copy",
+   "url": "https://www.nta.go.jp/chuijiko/copy.htm",
+   "final_url": "https://www.nta.go.jp/chuijiko/copy.htm",
+   "status": 200,
+   "last_modified": "Tue, 20 Oct 2026 01:00:06 GMT",
+   "bytes": 12138,
+   "sha256": "8f274c83732ee2ab0627ae043b11feb4b621790019a82a575098ecf566712dff",
+   "prev_sha256": "8f274c83732ee2ab0627ae043b11feb4b621790019a82a575098ecf566712dff",
+   "same_as_prev": true,
+   "checks": [
+    {
+     "needle": "公共データ利用規約（第1.0版）",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "いてに記載しています。)に適用されます。利用規約著作権は、特記されていない限り国税庁に帰属し、権利表記の記載がない限り「公共データ利用規約(第1.0版)」に準拠した利用条件の下で、利用することができます。公共データ利用規約(第1.0版)(外部サイト:デジタル庁)(別ウイン"
+    },
+    {
+     "needle": "確定申告書等作成コーナー",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "ww.e-tax.nta.go.jp/)、財産評価基準書(http://www.rosenka.nta.go.jp/)、確定申告書等作成コーナー(http://www.keisan.nta.go.jp/)、公売情報ホームページ(https://www.koubai"
+    },
+    {
+     "needle": "公売情報ホームページ",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "enka.nta.go.jp/)、確定申告書等作成コーナー(http://www.keisan.nta.go.jp/)、公売情報ホームページ(https://www.koubai.nta.go.jp/)(以下「本サイト」といいます。)及び国税庁のソーシャルメデ"
+    },
+    {
+     "needle": "財産評価基準書",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "://www.nta.go.jp/)、e-Taxホームページ(http://www.e-tax.nta.go.jp/)、財産評価基準書(http://www.rosenka.nta.go.jp/)、確定申告書等作成コーナー(http://www.keis"
+    },
+    {
+     "needle": "あたかも国（又は府省等）が作成したかのような態様で公表・利用してはいけません",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "・加工等して利用する場合は、上記出典とは別に、編集・加工等を行ったことを記載してください。なお、編集・加工等した情報を、あたかも国(又は府省等)が作成したかのような態様で公表・利用してはいけません。(コンテンツを編集・加工等して利用する場合の記載例)「○○調査結果」(国税庁)(当該ページのURL)を加工して作成2)"
+    },
+    {
+     "needle": "組織や特定の事業を表すシンボルマーク、ロゴ、キャラクターデザイン",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "ての複製の制限について3)本利用ルールが適用されないコンテンツについて以下のコンテンツは、本利用ルールの適用外です。1.組織や特定の事業を表すシンボルマーク、ロゴ、キャラクターデザイン2.具体的かつ合理的な根拠の説明とともに、別の利用ルールの適用を明示しているコンテンツ(別の利用ルールの適用を明示してい"
+    }
+   ]
+  },
+  {
+   "key": "cps",
+   "url": "https://www.e-tax.nta.go.jp/cps/cps.htm",
+   "final_url": "https://www.e-tax.nta.go.jp/cps/cps.htm",
+   "status": 200,
+   "last_modified": null,
+   "bytes": 29465,
+   "sha256": "9f8c4ec0d43f8bb9e5e23511e7840ed99cf593e3af4f7d5b0066becb0d1ab0ef",
+   "prev_sha256": "9f8c4ec0d43f8bb9e5e23511e7840ed99cf593e3af4f7d5b0066becb0d1ab0ef",
+   "same_as_prev": true,
+   "checks": [
+    {
+     "needle": "国税電子申告・納税システムの利用に当たっては、次の利用規約の全ての条項に同意いただく必要があります",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "用いただけない場合があります。ご利用の前に「QRコード付証明書等作成システムの推奨環境」をご確認ください。(2)利用規約国税電子申告・納税システムの利用に当たっては、次の利用規約の全ての条項に同意いただく必要がありますので、ご利用前に必ずご確認ください。国税電子申告・納税システムの利用規約(3)よくある質問QRコード付証明書等作成システ"
+    },
+    {
+     "needle": "約7.5MB",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "セットアップ」ツールをパソコンにダウンロードした上でご利用ください。事前準備セットアップ(Windows用(exe形式:約7.5MB)02ブラウザの拡張機能「e-TaxAP」のインストールChromeウェブストアへアクセスし、ブラウザの拡張機能「e-T"
+    },
+    {
+     "needle": "e-Tax AP",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "ロードした上でご利用ください。事前準備セットアップ(Windows用(exe形式:約7.5MB)02ブラウザの拡張機能「e-TaxAP」のインストールChromeウェブストアへアクセスし、ブラウザの拡張機能「e-TaxAP」をインストールしてください。C"
+    },
+    {
+     "needle": "医療費通知",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "住宅借入金等特別控除証明書(令和4年以降居住開始用)年末調整のための住宅借入金等特別控除証明書(令和5年以降居住開始用)医療費通知(お知らせ)国民年金保険料等控除証明書小規模企業共済等掛金控除証明書年末調整のための住宅借入金等特別控除証明書(令和6年"
+    }
+   ]
+  },
+  {
+   "key": "iryou_koujo",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/iryou-koujo.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/iryou-koujo.htm",
+   "status": 200,
+   "last_modified": "Tue, 25 Aug 2026 01:00:11 GMT",
+   "bytes": 38665,
+   "sha256": "75ac9da0688216d9b38c66462f69fc83ea94eac5b88ee62cb4871a49cf37c92d",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": [
+    {
+     "needle": "医療費集計フォーム",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "法」(外部サイト)をご覧ください。医療費控除のマイナポータル連携について(PDF416KB)医療費の領収書が多い場合は、医療費集計フォームで入力すると便利です。「医療費集計フォーム」は、支払った医療費の内容を表計算ソフト(エクセルなど)で入力・集計するための"
+    },
+    {
+     "needle": "セルフメディケーション税制の適用を受ける方は、「医療費集計フォーム」をご利用いただけません。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "、医療費の領収書の枚数が多い方は、「医療費集計フォーム」を利用した入力が便利です。医療費集計フォームのダウンロードをするセルフメディケーション税制の適用を受ける方は、「医療費集計フォーム」をご利用いただけません。動画を見るこちらの動画はYouTube「国税庁動画チャンネル」(外部サイト)へリンクし、別ウィンドウが開きます。スマホ申"
+    },
+    {
+     "needle": "995",
+     "expect_found": false,
+     "found": false,
+     "pass": true,
+     "context": ""
+    }
+   ]
+  },
+  {
+   "key": "etax_kiyaku",
+   "url": "https://www.e-tax.nta.go.jp/horeito/horei7.htm",
+   "final_url": "https://www.e-tax.nta.go.jp/horeito/horei7.htm",
+   "status": 200,
+   "last_modified": null,
+   "bytes": 28117,
+   "sha256": "4e1b53971251c3e75ed768ca59550e50db5da65321dbecf6fc073faee829811a",
+   "prev_sha256": "4e1b53971251c3e75ed768ca59550e50db5da65321dbecf6fc073faee829811a",
+   "same_as_prev": true,
+   "checks": [
+    {
+     "needle": "「システム利用者」とは、本システムを利用して申告等手続又は国税の納付手続を行う者をいいます。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "び税務署を含みます。)及び国税不服審判所に係る申告等手続並びに国税の納付手続を汎用的に受付処理するシステムをいいます。二「システム利用者」とは、本システムを利用して申告等手続又は国税の納付手続を行う者をいいます。三「利用者識別番号」とは、システム利用者を特定するため国税庁がシステム利用者に付与する符号をいいます。四「暗証番号」とは"
+    },
+    {
+     "needle": "複製、改変、編集、頒布等を行わず、また、リバースエンジニアリングを行わないこと。",
+     "expect_found": true,
+     "found": true,
+     "pass": true,
+     "context": "その他の著作物を次の各号のとおり取り扱うものとします。一本利用規約に従って本システムを利用するためにのみ使用すること。二複製、改変、編集、頒布等を行わず、また、リバースエンジニアリングを行わないこと。三営利目的の有無にかかわらず、第三者に貸与若しくは譲渡し、又は担保の設定をしないこと。四国税庁又は国税庁が指定する者が表"
+    }
+   ]
+  },
+  {
+   "key": "sakusei_kiyaku_pdf",
+   "url": "https://www.keisan.nta.go.jp/oshirase/r4info/info999.files/01_kiyaku.pdf",
+   "final_url": "https://www.keisan.nta.go.jp/oshirase/r4info/info999.files/01_kiyaku.pdf",
+   "status": 200,
+   "last_modified": "Sat, 10 Jun 2023 01:30:30 GMT",
+   "bytes": 358091,
+   "sha256": "e9d8db424b33610d8dc58eb068f66498fe06c1b264a92c72671c79848dc66822",
+   "prev_sha256": "e9d8db424b33610d8dc58eb068f66498fe06c1b264a92c72671c79848dc66822",
+   "same_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "pdf_01",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/01.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/01.pdf",
+   "status": 200,
+   "last_modified": "Mon, 31 Aug 2026 05:00:05 GMT",
+   "bytes": 2173072,
+   "sha256": "833e641919fbc1eb22605a1989c6514eabb742334528d04dd90736ae90afce46",
+   "prev_sha256": "833e641919fbc1eb22605a1989c6514eabb742334528d04dd90736ae90afce46",
+   "same_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "pdf_001-1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/001-1.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/001-1.pdf",
+   "status": 200,
+   "last_modified": "Tue, 20 Oct 2026 08:30:03 GMT",
+   "bytes": 147974,
+   "sha256": "15f1874c67264a5b8d87ed8800f37e9f527e96a46ec6fda5239f00f82a503a99",
+   "prev_sha256": "15f1874c67264a5b8d87ed8800f37e9f527e96a46ec6fda5239f00f82a503a99",
+   "same_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "pdf_05",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/05.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/05.pdf",
+   "status": 200,
+   "last_modified": "Mon, 31 Aug 2026 05:00:05 GMT",
+   "bytes": 22101,
+   "sha256": "686ecbd849ebe07b11a90d10421561669188e1cfd48b18962bf1be06965a0f24",
+   "prev_sha256": "686ecbd849ebe07b11a90d10421561669188e1cfd48b18962bf1be06965a0f24",
+   "same_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "pdf_ref1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/04/pdf/ref1.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/04/pdf/ref1.pdf",
+   "status": 200,
+   "last_modified": "Tue, 30 Jun 2026 08:31:47 GMT",
+   "bytes": 795776,
+   "sha256": "7c602c74703668f06e37b5efe40bf924da885cc8387c7fc3c1dd7e5c8fcb23ea",
+   "prev_sha256": "7c602c74703668f06e37b5efe40bf924da885cc8387c7fc3c1dd7e5c8fcb23ea",
+   "same_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "pdf_shomen",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/sodan/pdf/0026004-138_01.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/sodan/pdf/0026004-138_01.pdf",
+   "status": 200,
+   "last_modified": "Fri, 19 Jun 2026 05:00:02 GMT",
+   "bytes": 121583,
+   "sha256": "6227d181d86afbc3bd027de6718d1e59217ee7d3cb87ae74eda02a8067a0e863",
+   "prev_sha256": "6227d181d86afbc3bd027de6718d1e59217ee7d3cb87ae74eda02a8067a0e863",
+   "same_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "pdf_chohyo2027",
+   "url": "https://www.e-tax.nta.go.jp/shiyo/chohyo/shiyo_chohyo_20260924.pdf",
+   "final_url": "https://www.e-tax.nta.go.jp/shiyo/chohyo/shiyo_chohyo_20260924.pdf",
+   "status": 200,
+   "last_modified": "Wed, 23 Sep 2026 23:30:30 GMT",
+   "bytes": 163521,
+   "sha256": "52865038e7ef577d4b798c7e768a52641b5063475bcf73e9ae67d1a13d9c9d82",
+   "prev_sha256": "52865038e7ef577d4b798c7e768a52641b5063475bcf73e9ae67d1a13d9c9d82",
+   "same_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "pdf_chohyo2026",
+   "url": "https://www.e-tax.nta.go.jp/shiyo/chohyo/shiyo_chohyo_20260105.pdf",
+   "final_url": "https://www.e-tax.nta.go.jp/shiyo/chohyo/shiyo_chohyo_20260105.pdf",
+   "status": 200,
+   "last_modified": "Wed, 24 Sep 2025 01:00:01 GMT",
+   "bytes": 135028,
+   "sha256": "2968e84ba70f72730a9300c60232156e546ac098346c63ee79c41b9336dab068",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": []
+  },
+  {
+   "key": "pdf_faq08_3",
+   "url": "https://www.e-tax.nta.go.jp/toiawase/faq/nyuryoku/08_3.pdf",
+   "final_url": "https://www.e-tax.nta.go.jp/toiawase/faq/nyuryoku/08_3.pdf",
+   "status": 200,
+   "last_modified": "Sun, 04 Jan 2026 23:35:51 GMT",
+   "bytes": 1597922,
+   "sha256": "408227649f30bc7e6d26a96fa90415c9e7a3393fbe060e8790cbb8e9806ca5d6",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": []
+  },
+  {
+   "key": "pdf_faq08_6",
+   "url": "https://www.e-tax.nta.go.jp/toiawase/faq/nyuryoku/08_6.pdf",
+   "final_url": "https://www.e-tax.nta.go.jp/toiawase/faq/nyuryoku/08_6.pdf",
+   "status": 200,
+   "last_modified": "Sun, 04 Jan 2026 23:35:51 GMT",
+   "bytes": 1119155,
+   "sha256": "3cb915287fa62992fdd6e45ac3870f603ba17895b8c8cea183f75e2ec7d628f5",
+   "prev_sha256": null,
+   "same_as_prev": null,
+   "checks": []
+  },
+  {
+   "key": "xlsx_aiocr",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/sodan/ai-ocr.xlsx",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/sodan/ai-ocr.xlsx",
+   "status": 200,
+   "last_modified": "Thu, 05 Nov 2026 05:00:01 GMT",
+   "bytes": 109168,
+   "sha256": "99af2fe209fe817bef3cee6eb9bc9a3169cbe1a519ff9cba09cdb407817cab0c",
+   "prev_sha256": "99af2fe209fe817bef3cee6eb9bc9a3169cbe1a519ff9cba09cdb407817cab0c",
+   "same_as_prev": true,
+   "checks": []
+  },
+  {
+   "key": "xlsx_iryouhi",
+   "url": "https://www.keisan.nta.go.jp/r7/syotoku/data/downloadData/iryouhi_form_v3.1.xlsx",
+   "final_url": "https://www.keisan.nta.go.jp/r7/syotoku/data/downloadData/iryouhi_form_v3.1.xlsx",
+   "status": 200,
+   "last_modified": "Fri, 31 Jul 2026 09:12:38 GMT",
+   "bytes": 416343,
+   "sha256": "032f862f33e83a84e26469e7ddf702aa4d03531152168e843ad379b88d61a89a",
+   "prev_sha256": "032f862f33e83a84e26469e7ddf702aa4d03531152168e843ad379b88d61a89a",
+   "same_as_prev": true,
+   "checks": []
+  }
+ ],
+ "robots": [
+  {
+   "host": "www.nta.go.jp",
+   "status": 200,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+   "text": "Sitemap: http://www.nta.go.jp/sitemap.xml\r\n\r\nUser-agent: *\r\nDisallow: /service_publication/\r\nDisallow: /about/organization/sapporo/service_publication/\r\nDisallow: /about/organization/sendai/service_publication/\r\nDisallow: /about/organization/kantoshinetsu/service_publication/\r\nDisallow: /about/organization/tokyo/service_publication/\r\nDisallow: /about/organization/kanazawa/service_publication/\r\nDisallow: /about/organization/nagoya/service_publication/\r\nDisallow: /about/organization/osaka/service_publication/\r\nDisallow: /about/organization/hiroshima/service_publication/\r\nDisallow: /about/organization/takamatsu/service_publication/\r\nDisallow: /about/organization/fukuoka/service_publication/\r\nDisallow: /about/organization/kumamoto/service_publication/\r\nDisallow: /about/organization/okinawa/service_publication/\r\n\r\nUser-agent: ndl-japan\r\nDisallow:"
+  },
+  {
+   "host": "www.e-tax.nta.go.jp",
+   "status": 404,
+   "sha256": null,
+   "text": null
+  },
+  {
+   "host": "www.keisan.nta.go.jp",
+   "status": 404,
+   "sha256": null,
+   "text": null
+  }
+ ]
+}

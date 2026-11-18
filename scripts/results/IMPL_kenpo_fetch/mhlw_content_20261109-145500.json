@@ -1,0 +1,67 @@
+{
+  "set": "mhlw_content",
+  "fetched_at_local": "20261109-145500",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "content_000863814",
+      "url": "https://www.mhlw.go.jp/content/12400000/000863814.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/12400000/000863814.pdf",
+      "content_type": "application/pdf",
+      "bytes": 111305,
+      "sha256": "e6c3a56848b4a7c8c0d222cf6cf4ed6d52a346853f1887f40bc062186c113d5f",
+      "last_modified": "Tue, 20 Sep 2022 09:12:32 GMT",
+      "etag": "\"1b2c9-5e9183a690000\"",
+      "saved": ".work\\downloads\\20261109-145500_IMPL_kenpo_mhlw_content\\content_000863814.pdf"
+    },
+    {
+      "id": "content_001093084",
+      "url": "https://www.mhlw.go.jp/content/12400000/001093084.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/12400000/001093084.pdf",
+      "content_type": "application/pdf",
+      "bytes": 479350,
+      "sha256": "4fa34873fd12339d0094afcf80a5d6c52574622d582ae878d17b80d07c6283ed",
+      "last_modified": "Mon, 01 May 2023 02:51:35 GMT",
+      "etag": "\"75076-5fa98e6a37bc0\"",
+      "saved": ".work\\downloads\\20261109-145500_IMPL_kenpo_mhlw_content\\content_001093084.pdf"
+    },
+    {
+      "id": "content_001093085",
+      "url": "https://www.mhlw.go.jp/content/12400000/001093085.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/12400000/001093085.pdf",
+      "content_type": "application/pdf",
+      "bytes": 767216,
+      "sha256": "4acffda3f844065bd949b5deb8d2d177ba6ef73fd982117efde4acfda37acdae",
+      "last_modified": "Mon, 01 May 2023 02:51:40 GMT",
+      "etag": "\"bb4f0-5fa98e6efc700\"",
+      "saved": ".work\\downloads\\20261109-145500_IMPL_kenpo_mhlw_content\\content_001093085.pdf"
+    },
+    {
+      "id": "content_000991672",
+      "url": "https://www.mhlw.go.jp/content/12400000/000991672.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/12400000/000991672.pdf",
+      "content_type": "application/pdf",
+      "bytes": 488092,
+      "sha256": "d0e5896f95b99651e924b8326122ee3126af1ad1a87ba75fbf858b82ec480556",
+      "last_modified": "Tue, 20 Sep 2022 09:12:22 GMT",
+      "etag": "\"7729c-5e91839d06980\"",
+      "saved": ".work\\downloads\\20261109-145500_IMPL_kenpo_mhlw_content\\content_000991672.pdf"
+    },
+    {
+      "id": "content_001678029",
+      "url": "https://www.mhlw.go.jp/content/001678029.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/001678029.pdf",
+      "content_type": "application/pdf",
+      "bytes": 179658,
+      "sha256": "dc76229c5e2a60a8fa6601736980d61ef8959140bb4726677b2aa9e2357d1b67",
+      "last_modified": "Wed, 01 Apr 2026 01:24:37 GMT",
+      "etag": "\"2bdca-64e5bf280269b\"",
+      "saved": ".work\\downloads\\20261109-145500_IMPL_kenpo_mhlw_content\\content_001678029.pdf"
+    }
+  ]
+}

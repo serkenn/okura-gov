@@ -1,0 +1,41 @@
+{
+  "set": "nenkin_faq_add",
+  "fetched_at_local": "20261109-145832",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "nenkin_faq_add_index",
+      "url": "https://www.nenkin.go.jp/section/faq/kounen/dependents/add/index.html",
+      "status": 200,
+      "final_url": "https://www.nenkin.go.jp/section/faq/kounen/dependents/add/index.html",
+      "content_type": "text/html",
+      "bytes": 23390,
+      "sha256": "ab9745d61929b9f67051ec92dd9960b9185a560c51ea895a7dd50ded00735563",
+      "last_modified": "Mon, 09 Nov 2026 05:00:24 GMT",
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-145832_IMPL_kenpo_nenkin_faq_add\\nenkin_faq_add_index.html",
+      "charset": "UTF-8",
+      "title": "年金Q&A（家族を扶養に入れるとき）｜日本年金機構",
+      "text_chars": 2007,
+      "text": ".work\\text\\20261109-145832_IMPL_kenpo_nenkin_faq_add\\nenkin_faq_add_index.txt",
+      "n_links": 125
+    },
+    {
+      "id": "nenkin_faq_19to22_timing",
+      "url": "https://www.nenkin.go.jp/section/faq/kounen/dependents/aged19to22/timing.html",
+      "status": 200,
+      "final_url": "https://www.nenkin.go.jp/section/faq/kounen/dependents/aged19to22/timing.html",
+      "content_type": "text/html",
+      "bytes": 24655,
+      "sha256": "2595c8961984db7fdbfd66d4503f52b1b2187f45ff659ea90894e670245de35f",
+      "last_modified": "Wed, 14 Oct 2026 00:25:50 GMT",
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-145832_IMPL_kenpo_nenkin_faq_add\\nenkin_faq_19to22_timing.html",
+      "charset": "UTF-8",
+      "title": "年齢要件（19歳以上23歳未満）は、いつの時点で判定するのですか。｜日本年金機構",
+      "text_chars": 2409,
+      "text": ".work\\text\\20261109-145832_IMPL_kenpo_nenkin_faq_add\\nenkin_faq_19to22_timing.txt",
+      "n_links": 125
+    }
+  ]
+}

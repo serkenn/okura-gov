@@ -1,0 +1,481 @@
+[
+ {
+  "run_at": "20261111-030120",
+  "group": "main",
+  "download_dir": ".work/downloads/20261111-030120_R3X_shibo-shukkoku_verify_web-main",
+  "robots": {
+   "www.nta.go.jp": {
+    "status": 200,
+    "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+    "allowed": {
+     "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2022.htm": true,
+     "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1920.htm": true,
+     "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1923.htm": true,
+     "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm": true,
+     "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/02.htm": true,
+     "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/06.htm": true,
+     "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/15/01.htm": true,
+     "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/01.htm": true,
+     "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/01.htm": true,
+     "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/01.htm": true,
+     "https://www.nta.go.jp/law/shitsugi/shotoku/07/15.htm": true,
+     "https://www.nta.go.jp/taxes/shiraberu/shinkoku/jyunkaku/index.htm": true,
+     "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/07.htm": true,
+     "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/23200032.htm": true,
+     "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/1557_2.htm": true,
+     "https://www.nta.go.jp/law/tsutatsu/menu.htm": true,
+     "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/fuhyo/f01-yoshiki.pdf": true,
+     "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/fuhyo/f01.pdf": true,
+     "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/fuhyo/f01-3.pdf": true,
+     "https://www.nta.go.jp/users/gensen/2026kiso/pdf/0026005-024.pdf": true,
+     "https://www.nta.go.jp/publication/pamph/gensen/0025005-051.pdf": true
+    }
+   }
+  },
+  "items": [
+   {
+    "id": "ta_2022",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2022.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Wed, 09 Sep 2026 01:00:06 GMT",
+    "bytes": 19011,
+    "sha256": "1bb82145d2a371a7122e5ab3137ef12ea9a38a516341dc2fccbd421ad1ddfa00",
+    "saved": ".work/downloads/20261111-030120_R3X_shibo-shukkoku_verify_web-main/ta_2022.htm",
+    "is_pdf": false,
+    "title": "No.2022 納税者が死亡したときの確定申告(準確定申告)｜国税庁"
+   },
+   {
+    "id": "ta_1920",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1920.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Wed, 09 Sep 2026 01:00:07 GMT",
+    "bytes": 17880,
+    "sha256": "7d1be5d79afcbbd82b31352dab0006f9957db0137deeb5ab987e96faaf0845d2",
+    "saved": ".work/downloads/20261111-030120_R3X_shibo-shukkoku_verify_web-main/ta_1920.htm",
+    "is_pdf": false,
+    "title": "No.1920 海外勤務と所得税額の精算｜国税庁"
+   },
+   {
+    "id": "ta_1923",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1923.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Wed, 09 Sep 2026 01:00:07 GMT",
+    "bytes": 15408,
+    "sha256": "1351c018cc9254a267626b570b81d5d390c166af48b4ed7e3168f5601d74879b",
+    "saved": ".work/downloads/20261111-030120_R3X_shibo-shukkoku_verify_web-main/ta_1923.htm",
+    "is_pdf": false,
+    "title": "No.1923 海外勤務と納税管理人の選任又は解任｜国税庁"
+   },
+   {
+    "id": "ta_1110",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Wed, 09 Sep 2026 01:00:17 GMT",
+    "bytes": 21261,
+    "sha256": "377fee05900a97e3440a1c46c6f41ca8a6a15482a31f17826852a19ff96c38db",
+    "saved": ".work/downloads/20261111-030120_R3X_shibo-shukkoku_verify_web-main/ta_1110.htm",
+    "is_pdf": false,
+    "title": "No.1110 災害や盗難などで資産に損害を受けたとき(雑損控除)｜国税庁"
+   },
+   {
+    "id": "kihon_19_02",
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/02.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Tue, 25 Nov 2025 08:30:05 GMT",
+    "bytes": 12685,
+    "sha256": "a9a3b2a8f9de88eb0c5c89d3e7d89307d9ff02b5473a543a919058adfda715a4",
+    "saved": ".work/downloads/20261111-030120_R3X_shibo-shukkoku_verify_web-main/kihon_19_02.htm",
+    "is_pdf": false,
+    "title": "法第122条《還付等を受けるための申告》関係｜国税庁"
+   },
+   {
+    "id": "kihon_16_06",
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/06.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Tue, 25 Nov 2025 08:30:05 GMT",
+    "bytes": 9685,
+    "sha256": "73c6009edd9c2ed350eab73aca71530dc58a45807da74a34539cd959f604f023",
+    "saved": ".work/downloads/20261111-030120_R3X_shibo-shukkoku_verify_web-main/kihon_16_06.htm",
+    "is_pdf": false,
+    "title": "法第79条《障害者控除》関係｜国税庁"
+   },
+   {
+    "id": "kihon_15_01",
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/15/01.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Tue, 25 Nov 2025 08:30:05 GMT",
+    "bytes": 15465,
+    "sha256": "ead14cdf750a95909c51baf48fe751982f2df09ad83c908fc20f5f5503e26349",
+    "saved": ".work/downloads/20261111-030120_R3X_shibo-shukkoku_verify_web-main/kihon_15_01.htm",
+    "is_pdf": false,
+    "title": "〔被災事業用資産の損失の金額の計算等〕｜国税庁"
+   },
+   {
+    "id": "kihon_16_01",
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/01.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Thu, 18 Jan 2024 09:30:20 GMT",
+    "bytes": 15735,
+    "sha256": "c00969ebe1eb83e0528faf332c93d90326196e27a0631c7547c712e38c485b96",
+    "saved": ".work/downloads/20261111-030120_R3X_shibo-shukkoku_verify_web-main/kihon_16_01.htm",
+    "is_pdf": false,
+    "title": "法第72条《雑損控除》関係｜国税庁"
+   },
+   {
+    "id": "kihon_01_01",
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/01.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Thu, 18 Jan 2024 09:30:24 GMT",
+    "bytes": 6682,
+    "sha256": "6d7d6ba43294e00afd3b42b9202138232b93cfa521a4af171dfbf7e2e946a0bd",
+    "saved": ".work/downloads/20261111-030120_R3X_shibo-shukkoku_verify_web-main/kihon_01_01.htm",
+    "is_pdf": false,
+    "title": "〔居住者、非永住者及び非居住者（第3、4、5号関係）〕｜国税庁"
+   },
+   {
+    "id": "kihon_19_01",
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/01.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Tue, 25 Nov 2025 08:30:05 GMT",
+    "bytes": 15638,
+    "sha256": "9e7dbd6d0d4d691416185063a37bf2e016439a7d4af45d68c00fc0a7861f14e2",
+    "saved": ".work/downloads/20261111-030120_R3X_shibo-shukkoku_verify_web-main/kihon_19_01.htm",
+    "is_pdf": false,
+    "title": "法第120条《確定所得申告》関係｜国税庁"
+   },
+   {
+    "id": "shitsugi_07_15",
+    "url": "https://www.nta.go.jp/law/shitsugi/shotoku/07/15.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Wed, 03 Dec 2025 08:30:57 GMT",
+    "bytes": 7289,
+    "sha256": "abf7b31c24dbdf1873a6f435e3c8f4da6f83a41e348bee417c008203e9cbf6a5",
+    "saved": ".work/downloads/20261111-030120_R3X_shibo-shukkoku_verify_web-main/shitsugi_07_15.htm",
+    "is_pdf": false,
+    "title": "民法上の相続人が不存在の場合の準確定申告の手続｜国税庁"
+   },
+   {
+    "id": "jyunkaku_index",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/jyunkaku/index.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Fri, 27 Mar 2026 05:19:18 GMT",
+    "bytes": 12667,
+    "sha256": "3a57433efd76bc63fe0be6e6225cd5a5d01496be5ecb69cc1d13479135c40fdc",
+    "saved": ".work/downloads/20261111-030120_R3X_shibo-shukkoku_verify_web-main/jyunkaku_index.htm",
+    "is_pdf": false,
+    "title": "所得税及び復興特別所得税の準確定申告のe-Tax対応について｜国税庁"
+   },
+   {
+    "id": "annai_07",
+    "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/07.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Wed, 28 Oct 2026 01:00:23 GMT",
+    "bytes": 11701,
+    "sha256": "25f92cf73bb4e0e8ecefdd8a9ff774289a57d51de17eded425b841a797ebfb12",
+    "saved": ".work/downloads/20261111-030120_R3X_shibo-shukkoku_verify_web-main/annai_07.htm",
+    "is_pdf": false,
+    "title": "A1-7 所得税・消費税の納税管理人の選任届出又は解任届出手続｜国税庁"
+   },
+   {
+    "id": "annai_23200032",
+    "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/23200032.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Wed, 28 Oct 2026 01:00:20 GMT",
+    "bytes": 12439,
+    "sha256": "5044c854fb14c02c53d0f7dabed40ddc6550f9bfbdef05c66b65872ed8500854",
+    "saved": ".work/downloads/20261111-030120_R3X_shibo-shukkoku_verify_web-main/annai_23200032.htm",
+    "is_pdf": false,
+    "title": "A1-36、A2-16 繰越雑損失がある場合の源泉所得税の徴収猶予承認申請手続｜国税庁"
+   },
+   {
+    "id": "annai_1557_2",
+    "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/1557_2.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Mon, 31 Aug 2026 05:00:02 GMT",
+    "bytes": 110760,
+    "sha256": "cf201c944bcb03d939ab1cff01e1deb9041208888249121c7cfb8b2faa93ecb3",
+    "saved": ".work/downloads/20261111-030120_R3X_shibo-shukkoku_verify_web-main/annai_1557_2.htm",
+    "is_pdf": false,
+    "title": "A1-1 申告書・申告書付表と税額計算書等 一覧（申告所得税）｜国税庁"
+   },
+   {
+    "id": "tsutatsu_menu",
+    "url": "https://www.nta.go.jp/law/tsutatsu/menu.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Fri, 06 Nov 2026 08:30:06 GMT",
+    "bytes": 18563,
+    "sha256": "263283b0ffb0f0d454f20ab86cc2d863264074afb02e9cf9f846cde74ba00149",
+    "saved": ".work/downloads/20261111-030120_R3X_shibo-shukkoku_verify_web-main/tsutatsu_menu.htm",
+    "is_pdf": false,
+    "title": "法令解釈通達｜国税庁"
+   },
+   {
+    "id": "pdf_fuhyo",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/fuhyo/f01-yoshiki.pdf",
+    "status": 200,
+    "content_type": "application/pdf",
+    "last_modified": "Tue, 30 Jun 2026 08:31:57 GMT",
+    "bytes": 666850,
+    "sha256": "eb783a916a2705c62f81c027f6d416f4d4b2718ee869cb3029ad63fd732f0543",
+    "saved": ".work/downloads/20261111-030120_R3X_shibo-shukkoku_verify_web-main/pdf_fuhyo.pdf",
+    "is_pdf": true
+   },
+   {
+    "id": "pdf_fuhyo_kakikata",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/fuhyo/f01.pdf",
+    "status": 200,
+    "content_type": "application/pdf",
+    "last_modified": "Tue, 30 Jun 2026 08:31:57 GMT",
+    "bytes": 2421938,
+    "sha256": "f742bc6599532467c4cf89cb43f1002ba1427c0368e075471af3133e7050a8e7",
+    "saved": ".work/downloads/20261111-030120_R3X_shibo-shukkoku_verify_web-main/pdf_fuhyo_kakikata.pdf",
+    "is_pdf": true
+   },
+   {
+    "id": "pdf_ininjo",
+    "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/fuhyo/f01-3.pdf",
+    "status": 200,
+    "content_type": "application/pdf",
+    "last_modified": "Thu, 18 Jan 2024 07:58:06 GMT",
+    "bytes": 58376,
+    "sha256": "a157edaf3515f3b2b7dd59914ae9d7c87c6630deff4212095f1bfd51a17f2b4f",
+    "saved": ".work/downloads/20261111-030120_R3X_shibo-shukkoku_verify_web-main/pdf_ininjo.pdf",
+    "is_pdf": true
+   },
+   {
+    "id": "pdf_r8qa",
+    "url": "https://www.nta.go.jp/users/gensen/2026kiso/pdf/0026005-024.pdf",
+    "status": 200,
+    "content_type": "application/pdf",
+    "last_modified": "Fri, 29 May 2026 08:30:02 GMT",
+    "bytes": 305115,
+    "sha256": "a3c12744dbed64e7a03383868baa055f51eb1d0434ee3267d6374d2fe959cea8",
+    "saved": ".work/downloads/20261111-030120_R3X_shibo-shukkoku_verify_web-main/pdf_r8qa.pdf",
+    "is_pdf": true
+   },
+   {
+    "id": "pdf_r7qa",
+    "url": "https://www.nta.go.jp/publication/pamph/gensen/0025005-051.pdf",
+    "status": 200,
+    "content_type": "application/pdf",
+    "last_modified": "Fri, 30 May 2025 08:26:01 GMT",
+    "bytes": 1254127,
+    "sha256": "af377dfb7700cb28a8c328bdb83916b148e9ff24bf2064e2be35c76bb793805b",
+    "saved": ".work/downloads/20261111-030120_R3X_shibo-shukkoku_verify_web-main/pdf_r7qa.pdf",
+    "is_pdf": true
+   }
+  ]
+ },
+ {
+  "run_at": "20261111-030228",
+  "group": "extra1",
+  "download_dir": ".work/downloads/20261111-030228_R3X_shibo-shukkoku_verify_web-extra1",
+  "robots": {
+   "www.nta.go.jp": {
+    "status": 200,
+    "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+    "allowed": {
+     "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/00.htm": true,
+     "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/00.htm": true
+    }
+   }
+  },
+  "items": [
+   {
+    "id": "tsusoku_00",
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/00.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Thu, 21 May 2026 08:30:02 GMT",
+    "bytes": 38884,
+    "sha256": "6a8735ab671c775dcc28903a866b2e69cf80ca04a8bf8dd4875c673fa74737a1",
+    "saved": ".work/downloads/20261111-030228_R3X_shibo-shukkoku_verify_web-extra1/tsusoku_00.htm",
+    "is_pdf": false,
+    "title": "国税通則法基本通達（徴収部関係）の制定について｜国税庁"
+   },
+   {
+    "id": "shotoku_00",
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/00.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Thu, 18 Jan 2024 09:39:47 GMT",
+    "bytes": 2007,
+    "sha256": "700138cae1f347c2be03b380ba74007e704ceb81fe2a62d547e3559d4b851d55",
+    "saved": ".work/downloads/20261111-030228_R3X_shibo-shukkoku_verify_web-extra1/shotoku_00.htm",
+    "is_pdf": false,
+    "title": "指定されたページを表示できませんでした"
+   }
+  ]
+ },
+ {
+  "run_at": "20261111-030257",
+  "group": "extra2",
+  "download_dir": ".work/downloads/20261111-030257_R3X_shibo-shukkoku_verify_web-extra2",
+  "robots": {
+   "www.nta.go.jp": {
+    "status": 200,
+    "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+    "allowed": {
+     "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/mokuji.htm": true,
+     "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01.htm": true
+    }
+   }
+  },
+  "items": [
+   {
+    "id": "tsusoku_mokuji",
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/mokuji.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Thu, 21 May 2026 08:30:01 GMT",
+    "bytes": 49283,
+    "sha256": "5926fa94f26ab3972567942bb9c5dfff15ad2275bccb36b30e55fb0c6deae81a",
+    "saved": ".work/downloads/20261111-030257_R3X_shibo-shukkoku_verify_web-extra2/tsusoku_mokuji.htm",
+    "is_pdf": false,
+    "title": "国税通則法基本通達（徴収部関係）目次｜国税庁"
+   },
+   {
+    "id": "shotoku_01",
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Thu, 25 Dec 2025 01:00:06 GMT",
+    "bytes": 38254,
+    "sha256": "74710f9540adcb9b7e6b181ba716e93be44be38195cc0c7dfe1a8e02fcf16e4f",
+    "saved": ".work/downloads/20261111-030257_R3X_shibo-shukkoku_verify_web-extra2/shotoku_01.htm",
+    "is_pdf": false,
+    "title": "通達目次 / 所得税基本通達｜国税庁"
+   }
+  ]
+ },
+ {
+  "run_at": "20261111-030323",
+  "group": "extra3",
+  "download_dir": ".work/downloads/20261111-030323_R3X_shibo-shukkoku_verify_web-extra3",
+  "robots": {
+   "eco.mtk.nao.ac.jp": {
+    "status": 200,
+    "sha256": "d632038613ba2e3bff880dc7303a45acd2ed3595a7ab97ca53a4da86c6e04dd3",
+    "allowed": {
+     "https://eco.mtk.nao.ac.jp/koyomi/yoko/": true
+    }
+   },
+   "www.nta.go.jp": {
+    "status": 200,
+    "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+    "allowed": {
+     "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/03/10.htm": true,
+     "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/04.htm": true
+    }
+   }
+  },
+  "items": [
+   {
+    "id": "tsusoku_10",
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/03/10.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Thu, 18 Jan 2024 09:29:51 GMT",
+    "bytes": 6273,
+    "sha256": "db064ff42e5c5eb875c32ade45d4cad2e38908e2ba5294a2bb7b1804e8bdf70e",
+    "saved": ".work/downloads/20261111-030323_R3X_shibo-shukkoku_verify_web-extra3/tsusoku_10.htm",
+    "is_pdf": false,
+    "title": "第10条関係 期間の計算及び期限の特例｜国税庁"
+   },
+   {
+    "id": "kihon_02_04",
+    "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/04.htm",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Thu, 25 Dec 2025 01:00:06 GMT",
+    "bytes": 12325,
+    "sha256": "d76a85dbe547d975eebf852c7c34076be564de566d27c74af3623cfebc70fd84",
+    "saved": ".work/downloads/20261111-030323_R3X_shibo-shukkoku_verify_web-extra3/kihon_02_04.htm",
+    "is_pdf": false,
+    "title": "〔証券投資信託の収益の分配（第11号関係）〕｜国税庁"
+   },
+   {
+    "id": "naoj_yoko",
+    "url": "https://eco.mtk.nao.ac.jp/koyomi/yoko/",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Sun, 01 Feb 2026 20:00:00 GMT",
+    "bytes": 7761,
+    "sha256": "1e24ca9c73914ba833c07901fcd0d1a82709ca4c85bf317ff714d4016db8b48a",
+    "saved": ".work/downloads/20261111-030323_R3X_shibo-shukkoku_verify_web-extra3/naoj_yoko.htm",
+    "is_pdf": false,
+    "title": "暦要項 - 国立天文台暦計算室"
+   }
+  ]
+ },
+ {
+  "run_at": "20261111-030342",
+  "group": "extra4",
+  "download_dir": ".work/downloads/20261111-030342_R3X_shibo-shukkoku_verify_web-extra4",
+  "robots": {
+   "eco.mtk.nao.ac.jp": {
+    "status": 200,
+    "sha256": "d632038613ba2e3bff880dc7303a45acd2ed3595a7ab97ca53a4da86c6e04dd3",
+    "allowed": {
+     "https://eco.mtk.nao.ac.jp/koyomi/yoko/2025/rekiyou251.html": true,
+     "https://eco.mtk.nao.ac.jp/koyomi/yoko/2026/rekiyou261.html": true,
+     "https://eco.mtk.nao.ac.jp/koyomi/yoko/2027/rekiyou271.html": true
+    }
+   }
+  },
+  "items": [
+   {
+    "id": "naoj_2025",
+    "url": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2025/rekiyou251.html",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Thu, 29 Jan 2026 04:16:48 GMT",
+    "bytes": 5279,
+    "sha256": "9a581f3df83e346b3fde114225acd10205d41493ce10835c24459f8a28390012",
+    "saved": ".work/downloads/20261111-030342_R3X_shibo-shukkoku_verify_web-extra4/naoj_2025.htm",
+    "is_pdf": false,
+    "title": "令和 7年(2025)暦要項 国民の祝日 - 国立天文台暦計算室"
+   },
+   {
+    "id": "naoj_2026",
+    "url": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2026/rekiyou261.html",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Sun, 01 Feb 2026 20:00:00 GMT",
+    "bytes": 5269,
+    "sha256": "c68075b1fbaa14e5e0c97d253bc692e7d7739c8cbf57ec710d8f697d48d8c19d",
+    "saved": ".work/downloads/20261111-030342_R3X_shibo-shukkoku_verify_web-extra4/naoj_2026.htm",
+    "is_pdf": false,
+    "title": "令和 8年(2026)暦要項 国民の祝日 - 国立天文台暦計算室"
+   },
+   {
+    "id": "naoj_2027",
+    "url": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2027/rekiyou271.html",
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Sun, 01 Feb 2026 20:00:00 GMT",
+    "bytes": 5222,
+    "sha256": "37e0a0a1dc54e32b926c7a9f07c96a9804d2406a96613f992bb247c86ee93e35",
+    "saved": ".work/downloads/20261111-030342_R3X_shibo-shukkoku_verify_web-extra4/naoj_2027.htm",
+    "is_pdf": false,
+    "title": "令和 9年(2027)暦要項 国民の祝日 - 国立天文台暦計算室"
+   }
+  ]
+ }
+]

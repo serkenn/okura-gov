@@ -1,0 +1,67 @@
+description: 一部免除・学生納付特例の所得から差し引く額（国民年金法施行令第6条の12第2項）。住民税の控除額（障害者26万円など）とは違う額。
+障害者:
+  description: 障害者控除の対象の障害者1人につき
+  metadata:
+    law: 国民年金法施行令第6条の12第2項
+    source_kind: 政令
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md#8.1
+      - docs/public-sources/20261109_round2_kokuho-premium-structure.md#12.3
+  values:
+    2024-01-01:
+      value: 270000
+      metadata:
+        適用: 令和7年度〜（2025-04-01 版と 2026-04-01 以後の版で同じ額）
+特別障害者:
+  description: 特別障害者1人につき
+  metadata:
+    law: 国民年金法施行令第6条の12第2項
+    source_kind: 政令
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md#8.1
+  values:
+    2024-01-01:
+      value: 400000
+      metadata:
+        適用: 令和7年度〜
+寡婦:
+  description: 地方税法第314条の2第1項第8号の控除（寡婦）を受けた者
+  metadata:
+    law: 国民年金法施行令第6条の12第2項
+    source_kind: 政令
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md#8.1
+  values:
+    2024-01-01:
+      value: 270000
+      metadata:
+        適用: 令和7年度〜
+ひとり親:
+  description: 地方税法第314条の2第1項第8号の2の控除（ひとり親）を受けた者
+  metadata:
+    law: 国民年金法施行令第6条の12第2項
+    source_kind: 政令
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md#8.1
+  values:
+    2024-01-01:
+      value: 350000
+      metadata:
+        適用: 令和7年度〜
+勤労学生:
+  description: 地方税法第314条の2第1項第9号の控除（勤労学生）を受けた者
+  metadata:
+    law: 国民年金法施行令第6条の12第2項
+    source_kind: 政令
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md#8.1
+  values:
+    2024-01-01:
+      value: 270000
+      metadata:
+        適用: 令和7年度〜

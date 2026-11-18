@@ -1,0 +1,86 @@
+{
+ "run": "20261109-145143",
+ "name": "discover1",
+ "download_dir": ".work/downloads/20261109-145143_discover1",
+ "user_agent": "okura-gov-research/0.1",
+ "delay_sec": 1.5,
+ "robots": [
+  {
+   "robots_url": "https://www.nta.go.jp/robots.txt",
+   "status": 200,
+   "bytes": 853,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+   "text": "Sitemap: http://www.nta.go.jp/sitemap.xml\r\n\r\nUser-agent: *\r\nDisallow: /service_publication/\r\nDisallow: /about/organization/sapporo/service_publication/\r\nDisallow: /about/organization/sendai/service_publication/\r\nDisallow: /about/organization/kantoshinetsu/service_publication/\r\nDisallow: /about/organization/tokyo/service_publication/\r\nDisallow: /about/organization/kanazawa/service_publication/\r\nDisallow: /about/organization/nagoya/service_publication/\r\nDisallow: /about/organization/osaka/service_publication/\r\nDisallow: /about/organization/hiroshima/service_publication/\r\nDisallow: /about/organization/takamatsu/service_publication/\r\nDisallow: /about/organization/fukuoka/service_publication/\r\nDisallow: /about/organization/kumamoto/service_publication/\r\nDisallow: /about/organization/okinawa/service_publication/\r\n\r\nUser-agent: ndl-japan\r\nDisallow:"
+  },
+  {
+   "robots_url": "https://www.e-tax.nta.go.jp/robots.txt",
+   "status": 404
+  },
+  {
+   "robots_url": "https://www.keisan.nta.go.jp/robots.txt",
+   "status": 404
+  }
+ ],
+ "results": [
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/index.htm",
+   "fetched_at": "2026-11-09T14:51:45+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/error/404.htm",
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:39:47 GMT",
+   "bytes": 2007,
+   "sha256": "700138cae1f347c2be03b380ba74007e704ceb81fe2a62d547e3559d4b851d55",
+   "saved": ".work/downloads/20261109-145143_discover1/000_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_index.htm",
+   "encoding": "Shift_JIS",
+   "text": "scripts/results/IMPL_output_fetch/20261109-145143_discover1/000_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_index.htm.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-145143_discover1/000_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_index.htm.links.tsv",
+   "n_links": 3
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/index.htm",
+   "fetched_at": "2026-11-09T14:51:45+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/index.htm",
+   "content_type": "text/html",
+   "last_modified": "Wed, 04 Mar 2026 08:30:15 GMT",
+   "bytes": 8710,
+   "sha256": "a1093b20b2fe4b6feda660eeb7d6682c2f08ade32e478919f5150d53902a25e8",
+   "saved": ".work/downloads/20261109-145143_discover1/001_www.nta.go.jp_taxes_shiraberu_shinkoku_tebiki_index.htm",
+   "encoding": "utf-8",
+   "text": "scripts/results/IMPL_output_fetch/20261109-145143_discover1/001_www.nta.go.jp_taxes_shiraberu_shinkoku_tebiki_index.htm.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-145143_discover1/001_www.nta.go.jp_taxes_shiraberu_shinkoku_tebiki_index.htm.links.tsv",
+   "n_links": 56
+  },
+  {
+   "url": "https://www.e-tax.nta.go.jp/shiyo/index.htm",
+   "fetched_at": "2026-11-09T14:51:49+0900",
+   "status": 200,
+   "final_url": "https://www.e-tax.nta.go.jp/shiyo/index.html",
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 99259,
+   "sha256": "d442020219b6fcd188e78729567d737b000670582d1dfb88cbfa72baa0dfe116",
+   "saved": ".work/downloads/20261109-145143_discover1/002_www.e-tax.nta.go.jp_shiyo_index.htm",
+   "encoding": "utf-8",
+   "text": "scripts/results/IMPL_output_fetch/20261109-145143_discover1/002_www.e-tax.nta.go.jp_shiyo_index.htm.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-145143_discover1/002_www.e-tax.nta.go.jp_shiyo_index.htm.links.tsv",
+   "n_links": 127
+  },
+  {
+   "url": "https://www.keisan.nta.go.jp/oshirase/r7info/info25.html",
+   "fetched_at": "2026-11-09T14:51:52+0900",
+   "status": 200,
+   "final_url": "https://www.keisan.nta.go.jp/oshirase/r7info/info25.html",
+   "content_type": "text/html",
+   "last_modified": "Mon, 28 Sep 2026 05:03:20 GMT",
+   "bytes": 5247,
+   "sha256": "4be64ab9ec185b63a00c98cdd0997aaba4120ee76047d29f85dfc44ca6901f66",
+   "saved": ".work/downloads/20261109-145143_discover1/003_www.keisan.nta.go.jp_oshirase_r7info_info25.html",
+   "encoding": "UTF-8",
+   "text": "scripts/results/IMPL_output_fetch/20261109-145143_discover1/003_www.keisan.nta.go.jp_oshirase_r7info_info25.html.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-145143_discover1/003_www.keisan.nta.go.jp_oshirase_r7info_info25.html.links.tsv",
+   "n_links": 4
+  }
+ ]
+}

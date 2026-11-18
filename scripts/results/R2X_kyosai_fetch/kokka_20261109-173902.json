@@ -1,0 +1,53 @@
+{
+  "set": "kokka",
+  "fetched_at_local": "20261109-173902",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "kkr_top",
+      "url": "https://www.kkr.or.jp/",
+      "status": 200,
+      "final_url": "https://www.kkr.or.jp/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 42169,
+      "sha256": "7990d78da6689c0ae867d4f9c13e122c8498694828a7cf8df093d0823994395c",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-173902_R2X_kyosai_kokka\\kkr_top.html",
+      "charset": "UTF-8",
+      "title": "KKR-国家公務員共済組合連合会",
+      "text_chars": 4030,
+      "text": ".work\\text\\20261109-173902_R2X_kyosai_kokka\\kkr_top.txt",
+      "n_links": 141
+    },
+    {
+      "id": "monkakyosai_shikumi_04",
+      "url": "https://www.monkakyosai.or.jp/shikumi/04.html",
+      "status": 200,
+      "final_url": "https://www.monkakyosai.or.jp/shikumi/04.html",
+      "content_type": "text/html",
+      "bytes": 34568,
+      "sha256": "8be0b745751b5df181e6230fbc05a8dee9ccab38784ca69cc839a9ba03a44784",
+      "last_modified": "Sun, 14 Dec 2025 23:29:32 GMT",
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-173902_R2X_kyosai_kokka\\monkakyosai_shikumi_04.html",
+      "charset": "UTF-8",
+      "title": "文部科学省共済組合 | 被扶養者",
+      "text_chars": 8128,
+      "text": ".work\\text\\20261109-173902_R2X_kyosai_kokka\\monkakyosai_shikumi_04.txt",
+      "n_links": 86
+    },
+    {
+      "id": "yuseikyosai_nintei_shunyu_kijun",
+      "url": "https://www.yuseikyosai.or.jp/shikumi/docs/nintei_shunyu_kijun.pdf",
+      "status": 200,
+      "final_url": "https://www.yuseikyosai.or.jp/shikumi/docs/nintei_shunyu_kijun.pdf",
+      "content_type": "application/pdf",
+      "bytes": 204546,
+      "sha256": "b18c0707921f9eda480e416c48d32b3eec175666216bd883e6479012638b5c48",
+      "last_modified": "Wed, 01 Oct 2025 00:02:34 GMT",
+      "etag": "\"68dc6f9a-31f02\"",
+      "saved": ".work\\downloads\\20261109-173902_R2X_kyosai_kokka\\yuseikyosai_nintei_shunyu_kijun.pdf"
+    }
+  ]
+}

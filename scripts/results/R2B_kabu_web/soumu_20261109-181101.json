@@ -1,0 +1,19 @@
+{
+  "set": "soumu",
+  "fetched_at_local": "20261109-181101",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "soumu_kinyu_r040715",
+      "url": "https://www.soumu.go.jp/main_content/000833994.pdf",
+      "status": 200,
+      "final_url": "https://www.soumu.go.jp/main_content/000833994.pdf",
+      "content_type": "application/pdf",
+      "bytes": 1456240,
+      "sha256": "eaaa241eaee0a37ee70e0e472109b97cb6cc943dff4758e92e90289965819697",
+      "last_modified": "Mon, 03 Mar 2025 04:42:12 GMT",
+      "etag": "\"163870-62f68c79ba59c\"",
+      "saved": ".work\\downloads\\20261109-181101_R2B_kabu_soumu\\soumu_kinyu_r040715.pdf"
+    }
+  ]
+}

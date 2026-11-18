@@ -1,0 +1,48 @@
+{
+ "schema_version": "0",
+ "persons": [
+  {"id": "p-w", "birth_on": "1985-04-01"},
+  {"id": "p-s", "birth_on": "2005-08-20"}
+ ],
+ "relations": [],
+ "residences": [],
+ "insurance_memberships": [],
+ "facts": [
+  {"id": "f-commute-w", "kind": "commuting_status", "roles": {"worker": "p-w"},
+   "when": {"from_on": "2025-04-01"},
+   "attributes": {"counterparty": "架空工業", "means": "vehicle", "one_way_km": {"num": 25, "den": 2},
+                  "parkings": [{"location": "near_workplace", "fee_unit": "month", "fee": 8000}]}},
+  {"id": "f-commute-s", "kind": "commuting_status", "roles": {"worker": "p-s"},
+   "when": {"from_on": "2026-01-01"},
+   "attributes": {"counterparty": "架空書店", "means": "transit"}},
+  {"id": "f-sal-w-2026-05", "kind": "salary_payment", "roles": {"recipient": "p-w"},
+   "when": {"on": "2026-05-25"},
+   "amounts": {"gross": 320000, "withholding_tax": 8000, "commuting_allowance": 12000, "commuting_nontaxable_stated": 12000},
+   "attributes": {"counterparty": "架空工業", "payment_type": "regular", "due_on": "2026-05-25"}},
+  {"id": "f-sal-w-diff", "kind": "salary_payment", "roles": {"recipient": "p-w"},
+   "when": {"on": "2026-06-25"},
+   "amounts": {"gross": 5000, "commuting_allowance": 1000},
+   "attributes": {"counterparty": "架空工業", "payment_type": "retroactive_difference", "due_on": "2026-06-25",
+                  "original_due_on": "2026-03-25"}},
+  {"id": "f-sal-s-2025-12", "kind": "salary_payment", "roles": {"recipient": "p-s"},
+   "when": {"on": "2026-01-05"},
+   "amounts": {"gross": 90000, "commuting_allowance": 6000},
+   "attributes": {"counterparty": "架空書店", "due_on": "2025-12-25"}},
+  {"id": "f-sal-s-2026-12", "kind": "salary_payment", "roles": {"recipient": "p-s"},
+   "when": {"on": "2026-12-25"},
+   "amounts": {"gross": 90000, "commuting_allowance": 6000},
+   "attributes": {"counterparty": "架空書店", "due_on": "2026-12-25", "unpaid": true}},
+  {"id": "f-slip-w-2026", "kind": "withholding_slip", "roles": {"recipient": "p-w"},
+   "when": {"tax_year": 2026},
+   "amounts": {"payment_amount": 4200000, "withholding_tax": 96000},
+   "attributes": {"slip_type": "salary", "counterparty": "架空工業", "year_end_adjusted": true}}
+ ],
+ "assets": [],
+ "filed_documents": [],
+ "judgments": [
+  {"id": "j-fare-s", "kind": "判断.通勤の合理的な運賃", "judged_by": {"person": "p-s"}, "judged_at": "2026-02-01T09:00:00+09:00",
+   "subject": {"person": "p-s", "counterparty": "架空書店"}, "when": {"from_on": "2026-01-01"},
+   "value": {"monthly_amount": 6000}}
+ ],
+ "choices": []
+}

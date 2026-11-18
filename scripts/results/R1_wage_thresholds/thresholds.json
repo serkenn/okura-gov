@@ -1,0 +1,85 @@
+[
+ {
+  "year": 2024,
+  "label": "令和6年分",
+  "fuyo_income_limit": 480000,
+  "fuyo_max_wage": 1030000,
+  "kinro_income_limit": 750000,
+  "kinro_max_wage": 1300000,
+  "tokutei_full_income_limit": null,
+  "tokutei_full_max_wage": null,
+  "tokutei_max_income_limit": null,
+  "tokutei_max_max_wage": null,
+  "self_no_tax_max_wage": 1030000,
+  "self_basic_deduction_low": 480000
+ },
+ {
+  "year": 2025,
+  "label": "令和7年分",
+  "fuyo_income_limit": 580000,
+  "fuyo_max_wage": 1230000,
+  "kinro_income_limit": 850000,
+  "kinro_max_wage": 1500000,
+  "tokutei_full_income_limit": 850000,
+  "tokutei_full_max_wage": 1500000,
+  "tokutei_max_income_limit": 1230000,
+  "tokutei_max_max_wage": 1880000,
+  "self_no_tax_max_wage": 1600000,
+  "self_basic_deduction_low": 950000,
+  "expected_src": "https://www.nta.go.jp/publication/pamph/gensen/2026kaisei.pdf p.2 改正前欄 / https://www.nta.go.jp/users/gensen/2025kiso/index.htm",
+  "check": {
+   "fuyo": {
+    "computed": 1230000,
+    "expected": 1230000,
+    "match": true
+   },
+   "kinro": {
+    "computed": 1500000,
+    "expected": 1500000,
+    "match": true
+   },
+   "tokutei_max": {
+    "computed": 1880000,
+    "expected": 1880000,
+    "match": true
+   }
+  }
+ },
+ {
+  "year": 2026,
+  "label": "令和8年分",
+  "fuyo_income_limit": 620000,
+  "fuyo_max_wage": 1360000,
+  "kinro_income_limit": 890000,
+  "kinro_max_wage": 1630000,
+  "tokutei_full_income_limit": 850000,
+  "tokutei_full_max_wage": 1590000,
+  "tokutei_max_income_limit": 1230000,
+  "tokutei_max_max_wage": 1970000,
+  "self_no_tax_max_wage": 1780000,
+  "self_basic_deduction_low": 1040000,
+  "expected_src": "https://www.nta.go.jp/publication/pamph/gensen/2026kaisei.pdf p.1-2 改正後欄",
+  "check": {
+   "fuyo": {
+    "computed": 1360000,
+    "expected": 1360000,
+    "match": true
+   },
+   "kinro": {
+    "computed": 1630000,
+    "expected": 1630000,
+    "match": true
+   },
+   "tokutei_full": {
+    "computed": 1590000,
+    "expected": 1590000,
+    "match": true
+   },
+   "tokutei_max": {
+    "computed": 1970000,
+    "expected": 1970000,
+    "match": true
+   }
+  }
+ }
+]

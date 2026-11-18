@@ -1,0 +1,200 @@
+description: >-
+  調整控除（地方税法第314条の6・第37条、施行令第48条の7の2）。人的控除差の表（第1号イ）と率。asof 2026-01-01〜2028-01-01 で文言が同じ
+  （docs/public-sources/20261109_round2_juminzei-tax-law-text.md §5）。表の「5万円」は定額で、所得税の基礎控除に連動しない。
+合計所得金額の上限:
+  description: 前年の合計所得金額 2,500万円以下の納税義務者に限る
+  metadata: &chosei
+    law: 地方税法第314条の6・第37条
+    source_kind: 法律
+    unit: 円
+    reference: [docs/public-sources/20261109_round2_juminzei-tax-law-text.md#5, docs/public-sources/20261109_round2_spouse-laws-and-sources.md#3.3]
+  values:
+    2025-01-01: {value: 25000000, metadata: &r89 {適用: 令和8年度分・令和9年度分（文言が同じ。日付のキーは所得の年分の1月1日）}}
+合計課税所得金額の基準:
+  description: 合計課税所得金額が200万円以下か超えるかで式が分かれる
+  metadata: *chosei
+  values:
+    2025-01-01: {value: 2000000, metadata: *r89}
+最低の額:
+  description: 200万円超の式で、人的控除差−（合計課税所得金額−200万円）が下回るときの5万円
+  metadata: *chosei
+  values:
+    2025-01-01: {value: 50000, metadata: *r89}
+基本の額:
+  description: 人的控除差の合計の「五万円に…を加算した金額」の5万円
+  metadata: *chosei
+  values:
+    2025-01-01: {value: 50000, metadata: *r89}
+率:
+  市町村民税:
+    分子:
+      description: 市町村民税の率（百分の三）の分子
+      metadata: *chosei
+      values:
+        2025-01-01: {value: 3, metadata: *r89}
+    分母:
+      description: 同じ率の分母
+      metadata: *chosei
+      values:
+        2025-01-01: {value: 100, metadata: *r89}
+  道府県民税:
+    分子:
+      description: 道府県民税の率（百分の二）の分子
+      metadata: *chosei
+      values:
+        2025-01-01: {value: 2, metadata: *r89}
+    分母:
+      description: 同じ率の分母
+      metadata: *chosei
+      values:
+        2025-01-01: {value: 100, metadata: *r89}
+  指定都市の市町村民税:
+    分子:
+      description: 指定都市の区域内に住所を有する場合の市町村民税の率（百分の四）の分子
+      metadata: *chosei
+      values:
+        2025-01-01: {value: 4, metadata: *r89}
+    分母:
+      description: 同じ率の分母
+      metadata: *chosei
+      values:
+        2025-01-01: {value: 100, metadata: *r89}
+  指定都市の道府県民税:
+    分子:
+      description: 指定都市の区域内に住所を有する場合の道府県民税の率（百分の一）の分子
+      metadata: *chosei
+      values:
+        2025-01-01: {value: 1, metadata: *r89}
+    分母:
+      description: 同じ率の分母
+      metadata: *chosei
+      values:
+        2025-01-01: {value: 100, metadata: *r89}
+人的控除差:
+  障害者:
+    description: （１）障害者（本人・同一生計配偶者・扶養親族。同居特別障害者を除く）1人
+    metadata: &hyo
+      law: 地方税法第314条の6第1号イの表、同施行令第48条の7の2
+      source_kind: 法律
+      unit: 円
+      reference: [docs/public-sources/20261109_round2_juminzei-tax-law-text.md#5, docs/public-sources/20261109_round2_spouse-laws-and-sources.md#3.3]
+    values:
+      2025-01-01: {value: 10000, metadata: *r89}
+  特別障害者:
+    description: （１）特別障害者1人
+    metadata: *hyo
+    values:
+      2025-01-01: {value: 100000, metadata: *r89}
+  同居特別障害者:
+    description: （２）同居特別障害者である同一生計配偶者・扶養親族1人
+    metadata: *hyo
+    values:
+      2025-01-01: {value: 220000, metadata: *r89}
+  寡婦又はひとり親の父:
+    description: （３）寡婦、又はひとり親で政令で定めるもの（施行令第48条の7の2第1項：ひとり親のうち父）
+    metadata: *hyo
+    values:
+      2025-01-01: {value: 10000, metadata: *r89}
+  ひとり親の母:
+    description: （４）ひとり親で政令で定めるもの（同第2項：ひとり親のうち母）
+    metadata: *hyo
+    values:
+      2025-01-01: {value: 50000, metadata: *r89}
+  勤労学生:
+    description: （５）勤労学生
+    metadata: *hyo
+    values:
+      2025-01-01: {value: 10000, metadata: *r89}
+  控除対象配偶者:
+    第1号:
+      description: （６）控除対象配偶者（納税義務者の前年の合計所得金額 900万円以下）
+      metadata: *hyo
+      values:
+        2025-01-01: {value: 50000, metadata: *r89}
+    第2号:
+      description: （６）900万円超950万円以下
+      metadata: *hyo
+      values:
+        2025-01-01: {value: 40000, metadata: *r89}
+    第3号:
+      description: （６）950万円超1,000万円以下
+      metadata: *hyo
+      values:
+        2025-01-01: {value: 20000, metadata: *r89}
+  老人控除対象配偶者:
+    第1号:
+      description: （６）老人控除対象配偶者（900万円以下）
+      metadata: *hyo
+      values:
+        2025-01-01: {value: 100000, metadata: *r89}
+    第2号:
+      description: （６）900万円超950万円以下
+      metadata: *hyo
+      values:
+        2025-01-01: {value: 60000, metadata: *r89}
+    第3号:
+      description: （６）950万円超1,000万円以下
+      metadata: *hyo
+      values:
+        2025-01-01: {value: 30000, metadata: *r89}
+  配偶者特別控除:
+    配偶者の合計所得金額の上限:
+      description: （７）第10号の2 の配偶者で前年の合計所得金額が55万円未満のものに限る
+      metadata: *hyo
+      values:
+        2025-01-01: {value: 550000, metadata: *r89}
+    低い額の配偶者の合計所得金額の下限:
+      description: （７）（ｉｉ）配偶者の前年の合計所得金額が50万円以上55万円未満の場合
+      metadata: *hyo
+      values:
+        2025-01-01: {value: 500000, metadata: *r89}
+    第1号:
+      description: （７）（ｉ）900万円以下
+      metadata: *hyo
+      values:
+        2025-01-01: {value: 50000, metadata: *r89}
+    第2号:
+      description: （７）（ｉ）900万円超950万円以下
+      metadata: *hyo
+      values:
+        2025-01-01: {value: 40000, metadata: *r89}
+    第3号:
+      description: （７）（ｉ）950万円超1,000万円以下
+      metadata: *hyo
+      values:
+        2025-01-01: {value: 20000, metadata: *r89}
+    低い額の第1号:
+      description: （７）（ｉｉ）900万円以下
+      metadata: *hyo
+      values:
+        2025-01-01: {value: 30000, metadata: *r89}
+    低い額の第2号:
+      description: （７）（ｉｉ）900万円超950万円以下
+      metadata: *hyo
+      values:
+        2025-01-01: {value: 20000, metadata: *r89}
+    低い額の第3号:
+      description: （７）（ｉｉ）950万円超1,000万円以下
+      metadata: *hyo
+      values:
+        2025-01-01: {value: 10000, metadata: *r89}
+  扶養親族:
+    description: （８）控除対象扶養親族（同居直系尊属の老人扶養親族を除く）1人
+    metadata: *hyo
+    values:
+      2025-01-01: {value: 50000, metadata: *r89}
+  特定扶養親族:
+    description: （８）特定扶養親族1人
+    metadata: *hyo
+    values:
+      2025-01-01: {value: 180000, metadata: *r89}
+  老人扶養親族:
+    description: （８）老人扶養親族1人
+    metadata: *hyo
+    values:
+      2025-01-01: {value: 100000, metadata: *r89}
+  同居老親等:
+    description: （９）同居直系尊属である老人扶養親族1人
+    metadata: *hyo
+    values:
+      2025-01-01: {value: 130000, metadata: *r89}

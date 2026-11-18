@@ -1,0 +1,154 @@
+doc	line	item	header	best_VOC_row	score
+impl-prep_iryohi-model	63	medical_treatment 診療・治療（医師・歯科医師）	`kind`（案） / 法令・通達 / 明細書の区分 / 医療費に当たるかを決める材料（事実→記録、判断→D4）	F-T05	0.4
+impl-prep_iryohi-model	64	health_checkup 健康診断・人間ドック・特定健康診査	`kind`（案） / 法令・通達 / 明細書の区分 / 医療費に当たるかを決める材料（事実→記録、判断→D4）	F-D14	0.32
+impl-prep_iryohi-model	65	specific_health_guidance 特定保健指導（積極的支援）の自己負担	`kind`（案） / 法令・通達 / 明細書の区分 / 医療費に当たるかを決める材料（事実→記録、判断→D4）	F-E01	0.17
+impl-prep_iryohi-model	66	medicine 医薬品の購入	`kind`（案） / 法令・通達 / 明細書の区分 / 医療費に当たるかを決める材料（事実→記録、判断→D4）	F-T05	0.22
+impl-prep_iryohi-model	67	hospitalization 入院・入所の対価（部屋代・食事代）	`kind`（案） / 法令・通達 / 明細書の区分 / 医療費に当たるかを決める材料（事実→記録、判断→D4）	F-R05	0.21
+impl-prep_iryohi-model	68	care_service 介護保険の施設・居宅サービスの自己負担	`kind`（案） / 法令・通達 / 明細書の区分 / 医療費に当たるかを決める材料（事実→記録、判断→D4）	F-P12	0.17
+impl-prep_iryohi-model	69	manual_therapy あん摩・はり・きゅう・柔道整復の施術	`kind`（案） / 法令・通達 / 明細書の区分 / 医療費に当たるかを決める材料（事実→記録、判断→D4）	F-D17	0.18
+impl-prep_iryohi-model	70	nursing_care 療養上の世話（看護師等・特に依頼した者）	`kind`（案） / 法令・通達 / 明細書の区分 / 医療費に当たるかを決める材料（事実→記録、判断→D4）	F-D18	0.24
+impl-prep_iryohi-model	71	midwifery 助産師による分べんの介助・保健指導	`kind`（案） / 法令・通達 / 明細書の区分 / 医療費に当たるかを決める材料（事実→記録、判断→D4）	F-R07	0.12
+impl-prep_iryohi-model	72	suction_care 喀痰吸引等	`kind`（案） / 法令・通達 / 明細書の区分 / 医療費に当たるかを決める材料（事実→記録、判断→D4）	F-R06	0.27
+impl-prep_iryohi-model	73	transport 通院・入院の交通費、医師の送迎費	`kind`（案） / 法令・通達 / 明細書の区分 / 医療費に当たるかを決める材料（事実→記録、判断→D4）	F-D15	0.15
+impl-prep_iryohi-model	74	medical_device 医療用器具・義手・義足・補聴器・義歯・眼鏡など	`kind`（案） / 法令・通達 / 明細書の区分 / 医療費に当たるかを決める材料（事実→記録、判断→D4）	F-T05	0.28
+impl-prep_iryohi-model	75	diaper おむつ代	`kind`（案） / 法令・通達 / 明細書の区分 / 医療費に当たるかを決める材料（事実→記録、判断→D4）	F-T03	0.24
+impl-prep_iryohi-model	76	certified_other 証明書の要る費用（温泉療養、運動療法、ストマ用装具、B型肝炎ワクチン	`kind`（案） / 法令・通達 / 明細書の区分 / 医療費に当たるかを決める材料（事実→記録、判断→D4）	F-T00	0.1
+impl-prep_iryohi-model	77	transplant_mediation 骨髄移植・臓器移植のあっせんの患者負担金	`kind`（案） / 法令・通達 / 明細書の区分 / 医療費に当たるかを決める材料（事実→記録、判断→D4）	F-E01	0.24
+impl-prep_iryohi-model	78	welfare_levy 身体障害者福祉法等により納付する費用のうち診療等相当分	`kind`（案） / 法令・通達 / 明細書の区分 / 医療費に当たるかを決める材料（事実→記録、判断→D4）	F-P11	0.21
+impl-prep_iryohi-model	79	deposit 入院の保証金	`kind`（案） / 法令・通達 / 明細書の区分 / 医療費に当たるかを決める材料（事実→記録、判断→D4）	F-T05	0.37
+impl-prep_kenpo-input-facts	36	10	# / 入力 / 粒度 / 事実か判断か	F-D06	0.73
+impl-prep_kenpo-input-facts	37	11	# / 入力 / 粒度 / 事実か判断か	F-D07	0.81
+impl-prep_kenpo-input-facts	38	12	# / 入力 / 粒度 / 事実か判断か	P-02	0.81
+impl-prep_kenpo-input-facts	39	13	# / 入力 / 粒度 / 事実か判断か	F-P12	0.17
+impl-prep_kenpo-input-facts	40	14	# / 入力 / 粒度 / 事実か判断か	C-16	0.5
+impl-prep_kenpo-input-facts	41	15	# / 入力 / 粒度 / 事実か判断か	F-P12	0.64
+impl-prep_kenpo-input-facts	42	16	# / 入力 / 粒度 / 事実か判断か	F-D08	0.53
+impl-prep_kenpo-input-facts	43	17	# / 入力 / 粒度 / 事実か判断か	F-P09	0.25
+impl-prep_kenpo-input-facts	44	18	# / 入力 / 粒度 / 事実か判断か	F-D07	0.33
+impl-prep_kenpo-input-facts	45	19	# / 入力 / 粒度 / 事実か判断か	F-P13	0.25
+R3-tsutatsu_record-facts-and-monitoring	17	医療費控除	判定 / 通達・通知が見ているもの / 記録層の事実（入出金・書類から読める） / 人の判断（D4、判断者・日時つき）	J-03	0.19
+R3-tsutatsu_record-facts-and-monitoring	18	生計を一にする	判定 / 通達・通知が見ているもの / 記録層の事実（入出金・書類から読める） / 人の判断（D4、判断者・日時つき）	F-T16	0.18
+R3-tsutatsu_record-facts-and-monitoring	19	事業所得か業務に係る雑所得か	判定 / 通達・通知が見ているもの / 記録層の事実（入出金・書類から読める） / 人の判断（D4、判断者・日時つき）	F-D03	0.2
+R3-tsutatsu_record-facts-and-monitoring	20	給与所得か事業所得か	判定 / 通達・通知が見ているもの / 記録層の事実（入出金・書類から読める） / 人の判断（D4、判断者・日時つき）	J-11	0.11
+R3-tsutatsu_record-facts-and-monitoring	21	家事関連費	判定 / 通達・通知が見ているもの / 記録層の事実（入出金・書類から読める） / 人の判断（D4、判断者・日時つき）	J-13	0.48
+R3-tsutatsu_record-facts-and-monitoring	22	扶養親族・特定親族（税）	判定 / 通達・通知が見ているもの / 記録層の事実（入出金・書類から読める） / 人の判断（D4、判断者・日時つき）	P-05	0.41
+R3-tsutatsu_record-facts-and-monitoring	23	子供の源泉徴収・年末調整	判定 / 通達・通知が見ているもの / 記録層の事実（入出金・書類から読める） / 人の判断（D4、判断者・日時つき）	F-D04	0.3
+R3-tsutatsu_record-facts-and-monitoring	24	健康保険の被扶養者	判定 / 通達・通知が見ているもの / 記録層の事実（入出金・書類から読める） / 人の判断（D4、判断者・日時つき）	P-02	0.22
+R4-modeling_entity-model	187	扶養親族等を誰の申告書に記載するか	事柄 / 記録（事実） / 人の判断（D4） / 中間表現	F-D01	0.38
+R4-modeling_entity-model	188	1人を2人が重ねて扶養しない（所法85⑥）	事柄 / 記録（事実） / 人の判断（D4） / 中間表現	F-R07	0.17
+R4-modeling_entity-model	189	双方が記載したときの規則（所令219②）	事柄 / 記録（事実） / 人の判断（D4） / 中間表現	F-R07	0.24
+R4-modeling_entity-model	190	配偶者と他の居住者の扶養親族の重複（所法85④⑤、所令218・218の2）	事柄 / 記録（事実） / 人の判断（D4） / 中間表現	C-02	0.35
+R4-modeling_entity-model	191	同じ人について扶養控除と障害者控除を別の居住者が受けない（所基通79-1）	事柄 / 記録（事実） / 人の判断（D4） / 中間表現	C-04	0.16
+R4-modeling_entity-model	192	年の中途で死亡・出国した居住者の分の例外（所基通83〜84の2-1）	事柄 / 記録（事実） / 人の判断（D4） / 中間表現	P-05	0.56
+R4-modeling_entity-model	193	医療費控除	事柄 / 記録（事実） / 人の判断（D4） / 中間表現	F-T13	0.26
+R4-modeling_entity-model	194	社会保険料控除（所法74）	事柄 / 記録（事実） / 人の判断（D4） / 中間表現	F-T07	0.69
+R4-modeling_entity-model	257	人ID、生年月日	事実 / 粒度 / 出所 / 使う判定	F-P02	0.43
+R4-modeling_entity-model	258	死亡日	事実 / 粒度 / 出所 / 使う判定	F-P03	0.67
+R4-modeling_entity-model	259	国内の住所・居所の有無、国外にいた期間とその目的（留学・赴任同行など）	事実 / 粒度 / 出所 / 使う判定	F-P04	0.3
+R4-modeling_entity-model	260	在学（学校の種類、昼間・夜間）	事実 / 粒度 / 出所 / 使う判定	F-P09	0.64
+R4-modeling_entity-model	261	障害者手帳など	事実 / 粒度 / 出所 / 使う判定	F-P10	0.5
+R4-modeling_entity-model	262	健保の資格（保険者、被保険者か、資格の取得日・喪失日）	事実 / 粒度 / 出所 / 使う判定	F-P12	0.64
+R4-modeling_entity-model	263	健保の被扶養者としての認定（どの被保険者の、認定日・削除日）	事実 / 粒度 / 出所 / 使う判定	C-20	0.65
+R4-modeling_entity-model	264	事業主の証明による認定継続を使った年	事実 / 粒度 / 出所 / 使う判定	F-D07	0.4
+R4-modeling_entity-model	265	住民票の世帯ID、世帯主か、世帯主との続柄	事実 / 粒度 / 出所 / 使う判定	F-P06	0.89
+R4-modeling_entity-model	266	勤務先ごとの扶養控除等申告書の提出（甲・乙・丙欄）	事実 / 粒度 / 出所 / 使う判定	F-D01	0.48
+R4-modeling_entity-model	285	雇用契約に基づく給与の支払額（支払者別。支給項目の種類別：基本給、時間外、通勤手当など）	金額の種類（事実の段階） / 粒度 / 出所 / 判定コアでの使い道（区分はコアが決める）	F-T01	0.47
+R4-modeling_entity-model	286	源泉徴収票の支払金額・源泉徴収税額（支払者別）	金額の種類（事実の段階） / 粒度 / 出所 / 判定コアでの使い道（区分はコアが決める）	F-D04	0.75
+R4-modeling_entity-model	287	業務委託・請負の報酬（支払者別、支払調書・源泉徴収の有無）	金額の種類（事実の段階） / 粒度 / 出所 / 判定コアでの使い道（区分はコアが決める）	F-D04	0.41
+R4-modeling_entity-model	288	業務の売上（業務別）	金額の種類（事実の段階） / 粒度 / 出所 / 判定コアでの使い道（区分はコアが決める）	F-T02	0.64
+R4-modeling_entity-model	289	業務の支出（業務別・費目別。業務関連性は D4）	金額の種類（事実の段階） / 粒度 / 出所 / 判定コアでの使い道（区分はコアが決める）	F-T03	0.39
+R4-modeling_entity-model	290	家事関連費の支出額（費目別）と、D4 の按分率・区分できるか	金額の種類（事実の段階） / 粒度 / 出所 / 判定コアでの使い道（区分はコアが決める）	J-13	0.45
+R4-modeling_entity-model	291	帳簿書類を保存しているか（業務別）	金額の種類（事実の段階） / 粒度 / 出所 / 判定コアでの使い道（区分はコアが決める）	J-22	0.42
+R4-modeling_entity-model	292	業務の前年・前々年の収入金額	金額の種類（事実の段階） / 粒度 / 出所 / 判定コアでの使い道（区分はコアが決める）	F-D03	0.52
+R4-modeling_entity-model	293	非課税の給付（失業給付、傷病手当金、出産手当金、遺族・障害年金など）	金額の種類（事実の段階） / 粒度 / 出所 / 判定コアでの使い道（区分はコアが決める）	F-T18	0.33
+R4-modeling_entity-model	294	労働契約の内容（時給、所定の労働時間・日数、手当の額、契約期間）	金額の種類（事実の段階） / 粒度 / 出所 / 判定コアでの使い道（区分はコアが決める）	F-D06	0.9
+R4-modeling_entity-model	295	健保の今後1年間の収入の見込み（D4）	金額の種類（事実の段階） / 粒度 / 出所 / 判定コアでの使い道（区分はコアが決める）	P-02	0.57
+round2_elderly-abroad-model	27	E1	# / 事実（中間表現） / 粒度 / 事実か判断か	F-P02	0.5
+round2_elderly-abroad-model	28	E2	# / 事実（中間表現） / 粒度 / 事実か判断か	F-R01	0.3
+round2_elderly-abroad-model	29	E3	# / 事実（中間表現） / 粒度 / 事実か判断か	F-P07	0.29
+round2_elderly-abroad-model	30	E4	# / 事実（中間表現） / 粒度 / 事実か判断か	F-P08	0.73
+round2_elderly-abroad-model	31	E5	# / 事実（中間表現） / 粒度 / 事実か判断か	F-P08	0.54
+round2_elderly-abroad-model	32	E6	# / 事実（中間表現） / 粒度 / 事実か判断か	F-P06	0.61
+round2_elderly-abroad-model	33	E7	# / 事実（中間表現） / 粒度 / 事実か判断か	F-P04	0.9
+round2_elderly-abroad-model	34	E8	# / 事実（中間表現） / 粒度 / 事実か判断か	F-P05	0.55
+round2_elderly-abroad-model	35	E9	# / 事実（中間表現） / 粒度 / 事実か判断か	F-T16	0.42
+round2_elderly-abroad-model	36	E10	# / 事実（中間表現） / 粒度 / 事実か判断か	F-D10	0.78
+round2_elderly-abroad-model	37	E11	# / 事実（中間表現） / 粒度 / 事実か判断か	F-P10	0.55
+round2_elderly-abroad-model	38	E12	# / 事実（中間表現） / 粒度 / 事実か判断か	F-P05	0.21
+round2_elderly-abroad-model	39	E13	# / 事実（中間表現） / 粒度 / 事実か判断か	F-P12	0.8
+round2_elderly-abroad-model	159	被扶養者の続柄・同一世帯・国内居住要件・例外の類型・後期高齢者の除外	項目 / 置き場所 / 根拠	J-07	0.19
+round2_elderly-abroad-model	160	130万・150万・180万、2分の1、援助額との比較	項目 / 置き場所 / 根拠	P-01	0.12
+round2_elderly-abroad-model	161	60歳の判定時点、住民票があっても居住実態で否定する運用、例外第5号の当てはめ、海外の収入の確認方法	項目 / 置き場所 / 根拠	J-07	0.11
+round2_hoken-kifu-model	140	生命保険料控除（所得税）	規則 / コア（法令の構造・パラメータ） / 注入データ（出典つき） / 記録層の事実	C-04	0.17
+round2_hoken-kifu-model	141	生命保険料控除（住民税）	規則 / コア（法令の構造・パラメータ） / 注入データ（出典つき） / 記録層の事実	C-04	0.25
+round2_hoken-kifu-model	142	地震保険料控除	規則 / コア（法令の構造・パラメータ） / 注入データ（出典つき） / 記録層の事実	C-04	0.21
+round2_hoken-kifu-model	143	寄附金控除（所得税）	規則 / コア（法令の構造・パラメータ） / 注入データ（出典つき） / 記録層の事実	F-D02	0.16
+round2_hoken-kifu-model	144	寄附金税額控除・特例控除（住民税）	規則 / コア（法令の構造・パラメータ） / 注入データ（出典つき） / 記録層の事実	F-D01	0.17
+round2_hoken-kifu-model	145	ワンストップ特例の有効性	規則 / コア（法令の構造・パラメータ） / 注入データ（出典つき） / 記録層の事実	C-15	0.27
+round2_hoken-kifu-model	146	小規模企業共済等掛金控除	規則 / コア（法令の構造・パラメータ） / 注入データ（出典つき） / 記録層の事実	F-T08	0.35
+round2_hoken-kifu-model	147	雑損控除	規則 / コア（法令の構造・パラメータ） / 注入データ（出典つき） / 記録層の事実	F-D01	0.19
+round2_jinteki-model	23	身体障害者手帳（級別）	根拠の種類（記録） / 障害者 / 特別障害者 / 条文	F-P10	0.24
+round2_jinteki-model	24	精神障害者保健福祉手帳（障害等級）	根拠の種類（記録） / 障害者 / 特別障害者 / 条文	F-P10	0.24
+round2_jinteki-model	25	知的障害の判定（児童相談所・知的障害者更生相談所・精神保健福祉センター・精神保健指定医）	根拠の種類（記録） / 障害者 / 特別障害者 / 条文	F-P10	0.21
+round2_jinteki-model	26	戦傷病者手帳（障害の程度）	根拠の種類（記録） / 障害者 / 特別障害者 / 条文	F-P10	0.33
+round2_jinteki-model	27	原爆被爆者の厚生労働大臣の認定	根拠の種類（記録） / 障害者 / 特別障害者 / 条文	F-P10	0.5
+round2_jinteki-model	28	常に就床を要し複雑な介護を要する（判断。6か月以上：所基通2-39）	根拠の種類（記録） / 障害者 / 特別障害者 / 条文	J-17	0.3
+round2_jinteki-model	29	事理を弁識する能力を欠く常況（判断）	根拠の種類（記録） / 障害者 / 特別障害者 / 条文	J-17	0.27
+round2_jinteki-model	30	65歳以上で市町村長等の認定（認定書の区分）	根拠の種類（記録） / 障害者 / 特別障害者 / 条文	F-P10	0.4
+round2_kokuho-core-vs-injected	60	10	# / 事実 / 粒度 / 使う規則	F-A06	0.65
+round2_kokuho-core-vs-injected	61	11	# / 事実 / 粒度 / 使う規則	F-P14	0.91
+round2_kokuho-core-vs-injected	62	12	# / 事実 / 粒度 / 使う規則	F-P14	0.39
+round2_kokuho-core-vs-injected	63	13	# / 事実 / 粒度 / 使う規則	F-P13	0.42
+round2_kokuho-core-vs-injected	64	14	# / 事実 / 粒度 / 使う規則	F-D09	0.85
+round2_kokuho-core-vs-injected	65	15	# / 事実 / 粒度 / 使う規則	F-D09	0.23
+round2_kokuho-core-vs-injected	66	16	# / 事実 / 粒度 / 使う規則	F-D04	0.22
+round2_kokuho-core-vs-injected	67	17	# / 事実 / 粒度 / 使う規則	F-D19	0.78
+round2_kyosai-model	24	A 法令	層 / 内容 / 根拠の文書の種類 / 置き場所	C-20	0.14
+round2_kyosai-model	25	B 制度ごとの定め	層 / 内容 / 根拠の文書の種類 / 置き場所	F-P12	0.11
+round2_kyosai-model	26	C 保険者ごとの基準	層 / 内容 / 根拠の文書の種類 / 置き場所	P-05	0.08
+round2_spouse-model	127	婚姻の開始日（届出）・離婚の日	事実・判断 / 粒度 / 事実か判断か / 使う規則	F-R03	0.56
+round2_spouse-model	128	事実婚の開始・終了	事実・判断 / 粒度 / 事実か判断か / 使う規則	J-02	0.5
+round2_spouse-model	129	死亡日・出国日	事実・判断 / 粒度 / 事実か判断か / 使う規則	F-R03	0.44
+round2_spouse-model	130	生年月日	事実・判断 / 粒度 / 事実か判断か / 使う規則	F-P02	0.75
+round2_spouse-model	131	生計を一にする	事実・判断 / 粒度 / 事実か判断か / 使う規則	J-01	0.82
+round2_spouse-model	132	同居・別居、同一世帯	事実・判断 / 粒度 / 事実か判断か / 使う規則	F-P14	0.5
+round2_spouse-model	133	青色事業専従者・事業専従者に当たるか（誰の）	事実・判断 / 粒度 / 事実か判断か / 使う規則	J-13	0.28
+round2_spouse-model	134	所得の明細（非課税の給付を区別）	事実・判断 / 粒度 / 事実か判断か / 使う規則	F-P15	0.2
+round2_spouse-model	135	今後1年の年間収入の見込み（配偶者・被保険者）	事実・判断 / 粒度 / 事実か判断か / 使う規則	P-02	0.71
+round2_spouse-model	136	被保険者からの援助（送金）	事実・判断 / 粒度 / 事実か判断か / 使う規則	P-02	0.42
+round2_spouse-model	137	申告書等の記載（誰をどの区分で、提出日）	事実・判断 / 粒度 / 事実か判断か / 使う規則	C-01	0.7
+round2_spouse-model	138	月々の源泉徴収の状況（源泉控除対象配偶者の記載、年末調整・確定申告の有無）	事実・判断 / 粒度 / 事実か判断か / 使う規則	F-D04	0.46
+round2_spouse-model	139	厚生年金保険・健康保険の資格（取得日・喪失日）、年金の受給権	事実・判断 / 粒度 / 事実か判断か / 使う規則	F-P12	0.46
+round2_spouse-model	140	住所（国内か、海外特例の類型）、国籍・在留資格	事実・判断 / 粒度 / 事実か判断か / 使う規則	F-P04	0.29
+round2_spouse-model	141	非居住者である配偶者の親族関係書類・送金関係書類	事実・判断 / 粒度 / 事実か判断か / 使う規則	P-05	0.43
+round2_spouse-model	142	1月1日の住所の市町村と、その市町村が指定都市か	事実・判断 / 粒度 / 事実か判断か / 使う規則	F-P16	0.39
+round2b_kabu-model	25	上場株式等の配当等（大口株主等以外。口座に受け入れていないもの）	対象 / 選べるもの / 単位 / 制約	F-T14	0.32
+round2b_kabu-model	26	源泉徴収口座に受け入れた配当等	対象 / 選べるもの / 単位 / 制約	F-D17	0.6
+round2b_kabu-model	27	申告する特定上場株式等の配当等（上場株式・公募株式投信・特定投資法人）	対象 / 選べるもの / 単位 / 制約	C-06	0.24
+round2b_kabu-model	28	特定公社債の利子など（措法第8条の4第1項第4号〜第6号）	対象 / 選べるもの / 単位 / 制約	C-06	0.16
+round2b_kabu-model	29	大口株主等の配当、非上場株式の配当	対象 / 選べるもの / 単位 / 制約	C-06	0.24
+round2b_kabu-model	30	源泉徴収口座の上場株式等の譲渡	対象 / 選べるもの / 単位 / 制約	C-06	0.8
+round2b_kabu-model	31	簡易申告口座・一般口座の上場株式等の譲渡	対象 / 選べるもの / 単位 / 制約	C-06	0.38
+round2b_kabu-model	32	損益通算・繰越控除	対象 / 選べるもの / 単位 / 制約	C-06	0.53
+round2b_kabu-model	33	NISA の配当・譲渡	対象 / 選べるもの / 単位 / 制約	F-T14	0.19
+round2b_kabu-model	34	住民税の課税方式	対象 / 選べるもの / 単位 / 制約	F-D02	0.27
+round3_shibo-shukkoku-model	43	死亡日	事実・判断 / 粒度 / 使う規則 / 根拠	F-P03	0.67
+round3_shibo-shukkoku-model	44	国内に住所・居所を有しなくなった日（判断）	事実・判断 / 粒度 / 使う規則 / 根拠	F-D21	0.57
+round3_shibo-shukkoku-model	45	納税管理人の選任・解任の届出（提出日、納税管理人）	事実・判断 / 粒度 / 使う規則 / 根拠	F-D21	0.88
+round3_shibo-shukkoku-model	46	相続人等：人、被相続人との続柄、包括受遺者か、相続の開始を知った日（人ごと）、相続分（法定／指定の区	事実・判断 / 粒度 / 使う規則 / 根拠	F-R07	0.77
+round3_shibo-shukkoku-model	47	相続人がいないときの清算人の確定の日	事実・判断 / 粒度 / 使う規則 / 根拠	F-R07	0.84
+round3_shibo-shukkoku-model	48	提出した申告書（種類＝所法124〜127、提出日、提出者、連署か各別か、方法、青色申告書か）	事実・判断 / 粒度 / 使う規則 / 根拠	F-D01	0.3
+round3_shibo-shukkoku-model	49	申告の計画（提出予定日、方法）	事実・判断 / 粒度 / 使う規則 / 根拠	P-04	0.8
+round3_shibo-shukkoku-model	50	青色申告の承認と、過去の年分の申告が青色申告書か・期限内か	事実・判断 / 粒度 / 使う規則 / 根拠	P-04	0.32
+round3_shibo-shukkoku-model	51	過去の年分の確定値：純損失・雑損失の年ごとの残高、前年分・前前年分の課税総所得金額等と所得税額（税額	事実・判断 / 粒度 / 使う規則 / 根拠	F-D02	0.49
+round3_shibo-shukkoku-model	52	見積り：親族の合計所得金額、雑損控除の親族の所得	事実・判断 / 粒度 / 使う規則 / 根拠	P-05	0.68
+round3_shibo-shukkoku-model	53	繰り戻す額の選択（相続人）	事実・判断 / 粒度 / 使う規則 / 根拠	C-12	0.6
+round3_shibo-shukkoku-model	54	相続又は遺贈によって得た財産の価額	事実・判断 / 粒度 / 使う規則 / 根拠	F-R07	0.24
+round3_shibo-shukkoku-model	55	取引・支払の日付	事実・判断 / 粒度 / 使う規則 / 根拠	F-T00	0.57
+round3_juminzei-extra-implications	15	事実台帳（人 × 1月1日）	置き場所 / 項目 / 使う規定	F-A07	0.23
+round3_juminzei-extra-implications	16	事実台帳（住宅）	置き場所 / 項目 / 使う規定	F-A07	0.79
+round3_juminzei-extra-implications	17	判断台帳	置き場所 / 項目 / 使う規定	J-33	0.26
+round3_juminzei-extra-implications	18	事実台帳（所得税の結果・外部の値）	置き場所 / 項目 / 使う規定	F-D18	0.18
+round3_juminzei-extra-implications	19	事実台帳（配当・譲渡）	置き場所 / 項目 / 使う規定	J-24	0.13
+round3_juminzei-extra-implications	20	判断台帳（納税者の選択）	置き場所 / 項目 / 使う規定	F-D02	0.27
+round3_juminzei-extra-implications	21	注入データ（課税団体ごと・年度ごと）	置き場所 / 項目 / 使う規定	F-A07	0.11

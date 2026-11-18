@@ -1,0 +1,4190 @@
+[
+ {
+  "href": "https://www.nta.go.jp/",
+  "text": "ホーム"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/index.htm",
+  "text": "税の情報・手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/index.htm",
+  "text": "税について調べる"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm",
+  "text": "タックスアンサー（よくある税の質問）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01",
+  "text": "所得税"
+ },
+ {
+  "href": "javascript:void(0)",
+  "text": "〔alt:▼ひらく〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01-00",
+  "text": "基本的なしくみ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01-01",
+  "text": "夫婦と税金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01-02",
+  "text": "給与所得者と還付申告"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01-03",
+  "text": "マイホームの取得や増改築などしたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01-04",
+  "text": "医療費を支払ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01-05",
+  "text": "寄附をしたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01-06",
+  "text": "給与所得者と確定申告"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01-07",
+  "text": "海外勤務になったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01-08",
+  "text": "退職金を受け取ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01-21",
+  "text": "年金を受け取ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01-09",
+  "text": "お年寄りや障害のある方と税金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01-10",
+  "text": "貯蓄と税金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01-11",
+  "text": "株式投資等と税金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01-12",
+  "text": "保険金を受け取ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01-13",
+  "text": "交通事故と損害賠償金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01-14",
+  "text": "アパートや貸家の賃貸収入がある人"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01-15",
+  "text": "事業主と税金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01-16",
+  "text": "申告と納税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01-17",
+  "text": "所得額の計算と課税方法"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01-18",
+  "text": "所得の種類と課税のしくみ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01-19",
+  "text": "所得金額から差し引かれる金額（所得控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code01-20",
+  "text": "税金から差し引かれる金額（税額控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code02",
+  "text": "源泉所得税"
+ },
+ {
+  "href": "javascript:void(0)",
+  "text": "〔alt:▼ひらく〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code02-01",
+  "text": "給与と源泉徴収"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code02-02",
+  "text": "特殊な給与"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code02-03",
+  "text": "年末調整"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code02-04",
+  "text": "退職金と源泉徴収"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code02-05",
+  "text": "報酬・料金などの源泉徴収"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code02-06",
+  "text": "非居住者に対する課税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code03",
+  "text": "譲渡所得"
+ },
+ {
+  "href": "javascript:void(0)",
+  "text": "〔alt:▼ひらく〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code03-01",
+  "text": "譲渡所得のあらまし"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code03-02",
+  "text": "土地建物以外の資産を売ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code03-03",
+  "text": "土地建物を売ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code03-04",
+  "text": "土地建物の取得費と譲渡費用"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code03-05",
+  "text": "マイホームを売ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code03-06",
+  "text": "マイホームを買い換えたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code03-07",
+  "text": "事業用の資産を買い換えたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code03-08",
+  "text": "店舗併用住宅を売ったとき、買い換えたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code03-09",
+  "text": "土地建物の交換をしたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code03-10",
+  "text": "土地建物を収用されたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code03-11",
+  "text": "海外の不動産を売ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code03-12",
+  "text": "株式等を売ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code03-13",
+  "text": "海外で株式等を売ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code04",
+  "text": "相続税"
+ },
+ {
+  "href": "javascript:void(0)",
+  "text": "〔alt:▼ひらく〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code04-01",
+  "text": "相続と税金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code04-02",
+  "text": "相続税の計算と税額控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code04-03",
+  "text": "相続税の申告と納税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code04-04",
+  "text": "相続時精算課税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code05",
+  "text": "贈与税"
+ },
+ {
+  "href": "javascript:void(0)",
+  "text": "〔alt:▼ひらく〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code05-01",
+  "text": "贈与と税金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code05-02",
+  "text": "夫婦間の居住用不動産の贈与"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code05-03",
+  "text": "住宅取得等資金の贈与を受けたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code05-04",
+  "text": "親子間の土地の無償使用"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code05-05",
+  "text": "相続時精算課税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code06",
+  "text": "財産の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07",
+  "text": "法人税"
+ },
+ {
+  "href": "javascript:void(0)",
+  "text": "〔alt:▼ひらく〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07-01",
+  "text": "法人の設立"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07-02",
+  "text": "役員報酬・役員賞与など"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07-03",
+  "text": "従業員給与・退職金・企業年金等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07-04",
+  "text": "出向や転籍があったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07-05",
+  "text": "交際費"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07-06",
+  "text": "寄附金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07-07",
+  "text": "租税公課"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07-08",
+  "text": "貸倒損失"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07-09",
+  "text": "保険料"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07-10",
+  "text": "その他の営業経費"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07-11",
+  "text": "減価償却"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07-12",
+  "text": "特別償却・所得控除・特別税額控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07-13",
+  "text": "繰延資産"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07-14",
+  "text": "引当金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07-15",
+  "text": "営業外損益"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07-16",
+  "text": "法人税法上の圧縮記帳"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07-17",
+  "text": "措置法上の圧縮記帳"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07-18",
+  "text": "リース取引・賃貸借取引"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07-19",
+  "text": "借地権等の認定課税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07-20",
+  "text": "税額の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07-21",
+  "text": "資本に関する取引等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code07-22",
+  "text": "その他"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code08",
+  "text": "消費税"
+ },
+ {
+  "href": "javascript:void(0)",
+  "text": "〔alt:▼ひらく〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code08-01",
+  "text": "基本的なしくみ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code08-02",
+  "text": "消費税の軽減税率制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code08-03",
+  "text": "課税取引・非課税取引"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code08-04",
+  "text": "課税標準と税率"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code08-05",
+  "text": "税額計算のあらまし"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code08-06",
+  "text": "課税売上割合の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code08-07",
+  "text": "仕入税額控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code08-08",
+  "text": "中小事業者に対する特例など"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code08-09",
+  "text": "輸出と輸入"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code08-10",
+  "text": "申告と納税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code08-11",
+  "text": "その他"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code09",
+  "text": "印紙税・その他の国税"
+ },
+ {
+  "href": "javascript:void(0)",
+  "text": "〔alt:▼ひらく〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code09-01",
+  "text": "印紙税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code09-02",
+  "text": "その他の国税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code10",
+  "text": "課税に不服なとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code11",
+  "text": "法定調書"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code12",
+  "text": "災害を受けたら"
+ },
+ {
+  "href": "javascript:void(0)",
+  "text": "〔alt:▼ひらく〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code12-01",
+  "text": "申告・納期限の延長"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code12-02",
+  "text": "被災者の雑損控除、災害減免の特例等について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code12-03",
+  "text": "災害を受けたときの納税の猶予その他の税制上の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code12-04",
+  "text": "消費税の届出に関する特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#code13",
+  "text": "国税に関するその他の情報"
+ },
+ {
+  "href": "javascript:void(0)",
+  "text": "〔alt:▼ひらく〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/english/taxes/individual/gaikoku.htm",
+  "text": "Information about Income Tax"
+ },
+ {
+  "href": "https://www.nta.go.jp/english/taxes/others/01/index.htm",
+  "text": "Notification of National Tax"
+ },
+ {
+  "href": "https://www.nta.go.jp/english/taxes/others/02/index.htm",
+  "text": "Information about Inheritance Tax and Gift Tax"
+ },
+ {
+  "href": "https://www.nta.go.jp/english/taxes/withholing/Information/index.htm",
+  "text": "Information about Withholding Tax"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1000.htm",
+  "text": "1000 所得税のしくみ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1800.htm",
+  "text": "1800 パート収入はいくらまで所得税がかからないか"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1190.htm",
+  "text": "1190 配偶者の所得がいくらまでなら配偶者控除が受けられるか"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1191.htm",
+  "text": "1191 配偶者控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1195.htm",
+  "text": "1195 配偶者特別控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2030.htm",
+  "text": "2030 還付申告"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm",
+  "text": "1110 災害や盗難などで資産に損害を受けたとき(雑損控除)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1120.htm",
+  "text": "1120 医療費を支払ったとき（医療費控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1150.htm",
+  "text": "1150 一定の寄附金を支払ったとき(寄附金控除)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1155.htm",
+  "text": "1155 ふるさと納税(寄附金控除)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1210.htm",
+  "text": "1210 マイホームの取得等と所得税の税額控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1250.htm",
+  "text": "1250 配当所得があるとき(配当控除)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1910.htm",
+  "text": "1910 中途退職で年末調整を受けていないとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1410.htm",
+  "text": "1410 給与所得控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1411.htm",
+  "text": "1411 所得金額調整控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1415.htm",
+  "text": "1415 給与所得者の特定支出控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2031.htm",
+  "text": "2031 未納付の源泉徴収税額に対する還付手続"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1904.htm",
+  "text": "1904 給与所得者と電子申告"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1907.htm",
+  "text": "1907 個人が企業発行ポイントを取得又は使用した場合の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1210.htm",
+  "text": "1210 マイホームの取得等と所得税の税額控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1211-1.htm",
+  "text": "1211-1 住宅の新築等をし、令和4年以降に居住の用に供した場合（住宅借入金等特別控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1211-2.htm",
+  "text": "1211-2 買取再販住宅を取得し、令和4年以降に居住の用に供した場合（住宅借入金等特別控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1211-3.htm",
+  "text": "1211-3 中古住宅を取得し、令和4年以降に居住の用に供した場合（住宅借入金等特別控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1211-4.htm",
+  "text": "1211-4 増改築等をし、令和4年以降に居住の用に供した場合（住宅借入金等特別控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1211-5.htm",
+  "text": "1211-5 要耐震改修住宅を取得し、令和4年以降に居住の用に供した場合（住宅借入金等特別控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1212.htm",
+  "text": "1212 住宅の新築等をし、令和３年までに居住の用に供した場合（住宅借入金等特別控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1213.htm",
+  "text": "1213 認定住宅の新築等をし、令和３年までに居住の用に供した場合（住宅借入金等特別控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1214.htm",
+  "text": "1214 中古住宅を取得し、令和３年までに居住の用に供した場合（住宅借入金等特別控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1215.htm",
+  "text": "1215 要耐震改修住宅を取得して耐震改修を行い、令和３年までに居住の用に供した場合（住宅借入金等特別控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1216.htm",
+  "text": "1216 増改築等をし、令和３年までに居住の用に供した場合（住宅借入金等特別控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1217.htm",
+  "text": "1217 借入金を利用して省エネ改修工事をした場合（特定増改築等住宅借入金等特別控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1218.htm",
+  "text": "1218 借入金を利用してバリアフリー改修工事をした場合（特定増改築等住宅借入金等特別控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1223.htm",
+  "text": "1223 借入金を利用して多世帯同居改修工事をした場合(特定増改築等住宅借入金等特別控除)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1219.htm",
+  "text": "1219 省エネ改修工事をした場合（住宅特定改修特別税額控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1220.htm",
+  "text": "1220 バリアフリー改修工事をした場合（住宅特定改修特別税額控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1221.htm",
+  "text": "1221 認定住宅等の新築等をした場合（認定住宅等新築等特別税額控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1222.htm",
+  "text": "1222 耐震改修工事をした場合（住宅耐震改修特別控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1224.htm",
+  "text": "1224 多世帯同居改修工事をした場合(住宅特定改修特別税額控除)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1227.htm",
+  "text": "1227 耐久性向上改修工事をした場合（住宅特定改修特別税額控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1228.htm",
+  "text": "1228 子育て対応改修工事をした場合（住宅特定改修特別税額控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1225.htm",
+  "text": "1225 住宅借入金等特別控除の対象となる住宅ローン等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1226.htm",
+  "text": "1226 特定増改築等住宅借入金等特別控除の対象となる住宅ローン等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1230.htm",
+  "text": "1230 調書方式による住宅借入金等特別控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1233.htm",
+  "text": "1233 住宅ローン等の借換えをしたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1234.htm",
+  "text": "1234 転勤と住宅借入金等特別控除等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1237.htm",
+  "text": "1237 離婚による財産分与で居住用家屋の共有持分を追加取得した場合の住宅借入金等特別控除について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/saigai/8013.htm",
+  "text": "8013 災害により被害を受けたときの住宅借入金等特別控除の適用期間の特例等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1316.htm",
+  "text": "1316 財形住宅貯蓄"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1120.htm",
+  "text": "1120 医療費を支払ったとき（医療費控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1119.htm",
+  "text": "1119 医療費控除に関する手続について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1122.htm",
+  "text": "1122 医療費控除の対象となる医療費"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1124.htm",
+  "text": "1124 医療費控除の対象となる出産費用の具体例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1125.htm",
+  "text": "1125 医療費控除の対象となる介護保険制度下での施設サービスの対価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1126.htm",
+  "text": "1126 医療費控除の対象となる入院費用の具体例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1127.htm",
+  "text": "1127 医療費控除の対象となる介護保険制度下での居宅サービス等の対価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1128.htm",
+  "text": "1128 医療費控除の対象となる歯の治療費の具体例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1129.htm",
+  "text": "1129 特定一般用医薬品等購入費を支払ったとき（医療費控除の特例）【セルフメディケーション税制】"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1131.htm",
+  "text": "1131 セルフメディケーション税制と通常の医療費控除との選択適用"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1132.htm",
+  "text": "1132 セルフメディケーション税制の対象となる特定一般用医薬品等購入費"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1133.htm",
+  "text": "1133 健康の保持増進及び疾病の予防への取組を行っている場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1134.htm",
+  "text": "1134 取組を行ったことを明らかにする書類の具体例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1150.htm",
+  "text": "1150 一定の寄附金を支払ったとき(寄附金控除)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1155.htm",
+  "text": "1155 ふるさと納税(寄附金控除)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1154.htm",
+  "text": "1154 政治献金と寄附金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1260.htm",
+  "text": "1260 政党等寄附金特別控除制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1263.htm",
+  "text": "1263 認定NPO法人に寄附をしたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1266.htm",
+  "text": "1266 公益社団法人等に寄附をしたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm",
+  "text": "1900 給与所得者で確定申告が必要な人"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1901.htm",
+  "text": "1901 同族会社の役員で確定申告の必要な人"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1902.htm",
+  "text": "1902 災害減免法による所得税の軽減免除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1903.htm",
+  "text": "1903 給与所得者に生命保険の満期返戻金などの一時所得があった場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1904.htm",
+  "text": "1904 給与所得者と電子申告"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1905.htm",
+  "text": "1905 労働基準法の休業手当等の課税関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1906.htm",
+  "text": "1906 給与所得者がネットオークション等により副収入を得た場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1410.htm",
+  "text": "1410 給与所得控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1493.htm",
+  "text": "1493 土地等の財産を時効の援用により取得したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1934.htm",
+  "text": "1934 国際機関に勤務している人が受給する給与等に関する課税関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1920.htm",
+  "text": "1920 海外勤務と所得税額の精算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1923.htm",
+  "text": "1923 海外勤務と納税管理人の選任又は解任"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1926.htm",
+  "text": "1926 海外勤務中に不動産所得などがある場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1929.htm",
+  "text": "1929 海外で勤務する法人の役員などに対する給与の支払と税務"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1932.htm",
+  "text": "1932 海外勤務中に不動産を売却した場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1936.htm",
+  "text": "1936 海外勤務中に株式を譲渡した場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1935.htm",
+  "text": "1935 海外勤務者が帰国したときの確定申告"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1934.htm",
+  "text": "1934 国際機関に勤務している人が受給する給与等に関する課税関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm",
+  "text": "1420 退職金を受け取ったとき(退職所得)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2725.htm",
+  "text": "2725 退職所得となるもの"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2728.htm",
+  "text": "2728 退職所得の収入金額の収入すべき時期"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1600.htm",
+  "text": "1600 公的年金等の課税関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1605.htm",
+  "text": "1605 遺族の方に支給される公的年金等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1610.htm",
+  "text": "1610 保険契約者(保険料の負担者)である本人が支払を受ける個人年金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1615.htm",
+  "text": "1615 遺族の方が支払を受ける個人年金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1620.htm",
+  "text": "1620 相続等により取得した年金受給権に係る生命保険契約等に基づく年金の課税関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1622.htm",
+  "text": "1622 国際機関に勤務していた人が受給する退職年金に関する課税関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1182.htm",
+  "text": "1182 高齢者を扶養している人が受けられる配偶者控除や扶養控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1160.htm",
+  "text": "1160 障害者控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1184.htm",
+  "text": "1184 扶養家族に寝たきりの人がいるときの控除額"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1185.htm",
+  "text": "1185 市町村長等の障害者認定と介護保険法の要介護認定について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1186.htm",
+  "text": "1186 身体障害者手帳等の交付を申請中である場合の障害者控除の適用について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1313.htm",
+  "text": "1313 障害者等のマル優(非課税貯蓄)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1310.htm",
+  "text": "1310 利息を受け取ったとき(利子所得)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1313.htm",
+  "text": "1313 障害者等のマル優(非課税貯蓄)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1316.htm",
+  "text": "1316 財形住宅貯蓄"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1319.htm",
+  "text": "1319 財形年金貯蓄"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1510.htm",
+  "text": "1510 公社債の償還金と税金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1520.htm",
+  "text": "1520 金融類似商品と税金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1330.htm",
+  "text": "1330 配当金を受け取ったとき(配当所得)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1250.htm",
+  "text": "1250 配当所得があるとき(配当控除)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1331.htm",
+  "text": "1331 上場株式等の配当等に係る申告分離課税制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1463.htm",
+  "text": "1463 株式等を譲渡したときの課税(申告分離課税)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1521.htm",
+  "text": "1521 外国為替証拠金取引(FX)の課税関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1522.htm",
+  "text": "1522 先物取引に係る雑所得等の課税の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1523.htm",
+  "text": "1523 先物取引の差金等決済に係る損失の繰越控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1524.htm",
+  "text": "1524 暗号資産を使用することにより利益が生じた場合の課税関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1525.htm",
+  "text": "1525 暗号資産交換業者から暗号資産に代えて金銭の補償を受けた場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1525-2.htm",
+  "text": "1525-2 NFTやFTを用いた取引を行った場合の課税関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1464.htm",
+  "text": "1464 譲渡した株式等の取得費"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1466.htm",
+  "text": "1466 同一銘柄の株式等を2回以上にわたって購入している場合の取得費"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1526.htm",
+  "text": "1526 株式交換により株式を譲渡した場合の譲渡所得等の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1527.htm",
+  "text": "1527 株式移転により株式を譲渡した場合の譲渡所得等の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1545.htm",
+  "text": "1545 株式等を対価とする株式の譲渡に係る譲渡所得等の課税の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1528.htm",
+  "text": "1528 取得請求権付株式に係る請求権の行使等により有価証券を譲渡した場合の譲渡所得等の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1536.htm",
+  "text": "1536 株式等に係る譲渡所得等の収入金額とみなされる場合－法人の合併等、自己株式の取得等の場合－"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1537.htm",
+  "text": "1537 一般株式等に係る譲渡所得等の収入金額とみなされる場合－投資信託等の終了等の場合－"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1538.htm",
+  "text": "1538 上場株式等に係る譲渡所得等の収入金額とみなされる場合－投資信託等の終了等の場合－"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1539.htm",
+  "text": "1539 貸付信託の受益権等の譲渡による所得の非課税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1543.htm",
+  "text": "1543 税制非適格ストック・オプションに係る課税関係について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1540.htm",
+  "text": "1540 ストック・オプション税制の適用を受けて取得した株式を譲渡した場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1541.htm",
+  "text": "1541 ストック・オプション税制の適用を受けて取得した株式の返還又は移転があった場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1542.htm",
+  "text": "1542 特定従事者がストック・オプション税制の適用を受けて取得した株式を保有したまま国外転出する場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1529.htm",
+  "text": "1529 短期所有土地の譲渡に類似する株式等の譲渡"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1465.htm",
+  "text": "1465 株式等の譲渡損失(赤字)の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1474.htm",
+  "text": "1474 上場株式等に係る譲渡損失の損益通算及び繰越控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1544.htm",
+  "text": "1544 エンジェル税制の概要等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1530.htm",
+  "text": "1530 特定投資株式の取得に要した金額の控除等の特例（エンジェル税制）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1531.htm",
+  "text": "1531 特定投資株式が株式としての価値を失った場合の特例（エンジェル税制）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1532.htm",
+  "text": "1532 特定投資株式に係る譲渡損失の損益の計算の特例（エンジェル税制）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1533.htm",
+  "text": "1533 特定投資株式に係る譲渡損失の繰越控除の特例（エンジェル税制）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1476.htm",
+  "text": "1476 特定口座制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1535.htm",
+  "text": "1535 NISA制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1467.htm",
+  "text": "1467 贈与により非居住者に資産が移転した場合の譲渡所得等の特例（国外転出（贈与）時課税）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1468.htm",
+  "text": "1468 相続又は遺贈により非居住者に資産が移転した場合の譲渡所得等の特例（国外転出（相続）時課税）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1478.htm",
+  "text": "1478 国外転出をする場合の譲渡所得等の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1936.htm",
+  "text": "1936 海外勤務中に株式を譲渡した場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1937.htm",
+  "text": "1937 居住者が海外で株式等を売却した場合の課税関係等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1750.htm",
+  "text": "1750 死亡保険金を受け取ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1755.htm",
+  "text": "1755 生命保険契約に係る満期保険金等を受け取ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1760.htm",
+  "text": "1760 所得補償保険の保険金を受け取ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1700.htm",
+  "text": "1700 加害者から治療費、慰謝料及び損害賠償金などを受け取ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1705.htm",
+  "text": "1705 遺族の方が損害賠償金を受け取ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1710.htm",
+  "text": "1710 事業主・使用人が加害者として損害賠償金を支払ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1370.htm",
+  "text": "1370 不動産収入を受け取ったとき(不動産所得)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1373.htm",
+  "text": "1373 事業としての不動産貸付けとそれ以外の不動産貸付けとの区分"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1376.htm",
+  "text": "1376 不動産所得の収入計上時期"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1377.htm",
+  "text": "1377 保証金の経済的利益に係る課税関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1379.htm",
+  "text": "1379 修繕費とならないものの判定"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1382.htm",
+  "text": "1382 立退料を支払ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm",
+  "text": "2100 減価償却のあらまし"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1391.htm",
+  "text": "1391 不動産所得が赤字のときの他の所得との通算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1399.htm",
+  "text": "1399 新たに不動産の貸付けを始めたときの届出など"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1350.htm",
+  "text": "1350 事業所得の課税のしくみ(事業所得)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+  "text": "2070 青色申告制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2072.htm",
+  "text": "2072 青色申告特別控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2075.htm",
+  "text": "2075 青色事業専従者給与と事業専従者控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2080.htm",
+  "text": "2080 白色申告者の記帳・帳簿等保存制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2090.htm",
+  "text": "2090 新たに事業を始めたときの届出など"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2091.htm",
+  "text": "2091 個人事業者の納税地等に異動があった場合の届出関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2110.htm",
+  "text": "2110 事業主がしなければならない源泉徴収"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2200.htm",
+  "text": "2200 収入金額とその計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2201.htm",
+  "text": "2201 個人事業者が事業所得の必要経費を補てんするための損害賠償金を受け取ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2202.htm",
+  "text": "2202 国庫補助金等を受け取ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+  "text": "2210 必要経費の知識"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2215.htm",
+  "text": "2215 固定資産税、登録免許税又は不動産取得税を支払った場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2217.htm",
+  "text": "2217 公務員に対する贈賄や、外国公務員に対する不正な利益の供与の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm",
+  "text": "2100 減価償却のあらまし"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2105.htm",
+  "text": "2105 旧定額法と旧定率法による減価償却(平成19年3月31日以前に取得した場合)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2106.htm",
+  "text": "2106 定額法と定率法による減価償却(平成19年4月1日以後に取得する場合)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2107.htm",
+  "text": "2107 資本的支出を行った場合の減価償却"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2108.htm",
+  "text": "2108 中古資産を非業務用から業務用に転用した場合の減価償却"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2109.htm",
+  "text": "2109 新築家屋等を非業務用から業務用に転用した場合の減価償却"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1810.htm",
+  "text": "1810 家内労働者等の必要経費の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2010.htm",
+  "text": "2010 納税義務者となる個人"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2011.htm",
+  "text": "2011 課税される所得と非課税所得"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2012.htm",
+  "text": "2012 居住者・非居住者の判定(複数の滞在地がある人の場合)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2020.htm",
+  "text": "2020 確定申告"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2022.htm",
+  "text": "2022 納税者が死亡したときの確定申告(準確定申告)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2029.htm",
+  "text": "2029 確定申告書の提出先(納税地)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2036.htm",
+  "text": "2036 確定申告書の税務署への送付"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2030.htm",
+  "text": "2030 還付申告"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2031.htm",
+  "text": "2031 未納付の源泉徴収税額に対する還付手続"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/osirase/9209-2.htm",
+  "text": "9209-2 コンビニ納付（QRコード）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2040.htm",
+  "text": "2040 予定納税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2024.htm",
+  "text": "2024 確定申告を忘れたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2026.htm",
+  "text": "2026 確定申告を間違えたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2220.htm",
+  "text": "2220 総合課税制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2230.htm",
+  "text": "2230 源泉分離課税制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2240.htm",
+  "text": "2240 申告分離課税制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2250.htm",
+  "text": "2250 損益通算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/3382.htm",
+  "text": "3382 マイホームを買い換えた場合の譲渡損失の損益通算及び繰越控除の順序"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2260.htm",
+  "text": "2260 所得税の税率"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2270.htm",
+  "text": "2270 特定の基準所得金額の課税の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1300.htm",
+  "text": "1300 所得の区分のあらまし"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1310.htm",
+  "text": "1310 利息を受け取ったとき(利子所得)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1330.htm",
+  "text": "1330 配当金を受け取ったとき(配当所得)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1350.htm",
+  "text": "1350 事業所得の課税のしくみ(事業所得)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1370.htm",
+  "text": "1370 不動産収入を受け取ったとき(不動産所得)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1400.htm",
+  "text": "1400 給与所得"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1420.htm",
+  "text": "1420 退職金を受け取ったとき(退職所得)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1440.htm",
+  "text": "1440 譲渡所得(土地や建物を譲渡したとき)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1460.htm",
+  "text": "1460 譲渡所得(土地、建物及び株式等以外の資産を譲渡したとき)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1480.htm",
+  "text": "1480 山林所得"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm",
+  "text": "1490 一時所得"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1500.htm",
+  "text": "1500 雑所得"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1100.htm",
+  "text": "1100 所得控除のあらまし"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm",
+  "text": "1110 災害や盗難などで資産に損害を受けたとき(雑損控除)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1120.htm",
+  "text": "1120 医療費を支払ったとき（医療費控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm",
+  "text": "1130 社会保険料控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1135.htm",
+  "text": "1135 小規模企業共済等掛金控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm",
+  "text": "1140 生命保険料控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1141.htm",
+  "text": "1141 生命保険料控除の対象となる保険契約等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1145.htm",
+  "text": "1145 地震保険料控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1146.htm",
+  "text": "1146 地震保険料控除の対象となる保険や共済の契約"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1150.htm",
+  "text": "1150 一定の寄附金を支払ったとき(寄附金控除)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1155.htm",
+  "text": "1155 ふるさと納税(寄附金控除)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1160.htm",
+  "text": "1160 障害者控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1170.htm",
+  "text": "1170 寡婦控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1171.htm",
+  "text": "1171 ひとり親控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1172.htm",
+  "text": "1172 寡夫控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1175.htm",
+  "text": "1175 勤労学生控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1177.htm",
+  "text": "1177 特定親族特別控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180.htm",
+  "text": "1180 扶養控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1181.htm",
+  "text": "1181 納税者が2人以上いる場合の扶養控除の所属の変更"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1182.htm",
+  "text": "1182 高齢者を扶養している人が受けられる配偶者控除や扶養控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1191.htm",
+  "text": "1191 配偶者控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1195.htm",
+  "text": "1195 配偶者特別控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1199.htm",
+  "text": "1199 基礎控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1200.htm",
+  "text": "1200 税額控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1210.htm",
+  "text": "1210 マイホームの取得等と所得税の税額控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1240.htm",
+  "text": "1240 居住者に係る外国税額控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1241.htm",
+  "text": "1241 非居住者に係る外国税額控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1250.htm",
+  "text": "1250 配当所得があるとき(配当控除)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1260.htm",
+  "text": "1260 政党等寄附金特別控除制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1263.htm",
+  "text": "1263 認定NPO法人に寄附をしたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1266.htm",
+  "text": "1266 公益社団法人等に寄附をしたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1270.htm",
+  "text": "1270 試験研究を行った場合の所得税額の特別控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1284.htm",
+  "text": "1284 地方活力向上地域等において雇用者の数が増加した場合の所得税額の税額控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1286.htm",
+  "text": "1286 給与等の引上げ及び設備投資を行った場合等の税額控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1288.htm",
+  "text": "1288 給与等の支給額が増加した場合の所得税額の特別控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#page-top",
+  "text": "このページの先頭へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2502.htm",
+  "text": "2502 源泉徴収義務者とは"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2503.htm",
+  "text": "2503 給与所得者の扶養控除等申告書等の保存期間"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2505.htm",
+  "text": "2505 源泉所得税及び復興特別所得税の納付期限と納期の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2506.htm",
+  "text": "2506 源泉所得税及び復興特別所得税を納め過ぎたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2507.htm",
+  "text": "2507 復興特別所得税の源泉徴収"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2508.htm",
+  "text": "2508 給与所得となるもの"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2509.htm",
+  "text": "2509 給与所得の収入金額の収入すべき時期"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2511.htm",
+  "text": "2511 税額表の種類と使い方"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2514.htm",
+  "text": "2514 パートやアルバイトの源泉徴収"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2517.htm",
+  "text": "2517 海外に転勤する人の年末調整と転勤後の源泉徴収"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2518.htm",
+  "text": "2518 海外出向者が帰国したときの年末調整"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2520.htm",
+  "text": "2520 2か所以上から給与をもらっている人の源泉徴収"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2523.htm",
+  "text": "2523 賞与に対する源泉徴収"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2526.htm",
+  "text": "2526 給与が一部未払の場合の源泉徴収"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2529.htm",
+  "text": "2529 給与の改訂差額に対する税額の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2532.htm",
+  "text": "2532 給与等に係る源泉所得税及び復興特別所得税の納税地"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2739.htm",
+  "text": "2739 退職後に支給される給与等の源泉徴収"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2582.htm",
+  "text": "2582 電車・バス通勤者の通勤手当"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2585.htm",
+  "text": "2585 マイカー・自転車通勤者の通勤手当"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2588.htm",
+  "text": "2588 学資に充てるための費用を支出したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2591.htm",
+  "text": "2591 創業記念品や永年勤続表彰記念品の支給をしたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2594.htm",
+  "text": "2594 食事を支給したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2597.htm",
+  "text": "2597 使用人に社宅や寮などを貸したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2600.htm",
+  "text": "2600 役員に社宅などを貸したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2601.htm",
+  "text": "2601 職務に必要な技術などを習得する費用を支出したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2603.htm",
+  "text": "2603 従業員レクリエーション旅行や研修旅行"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2606.htm",
+  "text": "2606 金銭を貸し付けたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2592.htm",
+  "text": "2592 使用人等の発明に対して報償金などを支給したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2662.htm",
+  "text": "2662 年末調整のしかた"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2665.htm",
+  "text": "2665 年末調整の対象となる人"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2668.htm",
+  "text": "2668 年末調整の対象となる給与"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2671.htm",
+  "text": "2671 年末調整の後に扶養親族等の人数が異動したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2672.htm",
+  "text": "2672 年末調整で配偶者控除または配偶者特別控除の適用を受けるとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2674.htm",
+  "text": "2674 中途就職者の年末調整"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2675.htm",
+  "text": "2675 年末調整の過不足額の精算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2676.htm",
+  "text": "2676 年末調整で所得金額調整控除の適用を受けるとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2725.htm",
+  "text": "2725 退職所得となるもの"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2728.htm",
+  "text": "2728 退職所得の収入金額の収入すべき時期"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2732.htm",
+  "text": "2732 退職手当等に対する源泉徴収"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2735.htm",
+  "text": "2735 同じ年に2か所以上から退職手当等が支払われるとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2736.htm",
+  "text": "2736 解雇予告手当や未払賃金立替払制度に基づき国が弁済する未払賃金を受け取ったとき（退職所得）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2737.htm",
+  "text": "2737 役員等の勤続年数が5年以下の者に対する退職手当等（特定役員退職手当等）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2739.htm",
+  "text": "2739 退職後に支給される給与等の源泉徴収"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2740.htm",
+  "text": "2740 勤続年数が5年以下の者に対する退職手当等（短期退職手当等）（令和4年1月1日以後）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2741.htm",
+  "text": "2741 同じ年に一般退職手当等のほか、短期退職手当等や特定役員退職手当等がある場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2792.htm",
+  "text": "2792 源泉徴収が必要な報酬・料金等とは"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2793.htm",
+  "text": "2793 報酬・料金等の源泉徴収義務者"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2795.htm",
+  "text": "2795 原稿料や講演料等を支払ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2798.htm",
+  "text": "2798 弁護士や税理士等に支払う報酬・料金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2801.htm",
+  "text": "2801 司法書士等に支払う報酬・料金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2804.htm",
+  "text": "2804 外交員等に支払う報酬・料金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2807.htm",
+  "text": "2807 ホステス等に支払う報酬・料金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2810.htm",
+  "text": "2810 専属契約等で支払う契約金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2813.htm",
+  "text": "2813 広告宣伝のために支払う賞金等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2873.htm",
+  "text": "2873 非居住者等に対する課税のしくみ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2875.htm",
+  "text": "2875 居住者と非居住者の区分"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2878.htm",
+  "text": "2878 国内源泉所得の範囲"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2879.htm",
+  "text": "2879 非居住者等から土地等を購入したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2880.htm",
+  "text": "2880 非居住者等に不動産の賃借料を支払ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2883.htm",
+  "text": "2883 恒久的施設（PE）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2884.htm",
+  "text": "2884 非居住者等に対する源泉徴収・源泉徴収の税率"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2885.htm",
+  "text": "2885 非居住者等に対する源泉徴収のしくみ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2888.htm",
+  "text": "2888 租税条約に関する届出書の提出（源泉徴収関係）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2889.htm",
+  "text": "2889 租税条約に関する源泉徴収税額の還付請求"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2890.htm",
+  "text": "2890 外国居住者等所得相互免除法による課税の特例の概要（台湾関係）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2891.htm",
+  "text": "2891 BEPS防止措置実施条約の概要"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1920.htm",
+  "text": "1920 海外勤務と所得税額の精算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1923.htm",
+  "text": "1923 海外勤務と納税管理人の選任又は解任"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1926.htm",
+  "text": "1926 海外勤務中に不動産所得などがある場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1929.htm",
+  "text": "1929 海外で勤務する法人の役員などに対する給与の支払と税務"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1932.htm",
+  "text": "1932 海外勤務中に不動産を売却した場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1936.htm",
+  "text": "1936 海外勤務中に株式を譲渡した場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2517.htm",
+  "text": "2517 海外に転勤する人の年末調整と転勤後の源泉徴収"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#page-top",
+  "text": "このページの先頭へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1440.htm",
+  "text": "1440 譲渡所得(土地や建物を譲渡したとき)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1460.htm",
+  "text": "1460 譲渡所得(土地、建物及び株式等以外の資産を譲渡したとき)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3102.htm",
+  "text": "3102 譲渡所得の申告期限"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3105.htm",
+  "text": "3105 譲渡所得の対象となる資産と課税方法"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3108.htm",
+  "text": "3108 国や地方公共団体又は公益を目的とする事業を行う法人等に財産を寄附したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3111.htm",
+  "text": "3111 土地を貸し付けて権利金などをもらったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3114.htm",
+  "text": "3114 離婚して土地建物などを渡したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3117.htm",
+  "text": "3117 不動産を法人に現物出資したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3120.htm",
+  "text": "3120 譲渡担保により資産を移転したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3152.htm",
+  "text": "3152 譲渡所得の計算のしかた(総合課税)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3155.htm",
+  "text": "3155 借家人が立退料をもらったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3158.htm",
+  "text": "3158 ゴルフ会員権の譲渡による所得"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3161.htm",
+  "text": "3161 金地金の譲渡による所得"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3202.htm",
+  "text": "3202 譲渡所得の計算のしかた(分離課税)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3203.htm",
+  "text": "3203 不動産を譲渡して譲渡損失が生じた場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3208.htm",
+  "text": "3208 長期譲渡所得の税額の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm",
+  "text": "3211 短期譲渡所得の税額の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3214.htm",
+  "text": "3214 土地建物を売ったときの収入金額に含める金額"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3217.htm",
+  "text": "3217 時価より低い価額で売ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3220.htm",
+  "text": "3220 保証債務を履行するために土地建物などを売ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3223.htm",
+  "text": "3223 譲渡所得の特別控除の種類"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3225.htm",
+  "text": "3225 平成21年及び平成22年に取得した土地等を譲渡したときの1,000万円の特別控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3226.htm",
+  "text": "3226 低未利用土地等を譲渡した場合の長期譲渡所得の特別控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3240.htm",
+  "text": "3240 個人が事業用建物等を譲渡した場合の消費税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3252.htm",
+  "text": "3252 取得費となるもの"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3255.htm",
+  "text": "3255 譲渡費用となるもの"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3258.htm",
+  "text": "3258 取得費が分からないとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3261.htm",
+  "text": "3261 建物の取得費の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3264.htm",
+  "text": "3264 借入金の利子が取得費になるとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3267.htm",
+  "text": "3267 相続財産を譲渡した場合の取得費の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3270.htm",
+  "text": "3270 相続や贈与によって取得した土地・建物の取得費と取得の時期"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3273.htm",
+  "text": "3273 買換えなどで取得した資産の取得費と取得の時期"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3203.htm",
+  "text": "3203 不動産を譲渡して譲渡損失が生じた場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3302.htm",
+  "text": "3302 マイホームを売ったときの特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3305.htm",
+  "text": "3305 マイホームを売ったときの軽減税率の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3306.htm",
+  "text": "3306 被相続人の居住用財産（空き家）を売ったときの特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3307.htm",
+  "text": "3307 被相続人が老人ホーム等に入所していた場合の被相続人居住用家屋"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3308.htm",
+  "text": "3308 共有のマイホームを売ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3311.htm",
+  "text": "3311 家屋と敷地の所有者が異なるとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3314.htm",
+  "text": "3314 過去に居住していたマイホームを売ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3317.htm",
+  "text": "3317 配偶者等だけが住んでいるマイホームを売ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3320.htm",
+  "text": "3320 マイホームを取り壊した後に敷地を売ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3390.htm",
+  "text": "3390 住宅ローンが残っているマイホームを売却して譲渡損失が生じたとき（特定のマイホームの譲渡損失の損益通算及び繰越控除の特例）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3392.htm",
+  "text": "3392 「特定のマイホームの譲渡損失の損益通算及び繰越控除の特例」の対象となる「譲渡資産」及び「特定譲渡」とは"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3393.htm",
+  "text": "3393 「特定のマイホームの譲渡損失の損益通算及び繰越控除の特例」を受けるための申告手続と添付書類"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3203.htm",
+  "text": "3203 不動産を譲渡して譲渡損失が生じた場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3355.htm",
+  "text": "3355 特定のマイホームを買い換えたときの特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3358.htm",
+  "text": "3358 売った金額より少ない金額でマイホームを買い換えたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3361.htm",
+  "text": "3361 譲渡した年に買換えができなかったとき（マイホーム）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3362.htm",
+  "text": "3362 居住用財産の買換えの特例を受けて買い換えた資産の取得価額とされる金額の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3370.htm",
+  "text": "3370 マイホームを買い換えた場合に譲渡損失が生じたとき(マイホームを買い換えた場合の譲渡損失の損益通算及び繰越控除の特例)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3375.htm",
+  "text": "3375 「マイホームを買い換えた場合の譲渡損失の損益通算及び繰越控除の特例」の対象となる「譲渡資産」及び「買換資産」とは"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3376.htm",
+  "text": "3376 「マイホームを買い換えた場合の譲渡損失の損益通算及び繰越控除の特例」の対象となる「特定譲渡」とは"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3377.htm",
+  "text": "3377 「マイホームを買い換えた場合の譲渡損失の損益通算及び繰越控除の特例」の対象となる住宅ローン"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3379.htm",
+  "text": "3379 「マイホームを買い換えた場合の譲渡損失の損益通算及び繰越控除の特例」を受けるための申告手続と添付書類等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/3382.htm",
+  "text": "3382 マイホームを買い換えた場合の譲渡損失の損益通算及び繰越控除の順序"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3383.htm",
+  "text": "3383 マイホームを買い換えた場合の譲渡損失の損益通算及び繰越控除を適用した後の修正申告"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3203.htm",
+  "text": "3203 不動産を譲渡して譲渡損失が生じた場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3402.htm",
+  "text": "3402 事業用の資産の範囲"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3405.htm",
+  "text": "3405 事業用の資産を買い換えたときの特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3411.htm",
+  "text": "3411 親族の事業の用に使わせている資産を買い換えたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3414.htm",
+  "text": "3414 売った金額より少ない金額で事業用の資産を買い換えたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3417.htm",
+  "text": "3417 売った金額以上の金額で事業用の資産を買い換えたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3420.htm",
+  "text": "3420 譲渡した年に買換えができなかったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3423.htm",
+  "text": "3423 期限までに買換資産を買えなかったとき（事業用資産）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3426.htm",
+  "text": "3426 事業用資産の買換えの特例を受けて買い換えた資産の取得価額とされる金額の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/3429.htm",
+  "text": "3429 既成市街地等の範囲"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3452.htm",
+  "text": "3452 店舗併用住宅を売ったときの特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3455.htm",
+  "text": "3455 店舗併用住宅を買い換えたときの特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3502.htm",
+  "text": "3502 土地建物の交換をしたときの特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3505.htm",
+  "text": "3505 借地権と底地を交換したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3508.htm",
+  "text": "3508 交換差金を受け取ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3511.htm",
+  "text": "3511 土地建物と土地を等価で交換したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3514.htm",
+  "text": "3514 資産の一部を交換とし、一部を売買としたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3517.htm",
+  "text": "3517 不動産業者などが所有している土地建物と交換したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3552.htm",
+  "text": "3552 収用等により土地建物を売ったときの特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3555.htm",
+  "text": "3555 収用等により取得する各種補償金の所得区分"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3560.htm",
+  "text": "3560 居住者が海外の不動産を売却した場合の課税関係等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1463.htm",
+  "text": "1463 株式等を譲渡したときの課税(申告分離課税)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1936.htm",
+  "text": "1936 海外勤務中に株式を譲渡した場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1464.htm",
+  "text": "1464 譲渡した株式等の取得費"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1466.htm",
+  "text": "1466 同一銘柄の株式等を2回以上にわたって購入している場合の取得費"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1526.htm",
+  "text": "1526 株式交換により株式を譲渡した場合の譲渡所得等の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1527.htm",
+  "text": "1527 株式移転により株式を譲渡した場合の譲渡所得等の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1545.htm",
+  "text": "1545 株式等を対価とする株式の譲渡に係る譲渡所得等の課税の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1528.htm",
+  "text": "1528 取得請求権付株式に係る請求権の行使等により有価証券を譲渡した場合の譲渡所得等の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1536.htm",
+  "text": "1536 株式等に係る譲渡所得等の収入金額とみなされる場合－法人の合併等、自己株式の取得等の場合－"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1537.htm",
+  "text": "1537 一般株式等に係る譲渡所得等の収入金額とみなされる場合－投資信託等の終了等の場合－"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1538.htm",
+  "text": "1538 上場株式等に係る譲渡所得等の収入金額とみなされる場合－投資信託等の終了等の場合－"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1539.htm",
+  "text": "1539 貸付信託の受益権等の譲渡による所得の非課税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1540.htm",
+  "text": "1540 ストック・オプション税制の適用を受けて取得した株式を譲渡した場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1541.htm",
+  "text": "1541 ストック・オプション税制の適用を受けて取得した株式の返還又は移転があった場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1542.htm",
+  "text": "1542 特定従事者がストック・オプション税制の適用を受けて取得した株式を保有したまま国外転出する場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1529.htm",
+  "text": "1529 短期所有土地の譲渡に類似する株式等の譲渡"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1465.htm",
+  "text": "1465 株式等の譲渡損失(赤字)の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1474.htm",
+  "text": "1474 上場株式等に係る譲渡損失の損益通算及び繰越控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1475.htm",
+  "text": "1475 破産等により株式等の価値が失われたときの特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1544.htm",
+  "text": "1544 エンジェル税制の概要等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1530.htm",
+  "text": "1530 特定投資株式の取得に要した金額の控除等の特例（エンジェル税制）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1531.htm",
+  "text": "1531 特定投資株式が株式としての価値を失った場合の特例（エンジェル税制）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1532.htm",
+  "text": "1532 特定投資株式に係る譲渡損失の損益の計算の特例（エンジェル税制）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1533.htm",
+  "text": "1533 特定投資株式に係る譲渡損失の繰越控除の特例（エンジェル税制）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1476.htm",
+  "text": "1476 特定口座制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1535.htm",
+  "text": "1535 NISA制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1477.htm",
+  "text": "1477 相続により取得した非上場株式をその発行会社に譲渡した場合の課税の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1467.htm",
+  "text": "1467 贈与により非居住者に資産が移転した場合の譲渡所得等の特例（国外転出（贈与）時課税）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1468.htm",
+  "text": "1468 相続又は遺贈により非居住者に資産が移転した場合の譲渡所得等の特例（国外転出（相続）時課税）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1478.htm",
+  "text": "1478 国外転出をする場合の譲渡所得等の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1937.htm",
+  "text": "1937 居住者が海外で株式等を売却した場合の課税関係等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#page-top",
+  "text": "このページの先頭へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4102.htm",
+  "text": "4102 相続税がかかる場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4103.htm",
+  "text": "4103 相続時精算課税の選択"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4105.htm",
+  "text": "4105 相続税がかかる財産"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4108.htm",
+  "text": "4108 相続税がかからない財産"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4111.htm",
+  "text": "4111 交通事故の損害賠償金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4114.htm",
+  "text": "4114 相続税の課税対象になる死亡保険金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4117.htm",
+  "text": "4117 相続税の課税対象になる死亡退職金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4120.htm",
+  "text": "4120 弔慰金を受け取ったときの取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4123.htm",
+  "text": "4123 相続税等の課税対象になる年金受給権"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4124.htm",
+  "text": "4124 相続した事業の用や居住の用の宅地等の価額の特例（小規模宅地等の特例）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4126.htm",
+  "text": "4126 相続財産から控除できる債務"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4129.htm",
+  "text": "4129 相続財産から控除できる葬式費用"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4132.htm",
+  "text": "4132 相続人の範囲と法定相続分"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4602.htm",
+  "text": "4602 土地家屋の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4138.htm",
+  "text": "4138 相続人が外国に居住しているとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4141.htm",
+  "text": "4141 相続財産を公益法人などに寄附したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4143.htm",
+  "text": "4143 特定の一般社団法人等に対する課税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4147.htm",
+  "text": "4147 農業相続人が農地等を相続した場合の納税猶予の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4148.htm",
+  "text": "4148 非上場株式等についての相続税の納税猶予及び免除の特例等（法人版事業承継税制）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4149.htm",
+  "text": "4149 山林を相続した場合の納税猶予の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4150.htm",
+  "text": "4150 医療法人の持分についての相続税の納税猶予の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4153.htm",
+  "text": "4153 個人の事業用資産についての相続税の納税猶予及び免除（個人版事業承継税制）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4154.htm",
+  "text": "4154 特定の美術品についての相続税の納税猶予及び免除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+  "text": "4152 相続税の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4155.htm",
+  "text": "4155 相続税の税率"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4157.htm",
+  "text": "4157 相続税額の2割加算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4158.htm",
+  "text": "4158 配偶者の税額の軽減"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4161.htm",
+  "text": "4161 贈与財産の加算と税額控除（暦年課税）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4164.htm",
+  "text": "4164 未成年者の税額控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4167.htm",
+  "text": "4167 障害者の税額控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4168.htm",
+  "text": "4168 相次相続控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4170.htm",
+  "text": "4170 相続人の中に養子がいるとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4173.htm",
+  "text": "4173 代償分割が行われた場合の相続税の課税価格の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4176.htm",
+  "text": "4176 遺言書の内容と異なる遺産分割をした場合の相続税と贈与税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4177.htm",
+  "text": "4177 医療法人の持分についての相続税の税額控除の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4202.htm",
+  "text": "4202 相続税の申告のために必要な準備"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4205.htm",
+  "text": "4205 相続税の申告と納税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4208.htm",
+  "text": "4208 相続財産が分割されていないときの申告"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4211.htm",
+  "text": "4211 相続税の延納"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4214.htm",
+  "text": "4214 相続税の物納"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4103.htm",
+  "text": "4103 相続時精算課税の選択"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+  "text": "4152 相続税の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4409.htm",
+  "text": "4409 贈与税の計算(相続時精算課税の選択をした場合)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4503.htm",
+  "text": "4503 住宅取得等資金の贈与を受けた場合の相続時精算課税選択の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4504.htm",
+  "text": "4504 住宅取得等資金の贈与を受けた場合の贈与税の計算(相続時精算課税の選択をした場合)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4506.htm",
+  "text": "4506 住宅取得等資金とそれ以外の財産を同一年中に贈与されたとき（相続時精算課税）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4507.htm",
+  "text": "4507 住宅取得等資金で取得した家屋に居住できないとき（相続時精算課税）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4508.htm",
+  "text": "4508 直系尊属から住宅取得等資金の贈与を受けた場合の非課税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4301.htm",
+  "text": "4301 相続時精算課税の選択と相続税の申告義務"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4302.htm",
+  "text": "4302 贈与者が贈与した年の中途に死亡した場合の相続時精算課税の選択"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4303.htm",
+  "text": "4303 年の中途に推定相続人又は孫となった場合の相続時精算課税の適用"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4304.htm",
+  "text": "4304 相続時精算課税選択届出書に添付する書類"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4305.htm",
+  "text": "4305 相続時精算課税選択届出書に添付する書類（贈与税の申告期限前に受贈者が死亡した場合）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4307.htm",
+  "text": "4307 贈与者が贈与をした年に死亡した場合の贈与税及び相続税の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#page-top",
+  "text": "このページの先頭へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4402.htm",
+  "text": "4402 贈与税がかかる場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4405.htm",
+  "text": "4405 贈与税がかからない場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4408.htm",
+  "text": "4408 贈与税の計算と税率（暦年課税）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4409.htm",
+  "text": "4409 贈与税の計算(相続時精算課税の選択をした場合)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4410.htm",
+  "text": "4410 複数の人から贈与を受けたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4411.htm",
+  "text": "4411 共働きの夫婦が住宅を買ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4414.htm",
+  "text": "4414 離婚して財産をもらったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4417.htm",
+  "text": "4417 贈与税の対象になる生命保険金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4420.htm",
+  "text": "4420 親から金銭を借りた場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4423.htm",
+  "text": "4423 個人から著しく低い価額で財産を譲り受けたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4424.htm",
+  "text": "4424 債務免除等を受けた場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4426.htm",
+  "text": "4426 負担付贈与に対する課税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4427.htm",
+  "text": "4427 新たに信託の設定等を行った場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4429.htm",
+  "text": "4429 贈与税の申告と納税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4432.htm",
+  "text": "4432 受贈者が外国に居住しているとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4602.htm",
+  "text": "4602 土地家屋の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4438.htm",
+  "text": "4438 農業後継者が農地等の贈与を受けた場合の納税猶予の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4439.htm",
+  "text": "4439 非上場株式等についての贈与税の納税猶予及び免除の特例等（法人版事業承継税制）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4440.htm",
+  "text": "4440 医療法人の持分に係る経済的利益についての贈与税の納税猶予の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4441.htm",
+  "text": "4441 医療法人の持分に係る経済的利益についての贈与税の税額控除の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4442.htm",
+  "text": "4442 個人の事業用資産についての贈与税の納税猶予及び免除（個人版事業承継税制）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4510.htm",
+  "text": "4510 直系尊属から教育資金の一括贈与を受けた場合の非課税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4511.htm",
+  "text": "4511 直系尊属から結婚・子育て資金の一括贈与を受けた場合の非課税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4452.htm",
+  "text": "4452 夫婦の間で居住用の不動産を贈与したときの配偶者控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4455.htm",
+  "text": "4455 配偶者控除の対象となる居住用不動産の範囲"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4508.htm",
+  "text": "4508 直系尊属から住宅取得等資金の贈与を受けた場合の非課税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4503.htm",
+  "text": "4503 住宅取得等資金の贈与を受けた場合の相続時精算課税選択の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4504.htm",
+  "text": "4504 住宅取得等資金の贈与を受けた場合の贈与税の計算(相続時精算課税の選択をした場合)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4552.htm",
+  "text": "4552 親の土地に子供が家を建てたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4553.htm",
+  "text": "4553 使用貸借に係る土地を贈与により取得したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4555.htm",
+  "text": "4555 親の借地に子供が家を建てたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4557.htm",
+  "text": "4557 親名義の建物に子供が増築したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4560.htm",
+  "text": "4560 親が借地している土地の底地部分を子供が買い取ったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4103.htm",
+  "text": "4103 相続時精算課税の選択"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4152.htm",
+  "text": "4152 相続税の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4409.htm",
+  "text": "4409 贈与税の計算(相続時精算課税の選択をした場合)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4503.htm",
+  "text": "4503 住宅取得等資金の贈与を受けた場合の相続時精算課税選択の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4504.htm",
+  "text": "4504 住宅取得等資金の贈与を受けた場合の贈与税の計算(相続時精算課税の選択をした場合)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4506.htm",
+  "text": "4506 住宅取得等資金とそれ以外の財産を同一年中に贈与されたとき（相続時精算課税）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4507.htm",
+  "text": "4507 住宅取得等資金で取得した家屋に居住できないとき（相続時精算課税）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4508.htm",
+  "text": "4508 直系尊属から住宅取得等資金の贈与を受けた場合の非課税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4301.htm",
+  "text": "4301 相続時精算課税の選択と相続税の申告義務"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4302.htm",
+  "text": "4302 贈与者が贈与した年の中途に死亡した場合の相続時精算課税の選択"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4303.htm",
+  "text": "4303 年の中途に推定相続人又は孫となった場合の相続時精算課税の適用"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4304.htm",
+  "text": "4304 相続時精算課税選択届出書に添付する書類"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4305.htm",
+  "text": "4305 相続時精算課税選択届出書に添付する書類（贈与税の申告期限前に受贈者が死亡した場合）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4307.htm",
+  "text": "4307 贈与者が贈与をした年に死亡した場合の贈与税及び相続税の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#page-top",
+  "text": "このページの先頭へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4602.htm",
+  "text": "4602 土地家屋の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4603.htm",
+  "text": "4603 宅地の評価単位"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4604.htm",
+  "text": "4604 路線価方式による宅地の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4605.htm",
+  "text": "4605 地区の異なる2以上の路線に接する宅地の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4606.htm",
+  "text": "4606 倍率方式による土地の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4607.htm",
+  "text": "4607 特定路線価の設定の申出"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4609.htm",
+  "text": "4609 地積規模の大きな宅地の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4611.htm",
+  "text": "4611 借地権の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4612.htm",
+  "text": "4612 一般定期借地権の目的となっている宅地の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4613.htm",
+  "text": "4613 貸宅地の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4614.htm",
+  "text": "4614 貸家建付地の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4617.htm",
+  "text": "4617 利用価値が著しく低下している宅地の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4620.htm",
+  "text": "4620 無道路地の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4621.htm",
+  "text": "4621 私道に沿接する宅地の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4622.htm",
+  "text": "4622 私道の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4623.htm",
+  "text": "4623 農地の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4626.htm",
+  "text": "4626 生産緑地の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4627.htm",
+  "text": "4627 貸駐車場として利用している土地の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4628.htm",
+  "text": "4628 市街化調整区域内の雑種地の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4629.htm",
+  "text": "4629 建築中の家屋の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4632.htm",
+  "text": "4632 上場株式の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4635.htm",
+  "text": "4635 気配相場等のある株式の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4638.htm",
+  "text": "4638 取引相場のない株式の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4641.htm",
+  "text": "4641 利付公社債・割引発行の公社債の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4644.htm",
+  "text": "4644 貸付信託・証券投資信託の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4647.htm",
+  "text": "4647 ゴルフ会員権の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4660.htm",
+  "text": "4660 生命保険契約に関する権利の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4665.htm",
+  "text": "4665 外貨（現金）の邦貨換算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4666.htm",
+  "text": "4666 配偶者居住権等の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hyoka/4667.htm",
+  "text": "4667 居住用の区分所有財産の評価"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#page-top",
+  "text": "このページの先頭へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5100.htm",
+  "text": "5100 新設法人の届出書類"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5200.htm",
+  "text": "5200 役員の範囲"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5202.htm",
+  "text": "5202 役員等に対する経済的利益"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5203.htm",
+  "text": "5203 使用人が役員へ昇格したとき又は役員が分掌変更したときの退職金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5208.htm",
+  "text": "5208 役員の退職金の損金算入時期"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5205.htm",
+  "text": "5205 役員のうち使用人兼務役員になれない人"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5210.htm",
+  "text": "5210 役員に対する給与（平成29年4月1日前支給決議分）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5211.htm",
+  "text": "5211 役員に対する給与（平成29年4月1日以後支給決議分）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5220.htm",
+  "text": "5220 個人事業当時からの使用人に対する退職金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5230.htm",
+  "text": "5230 適格退職年金契約とはどのような退職年金契約をいうのですか"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5231.htm",
+  "text": "5231 確定給付企業年金等に係る課税関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5350.htm",
+  "text": "5350 使用人賞与の損金算入時期"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5245.htm",
+  "text": "5245 出向先法人が支出する給与負担金に係る役員給与の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5241.htm",
+  "text": "5241 出向者に対する給与の較差補てん金の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5242.htm",
+  "text": "5242 出向先法人が支出する退職金の負担金の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5265.htm",
+  "text": "5265 交際費等の範囲と損金不算入額の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5260.htm",
+  "text": "5260 交際費等と広告宣伝費との区分"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5261.htm",
+  "text": "5261 交際費等と福利厚生費との区分"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5262.htm",
+  "text": "5262 交際費等と寄附金との区分"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5262.htm",
+  "text": "5262 交際費等と寄附金との区分"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5463.htm",
+  "text": "5463 宅地開発等に際して支出する開発負担金等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5281.htm",
+  "text": "5281 寄附金の範囲と損金不算入額の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5283.htm",
+  "text": "5283 特定公益増進法人に対する寄附金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5284.htm",
+  "text": "5284 認定NPO法人等に対する寄附金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5300.htm",
+  "text": "5300 租税公課等の損金算入の可否と租税の損金算入時期"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5320.htm",
+  "text": "5320 貸倒損失として処理できる場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5360.htm",
+  "text": "5360 養老保険の保険料の取扱い（令和元年7月8日前契約分）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5361.htm",
+  "text": "5361 定期保険の保険料の取扱い（令和元年7月8日前契約分）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5362.htm",
+  "text": "5362 定期付養老保険の保険料の取扱い（令和元年7月8日前契約分）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5363.htm",
+  "text": "5363 養老保険の保険料の取扱い(令和元年７月８日以後契約分)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5364.htm",
+  "text": "5364 定期保険及び第三分野保険の保険料（保険料に相当多額の前払部分の保険料が含まれない場合）の取扱い（令和元年7月8日以後契約分）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5364-2.htm",
+  "text": "5364-2 定期保険及び第三分野保険の保険料（保険料に相当多額の前払部分の保険料が含まれる場合）の取扱い（令和元年７月８日以後契約分）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5365.htm",
+  "text": "5365 定期付養老保険等の保険料の取扱い（令和元年7月8日以後契約分）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5387.htm",
+  "text": "5387 販売費、一般管理費その他の費用における債務確定の判定"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5380.htm",
+  "text": "5380 短期前払費用として損金算入ができる場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5381.htm",
+  "text": "5381 ゴルフクラブの入会金と会費の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5382.htm",
+  "text": "5382 同業者団体等の加入金と会費の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5383.htm",
+  "text": "5383 携帯電話等の加入費用の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5388.htm",
+  "text": "5388 海外渡航費の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5389.htm",
+  "text": "5389 社葬費用の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5385.htm",
+  "text": "5385 公務員に対する贈賄や外国公務員に対する不正な利益供与の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5411.htm",
+  "text": "5411 減価償却資産の償却限度額の計算方法(平成19年3月31日以前取得分)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5410.htm",
+  "text": "5410 減価償却資産の償却限度額の計算方法(平成19年4月1日以後取得分)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5409.htm",
+  "text": "5409 減価償却資産(平成28年4月1日以後に取得をされた鉱業用の建物、建物附属設備及び構築物を除く。)の償却方法の選定手続(平成19年4月1日以後取得分)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5409-2.htm",
+  "text": "5409-2 鉱業用減価償却資産(建物、建物附属設備及び構築物に限る。)の償却方法の選定手続(平成28年4月1日以後取得分)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5407.htm",
+  "text": "5407 減価償却資産の償却方法の変更手続"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5405.htm",
+  "text": "5405 資本的支出後の減価償却資産の償却方法等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5402.htm",
+  "text": "5402 修繕費とならないものの判定"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5404.htm",
+  "text": "5404 中古資産の耐用年数"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5461.htm",
+  "text": "5461 ソフトウエアの取得価額と耐用年数"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5406.htm",
+  "text": "5406 他人の建物に対する造作の耐用年数"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5400.htm",
+  "text": "5400 減価償却資産の取得価額に含めないことができる付随費用"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5400-2.htm",
+  "text": "5400-2 事業の用に供した日"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5401.htm",
+  "text": "5401 土地とともに取得した建物を取り壊した場合の土地の取得価額"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5463.htm",
+  "text": "5463 宅地開発等に際して支出する開発負担金等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5403.htm",
+  "text": "5403 少額の減価償却資産になるかどうかの判定の例示"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5408.htm",
+  "text": "5408 中小企業者等の少額減価償却資産の取得価額の損金算入の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5432.htm",
+  "text": "5432 措置法上の中小法人及び中小企業者"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5433.htm",
+  "text": "5433 中小企業投資促進税制（中小企業者等が機械等を取得した場合の特別償却又は税額控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5434.htm",
+  "text": "5434 中小企業経営強化税制（中小企業者等が特定経営力向上設備等を取得した場合の特別償却又は税額控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5436.htm",
+  "text": "5436 地域未来投資促進税制（地域経済牽引事業の促進区域内において特定事業用機械等を取得した場合の特別償却又は税額控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5442.htm",
+  "text": "5442 一般試験研究費の額に係る税額控除制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5443.htm",
+  "text": "5443 特別試験研究費の額に係る税額控除制度（オープンイノベーション型）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5444.htm",
+  "text": "5444 中小企業技術基盤強化税制"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5450.htm",
+  "text": "5450 法人税の額から控除される特別控除額の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5451.htm",
+  "text": "5451 平成21年及び平成22年に取得した長期所有土地等の1,000万円特別控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5922.htm",
+  "text": "5922 戦略分野国内生産促進税制"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5923.htm",
+  "text": "5923 イノベーションボックス税制（特許権等の譲渡等による所得の課税の特例）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5924.htm",
+  "text": "5924 特定生産性向上設備等を取得した場合の特別償却または税額控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5925.htm",
+  "text": "5925 カーボンニュートラルに向けた投資促進税制 （生産工程効率化等設備を取得した場合等の特別償却又は税額控除）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5926.htm",
+  "text": "5926 地方活力向上地域等において雇用者の数が増加した場合の法人税額の特別控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5927.htm",
+  "text": "5927 給与等の支給額が増加した場合の法人税額の特別控除（全企業向け賃上げ促進税制）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5927-2.htm",
+  "text": "5927-2 給与等の支給額が増加した場合の法人税額の特別控除（中小企業者等における賃上げ促進税制）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5927-3.htm",
+  "text": "5927-3 給与等の支給額が増加した場合の法人税額の特別控除（中堅企業向け賃上げ促進税制）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5449.htm",
+  "text": "5449 特別税額控除規定等の不適用措置"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5460.htm",
+  "text": "5460 建物を賃借するための権利金等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5462.htm",
+  "text": "5462 公共的施設などの負担金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5463.htm",
+  "text": "5463 宅地開発等に際して支出する開発負担金等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5500.htm",
+  "text": "5500 一括評価金銭債権に係る貸倒引当金の対象となる金銭債権の範囲"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5501.htm",
+  "text": "5501 一括評価金銭債権に係る貸倒引当金の設定"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5574.htm",
+  "text": "5574 有価証券の評価損が認められる場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5575.htm",
+  "text": "5575 オープンイノベーションを促進するための税制"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5600.htm",
+  "text": "5600 土地や建物を交換したときの圧縮記帳"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5601.htm",
+  "text": "5601 借地権と底地を交換したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5602.htm",
+  "text": "5602 交換差金等の意義"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5603.htm",
+  "text": "5603 土地建物と土地を等価で交換したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5604.htm",
+  "text": "5604 資産の一部を交換とし、他の部分を譲渡としたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5605.htm",
+  "text": "5605 不動産業者などが所有している土地と交換したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5608.htm",
+  "text": "5608 保険金等で取得した固定資産等の圧縮記帳"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5650.htm",
+  "text": "5650 収用等があったときの課税の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5651.htm",
+  "text": "5651 特定資産を買い換えた場合の圧縮記帳"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5652.htm",
+  "text": "5652 特定資産を買い換えた場合の圧縮記帳の対象となる資産"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5654.htm",
+  "text": "5654 特定資産を買い換えた場合の圧縮限度額の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5655.htm",
+  "text": "5655 譲渡した事業年度に買換資産の取得ができないとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5656.htm",
+  "text": "5656 買換期間の延長申請"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/3429.htm",
+  "text": "3429 既成市街地等の範囲"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5700.htm",
+  "text": "5700 リース取引についての取扱いの概要(平成20年3月31日以前契約分)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5701.htm",
+  "text": "5701 平成20年3月31日以前に契約したリース取引についての旧リース期間定額法の適用について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5702.htm",
+  "text": "5702 リース取引についての取扱いの概要(平成20年4月1日以後契約分)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5703.htm",
+  "text": "5703 リース取引の賃貸人における収益及び費用の計上方法(平成20年4月1日以後契約分)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5704.htm",
+  "text": "5704 所有権移転外リース取引"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5705.htm",
+  "text": "5705 賃貸借取引（オペレーティング・リース取引）についての取扱いの概要"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5730.htm",
+  "text": "5730 権利金の認定課税について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5731.htm",
+  "text": "5731 借地権の取得価額"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5732.htm",
+  "text": "5732 相当の地代及び相当の地代の改訂"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5733.htm",
+  "text": "5733 借地権の返還を受けた場合の処理"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5759.htm",
+  "text": "5759 法人税の税率"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5760.htm",
+  "text": "5760 所得税額控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5761.htm",
+  "text": "5761 分配時調整外国税相当額控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5762.htm",
+  "text": "5762 青色申告書を提出した事業年度の欠損金の繰越控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5763.htm",
+  "text": "5763 欠損金の繰戻しによる還付"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5800.htm",
+  "text": "5800 一定の大法人等の100％子法人等における中小企業向け特例措置の不適用について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5900.htm",
+  "text": "5900 グループ通算制度の概要"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5930.htm",
+  "text": "5930 帳簿書類等の保存期間"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5932.htm",
+  "text": "5932 租特透明化法の制定に伴う適用額明細書について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#page-top",
+  "text": "このページの先頭へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6101.htm",
+  "text": "6101 消費税の基本的なしくみ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6105.htm",
+  "text": "6105 課税の対象"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6109.htm",
+  "text": "6109 事業者が事業として行うものとは"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6113.htm",
+  "text": "6113 「対価を得て行われる」の意義"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6117.htm",
+  "text": "6117 「資産の譲渡等」とは"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6118.htm",
+  "text": "6118 国境を越えた役務の提供に係る消費税の課税関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6121.htm",
+  "text": "6121 納税義務者"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6125.htm",
+  "text": "6125 国内取引の納税義務者"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6129.htm",
+  "text": "6129 共同企業体の納税義務"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6133.htm",
+  "text": "6133 輸入する貨物の納税義務者"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6137.htm",
+  "text": "6137 課税期間"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6141.htm",
+  "text": "6141 納税義務の成立の時期"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6145.htm",
+  "text": "6145 資産の譲渡の具体例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6149.htm",
+  "text": "6149 資産の貸付けの具体例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6153.htm",
+  "text": "6153 役務の提供の具体例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6157.htm",
+  "text": "6157 課税の対象とならないもの(不課税)の具体例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6161.htm",
+  "text": "6161 工事進行基準を用いているとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6163.htm",
+  "text": "6163 リース取引についての消費税の取扱いの概要"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6165.htm",
+  "text": "6165 前受金や前払金などがあるとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6102.htm",
+  "text": "6102 消費税の軽減税率制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6201.htm",
+  "text": "6201 非課税となる取引"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6205.htm",
+  "text": "6205 非課税と免税の違い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6209.htm",
+  "text": "6209 非課税と不課税の違い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6210.htm",
+  "text": "6210 国外取引"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6213.htm",
+  "text": "6213 駐車場の使用料など"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6214.htm",
+  "text": "6214 身体障害者用物品に該当する自動車"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6215.htm",
+  "text": "6215 社会福祉事業等として行われる資産の譲渡等に係る非課税範囲"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6221.htm",
+  "text": "6221 預金や貸付金の利子など"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6225.htm",
+  "text": "6225 地代、家賃や権利金、敷金など"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6229.htm",
+  "text": "6229 商品券やプリペイドカードなど"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6226.htm",
+  "text": "6226 住宅の貸付け"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6233.htm",
+  "text": "6233 学校の授業料や入学検定料、教科用図書の譲渡など"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6241.htm",
+  "text": "6241 売掛債権とは別に請求する利子"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6245.htm",
+  "text": "6245 有価証券の先物取引"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6249.htm",
+  "text": "6249 ゴルフ会員権"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6253.htm",
+  "text": "6253 キャンセル料"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6257.htm",
+  "text": "6257 損害賠償金"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6261.htm",
+  "text": "6261 建物賃貸借契約の違約金など"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6301.htm",
+  "text": "6301 課税標準"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6303.htm",
+  "text": "6303 消費税および地方消費税の税率"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6305.htm",
+  "text": "6305 商品の安売りや下取りがあるとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6313.htm",
+  "text": "6313 酒税、たばこ税などの個別消費税の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6317.htm",
+  "text": "6317 個人事業者の自家消費の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6321.htm",
+  "text": "6321 法人の役員に対する贈与・低額譲渡の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6325.htm",
+  "text": "6325 外貨建取引の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6351.htm",
+  "text": "6351 納付税額の計算のしかた"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6355.htm",
+  "text": "6355 課税売上げと課税仕入れ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6359.htm",
+  "text": "6359 値引き、返品、割戻しなどを行った場合の税額の調整(売上げに係る対価の返還等)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6363.htm",
+  "text": "6363 値引き、返品、割戻しなどが行われた場合の税額の調整（仕入れに係る対価の返還等）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6367.htm",
+  "text": "6367 貸倒れに係る税額の調整"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6371.htm",
+  "text": "6371 端数計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6375.htm",
+  "text": "6375 税抜経理方式または税込経理方式による経理処理"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6383.htm",
+  "text": "6383 課税標準額に対する消費税額の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6391.htm",
+  "text": "6391 課税仕入れに係る消費税額の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6401.htm",
+  "text": "6401 仕入控除税額の計算方法"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6405.htm",
+  "text": "6405 課税売上割合の計算方法"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6417.htm",
+  "text": "6417 課税売上割合に準ずる割合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6421.htm",
+  "text": "6421 課税売上割合が著しく変動したときの調整"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6451.htm",
+  "text": "6451 仕入税額控除の対象となるもの"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6459.htm",
+  "text": "6459 出張旅費、宿泊費、日当、通勤手当などの取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6463.htm",
+  "text": "6463 寄附金や交際費の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6467.htm",
+  "text": "6467 会費や入会金の仕入税額控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6471.htm",
+  "text": "6471 従業員に対する食事の提供"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6475.htm",
+  "text": "6475 使用人の出向・人材派遣など"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6479.htm",
+  "text": "6479 共同行事に係る負担金等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6480.htm",
+  "text": "6480 事業者が商品購入時にポイントを使用した場合の消費税の仕入税額控除の考え方"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6483.htm",
+  "text": "6483 建設仮勘定の仕入税額控除の時期"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6487.htm",
+  "text": "6487 未成工事支出金の仕入税額控除の時期"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6491.htm",
+  "text": "6491 免税事業者が課税事業者となった場合等の棚卸資産に係る仕入控除税額の調整"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6495.htm",
+  "text": "6495 国、地方公共団体や公共・公益法人等に特定収入がある場合の仕入控除税額の調整"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6496.htm",
+  "text": "6496 仕入税額控除をするための帳簿及び請求書等の保存"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6497.htm",
+  "text": "6497 仕入税額控除のために保存する帳簿及び請求書等の記載事項"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6498.htm",
+  "text": "6498 適格請求書等保存方式（インボイス制度）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6499.htm",
+  "text": "6499 金または白金の地金の課税仕入れを行った場合の本人確認書類の保存について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6501.htm",
+  "text": "6501 納税義務の免除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6502.htm",
+  "text": "6502 高額特定資産を取得した場合等の納税義務の免除等の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6503.htm",
+  "text": "6503 基準期間がない法人の納税義務の免除の特例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm",
+  "text": "6505 簡易課税制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6509.htm",
+  "text": "6509 簡易課税制度の事業区分"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6513.htm",
+  "text": "6513 簡易課税制度の適用と経理処理"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6517.htm",
+  "text": "6517 卸売業とされる事業"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6531.htm",
+  "text": "6531 新規開業又は法人の新規設立のとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6551.htm",
+  "text": "6551 輸出取引の免税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6559.htm",
+  "text": "6559 輸出物品販売場（免税店）制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6563.htm",
+  "text": "6563 輸入取引"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6567.htm",
+  "text": "6567 非居住者に対する役務の提供"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6568.htm",
+  "text": "6568 プラットフォーム課税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6601.htm",
+  "text": "6601 申告と納税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6602.htm",
+  "text": "6602 相続で事業を引き継いだ場合の納税義務について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6603.htm",
+  "text": "6603 個人事業者が事業を廃止した場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6604.htm",
+  "text": "6604 相続で事業を引き継いだ場合の簡易課税制度選択届出書の提出について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6605.htm",
+  "text": "6605 納付税額がないときの確定申告"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6609.htm",
+  "text": "6609 中間申告の方法"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6610.htm",
+  "text": "6610 法人に係る消費税の確定申告書の提出期限について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6611.htm",
+  "text": "6611 任意の中間申告制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6613.htm",
+  "text": "6613 免税事業者と仕入税額の還付"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6615.htm",
+  "text": "6615 確定申告書等に添付することとなる書類"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6617.htm",
+  "text": "6617 納税地"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6621.htm",
+  "text": "6621 帳簿の記載事項と保存"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6625.htm",
+  "text": "6625 適格請求書等の記載事項"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6629.htm",
+  "text": "6629 消費税の各種届出書"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6630.htm",
+  "text": "6630 やむを得ない事情により課税事業者選択届出書の提出が間に合わなかった場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6632.htm",
+  "text": "6632 災害等により簡易課税制度の適用を受ける(受けることをやめる)必要が生じた場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6631.htm",
+  "text": "6631 貸倒債権を回収したときの消費税額の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6635.htm",
+  "text": "6635 非居住者及び外国法人の申告・届出の方法"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6633.htm",
+  "text": "6633 やむを得ない事情により簡易課税制度選択届出書の提出が間に合わなかった場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6901.htm",
+  "text": "6901 納付税額または還付税額の経理処理"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6905.htm",
+  "text": "6905 税抜経理と税込経理の選択適用(法人の場合)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6909.htm",
+  "text": "6909 税抜経理と税込経理の選択適用(個人の場合)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6913.htm",
+  "text": "6913 税抜経理と税込経理の併用と経理処理"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6917.htm",
+  "text": "6917 交際費等の損金不算入額を算出する場合における消費税等の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6921.htm",
+  "text": "6921 控除できなかった消費税額等(控除対象外消費税額等)の処理"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6925.htm",
+  "text": "6925 消費税等と印紙税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6929.htm",
+  "text": "6929 消費税等と源泉所得税および復興特別所得税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6931.htm",
+  "text": "6931 消費税等と譲渡所得"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6902.htm",
+  "text": "6902 「総額表示」の義務付け"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#page-top",
+  "text": "このページの先頭へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7100.htm",
+  "text": "7100 課税文書に該当するかどうかの判断"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7101.htm",
+  "text": "7101 不動産の譲渡・土地の賃貸借・消費貸借・運送等に関する契約書"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7102.htm",
+  "text": "7102 請負に関する契約書"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7103.htm",
+  "text": "7103 約束手形又は為替手形"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7104.htm",
+  "text": "7104 継続的取引の基本となる契約書"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7105.htm",
+  "text": "7105 金銭又は有価証券の受取書、領収書"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7106.htm",
+  "text": "7106 建物の賃貸借契約書"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7107.htm",
+  "text": "7107 駐車場を借りたときの契約書"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7108.htm",
+  "text": "7108 不動産の譲渡、建設工事の請負に関する契約書に係る印紙税の軽減措置"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7117.htm",
+  "text": "7117 契約書の意義"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7118.htm",
+  "text": "7118 申込書、注文書、依頼書等と表示された文書の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7119.htm",
+  "text": "7119 他の文書を引用している文書の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7120.htm",
+  "text": "7120 契約書の写し、副本、謄本等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7121.htm",
+  "text": "7121 予約契約書、仮契約書、仮領収書"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7122.htm",
+  "text": "7122 文書の記載金額"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7123.htm",
+  "text": "7123 契約金額を変更する契約書の記載金額"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7124.htm",
+  "text": "7124 消費税額等が区分記載された契約書等の記載金額"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7125.htm",
+  "text": "7125 営業に関しない受取書"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7126.htm",
+  "text": "7126 相殺した場合の領収書"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7127.htm",
+  "text": "7127 契約内容を変更する文書"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7129.htm",
+  "text": "7129 印紙税の納付方法"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7130.htm",
+  "text": "7130 誤って納付した印紙税の還付"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7131.htm",
+  "text": "7131 印紙税を納めなかったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7140.htm",
+  "text": "7140 印紙税額の一覧表（その1）第1号文書から第4号文書まで"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7141.htm",
+  "text": "7141 印紙税額の一覧表（その2）第5号文書から第20号文書まで"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7190.htm",
+  "text": "7190 登録免許税のあらまし"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7191.htm",
+  "text": "7191 登録免許税の税額表"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7192.htm",
+  "text": "7192 自動車重量税のあらまし"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7193.htm",
+  "text": "7193 使用済自動車に係る自動車重量税の廃車還付制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7195.htm",
+  "text": "7195 国際観光旅客税のあらまし"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#page-top",
+  "text": "このページの先頭へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/fufuku/7200.htm",
+  "text": "7200 税務署長等の処分に不服があるときの不服申立手続"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/fufuku/7210.htm",
+  "text": "7210 「不服申立て」ができる場合、できない場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hotei/7400.htm",
+  "text": "7400 法定調書の提出義務者"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hotei/7401.htm",
+  "text": "7401 法定調書の種類"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hotei/7411.htm",
+  "text": "7411 「給与所得の源泉徴収票」の提出範囲と提出枚数等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hotei/7421.htm",
+  "text": "7421 「退職所得の源泉徴収票」の提出範囲と提出枚数等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hotei/7431.htm",
+  "text": "7431 「報酬、料金、契約金及び賞金の支払調書」の提出範囲と提出枚数等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hotei/7441.htm",
+  "text": "7441 「不動産の使用料等の支払調書」の提出範囲等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hotei/7442.htm",
+  "text": "7442 「不動産等の譲受けの対価の支払調書」の提出範囲等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hotei/7443.htm",
+  "text": "7443 「不動産等の売買又は貸付けのあっせん手数料の支払調書」の提出範囲等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hotei/7451.htm",
+  "text": "7451 法定調書を光ディスク等により提出する場合の手続"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hotei/7452.htm",
+  "text": "7452 法定調書を本店等で一括して提出する場合の手続"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hotei/7453.htm",
+  "text": "7453 e-Tax、光ディスク等又は認定クラウド等により提出できる法定調書の種類"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hotei/7455.htm",
+  "text": "7455 法定調書の提出枚数が30枚以上の場合のe-Tax、光ディスク等又は認定クラウド等による提出義務"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hotei/7456.htm",
+  "text": "7456 国外財産調書の提出義務"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hotei/7457.htm",
+  "text": "7457 財産債務調書の提出義務"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/saigai/8001.htm",
+  "text": "8001 災害等による期限の延長"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/saigai/8004.htm",
+  "text": "8004 災害により被害を受けたときの所得税の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm",
+  "text": "1110 災害や盗難などで資産に損害を受けたとき(雑損控除)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1902.htm",
+  "text": "1902 災害減免法による所得税の軽減免除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/saigai/8013.htm",
+  "text": "8013 災害により被害を受けたときの住宅借入金等特別控除の適用期間の特例等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/saigai/8014.htm",
+  "text": "8014 災害等の事由が生じたことにより払い出した勤労者財産形成住宅（年金）貯蓄の利子等の非課税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/saigai/8002.htm",
+  "text": "8002 災害により被害を受けたときの納税の猶予"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/saigai/8003.htm",
+  "text": "8003 給与、公的年金等、報酬または料金の支払を受ける方が災害により被害を受けたときの源泉所得税および復興特別所得税の徴収猶予および還付"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/saigai/8004.htm",
+  "text": "8004 災害により被害を受けたときの所得税の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/saigai/8005.htm",
+  "text": "8005 災害により被害を受けたときの予定納税の減額申請"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/saigai/8006.htm",
+  "text": "8006 災害により被害を受けたときの相続税の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/saigai/8007.htm",
+  "text": "8007 災害により被害を受けたときの贈与税の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/saigai/8008.htm",
+  "text": "8008 災害により被害を受けた酒類、製造たばこ、揮発油等に対する救済措置"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/saigai/8009.htm",
+  "text": "8009 災害により被害を受けたときの法人税の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/saigai/8011.htm",
+  "text": "8011 災害により被害を受けたときの譲渡所得の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/saigai/8012.htm",
+  "text": "8012 災害により被害を受けたときの登録免許税の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/saigai/8015.htm",
+  "text": "8015 自然災害等により被害を受けた方が作成する契約書等に係る印紙税の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/saigai/8016.htm",
+  "text": "8016 自然災害により自動車に被害を受けた場合の自動車重量税の還付制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/saigai/8017.htm",
+  "text": "8017 災害により帳簿等を消失した場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6630.htm",
+  "text": "6630 やむを得ない事情により課税事業者選択届出書の提出が間に合わなかった場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6632.htm",
+  "text": "6632 災害等により簡易課税制度の適用を受ける(受けることをやめる)必要が生じた場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6633.htm",
+  "text": "6633 やむを得ない事情により簡易課税制度選択届出書の提出が間に合わなかった場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/osirase/9000.htm",
+  "text": "9000 国税と地方税の種類"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/osirase/9201.htm",
+  "text": "9201 振替納税のお勧め"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/osirase/9203.htm",
+  "text": "9203 税理士制度について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/osirase/9204.htm",
+  "text": "9204 にせ税理士にご注意"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/osirase/9205.htm",
+  "text": "9205 延滞税について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/osirase/9206.htm",
+  "text": "9206 国税を期限内に納付できないとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/osirase/9207.htm",
+  "text": "9207 公売に参加したいとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/osirase/9208.htm",
+  "text": "9208 納税証明書の請求"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/osirase/9209.htm",
+  "text": "9209 コンビニ納付(バーコード付納付書)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/osirase/9209-2.htm",
+  "text": "9209-2 コンビニ納付（QRコード）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/osirase/9210.htm",
+  "text": "9210 居住者証明書の請求"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/osirase/9211.htm",
+  "text": "9211 申告書等の確認方法"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#page-top",
+  "text": "このページの先頭へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/index.htm",
+  "text": "税の情報・手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/index.htm",
+  "text": "税について調べる"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#sidenaviAccordionCollapse1",
+  "text": "〔alt:メニューを閉じる〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+  "text": "所得税（確定申告書等作成コーナー）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm",
+  "text": "タックスアンサー（よくある税の質問）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/sodan/index.htm",
+  "text": "税の相談"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/index.htm",
+  "text": "税目別情報"
+ },
+ {
+  "href": "http://www.rosenka.nta.go.jp/",
+  "text": "路線価図・評価倍率表"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/saigai/index.htm",
+  "text": "災害関連情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/kokusai/index.htm",
+  "text": "国際税務関係情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shirabekata/info.htm",
+  "text": "税についての上手な調べ方"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/index.htm",
+  "text": "申告手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#sidenaviAccordionCollapse2",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/index.htm",
+  "text": "申告・申請・届出等、用紙（手続の案内・様式）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/mynumberinfo/index.htm",
+  "text": "社会保障・税番号制度(マイナンバー)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/index.htm",
+  "text": "納税・納税証明書手続"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#sidenaviAccordionCollapse3",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/annai/index.htm",
+  "text": "納税に関する総合案内"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/nozei-shomei/01.htm",
+  "text": "納税証明書"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/enno-butsuno/01.htm",
+  "text": "延納・物納申請等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/entaizei/keisan/entai.htm",
+  "text": "延滞税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/index.htm",
+  "text": "税理士に関する情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#sidenaviAccordionCollapse4",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/index.htm#news",
+  "text": "新着情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/zeirishiseido/seido.htm",
+  "text": "税理士制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/zeirishishiken/zeirishi.htm",
+  "text": "税理士試験"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/chokai/chokai.htm",
+  "text": "税理士に関する懲戒処分等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/search/search.htm",
+  "text": "税理士をお探しの方"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/zeirishiseido/qa.htm",
+  "text": "税理士関係法令等・Ｑ＆Ａ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm",
+  "text": "お酒に関する情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm#sidenaviAccordionCollapse5",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#syuzei",
+  "text": "酒税関係及び各種施策"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#ippan",
+  "text": "一般的な酒税の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#senmonsyuzei",
+  "text": "専門的な酒税の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#senmonsodan",
+  "text": "専門的な酒税の相談"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#shinkoku",
+  "text": "酒税の申告・納付や届出等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#denwa",
+  "text": "電話相談センター・税務署の案内"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#shingikai",
+  "text": "審議会等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#tokei",
+  "text": "統計情報・各種資料"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#qa",
+  "text": "お酒に関するＱ＆Ａ(よくある質問)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/kids/index.htm",
+  "text": "税の学習コーナー"
+ },
+ {
+  "href": "https://www.nta.go.jp/",
+  "text": "ホーム"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/index.htm",
+  "text": "税の情報・手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/index.htm",
+  "text": "税について調べる"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm",
+  "text": "タックスアンサー（よくある税の質問）"
+ }
+]

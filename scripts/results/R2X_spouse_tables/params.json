@@ -1,0 +1,427 @@
+{
+ "shotoku_R7": {
+  "source": "scripts/results/R2X_spouse_egov/shotoku_asof2025-12-31.txt",
+  "douitsu_max": 580000,
+  "kojo_honnin_max": 10000000,
+  "kojo": [
+   {
+    "honnin_gt": 0,
+    "honnin_le": 9000000,
+    "ippan": 380000,
+    "rojin": 480000
+   },
+   {
+    "honnin_gt": 9000000,
+    "honnin_le": 9500000,
+    "ippan": 260000,
+    "rojin": 320000
+   },
+   {
+    "honnin_gt": 9500000,
+    "honnin_le": 10000000,
+    "ippan": 130000,
+    "rojin": 160000
+   }
+  ],
+  "toku_spouse_max": 1330000,
+  "toku_honnin_max": 10000000,
+  "toku_base": {
+   "honnin_le": 9000000,
+   "flat_le": 950000,
+   "flat": 380000,
+   "step_gt": 950000,
+   "step_le": 1300000,
+   "step_from": 380000,
+   "step_over": 930001,
+   "step_unit": 50000,
+   "step_sub": 30000,
+   "tail_gt": 1300000,
+   "tail": 30000
+  },
+  "toku_frac": [
+   {
+    "honnin_gt": 9000000,
+    "honnin_le": 9500000,
+    "frac": [
+     2,
+     3
+    ],
+    "ceil_unit": 10000
+   },
+   {
+    "honnin_gt": 9500000,
+    "honnin_le": 10000000,
+    "frac": [
+     1,
+     3
+    ],
+    "ceil_unit": 10000
+   }
+  ]
+ },
+ "shotoku_R8": {
+  "source": "scripts/results/R2X_spouse_egov/shotoku_asof2026-12-31.txt",
+  "douitsu_max": 620000,
+  "kojo_honnin_max": 10000000,
+  "kojo": [
+   {
+    "honnin_gt": 0,
+    "honnin_le": 9000000,
+    "ippan": 380000,
+    "rojin": 480000
+   },
+   {
+    "honnin_gt": 9000000,
+    "honnin_le": 9500000,
+    "ippan": 260000,
+    "rojin": 320000
+   },
+   {
+    "honnin_gt": 9500000,
+    "honnin_le": 10000000,
+    "ippan": 130000,
+    "rojin": 160000
+   }
+  ],
+  "toku_spouse_max": 1330000,
+  "toku_honnin_max": 10000000,
+  "toku_base": {
+   "honnin_le": 9000000,
+   "flat_le": 950000,
+   "flat": 380000,
+   "step_gt": 950000,
+   "step_le": 1300000,
+   "step_from": 380000,
+   "step_over": 930001,
+   "step_unit": 50000,
+   "step_sub": 30000,
+   "tail_gt": 1300000,
+   "tail": 30000
+  },
+  "toku_frac": [
+   {
+    "honnin_gt": 9000000,
+    "honnin_le": 9500000,
+    "frac": [
+     2,
+     3
+    ],
+    "ceil_unit": 10000
+   },
+   {
+    "honnin_gt": 9500000,
+    "honnin_le": 10000000,
+    "frac": [
+     1,
+     3
+    ],
+    "ceil_unit": 10000
+   }
+  ]
+ },
+ "shichoson_R7nendo": {
+  "source": "scripts/results/R2X_spouse_egov/chiho_asof2025-12-31.txt",
+  "article": "314_2",
+  "douitsu_max": 480000,
+  "kojo": [
+   {
+    "honnin_gt": 0,
+    "honnin_le": 9000000,
+    "ippan": 330000,
+    "rojin": 380000
+   },
+   {
+    "honnin_gt": 9000000,
+    "honnin_le": 9500000,
+    "ippan": 220000,
+    "rojin": 260000
+   },
+   {
+    "honnin_gt": 9500000,
+    "honnin_le": 10000000,
+    "ippan": 110000,
+    "rojin": 130000
+   }
+  ],
+  "toku_spouse_max": 1330000,
+  "toku_mutual_exclusion_text": "その配偶者がこの号に規定する所得割の納税義務者としてこの号の規定の適用を受けているものを除き",
+  "toku_honnin_max": 10000000,
+  "toku_base": {
+   "honnin_le": 9000000,
+   "flat_le": 1000000,
+   "flat": 330000,
+   "step_gt": 1000000,
+   "step_le": 1300000,
+   "step_from": 380000,
+   "step_over": 930001,
+   "step_unit": 50000,
+   "step_sub": 30000,
+   "tail_gt": 1300000,
+   "tail": 30000
+  },
+  "toku_frac": [
+   {
+    "honnin_gt": 9000000,
+    "honnin_le": 9500000,
+    "frac": [
+     2,
+     3
+    ],
+    "ceil_unit": 10000
+   },
+   {
+    "honnin_gt": 9500000,
+    "honnin_le": 10000000,
+    "frac": [
+     1,
+     3
+    ],
+    "ceil_unit": 10000
+   }
+  ]
+ },
+ "shichoson_R8nendo": {
+  "source": "scripts/results/R2X_spouse_egov/chiho_asof2026-01-01.txt",
+  "article": "314_2",
+  "douitsu_max": 580000,
+  "kojo": [
+   {
+    "honnin_gt": 0,
+    "honnin_le": 9000000,
+    "ippan": 330000,
+    "rojin": 380000
+   },
+   {
+    "honnin_gt": 9000000,
+    "honnin_le": 9500000,
+    "ippan": 220000,
+    "rojin": 260000
+   },
+   {
+    "honnin_gt": 9500000,
+    "honnin_le": 10000000,
+    "ippan": 110000,
+    "rojin": 130000
+   }
+  ],
+  "toku_spouse_max": 1330000,
+  "toku_mutual_exclusion_text": "その配偶者が前号又はこの号に規定する所得割の納税義務者としてこれらの規定の適用を受けているものを除き",
+  "toku_honnin_max": 10000000,
+  "toku_base": {
+   "honnin_le": 9000000,
+   "flat_le": 1000000,
+   "flat": 330000,
+   "step_gt": 1000000,
+   "step_le": 1300000,
+   "step_from": 380000,
+   "step_over": 930001,
+   "step_unit": 50000,
+   "step_sub": 30000,
+   "tail_gt": 1300000,
+   "tail": 30000
+  },
+  "toku_frac": [
+   {
+    "honnin_gt": 9000000,
+    "honnin_le": 9500000,
+    "frac": [
+     2,
+     3
+    ],
+    "ceil_unit": 10000
+   },
+   {
+    "honnin_gt": 9500000,
+    "honnin_le": 10000000,
+    "frac": [
+     1,
+     3
+    ],
+    "ceil_unit": 10000
+   }
+  ]
+ },
+ "shichoson_R9nendo": {
+  "source": "scripts/results/R2X_spouse_egov/chiho_asof2027-01-01.txt",
+  "article": "314_2",
+  "douitsu_max": 620000,
+  "kojo": [
+   {
+    "honnin_gt": 0,
+    "honnin_le": 9000000,
+    "ippan": 330000,
+    "rojin": 380000
+   },
+   {
+    "honnin_gt": 9000000,
+    "honnin_le": 9500000,
+    "ippan": 220000,
+    "rojin": 260000
+   },
+   {
+    "honnin_gt": 9500000,
+    "honnin_le": 10000000,
+    "ippan": 110000,
+    "rojin": 130000
+   }
+  ],
+  "toku_spouse_max": 1330000,
+  "toku_mutual_exclusion_text": "その配偶者が前号又はこの号に規定する所得割の納税義務者としてこれらの規定の適用を受けているものを除き",
+  "toku_honnin_max": 10000000,
+  "toku_base": {
+   "honnin_le": 9000000,
+   "flat_le": 1000000,
+   "flat": 330000,
+   "step_gt": 1000000,
+   "step_le": 1300000,
+   "step_from": 380000,
+   "step_over": 930001,
+   "step_unit": 50000,
+   "step_sub": 30000,
+   "tail_gt": 1300000,
+   "tail": 30000
+  },
+  "toku_frac": [
+   {
+    "honnin_gt": 9000000,
+    "honnin_le": 9500000,
+    "frac": [
+     2,
+     3
+    ],
+    "ceil_unit": 10000
+   },
+   {
+    "honnin_gt": 9500000,
+    "honnin_le": 10000000,
+    "frac": [
+     1,
+     3
+    ],
+    "ceil_unit": 10000
+   }
+  ]
+ },
+ "dofuken_R8nendo": {
+  "source": "scripts/results/R2X_spouse_egov/chiho_asof2026-01-01.txt",
+  "article": "34",
+  "douitsu_max": 580000,
+  "kojo": [
+   {
+    "honnin_gt": 0,
+    "honnin_le": 9000000,
+    "ippan": 330000,
+    "rojin": 380000
+   },
+   {
+    "honnin_gt": 9000000,
+    "honnin_le": 9500000,
+    "ippan": 220000,
+    "rojin": 260000
+   },
+   {
+    "honnin_gt": 9500000,
+    "honnin_le": 10000000,
+    "ippan": 110000,
+    "rojin": 130000
+   }
+  ],
+  "toku_spouse_max": 1330000,
+  "toku_mutual_exclusion_text": "その配偶者が前号又はこの号に規定する所得割の納税義務者としてこれらの規定の適用を受けているものを除き",
+  "toku_honnin_max": 10000000,
+  "toku_base": {
+   "honnin_le": 9000000,
+   "flat_le": 1000000,
+   "flat": 330000,
+   "step_gt": 1000000,
+   "step_le": 1300000,
+   "step_from": 380000,
+   "step_over": 930001,
+   "step_unit": 50000,
+   "step_sub": 30000,
+   "tail_gt": 1300000,
+   "tail": 30000
+  },
+  "toku_frac": [
+   {
+    "honnin_gt": 9000000,
+    "honnin_le": 9500000,
+    "frac": [
+     2,
+     3
+    ],
+    "ceil_unit": 10000
+   },
+   {
+    "honnin_gt": 9500000,
+    "honnin_le": 10000000,
+    "frac": [
+     1,
+     3
+    ],
+    "ceil_unit": 10000
+   }
+  ]
+ },
+ "dofuken_R9nendo": {
+  "source": "scripts/results/R2X_spouse_egov/chiho_asof2027-01-01.txt",
+  "article": "34",
+  "douitsu_max": 620000,
+  "kojo": [
+   {
+    "honnin_gt": 0,
+    "honnin_le": 9000000,
+    "ippan": 330000,
+    "rojin": 380000
+   },
+   {
+    "honnin_gt": 9000000,
+    "honnin_le": 9500000,
+    "ippan": 220000,
+    "rojin": 260000
+   },
+   {
+    "honnin_gt": 9500000,
+    "honnin_le": 10000000,
+    "ippan": 110000,
+    "rojin": 130000
+   }
+  ],
+  "toku_spouse_max": 1330000,
+  "toku_mutual_exclusion_text": "その配偶者が前号又はこの号に規定する所得割の納税義務者としてこれらの規定の適用を受けているものを除き",
+  "toku_honnin_max": 10000000,
+  "toku_base": {
+   "honnin_le": 9000000,
+   "flat_le": 1000000,
+   "flat": 330000,
+   "step_gt": 1000000,
+   "step_le": 1300000,
+   "step_from": 380000,
+   "step_over": 930001,
+   "step_unit": 50000,
+   "step_sub": 30000,
+   "tail_gt": 1300000,
+   "tail": 30000
+  },
+  "toku_frac": [
+   {
+    "honnin_gt": 9000000,
+    "honnin_le": 9500000,
+    "frac": [
+     2,
+     3
+    ],
+    "ceil_unit": 10000
+   },
+   {
+    "honnin_gt": 9500000,
+    "honnin_le": 10000000,
+    "frac": [
+     1,
+     3
+    ],
+    "ceil_unit": 10000
+   }
+  ]
+ }
+}

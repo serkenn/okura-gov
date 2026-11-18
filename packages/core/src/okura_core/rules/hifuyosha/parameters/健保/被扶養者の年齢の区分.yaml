@@ -1,0 +1,34 @@
+description: 収入の基準額の年齢の区分（健保の通知と共済の大臣の定めで同じ語）。19歳・23歳は判定日の属する年の12月31日現在、60歳は判定日の年齢で見る（60歳の判定の時点は出典に書かれていない）。
+60歳以上:
+  description: 180万円の区分の年齢（以上）
+  metadata:
+    law: 昭和52年4月6日 保発第9号・庁保発第9号 記1、各共済の大臣の定め（60歳以上の者）
+    source_kind: 通知・事務連絡
+    unit: 歳
+    reference:
+      - docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md#1.1
+      - docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md#4
+  values:
+    2025-01-01: {value: 60, metadata: {比較: 以上}}
+19歳以上:
+  description: 150万円の区分の年齢の下端（以上）
+  metadata:
+    law: 令和7年7月4日 保発0704第1号・第2号 記1、同日の事務連絡 Q4（その年の12月31日現在の年齢）
+    source_kind: 通知・事務連絡
+    unit: 歳
+    reference:
+      - docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md#1.2
+      - docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md#5.5
+  values:
+    2025-01-01: {value: 19, metadata: {比較: 以上}}
+23歳未満:
+  description: 150万円の区分の年齢の上端（未満）
+  metadata:
+    law: 令和7年7月4日 保発0704第1号・第2号 記1、同日の事務連絡 Q4
+    source_kind: 通知・事務連絡
+    unit: 歳
+    reference:
+      - docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md#1.2
+      - docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md#5.5
+  values:
+    2025-01-01: {value: 23, metadata: {比較: 未満}}

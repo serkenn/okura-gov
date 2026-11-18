@@ -1,0 +1,63 @@
+{
+ "set": "v_egov",
+ "fetched_at_local": "20261111-025043",
+ "user_agent": "okura-gov-research/0.1",
+ "download_dir": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_egov",
+ "results": [
+  {
+   "id": "kokunen_rei_revisions",
+   "url": "https://laws.e-gov.go.jp/api/2/law_revisions/334CO0000000184",
+   "status": 200,
+   "final_url": "https://laws.e-gov.go.jp/api/2/law_revisions/334CO0000000184",
+   "content_type": "application/json",
+   "bytes": 33423,
+   "sha256": "e32612e9fa380df6734c9d68a37dd4ce8bd60cb12011654bc162e21042658804",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_egov/kokunen_rei_revisions.json"
+  },
+  {
+   "id": "kokunen_rei_2017-04-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/334CO0000000184?response_format=json&asof=2017-04-01",
+   "status": 200,
+   "final_url": "https://laws.e-gov.go.jp/api/2/law_data/334CO0000000184?response_format=json&asof=2017-04-01",
+   "content_type": "application/json",
+   "bytes": 496257,
+   "sha256": "ed967347b61a984af7aa3b8117f86ad39cef9228c8d91853b04fd849b6bf1f60",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_egov/kokunen_rei_2017-04-01.json"
+  },
+  {
+   "id": "kokunen_rei_2017-03-31",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/334CO0000000184?response_format=json&asof=2017-03-31",
+   "status": 400,
+   "final_url": "https://laws.e-gov.go.jp/api/2/law_data/334CO0000000184?response_format=json&asof=2017-03-31",
+   "content_type": "application/json",
+   "bytes": 107,
+   "sha256": "d472e4927daa662bf44847fdc1c6dae65847d0228b036a2002de57e2602312a4",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_egov/kokunen_rei_2017-03-31.json"
+  },
+  {
+   "id": "kokunen_rei_2026-11-11",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/334CO0000000184?response_format=json&asof=2026-11-11",
+   "status": 200,
+   "final_url": "https://laws.e-gov.go.jp/api/2/law_data/334CO0000000184?response_format=json&asof=2026-11-11",
+   "content_type": "application/json",
+   "bytes": 551734,
+   "sha256": "73f5bbf61a9b8ab1e65ea369e95e565634b536142a279c965a436cafb304e169",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_egov/kokunen_rei_2026-11-11.json"
+  },
+  {
+   "id": "kokunen_ho_2026-11-11",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/334AC0000000141?response_format=json&asof=2026-11-11",
+   "status": 200,
+   "final_url": "https://laws.e-gov.go.jp/api/2/law_data/334AC0000000141?response_format=json&asof=2026-11-11",
+   "content_type": "application/json",
+   "bytes": 1832058,
+   "sha256": "672850ba089660d830b56cf8e625d43c30238e89f10002eaadae832fd51da836",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_egov/kokunen_ho_2026-11-11.json"
+  }
+ ]
+}

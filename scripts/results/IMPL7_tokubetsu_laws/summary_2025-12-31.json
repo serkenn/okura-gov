@@ -1,0 +1,139 @@
+{
+ "revision": {
+  "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+  "law_type": "Act",
+  "law_title": "租税特別措置法",
+  "law_title_kana": "そぜいとくべつそちほう",
+  "abbrev": "租特法",
+  "category": "国税",
+  "updated": "2025-12-19T10:37:13+09:00",
+  "amendment_promulgate_date": "2025-12-05",
+  "amendment_enforcement_date": "2025-12-31",
+  "amendment_enforcement_comment": null,
+  "amendment_scheduled_enforcement_date": null,
+  "amendment_law_id": "507AC1000000081",
+  "amendment_law_title": "租税特別措置法及び東日本大震災の被災者等に係る国税関係法律の臨時特例に関する法律の一部を改正する法律",
+  "amendment_law_title_kana": null,
+  "amendment_law_num": "令和七年法律第八十一号",
+  "amendment_type": "3",
+  "repeal_status": "None",
+  "repeal_date": null,
+  "remain_in_force": false,
+  "mission": "New",
+  "current_revision_status": "PreviousEnforced"
+ },
+ "articles": [
+  {
+   "num": "10_3",
+   "caption": "（中小事業者が機械等を取得した場合の特別償却又は所得税額の特別控除）",
+   "blue_return_individual": true,
+   "paragraphs_with_shortfall": [],
+   "sha256": "452359a97a1013fb0290ab714feb26e8f814d5d613b13e2137c18e5b7fa9c06d"
+  },
+  {
+   "num": "10_4",
+   "caption": "（地域経済牽引事業の促進区域内において特定事業用機械等を取得した場合の特別償却又は所得税額の特別控除）",
+   "blue_return_individual": true,
+   "paragraphs_with_shortfall": [],
+   "sha256": "7a520abd855c322105baa2fffa363da50228686e3e490ae8aeb7c819d8943e89"
+  },
+  {
+   "num": "10_4_2",
+   "caption": "（地方活力向上地域等において特定建物等を取得した場合の特別償却又は所得税額の特別控除）",
+   "blue_return_individual": true,
+   "paragraphs_with_shortfall": [],
+   "sha256": "15fcd526c8d7f55da364c2936fc02fd492c6453ecdff5c2576ca9f5685686516"
+  },
+  {
+   "num": "10_5_3",
+   "caption": "（特定中小事業者が特定経営力向上設備等を取得した場合の特別償却又は所得税額の特別控除）",
+   "blue_return_individual": true,
+   "paragraphs_with_shortfall": [],
+   "sha256": "fb185eac3bdca6d1bf8331e1648ee4939b197e493f0f05df0a6e8b188757abf5"
+  },
+  {
+   "num": "10_5_5",
+   "caption": "（生産工程効率化等設備を取得した場合の特別償却又は所得税額の特別控除）",
+   "blue_return_individual": true,
+   "paragraphs_with_shortfall": [],
+   "sha256": "4023ba742535835709b46ca1c0ff7ab70447aae233b97edaf8f3453c56c21ec8"
+  },
+  {
+   "num": "11",
+   "caption": "（特定船舶の特別償却）",
+   "blue_return_individual": true,
+   "paragraphs_with_shortfall": [],
+   "sha256": "e84c2c6033bf1d4badd2d06a9ec32828eaab2276609705e54fa4d60322dc02ca"
+  },
+  {
+   "num": "11_2",
+   "caption": "（被災代替資産等の特別償却）",
+   "blue_return_individual": false,
+   "paragraphs_with_shortfall": [],
+   "sha256": "46e84ee6e7caafdbde2730d0c2547d6be9d43ed0a1e4a26d1d3992c02623fbed"
+  },
+  {
+   "num": "11_3",
+   "caption": "（特定事業継続力強化設備等の特別償却）",
+   "blue_return_individual": true,
+   "paragraphs_with_shortfall": [],
+   "sha256": "6e8e8a56bfa706f81eafc1b688b043cfbc906db8154698b176710a6b687c0cdb"
+  },
+  {
+   "num": "11_4",
+   "caption": "（環境負荷低減事業活動用資産等の特別償却）",
+   "blue_return_individual": true,
+   "paragraphs_with_shortfall": [],
+   "sha256": "e17ef149db72ed01bc4489a45fd8d2d04e7edcca07e957341ad18122bfb23d7b"
+  },
+  {
+   "num": "11_5",
+   "caption": "（生産方式革新事業活動用資産等の特別償却）",
+   "blue_return_individual": true,
+   "paragraphs_with_shortfall": [],
+   "sha256": "16411fc392d9428b62730babe9d23ef254ce500740e26dde8f197080e6d8bcff"
+  },
+  {
+   "num": "12",
+   "caption": "（特定地域における工業用機械等の特別償却）",
+   "blue_return_individual": true,
+   "paragraphs_with_shortfall": [],
+   "sha256": "ccac04fd11f90545304ce2179ebc5fd9eeed01e977abfc080035cc15a696b7ef"
+  },
+  {
+   "num": "12_2",
+   "caption": "（医療用機器等の特別償却）",
+   "blue_return_individual": true,
+   "paragraphs_with_shortfall": [],
+   "sha256": "0250c11f019f5b672f2823262fe0a7475975768201d6d213f0231dde32add53b"
+  },
+  {
+   "num": "13",
+   "caption": "（輸出事業用資産の割増償却）",
+   "blue_return_individual": true,
+   "paragraphs_with_shortfall": [],
+   "sha256": "59fece02b90eb3aeb5ced9a0cb39b4ff81a12868dcb26a72c94fcac8553cf4a7"
+  },
+  {
+   "num": "14",
+   "caption": "（特定都市再生建築物の割増償却）",
+   "blue_return_individual": true,
+   "paragraphs_with_shortfall": [],
+   "sha256": "74144123742616158f7390ef24d5ba35d3f07bf2b3a4b078812b0950061ec8cf"
+  },
+  {
+   "num": "15",
+   "caption": "（倉庫用建物等の割増償却）",
+   "blue_return_individual": true,
+   "paragraphs_with_shortfall": [],
+   "sha256": "4fd3798a3264c124713657a51d4fb20f91bcedc9b584354f5238df1f6d95fcd3"
+  },
+  {
+   "num": "19",
+   "caption": "（特別償却等に関する複数の規定の不適用）",
+   "blue_return_individual": false,
+   "paragraphs_with_shortfall": [],
+   "sha256": "560fc30e508b8877b603a2b5b46e47f1f44cb8eb404278a2b6ac1f6b6a64d70f"
+  }
+ ]
+}

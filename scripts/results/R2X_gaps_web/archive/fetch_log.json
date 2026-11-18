@@ -1,0 +1,28 @@
+{
+ "set": "archive",
+ "fetched_at": "20261109-174055",
+ "download_dir": ".work/downloads/20261109-174055_R2X_gaps_web_archive",
+ "robots": [
+  {
+   "host": "web.archive.org",
+   "url": "https://web.archive.org/robots.txt",
+   "status": 404,
+   "sha256": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0",
+   "saved": ".work/downloads/20261109-174055_R2X_gaps_web_archive/robots_web.archive.org.txt"
+  }
+ ],
+ "items": [
+  {
+   "id": "cdx_ta_1810",
+   "url": "https://web.archive.org/cdx/search/cdx?url=www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1810.htm&output=json&fl=timestamp,statuscode,digest,length&collapse=digest",
+   "final_url": "https://web.archive.org/cdx/search/cdx?url=www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1810.htm&output=json&fl=timestamp,statuscode,digest,length&collapse=digest",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "application/json",
+   "last_modified": null,
+   "bytes": 1201,
+   "sha256": "b1e2256803d77646eaff475c04feb333d66a53d81f9036ba8ed75b4534a4625d",
+   "saved": ".work/downloads/20261109-174055_R2X_gaps_web_archive/cdx_ta_1810.json"
+  }
+ ]
+}

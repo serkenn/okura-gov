@@ -1,0 +1,1831 @@
+[
+ {
+  "claim": "C01",
+  "desc": "市町村民税の所得割の標準税率 6%（指定都市 8%）、一の率",
+  "law": "chiho",
+  "article": "本則:314_3",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C01",
+  "desc": "市町村民税の所得割の標準税率 6%（指定都市 8%）、一の率",
+  "law": "chiho",
+  "article": "本則:314_3",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C01",
+  "desc": "市町村民税の所得割の標準税率 6%（指定都市 8%）、一の率",
+  "law": "chiho",
+  "article": "本則:314_3",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C01",
+  "desc": "市町村民税の所得割の標準税率 6%（指定都市 8%）、一の率",
+  "law": "chiho",
+  "article": "本則:314_3",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C02",
+  "desc": "道府県民税の所得割の標準税率 4%（指定都市 2%）、同一の標準税率ごとに一の率",
+  "law": "chiho",
+  "article": "本則:35",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C02",
+  "desc": "道府県民税の所得割の標準税率 4%（指定都市 2%）、同一の標準税率ごとに一の率",
+  "law": "chiho",
+  "article": "本則:35",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C02",
+  "desc": "道府県民税の所得割の標準税率 4%（指定都市 2%）、同一の標準税率ごとに一の率",
+  "law": "chiho",
+  "article": "本則:35",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C02",
+  "desc": "道府県民税の所得割の標準税率 4%（指定都市 2%）、同一の標準税率ごとに一の率",
+  "law": "chiho",
+  "article": "本則:35",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C03",
+  "desc": "市町村民税の均等割の標準税率 3,000円",
+  "law": "chiho",
+  "article": "本則:310",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C03",
+  "desc": "市町村民税の均等割の標準税率 3,000円",
+  "law": "chiho",
+  "article": "本則:310",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C03",
+  "desc": "市町村民税の均等割の標準税率 3,000円",
+  "law": "chiho",
+  "article": "本則:310",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C03",
+  "desc": "市町村民税の均等割の標準税率 3,000円",
+  "law": "chiho",
+  "article": "本則:310",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C04",
+  "desc": "道府県民税の均等割の標準税率 1,000円",
+  "law": "chiho",
+  "article": "本則:38",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C04",
+  "desc": "道府県民税の均等割の標準税率 1,000円",
+  "law": "chiho",
+  "article": "本則:38",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C04",
+  "desc": "道府県民税の均等割の標準税率 1,000円",
+  "law": "chiho",
+  "article": "本則:38",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C04",
+  "desc": "道府県民税の均等割の標準税率 1,000円",
+  "law": "chiho",
+  "article": "本則:38",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C05",
+  "desc": "均等割の軽減（条例）",
+  "law": "chiho",
+  "article": "本則:311",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C05",
+  "desc": "均等割の軽減（条例）",
+  "law": "chiho",
+  "article": "本則:311",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C05",
+  "desc": "均等割の軽減（条例）",
+  "law": "chiho",
+  "article": "本則:311",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C05",
+  "desc": "均等割の軽減（条例）",
+  "law": "chiho",
+  "article": "本則:311",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C06",
+  "desc": "端数：課税標準額の千円未満切捨て、確定金額の百円未満切捨て、市町村民税・道府県民税・森林環境税を一の地方税とみなす場合",
+  "law": "chiho",
+  "article": "本則:20_4_2",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C06",
+  "desc": "端数：課税標準額の千円未満切捨て、確定金額の百円未満切捨て、市町村民税・道府県民税・森林環境税を一の地方税とみなす場合",
+  "law": "chiho",
+  "article": "本則:20_4_2",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C06",
+  "desc": "端数：課税標準額の千円未満切捨て、確定金額の百円未満切捨て、市町村民税・道府県民税・森林環境税を一の地方税とみなす場合",
+  "law": "chiho",
+  "article": "本則:20_4_2",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C06",
+  "desc": "端数：課税標準額の千円未満切捨て、確定金額の百円未満切捨て、市町村民税・道府県民税・森林環境税を一の地方税とみなす場合",
+  "law": "chiho",
+  "article": "本則:20_4_2",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C07",
+  "desc": "調整控除（市町村民税）：2,500万円以下、200万円、3%（指定都市 4%）、5万円の下限、人的控除差の表",
+  "law": "chiho",
+  "article": "本則:314_6",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C07",
+  "desc": "調整控除（市町村民税）：2,500万円以下、200万円、3%（指定都市 4%）、5万円の下限、人的控除差の表",
+  "law": "chiho",
+  "article": "本則:314_6",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C07",
+  "desc": "調整控除（市町村民税）：2,500万円以下、200万円、3%（指定都市 4%）、5万円の下限、人的控除差の表",
+  "law": "chiho",
+  "article": "本則:314_6",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C07",
+  "desc": "調整控除（市町村民税）：2,500万円以下、200万円、3%（指定都市 4%）、5万円の下限、人的控除差の表",
+  "law": "chiho",
+  "article": "本則:314_6",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C08",
+  "desc": "調整控除（道府県民税）：2%（指定都市 1%）",
+  "law": "chiho",
+  "article": "本則:37",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C08",
+  "desc": "調整控除（道府県民税）：2%（指定都市 1%）",
+  "law": "chiho",
+  "article": "本則:37",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C08",
+  "desc": "調整控除（道府県民税）：2%（指定都市 1%）",
+  "law": "chiho",
+  "article": "本則:37",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C08",
+  "desc": "調整控除（道府県民税）：2%（指定都市 1%）",
+  "law": "chiho",
+  "article": "本則:37",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C09",
+  "desc": "寄附金税額控除（市町村民税）：30%・2,000円・6%（8%）・特例 3/5（4/5）・所得割の20%・割合の表",
+  "law": "chiho",
+  "article": "本則:314_7",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C09",
+  "desc": "寄附金税額控除（市町村民税）：30%・2,000円・6%（8%）・特例 3/5（4/5）・所得割の20%・割合の表",
+  "law": "chiho",
+  "article": "本則:314_7",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C09",
+  "desc": "寄附金税額控除（市町村民税）：30%・2,000円・6%（8%）・特例 3/5（4/5）・所得割の20%・割合の表",
+  "law": "chiho",
+  "article": "本則:314_7",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C09",
+  "desc": "寄附金税額控除（市町村民税）：30%・2,000円・6%（8%）・特例 3/5（4/5）・所得割の20%・割合の表",
+  "law": "chiho",
+  "article": "本則:314_7",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C09a",
+  "desc": "人的控除差調整額に「所得税の基礎控除の額−48万円」を含む（寄附金税額控除）",
+  "law": "chiho",
+  "article": "本則:314_7",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C09a",
+  "desc": "人的控除差調整額に「所得税の基礎控除の額−48万円」を含む（寄附金税額控除）",
+  "law": "chiho",
+  "article": "本則:314_7",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C09a",
+  "desc": "人的控除差調整額に「所得税の基礎控除の額−48万円」を含む（寄附金税額控除）",
+  "law": "chiho",
+  "article": "本則:314_7",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C09b",
+  "desc": "（2026-01-01 の版）人的控除差調整額に基礎控除の差を含まない",
+  "law": "chiho",
+  "article": "本則:314_7",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C09c",
+  "desc": "特例控除額の定額の上限 115万8千円（指定都市 154万4千円）が入った版（令和10年度分から適用：令和8年法律第2号附則第11条第8項）",
+  "law": "chiho",
+  "article": "本則:314_7",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C09c",
+  "desc": "特例控除額の定額の上限 115万8千円（指定都市 154万4千円）が入った版（令和10年度分から適用：令和8年法律第2号附則第11条第8項）",
+  "law": "chiho",
+  "article": "本則:314_7",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C10",
+  "desc": "寄附金税額控除（道府県民税）：4%（2%）・特例 2/5（1/5）",
+  "law": "chiho",
+  "article": "本則:37_2",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C10",
+  "desc": "寄附金税額控除（道府県民税）：4%（2%）・特例 2/5（1/5）",
+  "law": "chiho",
+  "article": "本則:37_2",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C10",
+  "desc": "寄附金税額控除（道府県民税）：4%（2%）・特例 2/5（1/5）",
+  "law": "chiho",
+  "article": "本則:37_2",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C10",
+  "desc": "寄附金税額控除（道府県民税）：4%（2%）・特例 2/5（1/5）",
+  "law": "chiho",
+  "article": "本則:37_2",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C10a",
+  "desc": "特例控除額の定額の上限（道府県）77万2千円（指定都市 38万6千円）",
+  "law": "chiho",
+  "article": "本則:37_2",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C10a",
+  "desc": "特例控除額の定額の上限（道府県）77万2千円（指定都市 38万6千円）",
+  "law": "chiho",
+  "article": "本則:37_2",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C11",
+  "desc": "特例控除の割合の読替え（復興特別所得税分）：平成26年度〜令和20年度",
+  "law": "chiho",
+  "article": "附則:5_6",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C11",
+  "desc": "特例控除の割合の読替え（復興特別所得税分）：平成26年度〜令和20年度",
+  "law": "chiho",
+  "article": "附則:5_6",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C11",
+  "desc": "特例控除の割合の読替え（復興特別所得税分）：平成26年度〜令和20年度",
+  "law": "chiho",
+  "article": "附則:5_6",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C11a",
+  "desc": "（2028-01-01 の版）期間を令和30年度までに延ばし、令和31年度以後の読替えを追加",
+  "law": "chiho",
+  "article": "附則:5_6",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C12",
+  "desc": "申告特例控除（市町村民税）の割合の表",
+  "law": "chiho",
+  "article": "附則:7_2",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C12",
+  "desc": "申告特例控除（市町村民税）の割合の表",
+  "law": "chiho",
+  "article": "附則:7_2",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C12",
+  "desc": "申告特例控除（市町村民税）の割合の表",
+  "law": "chiho",
+  "article": "附則:7_2",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C12",
+  "desc": "申告特例控除（市町村民税）の割合の表",
+  "law": "chiho",
+  "article": "附則:7_2",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C12a",
+  "desc": "申告特例控除の区分に「所得税の基礎控除の額−48万円」を含む",
+  "law": "chiho",
+  "article": "附則:7_2",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C12a",
+  "desc": "申告特例控除の区分に「所得税の基礎控除の額−48万円」を含む",
+  "law": "chiho",
+  "article": "附則:7_2",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C12a",
+  "desc": "申告特例控除の区分に「所得税の基礎控除の額−48万円」を含む",
+  "law": "chiho",
+  "article": "附則:7_2",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C12b",
+  "desc": "（2026-01-01 の版）申告特例控除の区分に基礎控除の差を含まない",
+  "law": "chiho",
+  "article": "附則:7_2",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C13",
+  "desc": "申告特例控除の割合の読替え（平成28年度〜令和20年度）",
+  "law": "chiho",
+  "article": "附則:7_3",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C13",
+  "desc": "申告特例控除の割合の読替え（平成28年度〜令和20年度）",
+  "law": "chiho",
+  "article": "附則:7_3",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C13",
+  "desc": "申告特例控除の割合の読替え（平成28年度〜令和20年度）",
+  "law": "chiho",
+  "article": "附則:7_3",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C14",
+  "desc": "配当控除（市町村民税）1.6%（2.24%）／0.8%（1.12%）ほか、千万円超の部分",
+  "law": "chiho",
+  "article": "附則:5",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C14",
+  "desc": "配当控除（市町村民税）1.6%（2.24%）／0.8%（1.12%）ほか、千万円超の部分",
+  "law": "chiho",
+  "article": "附則:5",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C14",
+  "desc": "配当控除（市町村民税）1.6%（2.24%）／0.8%（1.12%）ほか、千万円超の部分",
+  "law": "chiho",
+  "article": "附則:5",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C14",
+  "desc": "配当控除（市町村民税）1.6%（2.24%）／0.8%（1.12%）ほか、千万円超の部分",
+  "law": "chiho",
+  "article": "附則:5",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C15",
+  "desc": "住宅借入金等特別税額控除：3/5（4/5）・2/5（1/5）、限度 3%（4%）・58,500円（78,000円）、2%（1%）・39,000円（19,500円）、特別特定取得の読替え",
+  "law": "chiho",
+  "article": "附則:5_4_2",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C15",
+  "desc": "住宅借入金等特別税額控除：3/5（4/5）・2/5（1/5）、限度 3%（4%）・58,500円（78,000円）、2%（1%）・39,000円（19,500円）、特別特定取得の読替え",
+  "law": "chiho",
+  "article": "附則:5_4",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C15",
+  "desc": "住宅借入金等特別税額控除：3/5（4/5）・2/5（1/5）、限度 3%（4%）・58,500円（78,000円）、2%（1%）・39,000円（19,500円）、特別特定取得の読替え",
+  "law": "chiho",
+  "article": "附則:5_4",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C15",
+  "desc": "住宅借入金等特別税額控除：3/5（4/5）・2/5（1/5）、限度 3%（4%）・58,500円（78,000円）、2%（1%）・39,000円（19,500円）、特別特定取得の読替え",
+  "law": "chiho",
+  "article": "附則:5_4",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C15c",
+  "desc": "住宅借入金等特別税額控除の控除限度額の基礎に「所得税の基礎控除の額−48万円」を加える（居住年 平成28年〜令和7年）",
+  "law": "chiho",
+  "article": "附則:5_4",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C15c",
+  "desc": "住宅借入金等特別税額控除の控除限度額の基礎に「所得税の基礎控除の額−48万円」を加える（居住年 平成28年〜令和7年）",
+  "law": "chiho",
+  "article": "附則:5_4",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C15c",
+  "desc": "住宅借入金等特別税額控除の控除限度額の基礎に「所得税の基礎控除の額−48万円」を加える（居住年 平成28年〜令和7年）",
+  "law": "chiho",
+  "article": "附則:5_4",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C15d",
+  "desc": "（2026-01-01 の版）控除限度額の基礎に基礎控除の差を含まない",
+  "law": "chiho",
+  "article": "附則:5_4_2",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C36",
+  "desc": "（2026-03-31 の版）寄附金税額控除・申告特例・住宅借入金等に基礎控除の差がない",
+  "law": "chiho-0401",
+  "article": "本則:314_7",
+  "asof": "2026-03-31",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C36a",
+  "desc": "",
+  "law": "chiho-0401",
+  "article": "本則:37_2",
+  "asof": "2026-03-31",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C36b",
+  "desc": "",
+  "law": "chiho-0401",
+  "article": "附則:5_4_2",
+  "asof": "2026-03-31",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C36c",
+  "desc": "",
+  "law": "chiho-0401",
+  "article": "附則:7_2",
+  "asof": "2026-03-31",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C36d",
+  "desc": "（2026-04-01 の版＝令和8年法律第2号の施行）基礎控除の差が入った",
+  "law": "chiho-0401",
+  "article": "本則:314_7",
+  "asof": "2026-04-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C36e",
+  "desc": "",
+  "law": "chiho-0401",
+  "article": "本則:37_2",
+  "asof": "2026-04-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C36f",
+  "desc": "",
+  "law": "chiho-0401",
+  "article": "附則:5_4",
+  "asof": "2026-04-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C36g",
+  "desc": "",
+  "law": "chiho-0401",
+  "article": "附則:7_2",
+  "asof": "2026-04-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C15a",
+  "desc": "住宅借入金等特別税額控除の居住年 平成21年〜令和7年、令和20年度まで",
+  "law": "chiho",
+  "article": "附則:5_4_2",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C15a",
+  "desc": "住宅借入金等特別税額控除の居住年 平成21年〜令和7年、令和20年度まで",
+  "law": "chiho",
+  "article": "附則:5_4",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C15b",
+  "desc": "住宅借入金等特別税額控除の居住年 平成21年〜令和12年、令和25年度まで（居住が令和8年1月1日以後の分から：令和8年法律第2号附則第11条第10項）",
+  "law": "chiho",
+  "article": "附則:5_4",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C15b",
+  "desc": "住宅借入金等特別税額控除の居住年 平成21年〜令和12年、令和25年度まで（居住が令和8年1月1日以後の分から：令和8年法律第2号附則第11条第10項）",
+  "law": "chiho",
+  "article": "附則:5_4",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C16",
+  "desc": "同一生計配偶者・扶養親族の所得要件 58万円（令和8年度分）",
+  "law": "chiho",
+  "article": "本則:292",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C16",
+  "desc": "同一生計配偶者・扶養親族の所得要件 58万円（令和8年度分）",
+  "law": "chiho",
+  "article": "本則:292",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C16a",
+  "desc": "同一生計配偶者・扶養親族の所得要件 62万円（令和9年度分）",
+  "law": "chiho",
+  "article": "本則:292",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C16a",
+  "desc": "同一生計配偶者・扶養親族の所得要件 62万円（令和9年度分）",
+  "law": "chiho",
+  "article": "本則:292",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C17",
+  "desc": "所得控除の額（住民税）",
+  "law": "chiho",
+  "article": "本則:314_2",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C17",
+  "desc": "所得控除の額（住民税）",
+  "law": "chiho",
+  "article": "本則:314_2",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C17",
+  "desc": "所得控除の額（住民税）",
+  "law": "chiho",
+  "article": "本則:314_2",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C17",
+  "desc": "所得控除の額（住民税）",
+  "law": "chiho",
+  "article": "本則:314_2",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C17a",
+  "desc": "ひとり親控除 30万円（令和9年度分まで）",
+  "law": "chiho",
+  "article": "本則:314_2",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C17a",
+  "desc": "ひとり親控除 30万円（令和9年度分まで）",
+  "law": "chiho",
+  "article": "本則:314_2",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C17a",
+  "desc": "ひとり親控除 30万円（令和9年度分まで）",
+  "law": "chiho",
+  "article": "本則:314_2",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C17b",
+  "desc": "ひとり親控除 33万円の版（令和10年度分から：令和8年法律第2号附則第11条第3項）",
+  "law": "chiho",
+  "article": "本則:314_2",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C18",
+  "desc": "所得割の非課税の調整（附則第3条の3第5項）",
+  "law": "chiho",
+  "article": "附則:3_3",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C18",
+  "desc": "所得割の非課税の調整（附則第3条の3第5項）",
+  "law": "chiho",
+  "article": "附則:3_3",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C18",
+  "desc": "所得割の非課税の調整（附則第3条の3第5項）",
+  "law": "chiho",
+  "article": "附則:3_3",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C18",
+  "desc": "所得割の非課税の調整（附則第3条の3第5項）",
+  "law": "chiho",
+  "article": "附則:3_3",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C19",
+  "desc": "配当割額・株式等譲渡所得割額の控除 市 3/5",
+  "law": "chiho",
+  "article": "本則:314_9",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C19",
+  "desc": "配当割額・株式等譲渡所得割額の控除 市 3/5",
+  "law": "chiho",
+  "article": "本則:314_9",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C19",
+  "desc": "配当割額・株式等譲渡所得割額の控除 市 3/5",
+  "law": "chiho",
+  "article": "本則:314_9",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C19",
+  "desc": "配当割額・株式等譲渡所得割額の控除 市 3/5",
+  "law": "chiho",
+  "article": "本則:314_9",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C19a",
+  "desc": "配当割額・株式等譲渡所得割額の控除 県 2/5",
+  "law": "chiho",
+  "article": "本則:37_4",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C19a",
+  "desc": "配当割額・株式等譲渡所得割額の控除 県 2/5",
+  "law": "chiho",
+  "article": "本則:37_4",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C19a",
+  "desc": "配当割額・株式等譲渡所得割額の控除 県 2/5",
+  "law": "chiho",
+  "article": "本則:37_4",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C19a",
+  "desc": "配当割額・株式等譲渡所得割額の控除 県 2/5",
+  "law": "chiho",
+  "article": "本則:37_4",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C20",
+  "desc": "標準税率の定義",
+  "law": "chiho",
+  "article": "本則:1",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C20",
+  "desc": "標準税率の定義",
+  "law": "chiho",
+  "article": "本則:1",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C20",
+  "desc": "標準税率の定義",
+  "law": "chiho",
+  "article": "本則:1",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C20",
+  "desc": "標準税率の定義",
+  "law": "chiho",
+  "article": "本則:1",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C21",
+  "desc": "均等割のみ（事務所・家屋敷）と均等割＋所得割（住所）",
+  "law": "chiho",
+  "article": "本則:294",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C21",
+  "desc": "均等割のみ（事務所・家屋敷）と均等割＋所得割（住所）",
+  "law": "chiho",
+  "article": "本則:294",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C21",
+  "desc": "均等割のみ（事務所・家屋敷）と均等割＋所得割（住所）",
+  "law": "chiho",
+  "article": "本則:294",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C21",
+  "desc": "均等割のみ（事務所・家屋敷）と均等割＋所得割（住所）",
+  "law": "chiho",
+  "article": "本則:294",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C22",
+  "desc": "所得割・均等割の条に制限税率の文言がない",
+  "law": "chiho",
+  "article": "本則:314_3",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C22",
+  "desc": "所得割・均等割の条に制限税率の文言がない",
+  "law": "chiho",
+  "article": "本則:314_3",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C22",
+  "desc": "所得割・均等割の条に制限税率の文言がない",
+  "law": "chiho",
+  "article": "本則:314_3",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C22",
+  "desc": "所得割・均等割の条に制限税率の文言がない",
+  "law": "chiho",
+  "article": "本則:314_3",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C22a",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:310",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C22a",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:310",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C22a",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:310",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C22a",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:310",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C22b",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:35",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C22b",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:35",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C22b",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:35",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C22b",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:35",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C22c",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:38",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C22c",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:38",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C22c",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:38",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C22c",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:38",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C40",
+  "desc": "退職所得の分離課税：市町村民税 6%（「標準税率」の語がない）、その年の1月1日の住所の市町村が課する",
+  "law": "chiho",
+  "article": "本則:328_3",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C40",
+  "desc": "退職所得の分離課税：市町村民税 6%（「標準税率」の語がない）、その年の1月1日の住所の市町村が課する",
+  "law": "chiho",
+  "article": "本則:328_3",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C40",
+  "desc": "退職所得の分離課税：市町村民税 6%（「標準税率」の語がない）、その年の1月1日の住所の市町村が課する",
+  "law": "chiho",
+  "article": "本則:328_3",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C40",
+  "desc": "退職所得の分離課税：市町村民税 6%（「標準税率」の語がない）、その年の1月1日の住所の市町村が課する",
+  "law": "chiho",
+  "article": "本則:328_3",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C40a",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:50_4",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C40a",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:50_4",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C40a",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:50_4",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C40a",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:50_4",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C40b",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:328",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C40b",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:328",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C40b",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:328",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C40b",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:328",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C40c",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:328_2",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C40c",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:328_2",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C40c",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:328_2",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C40c",
+  "desc": "",
+  "law": "chiho",
+  "article": "本則:328_2",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C41",
+  "desc": "上場株式等の配当所得等の分離課税：市 3%（指定都市 4%）、県 2%（1%）、配当控除なし",
+  "law": "chiho",
+  "article": "附則:33_2",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C41",
+  "desc": "上場株式等の配当所得等の分離課税：市 3%（指定都市 4%）、県 2%（1%）、配当控除なし",
+  "law": "chiho",
+  "article": "附則:33_2",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C41",
+  "desc": "上場株式等の配当所得等の分離課税：市 3%（指定都市 4%）、県 2%（1%）、配当控除なし",
+  "law": "chiho",
+  "article": "附則:33_2",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C41",
+  "desc": "上場株式等の配当所得等の分離課税：市 3%（指定都市 4%）、県 2%（1%）、配当控除なし",
+  "law": "chiho",
+  "article": "附則:33_2",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C41a",
+  "desc": "上場株式等の譲渡所得等の分離課税：市 3%（4%）、県 2%（1%）",
+  "law": "chiho",
+  "article": "附則:35_2_2",
+  "asof": "2026-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C41a",
+  "desc": "上場株式等の譲渡所得等の分離課税：市 3%（4%）、県 2%（1%）",
+  "law": "chiho",
+  "article": "附則:35_2_2",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C41a",
+  "desc": "上場株式等の譲渡所得等の分離課税：市 3%（4%）、県 2%（1%）",
+  "law": "chiho",
+  "article": "附則:35_2_2",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C41a",
+  "desc": "上場株式等の譲渡所得等の分離課税：市 3%（4%）、県 2%（1%）",
+  "law": "chiho",
+  "article": "附則:35_2_2",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C42",
+  "desc": "特定配当等・特定株式等譲渡所得：確定申告書に記載がなければ総所得金額から除く",
+  "law": "chiho",
+  "article": "本則:313",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C42",
+  "desc": "特定配当等・特定株式等譲渡所得：確定申告書に記載がなければ総所得金額から除く",
+  "law": "chiho",
+  "article": "本則:313",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C42",
+  "desc": "特定配当等・特定株式等譲渡所得：確定申告書に記載がなければ総所得金額から除く",
+  "law": "chiho",
+  "article": "本則:313",
+  "asof": "2028-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C30",
+  "desc": "森林環境税：住所を有する個人、1,000円、賦課期日1月1日、市町村が均等割と併せて賦課徴収、非課税",
+  "law": "shinrin",
+  "article": "本則:3",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C30",
+  "desc": "森林環境税：住所を有する個人、1,000円、賦課期日1月1日、市町村が均等割と併せて賦課徴収、非課税",
+  "law": "shinrin",
+  "article": "本則:3",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C30a",
+  "desc": "",
+  "law": "shinrin",
+  "article": "本則:5",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C30a",
+  "desc": "",
+  "law": "shinrin",
+  "article": "本則:5",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C30b",
+  "desc": "",
+  "law": "shinrin",
+  "article": "本則:6",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C30b",
+  "desc": "",
+  "law": "shinrin",
+  "article": "本則:6",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C30c",
+  "desc": "",
+  "law": "shinrin",
+  "article": "本則:4",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C30c",
+  "desc": "",
+  "law": "shinrin",
+  "article": "本則:4",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C30d",
+  "desc": "",
+  "law": "shinrin",
+  "article": "本則:7",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C30d",
+  "desc": "",
+  "law": "shinrin",
+  "article": "本則:7",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C30e",
+  "desc": "森林環境税の適用：令和6年度分から",
+  "law": "shinrin",
+  "article": "附則:2",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C30e",
+  "desc": "森林環境税の適用：令和6年度分から",
+  "law": "shinrin",
+  "article": "附則:2",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C31",
+  "desc": "森林環境税の非課税の金額（政令）：35万円×級地の率×(人数+1)+10万円（+21万円×級地の率）",
+  "law": "shinrin-rei",
+  "article": "本則:1",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C32",
+  "desc": "東日本大震災の臨時特例（均等割に500円加算）は平成35年度（令和5年度）まで",
+  "law": "shinsai",
+  "article": "本則:2",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C33",
+  "desc": "施行令第6条の17：端数の特例の対象に個人の市町村民税は含まれない",
+  "law": "chiho-rei",
+  "article": "本則:6_17",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C33",
+  "desc": "施行令第6条の17：端数の特例の対象に個人の市町村民税は含まれない",
+  "law": "chiho-rei",
+  "article": "本則:6_17",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C34",
+  "desc": "調整控除の表の（３）（４）：ひとり親のうち父／母",
+  "law": "chiho-rei",
+  "article": "本則:48_7_2",
+  "asof": "2026-11-09",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C34",
+  "desc": "調整控除の表の（３）（４）：ひとり親のうち父／母",
+  "law": "chiho-rei",
+  "article": "本則:48_7_2",
+  "asof": "2027-01-01",
+  "ok": true,
+  "missing": [],
+  "present_but_should_not": []
+ },
+ {
+  "claim": "C35",
+  "desc": "指定都市20市",
+  "law": "shitei",
+  "asof": "2026-11-09",
+  "ok": true,
+  "names": [
+   "大阪市",
+   "名古屋市",
+   "京都市",
+   "横浜市",
+   "神戸市",
+   "北九州市",
+   "札幌市",
+   "川崎市",
+   "福岡市",
+   "広島市",
+   "仙台市",
+   "千葉市",
+   "さいたま市",
+   "静岡市",
+   "堺市",
+   "新潟市",
+   "浜松市",
+   "岡山市",
+   "相模原市",
+   "熊本市"
+  ]
+ }
+]

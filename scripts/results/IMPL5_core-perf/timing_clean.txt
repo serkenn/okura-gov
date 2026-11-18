@@ -1,0 +1,3 @@
+# 同時に走らせない計測（2026-11-12）
+before: 01 one 5.441s / 05 one 2.073s / wages500 one 222.601s (210506 KiB)
+after : 01 one 0.899s / 05 one 0.478s / wages500 one 34.783s (40966 KiB)

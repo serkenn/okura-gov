@@ -1,0 +1,7 @@
+# sochi 332AC0000000026 asof=2026-11-09
+# 法令名=租税特別措置法 law_revision_id=332AC0000000026_20261101_507AC0000000013 改正法令=令和七年法律第十三号 施行日=2026-11-01 状態=CurrentEnforced
+# 取得URL=https://laws.e-gov.go.jp/api/2/law_data/332AC0000000026?response_format=json&asof=2026-11-09
+# 取得日時=20261109-175215
+# 生データ SHA-256=e6e6013bbc0608c6b48dea01d50ac847c3e5d094f0420223171ffe1b5cf8d5ee
+
+# ---- 附則（改正附則を含む）のうち、本文に次の文字列を含む条：四十一条の十五の五、生命保険料控除

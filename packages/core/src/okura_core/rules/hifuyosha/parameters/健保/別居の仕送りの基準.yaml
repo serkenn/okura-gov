@@ -1,0 +1,62 @@
+description: >-
+  同一の世帯に属しない認定対象者の仕送りの基準の型（注入点 健保.別居の仕送りの基準）の中の数値の規則。型そのものは保険者の運用で注入データ。
+  値は組合の基準・案内の現行の版（取得 2026-11-09）。適用開始日は資料に書かれていないので、対象の判定日の始まり（2025-01-01）とした。
+全収入に占める割合:
+  description: 送金が全収入（本人の収入と送金の合計）に占める割合の下限（以上。MONKA・OITA-TEBIKI・KOURITU-REI-F）
+  分子:
+    description: 割合の分子
+    metadata: &third
+      law: 組合の基準（文部科学省共済組合、公立学校共済組合大分支部・静岡支部）
+      source_kind: 保険者の案内
+      unit: 率
+      reference:
+        - docs/public-sources/20261109_round2_kyosai-separate-address.md#2
+    values:
+      2025-01-01: {value: 1}
+  分母:
+    description: 割合の分母
+    metadata: *third
+    values:
+      2025-01-01: {value: 3}
+月収の境:
+  description: 認定対象者の月収（仕送りを除く）の境（未満なら月の最低額、以上なら月収に対する割合。MIYAGI 基準-10）
+  metadata: &miyagi
+    law: 宮城県市町村職員共済組合 被扶養者認定基準及び取扱い 基準-10
+    source_kind: 保険者の案内
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_round2_kyosai-separate-address.md#2
+  values:
+    2025-01-01: {value: 100000, metadata: {比較: 未満}}
+月の最低額:
+  description: 月収が境未満のときの仕送りの月額の下限（以上）
+  metadata: *miyagi
+  values:
+    2025-01-01: {value: 50000, metadata: {比較: 以上}}
+月収に対する割合:
+  description: 月収が境以上のときの仕送りの月額の下限の割合（月収のこの割合以上。千円未満切捨て）
+  分子:
+    description: 割合の分子
+    metadata: *miyagi
+    values:
+      2025-01-01: {value: 1}
+  分母:
+    description: 割合の分母
+    metadata: *miyagi
+    values:
+      2025-01-01: {value: 2}
+端数の単位:
+  description: 必要な仕送りの月額の端数を切り捨てる単位（千円未満切捨て）
+  metadata: *miyagi
+  values:
+    2025-01-01: {value: 1000}
+年の最低額:
+  description: 仕送りの年間合計の下限（以上。FUKUOKA-KIJUN 第4 4）
+  metadata:
+    law: 福岡県市町村職員共済組合 被扶養者認定取扱基準 第4 4
+    source_kind: 保険者の案内
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_round2_kyosai-separate-address.md#2
+  values:
+    2025-01-01: {value: 650000, metadata: {比較: 以上}}

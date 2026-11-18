@@ -1,0 +1,18 @@
+{
+ "run_at": "20261111-231208",
+ "download_dir": ".work\\downloads\\20261111-231208_IMPL3_egov_fetch_lookup",
+ "lookups": [
+  {
+   "law_num": "平成十六年法律第百四号",
+   "url": "https://laws.e-gov.go.jp/api/2/laws?law_num=%E5%B9%B3%E6%88%90%E5%8D%81%E5%85%AD%E5%B9%B4%E6%B3%95%E5%BE%8B%E7%AC%AC%E7%99%BE%E5%9B%9B%E5%8F%B7&response_format=json",
+   "status": 200,
+   "hits": []
+  },
+  {
+   "law_num": "平成二十六年法律第六十四号",
+   "url": "https://laws.e-gov.go.jp/api/2/laws?law_num=%E5%B9%B3%E6%88%90%E4%BA%8C%E5%8D%81%E5%85%AD%E5%B9%B4%E6%B3%95%E5%BE%8B%E7%AC%AC%E5%85%AD%E5%8D%81%E5%9B%9B%E5%8F%B7&response_format=json",
+   "status": 200,
+   "hits": []
+  }
+ ]
+}

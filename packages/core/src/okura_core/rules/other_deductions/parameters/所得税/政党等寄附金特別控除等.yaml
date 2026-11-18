@@ -1,0 +1,92 @@
+description: >-
+  政党等寄附金特別控除（租税特別措置法第41条の18第2項）、認定NPO法人等寄附金特別控除（第41条の18の2第2項）、公益社団法人等寄附金特別控除（第41条の18の3第1項）。
+  式（率・百分の四十・二千円・百分の二十五・百円未満切捨て）は令和7年分・令和8年分で同じ（docs/public-sources/20261111_impl-research_seito-kifu-laws-and-nta.md §4）。
+政党等の率:
+  分子:
+    description: 政党等寄附金特別控除の控除率の分子（「百分の三十」）
+    metadata: &seito
+      law: 租税特別措置法第41条の18第2項
+      source_kind: 法律
+      reference:
+        - docs/public-sources/20261111_impl-research_seito-kifu-laws-and-nta.md#1
+        - docs/measurements/20261111_impl-research_phase2c-fetch-and-checks.md#5
+    values:
+      2025-01-01:
+        value: 30
+        metadata: &same
+          適用: 令和7年分・令和8年分で同じ（docs/public-sources/20261111_impl-research_seito-kifu-laws-and-nta.md §4）。この規定を設けた改正法と当初の施行日は docs で確かめていない
+  分母:
+    description: 同じ率の分母
+    metadata: *seito
+    values:
+      2025-01-01: {value: 100, metadata: *same}
+認定NPO法人等の率:
+  分子:
+    description: 認定NPO法人等寄附金特別控除の控除率の分子（「百分の四十」）
+    metadata: &npo
+      law: 租税特別措置法第41条の18の2第2項
+      source_kind: 法律
+      reference:
+        - docs/public-sources/20261111_impl-research_seito-kifu-laws-and-nta.md#2
+        - docs/measurements/20261111_impl-research_phase2c-fetch-and-checks.md#5
+    values:
+      2025-01-01: {value: 40, metadata: *same}
+  分母:
+    description: 同じ率の分母
+    metadata: *npo
+    values:
+      2025-01-01: {value: 100, metadata: *same}
+公益社団法人等の率:
+  分子:
+    description: 公益社団法人等寄附金特別控除の控除率の分子（「百分の四十」）
+    metadata: &koeki
+      law: 租税特別措置法第41条の18の3第1項
+      source_kind: 法律
+      reference:
+        - docs/public-sources/20261111_impl-research_seito-kifu-laws-and-nta.md#3
+        - docs/measurements/20261111_impl-research_phase2c-fetch-and-checks.md#5
+    values:
+      2025-01-01: {value: 40, metadata: *same}
+  分母:
+    description: 同じ率の分母
+    metadata: *koeki
+    values:
+      2025-01-01: {value: 100, metadata: *same}
+総所得金額等の率:
+  分子:
+    description: 寄附金の額の上限に使う、総所得金額等に乗じる率の分子（「百分の四十」）
+    metadata: &common
+      law: 租税特別措置法第41条の18第2項・第41条の18の2第2項・第41条の18の3第1項
+      source_kind: 法律
+      reference:
+        - docs/public-sources/20261111_impl-research_seito-kifu-laws-and-nta.md#1
+        - docs/public-sources/20261111_impl-research_seito-kifu-laws-and-nta.md#2
+        - docs/public-sources/20261111_impl-research_seito-kifu-laws-and-nta.md#3
+    values:
+      2025-01-01: {value: 40, metadata: *same}
+  分母:
+    description: 同じ率の分母
+    metadata: *common
+    values:
+      2025-01-01: {value: 100, metadata: *same}
+足切り:
+  description: 寄附金の額から差し引く額（「二千円」）
+  metadata: *common
+  values:
+    2025-01-01: {value: 2000, metadata: *same}
+税額の上限の率:
+  分子:
+    description: 控除額の上限に使う、所得税の額に乗じる率の分子（「百分の二十五」）
+    metadata: *common
+    values:
+      2025-01-01: {value: 25, metadata: *same}
+  分母:
+    description: 同じ率の分母
+    metadata: *common
+    values:
+      2025-01-01: {value: 100, metadata: *same}
+控除額の端数の単位:
+  description: 控除額・上限の額の端数を切り捨てる単位（「百円未満の端数があるときは、これを切り捨てる」）
+  metadata: *common
+  values:
+    2025-01-01: {value: 100, metadata: *same}

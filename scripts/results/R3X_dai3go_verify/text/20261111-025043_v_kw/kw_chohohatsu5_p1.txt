@@ -1,0 +1,42 @@
+# source=https://www.mhlw.go.jp/web/t_docsrch_keyword?keyword=%E5%BA%81%E4%BF%9D%E7%99%BA%E7%AC%AC%E4%BA%94%E5%8F%B7&type=1&mode=0&page=1
+# fetched_at=20261111-025043
+# charset=UTF-8
+
+結果一覧
+
+検索結果
+
+該当件数: 23件中 21件~ 23件
+
+[form action='??t_docsrch_keyword_ja??' method=None]
+
+		[input name='type' type='hidden' value='1']
+		[input name='page' type='hidden' value='1']
+		[input name='keyword' type='hidden' value='庁保発第五号']
+		[input name='mode' type='hidden' value='0']
+		[input name='sort' type='hidden' value='0']
+
+			前の20件
+
+				 | 件名
+				 |
+					制定年月日
+
+				 | 種別・番号
+
+				 | ・厚生年金保険法施行規則等の一部を改正する等の省令及び国民年金法施行規則の一部を改正する省令の施行による実施事務の取扱いについて
+				 ⟨別ウィンドウが開きます⟩
+				 | ◆平成11年03月30日
+				 | 庁保険発第5号
+
+				 | ・厚生年金保険法施行規則等の一部を改正する等の省令及び国民年金法施行規則の一部を改正する省令について
+				 ⟨別ウィンドウが開きます⟩
+				 | ◆平成11年03月30日
+				 | 庁保発第5号
+
+				 | ・地方分権の推進を図るための関係法律の整備等に関する法律等の施行に伴う国民年金事務の取扱いについて
+				 ⟨別ウィンドウが開きます⟩
+				 | ◆平成12年02月28日
+				 | 庁保険発第6号
+
+			前の20件

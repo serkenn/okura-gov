@@ -1,0 +1,6 @@
+# kokunen-rei 334CO0000000184 asof=2009-12-31
+# 取得URL=https://laws.e-gov.go.jp/api/2/law_data/334CO0000000184?response_format=json&asof=2009-12-31
+# 取得日時=20261109-202205
+# HTTP 400
+
+{"code":"400044","message":"法令の時点（asof）には2017-04-01以降を指定してください。"}

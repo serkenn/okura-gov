@@ -1,0 +1,37 @@
+{
+  "set": "nta",
+  "fetched_at_local": "20261109-153028",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "TA1180",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180.htm",
+      "content_type": "text/html",
+      "bytes": 23283,
+      "sha256": "c92803d8c75aa5c7971b19a0803e0cf1279d272ed7d9c71d4595c94e11d1771a",
+      "last_modified": "Wed, 09 Sep 2026 01:00:15 GMT",
+      "saved": ".work\\downloads\\20261109-153028_kenpo_verify_nta\\TA1180.html",
+      "charset": "utf-8",
+      "title": "No.1180 扶養控除｜国税庁",
+      "text_chars": 4162,
+      "text": ".work\\text\\20261109-153028_kenpo_verify_nta\\TA1180.txt"
+    },
+    {
+      "id": "TA1177",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1177.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1177.htm",
+      "content_type": "text/html",
+      "bytes": 19476,
+      "sha256": "f75c20fcbf5ef8fb52946c9ee8a43812fde662367644324462a5f0a74c9ca32a",
+      "last_modified": "Wed, 09 Sep 2026 01:00:15 GMT",
+      "saved": ".work\\downloads\\20261109-153028_kenpo_verify_nta\\TA1177.html",
+      "charset": "utf-8",
+      "title": "No.1177 特定親族特別控除｜国税庁",
+      "text_chars": 4003,
+      "text": ".work\\text\\20261109-153028_kenpo_verify_nta\\TA1177.txt"
+    }
+  ]
+}

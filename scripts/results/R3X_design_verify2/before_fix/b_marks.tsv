@@ -1,0 +1,159 @@
+doc	line	quoted	O_rows_listing_doc	best_O	best_score	O_rows_same_doc_and_words
+impl-prep_iryohi-model	109	未確認	O05,O39,O50	O02	1.0	O05
+impl-prep_iryohi-model	190	未確認	O05,O39,O50	O02	1.0	O05
+impl-prep_jigyo-calculation-model	34	未対応	O39,O40	O39	1.0	O39
+impl-prep_jigyo-calculation-model	43	未対応	O39,O40	O39	1.0	O39
+impl-prep_jigyo-calculation-model	54	未対応	O39,O40	O39	1.0	O39
+impl-prep_jigyo-calculation-model	60	不明	O39,O40	O32	1.0	O40
+impl-prep_jigyo-calculation-model	60	不明	O39,O40	O32	1.0	O40
+impl-prep_juminzei-judgment-model	94	既定値を使った	O43,O45	O43	1.0	O43
+impl-prep_kenpo-input-facts	47	今後1年の見込み	O02,O36,O57,O60	O01	0.29	
+impl-prep_kenpo-input-facts	47	見込む	O02,O36,O57,O60	O01	0.5	
+impl-prep_kenpo-input-facts	67	出典未確認	O02,O36,O57,O60	O02	1.0	O02
+impl-prep_kenpo-input-facts	79	同一世帯の判断が必要	O02,O36,O57,O60	O36	0.44	
+impl-prep_output-minimal-layer	51	1 医療費通知に記載された事項	O52	O49	0.31	
+impl-prep_output-minimal-layer	69	判定コアと様式の食い違い	O52	O48	0.36	
+impl-prep_output-minimal-layer	75	記入が必要（出力しない）	O52	O52	1.0	O52
+impl-prep_zeigaku-calc-model	99	判定できない（要確認）	O41	O41	1.0	O41
+round2_aoiro-model	62	見込みの事実が入っていたら申告用の値の出力を拒否する	O04,O06,O28,O29,O30,O31	O35	0.16	
+round2_aoiro-model	103	出典未確認の数え方	O04,O06,O28,O29,O30,O31	O06	1.0	O06
+round2_aoiro-model	110	対象外	O04,O06,O28,O29,O30,O31	O04	1.0	O04
+round2_aoiro-model	121	対象外	O04,O06,O28,O29,O30,O31	O04	1.0	O04
+round2_elderly-abroad-model	83	判断が必要	O02,O03,O10,O20,O24,O25	O36	1.0	O36
+round2_elderly-abroad-model	91	住民税についての出典未確認	O02,O03,O10,O20,O24,O25	O10	1.0	O10
+round2_elderly-abroad-model	109	出典未確認	O02,O03,O10,O20,O24,O25	O02	1.0	O02,O10
+round2_elderly-abroad-model	109	未確定	O02,O03,O10,O20,O24,O25	O03	1.0	O02,O03,O10
+round2_elderly-abroad-model	126	対象外	O02,O03,O10,O20,O24,O25	O04	1.0	
+round2_elderly-abroad-model	132	推定と異なる判断	O02,O03,O10,O20,O24,O25	O37	1.0	O37
+round2_elderly-abroad-model	140	未確定	O02,O03,O10,O20,O24,O25	O03	1.0	O02,O03,O10
+round2_elderly-abroad-model	141	75歳到達で資格を得る見込み	O02,O03,O10,O20,O24,O25	O56	0.23	
+round2_elderly-abroad-model	141	出典未確認	O02,O03,O10,O20,O24,O25	O02	1.0	O02,O10
+round2_elderly-abroad-model	163	出典未確認	O02,O03,O10,O20,O24,O25	O02	1.0	O02,O10
+round2_gaps-hypotheses	19	未確定	O01,O44	O03	1.0	
+round2_gaps-hypotheses	19	取りうる範囲で評価、決まらなければ未確定	O01,O44	O03	0.11	
+round2_gaps-hypotheses	124	見込みの作り方	O01,O44	O01	0.33	
+round2_gaps-hypotheses	124	見込み	O01,O44	O01	1.0	O01
+round2_gaps-hypotheses	126	未確定	O01,O44	O03	1.0	
+round2_gaps-hypotheses	136	見込み	O01,O44	O01	1.0	O01
+round2_genka-model	70	出典未確認	O02,O04,O36,O39	O02	1.0	O02
+round2_genka-model	80	出典未確認	O02,O04,O36,O39	O02	1.0	O02
+round2_genka-model	81	未対応	O02,O04,O36,O39	O39	1.0	O39
+round2_genka-model	102	出典未確認	O02,O04,O36,O39	O02	1.0	O02
+round2_genka-model	113	未対応	O02,O04,O36,O39	O39	1.0	O39
+round2_genka-model	113	未対応	O02,O04,O36,O39	O39	1.0	O39
+round2_genka-model	124	対象外	O02,O04,O36,O39	O04	1.0	O04
+round2_genka-model	124	未対応	O02,O04,O36,O39	O39	1.0	O39
+round2_genka-model	124	未対応	O02,O04,O36,O39	O39	1.0	O39
+round2_genka-model	128	年をまたぐ依存	O02,O04,O36,O39	O49	0.17	
+round2_genka-model	145	未確定	O02,O04,O36,O39	O03	1.0	O02
+round2_genka-model	149	出典未確認	O02,O04,O36,O39	O02	1.0	O02
+round2_genka-model	179	未確定	O02,O04,O36,O39	O03	1.0	O02
+round2_hoken-kifu-model	15	HANDOFF を正とし、食い違いはユーザーに確認する	O04,O16,O17,O42	O27	0.12	
+round2_hoken-kifu-model	56	出典は国税庁の説明（条文に定めなし）	O04,O16,O17,O42	O16	1.0	O16
+round2_hoken-kifu-model	56	出典未確認	O04,O16,O17,O42	O02	1.0	O17
+round2_hoken-kifu-model	112	所法第120条第1項の申告書を提出する義務がないと見込まれる者	O04,O16,O17,O42	O64	0.1	
+round2_hoken-kifu-model	119	対象外（理由：加入者以外の支払の扱いが未確認）	O04,O16,O17,O42	O14	0.21	
+round2_jinteki-model	54	未確定（判定時点が法令で決まらない）	O03,O22,O23,O25,O36	O03	0.13	
+round2_jinteki-model	54	注入されていなければ取りうる範囲で評価し、決まらなければ未確定	O03,O22,O23,O25,O36	O03	0.08	
+round2_jinteki-model	58	通達による取扱い	O03,O22,O23,O25,O36	O22	1.0	O22,O23
+round2_jinteki-model	60	法令の文言ではなく通達・質疑応答による	O03,O22,O23,O25,O36	O22	1.0	O22
+round2_jinteki-model	63	未確定	O03,O22,O23,O25,O36	O03	1.0	O03
+round2_jinteki-model	97	通知による取扱い	O03,O22,O23,O25,O36	O23	1.0	O22,O23
+round2_jinteki-model	112	通知の値	O03,O22,O23,O25,O36	O23	0.33	
+round2_jinteki-model	112	通知	O03,O22,O23,O25,O36	O23	1.0	O23,O25
+round2_jinteki-model	117	未確定（障害の程度の基準が保険者の運用で決まる）	O03,O22,O23,O25,O36	O62	0.14	
+round2_juminzei-tax-calc-model	98	出典：自治体の計算例	O03,O12,O13	O12	1.0	O12
+round2_juminzei-tax-calc-model	100	端数の扱いは一次情報で未確定	O03,O12,O13	O13	1.0	O13
+round2_juminzei-tax-calc-model	107	未確定	O03,O12,O13	O03	1.0	O03,O13
+round2_kokuho-core-vs-injected	76	今年の所得の見込み	O01,O03	O01	0.25	
+round2_kyosai-model	29	出典：組合の資料（大臣の定めの原文は未確認）	O02,O03,O11,O46,O47,O58	O11	1.0	O11
+round2_kyosai-model	55	同一世帯の扱いは保険者データ未注入のため未確定	O02,O03,O11,O46,O47,O58	O46	0.36	
+round2_kyosai-model	69	未確定	O02,O03,O11,O46,O47,O58	O03	1.0	O02,O03,O11,O62
+round2_kyosai-model	77	今後1年の見込み	O02,O03,O11,O46,O47,O58	O01	0.29	
+round2_kyosai-model	97	令和7年10月1日（地方・私学・健保と同じと推定、出典未確認）	O02,O03,O11,O46,O47,O58	O02	0.16	
+round2_kyosai-model	97	未確定	O02,O03,O11,O46,O47,O58	O03	1.0	O02,O03,O11,O62
+round2_kyosai-model	103	出典未確認	O02,O03,O11,O46,O47,O58	O02	1.0	O02,O11,O62
+round2_spouse-model	23	出典未確認	O01,O08,O09,O19,O25,O48	O02	1.0	O08,O09
+round2_spouse-model	62	解釈（国税庁の明示なし）	O01,O08,O09,O19,O25,O48	O19	1.0	O19
+round2_spouse-model	118	国の通知で決まる共通部分	O01,O08,O09,O19,O25,O48	O23	0.09	
+round2_spouse-model	119	条文未確認	O01,O08,O09,O19,O25,O48	O08	1.0	O08,O09
+round2_spouse-model	121	条文未確認（変更の日）	O01,O08,O09,O19,O25,O48	O09	1.0	O08,O09
+round2_spouse-model	148	解釈（国税庁の明示なし）	O01,O08,O09,O19,O25,O48	O19	1.0	O19
+round2_spouse-model	149	解釈（国税庁の明示なし）	O01,O08,O09,O19,O25,O48	O19	1.0	O19
+round2_spouse-model	150	出典未確認	O01,O08,O09,O19,O25,O48	O02	1.0	O08,O09
+round2_spouse-model	151	出典未確認	O01,O08,O09,O19,O25,O48	O02	1.0	O08,O09
+round2_spouse-model	152	条文未確認	O01,O08,O09,O19,O25,O48	O08	1.0	O08,O09
+round2_spouse-model	155	条文未確認（変更の日）	O01,O08,O09,O19,O25,O48	O09	1.0	O08,O09
+round2_yoshiki-mapping-table	45	あふれ	O04,O51,O52,O53,O54	O51	1.0	O51
+round2_yoshiki-mapping-table	50	不変条件	O04,O51,O52,O53,O54	O28	0.33	
+round2_yoshiki-mapping-table	50	判定コアと様式の食い違い	O04,O51,O52,O53,O54	O48	0.36	
+round2_yoshiki-mapping-table	148	条例指定か未確定	O04,O51,O52,O53,O54	O53	1.0	O53
+round2_yoshiki-mapping-table	212	未確定	O04,O51,O52,O53,O54	O03	1.0	O53,O54
+round2_yoshiki-mapping-table	215	対象外	O04,O51,O52,O53,O54	O04	1.0	O04
+round2_yoshiki-mapping-table	218	様式の注記	O04,O51,O52,O53,O54	O54	0.5	O54
+round2_yoshiki-mapping-table	218	既定	O04,O51,O52,O53,O54	O43	1.0	
+round2_yoshiki-mapping-table	225	受診者・病院等ごとにまとめて記入できます	O04,O51,O52,O53,O54	O41	0.06	
+round2_yoshiki-mapping-table	233	未確定	O04,O51,O52,O53,O54	O03	1.0	O53,O54
+round2b_fudosan-calculation-model	25	対象外	O02,O04,O21	O04	1.0	O04
+round2b_fudosan-calculation-model	25	推定	O02,O04,O21	O37	1.0	
+round2b_fudosan-calculation-model	46	出典未確認	O02,O04,O21	O02	1.0	O02,O21
+round2b_fudosan-calculation-model	65	推定	O02,O04,O21	O37	1.0	
+round2b_fudosan-calculation-model	80	対象外	O02,O04,O21	O04	1.0	O04
+round2b_fudosan-calculation-model	97	未確定	O02,O04,O21	O03	1.0	O02,O21
+round2b_fudosan-calculation-model	98	解釈未確認（所法56 の事業／TA2210 の業務）	O02,O04,O21	O21	0.19	
+round2b_invoice-model	35	未対応	O02,O39	O39	1.0	O39
+round2b_invoice-model	35	経理通達 5 により税込	O02,O39	O22	0.22	
+round2b_invoice-model	74	未確定	O02,O39	O03	1.0	O02
+round2b_invoice-model	115	出典未確認	O02,O39	O02	1.0	O02
+round2b_kabu-model	36	提出済みと矛盾	O02,O04,O18,O33,O63	O63	1.0	O63
+round2b_kabu-model	61	国税庁の解釈による（条文の読替えは未特定）	O02,O04,O18,O33,O63	O18	1.0	O18
+round2b_kabu-model	61	出典未確認	O02,O04,O18,O33,O63	O02	1.0	O02
+round2b_kabu-model	96	未確定の選択に基づく	O02,O04,O18,O33,O63	O33	1.0	O33
+round2b_kabu-model	153	対象外	O02,O04,O18,O33,O63	O04	1.0	O04
+round2b_nenkin-model	37	地方公共団体の案内と食い違いうる	O03,O04,O27,O36,O49	O27	1.0	O27
+round2b_nenkin-model	95	年分 Y の結果が、年分 Y 以降に記録された事実に依存する	O03,O04,O27,O36,O49	O49	0.45	
+round2b_nenkin-model	130	未確定	O03,O04,O27,O36,O49	O03	1.0	O03
+round2b_nenkin-model	131	未確定（端数処理）	O03,O04,O27,O36,O49	O13	0.5	
+round2b_taishoku-model	115	出典未確認の端数	O04,O07	O07	1.0	O07
+round2b_taishoku-model	117	出典未確認の端数	O04,O07	O07	1.0	O07
+round2b_taishoku-model	123	対象外	O04,O07	O04	1.0	O04
+round3_kyosai-b-parameters	12	共済組合の基準は、大臣の定めの原文が見つかるまで組合の案内を出典にし「原文未確認		O11	0.35	
+round3_kyosai-b-parameters	29	原文未確認		O08	0.75	
+round3_kyosai-b-parameters	37	大臣の定めに定めなし		O11	0.5	
+round3_kyosai-b-parameters	37	原文未確認		O08	0.75	
+round3_kyosai-b-parameters	39	原文未確認		O08	0.75	
+round3_kyosai-b-parameters	39	大臣の定めに定めなし		O11	0.5	
+round3_kyosai-b-parameters	45	原文未確認		O08	0.75	
+round3_kyosai-b-parameters	51	組合の案内（大臣の定めに明文なし）		O11	0.43	
+impl-prep_iryohi-s3-recheck	190	分割払いの扱いは未確認	O14,O50	O14	1.0	O14
+impl-prep_jigyo-inferences	62	未対応	O39	O39	1.0	O39
+impl-prep_jigyo-inferences	122	未対応（青色申告）	O39	O39	0.33	
+impl-prep_kenpo-test-cases	57	換算式に依存	O02,O64	O49	0.4	
+impl-prep_kenpo-test-cases	59	出典未確認の算入規則に依存	O02,O64	O06	0.42	
+round2_aoiro-cases	51	読みが未確定	O28,O29,O30,O31,O32	O31	1.0	O31
+round2_aoiro-cases	74	出典未確認	O28,O29,O30,O31,O32	O02	1.0	
+round2_aoiro-cases	120	未確定	O28,O29,O30,O31,O32	O03	1.0	O31
+round2_aoiro-cases	120	承認の有無が不明	O28,O29,O30,O31,O32	O32	1.0	O32
+round2_elderly-abroad-cases	96	判断が必要	O20,O24,O35	O36	1.0	
+round2_gaps-inferences	10	未確定	O01	O03	1.0	
+round2_gaps-inferences	29	未確定	O01	O03	1.0	
+round2_gaps-inferences	31	未確定	O01	O03	1.0	
+round2_gaps-inferences	92	見込み	O01	O01	1.0	O01
+round2_genka-examples	52	出典未確認		O02	1.0	
+round2_jinteki-cases	41	通達・質疑応答による	O22,O23,O55	O22	1.0	O22
+round2_jinteki-cases	59	未確定（判定時点が法令で決まらない／手帳の更新の扱いが不明）	O22,O23,O55	O13	0.15	
+round2_juminzei-tax-implications	26	端数の扱いは一次情報で未確定	O12,O13	O13	1.0	O13
+round2_kokuho-examples	82	保険料：未確定		O03	0.4	
+round2_kyosai-cases	101	出典未確認	O36,O62	O02	1.0	O62
+round2_kyosai-cases	110	未確定（国家公務員共済の150万円の適用日が未確認）	O36,O62	O62	0.36	
+round2_spouse-implications	57	解釈（国税庁の明示なし）	O08,O19,O48,O56	O19	1.0	O19
+round2_spouse-implications	107	条文未確認	O08,O19,O48,O56	O08	1.0	O08
+round2b_fudosan-inferences	39	未確定	O21	O03	1.0	O21
+round2b_fudosan-inferences	89	解釈未確認	O21	O21	1.0	O21
+round2b_invoice-cases	76	未対応（登録の前の免税の期間の取引の扱いが一次情報で確認できない）	O03,O39	O13	0.2	
+round2b_kabu-scenarios	69	未確定	O34	O03	1.0	
+round2b_kabu-scenarios	82	出典未確認	O34	O02	1.0	
+round2b_nenkin-cases	69	未確定（端数処理）	O49	O13	0.5	
+round2b_taishoku-inferences	51	出典未確認の端数	O07,O15	O07	1.0	O07
+round2b_taishoku-inferences	63	未確定	O07,O15	O03	1.0	O07,O15
+round2b_taishoku-inferences	69	退職所得の扱いは未確認	O07,O15	O15	1.0	O15

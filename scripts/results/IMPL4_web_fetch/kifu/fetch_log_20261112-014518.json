@@ -1,0 +1,115 @@
+{
+ "set": "kifu",
+ "fetched_at": "20261112-014518",
+ "download_dir": ".work/downloads/20261112-014518_IMPL4_web_fetch_kifu",
+ "robots": [
+  {
+   "host": "https://www.mof.go.jp",
+   "status": 404,
+   "sha256": "b42fa41db4960da2ea90a8964c9e1d6b5cf670977b35542515a9695a6782f084"
+  },
+  {
+   "host": "https://www.soumu.go.jp",
+   "status": 200,
+   "sha256": "e0cc280a3ed01a4ee4785320fdacf31ef4724eddf0a46eb860df651eaede55e4"
+  }
+ ],
+ "items": [
+  {
+   "id": "mof_ko_19650430_0154",
+   "url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/kokuji/KO-19650430-0154.pdf",
+   "final_url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/kokuji/KO-19650430-0154.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 05 Jun 2026 05:00:13 GMT",
+   "bytes": 165915,
+   "sha256": "20d113f07c5025956b5f7a202879e7f109ee4dea51a541d2651a36064c94ce27",
+   "saved": ".work/downloads/20261112-014518_IMPL4_web_fetch_kifu/mof_ko_19650430_0154.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "mof_ko_20261013_277",
+   "url": "https://www.mof.go.jp/tax_policy/reference/KO-20261013-277.pdf",
+   "final_url": "https://www.mof.go.jp/tax_policy/reference/KO-20261013-277.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Wed, 14 Oct 2026 01:00:10 GMT",
+   "bytes": 36128,
+   "sha256": "5198ebd77eec4f7dd6b2f04ce9086fb7489524fe342bdc644cb55dac155b6467",
+   "saved": ".work/downloads/20261112-014518_IMPL4_web_fetch_kifu/mof_ko_20261013_277.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "mof_ko_20240930_242",
+   "url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/kokuji/KO-20240930-242.pdf",
+   "final_url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/kokuji/KO-20240930-242.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 01 Oct 2024 01:34:49 GMT",
+   "bytes": 36145,
+   "sha256": "e8ed52346fa93945e93828ebea5c23ebf1e45a94916b3f6c74b4fe40777732b7",
+   "saved": ".work/downloads/20261112-014518_IMPL4_web_fetch_kifu/mof_ko_20240930_242.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "soumu_001096071",
+   "url": "https://www.soumu.go.jp/main_content/001096071.pdf",
+   "final_url": "https://www.soumu.go.jp/main_content/001096071.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 13 Oct 2026 01:03:09 GMT",
+   "bytes": 50951,
+   "sha256": "3dd6952cedace60e5fb8f6fa6eb26cabf29c2f2533517309e4c5f2fc710f2054",
+   "saved": ".work/downloads/20261112-014518_IMPL4_web_fetch_kifu/soumu_001096071.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "soumu_000698503",
+   "url": "https://www.soumu.go.jp/main_content/000698503.pdf",
+   "final_url": "https://www.soumu.go.jp/main_content/000698503.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Mon, 30 Mar 2026 05:29:11 GMT",
+   "bytes": 62960,
+   "sha256": "433c83afbc705b5c2226074e75918a329d076eb8cee83fd1578b89aa93233eae",
+   "saved": ".work/downloads/20261112-014518_IMPL4_web_fetch_kifu/soumu_000698503.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "soumu_000948010",
+   "url": "https://www.soumu.go.jp/main_content/000948010.pdf",
+   "final_url": "https://www.soumu.go.jp/main_content/000948010.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Sat, 01 Jun 2024 14:02:36 GMT",
+   "bytes": 48766,
+   "sha256": "5f0f4b2982be2dcf5aba1e3e7d369e898817b565f72eb4b56e73b22595293bcc",
+   "saved": ".work/downloads/20261112-014518_IMPL4_web_fetch_kifu/soumu_000948010.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "soumu_000614893",
+   "url": "https://www.soumu.go.jp/main_content/000614893.pdf",
+   "final_url": "https://www.soumu.go.jp/main_content/000614893.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Sat, 01 Jun 2024 16:14:02 GMT",
+   "bytes": 88159,
+   "sha256": "c3fb7dc02b57e11e8f5ae57e8657217b57adfa5e499c56925c774db1d7bc50e7",
+   "saved": ".work/downloads/20261112-014518_IMPL4_web_fetch_kifu/soumu_000614893.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "soumu_se_080331_08152_a",
+   "url": "https://www.soumu.go.jp/menu_hourei/s_hourei/pdf/se_080331_08152_a.pdf",
+   "final_url": "https://www.soumu.go.jp/menu_hourei/s_hourei/pdf/se_080331_08152_a.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Wed, 25 Feb 2009 10:17:39 GMT",
+   "bytes": 104603,
+   "sha256": "5d3e87fb67378c297b7eed405bcd2fe7236e3f335f6799d5b3ab3fc76693162a",
+   "saved": ".work/downloads/20261112-014518_IMPL4_web_fetch_kifu/soumu_se_080331_08152_a.pdf",
+   "pdf_header_ok": true
+  }
+ ]
+}

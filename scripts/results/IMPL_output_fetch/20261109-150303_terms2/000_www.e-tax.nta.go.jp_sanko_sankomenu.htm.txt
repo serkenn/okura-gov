@@ -1,0 +1,32 @@
+# source=https://www.e-tax.nta.go.jp/sanko/sankomenu.htm
+# final_url=https://www.e-tax.nta.go.jp/sanko/sankomenu.htm
+# fetched_at=2026-11-09T15:03:05+0900
+# sha256=60fa95c460b588b205ee657321aaa25e53fe49294b45bd686093ded4b057df60
+# encoding=utf-8
+
+参考事項【e-Tax】国税電子申告・納税システム(イータックス)
+本文へ
+ホーム
+参考事項
+参考事項
+各種情報
+e-Taxホームページについて
+各種情報
+e-Taxの利用可能時間
+お知らせ一覧
+還付金処理状況確認
+振替納税結果確認
+e-Taxの利用状況等について
+e-Taxで利用できる電子証明書
+e-Tax関係法令等
+利用可能文字一覧
+e-Taxバナーについて
+リンク集
+国税庁e-Taxキャラクターについて
+e-Taxに関するアンケート
+e-Taxについて知る
+動画でわかるe-Tax
+e-Taxホームページについて
+このサイトについて
+利用規約・免責事項・著作権
+e-Taxホームページにおける個人情報保護方針

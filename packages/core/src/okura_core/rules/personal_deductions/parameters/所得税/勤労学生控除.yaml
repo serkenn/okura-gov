@@ -1,0 +1,14 @@
+description: 勤労学生控除（所得税法第82条第1項）の額。
+額:
+  description: 勤労学生控除の額
+  metadata:
+    law: 所得税法第82条第1項
+    source_kind: 法律
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_R1-laws_income-tax.md#2
+  values:
+    2025-01-01:
+      value: 270000
+      metadata:
+        適用: 令和7年分・令和8年分（R1 §2 の表）

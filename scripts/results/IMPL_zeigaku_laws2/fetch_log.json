@@ -1,0 +1,115 @@
+{
+ "run_at": "20261109-145751",
+ "download_dir": ".work\\downloads\\20261109-145751_IMPL_zeigaku_laws2",
+ "fetches": [
+  {
+   "short": "kokunen-rei",
+   "title": "国民年金法施行令",
+   "law_id": "334CO0000000184",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/334CO0000000184?response_format=json&asof=2026-11-09",
+   "law_revision_id": "334CO0000000184_20261001_508CO0000000226",
+   "amendment_enforcement_date": "2026-10-01",
+   "current_revision_status": "CurrentEnforced",
+   "picked": [
+    [
+     "本則",
+     "5_4"
+    ],
+    [
+     "本則",
+     "6_7"
+    ],
+    [
+     "本則",
+     "6_8_2"
+    ],
+    [
+     "本則",
+     "6_12"
+    ]
+   ]
+  },
+  {
+   "short": "kokunen-ki",
+   "title": "国民年金法施行規則",
+   "law_id": "335M50000100012",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/335M50000100012?response_format=json&asof=2026-11-09",
+   "law_revision_id": "335M50000100012_20261001_508M60000100121",
+   "amendment_enforcement_date": "2026-10-01",
+   "current_revision_status": "CurrentEnforced",
+   "picked": []
+  },
+  {
+   "short": "tsusoku-rei",
+   "title": "国税通則法施行令",
+   "law_id": "337CO0000000135",
+   "asof": "2026-12-31",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/337CO0000000135?response_format=json&asof=2026-12-31",
+   "law_revision_id": "337CO0000000135_20260401_507CO0000000126",
+   "amendment_enforcement_date": "2026-04-01",
+   "current_revision_status": "CurrentEnforced",
+   "picked": [
+    [
+     "本則",
+     "40"
+    ]
+   ]
+  }
+ ],
+ "keyword": [
+  {
+   "keyword": "防衛特別所得税",
+   "asof": "2027-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/keyword?keyword=%E9%98%B2%E8%A1%9B%E7%89%B9%E5%88%A5%E6%89%80%E5%BE%97%E7%A8%8E&response_format=json&asof=2027-01-01&limit=100&sentences_limit=3",
+   "status": 200,
+   "total_count": 228,
+   "items": [
+    {
+     "law_id": "340AC0000000034",
+     "law_num": "昭和四十年法律第三十四号",
+     "law_title": "法人税法",
+     "law_revision_id": "340AC0000000034_20270101_508AC0000000012",
+     "amendment_enforcement_date": "2027-01-01",
+     "sentences": [
+      {
+       "position": "amendsupplprovision",
+       "text": "の防衛力の抜本的な強化等のために必要な財源の確保に関する特別措置法（令和五年法律第六十九号）第五条の六第四号イ及びロに掲げる所得につき同法第三章の二の規定により防衛特別所得税"
+      }
+     ]
+    },
+    {
+     "law_id": "505AC0000000069",
+     "law_num": "令和五年法律第六十九号",
+     "law_title": "我が国の防衛力の抜本的な強化等のために必要な財源の確保に関する特別措置法",
+     "law_revision_id": "505AC0000000069_20270101_508AC0000000012",
+     "amendment_enforcement_date": "2027-01-01",
+     "sentences": [
+      {
+       "position": "toc",
+       "text": "第三章の二　防衛特別所得税"
+      },
+      {
+       "position": "mainprovisiontoc",
+       "text": "第三章の二　防衛特別所得税"
+      },
+      {
+       "position": "mainprovision",
+       "text": "前項の規定及び復興財確法第十八条第二項の規定による防衛特別所得税及び復興特別所得税並びに所得税の納付があった場合においては、同条第三項の規定にかかわらず、その納付額を前項の規"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "keyword": "防衛特別所得税",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/keyword?keyword=%E9%98%B2%E8%A1%9B%E7%89%B9%E5%88%A5%E6%89%80%E5%BE%97%E7%A8%8E&response_format=json&asof=2026-11-09&limit=100&sentences_limit=3",
+   "status": 404,
+   "total_count": null,
+   "items": []
+  }
+ ],
+ "errors": []
+}

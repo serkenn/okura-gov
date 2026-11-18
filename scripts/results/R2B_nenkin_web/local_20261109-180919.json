@@ -1,0 +1,58 @@
+{
+  "set": "local",
+  "fetched_at_local": "20261109-180919",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "tokyo_kojin_ju",
+      "url": "https://www.tax.metro.tokyo.lg.jp/kazei/life/kojin_ju",
+      "status": 200,
+      "final_url": "https://www.tax.metro.tokyo.lg.jp/kazei/life/kojin_ju",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 613965,
+      "sha256": "1396b7ba78765514a0f631c27c53a49fb7216b88746790a0b167e60472e13fa2",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-180919_R2B_nenkin_local\\tokyo_kojin_ju.html",
+      "charset": "UTF-8",
+      "title": "個人住民税|暮らしと税金|東京都主税局",
+      "text_chars": 36126,
+      "text": ".work\\text\\20261109-180919_R2B_nenkin_local\\tokyo_kojin_ju.txt",
+      "n_links": 405
+    },
+    {
+      "id": "higashiosaka_0000001683",
+      "url": "https://www.city.higashiosaka.lg.jp/0000001683.html",
+      "status": 200,
+      "final_url": "https://www.city.higashiosaka.lg.jp/0000001683.html",
+      "content_type": "text/html",
+      "bytes": 26587,
+      "sha256": "5730f12fae0967f4fd6fd4527afab2dd804dc639993b761059cecc7aaa5c27a6",
+      "last_modified": "Sun, 08 Nov 2026 15:10:20 GMT",
+      "etag": "\"67db-65fc53e6f83ab\"",
+      "saved": ".work\\downloads\\20261109-180919_R2B_nenkin_local\\higashiosaka_0000001683.html",
+      "charset": "UTF-8",
+      "title": "公的年金等所得金額(雑所得)の計算方法 | 東大阪市",
+      "text_chars": 3108,
+      "text": ".work\\text\\20261109-180919_R2B_nenkin_local\\higashiosaka_0000001683.txt",
+      "n_links": 98
+    },
+    {
+      "id": "yokohama_faq_answer6",
+      "url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/zeikin/faq/answer6.html",
+      "status": 200,
+      "final_url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/zeikin/faq/answer6.html",
+      "content_type": "text/html",
+      "bytes": 56664,
+      "sha256": "00c3fc189ad8670526b2ad0f7d94dbd3b79b6d369df083c2454bac8571980290",
+      "last_modified": "Wed, 28 Oct 2026 06:16:39 GMT",
+      "etag": "\"dd58-65ee0818b8467\"",
+      "saved": ".work\\downloads\\20261109-180919_R2B_nenkin_local\\yokohama_faq_answer6.html",
+      "charset": "UTF-8",
+      "title": "お父さんの年金に対する税法上の取扱いはどうなっているのでしょうか？（令和７年度） 横浜市",
+      "text_chars": 8333,
+      "text": ".work\\text\\20261109-180919_R2B_nenkin_local\\yokohama_faq_answer6.txt",
+      "n_links": 221
+    }
+  ]
+}

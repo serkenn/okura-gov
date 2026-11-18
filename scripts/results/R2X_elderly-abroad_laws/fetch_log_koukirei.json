@@ -1,0 +1,23 @@
+{
+ "run_at": "20261109-175259",
+ "download_dir": ".work\\downloads\\20261109-175259_R2X_elderly-abroad_laws",
+ "user_agent": "okura-gov-research/0.1",
+ "only": [
+  "koukirei"
+ ],
+ "fetches": [
+  {
+   "short": "koukirei",
+   "law_id": "357AC0000000080",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/357AC0000000080?response_format=json&asof=2026-11-09",
+   "law_title": "高齢者の医療の確保に関する法律",
+   "law_revision_id": "357AC0000000080_20261001_507AC0000000087",
+   "amendment_law_num": "令和七年法律第八十七号",
+   "amendment_enforcement_date": "2026-10-01",
+   "current_revision_status": "CurrentEnforced",
+   "sha256": "54c58f6fd8b003178cfdc1b2c2d8894870a870c30b5f379e8931ff80f07a6a5b",
+   "bytes": 1064676
+  }
+ ]
+}

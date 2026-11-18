@@ -1,0 +1,19 @@
+{
+  "set": "unyo_old",
+  "fetched_at_local": "20261109-173902",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "courts_unyo_hoshin_R050328",
+      "url": "https://www.kyousai.courts.or.jp/files/user/img/houki/1-01.pdf",
+      "status": 200,
+      "final_url": "https://www.kyousai.courts.or.jp/files/user/img/houki/1-01.pdf",
+      "content_type": "application/pdf",
+      "bytes": 440489,
+      "sha256": "68e2b400231005213ee82054f261bdd85b292f25e9062f3fc50c2b4c08160e57",
+      "last_modified": "Tue, 25 Apr 2023 01:16:37 GMT",
+      "etag": "\"644729f5-6b8a9\"",
+      "saved": ".work\\downloads\\20261109-173902_R2X_kyosai_unyo_old\\courts_unyo_hoshin_R050328.pdf"
+    }
+  ]
+}

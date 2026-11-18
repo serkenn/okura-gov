@@ -1,0 +1,61 @@
+{
+  "set": "pmac_a",
+  "fetched_at_local": "20261109-200913",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "pmac_news_250910_00",
+      "url": "https://www.pmac.shigaku.go.jp/annai/news/topics/250910_00.html",
+      "status": 404,
+      "final_url": "https://www.pmac.shigaku.go.jp/annai/news/topics/250910_00.html",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 8709,
+      "sha256": "af9bea3c322fac73204e08e9a46cd3fbc39e4d1453cea215ef6e2c6a45cfc883",
+      "last_modified": null,
+      "etag": null,
+      "content_disposition": null,
+      "saved": ".work/downloads/20261109-200913_R3X_kyosai-b_pmac_a/pmac_news_250910_00.html",
+      "charset": "UTF-8",
+      "title": "ページが見つかりません（404 Not Found.）｜私学共済事業",
+      "text_chars": 1135,
+      "text": ".work/text/20261109-200913_R3X_kyosai-b_pmac_a/pmac_news_250910_00.txt",
+      "n_links": 19
+    },
+    {
+      "id": "pmac_qa_48",
+      "url": "https://www.pmac.shigaku.go.jp/qa/detail/qa_48.html",
+      "status": 200,
+      "final_url": "https://www.pmac.shigaku.go.jp/qa/detail/qa_48.html",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 20741,
+      "sha256": "149f5faa2a0521243c2598a653ce2bc26e93f794346e482d5b956e7b49ec8123",
+      "last_modified": null,
+      "etag": null,
+      "content_disposition": null,
+      "saved": ".work/downloads/20261109-200913_R3X_kyosai-b_pmac_a/pmac_qa_48.html",
+      "charset": "UTF-8",
+      "title": "19歳以上23歳未満の被扶養者認定にかかるQ&A｜私学共済事業",
+      "text_chars": 3218,
+      "text": ".work/text/20261109-200913_R3X_kyosai-b_pmac_a/pmac_qa_48.txt",
+      "n_links": 26
+    },
+    {
+      "id": "pmac_hifuyosya_09",
+      "url": "https://www.pmac.shigaku.go.jp/annai/shikaku/hifuyosya/hifuyosya_09/index.html",
+      "status": 200,
+      "final_url": "https://www.pmac.shigaku.go.jp/annai/shikaku/hifuyosya/hifuyosya_09/index.html",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 20461,
+      "sha256": "390aa721054083ea2f7b98bbb8a07a438e64e8d768079dab6962aee5b0effb68",
+      "last_modified": null,
+      "etag": null,
+      "content_disposition": null,
+      "saved": ".work/downloads/20261109-200913_R3X_kyosai-b_pmac_a/pmac_hifuyosya_09.html",
+      "charset": "UTF-8",
+      "title": "被扶養者でなくなるとき｜私学共済事業",
+      "text_chars": 5650,
+      "text": ".work/text/20261109-200913_R3X_kyosai-b_pmac_a/pmac_hifuyosya_09.txt",
+      "n_links": 35
+    }
+  ]
+}

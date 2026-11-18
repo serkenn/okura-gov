@@ -1,0 +1,20 @@
+{
+ "run_at": "20261112-014903",
+ "download_dir": ".work\\downloads\\20261112-014903_IMPL4_laws_egov",
+ "fetches": [
+  {
+   "short": "shafuku",
+   "law_id": "326AC0000000045",
+   "name": "社会福祉法",
+   "asof": "2026-11-12",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/326AC0000000045?response_format=json&asof=2026-11-12",
+   "status": 200,
+   "bytes": 896435,
+   "sha256": "9fc25fdb4af7ddd8632a62faf5f255a093abe97df4a12e01a2f4062d72e57351",
+   "law_revision_id": "326AC0000000045_20260625_508AC0000000051",
+   "amendment_law_num": "令和八年法律第五十一号",
+   "amendment_enforcement_date": "2026-06-25",
+   "current_revision_status": "CurrentEnforced"
+  }
+ ]
+}

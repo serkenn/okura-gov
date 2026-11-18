@@ -1,0 +1,16 @@
+{
+ "file": "012_www.nta.go.jp_taxes_shiraberu_shinkoku_tebiki_2025_pdf_037.pdf",
+ "sha256": "77c8ad203bbd04efcacf42c4c8c95a6a098b80784e51df66347812948b578900",
+ "bytes": 2576092,
+ "aes_selftest": true,
+ "encrypted": true,
+ "V": 5,
+ "R": 6,
+ "unsupported": "V5 以上（AESV3）の暗号化は未対応。文字は取り出していない",
+ "n_objects": 0,
+ "pages": [],
+ "form_ids": [],
+ "titles_in_dicts": [],
+ "n_rows": 0,
+ "n_codes": 0
+}

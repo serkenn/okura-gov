@@ -1,0 +1,34 @@
+{
+ "fetched_at_local": "20261111-025317",
+ "user_agent": "okura-gov-research/0.1",
+ "download_dir": ".work/downloads/20261111-025317_R3X_kyosai-b_verify_extra",
+ "results": [
+  {
+   "id": "pmac_qa_48",
+   "url": "https://www.pmac.shigaku.go.jp/qa/detail/qa_48.html",
+   "status": 200,
+   "bytes": 20741,
+   "sha256": "149f5faa2a0521243c2598a653ce2bc26e93f794346e482d5b956e7b49ec8123",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025317_R3X_kyosai-b_verify_extra/pmac_qa_48.html"
+  },
+  {
+   "id": "pcm_395081944",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=395081944",
+   "status": 200,
+   "bytes": 18163,
+   "sha256": "c1126ea68fbac56b0e44d0c7bf65706990c91cd0694a45c8e4fba06ee70f1a41",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025317_R3X_kyosai-b_verify_extra/pcm_395081944.html"
+  },
+  {
+   "id": "pcm_395081959",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=395081959",
+   "status": 200,
+   "bytes": 19016,
+   "sha256": "172c465e2679a255ccadc028e0341fdeabe140df37666c007fcf6926078f6abc",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025317_R3X_kyosai-b_verify_extra/pcm_395081959.html"
+  }
+ ]
+}

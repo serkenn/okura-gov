@@ -1,0 +1,154 @@
+description: >-
+  公的年金等控除額（所得税法第35条第4項）と65歳以上の最低控除額の特例（租税特別措置法第41条の15の3第1項・第4項）。
+  原文：docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md §2.1・§2.2（令和7年分〔asof 2025-12-31〕・令和8年分〔asof 2026-12-31〕・
+  2027-01-01 の版で第1項〜第4項は同文：docs/measurements/20261109_round2b_nenkin-fetch-and-checks.md V1）。
+  第5項（給与所得控除額との合計が280万円を超える場合の調整）は令和9年分以後（令和8年法律第12号）で、この木には入れていない
+  （令和9年分は判定コアの対象の年分の外）。当初の施行日（令和2年分以後の形にした改正）は docs で確かめていない。
+  円未満の端数の定めは第35条・措法41の15の3・国税庁の速算表のどれにもない（同 §10 の1）→ 規則モジュールの根拠のない端数の候補で評価する。
+区分:
+  第1号の上限:
+    description: 第1号の「公的年金等に係る雑所得以外の合計所得金額」の上限（千万円以下）
+    metadata: &art35_4
+      law: 所得税法第35条第4項（第1号「…合計所得金額…が千万円以下である場合」・第2号「千万円を超え二千万円以下」・第3号「二千万円を超える場合」）
+      source_kind: 法律
+      reference:
+        - docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md#2.1
+        - docs/measurements/20261109_round2b_nenkin-fetch-and-checks.md
+    values:
+      2025-01-01: {value: 10000000, metadata: {比較: 以下, 適用: 令和7年分・令和8年分の版で同文（実測 V1）}}
+  第2号の上限:
+    description: 第2号の「公的年金等に係る雑所得以外の合計所得金額」の上限（二千万円以下）
+    metadata: *art35_4
+    values:
+      2025-01-01: {value: 20000000, metadata: {比較: 以下, 適用: 令和7年分・令和8年分の版で同文（実測 V1）}}
+イ:
+  第1号:
+    description: 第1号イ（四十万円）
+    metadata: *art35_4
+    values:
+      2025-01-01: {value: 400000, metadata: {適用: 令和7年分・令和8年分の版で同文（実測 V1）}}
+  第2号:
+    description: 第2号イ（三十万円）
+    metadata: *art35_4
+    values:
+      2025-01-01: {value: 300000, metadata: {適用: 令和7年分・令和8年分の版で同文（実測 V1）}}
+  第3号:
+    description: 第3号イ（二十万円）
+    metadata: *art35_4
+    values:
+      2025-01-01: {value: 200000, metadata: {適用: 令和7年分・令和8年分の版で同文（実測 V1）}}
+最低額:
+  第1号:
+    description: 第1号の合計額が満たない場合の額（六十万円）
+    metadata: *art35_4
+    values:
+      2025-01-01: {value: 600000, metadata: {適用: 令和7年分・令和8年分の版で同文（実測 V1）}}
+  第2号:
+    description: 第2号の合計額が満たない場合の額（五十万円）
+    metadata: *art35_4
+    values:
+      2025-01-01: {value: 500000, metadata: {適用: 令和7年分・令和8年分の版で同文（実測 V1）}}
+  第3号:
+    description: 第3号の合計額が満たない場合の額（四十万円）
+    metadata: *art35_4
+    values:
+      2025-01-01: {value: 400000, metadata: {適用: 令和7年分・令和8年分の版で同文（実測 V1）}}
+ロ:
+  収入金額から控除する額:
+    description: 第1号ロ「その年中の公的年金等の収入金額から五十万円を控除した残額」の五十万円
+    metadata: *art35_4
+    values:
+      2025-01-01: {value: 500000, metadata: {適用: 令和7年分・令和8年分の版で同文（実測 V1）}}
+  第1区分:
+    上限:
+      description: ロ(1)「当該残額が三百六十万円以下である場合」
+      metadata: *art35_4
+      values:
+        2025-01-01: {value: 3600000, metadata: {比較: 以下}}
+    率:
+      分子:
+        description: ロ(1)「当該残額の百分の二十五」の分子
+        metadata: *art35_4
+        values:
+          2025-01-01: {value: 25}
+      分母:
+        description: ロ(1)「当該残額の百分の二十五」の分母
+        metadata: *art35_4
+        values:
+          2025-01-01: {value: 100}
+  第2区分:
+    上限:
+      description: ロ(2)「三百六十万円を超え七百二十万円以下である場合」
+      metadata: *art35_4
+      values:
+        2025-01-01: {value: 7200000, metadata: {比較: 以下}}
+    基礎:
+      description: ロ(2)「九十万円と…」の九十万円
+      metadata: *art35_4
+      values:
+        2025-01-01: {value: 900000}
+    率:
+      分子:
+        description: ロ(2)「当該残額から三百六十万円を控除した金額の百分の十五」の分子
+        metadata: *art35_4
+        values:
+          2025-01-01: {value: 15}
+      分母:
+        description: ロ(2) の率の分母
+        metadata: *art35_4
+        values:
+          2025-01-01: {value: 100}
+  第3区分:
+    上限:
+      description: ロ(3)「七百二十万円を超え九百五十万円以下である場合」
+      metadata: *art35_4
+      values:
+        2025-01-01: {value: 9500000, metadata: {比較: 以下}}
+    基礎:
+      description: ロ(3)「百四十四万円と…」の百四十四万円
+      metadata: *art35_4
+      values:
+        2025-01-01: {value: 1440000}
+    率:
+      分子:
+        description: ロ(3)「当該残額から七百二十万円を控除した金額の百分の五」の分子
+        metadata: *art35_4
+        values:
+          2025-01-01: {value: 5}
+      分母:
+        description: ロ(3) の率の分母
+        metadata: *art35_4
+        values:
+          2025-01-01: {value: 100}
+  第4区分の額:
+    description: ロ(4)「当該残額が九百五十万円を超える場合　百五十五万五千円」
+    metadata: *art35_4
+    values:
+      2025-01-01: {value: 1555000}
+六十五歳以上の特例:
+  年齢:
+    description: 措法41の15の3第1項「年齢が六十五歳以上である個人」（判定は第4項：その年12月31日〔死亡・出国の時〕の年齢）
+    metadata: &sochi41_15_3
+      law: 租税特別措置法第41条の15の3第1項・第4項（公的年金等控除の最低控除額等の特例）
+      source_kind: 法律
+      reference:
+        - docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md#2.2
+        - docs/measurements/20261109_round2b_nenkin-fetch-and-checks.md
+    values:
+      2025-01-01: {value: 65, metadata: {比較: 以上, unit: 歳, 適用: 平成十七年以後の各年（第1項）。令和7年分・令和8年分の版で同文（実測 V1）}}
+  最低額:
+    第1号:
+      description: 第1号の「六十万円」を「百十万円」と読み替える
+      metadata: *sochi41_15_3
+      values:
+        2025-01-01: {value: 1100000, metadata: {unit: 円}}
+    第2号:
+      description: 第2号の「五十万円」を「百万円」と読み替える
+      metadata: *sochi41_15_3
+      values:
+        2025-01-01: {value: 1000000, metadata: {unit: 円}}
+    第3号:
+      description: 第3号の「四十万円」を「九十万円」と読み替える
+      metadata: *sochi41_15_3
+      values:
+        2025-01-01: {value: 900000, metadata: {unit: 円}}

@@ -1,0 +1,134 @@
+{
+ "set": "hifuyosha",
+ "fetched_at": "20261112-014535",
+ "download_dir": ".work/downloads/20261112-014535_IMPL4_web_fetch_hifuyosha",
+ "robots": [
+  {
+   "host": "https://fukuoka-kyosai.jp",
+   "status": 200,
+   "sha256": "99ae0e1443f5394aeb0b6c2c0ed6aab638d290c647873351a3cb8006ff647c63"
+  },
+  {
+   "host": "https://jinji.hiroshima-u.ac.jp",
+   "status": 404,
+   "sha256": "80c3fe2ae1062abf56456f52518bd670f9ec3917b7f85e152b347ac6b6faf880"
+  },
+  {
+   "host": "https://kyosai-nara.jp",
+   "status": 200,
+   "sha256": "3020e767b38931f878f3ed3d906edd5e31f950b2723928689cd7d368305c524c"
+  },
+  {
+   "host": "https://kyosai-ehime.or.jp",
+   "status": 404,
+   "sha256": "c462596930b6c62d491506cdfea067c054050e7db0136fec1e4a7c78da42532d"
+  },
+  {
+   "host": "https://www.kyosai.metro.tokyo.jp",
+   "status": 404,
+   "sha256": "2db30ff320efff08560bac122aa3bf16edec698da38476b5c45f491ee9d8b02a"
+  },
+  {
+   "host": "https://www.okayama-u.ac.jp",
+   "status": 404,
+   "sha256": "80c3fe2ae1062abf56456f52518bd670f9ec3917b7f85e152b347ac6b6faf880"
+  },
+  {
+   "host": "https://www.mhlw.go.jp",
+   "status": 200,
+   "sha256": "d410a20234092a01e07cc6531920a5fedda6a96faaa073d94b95bd4c4a436144"
+  }
+ ],
+ "items": [
+  {
+   "id": "fukuoka_kijun",
+   "url": "https://fukuoka-kyosai.jp/reiki_int/reiki_honbun/x650RG00000067.html",
+   "final_url": "https://fukuoka-kyosai.jp/reiki_int/reiki_honbun/x650RG00000067.html",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 20 Oct 2026 01:58:37 GMT",
+   "bytes": 216058,
+   "sha256": "169b47abbe55461875ba7c09cf2669f92d164993f62a8d8d50b1350547d8c683",
+   "saved": ".work/downloads/20261112-014535_IMPL4_web_fetch_hifuyosha/fukuoka_kijun.htm",
+   "title": "被扶養者認定取扱基準",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "hiroshima_130moushitate",
+   "url": "https://jinji.hiroshima-u.ac.jp/kyosai/news/kennin/130moushitate.pdf",
+   "final_url": "https://jinji.hiroshima-u.ac.jp/kyosai/news/kennin/130moushitate.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Thu, 24 Aug 2023 01:12:20 GMT",
+   "bytes": 86805,
+   "sha256": "6f8141b6f64dba7f6fe2eca9263aef05adbe9b69fb430967fd33789dc018d8fb",
+   "saved": ".work/downloads/20261112-014535_IMPL4_web_fetch_hifuyosha/hiroshima_130moushitate.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "hiroshima_130moushitate_rei",
+   "url": "https://jinji.hiroshima-u.ac.jp/kyosai/news/kennin/130moushitate(rei).pdf",
+   "final_url": "https://jinji.hiroshima-u.ac.jp/kyosai/news/kennin/130moushitate(rei).pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Mon, 29 Aug 2022 00:54:24 GMT",
+   "bytes": 233211,
+   "sha256": "1bc996430be34c63b21a06d1fb41cab1cc1e91af462de2c55af318aa3206d367",
+   "saved": ".work/downloads/20261112-014535_IMPL4_web_fetch_hifuyosha/hiroshima_130moushitate_rei.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "nara_2018_01_18",
+   "url": "https://kyosai-nara.jp/pdf/sukoyaka/252/pdf/2018_01_18.pdf",
+   "skipped": "robots.txt で許されていない"
+  },
+  {
+   "id": "ehime_20250701",
+   "url": "https://kyosai-ehime.or.jp/upfile/filebank/topic/20250701ninteiyouken.pdf",
+   "final_url": "https://kyosai-ehime.or.jp/upfile/filebank/topic/20250701ninteiyouken.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 01 Jul 2025 04:38:59 GMT",
+   "bytes": 438798,
+   "sha256": "1c2b60530e4d2fce0a7df74505ca1e51e3d6b4c2a8ef495ace0f7a50592cfe15",
+   "saved": ".work/downloads/20261112-014535_IMPL4_web_fetch_hifuyosha/ehime_20250701.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "tokyo_fuyou",
+   "url": "https://www.kyosai.metro.tokyo.jp/prv/qualification/fuyou/data/55a3bd4406bd54df88e6c763846cb6f9.pdf",
+   "final_url": "https://www.kyosai.metro.tokyo.jp/prv/qualification/fuyou/data/55a3bd4406bd54df88e6c763846cb6f9.pdf",
+   "status": 404,
+   "content_type": "text/html; charset=UTF-8",
+   "last_modified": null,
+   "bytes": 20838,
+   "sha256": "f074a7e9c64d129662cc78e1f310c432ca7e04f1a48446c39aa3bc3085c8ea72",
+   "saved": ".work/downloads/20261112-014535_IMPL4_web_fetch_hifuyosha/tokyo_fuyou.pdf",
+   "pdf_header_ok": false
+  },
+  {
+   "id": "okayama_fuyo",
+   "url": "https://www.okayama-u.ac.jp/user/jinji/syotetuduki/hi/fuyo.pdf",
+   "final_url": "https://www.okayama-u.ac.jp/user/jinji/syotetuduki/hi/fuyo.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Thu, 07 Feb 2019 02:57:12 GMT",
+   "bytes": 261269,
+   "sha256": "3bcab2d413360eddb1d899f416cee75f66c19206a718fc2481ffdecb5c26346f",
+   "saved": ".work/downloads/20261112-014535_IMPL4_web_fetch_hifuyosha/okayama_fuyo.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "mhlw_001678029",
+   "url": "https://www.mhlw.go.jp/content/001678029.pdf",
+   "final_url": "https://www.mhlw.go.jp/content/001678029.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Wed, 01 Apr 2026 01:24:37 GMT",
+   "bytes": 179658,
+   "sha256": "dc76229c5e2a60a8fa6601736980d61ef8959140bb4726677b2aa9e2357d1b67",
+   "saved": ".work/downloads/20261112-014535_IMPL4_web_fetch_hifuyosha/mhlw_001678029.pdf",
+   "pdf_header_ok": true
+  }
+ ]
+}

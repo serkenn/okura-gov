@@ -1,0 +1,125 @@
+{
+ "file": "002_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_kaisei_250630_pdf_01.pdf",
+ "sha256": "40b6de59b2fb5bdcb83028f31b32f1049cc970ad1ebdca55b40c598a65c2519d",
+ "bytes": 207390,
+ "aes_selftest": true,
+ "encrypted": true,
+ "V": 4,
+ "R": 4,
+ "P": -1068,
+ "aes": true,
+ "key_len": 16,
+ "key_ok": true,
+ "encrypt_obj": 1601,
+ "n_objects": 1601,
+ "pages": [
+  {
+   "page": 1,
+   "obj": 64,
+   "mediabox": [
+    "0",
+    "0",
+    "595.32",
+    "841.92"
+   ],
+   "content_bytes": 30484,
+   "n_text_runs": 131,
+   "xobjects": []
+  },
+  {
+   "page": 2,
+   "obj": 65,
+   "mediabox": [
+    "0",
+    "0",
+    "595.32",
+    "841.92"
+   ],
+   "content_bytes": 33211,
+   "n_text_runs": 139,
+   "xobjects": []
+  },
+  {
+   "page": 3,
+   "obj": 66,
+   "mediabox": [
+    "0",
+    "0",
+    "595.32",
+    "841.92"
+   ],
+   "content_bytes": 34751,
+   "n_text_runs": 141,
+   "xobjects": []
+  },
+  {
+   "page": 4,
+   "obj": 67,
+   "mediabox": [
+    "0",
+    "0",
+    "595.32",
+    "841.92"
+   ],
+   "content_bytes": 35357,
+   "n_text_runs": 142,
+   "xobjects": []
+  },
+  {
+   "page": 5,
+   "obj": 68,
+   "mediabox": [
+    "0",
+    "0",
+    "595.32",
+    "841.92"
+   ],
+   "content_bytes": 11459,
+   "n_text_runs": 46,
+   "xobjects": []
+  },
+  {
+   "page": 6,
+   "obj": 69,
+   "mediabox": [
+    "0",
+    "0",
+    "595.32",
+    "841.92"
+   ],
+   "content_bytes": 4992,
+   "n_text_runs": 20,
+   "xobjects": []
+  },
+  {
+   "page": 7,
+   "obj": 70,
+   "mediabox": [
+    "0",
+    "0",
+    "595.32",
+    "841.92"
+   ],
+   "content_bytes": 1977,
+   "n_text_runs": 7,
+   "xobjects": []
+  },
+  {
+   "page": 8,
+   "obj": 71,
+   "mediabox": [
+    "0",
+    "0",
+    "595.32",
+    "841.92"
+   ],
+   "content_bytes": 9042,
+   "n_text_runs": 40,
+   "xobjects": []
+  }
+ ],
+ "form_ids": [],
+ "titles_in_dicts": [],
+ "n_rows": 666,
+ "n_codes": 0
+}

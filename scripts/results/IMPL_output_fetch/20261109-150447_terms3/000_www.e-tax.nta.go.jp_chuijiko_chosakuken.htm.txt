@@ -1,0 +1,37 @@
+# source=https://www.e-tax.nta.go.jp/chuijiko/chosakuken.htm
+# final_url=https://www.e-tax.nta.go.jp/chuijiko/chosakuken.htm
+# fetched_at=2026-11-09T15:04:49+0900
+# sha256=325ea4c6f4fe446604518ed5bf800b79963934c2b8d6a6b88c8705ad834cd9f4
+# encoding=utf-8
+
+利用規約・免責事項・著作権 | 【e-Tax】国税電子申告・納税システム(イータックス)
+本文へ
+ホーム
+利用規約・免責事項・著作権
+利用規約・免責事項・著作権
+(1) コンテンツの利用について
+(2) リンク設定について
+(3) 商標について
+(4) その他
+(1) コンテンツの利用について
+e-Taxホームページで公開している情報（以下「コンテンツ」といいます。）の利用については、
+別に定める「
+国税庁ホームページ利用規約」が適用されます。
+(2) リンク設定について
+e-Taxホームページへのリンク設定は、ご自由に設定いただけます。
+e-Taxリンクバナーにつきましては、「e-Taxバナーについて」をご参照ください。
+【リンク先アドレス】
+https://www.e-tax.nta.go.jp/
+(3) 商標について
+Microsoft Edge logo、Microsoft Internet Explorer logo、Microsoft、Windows、Microsoft Edge、Internet Explorerは
+米国 Microsoft Corporation の米国およびその他の国における登録商標または商標です。
+Macintosh、Mac、MacOS および Safari は、米国およびその他の国で登録されている Apple Computer, Inc. の登録商標です。
+MMX, Pentium は、アメリカ合衆国およびその他の国におけるインテル　コーポレーションまたはその子会社の商標または登録商標です。
+Adobe、Adobeロゴ、Adobe Acrobat、Adobe Acrobat Reader、Adobe Reader、Flash は、Adobe Systems Incorporated（アドビシステムズ社）の商標です。
+Android、Google、Googleロゴ、Google Play、Google Playロゴ、ChromeおよびChromeロゴはGoogle LLCの商標です。
+QRコードは、株式会社デンソーウェーブの登録商標です。
+その他、記載されている会社名、製品名等は、各社の登録商標または商標です。
+なお、本文中では(R)、TMは明記していません。
+(4) その他
+当サイトは予告なく内容を変更・削除することがありますので、あらかじめご了承ください。
+当サイトの利用に関するご相談は、国税庁企画課までお願いします。

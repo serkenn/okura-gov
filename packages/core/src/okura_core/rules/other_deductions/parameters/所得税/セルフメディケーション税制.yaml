@@ -1,0 +1,25 @@
+description: >-
+  特定一般用医薬品等購入費を支払った場合の医療費控除の特例（租税特別措置法第41条の17第1項。所得税法第73条第1項の読替え：
+  足切りの額を「一万二千円」、上限を「八万八千円」とする）。令和7年分・令和8年分の版で本文が同じ
+  （docs/public-sources/20261109_impl-prep_iryohi-law-text.md §0.1・§4.1）。令和9年分以後は改正後の条（同 §4.4。対象年分の外）。
+足切り:
+  description: 読替え後の足切りの額（「一万二千円」）
+  metadata: &sochi41_17
+    law: 租税特別措置法第41条の17第1項（所得税法第73条第1項中「…の合計額の百分の五に相当する金額（当該金額が十万円を超える場合には、十万円）」とあるのは「一万二千円」と、「二百万円」とあるのは「八万八千円」と読み替える）
+    source_kind: 法律
+    reference:
+      - docs/public-sources/20261109_impl-prep_iryohi-law-text.md#4.1
+      - docs/public-sources/20261109_impl-prep_iryohi-law-text.md#0.1
+      - docs/measurements/20261109_impl-prep_iryohi-verification.md#2.1
+  values:
+    2025-01-01:
+      value: 12000
+      metadata: &r7r8
+        適用: >-
+          平成29年から令和8年までの各年（同項の読替え「平成二十九年から令和八年までの各年」）。令和7年分（asof 2025-12-31）・
+          令和8年分（asof 2026-12-31）の版で同文。この特例を設けた改正法と当初の施行日は docs で確かめていない
+控除の上限:
+  description: 読替え後の控除の額の上限（「八万八千円」）
+  metadata: *sochi41_17
+  values:
+    2025-01-01: {value: 88000, metadata: *r7r8}

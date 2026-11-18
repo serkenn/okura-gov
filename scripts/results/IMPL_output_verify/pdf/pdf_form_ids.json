@@ -1,0 +1,155 @@
+{
+ "aes_selftest": true,
+ "files": {
+  "pdf_05.pdf": {
+   "sha256": "686ecbd849ebe07b11a90d10421561669188e1cfd48b18962bf1be06965a0f24",
+   "key_ok": true,
+   "n_streams": 19,
+   "n_cmaps": 0,
+   "form_ids": [
+    {
+     "id": "NTA0KOA110020120",
+     "chars_4_to_6": [
+      "0(U+0030)",
+      "K(U+004B)",
+      "O(U+004F)"
+     ],
+     "via": "literal"
+    },
+    {
+     "id": "NTA0KOA110010120",
+     "chars_4_to_6": [
+      "0(U+0030)",
+      "K(U+004B)",
+      "O(U+004F)"
+     ],
+     "via": "literal"
+    }
+   ],
+   "etax_ids_K": [],
+   "raw_hits": [
+    {
+     "obj": 15,
+     "kind": "literal",
+     "text": "NTA0KOA110020120"
+    },
+    {
+     "obj": 22,
+     "kind": "literal",
+     "text": "NTA0KOA110010120"
+    }
+   ]
+  },
+  "pdf_ref1.pdf": {
+   "sha256": "7c602c74703668f06e37b5efe40bf924da885cc8387c7fc3c1dd7e5c8fcb23ea",
+   "key_ok": true,
+   "n_streams": 2,
+   "n_cmaps": 0,
+   "form_ids": [],
+   "etax_ids_K": [],
+   "raw_hits": []
+  },
+  "pdf_01.pdf": {
+   "sha256": "833e641919fbc1eb22605a1989c6514eabb742334528d04dd90736ae90afce46",
+   "key_ok": true,
+   "n_streams": 9,
+   "n_cmaps": 0,
+   "form_ids": [],
+   "etax_ids_K": [],
+   "raw_hits": []
+  },
+  "pdf_chohyo2027.pdf": {
+   "sha256": "52865038e7ef577d4b798c7e768a52641b5063475bcf73e9ae67d1a13d9c9d82",
+   "key_ok": null,
+   "n_streams": 11,
+   "n_cmaps": 2,
+   "form_ids": [],
+   "etax_ids_K": [
+    "KOA020:O(U+004F)",
+    "KOA110:O(U+004F)",
+    "KOA120:O(U+004F)",
+    "KOA130:O(U+004F)",
+    "KOA210:O(U+004F)",
+    "KOA220:O(U+004F)",
+    "KOA230:O(U+004F)",
+    "KOA240:O(U+004F)",
+    "KOA260:O(U+004F)",
+    "KOB040:O(U+004F)",
+    "KOB110:O(U+004F)",
+    "KOB130:O(U+004F)",
+    "KOB131:O(U+004F)",
+    "KOB140:O(U+004F)",
+    "KOB200:O(U+004F)",
+    "KOB440:O(U+004F)",
+    "KOB500:O(U+004F)",
+    "KOB540:O(U+004F)",
+    "KOB755:O(U+004F)",
+    "KOB827:O(U+004F)",
+    "KOB835:O(U+004F)",
+    "KOB850:O(U+004F)",
+    "KOB920:O(U+004F)",
+    "KOB930:O(U+004F)",
+    "KOB973:O(U+004F)",
+    "KOB978:O(U+004F)",
+    "KOB993:O(U+004F)",
+    "KOC010:O(U+004F)",
+    "KOC140:O(U+004F)",
+    "KOD010:O(U+004F)",
+    "KOD020:O(U+004F)",
+    "KOY020:O(U+004F)",
+    "KOZ060:O(U+004F)",
+    "KOZ150:O(U+004F)",
+    "KOZ200:O(U+004F)",
+    "KOZ210:O(U+004F)",
+    "KOZ290:O(U+004F)",
+    "KOZ900:O(U+004F)"
+   ],
+   "raw_hits": []
+  },
+  "pdf_chohyo2026.pdf": {
+   "sha256": "2968e84ba70f72730a9300c60232156e546ac098346c63ee79c41b9336dab068",
+   "key_ok": null,
+   "n_streams": 9,
+   "n_cmaps": 2,
+   "form_ids": [],
+   "etax_ids_K": [
+    "KOA020:O(U+004F)",
+    "KOA050:O(U+004F)",
+    "KOA070:O(U+004F)",
+    "KOA090:O(U+004F)",
+    "KOA260:O(U+004F)",
+    "KOB010:O(U+004F)",
+    "KOB040:O(U+004F)",
+    "KOB090:O(U+004F)",
+    "KOB130:O(U+004F)",
+    "KOB131:O(U+004F)",
+    "KOB140:O(U+004F)",
+    "KOB200:O(U+004F)",
+    "KOB240:O(U+004F)",
+    "KOB245:O(U+004F)",
+    "KOB440:O(U+004F)",
+    "KOB540:O(U+004F)",
+    "KOB550:O(U+004F)",
+    "KOB560:O(U+004F)",
+    "KOB565:O(U+004F)",
+    "KOB670:O(U+004F)",
+    "KOB790:O(U+004F)",
+    "KOB840:O(U+004F)",
+    "KOB920:O(U+004F)",
+    "KOB930:O(U+004F)",
+    "KOB975:O(U+004F)",
+    "KOC040:O(U+004F)",
+    "KOC050:O(U+004F)",
+    "KOC080:O(U+004F)",
+    "KOC110:O(U+004F)",
+    "KOC130:O(U+004F)",
+    "KOC140:O(U+004F)",
+    "KOC160:O(U+004F)",
+    "KOC200:O(U+004F)",
+    "KOC250:O(U+004F)",
+    "KOZ031:O(U+004F)"
+   ],
+   "raw_hits": []
+  }
+ }
+}

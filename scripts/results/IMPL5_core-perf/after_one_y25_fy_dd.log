@@ -1,0 +1,28 @@
+okura_core: C:\Users\user\Documents\okura-gov\.work\perf\dev_src\okura_core\__init__.py
+import 4.19s build_system 0.78s
+01_student_away_and_parent_on_assignment__one                  0.899s       601 KiB  ok=True
+01_student_away_and_parent_on_assignment__y25                  1.260s       807 KiB  ok=True
+02_medical_payer_differs_from_patient__one                    13.894s      1048 KiB  ok=True
+02_medical_payer_differs_from_patient__y25                     5.744s      1015 KiB  ok=True
+03_business_with_household_apportionment__one                 16.607s       467 KiB  ok=True
+03_business_with_household_apportionment__y25                  8.953s       417 KiB  ok=True
+04_forecast_and_plan_marks__one                                2.934s       487 KiB  ok=True
+04_forecast_and_plan_marks__y25                                1.653s       446 KiB  ok=True
+05_commuting_and_withholding_slip__one                         0.478s       414 KiB  ok=True
+05_commuting_and_withholding_slip__y25                         0.849s       415 KiB  ok=True
+06_phase3_insurance_and_resident_tax_facts__one               10.071s      1099 KiB  ok=True
+06_phase3_insurance_and_resident_tax_facts__y25               28.597s      1357 KiB  ok=True
+07_vocabulary_additions_2026_11_11__one                       17.166s      1530 KiB  ok=True
+07_vocabulary_additions_2026_11_11__y25                       16.644s      1175 KiB  ok=True
+08_vocabulary_additions_2026_11_12__one                      ERROR TypeError: unhashable type: 'dict'
+08_vocabulary_additions_2026_11_12__y25                      ERROR ValueError: 判断.国内源泉所得の内訳 の値の領域から候補を作れない（DecisionSlot.candidates を書く）
+09_external_tax_credit_2026_11_12__one                         0.854s       434 KiB  ok=True
+09_external_tax_credit_2026_11_12__y25                         0.901s       419 KiB  ok=True
+okura_core: C:\Users\user\Documents\okura-gov\.work\perf\dev_src\okura_core\__init__.py
+import 3.97s build_system 0.57s
+01_student_away_and_parent_on_assignment__fy                  11.741s       754 KiB  ok=True
+01_student_away_and_parent_on_assignment__dd                  25.277s        75 KiB  ok=True
+04_forecast_and_plan_marks__fy                                19.601s       379 KiB  ok=True
+04_forecast_and_plan_marks__dd                                31.957s        51 KiB  ok=True
+05_commuting_and_withholding_slip__fy                          0.465s       393 KiB  ok=True
+05_commuting_and_withholding_slip__dd                          0.738s        49 KiB  ok=True

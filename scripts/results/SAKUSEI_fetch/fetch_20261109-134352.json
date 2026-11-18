@@ -1,0 +1,29 @@
+{
+  "run": "20261109-134352",
+  "download_dir": ".work/downloads/20261109-134352_sakusei-assets",
+  "user_agent": "okura-gov-research/0.1",
+  "delay_sec": 2.5,
+  "results": [
+    {
+      "url": "https://www.keisan.nta.go.jp/robots.txt",
+      "fetched_at": "2026-11-09T13:43:52+0900",
+      "status": 404,
+      "error": "404",
+      "content_type": "text/html;charset=MS932",
+      "bytes": 5831,
+      "sha256": "e2bd8f0bfa6b6105614ebe0c51829c6780393b8668887227bafc56b71fbefc73",
+      "saved": "20261109-134352_sakusei-assets/000_robots.txt"
+    },
+    {
+      "url": "https://www.keisan.nta.go.jp/",
+      "fetched_at": "2026-11-09T13:43:55+0900",
+      "status": 200,
+      "final_url": "https://www.keisan.nta.go.jp/r7/ta_top.htm",
+      "content_type": "text/html",
+      "last_modified": "Sun, 08 Nov 2026 04:40:08 GMT",
+      "bytes": 2200,
+      "sha256": "8a0c07c51647246f3011cace93a47a0de3ed8caeb6a9980fb8010c927586a27e",
+      "saved": "20261109-134352_sakusei-assets/001_index"
+    }
+  ]
+}

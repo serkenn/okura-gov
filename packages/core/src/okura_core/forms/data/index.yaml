@@ -1,0 +1,17 @@
+# 様式の欄の対応表の年分の一覧（SCOPE §3「様式の欄の対応表」、HANDOFF D19 T5-2）。
+# 年分の鍵は西暦の年分。状態：公表済み（対応表を持つ）／未公表（拒否する。決める手段は「公表待ち」）。
+# 対応表は年分ごとのディレクトリの *.yaml（1ファイル＝1帳票。帳票の鍵は e-Tax の様式ID＋ページ：yoshiki-mapping-table H1）。
+年分:
+  2025:
+    状態: 公表済み
+    ディレクトリ: r07
+    出典:
+      - docs/public-sources/20261109_round2_yoshiki-forms-r07.md#1.4
+      - docs/public-sources/20261109_round2_yoshiki-forms-r07.md#11
+  2026:
+    状態: 未公表
+    理由: 令和8年分の申告書の様式は 2026-11-09 時点で未公表（国税庁の令和8年分の様式のページ r08.htm は 404、通達の改正一覧にも令和8年分の申告書はない）。第一表〜第四表は「令和七年分以降用」と印字されているが、令和8年分に同じ様式を使うかは公表まで決まらない（yoshiki-mapping-table H8）
+    出典:
+      - docs/public-sources/20261109_round2_yoshiki-forms-r07.md#11
+      - docs/public-sources/20261109_impl-prep_output-forms-and-specs.md#2.6
+      - docs/hypotheses/20261109_round2_yoshiki-mapping-table.md#H8

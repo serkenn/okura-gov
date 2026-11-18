@@ -1,0 +1,7 @@
+# source=https://www.mhlw.go.jp/web/t_itemsrch_result?type=1&startGengo=4&yearFrom=5&monthFrom=1&dayFrom=1&endGengo=4&yearTo=5&monthTo=12&dayTo=31&shubetsu=%E5%BA%81%E4%BF%9D%E7%99%BA&bango=
+# fetched_at=20261109-201022
+# charset=UTF-8
+
+エラー
+
+[ERR-WEB-023]種別のみが指定されています、発翰番号も指定してください。

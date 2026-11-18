@@ -1,0 +1,78 @@
+description: 控除対象扶養親族（所得税法第2条第1項第34号の2）の年齢と非居住者の区分。年齢はその年12月31日（死亡の時）の現況（第85条第3項）。
+居住者の年齢の下限:
+  description: 居住者である扶養親族が控除対象扶養親族となる年齢の下限（この年齢以上）
+  metadata:
+    law: 所得税法第2条第1項第34号の2イ
+    source_kind: 法律
+    unit: 歳
+    比較: 以上
+    reference:
+      - docs/public-sources/20261109_round2_elderly-abroad-laws.md#3.1
+      - docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md#1.2
+  values:
+    2025-01-01:
+      value: 16
+      metadata:
+        適用: 令和7年分・令和8年分（3版で同文）
+非居住者:
+  年齢の下限:
+    description: 非居住者である扶養親族が控除対象扶養親族となる年齢の下限（この年齢以上）
+    metadata:
+      law: 所得税法第2条第1項第34号の2ロ
+      source_kind: 法律
+      unit: 歳
+      比較: 以上
+      reference:
+        - docs/public-sources/20261109_round2_elderly-abroad-laws.md#3.1
+    values:
+      2025-01-01:
+        value: 16
+        metadata:
+          施行日: 2023-01-01
+          適用: 令和5年分以後（令和2年法律第8号附則第1条第6号「令和五年一月一日」・附則第3条。elderly-abroad-laws §3.1）
+  区分の要件のない年齢の上限:
+    description: 区分（留学・障害者・38万円以上の支払）の要件なしに控除対象扶養親族となる年齢の上限（この年齢未満）
+    metadata:
+      law: 所得税法第2条第1項第34号の2ロ（年齢十六歳以上三十歳未満の者）
+      source_kind: 法律
+      unit: 歳
+      比較: 未満
+      reference:
+        - docs/public-sources/20261109_round2_elderly-abroad-laws.md#3.1
+    values:
+      2025-01-01:
+        value: 30
+        metadata:
+          施行日: 2023-01-01
+          適用: 令和5年分以後（令和2年法律第8号附則第1条第6号「令和五年一月一日」・附則第3条）
+  区分の要件のない高い年齢の下限:
+    description: 区分の要件なしに控除対象扶養親族となる高い年齢の下限（年齢七十歳以上の者）
+    metadata:
+      law: 所得税法第2条第1項第34号の2ロ（年齢七十歳以上の者）
+      source_kind: 法律
+      unit: 歳
+      比較: 以上
+      reference:
+        - docs/public-sources/20261109_round2_elderly-abroad-laws.md#3.1
+    values:
+      2025-01-01:
+        value: 70
+        metadata:
+          施行日: 2023-01-01
+          適用: 令和5年分以後（令和2年法律第8号附則第1条第6号「令和五年一月一日」・附則第3条）
+  生活費等の支払の額の下限:
+    description: 年齢30歳以上70歳未満の非居住者が、その居住者からその年に受けている生活費又は教育費に充てるための支払の額の下限（この額以上）
+    metadata:
+      law: 所得税法第2条第1項第34号の2ロ(3)
+      source_kind: 法律
+      unit: 円
+      比較: 以上
+      reference:
+        - docs/public-sources/20261109_round2_elderly-abroad-laws.md#3.1
+        - docs/public-sources/20261109_round2_elderly-abroad-guidance.md#3.4
+    values:
+      2025-01-01:
+        value: 380000
+        metadata:
+          施行日: 2023-01-01
+          適用: 令和5年分以後（令和2年法律第8号附則第1条第6号「令和五年一月一日」・附則第3条）

@@ -1,0 +1,1635 @@
+## env
+{
+ "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+ "isolated": 1,
+ "utf8_mode": 1,
+ "実行日": "2026-11-09"
+}
+
+## V1_ソースの行番号
+{
+ "ok": true,
+ "result": {
+  "openfisca": {
+   "件数": 58,
+   "不一致": [],
+   "全件": [
+    {
+     "主張": "SRC1.1 parameters 引数（トレースの有無）",
+     "ファイル": "openfisca_core/simulations/simulation.py",
+     "行": "331-351",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.1 get_parameters_at_instant",
+     "ファイル": "openfisca_core/taxbenefitsystems/tax_benefit_system.py",
+     "行": "443-466",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.1 Period なら start",
+     "ファイル": "openfisca_core/taxbenefitsystems/tax_benefit_system.py",
+     "行": "462-463",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.1 values_list を先頭から",
+     "ファイル": "openfisca_core/parameters/parameter.py",
+     "行": "213-217",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.1 values_list は新しい順（行番号は文書に無い。補足）",
+     "ファイル": "openfisca_core/parameters/parameter.py",
+     "行": "77-80",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.1 null は子に登録されない",
+     "ファイル": "openfisca_core/parameters/parameter_node_at_instant.py",
+     "行": "23-34",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.1 式の選択",
+     "ファイル": "openfisca_core/variables/variable.py",
+     "行": "384-431",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.1 式の選択は period.start",
+     "ファイル": "openfisca_core/variables/variable.py",
+     "行": "412-413",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.2 Period.__str__",
+     "ファイル": "openfisca_core/periods/period_.py",
+     "行": "126-157",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.2 rolling year",
+     "ファイル": "openfisca_core/periods/period_.py",
+     "行": "139-144",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.2 1月始まりは年だけ",
+     "ファイル": "openfisca_core/periods/period_.py",
+     "行": "140-142",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.2 月",
+     "ファイル": "openfisca_core/periods/period_.py",
+     "行": "147-148",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.2 日",
+     "ファイル": "openfisca_core/periods/period_.py",
+     "行": "154-157",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.2 input_buffer のキー",
+     "ファイル": "openfisca_core/simulations/simulation_builder.py",
+     "行": "651-651",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.2 finalize_variables_init",
+     "ファイル": "openfisca_core/simulations/simulation_builder.py",
+     "行": "669-684",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.2 flat trace のキー",
+     "ファイル": "openfisca_core/tracers/flat_trace.py",
+     "行": "58-63",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.2 キャッシュは Period をキー（get）",
+     "ファイル": "openfisca_core/data_storage/in_memory_storage.py",
+     "行": "60-62",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.2 キャッシュは Period をキー（put）",
+     "ファイル": "openfisca_core/data_storage/in_memory_storage.py",
+     "行": "92-94",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.3 calculate_add",
+     "ファイル": "openfisca_core/simulations/simulation.py",
+     "行": "182-182",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.3 get_subperiods の合計",
+     "ファイル": "openfisca_core/simulations/simulation.py",
+     "行": "224-224",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.3 get_subperiods(MONTH)",
+     "ファイル": "openfisca_core/periods/period_.py",
+     "行": "486-490",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.3 first_month",
+     "ファイル": "openfisca_core/periods/period_.py",
+     "行": "892-896",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.4 trace の切り替え",
+     "ファイル": "openfisca_core/simulations/simulation.py",
+     "行": "67-76",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.4 Web API の /trace",
+     "ファイル": "openfisca_web_api/handlers.py",
+     "行": "67-90",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.4 TraceNode",
+     "ファイル": "openfisca_core/tracers/trace_node.py",
+     "行": "8-34",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.4 record_parameter_access",
+     "ファイル": "openfisca_core/tracers/full_tracer.py",
+     "行": "60-69",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.4 get_traced_child",
+     "ファイル": "openfisca_core/tracers/tracing_parameter_node_at_instant.py",
+     "行": "50-81",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.4 記録は ndarray か ALLOWED_PARAM_TYPES のとき",
+     "ファイル": "openfisca_core/tracers/tracing_parameter_node_at_instant.py",
+     "行": "78-79",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.4 ベクトルで引くと親の名前",
+     "ファイル": "openfisca_core/tracers/tracing_parameter_node_at_instant.py",
+     "行": "70-76",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.4 ALLOWED_PARAM_TYPES",
+     "ファイル": "openfisca_core/parameters/config.py",
+     "行": "24-24",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.4 trees",
+     "ファイル": "openfisca_core/tracers/full_tracer.py",
+     "行": "32-34",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.4 browse_trace",
+     "ファイル": "openfisca_core/tracers/full_tracer.py",
+     "行": "106-114",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.4 get_flat_trace / serialized",
+     "ファイル": "openfisca_core/tracers/full_tracer.py",
+     "行": "100-104",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.4 computation_log",
+     "ファイル": "openfisca_core/tracers/full_tracer.py",
+     "行": "36-39",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.4 ComputationLog.lines",
+     "ファイル": "openfisca_core/tracers/computation_log.py",
+     "行": "17-45",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.4 FlatTrace は上書きしない",
+     "ファイル": "openfisca_core/tracers/flat_trace.py",
+     "行": "15-31",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.4 FlatTrace の1件",
+     "ファイル": "openfisca_core/tracers/flat_trace.py",
+     "行": "45-56",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.4 serialize",
+     "ファイル": "openfisca_core/tracers/flat_trace.py",
+     "行": "66-84",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.5 Parameter の属性",
+     "ファイル": "openfisca_core/parameters/parameter.py",
+     "行": "47-72",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.5 値ごとのメタデータの継承",
+     "ファイル": "openfisca_core/parameters/parameter_at_instant.py",
+     "行": "34-37",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.5 値ごとのキー",
+     "ファイル": "openfisca_core/parameters/parameter_at_instant.py",
+     "行": "12-12",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.5 YAML の日付は文字列",
+     "ファイル": "openfisca_core/parameters/config.py",
+     "行": "29-33",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.6 dtype の表",
+     "ファイル": "openfisca_core/variables/config.py",
+     "行": "8-50",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.6 Variable.__init__ の dtype",
+     "ファイル": "openfisca_core/variables/variable.py",
+     "行": "116-116",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.6 補足（独立検証）：str だけは max_length で dtype が変わる",
+     "ファイル": "openfisca_core/variables/variable.py",
+     "行": "125-128",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.6 補足（独立検証）：知らないクラス属性はエラー（dtype をクラス属性で書けない）",
+     "ファイル": "openfisca_core/variables/variable.py",
+     "行": "177-186",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.6 check_set_value",
+     "ファイル": "openfisca_core/variables/variable.py",
+     "行": "437-466",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.6 列挙の名前",
+     "ファイル": "openfisca_core/variables/variable.py",
+     "行": "438-450",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.6 数値の文字列は eval_expression",
+     "ファイル": "openfisca_core/variables/variable.py",
+     "行": "451-452",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.6 numpy.array([value], dtype)",
+     "ファイル": "openfisca_core/variables/variable.py",
+     "行": "455-455",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.6 OverflowError も ValueError",
+     "ファイル": "openfisca_core/variables/variable.py",
+     "行": "456-464",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.6 Holder.set_input の文字列",
+     "ファイル": "openfisca_core/holders/holder.py",
+     "行": "239-240",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.6 Holder._to_array は astype",
+     "ファイル": "openfisca_core/holders/holder.py",
+     "行": "245-266",
+     "一致": true
+    },
+    {
+     "主張": "SRC1.6 _cast_formula_result",
+     "ファイル": "openfisca_core/simulations/simulation.py",
+     "行": "393-407",
+     "一致": true
+    },
+    {
+     "主張": "推測 I3 の前提：SimpleTracer.record_parameter_access は何もしない（行番号は文書に無い）",
+     "ファイル": "openfisca_core/tracers/simple_tracer.py",
+     "行": "43-46",
+     "一致": true
+    },
+    {
+     "主張": "推測 I3 の前提：Population はシミュレーションを持つ（行番号は文書に無い）",
+     "ファイル": "openfisca_core/populations/_core_population.py",
+     "行": "135-148",
+     "一致": true
+    },
+    {
+     "主張": "推測 I3 の前提：シミュレーションが population.simulation を設定（行番号は文書に無い）",
+     "ファイル": "openfisca_core/simulations/simulation.py",
+     "行": "78-80",
+     "一致": true
+    },
+    {
+     "主張": "実測 §9：openfisca_core.tools が numpy.testing を import（行番号は文書に無い）",
+     "ファイル": "openfisca_core/tools/__init__.py",
+     "行": "3-3",
+     "一致": true
+    }
+   ]
+  },
+  "beancount": {
+   "件数": 25,
+   "不一致": [],
+   "全件": [
+    {
+     "主張": "SRC2.1 parse_file",
+     "ファイル": "beancount/parser/parser.py",
+     "行": "188-227",
+     "一致": true
+    },
+    {
+     "主張": "SRC2.1 UTF-8 以外は ValueError",
+     "ファイル": "beancount/parser/parser.py",
+     "行": "212-213",
+     "一致": true
+    },
+    {
+     "主張": "SRC2.1 '-' は標準入力",
+     "ファイル": "beancount/parser/parser.py",
+     "行": "215-216",
+     "一致": true
+    },
+    {
+     "主張": "SRC2.1 ファイル名なら open(rb)",
+     "ファイル": "beancount/parser/parser.py",
+     "行": "220-221",
+     "一致": true
+    },
+    {
+     "主張": "SRC2.1 IOBase はそのまま",
+     "ファイル": "beancount/parser/parser.py",
+     "行": "222-223",
+     "一致": true
+    },
+    {
+     "主張": "SRC2.1 include は options に足すだけ",
+     "ファイル": "beancount/parser/grammar.py",
+     "行": "439-447",
+     "一致": true
+    },
+    {
+     "主張": "SRC2.2 _parse_recursive",
+     "ファイル": "beancount/loader.py",
+     "行": "376-376",
+     "一致": true
+    },
+    {
+     "主張": "SRC2.2 幅優先 pop(0)",
+     "ファイル": "beancount/loader.py",
+     "行": "414-414",
+     "一致": true
+    },
+    {
+     "主張": "SRC2.2 暗号化ファイルの判定",
+     "ファイル": "beancount/loader.py",
+     "行": "421-421",
+     "一致": true
+    },
+    {
+     "主張": "SRC2.2 is_encrypted_file",
+     "ファイル": "beancount/utils/encryption.py",
+     "行": "40-58",
+     "一致": true
+    },
+    {
+     "主張": "SRC2.2 gpg の起動",
+     "ファイル": "beancount/utils/encryption.py",
+     "行": "61-80",
+     "一致": true
+    },
+    {
+     "主張": "SRC2.2 Duplicate filename parsed",
+     "ファイル": "beancount/loader.py",
+     "行": "435-442",
+     "一致": true
+    },
+    {
+     "主張": "SRC2.2 does not exist（446 行は判定、文言は 450 行）",
+     "ファイル": "beancount/loader.py",
+     "行": "446-450",
+     "一致": true
+    },
+    {
+     "主張": "SRC2.2 include の glob",
+     "ファイル": "beancount/loader.py",
+     "行": "500-500",
+     "一致": true
+    },
+    {
+     "主張": "SRC2.2 読んだファイルの一覧",
+     "ファイル": "beancount/loader.py",
+     "行": "525-525",
+     "一致": true
+    },
+    {
+     "主張": "実測の環境：BEANCOUNT_DISABLE_LOAD_CACHE（スクリプトの注 loader.py:847）",
+     "ファイル": "beancount/loader.py",
+     "行": "847-847",
+     "一致": true
+    },
+    {
+     "主張": "実測 A1：use_cache=False はキャッシュを消す関数（行番号は文書に無い）",
+     "ファイル": "beancount/loader.py",
+     "行": "843-843",
+     "一致": true
+    },
+    {
+     "主張": "SRC2.3 document の相対パス",
+     "ファイル": "beancount/parser/grammar.py",
+     "行": "799-821",
+     "一致": true
+    },
+    {
+     "主張": "SRC2.3 abspath",
+     "ファイル": "beancount/parser/grammar.py",
+     "行": "816-819",
+     "一致": true
+    },
+    {
+     "主張": "SRC2.3 ops.documents の __plugins__",
+     "ファイル": "beancount/ops/documents.py",
+     "行": "17-17",
+     "一致": true
+    },
+    {
+     "主張": "SRC2.3 既定で動く（PLUGINS_PRE。行番号は文書に無い）",
+     "ファイル": "beancount/loader.py",
+     "行": "54-55",
+     "一致": true
+    },
+    {
+     "主張": "SRC2.3 option documents の走査",
+     "ファイル": "beancount/ops/documents.py",
+     "行": "35-67",
+     "一致": true
+    },
+    {
+     "主張": "SRC2.3 document の存在確認",
+     "ファイル": "beancount/ops/documents.py",
+     "行": "70-89",
+     "一致": true
+    },
+    {
+     "主張": "SRC2.3 documents の相対は台帳ファイル基準（行番号は文書に無い）",
+     "ファイル": "beancount/ops/documents.py",
+     "行": "115-117",
+     "一致": true
+    },
+    {
+     "主張": "SRC2.4 自動のメタデータ",
+     "ファイル": "beancount/core/interpolate.py",
+     "行": "236-242",
+     "一致": true
+    }
+   ]
+  },
+  "repo": {
+   "件数": 1,
+   "不一致": [],
+   "全件": [
+    {
+     "主張": "SRC2.2 R2 の prescan（glob の後に root を確かめる）",
+     "ファイル": "scripts/R2_beancount_check.py",
+     "行": "344-377",
+     "一致": true
+    }
+   ]
+  }
+ },
+ "seconds": 0.57
+}
+
+## V2_版の一致
+{
+ "ok": true,
+ "result": {
+  "openfisca clone HEAD": {
+   "HEAD": "ref: refs/heads/main",
+   "refs/heads/main": {
+    "sha": "db0484b54871b0a73e673478b3153841dba908e9",
+    "from": "loose"
+   },
+   "refs/tags/46.0.1": {
+    "sha": "5a9fb9e6d30b2b002c1ec1a022d57dfecffeafd4",
+    "from": "loose"
+   }
+  },
+  "openfisca venv と clone（main。CRLF を LF にして比較）": {
+   "共通": 167,
+   "差分あり": [],
+   "片方だけ（先）": [],
+   "片方だけ（後）": []
+  },
+  "openfisca 文書の表の6ファイル（venv と clone）": {
+   "openfisca_core/simulations/simulation_builder.py": true,
+   "openfisca_core/periods/period_.py": true,
+   "openfisca_core/tracers/flat_trace.py": true,
+   "openfisca_core/tracers/tracing_parameter_node_at_instant.py": true,
+   "openfisca_core/variables/config.py": true,
+   "openfisca_core/taxbenefitsystems/tax_benefit_system.py": true
+  },
+  "openfisca wheel と venv": {
+   "wheel": "openfisca_core-46.0.1-py3-none-any.whl",
+   "sha256": "09a4cdc1627684cb97a11d1aac50577fb8f0d3549b742480c5d3e1b8d9fa3a31",
+   "venv と同じバイト列のファイル数": 201,
+   "違うファイル": [],
+   "venv に無いファイル": []
+  },
+  "openfisca wheel の sha256 と PyPI の JSON（取得済み）": {
+   "PyPI": "09a4cdc1627684cb97a11d1aac50577fb8f0d3549b742480c5d3e1b8d9fa3a31",
+   "一致": true,
+   "PyPI の版": "46.0.1"
+  },
+  "beancount clone HEAD": {
+   "HEAD": "eeda2aa2a3204ffb980dab11220b2abde5e80b38",
+   "refs/tags/3.2.3": {
+    "sha": "eeda2aa2a3204ffb980dab11220b2abde5e80b38",
+    "from": "loose"
+   }
+  },
+  "beancount venv と clone（HEAD。CRLF を LF にして比較）": {
+   "共通": 161,
+   "差分あり": [],
+   "片方だけ（先）": [],
+   "片方だけ（後）": []
+  },
+  "beancount wheel と venv": {
+   "wheel": "beancount-3.2.3-cp311-cp311-win_amd64.whl",
+   "sha256": "851147a9f70c8efcc3d8642916b86f09b5f2e13ed48621385525c2422d98296f",
+   "venv と同じバイト列のファイル数": 173,
+   "違うファイル": [],
+   "venv に無いファイル": []
+  },
+  "venv の dist-info": [
+   "Flask_Cors-3.0.10.dist-info",
+   "StrEnum-0.4.15.dist-info",
+   "beancount-3.2.3.dist-info",
+   "beanquery-0.2.0.dist-info",
+   "blinker-1.9.0.dist-info",
+   "click-8.5.1.dist-info",
+   "colorama-0.4.6.dist-info",
+   "dpath-2.2.0.dist-info",
+   "flask-3.1.3.dist-info",
+   "gunicorn-22.0.0.dist-info",
+   "iniconfig-2.3.1.dist-info",
+   "itsdangerous-2.2.0.dist-info",
+   "jinja2-3.1.6.dist-info",
+   "markupsafe-3.0.4.dist-info",
+   "numexpr-2.14.2.dist-info",
+   "numpy-2.4.6.dist-info",
+   "openfisca_core-46.0.1.dist-info",
+   "packaging-26.3.dist-info",
+   "pendulum-3.3.0.dist-info",
+   "pluggy-1.7.0.dist-info",
+   "psutil-7.2.2.dist-info",
+   "pygments-2.21.0.dist-info",
+   "pytest-9.2.0.dist-info",
+   "python_dateutil-4.0.0.dist-info",
+   "pyyaml-6.0.3.dist-info",
+   "regex-2026.11.9.dist-info",
+   "six-1.17.0.dist-info",
+   "sortedcontainers-2.4.0.dist-info",
+   "tatsu_lts-5.16.0.dist-info",
+   "typing_extensions-4.16.0.dist-info",
+   "tzdata-2026.6.dist-info",
+   "werkzeug-3.1.9.dist-info"
+  ]
+ },
+ "seconds": 5.83
+}
+
+## V3_GitHub のタグと PyPI
+{
+ "ok": true,
+ "result": {
+  "https://github.com/openfisca/openfisca-core 46.0.1": {
+   "returncode": 0,
+   "lines": [
+    "5a9fb9e6d30b2b002c1ec1a022d57dfecffeafd4\trefs/tags/46.0.1"
+   ],
+   "stderr": ""
+  },
+  "https://github.com/beancount/beancount 3.2.3": {
+   "returncode": 0,
+   "lines": [
+    "eeda2aa2a3204ffb980dab11220b2abde5e80b38\trefs/tags/3.2.3"
+   ],
+   "stderr": ""
+  },
+  "beancount wheel の sha256 と PyPI": {
+   "取得": {
+    "status": 200,
+    "content_type": "application/json",
+    "last_modified": null,
+    "final_url": "https://pypi.org/pypi/beancount/3.2.3/json",
+    "bytes": 39337,
+    "sha256": "25fbd7215d7f2dade702f7ec5a8264b32bdc534bf946f5ea219605bbd05e128b",
+    "file": ".work/downloads/20261109-162343_IMPL_tools_verify_pypi_beancount/pypi_beancount_3.2.3.json"
+   },
+   "PyPI": "851147a9f70c8efcc3d8642916b86f09b5f2e13ed48621385525c2422d98296f",
+   "手元": "851147a9f70c8efcc3d8642916b86f09b5f2e13ed48621385525c2422d98296f",
+   "一致": true
+  }
+ },
+ "seconds": 6.46
+}
+
+## V4_floor の食い違いの再計算
+{
+ "ok": true,
+ "result": {
+  "方法": "float32(x) と float32(r) の積を倍精度で正確に求め、array('f') で float32 に丸めてから floor。float64 は Python の float で floor(x * (k/den))。正確な値は (x*k)//den（整数）。",
+  "x = 1,000 の倍数（0〜20,000,000）": {
+   "点の数": 20001,
+   "r=0.05": {
+    "float32": 0,
+    "float32 で x<2**24": 0,
+    "float32 の例": [],
+    "float64": 0,
+    "float64 の例": []
+   },
+   "r=0.1": {
+    "float32": 0,
+    "float32 で x<2**24": 0,
+    "float32 の例": [],
+    "float64": 0,
+    "float64 の例": []
+   },
+   "r=0.2": {
+    "float32": 0,
+    "float32 で x<2**24": 0,
+    "float32 の例": [],
+    "float64": 0,
+    "float64 の例": []
+   },
+   "r=0.3": {
+    "float32": 0,
+    "float32 で x<2**24": 0,
+    "float32 の例": [],
+    "float64": 0,
+    "float64 の例": []
+   },
+   "r=0.4": {
+    "float32": 0,
+    "float32 で x<2**24": 0,
+    "float32 の例": [],
+    "float64": 0,
+    "float64 の例": []
+   },
+   "r=0.29": {
+    "float32": 0,
+    "float32 で x<2**24": 0,
+    "float32 の例": [],
+    "float64": 5622,
+    "float64 の例": [
+     [
+      3000,
+      869,
+      870
+     ],
+     [
+      6000,
+      1739,
+      1740
+     ],
+     [
+      7000,
+      2029,
+      2030
+     ]
+    ]
+   },
+   "r=0.57": {
+    "float32": 0,
+    "float32 で x<2**24": 0,
+    "float32 の例": [],
+    "float64": 11301,
+    "float64 の例": [
+     [
+      3000,
+      1709,
+      1710
+     ],
+     [
+      5000,
+      2849,
+      2850
+     ],
+     [
+      6000,
+      3419,
+      3420
+     ]
+    ]
+   },
+   "r=0.021": {
+    "float32": 0,
+    "float32 で x<2**24": 0,
+    "float32 の例": [],
+    "float64": 0,
+    "float64 の例": []
+   }
+  },
+  "x = 3 刻み（0〜20,000,000）": {
+   "点の数": 6666667,
+   "r=0.05": {
+    "float32": 53713,
+    "float32 で x<2**24": 0,
+    "float32 の例": [
+     [
+      16777239,
+      838862,
+      838861
+     ],
+     [
+      16777299,
+      838865,
+      838864
+     ],
+     [
+      16777359,
+      838868,
+      838867
+     ]
+    ],
+    "float64": 0,
+    "float64 の例": []
+   },
+   "r=0.1": {
+    "float32": 53713,
+    "float32 で x<2**24": 0,
+    "float32 の例": [
+     [
+      16777239,
+      1677724,
+      1677723
+     ],
+     [
+      16777299,
+      1677730,
+      1677729
+     ],
+     [
+      16777359,
+      1677736,
+      1677735
+     ]
+    ],
+    "float64": 0,
+    "float64 の例": []
+   },
+   "r=0.2": {
+    "float32": 107426,
+    "float32 で x<2**24": 0,
+    "float32 の例": [
+     [
+      16777239,
+      3355448,
+      3355447
+     ],
+     [
+      16777245,
+      3355448,
+      3355449
+     ],
+     [
+      16777299,
+      3355460,
+      3355459
+     ]
+    ],
+    "float64": 0,
+    "float64 の例": []
+   },
+   "r=0.3": {
+    "float32": 1438787,
+    "float32 で x<2**24": 955370,
+    "float32 の例": [
+     [
+      3495273,
+      1048582,
+      1048581
+     ],
+     [
+      3495303,
+      1048591,
+      1048590
+     ],
+     [
+      3495333,
+      1048600,
+      1048599
+     ]
+    ],
+    "float64": 0,
+    "float64 の例": []
+   },
+   "r=0.4": {
+    "float32": 741709,
+    "float32 で x<2**24": 419431,
+    "float32 の例": [
+     [
+      10485762,
+      4194305,
+      4194304
+     ],
+     [
+      10485777,
+      4194311,
+      4194310
+     ],
+     [
+      10485792,
+      4194317,
+      4194316
+     ]
+    ],
+    "float64": 0,
+    "float64 の例": []
+   },
+   "r=0.29": {
+    "float32": 384985,
+    "float32 で x<2**24": 176880,
+    "float32 の例": [
+     [
+      1808031,
+      524329,
+      524328
+     ],
+     [
+      1808331,
+      524416,
+      524415
+     ],
+     [
+      1808631,
+      524503,
+      524502
+     ]
+    ],
+    "float64": 18749,
+    "float64 の例": [
+     [
+      1500,
+      434,
+      435
+     ],
+     [
+      3000,
+      869,
+      870
+     ],
+     [
+      3300,
+      956,
+      957
+     ]
+    ]
+   },
+   "r=0.57": {
+    "float32": 1301517,
+    "float32 で x<2**24": 798036,
+    "float32 の例": [
+     [
+      460107,
+      262261,
+      262260
+     ],
+     [
+      460407,
+      262432,
+      262431
+     ],
+     [
+      460707,
+      262603,
+      262602
+     ]
+    ],
+    "float64": 37679,
+    "float64 の例": [
+     [
+      300,
+      170,
+      171
+     ],
+     [
+      600,
+      341,
+      342
+     ],
+     [
+      1200,
+      683,
+      684
+     ]
+    ]
+   },
+   "r=0.021": {
+    "float32": 45079,
+    "float32 で x<2**24": 27937,
+    "float32 の例": [
+     [
+      1562619,
+      32815,
+      32814
+     ],
+     [
+      1565619,
+      32878,
+      32877
+     ],
+     [
+      1568619,
+      32941,
+      32940
+     ]
+    ],
+    "float64": 0,
+    "float64 の例": []
+   }
+  },
+  "率の2進表現（倍精度の正確な値）": {
+   "0.29": "0.289999999999999980015985556747182272374629974365234375",
+   "0.57": "0.56999999999999995115018691649311222136020660400390625",
+   "0.3": "0.299999999999999988897769753748434595763683319091796875",
+   "0.05": "0.05000000000000000277555756156289135105907917022705078125",
+   "0.1": "0.1000000000000000055511151231257827021181583404541015625"
+  },
+  "倍精度の積の例（repr）": {
+   "1500*0.29": "434.99999999999994",
+   "3000*0.29": "869.9999999999999",
+   "300*0.57": "170.99999999999997",
+   "10*0.3": "3.0",
+   "3000*0.3": "900.0"
+  },
+  "float32 への丸め": {
+   "16777216": 16777216.0,
+   "16777217": 16777216.0,
+   "20000001": 20000000.0,
+   "123456789": 123456792.0
+  },
+  "int32 のあふれ（2147483647 + 1 を 32 ビットで折り返す）": -2147483648,
+  "0 方向への丸め（C の (int) と同じ）": {
+   "1000001*0.3": 300000,
+   "-1000001*0.3": -300000,
+   "切り捨てなら": -300001
+  }
+ },
+ "seconds": 35.39
+}
+
+## V5_暦の再計算
+{
+ "ok": true,
+ "result": {
+  "rolling year の終わりと ADD の月": {
+   "year:2025-09-30": {
+    "stop": "2026-09-29",
+    "ADD の月": "2025-09〜2026-08",
+    "境目 2025-10-01 の新値か（start で判定）": false
+   },
+   "year:2025-10-01": {
+    "stop": "2026-09-30",
+    "ADD の月": "2025-10〜2026-09",
+    "境目 2025-10-01 の新値か（start で判定）": true
+   },
+   "year:2025-10-15": {
+    "stop": "2026-10-14",
+    "ADD の月": "2025-10〜2026-09",
+    "境目 2025-10-01 の新値か（start で判定）": true
+   },
+   "year:2025-10-31": {
+    "stop": "2026-10-30",
+    "ADD の月": "2025-10〜2026-09",
+    "境目 2025-10-01 の新値か（start で判定）": true
+   },
+   "year:2026-04-01": {
+    "stop": "2027-03-31",
+    "ADD の月": "2026-04〜2027-03",
+    "境目 2025-10-01 の新値か（start で判定）": true
+   },
+   "year:2025-09-01": {
+    "stop": "2026-08-31",
+    "ADD の月": "2025-09〜2026-08",
+    "境目 2025-10-01 の新値か（start で判定）": false
+   }
+  },
+  "P09 の年齢": {
+   "12月31日生": {
+    "暦 2025-12-31": 20,
+    "暦 2026-01-01": 20,
+    "暦 2026-09-30": 20,
+    "前日に加算と数えた 2025-12-31 の終わり": 20
+   },
+   "1月1日生": {
+    "暦 2025-12-31": 19,
+    "暦 2026-01-01": 20,
+    "暦 2026-09-30": 20,
+    "前日に加算と数えた 2025-12-31 の終わり": 20
+   },
+   "1月2日生": {
+    "暦 2025-12-31": 19,
+    "暦 2026-01-01": 19,
+    "暦 2026-09-30": 20,
+    "前日に加算と数えた 2025-12-31 の終わり": 19
+   },
+   "2月29日生": {
+    "暦 2025-12-31": 21,
+    "暦 2026-01-01": 21,
+    "暦 2026-09-30": 22,
+    "前日に加算と数えた 2025-12-31 の終わり": 21
+   }
+  },
+  "P10 見本の合計（子1・子2 の 2025 年）": {
+   "子1": 967800,
+   "子2": 979800
+  },
+  "P10 見本の年齢（2025-12-31）": {
+   "父": 55,
+   "母": 53,
+   "祖母": 80,
+   "子1": 20,
+   "子2": 19
+  },
+  "試験用の国パッケージの変数の数（class X(Variable)）": 34,
+  "パラメータのファイルの数": 5,
+  "beancount A5 の細工の数": 24
+ },
+ "seconds": 0.0
+}
+
+## V6_時間の比
+{
+ "ok": true,
+ "result": {
+  "家族5人（子2）・年分2・健保の判定日6（計8シミュレーション）": {
+   "trace の有無の差（プロセス内、trace なしに対する %）": 5.17,
+   "import_s / wall（trace あり 1回目）": 0.726,
+   "import_s / wall（trace なし 1回目）": 0.748,
+   "evaluate_s（CLI、trace あり / なし）": [
+    0.1196,
+    0.115
+   ],
+   "プロセス内 evaluate（あり / なし）": [
+    0.1628,
+    0.1548
+   ],
+   "peak_wset_MB（あり / なし）": [
+    46.4,
+    46.0
+   ],
+   "CLI の evaluate_s の比（あり ÷ なし）": 1.04,
+   "CLI wall（trace あり3回）の最大 ÷ 最小": 1.253
+  },
+  "家族5人（子2）・年分2・健保の判定日24（計26シミュレーション）": {
+   "trace の有無の差（プロセス内、trace なしに対する %）": 6.58,
+   "import_s / wall（trace あり 1回目）": 0.614,
+   "import_s / wall（trace なし 1回目）": 0.655,
+   "evaluate_s（CLI、trace あり / なし）": [
+    0.5372,
+    0.3304
+   ],
+   "プロセス内 evaluate（あり / なし）": [
+    0.5003,
+    0.4694
+   ],
+   "peak_wset_MB（あり / なし）": [
+    48.3,
+    47.1
+   ],
+   "CLI の evaluate_s の比（あり ÷ なし）": 1.63,
+   "CLI wall（trace あり3回）の最大 ÷ 最小": 1.126
+  },
+  "家族10人（子7）・年分2・健保の判定日24（計26シミュレーション）": {
+   "trace の有無の差（プロセス内、trace なしに対する %）": 2.56,
+   "import_s / wall（trace あり 1回目）": 0.457,
+   "import_s / wall（trace なし 1回目）": 0.607,
+   "evaluate_s（CLI、trace あり / なし）": [
+    1.2155,
+    0.5929
+   ],
+   "プロセス内 evaluate（あり / なし）": [
+    1.0093,
+    0.9841
+   ],
+   "peak_wset_MB（あり / なし）": [
+    50.7,
+    49.2
+   ],
+   "CLI の evaluate_s の比（あり ÷ なし）": 2.05,
+   "CLI wall（trace あり3回）の最大 ÷ 最小": 1.14
+  },
+  "8 → 26 シミュレーション（5人）の比": {
+   "プロセス内 trace あり": 3.07,
+   "プロセス内 trace なし": 3.03,
+   "CLI evaluate_s trace あり": 4.49,
+   "CLI evaluate_s trace なし": 2.87
+  },
+  "5人 → 10人（26 シミュレーション）の比": {
+   "プロセス内 trace あり": 2.02,
+   "プロセス内 trace なし": 2.1,
+   "CLI evaluate_s trace あり": 2.26,
+   "CLI evaluate_s trace なし": 1.79
+  },
+  "beancount A6 長い行": {
+   "parse_s": [
+    1.03,
+    4.04,
+    16.26,
+    64.92
+   ],
+   "倍々の比": [
+    3.92,
+    4.02,
+    3.99
+   ],
+   "1 MB×16行 / 1 MB×1行": 16.4,
+   "2乗の伸びで 16 MB を見積もる（8 MB × 4）": 260.0,
+   "2乗の伸びで 20 MB を見積もる": 406.0,
+   "メモリ（MB）": [
+    27.6,
+    29.7,
+    34.8,
+    42.9
+   ]
+  }
+ },
+ "seconds": 0.01
+}
+
+## V7_文書の数値と results.json
+{
+ "ok": true,
+ "result": {
+  "件数": 29,
+  "不一致": [
+   {
+    "項目": "P05 calculation_time（文書の例 0.001112）",
+    "results.json": 0.001559,
+    "文書": 0.001112,
+    "一致": false
+   },
+   {
+    "項目": "P06 calculation_time の例（文書の『別の実行では 0.00069』）",
+    "results.json": 0.0009997,
+    "文書": 0.00069,
+    "一致": false
+   },
+   {
+    "項目": "P07 int 2**31 の例外にメッセージ too large が残っているか（300 字で切れている）",
+    "results.json": false,
+    "文書": true,
+    "一致": false
+   }
+  ],
+  "全件": [
+   {
+    "項目": "P01 2025",
+    "results.json": [
+     "2025",
+     3333333,
+     4444444,
+     1
+    ],
+    "文書": [
+     "2025",
+     3333333,
+     4444444,
+     1
+    ],
+    "一致": true
+   },
+   {
+    "項目": "P01 year:2025-09",
+    "results.json": [
+     "year:2025-09",
+     3333333,
+     4444444,
+     1
+    ],
+    "文書": [
+     "year:2025-09",
+     3333333,
+     4444444,
+     1
+    ],
+    "一致": true
+   },
+   {
+    "項目": "P01 year:2025-09-30",
+    "results.json": [
+     "year:2025-09",
+     3333333,
+     4444444,
+     1
+    ],
+    "文書": [
+     "year:2025-09",
+     3333333,
+     4444444,
+     1
+    ],
+    "一致": true
+   },
+   {
+    "項目": "P01 year:2025-10",
+    "results.json": [
+     "year:2025-10",
+     4444444,
+     4444444,
+     2
+    ],
+    "文書": [
+     "year:2025-10",
+     4444444,
+     4444444,
+     2
+    ],
+    "一致": true
+   },
+   {
+    "項目": "P01 year:2025-10-01",
+    "results.json": [
+     "year:2025-10",
+     4444444,
+     4444444,
+     2
+    ],
+    "文書": [
+     "year:2025-10",
+     4444444,
+     4444444,
+     2
+    ],
+    "一致": true
+   },
+   {
+    "項目": "P01 year:2025-10-15",
+    "results.json": [
+     "year:2025-10",
+     4444444,
+     4444444,
+     2
+    ],
+    "文書": [
+     "year:2025-10",
+     4444444,
+     4444444,
+     2
+    ],
+    "一致": true
+   },
+   {
+    "項目": "P01 year:2026-04-01",
+    "results.json": [
+     "year:2026-04",
+     4444444,
+     4444444,
+     2
+    ],
+    "文書": [
+     "year:2026-04",
+     4444444,
+     4444444,
+     2
+    ],
+    "一致": true
+   },
+   {
+    "項目": "P01 2026",
+    "results.json": [
+     "2026",
+     4444444,
+     4444444,
+     2
+    ],
+    "文書": [
+     "2026",
+     4444444,
+     4444444,
+     2
+    ],
+    "一致": true
+   },
+   {
+    "項目": "P05 木の数",
+    "results.json": 6,
+    "文書": 6,
+    "一致": true
+   },
+   {
+    "項目": "P05 flat の件数",
+    "results.json": 34,
+    "文書": 34,
+    "一致": true
+   },
+   {
+    "項目": "P05 computation_log の行数",
+    "results.json": 38,
+    "文書": 38,
+    "一致": true
+   },
+   {
+    "項目": "P05 calculation_time（文書の例 0.001112）",
+    "results.json": 0.001559,
+    "文書": 0.001112,
+    "一致": false
+   },
+   {
+    "項目": "P06 calculation_time の例（文書の『別の実行では 0.00069』）",
+    "results.json": 0.0009997,
+    "文書": 0.00069,
+    "一致": false
+   },
+   {
+    "項目": "P06 sha256 の先頭",
+    "results.json": "44f7a64c",
+    "文書": "44f7a64c",
+    "一致": true
+   },
+   {
+    "項目": "P06 中央値 ms",
+    "results.json": [
+     10.121,
+     14.698
+    ],
+    "文書": [
+     10.121,
+     14.698
+    ],
+    "一致": true
+   },
+   {
+    "項目": "P05 生年月日の serialized の値の型（キー 生年月日<eternity> は flat に無い）",
+    "results.json": [],
+    "文書": [],
+    "一致": true
+   },
+   {
+    "項目": "P05 flat のキーに 生年月日<2025> があるか",
+    "results.json": true,
+    "文書": true,
+    "一致": true
+   },
+   {
+    "項目": "P07 int 2**31 の例外にメッセージ too large が残っているか（300 字で切れている）",
+    "results.json": false,
+    "文書": true,
+    "一致": false
+   },
+   {
+    "項目": "P10 検査で止めた入力の数",
+    "results.json": 20,
+    "文書": 20,
+    "一致": true
+   },
+   {
+    "項目": "P10 すべて終了コード 2",
+    "results.json": [
+     2
+    ],
+    "文書": [
+     2
+    ],
+    "一致": true
+   },
+   {
+    "項目": "P10 出力の大きさ",
+    "results.json": 39720,
+    "文書": 39720,
+    "一致": true
+   },
+   {
+    "項目": "P10 2回の sha256 が同じ",
+    "results.json": true,
+    "文書": true,
+    "一致": true
+   },
+   {
+    "項目": "A5 細工の数",
+    "results.json": 24,
+    "文書": 24,
+    "一致": true
+   },
+   {
+    "項目": "A5 すり抜け（v1 か v2）",
+    "results.json": false,
+    "文書": false,
+    "一致": true
+   },
+   {
+    "項目": "A5 UTF-16LE（BOM なし）の v2 の理由",
+    "results.json": [
+     "NUL を含む"
+    ],
+    "文書": [
+     "NUL を含む"
+    ],
+    "一致": true
+   },
+   {
+    "項目": "A5 UTF-16LE（BOM あり）の v2 の理由",
+    "results.json": [
+     "NUL を含む",
+     "UTF-8 でない"
+    ],
+    "文書": [
+     "NUL を含む",
+     "UTF-8 でない"
+    ],
+    "一致": true
+   },
+   {
+    "項目": "B2 sha256 の先頭",
+    "results.json": "b65fd97c",
+    "文書": "b65fd97c",
+    "一致": true
+   },
+   {
+    "項目": "B2 写した台帳と同じ",
+    "results.json": true,
+    "文書": true,
+    "一致": true
+   },
+   {
+    "項目": "A1 マーカーが1つでもできたか",
+    "results.json": false,
+    "文書": false,
+    "一致": true
+   }
+  ]
+ },
+ "seconds": 0.0
+}
+
+## V8_sys.path[0] と -I
+{
+ "ok": true,
+ "result": {
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "executable": "C:\\Users\\user\\.pyenv\\pyenv-win\\versions\\3.11.9\\python.exe",
+  "-X utf8 -c（カレント＝台帳）": {
+   "returncode": 0,
+   "stdout": [
+    "''",
+    "<TMP>\\ledger\\glob.py"
+   ],
+   "stderr_tail": "",
+   "マーカー（台帳の glob.py が import された）": true
+  },
+  "-I -X utf8 -c（カレント＝台帳）": {
+   "returncode": 0,
+   "stdout": [
+    "'C:\\\\Users\\\\user\\\\.pyenv\\\\pyenv-win\\\\versions\\\\3.11.9\\\\python311.zip'",
+    "C:\\Users\\user\\.pyenv\\pyenv-win\\versions\\3.11.9\\Lib\\glob.py"
+   ],
+   "stderr_tail": "",
+   "マーカー（台帳の glob.py が import された）": false
+  },
+  "-X utf8 スクリプト（スクリプトは別のディレクトリ、カレント＝台帳）": {
+   "returncode": 0,
+   "stdout": [
+    "'C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Temp\\\\impl_verify_syspath_s5vzg9hw\\\\tool'",
+    "C:\\Users\\user\\.pyenv\\pyenv-win\\versions\\3.11.9\\Lib\\glob.py"
+   ],
+   "stderr_tail": "",
+   "マーカー（台帳の glob.py が import された）": false
+  },
+  "-X utf8 -m（PYTHONPATH なし、カレント＝台帳。モジュールはカレントに無いので失敗するはず）": {
+   "returncode": 1,
+   "stdout": [],
+   "stderr_tail": "C:\\Users\\user\\.pyenv\\pyenv-win\\versions\\3.11.9\\python.exe: No module named scan_mod\r\n",
+   "マーカー（台帳の glob.py が import された）": false
+  },
+  "-X utf8 -m（カレントのモジュール）": {
+   "returncode": 0,
+   "stdout": [
+    "'C:\\\\Users\\\\user\\\\AppData\\\\Local\\\\Temp\\\\impl_verify_syspath_s5vzg9hw\\\\ledger'",
+    "<TMP>\\ledger\\glob.py"
+   ],
+   "マーカー（台帳の glob.py が import された）": true
+  },
+  "-I -X utf8 -m（カレントのモジュール）": {
+   "returncode": 1,
+   "stdout": [],
+   "stderr_tail": "C:\\Users\\user\\.pyenv\\pyenv-win\\versions\\3.11.9\\python.exe: No module named scan_mod\r\n",
+   "マーカー（台帳の glob.py が import された）": false
+  },
+  "-I -X utf8 スクリプト（スクリプトは別のディレクトリ、カレント＝台帳）": {
+   "returncode": 0,
+   "stdout": [
+    "'C:\\\\Users\\\\user\\\\.pyenv\\\\pyenv-win\\\\versions\\\\3.11.9\\\\python311.zip'",
+    "C:\\Users\\user\\.pyenv\\pyenv-win\\versions\\3.11.9\\Lib\\glob.py"
+   ],
+   "stderr_tail": "",
+   "マーカー（台帳の glob.py が import された）": false
+  }
+ },
+ "seconds": 0.91
+}
+
+## V9_健保の年齢の基準日（一次情報）
+{
+ "ok": true,
+ "result": {
+  "mhlw_R7QA19": {
+   "url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc9628&dataType=1&pageNo=1",
+   "取得日": "2026-11-09",
+   "robots で許可": true,
+   "robots": {
+    "status": 200,
+    "content_type": "text/plain",
+    "last_modified": "Sat, 02 Jun 2018 06:22:34 GMT",
+    "final_url": "https://www.mhlw.go.jp/robots.txt",
+    "bytes": 169,
+    "sha256": "d410a20234092a01e07cc6531920a5fedda6a96faaa073d94b95bd4c4a436144",
+    "file": ".work/downloads/20261109-162421_IMPL_tools_verify_mhlw_R7QA19/robots.txt"
+   },
+   "取得": {
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "last_modified": null,
+    "final_url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc9628&dataType=1&pageNo=1",
+    "bytes": 36705,
+    "sha256": "ab13f28cfdfee9aadca4b86ec3cbba276dd7a5bf8485c6b485cce888930ce30b",
+    "file": ".work/downloads/20261109-162421_IMPL_tools_verify_mhlw_R7QA19/page.html"
+   },
+   "見つかった文": {
+    "19歳以上23歳未満の被扶養者に係る認定に関するQ&Aについて": "・19歳以上23歳未満の被扶養者に係る認定に関するQ&Aについて(◆令和07年07月04日事務連絡)添付一覧添付画像はありません画像1(22KB)画像2(22KB)添付一覧添付画像はあ",
+    "令和7年7月4日": "付画像はありません画像1(22KB)画像2(22KB)○19歳以上23歳未満の被扶養者に係る認定に関するQ&Aについて(令和7年7月4日)(事務連絡)(日本年金機構事業管理部門あて厚生労働省保険局保険課・厚生労働省年金局事業管理課通知)医療保険制度の円滑な",
+    "事務連絡": "・19歳以上23歳未満の被扶養者に係る認定に関するQ&Aについて(◆令和07年07月04日事務連絡)添付一覧添付画像はありません画像1(22KB)画像2(22KB)添付一覧添付画像はありません画像1(22KB)画像2(",
+    "その年の12月31日現在の年齢で判定する": "齢要件(19歳以上23歳未満)についてはいつの時点で判定するのか。A所得税法(昭和40年法律第33号)上の取扱いと同様、その年の12月31日現在の年齢で判定する。例えば、N年10月に19歳の誕生日を迎える場合には、N年(暦年)における年間収入要件は150万円未満となる。なお、健康",
+    "誕生日が1月1日である者は12月31日において年齢が加算される": "扱いと同様、民法(明治29年法律第89号)の期間に関する規定を準用するため、年齢は誕生日の前日において加算することから、誕生日が1月1日である者は12月31日において年齢が加算される点に留意すること。(参考)・N-1年(18歳の誕生日を迎える年)における年間収入要件は130万円未満。・N年~N+3年の"
+   },
+   "見つからなかった文": [],
+   "ページの更新日": null
+  },
+  "nenkin_faq_timing": {
+   "url": "https://www.nenkin.go.jp/section/faq/kounen/dependents/aged19to22/timing.html",
+   "取得日": "2026-11-09",
+   "robots で許可": true,
+   "robots": {
+    "status": 200,
+    "content_type": "text/plain",
+    "last_modified": "Thu, 07 Mar 2019 08:57:52 GMT",
+    "final_url": "https://www.nenkin.go.jp/robots.txt",
+    "bytes": 149,
+    "sha256": "b1b1b2e85299b5a3b32390684db50f979ced0a08ed48a46b715b9b6c1a5f79c9",
+    "file": ".work/downloads/20261109-162425_IMPL_tools_verify_nenkin_faq_timing/robots.txt"
+   },
+   "取得": {
+    "status": 200,
+    "content_type": "text/html",
+    "last_modified": "Wed, 14 Oct 2026 00:25:50 GMT",
+    "final_url": "https://www.nenkin.go.jp/section/faq/kounen/dependents/aged19to22/timing.html",
+    "bytes": 24655,
+    "sha256": "2595c8961984db7fdbfd66d4503f52b1b2187f45ff659ea90894e670245de35f",
+    "file": ".work/downloads/20261109-162425_IMPL_tools_verify_nenkin_faq_timing/page.html"
+   },
+   "見つかった文": {
+    "扶養認定日が属する年の12月31日時点の年齢で判定": "50020010-329-343-156更新日:2025年8月19日印刷お答えします年齢要件(19歳以上23歳未満)は、扶養認定日が属する年の12月31日時点の年齢で判定します。例えば、N年10月に19歳の誕生日を迎える場合には、N年(暦年)における年間収入要件は150万円未満となります。"
+   },
+   "見つからなかった文": [],
+   "ページの更新日": "2025年8月19日"
+  }
+ },
+ "seconds": 7.9
+}

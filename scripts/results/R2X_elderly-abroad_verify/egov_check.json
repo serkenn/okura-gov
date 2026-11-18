@@ -1,0 +1,5009 @@
+{
+ "revisions": [
+  {
+   "short": "chiho",
+   "asof": "2026-01-01",
+   "law_revision_id": "325AC0000000226_20260101_507AC0000000041",
+   "status": "PreviousEnforced",
+   "amendment_law_num": "令和七年法律第四十一号",
+   "amendment_enforcement_date": "2026-01-01",
+   "sha256_16": "ba0a40e550be7762",
+   "bytes": 12431689,
+   "their_sha256_same": true,
+   "their_bytes": 12431689
+  },
+  {
+   "short": "chiho",
+   "asof": "2026-11-09",
+   "law_revision_id": "325AC0000000226_20261101_508AC0000000002",
+   "status": "CurrentEnforced",
+   "amendment_law_num": "令和八年法律第二号",
+   "amendment_enforcement_date": "2026-11-01",
+   "sha256_16": "3dd29e0078bf24e0",
+   "bytes": 12181725,
+   "their_sha256_same": true,
+   "their_bytes": 12181725
+  },
+  {
+   "short": "chiho",
+   "asof": "2027-01-01",
+   "law_revision_id": "325AC0000000226_20270101_508AC0000000002",
+   "status": "UnEnforced",
+   "amendment_law_num": "令和八年法律第二号",
+   "amendment_enforcement_date": "2027-01-01",
+   "sha256_16": "ee21722ce5fd1561",
+   "bytes": 12224062,
+   "their_sha256_same": true,
+   "their_bytes": 12224062
+  },
+  {
+   "short": "chiho-ki",
+   "asof": "2026-01-01",
+   "law_revision_id": "329M50000002023_20260101_507M60000008116",
+   "status": "PreviousEnforced",
+   "amendment_law_num": "令和七年総務省令第百十六号",
+   "amendment_enforcement_date": "2026-01-01",
+   "sha256_16": "285e203a423a4fee",
+   "bytes": 4510007,
+   "their_sha256_same": true,
+   "their_bytes": 4510007
+  },
+  {
+   "short": "chiho-ki",
+   "asof": "2026-11-09",
+   "law_revision_id": "329M50000002023_20261101_508M60000008045",
+   "status": "CurrentEnforced",
+   "amendment_law_num": "令和八年総務省令第四十五号",
+   "amendment_enforcement_date": "2026-11-01",
+   "sha256_16": "5ffb833bd3a3d7c4",
+   "bytes": 4187088,
+   "their_sha256_same": true,
+   "their_bytes": 4187088
+  },
+  {
+   "short": "chiho-ki",
+   "asof": "2027-01-01",
+   "law_revision_id": "329M50000002023_20270101_508M60000008089",
+   "status": "UnEnforced",
+   "amendment_law_num": "令和八年総務省令第八十九号",
+   "amendment_enforcement_date": "2027-01-01",
+   "sha256_16": "e8d5c022315165a3",
+   "bytes": 4199705,
+   "their_sha256_same": true,
+   "their_bytes": 4199705
+  },
+  {
+   "short": "kenpo",
+   "asof": "2025-12-31",
+   "law_revision_id": "211AC0000000070_20251212_507AC0000000087",
+   "status": "PreviousEnforced",
+   "amendment_law_num": "令和七年法律第八十七号",
+   "amendment_enforcement_date": "2025-12-12",
+   "sha256_16": "9fa3c76cdce41f50",
+   "bytes": 1305708,
+   "their_sha256_same": true,
+   "their_bytes": 1305708
+  },
+  {
+   "short": "kenpo",
+   "asof": "2026-11-09",
+   "law_revision_id": "211AC0000000070_20261001_507AC0000000087",
+   "status": "CurrentEnforced",
+   "amendment_law_num": "令和七年法律第八十七号",
+   "amendment_enforcement_date": "2026-10-01",
+   "sha256_16": "cf30a71b955ff7ce",
+   "bytes": 1400173,
+   "their_sha256_same": true,
+   "their_bytes": 1400173
+  },
+  {
+   "short": "kenpo-ki",
+   "asof": "2025-12-31",
+   "law_revision_id": "215M10000008036_20251201_507M60000100118",
+   "status": "PreviousEnforced",
+   "amendment_law_num": "令和七年厚生労働省令第百十八号",
+   "amendment_enforcement_date": "2025-12-01",
+   "sha256_16": "4da35489daa9facf",
+   "bytes": 1386386,
+   "their_sha256_same": true,
+   "their_bytes": 1386386
+  },
+  {
+   "short": "kenpo-ki",
+   "asof": "2026-11-09",
+   "law_revision_id": "215M10000008036_20261001_508M60000100144",
+   "status": "CurrentEnforced",
+   "amendment_law_num": "令和八年厚生労働省令第百四十四号",
+   "amendment_enforcement_date": "2026-10-01",
+   "sha256_16": "955fb551d8f41a87",
+   "bytes": 1423977,
+   "their_sha256_same": true,
+   "their_bytes": 1423977
+  },
+  {
+   "short": "koukirei",
+   "asof": "2026-11-09",
+   "law_revision_id": "357AC0000000080_20261001_507AC0000000087",
+   "status": "CurrentEnforced",
+   "amendment_law_num": "令和七年法律第八十七号",
+   "amendment_enforcement_date": "2026-10-01",
+   "sha256_16": "54c58f6fd8b00317",
+   "bytes": 1064676,
+   "their_sha256_same": true,
+   "their_bytes": 1064676
+  },
+  {
+   "short": "shotoku",
+   "asof": "2025-12-31",
+   "law_revision_id": "340AC0000000033_20251218_507AC0000000013",
+   "status": "PreviousEnforced",
+   "amendment_law_num": "令和七年法律第十三号",
+   "amendment_enforcement_date": "2025-12-18",
+   "sha256_16": "84a2235cb4437184",
+   "bytes": 16394130,
+   "their_sha256_same": true,
+   "their_bytes": 16394130
+  },
+  {
+   "short": "shotoku",
+   "asof": "2026-11-09",
+   "law_revision_id": "340AC0000000033_20261001_507AC0000000070",
+   "status": "CurrentEnforced",
+   "amendment_law_num": "令和七年法律第七十号",
+   "amendment_enforcement_date": "2026-10-01",
+   "sha256_16": "94c4a7ad83726cde",
+   "bytes": 16405085,
+   "their_sha256_same": true,
+   "their_bytes": 16405085
+  },
+  {
+   "short": "shotoku",
+   "asof": "2026-12-31",
+   "law_revision_id": "340AC0000000033_20261201_508AC0000000012",
+   "status": "UnEnforced",
+   "amendment_law_num": "令和八年法律第十二号",
+   "amendment_enforcement_date": "2026-12-01",
+   "sha256_16": "47792299f0fb5a74",
+   "bytes": 16399400,
+   "their_sha256_same": true,
+   "their_bytes": 16399400
+  },
+  {
+   "short": "shotoku",
+   "asof": "2027-01-01",
+   "law_revision_id": "340AC0000000033_20270101_508AC0000000012",
+   "status": "UnEnforced",
+   "amendment_law_num": "令和八年法律第十二号",
+   "amendment_enforcement_date": "2027-01-01",
+   "sha256_16": "d4bf435220bc0b0c",
+   "bytes": 16402071,
+   "their_sha256_same": null,
+   "their_bytes": null
+  },
+  {
+   "short": "shotoku",
+   "asof": "2027-03-15",
+   "law_revision_id": "340AC0000000033_20270101_508AC0000000012",
+   "status": "UnEnforced",
+   "amendment_law_num": "令和八年法律第十二号",
+   "amendment_enforcement_date": "2027-01-01",
+   "sha256_16": "d4bf435220bc0b0c",
+   "bytes": 16402071,
+   "their_sha256_same": null,
+   "their_bytes": null
+  },
+  {
+   "short": "shotoku-ki",
+   "asof": "2025-12-31",
+   "law_revision_id": "340M50000040011_20251201_507M60000040018",
+   "status": "PreviousEnforced",
+   "amendment_law_num": "令和七年財務省令第十八号",
+   "amendment_enforcement_date": "2025-12-01",
+   "sha256_16": "16358c775e2d1dcc",
+   "bytes": 2326379,
+   "their_sha256_same": true,
+   "their_bytes": 2326379
+  },
+  {
+   "short": "shotoku-ki",
+   "asof": "2026-11-09",
+   "law_revision_id": "340M50000040011_20261001_507M60000040018",
+   "status": "CurrentEnforced",
+   "amendment_law_num": "令和七年財務省令第十八号",
+   "amendment_enforcement_date": "2026-10-01",
+   "sha256_16": "8721699516ac8202",
+   "bytes": 2351567,
+   "their_sha256_same": true,
+   "their_bytes": 2351567
+  },
+  {
+   "short": "shotoku-ki",
+   "asof": "2026-12-31",
+   "law_revision_id": "340M50000040011_20261211_508M60000040017",
+   "status": "UnEnforced",
+   "amendment_law_num": "令和八年財務省令第十七号",
+   "amendment_enforcement_date": "2026-12-11",
+   "sha256_16": "9ba37bf34afed1f9",
+   "bytes": 2356623,
+   "their_sha256_same": true,
+   "their_bytes": 2356623
+  },
+  {
+   "short": "shotoku-ki",
+   "asof": "2027-03-15",
+   "law_revision_id": "340M50000040011_20270101_508M60000040017",
+   "status": "UnEnforced",
+   "amendment_law_num": "令和八年財務省令第十七号",
+   "amendment_enforcement_date": "2027-01-01",
+   "sha256_16": "1600117df38c4463",
+   "bytes": 2364138,
+   "their_sha256_same": null,
+   "their_bytes": null
+  },
+  {
+   "short": "shotoku-rei",
+   "asof": "2025-12-31",
+   "law_revision_id": "340CO0000000096_20251201_507CO0000000120",
+   "status": "PreviousEnforced",
+   "amendment_law_num": "令和七年政令第百二十号",
+   "amendment_enforcement_date": "2025-12-01",
+   "sha256_16": "e972344f436ecd9b",
+   "bytes": 3591986,
+   "their_sha256_same": true,
+   "their_bytes": 3591986
+  },
+  {
+   "short": "shotoku-rei",
+   "asof": "2026-11-09",
+   "law_revision_id": "340CO0000000096_20260522_508CO0000000093",
+   "status": "CurrentEnforced",
+   "amendment_law_num": "令和八年政令第九十三号",
+   "amendment_enforcement_date": "2026-05-22",
+   "sha256_16": "9facf2e2768d602c",
+   "bytes": 3613582,
+   "their_sha256_same": true,
+   "their_bytes": 3613582
+  },
+  {
+   "short": "shotoku-rei",
+   "asof": "2026-12-31",
+   "law_revision_id": "340CO0000000096_20261201_508CO0000000093",
+   "status": "UnEnforced",
+   "amendment_law_num": "令和八年政令第九十三号",
+   "amendment_enforcement_date": "2026-12-01",
+   "sha256_16": "cd63914bb5962edf",
+   "bytes": 3628859,
+   "their_sha256_same": true,
+   "their_bytes": 3628859
+  },
+  {
+   "short": "shotoku-rei",
+   "asof": "2027-03-15",
+   "law_revision_id": "340CO0000000096_20270101_508CO0000000093",
+   "status": "UnEnforced",
+   "amendment_law_num": "令和八年政令第九十三号",
+   "amendment_enforcement_date": "2027-01-01",
+   "sha256_16": "f4965711894ea1c7",
+   "bytes": 3629167,
+   "their_sha256_same": null,
+   "their_bytes": null
+  },
+  {
+   "short": "sochi",
+   "asof": "2025-12-31",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "status": "PreviousEnforced",
+   "amendment_law_num": "令和七年法律第八十一号",
+   "amendment_enforcement_date": "2025-12-31",
+   "sha256_16": "ef95d90f7bf57e18",
+   "bytes": 14344538,
+   "their_sha256_same": true,
+   "their_bytes": 14344538
+  },
+  {
+   "short": "sochi",
+   "asof": "2026-11-09",
+   "law_revision_id": "332AC0000000026_20261101_507AC0000000013",
+   "status": "CurrentEnforced",
+   "amendment_law_num": "令和七年法律第十三号",
+   "amendment_enforcement_date": "2026-11-01",
+   "sha256_16": "e6e6013bbc0608c6",
+   "bytes": 14512569,
+   "their_sha256_same": true,
+   "their_bytes": 14512569
+  },
+  {
+   "short": "sochi",
+   "asof": "2026-12-31",
+   "law_revision_id": "332AC0000000026_20261204_508AC0000000012",
+   "status": "UnEnforced",
+   "amendment_law_num": "令和八年法律第十二号",
+   "amendment_enforcement_date": null,
+   "sha256_16": "763fce2df2b1e709",
+   "bytes": 14524288,
+   "their_sha256_same": true,
+   "their_bytes": 14524288
+  },
+  {
+   "short": "sochi-rei",
+   "asof": "2026-11-09",
+   "law_revision_id": "332CO0000000043_20261101_507CO0000000127",
+   "status": "CurrentEnforced",
+   "amendment_law_num": "令和七年政令第百二十七号",
+   "amendment_enforcement_date": "2026-11-01",
+   "sha256_16": "d0ad21a838fd3d2a",
+   "bytes": 13874873,
+   "their_sha256_same": true,
+   "their_bytes": 13874873
+  }
+ ],
+ "rev_claims": [
+  {
+   "short": "shotoku",
+   "asof": "2025-12-31",
+   "claimed": "340AC0000000033_20251218_507AC0000000013",
+   "claimed_status": "PreviousEnforced",
+   "actual": "340AC0000000033_20251218_507AC0000000013",
+   "actual_status": "PreviousEnforced",
+   "ok": true
+  },
+  {
+   "short": "shotoku",
+   "asof": "2026-11-09",
+   "claimed": "340AC0000000033_20261001_507AC0000000070",
+   "claimed_status": "CurrentEnforced",
+   "actual": "340AC0000000033_20261001_507AC0000000070",
+   "actual_status": "CurrentEnforced",
+   "ok": true
+  },
+  {
+   "short": "shotoku",
+   "asof": "2026-12-31",
+   "claimed": "340AC0000000033_20261201_508AC0000000012",
+   "claimed_status": "UnEnforced",
+   "actual": "340AC0000000033_20261201_508AC0000000012",
+   "actual_status": "UnEnforced",
+   "ok": true
+  },
+  {
+   "short": "shotoku-rei",
+   "asof": "2025-12-31",
+   "claimed": "340CO0000000096_20251201_507CO0000000120",
+   "claimed_status": "PreviousEnforced",
+   "actual": "340CO0000000096_20251201_507CO0000000120",
+   "actual_status": "PreviousEnforced",
+   "ok": true
+  },
+  {
+   "short": "shotoku-rei",
+   "asof": "2026-11-09",
+   "claimed": "340CO0000000096_20260522_508CO0000000093",
+   "claimed_status": "CurrentEnforced",
+   "actual": "340CO0000000096_20260522_508CO0000000093",
+   "actual_status": "CurrentEnforced",
+   "ok": true
+  },
+  {
+   "short": "shotoku-rei",
+   "asof": "2026-12-31",
+   "claimed": "340CO0000000096_20261201_508CO0000000093",
+   "claimed_status": "UnEnforced",
+   "actual": "340CO0000000096_20261201_508CO0000000093",
+   "actual_status": "UnEnforced",
+   "ok": true
+  },
+  {
+   "short": "shotoku-ki",
+   "asof": "2025-12-31",
+   "claimed": "340M50000040011_20251201_507M60000040018",
+   "claimed_status": "PreviousEnforced",
+   "actual": "340M50000040011_20251201_507M60000040018",
+   "actual_status": "PreviousEnforced",
+   "ok": true
+  },
+  {
+   "short": "shotoku-ki",
+   "asof": "2026-11-09",
+   "claimed": "340M50000040011_20261001_507M60000040018",
+   "claimed_status": "CurrentEnforced",
+   "actual": "340M50000040011_20261001_507M60000040018",
+   "actual_status": "CurrentEnforced",
+   "ok": true
+  },
+  {
+   "short": "shotoku-ki",
+   "asof": "2026-12-31",
+   "claimed": "340M50000040011_20261211_508M60000040017",
+   "claimed_status": "UnEnforced",
+   "actual": "340M50000040011_20261211_508M60000040017",
+   "actual_status": "UnEnforced",
+   "ok": true
+  },
+  {
+   "short": "sochi",
+   "asof": "2025-12-31",
+   "claimed": "332AC0000000026_20251231_507AC1000000081",
+   "claimed_status": "PreviousEnforced",
+   "actual": "332AC0000000026_20251231_507AC1000000081",
+   "actual_status": "PreviousEnforced",
+   "ok": true
+  },
+  {
+   "short": "sochi",
+   "asof": "2026-11-09",
+   "claimed": "332AC0000000026_20261101_507AC0000000013",
+   "claimed_status": "CurrentEnforced",
+   "actual": "332AC0000000026_20261101_507AC0000000013",
+   "actual_status": "CurrentEnforced",
+   "ok": true
+  },
+  {
+   "short": "sochi",
+   "asof": "2026-12-31",
+   "claimed": "332AC0000000026_20261204_508AC0000000012",
+   "claimed_status": "UnEnforced",
+   "actual": "332AC0000000026_20261204_508AC0000000012",
+   "actual_status": "UnEnforced",
+   "ok": true
+  },
+  {
+   "short": "sochi-rei",
+   "asof": "2026-11-09",
+   "claimed": "332CO0000000043_20261101_507CO0000000127",
+   "claimed_status": "CurrentEnforced",
+   "actual": "332CO0000000043_20261101_507CO0000000127",
+   "actual_status": "CurrentEnforced",
+   "ok": true
+  },
+  {
+   "short": "chiho",
+   "asof": "2026-01-01",
+   "claimed": "325AC0000000226_20260101_507AC0000000041",
+   "claimed_status": "PreviousEnforced",
+   "actual": "325AC0000000226_20260101_507AC0000000041",
+   "actual_status": "PreviousEnforced",
+   "ok": true
+  },
+  {
+   "short": "chiho",
+   "asof": "2026-11-09",
+   "claimed": "325AC0000000226_20261101_508AC0000000002",
+   "claimed_status": "CurrentEnforced",
+   "actual": "325AC0000000226_20261101_508AC0000000002",
+   "actual_status": "CurrentEnforced",
+   "ok": true
+  },
+  {
+   "short": "chiho",
+   "asof": "2027-01-01",
+   "claimed": "325AC0000000226_20270101_508AC0000000002",
+   "claimed_status": "UnEnforced",
+   "actual": "325AC0000000226_20270101_508AC0000000002",
+   "actual_status": "UnEnforced",
+   "ok": true
+  },
+  {
+   "short": "chiho-ki",
+   "asof": "2026-01-01",
+   "claimed": "329M50000002023_20260101_507M60000008116",
+   "claimed_status": "PreviousEnforced",
+   "actual": "329M50000002023_20260101_507M60000008116",
+   "actual_status": "PreviousEnforced",
+   "ok": true
+  },
+  {
+   "short": "chiho-ki",
+   "asof": "2026-11-09",
+   "claimed": "329M50000002023_20261101_508M60000008045",
+   "claimed_status": "CurrentEnforced",
+   "actual": "329M50000002023_20261101_508M60000008045",
+   "actual_status": "CurrentEnforced",
+   "ok": true
+  },
+  {
+   "short": "chiho-ki",
+   "asof": "2027-01-01",
+   "claimed": "329M50000002023_20270101_508M60000008089",
+   "claimed_status": "UnEnforced",
+   "actual": "329M50000002023_20270101_508M60000008089",
+   "actual_status": "UnEnforced",
+   "ok": true
+  },
+  {
+   "short": "kenpo",
+   "asof": "2025-12-31",
+   "claimed": "211AC0000000070_20251212_507AC0000000087",
+   "claimed_status": "PreviousEnforced",
+   "actual": "211AC0000000070_20251212_507AC0000000087",
+   "actual_status": "PreviousEnforced",
+   "ok": true
+  },
+  {
+   "short": "kenpo",
+   "asof": "2026-11-09",
+   "claimed": "211AC0000000070_20261001_507AC0000000087",
+   "claimed_status": "CurrentEnforced",
+   "actual": "211AC0000000070_20261001_507AC0000000087",
+   "actual_status": "CurrentEnforced",
+   "ok": true
+  },
+  {
+   "short": "kenpo-ki",
+   "asof": "2025-12-31",
+   "claimed": "215M10000008036_20251201_507M60000100118",
+   "claimed_status": "PreviousEnforced",
+   "actual": "215M10000008036_20251201_507M60000100118",
+   "actual_status": "PreviousEnforced",
+   "ok": true
+  },
+  {
+   "short": "kenpo-ki",
+   "asof": "2026-11-09",
+   "claimed": "215M10000008036_20261001_508M60000100144",
+   "claimed_status": "CurrentEnforced",
+   "actual": "215M10000008036_20261001_508M60000100144",
+   "actual_status": "CurrentEnforced",
+   "ok": true
+  },
+  {
+   "short": "koukirei",
+   "asof": "2026-11-09",
+   "claimed": "357AC0000000080_20261001_507AC0000000087",
+   "claimed_status": "CurrentEnforced",
+   "actual": "357AC0000000080_20261001_507AC0000000087",
+   "actual_status": "CurrentEnforced",
+   "ok": true
+  }
+ ],
+ "quotes": [
+  {
+   "id": "LW1.1-2-34_4",
+   "where": "LW§1.1",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "path": [
+    "2",
+    1,
+    "34_4"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.1-2-34_4",
+   "where": "LW§1.1",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "path": [
+    "2",
+    1,
+    "34_4"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.1-2-34_4",
+   "where": "LW§1.1",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "2",
+    1,
+    "34_4"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.1-2-34_4",
+   "where": "LW§1.1",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "path": [
+    "2",
+    1,
+    "34_4"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.1-2-34_4",
+   "where": "LW§1.1",
+   "law": "shotoku",
+   "asof": "2027-03-15",
+   "path": [
+    "2",
+    1,
+    "34_4"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.1-84-1",
+   "where": "LW§1.1",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "path": [
+    "84",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.1-84-1",
+   "where": "LW§1.1",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "path": [
+    "84",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.1-84-1",
+   "where": "LW§1.1",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "84",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.1-84-1",
+   "where": "LW§1.1",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "path": [
+    "84",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.1-84-1",
+   "where": "LW§1.1",
+   "law": "shotoku",
+   "asof": "2027-03-15",
+   "path": [
+    "84",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.1-85-3",
+   "where": "LW§1.1",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "path": [
+    "85",
+    3
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.1-85-3",
+   "where": "LW§1.1",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "path": [
+    "85",
+    3
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.1-85-3",
+   "where": "LW§1.1",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "85",
+    3
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.1-85-3",
+   "where": "LW§1.1",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "path": [
+    "85",
+    3
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.1-85-3",
+   "where": "LW§1.1",
+   "law": "shotoku",
+   "asof": "2027-03-15",
+   "path": [
+    "85",
+    3
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.2-2-34-58",
+   "where": "LW§1.2",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "path": [
+    "2",
+    1,
+    "34"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.2-2-34-58",
+   "where": "LW§1.2",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "path": [
+    "2",
+    1,
+    "34"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.2-2-34-62",
+   "where": "LW§1.2",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "2",
+    1,
+    "34"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.2-2-34-62",
+   "where": "LW§1.2",
+   "law": "shotoku",
+   "asof": "2027-03-15",
+   "path": [
+    "2",
+    1,
+    "34"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.2-2-34_3",
+   "where": "IE11",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "path": [
+    "2",
+    1,
+    "34_3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.2-2-34_3",
+   "where": "IE11",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "path": [
+    "2",
+    1,
+    "34_3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.2-2-34_3",
+   "where": "IE11",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "2",
+    1,
+    "34_3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.2-2-34_3",
+   "where": "IE11",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "path": [
+    "2",
+    1,
+    "34_3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW1.2-2-34_3",
+   "where": "IE11",
+   "law": "shotoku",
+   "asof": "2027-03-15",
+   "path": [
+    "2",
+    1,
+    "34_3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW0-R8-12-s1-4",
+   "where": "LW§0",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "S:令和八年三月三一日法律第一二号",
+    "1",
+    1,
+    "4"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW0-R8-12-s1-4i",
+   "where": "LW§0",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "S:令和八年三月三一日法律第一二号",
+    "1",
+    1,
+    "4",
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW0-R8-12-s2",
+   "where": "LW§0",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "S:令和八年三月三一日法律第一二号",
+    "2",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW2.1-41_16-1",
+   "where": "LW§2.1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "path": [
+    "41_16",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW2.1-41_16-1",
+   "where": "LW§2.1",
+   "law": "sochi",
+   "asof": "2026-11-09",
+   "path": [
+    "41_16",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW2.1-41_16-1",
+   "where": "LW§2.1",
+   "law": "sochi",
+   "asof": "2026-12-31",
+   "path": [
+    "41_16",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW2.1-41_16-2",
+   "where": "LW§2.1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "path": [
+    "41_16",
+    2
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW2.1-41_16-2",
+   "where": "LW§2.1",
+   "law": "sochi",
+   "asof": "2026-11-09",
+   "path": [
+    "41_16",
+    2
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW2.1-41_16-2",
+   "where": "LW§2.1",
+   "law": "sochi",
+   "asof": "2026-12-31",
+   "path": [
+    "41_16",
+    2
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.1-2-34_2",
+   "where": "LW§3.1",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "path": [
+    "2",
+    1,
+    "34_2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.1-2-34_2",
+   "where": "LW§3.1",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "path": [
+    "2",
+    1,
+    "34_2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.1-2-34_2",
+   "where": "LW§3.1",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "2",
+    1,
+    "34_2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.1-2-34_2",
+   "where": "LW§3.1",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "path": [
+    "2",
+    1,
+    "34_2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.1-2-34_2",
+   "where": "LW§3.1",
+   "law": "shotoku",
+   "asof": "2027-03-15",
+   "path": [
+    "2",
+    1,
+    "34_2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.1-R2-8-s1-6",
+   "where": "LW§3.1",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "S:令和二年三月三一日法律第八号",
+    "1",
+    1,
+    "6"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.1-R2-8-s3",
+   "where": "LW§3.1",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "S:令和二年三月三一日法律第八号",
+    "3",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-120-3",
+   "where": "LW§3.2",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "path": [
+    "120",
+    3
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-120-3",
+   "where": "LW§3.2",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "path": [
+    "120",
+    3
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-120-3",
+   "where": "LW§3.2",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "120",
+    3
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-120-3",
+   "where": "LW§3.2",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "path": [
+    "120",
+    3
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-120-3",
+   "where": "LW§3.2",
+   "law": "shotoku",
+   "asof": "2027-03-15",
+   "path": [
+    "120",
+    3
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-120-3-2",
+   "where": "LW§3.2・§3.4",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "path": [
+    "120",
+    3,
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-120-3-2",
+   "where": "LW§3.2・§3.4",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "path": [
+    "120",
+    3,
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-120-3-2",
+   "where": "LW§3.2・§3.4",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "120",
+    3,
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-120-3-2",
+   "where": "LW§3.2・§3.4",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "path": [
+    "120",
+    3,
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-120-3-2",
+   "where": "LW§3.2・§3.4",
+   "law": "shotoku",
+   "asof": "2027-03-15",
+   "path": [
+    "120",
+    3,
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-120-3-3",
+   "where": "LW§3.2・§3.4",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "path": [
+    "120",
+    3,
+    "3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-120-3-3",
+   "where": "LW§3.2・§3.4",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "path": [
+    "120",
+    3,
+    "3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-120-3-3",
+   "where": "LW§3.2・§3.4",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "120",
+    3,
+    "3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-120-3-3",
+   "where": "LW§3.2・§3.4",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "path": [
+    "120",
+    3,
+    "3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-120-3-3",
+   "where": "LW§3.2・§3.4",
+   "law": "shotoku",
+   "asof": "2027-03-15",
+   "path": [
+    "120",
+    3,
+    "3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-rei262-3",
+   "where": "LW§3.2",
+   "law": "shotoku-rei",
+   "asof": "2025-12-31",
+   "path": [
+    "262",
+    3
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-rei262-3",
+   "where": "LW§3.2",
+   "law": "shotoku-rei",
+   "asof": "2026-11-09",
+   "path": [
+    "262",
+    3
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-rei262-3",
+   "where": "LW§3.2",
+   "law": "shotoku-rei",
+   "asof": "2026-12-31",
+   "path": [
+    "262",
+    3
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-rei262-3",
+   "where": "LW§3.2",
+   "law": "shotoku-rei",
+   "asof": "2027-03-15",
+   "path": [
+    "262",
+    3
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-rei262-4",
+   "where": "LW§3.2",
+   "law": "shotoku-rei",
+   "asof": "2025-12-31",
+   "path": [
+    "262",
+    4
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-rei262-4",
+   "where": "LW§3.2",
+   "law": "shotoku-rei",
+   "asof": "2026-11-09",
+   "path": [
+    "262",
+    4
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-rei262-4",
+   "where": "LW§3.2",
+   "law": "shotoku-rei",
+   "asof": "2026-12-31",
+   "path": [
+    "262",
+    4
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-rei262-4",
+   "where": "LW§3.2",
+   "law": "shotoku-rei",
+   "asof": "2027-03-15",
+   "path": [
+    "262",
+    4
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-rei262-4-1",
+   "where": "LW§3.2",
+   "law": "shotoku-rei",
+   "asof": "2025-12-31",
+   "path": [
+    "262",
+    4,
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-rei262-4-1",
+   "where": "LW§3.2",
+   "law": "shotoku-rei",
+   "asof": "2026-11-09",
+   "path": [
+    "262",
+    4,
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-rei262-4-1",
+   "where": "LW§3.2",
+   "law": "shotoku-rei",
+   "asof": "2026-12-31",
+   "path": [
+    "262",
+    4,
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-rei262-4-1",
+   "where": "LW§3.2",
+   "law": "shotoku-rei",
+   "asof": "2027-03-15",
+   "path": [
+    "262",
+    4,
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-rei262-4-2",
+   "where": "LW§3.2",
+   "law": "shotoku-rei",
+   "asof": "2025-12-31",
+   "path": [
+    "262",
+    4,
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-rei262-4-2",
+   "where": "LW§3.2",
+   "law": "shotoku-rei",
+   "asof": "2026-11-09",
+   "path": [
+    "262",
+    4,
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-rei262-4-2",
+   "where": "LW§3.2",
+   "law": "shotoku-rei",
+   "asof": "2026-12-31",
+   "path": [
+    "262",
+    4,
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-rei262-4-2",
+   "where": "LW§3.2",
+   "law": "shotoku-rei",
+   "asof": "2027-03-15",
+   "path": [
+    "262",
+    4,
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-rei262-4-3",
+   "where": "LW§3.2",
+   "law": "shotoku-rei",
+   "asof": "2025-12-31",
+   "path": [
+    "262",
+    4,
+    "3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-rei262-4-3",
+   "where": "LW§3.2",
+   "law": "shotoku-rei",
+   "asof": "2026-11-09",
+   "path": [
+    "262",
+    4,
+    "3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-rei262-4-3",
+   "where": "LW§3.2",
+   "law": "shotoku-rei",
+   "asof": "2026-12-31",
+   "path": [
+    "262",
+    4,
+    "3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-rei262-4-3",
+   "where": "LW§3.2",
+   "law": "shotoku-rei",
+   "asof": "2027-03-15",
+   "path": [
+    "262",
+    4,
+    "3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-5",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2025-12-31",
+   "path": [
+    "47_2",
+    5
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-5",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2026-11-09",
+   "path": [
+    "47_2",
+    5
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-5",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2026-12-31",
+   "path": [
+    "47_2",
+    5
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-5",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2027-03-15",
+   "path": [
+    "47_2",
+    5
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-6",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2025-12-31",
+   "path": [
+    "47_2",
+    6
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-6",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2026-11-09",
+   "path": [
+    "47_2",
+    6
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-6",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2026-12-31",
+   "path": [
+    "47_2",
+    6
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-6",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2027-03-15",
+   "path": [
+    "47_2",
+    6
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-7",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2025-12-31",
+   "path": [
+    "47_2",
+    7
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-7",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2026-11-09",
+   "path": [
+    "47_2",
+    7
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-7",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2026-12-31",
+   "path": [
+    "47_2",
+    7
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-7",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2027-03-15",
+   "path": [
+    "47_2",
+    7
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-8",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2025-12-31",
+   "path": [
+    "47_2",
+    8
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-8",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2026-11-09",
+   "path": [
+    "47_2",
+    8
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-8",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2026-12-31",
+   "path": [
+    "47_2",
+    8
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-8",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2027-03-15",
+   "path": [
+    "47_2",
+    8
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-9",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2025-12-31",
+   "path": [
+    "47_2",
+    9
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-9",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2026-11-09",
+   "path": [
+    "47_2",
+    9
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-9",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2026-12-31",
+   "path": [
+    "47_2",
+    9
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-9",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2027-03-15",
+   "path": [
+    "47_2",
+    9
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-10",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2025-12-31",
+   "path": [
+    "47_2",
+    10
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-10",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2026-11-09",
+   "path": [
+    "47_2",
+    10
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-10",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2026-12-31",
+   "path": [
+    "47_2",
+    10
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.2-ki47_2-10",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "asof": "2027-03-15",
+   "path": [
+    "47_2",
+    10
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-194-1-7",
+   "where": "LW§3.3",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "path": [
+    "194",
+    1,
+    "7"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-194-1-7",
+   "where": "LW§3.3",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "194",
+    1,
+    "7"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-194-5",
+   "where": "LW§3.3",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "path": [
+    "194",
+    5
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-194-5",
+   "where": "LW§3.3",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "path": [
+    "194",
+    5
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-194-5",
+   "where": "LW§3.3",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "194",
+    5
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-194-6",
+   "where": "LW§3.3",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "path": [
+    "194",
+    6
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-194-6",
+   "where": "LW§3.3",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "path": [
+    "194",
+    6
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-194-6",
+   "where": "LW§3.3",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "194",
+    6
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-194-7",
+   "where": "LW§3.3",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "path": [
+    "194",
+    7
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-194-7",
+   "where": "LW§3.3",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "path": [
+    "194",
+    7
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-194-7",
+   "where": "LW§3.3",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "194",
+    7
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-190-2-ha",
+   "where": "LW§3.3",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "path": [
+    "190",
+    1,
+    "2",
+    "3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-190-2-ha",
+   "where": "LW§3.3",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "path": [
+    "190",
+    1,
+    "2",
+    "3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-190-2-ha",
+   "where": "LW§3.3",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "190",
+    1,
+    "2",
+    "3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-190-2-ni",
+   "where": "LW§3.3",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "path": [
+    "190",
+    1,
+    "2",
+    "4"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-190-2-ni",
+   "where": "LW§3.3",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "path": [
+    "190",
+    1,
+    "2",
+    "4"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-190-2-ni",
+   "where": "LW§3.3",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "190",
+    1,
+    "2",
+    "4"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-190-2-ho",
+   "where": "LW§3.3",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "path": [
+    "190",
+    1,
+    "2",
+    "5"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-190-2-ho",
+   "where": "LW§3.3",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "path": [
+    "190",
+    1,
+    "2",
+    "5"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-190-2-ho",
+   "where": "LW§3.3",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "190",
+    1,
+    "2",
+    "5"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-R7-13-s1-2",
+   "where": "LW§3.3（補足）",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "S:令和七年三月三一日法律第一三号",
+    "1",
+    1,
+    "2",
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-R7-13-s1-2d",
+   "where": "LW§3.3（補足）",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "S:令和七年三月三一日法律第一三号",
+    "1",
+    1,
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW3.3-R7-13-s9-4",
+   "where": "LW§3.3（補足）",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "S:令和七年三月三一日法律第一三号",
+    "9",
+    4
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-2-3",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "path": [
+    "2",
+    1,
+    "3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-2-3",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "path": [
+    "2",
+    1,
+    "3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-2-3",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "2",
+    1,
+    "3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-2-3",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "path": [
+    "2",
+    1,
+    "3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-2-3",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2027-03-15",
+   "path": [
+    "2",
+    1,
+    "3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-2-4",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "path": [
+    "2",
+    1,
+    "4"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-2-4",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "path": [
+    "2",
+    1,
+    "4"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-2-4",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "2",
+    1,
+    "4"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-2-4",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "path": [
+    "2",
+    1,
+    "4"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-2-4",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2027-03-15",
+   "path": [
+    "2",
+    1,
+    "4"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-2-5",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "path": [
+    "2",
+    1,
+    "5"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-2-5",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "path": [
+    "2",
+    1,
+    "5"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-2-5",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "2",
+    1,
+    "5"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-2-5",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "path": [
+    "2",
+    1,
+    "5"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-2-5",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2027-03-15",
+   "path": [
+    "2",
+    1,
+    "5"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-3-1",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "path": [
+    "3",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-3-1",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "path": [
+    "3",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-3-1",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "3",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-3-1",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "path": [
+    "3",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-3-1",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2027-03-15",
+   "path": [
+    "3",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-3-2",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "path": [
+    "3",
+    2
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-3-2",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "path": [
+    "3",
+    2
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-3-2",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "path": [
+    "3",
+    2
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-3-2",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "path": [
+    "3",
+    2
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-3-2",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2027-03-15",
+   "path": [
+    "3",
+    2
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-rei13",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2025-12-31",
+   "path": [
+    "13",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-rei13",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2026-11-09",
+   "path": [
+    "13",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-rei13",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2026-12-31",
+   "path": [
+    "13",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-rei13",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2027-03-15",
+   "path": [
+    "13",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-rei14-1",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2025-12-31",
+   "path": [
+    "14",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-rei14-1",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2026-11-09",
+   "path": [
+    "14",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-rei14-1",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2026-12-31",
+   "path": [
+    "14",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-rei14-1",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2027-03-15",
+   "path": [
+    "14",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-rei14-2",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2025-12-31",
+   "path": [
+    "14",
+    2
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-rei14-2",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2026-11-09",
+   "path": [
+    "14",
+    2
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-rei14-2",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2026-12-31",
+   "path": [
+    "14",
+    2
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-rei14-2",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2027-03-15",
+   "path": [
+    "14",
+    2
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-rei15-1",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2025-12-31",
+   "path": [
+    "15",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-rei15-1",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2026-11-09",
+   "path": [
+    "15",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-rei15-1",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2026-12-31",
+   "path": [
+    "15",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-rei15-1",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2027-03-15",
+   "path": [
+    "15",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-rei15-2",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2025-12-31",
+   "path": [
+    "15",
+    2
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-rei15-2",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2026-11-09",
+   "path": [
+    "15",
+    2
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-rei15-2",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2026-12-31",
+   "path": [
+    "15",
+    2
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW4-rei15-2",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2027-03-15",
+   "path": [
+    "15",
+    2
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.1-314_2-1-11",
+   "where": "LW§5.1",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "path": [
+    "314_2",
+    1,
+    "11"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.1-314_2-1-11",
+   "where": "LW§5.1",
+   "law": "chiho",
+   "asof": "2026-11-09",
+   "path": [
+    "314_2",
+    1,
+    "11"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.1-314_2-1-11",
+   "where": "LW§5.1",
+   "law": "chiho",
+   "asof": "2027-01-01",
+   "path": [
+    "314_2",
+    1,
+    "11"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.1-314_2-4",
+   "where": "LW§5.1",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "path": [
+    "314_2",
+    4
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.1-314_2-4",
+   "where": "LW§5.1",
+   "law": "chiho",
+   "asof": "2026-11-09",
+   "path": [
+    "314_2",
+    4
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.1-314_2-4",
+   "where": "LW§5.1",
+   "law": "chiho",
+   "asof": "2027-01-01",
+   "path": [
+    "314_2",
+    4
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.1-314_2-8",
+   "where": "LW§5.1",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "path": [
+    "314_2",
+    8
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.1-314_2-8",
+   "where": "LW§5.1",
+   "law": "chiho",
+   "asof": "2026-11-09",
+   "path": [
+    "314_2",
+    8
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.1-314_2-8",
+   "where": "LW§5.1",
+   "law": "chiho",
+   "asof": "2027-01-01",
+   "path": [
+    "314_2",
+    8
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.1-34-4",
+   "where": "LW§5.1",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "path": [
+    "34",
+    4
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.1-34-4",
+   "where": "LW§5.1",
+   "law": "chiho",
+   "asof": "2026-11-09",
+   "path": [
+    "34",
+    4
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.1-34-4",
+   "where": "LW§5.1",
+   "law": "chiho",
+   "asof": "2027-01-01",
+   "path": [
+    "34",
+    4
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.1-diff-new",
+   "where": "LW§5.1",
+   "law": "chiho",
+   "asof": "2026-11-09",
+   "path": [
+    "314_2",
+    1,
+    "11"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.1-diff-new",
+   "where": "LW§5.1",
+   "law": "chiho",
+   "asof": "2027-01-01",
+   "path": [
+    "314_2",
+    1,
+    "11"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.1-diff-old",
+   "where": "LW§5.1",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "path": [
+    "314_2",
+    1,
+    "11"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-314_6-tbl",
+   "where": "LW§5.2",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "path": [
+    "314_6",
+    1,
+    "1",
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-314_6-tbl",
+   "where": "LW§5.2",
+   "law": "chiho",
+   "asof": "2026-11-09",
+   "path": [
+    "314_6",
+    1,
+    "1",
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-314_6-tbl",
+   "where": "LW§5.2",
+   "law": "chiho",
+   "asof": "2027-01-01",
+   "path": [
+    "314_6",
+    1,
+    "1",
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-314_6-1",
+   "where": "LW§5.2",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "path": [
+    "314_6",
+    1,
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-314_6-1",
+   "where": "LW§5.2",
+   "law": "chiho",
+   "asof": "2026-11-09",
+   "path": [
+    "314_6",
+    1,
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-314_6-1",
+   "where": "LW§5.2",
+   "law": "chiho",
+   "asof": "2027-01-01",
+   "path": [
+    "314_6",
+    1,
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-314_6-1i",
+   "where": "LW§5.2",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "path": [
+    "314_6",
+    1,
+    "1",
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-314_6-1i",
+   "where": "LW§5.2",
+   "law": "chiho",
+   "asof": "2026-11-09",
+   "path": [
+    "314_6",
+    1,
+    "1",
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-314_6-1i",
+   "where": "LW§5.2",
+   "law": "chiho",
+   "asof": "2027-01-01",
+   "path": [
+    "314_6",
+    1,
+    "1",
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-314_6-1ro",
+   "where": "LW§5.2",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "path": [
+    "314_6",
+    1,
+    "1",
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-314_6-1ro",
+   "where": "LW§5.2",
+   "law": "chiho",
+   "asof": "2026-11-09",
+   "path": [
+    "314_6",
+    1,
+    "1",
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-314_6-1ro",
+   "where": "LW§5.2",
+   "law": "chiho",
+   "asof": "2027-01-01",
+   "path": [
+    "314_6",
+    1,
+    "1",
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-314_6-2",
+   "where": "LW§5.2",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "path": [
+    "314_6",
+    1,
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-314_6-2",
+   "where": "LW§5.2",
+   "law": "chiho",
+   "asof": "2026-11-09",
+   "path": [
+    "314_6",
+    1,
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-314_6-2",
+   "where": "LW§5.2",
+   "law": "chiho",
+   "asof": "2027-01-01",
+   "path": [
+    "314_6",
+    1,
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-314_6-2ro",
+   "where": "LW§5.2",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "path": [
+    "314_6",
+    1,
+    "2",
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-314_6-2ro",
+   "where": "LW§5.2",
+   "law": "chiho",
+   "asof": "2026-11-09",
+   "path": [
+    "314_6",
+    1,
+    "2",
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-314_6-2ro",
+   "where": "LW§5.2",
+   "law": "chiho",
+   "asof": "2027-01-01",
+   "path": [
+    "314_6",
+    1,
+    "2",
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-314_6-cap",
+   "where": "LW§5.2（補足）",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "path": [
+    "314_6",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-314_6-cap",
+   "where": "LW§5.2（補足）",
+   "law": "chiho",
+   "asof": "2026-11-09",
+   "path": [
+    "314_6",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-314_6-cap",
+   "where": "LW§5.2（補足）",
+   "law": "chiho",
+   "asof": "2027-01-01",
+   "path": [
+    "314_6",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-37-cap",
+   "where": "LW§5.2（補足）",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "path": [
+    "37",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-37-cap",
+   "where": "LW§5.2（補足）",
+   "law": "chiho",
+   "asof": "2026-11-09",
+   "path": [
+    "37",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-37-cap",
+   "where": "LW§5.2（補足）",
+   "law": "chiho",
+   "asof": "2027-01-01",
+   "path": [
+    "37",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-37-1-1",
+   "where": "LW§5.2・§7（補足）",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "path": [
+    "37",
+    1,
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-37-1-1",
+   "where": "LW§5.2・§7（補足）",
+   "law": "chiho",
+   "asof": "2026-11-09",
+   "path": [
+    "37",
+    1,
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-37-1-1",
+   "where": "LW§5.2・§7（補足）",
+   "law": "chiho",
+   "asof": "2027-01-01",
+   "path": [
+    "37",
+    1,
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-37-1-2",
+   "where": "LW§5.2・§7（補足）",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "path": [
+    "37",
+    1,
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-37-1-2",
+   "where": "LW§5.2・§7（補足）",
+   "law": "chiho",
+   "asof": "2026-11-09",
+   "path": [
+    "37",
+    1,
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-37-1-2",
+   "where": "LW§5.2・§7（補足）",
+   "law": "chiho",
+   "asof": "2027-01-01",
+   "path": [
+    "37",
+    1,
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-37-tbl",
+   "where": "LW§5.1・§5.2",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "path": [
+    "37",
+    1,
+    "1",
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-37-tbl",
+   "where": "LW§5.1・§5.2",
+   "law": "chiho",
+   "asof": "2026-11-09",
+   "path": [
+    "37",
+    1,
+    "1",
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.2-37-tbl",
+   "where": "LW§5.1・§5.2",
+   "law": "chiho",
+   "asof": "2027-01-01",
+   "path": [
+    "37",
+    1,
+    "1",
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "IE2e-292-1-9-58",
+   "where": "IE2",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "path": [
+    "292",
+    1,
+    "9"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "IE2e-292-1-9-58",
+   "where": "IE2",
+   "law": "chiho",
+   "asof": "2026-11-09",
+   "path": [
+    "292",
+    1,
+    "9"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "IE2e-292-1-9-62",
+   "where": "IE2",
+   "law": "chiho",
+   "asof": "2027-01-01",
+   "path": [
+    "292",
+    1,
+    "9"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.3-ki2_2-4",
+   "where": "LW§5.3",
+   "law": "chiho-ki",
+   "asof": "2026-01-01",
+   "path": [
+    "2_2",
+    4
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.3-ki2_2-4",
+   "where": "LW§5.3",
+   "law": "chiho-ki",
+   "asof": "2026-11-09",
+   "path": [
+    "2_2",
+    4
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.3-ki2_2-5",
+   "where": "LW§5.3",
+   "law": "chiho-ki",
+   "asof": "2027-01-01",
+   "path": [
+    "2_2",
+    5
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.3-ki2_2-5b",
+   "where": "LW§5.3",
+   "law": "chiho-ki",
+   "asof": "2026-01-01",
+   "path": [
+    "2_2",
+    5
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.3-ki2_2-5b",
+   "where": "LW§5.3",
+   "law": "chiho-ki",
+   "asof": "2026-11-09",
+   "path": [
+    "2_2",
+    5
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.3-ki2_2-6b",
+   "where": "LW§5.3",
+   "law": "chiho-ki",
+   "asof": "2027-01-01",
+   "path": [
+    "2_2",
+    6
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.3-ki2_2-6c",
+   "where": "LW§5.3",
+   "law": "chiho-ki",
+   "asof": "2026-01-01",
+   "path": [
+    "2_2",
+    6
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.3-ki2_2-6c",
+   "where": "LW§5.3",
+   "law": "chiho-ki",
+   "asof": "2026-11-09",
+   "path": [
+    "2_2",
+    6
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.3-ki2_2-7c",
+   "where": "LW§5.3",
+   "law": "chiho-ki",
+   "asof": "2027-01-01",
+   "path": [
+    "2_2",
+    7
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.3-ki2_2-7d",
+   "where": "LW§5.3",
+   "law": "chiho-ki",
+   "asof": "2026-01-01",
+   "path": [
+    "2_2",
+    7
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.3-ki2_2-7d",
+   "where": "LW§5.3",
+   "law": "chiho-ki",
+   "asof": "2026-11-09",
+   "path": [
+    "2_2",
+    7
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.3-ki2_2-8d",
+   "where": "LW§5.3",
+   "law": "chiho-ki",
+   "asof": "2026-01-01",
+   "path": [
+    "2_2",
+    8
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.3-ki2_2-8d",
+   "where": "LW§5.3",
+   "law": "chiho-ki",
+   "asof": "2026-11-09",
+   "path": [
+    "2_2",
+    8
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.3-ki2_2-8d27",
+   "where": "LW§5.3",
+   "law": "chiho-ki",
+   "asof": "2027-01-01",
+   "path": [
+    "2_2",
+    8
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.3-ki2_2-9d27",
+   "where": "LW§5.3",
+   "law": "chiho-ki",
+   "asof": "2027-01-01",
+   "path": [
+    "2_2",
+    9
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.3-ki2_3-5",
+   "where": "LW§5.3（訂正）",
+   "law": "chiho-ki",
+   "asof": "2026-01-01",
+   "path": [
+    "2_3",
+    5
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.3-ki2_3-5",
+   "where": "LW§5.3（訂正）",
+   "law": "chiho-ki",
+   "asof": "2026-11-09",
+   "path": [
+    "2_3",
+    5
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.3-ki2_3-5",
+   "where": "LW§5.3（訂正）",
+   "law": "chiho-ki",
+   "asof": "2027-01-01",
+   "path": [
+    "2_3",
+    5
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.3-ki2_3-6",
+   "where": "LW§5.3（訂正）",
+   "law": "chiho-ki",
+   "asof": "2026-01-01",
+   "path": [
+    "2_3",
+    6
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.3-ki2_3-6",
+   "where": "LW§5.3（訂正）",
+   "law": "chiho-ki",
+   "asof": "2026-11-09",
+   "path": [
+    "2_3",
+    6
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW5.3-ki2_3-6",
+   "where": "LW§5.3（訂正）",
+   "law": "chiho-ki",
+   "asof": "2027-01-01",
+   "path": [
+    "2_3",
+    6
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.1-k3-7",
+   "where": "LW§6.1",
+   "law": "kenpo",
+   "asof": "2025-12-31",
+   "path": [
+    "3",
+    7
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.1-k3-7",
+   "where": "LW§6.1",
+   "law": "kenpo",
+   "asof": "2026-11-09",
+   "path": [
+    "3",
+    7
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.1-k3-7-1",
+   "where": "LW§6.1",
+   "law": "kenpo",
+   "asof": "2025-12-31",
+   "path": [
+    "3",
+    7,
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.1-k3-7-1",
+   "where": "LW§6.1",
+   "law": "kenpo",
+   "asof": "2026-11-09",
+   "path": [
+    "3",
+    7,
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.1-k3-7-2",
+   "where": "LW§6.1",
+   "law": "kenpo",
+   "asof": "2025-12-31",
+   "path": [
+    "3",
+    7,
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.1-k3-7-2",
+   "where": "LW§6.1",
+   "law": "kenpo",
+   "asof": "2026-11-09",
+   "path": [
+    "3",
+    7,
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.1-k3-7-3",
+   "where": "LW§6.1",
+   "law": "kenpo",
+   "asof": "2025-12-31",
+   "path": [
+    "3",
+    7,
+    "3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.1-k3-7-3",
+   "where": "LW§6.1",
+   "law": "kenpo",
+   "asof": "2026-11-09",
+   "path": [
+    "3",
+    7,
+    "3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.1-k3-7-4",
+   "where": "LW§6.1",
+   "law": "kenpo",
+   "asof": "2025-12-31",
+   "path": [
+    "3",
+    7,
+    "4"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.1-k3-7-4",
+   "where": "LW§6.1",
+   "law": "kenpo",
+   "asof": "2026-11-09",
+   "path": [
+    "3",
+    7,
+    "4"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.1-k3-1-7",
+   "where": "LW§6.1",
+   "law": "kenpo",
+   "asof": "2025-12-31",
+   "path": [
+    "3",
+    1,
+    "7"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.1-k3-1-7",
+   "where": "LW§6.1",
+   "law": "kenpo",
+   "asof": "2026-11-09",
+   "path": [
+    "3",
+    1,
+    "7"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.1-kk50-1",
+   "where": "LW§6.1",
+   "law": "koukirei",
+   "asof": "2026-11-09",
+   "path": [
+    "50",
+    1,
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.1-kk50-2",
+   "where": "LW§6.1",
+   "law": "koukirei",
+   "asof": "2026-11-09",
+   "path": [
+    "50",
+    1,
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.1-kk51-1",
+   "where": "LW§6.1",
+   "law": "koukirei",
+   "asof": "2026-11-09",
+   "path": [
+    "51",
+    1,
+    "1"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.2-kk37_2",
+   "where": "LW§6.2",
+   "law": "kenpo-ki",
+   "asof": "2025-12-31",
+   "path": [
+    "37_2",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.2-kk37_2",
+   "where": "LW§6.2",
+   "law": "kenpo-ki",
+   "asof": "2026-11-09",
+   "path": [
+    "37_2",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.2-kk37_3",
+   "where": "LW§6.2",
+   "law": "kenpo-ki",
+   "asof": "2025-12-31",
+   "path": [
+    "37_3",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.2-kk37_3",
+   "where": "LW§6.2",
+   "law": "kenpo-ki",
+   "asof": "2026-11-09",
+   "path": [
+    "37_3",
+    1
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.2-kk38-1-3",
+   "where": "LW§6.2",
+   "law": "kenpo-ki",
+   "asof": "2025-12-31",
+   "path": [
+    "38",
+    1,
+    "3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.2-kk38-1-3",
+   "where": "LW§6.2",
+   "law": "kenpo-ki",
+   "asof": "2026-11-09",
+   "path": [
+    "38",
+    1,
+    "3"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.2-kk38-1-2",
+   "where": "LW§6.2",
+   "law": "kenpo-ki",
+   "asof": "2025-12-31",
+   "path": [
+    "38",
+    1,
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  },
+  {
+   "id": "LW6.2-kk38-1-2",
+   "where": "LW§6.2",
+   "law": "kenpo-ki",
+   "asof": "2026-11-09",
+   "path": [
+    "38",
+    1,
+    "2"
+   ],
+   "ok": true,
+   "result": "ok",
+   "missing": null
+  }
+ ],
+ "captions": [
+  {
+   "id": "LW2.1-cap",
+   "where": "LW§2.1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "caption": "（同居の老親等に係る扶養控除の特例）",
+   "ok": true
+  },
+  {
+   "id": "LW2.1-cap",
+   "where": "LW§2.1",
+   "law": "sochi",
+   "asof": "2026-11-09",
+   "caption": "（同居の老親等に係る扶養控除の特例）",
+   "ok": true
+  },
+  {
+   "id": "LW2.1-cap",
+   "where": "LW§2.1",
+   "law": "sochi",
+   "asof": "2026-12-31",
+   "caption": "（同居の老親等に係る扶養控除の特例）",
+   "ok": true
+  },
+  {
+   "id": "LW3.1-cap-R2s3",
+   "where": "LW§3.1",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "caption": "（控除対象扶養親族の定義及び扶養控除に関する経過措置）",
+   "ok": true
+  },
+  {
+   "id": "LW4-cap3",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "caption": "（居住者及び非居住者の区分）",
+   "ok": true
+  },
+  {
+   "id": "LW4-cap3",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "caption": "（居住者及び非居住者の区分）",
+   "ok": true
+  },
+  {
+   "id": "LW4-cap3",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "caption": "（居住者及び非居住者の区分）",
+   "ok": true
+  },
+  {
+   "id": "LW4-cap3",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "caption": "（居住者及び非居住者の区分）",
+   "ok": true
+  },
+  {
+   "id": "LW4-cap3",
+   "where": "LW§4",
+   "law": "shotoku",
+   "asof": "2027-03-15",
+   "caption": "（居住者及び非居住者の区分）",
+   "ok": true
+  },
+  {
+   "id": "LW4-cap13",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2025-12-31",
+   "caption": "（国内に住所を有するものとみなされる公務員から除かれる者）",
+   "ok": true
+  },
+  {
+   "id": "LW4-cap13",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2026-11-09",
+   "caption": "（国内に住所を有するものとみなされる公務員から除かれる者）",
+   "ok": true
+  },
+  {
+   "id": "LW4-cap13",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2026-12-31",
+   "caption": "（国内に住所を有するものとみなされる公務員から除かれる者）",
+   "ok": true
+  },
+  {
+   "id": "LW4-cap13",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2027-03-15",
+   "caption": "（国内に住所を有するものとみなされる公務員から除かれる者）",
+   "ok": true
+  },
+  {
+   "id": "LW4-cap14",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2025-12-31",
+   "caption": "（国内に住所を有する者と推定する場合）",
+   "ok": true
+  },
+  {
+   "id": "LW4-cap14",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2026-11-09",
+   "caption": "（国内に住所を有する者と推定する場合）",
+   "ok": true
+  },
+  {
+   "id": "LW4-cap14",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2026-12-31",
+   "caption": "（国内に住所を有する者と推定する場合）",
+   "ok": true
+  },
+  {
+   "id": "LW4-cap14",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2027-03-15",
+   "caption": "（国内に住所を有する者と推定する場合）",
+   "ok": true
+  },
+  {
+   "id": "LW4-cap15",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2025-12-31",
+   "caption": "（国内に住所を有しない者と推定する場合）",
+   "ok": true
+  },
+  {
+   "id": "LW4-cap15",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2026-11-09",
+   "caption": "（国内に住所を有しない者と推定する場合）",
+   "ok": true
+  },
+  {
+   "id": "LW4-cap15",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2026-12-31",
+   "caption": "（国内に住所を有しない者と推定する場合）",
+   "ok": true
+  },
+  {
+   "id": "LW4-cap15",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "asof": "2027-03-15",
+   "caption": "（国内に住所を有しない者と推定する場合）",
+   "ok": true
+  },
+  {
+   "id": "LW6.2-cap37_2",
+   "where": "LW§6.2",
+   "law": "kenpo-ki",
+   "asof": "2025-12-31",
+   "caption": "（法第三条第七項本文の厚生労働省令で定めるもの）",
+   "ok": true
+  },
+  {
+   "id": "LW6.2-cap37_2",
+   "where": "LW§6.2",
+   "law": "kenpo-ki",
+   "asof": "2026-11-09",
+   "caption": "（法第三条第七項本文の厚生労働省令で定めるもの）",
+   "ok": true
+  }
+ ],
+ "same": [
+  {
+   "id": "SAME-shotoku-2-34_2",
+   "where": "LW§3.1",
+   "law": "shotoku",
+   "hashes": {
+    "2025-12-31": "c667ebdd59125d20",
+    "2026-11-09": "c667ebdd59125d20",
+    "2026-12-31": "c667ebdd59125d20",
+    "2027-01-01": "c667ebdd59125d20",
+    "2027-03-15": "c667ebdd59125d20"
+   },
+   "ok": true
+  },
+  {
+   "id": "SAME-shotoku-2-34_4",
+   "where": "LW§1.1",
+   "law": "shotoku",
+   "hashes": {
+    "2025-12-31": "e53cf2b22395365c",
+    "2026-11-09": "e53cf2b22395365c",
+    "2026-12-31": "e53cf2b22395365c",
+    "2027-01-01": "e53cf2b22395365c",
+    "2027-03-15": "e53cf2b22395365c"
+   },
+   "ok": true
+  },
+  {
+   "id": "SAME-shotoku-84",
+   "where": "LW§1.1・§1.2",
+   "law": "shotoku",
+   "hashes": {
+    "2025-12-31": "f993beb8faf01853",
+    "2026-11-09": "f993beb8faf01853",
+    "2026-12-31": "f993beb8faf01853",
+    "2027-01-01": "f993beb8faf01853",
+    "2027-03-15": "f993beb8faf01853"
+   },
+   "ok": true
+  },
+  {
+   "id": "SAME-shotoku-85-3",
+   "where": "LW§1.1",
+   "law": "shotoku",
+   "hashes": {
+    "2025-12-31": "bf818870ddeec75c",
+    "2026-11-09": "bf818870ddeec75c",
+    "2026-12-31": "bf818870ddeec75c",
+    "2027-01-01": "bf818870ddeec75c",
+    "2027-03-15": "bf818870ddeec75c"
+   },
+   "ok": true
+  },
+  {
+   "id": "SAME-shotoku-120-3-2_3",
+   "where": "LW§3.2",
+   "law": "shotoku",
+   "hashes": {
+    "2025-12-31": "bdb4cad1cfd56fa2",
+    "2026-11-09": "bdb4cad1cfd56fa2",
+    "2026-12-31": "bdb4cad1cfd56fa2",
+    "2027-01-01": "bdb4cad1cfd56fa2",
+    "2027-03-15": "bdb4cad1cfd56fa2"
+   },
+   "ok": true
+  },
+  {
+   "id": "SAME-shotoku-120-3-all",
+   "where": "LW§3.2",
+   "law": "shotoku",
+   "hashes": {
+    "2025-12-31": "343344e63f00b79c",
+    "2026-11-09": "343344e63f00b79c",
+    "2026-12-31": "343344e63f00b79c"
+   },
+   "ok": true
+  },
+  {
+   "id": "SAME-shotoku-3",
+   "where": "LW§4",
+   "law": "shotoku",
+   "hashes": {
+    "2025-12-31": "afde111846d97b0b",
+    "2026-11-09": "afde111846d97b0b",
+    "2026-12-31": "afde111846d97b0b",
+    "2027-01-01": "afde111846d97b0b",
+    "2027-03-15": "afde111846d97b0b"
+   },
+   "ok": true
+  },
+  {
+   "id": "SAME-shotoku-2-3_4_5",
+   "where": "LW§4",
+   "law": "shotoku",
+   "hashes": {
+    "2025-12-31": "a7158b2612b69fa2",
+    "2026-11-09": "a7158b2612b69fa2",
+    "2026-12-31": "a7158b2612b69fa2",
+    "2027-01-01": "a7158b2612b69fa2",
+    "2027-03-15": "a7158b2612b69fa2"
+   },
+   "ok": true
+  },
+  {
+   "id": "SAME-rei-13_14_15",
+   "where": "LW§4",
+   "law": "shotoku-rei",
+   "hashes": {
+    "2025-12-31": "a6e09729e2622571",
+    "2026-11-09": "a6e09729e2622571",
+    "2026-12-31": "a6e09729e2622571",
+    "2027-03-15": "a6e09729e2622571"
+   },
+   "ok": true
+  },
+  {
+   "id": "SAME-rei-262",
+   "where": "LW§3.2",
+   "law": "shotoku-rei",
+   "hashes": {
+    "2025-12-31": "db8e79454f8680d7",
+    "2026-11-09": "db8e79454f8680d7",
+    "2026-12-31": "db8e79454f8680d7",
+    "2027-03-15": "db8e79454f8680d7"
+   },
+   "ok": true
+  },
+  {
+   "id": "SAME-ki-47_2-5_10",
+   "where": "LW§3.2",
+   "law": "shotoku-ki",
+   "hashes": {
+    "2025-12-31": "d581e0647ee5d135",
+    "2026-11-09": "d581e0647ee5d135",
+    "2026-12-31": "d581e0647ee5d135",
+    "2027-03-15": "d581e0647ee5d135"
+   },
+   "ok": true
+  },
+  {
+   "id": "SAME-sochi-41_16",
+   "where": "LW§2.1",
+   "law": "sochi",
+   "hashes": {
+    "2025-12-31": "22d8b54d189a18d3",
+    "2026-11-09": "22d8b54d189a18d3",
+    "2026-12-31": "22d8b54d189a18d3"
+   },
+   "ok": true
+  },
+  {
+   "id": "SAME-chiho-314_2-4_8",
+   "where": "LW§5.1",
+   "law": "chiho",
+   "hashes": {
+    "2026-01-01": "78f4e8c79d43c725",
+    "2026-11-09": "78f4e8c79d43c725",
+    "2027-01-01": "78f4e8c79d43c725"
+   },
+   "ok": true
+  },
+  {
+   "id": "SAME-chiho-34-4",
+   "where": "LW§5.1",
+   "law": "chiho",
+   "hashes": {
+    "2026-01-01": "7af4c48b5aaf64df",
+    "2026-11-09": "7af4c48b5aaf64df",
+    "2027-01-01": "7af4c48b5aaf64df"
+   },
+   "ok": true
+  },
+  {
+   "id": "SAME-chiho-314_6",
+   "where": "LW§5.2",
+   "law": "chiho",
+   "hashes": {
+    "2026-01-01": "ddf84b6e3b96869b",
+    "2026-11-09": "ddf84b6e3b96869b",
+    "2027-01-01": "ddf84b6e3b96869b"
+   },
+   "ok": true
+  },
+  {
+   "id": "SAME-kenpo-3-7",
+   "where": "LW§6.1",
+   "law": "kenpo",
+   "hashes": {
+    "2025-12-31": "0651186ea4adaa5d",
+    "2026-11-09": "0651186ea4adaa5d"
+   },
+   "ok": true
+  },
+  {
+   "id": "SAME-kenpoki-37_2_37_3_38",
+   "where": "LW§6.2",
+   "law": "kenpo-ki",
+   "hashes": {
+    "2025-12-31": "bcbf9d81b3e4c164",
+    "2026-11-09": "bcbf9d81b3e4c164"
+   },
+   "ok": true
+  }
+ ],
+ "scans": [
+  {
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "同居老親等": 0,
+   "同居の老親等": 0,
+   "同居直系尊属": 6,
+   "国外居住親族": 0,
+   "国外居住者": 0,
+   "百三十万円": 16,
+   "百八十万円": 1
+  },
+  {
+   "law": "chiho",
+   "asof": "2026-11-09",
+   "同居老親等": 0,
+   "同居の老親等": 0,
+   "同居直系尊属": 6,
+   "国外居住親族": 0,
+   "国外居住者": 0,
+   "百三十万円": 16,
+   "百八十万円": 1
+  },
+  {
+   "law": "chiho",
+   "asof": "2027-01-01",
+   "同居老親等": 0,
+   "同居の老親等": 0,
+   "同居直系尊属": 6,
+   "国外居住親族": 0,
+   "国外居住者": 0,
+   "百三十万円": 16,
+   "百八十万円": 1
+  },
+  {
+   "law": "chiho-ki",
+   "asof": "2026-01-01",
+   "同居老親等": 0,
+   "同居の老親等": 0,
+   "同居直系尊属": 0,
+   "国外居住親族": 0,
+   "国外居住者": 57,
+   "百三十万円": 0,
+   "百八十万円": 0
+  },
+  {
+   "law": "chiho-ki",
+   "asof": "2026-11-09",
+   "同居老親等": 0,
+   "同居の老親等": 0,
+   "同居直系尊属": 0,
+   "国外居住親族": 0,
+   "国外居住者": 57,
+   "百三十万円": 0,
+   "百八十万円": 0
+  },
+  {
+   "law": "chiho-ki",
+   "asof": "2027-01-01",
+   "同居老親等": 0,
+   "同居の老親等": 0,
+   "同居直系尊属": 0,
+   "国外居住親族": 0,
+   "国外居住者": 57,
+   "百三十万円": 0,
+   "百八十万円": 0
+  },
+  {
+   "law": "kenpo",
+   "asof": "2025-12-31",
+   "同居老親等": 0,
+   "同居の老親等": 0,
+   "同居直系尊属": 0,
+   "国外居住親族": 0,
+   "国外居住者": 0,
+   "百三十万円": 0,
+   "百八十万円": 0
+  },
+  {
+   "law": "kenpo",
+   "asof": "2026-11-09",
+   "同居老親等": 0,
+   "同居の老親等": 0,
+   "同居直系尊属": 0,
+   "国外居住親族": 0,
+   "国外居住者": 0,
+   "百三十万円": 0,
+   "百八十万円": 0
+  },
+  {
+   "law": "kenpo-ki",
+   "asof": "2025-12-31",
+   "同居老親等": 0,
+   "同居の老親等": 0,
+   "同居直系尊属": 0,
+   "国外居住親族": 0,
+   "国外居住者": 0,
+   "百三十万円": 0,
+   "百八十万円": 0
+  },
+  {
+   "law": "kenpo-ki",
+   "asof": "2026-11-09",
+   "同居老親等": 0,
+   "同居の老親等": 0,
+   "同居直系尊属": 0,
+   "国外居住親族": 0,
+   "国外居住者": 0,
+   "百三十万円": 0,
+   "百八十万円": 0
+  },
+  {
+   "law": "koukirei",
+   "asof": "2026-11-09",
+   "同居老親等": 0,
+   "同居の老親等": 0,
+   "同居直系尊属": 0,
+   "国外居住親族": 0,
+   "国外居住者": 0,
+   "百三十万円": 0,
+   "百八十万円": 0
+  },
+  {
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "同居老親等": 0,
+   "同居の老親等": 0,
+   "同居直系尊属": 0,
+   "国外居住親族": 29,
+   "国外居住者": 0,
+   "百三十万円": 4,
+   "百八十万円": 0
+  },
+  {
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "同居老親等": 0,
+   "同居の老親等": 0,
+   "同居直系尊属": 0,
+   "国外居住親族": 29,
+   "国外居住者": 0,
+   "百三十万円": 4,
+   "百八十万円": 0
+  },
+  {
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "同居老親等": 0,
+   "同居の老親等": 0,
+   "同居直系尊属": 0,
+   "国外居住親族": 29,
+   "国外居住者": 0,
+   "百三十万円": 4,
+   "百八十万円": 0
+  },
+  {
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "同居老親等": 0,
+   "同居の老親等": 0,
+   "同居直系尊属": 0,
+   "国外居住親族": 29,
+   "国外居住者": 0,
+   "百三十万円": 4,
+   "百八十万円": 1
+  },
+  {
+   "law": "shotoku",
+   "asof": "2027-03-15",
+   "同居老親等": 0,
+   "同居の老親等": 0,
+   "同居直系尊属": 0,
+   "国外居住親族": 29,
+   "国外居住者": 0,
+   "百三十万円": 4,
+   "百八十万円": 1
+  },
+  {
+   "law": "shotoku-ki",
+   "asof": "2025-12-31",
+   "同居老親等": 0,
+   "同居の老親等": 1,
+   "同居直系尊属": 0,
+   "国外居住親族": 27,
+   "国外居住者": 0,
+   "百三十万円": 0,
+   "百八十万円": 0
+  },
+  {
+   "law": "shotoku-ki",
+   "asof": "2026-11-09",
+   "同居老親等": 0,
+   "同居の老親等": 1,
+   "同居直系尊属": 0,
+   "国外居住親族": 27,
+   "国外居住者": 0,
+   "百三十万円": 0,
+   "百八十万円": 0
+  },
+  {
+   "law": "shotoku-ki",
+   "asof": "2026-12-31",
+   "同居老親等": 0,
+   "同居の老親等": 1,
+   "同居直系尊属": 0,
+   "国外居住親族": 27,
+   "国外居住者": 0,
+   "百三十万円": 0,
+   "百八十万円": 0
+  },
+  {
+   "law": "shotoku-ki",
+   "asof": "2027-03-15",
+   "同居老親等": 0,
+   "同居の老親等": 1,
+   "同居直系尊属": 0,
+   "国外居住親族": 27,
+   "国外居住者": 0,
+   "百三十万円": 0,
+   "百八十万円": 0
+  },
+  {
+   "law": "shotoku-rei",
+   "asof": "2025-12-31",
+   "同居老親等": 0,
+   "同居の老親等": 0,
+   "同居直系尊属": 0,
+   "国外居住親族": 14,
+   "国外居住者": 0,
+   "百三十万円": 0,
+   "百八十万円": 0
+  },
+  {
+   "law": "shotoku-rei",
+   "asof": "2026-11-09",
+   "同居老親等": 0,
+   "同居の老親等": 0,
+   "同居直系尊属": 0,
+   "国外居住親族": 14,
+   "国外居住者": 0,
+   "百三十万円": 0,
+   "百八十万円": 0
+  },
+  {
+   "law": "shotoku-rei",
+   "asof": "2026-12-31",
+   "同居老親等": 0,
+   "同居の老親等": 0,
+   "同居直系尊属": 0,
+   "国外居住親族": 14,
+   "国外居住者": 0,
+   "百三十万円": 0,
+   "百八十万円": 0
+  },
+  {
+   "law": "shotoku-rei",
+   "asof": "2027-03-15",
+   "同居老親等": 0,
+   "同居の老親等": 0,
+   "同居直系尊属": 0,
+   "国外居住親族": 14,
+   "国外居住者": 0,
+   "百三十万円": 0,
+   "百八十万円": 0
+  },
+  {
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "同居老親等": 0,
+   "同居の老親等": 5,
+   "同居直系尊属": 0,
+   "国外居住親族": 0,
+   "国外居住者": 0,
+   "百三十万円": 2,
+   "百八十万円": 0
+  },
+  {
+   "law": "sochi",
+   "asof": "2026-11-09",
+   "同居老親等": 0,
+   "同居の老親等": 5,
+   "同居直系尊属": 0,
+   "国外居住親族": 0,
+   "国外居住者": 0,
+   "百三十万円": 2,
+   "百八十万円": 0
+  },
+  {
+   "law": "sochi",
+   "asof": "2026-12-31",
+   "同居老親等": 0,
+   "同居の老親等": 5,
+   "同居直系尊属": 0,
+   "国外居住親族": 0,
+   "国外居住者": 0,
+   "百三十万円": 2,
+   "百八十万円": 0
+  },
+  {
+   "law": "sochi-rei",
+   "asof": "2026-11-09",
+   "同居老親等": 0,
+   "同居の老親等": 0,
+   "同居直系尊属": 0,
+   "国外居住親族": 0,
+   "国外居住者": 0,
+   "百三十万円": 0,
+   "百八十万円": 0
+  }
+ ],
+ "misc": {
+  "replace_only:shotoku:194-1-5": {
+   "changed": true,
+   "old_has_控除対象扶養親族": true,
+   "new_has_源泉控除対象親族": true,
+   "equal_after_replace": true
+  },
+  "replace_only:shotoku:194-1-6": {
+   "changed": true,
+   "old_has_控除対象扶養親族": true,
+   "new_has_源泉控除対象親族": true,
+   "equal_after_replace": true
+  },
+  "replace_only:shotoku:194-1-7": {
+   "changed": true,
+   "old_has_控除対象扶養親族": true,
+   "new_has_源泉控除対象親族": true,
+   "equal_after_replace": true
+  },
+  "replace_only:shotoku:194-5": {
+   "changed": true,
+   "old_has_控除対象扶養親族": true,
+   "new_has_源泉控除対象親族": true,
+   "equal_after_replace": true
+  },
+  "replace_only:shotoku-rei:316_2-2-3": {
+   "changed": true,
+   "old_has_控除対象扶養親族": true,
+   "new_has_源泉控除対象親族": true,
+   "equal_after_replace": true
+  },
+  "replace_only:shotoku-ki:73_2-2-2": {
+   "changed": true,
+   "old_has_控除対象扶養親族": true,
+   "new_has_源泉控除対象親族": true,
+   "equal_after_replace": true
+  },
+  "replace_only:shotoku:194-whole": {
+   "equal_after_replace": true
+  },
+  "chiho-314_2-1-11:only_phrase": true,
+  "chiho-314_2-1-11:2026-11-09==2027-01-01": true,
+  "shotoku-120:2026-12-31→2027-01-01": {
+   "changed_or_new": [
+    "3-1",
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "unchanged_3-2_3-3": true,
+   "paragraphs_2026-12-31": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "paragraphs_2027-01-01": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+   ]
+  },
+  "sochi-41_16@2025-12-31": {
+   "table_rows": 3,
+   "time_words": []
+  },
+  "sochi-41_16@2026-11-09": {
+   "table_rows": 3,
+   "time_words": []
+  },
+  "sochi-41_16@2026-12-31": {
+   "table_rows": 3,
+   "time_words": []
+  },
+  "chiho-ki-2_2@2026-01-01": {
+   "「国外居住者」という": [
+    "4"
+   ],
+   "扶養控除額又は特定親族特別控除額": [
+    "5"
+   ],
+   "「控除対象外国外扶養親族」という": [
+    "6"
+   ],
+   "「控除対象外国外同一生計配偶者」という": [
+    "6"
+   ],
+   "「非課税限度額制度適用者」という": [
+    "6"
+   ],
+   "国外扶養親族証明書類とは": [
+    "7"
+   ],
+   "国外配偶者証明書類とは": [
+    "8"
+   ]
+  },
+  "chiho-ki-2_2-hikazei-proviso@2026-01-01": {
+   "paragraph": "6",
+   "proviso_mentions_確定申告書": false,
+   "proviso": "ただし、次条第五項、第二条の三の三第十二項若しくは第十三項又は第二条の三の六第十一項若しくは第十二項の規定により提出した当該控除対象外国外扶養親族に係る国外扶養親族証明書類及び次条第六項の規定により提出した当該控除対象外国外同一生計配偶者に係る国外配偶者証明書類については、この限りでない。"
+  },
+  "chiho-ki-2_2@2026-11-09": {
+   "「国外居住者」という": [
+    "4"
+   ],
+   "扶養控除額又は特定親族特別控除額": [
+    "5"
+   ],
+   "「控除対象外国外扶養親族」という": [
+    "6"
+   ],
+   "「控除対象外国外同一生計配偶者」という": [
+    "6"
+   ],
+   "「非課税限度額制度適用者」という": [
+    "6"
+   ],
+   "国外扶養親族証明書類とは": [
+    "7"
+   ],
+   "国外配偶者証明書類とは": [
+    "8"
+   ]
+  },
+  "chiho-ki-2_2-hikazei-proviso@2026-11-09": {
+   "paragraph": "6",
+   "proviso_mentions_確定申告書": false,
+   "proviso": "ただし、次条第五項、第二条の三の三第十二項若しくは第十三項又は第二条の三の六第十一項若しくは第十二項の規定により提出した当該控除対象外国外扶養親族に係る国外扶養親族証明書類及び次条第六項の規定により提出した当該控除対象外国外同一生計配偶者に係る国外配偶者証明書類については、この限りでない。"
+  },
+  "chiho-ki-2_2@2027-01-01": {
+   "「国外居住者」という": [
+    "5"
+   ],
+   "扶養控除額又は特定親族特別控除額": [
+    "6"
+   ],
+   "「控除対象外国外扶養親族」という": [
+    "7"
+   ],
+   "「控除対象外国外同一生計配偶者」という": [
+    "7"
+   ],
+   "「非課税限度額制度適用者」という": [
+    "7"
+   ],
+   "国外扶養親族証明書類とは": [
+    "8"
+   ],
+   "国外配偶者証明書類とは": [
+    "9"
+   ]
+  },
+  "chiho-ki-2_2-hikazei-proviso@2027-01-01": {
+   "paragraph": "7",
+   "proviso_mentions_確定申告書": false,
+   "proviso": "ただし、次条第五項、第二条の三の三第十二項若しくは第十三項又は第二条の三の六第十一項若しくは第十二項の規定により提出した当該控除対象外国外扶養親族に係る国外扶養親族証明書類及び次条第六項の規定により提出した当該控除対象外国外同一生計配偶者に係る国外配偶者証明書類については、この限りでない。"
+  },
+  "chiho-37-1-1-rate@2026-01-01": [
+   "百分の二",
+   "百分の一"
+  ],
+  "chiho-37-1-1-rate@2026-11-09": [
+   "百分の二",
+   "百分の一"
+  ],
+  "chiho-37-1-1-rate@2027-01-01": [
+   "百分の二",
+   "百分の一"
+  ],
+  "chiho-292-1-9@2026-01-01": "五十八万円",
+  "chiho-292-1-9@2026-11-09": "五十八万円",
+  "chiho-292-1-9@2027-01-01": "六十二万円"
+ }
+}

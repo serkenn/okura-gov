@@ -1,0 +1,5 @@
+# chiho-rei 325CO0000000245 asof=2026-11-09
+# 法令名=地方税法施行令 law_revision_id=325CO0000000245_20261101_508CO0000000083 改正法令=令和八年政令第八十三号 施行日=2026-11-01 状態=CurrentEnforced
+# 取得URL=https://laws.e-gov.go.jp/api/2/law_data/325CO0000000245?response_format=json&asof=2026-11-09
+# 取得日時=20261109-173444
+# 生データ SHA-256=9bc03b230fb0ed1039e33a1544cd53772939ee25d6d4648a386400ea269dfb17

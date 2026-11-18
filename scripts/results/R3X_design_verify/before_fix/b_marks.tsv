@@ -1,0 +1,138 @@
+doc	line	heading	mark	doc_in_O_rows	doc_named_in_OUTD	O_rows_with_same_words
+impl-prep_iryohi-model	109	H6 5%の円未満の端数処理は一次情報がない。名前つきの関数にし、作成コーナーで	未確認	1	1	O02,O05,O06,O07,O08,O09,O10,O11,O14,O15,O17,O21,O62
+impl-prep_iryohi-model	125	H8 通常の医療費控除とセルフメディケーション税制は、判定コアが両方を計算し、選	有利な方	1	1	
+impl-prep_iryohi-model	190	H11.4 すべての出力に付ける根拠（D13）	未確認	1	1	O02,O05,O06,O07,O08,O09,O10,O11,O14,O15,O17,O21,O62
+impl-prep_jigyo-calculation-model	34	H2 家内労働者等の特例は「年分の額 − 給与の調整」を上限に、措令18の2② 	未対応	1	1	O39
+impl-prep_jigyo-calculation-model	43	H3 子供が白色である前提では、青色の規定は「青色の承認あり」を入力で受けて止め	未対応	1	1	O39
+impl-prep_jigyo-calculation-model	54	H4 収入・費用の年分の帰属は、事業所得は常に発生主義、業務に係る雑所得は条件つ	未対応	1	1	O39
+impl-prep_jigyo-calculation-model	60	H5 「前々年分の業務に係る雑所得の収入金額」は、記録から再計算せず、確定した値	不明	1	1	O32,O40
+impl-prep_kenpo-input-facts	67	HK2 「今後1年間の年間収入の見込み」は、収入の種類ごとの D4 判断として持	出典未確認	1	1	O02,O06,O07,O10
+impl-prep_kenpo-input-facts	79	HK3 「同一の世帯に属する」は D4 判断（被保険者と本人の組、区間つき）とし	同一世帯の判断が必要	1	1	
+impl-prep_misc-hypotheses	23	H1 年齢は「判定日の終了時に達している年齢」を返す1つの関数で求め、生年月日の	判定日の終了時に達している年齢	0	1	
+impl-prep_output-minimal-layer	48	H3：医療費は「明細書の行」と「医療費集計フォーム（Ver.3.1）互換の xl	医療費集計フォーム（Ver.3.1）互換の xlsx	1	1	
+impl-prep_output-minimal-layer	54	H3：医療費は「明細書の行」と「医療費集計フォーム（Ver.3.1）互換の xl	明細書は e-Tax で送信されないので別途提出	1	1	
+impl-prep_output-minimal-layer	69	H5：欄値表は「単位の制約」を検査する。端数処理は判定コアの名前つき関数が行い、	0000	1	1	
+impl-prep_zeigaku-calc-model	99	H7 源泉徴収税額は「所得税及び復興特別所得税」の合計のまま中間表現に入れ、精算	判定できない（要確認）	1	1	O41
+round2_aoiro-model	25	H1 青色申告の承認は「人×年分」の状態で、手続の事実の履歴から判定コアが決定的	人×年分	1	1	
+round2_aoiro-model	38	H1 青色申告の承認は「人×年分」の状態で、手続の事実の履歴から判定コアが決定的	期限の計算：初日不算入	1	1	O29
+round2_aoiro-model	40	H1 青色申告の承認は「人×年分」の状態で、手続の事実の履歴から判定コアが決定的	却下されうる	1	1	O30
+round2_aoiro-model	103	H6 青色事業専従者給与：必要経費に算入できる額は「実際に支払った額」と「届出の	出典未確認の数え方	1	1	O02,O06
+round2_aoiro-model	110	H7 現金主義（所法67①）は第1段では「対象外」として拒否し、届出の有無だけを	対象外	1	1	O04
+round2_aoiro-model	121	H8 純損失の繰越控除：過去の年分の純損失は、記録から再計算せず「申告した確定値	対象外	1	1	O04
+round2_elderly-abroad-model	83	HE2.2 「同居を常況」の判定：事実から候補を出し、判断で確定する	判断が必要	1	1	O36
+round2_elderly-abroad-model	91	HE2.3 住民税	住民税についての出典未確認	1	1	O02,O10
+round2_elderly-abroad-model	109	HE3.2 「38万円以上」の判定	出典未確認	1	1	O02,O06,O07,O10
+round2_elderly-abroad-model	109	HE3.2 「38万円以上」の判定	未確定	1	1	O03,O13,O31,O33,O53,O54,O62
+round2_elderly-abroad-model	126	HE4 居住者・非居住者の判定（扶養の判定に使う分だけ）	対象外	1	1	O04
+round2_elderly-abroad-model	132	HE4 居住者・非居住者の判定（扶養の判定に使う分だけ）	推定と異なる判断	1	1	O37
+round2_elderly-abroad-model	140	HE5.1 年齢の区分	未確定	1	1	O03,O13,O31,O33,O53,O54,O62
+round2_elderly-abroad-model	141	HE5.1 年齢の区分	75歳到達で資格を得る見込み	1	1	O01
+round2_elderly-abroad-model	150	HE5.3 国内居住要件	保険者が居住実態で例外的に否定しうる	1	1	O38
+round2_elderly-abroad-model	163	HE6 一次情報で決まらないもの（名前つきの関数・パラメータにして「出典未確認」	出典未確認	1	1	O02,O06,O07,O10
+round2_gaps-hypotheses	124	HG6 健保の「今後1年間の見込み」は、収入に波がある人でも計算式が一次情報で決	見込み	1	1	O01,O56
+round2_gaps-hypotheses	126	HG6 健保の「今後1年間の見込み」は、収入に波がある人でも計算式が一次情報で決	未確定	1	1	O03,O13,O31,O33,O53,O54,O62
+round2_gaps-hypotheses	136	HG6 健保の「今後1年間の見込み」は、収入に波がある人でも計算式が一次情報で決	見込み	1	1	O01,O56
+round2_genka-model	81	H3 通常の償却（定額法）の式と、一次情報で決まらない端数	未対応	1	1	O39
+round2_genka-model	102	H5 私用で持っていた資産を業務に使い始めた場合は、所令135・85 で「業務供	出典未確認	1	1	O02,O06,O07,O10
+round2_genka-model	113	H6 処分（除却・譲渡・私用への転用）は、所得区分ごとに行き先が違う。業務に係る	未対応	1	1	O39
+round2_genka-model	115	H6 処分（除却・譲渡・私用への転用）は、所得区分ごとに行き先が違う。業務に係る	業務外	1	1	
+round2_genka-model	124	H7 損益通算は所令198 の順序の関数として、人・年分ごとに「所得区分ごとの所	対象外	1	1	O04
+round2_genka-model	124	H7 損益通算は所令198 の順序の関数として、人・年分ごとに「所得区分ごとの所	未対応	1	1	O39
+round2_genka-model	145	H9 健保・国保・住民税との境目：減価償却費は所得税の必要経費として計算し、別の	未確定	1	1	O03,O13,O31,O33,O53,O54,O62
+round2_genka-model	149	H10 一次情報で決まらない処理の一覧（名前つきの関数・規則にして「出典未確認」	出典未確認	1	1	O02,O06,O07,O10
+round2_hoken-kifu-model	56	H4 生命保険料控除・地震保険料控除の1円未満の端数は、名前つきの関数「保険料控	出典は国税庁の説明（条文に定めなし）	1	1	O16
+round2_hoken-kifu-model	56	H4 生命保険料控除・地震保険料控除の1円未満の端数は、名前つきの関数「保険料控	出典未確認	1	1	O02,O06,O07,O10
+round2_hoken-kifu-model	119	H9 小規模企業共済等掛金控除は「掛金の種類×加入者×支払者×支払日」の事実で組	対象外（理由：加入者以外の支払の扱いが未確認）	1	1	O04
+round2_jinteki-model	54	H2 判定の時点は制度ごとに違う。根拠の事実は「区間」で持ち、時点で切り出す	未確定（判定時点が法令で決まらない）	1	1	O03
+round2_jinteki-model	56	H2 判定の時点は制度ごとに違う。根拠の事実は「区間」で持ち、時点で切り出す	判断を求める	1	1	O36
+round2_jinteki-model	58	H3 手帳の申請中・認定の申請中（所基通2-38、質疑応答 05/63）は「通達	通達による取扱い	1	1	O22
+round2_jinteki-model	60	H3 手帳の申請中・認定の申請中（所基通2-38、質疑応答 05/63）は「通達	法令の文言ではなく通達・質疑応答による	1	1	O22
+round2_jinteki-model	63	H3 手帳の申請中・認定の申請中（所基通2-38、質疑応答 05/63）は「通達	判断を求める	1	1	O36
+round2_jinteki-model	63	H3 手帳の申請中・認定の申請中（所基通2-38、質疑応答 05/63）は「通達	未確定	1	1	O03,O13,O31,O33,O53,O54,O62
+round2_jinteki-model	97	H5 寡婦・ひとり親は所得税と住民税で同じ構造。違うのは「前年」と判定時点と額だ	通知による取扱い	1	1	O23
+round2_jinteki-model	112	H7 健保の被扶養者の 180万円（障害者）は通知の値。障害の程度は「障害年金の	通知	1	1	O23,O25
+round2_jinteki-model	117	H7 健保の被扶養者の 180万円（障害者）は通知の値。障害の程度は「障害年金の	未確定（障害の程度の基準が保険者の運用で決まる）	1	1	O03
+round2_juminzei-tax-calc-model	98	H5 一次情報で決まらない端数処理は、名前つきの関数にして結果に印を付ける	出典：自治体の計算例	1	1	O12
+round2_juminzei-tax-calc-model	100	H5 一次情報で決まらない端数処理は、名前つきの関数にして結果に印を付ける	端数の扱いは一次情報で未確定	1	1	O03,O13
+round2_juminzei-tax-calc-model	107	H6 注入がない団体の税額は「未確定」を返し、税率に対する一次式を根拠として添え	未確定	1	1	O03,O13,O31,O33,O53,O54,O62
+round2_kokuho-core-vs-injected	146	H10 国民年金：コアに置く規則	基準に当たるか	1	1	
+round2_kyosai-model	29	HKY1 被扶養者の規則は3つの層に分ける：法令（コア）／制度ごとの大臣の定め・	出典：組合の資料（大臣の定めの原文は未確認）	1	1	O11
+round2_kyosai-model	88	HKY7 事業収入：確定申告の収支の明細（費目つき）を共有し、引ける費目は保険者	事業収入	1	1	
+round2_kyosai-model	97	HKY8 19歳以上23歳未満・60歳以上の年齢と、基準の適用開始日	未確定	1	1	O03,O13,O31,O33,O53,O54,O62
+round2_kyosai-model	103	HKY9 届出と認定日：共済は法律の「30日」をコアで、健保は保険者の決定（事実	出典未確認	1	1	O02,O06,O07,O10
+round2_kyosai-model	108	HKY10 運用方針にある共済だけの規則：重複・他人の扶養手当・共同扶養・「通常	運用方針（大臣の定め）	1	1	
+round2_kyosai-model	111	HKY10 運用方針にある共済だけの規則：重複・他人の扶養手当・共同扶養・「通常	詳しい調査確認の対象になりうるか	1	1	
+round2_spouse-model	23	HS1 「配偶者」は制度ごとに別の概念として持ち、婚姻に関する事実は日付つきの事	出典未確認	1	1	O02,O06,O07,O10
+round2_spouse-model	62	HS3 判定の時点は「12月31日（死亡はその時）」。年の途中の婚姻は年間の合計	解釈（国税庁の明示なし）	1	1	O19
+round2_spouse-model	119	HS7 第3号被保険者の判定は「健保の被扶養者の判定」を再利用し、国民年金法の要	条文未確認	1	1	O08,O09
+round2_spouse-model	121	HS7 第3号被保険者の判定は「健保の被扶養者の判定」を再利用し、国民年金法の要	条文未確認（変更の日）	1	1	O08,O09
+round2_spouse-model	148	HS9 一次情報で決まらない点（結果に印を付けるもの）	解釈（国税庁の明示なし）	1	1	O19
+round2_spouse-model	149	HS9 一次情報で決まらない点（結果に印を付けるもの）	解釈（国税庁の明示なし）	1	1	O19
+round2_spouse-model	150	HS9 一次情報で決まらない点（結果に印を付けるもの）	出典未確認	1	1	O02,O06,O07,O10
+round2_spouse-model	151	HS9 一次情報で決まらない点（結果に印を付けるもの）	出典未確認	1	1	O02,O06,O07,O10
+round2_spouse-model	152	HS9 一次情報で決まらない点（結果に印を付けるもの）	条文未確認	1	1	O08,O09
+round2_spouse-model	155	HS9 一次情報で決まらない点（結果に印を付けるもの）	条文未確認（変更の日）	1	1	O08,O09
+round2_yoshiki-mapping-table	45	H2：対応表の各行は「位置名・値の型・容量・概念・記入の条件・根拠」を持つデータ	あふれ	1	1	O51
+round2_yoshiki-mapping-table	45	H2：対応表の各行は「位置名・値の型・容量・概念・記入の条件・根拠」を持つデータ	適宜の用紙にその明細を記載し、この決算書に添付	1	1	
+round2_yoshiki-mapping-table	67	H4：申告の型（通常／第三表あり／損失申告）で、埋める欄と空ける欄が決まる。型は	損失申告の要件に当たるか	1	1	
+round2_yoshiki-mapping-table	148	H5.2 第二表（`KOA020-02`）	条例指定か未確定	1	1	O03,O53
+round2_yoshiki-mapping-table	225	H7：一次情報で決まらない端数処理・まとめ方は、名前つきの関数にして根拠に「手引	受診者・病院等ごとにまとめて記入できます	1	1	
+round2_yoshiki-mapping-table	233	H8：令和8年分の対応表は、様式の公表を待って「令和7年分の表＋差分」として作る	令和七年分以降用	1	1	
+round2b_fudosan-calculation-model	25	H1 不動産所得かどうかは「資産の種類と貸し方の事実」と少数の判断で決まり、借地	対象外	1	1	O04
+round2b_fudosan-calculation-model	46	H3 必要経費のうち「土地等を取得するために要した負債の利子」は、借入れごとの使	出典未確認	1	1	O02,O06,O07,O10
+round2b_fudosan-calculation-model	80	H5 不動産所得の損失は「青色申告特別控除 → 不動産所得内の制限（別荘・土地の	対象外	1	1	O04
+round2b_fudosan-calculation-model	97	H6 家族の間の賃貸・対価（所法56）は、4つの事実がそろったときに「支払う側の	未確定	1	1	O03,O13,O31,O33,O53,O54,O62
+round2b_fudosan-calculation-model	98	H6 家族の間の賃貸・対価（所法56）は、4つの事実がそろったときに「支払う側の	解釈未確認（所法56 の事業／TA2210 の業務）	1	1	O21
+round2b_invoice-model	74	H5 判定ごとに、事業所得等の金額（経理方式の影響を受けた後の値）がどう数えられ	未確定	1	1	O03,O13,O31,O33,O53,O54,O62
+round2b_invoice-model	115	H8 対象外・未対応として止める組合せ（黙って近似しない。SCOPE §2 の 	出典未確認	1	1	O02,O06,O07,O10
+round2b_kabu-model	36	H1. 選択の構造（人 × 年分）	提出済みと矛盾	1	1	O63
+round2b_kabu-model	61	H2. 各制度の「所得」にどう数えるか（中心の表）	国税庁の解釈による（条文の読替えは未特定）	1	1	O18
+round2b_kabu-model	95	H4. 人の判断（D4）と納税者の選択	判定ごとの境目の説明	1	1	
+round2b_kabu-model	96	H4. 人の判断（D4）と納税者の選択	未確定の選択に基づく	1	1	O03,O33
+round2b_kabu-model	123	H6. 一次情報で決まらない点・端数処理	000	1	1	
+round2b_kabu-model	153	H8. 実装の範囲の提案	対象外	1	1	O04
+round2b_nenkin-model	37	H2 65歳の判定は「その年12月31日（死亡・出国の年はその時）」。住民税は前	地方公共団体の案内と食い違いうる	1	1	O27
+round2b_nenkin-model	131	H8 端数処理：条文にない。境目の判定を変えるときだけ「未確定」にする	未確定（端数処理）	1	1	O03
+round2b_taishoku-model	115	H9 端数処理と、一次情報で決まらない点	出典未確認の端数	1	1	O02,O07
+round2b_taishoku-model	117	H9 端数処理と、一次情報で決まらない点	出典未確認の端数	1	1	O02,O07
+round2b_taishoku-model	123	H10 範囲と対象外	対象外	1	1	O04
+impl-prep_iryohi-s3-recheck	190	検証方法	分割払いの扱いは未確認	1	1	O14
+impl-prep_jigyo-inferences	62	I4 事業所得と業務に係る雑所得の両方がある家内労働者等の配分（令和7年分）	未対応	1	1	O39
+impl-prep_jigyo-inferences	122	I9 青色申告の承認がある人の扱い	未対応（青色申告）	1	1	O39
+impl-prep_juminzei-implications	26	I1 判定コアの入口は「年分」でよいが、住民税は「年分＋1 の年度」として別の結	行政の資料による	1	1	O26
+impl-prep_juminzei-implications	93	I6 扶養の所属は、所得税と住民税で「同じ記載から、別の規則で」決める	どの書類の記載によったか	1	1	
+impl-prep_kenpo-test-cases	59	IK2 判定方法の切替え（HK1・HK2）	出典未確認の算入規則に依存	0	0	O02
+impl-prep_kenpo-test-cases	124	IK7 税の特定親族と健保の150万円（HK9）	収入の証憑がない	0	0	
+R1-laws_inferences	16	I2 1月1日生まれの子の年齢区分（前提：H1）	判定日の終了時点を含むか	0	0	
+round2_aoiro-cases	51	I2 令和9年分以後：65万円は e-Tax だけ、75万円、前々年1,000万	読みが未確定	1	1	O03,O31
+round2_aoiro-cases	74	I5 専従の期間（6月超・2分の1）	出典未確認	1	1	O02,O06,O07,O10
+round2_aoiro-cases	83	I6 承認の時期と期限	期限の計算：初日不算入	1	1	O29
+round2_aoiro-cases	86	I6 承認の時期と期限	却下されうる	1	1	O30
+round2_aoiro-cases	120	I10 記録層の事実の検査	承認の有無が不明	1	1	O32
+round2_elderly-abroad-cases	77	IE4 単身赴任と同居老親等（HE2.2・U2）	原文の読み、国税庁の明示なし	1	1	O20
+round2_elderly-abroad-cases	96	IE6 祖父母と後期高齢者・60歳以上（HE5.1・HE5.2）	判断が必要	1	1	O36
+round2_gaps-inferences	10	第2ラウンド（gaps）推測：残っていた個別の未解決6項目の仮説から導いた場面と	未確定	1	1	O03,O13,O31,O33,O53,O54,O62
+round2_gaps-inferences	31	IG1 アフィリエイトの所得がある大学生：勤労学生の判定は判断（D4）で分かれ、	未確定	1	1	O03,O13,O31,O33,O53,O54,O62
+round2_gaps-inferences	92	IG6 季節で波がある事業収入の子：見込みの作り方で健保の結論が逆になる（前提：	見込み	1	1	O01,O56
+round2_hoken-kifu-cases	30	C3 特定親族の子だけでは特例が付かない	特定親族は対象外	0	0	O04
+round2_jinteki-cases	41	I4 要介護認定だけでは障害者にならない。65歳以上の認定書があれば当たる	通達・質疑応答による	1	1	O22
+round2_jinteki-cases	59	I6 住民税の非課税の判定時点で結論が分かれる場面	未確定（判定時点が法令で決まらない／手帳の更新の扱いが不明）	1	1	O03
+round2_jinteki-cases	116	I12 年分・年度で変わる額の組み合わせ（テストの表）	2026-11-09 時点の条文	1	1	
+round2_juminzei-tax-implications	26	I3 端数③（途中の 1円未満）は、団体の慣行を注入できるようにしても、正しい値	端数の扱いは一次情報で未確定	1	1	O03,O13
+round2_juminzei-tax-implications	62	I8 法令の変更の監視（D9）は、HTTP 200 だけでなく本文の検査で取得の	改正なし	1	1	
+round2_kokuho-examples	82	KI7 注入データがない市町村では、国保料（税）は「未確定」になるが、軽減の区分	保険料：未確定	0	1	O03
+round2_kyosai-cases	101	IKY7 共済の「30日以内」：届出がちょうど30日目・31日目のとき	出典未確認	1	1	O02,O06,O07,O10
+round2_kyosai-cases	110	IKY8 19歳以上23歳未満の150万円：生年月日と適用開始日の境目	未確定（国家公務員共済の150万円の適用日が未確認）	1	1	O03
+round2_spouse-implications	57	IS3 年の途中で結婚した年は、所得税と健保・第3号で結論が逆になりうる	解釈（国税庁の明示なし）	1	1	O19
+round2_spouse-implications	107	IS9 第3号の年齢と第2号の65歳は「誕生日の前日」で切り替わる。税の「12月	条文未確認	1	1	O08,O09
+round2b_fudosan-inferences	39	I3 学生の子に小さな不動産所得（駐車場の貸付けなど）があると、合計所得金額が低	未確定	1	1	O03,O13,O31,O33,O53,O54,O62
+round2b_fudosan-inferences	89	I9 所法56 の「事業／業務」を既定で「事業に限る」にすると、業務に係る雑所得	解釈未確認	1	1	O21
+round2b_kabu-scenarios	47	I4. 繰越控除は合計所得金額を下げないが、医療費控除の足切りの基礎は下げる	要件の事実が不足	1	1	O34
+round2b_kabu-scenarios	72	I8. 判定の境目の説明に「どの株式等の所得が効いたか」を出す	どの株式等の所得が効いたか	1	1	
+round2b_kabu-scenarios	81	I9. 確かめていない計算の順序は、作成コーナーとの照合で決める	000	1	1	
+round2b_kabu-scenarios	82	I9. 確かめていない計算の順序は、作成コーナーとの照合で決める	出典未確認	1	1	O02,O06,O07,O10
+round2b_nenkin-cases	69	I6 端数処理で住民税の非課税（135万円）が変わる収入がある	未確定（端数処理）	1	1	O03
+round2b_taishoku-inferences	27	I3 退職した年の配偶者・親族は、所得税と住民税で扶養の結果が分かれうる（前提：	退職所得を除く合計所得金額	1	1	
+round2b_taishoku-inferences	51	I7 退職所得の金額の 0.5円は、合計所得金額の境目の判定にだけ影響し、作成コ	出典未確認の端数	1	1	O02,O07
+round2b_taishoku-inferences	63	I9 健康保険の被扶養者で、退職一時金は年間収入に入れない保険者が多いと見られる	未確定	1	1	O03,O13,O31,O33,O53,O54,O62
+round2b_taishoku-inferences	69	I10 国保の所得割の算定の基礎に、分離課税の退職所得は入らないと見られるが、条	退職所得の扱いは未確認	1	1	O15

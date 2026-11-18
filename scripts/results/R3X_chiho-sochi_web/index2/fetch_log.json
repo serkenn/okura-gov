@@ -1,0 +1,30 @@
+{
+ "run_at": "20261109-200830",
+ "set": "index2",
+ "download_dir": ".work/downloads/20261109-200830_R3X_chiho-sochi_web_index2",
+ "robots": {
+  "https://www.soumu.go.jp": {
+   "status": 200,
+   "sha256": "e0cc280a3ed01a4ee4785320fdacf31ef4724eddf0a46eb860df651eaede55e4"
+  }
+ },
+ "fetches": [
+  {
+   "name": "soumu_t_tsutatsu",
+   "url": "https://www.soumu.go.jp/menu_hourei/tsutatsu/t_tsutatsu.html",
+   "why": "総務省「通知・通達」（ichiran04 のリンク）。施行通知（総税企など）を探す",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 30 Oct 2026 09:38:51 GMT",
+   "final_url": "https://www.soumu.go.jp/menu_hourei/tsutatsu/t_tsutatsu.html",
+   "bytes": 472314,
+   "sha256": "5ce31c684eea6ba7db3eecb575dc507ad63250d2867b05724bf9f7eaf4b852f5",
+   "saved": ".work/downloads/20261109-200830_R3X_chiho-sochi_web_index2/soumu_t_tsutatsu.html",
+   "fetched_at": "2026-11-09T20:08:34",
+   "title": "総務省｜通知・通達",
+   "encoding": "utf-8",
+   "text": "scripts/results/R3X_chiho-sochi_web/index2/soumu_t_tsutatsu.txt"
+  }
+ ]
+}

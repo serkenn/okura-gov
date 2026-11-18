@@ -1,0 +1,36 @@
+# source=https://www.mhlw.go.jp/hourei/html/tsuchi/docsrch1.html
+# fetched_at=20261109-201022
+# charset=UTF-8
+
+法令等データベースサービス
+
+
+
+
+
+
+
+			本文検索
+
+
+
+
+
+[form action='./search2.html' method=None]
+
+				検索語設定
+			
+
+
+		
+		
+
+[form action='/web/t_docsrch_keyword' method=None]
+
+
+
+			[input name='keyword' type='text' value=None]（検索したい用語を入力してください。）
+
+
+		[input name='type' type='hidden' value='1']
+		[input name='mode' type='hidden' value='0']

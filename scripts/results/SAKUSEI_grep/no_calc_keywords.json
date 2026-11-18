@@ -1,0 +1,49 @@
+{
+ "patterns": [
+  "kojo",
+  "kyuyo",
+  "koujo",
+  "kyuuyo",
+  "zeigaku",
+  "shotoku",
+  "syotoku"
+ ],
+ "targets": [
+  ".work/downloads/20261109-134554_sakusei-assets",
+  ".work/downloads/20261109-134854_sakusei-assets/000_r7_syotoku_common_js_jQueryUtil.js_q_54229b486069c63ff43b3dbd228a23df3dad18aa6d4c94f8d1e5840087084591",
+  ".work/downloads/20261109-134854_sakusei-assets/001_r7_syotoku_common_js_taAutoComplete.js_q_b8a28365bb63ac351d3581a40725cb7902a0c01eac0e8ec66facf98256dff591",
+  ".work/downloads/20261109-134854_sakusei-assets/002_r7_syotoku_common_js_taBaseDate.js_q_a6a5ff5ffb089a4e58e3da96d7a34067350a3a2b53b5656fbe04e27b8e0e5d43",
+  ".work/downloads/20261109-134854_sakusei-assets/003_r7_syotoku_common_js_taBaseDate2.js_q_4861ce9db04340523a69d49ba954508f6fbe4254eef91463c778ddf31ffc2772",
+  ".work/downloads/20261109-134854_sakusei-assets/004_r7_syotoku_common_js_taBaseDialog.js_q_58ac44cb8e6a36a66063b11c924b184167ba3e967ca798847b21d158bfd45105",
+  ".work/downloads/20261109-134854_sakusei-assets/005_r7_syotoku_common_js_taBaseIchiran.js_q_4982cfa9cb316cd953faaca8bff5313ae8c3b398fe6a07f0c2fbb5dd520fadfd",
+  ".work/downloads/20261109-134854_sakusei-assets/006_r7_syotoku_common_js_taBaseIchiranNyuryoku.js_q_61563bf6912417f92d75ac324d248cdbc15c34b3828915e4452253abe56b3143",
+  ".work/downloads/20261109-134854_sakusei-assets/007_r7_syotoku_common_js_taBaseModalImag.js_q_2875fb30c94d437a9e6b3a12f696d38a9ef039d497c736cc84c26b20cc00f463",
+  ".work/downloads/20261109-134854_sakusei-assets/008_r7_syotoku_common_js_taBaseSupplement.js_q_f6015cb9cfad6e1f52fd46c7025f61492a9c523f735698942d12ed9240bb2542",
+  ".work/downloads/20261109-134854_sakusei-assets/009_r7_syotoku_common_js_taCalcUtil.js_q_28c4fecb668730861cd889ef0b720f9e8316783abe44d1f52d925ec448bf5a72",
+  ".work/downloads/20261109-134854_sakusei-assets/010_r7_syotoku_common_js_taCheck.js_q_caf53ed4f9cf69e2ca31975008e4a6d8012a5861318caefc443baba08d016830",
+  ".work/downloads/20261109-134854_sakusei-assets/011_r7_syotoku_common_js_taCheckAjax.js_q_c7d6aad1cd3f84e42faa4d9108de2550e40352ac4191352cebf138c98039564e",
+  ".work/downloads/20261109-134854_sakusei-assets/012_r7_syotoku_common_js_taDateUtil.js_q_310375152f82ee13bb10e72c4c05aa573be2b79ed44517d29fba8cd7d32e9982",
+  ".work/downloads/20261109-134854_sakusei-assets/013_r7_syotoku_common_js_taFrame.js_q_2c383e6e9ca65f7892d8b93b96b0178967a56741049d35d28db2c60e0375965d",
+  ".work/downloads/20261109-134854_sakusei-assets/014_r7_syotoku_common_js_taGetMsg.js_q_3821c504f975a31e6f39993b9b8529752741510ee4e74a8ee2312dfbc3f00444",
+  ".work/downloads/20261109-134854_sakusei-assets/015_r7_syotoku_common_js_taJsonUtil.js_q_390e39542ad94c1899c55adab72a553f53f05920cdae8058010add29461c79e8",
+  ".work/downloads/20261109-134854_sakusei-assets/016_r7_syotoku_common_js_taMain.js_q_b2b68eb6d80328dd5326f7c6d08fafda7a82eda8d3aad0295c73aaf0ace8b882",
+  ".work/downloads/20261109-134854_sakusei-assets/017_r7_syotoku_common_js_taRadioButtonUtil.js_q_2d067137bbb226d9a05fcaae4436e890503a7dd52de5564c4be04efbb92ae0b9",
+  ".work/downloads/20261109-134854_sakusei-assets/018_r7_syotoku_common_js_taStringUtil.js_q_327bc33a9c65f7d8627b65343768a80dfca4e9b838047dddca118c4b6be42b2f",
+  ".work/downloads/20261109-134854_sakusei-assets/019_r7_syotoku_common_js_taURL.js_q_3893bb0ead84546e6efe711939ab8fa347d52842703fcfeff5da18f6007af486",
+  ".work/downloads/20261109-134854_sakusei-assets/020_r7_syotoku_common_js_ta_decision_user_agent.js_q_0da147e56e16029f5f609357d402f9dedf6244520758d1addce5bfc838d0a107",
+  ".work/downloads/20261109-134854_sakusei-assets/021_r7_syotoku_common_js_ta_jsEditWareki.js_q_f0a8c1f01df9441fc72d880ba6f4f2e6cae0be16cdbea8f83cbf4d0487b62eb9",
+  ".work/downloads/20261109-134854_sakusei-assets/022_r7_syotoku_common_js_ta_jsX_common.js_q_140ea7c9b5534cff6460cb428c74deddf61a4bbfa1f3552e3cda479c648c618a",
+  ".work/downloads/20261109-134854_sakusei-assets/023_r7_syotoku_common_js_ta_jsX_main4.js_q_773c415c37646ed11bd82397d183bebe4b3e01a8ee960ca605c4da09f44f9518",
+  ".work/downloads/20261109-134854_sakusei-assets/024_r7_syotoku_common_lib_jquery.autotab.min.js_q_8d3f984b3d5406a75bb9edddddaa61b1f36c15da1cbf5f339f57f8e2e170ad1a"
+ ],
+ "hits": [
+  {
+   "file": "20261109-134554_sakusei-assets/010_kyoutu_ky_st_ccw0400",
+   "sha256": "014333892d39f99136ba1a88d05118b8cc87bfa2ee221e2cb0f3780a8f390b35",
+   "line": 1357,
+   "offset": 39833,
+   "length": 7,
+   "pattern": "syotoku"
+  }
+ ]
+}

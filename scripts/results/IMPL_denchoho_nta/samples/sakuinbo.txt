@@ -1,0 +1,32 @@
+# source=https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/excel/0021006-031_c.xlsx
+# fetched_at=20261109-145826
+# sha256=ebf39cce4e385f7dba8ed75f91d145153612c99c1053f65a7dec0483f04ac52d
+# 取り出し: sharedStrings とシートのセル
+
+## xl/worksheets/sheet1.xml
+A1	索引簿（サンプル）サクインボ
+A3	連番
+B3	日付
+C3	金額
+D3	取引先
+E3	備考
+A4	①
+B4	20210131
+C4	110000
+D4	㈱霞商店
+E4	請求書
+A5	②
+B5	20210210
+C5	330000
+D5	国税工務店㈱
+E5	注文書
+A6	③
+B6	20210228
+C6	330000
+D6	国税工務店㈱
+E6	領収書
+A7	④
+A8	⑤
+A9	⑥
+A10	⑦
+A11	⑧

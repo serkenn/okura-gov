@@ -1,0 +1,45 @@
+okura_core: C:\Users\user\Documents\okura-gov\.work\perf5\dev_src\okura_core\__init__.py
+workers=16 暖機 15.93s
+w16 01_student_away_and_parent_on_assignment                                  6.23s     2719 KiB ok=True
+w16 02_medical_payer_differs_from_patient                                     9.92s     3386 KiB ok=True
+w16 03_business_with_household_apportionment                                  6.32s     2316 KiB ok=True
+w16 04_forecast_and_plan_marks                                                6.16s     1861 KiB ok=True
+w16 05_commuting_and_withholding_slip                                         1.88s     1452 KiB ok=True
+w16 06_phase3_insurance_and_resident_tax_facts                               12.73s     3511 KiB ok=True
+w16 07_vocabulary_additions_2026_11_11                                       10.95s     4381 KiB ok=True
+w16 08_vocabulary_additions_2026_11_12                                       19.41s     8684 KiB ok=True
+w16 09_external_tax_credit_2026_11_12                                         1.54s     1539 KiB ok=True
+w16 10_inventory_household_bad_debt_2026_11_12                                2.56s      867 KiB ok=True
+w16 11_special_depreciation_2026_11_12                                        4.15s     1264 KiB ok=True
+w16 12_specific_expense_and_authority_tax_item_2026_11_12                     1.33s     1089 KiB ok=True
+w16 13_specific_expense_judgment_and_resident_return_2026_11_12               1.24s      992 KiB ok=True
+workers=1 暖機 13.78s
+w1 01_student_away_and_parent_on_assignment                                 14.10s     2719 KiB ok=True
+w1 02_medical_payer_differs_from_patient                                    19.67s     3386 KiB ok=True
+w1 03_business_with_household_apportionment                                 25.00s     2316 KiB ok=True
+w1 04_forecast_and_plan_marks                                               11.00s     1861 KiB ok=True
+w1 05_commuting_and_withholding_slip                                         1.83s     1452 KiB ok=True
+w1 06_phase3_insurance_and_resident_tax_facts                               28.93s     3511 KiB ok=True
+w1 07_vocabulary_additions_2026_11_11                                       29.68s     4381 KiB ok=True
+w1 08_vocabulary_additions_2026_11_12                                       52.93s     8684 KiB ok=True
+w1 09_external_tax_credit_2026_11_12                                         1.56s     1539 KiB ok=True
+w1 10_inventory_household_bad_debt_2026_11_12                                4.73s      867 KiB ok=True
+w1 11_special_depreciation_2026_11_12                                       14.38s     1264 KiB ok=True
+w1 12_specific_expense_and_authority_tax_item_2026_11_12                     1.54s     1089 KiB ok=True
+w1 13_specific_expense_judgment_and_resident_return_2026_11_12               1.16s      992 KiB ok=True
+workers=16 暖機 7.18s
+w16_r2 01_student_away_and_parent_on_assignment                                  7.35s     2719 KiB ok=True
+w16_r2 02_medical_payer_differs_from_patient                                    10.11s     3386 KiB ok=True
+w16_r2 03_business_with_household_apportionment                                  6.36s     2316 KiB ok=True
+w16_r2 04_forecast_and_plan_marks                                                5.97s     1861 KiB ok=True
+w16_r2 05_commuting_and_withholding_slip                                         1.53s     1452 KiB ok=True
+w16_r2 06_phase3_insurance_and_resident_tax_facts                               12.51s     3511 KiB ok=True
+w16_r2 07_vocabulary_additions_2026_11_11                                       11.22s     4381 KiB ok=True
+w16_r2 08_vocabulary_additions_2026_11_12                                       18.81s     8684 KiB ok=True
+w16_r2 09_external_tax_credit_2026_11_12                                         1.78s     1539 KiB ok=True
+w16_r2 10_inventory_household_bad_debt_2026_11_12                                2.63s      867 KiB ok=True
+w16_r2 11_special_depreciation_2026_11_12                                        3.94s     1264 KiB ok=True
+w16_r2 12_specific_expense_and_authority_tax_item_2026_11_12                     1.24s     1089 KiB ok=True
+w16_r2 13_specific_expense_judgment_and_resident_return_2026_11_12               1.16s      992 KiB ok=True
+突き合わせ w16 と w1：同じ 13・違う 0 []
+突き合わせ w16 と w16_r2：同じ 13・違う 0 []

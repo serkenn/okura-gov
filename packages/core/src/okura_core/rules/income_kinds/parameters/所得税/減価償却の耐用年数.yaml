@@ -1,0 +1,94 @@
+description: >-
+  耐用年数の表のうち、個人の事業でよくある資産の行（減価償却資産の耐用年数等に関する省令 別表第一・第三）。令和7年分・令和8年分の版で同じ。
+  原文：docs/public-sources/20261109_round2_genka-laws-and-nta.md §2.2。行の ID は 判断.減価償却の区分 の useful_life_table_row。
+  表にない資産は useful_life_years（耐用年数）で判断を書く。無形（ソフトウエア）は所令134 の残存なし（inputs で判定：名前が ソフトウエア で始まる）。
+パーソナルコンピュータ:
+  description: 別表第一 器具及び備品 2 事務機器及び通信機器 電子計算機 パーソナルコンピュータ（サーバー用のものを除く。）
+  metadata: &beppyo1
+    law: 減価償却資産の耐用年数等に関する省令第1条第1項・別表第一・別表第三
+    source_kind: 省令
+    unit: 年
+    reference:
+      - docs/public-sources/20261109_round2_genka-laws-and-nta.md#2.2
+  values:
+    2025-01-01: {value: 4}
+電子計算機その他:
+  description: 別表第一 器具及び備品 2 電子計算機 その他のもの
+  metadata: *beppyo1
+  values:
+    2025-01-01: {value: 5}
+複写機等:
+  description: 別表第一 器具及び備品 2 複写機、計算機（電子計算機を除く。）、金銭登録機、タイムレコーダーその他これらに類するもの
+  metadata: *beppyo1
+  values:
+    2025-01-01: {value: 5}
+その他の事務機器:
+  description: 別表第一 器具及び備品 2 その他の事務機器
+  metadata: *beppyo1
+  values:
+    2025-01-01: {value: 5}
+デジタル構内交換設備等:
+  description: 別表第一 器具及び備品 2 電話設備その他の通信機器 デジタル構内交換設備及びデジタルボタン電話設備
+  metadata: *beppyo1
+  values:
+    2025-01-01: {value: 6}
+その他の通信機器:
+  description: 別表第一 器具及び備品 2 電話設備その他の通信機器 その他のもの
+  metadata: *beppyo1
+  values:
+    2025-01-01: {value: 10}
+カメラ等:
+  description: 別表第一 器具及び備品 4 カメラ、映画撮影機、映写機及び望遠鏡
+  metadata: *beppyo1
+  values:
+    2025-01-01: {value: 5}
+金属製の事務机等:
+  description: 別表第一 器具及び備品 1 事務机、事務いす及びキャビネット 主として金属製のもの
+  metadata: *beppyo1
+  values:
+    2025-01-01: {value: 15}
+その他の事務机等:
+  description: 別表第一 器具及び備品 1 事務机、事務いす及びキャビネット その他のもの
+  metadata: *beppyo1
+  values:
+    2025-01-01: {value: 8}
+音響機器:
+  description: 別表第一 器具及び備品 1 ラジオ、テレビジョン、テープレコーダーその他の音響機器
+  metadata: *beppyo1
+  values:
+    2025-01-01: {value: 5}
+冷暖房用機器:
+  description: 別表第一 器具及び備品 1 冷房用又は暖房用機器
+  metadata: *beppyo1
+  values:
+    2025-01-01: {value: 6}
+軽自動車:
+  description: 別表第一 車両及び運搬具 自動車（二輪又は三輪自動車を除く。）小型車（総排気量が〇・六六リットル以下のもの）
+  metadata: *beppyo1
+  values:
+    2025-01-01: {value: 4}
+その他の自動車:
+  description: 別表第一 車両及び運搬具 自動車（二輪又は三輪自動車を除く。）その他のもの（貨物・報道通信用を除く）
+  metadata: *beppyo1
+  values:
+    2025-01-01: {value: 6}
+二輪又は三輪自動車:
+  description: 別表第一 車両及び運搬具 二輪又は三輪自動車
+  metadata: *beppyo1
+  values:
+    2025-01-01: {value: 3}
+自転車:
+  description: 別表第一 車両及び運搬具 自転車
+  metadata: *beppyo1
+  values:
+    2025-01-01: {value: 2}
+ソフトウエア複写販売用原本:
+  description: 別表第三 ソフトウエア 複写して販売するための原本
+  metadata: *beppyo1
+  values:
+    2025-01-01: {value: 3}
+ソフトウエアその他:
+  description: 別表第三 ソフトウエア その他のもの
+  metadata: *beppyo1
+  values:
+    2025-01-01: {value: 5}

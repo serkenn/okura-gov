@@ -1,0 +1,26 @@
+{
+  "set": "mhlw_h05_neighbors2",
+  "fetched_at_local": "20261111-023106",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work/downloads/20261111-023106_R3X_dai3go_mhlw_h05_neighbors2",
+  "results": [
+    {
+      "id": "kw_chohohatsu5_p1",
+      "url": "https://www.mhlw.go.jp/web/t_docsrch_keyword?keyword=%E5%BA%81%E4%BF%9D%E7%99%BA%E7%AC%AC%E4%BA%94%E5%8F%B7&type=1&mode=0&page=1",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/web/t_docsrch_keyword?keyword=%E5%BA%81%E4%BF%9D%E7%99%BA%E7%AC%AC%E4%BA%94%E5%8F%B7&type=1&mode=0&page=1",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 3596,
+      "sha256": "86098c50b85929db9d06febb01f8eca286584a98fd7c3dc9e24847dcccca7c4a",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work/downloads/20261111-023106_R3X_dai3go_mhlw_h05_neighbors2/kw_chohohatsu5_p1.html",
+      "charset": "UTF-8",
+      "title": "結果一覧",
+      "n_links": 3,
+      "text_chars": 738,
+      "text_sha256": "5c7850e67d461af665d435dff55c8c995c6d9a58da59e0b94736797e1106ce7f",
+      "text": "scripts/results/R3X_dai3go_fetch/text/20261111-023106_mhlw_h05_neighbors2/kw_chohohatsu5_p1.txt"
+    }
+  ]
+}

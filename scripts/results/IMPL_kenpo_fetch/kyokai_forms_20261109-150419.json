@@ -1,0 +1,43 @@
+{
+  "set": "kyokai_forms",
+  "fetched_at_local": "20261109-150419",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "kyokai_dependent_r8form",
+      "url": "https://www.kyoukaikenpo.or.jp/assets/dependent_status_r8form.pdf",
+      "status": 200,
+      "final_url": "https://www.kyoukaikenpo.or.jp/assets/dependent_status_r8form.pdf",
+      "content_type": "application/pdf",
+      "bytes": 315069,
+      "sha256": "fc5b6324cdedef7cc828f6c7a46f129a0442c12cc0aefdd64c25c9c0ee602c38",
+      "last_modified": "Wed, 28 Oct 2026 00:19:26 GMT",
+      "etag": "\"4cebd-65edb840a87d9\"",
+      "saved": ".work\\downloads\\20261109-150419_IMPL_kenpo_kyokai_forms\\kyokai_dependent_r8form.pdf"
+    },
+    {
+      "id": "kyokai_dependent_r8list",
+      "url": "https://www.kyoukaikenpo.or.jp/assets/dependent_status_r8list.pdf",
+      "status": 200,
+      "final_url": "https://www.kyoukaikenpo.or.jp/assets/dependent_status_r8list.pdf",
+      "content_type": "application/pdf",
+      "bytes": 84231,
+      "sha256": "0df2fba6693d536318fb616bf6cd47f311ab0e1f8fd45b5b67dbd4c273297746",
+      "last_modified": "Wed, 28 Oct 2026 00:19:26 GMT",
+      "etag": "\"14907-65edb840ae981\"",
+      "saved": ".work\\downloads\\20261109-150419_IMPL_kenpo_kyokai_forms\\kyokai_dependent_r8list.pdf"
+    },
+    {
+      "id": "kyokai_hihuchousaura2310",
+      "url": "https://www.kyoukaikenpo.or.jp/~/media/Files/honbu/cat590/hihuchousaura2310.pdf",
+      "status": 404,
+      "final_url": "https://www.kyoukaikenpo.or.jp/~/media/Files/honbu/cat590/hihuchousaura2310.pdf",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 25314,
+      "sha256": "e68036938403a46fb27ad325ece6d89239918b880e93136fe7d4a65b8b275469",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-150419_IMPL_kenpo_kyokai_forms\\kyokai_hihuchousaura2310.pdf"
+    }
+  ]
+}

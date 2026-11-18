@@ -1,0 +1,31 @@
+{
+  "set": "nta_pdf",
+  "fetched_at_local": "20261109-181101",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "yoshiki_r07_02",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/02.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/02.pdf",
+      "content_type": "application/pdf",
+      "bytes": 913314,
+      "sha256": "1d30dbc3e8823a321fc1ceb83eb0c1d3b9f585f7357168a6c7570d02fd482396",
+      "last_modified": "Mon, 31 Aug 2026 05:00:05 GMT",
+      "etag": "\"defa2-65a50acf04170\"",
+      "saved": ".work\\downloads\\20261109-181101_R2B_kabu_nta_pdf\\yoshiki_r07_02.pdf"
+    },
+    {
+      "id": "joto_r07_18_2",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/pdf/r07_joto_18-2.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/pdf/r07_joto_18-2.pdf",
+      "content_type": "application/pdf",
+      "bytes": 356188,
+      "sha256": "ed4ae7ab6c4737cbb5a7a3d08a8030f495d564be18ece5ed2cc920601b3ec1d1",
+      "last_modified": "Fri, 12 Dec 2025 08:30:31 GMT",
+      "etag": "\"56f5c-645bd131648f8\"",
+      "saved": ".work\\downloads\\20261109-181101_R2B_kabu_nta_pdf\\joto_r07_18_2.pdf"
+    }
+  ]
+}

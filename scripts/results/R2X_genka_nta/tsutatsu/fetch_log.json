@@ -1,0 +1,139 @@
+{
+ "set": "tsutatsu",
+ "fetched_at": "20261109-174011",
+ "download_dir": ".work/downloads/20261109-174011_R2X_genka_nta_tsutatsu",
+ "items": [
+  {
+   "id": "kihon_01_04",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/04.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 02 Oct 2026 08:30:05 GMT",
+   "bytes": 9982,
+   "sha256": "cf6880a3a19b14f1562708ee7a33bddfd80cb5a89bad33f866626d9a53c95784",
+   "saved": ".work/downloads/20261109-174011_R2X_genka_nta_tsutatsu/kihon_01_04.htm",
+   "title": "〔減価償却資産（第19号関係）〕｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_08_05",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/05.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 25 Nov 2025 08:30:05 GMT",
+   "bytes": 9909,
+   "sha256": "30106b4f247464cd7e7bf71ab1c810f499d75163158186867409c82e38fea4e9",
+   "saved": ".work/downloads/20261109-174011_R2X_genka_nta_tsutatsu/kihon_08_05.htm",
+   "title": "〔減価償却資産の償却の方法（令第120条関係）〕｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_08_06",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/06.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 25 Dec 2025 01:00:05 GMT",
+   "bytes": 13713,
+   "sha256": "bf74fc838520f3283bb41e01b0ef0e00c24d84362a4323a34a7b02fa1cc83288",
+   "saved": ".work/downloads/20261109-174011_R2X_genka_nta_tsutatsu/kihon_08_06.htm",
+   "title": "〔減価償却資産の取得価額（令第126条関係）〕｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_08_08",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/08.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 02 Oct 2026 08:30:05 GMT",
+   "bytes": 14703,
+   "sha256": "c851fcef5d2218fbd87b361b4bd3396b5c2ca8790f909265c8c8cb94693f5eb4",
+   "saved": ".work/downloads/20261109-174011_R2X_genka_nta_tsutatsu/kihon_08_08.htm",
+   "title": "〔償却費の計算（令第131条関係）〕｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_08_10",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/10.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 25 Dec 2025 01:00:05 GMT",
+   "bytes": 8517,
+   "sha256": "e19ac138ce44d6e9ba08272d7186ae21c66fd7952347428ffe02f3e2763d86e5",
+   "saved": ".work/downloads/20261109-174011_R2X_genka_nta_tsutatsu/kihon_08_10.htm",
+   "title": "〔年の中途で業務の用に供した減価償却資産等の償却費の特例（令第132条関係）〕｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_08_12",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/12.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 02 Oct 2026 08:30:05 GMT",
+   "bytes": 15717,
+   "sha256": "7eb3a7fd17cf0b845d195ac5fe10861009157e28baaf0113db99f3ac354759ed",
+   "saved": ".work/downloads/20261109-174011_R2X_genka_nta_tsutatsu/kihon_08_12.htm",
+   "title": "〔少額の減価償却資産及び一括償却資産（令第138条及び第139条関係）〕｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_08_13",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/08/13.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:30:21 GMT",
+   "bytes": 11115,
+   "sha256": "15c644e0a812bf8bbf76c7642273108c27e9873903db3d48f8e445964be3ad52",
+   "saved": ".work/downloads/20261109-174011_R2X_genka_nta_tsutatsu/kihon_08_13.htm",
+   "title": "〔償却累積額による償却費の特例及び堅牢な建物等の償却費の特例（令第134条及び第134条の2関係）〕｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_09_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/09/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 25 Nov 2025 08:30:05 GMT",
+   "bytes": 9920,
+   "sha256": "8f4e8849c99b2757bb65bd8c129778277c4372379695b4d86df17c5475d6a556",
+   "saved": ".work/downloads/20261109-174011_R2X_genka_nta_tsutatsu/kihon_09_01.htm",
+   "title": "〔固定資産等の損失〕｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_15_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/15/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 25 Nov 2025 08:30:05 GMT",
+   "bytes": 15465,
+   "sha256": "ead14cdf750a95909c51baf48fe751982f2df09ad83c908fc20f5f5503e26349",
+   "saved": ".work/downloads/20261109-174011_R2X_genka_nta_tsutatsu/kihon_15_01.htm",
+   "title": "〔被災事業用資産の損失の金額の計算等〕｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_04_07",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/04/07.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 25 Dec 2025 01:00:06 GMT",
+   "bytes": 40195,
+   "sha256": "4923238537f5b3b8fcf0b0675556929e27b72767687a16440294b203295235fc",
+   "saved": ".work/downloads/20261109-174011_R2X_genka_nta_tsutatsu/kihon_04_07.htm",
+   "title": "法第33条《譲渡所得》関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "sochitsu_28_02",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/57/28/02.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 02 Oct 2026 08:30:03 GMT",
+   "bytes": 8109,
+   "sha256": "4e268639627124d38472061387213e83db95b002332ff277f7d7d64731a4df2b",
+   "saved": ".work/downloads/20261109-174011_R2X_genka_nta_tsutatsu/sochitsu_28_02.htm",
+   "title": "第28条の2（（中小事業者の少額減価償却資産の取得価額の必要経費算入の特例））関係｜国税庁",
+   "encoding": "shift_jis"
+  }
+ ]
+}

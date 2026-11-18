@@ -1,0 +1,779 @@
+file	line	level	heading	vocab_related
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	1	1	実装前調査：記録層（beancount ＋ 証憑ファイル）が電帳法・所得税法の保存要件を満たすための設計（仮説）	1
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	14	2	0. 法令上の要件の一覧（再掲。詳細と出典は [PS-D]）	0
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	32	2	H1. 記録層は「誰が電帳法第7条の保存義務者か」を判定しない。全員・全証憑に最も厳しい扱いを一律にかける	1
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	40	2	H2. 証憑ファイルは受け取ったまま、台帳と分けて、内容のハッシュで識別して保存する	1
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	50	2	H3. 真実性は規則第4条第1項第4号（事務処理規程）で満たし、追記のみのハッシュ連鎖ログを規程の運用の記録にする	0
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	60	2	H4. 検索は、免除に当たる見込みでも、日付・金額・取引先の索引を自動で作って持つ	0
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	69	2	H5. 保存期限は証憑ごとに計算して記録し、最長の7年を既定にする	0
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	77	2	H6. 見読性とダウンロードの求めへの対応を、エクスポートのコマンド1つにまとめる	0
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	82	2	H7. okura-gov 自身の「システム概要書」と「事務手続の書類」を docs として備え付ける	0
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	87	2	H8. 帳簿（beancount 台帳）は、既定では「年末に紙へ出力して保存」とし、電子保存は条件がそろったときの選択肢にする	1
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	95	2	H9. 重加算税の加重措置の除外（令和8年分から）とタイムスタンプは、初期の範囲に入れない	0
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	100	2	H10. 記録層のスキーマに足す語彙（事実だけ）	1
+docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md	109	2	訂正の記録	0
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	1	1	仮説：医療費控除・セルフメディケーション税制の記録層・判定コア・出力層の分担（令和7年分・令和8年分）	1
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	17	2	H1 令和7年分と令和8年分で、医療費控除の「計算の規則」は同じ。違うのはセルフメディケーション税制の対象医薬品の範囲だけ	0
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	35	2	H2 記録層（事実）に持つ医療費の支払の項目	1
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	57	2	H3 記録層で区別する「医療費の種類」（`kind` の語彙）	1
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	84	2	H4 補塡は「給付の事実」と「対象の支払の集合」で持ち、限度の計算は判定コアで行う	1
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	97	2	H5 「総所得金額等」は判定コアが「合計所得金額」と別の変数として計算する	0
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	104	2	H6 5%の円未満の端数処理は一次情報がない。名前つきの関数にし、作成コーナーで確かめる	0
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	112	2	H7 セルフメディケーション税制は「取組」と「表示のある購入」の事実で判定し、対象医薬品の一覧は判定コアに持たない	1
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	121	2	H8 通常の医療費控除とセルフメディケーション税制は、判定コアが両方を計算し、選ぶのは人（D4）。提出した選択は事実として記録する	1
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	128	2	H9 誰が控除するか：支払1件に支払者は1人。生計一は支払ごとに2つの時点のどちらかで判定し、扶養の所属とは無関係	0
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	136	2	H10 医療費通知は、当面の出力では使わない（明細書の「2」だけで作る）	0
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	142	2	H11 出力層（D13・D14）が出す項目	0
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	146	3	H11.1 医療費控除の明細書【内訳書】（様式 NTA0K0B560010180）	0
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	165	3	H11.2 セルフメディケーション税制の明細書（様式 NTA0K0B570010060）	0
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	180	3	H11.3 医療費集計フォーム（xlsx。作成コーナーに読み込ませる場合の任意の出力）	0
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	187	3	H11.4 すべての出力に付ける根拠（D13）	0
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	193	2	H12 年分をまたぐ事実の更新と、過去の年分の訂正	1
+docs/hypotheses/20261109_impl-prep_iryohi-model.md	199	2	訂正の記録	0
+docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md	1	1	仮説：事業所得・業務に係る雑所得の計算を判定コアと記録層にどう置くか（IMPL jigyo）	1
+docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md	14	2	H1 家事関連費は「支出額 × 業務割合、ただし明らかに区分できる場合だけ」で計算できる（白色・業務に係る雑所得）	0
+docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md	26	2	H2 家内労働者等の特例は「年分の額 − 給与の調整」を上限に、措令18の2② の配分で実装でき、国税庁の計算書と一致する（事業所得が赤字の場合を除く）	0
+docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md	38	2	H3 子供が白色である前提では、青色の規定は「青色の承認あり」を入力で受けて止めるだけにする	1
+docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md	47	2	H4 収入・費用の年分の帰属は、事業所得は常に発生主義、業務に係る雑所得は条件つきで現金主義を選べる。記録は両方の日付を持つ	0
+docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md	57	2	H5 「前々年分の業務に係る雑所得の収入金額」は、記録から再計算せず、確定した値の入力として持つ	1
+docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md	63	2	H6 一時所得は人ごとに「総収入金額の合計 − 直接要した支出の合計 − 特別控除」で計算し、総所得金額・合計所得金額には2分の1で入る	0
+docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md	73	2	H7 beancount の台帳は白色の「帳簿」を兼ねられる。収支内訳書の科目への対応は出力の層の写像として持つ	1
+docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md	83	2	H8 タックスアンサー No.1810 の令和7年分の注記（160万円で扶養）は条文の値と合わず、コアは条文の値（123万円）で判定する	0
+docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md	89	2	H9 所法35⑤ は令和7年分・令和8年分の計算に入れない	0
+docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md	94	2	H10 所得区分（事業所得か業務に係る雑所得か）の材料として、「帳簿書類の保存があるか」「その所得の収入金額」を事実で持つ	1
+docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md	99	2	H11 記録層（D3・D11）が持つべき事実（公開資料の情報 §8 から移した設計の提案）	1
+docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md	117	2	まとめ：中間表現に足すべき事実（仮説）	1
+docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md	134	2	訂正の記録	0
+docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md	1	1	仮説：住民税（扶養・非課税の判定と申告の要否）を判定コアでどう表すか	0
+docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md	13	2	H1 住民税は「年度」で判定し、所得の年・法令の版・所得税法令の版を年度から決める	0
+docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md	28	2	H2 非課税の判定は「全部非課税（法295①）→ 所得割 → 均等割」の順に、使う所得の種類を変えて行う	0
+docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md	43	2	H3 住民税の判定には2つの時点がいる：前年12月31日と、賦課期日の1月1日	0
+docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md	56	2	H4 住民税の扶養の所属（U6）は、所得税と同じ「記載で決まる」形だが、決まらないときの規則が違う	0
+docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md	75	2	H5 申告の要否は「確定申告の有無」「1月1日現在の給与・公的年金の支払者」「前年の所得の種類」「受けたい控除」「市町村の条例」で決まる	0
+docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md	91	2	H6 均等割の非課税の額は市町村ごとのパラメータで、既定値は政令の基準×級地	0
+docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md	99	2	H7 令和8年度分・令和9年度分で、非課税の境目（所得の額）は同じで、変わるのは所得の計算と扶養の要件	1
+docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md	110	2	未決（仮説の外に残したもの）	0
+docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md	123	2	訂正の記録	0
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	1	1	健康保険の被扶養者判定：入力の事実・判断の分け方と、判定コアの置き方（仮説）	1
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	20	2	HK0 入力の粒度と、事実か判断かの区分（2026-11-09 の独立検証で［PS-K］§8 から移した）	1
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	51	2	HK1 健保の基準は「年分」ではなく「判定日（認定日）」で引く	0
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	58	2	HK2 「今後1年間の年間収入の見込み」は、収入の種類ごとの D4 判断として持ち、算入の規則はコアに置く	1
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	71	2	HK3 「同一の世帯に属する」は D4 判断（被保険者と本人の組、区間つき）とし、住民票の世帯からコアが決めない	1
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	82	2	HK4 同一世帯の区分は、子を含むすべての被扶養者で収入基準の選択に効く	1
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	88	2	HK5 重複の禁止は、中間表現の検査で止める（根拠は法律でなく通知・Q&A・案内）	1
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	98	2	HK6 夫婦共同扶養は、規則の段を出力する関数にし、最終の帰属は保険者の決定（事実）として受け取る	1
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	104	2	HK7 判定の時点：年齢は「判定日の属する年の12月31日」、収入は「判定日から1年」	0
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	110	2	HK8 外れる日（削除日）はコアが決めず、候補日を事実から列挙する	1
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	116	2	HK9 「所得税法上の控除対象扶養親族」は健保の要件ではなく、証憑の代わり	0
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	122	2	HK10 入力の一覧（中間表現の健保の部分）	1
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	136	2	未決（ユーザーの確認が要るもの）	0
+docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md	147	2	訂正の記録	0
+docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md	1	1	実装前調査（kyuyo）仮説：給与所得の計算規則、別表第五と措置法第29条の4の関係、住民税への波及	0
+docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md	14	2	H1 給与所得の金額は、年分ごとに次の3つの規則のどれか1つで決まる	0
+docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md	26	2	H2 別表第五は「式」ではなく「表のデータ」としてパラメータに持つのが安全	0
+docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md	34	2	H3 旧の別表第五を使う経過措置（最後の支払が12月1日前の給与等）は年末調整にだけ効き、確定申告の給与所得は新しい規定で計算する	0
+docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md	44	2	H4 住民税の給与所得は「前年分の所得税の計算の例」で、措置法第29条の4 も含む（令和9年度分・令和10年度分に 74万円）	0
+docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md	54	2	H5 住民税の所得要件の換算値（年度 → 前年の給与収入）	0
+docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md	59	2	H6 660万円以上の給与所得の1円未満は切り捨てる	0
+docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md	65	2	H7 別表第五・措置法の表は、全支払者の合計の収入金額に1回だけ当てる	0
+docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md	71	2	H8 R1 の「千円単位のずれ」の懸念は、子供の所得要件については生じない	0
+docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md	76	2	H9 仙台市の非課税早見表の「136万円以下（2,059,000円）」は誤記の可能性がある	0
+docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md	82	2	H10 中間表現に必要な給与の事実	1
+docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md	87	2	訂正の記録	0
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	1	1	実装前の追加調査（misc）：仮説（年齢の判定、親族の範囲、扶養の所属、扶養の連鎖、源泉徴収の事実）	1
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	23	2	H1 年齢は「判定日の終了時に達している年齢」を返す1つの関数で求め、生年月日の範囲はパラメータに持たない	0
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	37	2	H2 所得税の「親族」は民法上の親族として判定コアが導く。記録層は、民法上の関係を生む事実を持つ	1
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	57	2	H3 扶養の所属（所令218・218の2・219）は、判定コアの「所属の割当て」の段で、申告書等の記載という事実から決定的に解ける（U2）	1
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	77	2	H4 年の中途の死亡と再婚（所令220）は、「所属の割当て」で、配偶者の候補を2人まで持てるようにして解く（U7）	0
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	90	2	H5 「扶養親族とされた人が、別の人を扶養する申告者になる」ことは法令上ありうる。モデルは1人が「扶養される側」と「申告者」を同時に持てる形にする（U1）	0
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	109	2	H6 源泉徴収の区分（甲欄・乙欄・丙欄）はラベルとして記録しない。区分を生む事実と、源泉徴収票の記載事項を記録する	1
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	131	2	まとめ：R4 の未決への答え（仮説）	0
+docs/hypotheses/20261109_impl-prep_misc-hypotheses.md	141	2	訂正の記録	0
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	1	1	出力層（申告用の出力）の最小の形	0
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	18	2	H1：出力層の最小の形は「申告書の欄ごとの値と根拠の一覧」（以下「欄値表」）。e-Tax の XML は最小の形に含めない	0
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	42	2	H2：欄値表とは別に「作成コーナーに入力する値の一覧」（以下「入力値表」）を出す	1
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	48	2	H3：医療費は「明細書の行」と「医療費集計フォーム（Ver.3.1）互換の xlsx」を出す。代わりの経路として「合計額 A・B」も出す	0
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	60	2	H4：欄の鍵は「年分 × 様式ID × 欄コード」とし、欄番号・欄名を必ず併記する。対応表は年分ごとに持つ	0
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	67	2	H5：欄値表は「単位の制約」を検査する。端数処理は判定コアの名前つき関数が行い、出力層はやり直さない	0
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	73	2	H6：個人番号（マイナンバー）は出力しない。欄値表では空欄として示し、ユーザーが書く	0
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	79	2	H7：申告書第二表のうち住民税・親族の欄は、所得税の出力として出す（住民税の判定とは別）	0
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	85	2	H8：e-Tax の XML を作るのは、次の3つがそろってから	0
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	94	2	H9：令和8年分では「社会保険料控除等の明細書」を出力の候補に加える	0
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	100	2	H10：紙の様式ID は「`NTA` ＋1桁＋e-Tax の様式ID（6文字）＋ページ（2桁）＋版（4桁）」で、e-Tax の様式ID と同じ英字の O を使う（2026-11-09 独立検証で追加。もとは公開資料の文書 §5.1 にあった推測を移して書き直した）	0
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	107	2	H11：新様式は機械（AI-OCR）で読む前提の作りで、欄コードはそのための印字である（2026-11-09 独立検証で、公開資料の文書 §1.4 にあった推測を移した）	0
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	112	2	H12：e-Tax の仕様書の本文やスキーマはリポジトリに写さない運用が安全（2026-11-09 独立検証で、公開資料の文書 §8.2 にあった推測を移した）	0
+docs/hypotheses/20261109_impl-prep_output-minimal-layer.md	118	2	訂正の記録	0
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	1	1	実装前の追加調査：OpenFisca-Core と beancount の採用の前提はまだ成り立つか（仮説）	0
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	18	2	H1. OpenFisca-Core（D6）と判定コアの CLI 形（D7 改）の前提は成り立つ。ただし実装の約束を7つ足す	0
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	47	2	H2. beancount（D11）の前提は成り立つ。ただし安全な読み込み関数の条件を R2 のものから改める	0
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	73	2	H3. 台帳 → 正規化した取引 JSON のアダプタは、法令の解釈を含めずに作れる	1
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	82	2	H4. まとめ：採用の判断は変わらない	1
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	87	2	ユーザーに確認したいこと	0
+docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md	95	2	訂正の記録	0
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	1	1	実装前の追加調査（zeigaku）仮説：子供自身の所得税の計算と申告要否の判定を、判定コアでどう組むか	0
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	18	2	H1 所得税の計算は、所得税法第21条の順序どおりの「名前つきの段」の列にする	0
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	33	2	H2 端数処理は5つの名前つき関数にし、「復興特別所得税額の1円未満切捨て」は切り替えられるようにする	0
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	49	2	H3 年分ごとのパラメータに、税率表・復興特別所得税の税率・勤労学生の課程の要件を足す。適用の軸は「年分」	0
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	59	2	H4 申告要否は、税額の計算とは別の関数にし、「義務あり」「義務なし・還付申告できる」「義務なし・還付なし」と根拠の条を返す	0
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	77	2	H5 令和7年分・令和8年分では、勤労学生控除は子供の所得税額を変えない（ただし該当するかどうかと証明書の要否は出力に要る）	0
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	84	2	H6 社会保険料控除は「支払った人」に付く。親が払った子の国民年金保険料は親の控除で、子の申告には入らない	0
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	95	2	H7 源泉徴収税額は「所得税及び復興特別所得税」の合計のまま中間表現に入れ、精算も合計で行う	1
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	102	2	H8 予定納税は判定コアで計算せず、通知書の金額（予納税額）を入力として受ける。既定値は0	1
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	108	2	H9 申告用の出力には「添付・提示が必要な書類の一覧」を含め、年分と提出日で切り替える	0
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	119	2	H10 学生納付特例の所得判定は、所得税の判定コアに入れない（入れるなら住民税の所得計算の後に別の関数として）	0
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	127	2	未決・未確認（この仮説を確定させるのに必要なこと）	0
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	135	2	訂正の記録	0
+docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md	141	2	訂正による影響（独立検証で追記。直してはいないが、読む人に知らせること）	0
+docs/hypotheses/20261109_R1-laws_hypotheses.md	1	1	R1 仮説：年齢の判定、パラメータの日付、法令の変更の監視	0
+docs/hypotheses/20261109_R1-laws_hypotheses.md	14	2	H1 年齢は「誕生日の前日の終了」で1つ増える	0
+docs/hypotheses/20261109_R1-laws_hypotheses.md	21	2	H2 パラメータの「効力発生日」は施行日ではなく、適用される年分の1月1日にすべき	0
+docs/hypotheses/20261109_R1-laws_hypotheses.md	28	2	H3 法令本文の変更の検知は、e-Gov 法令API v2 と一括ダウンロードの日次 CSV で足り、官報の監視は不要	0
+docs/hypotheses/20261109_R1-laws_hypotheses.md	35	2	H4 issue は「大綱」「改正法の公布（e-Gov 掲載）」「国税庁の説明資料」の3段階で作るのがよい	0
+docs/hypotheses/20261109_R1-laws_hypotheses.md	44	2	H5 健康保険の被扶養者の判定は、法令からは「生計維持」の枠組みしか作れない	0
+docs/hypotheses/20261109_R2-tools_adoption.md	1	1	R2 ツールの安全性と採用の判断（仮説）	1
+docs/hypotheses/20261109_R2-tools_adoption.md	14	2	H1. 致命的な安全上の問題の有無（ツールごと）	0
+docs/hypotheses/20261109_R2-tools_adoption.md	31	2	H2. OpenFisca-Core（D6・D7）は採用してよい。ただし `openfisca serve` をそのまま使わない	0
+docs/hypotheses/20261109_R2-tools_adoption.md	52	2	H3. R4 のモデルは OpenFisca-Core に載る。ただし3つの制約がある	0
+docs/hypotheses/20261109_R2-tools_adoption.md	81	2	H4. AGPL の範囲	0
+docs/hypotheses/20261109_R2-tools_adoption.md	94	2	H5. plain text accounting は beancount 3（＋beanquery）を、安全な読み込みのラッパーつきで使う	0
+docs/hypotheses/20261109_R2-tools_adoption.md	124	2	H6. GovTech 報告書の主張とコードの対応（まとめ）	0
+docs/hypotheses/20261109_R2-tools_adoption.md	140	2	未確認のまま残っていること	0
+docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md	1	1	R3 仮説：記録層に持たせる事実と、監視の対象	1
+docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md	11	2	H1 通達・通知が判定に使う「事実」は、次の粒度で記録層に置けば足りる	1
+docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md	30	2	H2 基準額のパラメータは「年分」と「認定日」の2種類の効力の始まりを持つ必要がある	0
+docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md	37	2	H3 監視は法令だけでは足りず、厚労省の通知と国税庁の通達・TA の監視が要る	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	1	1	R4 エンティティと関係のモデル案（仮説）	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	27	2	H0 層と用語	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	45	2	H1 Person とグループの対応づけ	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	47	3	H1.0 結論の表	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	60	3	H1.1 グループ「扶養所属」（所得税、年分ごと）	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	80	3	H1.2 グループ「法律婚」	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	93	3	H1.3 グループ「健康保険」（被扶養者の判定日ごと）	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	108	3	H1.4 住民票上の世帯（グループにしない）	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	114	3	H1.5 生計を一にする（グループにしない）	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	123	3	H1.6 役割の順序と書き忘れのまとめ	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	135	2	H2 時間の扱い	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	137	3	H2.1 原則：所属・関係は区間で持ち、判定の時点ごとに切り出して別のシミュレーションにする	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	162	3	H2.2 月ごとに所属が効く計算	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	167	3	H2.3 年の途中の変化の扱い	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	181	2	H3 重複控除の禁止・扶養の選択・医療費：どの層で表すか	1
+docs/hypotheses/20261109_R4-modeling_entity-model.md	183	3	H3.1 層ごとの分担	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	198	3	H3.2 「誰の扶養にするか」は人の選択（D4）で、提出後は事実	1
+docs/hypotheses/20261109_R4-modeling_entity-model.md	204	3	H3.3 医療費控除：扶養と関係なく、支払った人が控除する	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	222	2	H4 事実か、人の判断（D4）か	1
+docs/hypotheses/20261109_R4-modeling_entity-model.md	249	2	H5 記録層・中間表現に必要な事実の一覧	1
+docs/hypotheses/20261109_R4-modeling_entity-model.md	253	3	H5.1 人の属性	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	268	3	H5.2 人と人の関係（区間つき）	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	281	3	H5.3 金額の種類（人 × 期間）	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	297	3	H5.4 組の金額（人 × 人 × 日付）	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	307	3	H5.5 中間表現に入れないもの（判定コアで決める）	1
+docs/hypotheses/20261109_R4-modeling_entity-model.md	317	2	H6 中間表現から OpenFisca への変換の置き場所（D5・D7 の細部への提案）	1
+docs/hypotheses/20261109_R4-modeling_entity-model.md	319	3	提案1：中間表現に「人 × 人 × 期間の関係」と「組の金額」を加える（D5 の拡張）	1
+docs/hypotheses/20261109_R4-modeling_entity-model.md	325	3	提案2：状況の組み立てを判定コアの中に置き、クライアントは中間表現を送る（D7 の細部）	1
+docs/hypotheses/20261109_R4-modeling_entity-model.md	334	2	図	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	336	3	図1 層と、各事柄の置き場所	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	362	3	図2 OpenFisca のエンティティ（例：別居の大学生のいる家族、令和8年分・判定日 2026-04-01）	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	396	3	図3 記録層・中間表現の事実（ER 図）	1
+docs/hypotheses/20261109_R4-modeling_entity-model.md	456	3	図4 時間：区間から判定の時点ごとのシミュレーションへ	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	472	2	未決	0
+docs/hypotheses/20261109_R4-modeling_entity-model.md	492	2	public-sources に追加すべき資料	0
+docs/hypotheses/20261109_round2_aoiro-model.md	1	1	仮説：青色申告（承認・帳簿・特別控除・専従者給与・純損失・現金主義）を判定コアと記録層にどう置くか（round2 aoiro）	1
+docs/hypotheses/20261109_round2_aoiro-model.md	19	2	H0 全体の形：青色に関する規定は全部が国の法令で決まり、注入するデータはない	1
+docs/hypotheses/20261109_round2_aoiro-model.md	25	2	H1 青色申告の承認は「人×年分」の状態で、手続の事実の履歴から判定コアが決定的に導く	1
+docs/hypotheses/20261109_round2_aoiro-model.md	43	2	H2 帳簿の方式は「正規の簿記か、簡易帳簿か、現金式簡易帳簿か」を人・業務・年分の事実で持つ。正規の簿記に当たるかの最終の判断は人（D4）	1
+docs/hypotheses/20261109_round2_aoiro-model.md	52	2	H3 青色申告特別控除（令和7年分・令和8年分）は、申告の「方法と時期」に依存する。コアは申告の計画を入力として受け、条件つきの結果を返す	1
+docs/hypotheses/20261109_round2_aoiro-model.md	66	2	H4 令和9年分以後の青色申告特別控除は、別の年分の式として持つ。第2項（前々年の総収入金額1,000万円超）の読みは未確定の印をつける	0
+docs/hypotheses/20261109_round2_aoiro-model.md	78	2	H5 計算の順序：青色申告特別控除は損益通算の前、各所得の金額の段で引く。専従者給与はさらにその前の必要経費	0
+docs/hypotheses/20261109_round2_aoiro-model.md	86	2	H6 青色事業専従者給与：必要経費に算入できる額は「実際に支払った額」と「届出の範囲」と「相当と認められる額」の小さい方。相当性は人の判断	1
+docs/hypotheses/20261109_round2_aoiro-model.md	107	2	H7 現金主義（所法67①）は第1段では「対象外」として拒否し、届出の有無だけを事実として持つ（青色申告特別控除が10万円になることは計算する）	1
+docs/hypotheses/20261109_round2_aoiro-model.md	113	2	H8 純損失の繰越控除：過去の年分の純損失は、記録から再計算せず「申告した確定値」を入力として持つ。コアは当年の純損失と繰越しの残高を出す	1
+docs/hypotheses/20261109_round2_aoiro-model.md	124	2	H9 純損失の繰戻し還付は「本人の選択」で、コアは繰り戻す額を入力として受け、還付額と残りの純損失を計算する。繰越しとの比較は複数シナリオ（D19）で行う	1
+docs/hypotheses/20261109_round2_aoiro-model.md	136	2	H10 端数処理と期限の計算の名前つき関数（D13）	0
+docs/hypotheses/20261109_round2_aoiro-model.md	147	2	H11 青色申告決算書（一般用）の欄への対応表をライブラリに持つ（D19 T5-2）。科目は様式の固定の科目と空欄（25〜30、35・36、40・41）に分ける	0
+docs/hypotheses/20261109_round2_aoiro-model.md	157	2	H12 記録層（D3・D11・SCOPE の事実台帳）が持つべき事実（まとめ）	1
+docs/hypotheses/20261109_round2_aoiro-model.md	182	2	訂正の記録	0
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	1	1	第2ラウンド（elderly-abroad）仮説：老人扶養・同居老親等、国外居住親族、居住者の判定、健保の60歳以上・国内居住要件を実装するための入力・判断・コアと注入の境目	1
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	21	2	HE0 共通の入力（事実の語彙）と判断	1
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	53	2	HE1 老人扶養親族と扶養控除の額（所得税）	0
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	62	2	HE2 同居老親等（措法41の16）と住民税の同居直系尊属（地法314の2④）	0
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	64	3	HE2.1 要件を分けた形	0
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	73	3	HE2.2 「同居を常況」の判定：事実から候補を出し、判断で確定する	1
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	86	3	HE2.3 住民税	0
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	93	2	HE3 国外居住親族：控除対象扶養親族の区分（所得税・住民税）	0
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	95	3	HE3.1 区分の関数	0
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	102	3	HE3.2 「38万円以上」の判定	0
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	111	3	HE3.3 書類の要件	0
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	120	3	HE3.4 「国外居住親族」の語の扱い	0
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	124	2	HE4 居住者・非居住者の判定（扶養の判定に使う分だけ）	0
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	135	2	HE5 健康保険の被扶養者：60歳以上・直系尊属・後期高齢者・国内居住要件	0
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	137	3	HE5.1 年齢の区分	0
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	143	3	HE5.2 続柄と同一の世帯	0
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	148	3	HE5.3 国内居住要件	0
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	155	3	HE5.4 コアと注入の境目（健保）	1
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	163	2	HE6 一次情報で決まらないもの（名前つきの関数・パラメータにして「出典未確認」と出す）	0
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	176	2	HE7 概念辞書に足す項目（案）	1
+docs/hypotheses/20261109_round2_elderly-abroad-model.md	192	2	訂正の記録	0
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	1	1	第2ラウンド（gaps）仮説：残っていた個別の未解決6項目の実装上の扱い	0
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	13	2	HG1 勤労学生の「自己の勤労に基づいて得た」は、所得区分から決められない。所得の源ごとの人の判断（D4）として受け取る	1
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	32	2	HG2 TA No.1810 の令和7年分の（注）は、改正前の1文の形を引き継いだ書き方で、扶養の上限は条文どおり 123万円（令和7年分）・131万円（令和8年分）とする	0
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	55	2	HG3 所得金額調整控除は、国の法令だけで決まる構造としてコアに置く。人をまたぐ依存（23歳未満の「扶養親族」）があり、端数の切上げは TA だけが根拠	0
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	83	2	HG4 基礎控除の 2,350万円超の段階は、令和7年分・令和8年分とも同じ表（48万・32万・16万・0）で、措法の加算はない	0
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	97	2	HG5 所得税法施行規則第47条の3 の引用は、2027-01-01 から「法第百二十条第八項」。令和8年分の収支内訳書の根拠条文は第8項として出力の対応表に持つ	0
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	113	2	HG6 健保の「今後1年間の見込み」は、収入に波がある人でも計算式が一次情報で決まっていない。コアは見込みを作らず、判断（D4）と、見込みの作り方の記録と、保険者ごとの確認方法（注入データ）を分けて持つ	1
+docs/hypotheses/20261109_round2_gaps-hypotheses.md	140	2	訂正の記録	0
+docs/hypotheses/20261109_round2_genka-model.md	1	1	仮説：減価償却と損益通算を記録層・判断・判定コアにどう置くか（第2ラウンド genka）	1
+docs/hypotheses/20261109_round2_genka-model.md	16	2	H1 減価償却は「資産台帳（事実）＋判断（D4）＋年分のパラメータ」から決定的に計算でき、所得区分はコアが決める	1
+docs/hypotheses/20261109_round2_genka-model.md	46	2	H2 資産ごとの扱いは、取得日で版を選ぶパラメータと判断で決める決定表になる	1
+docs/hypotheses/20261109_round2_genka-model.md	74	2	H3 通常の償却（定額法）の式と、一次情報で決まらない端数	0
+docs/hypotheses/20261109_round2_genka-model.md	84	2	H4 家事兼用の資産：償却費の全額を計算してから事業専用割合を掛ける。未償却残高をどちらで減らすかは決まっていない	0
+docs/hypotheses/20261109_round2_genka-model.md	97	2	H5 私用で持っていた資産を業務に使い始めた場合は、所令135・85 で「業務供用時の未償却残額」を作ってから定額法を続ける	0
+docs/hypotheses/20261109_round2_genka-model.md	106	2	H6 処分（除却・譲渡・私用への転用）は、所得区分ごとに行き先が違う。業務に係る雑所得は所法51④の上限がある	0
+docs/hypotheses/20261109_round2_genka-model.md	117	2	H7 損益通算は所令198 の順序の関数として、人・年分ごとに「所得区分ごとの所得の金額」から計算する。令和7年分と令和8年分で同じ順序を使う	0
+docs/hypotheses/20261109_round2_genka-model.md	128	2	H8 純損失の繰越控除は「年をまたぐ依存」で、前年以前の申告の事実と青色の状態を入力に持つ。住民税は別に持つ	1
+docs/hypotheses/20261109_round2_genka-model.md	140	2	H9 健保・国保・住民税との境目：減価償却費は所得税の必要経費として計算し、別の制度が使うかは注入するデータで決める	1
+docs/hypotheses/20261109_round2_genka-model.md	149	2	H10 一次情報で決まらない処理の一覧（名前つきの関数・規則にして「出典未確認」の印を付ける）	0
+docs/hypotheses/20261109_round2_genka-model.md	167	2	まとめ：規則ごとの「事実・判断・コアと注入データの境目・未確定の処理」	1
+docs/hypotheses/20261109_round2_genka-model.md	181	2	訂正の記録	0
+docs/hypotheses/20261109_round2_hoken-kifu-model.md	1	1	第2ラウンド（hoken-kifu）仮説：保険料・寄附金・小規模企業共済等掛金・雑損の控除と、ふるさと納税の住民税の計算を、記録・判断・判定コア・注入データにどう分けるか	1
+docs/hypotheses/20261109_round2_hoken-kifu-model.md	19	2	H1 生命保険料控除の事実の単位は「証明書の区分ごとの金額」と「支払の記録」の2つで、判定コアは支払の記録を正とし、証明書と突き合わせる	1
+docs/hypotheses/20261109_round2_hoken-kifu-model.md	38	2	H2 「新のみ・旧のみ・両方」の選択は、判定コアが全部の候補を計算して最大を既定にし、判断台帳で上書きできるようにする	1
+docs/hypotheses/20261109_round2_hoken-kifu-model.md	44	2	H3 措法第41条の15の5（23歳未満の扶養親族の特例）は、年分のパラメータと「扶養親族の定義（所法2①三十四）に当たる23歳未満の人がいるか」の判定で組み、扶養の割当て（所法85⑥・所令219）は使わない。ただし結果に「国税庁の説明に基づく」印を付ける	0
+docs/hypotheses/20261109_round2_hoken-kifu-model.md	56	2	H4 生命保険料控除・地震保険料控除の1円未満の端数は、名前つきの関数「保険料控除の端数」にし、所得税は「切り上げ」を既定にして「出典は国税庁の説明（条文に定めなし）」の印を付ける。住民税は出典が見つかっていないので、同じ関数を使い「出典未確認」の印を付ける	0
+docs/hypotheses/20261109_round2_hoken-kifu-model.md	62	2	H5 地震保険料控除は「契約×保険の目的×所有者×居住の用」の事実と、一の契約に両方あるときの選択（判定コアが最大を既定）で組む	1
+docs/hypotheses/20261109_round2_hoken-kifu-model.md	71	2	H6 寄附金控除（所得税）は「寄附の支出」の事実と、寄附先の法的な種類（注入データまたは受領証の記載）と、所得控除・税額控除の選択（判断）で組む	1
+docs/hypotheses/20261109_round2_hoken-kifu-model.md	82	2	H7 ふるさと納税の住民税（寄附金税額控除・特例控除・申告特例控除）は、法令が決める式をコアに置き、「指定の有無」「条例で定める寄附金」「指定都市か」を注入データにする	1
+docs/hypotheses/20261109_round2_hoken-kifu-model.md	99	2	H8 ワンストップ特例が有効かどうかは、判定コアが法令の4つの無効事由で決め、「確定申告をする（予定）」という判断が入ったら、すべての特例控除対象寄附金を所得税の寄附金控除に入れる必要があることを出力する	1
+docs/hypotheses/20261109_round2_hoken-kifu-model.md	114	2	H9 小規模企業共済等掛金控除は「掛金の種類×加入者×支払者×支払日」の事実で組み、加入者と支払者が違う場合は当面「対象外」として止める	1
+docs/hypotheses/20261109_round2_hoken-kifu-model.md	122	2	H10 雑損控除は「損失の事象（日付・原因）×資産（所有者・種類）×損失額×保険金等×災害等関連支出」の事実と、時価・取得費の選択などの判断で組み、親族の所属は扶養の割当ての結果を使う	1
+docs/hypotheses/20261109_round2_hoken-kifu-model.md	136	2	H11 判定コアと注入データ・記録・判断の境目（まとめ）	1
+docs/hypotheses/20261109_round2_hoken-kifu-model.md	149	2	H12 年分・年度のパラメータ（施行日つき）	0
+docs/hypotheses/20261109_round2_hoken-kifu-model.md	161	2	訂正の記録	0
+docs/hypotheses/20261109_round2_jinteki-model.md	1	1	第2ラウンド（jinteki）仮説：障害者控除・寡婦控除・ひとり親控除、住民税の非課税、健保の障害者 180万円の実装モデル	0
+docs/hypotheses/20261109_round2_jinteki-model.md	16	2	H1 障害者・特別障害者の区分は、記録した「根拠」からコアが対応表で決める	0
+docs/hypotheses/20261109_round2_jinteki-model.md	41	2	H2 判定の時点は制度ごとに違う。根拠の事実は「区間」で持ち、時点で切り出す	1
+docs/hypotheses/20261109_round2_jinteki-model.md	58	2	H3 手帳の申請中・認定の申請中（所基通2-38、質疑応答 05/63）は「通達による取扱い」の印をつける	0
+docs/hypotheses/20261109_round2_jinteki-model.md	66	2	H4 障害者控除の額と、誰が控除するか	0
+docs/hypotheses/20261109_round2_jinteki-model.md	84	2	H5 寡婦・ひとり親は所得税と住民税で同じ構造。違うのは「前年」と判定時点と額だけ	0
+docs/hypotheses/20261109_round2_jinteki-model.md	101	2	H6 住民税の非課税（障害者・寡婦・ひとり親の 135万円）は法律の値で、コアに置く	0
+docs/hypotheses/20261109_round2_jinteki-model.md	110	2	H7 健保の被扶養者の 180万円（障害者）は通知の値。障害の程度は「障害年金の障害等級」の物差しで、手帳の等級からは決まらない	0
+docs/hypotheses/20261109_round2_jinteki-model.md	122	2	H8 事実台帳に持つ項目（記録層）	1
+docs/hypotheses/20261109_round2_jinteki-model.md	147	2	H9 コアと注入データ・判断の境目（まとめ）	1
+docs/hypotheses/20261109_round2_jinteki-model.md	158	2	H10 境目と端数処理	1
+docs/hypotheses/20261109_round2_jinteki-model.md	165	2	H11 パラメータ（施行日・適用の区切りつき）	0
+docs/hypotheses/20261109_round2_jinteki-model.md	181	2	訂正の記録	0
+docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	1	1	仮説：住民税の税額（所得割・均等割・調整控除・税額控除）を判定コアでどう表すか	0
+docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	16	2	H1 一人・一年度の住民税は、次の順の純粋な計算で決まる（所得割は線形、端数は3か所）	0
+docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	39	2	H2 法令が決める構造（コア）と、注入するデータの境目	1
+docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	59	2	H3 入力として必要な事実と、人の判断（D4）	1
+docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	78	2	H4 年度ごとに使う条文は、規定ごとに改正附則で選ぶ（令和8年度分・令和9年度分の表）	0
+docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	94	2	H5 一次情報で決まらない端数処理は、名前つきの関数にして結果に印を付ける	0
+docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	107	2	H6 注入がない団体の税額は「未確定」を返し、税率に対する一次式を根拠として添える	1
+docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	117	2	H7 調整控除の表は条文どおり実装し、（７）の行は令和8・9年度分では効かないことをテストで固定する	0
+docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	126	2	H8 税額控除の順序は最終の税額に影響しない。順序は「どの控除が使い切れなかったか」の説明にだけ使う	0
+docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	134	2	H9 森林環境税は均等割と「同じ紙で取る別の税」として、非課税・減免・課税対象を別に判定する	0
+docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	143	2	H10 退職所得の分離課税は「その年の住民税」として、年度の問いとは別の問いで扱う	0
+docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md	151	2	未決（仮説の外に残したもの）	0
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	1	1	第2ラウンド（kokuho）仮説：国保料（税）と国民年金保険料の、コアに置く構造・注入するデータ・入力の事実・人の判断の境目	1
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	19	2	H1 法令が決める構造（コア）と、市町村が決める値（注入するデータ）の境目	1
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	45	2	H2 入力として必要な事実（中間表現の語彙）	1
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	72	2	H3 人の判断（D4）に当たるもの、当たらないもの	1
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	82	2	H4 一次情報で決まらない端数処理と、その扱い	0
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	93	2	H5 年度・年分・版の持ち方	0
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	100	2	H6 国保の「世帯」は、所得税の「生計を一にする」とも健保の「同一の世帯」とも別のグループにする	0
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	106	2	H7 料と税の違いは、コアの中で「同じ構造に2つの出典」として持つ	0
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	116	2	H8 注入する市町村データの形（D19 の宣言的データ）	1
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	129	2	H9 注入データがないときに、コアが返せるもの	1
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	142	2	H10 国民年金：コアに置く規則	0
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	153	2	H11 繰越控除と専従者給与：制度ごとに「どの段階の所得」を使うかが違う	0
+docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md	167	2	H12 中心の概念と依存の向き（概念辞書への登録案）	1
+docs/hypotheses/20261109_round2_kyosai-model.md	1	1	仮説：共済組合の被扶養者と、住所が別の家族（単身赴任・別居の子・別々の市町村）を判定コアでどう表すか（第2ラウンド）	0
+docs/hypotheses/20261109_round2_kyosai-model.md	20	2	HKY1 被扶養者の規則は3つの層に分ける：法令（コア）／制度ごとの大臣の定め・国の通知（コアのパラメータ）／保険者ごとの基準（注入データ）	1
+docs/hypotheses/20261109_round2_kyosai-model.md	32	2	HKY2 保険者は「制度」と「保険者（組合・支部）」の2段の事実として持つ	1
+docs/hypotheses/20261109_round2_kyosai-model.md	38	2	HKY3 範囲（続柄 × 同一世帯の要否）はコアの表で、制度ごとに持つ	0
+docs/hypotheses/20261109_round2_kyosai-model.md	45	2	HKY4 「同一の世帯」：共済は定義があるのでコアが事実から導き、健保は保険者データ（なければ未確定）	1
+docs/hypotheses/20261109_round2_kyosai-model.md	58	2	HKY5 生計維持の収入基準：コアは「規則の型」を持ち、数値は保険者データから受け取る	0
+docs/hypotheses/20261109_round2_kyosai-model.md	73	2	HKY6 年間収入：見込み（D4）と、実績の窓（保険者データ）の2本立てにする	0
+docs/hypotheses/20261109_round2_kyosai-model.md	83	2	HKY7 事業収入：確定申告の収支の明細（費目つき）を共有し、引ける費目は保険者データで決める	0
+docs/hypotheses/20261109_round2_kyosai-model.md	94	2	HKY8 19歳以上23歳未満・60歳以上の年齢と、基準の適用開始日	0
+docs/hypotheses/20261109_round2_kyosai-model.md	100	2	HKY9 届出と認定日：共済は法律の「30日」をコアで、健保は保険者の決定（事実）を受け取る	1
+docs/hypotheses/20261109_round2_kyosai-model.md	106	2	HKY10 運用方針にある共済だけの規則：重複・他人の扶養手当・共同扶養・「通常稼働能力」	0
+docs/hypotheses/20261109_round2_kyosai-model.md	113	2	HKY11 別居の学生の子：範囲は外れない。仕送りの比較を当てるかは保険者データ	0
+docs/hypotheses/20261109_round2_kyosai-model.md	120	2	HKY12 住民税：課税する市町村は各人の1月1日の住所の市町村（入力の事実）。扶養控除に住所の条件はない	1
+docs/hypotheses/20261109_round2_kyosai-model.md	132	2	HKY13 一次情報で決まらない端数処理・境界（名前つき関数にし、出典未確認の印を付ける）	0
+docs/hypotheses/20261109_round2_kyosai-model.md	144	2	未決（ユーザーの確認が要るもの）	0
+docs/hypotheses/20261109_round2_kyosai-model.md	152	2	訂正の記録	0
+docs/hypotheses/20261109_round2_spouse-model.md	1	1	第2ラウンド（spouse）：配偶者に関する規則の実装の仮説（入力の事実・人の判断・コアと注入データの境目・端数処理）	1
+docs/hypotheses/20261109_round2_spouse-model.md	14	2	HS1 「配偶者」は制度ごとに別の概念として持ち、婚姻に関する事実は日付つきの事実として記録する	1
+docs/hypotheses/20261109_round2_spouse-model.md	30	2	HS2 所得税の配偶者控除・配偶者特別控除は、すべて法令の条文で決まる。コアに置き、注入データは要らない	1
+docs/hypotheses/20261109_round2_spouse-model.md	56	2	HS3 判定の時点は「12月31日（死亡はその時）」。年の途中の婚姻は年間の合計所得金額で判定し、離婚した元配偶者は対象にならない	0
+docs/hypotheses/20261109_round2_spouse-model.md	68	2	HS4 住民税の配偶者控除・配偶者特別控除・調整控除も条文で決まる。所得税とは相互適用の除外の範囲と額が違う	0
+docs/hypotheses/20261109_round2_spouse-model.md	83	2	HS5 「誰が誰について何を受けるか」は申告書等の記載の事実（判断）として入力で受け、コアは整合を検査する	1
+docs/hypotheses/20261109_round2_spouse-model.md	91	2	HS6 健康保険の被扶養者としての配偶者：法律の構造はコア、収入の基準は「国の通知」のパラメータ、保険者ごとの運用は注入データ	1
+docs/hypotheses/20261109_round2_spouse-model.md	107	2	HS7 第3号被保険者の判定は「健保の被扶養者の判定」を再利用し、国民年金法の要件（年齢・第2号の配偶者・国内居住・適用除外）と日単位の資格期間をコアで足す	0
+docs/hypotheses/20261109_round2_spouse-model.md	123	2	HS8 入力として必要な事実と人の判断（まとめ）	1
+docs/hypotheses/20261109_round2_spouse-model.md	144	2	HS9 一次情報で決まらない点（結果に印を付けるもの）	0
+docs/hypotheses/20261109_round2_spouse-model.md	158	2	訂正の記録	0
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	1	1	様式の欄の対応表（ライブラリが持つデータ）の形と、欄 → 概念の対応（令和7年分）	1
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	19	2	H1：欄の鍵は「年分 × 帳票（e-Tax 様式ID＋ページ）× 欄の位置名」。欄コードは位置名の一つの属性で、鍵そのものにしない	0
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	32	2	H2：対応表の各行は「位置名・値の型・容量・概念・記入の条件・根拠」を持つデータ（年分ごと）。値の型は7種類	1
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	48	2	H3：様式に印字された式は、対応表では「検査」として持つ（計算はしない）。検査は申告の型（H4）で切り替える	0
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	59	2	H4：申告の型（通常／第三表あり／損失申告）で、埋める欄と空ける欄が決まる。型は判定コアの結果と判断（D4）から決まる	1
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	71	2	H5：欄 → 概念の対応（令和7年分）。概念は「判定コアの概念」「入力の事実」「人の判断（D4）」「対象外」に分ける	1
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	75	3	H5.1 第一表（`KOA020-01`）	0
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	131	3	H5.2 第二表（`KOA020-02`）	0
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	153	3	H5.3 第三表（`KOA020-03`）	0
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	165	3	H5.4 第四表（`KOA020-04`・`-05`）	0
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	184	3	H5.5 青色申告決算書（一般用）（`KOA210-01`〜`-04`）・収支内訳書（一般用）（`KOA110-01`・`-02`）	0
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	201	3	H5.6 医療費控除の明細書・セルフメディケーション税制の明細書	0
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	209	2	H6：判定コアに置くもの（法令と国の様式が決める構造）と、注入するデータ・利用側の境目	1
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	218	2	H7：一次情報で決まらない端数処理・まとめ方は、名前つきの関数にして根拠に「手引き」「様式の注記」「既定」を区別して書く	0
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	231	2	H8：令和8年分の対応表は、様式の公表を待って「令和7年分の表＋差分」として作る。社会保険料控除等の明細書は欄を法令の記載事項から仮に作り、様式の公表で確定する	0
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	239	2	H9：公式の欄コードの対応表として最も確かなのは e-Tax の「帳票レイアウト設計書」。取得はユーザーの判断を待つ	1
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	247	2	この文書の範囲外（分からなかったこと・決まっていないこと）	0
+docs/hypotheses/20261109_round2_yoshiki-mapping-table.md	252	2	訂正の記録	0
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	1	1	仮説：不動産所得を判定コア・中間表現・判断台帳にどう置くか（第2ラウンド追加分 fudosan）	1
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	18	2	H1 不動産所得かどうかは「資産の種類と貸し方の事実」と少数の判断で決まり、借地権の設定の一部は譲渡所得（対象外）に分かれる	1
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	29	2	H2 総収入金額の年分への帰属は「契約上の支払日」を基本にし、期間対応（直所2−78）は納税者の選択として持てる	1
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	39	2	H3 必要経費のうち「土地等を取得するために要した負債の利子」は、借入れごとの使途と取得の契約から計算でき、措令26の6② は納税者の選択として持つ	1
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	48	2	H4 事業的規模かどうかは判断（D4）として受け取り、基通26−9 の「おおむね10室・5棟」は判断と事実が食い違うときの警告にだけ使う	1
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	69	2	H5 不動産所得の損失は「青色申告特別控除 → 不動産所得内の制限（別荘・土地の負債利子）→ 所令198 の順序」で通算できる	0
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	82	2	H6 家族の間の賃貸・対価（所法56）は、4つの事実がそろったときに「支払う側の必要経費と受け取る側の所得」を組み替える規則として書ける	1
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	102	2	H7 判定ごとの「所得」の数え方は、所得税・住民税は同じ不動産所得（控除・通算・制限の後）で、健保は収入から保険者が認める経費を引いた別の値になる	0
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	121	2	H8 様式の欄の対応表（T5-2）は、令和7年分について収支内訳書（G01〜G21）・青色申告決算書1頁（G01〜G24）・申告書第一表（㋒・③）で書ける	0
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	130	2	H9 一次情報で決まらない端数・値は名前つきの関数にし、結果に印を付ける	0
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	142	2	H10 中間表現（D5）と判断台帳（D12）に足す語彙は、取引ではない事実が中心になる	1
+docs/hypotheses/20261109_round2b_fudosan-calculation-model.md	150	2	訂正の記録	0
+docs/hypotheses/20261109_round2b_invoice-model.md	1	1	仮説：消費税の課税事業者・インボイス登録・経理方式を、所得税などの判定コアにどう入れるか（第2ラウンド追加分 invoice）	0
+docs/hypotheses/20261109_round2b_invoice-model.md	20	2	H1 消費税の納税義務の状態は、ライブラリが判定せず「人 × 日付の範囲」の外部の事実として受け取る	1
+docs/hypotheses/20261109_round2b_invoice-model.md	29	2	H2 経理方式は納税者の選択で、「人 × 年分 × 業務（所得の種類）」ごとに持つ。免除の期間は税込経理に強制する	1
+docs/hypotheses/20261109_round2b_invoice-model.md	38	2	H3 税込経理の計算は、記録の税込の額をそのまま使い、消費税等の納付・還付を「申告書ごとの事実」で受けて、年分を決める	1
+docs/hypotheses/20261109_round2b_invoice-model.md	49	2	H4 税抜経理の所得は、資産を含まない取引については「税込経理で未払金に計上した場合」と同じになる。ライブラリは取引ごとの仮受・仮払の分解を受け取らなくてよく、資産の取得価額だけ税抜の値が要る	0
+docs/hypotheses/20261109_round2b_invoice-model.md	60	2	H5 判定ごとに、事業所得等の金額（経理方式の影響を受けた後の値）がどう数えられるか	0
+docs/hypotheses/20261109_round2b_invoice-model.md	77	2	H6 2割特例・3割特例・経過措置の率は、所得税の計算には使わず、入力の検査と説明のためのパラメータとして施行日つきで持つ	1
+docs/hypotheses/20261109_round2b_invoice-model.md	96	2	H7 規則ごとの整理（入力の事実／人の判断・納税者の選択／法令が決める構造／一次情報で決まらないもの）	1
+docs/hypotheses/20261109_round2b_invoice-model.md	107	2	H8 対象外・未対応として止める組合せ（黙って近似しない。SCOPE §2 の 4）	0
+docs/hypotheses/20261109_round2b_invoice-model.md	117	2	H9 中間表現の語彙（事実の語彙。法令の解釈を含めない）の案	1
+docs/hypotheses/20261109_round2b_invoice-model.md	126	2	訂正の記録	0
+docs/hypotheses/20261109_round2b_kabu-model.md	1	1	株式等の譲渡所得・配当所得と申告の選択：判定コアのモデル（仮説）	1
+docs/hypotheses/20261109_round2b_kabu-model.md	19	2	H1. 選択の構造（人 × 年分）	1
+docs/hypotheses/20261109_round2b_kabu-model.md	40	2	H2. 各制度の「所得」にどう数えるか（中心の表）	0
+docs/hypotheses/20261109_round2b_kabu-model.md	65	2	H3. 入力として必要な事実（中間表現）	1
+docs/hypotheses/20261109_round2b_kabu-model.md	83	2	H4. 人の判断（D4）と納税者の選択	1
+docs/hypotheses/20261109_round2b_kabu-model.md	98	2	H5. 法令が決める構造（判定コアの計算の順序）	0
+docs/hypotheses/20261109_round2b_kabu-model.md	116	2	H6. 一次情報で決まらない点・端数処理	0
+docs/hypotheses/20261109_round2b_kabu-model.md	130	2	H7. 申告書の欄への対応（令和7年分の様式。出力の整形の対応表）	0
+docs/hypotheses/20261109_round2b_kabu-model.md	150	2	H8. 実装の範囲の提案	0
+docs/hypotheses/20261109_round2b_kabu-model.md	157	2	訂正の記録	0
+docs/hypotheses/20261109_round2b_nenkin-model.md	1	1	公的年金等の雑所得（老齢・障害・遺族年金）：実装に向けた仮説	0
+docs/hypotheses/20261109_round2b_nenkin-model.md	16	2	H1 公的年金等の雑所得の式は令和7年分・令和8年分で同じ。条文どおりに組めば国税庁の速算表と一致する	0
+docs/hypotheses/20261109_round2b_nenkin-model.md	31	2	H2 65歳の判定は「その年12月31日（死亡・出国の年はその時）」。住民税は前年の12月31日	0
+docs/hypotheses/20261109_round2b_nenkin-model.md	41	2	H3 年金の「課税・非課税」と「公的年金等か」は、事実（制度と支給事由）から判定コアが表で決める	1
+docs/hypotheses/20261109_round2b_nenkin-model.md	69	2	H4 非課税の年金は税の所得の数え方から外れるが、健保の年間収入には入る。数え方を概念ごとに分ける	1
+docs/hypotheses/20261109_round2b_nenkin-model.md	90	2	H5 年分は「法令等による支給日」で決まる。さかのぼって払われた分は元の支給日の年分に戻す	0
+docs/hypotheses/20261109_round2b_nenkin-model.md	98	2	H6 所得税の申告不要（所法121③）は、4つの事実の組から決定的に判定できる。源泉徴収税額は計算しない	1
+docs/hypotheses/20261109_round2b_nenkin-model.md	113	2	H7 住民税：所得の計算は同じ。申告不要の条件は所得税より狭い	0
+docs/hypotheses/20261109_round2b_nenkin-model.md	124	2	H8 端数処理：条文にない。境目の判定を変えるときだけ「未確定」にする	1
+docs/hypotheses/20261109_round2b_nenkin-model.md	135	2	H9 範囲と対象外	0
+docs/hypotheses/20261109_round2b_nenkin-model.md	146	2	H10 規則ごとの整理（実装の観点）	0
+docs/hypotheses/20261109_round2b_nenkin-model.md	158	2	訂正の記録	0
+docs/hypotheses/20261109_round2b_taishoku-model.md	1	1	退職所得：実装に向けた仮説（第2ラウンド追加分）	0
+docs/hypotheses/20261109_round2b_taishoku-model.md	16	2	H1 退職所得の式は令和7年分・令和8年分で同じ。条文どおりに組めば国税庁・総務省の設例と一致する	0
+docs/hypotheses/20261109_round2b_taishoku-model.md	22	2	H2 計算の段と、各段の「事実・判断・法令・端数」	1
+docs/hypotheses/20261109_round2b_taishoku-model.md	39	2	H3 所令70①二の改正（iDeCo の一時金の9年内）は「年分」で切り替えるが、令和7年分・令和8年分の結果は変わらない	0
+docs/hypotheses/20261109_round2b_taishoku-model.md	46	2	H4 入力として必要な事実（中間表現の語彙）	1
+docs/hypotheses/20261109_round2b_taishoku-model.md	61	2	H5 所得の数え方は判定ごとに違う。退職所得は「所得税の合計所得金額・総所得金額等には入る」「住民税の合計所得金額には入らない（源泉徴収されたもの）」「健保の年間収入には（一時金なら）入らない（共済の運用で確認、健保は未確認）」	0
+docs/hypotheses/20261109_round2b_taishoku-model.md	81	2	H6 源泉徴収で終わる場合と、確定申告に入れる場合	0
+docs/hypotheses/20261109_round2b_taishoku-model.md	88	2	H7 住民税の分離課税は「支払時の特別徴収税額の検算」として持ち、年度の住民税（前年所得課税）とは別の系統にする	0
+docs/hypotheses/20261109_round2b_taishoku-model.md	94	2	H8 人の判断（D4）と納税者の選択	1
+docs/hypotheses/20261109_round2b_taishoku-model.md	106	2	H9 端数処理と、一次情報で決まらない点	0
+docs/hypotheses/20261109_round2b_taishoku-model.md	121	2	H10 範囲と対象外	0
+docs/hypotheses/20261109_round2b_taishoku-model.md	127	2	H11 規則ごとの整理（実装の観点）	0
+docs/hypotheses/20261109_round2b_taishoku-model.md	144	2	訂正の記録	0
+docs/hypotheses/20261109_sakusei-corner_test-oracle.md	1	1	作成コーナーの計算結果を、判定ロジックのテストの照合先に使えるか	0
+docs/hypotheses/20261109_sakusei-corner_test-oracle.md	8	2	H1：作成コーナーの静的ファイルから、計算式や基準額を読み取ることはできない	0
+docs/hypotheses/20261109_sakusei-corner_test-oracle.md	15	2	H2：作成コーナーで人が作った申告書の数字は、テストの照合先（二次的な確認）に使える	0
+docs/hypotheses/20261109_sakusei-corner_test-oracle.md	27	2	H3：年齢の判定の式は、作成コーナーと同じ式を使ってよい	0
+docs/inferences/20261109_impl-prep_denchoho-record-layer-checks.md	1	1	実装前調査：記録層の電帳法対応 — 仮説から導いた推測と検証の方法	1
+docs/inferences/20261109_impl-prep_denchoho-record-layer-checks.md	7	2	I1. 白色の事業所得の子供（基準期間の売上高5,000万円以下）なら、令和7年分・令和8年分の電子取引データの保存は「原本の保存＋事務処理規程＋見読性＋ダウンロード対応（＋システム概要書）」で足りる	0
+docs/inferences/20261109_impl-prep_denchoho-record-layer-checks.md	16	2	I2. 台帳（beancount）の取引だけを入力して証憑ファイルを残さない運用は、電帳法第7条の保存にならない。記録層に「証憑が必要な取引に証憑がない」検査を入れれば機械的に防げる	1
+docs/inferences/20261109_impl-prep_denchoho-record-layer-checks.md	24	2	I3. ハッシュ連鎖のログは、ファイルの書き換え・削除・ログの行の差し替えを検知できるが、本人がログ全体を作り直す改ざんは防げない。外部への定期的な固定で検知できる範囲が広がる	0
+docs/inferences/20261109_impl-prep_denchoho-record-layer-checks.md	30	2	I4. 保存期限の具体例（令和7年分・令和8年分）	0
+docs/inferences/20261109_impl-prep_denchoho-record-layer-checks.md	47	2	I5. 白色の子供の台帳を電子のまま帳簿として保存するには、確認できていない点が2つ残る。それまでは年末の紙出力が安全	1
+docs/inferences/20261109_impl-prep_denchoho-record-layer-checks.md	55	2	I6. 記録層が法的な判断をしなくても、判定コアに必要な事実は記録層から渡せる	1
+docs/inferences/20261109_impl-prep_denchoho-record-layer-checks.md	61	2	I7. エクスポートを「通常出力できるファイル形式」にすれば、ダウンロードの求めへの対応・猶予措置・検索免除の(b)を同じ仕組みで満たせる	0
+docs/inferences/20261109_impl-prep_denchoho-record-layer-checks.md	67	2	I8. システムを移行・作り直すときも、規程（第4号）を使えば改ざん防止を引き継げる	0
+docs/inferences/20261109_impl-prep_denchoho-record-layer-checks.md	73	2	訂正の記録	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	1	1	推測：S3（父と母がそれぞれ家族の医療費を払う）の再確認と、医療費控除の追加の推測	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	12	2	0. 結論	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	29	2	S3-1 明細書の出力（令和7年分）	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	31	3	前提	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	36	3	推測（期待値）	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	61	3	検証方法	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	67	2	S3-2 5%の円未満の端数（令和7年分）	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	69	3	前提	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	73	3	入力	1
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	78	3	推測（期待値）	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	88	3	検証方法	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	94	2	S3-3 補塡の見込額と確定額が違う場合（令和7年分）	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	96	3	前提	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	100	3	入力	1
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	105	3	推測（期待値）	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	113	3	検証方法	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	118	2	S3-4 補塡の年またぎのあん分（令和7年分・令和8年分）	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	120	3	前提	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	124	3	入力	1
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	129	3	推測（期待値）	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	138	3	検証方法	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	143	2	S3-5 セルフメディケーション税制との選択（令和7年分、母）	1
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	145	3	前提	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	149	3	入力	1
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	154	3	推測（期待値）	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	165	3	検証方法	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	171	2	S3-6 同じ支払を2人に計上した入力（令和7年分）	1
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	173	3	前提	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	177	3	入力	1
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	182	3	推測（期待値）	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	187	3	検証方法	0
+docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md	192	2	訂正の記録	0
+docs/inferences/20261109_impl-prep_jigyo-inferences.md	1	1	推測：事業所得・業務に係る雑所得の計算の期待値と検証方法（IMPL jigyo）	0
+docs/inferences/20261109_impl-prep_jigyo-inferences.md	10	2	I1 家内労働者等の特例だけの子の、扶養の境目（令和7年分・令和8年分）	1
+docs/inferences/20261109_impl-prep_jigyo-inferences.md	30	2	I2 給与がある家内労働者等（令和7年分）：給与の調整の読み方で扶養の結論が変わる	0
+docs/inferences/20261109_impl-prep_jigyo-inferences.md	49	2	I3 給与がある家内労働者等（令和8年分）：2つの読み方が一致する	0
+docs/inferences/20261109_impl-prep_jigyo-inferences.md	56	2	I4 事業所得と業務に係る雑所得の両方がある家内労働者等の配分（令和7年分）	0
+docs/inferences/20261109_impl-prep_jigyo-inferences.md	65	2	I5 家事関連費（白色・業務に係る雑所得）	0
+docs/inferences/20261109_impl-prep_jigyo-inferences.md	81	2	I6 現金主義（業務に係る雑所得）と発生主義の年分のずれ	0
+docs/inferences/20261109_impl-prep_jigyo-inferences.md	97	2	I7 一時所得と扶養	0
+docs/inferences/20261109_impl-prep_jigyo-inferences.md	111	2	I8 一時所得の2分の1の端数	0
+docs/inferences/20261109_impl-prep_jigyo-inferences.md	118	2	I9 青色申告の承認がある人の扱い	0
+docs/inferences/20261109_impl-prep_jigyo-inferences.md	125	2	I10 帳簿の表示と収支内訳書の写像	0
+docs/inferences/20261109_impl-prep_jigyo-inferences.md	138	2	D15 ② に足す境目のテスト（まとめ）	1
+docs/inferences/20261109_impl-prep_jigyo-inferences.md	150	2	訂正の記録	0
+docs/inferences/20261109_impl-prep_juminzei-implications.md	1	1	推測：住民税の判定を実装するときの含意（年度と年分の対応を中心に）	0
+docs/inferences/20261109_impl-prep_juminzei-implications.md	8	2	I1 判定コアの入口は「年分」でよいが、住民税は「年分＋1 の年度」として別の結果に出す	0
+docs/inferences/20261109_impl-prep_juminzei-implications.md	28	2	I2 非課税の境目のテスト（D15 ②）は実測の計算表をそのまま使える	1
+docs/inferences/20261109_impl-prep_juminzei-implications.md	45	2	I3 未成年者の判定は「1月1日の年齢」で、生年月日の境目は年度ごとに決まる	1
+docs/inferences/20261109_impl-prep_juminzei-implications.md	60	2	I4 中間表現に足りない事実がある	1
+docs/inferences/20261109_impl-prep_juminzei-implications.md	73	2	I5 出力は「非課税かどうか」だけでなく「申告が要るか」と「条例しだいの部分」を分けて返す	0
+docs/inferences/20261109_impl-prep_juminzei-implications.md	85	2	I6 扶養の所属は、所得税と住民税で「同じ記載から、別の規則で」決める	0
+docs/inferences/20261109_impl-prep_juminzei-implications.md	98	2	I7 年度の切り替わりと法令の改正の取り込み	0
+docs/inferences/20261109_impl-prep_juminzei-implications.md	109	2	訂正の記録	0
+docs/inferences/20261109_impl-prep_kenpo-test-cases.md	1	1	健康保険の被扶養者判定：仮説から導いた期待値（境目のテスト案）と検証方法（推測）	1
+docs/inferences/20261109_impl-prep_kenpo-test-cases.md	9	2	推測の一覧	0
+docs/inferences/20261109_impl-prep_kenpo-test-cases.md	25	2	IK1 19〜23歳の基準額の境目（HK1・HK7）	1
+docs/inferences/20261109_impl-prep_kenpo-test-cases.md	47	2	IK2 判定方法の切替え（HK1・HK2）	0
+docs/inferences/20261109_impl-prep_kenpo-test-cases.md	63	2	IK3 月額・日額の目安と「未満」（HK2）	0
+docs/inferences/20261109_impl-prep_kenpo-test-cases.md	73	2	IK4 別居の子の援助額基準（HK4）	0
+docs/inferences/20261109_impl-prep_kenpo-test-cases.md	89	2	IK5 夫婦共同扶養（HK6）	0
+docs/inferences/20261109_impl-prep_kenpo-test-cases.md	107	2	IK6 重複の検査（HK5）	0
+docs/inferences/20261109_impl-prep_kenpo-test-cases.md	118	2	IK7 税の特定親族と健保の150万円（HK9）	0
+docs/inferences/20261109_impl-prep_kenpo-test-cases.md	129	2	IK8 削除の候補日（HK8）	0
+docs/inferences/20261109_impl-prep_kenpo-test-cases.md	143	2	IK9 算入規則の変更の影響範囲（HK2・HK10、性質のテスト）	0
+docs/inferences/20261109_impl-prep_kenpo-test-cases.md	150	2	訂正の記録	0
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	1	1	実装前調査（kyuyo）推測：給与所得の関数・パラメータ・テストケースの設計と、その検証方法	0
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	9	2	I1 給与所得の関数とパラメータの形（前提：H1、H2、H6、H7）	0
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	21	2	I2 年分ごとの境目のテストケース（前提：H1、H5、H8。D15 ②）	1
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	51	2	I3 住民税の給与所得は所得税の関数を年度−1で呼ぶ（前提：H4、H5）	0
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	61	2	I4 年末調整（源泉徴収票）と確定申告の給与所得の食い違いを判定コアで扱う（前提：H3、H10）	0
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	70	2	I5 令和10年分以後の境目は下がる（現行の条文のまま改正がない場合）（前提：H1）	1
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	76	2	I6 中間表現に入れる給与の事実（前提：H7、H10）	1
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	82	2	I7 措置法第27条（家内労働者等）との組合せは別途調べる必要がある（前提：H1）	0
+docs/inferences/20261109_impl-prep_kyuyo-inferences.md	87	2	訂正の記録	0
+docs/inferences/20261109_impl-prep_misc-inferences.md	1	1	実装前の追加調査（misc）：推測と検証方法	0
+docs/inferences/20261109_impl-prep_misc-inferences.md	9	2	I1 年齢関数のテストの期待値（前提：H1）	0
+docs/inferences/20261109_impl-prep_misc-inferences.md	31	2	I2 判定日の違う年齢の判定（前提：H1）	0
+docs/inferences/20261109_impl-prep_misc-inferences.md	38	2	I3 死亡者の年齢（前提：H1）	0
+docs/inferences/20261109_impl-prep_misc-inferences.md	43	2	I4 親族の判定のテスト（前提：H2）	0
+docs/inferences/20261109_impl-prep_misc-inferences.md	52	2	I5 所属の割当ての結果（前提：H3）	0
+docs/inferences/20261109_impl-prep_misc-inferences.md	64	2	I6 年の中途の死亡と再婚の場面（前提：H4）	0
+docs/inferences/20261109_impl-prep_misc-inferences.md	72	2	I7 扶養の連鎖が税額に効く場面（前提：H5）	0
+docs/inferences/20261109_impl-prep_misc-inferences.md	85	2	I8 令和7年分では、源泉控除対象親族による除外は起きない（前提：H5・H6）	0
+docs/inferences/20261109_impl-prep_misc-inferences.md	91	2	I9 記録の項目と源泉徴収票の対応（前提：H6）	0
+docs/inferences/20261109_impl-prep_misc-inferences.md	100	2	訂正の記録	0
+docs/inferences/20261109_impl-prep_output-checks.md	1	1	出力層の仮説から導いた推測と、その確かめ方	0
+docs/inferences/20261109_impl-prep_output-checks.md	10	2	I1：令和8年分の第一表・第二表は、令和7年分の新様式から欄が変わる（H4）	0
+docs/inferences/20261109_impl-prep_output-checks.md	20	2	I2：公式の医療費集計フォーム（Ver.3.1）のテンプレートのセルに値を入れただけのファイルは、作成コーナーで読み込める（H3）	0
+docs/inferences/20261109_impl-prep_output-checks.md	31	2	I3：作成コーナーで「合計額だけ入力」した場合と、明細を読み込んだ場合とで、医療費控除額（第一表㉘）は同じになる（H3）	1
+docs/inferences/20261109_impl-prep_output-checks.md	36	2	I4：令和7年分の場面（架空）について、欄値表の値は作成コーナーで作った申告書の同じ欄コードの値と一致する（H1・H2・H5）	0
+docs/inferences/20261109_impl-prep_output-checks.md	45	2	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	0
+docs/inferences/20261109_impl-prep_output-checks.md	68	2	I6：e-Tax の XML を作らなくても、ユーザーは書面か作成コーナーで申告できる（H1・H2・H8）	0
+docs/inferences/20261109_impl-prep_output-checks.md	73	2	I7：令和7年分の新様式（2026-09-24 以降）は、照合（D15⑤）の時に旧様式で作られた資料と食い違って見えることがある（H4）	0
+docs/inferences/20261109_impl-prep_output-checks.md	78	2	I8：令和8年分の第一表・第二表の様式ID は `NTA1KOA020010240`・`NTA0KOA020020240` になる（H10・H4。2026-11-09 独立検証で追加）	0
+docs/inferences/20261109_impl-prep_output-checks.md	88	2	訂正の記録	0
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	1	1	実装前の追加調査：実装の約束から導いた推測と、その検証方法	0
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	7	2	I1. 金額を int にし、率の計算を整数の名前つき関数にすれば、端数の食い違いは起きない	0
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	13	2	I2. 判定日が月の途中でも、`year:<判定日>` を期間にし、入力を月の変数に限れば正しく計算できる	1
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	19	2	I3. 累進税率表を使ったことも、式から明示的に記録すれば根拠に残せる	0
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	25	2	I4. CLI の起動時間の大半は import なので、常駐させれば1回あたり 0.1〜1 秒になる	0
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	31	2	I5. 改めた走査（v2）＋ `-I` ＋ 読み込みのエラーを失敗とする、で自分の台帳だけを読む範囲の危険は塞がる	1
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	40	2	I6. アダプタの語彙と型を JSON Schema で書けば、中間表現の検査と同じ仕組みで扱える	1
+docs/inferences/20261109_impl-prep_tools-implementation-checks.md	46	2	訂正の記録	0
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	1	1	実装前の追加調査（zeigaku）推測：子供自身の所得税の計算例（令和8年分を主、令和7年分で照合）と検証方法	0
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	9	2	推測の一覧	0
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	23	2	Z1 20歳の大学生、給与収入140万円、源泉徴収税額あり（令和8年分）— 指定の計算例	0
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	25	3	入力（中間表現の要点）	1
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	35	3	推測（期待値）と各段の根拠	0
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	59	3	検証方法	0
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	68	2	Z1-R7 同じ事実を令和7年分で（作成コーナーとの照合用）	1
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	83	2	Z1-K 勤労学生控除を外しても結果は同じ（令和8年分）	0
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	91	2	Z2 Z1 ＋ 業務に係る雑所得（報酬から源泉徴収あり）（令和8年分）	0
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	93	3	入力（Z1 との差）	1
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	102	3	推測（期待値）	0
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	122	3	検証方法	0
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	130	2	Z3 源泉徴収がない場合（令和8年分）：申告義務ありの例	0
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	132	3	入力（Z2 との差）	1
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	136	3	推測（期待値）	0
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	148	2	Z3-S 雑所得20万円（令和8年分）	0
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	156	2	Z5-R7 復興特別所得税額の1円未満の扱いで還付額が1円変わる例（令和7年分）	0
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	158	3	入力	1
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	162	3	推測（期待値）	0
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	177	3	検証方法	0
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	185	2	共通の注意	0
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	191	2	訂正の記録	0
+docs/inferences/20261109_impl-prep_zeigaku-examples.md	197	2	訂正による影響（独立検証で追記。直してはいないが、読む人に知らせること）	0
+docs/inferences/20261109_R1-laws_inferences.md	1	1	R1 推測：判定コアのパラメータと監視の設計への当てはめ	0
+docs/inferences/20261109_R1-laws_inferences.md	7	2	I1 OpenFisca のパラメータは「年分の1月1日」で切り替える（前提：H2）	0
+docs/inferences/20261109_R1-laws_inferences.md	13	2	I2 1月1日生まれの子の年齢区分（前提：H1）	0
+docs/inferences/20261109_R1-laws_inferences.md	19	2	I3 監視ジョブの形（前提：H3、H4）	0
+docs/inferences/20261109_R1-laws_inferences.md	29	2	I4 被扶養者（社会保険）の判定コアの分け方（前提：H5）	0
+docs/inferences/20261109_R2-tools_adoption-checks.md	1	1	R2 採用の仮説から導いた推測と、その検証方法	0
+docs/inferences/20261109_R2-tools_adoption-checks.md	8	2	I1. Web API のラッパーで、外部ページからの呼び出しと資源の使い果たしを防げる	0
+docs/inferences/20261109_R2-tools_adoption-checks.md	21	2	I2. YAML の読み込みを安全な読み込みに差し替えられる	0
+docs/inferences/20261109_R2-tools_adoption-checks.md	30	2	I3. R4 のモデルの3つの制約は、次の書き方で避けられる	0
+docs/inferences/20261109_R2-tools_adoption-checks.md	43	2	I4. この PC（Windows）では、OpenFisca を UTF-8 モードと gunicorn 以外のサーバーで動かすか、Linux で動かす必要がある	0
+docs/inferences/20261109_R2-tools_adoption-checks.md	51	2	I5. beancount の安全な読み込み関数を、記録層の唯一の入口にできる	1
+docs/inferences/20261109_R3-tsutatsu_monitoring-design.md	1	1	R3 推測：D9 の監視の組み方と、記録層・判定コアへの影響	1
+docs/inferences/20261109_R3-tsutatsu_monitoring-design.md	6	2	I1 毎日の監視は「一覧ページの条件付き GET → 抽出テキストの差分」で足りる（H3 から）	0
+docs/inferences/20261109_R3-tsutatsu_monitoring-design.md	24	2	I2 Last-Modified だけで変化を判定すると偽陽性が多い（H3 から）	0
+docs/inferences/20261109_R3-tsutatsu_monitoring-design.md	30	2	I3 被扶養者の判定は、中間表現に「見込み・契約」の事実を入れないと書けない（H1・H2 から）	1
+docs/inferences/20261109_R3-tsutatsu_monitoring-design.md	39	2	I4 国税庁の改正は施行の数か月前に公表されるので、毎日の監視で十分間に合う（H3 から）	0
+docs/inferences/20261109_R4-modeling_scenarios.md	1	1	R4 モデル案から導いた推測（具体例）と検証方法	0
+docs/inferences/20261109_R4-modeling_scenarios.md	14	2	推測の一覧	0
+docs/inferences/20261109_R4-modeling_scenarios.md	29	2	0. 検証の共通手順	0
+docs/inferences/20261109_R4-modeling_scenarios.md	46	2	S1 別居して仕送りを受ける大学生（令和8年分）	0
+docs/inferences/20261109_R4-modeling_scenarios.md	48	3	前提	0
+docs/inferences/20261109_R4-modeling_scenarios.md	53	3	入力（中間表現の要点）	1
+docs/inferences/20261109_R4-modeling_scenarios.md	65	3	推測（期待値）	0
+docs/inferences/20261109_R4-modeling_scenarios.md	82	3	検証方法	0
+docs/inferences/20261109_R4-modeling_scenarios.md	91	2	S2 同居の高校生のイラストの業務委託収入と家事按分（令和7年分）	0
+docs/inferences/20261109_R4-modeling_scenarios.md	93	3	前提	0
+docs/inferences/20261109_R4-modeling_scenarios.md	98	3	入力	1
+docs/inferences/20261109_R4-modeling_scenarios.md	109	3	推測（期待値）	0
+docs/inferences/20261109_R4-modeling_scenarios.md	125	3	検証方法	0
+docs/inferences/20261109_R4-modeling_scenarios.md	134	2	S3 父と母がそれぞれ家族の医療費を払う（令和7年分）	0
+docs/inferences/20261109_R4-modeling_scenarios.md	136	3	前提	0
+docs/inferences/20261109_R4-modeling_scenarios.md	141	3	入力	1
+docs/inferences/20261109_R4-modeling_scenarios.md	157	3	推測（期待値）	0
+docs/inferences/20261109_R4-modeling_scenarios.md	172	3	検証方法	0
+docs/inferences/20261109_R4-modeling_scenarios.md	181	2	S4 年の途中で就職する子（令和8年分）	0
+docs/inferences/20261109_R4-modeling_scenarios.md	183	3	前提	0
+docs/inferences/20261109_R4-modeling_scenarios.md	188	3	入力	1
+docs/inferences/20261109_R4-modeling_scenarios.md	199	3	推測（期待値）	0
+docs/inferences/20261109_R4-modeling_scenarios.md	212	3	検証方法	0
+docs/inferences/20261109_R4-modeling_scenarios.md	220	2	S5 重複した扶養の記載と、扶養される人が扶養する人になる場合（令和8年分）	0
+docs/inferences/20261109_R4-modeling_scenarios.md	222	3	前提	0
+docs/inferences/20261109_R4-modeling_scenarios.md	227	3	入力と推測	1
+docs/inferences/20261109_R4-modeling_scenarios.md	234	3	検証方法	0
+docs/inferences/20261109_R4-modeling_scenarios.md	242	2	S6 妻が夫と自分の父の両方の申告書に記載された場合（令和8年分、所令218）	0
+docs/inferences/20261109_R4-modeling_scenarios.md	244	3	前提	0
+docs/inferences/20261109_R4-modeling_scenarios.md	248	3	入力	1
+docs/inferences/20261109_R4-modeling_scenarios.md	259	3	推測（期待値）	0
+docs/inferences/20261109_R4-modeling_scenarios.md	269	3	検証方法	0
+docs/inferences/20261109_R4-modeling_scenarios.md	276	2	S7 グループに書き忘れた人（T04 の影響）	0
+docs/inferences/20261109_R4-modeling_scenarios.md	278	3	前提	0
+docs/inferences/20261109_R4-modeling_scenarios.md	282	3	推測	0
+docs/inferences/20261109_R4-modeling_scenarios.md	288	3	検証方法	0
+docs/inferences/20261109_R4-modeling_scenarios.md	295	2	S8 健保の判定日によって収入基準が変わる（判定日 2025-09-30 と 2025-10-01）	0
+docs/inferences/20261109_R4-modeling_scenarios.md	297	3	前提	0
+docs/inferences/20261109_R4-modeling_scenarios.md	302	3	入力	1
+docs/inferences/20261109_R4-modeling_scenarios.md	306	3	推測（期待値）	0
+docs/inferences/20261109_R4-modeling_scenarios.md	313	3	検証方法	0
+docs/inferences/20261109_R4-modeling_scenarios.md	321	2	検証のあとに決めること	0
+docs/inferences/20261109_round2_aoiro-cases.md	1	1	推測：青色申告の規則の期待値と検証方法（round2 aoiro）	0
+docs/inferences/20261109_round2_aoiro-cases.md	11	2	I1 青色申告特別控除（令和7年分・令和8年分）：申告の方法・時期・帳簿で額が変わる	0
+docs/inferences/20261109_round2_aoiro-cases.md	37	2	I2 令和9年分以後：65万円は e-Tax だけ、75万円、前々年1,000万円超の10万円の除外	0
+docs/inferences/20261109_round2_aoiro-cases.md	53	2	I3 申告の計画に依存する結果の印	0
+docs/inferences/20261109_round2_aoiro-cases.md	59	2	I4 青色事業専従者と扶養：学生の子・働いている子	0
+docs/inferences/20261109_round2_aoiro-cases.md	69	2	I5 専従の期間（6月超・2分の1）	0
+docs/inferences/20261109_round2_aoiro-cases.md	78	2	I6 承認の時期と期限	0
+docs/inferences/20261109_round2_aoiro-cases.md	89	2	I7 純損失の繰越控除	0
+docs/inferences/20261109_round2_aoiro-cases.md	100	2	I8 純損失の繰戻し還付	0
+docs/inferences/20261109_round2_aoiro-cases.md	111	2	I9 青色申告決算書の欄への対応（出力）	0
+docs/inferences/20261109_round2_aoiro-cases.md	117	2	I10 記録層の事実の検査	1
+docs/inferences/20261109_round2_aoiro-cases.md	125	2	訂正の記録	0
+docs/inferences/20261109_round2_elderly-abroad-cases.md	1	1	第2ラウンド（elderly-abroad）推測：仮説から導いた期待値（境目と場面のテスト案）と検証方法	1
+docs/inferences/20261109_round2_elderly-abroad-cases.md	10	2	推測の一覧	0
+docs/inferences/20261109_round2_elderly-abroad-cases.md	33	2	IE1 老人扶養親族の年齢の境目（HE1）	1
+docs/inferences/20261109_round2_elderly-abroad-cases.md	45	2	IE2 同居老親等と住民税の額（HE1・HE2.3）	0
+docs/inferences/20261109_round2_elderly-abroad-cases.md	58	2	IE3 入院・老人ホーム（HE2.2・U1）	0
+docs/inferences/20261109_round2_elderly-abroad-cases.md	72	2	IE4 単身赴任と同居老親等（HE2.2・U2）	0
+docs/inferences/20261109_round2_elderly-abroad-cases.md	79	2	IE5 配偶者の父：所得税と健保の違い（HE2.1・HE5.2）	0
+docs/inferences/20261109_round2_elderly-abroad-cases.md	86	2	IE6 祖父母と後期高齢者・60歳以上（HE5.1・HE5.2）	0
+docs/inferences/20261109_round2_elderly-abroad-cases.md	98	2	IE7 国外に住む72歳の親（HE3.1・HE3.3）	0
+docs/inferences/20261109_round2_elderly-abroad-cases.md	106	2	IE8 30〜69歳の国外の親：38万円の境目（HE3.2・U4）	1
+docs/inferences/20261109_round2_elderly-abroad-cases.md	122	2	IE9 1年以上留学する31歳の子（HE3.1・HE4）	0
+docs/inferences/20261109_round2_elderly-abroad-cases.md	130	2	IE10 短期の留学と、年の途中の移住（HE4・U7）	0
+docs/inferences/20261109_round2_elderly-abroad-cases.md	136	2	IE11 1年以上留学する20歳の子：所得税と健保で違う（HE4・HE5.3）	0
+docs/inferences/20261109_round2_elderly-abroad-cases.md	144	2	IE12 健保の60歳の判定時点（HE5.1・U5）	0
+docs/inferences/20261109_round2_elderly-abroad-cases.md	156	2	IE13 住民税の非課税限度額と国外の16歳未満の扶養親族（HE3.3）	0
+docs/inferences/20261109_round2_elderly-abroad-cases.md	163	2	IE14 公務員である家族（HE4）	0
+docs/inferences/20261109_round2_elderly-abroad-cases.md	169	2	IE15 国外で配偶者と同居する配偶者の親（HE2.1）	0
+docs/inferences/20261109_round2_elderly-abroad-cases.md	175	2	IE16 性質のテスト（HE2.3・HE3.1）	0
+docs/inferences/20261109_round2_elderly-abroad-cases.md	183	2	訂正の記録	0
+docs/inferences/20261109_round2_gaps-inferences.md	1	1	第2ラウンド（gaps）推測：残っていた個別の未解決6項目の仮説から導いた場面と検証方法	0
+docs/inferences/20261109_round2_gaps-inferences.md	19	2	IG1 アフィリエイトの所得がある大学生：勤労学生の判定は判断（D4）で分かれ、所得税額は同じ（前提：HG1）	1
+docs/inferences/20261109_round2_gaps-inferences.md	35	2	IG2 TA No.1810 の令和7年分の（注）に従うと、扶養の判定を誤る場面（前提：HG2）	0
+docs/inferences/20261109_round2_gaps-inferences.md	50	2	IG3 所得金額調整控除の崖：子の合計所得金額が要件を1円超えると、親の控除が消える（前提：HG3）	0
+docs/inferences/20261109_round2_gaps-inferences.md	66	2	IG4 基礎控除の高い所得の境目（前提：HG4）	1
+docs/inferences/20261109_round2_gaps-inferences.md	73	2	IG5 令和8年分の出力の根拠条文（前提：HG5）	0
+docs/inferences/20261109_round2_gaps-inferences.md	82	2	IG6 季節で波がある事業収入の子：見込みの作り方で健保の結論が逆になる（前提：HG6）	0
+docs/inferences/20261109_round2_gaps-inferences.md	99	2	訂正の記録	0
+docs/inferences/20261109_round2_genka-examples.md	1	1	推測：減価償却と損益通算の期待値と検証方法（第2ラウンド genka）	0
+docs/inferences/20261109_round2_genka-examples.md	14	2	I1 資産ごとの扱いの境目（令和7年分・令和8年分）	1
+docs/inferences/20261109_round2_genka-examples.md	37	2	I2 償却費の1円未満の端数	0
+docs/inferences/20261109_round2_genka-examples.md	55	2	I3 一括償却資産の1/3の端数	0
+docs/inferences/20261109_round2_genka-examples.md	63	2	I4 家事兼用の資産（未償却残高と少額の判定）	0
+docs/inferences/20261109_round2_genka-examples.md	84	2	I5 私用で持っていた資産を業務に使い始めた場合	0
+docs/inferences/20261109_round2_genka-examples.md	94	2	I6 除却したときの所得区分ごとの違い	0
+docs/inferences/20261109_round2_genka-examples.md	103	2	I7 損益通算と扶養の境目	1
+docs/inferences/20261109_round2_genka-examples.md	121	2	I8 純損失の繰越控除（白色の変動所得）と住民税	0
+docs/inferences/20261109_round2_genka-examples.md	131	2	I9 健保の被扶養者の収入と減価償却費（注入するデータの有無）	1
+docs/inferences/20261109_round2_genka-examples.md	141	2	I10 所令198 の文言の変更（令和8年分）	0
+docs/inferences/20261109_round2_genka-examples.md	148	2	訂正の記録	0
+docs/inferences/20261109_round2_hoken-kifu-cases.md	1	1	第2ラウンド（hoken-kifu）推測：仮説から導いた具体的な場面と、テストにする値・検証の方法	0
+docs/inferences/20261109_round2_hoken-kifu-cases.md	8	2	C1 令和8年分、夫婦の両方が 23歳未満の扶養親族の特例を受け、一般の生命保険料控除が増える	0
+docs/inferences/20261109_round2_hoken-kifu-cases.md	18	2	C2 子が令和9年中に23歳になると、令和9年分は特例が付かない（ほかに23歳未満の扶養親族がいなければ）	0
+docs/inferences/20261109_round2_hoken-kifu-cases.md	25	2	C3 特定親族の子だけでは特例が付かない	0
+docs/inferences/20261109_round2_hoken-kifu-cases.md	32	2	C4 ワンストップ特例を申請した人が医療費控除のために確定申告をすると、申請は全部なかったものとみなされ、寄附を全部所得税の寄附金控除に入れる必要がある。家族の別の人の申告は影響しない	0
+docs/inferences/20261109_round2_hoken-kifu-cases.md	41	2	C5 ワンストップ申請の後に年内に転居して変更の届出をしないと、申請はなかったものとみなされる	0
+docs/inferences/20261109_round2_hoken-kifu-cases.md	48	2	C6 令和8年度分から、ふるさと納税の特例分の割合の区分が下がる人がいる（人的控除差調整額に所得税の基礎控除の増加分が加わるため）	0
+docs/inferences/20261109_round2_hoken-kifu-cases.md	58	2	C7 課税総所得金額から人的控除差調整額を引いた額が 1,800万円を超える人は、ワンストップ特例だと（寄附−2千円）の全額が控除されない	0
+docs/inferences/20261109_round2_hoken-kifu-cases.md	66	2	C8 雑損控除で、子の自転車が盗まれても、多くの場合は足切りで控除額が0になる。親族の所属は扶養に入れている親	0
+docs/inferences/20261109_round2_hoken-kifu-cases.md	73	2	C9 一人暮らしの子の家財の地震保険料を親が払えば、親の地震保険料控除の対象になる（生計を一にし、子が家財を所有している場合）	0
+docs/inferences/20261109_round2_hoken-kifu-cases.md	80	2	C10 子が契約者の生命保険でも、親が保険料を払い受取人が親族なら、親の控除になる。子の口座から払えば子の控除	0
+docs/inferences/20261109_round2_hoken-kifu-cases.md	86	2	C11 1円未満の端数の扱いで控除額が1円違い、課税所得の千円未満切捨てをまたぐと税額が変わることがある	0
+docs/inferences/20261109_round2_hoken-kifu-cases.md	93	2	C12 令和8年中の生命保険料の支払で、所得税（令和8年分）には特例が付くが、住民税（令和9年度分）には付かない	0
+docs/inferences/20261109_round2_jinteki-cases.md	1	1	第2ラウンド（jinteki）推測：障害者・寡婦・ひとり親の場面と境目、検証の方法	1
+docs/inferences/20261109_round2_jinteki-cases.md	11	2	I1 令和7年分と令和8年分で結論が変わる：ひとり親の子の所得	0
+docs/inferences/20261109_round2_jinteki-cases.md	21	2	I2 障害者控除は扶養の所属についていく（分けられない）	0
+docs/inferences/20261109_round2_jinteki-cases.md	28	2	I3 同居特別障害者：入院中と施設入所で額が変わる	0
+docs/inferences/20261109_round2_jinteki-cases.md	37	2	I4 要介護認定だけでは障害者にならない。65歳以上の認定書があれば当たる	0
+docs/inferences/20261109_round2_jinteki-cases.md	44	2	I5 手帳の交付が年をまたいだ場合	0
+docs/inferences/20261109_round2_jinteki-cases.md	55	2	I6 住民税の非課税の判定時点で結論が分かれる場面	0
+docs/inferences/20261109_round2_jinteki-cases.md	62	2	I7 障害年金が大きくても住民税は非課税になりうる。健保ではそうならない	0
+docs/inferences/20261109_round2_jinteki-cases.md	73	2	I8 健保：手帳はあるが障害年金がない人	0
+docs/inferences/20261109_round2_jinteki-cases.md	80	2	I9 所得税の寡婦と住民税の非課税の寡婦で結論が分かれる	0
+docs/inferences/20261109_round2_jinteki-cases.md	90	2	I10 男性・未婚・事実婚の扱い	1
+docs/inferences/20261109_round2_jinteki-cases.md	99	2	I11 寡婦・ひとり親の 500万円の境目（給与だけの人）	1
+docs/inferences/20261109_round2_jinteki-cases.md	105	2	I12 年分・年度で変わる額の組み合わせ（テストの表）	0
+docs/inferences/20261109_round2_jinteki-cases.md	118	2	訂正の記録	0
+docs/inferences/20261109_round2_juminzei-tax-implications.md	1	1	推測：住民税の税額の計算の仮説から導く、実装・テスト・データ注入への帰結と検証の方法	1
+docs/inferences/20261109_round2_juminzei-tax-implications.md	9	2	I1 判定コアの住民税の変数は、所得税の変数と「事実」と「前年分の所得税の結果」だけを共有し、税額の層は別系統にできる（H1・H3・H4 から）	1
+docs/inferences/20261109_round2_juminzei-tax-implications.md	16	2	I2 自治体の計算例は「注入値つきの回帰テスト」としてそのまま使える（H1・H2・H5 から）	1
+docs/inferences/20261109_round2_juminzei-tax-implications.md	23	2	I3 端数③（途中の 1円未満）は、団体の慣行を注入できるようにしても、正しい値は申告者の側からは確定できない（H5 から）	1
+docs/inferences/20261109_round2_juminzei-tax-implications.md	30	2	I4 注入がない団体について返せるのは「判定」と「税額の式」まで（H6 から）	1
+docs/inferences/20261109_round2_juminzei-tax-implications.md	37	2	I5 ふるさと納税・住宅借入金等の計算では、所得税の基礎控除の段階の境目が住民税の境目になる（H3・H4・H7 から）	1
+docs/inferences/20261109_round2_juminzei-tax-implications.md	45	2	I6 住宅借入金等特別税額控除は、令和9年度分では「居住年」だけで条文の版を選べる（H4 から）	0
+docs/inferences/20261109_round2_juminzei-tax-implications.md	53	2	I7 森林環境税の非課税は、均等割の非課税とずれる場合がある（H9 から）	0
+docs/inferences/20261109_round2_juminzei-tax-implications.md	60	2	I8 法令の変更の監視（D9）は、HTTP 200 だけでなく本文の検査で取得の成否を判定する必要がある（［実測］§2.2 と、H4 の「規定ごとに改正附則で版を選ぶ」から）	0
+docs/inferences/20261109_round2_juminzei-tax-implications.md	67	2	I9 SCOPE の「住宅借入金等特別控除は外部で計算した額を受け取る」は、住民税の側では「所得税の側の値を受け取り、住民税の控除額はコアで計算する」と読むのがよい（H3 から）	0
+docs/inferences/20261109_round2_kokuho-examples.md	1	1	第2ラウンド（kokuho）推測：家族の場面での国保料（税）・国民年金保険料の帰結と、その検証方法	0
+docs/inferences/20261109_round2_kokuho-examples.md	11	2	KI1 給与収入が55万円を少し超える子は、給与所得が0円でも「給与所得者等」に数えられ、世帯の7割軽減の基準額を10万円上げる（令和8年度）	0
+docs/inferences/20261109_round2_kokuho-examples.md	24	2	KI2 世帯主が共済組合などの被用者保険に加入し、子だけが国保の被保険者の場合、世帯主（被保険者でない）に保険料（税）が課され、世帯主の所得は軽減の判定に入るが所得割には入らない	0
+docs/inferences/20261109_round2_kokuho-examples.md	37	2	KI3 修学のために別の市町村に住む学生の子は、国保では親の世帯に属するものとみなされ、親の市町村の保険料（税）の世帯に入る	0
+docs/inferences/20261109_round2_kokuho-examples.md	47	2	KI4 年齢による区分は「達する日以後の最初の3月31日」で年度の区切りに合わせて切り替わる	0
+docs/inferences/20261109_round2_kokuho-examples.md	59	2	KI5 国民年金の一部免除の納付額は、令和7年度と令和9年度では端数処理が効く（令和8年度は割り切れる）	0
+docs/inferences/20261109_round2_kokuho-examples.md	68	2	KI6 学生の子は国民年金の全額免除・一部免除・納付猶予の対象にならず、学生納付特例だけが使える。学生でない20代の子は、納付猶予なら親（世帯主）の所得を問われない	0
+docs/inferences/20261109_round2_kokuho-examples.md	79	2	KI7 注入データがない市町村では、国保料（税）は「未確定」になるが、軽減の区分と各区分の上限は返せる	1
+docs/inferences/20261109_round2_kokuho-examples.md	86	2	KI8 令和8年度から、子のいない世帯でも国保料（税）は「子ども・子育て支援納付金」の分だけ上がりうる。上限は1世帯3万円	0
+docs/inferences/20261109_round2_kokuho-examples.md	92	2	KI9 国保の所得割の基礎（令和9年度分）は、令和8年分の住民税の給与所得の計算（74万円の特例が住民税に及ぶか）が決まるまで、給与所得のある人について確定しない	0
+docs/inferences/20261109_round2_kokuho-examples.md	98	2	KI10 事業の純損失を繰り越している年は、国保の所得割と国民年金の全額免除・納付猶予とで「所得」が違い、免除の方が不利になりうる	0
+docs/inferences/20261109_round2_kyosai-cases.md	1	1	推測：共済の被扶養者と住所が別の家族の場面で、判定コアが返すべき結果（第2ラウンド）	0
+docs/inferences/20261109_round2_kyosai-cases.md	11	2	IKY1 別居の曾祖父母は、健保では範囲内、共済では範囲外	0
+docs/inferences/20261109_round2_kyosai-cases.md	21	2	IKY2 単身赴任：同じ家族でも、国家公務員共済と協会けんぽで「必要な入力」が変わる	1
+docs/inferences/20261109_round2_kyosai-cases.md	30	2	IKY3 収入に波があるパート：窓の規則で取消の候補日が変わる	0
+docs/inferences/20261109_round2_kyosai-cases.md	47	2	IKY4 事業収入のある子：所得税の事業所得と、被扶養者の事業収入は大きく違い、費目1つで結論が変わる	0
+docs/inferences/20261109_round2_kyosai-cases.md	63	2	IKY5 別居の親への仕送り：規則の型で結論が逆になる	0
+docs/inferences/20261109_round2_kyosai-cases.md	80	2	IKY6 別居の学生の子：書類の省略と、比較の要否が別の問題として残る	0
+docs/inferences/20261109_round2_kyosai-cases.md	91	2	IKY7 共済の「30日以内」：届出がちょうど30日目・31日目のとき	0
+docs/inferences/20261109_round2_kyosai-cases.md	104	2	IKY8 19歳以上23歳未満の150万円：生年月日と適用開始日の境目	1
+docs/inferences/20261109_round2_kyosai-cases.md	113	2	IKY9 住民税：単身赴任の納税義務者と、配偶者と同居する老親	0
+docs/inferences/20261109_round2_kyosai-cases.md	123	2	IKY10 国家公務員の海外赴任と家族の同行：所得税・住民税・被扶養者で「住所」の扱いが3通り	0
+docs/inferences/20261109_round2_kyosai-cases.md	135	2	推測を検証するための作業の一覧（実測として後で行うもの）	0
+docs/inferences/20261109_round2_kyosai-cases.md	146	2	訂正の記録	0
+docs/inferences/20261109_round2_spouse-implications.md	1	1	第2ラウンド（spouse）：仮説から導いた推測（テストの境目、制度間の食い違い、未確定点の確かめ方）	1
+docs/inferences/20261109_round2_spouse-implications.md	10	2	IS1 年分ごとの境目のテスト（D15②）は、次の値で組める	1
+docs/inferences/20261109_round2_spouse-implications.md	32	2	IS2 配偶者の給与収入が 130万円ちょうどだと、税の控除は満額だが、健保の被扶養者・第3号には当たらない	0
+docs/inferences/20261109_round2_spouse-implications.md	47	2	IS3 年の途中で結婚した年は、所得税と健保・第3号で結論が逆になりうる	0
+docs/inferences/20261109_round2_spouse-implications.md	59	2	IS4 住民税では、配偶者控除を受けている側の配偶者が、相手について配偶者特別控除を受けられない（令和8年度分から）。所得税では条文上の除外がない	0
+docs/inferences/20261109_round2_spouse-implications.md	70	2	IS5 住民税の調整控除の表（７）（55万円未満の配偶者特別控除の配偶者）は、令和8年度分から当たる人がいない	0
+docs/inferences/20261109_round2_spouse-implications.md	78	2	IS6 年の途中の死亡・再婚、離婚、本人の死亡は、所得税と健保・第3号で別の時点の規則になる	0
+docs/inferences/20261109_round2_spouse-implications.md	89	2	IS7 第3号と健保の被扶養者は、保険者の運用が違うと結果が食い違いうる	0
+docs/inferences/20261109_round2_spouse-implications.md	95	2	IS8 法令が「見積り」を求める判定（本人の年の中途の死亡、年末調整）は、D19 の「見込み」と区別して持つ必要がありそうだ（ユーザーへの確認事項）	0
+docs/inferences/20261109_round2_spouse-implications.md	101	2	IS9 第3号の年齢と第2号の65歳は「誕生日の前日」で切り替わる。税の「12月31日」とは別の日付関数が要る	0
+docs/inferences/20261109_round2_spouse-implications.md	109	2	訂正の記録	0
+docs/inferences/20261109_round2_yoshiki-checks.md	1	1	様式の欄の対応表の仮説から導いた推測と、その確かめ方	0
+docs/inferences/20261109_round2_yoshiki-checks.md	11	2	I1：e-Tax の「帳票レイアウト設計書」には、欄コードと項目名の対応が帳票のページごとに載っていて、目視で転記した第三表・第四表（二）の欄コードと一致する。第四表（一）の欄にも何らかの識別子がある（H1・H9）	0
+docs/inferences/20261109_round2_yoshiki-checks.md	21	2	I2：令和7年分の対応表のデータを作ると、(帳票, 位置名) は一意で、テキスト層から取り出した欄コードの集合とちょうど一致する（H1）	0
+docs/inferences/20261109_round2_yoshiki-checks.md	26	2	I3：作成コーナーは、第二表の親族欄（1＋4行）・所得の内訳（4行）を超えると、別の用紙（続紙）を作る。決算書の売上先の明細は、5件目以降を「上記以外の売上先の計」にまとめる（H2）	0
+docs/inferences/20261109_round2_yoshiki-checks.md	31	2	I4：作成コーナーで作った第一表・決算書の値は、様式に印字された式（H3 の検査）をすべて満たす。満たさない欄があれば、それは手引きに書かれていない例外である（H3）	0
+docs/inferences/20261109_round2_yoshiki-checks.md	36	2	I5：架空の損失申告（青色、事業所得が赤字、医療費控除あり）を作成コーナーで作ると、第一表の ⑪・⑫・㉛・62 は空欄、㉜ は「0」、医療費控除の明細書の D は第四表の 93 と同じ値になる（H4）	0
+docs/inferences/20261109_round2_yoshiki-checks.md	41	2	I6：第一表の ㋐ は青色申告決算書の 1（売上（収入）金額（雑収入を含む））か収支内訳書の ④（計）、① は決算書の 45 か内訳書の ㉑、59 は事業所得と不動産所得の決算書の青色申告特別控除額の合計になる（H5.1・H5.5）	0
+docs/inferences/20261109_round2_yoshiki-checks.md	46	2	I7：医療費控除の明細書の D の注記の「（丸数字）」は第四表（二）の 93 である（H5.4・H5.6）	0
+docs/inferences/20261109_round2_yoshiki-checks.md	51	2	I8：令和8年分の申告書の様式は、令和8年12月ごろの「個人課税事務提要（様式編Ⅰ）」の一部改正（令和7年12月22日の改正と同じ時期）で公表され、そのとき社会保険料控除等の明細書の紙の様式も別冊に加わる（H8）	0
+docs/inferences/20261109_round2_yoshiki-checks.md	57	2	I9：社会保険料控除等の明細書の欄は、規則47の2⑭ の記載事項に沿って「控除の種類・保険料等の種類（区分）・支払先・支払金額（うち年末調整等以外）」の行の形になり、第二表の「保険料等の種類」の欄と同じ値を写せる（H8）	0
+docs/inferences/20261109_round2b_fudosan-inferences.md	1	1	推測：不動産所得の仮説から導いた期待値と、その検証方法（第2ラウンド追加分 fudosan）	0
+docs/inferences/20261109_round2b_fudosan-inferences.md	12	2	I1 土地の借入利子がある不動産所得の赤字は、利子の分だけ通算が減る（H5・H7）	0
+docs/inferences/20261109_round2b_fudosan-inferences.md	23	2	I2 生計を一にする親から部屋を借りて事業をする子は、家賃を経費にできない代わりに親の固定資産税などを経費にし、扶養の判定が変わりうる（H6・H7）	0
+docs/inferences/20261109_round2b_fudosan-inferences.md	34	2	I3 学生の子に小さな不動産所得（駐車場の貸付けなど）があると、合計所得金額が低くても勤労学生控除を受けられないことがある（H7）	0
+docs/inferences/20261109_round2b_fudosan-inferences.md	41	2	I4 青色の不動産所得では、事業的規模の判断が合計所得金額を最大55万円動かし、扶養の判定を変えうる（H4・H7）	1
+docs/inferences/20261109_round2b_fudosan-inferences.md	52	2	I5 同じ不動産収入でも、税の扶養には入れて健保の被扶養者には入れないことがある（H7）	0
+docs/inferences/20261109_round2b_fudosan-inferences.md	64	2	I6 別荘の貸付けの赤字は、他の物件の黒字と相殺した残りが通算されない（H5）	0
+docs/inferences/20261109_round2b_fudosan-inferences.md	71	2	I7 前月末払いの家賃は、支払日基準と期間対応で年分の収入が1か月分ずれる（H2）	0
+docs/inferences/20261109_round2b_fudosan-inferences.md	78	2	I8 不動産所得の大きな赤字は、給与・一時所得から順に引かれ、残りは青色なら繰り越せる（H5・H7）	0
+docs/inferences/20261109_round2b_fudosan-inferences.md	85	2	I9 所法56 の「事業／業務」を既定で「事業に限る」にすると、業務に係る雑所得の子が親に払う家賃は経費になり、親の不動産所得になる（H6・H9）	0
+docs/inferences/20261109_round2b_fudosan-inferences.md	92	2	訂正の記録	0
+docs/inferences/20261109_round2b_invoice-cases.md	1	1	推測：消費税の課税事業者・経理方式が、家族の判定に与える影響の場面と期待値（第2ラウンド追加分 invoice）	0
+docs/inferences/20261109_round2b_invoice-cases.md	9	2	I1 登録した最初の年は、税込経理の原則だと消費税等の分だけ所得が大きく出て、扶養の要件の境目をまたぎうる（H3・H5）	1
+docs/inferences/20261109_round2b_invoice-cases.md	30	2	I2 税抜経理を選んでも、資産の無い家族の事業なら、所得は「税込・未払金計上」と同じで、経理方式の違いは計上の年だけに出る（H4）	0
+docs/inferences/20261109_round2b_invoice-cases.md	39	2	I3 税抜経理では、10万円前後の資産の「少額の減価償却資産」の判定が、相手方の登録の有無と取引の日（2026-10-01 の 80％→70％）で変わる（H4・H6）	0
+docs/inferences/20261109_round2b_invoice-cases.md	61	2	I4 健保の被扶養者の判定は、事業収入に消費税等を含めるかで結論が変わりうるので、保険者のデータが無ければ「未確定」になる（H5 の 2）	0
+docs/inferences/20261109_round2b_invoice-cases.md	67	2	I5 消費税等の予納・中間納付は、税込経理では「申告書の提出（みなし提出）の年」に必要経費になり、払った日の年ではない（H3 の 3）	0
+docs/inferences/20261109_round2b_invoice-cases.md	73	2	I6 年の途中で登録した年に税抜経理を選んだ人は、当面「未対応」になる（H2 の 3・H8 の 1）	0
+docs/inferences/20261109_round2b_invoice-cases.md	79	2	I7 経理通達が R8改正（3割特例・7・5・3割控除）に追いついていないので、令和9年分以後の税抜経理には監視が要る（H6）	0
+docs/inferences/20261109_round2b_invoice-cases.md	84	2	I8 消費税の課税事業者になった家族がいると、所得税・住民税・国保は同じ事業所得等の値で連動して動くが、健保だけは別の値で動く（H5）	0
+docs/inferences/20261109_round2b_invoice-cases.md	89	2	訂正の記録	0
+docs/inferences/20261109_round2b_kabu-scenarios.md	1	1	株式等の配当・譲渡の申告の選択が家族の判定に与える影響（推測）と、その検証方法	1
+docs/inferences/20261109_round2b_kabu-scenarios.md	11	2	I1. 学生の子の配当を「申告する」と、扶養親族から特定親族に移り、勤労学生から外れる	0
+docs/inferences/20261109_round2b_kabu-scenarios.md	25	2	I2. 源泉徴収口座の小さな譲渡益は、申告しても判定が変わらないことが多い	0
+docs/inferences/20261109_round2b_kabu-scenarios.md	32	2	I3. 譲渡損失と配当を通算するには、配当を申告分離にする必要がある	0
+docs/inferences/20261109_round2b_kabu-scenarios.md	41	2	I4. 繰越控除は合計所得金額を下げないが、医療費控除の足切りの基礎は下げる	0
+docs/inferences/20261109_round2b_kabu-scenarios.md	51	2	I5. 住民税で別の課税方式を選ぶ設計は要らない（令和6年度分以後）	0
+docs/inferences/20261109_round2b_kabu-scenarios.md	58	2	I6. 国保の保険料と軽減は、申告した株式等の所得で上がりうる	0
+docs/inferences/20261109_round2b_kabu-scenarios.md	64	2	I7. 健保の被扶養者の年間収入は、税の申告の選択から作ってはいけない	1
+docs/inferences/20261109_round2b_kabu-scenarios.md	72	2	I8. 判定の境目の説明に「どの株式等の所得が効いたか」を出す	1
+docs/inferences/20261109_round2b_kabu-scenarios.md	78	2	I9. 確かめていない計算の順序は、作成コーナーとの照合で決める	0
+docs/inferences/20261109_round2b_nenkin-cases.md	1	1	公的年金等の雑所得：仮説から導いた場面ごとの推測と検証方法	0
+docs/inferences/20261109_round2b_nenkin-cases.md	11	2	I1 65歳以上の親：税の扶養の境目は年金 172万円、健保は 180万円。この間の人は「税は扶養外、健保は被扶養者」	1
+docs/inferences/20261109_round2b_nenkin-cases.md	22	2	I2 遺族年金＋老齢基礎年金：税では所得 0、健保では 180万円ちょうどで外れる	0
+docs/inferences/20261109_round2b_nenkin-cases.md	33	2	I3 所得税は申告不要でも、住民税の申告は要る	0
+docs/inferences/20261109_round2b_nenkin-cases.md	43	2	I4 給与（年末調整あり）と年金の両方がある人は、121① と 121③ のどちらにも当たらないことが多い	0
+docs/inferences/20261109_round2b_nenkin-cases.md	53	2	I5 外国の年金があると 121③ は使えない	0
+docs/inferences/20261109_round2b_nenkin-cases.md	63	2	I6 端数処理で住民税の非課税（135万円）が変わる収入がある	0
+docs/inferences/20261109_round2b_nenkin-cases.md	73	2	I7 1月1日生まれの境目	1
+docs/inferences/20261109_round2b_nenkin-cases.md	80	2	I8 さかのぼって払われた年金が、過去の年分の扶養を変える	0
+docs/inferences/20261109_round2b_nenkin-cases.md	90	2	I9 未支給年金は受け取った遺族の一時所得	0
+docs/inferences/20261109_round2b_nenkin-cases.md	97	2	訂正の記録	0
+docs/inferences/20261109_round2b_taishoku-inferences.md	1	1	退職所得：仮説から導く推測と、その検証方法（第2ラウンド追加分）	0
+docs/inferences/20261109_round2b_taishoku-inferences.md	10	2	I1 退職所得の計算のテストは、令和7年分と令和8年分で同じ期待値を共有できる（前提：H1・H3）	0
+docs/inferences/20261109_round2b_taishoku-inferences.md	15	2	I2 所令70①二の改正が計算結果を変える最初の年は令和13年分（前提：H3）	0
+docs/inferences/20261109_round2b_taishoku-inferences.md	21	2	I3 退職した年の配偶者・親族は、所得税と住民税で扶養の結果が分かれうる（前提：H5）	0
+docs/inferences/20261109_round2b_taishoku-inferences.md	30	2	I4 本人に大きな退職所得がある年は、本人の基礎控除・配偶者控除などの「本人の合計所得金額の要件」も変わる（前提：H5・H6）	0
+docs/inferences/20261109_round2b_taishoku-inferences.md	36	2	I5 年の途中で退職した人は、所得控除の残りが課税退職所得金額から引かれて還付になることがある（前提：H6）	0
+docs/inferences/20261109_round2b_taishoku-inferences.md	42	2	I6 確定申告で控除する源泉徴収税額は「されるべき」額で、申告書の記載漏れによる不足は確定申告では埋まらない（前提：H6）	0
+docs/inferences/20261109_round2b_taishoku-inferences.md	48	2	I7 退職所得の金額の 0.5円は、合計所得金額の境目の判定にだけ影響し、作成コーナーは1,000円未満を切り捨てている可能性がある（前提：H9）	1
+docs/inferences/20261109_round2b_taishoku-inferences.md	54	2	I8 所法199 の源泉徴収の対象にならない退職手当等は、住民税では翌年度の総合の所得（地法313 の退職所得金額）になり、住民税の扶養の判定にも入る（前提：H5）	0
+docs/inferences/20261109_round2b_taishoku-inferences.md	60	2	I9 健康保険の被扶養者で、退職一時金は年間収入に入れない保険者が多いと見られるが、一次情報がないので注入がなければ「未確定」になりうる（前提：H5・H8）	1
+docs/inferences/20261109_round2b_taishoku-inferences.md	66	2	I10 国保の所得割の算定の基礎に、分離課税の退職所得は入らないと見られるが、条文だけでは決まらない（前提：H5）	0
+docs/inferences/20261109_round2b_taishoku-inferences.md	72	2	I11 住民税の分離課税の税率は市町村が変えられない（超過課税がない）ので、注入するデータは要らない（前提：H7）	1
+docs/inferences/20261109_round2b_taishoku-inferences.md	77	2	I12 非居住者の期間を含む退職手当等と、死亡退職金は、入力の段階で「対象外」または「所得税の対象外」に振り分けられる（前提：H10）	1
+docs/inferences/20261109_round2b_taishoku-inferences.md	82	2	訂正の記録	0

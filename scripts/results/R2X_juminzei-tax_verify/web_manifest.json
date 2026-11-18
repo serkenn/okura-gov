@@ -1,0 +1,163 @@
+{
+ "run_at": "20261109-184602",
+ "download_dir": ".work/downloads/20261109-184602_R2X_juminzei-tax_verify_web",
+ "text_dir": ".work/text/20261109-184602_R2X_juminzei-tax_verify_web",
+ "robots": {
+  "www.soumu.go.jp": {
+   "url": "https://www.soumu.go.jp/robots.txt",
+   "status": 200,
+   "bytes": 35,
+   "sha256": "e0cc280a3ed01a4ee4785320fdacf31ef4724eddf0a46eb860df651eaede55e4"
+  },
+  "www.city.nagoya.jp": {
+   "url": "https://www.city.nagoya.jp/robots.txt",
+   "status": 200,
+   "bytes": 55,
+   "sha256": "6a015172f794d49b3cce9d3fdc789dc0ac97784aaab0f003f8abf4ca317b3f79"
+  },
+  "www.city.yokohama.lg.jp": {
+   "url": "https://www.city.yokohama.lg.jp/robots.txt",
+   "status": 404,
+   "bytes": 29856,
+   "sha256": "f451efcfeb597506b09cfc5b7dcf7062101295503742207447a9345fd7e11419"
+  },
+  "www.city.chuo.lg.jp": {
+   "url": "https://www.city.chuo.lg.jp/robots.txt",
+   "status": 404,
+   "bytes": 10441,
+   "sha256": "30e0b23ae2b72a471de27341abdb63203e7abb9b2f683346de0b39977eff85ad"
+  },
+  "www.pref.wakayama.lg.jp": {
+   "url": "https://www.pref.wakayama.lg.jp/robots.txt",
+   "status": 404,
+   "bytes": 8634,
+   "sha256": "542698c0c7e073322c11e718c124e737c4df1a52cf40f70e26ce1321d5af9870"
+  }
+ },
+ "results": [
+  {
+   "id": "soumu_choka",
+   "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/149767_25.html",
+   "robots_allowed": true,
+   "status": 200,
+   "final_url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/149767_25.html",
+   "content_type": "text/html",
+   "bytes": 40598,
+   "sha256": "1198f4c64e18700b71309478ba08522c5809f5f0ee02f8f9b26bc0c595ee7bd7",
+   "last_modified": "Wed, 20 May 2026 10:17:57 GMT",
+   "saved": "soumu_choka.html",
+   "title": "総務省｜地方税制度｜超過課税の状況",
+   "text": "soumu_choka.txt",
+   "img_alts": 18,
+   "pdf_links": [
+    "/main_content/001073098.pdf"
+   ]
+  },
+  {
+   "id": "soumu_choka_pdf",
+   "url": "https://www.soumu.go.jp/main_content/001073098.pdf",
+   "robots_allowed": true,
+   "status": 200,
+   "final_url": "https://www.soumu.go.jp/main_content/001073098.pdf",
+   "content_type": "application/pdf",
+   "bytes": 196135,
+   "sha256": "8b614717ad5a977956099c6cf20e8b44058b1713f467079460639ac0d1b2c85a",
+   "last_modified": "Wed, 20 May 2026 10:17:56 GMT",
+   "saved": "soumu_choka_pdf.pdf"
+  },
+  {
+   "id": "soumu_tsuchi_pdf",
+   "url": "https://www.soumu.go.jp/main_content/001071661.pdf",
+   "robots_allowed": true,
+   "status": 200,
+   "final_url": "https://www.soumu.go.jp/main_content/001071661.pdf",
+   "content_type": "application/pdf",
+   "bytes": 792394,
+   "sha256": "107ba94cd6bd4b5e8db4ce3ce6e6e5e475fea94523d52f565daf396011746a02",
+   "last_modified": "Thu, 07 May 2026 04:14:33 GMT",
+   "saved": "soumu_tsuchi_pdf.pdf"
+  },
+  {
+   "id": "nagoya_keisanrei",
+   "url": "https://www.city.nagoya.jp/kurashi/zeikin/1037356/1011880/1011883/1011891.html",
+   "robots_allowed": true,
+   "status": 200,
+   "final_url": "https://www.city.nagoya.jp/kurashi/zeikin/1037356/1011880/1011883/1011891.html",
+   "content_type": "text/html",
+   "bytes": 47632,
+   "sha256": "e31ea03689c320af2f9e829cffa1f474d6c7fe091481184adf3a7ebf4e9027a5",
+   "last_modified": "Mon, 09 Nov 2026 03:06:59 GMT",
+   "saved": "nagoya_keisanrei.html",
+   "title": "市民税・県民税の計算例｜名古屋市公式ウェブサイト",
+   "text": "nagoya_keisanrei.txt",
+   "img_alts": 7,
+   "pdf_links": []
+  },
+  {
+   "id": "yokohama_keisan",
+   "url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/zeikin/y-shizei/kojin-shiminzei-kenminzei/kojin-shiminzei-shosai/kojinkeisan.html",
+   "robots_allowed": true,
+   "status": 200,
+   "final_url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/zeikin/y-shizei/kojin-shiminzei-kenminzei/kojin-shiminzei-shosai/kojinkeisan.html",
+   "content_type": "text/html",
+   "bytes": 55565,
+   "sha256": "4333d084b74e43c55a6e984cce8a287ba33249fea6291a1e0b81db3056ab66c9",
+   "last_modified": "Mon, 19 Oct 2026 08:22:21 GMT",
+   "saved": "yokohama_keisan.html",
+   "title": "令和８年度市民税・県民税・森林環境税の計算（例） 横浜市",
+   "text": "yokohama_keisan.txt",
+   "img_alts": 10,
+   "pdf_links": []
+  },
+  {
+   "id": "yokohama_zeigakukoujo",
+   "url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/zeikin/y-shizei/kojin-shiminzei-kenminzei/kojin-shiminzei-shosai/zeigakukoujoR2.html",
+   "robots_allowed": true,
+   "status": 200,
+   "final_url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/zeikin/y-shizei/kojin-shiminzei-kenminzei/kojin-shiminzei-shosai/zeigakukoujoR2.html",
+   "content_type": "text/html",
+   "bytes": 65394,
+   "sha256": "a6c0088c980818c584e813c90a0a166172d9675e915b642ac127e56cbe4acf81",
+   "last_modified": "Mon, 19 Oct 2026 08:22:21 GMT",
+   "saved": "yokohama_zeigakukoujo.html",
+   "title": "税額控除(令和２年度課税） 横浜市",
+   "text": "yokohama_zeigakukoujo.txt",
+   "img_alts": 10,
+   "pdf_links": []
+  },
+  {
+   "id": "chuo_zeigakukoujo",
+   "url": "https://www.city.chuo.lg.jp/a0009/kurashi/zeikin/juuminzei/zeigakukoujo.html",
+   "robots_allowed": true,
+   "status": 200,
+   "final_url": "https://www.city.chuo.lg.jp/a0009/kurashi/zeikin/juuminzei/zeigakukoujo.html",
+   "content_type": "text/html",
+   "bytes": 37002,
+   "sha256": "439d113607a5ecdf7d3e9b73cbc1d31b8165dc9908cc37271654b48f944a3d84",
+   "last_modified": "Thu, 30 Jul 2026 10:37:20 GMT",
+   "saved": "chuo_zeigakukoujo.html",
+   "title": "中央区ホームページ／税額控除",
+   "text": "chuo_zeigakukoujo.txt",
+   "img_alts": 0,
+   "pdf_links": []
+  },
+  {
+   "id": "wakayama_zeigakukoujo",
+   "url": "https://www.pref.wakayama.lg.jp/prefg/010500/kenzei/kojinkenmin/kojinkenmin_zeigakukojo.html",
+   "robots_allowed": true,
+   "status": 200,
+   "final_url": "https://www.pref.wakayama.lg.jp/prefg/010500/kenzei/kojinkenmin/kojinkenmin_zeigakukojo.html",
+   "content_type": "text/html",
+   "bytes": 17115,
+   "sha256": "3142b6a459166458d2997e9ed0bd41820adfbe145cccacfa277f31b1f6c8200b",
+   "last_modified": "Tue, 02 Jun 2026 13:26:01 GMT",
+   "saved": "wakayama_zeigakukoujo.html",
+   "title": "個人県民税 税額控除 | 和歌山県",
+   "text": "wakayama_zeigakukoujo.txt",
+   "img_alts": 6,
+   "pdf_links": [
+    "./kojinkenmin_zeigakukojo_d/fil/zeigakukoujo.pdf"
+   ]
+  }
+ ]
+}

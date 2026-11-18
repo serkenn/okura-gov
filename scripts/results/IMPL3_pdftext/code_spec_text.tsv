@@ -1,0 +1,235 @@
+# file=.work/downloads/20261111-231757_IMPL3_web_fetch_soumu_pdf/code_spec.pdf sha256=e3c0814a9ee744879c45b7775ffe7d078f12c09fe699729b004a22c249f0d7ab encrypt=None key_ok=None pages=5
+page	x	y	font	text
+1	180.7	745.5	TT1:Identity-H+ToUnicode	全国地方公共団体コード仕様 
+1	439.3	720.7	TT1:Identity-H+ToUnicode	平成19年4月1日 
+1	439.3	719.2	TT1:Identity-H+ToUnicode	総務省 
+1	54.0	675.0	TT1:Identity-H+ToUnicode	１ コードの名称
+1	166.0	675.0	TT1:Identity-H+ToUnicode	 全国地方公共団体コード 
+1	54.0	639.0	TT1:Identity-H+ToUnicode	２ コードの範囲 
+1	75.2	612.7	TT1:Identity-H+ToUnicode	コードを付する全国の地方公共団体等は、次のとおりとする。 
+1	75.2	611.2	TT1:Identity-H+ToUnicode	都道府県、指定都市、指定都市以外の市、特別区、指定都市の区、町村、一部事務組合、
+1	74.6	609.7	TT1:Identity-H+ToUnicode	地方開発事業団、広域連合 
+1	54.0	546.4	TT1:Identity-H+ToUnicode	３ コードの構造 
+1	68.2	486.7	TT1:Identity-H+ToUnicode	3.1
+1	69.7	486.7	TT1:Identity-H+ToUnicode	 コードの桁数
+1	70.5	485.2	TT1:Identity-H+ToUnicode	全国地方公共団体コードは、５桁のアラビア整数に、１桁の検査数字（□の枠の中
+1	69.9	483.7	TT1:Identity-H+ToUnicode	に入れて記載）を加え、６桁とする。 
+1	68.2	482.2	TT1:Identity-H+ToUnicode	3.2
+1	69.7	482.2	TT1:Identity-H+ToUnicode	 各桁の意味
+1	69.3	470.2	TT1:Identity-H+ToUnicode	3.2.1
+1	71.9	470.2	TT1:Identity-H+ToUnicode	 第１桁及び第２桁の番号 ： 各都道府県を意味する。 
+1	69.3	468.7	TT1:Identity-H+ToUnicode	3.2.2
+1	71.9	468.7	TT1:Identity-H+ToUnicode	 第３桁、第４桁及び第５桁の番号 ： 000の場合を除き、各市区町村、一部
+1	71.7	467.2	TT1:Identity-H+ToUnicode	事務組合、地方開発事業団及び広域連合（以
+1	91.9	467.2	TT1:Identity-H+ToUnicode	下「一部事務組合等」という。
+1	105.6	467.2	TT1:Identity-H+ToUnicode	）を
+1	71.7	465.7	TT1:Identity-H+ToUnicode	意味する。 
+1	69.3	464.2	TT1:Identity-H+ToUnicode	3.2.3
+1	71.9	464.2	TT1:Identity-H+ToUnicode	 第６桁の番号 ： 検査数字を示す。 
+1	242.6	409.4	TT2:Identity-V+ToUnicode	０・・・第１桁
+1	260.6	409.4	TT2:Identity-V+ToUnicode	６・・・第２桁
+1	278.6	409.4	TT2:Identity-V+ToUnicode	２・・・第３桁
+1	296.6	409.4	TT2:Identity-V+ToUnicode	０・・・第４桁
+1	314.6	409.4	TT2:Identity-V+ToUnicode	１・・・第５桁
+1	332.6	409.4	TT2:Identity-V+ToUnicode	４・・・第６桁
+1	206.7	383.2	TT2:Identity-V+ToUnicode	（例）
+1	54.0	186.4	TT1:Identity-H+ToUnicode	４ コードを付する都道府県及び市区町村の配列の順序 
+1	77.9	126.7	TT1:Identity-H+ToUnicode	全国地方公共団体コードを付する都道府県、市区町村、及び一部事務組合等の配列の順
+1	77.1	125.2	TT1:Identity-H+ToUnicode	序は、関係都道府県の意見に基づき、統計その他一般の慣用のものによる。 
+2	54.0	747.0	TT1:Identity-H+ToUnicode	５ 都道府県コード 
+2	68.2	720.7	TT1:Identity-H+ToUnicode	5.1
+2	69.7	720.7	TT1:Identity-H+ToUnicode	 第１桁及び第２桁の番号 ： 01から47までの連番号とする。 
+2	68.2	719.2	TT1:Identity-H+ToUnicode	5.2
+2	69.7	719.2	TT1:Identity-H+ToUnicode	 第３桁、第４桁及び第５桁の番号 ： 000とし、5.1とあわせて都道府県を表示
+2	69.9	717.7	TT1:Identity-H+ToUnicode	する。 
+2	54.0	654.4	TT1:Identity-H+ToUnicode	６ 市区町村コード 
+2	68.2	594.7	TT1:Identity-H+ToUnicode	6.1
+2	69.7	594.7	TT1:Identity-H+ToUnicode	 第１桁及び第２桁の番号 ： 市区町村の属する都道府県の都道府県コードの第１
+2	69.9	593.2	TT1:Identity-H+ToUnicode	桁及び第２桁の番号とする。 
+2	68.2	591.7	TT1:Identity-H+ToUnicode	6.2
+2	69.7	591.7	TT1:Identity-H+ToUnicode	 第３桁、第４桁及び第５桁の番号 
+2	69.0	590.2	TT1:Identity-H+ToUnicode	6.2.1
+2	71.5	590.2	TT1:Identity-H+ToUnicode	 指定都市 ： 100で表示する。 
+2	72.4	588.7	TT1:Identity-H+ToUnicode	ただし、１の都道府県の区域
+2	85.4	588.7	TT1:Identity-H+ToUnicode	内に、２以上の指定都市が
+2	97.5	588.7	TT1:Identity-H+ToUnicode	ある場合は、100から
+2	71.4	587.2	TT1:Identity-H+ToUnicode	199までの数字のうちから定める。 
+2	69.0	585.7	TT1:Identity-H+ToUnicode	6.2.2
+2	71.6	585.7	TT1:Identity-H+ToUnicode	 特別区及び指定都市の区 ： 101から199までの連番号で表示する。 
+2	72.4	584.2	TT1:Identity-H+ToUnicode	ただし、１の都道府県の区域
+2	85.4	584.2	TT1:Identity-H+ToUnicode	内に、２以上の指定都市が
+2	97.5	584.2	TT1:Identity-H+ToUnicode	ある場合は、101から
+2	71.4	582.7	TT1:Identity-H+ToUnicode	199までの数字のうちで、
+2	82.8	582.7	TT1:Identity-H+ToUnicode	6.2.1のただし書により定めたそれぞれの指定都市のコ
+2	71.4	581.2	TT1:Identity-H+ToUnicode	ードにつづく連番号で表示する。 
+2	72.7	579.7	TT1:Identity-H+ToUnicode	なお、利用上の便宜のため、全特別区の区域にコードを付し、これを100で表
+2	71.7	578.2	TT1:Identity-H+ToUnicode	示する。 
+2	69.0	576.7	TT1:Identity-H+ToUnicode	6.2.3
+2	71.6	576.7	TT1:Identity-H+ToUnicode	 市（指定都市を除く。
+2	82.1	576.7	TT1:Identity-H+ToUnicode	） ： 201から299までの連番号で表示する。 
+2	69.0	575.2	TT1:Identity-H+ToUnicode	6.2.4
+2	71.6	575.2	TT1:Identity-H+ToUnicode	 町村（6.2.5の町村を除く。
+2	84.7	575.2	TT1:Identity-H+ToUnicode	） ： 301から799までの数字を、301～319、321
+2	71.8	573.7	TT1:Identity-H+ToUnicode	～339、……781～799の19ずつのグループに区分し、各郡の区域にそれぞれのグ
+2	71.8	572.2	TT1:Identity-H+ToUnicode	ループを割り当て、各郡に属する町村を各グループの範囲内の連番号で表示する。
+2	71.7	570.7	TT1:Identity-H+ToUnicode	ただし、沖縄県島尻郡については、341～369までを、同県宮古郡については371
+2	71.7	569.2	TT1:Identity-H+ToUnicode	～379までを割り当てる。 
+2	69.0	567.7	TT1:Identity-H+ToUnicode	6.2.5
+2	71.6	567.7	TT1:Identity-H+ToUnicode	 北海道の区域内にある町村 ： 301から779までの数字を、301～329、331～
+2	71.8	566.2	TT1:Identity-H+ToUnicode	359、……751～779の29ずつのグループに区分し、各支庁の所管区域にそれぞれ
+2	71.8	564.7	TT1:Identity-H+ToUnicode	のグループを割り当て、各支庁の所管区域内の町村を、各グループの範囲内の連
+2	71.8	563.2	TT1:Identity-H+ToUnicode	番号で表示する。 
+2	69.0	561.7	TT1:Identity-H+ToUnicode	6.2.6
+2	71.6	561.7	TT1:Identity-H+ToUnicode	 東京都の支庁の所管区域内にある町村 
+2	90.6	561.7	TT1:Identity-H+ToUnicode	： 東京都の大島、三宅、八丈及び小
+2	71.8	560.2	TT1:Identity-H+ToUnicode	笠原の各支庁の所管区域は、その区域をもって１の郡とみなし、6.2.4の例によ
+2	71.8	558.7	TT1:Identity-H+ToUnicode	り所管区域内の町村を連番号で表示する。 
+3	54.0	747.0	TT1:Identity-H+ToUnicode	７ 市区町村コードの改定（コードの新設及び欠番） 
+3	66.1	720.7	TT1:Identity-H+ToUnicode	7.1 
+3	68.6	720.7	TT1:Identity-H+ToUnicode	市町村の名称変更等の場合
+3	67.1	719.2	TT1:Identity-H+ToUnicode	7.1.1
+3	69.6	719.2	TT1:Identity-H+ToUnicode	 市町村の名称変更の場合 ： コードは、名称変更前のコードとする。 
+3	66.8	717.7	TT1:Identity-H+ToUnicode	7.1.2
+3	69.3	717.7	TT1:Identity-H+ToUnicode	 町村が市となり、
+3	77.9	717.7	TT1:Identity-H+ToUnicode	市が町村となった場合 ： コードは、
+3	95.1	717.7	TT1:Identity-H+ToUnicode	6.2.3、
+3	98.2	717.7	TT1:Identity-H+ToUnicode	6.2.4及び6.2.5
+3	69.8	716.2	TT1:Identity-H+ToUnicode	により、新設し、従前のコードは、欠番とする。 
+3	67.1	714.7	TT1:Identity-H+ToUnicode	7.1.3
+3	69.6	714.7	TT1:Identity-H+ToUnicode	 村が町となり、町が村となった場合 ： コードは従前のコードとする。 
+3	66.1	713.2	TT1:Identity-H+ToUnicode	7.2
+3	67.6	713.2	TT1:Identity-H+ToUnicode	 市町村の廃置分合の場合
+3	66.8	711.7	TT1:Identity-H+ToUnicode	7.2.1
+3	69.3	711.7	TT1:Identity-H+ToUnicode	 廃置分合後の市町村が、関係市町村のいずれか
+3	91.5	711.7	TT1:Identity-H+ToUnicode	の市町村の名称を、その名称と
+3	69.8	710.2	TT1:Identity-H+ToUnicode	した場合 ： 廃置分合後の市町村のコードは、廃置分合後の市町村が関係市町
+3	69.8	708.7	TT1:Identity-H+ToUnicode	村の名称のうち、その名称とした市町村の従前のコードとし、その他の関係市町
+3	69.8	707.2	TT1:Identity-H+ToUnicode	村の従前のコードは、欠番とする。 
+3	66.8	705.7	TT1:Identity-H+ToUnicode	7.2.2
+3	69.3	705.7	TT1:Identity-H+ToUnicode	 廃置分合後の市町村が、関係市町村のいずれの
+3	91.5	705.7	TT1:Identity-H+ToUnicode	市町村の名称をも、その名称と
+3	69.8	704.2	TT1:Identity-H+ToUnicode	しなかった場合 ： 廃置分合後の市町村のコードは6.2.3、6.2.4及び6.2.5
+3	69.8	702.7	TT1:Identity-H+ToUnicode	により、新設し、関係市町村の従前のコードは、欠番とする。 
+3	65.9	701.2	TT1:Identity-H+ToUnicode	7.3
+3	67.4	701.2	TT1:Identity-H+ToUnicode	 郡の区域の新設又は変更の場合（北海
+3	85.6	701.2	TT1:Identity-H+ToUnicode	道の区域におけるものを除く）郡の区域の新
+3	67.9	699.7	TT1:Identity-H+ToUnicode	設により、その郡に属することとなった町村又は郡の区域の変更により、従前属して
+3	67.9	698.2	TT1:Identity-H+ToUnicode	いた郡以外の郡に属することとなった町村のコードは6.2.4により、新設し、従前の
+3	67.9	696.7	TT1:Identity-H+ToUnicode	コードは、欠番とする。 
+3	66.1	695.2	TT1:Identity-H+ToUnicode	7.4
+3	67.6	695.2	TT1:Identity-H+ToUnicode	 特別区及び指定都市の区の名称変更等の場合 
+3	68.7	693.7	TT1:Identity-H+ToUnicode	特別区の名称変更、設置及び廃置分合並びに指定都市の区の名称変更、設置及び所
+3	67.7	692.2	TT1:Identity-H+ToUnicode	管区域の変更があった場合における特別
+3	86.2	692.2	TT1:Identity-H+ToUnicode	区及び指定都市の区のコードについては、
+3	67.7	690.7	TT1:Identity-H+ToUnicode	7.1又は7.2の例による。 
+3	66.1	689.2	TT1:Identity-H+ToUnicode	7.5
+3	67.6	689.2	TT1:Identity-H+ToUnicode	 公有水面の埋立に伴う村の設置の場合 
+3	68.7	687.7	TT1:Identity-H+ToUnicode	公有水面の埋立により生ずる土地の区域をも
+3	88.9	687.7	TT1:Identity-H+ToUnicode	って新たに設置された村のコードは、
+3	67.7	686.2	TT1:Identity-H+ToUnicode	6.2.4又は6.2.5により、新設する。 
+3	54.0	276.4	TT1:Identity-H+ToUnicode	８ 一部事務組合等コード 
+3	64.5	216.7	TT1:Identity-H+ToUnicode	8.1
+3	66.0	216.7	TT1:Identity-H+ToUnicode	 第１桁及び第２桁の番号 ： 一部事
+3	84.1	216.7	TT1:Identity-H+ToUnicode	務組合等の属する都道府県の都道府県コード
+3	66.5	215.2	TT1:Identity-H+ToUnicode	の第１桁及び第２桁の番号とする。 
+3	64.6	213.7	TT1:Identity-H+ToUnicode	8.2
+3	66.1	213.7	TT1:Identity-H+ToUnicode	 第３桁、第４桁及び第５桁の番号 ： 801から999までの連番号で表示する。 
+3	64.5	212.2	TT1:Identity-H+ToUnicode	8.3
+3	66.0	212.2	TT1:Identity-H+ToUnicode	 一部事務組合等コードの特例 ： 
+3	83.1	212.2	TT1:Identity-H+ToUnicode	一部事務組合が普通会計に属する事務及び事業
+3	66.5	210.7	TT1:Identity-H+ToUnicode	会計に属する事務のいずれをも処理する場合には、
+3	89.2	210.7	TT1:Identity-H+ToUnicode	これを普通会計に属する事務を処
+3	66.5	209.2	TT1:Identity-H+ToUnicode	理する一部事務組合と事業会計に属する事務を処理する一部事務組合の２つの一部
+3	66.5	207.7	TT1:Identity-H+ToUnicode	事務組合とみなし、8.1及び8.2により、それぞれ表示する。 
+4	54.0	747.0	TT1:Identity-H+ToUnicode	９ 一部事務組合等コードの改定（コード新設及び欠番） 
+4	64.4	720.7	TT1:Identity-H+ToUnicode	9.1
+4	65.9	720.7	TT1:Identity-H+ToUnicode	 一部事務組合等を設立又は設置した場合 ： コードは、8.1及び8.2により新設
+4	65.9	719.2	TT1:Identity-H+ToUnicode	する。 
+4	67.1	717.7	TT1:Identity-H+ToUnicode	ただし、番号が999を超えることとなった場合には、既に一部事務組合等の解散に
+4	66.1	716.2	TT1:Identity-H+ToUnicode	より、当該コードを欠番としているものを新たに設立又は設置した一部事務組合等の
+4	66.1	714.7	TT1:Identity-H+ToUnicode	コードとして使用し、設定する。 
+4	66.5	713.2	TT1:Identity-H+ToUnicode	その使用の順序はコードを欠番とした年月日の順とする。 
+4	64.5	711.7	TT1:Identity-H+ToUnicode	9.2
+4	66.0	711.7	TT1:Identity-H+ToUnicode	 一部事務組合等の名称変更の場合 ： コードは、名称変更前のコードとする。 
+4	64.5	710.2	TT1:Identity-H+ToUnicode	9.3
+4	66.0	710.2	TT1:Identity-H+ToUnicode	 一部事務組合等が解散した場合 ： コードは、欠番とする。 
+4	54.0	564.4	TT1:Identity-H+ToUnicode	１０ 集計等に用いるコード 
+4	66.0	504.7	TT1:Identity-H+ToUnicode	都道府県内の市部計（指定都市を除く。
+4	83.6	504.7	TT1:Identity-H+ToUnicode	）を表示するコード及び郡
+4	95.6	504.7	TT1:Identity-H+ToUnicode	又は支庁を表示するコ
+4	65.0	503.2	TT1:Identity-H+ToUnicode	ードは、それぞれ6.2.3、6.2.4及び6.2.5により、それぞれ割り当てられた範囲内の最初
+4	65.0	501.7	TT1:Identity-H+ToUnicode	の市町村に付されたコードの直近前位の数字とする。 
+4	146.3	411.9	None:?	>&[>' w40£         
+4	152.8	410.1	None:?	        S«w  r<dKK 
+4	152.8	408.4	None:?	        9×îw   S?IAK 
+4	153.8	406.7	None:?	í       í        í 
+4	153.8	405.0	None:?	í       í        í 
+4	153.8	403.3	None:?	í       í        í 
+4	152.8	401.6	None:?	4Z&4  >:}D        
+4	152.8	399.9	None:?	        È´#ë  8SC}rU 
+4	152.8	398.1	None:?	        Âô#ë  u8rU 
+4	54.0	189.0	TT1:Identity-H+ToUnicode	１１ 検査数字 
+4	66.0	162.7	TT1:Identity-H+ToUnicode	全国地方公共団体コードにおける検査数字は、電算処理にあたって、不正なコードが使わ
+4	65.0	161.2	TT1:Identity-H+ToUnicode	れないよう第６桁目をチェック用としたもので、次の方式により算出した数字とする。 
+4	65.0	159.7	TT1:Identity-H+ToUnicode	（方式） 
+4	66.0	158.2	TT1:Identity-H+ToUnicode	第１桁から第５桁までの数字に、それぞれ６．５．４．３．２を乗じて算出した積の和を
+4	65.0	156.7	TT1:Identity-H+ToUnicode	求め、その和を１１で除し、商と
+4	80.0	156.7	TT1:Identity-H+ToUnicode	剰余（以下「余り数字」という。
+4	94.6	156.7	TT1:Identity-H+ToUnicode	）を求めて、１１と余り
+5	54.0	756.7	TT1:Identity-H+ToUnicode	数字との差の下１桁の数字を検査数字とする。 
+5	55.0	755.2	TT1:Identity-H+ToUnicode	ただし、積の和が１１より小なるときは、検査数字は、１１から積の和を控除した数字と
+5	54.0	753.7	TT1:Identity-H+ToUnicode	する。 
+5	91.7	690.9	None:?	>&'ì[>' 
+5	91.7	689.1	None:?	¥î» >/ >4 >0 >. >/ 
+5	98.2	687.4	None:?	          
+5	91.7	685.7	None:?	 X >4 >3 >2 >1 >0 
+5	92.7	684.0	None:?	'  >4    >6 >. >0 
+5	91.7	682.3	None:?	'bô                          
+5	98.7	680.6	None:?	    ¹    >;   5~XÐ   
+5	98.7	678.9	None:?	      >&5~XÐ>'    
+5	109.2	678.9	None:?	 
+5	109.7	678.9	None:?	 
+5	114.6	559.4	None:?	>&@>' 
+5	114.6	557.7	None:?	q5~XÐ@>.b\A
+èXÐc>/ 
+5	114.6	555.9	None:?	r5~XÐ@>/b\A
+èXÐc>. 
+5	114.6	554.2	None:?	s5~XÐ@>/>.b\A
+èXÐc>/ 
+5	91.7	546.9	None:?	èXÐ
+5	95.7	546.9	None:?	     
+5	100.3	546.9	None:?	   
+5	101.8	546.9	None:?	 
+5	54.0	477.0	TT1:Identity-H+ToUnicode	附 記 
+5	54.0	450.7	TT1:Identity-H+ToUnicode	１ このコード表は、平成１９年４月１日現在の都道府県、市区町村及び一部事務組合等に
+5	55.0	449.2	TT1:Identity-H+ToUnicode	ついて、上記の仕様により設定した全国地方公共団体コードを表示したものである。 
+5	54.0	447.7	TT1:Identity-H+ToUnicode	２ このコード表は都道府県、市区町村コー
+5	74.1	447.7	TT1:Identity-H+ToUnicode	ド及び一部事務組合等コード並びに都道府県、
+5	55.0	446.2	TT1:Identity-H+ToUnicode	市区町村の名称・ふりがな及び一部事務組合等の名称により構成されている。 
+5	55.9	444.7	TT1:Identity-H+ToUnicode	なお、
+5	58.6	444.7	TT1:Identity-H+ToUnicode	一部事務組合が普通会計に属する事務及び事業会計に属する事務のいずれをも処
+5	54.9	443.2	TT1:Identity-H+ToUnicode	理する場合には、これを２つの一部事務組合とみなし、一部事務組合等の名称の次にそれ
+5	54.9	441.7	TT1:Identity-H+ToUnicode	ぞれ「
+5	57.4	441.7	TT1:Identity-H+ToUnicode	（普通会計分）
+5	63.9	441.7	TT1:Identity-H+ToUnicode	」又は「
+5	67.4	441.7	TT1:Identity-H+ToUnicode	（事業会計分）
+5	73.9	441.7	TT1:Identity-H+ToUnicode	」と記載している。 
+5	55.9	440.2	TT1:Identity-H+ToUnicode	また、構成団体が２以上の都道府県にわたる
+5	76.0	440.2	TT1:Identity-H+ToUnicode	一部事務組合等（地方開発事業団を含む）
+5	54.9	438.7	TT1:Identity-H+ToUnicode	に係るコードは事務所の所在地の属する都道
+5	75.0	438.7	TT1:Identity-H+ToUnicode	府県において記載するものとする。ただし、
+5	54.9	437.2	TT1:Identity-H+ToUnicode	当該一部事務組合等の規約その他の定めにより
+5	75.6	437.2	TT1:Identity-H+ToUnicode	「事業所の所在地を一定期間を区切って変
+5	54.9	435.7	TT1:Identity-H+ToUnicode	更する場合」の当該一部事務組合等のコードは、関係都道府県にそれぞれ属するものとし
+5	54.9	434.2	TT1:Identity-H+ToUnicode	て記載している。 
+5	54.0	432.7	TT1:Identity-H+ToUnicode	３ このコード表は、市区町村コードの改定
+5	74.1	432.7	TT1:Identity-H+ToUnicode	（コードの新設及び欠番）をした場合のほか、
+5	55.0	431.2	TT1:Identity-H+ToUnicode	市区町村の名称変更又は町（村）制施行があった場合には、その都度改正する。 
+5	55.9	429.7	TT1:Identity-H+ToUnicode	なお、平成１９年４月１日までのコード表の改正の経緯については、末尾に集録してい
+5	54.9	428.2	TT1:Identity-H+ToUnicode	る。 
+5	54.0	426.7	TT1:Identity-H+ToUnicode	４ 市区町村の廃置分合等により欠番とした
+5	74.3	426.7	TT1:Identity-H+ToUnicode	市区町村コード及び一部事務組合等の解散に
+5	55.0	425.2	TT1:Identity-H+ToUnicode	より欠番とした一部事務組合等コードについては、市区町村の名称及びふりがなの欄、あ
+5	55.0	423.7	TT1:Identity-H+ToUnicode	るいは一部事務組合等の名称の欄に「削除」と記載して、その旨を表示している。 
+5	54.0	420.7	TT1:Identity-H+ToUnicode	（注）地方公共団体コードの名称及びふりがなは、
+5	76.5	420.7	TT1:Identity-H+ToUnicode	「全国市町村要覧」による。 

@@ -1,0 +1,162 @@
+description: 特定親族特別控除（所得税法第84条の2第1項各号）。特定親族1人につき、その特定親族の合計所得金額の区分に応じた額。令和7年分・令和8年分で同文（R1 §2）。
+第1号:
+  上限:
+    description: 第1号の区分の上限（合計所得金額がこの額以下）
+    metadata:
+      law: 所得税法第84条の2第1項第1号
+      source_kind: 法律
+      unit: 円
+      比較: 以下
+      reference:
+        - docs/public-sources/20261109_R1-laws_income-tax.md#3
+    values:
+      2025-01-01:
+        value: 850000
+        metadata:
+          施行日: 2025-12-01
+          適用: 令和7年分以後（令和7年法律第13号附則第6条第1項）
+  額:
+    description: 第1号の額
+    metadata:
+      law: 所得税法第84条の2第1項第1号
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_R1-laws_income-tax.md#3
+    values:
+      2025-01-01:
+        value: 630000
+        metadata:
+          施行日: 2025-12-01
+          適用: 令和7年分以後（令和7年法律第13号附則第6条第1項）
+第2号:
+  上限:
+    description: 第2号の区分の上限（85万円を超え、この額以下）
+    metadata:
+      law: 所得税法第84条の2第1項第2号
+      source_kind: 法律
+      unit: 円
+      比較: 以下
+      reference:
+        - docs/public-sources/20261109_R1-laws_income-tax.md#3
+    values:
+      2025-01-01:
+        value: 1150000
+        metadata:
+          施行日: 2025-12-01
+          適用: 令和7年分以後
+  基準の額:
+    description: 第2号で、差し引く前の額（六十三万円）
+    metadata:
+      law: 所得税法第84条の2第1項第2号
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_R1-laws_income-tax.md#3
+    values:
+      2025-01-01:
+        value: 630000
+        metadata:
+          施行日: 2025-12-01
+          適用: 令和7年分以後
+  超える部分の起点:
+    description: 第2号で、合計所得金額のうちこの額を超える部分の金額に乗数を乗じる（八十四万一円）
+    metadata:
+      law: 所得税法第84条の2第1項第2号
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_R1-laws_income-tax.md#3
+    values:
+      2025-01-01:
+        value: 840001
+        metadata:
+          施行日: 2025-12-01
+          適用: 令和7年分以後
+  乗数:
+    description: 第2号で、超える部分の金額に乗じる数（二）
+    metadata:
+      law: 所得税法第84条の2第1項第2号
+      source_kind: 法律
+      unit: 倍
+      reference:
+        - docs/public-sources/20261109_R1-laws_income-tax.md#3
+    values:
+      2025-01-01:
+        value: 2
+        metadata:
+          施行日: 2025-12-01
+          適用: 令和7年分以後
+  刻み:
+    description: 第2号で、乗じた金額を「この額の整数倍の金額から次の額を控除した金額」に切り下げる（十万円）
+    metadata:
+      law: 所得税法第84条の2第1項第2号（括弧書き）
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_R1-laws_income-tax.md#3
+    values:
+      2025-01-01:
+        value: 100000
+        metadata:
+          施行日: 2025-12-01
+          適用: 令和7年分以後
+  刻みから引く額:
+    description: 第2号の括弧書きの「十万円の整数倍の金額から八万円を控除した金額」の八万円
+    metadata:
+      law: 所得税法第84条の2第1項第2号（括弧書き）
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_R1-laws_income-tax.md#3
+    values:
+      2025-01-01:
+        value: 80000
+        metadata:
+          施行日: 2025-12-01
+          適用: 令和7年分以後
+第3号:
+  上限:
+    description: 第3号の区分の上限（115万円を超え、この額以下）
+    metadata:
+      law: 所得税法第84条の2第1項第3号
+      source_kind: 法律
+      unit: 円
+      比較: 以下
+      reference:
+        - docs/public-sources/20261109_R1-laws_income-tax.md#3
+    values:
+      2025-01-01:
+        value: 1200000
+        metadata:
+          施行日: 2025-12-01
+          適用: 令和7年分以後
+  額:
+    description: 第3号の額
+    metadata:
+      law: 所得税法第84条の2第1項第3号
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_R1-laws_income-tax.md#3
+    values:
+      2025-01-01:
+        value: 60000
+        metadata:
+          施行日: 2025-12-01
+          適用: 令和7年分以後
+第4号:
+  額:
+    description: 第4号（120万円を超える特定親族。特定親族の上限123万円まで）の額
+    metadata:
+      law: 所得税法第84条の2第1項第4号
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_R1-laws_income-tax.md#3
+    values:
+      2025-01-01:
+        value: 30000
+        metadata:
+          施行日: 2025-12-01
+          適用: 令和7年分以後

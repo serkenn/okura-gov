@@ -1,0 +1,49 @@
+# source=https://www.mhlw.go.jp/web/t_itemsrch_result?type=1&startGengo=4&yearFrom=5&monthFrom=1&dayFrom=1&endGengo=4&yearTo=5&monthTo=12&dayTo=31&shubetsu=%E5%BA%81%E4%BF%9D%E7%99%BA&bango=6
+# fetched_at=20261111-025043
+# charset=UTF-8
+
+結果一覧
+
+検索結果
+
+該当件数: 1件中 1件~ 1件
+
+[form action='t_itemsrch_result' method=None]
+
+		[select name='sort' type=None value=None]
+			並べ替え順序選択
+			制定年月日 新しい順
+			制定年月日 古い順
+			改正年月日 新しい順
+			改正年月日 古い順
+
+		[input name='startGengo' type='hidden' value='4']
+		[input name='endGengo' type='hidden' value='4']
+		[input name='yearFrom' type='hidden' value='5']
+		[input name='yearTo' type='hidden' value='5']
+		[input name='monthFrom' type='hidden' value='1']
+		[input name='monthTo' type='hidden' value='12']
+		[input name='dayFrom' type='hidden' value='1']
+		[input name='dayTo' type='hidden' value='31']
+		[input name='shubetsu' type='hidden' value='庁保発']
+		[input name='bango' type='hidden' value='6']
+		[input name='page' type='hidden' value='0']
+		[input name='type' type='hidden' value='1']
+
+				 |
+					件名
+
+				 |
+					制定年月日
+
+				 |
+					種別・番号
+
+				 |
+											・国民年金の保険料を追納する場合に納付すべき額を定める件の告示について
+
+					⟨別ウィンドウが開きます⟩
+
+				 | ◆平成05年03月17日
+				 |
+					庁保発第6号

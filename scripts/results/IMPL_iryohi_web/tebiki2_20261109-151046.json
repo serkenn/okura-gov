@@ -1,0 +1,55 @@
+{
+  "set": "tebiki2",
+  "fetched_at_local": "20261109-151046",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "tebiki_2025_3-3_24_iryohi",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_24.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_24.htm",
+      "content_type": "text/html",
+      "bytes": 19352,
+      "sha256": "9ef4bd40b7bcad881941be49d6283b88fc799bd01681be6bbfe96498f583b73b",
+      "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+      "saved": ".work/downloads/20261109-151046_IMPL_iryohi_tebiki2/tebiki_2025_3-3_24_iryohi.html",
+      "charset": "cp932",
+      "title": "手順3 所得から差し引かれる金額（所得控除）を計算する｜国税庁",
+      "text_chars": 2635,
+      "text": ".work/text/20261109-151046_IMPL_iryohi_tebiki2/tebiki_2025_3-3_24_iryohi.txt",
+      "n_links": 54
+    },
+    {
+      "id": "tebiki_2025_6_01_meisai",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/06/6_01.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/06/6_01.htm",
+      "content_type": "text/html",
+      "bytes": 14568,
+      "sha256": "6bce41735f68adaeb8550ea31141b0a23d9b154dd5a81de5090d42bea97403b6",
+      "last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+      "saved": ".work/downloads/20261109-151046_IMPL_iryohi_tebiki2/tebiki_2025_6_01_meisai.html",
+      "charset": "shift_jis",
+      "title": "医療費控除の明細書｜国税庁",
+      "text_chars": 2874,
+      "text": ".work/text/20261109-151046_IMPL_iryohi_tebiki2/tebiki_2025_6_01_meisai.txt",
+      "n_links": 47
+    },
+    {
+      "id": "tebiki_2025_3-2_09_goukei",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_09.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_09.htm",
+      "content_type": "text/html",
+      "bytes": 10876,
+      "sha256": "27a713784184323199e78847f543038d9c51b211220075eb2b8b97e9a9ae14ae",
+      "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+      "saved": ".work/downloads/20261109-151046_IMPL_iryohi_tebiki2/tebiki_2025_3-2_09_goukei.html",
+      "charset": "shift_jis",
+      "title": "手順2 収入金額等、所得金額等を計算する｜国税庁",
+      "text_chars": 1418,
+      "text": ".work/text/20261109-151046_IMPL_iryohi_tebiki2/tebiki_2025_3-2_09_goukei.txt",
+      "n_links": 46
+    }
+  ]
+}

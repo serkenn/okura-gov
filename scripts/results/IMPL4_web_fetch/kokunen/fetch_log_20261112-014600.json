@@ -1,0 +1,39 @@
+{
+ "set": "kokunen",
+ "fetched_at": "20261112-014600",
+ "download_dir": ".work/downloads/20261112-014600_IMPL4_web_fetch_kokunen",
+ "robots": [
+  {
+   "host": "https://www.nenkin.go.jp",
+   "status": 200,
+   "sha256": "b1b1b2e85299b5a3b32390684db50f979ced0a08ed48a46b715b9b6c1a5f79c9"
+  }
+ ],
+ "items": [
+  {
+   "id": "nenkin_gakusei_pdf",
+   "url": "https://www.nenkin.go.jp/service/kokunen/menjo/gakutokutaisyouko.files/gakusei.pdf",
+   "final_url": "https://www.nenkin.go.jp/service/kokunen/menjo/gakutokutaisyouko.files/gakusei.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Thu, 15 Oct 2026 02:13:07 GMT",
+   "bytes": 6152138,
+   "sha256": "31dba7288f43d2db988312fb8439328faccf6641f6801946b3c7a17425de6cc1",
+   "saved": ".work/downloads/20261112-014600_IMPL4_web_fetch_kokunen/nenkin_gakusei_pdf.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "nenkin_gakutokutaisyouko",
+   "url": "https://www.nenkin.go.jp/service/kokunen/menjo/gakutokutaisyouko.html",
+   "final_url": "https://www.nenkin.go.jp/service/kokunen/menjo/gakutokutaisyouko.html",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Mon, 02 Nov 2026 00:00:29 GMT",
+   "bytes": 28156,
+   "sha256": "32c5d2983da9d9c221bda367595263c16f4aeec21cd3def028511732e7e723e0",
+   "saved": ".work/downloads/20261112-014600_IMPL4_web_fetch_kokunen/nenkin_gakutokutaisyouko.htm",
+   "title": "学生納付特例対象校一覧｜日本年金機構",
+   "encoding": "UTF-8"
+  }
+ ]
+}

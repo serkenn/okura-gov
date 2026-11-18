@@ -1,0 +1,300 @@
+[
+ {
+  "id": "wareki-S31",
+  "where": "LW§1.2・GD§2.1",
+  "got": 1956,
+  "want": 1956,
+  "ok": true
+ },
+ {
+  "id": "wareki-S32",
+  "where": "LW§1.2・GD§2.1",
+  "got": 1957,
+  "want": 1957,
+  "ok": true
+ },
+ {
+  "id": "IE1a",
+  "where": "IE1",
+  "got": 70,
+  "want": 70,
+  "ok": true
+ },
+ {
+  "id": "IE1b",
+  "where": "IE1",
+  "got": 69,
+  "want": 69,
+  "ok": true
+ },
+ {
+  "id": "IE1c",
+  "where": "IE1",
+  "got": 70,
+  "want": 70,
+  "ok": true
+ },
+ {
+  "id": "IE1d",
+  "where": "IE1",
+  "got": 69,
+  "want": 69,
+  "ok": true
+ },
+ {
+  "id": "IE1e",
+  "where": "IE1",
+  "got": 76,
+  "want": 76,
+  "ok": true
+ },
+ {
+  "id": "range70-2025",
+  "where": "LW§1.2・IE1",
+  "got": "1956-01-01",
+  "want": "1956-01-01",
+  "ok": true
+ },
+ {
+  "id": "range70-2026",
+  "where": "LW§1.2・IE1",
+  "got": "1957-01-01",
+  "want": "1957-01-01",
+  "ok": true
+ },
+ {
+  "id": "IE2a",
+  "where": "IE2",
+  "got": [
+   480000,
+   380000,
+   100000
+  ],
+  "want": [
+   480000,
+   380000,
+   100000
+  ],
+  "ok": true
+ },
+ {
+  "id": "IE2b",
+  "where": "IE2",
+  "got": [
+   580000,
+   450000,
+   130000
+  ],
+  "want": [
+   580000,
+   450000,
+   130000
+  ],
+  "ok": true
+ },
+ {
+  "id": "IE2d",
+  "where": "IE2",
+  "got": [
+   380000,
+   330000,
+   50000
+  ],
+  "want": [
+   380000,
+   330000,
+   50000
+  ],
+  "ok": true
+ },
+ {
+  "id": "IE2e",
+  "where": "IE2",
+  "got": false,
+  "want": false,
+  "ok": true
+ },
+ {
+  "id": "IE5",
+  "where": "IE5",
+  "got": true,
+  "want": true,
+  "ok": true
+ },
+ {
+  "id": "IE6b",
+  "where": "IE6",
+  "got": [
+   true,
+   true
+  ],
+  "want": [
+   true,
+   true
+  ],
+  "ok": true
+ },
+ {
+  "id": "IE6c",
+  "where": "IE6",
+  "got": false,
+  "want": false,
+  "ok": true
+ },
+ {
+  "id": "IE6d",
+  "where": "IE6",
+  "got": [
+   true,
+   false,
+   1500000.0
+  ],
+  "want": [
+   true,
+   false,
+   1500000.0
+  ],
+  "ok": true
+ },
+ {
+  "id": "IE8a",
+  "where": "IE8",
+  "got": 379260,
+  "want": 379260,
+  "ok": true
+ },
+ {
+  "id": "IE8b",
+  "where": "IE8",
+  "got": 380520,
+  "want": 380520,
+  "ok": true
+ },
+ {
+  "id": "IE8c",
+  "where": "IE8",
+  "got": 380000,
+  "want": 380000,
+  "ok": true
+ },
+ {
+  "id": "IE8f",
+  "where": "IE8",
+  "got": 390000,
+  "want": 390000,
+  "ok": true
+ },
+ {
+  "id": "IE8-frac-example",
+  "where": "IE8",
+  "got": {
+   "exact": "380046.1001",
+   "floor": 380046,
+   "round_half_up": 380046,
+   "ceil": 380047
+  },
+  "want": "文書：切り捨て・四捨五入で 1円違う",
+  "ok": false
+ },
+ {
+  "id": "IE8-boundary-example",
+  "where": "IE8（訂正の材料）",
+  "got": {
+   "usd": "2533.33",
+   "rate": "150.00",
+   "exact": "379999.5000",
+   "floor": 379999,
+   "round_half_up": 380000
+  },
+  "want": "floor<380000<=round",
+  "ok": true
+ },
+ {
+  "id": "IE12a-age-at-judge",
+  "where": "IE12",
+  "got": 59,
+  "want": 59,
+  "ok": true
+ },
+ {
+  "id": "IE12a-age-at-1231",
+  "where": "IE12",
+  "got": 60,
+  "want": 60,
+  "ok": true
+ },
+ {
+  "id": "IE12d-age-at-judge",
+  "where": "IE12",
+  "got": 60,
+  "want": 60,
+  "ok": true
+ },
+ {
+  "id": "IE12a",
+  "where": "IE12",
+  "got": [
+   false,
+   true
+  ],
+  "want": [
+   false,
+   true
+  ],
+  "ok": true
+ },
+ {
+  "id": "IE12b",
+  "where": "IE12",
+  "got": [
+   true,
+   true
+  ],
+  "want": [
+   true,
+   true
+  ],
+  "ok": true
+ },
+ {
+  "id": "IE12c",
+  "where": "IE12",
+  "got": [
+   false,
+   false
+  ],
+  "want": [
+   false,
+   false
+  ],
+  "ok": true
+ },
+ {
+  "id": "IE7-age72-kubun1",
+  "where": "IE7",
+  "got": true,
+  "want": true,
+  "ok": true
+ },
+ {
+  "id": "IE9-age31-kubun2or4",
+  "where": "IE9",
+  "got": true,
+  "want": true,
+  "ok": true
+ },
+ {
+  "id": "IE11-age20-tokutei",
+  "where": "IE11",
+  "got": true,
+  "want": true,
+  "ok": true
+ },
+ {
+  "id": "IE15-age75-roujin",
+  "where": "IE15",
+  "got": true,
+  "want": true,
+  "ok": true
+ }
+]

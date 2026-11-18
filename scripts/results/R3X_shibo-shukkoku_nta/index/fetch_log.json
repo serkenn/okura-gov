@@ -1,0 +1,67 @@
+{
+ "set": "index",
+ "fetched_at": "20261109-201544",
+ "download_dir": ".work/downloads/20261109-201544_R3X_shibo-shukkoku_nta_index",
+ "items": [
+  {
+   "id": "ta_bunya_kakuteishinkoku",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-kakuteishinkoku.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 16 Oct 2026 08:30:08 GMT",
+   "bytes": 24716,
+   "sha256": "31d9f204719dc58eba1d98804c52cde32e48b01c6f06472d86980bcf03dda26c",
+   "saved": ".work/downloads/20261109-201544_R3X_shibo-shukkoku_nta_index/ta_bunya_kakuteishinkoku.htm",
+   "title": "確定申告｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_bunya_souzoku_zoyo",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-souzoku-zoyo.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 03 Oct 2025 08:30:06 GMT",
+   "bytes": 12294,
+   "sha256": "72ddf10617110db79a9e15daf701fab7b518c627d33f65dc4a8b3f57646569fc",
+   "saved": ".work/downloads/20261109-201544_R3X_shibo-shukkoku_nta_index/ta_bunya_souzoku_zoyo.htm",
+   "title": "相続・贈与｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_bunya_saigai",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-saigai.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 25 Sep 2026 05:00:02 GMT",
+   "bytes": 11708,
+   "sha256": "fc28f430199e62ae4178aa7b1dafd6698351bd3867dca24548b55dce70d278cb",
+   "saved": ".work/downloads/20261109-201544_R3X_shibo-shukkoku_nta_index/ta_bunya_saigai.htm",
+   "title": "災害｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "tetsuzuki_mokuji",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/mokuji.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 07 Oct 2026 08:30:01 GMT",
+   "bytes": 15963,
+   "sha256": "94182e6dd8881c211faaf605311fcd0cea26be15e96740d69037c1c1232269d8",
+   "saved": ".work/downloads/20261109-201544_R3X_shibo-shukkoku_nta_index/tetsuzuki_mokuji.htm",
+   "title": "申告所得税関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "yoshiki_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r07.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 20 Oct 2026 08:30:03 GMT",
+   "bytes": 45317,
+   "sha256": "ff769ff6e512b73df0387db39f5fbc6e58f509fd12f5972e2f84e4117e58ac9f",
+   "saved": ".work/downloads/20261109-201544_R3X_shibo-shukkoku_nta_index/yoshiki_r07.htm",
+   "title": "確定申告書等の様式・手引き等（令和７年分の所得税及び復興特別所得税の確定申告分）｜国税庁",
+   "encoding": "shift_jis"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "set": "soumu",
+ "fetched_at": "20261109-174040",
+ "download_dir": ".work/downloads/20261109-174040_R2X_gaps_web_soumu",
+ "robots": [
+  {
+   "host": "www.soumu.go.jp",
+   "url": "https://www.soumu.go.jp/robots.txt",
+   "status": 200,
+   "sha256": "e0cc280a3ed01a4ee4785320fdacf31ef4724eddf0a46eb860df651eaede55e4",
+   "saved": ".work/downloads/20261109-174040_R2X_gaps_web_soumu/robots_www.soumu.go.jp.txt"
+  }
+ ],
+ "items": [
+  {
+   "id": "soumu_kanto_110113_1",
+   "url": "https://www.soumu.go.jp/kanku/kanto/pdf/110113_1.pdf",
+   "final_url": "https://www.soumu.go.jp/kanku/kanto/pdf/110113_1.pdf",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Thu, 20 Jan 2011 17:16:16 GMT",
+   "bytes": 228770,
+   "sha256": "6b230b6005ec9fc100a5ebb11585a095c46e59bd373f3ce558fa4f75d9b772ca",
+   "saved": ".work/downloads/20261109-174040_R2X_gaps_web_soumu/soumu_kanto_110113_1.pdf"
+  },
+  {
+   "id": "soumu_kanto_120607_5",
+   "url": "https://www.soumu.go.jp/kanku/kanto/pdf/120607_5.pdf",
+   "final_url": "https://www.soumu.go.jp/kanku/kanto/pdf/120607_5.pdf",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 12 Jun 2012 08:52:33 GMT",
+   "bytes": 124135,
+   "sha256": "f10c78e9304f449162b59c232e6537f24070a29127bcd577df43631fd2265a39",
+   "saved": ".work/downloads/20261109-174040_R2X_gaps_web_soumu/soumu_kanto_120607_5.pdf"
+  }
+ ]
+}

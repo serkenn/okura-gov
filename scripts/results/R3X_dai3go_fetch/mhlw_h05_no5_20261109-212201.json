@@ -1,0 +1,44 @@
+{
+  "set": "mhlw_h05_no5",
+  "fetched_at_local": "20261109-212201",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work/downloads/20261109-212201_R3X_dai3go_mhlw_h05_no5",
+  "results": [
+    {
+      "id": "srch_H05_chohohatsu_5",
+      "url": "https://www.mhlw.go.jp/web/t_itemsrch_result?type=1&startGengo=4&yearFrom=5&monthFrom=1&dayFrom=1&endGengo=4&yearTo=5&monthTo=12&dayTo=31&shubetsu=%E5%BA%81%E4%BF%9D%E7%99%BA&bango=5",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/web/t_itemsrch_result?type=1&startGengo=4&yearFrom=5&monthFrom=1&dayFrom=1&endGengo=4&yearTo=5&monthTo=12&dayTo=31&shubetsu=%E5%BA%81%E4%BF%9D%E7%99%BA&bango=5",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 1862,
+      "sha256": "5c4110e1ea08b1cc02b7c4dc3c6f69afcd729d853f3f9cb7d1a097e3df32e6b0",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work/downloads/20261109-212201_R3X_dai3go_mhlw_h05_no5/srch_H05_chohohatsu_5.html",
+      "charset": "UTF-8",
+      "title": "結果一覧",
+      "n_links": 0,
+      "text_chars": 776,
+      "text_sha256": "91646f9e409b4b6a2de4d30534190f233b76be99b11dbc489513e181c7829bdd",
+      "text": "scripts/results/R3X_dai3go_fetch/text/20261109-212201_mhlw_h05_no5/srch_H05_chohohatsu_5.txt"
+    },
+    {
+      "id": "srch_H05_chohohatsu_6",
+      "url": "https://www.mhlw.go.jp/web/t_itemsrch_result?type=1&startGengo=4&yearFrom=5&monthFrom=1&dayFrom=1&endGengo=4&yearTo=5&monthTo=12&dayTo=31&shubetsu=%E5%BA%81%E4%BF%9D%E7%99%BA&bango=6",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/web/t_itemsrch_result?type=1&startGengo=4&yearFrom=5&monthFrom=1&dayFrom=1&endGengo=4&yearTo=5&monthTo=12&dayTo=31&shubetsu=%E5%BA%81%E4%BF%9D%E7%99%BA&bango=6",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 2907,
+      "sha256": "44dc3e3caa7b8378f5038e89cab5bd6ca6a9985973cffe0041ff41745b3b49d2",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work/downloads/20261109-212201_R3X_dai3go_mhlw_h05_no5/srch_H05_chohohatsu_6.html",
+      "charset": "UTF-8",
+      "title": "結果一覧",
+      "n_links": 1,
+      "text_chars": 945,
+      "text_sha256": "c92408fbc63fd47813128cf0c5d4a5b55fc89ce2751097edb36a3e609286ef64",
+      "text": "scripts/results/R3X_dai3go_fetch/text/20261109-212201_mhlw_h05_no5/srch_H05_chohohatsu_6.txt"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+ "set": "archive2",
+ "fetched_at": "20261109-174147",
+ "download_dir": ".work/downloads/20261109-174147_R2X_gaps_web_archive2",
+ "robots": [
+  {
+   "host": "web.archive.org",
+   "url": "https://web.archive.org/robots.txt",
+   "status": 404,
+   "sha256": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0",
+   "saved": ".work/downloads/20261109-174147_R2X_gaps_web_archive2/robots_web.archive.org.txt"
+  }
+ ],
+ "items": [
+  {
+   "id": "wa_ta_1810_20241105",
+   "url": "https://web.archive.org/web/20241105195653id_/https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1810.htm",
+   "final_url": "https://web.archive.org/web/20241119020705id_/https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1810.htm",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 18729,
+   "sha256": "81c259160e9446aef277818c4b52b2f123afade732a53956d3352c84b6bde5bd",
+   "saved": ".work/downloads/20261109-174147_R2X_gaps_web_archive2/wa_ta_1810_20241105.htm",
+   "title": "No.1810 家内労働者等の必要経費の特例｜国税庁",
+   "encoding": "utf-8",
+   "text_sha256": "220668e953a67a78dc4df99177608ca76ea1f858dd8f418ead4146c56b19c6a0"
+  },
+  {
+   "id": "wa_ta_1810_20250317",
+   "url": "https://web.archive.org/web/20250317120454id_/https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1810.htm",
+   "final_url": "https://web.archive.org/web/20250317120454id_/https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1810.htm",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 18800,
+   "sha256": "20aceecf7eeb537259349794580461b805994a197a15a89c464362a8b5f9d1b2",
+   "saved": ".work/downloads/20261109-174147_R2X_gaps_web_archive2/wa_ta_1810_20250317.htm",
+   "title": "No.1810 家内労働者等の必要経費の特例｜国税庁",
+   "encoding": "utf-8",
+   "text_sha256": "19b80d588d9b9afebf8df938c3addf5c0bd72185db9949f2fb9a80758e18faf8"
+  },
+  {
+   "id": "wa_ta_1810_20251105",
+   "url": "https://web.archive.org/web/20251105081756id_/https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1810.htm",
+   "final_url": "https://web.archive.org/web/20251105081756id_/https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1810.htm",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 19466,
+   "sha256": "f8e87aee21d75a4aff73e7ab4a51616d2211fcb9bb089e447200e1e4a1041830",
+   "saved": ".work/downloads/20261109-174147_R2X_gaps_web_archive2/wa_ta_1810_20251105.htm",
+   "title": "No.1810 家内労働者等の必要経費の特例｜国税庁",
+   "encoding": "utf-8",
+   "text_sha256": "749f18ede2216ce7fd83385dfd2312878cdab77d120de9b7793cfc85eb3768f6"
+  },
+  {
+   "id": "wa_ta_1810_20260915",
+   "url": "https://web.archive.org/web/20260915033802id_/https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1810.htm",
+   "final_url": "https://web.archive.org/web/20260915033802id_/https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1810.htm",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": null,
+   "bytes": 19802,
+   "sha256": "66d23053e2d026aae6270ea7700f5fc64a2bf0bfbdf67d9fdd17a5da050d2982",
+   "saved": ".work/downloads/20261109-174147_R2X_gaps_web_archive2/wa_ta_1810_20260915.htm",
+   "title": "No.1810 家内労働者等の必要経費の特例｜国税庁",
+   "encoding": "utf-8",
+   "text_sha256": "81fb691bfd05e1d5f7b3e32aabe1c0ac7c7a50502022d23641dc3f4c4eba4eb4"
+  }
+ ]
+}

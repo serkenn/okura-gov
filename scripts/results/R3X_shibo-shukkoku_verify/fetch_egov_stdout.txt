@@ -1,0 +1,65 @@
+ver shotoku 2025-12-31 200 340AC0000000033_20251218_507AC0000000013 PreviousEnforced
+ver shotoku 2026-11-09 200 340AC0000000033_20261001_507AC0000000070 CurrentEnforced
+ver shotoku 2026-11-30 200 340AC0000000033_20261001_507AC0000000070 CurrentEnforced
+ver shotoku 2026-12-01 200 340AC0000000033_20261201_508AC0000000012 UnEnforced
+ver shotoku 2026-12-31 200 340AC0000000033_20261201_508AC0000000012 UnEnforced
+ver shotoku 2027-01-01 200 340AC0000000033_20270101_507AC0000000013 UnEnforced
+ver shotoku-rei 2025-12-31 200 340CO0000000096_20251201_507CO0000000120 PreviousEnforced
+ver shotoku-rei 2026-11-09 200 340CO0000000096_20260522_508CO0000000093 CurrentEnforced
+ver shotoku-rei 2026-11-30 200 340CO0000000096_20260522_508CO0000000093 CurrentEnforced
+ver shotoku-rei 2026-12-01 200 340CO0000000096_20261201_508CO0000000093 UnEnforced
+ver shotoku-rei 2026-12-31 200 340CO0000000096_20261201_508CO0000000093 UnEnforced
+ver shotoku-rei 2027-01-01 200 340CO0000000096_20270101_508CO0000000093 UnEnforced
+ver shotoku-ki 2025-12-31 200 340M50000040011_20251201_507M60000040018 PreviousEnforced
+ver shotoku-ki 2026-11-09 200 340M50000040011_20261001_507M60000040018 CurrentEnforced
+ver shotoku-ki 2026-11-30 200 340M50000040011_20261001_507M60000040018 CurrentEnforced
+ver shotoku-ki 2026-12-01 200 340M50000040011_20261201_508M60000040017 UnEnforced
+ver shotoku-ki 2026-12-31 200 340M50000040011_20261211_508M60000040017 UnEnforced
+ver shotoku-ki 2027-01-01 200 340M50000040011_20270101_507M60000040018 UnEnforced
+ver sochi 2025-12-31 200 332AC0000000026_20251231_507AC1000000081 PreviousEnforced
+ver sochi 2026-11-09 200 332AC0000000026_20261101_507AC0000000013 CurrentEnforced
+ver sochi 2026-11-30 200 332AC0000000026_20261126_508AC0000000012 UnEnforced
+ver sochi 2026-12-01 200 332AC0000000026_20261201_508AC0000000012 UnEnforced
+ver sochi 2026-12-31 200 332AC0000000026_20261204_508AC0000000012 UnEnforced
+ver sochi 2027-01-01 200 332AC0000000026_20270101_508AC0000000012 UnEnforced
+ver tsusoku 2026-11-09 200 337AC0000000066_20261101_507AC0000000013 CurrentEnforced
+ver tsusoku 2027-01-01 200 337AC0000000066_20261101_507AC0000000013 CurrentEnforced
+ver tsusoku-rei 2026-11-09 200 337CO0000000135_20260401_507CO0000000126 CurrentEnforced
+ver tsusoku-rei 2027-01-01 200 337CO0000000135_20260401_507CO0000000126 CurrentEnforced
+ver chiho 2026-11-09 200 325AC0000000226_20261101_508AC0000000002 CurrentEnforced
+ver chiho 2027-01-01 200 325AC0000000226_20270101_508AC0000000002 UnEnforced
+ver shukujitsu 2026-11-09 200 323AC1000000178_20200101_430AC1000000057 CurrentEnforced
+ver shukujitsu 2027-01-01 200 323AC1000000178_20200101_430AC1000000057 CurrentEnforced
+rev shotoku 200 29
+rev shotoku-rei 200 16
+rev shotoku-ki 200 18
+rev sochi 200 44
+rev tsusoku 200 17
+rev tsusoku-rei 200 1
+rev chiho 200 67
+rev shukujitsu 200 0
+title kenkoku-rei [{'law_id': '341CO0000000376', 'law_num': '昭和四十一年政令第三百七十六号', 'title': '建国記念の日となる日を定める政令'}]
+title nenrei [{'law_id': '135AC1000000050', 'law_num': '明治三十五年法律第五十号', 'title': '明治三十五年法律第五十号（年齢計算ニ関スル法律）'}]
+ok shotoku 2025-12-31 340AC0000000033_20251218_507AC0000000013 missing [] suppl {'令和七年三月三一日法律第一三号': 15}
+ok shotoku 2026-11-11 340AC0000000033_20261001_507AC0000000070 missing [] suppl {'令和七年三月三一日法律第一三号': 16, '令和八年三月三一日法律第一二号': 4}
+ok shotoku 2026-12-01 340AC0000000033_20261201_508AC0000000012 missing [] suppl {'令和七年三月三一日法律第一三号': 16, '令和八年三月三一日法律第一二号': 10}
+ok shotoku 2027-01-01 340AC0000000033_20270101_508AC0000000012 missing [] suppl {'令和七年三月三一日法律第一三号': 16, '令和八年三月三一日法律第一二号': 13}
+ok shotoku-rei 2025-12-31 340CO0000000096_20251201_507CO0000000120 missing [] suppl {'令和七年三月三一日政令第一二〇号': 9}
+ok shotoku-rei 2026-11-11 340CO0000000096_20260522_508CO0000000093 missing [] suppl {'令和七年三月三一日政令第一二〇号': 13, '令和八年三月三一日政令第九三号': 5}
+ok shotoku-rei 2026-12-01 340CO0000000096_20261201_508CO0000000093 missing [] suppl {'令和七年三月三一日政令第一二〇号': 13, '令和八年三月三一日政令第九三号': 9}
+ok shotoku-rei 2027-01-01 340CO0000000096_20270101_508CO0000000093 missing [] suppl {'令和七年三月三一日政令第一二〇号': 13, '令和八年三月三一日政令第九三号': 9}
+ok shotoku-ki 2025-12-31 340M50000040011_20251201_507M60000040018 missing [] suppl {'令和七年三月三一日財務省令第一八号': 7}
+ok shotoku-ki 2026-11-11 340M50000040011_20261001_507M60000040018 missing [] suppl {'令和七年三月三一日財務省令第一八号': 10, '令和八年三月三一日財務省令第一七号': 5}
+ok shotoku-ki 2026-12-31 340M50000040011_20261211_508M60000040017 missing [] suppl {'令和七年三月三一日財務省令第一八号': 10, '令和八年三月三一日財務省令第一七号': 6}
+ok shotoku-ki 2027-01-01 340M50000040011_20270101_508M60000040017 missing [] suppl {'令和七年三月三一日財務省令第一八号': 10, '令和八年三月三一日財務省令第一七号': 6}
+ok sochi 2025-12-31 332AC0000000026_20251231_507AC1000000081 missing [] suppl {'令和七年三月三一日法律第一三号': 27}
+ok sochi 2026-11-11 332AC0000000026_20261101_507AC0000000013 missing [] suppl {'令和七年三月三一日法律第一三号': 39, '令和八年三月三一日法律第一二号': 38}
+ok sochi 2026-11-30 332AC0000000026_20261126_508AC0000000012 missing [] suppl {'令和七年三月三一日法律第一三号': 39, '令和八年三月三一日法律第一二号': 38}
+ok sochi 2026-12-01 332AC0000000026_20261201_508AC0000000012 missing [] suppl {'令和七年三月三一日法律第一三号': 39, '令和八年三月三一日法律第一二号': 41}
+ok sochi 2026-12-31 332AC0000000026_20261204_508AC0000000012 missing [] suppl {'令和七年三月三一日法律第一三号': 39, '令和八年三月三一日法律第一二号': 41}
+ok sochi 2027-01-01 332AC0000000026_20270101_508AC0000000012 missing [] suppl {'令和七年三月三一日法律第一三号': 40, '令和八年三月三一日法律第一二号': 47}
+ok tsusoku 2026-11-11 337AC0000000066_20261101_507AC0000000013 missing [] suppl {}
+ok tsusoku-rei 2026-11-11 337CO0000000135_20260401_507CO0000000126 missing [] suppl {}
+ok chiho 2026-11-11 325AC0000000226_20261101_508AC0000000002 missing [] suppl {}
+ok shukujitsu 2026-11-11 323AC1000000178_20200101_430AC1000000057 missing [] suppl {}
+done errors 0

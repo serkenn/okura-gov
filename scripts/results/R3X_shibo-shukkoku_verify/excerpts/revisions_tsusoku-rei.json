@@ -1,0 +1,15 @@
+{
+ "url": "https://laws.e-gov.go.jp/api/2/law_revisions/337CO0000000135?response_format=json",
+ "status": 200,
+ "revisions_since_2025": [
+  {
+   "law_revision_id": "337CO0000000135_20260401_507CO0000000126",
+   "amendment_law_num": "令和七年政令第百二十六号",
+   "amendment_law_title": "国税通則法施行令の一部を改正する政令",
+   "amendment_promulgate_date": "2025-03-31",
+   "amendment_enforcement_date": "2026-04-01",
+   "amendment_scheduled_enforcement_date": null,
+   "current_revision_status": "CurrentEnforced"
+  }
+ ]
+}

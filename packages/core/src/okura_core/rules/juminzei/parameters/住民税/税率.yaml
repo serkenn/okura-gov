@@ -1,0 +1,33 @@
+description: >-
+  法律に直接書かれた税率と端数の単位。所得割の税率（標準税率）と均等割の税率は条例の率・額で注入データにする（ここに置かない：injection_points）。
+  分離課税の率（上場株式等の配当・譲渡、退職所得）は条文に「標準税率」の語がない（docs/public-sources/20261109_round2_juminzei-tax-law-text.md §12）。
+分離課税:
+  上場株式等:
+    市町村民税: {分子: {description: 上場株式等に係る課税配当所得等・課税譲渡所得等の百分の三の分子（附則第33条の2・第35条の2の2）, metadata: &bunri {law: 地方税法附則第33条の2・第35条の2の2, source_kind: 法律, reference: [docs/public-sources/20261109_round2_juminzei-tax-law-text.md#12]}, values: {2025-01-01: {value: 3, metadata: &r89 {適用: 令和8年度分・令和9年度分（日付のキーは所得の年分の1月1日）}}}}, 分母: {description: 同じ率の分母, metadata: *bunri, values: {2025-01-01: {value: 100, metadata: *r89}}}}
+    道府県民税: {分子: {description: 百分の二の分子, metadata: *bunri, values: {2025-01-01: {value: 2, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *bunri, values: {2025-01-01: {value: 100, metadata: *r89}}}}
+    指定都市の市町村民税: {分子: {description: 指定都市の百分の四の分子, metadata: *bunri, values: {2025-01-01: {value: 4, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *bunri, values: {2025-01-01: {value: 100, metadata: *r89}}}}
+    指定都市の道府県民税: {分子: {description: 指定都市の百分の一の分子, metadata: *bunri, values: {2025-01-01: {value: 1, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *bunri, values: {2025-01-01: {value: 100, metadata: *r89}}}}
+  退職所得:
+    市町村民税: {分子: {description: 分離課税に係る所得割の百分の六の分子（第328条の3。指定都市の区分なし）, metadata: &taishoku {law: 地方税法第328条の3・第50条の4, source_kind: 法律, reference: [docs/public-sources/20261109_round2_juminzei-tax-law-text.md#12, docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md#6.3]}, values: {2025-01-01: {value: 6, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *taishoku, values: {2025-01-01: {value: 100, metadata: *r89}}}}
+    道府県民税: {分子: {description: 百分の四の分子（第50条の4）, metadata: *taishoku, values: {2025-01-01: {value: 4, metadata: *r89}}}, 分母: {description: 同じ率の分母, metadata: *taishoku, values: {2025-01-01: {value: 100, metadata: *r89}}}}
+端数:
+  課税標準の単位:
+    description: 課税標準額の千円未満の端数を切り捨てる（第20条の4の2第1項）。所得割では、税率を乗じる課税総所得金額等に当てる読み（JT1：一次情報で当て先が決まらない）
+    metadata:
+      law: 地方税法第20条の4の2第1項
+      source_kind: 法律
+      unit: 円
+      flags: [法令の読み]
+      reference: [docs/public-sources/20261109_round2_juminzei-tax-law-text.md#15]
+      reading: [docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md#H5]
+    values:
+      2025-01-01: {value: 1000, metadata: *r89}
+  確定金額の単位:
+    description: 確定金額の百円未満の端数を切り捨てる（第20条の4の2第3項。市町村民税・道府県民税ごと）
+    metadata:
+      law: 地方税法第20条の4の2第3項・第8項
+      source_kind: 法律
+      unit: 円
+      reference: [docs/public-sources/20261109_round2_juminzei-tax-law-text.md#15]
+    values:
+      2025-01-01: {value: 100, metadata: *r89}

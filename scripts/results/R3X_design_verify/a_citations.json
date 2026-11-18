@@ -1,0 +1,7011 @@
+{
+ "docs/hypotheses/20261109_round3_design-vocabulary.md": {
+  "aliases": {
+   "M-VOC": "docs/measurements/20261109_round3_design-vocab-scan.md",
+   "BC-run": "docs/measurements/20261109_R2-tools_beancount-runtime.md",
+   "OF-run": "docs/measurements/20261109_R2-tools_openfisca-core-runtime.md",
+   "OFP": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+   "M-AGE": "docs/measurements/20261109_impl-prep_misc-fetch-and-age-check.md",
+   "M-GP": "docs/measurements/20261109_round2_gaps-fetch-and-checks.md",
+   "PTA": "docs/public-sources/20261109_R2-tools_plain-text-accounting-source.md",
+   "CON": "docs/public-sources/20261109_R4-modeling_concepts.md",
+   "IT": "docs/public-sources/20261109_R1-laws_income-tax.md",
+   "SA": "docs/public-sources/20261109_R1-laws_social-insurance-age-records.md",
+   "NTA": "docs/public-sources/20261109_R3-tsutatsu_nta.md",
+   "SH": "docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md",
+   "PS-D": "docs/public-sources/20261109_impl-prep_denchoho-requirements.md",
+   "IRL": "docs/public-sources/20261109_impl-prep_iryohi-law-text.md",
+   "IRN": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+   "JG": "docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md",
+   "JU": "docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md",
+   "KP": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+   "KYS": "docs/public-sources/20261109_impl-prep_kyuyo-sources.md",
+   "MISC": "docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md",
+   "OUT": "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md",
+   "ZG": "docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md",
+   "AO": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+   "EAG": "docs/public-sources/20261109_round2_elderly-abroad-guidance.md",
+   "EAL": "docs/public-sources/20261109_round2_elderly-abroad-laws.md",
+   "GP": "docs/public-sources/20261109_round2_gaps-sources.md",
+   "GE": "docs/public-sources/20261109_round2_genka-laws-and-nta.md",
+   "HKL": "docs/public-sources/20261109_round2_hoken-kifu-laws.md",
+   "HKN": "docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md",
+   "JT": "docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md",
+   "JTL": "docs/public-sources/20261109_round2_juminzei-tax-law-text.md",
+   "JTA": "docs/public-sources/20261109_round2_juminzei-tax-admin-and-municipal.md",
+   "KH": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+   "KYL": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+   "KYA": "docs/public-sources/20261109_round2_kyosai-separate-address.md",
+   "SP": "docs/public-sources/20261109_round2_spouse-laws-and-sources.md",
+   "YS": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+   "FD": "docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md",
+   "INV": "docs/public-sources/20261109_round2b_invoice-laws-and-nta.md",
+   "KB": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+   "NK": "docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md",
+   "TS": "docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md",
+   "KYB": "docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md",
+   "SS": "docs/public-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md",
+   "CS": "docs/public-sources/20261109_round3_chiho-sochi-law-and-notices.md",
+   "JXL": "docs/public-sources/20261109_round3_juminzei-extra-law-text.md",
+   "JXA": "docs/public-sources/20261109_round3_juminzei-extra-admin-and-municipal.md",
+   "M-VER": "docs/measurements/20261109_round3_design-verification.md"
+  },
+  "alias_kinds": {
+   "M-VOC": "measurements",
+   "BC-run": "measurements",
+   "OF-run": "measurements",
+   "OFP": "measurements",
+   "M-AGE": "measurements",
+   "M-GP": "measurements",
+   "PTA": "public-sources",
+   "CON": "public-sources",
+   "IT": "public-sources",
+   "SA": "public-sources",
+   "NTA": "public-sources",
+   "SH": "public-sources",
+   "PS-D": "public-sources",
+   "IRL": "public-sources",
+   "IRN": "public-sources",
+   "JG": "public-sources",
+   "JU": "public-sources",
+   "KP": "public-sources",
+   "KYS": "public-sources",
+   "MISC": "public-sources",
+   "OUT": "public-sources",
+   "ZG": "public-sources",
+   "AO": "public-sources",
+   "EAG": "public-sources",
+   "EAL": "public-sources",
+   "GP": "public-sources",
+   "GE": "public-sources",
+   "HKL": "public-sources",
+   "HKN": "public-sources",
+   "JT": "public-sources",
+   "JTL": "public-sources",
+   "JTA": "public-sources",
+   "KH": "public-sources",
+   "KYL": "public-sources",
+   "KYA": "public-sources",
+   "SP": "public-sources",
+   "YS": "public-sources",
+   "FD": "public-sources",
+   "INV": "public-sources",
+   "KB": "public-sources",
+   "NK": "public-sources",
+   "TS": "public-sources",
+   "KYB": "public-sources",
+   "SS": "public-sources",
+   "CS": "public-sources",
+   "JXL": "public-sources",
+   "JXA": "public-sources",
+   "M-VER": "measurements"
+  },
+  "unused_aliases": [
+   "IT",
+   "M-AGE",
+   "PTA"
+  ],
+  "n_citation_groups": 329,
+  "n_refs": 463,
+  "n_fail": 6,
+  "failures": [
+   {
+    "line": 361,
+    "alias": "M-VOC",
+    "tail": "",
+    "refs": [],
+    "col": 71,
+    "file": "docs/measurements/20261109_round3_design-vocab-scan.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   },
+   {
+    "line": 519,
+    "alias": "M-VER",
+    "tail": "）",
+    "refs": [],
+    "col": 18,
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   },
+   {
+    "line": 521,
+    "alias": "KYB",
+    "tail": "・",
+    "refs": [],
+    "col": 43,
+    "file": "docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   },
+   {
+    "line": 521,
+    "alias": "SS",
+    "tail": "・",
+    "refs": [],
+    "col": 49,
+    "file": "docs/public-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   },
+   {
+    "line": 521,
+    "alias": "CS",
+    "tail": "・",
+    "refs": [],
+    "col": 54,
+    "file": "docs/public-sources/20261109_round3_chiho-sochi-law-and-notices.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   },
+   {
+    "line": 521,
+    "alias": "M-VER",
+    "tail": "",
+    "refs": [],
+    "col": 59,
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   }
+  ],
+  "all": [
+   {
+    "line": 9,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§2.4",
+    "ok": true,
+    "why": "",
+    "heading": "2.4 パスの実在：concepts・conflicts の文書がない"
+   },
+   {
+    "line": 11,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 111,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 119,
+    "alias": "M-VOC",
+    "file": "docs/measurements/20261109_round3_design-vocab-scan.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 言い換えの候補の出現数（`variants.json`）"
+   },
+   {
+    "line": 123,
+    "alias": "BC-run",
+    "file": "docs/measurements/20261109_R2-tools_beancount-runtime.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 日本語の文字列・メタデータ・タグ（`2_japanese_text`）"
+   },
+   {
+    "line": 123,
+    "alias": "BC-run",
+    "file": "docs/measurements/20261109_R2-tools_beancount-runtime.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 取引ID（メタデータ `id:`）と beanquery による集計（`3_id_and_query`）"
+   },
+   {
+    "line": 123,
+    "alias": "BC-run",
+    "file": "docs/measurements/20261109_R2-tools_beancount-runtime.md",
+    "ref": "§7",
+    "ok": true,
+    "why": "",
+    "heading": "7. 証憑（`document`）（`7_document`）"
+   },
+   {
+    "line": 124,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§5.4",
+    "ok": true,
+    "why": "",
+    "heading": "5.4 年の途中の変化"
+   },
+   {
+    "line": 124,
+    "alias": "PS-D",
+    "file": "docs/public-sources/20261109_impl-prep_denchoho-requirements.md",
+    "ref": "§2.7",
+    "ok": true,
+    "why": "",
+    "heading": "2.7 保存の方法として認められるもの・認められないもの（Q&A（取引））"
+   },
+   {
+    "line": 124,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 引用の中身（目で確かめた行）"
+   },
+   {
+    "line": 125,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§4.1",
+    "ok": true,
+    "why": "",
+    "heading": "4.1 生計を一にする（所得税：法に定義なし、所基通2-47）"
+   },
+   {
+    "line": 125,
+    "alias": "NTA",
+    "file": "docs/public-sources/20261109_R3-tsutatsu_nta.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 2−47 生計を一にするの意義 [通達]"
+   },
+   {
+    "line": 125,
+    "alias": "NTA",
+    "file": "docs/public-sources/20261109_R3-tsutatsu_nta.md",
+    "ref": "§1.3",
+    "ok": true,
+    "why": "",
+    "heading": "1.3 45−1・45−2 家事関連費 [通達]"
+   },
+   {
+    "line": 126,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§1.4",
+    "ok": true,
+    "why": "",
+    "heading": "1.4 通達（措置法通達 8の4-1）"
+   },
+   {
+    "line": 126,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 申告不要を選んだ配当と合計所得金額"
+   },
+   {
+    "line": 126,
+    "alias": "IRN",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§6.1",
+    "ok": true,
+    "why": "",
+    "heading": "6.1 要件と選択（TA1129・TA1131・特集セルフ）"
+   },
+   {
+    "line": 126,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§4.7",
+    "ok": true,
+    "why": "",
+    "heading": "4.7 納税者（控除を受ける人）と、重ねて控除できないこと"
+   },
+   {
+    "line": 127,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 年間収入は「今後1年間の見込み」"
+   },
+   {
+    "line": 127,
+    "alias": "SS",
+    "file": "docs/public-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md",
+    "ref": "§4.2",
+    "ok": true,
+    "why": "",
+    "heading": "4.2 通達と国税庁の説明"
+   },
+   {
+    "line": 127,
+    "alias": "SP",
+    "file": "docs/public-sources/20261109_round2_spouse-laws-and-sources.md",
+    "ref": "§1.8",
+    "ok": true,
+    "why": "",
+    "heading": "1.8 通達・質疑応答事例・タックスアンサーの Q&A（年の途中の死亡、専従者、非課税の給付）"
+   },
+   {
+    "line": 127,
+    "alias": "IRN",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 補塡の扱い [TA][QA][様式]"
+   },
+   {
+    "line": 127,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 令和7年分・令和8年分（2025-12-31 版と 2026-12-31 版で同文。措規9の6 も同文。実測 §4.2）"
+   },
+   {
+    "line": 127,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 128,
+    "alias": "JTL",
+    "file": "docs/public-sources/20261109_round2_juminzei-tax-law-text.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 所得割の税率（第314条の3（第35条））と標準税率（F）"
+   },
+   {
+    "line": 128,
+    "alias": "KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 国民健康保険料（国保法）"
+   },
+   {
+    "line": 128,
+    "alias": "KYL",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§6",
+    "ok": true,
+    "why": "",
+    "heading": "6. 収入の範囲・事業収入・年間収入の見込み方（組合ごとの書き方の違い）"
+   },
+   {
+    "line": 130,
+    "alias": "M-VOC",
+    "file": "docs/measurements/20261109_round3_design-vocab-scan.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 名前つきの関数らしい名前の書き方（`named_functions.tsv`）"
+   },
+   {
+    "line": 136,
+    "alias": "BC-run",
+    "file": "docs/measurements/20261109_R2-tools_beancount-runtime.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 日本語の文字列・メタデータ・タグ（`2_japanese_text`）"
+   },
+   {
+    "line": 136,
+    "alias": "M-VOC",
+    "file": "docs/measurements/20261109_round3_design-vocab-scan.md",
+    "ref": "§1",
+    "ok": true,
+    "why": "",
+    "heading": "1. バッククォートで囲んだ語の分類（`token_summary.json`）"
+   },
+   {
+    "line": 137,
+    "alias": "M-VOC",
+    "file": "docs/measurements/20261109_round3_design-vocab-scan.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 概念 ID らしい名前の接頭辞（`prefix_summary.json`）"
+   },
+   {
+    "line": 137,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 判定コアの CLI 形（標準入力の JSON → 標準出力の JSON）（P10）"
+   },
+   {
+    "line": 138,
+    "alias": "M-VOC",
+    "file": "docs/measurements/20261109_round3_design-vocab-scan.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 概念 ID らしい名前の接頭辞（`prefix_summary.json`）"
+   },
+   {
+    "line": 139,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 139,
+    "alias": "M-VOC",
+    "file": "docs/measurements/20261109_round3_design-vocab-scan.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 名前つきの関数らしい名前の書き方（`named_functions.tsv`）"
+   },
+   {
+    "line": 139,
+    "alias": "M-VOC",
+    "file": "docs/measurements/20261109_round3_design-vocab-scan.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 名前つきの関数らしい名前の書き方（`named_functions.tsv`）"
+   },
+   {
+    "line": 139,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 引用の中身（目で確かめた行）"
+   },
+   {
+    "line": 140,
+    "alias": "M-VOC",
+    "file": "docs/measurements/20261109_round3_design-vocab-scan.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 言い換えの候補の出現数（`variants.json`）"
+   },
+   {
+    "line": 141,
+    "alias": "M-VOC",
+    "file": "docs/measurements/20261109_round3_design-vocab-scan.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 概念 ID らしい名前の接頭辞（`prefix_summary.json`）"
+   },
+   {
+    "line": 142,
+    "alias": "M-VOC",
+    "file": "docs/measurements/20261109_round3_design-vocab-scan.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 言い換えの候補の出現数（`variants.json`）"
+   },
+   {
+    "line": 152,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§4.7",
+    "ok": true,
+    "why": "",
+    "heading": "4.7 納税者（控除を受ける人）と、重ねて控除できないこと"
+   },
+   {
+    "line": 152,
+    "alias": "MISC",
+    "file": "docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 原文（所令@2026-12-31。他の版も同文）"
+   },
+   {
+    "line": 152,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§1.4",
+    "ok": true,
+    "why": "",
+    "heading": "1.4 通達（措置法通達 8の4-1）"
+   },
+   {
+    "line": 152,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 申告不要を選んだ配当と合計所得金額"
+   },
+   {
+    "line": 152,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§5.2",
+    "ok": true,
+    "why": "",
+    "heading": "5.2 申告不要（措法第37条の11の5、措令第25条の10の12）"
+   },
+   {
+    "line": 152,
+    "alias": "IRN",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§6.1",
+    "ok": true,
+    "why": "",
+    "heading": "6.1 要件と選択（TA1129・TA1131・特集セルフ）"
+   },
+   {
+    "line": 156,
+    "alias": "PS-D",
+    "file": "docs/public-sources/20261109_impl-prep_denchoho-requirements.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 真実性（改ざん防止）：次のいずれか一つ（規則第4条第1項各号）"
+   },
+   {
+    "line": 156,
+    "alias": "PS-D",
+    "file": "docs/public-sources/20261109_impl-prep_denchoho-requirements.md",
+    "ref": "§6.1",
+    "ok": true,
+    "why": "",
+    "heading": "6.1 電子取引データの訂正及び削除の防止に関する事務処理規程（個人事業者の例）"
+   },
+   {
+    "line": 156,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§1.4",
+    "ok": true,
+    "why": "",
+    "heading": "1.4 却下・通知・みなし承認（所法145〜147）"
+   },
+   {
+    "line": 169,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§5.2",
+    "ok": true,
+    "why": "",
+    "heading": "5.2 1人が複数の集まりに属すること（原文で言えること）"
+   },
+   {
+    "line": 169,
+    "alias": "OF-run",
+    "file": "docs/measurements/20261109_R2-tools_openfisca-core-runtime.md",
+    "ref": "T02",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "line": 169,
+    "alias": "OUT",
+    "file": "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 第一表（`NTA1K?A020010230`。`?` は §5.1）"
+   },
+   {
+    "line": 170,
+    "alias": "SA",
+    "file": "docs/public-sources/20261109_R1-laws_social-insurance-age-records.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 年齢の数え方"
+   },
+   {
+    "line": 170,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 年齢と成年"
+   },
+   {
+    "line": 170,
+    "alias": "MISC",
+    "file": "docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 判定の時点（原文）"
+   },
+   {
+    "line": 170,
+    "alias": "MISC",
+    "file": "docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md",
+    "ref": "§1.3",
+    "ok": true,
+    "why": "",
+    "heading": "1.3 年齢の数え方と、1月1日生まれの扱い"
+   },
+   {
+    "line": 170,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§5.5",
+    "ok": true,
+    "why": "",
+    "heading": "5.5 19歳以上23歳未満の年齢の判定時点（R3 の「12月31日」の再確認）"
+   },
+   {
+    "line": 171,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§5.1",
+    "ok": true,
+    "why": "",
+    "heading": "5.1 判定の時点と期間"
+   },
+   {
+    "line": 171,
+    "alias": "SP",
+    "file": "docs/public-sources/20261109_round2_spouse-laws-and-sources.md",
+    "ref": "§2.1",
+    "ok": true,
+    "why": "",
+    "heading": "2.1 所得税"
+   },
+   {
+    "line": 172,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§2.1",
+    "ok": true,
+    "why": "",
+    "heading": "2.1 居住者・非居住者（所法2①三・四・五）"
+   },
+   {
+    "line": 172,
+    "alias": "EAL",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-laws.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 居住者・非居住者の判定（所得税）"
+   },
+   {
+    "line": 172,
+    "alias": "EAG",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-guidance.md",
+    "ref": "§3.3",
+    "ok": true,
+    "why": "",
+    "heading": "3.3 判定の時点・範囲（［QA-KG］）"
+   },
+   {
+    "line": 172,
+    "alias": "EAG",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-guidance.md",
+    "ref": "§5.3",
+    "ok": true,
+    "why": "",
+    "heading": "5.3 国内居住要件と例外（［R01］・［R05］・［N-KYOJU］）"
+   },
+   {
+    "line": 173,
+    "alias": "EAL",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-laws.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 居住者・非居住者の判定（所得税）"
+   },
+   {
+    "line": 174,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 親族（民法725〜729）"
+   },
+   {
+    "line": 174,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§4.2",
+    "ok": true,
+    "why": "",
+    "heading": "4.2 世帯・世帯主（住民基本台帳法ほか：定義規定なし）"
+   },
+   {
+    "line": 174,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 総務省「住民基本台帳事務処理要領」の世帯の定義"
+   },
+   {
+    "line": 174,
+    "alias": "KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 国民健康保険料（国保法）"
+   },
+   {
+    "line": 175,
+    "alias": "EAG",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-guidance.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 国税庁の説明（原文）"
+   },
+   {
+    "line": 175,
+    "alias": "KYA",
+    "file": "docs/public-sources/20261109_round2_kyosai-separate-address.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 共済の「同一の世帯」の定義と、単身赴任・転勤（[運用方針]・[組合]）"
+   },
+   {
+    "line": 176,
+    "alias": "EAG",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-guidance.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 国税庁の説明（原文）"
+   },
+   {
+    "line": 177,
+    "alias": "ZG",
+    "file": "docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md",
+    "ref": "§6.1",
+    "ok": true,
+    "why": "",
+    "heading": "6.1 定義（所得税法第2条第1項第32号）"
+   },
+   {
+    "line": 177,
+    "alias": "ZG",
+    "file": "docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md",
+    "ref": "§6.2",
+    "ok": true,
+    "why": "",
+    "heading": "6.2 政令で定める者・課程（所得税法施行令第11条の3）"
+   },
+   {
+    "line": 177,
+    "alias": "GP",
+    "file": "docs/public-sources/20261109_round2_gaps-sources.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 条文（F）"
+   },
+   {
+    "line": 177,
+    "alias": "KYL",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 第2条関係 第1項第2号（PDF 2〜3ページ。PDF の描画を読んだ）"
+   },
+   {
+    "line": 177,
+    "alias": "KYA",
+    "file": "docs/public-sources/20261109_round2_kyosai-separate-address.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 別居の学生の子"
+   },
+   {
+    "line": 178,
+    "alias": "JT",
+    "file": "docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md",
+    "ref": "§1.5",
+    "ok": true,
+    "why": "",
+    "heading": "1.5 障害者・特別障害者の範囲（F：所令 第10条。3つの版で同じ）"
+   },
+   {
+    "line": 178,
+    "alias": "JT",
+    "file": "docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md",
+    "ref": "§1.8",
+    "ok": true,
+    "why": "",
+    "heading": "1.8 国税庁の案内（E）"
+   },
+   {
+    "line": 178,
+    "alias": "JT",
+    "file": "docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md",
+    "ref": "§1.9",
+    "ok": true,
+    "why": "",
+    "heading": "1.9 厚生労働省の事務連絡（E：要介護認定と市町村長等の認定）"
+   },
+   {
+    "line": 178,
+    "alias": "JT",
+    "file": "docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 障害者控除の範囲が引用する手帳・認定（F）"
+   },
+   {
+    "line": 179,
+    "alias": "JT",
+    "file": "docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md",
+    "ref": "§1.8",
+    "ok": true,
+    "why": "",
+    "heading": "1.8 国税庁の案内（E）"
+   },
+   {
+    "line": 179,
+    "alias": "JT",
+    "file": "docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md",
+    "ref": "§1.9",
+    "ok": true,
+    "why": "",
+    "heading": "1.9 厚生労働省の事務連絡（E：要介護認定と市町村長等の認定）"
+   },
+   {
+    "line": 180,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 夫婦共同扶養の場合の子の認定基準（R4 未決 U8）"
+   },
+   {
+    "line": 180,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§4.1",
+    "ok": true,
+    "why": "",
+    "heading": "4.1 法令で確認できたこと・できなかったこと"
+   },
+   {
+    "line": 180,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 出典が判定の材料として挙げる事項（一覧）"
+   },
+   {
+    "line": 180,
+    "alias": "KYL",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 違い（条文の文言から言えること）"
+   },
+   {
+    "line": 180,
+    "alias": "KYL",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§6.4",
+    "ok": true,
+    "why": "",
+    "heading": "6.4 収入に波がある人の「年間収入」の見方"
+   },
+   {
+    "line": 180,
+    "alias": "EAL",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-laws.md",
+    "ref": "§6.1",
+    "ok": true,
+    "why": "",
+    "heading": "6.1 健保法3⑦（asof 2025-12-31・2026-11-09 で同文）"
+   },
+   {
+    "line": 180,
+    "alias": "KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 国民健康保険料（国保法）"
+   },
+   {
+    "line": 181,
+    "alias": "KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§12.1",
+    "ok": true,
+    "why": "",
+    "heading": "12.1 種類と、所得を審査される人"
+   },
+   {
+    "line": 181,
+    "alias": "SP",
+    "file": "docs/public-sources/20261109_round2_spouse-laws-and-sources.md",
+    "ref": "§5.1",
+    "ok": true,
+    "why": "",
+    "heading": "5.1 法令"
+   },
+   {
+    "line": 182,
+    "alias": "KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 国民健康保険料（国保法）"
+   },
+   {
+    "line": 182,
+    "alias": "KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 料（国保令第29条の7第2項〜第5項。2026-04-01 以後の版）"
+   },
+   {
+    "line": 182,
+    "alias": "KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§4.3",
+    "ok": true,
+    "why": "",
+    "heading": "4.3 非自発的失業者の特例（料・税）"
+   },
+   {
+    "line": 182,
+    "alias": "KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 産前産後の減額（出産被保険者）"
+   },
+   {
+    "line": 182,
+    "alias": "KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§11.3",
+    "ok": true,
+    "why": "",
+    "heading": "11.3 産前産後・育児期間の免除（届出による。所得の基準なし）"
+   },
+   {
+    "line": 183,
+    "alias": "JU",
+    "file": "docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 法律（F）"
+   },
+   {
+    "line": 183,
+    "alias": "TS",
+    "file": "docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md",
+    "ref": "§6.2",
+    "ok": true,
+    "why": "",
+    "heading": "6.2 非課税（F）"
+   },
+   {
+    "line": 184,
+    "alias": "KYA",
+    "file": "docs/public-sources/20261109_round2_kyosai-separate-address.md",
+    "ref": "§4.1",
+    "ok": true,
+    "why": "",
+    "heading": "4.1 誰がどこで課税されるか（条文）"
+   },
+   {
+    "line": 184,
+    "alias": "KYA",
+    "file": "docs/public-sources/20261109_round2_kyosai-separate-address.md",
+    "ref": "§4.2",
+    "ok": true,
+    "why": "",
+    "heading": "4.2 住所の認定（総務省の通知・要領）"
+   },
+   {
+    "line": 185,
+    "alias": "INV",
+    "file": "docs/public-sources/20261109_round2b_invoice-laws-and-nta.md",
+    "ref": "§1",
+    "ok": true,
+    "why": "",
+    "heading": "1. 消費税の納税義務の免除と課税事業者（令和7年分・令和8年分で同じ文言）"
+   },
+   {
+    "line": 186,
+    "alias": "INV",
+    "file": "docs/public-sources/20261109_round2b_invoice-laws-and-nta.md",
+    "ref": "§1",
+    "ok": true,
+    "why": "",
+    "heading": "1. 消費税の納税義務の免除と課税事業者（令和7年分・令和8年分で同じ文言）"
+   },
+   {
+    "line": 186,
+    "alias": "INV",
+    "file": "docs/public-sources/20261109_round2b_invoice-laws-and-nta.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 国税庁の手引き・タックスアンサーの説明（所得税の申告の実務）"
+   },
+   {
+    "line": 187,
+    "alias": "KYL",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 第2条関係 第1項第2号（PDF 2〜3ページ。PDF の描画を読んだ）"
+   },
+   {
+    "line": 187,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 夫婦共同扶養の場合の子の認定基準（R4 未決 U8）"
+   },
+   {
+    "line": 188,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§3.4",
+    "ok": true,
+    "why": "",
+    "heading": "3.4 事業専従者（所法57、所令165）"
+   },
+   {
+    "line": 188,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§4.1",
+    "ok": true,
+    "why": "",
+    "heading": "4.1 要件（令和7年分・令和8年分の版で同文）"
+   },
+   {
+    "line": 194,
+    "alias": "MISC",
+    "file": "docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 最高裁判決（［判平3］）"
+   },
+   {
+    "line": 194,
+    "alias": "MISC",
+    "file": "docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md",
+    "ref": "§2.3",
+    "ok": true,
+    "why": "",
+    "heading": "2.3 国税庁の資料"
+   },
+   {
+    "line": 194,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 親族（民法725〜729）"
+   },
+   {
+    "line": 195,
+    "alias": "MISC",
+    "file": "docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md",
+    "ref": "§2.3",
+    "ok": true,
+    "why": "",
+    "heading": "2.3 国税庁の資料"
+   },
+   {
+    "line": 195,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 親族（民法725〜729）"
+   },
+   {
+    "line": 196,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 親族（民法725〜729）"
+   },
+   {
+    "line": 196,
+    "alias": "SP",
+    "file": "docs/public-sources/20261109_round2_spouse-laws-and-sources.md",
+    "ref": "§2.1",
+    "ok": true,
+    "why": "",
+    "heading": "2.1 所得税"
+   },
+   {
+    "line": 196,
+    "alias": "MISC",
+    "file": "docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md",
+    "ref": "§2.3",
+    "ok": true,
+    "why": "",
+    "heading": "2.3 国税庁の資料"
+   },
+   {
+    "line": 196,
+    "alias": "JT",
+    "file": "docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md",
+    "ref": "§1.6",
+    "ok": true,
+    "why": "",
+    "heading": "1.6 寡婦・ひとり親の範囲（F：所令 第11条・第11条の2、所規 第1条の3・第1条の4）"
+   },
+   {
+    "line": 197,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 親族（民法725〜729）"
+   },
+   {
+    "line": 197,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§3.3",
+    "ok": true,
+    "why": "",
+    "heading": "3.3 扶養親族に関する区分（所法2①三十四〜三十四の五、84の2）"
+   },
+   {
+    "line": 198,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§4.1",
+    "ok": true,
+    "why": "",
+    "heading": "4.1 生計を一にする（所得税：法に定義なし、所基通2-47）"
+   },
+   {
+    "line": 198,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§2.3",
+    "ok": true,
+    "why": "",
+    "heading": "2.3 健康保険の通知・Q&A・案内での「同一世帯」"
+   },
+   {
+    "line": 198,
+    "alias": "EAG",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-guidance.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 国税庁の説明（原文）"
+   },
+   {
+    "line": 199,
+    "alias": "KYA",
+    "file": "docs/public-sources/20261109_round2_kyosai-separate-address.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 共済の「同一の世帯」の定義と、単身赴任・転勤（[運用方針]・[組合]）"
+   },
+   {
+    "line": 199,
+    "alias": "KYL",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 第2条関係 第1項第2号（PDF 2〜3ページ。PDF の描画を読んだ）"
+   },
+   {
+    "line": 200,
+    "alias": "SS",
+    "file": "docs/public-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md",
+    "ref": "§2.1",
+    "ok": true,
+    "why": "",
+    "heading": "2.1 条文"
+   },
+   {
+    "line": 208,
+    "alias": "BC-run",
+    "file": "docs/measurements/20261109_R2-tools_beancount-runtime.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 日本語の文字列・メタデータ・タグ（`2_japanese_text`）"
+   },
+   {
+    "line": 208,
+    "alias": "BC-run",
+    "file": "docs/measurements/20261109_R2-tools_beancount-runtime.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 取引ID（メタデータ `id:`）と beanquery による集計（`3_id_and_query`）"
+   },
+   {
+    "line": 208,
+    "alias": "BC-run",
+    "file": "docs/measurements/20261109_R2-tools_beancount-runtime.md",
+    "ref": "§7",
+    "ok": true,
+    "why": "",
+    "heading": "7. 証憑（`document`）（`7_document`）"
+   },
+   {
+    "line": 208,
+    "alias": "PS-D",
+    "file": "docs/public-sources/20261109_impl-prep_denchoho-requirements.md",
+    "ref": "§2.7",
+    "ok": true,
+    "why": "",
+    "heading": "2.7 保存の方法として認められるもの・認められないもの（Q&A（取引））"
+   },
+   {
+    "line": 208,
+    "alias": "JG",
+    "file": "docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md",
+    "ref": "§4.1",
+    "ok": true,
+    "why": "",
+    "heading": "4.1 業務に係る雑所得の現金主義（所法67②、所令196の2・196の3・197③、所規40②〜④）"
+   },
+   {
+    "line": 209,
+    "alias": "KYS",
+    "file": "docs/public-sources/20261109_impl-prep_kyuyo-sources.md",
+    "ref": "§1.4",
+    "ok": true,
+    "why": "",
+    "heading": "1.4 別表第五の改正の施行と適用（改正法の附則の原文）"
+   },
+   {
+    "line": 209,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 収入の種類ごとの扱い"
+   },
+   {
+    "line": 209,
+    "alias": "NTA",
+    "file": "docs/public-sources/20261109_R3-tsutatsu_nta.md",
+    "ref": "§2.3",
+    "ok": true,
+    "why": "",
+    "heading": "2.3 年末調整のしかた・扶養控除等申告書 [QA]"
+   },
+   {
+    "line": 210,
+    "alias": "JG",
+    "file": "docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md",
+    "ref": "§4.1",
+    "ok": true,
+    "why": "",
+    "heading": "4.1 業務に係る雑所得の現金主義（所法67②、所令196の2・196の3・197③、所規40②〜④）"
+   },
+   {
+    "line": 210,
+    "alias": "JG",
+    "file": "docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 原文が参照している事実（記録層の設計への含意は仮説の文書へ移した）"
+   },
+   {
+    "line": 210,
+    "alias": "NTA",
+    "file": "docs/public-sources/20261109_R3-tsutatsu_nta.md",
+    "ref": "§1.4",
+    "ok": true,
+    "why": "",
+    "heading": "1.4 35−2 業務に係る雑所得（令和4年10月7日改正）[通達]"
+   },
+   {
+    "line": 210,
+    "alias": "NTA",
+    "file": "docs/public-sources/20261109_R3-tsutatsu_nta.md",
+    "ref": "§1.5",
+    "ok": true,
+    "why": "",
+    "heading": "1.5 給与所得と事業所得の区分 [通達]（所得税基本通達には一般的な判断基準の項がない）"
+   },
+   {
+    "line": 211,
+    "alias": "NTA",
+    "file": "docs/public-sources/20261109_R3-tsutatsu_nta.md",
+    "ref": "§1.3",
+    "ok": true,
+    "why": "",
+    "heading": "1.3 45−1・45−2 家事関連費 [通達]"
+   },
+   {
+    "line": 211,
+    "alias": "JG",
+    "file": "docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 条文の原文"
+   },
+   {
+    "line": 211,
+    "alias": "JG",
+    "file": "docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md",
+    "ref": "§7.4",
+    "ok": true,
+    "why": "",
+    "heading": "7.4 収支内訳書（一般用）の様式（【令和５年分以降用】、様式ID NTA0KOA110010120・NTA0KOA110020120）の項目名"
+   },
+   {
+    "line": 211,
+    "alias": "KYL",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§6.3",
+    "ok": true,
+    "why": "",
+    "heading": "6.3 事業収入"
+   },
+   {
+    "line": 211,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 収入の種類ごとの扱い"
+   },
+   {
+    "line": 212,
+    "alias": "JG",
+    "file": "docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 原文が参照している事実（記録層の設計への含意は仮説の文書へ移した）"
+   },
+   {
+    "line": 212,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§4.1",
+    "ok": true,
+    "why": "",
+    "heading": "4.1 要件（令和7年分・令和8年分の版で同文）"
+   },
+   {
+    "line": 213,
+    "alias": "IRL",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-law-text.md",
+    "ref": "§1",
+    "ok": true,
+    "why": "",
+    "heading": "1. 所得税法 第73条（医療費控除）"
+   },
+   {
+    "line": 213,
+    "alias": "IRL",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-law-text.md",
+    "ref": "§5.2",
+    "ok": true,
+    "why": "",
+    "heading": "5.2 所得税法施行規則 第47条の2 第12項・第13項（2025-12-31 版）"
+   },
+   {
+    "line": 213,
+    "alias": "IRN",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§1",
+    "ok": true,
+    "why": "",
+    "heading": "1. 所得税基本通達 73−1〜73−10 [通達]"
+   },
+   {
+    "line": 213,
+    "alias": "IRN",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 医療費控除の対象となる医療費 [TA]（TA1122）と、明細書の「医療費の区分」"
+   },
+   {
+    "line": 213,
+    "alias": "IRN",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§6.3",
+    "ok": true,
+    "why": "",
+    "heading": "6.3 対象医薬品の範囲と、令和7年分・令和8年分の違い（TA1132、厚労除外、厚労QA）"
+   },
+   {
+    "line": 213,
+    "alias": "IRN",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§6.4",
+    "ok": true,
+    "why": "",
+    "heading": "6.4 対象医薬品の見分け方（レシートの表示）"
+   },
+   {
+    "line": 213,
+    "alias": "IRN",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§7",
+    "ok": true,
+    "why": "",
+    "heading": "7. 誰が控除するか・同じ医療費の重複 [QA][厚労]"
+   },
+   {
+    "line": 213,
+    "alias": "IRN",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 年分への帰属と、医療費に当たるか（質疑応答事例）[QA]"
+   },
+   {
+    "line": 214,
+    "alias": "IRN",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§1",
+    "ok": true,
+    "why": "",
+    "heading": "1. 所得税基本通達 73−1〜73−10 [通達]"
+   },
+   {
+    "line": 214,
+    "alias": "IRN",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 補塡の扱い [TA][QA][様式]"
+   },
+   {
+    "line": 215,
+    "alias": "ZG",
+    "file": "docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md",
+    "ref": "§7.1",
+    "ok": true,
+    "why": "",
+    "heading": "7.1 条文"
+   },
+   {
+    "line": 215,
+    "alias": "ZG",
+    "file": "docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md",
+    "ref": "§7.2",
+    "ok": true,
+    "why": "",
+    "heading": "7.2 国税庁の一次情報"
+   },
+   {
+    "line": 215,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§5.3",
+    "ok": true,
+    "why": "",
+    "heading": "5.3 支払った人と、受益した人"
+   },
+   {
+    "line": 216,
+    "alias": "HKL",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-laws.md",
+    "ref": "§5",
+    "ok": true,
+    "why": "",
+    "heading": "5. 小規模企業共済等掛金控除（所得税法第75条。所法R6〜R9 で同文）"
+   },
+   {
+    "line": 216,
+    "alias": "HKN",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 小規模企業共済等掛金控除（TA No.1135。https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1135.htm）"
+   },
+   {
+    "line": 217,
+    "alias": "HKL",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-laws.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 新・旧と契約の範囲（第5項〜第10項）"
+   },
+   {
+    "line": 217,
+    "alias": "HKL",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-laws.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 地震保険料控除（所得税法第77条。所法R7〜R9 で同文）と旧長期損害保険料"
+   },
+   {
+    "line": 217,
+    "alias": "HKN",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md",
+    "ref": "§1.5",
+    "ok": true,
+    "why": "",
+    "heading": "1.5 所得税基本通達（法第76条関係。https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/03.htm）"
+   },
+   {
+    "line": 217,
+    "alias": "HKN",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 地震保険料控除"
+   },
+   {
+    "line": 218,
+    "alias": "HKL",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-laws.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 寄附金控除（所得税法第78条）"
+   },
+   {
+    "line": 218,
+    "alias": "HKN",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 寄附金控除・ふるさと納税"
+   },
+   {
+    "line": 219,
+    "alias": "HKL",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-laws.md",
+    "ref": "§6",
+    "ok": true,
+    "why": "",
+    "heading": "6. 雑損控除（所得税法第72条。所法R6〜R9 で同文）"
+   },
+   {
+    "line": 219,
+    "alias": "HKN",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md",
+    "ref": "§5",
+    "ok": true,
+    "why": "",
+    "heading": "5. 雑損控除"
+   },
+   {
+    "line": 220,
+    "alias": "NK",
+    "file": "docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 条文（F）"
+   },
+   {
+    "line": 220,
+    "alias": "NK",
+    "file": "docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 収入すべき時期（E：所基通 36−14）"
+   },
+   {
+    "line": 220,
+    "alias": "NK",
+    "file": "docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md",
+    "ref": "§4.1",
+    "ok": true,
+    "why": "",
+    "heading": "4.1 各年金法の「公課の禁止」（F）"
+   },
+   {
+    "line": 220,
+    "alias": "NK",
+    "file": "docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md",
+    "ref": "§5",
+    "ok": true,
+    "why": "",
+    "heading": "5. 源泉徴収"
+   },
+   {
+    "line": 220,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 引用の中身（目で確かめた行）"
+   },
+   {
+    "line": 221,
+    "alias": "TS",
+    "file": "docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 条文（F）"
+   },
+   {
+    "line": 221,
+    "alias": "TS",
+    "file": "docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 通達・案内（F）"
+   },
+   {
+    "line": 221,
+    "alias": "TS",
+    "file": "docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md",
+    "ref": "§4.2",
+    "ok": true,
+    "why": "",
+    "heading": "4.2 源泉徴収（F）"
+   },
+   {
+    "line": 222,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 申告分離課税（第1項）"
+   },
+   {
+    "line": 222,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§2.1",
+    "ok": true,
+    "why": "",
+    "heading": "2.1 条文"
+   },
+   {
+    "line": 222,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 配当控除（所法第92条、措法第9条）"
+   },
+   {
+    "line": 222,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§7",
+    "ok": true,
+    "why": "",
+    "heading": "7. NISA（措法第9条の8、第37条の14）"
+   },
+   {
+    "line": 222,
+    "alias": "JTL",
+    "file": "docs/public-sources/20261109_round2_juminzei-tax-law-text.md",
+    "ref": "§9",
+    "ok": true,
+    "why": "",
+    "heading": "9. 外国税額控除・配当割額等の控除（F）"
+   },
+   {
+    "line": 222,
+    "alias": "JTL",
+    "file": "docs/public-sources/20261109_round2_juminzei-tax-law-text.md",
+    "ref": "§9",
+    "ok": true,
+    "why": "",
+    "heading": "9. 外国税額控除・配当割額等の控除（F）"
+   },
+   {
+    "line": 222,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 引用の中身（目で確かめた行）"
+   },
+   {
+    "line": 223,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 上場株式等の譲渡（措法第37条の11、第37条の10）"
+   },
+   {
+    "line": 223,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§6",
+    "ok": true,
+    "why": "",
+    "heading": "6. 損益通算と繰越控除（措法第37条の12の2、措令第25条の11の2）"
+   },
+   {
+    "line": 224,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§3.3",
+    "ok": true,
+    "why": "",
+    "heading": "3.3 扶養親族に関する区分（所法2①三十四〜三十四の五、84の2）"
+   },
+   {
+    "line": 224,
+    "alias": "NTA",
+    "file": "docs/public-sources/20261109_R3-tsutatsu_nta.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 2−47 生計を一にするの意義 [通達]"
+   },
+   {
+    "line": 224,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 出典が判定の材料として挙げる事項（一覧）"
+   },
+   {
+    "line": 224,
+    "alias": "EAG",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-guidance.md",
+    "ref": "§3.4",
+    "ok": true,
+    "why": "",
+    "heading": "3.4 送金の判定（所基通2−50、［QA-KG］Q7・Q32〜Q45）"
+   },
+   {
+    "line": 224,
+    "alias": "KYA",
+    "file": "docs/public-sources/20261109_round2_kyosai-separate-address.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 別居の家族の生計維持の基準（仕送り）：保険者ごとの書き方"
+   },
+   {
+    "line": 225,
+    "alias": "JG",
+    "file": "docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md",
+    "ref": "§6",
+    "ok": true,
+    "why": "",
+    "heading": "6. 一時所得（所法34）と総所得金額での2分の1（所法22②二）"
+   },
+   {
+    "line": 225,
+    "alias": "JG",
+    "file": "docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 原文が参照している事実（記録層の設計への含意は仮説の文書へ移した）"
+   },
+   {
+    "line": 226,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 収入の種類ごとの扱い"
+   },
+   {
+    "line": 226,
+    "alias": "SH",
+    "file": "docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md",
+    "ref": "§1.4",
+    "ok": true,
+    "why": "",
+    "heading": "1.4 「年間収入」の定義"
+   },
+   {
+    "line": 227,
+    "alias": "FD",
+    "file": "docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 総収入金額と収入すべき時期"
+   },
+   {
+    "line": 227,
+    "alias": "FD",
+    "file": "docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md",
+    "ref": "§5.1",
+    "ok": true,
+    "why": "",
+    "heading": "5.1 所法56（見出し「事業から対価を受ける親族がある場合の必要経費の特例」）の原文"
+   },
+   {
+    "line": 227,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§3.4",
+    "ok": true,
+    "why": "",
+    "heading": "3.4 事業専従者（所法57、所令165）"
+   },
+   {
+    "line": 233,
+    "alias": "MISC",
+    "file": "docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 原文（所令@2026-12-31。他の版も同文）"
+   },
+   {
+    "line": 233,
+    "alias": "MISC",
+    "file": "docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md",
+    "ref": "§3.3",
+    "ok": true,
+    "why": "",
+    "heading": "3.3 国税庁の資料"
+   },
+   {
+    "line": 233,
+    "alias": "MISC",
+    "file": "docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md",
+    "ref": "§5.1",
+    "ok": true,
+    "why": "",
+    "heading": "5.1 法令の原文"
+   },
+   {
+    "line": 233,
+    "alias": "MISC",
+    "file": "docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md",
+    "ref": "§5.2",
+    "ok": true,
+    "why": "",
+    "heading": "5.2 国税庁の資料"
+   },
+   {
+    "line": 233,
+    "alias": "JU",
+    "file": "docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md",
+    "ref": "§4.2",
+    "ok": true,
+    "why": "",
+    "heading": "4.2 政令（F）：地方税法施行令第46条の3〜第46条の5（asof 2026-01-01 以後）"
+   },
+   {
+    "line": 233,
+    "alias": "SP",
+    "file": "docs/public-sources/20261109_round2_spouse-laws-and-sources.md",
+    "ref": "§1.4",
+    "ok": true,
+    "why": "",
+    "heading": "1.4 配偶者特別控除が適用されない場合（所法 第83条の2第2項）"
+   },
+   {
+    "line": 233,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§4.7",
+    "ok": true,
+    "why": "",
+    "heading": "4.7 納税者（控除を受ける人）と、重ねて控除できないこと"
+   },
+   {
+    "line": 234,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§1.4",
+    "ok": true,
+    "why": "",
+    "heading": "1.4 通達（措置法通達 8の4-1）"
+   },
+   {
+    "line": 234,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§6",
+    "ok": true,
+    "why": "",
+    "heading": "6. 損益通算と繰越控除（措法第37条の12の2、措令第25条の11の2）"
+   },
+   {
+    "line": 234,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§8.1",
+    "ok": true,
+    "why": "",
+    "heading": "8.1 課税方式は所得税の確定申告に従う（第313条第12項〜第15項）"
+   },
+   {
+    "line": 234,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§5.2",
+    "ok": true,
+    "why": "",
+    "heading": "5.2 純損失の繰越控除（所法70、所令201、所基通70−13〜70−15）"
+   },
+   {
+    "line": 234,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§5.3",
+    "ok": true,
+    "why": "",
+    "heading": "5.3 純損失の繰戻しによる還付（所法140〜142、所令271・272、所規54、所基通140・141−1〜4・142−1）"
+   },
+   {
+    "line": 234,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§5.3",
+    "ok": true,
+    "why": "",
+    "heading": "5.3 手引き（損失申告用）の記入の規則（F）"
+   },
+   {
+    "line": 235,
+    "alias": "JG",
+    "file": "docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md",
+    "ref": "§4.1",
+    "ok": true,
+    "why": "",
+    "heading": "4.1 業務に係る雑所得の現金主義（所法67②、所令196の2・196の3・197③、所規40②〜④）"
+   },
+   {
+    "line": 235,
+    "alias": "JG",
+    "file": "docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md",
+    "ref": "§4.3",
+    "ok": true,
+    "why": "",
+    "heading": "4.3 「前々年分の収入金額」を使う他の規定"
+   },
+   {
+    "line": 235,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§3.3",
+    "ok": true,
+    "why": "",
+    "heading": "3.3 令和9年分以後（2027-01-01 版。措法25の2・措規9の6）"
+   },
+   {
+    "line": 235,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§6",
+    "ok": true,
+    "why": "",
+    "heading": "6. 現金主義の特例（所法67①、所令195〜197、所規39の2・40・40の2・56②）"
+   },
+   {
+    "line": 236,
+    "alias": "MISC",
+    "file": "docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md",
+    "ref": "§5.4",
+    "ok": true,
+    "why": "",
+    "heading": "5.4 源泉徴収票に何が書かれるか（記録の資料として）"
+   },
+   {
+    "line": 236,
+    "alias": "ZG",
+    "file": "docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 令和7年分・令和8年分に適用される条文（復興法R7・復興法R8。第8〜13条・第17〜19条・第24条は両版で差なし。[M-ZG] §2）"
+   },
+   {
+    "line": 236,
+    "alias": "ZG",
+    "file": "docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md",
+    "ref": "§4.1",
+    "ok": true,
+    "why": "",
+    "heading": "4.1 確定申告書での控除（所法R7・所法R8 で同文）"
+   },
+   {
+    "line": 236,
+    "alias": "TS",
+    "file": "docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md",
+    "ref": "§4.2",
+    "ok": true,
+    "why": "",
+    "heading": "4.2 源泉徴収（F）"
+   },
+   {
+    "line": 236,
+    "alias": "TS",
+    "file": "docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md",
+    "ref": "§6.1",
+    "ok": true,
+    "why": "",
+    "heading": "6.1 分離課税の条文（F。地法 asof 2026-01-01・2026-11-09・2027-01-01 同文）"
+   },
+   {
+    "line": 236,
+    "alias": "NTA",
+    "file": "docs/public-sources/20261109_R3-tsutatsu_nta.md",
+    "ref": "§2.3",
+    "ok": true,
+    "why": "",
+    "heading": "2.3 年末調整のしかた・扶養控除等申告書 [QA]"
+   },
+   {
+    "line": 237,
+    "alias": "ZG",
+    "file": "docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md",
+    "ref": "§4.3",
+    "ok": true,
+    "why": "",
+    "heading": "4.3 予定納税"
+   },
+   {
+    "line": 238,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 収入の種類ごとの扱い"
+   },
+   {
+    "line": 238,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 出典が判定の材料として挙げる事項（一覧）"
+   },
+   {
+    "line": 238,
+    "alias": "SH",
+    "file": "docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md",
+    "ref": "§1.3",
+    "ok": true,
+    "why": "",
+    "heading": "1.3 労働契約の内容による年間収入の判定（令和8年4月1日から）[通知]"
+   },
+   {
+    "line": 239,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§1.4",
+    "ok": true,
+    "why": "",
+    "heading": "1.4 所得税の扶養との関係（書類の省略）"
+   },
+   {
+    "line": 239,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 出典が判定の材料として挙げる事項（一覧）"
+   },
+   {
+    "line": 239,
+    "alias": "SH",
+    "file": "docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md",
+    "ref": "§1.5",
+    "ok": true,
+    "why": "",
+    "heading": "1.5 「年収の壁」対応策（事業主の証明）の現状 [通知]"
+   },
+   {
+    "line": 240,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 夫婦共同扶養の場合の子の認定基準（R4 未決 U8）"
+   },
+   {
+    "line": 240,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§5.1",
+    "ok": true,
+    "why": "",
+    "heading": "5.1 認定の時点と適用の切替え"
+   },
+   {
+    "line": 240,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§5.2",
+    "ok": true,
+    "why": "",
+    "heading": "5.2 基準を超えた・要件を満たさなくなったときに、いつから外れるか"
+   },
+   {
+    "line": 240,
+    "alias": "KYL",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§5",
+    "ok": true,
+    "why": "",
+    "heading": "5. 私学：私学共済（日本私立学校振興・共済事業団）"
+   },
+   {
+    "line": 240,
+    "alias": "KYL",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§7",
+    "ok": true,
+    "why": "",
+    "heading": "7. 届出の期限と、認定日・取消日"
+   },
+   {
+    "line": 240,
+    "alias": "JT",
+    "file": "docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md",
+    "ref": "§4.1",
+    "ok": true,
+    "why": "",
+    "heading": "4.1 根拠（E：通知。法令ではない）"
+   },
+   {
+    "line": 241,
+    "alias": "KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§11.3",
+    "ok": true,
+    "why": "",
+    "heading": "11.3 産前産後・育児期間の免除（届出による。所得の基準なし）"
+   },
+   {
+    "line": 241,
+    "alias": "KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§12.1",
+    "ok": true,
+    "why": "",
+    "heading": "12.1 種類と、所得を審査される人"
+   },
+   {
+    "line": 241,
+    "alias": "ZG",
+    "file": "docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md",
+    "ref": "§8.1",
+    "ok": true,
+    "why": "",
+    "heading": "8.1 条文"
+   },
+   {
+    "line": 242,
+    "alias": "EAL",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-laws.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 確定申告での書類（所法120③二・三、所令262③④、所規47の2⑤〜⑩。3版で同文）"
+   },
+   {
+    "line": 242,
+    "alias": "EAL",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-laws.md",
+    "ref": "§3.3",
+    "ok": true,
+    "why": "",
+    "heading": "3.3 源泉徴収・年末調整での書類（所法194①七・⑤〜⑦、190二ハ〜ホ、所令316の2②③、所規73の2）"
+   },
+   {
+    "line": 242,
+    "alias": "EAG",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-guidance.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 必要な書類（確定申告と年末調整）"
+   },
+   {
+    "line": 243,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 申請の期限（所法144、所基通144−1、手続の案内）"
+   },
+   {
+    "line": 243,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§1.3",
+    "ok": true,
+    "why": "",
+    "heading": "1.3 申請書の記載事項（所規55）と様式"
+   },
+   {
+    "line": 243,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§1.4",
+    "ok": true,
+    "why": "",
+    "heading": "1.4 却下・通知・みなし承認（所法145〜147）"
+   },
+   {
+    "line": 243,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§1.5",
+    "ok": true,
+    "why": "",
+    "heading": "1.5 取消し（所法150、所基通150−1）"
+   },
+   {
+    "line": 243,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§1.6",
+    "ok": true,
+    "why": "",
+    "heading": "1.6 取りやめ・業務の廃止（所法151、所規66）"
+   },
+   {
+    "line": 244,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 正規の簿記（所規57〜61）"
+   },
+   {
+    "line": 244,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§2.3",
+    "ok": true,
+    "why": "",
+    "heading": "2.3 簡易帳簿と添付書類（所規56①ただし書・65）"
+   },
+   {
+    "line": 244,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§2.5",
+    "ok": true,
+    "why": "",
+    "heading": "2.5 電子帳簿（電帳法・電帳規）との関係（青色申告特別控除の要件に使うところ）"
+   },
+   {
+    "line": 244,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§6",
+    "ok": true,
+    "why": "",
+    "heading": "6. 現金主義の特例（所法67①、所令195〜197、所規39の2・40・40の2・56②）"
+   },
+   {
+    "line": 244,
+    "alias": "JG",
+    "file": "docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md",
+    "ref": "§4.1",
+    "ok": true,
+    "why": "",
+    "heading": "4.1 業務に係る雑所得の現金主義（所法67②、所令196の2・196の3・197③、所規40②〜④）"
+   },
+   {
+    "line": 244,
+    "alias": "GE",
+    "file": "docs/public-sources/20261109_round2_genka-laws-and-nta.md",
+    "ref": "§2.1",
+    "ok": true,
+    "why": "",
+    "heading": "2.1 条文"
+   },
+   {
+    "line": 245,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§4.2",
+    "ok": true,
+    "why": "",
+    "heading": "4.2 届出と変更（所令164②、所規36の4）"
+   },
+   {
+    "line": 246,
+    "alias": "IRL",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-law-text.md",
+    "ref": "§4.5",
+    "ok": true,
+    "why": "",
+    "heading": "4.5 租税特別措置法施行規則 第19条の10の2の2（明細書の記載事項。2025-12-31 版＝2026-12-31 版）"
+   },
+   {
+    "line": 246,
+    "alias": "IRN",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§6.1",
+    "ok": true,
+    "why": "",
+    "heading": "6.1 要件と選択（TA1129・TA1131・特集セルフ）"
+   },
+   {
+    "line": 246,
+    "alias": "IRN",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§6.2",
+    "ok": true,
+    "why": "",
+    "heading": "6.2 一定の取組（TA1133、告示181、厚労QA）"
+   },
+   {
+    "line": 247,
+    "alias": "HKL",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-laws.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 新・旧と契約の範囲（第5項〜第10項）"
+   },
+   {
+    "line": 247,
+    "alias": "HKL",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-laws.md",
+    "ref": "§2.4",
+    "ok": true,
+    "why": "",
+    "heading": "2.4 証明書（所令第262条第1項第4号、所規第47条の2第1項）"
+   },
+   {
+    "line": 247,
+    "alias": "HKL",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-laws.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 地震保険料控除（所得税法第77条。所法R7〜R9 で同文）と旧長期損害保険料"
+   },
+   {
+    "line": 247,
+    "alias": "HKN",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md",
+    "ref": "§1.6",
+    "ok": true,
+    "why": "",
+    "heading": "1.6 「令和8年分 年末調整のしかた」2-3（https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/107.pdf、印刷 p.21〜26）"
+   },
+   {
+    "line": 247,
+    "alias": "HKN",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 地震保険料控除"
+   },
+   {
+    "line": 248,
+    "alias": "TS",
+    "file": "docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 勤続年数（F）"
+   },
+   {
+    "line": 248,
+    "alias": "TS",
+    "file": "docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md",
+    "ref": "§2.3",
+    "ok": true,
+    "why": "",
+    "heading": "2.3 前の退職手当等との重複（所令70）と改正（F）"
+   },
+   {
+    "line": 248,
+    "alias": "TS",
+    "file": "docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md",
+    "ref": "§4.2",
+    "ok": true,
+    "why": "",
+    "heading": "4.2 源泉徴収（F）"
+   },
+   {
+    "line": 249,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§5.1",
+    "ok": true,
+    "why": "",
+    "heading": "5.1 制度（タックスアンサー No.1476、「令和8年4月1日現在法令等」）"
+   },
+   {
+    "line": 249,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§5.2",
+    "ok": true,
+    "why": "",
+    "heading": "5.2 申告不要（措法第37条の11の5、措令第25条の10の12）"
+   },
+   {
+    "line": 249,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§6",
+    "ok": true,
+    "why": "",
+    "heading": "6. 損益通算と繰越控除（措法第37条の12の2、措令第25条の11の2）"
+   },
+   {
+    "line": 250,
+    "alias": "INV",
+    "file": "docs/public-sources/20261109_round2b_invoice-laws-and-nta.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 消費税の申告期限と中間申告（所得税の計上の年に関係する日付）"
+   },
+   {
+    "line": 250,
+    "alias": "INV",
+    "file": "docs/public-sources/20261109_round2b_invoice-laws-and-nta.md",
+    "ref": "§5",
+    "ok": true,
+    "why": "",
+    "heading": "5. 所得税の取扱い：経理通達（平成元年3月29日付直所3-8ほか）"
+   },
+   {
+    "line": 250,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 第一表（個12-1072、様式ID `NTA1K?A020010230`）：欄ごとの記入の規則"
+   },
+   {
+    "line": 251,
+    "alias": "KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 国民健康保険料（国保法）"
+   },
+   {
+    "line": 251,
+    "alias": "KYA",
+    "file": "docs/public-sources/20261109_round2_kyosai-separate-address.md",
+    "ref": "§4.1",
+    "ok": true,
+    "why": "",
+    "heading": "4.1 誰がどこで課税されるか（条文）"
+   },
+   {
+    "line": 251,
+    "alias": "JTL",
+    "file": "docs/public-sources/20261109_round2_juminzei-tax-law-text.md",
+    "ref": "§14",
+    "ok": true,
+    "why": "",
+    "heading": "14. 森林環境税（森林環境税及び森林環境譲与税に関する法律、同施行令）（F）"
+   },
+   {
+    "line": 252,
+    "alias": "JU",
+    "file": "docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md",
+    "ref": "§6.1",
+    "ok": true,
+    "why": "",
+    "heading": "6.1 法律・政令（F）"
+   },
+   {
+    "line": 253,
+    "alias": "SS",
+    "file": "docs/public-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 条文"
+   },
+   {
+    "line": 259,
+    "alias": "GE",
+    "file": "docs/public-sources/20261109_round2_genka-laws-and-nta.md",
+    "ref": "§1",
+    "ok": true,
+    "why": "",
+    "heading": "1. 減価償却資産の定義と範囲"
+   },
+   {
+    "line": 259,
+    "alias": "GE",
+    "file": "docs/public-sources/20261109_round2_genka-laws-and-nta.md",
+    "ref": "§2.1",
+    "ok": true,
+    "why": "",
+    "heading": "2.1 条文"
+   },
+   {
+    "line": 259,
+    "alias": "GE",
+    "file": "docs/public-sources/20261109_round2_genka-laws-and-nta.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 耐用年数省令"
+   },
+   {
+    "line": 259,
+    "alias": "GE",
+    "file": "docs/public-sources/20261109_round2_genka-laws-and-nta.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 所令138・139（白色・青色、事業所得・雑所得を問わない）"
+   },
+   {
+    "line": 259,
+    "alias": "GE",
+    "file": "docs/public-sources/20261109_round2_genka-laws-and-nta.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 措法28の2（中小事業者の少額減価償却資産。青色、事業所得・不動産所得・山林所得だけ）"
+   },
+   {
+    "line": 259,
+    "alias": "GE",
+    "file": "docs/public-sources/20261109_round2_genka-laws-and-nta.md",
+    "ref": "§5.1",
+    "ok": true,
+    "why": "",
+    "heading": "5.1 除却・取壊し・滅失（所法51）"
+   },
+   {
+    "line": 259,
+    "alias": "GE",
+    "file": "docs/public-sources/20261109_round2_genka-laws-and-nta.md",
+    "ref": "§5.2",
+    "ok": true,
+    "why": "",
+    "heading": "5.2 譲渡（所法33・38、所令81）"
+   },
+   {
+    "line": 260,
+    "alias": "FD",
+    "file": "docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 所得税法第26条第1項（見出し「不動産所得」）"
+   },
+   {
+    "line": 260,
+    "alias": "FD",
+    "file": "docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md",
+    "ref": "§2.3",
+    "ok": true,
+    "why": "",
+    "heading": "2.3 必要経費（国税庁の説明）"
+   },
+   {
+    "line": 260,
+    "alias": "FD",
+    "file": "docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md",
+    "ref": "§4.1",
+    "ok": true,
+    "why": "",
+    "heading": "4.1 所法69（見出し「損益通算」）"
+   },
+   {
+    "line": 260,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 引用の中身（目で確かめた行）"
+   },
+   {
+    "line": 261,
+    "alias": "FD",
+    "file": "docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 総収入金額と収入すべき時期"
+   },
+   {
+    "line": 262,
+    "alias": "FD",
+    "file": "docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md",
+    "ref": "§2.3",
+    "ok": true,
+    "why": "",
+    "heading": "2.3 必要経費（国税庁の説明）"
+   },
+   {
+    "line": 262,
+    "alias": "FD",
+    "file": "docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md",
+    "ref": "§4.3",
+    "ok": true,
+    "why": "",
+    "heading": "4.3 措法41の4（見出し「不動産所得に係る損益通算の特例」）と措令26の6"
+   },
+   {
+    "line": 263,
+    "alias": "FD",
+    "file": "docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 判定の基準（国税庁の解釈。法令に数値の基準はない）"
+   },
+   {
+    "line": 263,
+    "alias": "FD",
+    "file": "docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md",
+    "ref": "§8.1",
+    "ok": true,
+    "why": "",
+    "heading": "8.1 収支内訳書（不動産所得用）【令和２年分以降用】（様式ID NTA0KOA130010090・NTA0KOA130020090、2頁）"
+   },
+   {
+    "line": 264,
+    "alias": "KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 料（国保令第29条の7第2項〜第5項。2026-04-01 以後の版）"
+   },
+   {
+    "line": 264,
+    "alias": "KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 税（地法第703条の4第3項〜第37項。2026-04-01 以後の版）"
+   },
+   {
+    "line": 265,
+    "alias": "JXL",
+    "file": "docs/public-sources/20261109_round3_juminzei-extra-law-text.md",
+    "ref": "§1.8",
+    "ok": true,
+    "why": "",
+    "heading": "1.8 「家屋敷」の定義"
+   },
+   {
+    "line": 265,
+    "alias": "JXA",
+    "file": "docs/public-sources/20261109_round3_juminzei-extra-admin-and-municipal.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 船橋市「事業所課税・家屋敷課税とは」"
+   },
+   {
+    "line": 271,
+    "alias": "PS-D",
+    "file": "docs/public-sources/20261109_impl-prep_denchoho-requirements.md",
+    "ref": "§2.4",
+    "ok": true,
+    "why": "",
+    "heading": "2.4 検索要件の緩和（規則第4条第1項本文の括弧書き）"
+   },
+   {
+    "line": 271,
+    "alias": "PS-D",
+    "file": "docs/public-sources/20261109_impl-prep_denchoho-requirements.md",
+    "ref": "§2.5",
+    "ok": true,
+    "why": "",
+    "heading": "2.5 検索機能の確保の具体的な方法（通達4-9〜4-12、Q&A（取引）問19・問48〜問58）"
+   },
+   {
+    "line": 271,
+    "alias": "PS-D",
+    "file": "docs/public-sources/20261109_impl-prep_denchoho-requirements.md",
+    "ref": "§2.7",
+    "ok": true,
+    "why": "",
+    "heading": "2.7 保存の方法として認められるもの・認められないもの（Q&A（取引））"
+   },
+   {
+    "line": 271,
+    "alias": "PS-D",
+    "file": "docs/public-sources/20261109_impl-prep_denchoho-requirements.md",
+    "ref": "§2.8",
+    "ok": true,
+    "why": "",
+    "heading": "2.8 電子取引に当たるものの例（個人・小規模に関係するもの）"
+   },
+   {
+    "line": 271,
+    "alias": "PS-D",
+    "file": "docs/public-sources/20261109_impl-prep_denchoho-requirements.md",
+    "ref": "§5",
+    "ok": true,
+    "why": "",
+    "heading": "5. 帳簿・書類の保存期間（所得税法・所得税法施行規則）"
+   },
+   {
+    "line": 272,
+    "alias": "PS-D",
+    "file": "docs/public-sources/20261109_impl-prep_denchoho-requirements.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 真実性（改ざん防止）：次のいずれか一つ（規則第4条第1項各号）"
+   },
+   {
+    "line": 272,
+    "alias": "PS-D",
+    "file": "docs/public-sources/20261109_impl-prep_denchoho-requirements.md",
+    "ref": "§6.1",
+    "ok": true,
+    "why": "",
+    "heading": "6.1 電子取引データの訂正及び削除の防止に関する事務処理規程（個人事業者の例）"
+   },
+   {
+    "line": 286,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§4.1",
+    "ok": true,
+    "why": "",
+    "heading": "4.1 生計を一にする（所得税：法に定義なし、所基通2-47）"
+   },
+   {
+    "line": 286,
+    "alias": "NTA",
+    "file": "docs/public-sources/20261109_R3-tsutatsu_nta.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 2−47 生計を一にするの意義 [通達]"
+   },
+   {
+    "line": 286,
+    "alias": "IRN",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§1",
+    "ok": true,
+    "why": "",
+    "heading": "1. 所得税基本通達 73−1〜73−10 [通達]"
+   },
+   {
+    "line": 287,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 親族（民法725〜729）"
+   },
+   {
+    "line": 287,
+    "alias": "SP",
+    "file": "docs/public-sources/20261109_round2_spouse-laws-and-sources.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 健康保険の被扶養者としての配偶者"
+   },
+   {
+    "line": 288,
+    "alias": "EAL",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-laws.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 原文から読める要件の構造（原文の読み取り）"
+   },
+   {
+    "line": 288,
+    "alias": "EAG",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-guidance.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 国税庁の説明（原文）"
+   },
+   {
+    "line": 288,
+    "alias": "KYA",
+    "file": "docs/public-sources/20261109_round2_kyosai-separate-address.md",
+    "ref": "§4.3",
+    "ok": true,
+    "why": "",
+    "heading": "4.3 扶養控除は、扶養親族が別の市町村に住んでいても適用されるか（条文の文言）"
+   },
+   {
+    "line": 289,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§2.1",
+    "ok": true,
+    "why": "",
+    "heading": "2.1 法令"
+   },
+   {
+    "line": 289,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§2.3",
+    "ok": true,
+    "why": "",
+    "heading": "2.3 健康保険の通知・Q&A・案内での「同一世帯」"
+   },
+   {
+    "line": 290,
+    "alias": "KYL",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 第2条関係 第1項第2号（PDF 2〜3ページ。PDF の描画を読んだ）"
+   },
+   {
+    "line": 290,
+    "alias": "KYA",
+    "file": "docs/public-sources/20261109_round2_kyosai-separate-address.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 共済の「同一の世帯」の定義と、単身赴任・転勤（[運用方針]・[組合]）"
+   },
+   {
+    "line": 291,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§2.1",
+    "ok": true,
+    "why": "",
+    "heading": "2.1 居住者・非居住者（所法2①三・四・五）"
+   },
+   {
+    "line": 291,
+    "alias": "EAL",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-laws.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 居住者・非居住者の判定（所得税）"
+   },
+   {
+    "line": 291,
+    "alias": "EAG",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-guidance.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 居住者・非居住者の判定（所得税基本通達）"
+   },
+   {
+    "line": 292,
+    "alias": "EAG",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-guidance.md",
+    "ref": "§5.3",
+    "ok": true,
+    "why": "",
+    "heading": "5.3 国内居住要件と例外（［R01］・［R05］・［N-KYOJU］）"
+   },
+   {
+    "line": 293,
+    "alias": "EAG",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-guidance.md",
+    "ref": "§6",
+    "ok": true,
+    "why": "",
+    "heading": "6. 分からなかったこと・一次情報が見つからなかったこと"
+   },
+   {
+    "line": 294,
+    "alias": "NTA",
+    "file": "docs/public-sources/20261109_R3-tsutatsu_nta.md",
+    "ref": "§1.4",
+    "ok": true,
+    "why": "",
+    "heading": "1.4 35−2 業務に係る雑所得（令和4年10月7日改正）[通達]"
+   },
+   {
+    "line": 295,
+    "alias": "FD",
+    "file": "docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 判定の基準（国税庁の解釈。法令に数値の基準はない）"
+   },
+   {
+    "line": 296,
+    "alias": "NTA",
+    "file": "docs/public-sources/20261109_R3-tsutatsu_nta.md",
+    "ref": "§1.5",
+    "ok": true,
+    "why": "",
+    "heading": "1.5 給与所得と事業所得の区分 [通達]（所得税基本通達には一般的な判断基準の項がない）"
+   },
+   {
+    "line": 297,
+    "alias": "NTA",
+    "file": "docs/public-sources/20261109_R3-tsutatsu_nta.md",
+    "ref": "§1.3",
+    "ok": true,
+    "why": "",
+    "heading": "1.3 45−1・45−2 家事関連費 [通達]"
+   },
+   {
+    "line": 298,
+    "alias": "NTA",
+    "file": "docs/public-sources/20261109_R3-tsutatsu_nta.md",
+    "ref": "§1.3",
+    "ok": true,
+    "why": "",
+    "heading": "1.3 45−1・45−2 家事関連費 [通達]"
+   },
+   {
+    "line": 298,
+    "alias": "JG",
+    "file": "docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 条文の原文"
+   },
+   {
+    "line": 298,
+    "alias": "JG",
+    "file": "docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 原文から確定すること（U10 への答え）"
+   },
+   {
+    "line": 298,
+    "alias": "GE",
+    "file": "docs/public-sources/20261109_round2_genka-laws-and-nta.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 家事兼用の資産"
+   },
+   {
+    "line": 298,
+    "alias": "HKN",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 地震保険料控除"
+   },
+   {
+    "line": 299,
+    "alias": "NTA",
+    "file": "docs/public-sources/20261109_R3-tsutatsu_nta.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 73−1〜73−10 医療費控除 [通達]"
+   },
+   {
+    "line": 299,
+    "alias": "IRN",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§1",
+    "ok": true,
+    "why": "",
+    "heading": "1. 所得税基本通達 73−1〜73−10 [通達]"
+   },
+   {
+    "line": 299,
+    "alias": "IRN",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 医療費控除の対象となる医療費 [TA]（TA1122）と、明細書の「医療費の区分」"
+   },
+   {
+    "line": 299,
+    "alias": "IRN",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 年分への帰属と、医療費に当たるか（質疑応答事例）[QA]"
+   },
+   {
+    "line": 300,
+    "alias": "IRN",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 補塡の扱い [TA][QA][様式]"
+   },
+   {
+    "line": 301,
+    "alias": "IRN",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§6.4",
+    "ok": true,
+    "why": "",
+    "heading": "6.4 対象医薬品の見分け方（レシートの表示）"
+   },
+   {
+    "line": 302,
+    "alias": "JT",
+    "file": "docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md",
+    "ref": "§1.5",
+    "ok": true,
+    "why": "",
+    "heading": "1.5 障害者・特別障害者の範囲（F：所令 第10条。3つの版で同じ）"
+   },
+   {
+    "line": 302,
+    "alias": "JT",
+    "file": "docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md",
+    "ref": "§1.7",
+    "ok": true,
+    "why": "",
+    "heading": "1.7 通達（E：所得税基本通達。法令ではない）"
+   },
+   {
+    "line": 302,
+    "alias": "JT",
+    "file": "docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md",
+    "ref": "§1.8",
+    "ok": true,
+    "why": "",
+    "heading": "1.8 国税庁の案内（E）"
+   },
+   {
+    "line": 302,
+    "alias": "JT",
+    "file": "docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md",
+    "ref": "§4.2",
+    "ok": true,
+    "why": "",
+    "heading": "4.2 「障害厚生年金の受給要件に該当する程度」の障害等級（F）"
+   },
+   {
+    "line": 302,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 出典が判定の材料として挙げる事項（一覧）"
+   },
+   {
+    "line": 303,
+    "alias": "GP",
+    "file": "docs/public-sources/20261109_round2_gaps-sources.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 条文（F）"
+   },
+   {
+    "line": 303,
+    "alias": "GP",
+    "file": "docs/public-sources/20261109_round2_gaps-sources.md",
+    "ref": "§1.3",
+    "ok": true,
+    "why": "",
+    "heading": "1.3 国税庁の説明（F）"
+   },
+   {
+    "line": 303,
+    "alias": "M-GP",
+    "file": "docs/measurements/20261109_round2_gaps-fetch-and-checks.md",
+    "ref": "C1",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "line": 304,
+    "alias": "JG",
+    "file": "docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md",
+    "ref": "§2.1",
+    "ok": true,
+    "why": "",
+    "heading": "2.1 条文の原文と年分ごとの額"
+   },
+   {
+    "line": 304,
+    "alias": "JG",
+    "file": "docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md",
+    "ref": "§2.5",
+    "ok": true,
+    "why": "",
+    "heading": "2.5 「特定の者」の範囲（質疑応答事例 04/34、「令和７年８月１日現在施行の法令・通達等に基づいて作成」）"
+   },
+   {
+    "line": 305,
+    "alias": "GE",
+    "file": "docs/public-sources/20261109_round2_genka-laws-and-nta.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 耐用年数省令"
+   },
+   {
+    "line": 305,
+    "alias": "GE",
+    "file": "docs/public-sources/20261109_round2_genka-laws-and-nta.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 所令138・139（白色・青色、事業所得・雑所得を問わない）"
+   },
+   {
+    "line": 305,
+    "alias": "GE",
+    "file": "docs/public-sources/20261109_round2_genka-laws-and-nta.md",
+    "ref": "§5.2",
+    "ok": true,
+    "why": "",
+    "heading": "5.2 譲渡（所法33・38、所令81）"
+   },
+   {
+    "line": 306,
+    "alias": "FD",
+    "file": "docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 譲渡所得になる借地権等の設定（所法33①、所令79・80）"
+   },
+   {
+    "line": 306,
+    "alias": "FD",
+    "file": "docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md",
+    "ref": "§1.3",
+    "ok": true,
+    "why": "",
+    "heading": "1.3 所得税基本通達・TA による区分（国税庁の解釈）"
+   },
+   {
+    "line": 306,
+    "alias": "FD",
+    "file": "docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md",
+    "ref": "§4.3",
+    "ok": true,
+    "why": "",
+    "heading": "4.3 措法41の4（見出し「不動産所得に係る損益通算の特例」）と措令26の6"
+   },
+   {
+    "line": 307,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 正規の簿記（所規57〜61）"
+   },
+   {
+    "line": 308,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§4.1",
+    "ok": true,
+    "why": "",
+    "heading": "4.1 要件（令和7年分・令和8年分の版で同文）"
+   },
+   {
+    "line": 308,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§4.2",
+    "ok": true,
+    "why": "",
+    "heading": "4.2 届出と変更（所令164②、所規36の4）"
+   },
+   {
+    "line": 309,
+    "alias": "TS",
+    "file": "docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 通達・案内（F）"
+   },
+   {
+    "line": 309,
+    "alias": "TS",
+    "file": "docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md",
+    "ref": "§2.4",
+    "ok": true,
+    "why": "",
+    "heading": "2.4 障害退職・短期・特定役員の細目（F）"
+   },
+   {
+    "line": 310,
+    "alias": "NK",
+    "file": "docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 条文（F）"
+   },
+   {
+    "line": 310,
+    "alias": "NK",
+    "file": "docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md",
+    "ref": "§4.2",
+    "ok": true,
+    "why": "",
+    "heading": "4.2 所得税法の非課税所得（F：所法 第9条第1項第3号）"
+   },
+   {
+    "line": 311,
+    "alias": "HKL",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-laws.md",
+    "ref": "§6",
+    "ok": true,
+    "why": "",
+    "heading": "6. 雑損控除（所得税法第72条。所法R6〜R9 で同文）"
+   },
+   {
+    "line": 311,
+    "alias": "HKN",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md",
+    "ref": "§5",
+    "ok": true,
+    "why": "",
+    "heading": "5. 雑損控除"
+   },
+   {
+    "line": 312,
+    "alias": "HKN",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 寄附金控除・ふるさと納税"
+   },
+   {
+    "line": 313,
+    "alias": "HKN",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 TA No.1140「生命保険料控除」（https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1140.htm）"
+   },
+   {
+    "line": 314,
+    "alias": "GP",
+    "file": "docs/public-sources/20261109_round2_gaps-sources.md",
+    "ref": "§6.1",
+    "ok": true,
+    "why": "",
+    "heading": "6.1 厚生労働省 事務連絡「被扶養者の収入の確認における留意点について」（F）"
+   },
+   {
+    "line": 314,
+    "alias": "GP",
+    "file": "docs/public-sources/20261109_round2_gaps-sources.md",
+    "ref": "§6.3",
+    "ok": true,
+    "why": "",
+    "heading": "6.3 日本年金機構「疑義照会回答（厚生年金保険 適用）」の被扶養者（異動）届（F）"
+   },
+   {
+    "line": 314,
+    "alias": "KYL",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§6.4",
+    "ok": true,
+    "why": "",
+    "heading": "6.4 収入に波がある人の「年間収入」の見方"
+   },
+   {
+    "line": 314,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§10",
+    "ok": true,
+    "why": "",
+    "heading": "10. 健康保険の被扶養者の「年間収入」と株式の収入"
+   },
+   {
+    "line": 315,
+    "alias": "KYL",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 第2条関係 第1項第2号（PDF 2〜3ページ。PDF の描画を読んだ）"
+   },
+   {
+    "line": 315,
+    "alias": "KYL",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§5",
+    "ok": true,
+    "why": "",
+    "heading": "5. 私学：私学共済（日本私立学校振興・共済事業団）"
+   },
+   {
+    "line": 316,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 申告分離課税（第1項）"
+   },
+   {
+    "line": 317,
+    "alias": "JT",
+    "file": "docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md",
+    "ref": "§2.5",
+    "ok": true,
+    "why": "",
+    "heading": "2.5 総務省の取扱通知（E：技術的助言。法令ではない）"
+   },
+   {
+    "line": 318,
+    "alias": "JXL",
+    "file": "docs/public-sources/20261109_round3_juminzei-extra-law-text.md",
+    "ref": "§1.8",
+    "ok": true,
+    "why": "",
+    "heading": "1.8 「家屋敷」の定義"
+   },
+   {
+    "line": 318,
+    "alias": "JXA",
+    "file": "docs/public-sources/20261109_round3_juminzei-extra-admin-and-municipal.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 船橋市「事業所課税・家屋敷課税とは」"
+   },
+   {
+    "line": 324,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§4.7",
+    "ok": true,
+    "why": "",
+    "heading": "4.7 納税者（控除を受ける人）と、重ねて控除できないこと"
+   },
+   {
+    "line": 324,
+    "alias": "MISC",
+    "file": "docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 原文（所令@2026-12-31。他の版も同文）"
+   },
+   {
+    "line": 324,
+    "alias": "JU",
+    "file": "docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md",
+    "ref": "§4.2",
+    "ok": true,
+    "why": "",
+    "heading": "4.2 政令（F）：地方税法施行令第46条の3〜第46条の5（asof 2026-01-01 以後）"
+   },
+   {
+    "line": 325,
+    "alias": "SP",
+    "file": "docs/public-sources/20261109_round2_spouse-laws-and-sources.md",
+    "ref": "§1.4",
+    "ok": true,
+    "why": "",
+    "heading": "1.4 配偶者特別控除が適用されない場合（所法 第83条の2第2項）"
+   },
+   {
+    "line": 325,
+    "alias": "MISC",
+    "file": "docs/public-sources/20261109_impl-prep_misc-age-kinship-attribution.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 原文（所令@2026-12-31。他の版も同文）"
+   },
+   {
+    "line": 326,
+    "alias": "IRN",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§6.1",
+    "ok": true,
+    "why": "",
+    "heading": "6.1 要件と選択（TA1129・TA1131・特集セルフ）"
+   },
+   {
+    "line": 327,
+    "alias": "HKL",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-laws.md",
+    "ref": "§2.1",
+    "ok": true,
+    "why": "",
+    "heading": "2.1 控除額（第1項〜第4項）"
+   },
+   {
+    "line": 327,
+    "alias": "HKL",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-laws.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 地震保険料控除（所得税法第77条。所法R7〜R9 で同文）と旧長期損害保険料"
+   },
+   {
+    "line": 327,
+    "alias": "HKN",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md",
+    "ref": "§1.4",
+    "ok": true,
+    "why": "",
+    "heading": "1.4 質疑応答事例（所得税）"
+   },
+   {
+    "line": 328,
+    "alias": "HKL",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-laws.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 寄附金控除（所得税法第78条）"
+   },
+   {
+    "line": 329,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 選択の単位（第2項）"
+   },
+   {
+    "line": 329,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§2.1",
+    "ok": true,
+    "why": "",
+    "heading": "2.1 条文"
+   },
+   {
+    "line": 329,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§5.2",
+    "ok": true,
+    "why": "",
+    "heading": "5.2 申告不要（措法第37条の11の5、措令第25条の10の12）"
+   },
+   {
+    "line": 329,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§6",
+    "ok": true,
+    "why": "",
+    "heading": "6. 損益通算と繰越控除（措法第37条の12の2、措令第25条の11の2）"
+   },
+   {
+    "line": 330,
+    "alias": "JG",
+    "file": "docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md",
+    "ref": "§4.1",
+    "ok": true,
+    "why": "",
+    "heading": "4.1 業務に係る雑所得の現金主義（所法67②、所令196の2・196の3・197③、所規40②〜④）"
+   },
+   {
+    "line": 331,
+    "alias": "INV",
+    "file": "docs/public-sources/20261109_round2b_invoice-laws-and-nta.md",
+    "ref": "§5",
+    "ok": true,
+    "why": "",
+    "heading": "5. 所得税の取扱い：経理通達（平成元年3月29日付直所3-8ほか）"
+   },
+   {
+    "line": 332,
+    "alias": "GE",
+    "file": "docs/public-sources/20261109_round2_genka-laws-and-nta.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 所令138・139（白色・青色、事業所得・雑所得を問わない）"
+   },
+   {
+    "line": 332,
+    "alias": "GE",
+    "file": "docs/public-sources/20261109_round2_genka-laws-and-nta.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 措法28の2（中小事業者の少額減価償却資産。青色、事業所得・不動産所得・山林所得だけ）"
+   },
+   {
+    "line": 332,
+    "alias": "GE",
+    "file": "docs/public-sources/20261109_round2_genka-laws-and-nta.md",
+    "ref": "§5.1",
+    "ok": true,
+    "why": "",
+    "heading": "5.1 除却・取壊し・滅失（所法51）"
+   },
+   {
+    "line": 333,
+    "alias": "FD",
+    "file": "docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 総収入金額と収入すべき時期"
+   },
+   {
+    "line": 333,
+    "alias": "FD",
+    "file": "docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md",
+    "ref": "§2.3",
+    "ok": true,
+    "why": "",
+    "heading": "2.3 必要経費（国税庁の説明）"
+   },
+   {
+    "line": 334,
+    "alias": "EAG",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-guidance.md",
+    "ref": "§3.4",
+    "ok": true,
+    "why": "",
+    "heading": "3.4 送金の判定（所基通2−50、［QA-KG］Q7・Q32〜Q45）"
+   },
+   {
+    "line": 335,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§5.3",
+    "ok": true,
+    "why": "",
+    "heading": "5.3 純損失の繰戻しによる還付（所法140〜142、所令271・272、所規54、所基通140・141−1〜4・142−1）"
+   },
+   {
+    "line": 335,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 法令（e-Gov 法令API v2。版は［M］§6）"
+   },
+   {
+    "line": 335,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§5.3",
+    "ok": true,
+    "why": "",
+    "heading": "5.3 手引き（損失申告用）の記入の規則（F）"
+   },
+   {
+    "line": 336,
+    "alias": "ZG",
+    "file": "docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md",
+    "ref": "§5.3",
+    "ok": true,
+    "why": "",
+    "heading": "5.3 還付申告（第122条）・確定損失申告（第123条）"
+   },
+   {
+    "line": 336,
+    "alias": "NK",
+    "file": "docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md",
+    "ref": "§6",
+    "ok": true,
+    "why": "",
+    "heading": "6. 確定申告を要しない場合（F：所法 第121条。3つの版で同文：[M] V1）"
+   },
+   {
+    "line": 337,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 第二表（個12-1073、様式ID `NTA0K?A020020230`）：欄コードの有無と記入の規則"
+   },
+   {
+    "line": 337,
+    "alias": "JU",
+    "file": "docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md",
+    "ref": "§6.1",
+    "ok": true,
+    "why": "",
+    "heading": "6.1 法律・政令（F）"
+   },
+   {
+    "line": 338,
+    "alias": "HKL",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-laws.md",
+    "ref": "§8.3",
+    "ok": true,
+    "why": "",
+    "heading": "8.3 申告の特例（ワンストップ特例。地法附則第7条。地法 2025-12-31〜2027-01-01 で同文）"
+   },
+   {
+    "line": 338,
+    "alias": "JTA",
+    "file": "docs/public-sources/20261109_round2_juminzei-tax-admin-and-municipal.md",
+    "ref": "§1",
+    "ok": true,
+    "why": "",
+    "heading": "1. 総務省「地方税法の施行に関する取扱いについて（市町村税関係）」改正後全文（平成22年4月1日総税市第16号。令和8年4月1日総税市第25号までの改正を反映。「技術的助言」という位置づけは PDF の読んだ頁では確認できなかった）"
+   },
+   {
+    "line": 339,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 夫婦共同扶養の場合の子の認定基準（R4 未決 U8）"
+   },
+   {
+    "line": 340,
+    "alias": "KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§12.1",
+    "ok": true,
+    "why": "",
+    "heading": "12.1 種類と、所得を審査される人"
+   },
+   {
+    "line": 341,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§6",
+    "ok": true,
+    "why": "",
+    "heading": "6. 青色申告決算書（一般用）（個12-1083、様式ID `NTA0KOA210010110`〜`NTA0KOA210040110`）"
+   },
+   {
+    "line": 341,
+    "alias": "JG",
+    "file": "docs/public-sources/20261109_impl-prep_jigyo-laws-and-nta.md",
+    "ref": "§7.4",
+    "ok": true,
+    "why": "",
+    "heading": "7.4 収支内訳書（一般用）の様式（【令和５年分以降用】、様式ID NTA0KOA110010120・NTA0KOA110020120）の項目名"
+   },
+   {
+    "line": 342,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§5.1",
+    "ok": true,
+    "why": "",
+    "heading": "5.1 制度（タックスアンサー No.1476、「令和8年4月1日現在法令等」）"
+   },
+   {
+    "line": 342,
+    "alias": "TS",
+    "file": "docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md",
+    "ref": "§4.2",
+    "ok": true,
+    "why": "",
+    "heading": "4.2 源泉徴収（F）"
+   },
+   {
+    "line": 343,
+    "alias": "CON",
+    "file": "docs/public-sources/20261109_R4-modeling_concepts.md",
+    "ref": "§4.3",
+    "ok": true,
+    "why": "",
+    "heading": "4.3 被保険者・被扶養者（健康保険法）"
+   },
+   {
+    "line": 343,
+    "alias": "SH",
+    "file": "docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 昭和52年通知（基準の本体）[通知]"
+   },
+   {
+    "line": 343,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.3",
+    "ok": true,
+    "why": "",
+    "heading": "3.3 VOC の語彙の漏れ"
+   },
+   {
+    "line": 347,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 351,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 年間収入は「今後1年間の見込み」"
+   },
+   {
+    "line": 351,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 出典が判定の材料として挙げる事項（一覧）"
+   },
+   {
+    "line": 351,
+    "alias": "GP",
+    "file": "docs/public-sources/20261109_round2_gaps-sources.md",
+    "ref": "§6.1",
+    "ok": true,
+    "why": "",
+    "heading": "6.1 厚生労働省 事務連絡「被扶養者の収入の確認における留意点について」（F）"
+   },
+   {
+    "line": 351,
+    "alias": "GP",
+    "file": "docs/public-sources/20261109_round2_gaps-sources.md",
+    "ref": "§6.2",
+    "ok": true,
+    "why": "",
+    "heading": "6.2 ワクチン接種業務の特例の Q&A（保険者向け）が示す保険者ごとの確認方法（F）"
+   },
+   {
+    "line": 351,
+    "alias": "GP",
+    "file": "docs/public-sources/20261109_round2_gaps-sources.md",
+    "ref": "§6.3",
+    "ok": true,
+    "why": "",
+    "heading": "6.3 日本年金機構「疑義照会回答（厚生年金保険 適用）」の被扶養者（異動）届（F）"
+   },
+   {
+    "line": 351,
+    "alias": "GP",
+    "file": "docs/public-sources/20261109_round2_gaps-sources.md",
+    "ref": "§6.5",
+    "ok": true,
+    "why": "",
+    "heading": "6.5 日本年金機構の案内（F）"
+   },
+   {
+    "line": 351,
+    "alias": "SH",
+    "file": "docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 19歳以上23歳未満は150万円未満（令和7年10月1日から）[通知]"
+   },
+   {
+    "line": 352,
+    "alias": "KP",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 出典が判定の材料として挙げる事項（一覧）"
+   },
+   {
+    "line": 353,
+    "alias": "KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§4.1",
+    "ok": true,
+    "why": "",
+    "heading": "4.1 料（国保令第29条の7第2項第4号・第5号、第27条の2第1項第1号）"
+   },
+   {
+    "line": 354,
+    "alias": "AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 令和7年分・令和8年分（2025-12-31 版と 2026-12-31 版で同文。措規9の6 も同文。実測 §4.2）"
+   },
+   {
+    "line": 354,
+    "alias": "ZG",
+    "file": "docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md",
+    "ref": "§4.2",
+    "ok": true,
+    "why": "",
+    "heading": "4.2 還付"
+   },
+   {
+    "line": 355,
+    "alias": "SS",
+    "file": "docs/public-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md",
+    "ref": "§4.2",
+    "ok": true,
+    "why": "",
+    "heading": "4.2 通達と国税庁の説明"
+   },
+   {
+    "line": 355,
+    "alias": "SP",
+    "file": "docs/public-sources/20261109_round2_spouse-laws-and-sources.md",
+    "ref": "§1.8",
+    "ok": true,
+    "why": "",
+    "heading": "1.8 通達・質疑応答事例・タックスアンサーの Q&A（年の途中の死亡、専従者、非課税の給付）"
+   },
+   {
+    "line": 355,
+    "alias": "IRN",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 補塡の扱い [TA][QA][様式]"
+   },
+   {
+    "line": 361,
+    "alias": "M-VOC",
+    "tail": "",
+    "refs": [],
+    "col": 71,
+    "file": "docs/measurements/20261109_round3_design-vocab-scan.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   },
+   {
+    "line": 361,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 446,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 表の行の数"
+   },
+   {
+    "line": 447,
+    "alias": "M-VOC",
+    "file": "docs/measurements/20261109_round3_design-vocab-scan.md",
+    "ref": "§6",
+    "ok": true,
+    "why": "",
+    "heading": "6. 引用の機械的な検査（`cite-check`）"
+   },
+   {
+    "line": 447,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§2.1",
+    "ok": true,
+    "why": "",
+    "heading": "2.1 引用の実在"
+   },
+   {
+    "line": 451,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.3",
+    "ok": true,
+    "why": "",
+    "heading": "3.3 VOC の語彙の漏れ"
+   },
+   {
+    "line": 465,
+    "alias": "CS",
+    "file": "docs/public-sources/20261109_round3_chiho-sochi-law-and-notices.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 第292条第5項（第23条第5項）：引用する所得税法令は前年の所得について適用されたもの"
+   },
+   {
+    "line": 466,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.3",
+    "ok": true,
+    "why": "",
+    "heading": "3.3 VOC の語彙の漏れ"
+   },
+   {
+    "line": 470,
+    "alias": "M-VOC",
+    "file": "docs/measurements/20261109_round3_design-vocab-scan.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 名前つきの関数らしい名前の書き方（`named_functions.tsv`）"
+   },
+   {
+    "line": 471,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.3",
+    "ok": true,
+    "why": "",
+    "heading": "3.3 VOC の語彙の漏れ"
+   },
+   {
+    "line": 476,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.3",
+    "ok": true,
+    "why": "",
+    "heading": "3.3 VOC の語彙の漏れ"
+   },
+   {
+    "line": 479,
+    "alias": "KYB",
+    "file": "docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 国の運用方針との違い（原文で言えること）"
+   },
+   {
+    "line": 488,
+    "alias": "M-VOC",
+    "file": "docs/measurements/20261109_round3_design-vocab-scan.md",
+    "ref": "§1",
+    "ok": true,
+    "why": "",
+    "heading": "1. バッククォートで囲んだ語の分類（`token_summary.json`）"
+   },
+   {
+    "line": 505,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.3",
+    "ok": true,
+    "why": "",
+    "heading": "3.3 VOC の語彙の漏れ"
+   },
+   {
+    "line": 513,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§0",
+    "ok": true,
+    "why": "",
+    "heading": "0. まとめ"
+   },
+   {
+    "line": 513,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 法令解釈通達「『個人課税事務提要（様式編Ⅰ）』の制定について」（F）"
+   },
+   {
+    "line": 519,
+    "alias": "M-VER",
+    "tail": "）",
+    "refs": [],
+    "col": 18,
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   },
+   {
+    "line": 520,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§2.4",
+    "ok": true,
+    "why": "",
+    "heading": "2.4 パスの実在：concepts・conflicts の文書がない"
+   },
+   {
+    "line": 521,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 521,
+    "alias": "KYB",
+    "tail": "・",
+    "refs": [],
+    "col": 43,
+    "file": "docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   },
+   {
+    "line": 521,
+    "alias": "SS",
+    "tail": "・",
+    "refs": [],
+    "col": 49,
+    "file": "docs/public-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   },
+   {
+    "line": 521,
+    "alias": "CS",
+    "tail": "・",
+    "refs": [],
+    "col": 54,
+    "file": "docs/public-sources/20261109_round3_chiho-sochi-law-and-notices.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   },
+   {
+    "line": 521,
+    "alias": "M-VER",
+    "tail": "",
+    "refs": [],
+    "col": 59,
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   },
+   {
+    "line": 522,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 引用の中身（目で確かめた行）"
+   },
+   {
+    "line": 522,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 523,
+    "alias": "M-VOC",
+    "file": "docs/measurements/20261109_round3_design-vocab-scan.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 名前つきの関数らしい名前の書き方（`named_functions.tsv`）"
+   },
+   {
+    "line": 523,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 引用の中身（目で確かめた行）"
+   },
+   {
+    "line": 523,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 523,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 524,
+    "alias": "NK",
+    "file": "docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md",
+    "ref": "§5",
+    "ok": true,
+    "why": "",
+    "heading": "5. 源泉徴収"
+   },
+   {
+    "line": 524,
+    "alias": "KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§7",
+    "ok": true,
+    "why": "",
+    "heading": "7. NISA（措法第9条の8、第37条の14）"
+   },
+   {
+    "line": 524,
+    "alias": "JTL",
+    "file": "docs/public-sources/20261109_round2_juminzei-tax-law-text.md",
+    "ref": "§9",
+    "ok": true,
+    "why": "",
+    "heading": "9. 外国税額控除・配当割額等の控除（F）"
+   },
+   {
+    "line": 524,
+    "alias": "FD",
+    "file": "docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md",
+    "ref": "§4.1",
+    "ok": true,
+    "why": "",
+    "heading": "4.1 所法69（見出し「損益通算」）"
+   },
+   {
+    "line": 524,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 引用の中身（目で確かめた行）"
+   },
+   {
+    "line": 524,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 525,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.3",
+    "ok": true,
+    "why": "",
+    "heading": "3.3 VOC の語彙の漏れ"
+   },
+   {
+    "line": 525,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 525,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 526,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 527,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 527,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 表の行の数"
+   },
+   {
+    "line": 527,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.3",
+    "ok": true,
+    "why": "",
+    "heading": "3.3 VOC の語彙の漏れ"
+   }
+  ]
+ },
+ "docs/hypotheses/20261109_round3_design-output.md": {
+  "aliases": {
+   "YS": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+   "YM": "docs/measurements/20261109_round2_yoshiki-fetch-and-extract.md",
+   "YV": "docs/measurements/20261109_round2_yoshiki-verification.md",
+   "OUT": "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md",
+   "OUTV": "docs/measurements/20261109_impl-prep_output-verification.md",
+   "OFP": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+   "SRC": "docs/public-sources/20261109_impl-prep_tools-source-notes.md",
+   "TV": "docs/measurements/20261109_impl-prep_tools-verification.md",
+   "OF-run": "docs/measurements/20261109_R2-tools_openfisca-core-runtime.md",
+   "EGOV": "docs/measurements/20261109_R1-laws_egov-api-monitoring.md",
+   "KB5": "docs/measurements/20261109_impl-prep_kyuyo-beppyo5.md",
+   "KTH": "docs/measurements/20261109_impl-prep_kyuyo-thresholds.md",
+   "PS-K": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+   "PS-SP": "docs/public-sources/20261109_round2_spouse-laws-and-sources.md",
+   "PS-JT": "docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md",
+   "M-JT": "docs/measurements/20261109_round2_jinteki-fetch-and-checks.md",
+   "PS-HKN": "docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md",
+   "M-HKF": "docs/measurements/20261109_round2_hoken-kifu-fetch.md",
+   "M-HKC": "docs/measurements/20261109_round2_hoken-kifu-formula-checks.md",
+   "M-JZ": "docs/measurements/20261109_round2_juminzei-tax-fetch-and-checks.md",
+   "PS-JZA": "docs/public-sources/20261109_round2_juminzei-tax-admin-and-municipal.md",
+   "PS-JU": "docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md",
+   "PS-KH": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+   "PS-KY": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+   "PS-AO": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+   "PS-KB": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+   "PS-IR": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+   "PS-GP": "docs/public-sources/20261109_round2_gaps-sources.md",
+   "M-GP": "docs/measurements/20261109_round2_gaps-fetch-and-checks.md",
+   "PS-EA": "docs/public-sources/20261109_round2_elderly-abroad-guidance.md",
+   "PS-NK": "docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md",
+   "PS-ZG": "docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md",
+   "PS-KYB": "docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md",
+   "PS-SS": "docs/public-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md",
+   "PS-CS": "docs/public-sources/20261109_round3_chiho-sochi-law-and-notices.md",
+   "M-VER": "docs/measurements/20261109_round3_design-verification.md"
+  },
+  "alias_kinds": {
+   "YS": "public-sources",
+   "YM": "measurements",
+   "YV": "measurements",
+   "OUT": "public-sources",
+   "OUTV": "measurements",
+   "OFP": "measurements",
+   "SRC": "public-sources",
+   "TV": "measurements",
+   "OF-run": "measurements",
+   "EGOV": "measurements",
+   "KB5": "measurements",
+   "KTH": "measurements",
+   "PS-K": "public-sources",
+   "PS-SP": "public-sources",
+   "PS-JT": "public-sources",
+   "M-JT": "measurements",
+   "PS-HKN": "public-sources",
+   "M-HKF": "measurements",
+   "M-HKC": "measurements",
+   "M-JZ": "measurements",
+   "PS-JZA": "public-sources",
+   "PS-JU": "public-sources",
+   "PS-KH": "public-sources",
+   "PS-KY": "public-sources",
+   "PS-AO": "public-sources",
+   "PS-KB": "public-sources",
+   "PS-IR": "public-sources",
+   "PS-GP": "public-sources",
+   "M-GP": "measurements",
+   "PS-EA": "public-sources",
+   "PS-NK": "public-sources",
+   "PS-ZG": "public-sources",
+   "PS-KYB": "public-sources",
+   "PS-SS": "public-sources",
+   "PS-CS": "public-sources",
+   "M-VER": "measurements"
+  },
+  "unused_aliases": [],
+  "n_citation_groups": 197,
+  "n_refs": 280,
+  "n_fail": 6,
+  "failures": [
+   {
+    "line": 646,
+    "alias": "PS-SS",
+    "tail": "",
+    "refs": [],
+    "col": 97,
+    "file": "docs/public-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   },
+   {
+    "line": 651,
+    "alias": "M-VER",
+    "tail": "",
+    "refs": [],
+    "col": 31,
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   },
+   {
+    "line": 652,
+    "alias": "M-VER",
+    "tail": "）",
+    "refs": [],
+    "col": 21,
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   },
+   {
+    "line": 656,
+    "alias": "PS-KYB",
+    "tail": "・",
+    "refs": [],
+    "col": 57,
+    "file": "docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   },
+   {
+    "line": 656,
+    "alias": "PS-SS",
+    "tail": "・",
+    "refs": [],
+    "col": 66,
+    "file": "docs/public-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   },
+   {
+    "line": 656,
+    "alias": "PS-CS",
+    "tail": "",
+    "refs": [],
+    "col": 74,
+    "file": "docs/public-sources/20261109_round3_chiho-sochi-law-and-notices.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   }
+  ],
+  "all": [
+   {
+    "line": 6,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 21,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 29,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.4",
+    "ok": true,
+    "why": "",
+    "heading": "3.4 印の漏れ（「」の中身による走査）"
+   },
+   {
+    "line": 29,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 29,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 54,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 64,
+    "alias": "PS-KYB",
+    "file": "docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md",
+    "ref": "§1",
+    "ok": true,
+    "why": "",
+    "heading": "1. 国家公務員：財務大臣の定め（国家公務員共済組合法等の運用方針）の150万円の改正"
+   },
+   {
+    "line": 64,
+    "alias": "PS-KYB",
+    "file": "docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 地方公務員：総務大臣の定め（地方公務員等共済組合法運用方針）の150万円の改正"
+   },
+   {
+    "line": 64,
+    "alias": "PS-KYB",
+    "file": "docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 私学：文部科学大臣の定め（昭和35年4月9日 文部大臣裁定）"
+   },
+   {
+    "line": 64,
+    "alias": "PS-KYB",
+    "file": "docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 国の運用方針との違い（原文で言えること）"
+   },
+   {
+    "line": 78,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 90,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 103,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 OUTD §1.5 の「出てくる文書（節）」の照合"
+   },
+   {
+    "line": 104,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.4",
+    "ok": true,
+    "why": "",
+    "heading": "3.4 印の漏れ（「」の中身による走査）"
+   },
+   {
+    "line": 104,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 OUTD §1.5 の「出てくる文書（節）」の照合"
+   },
+   {
+    "line": 104,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.4",
+    "ok": true,
+    "why": "",
+    "heading": "3.4 印の漏れ（「」の中身による走査）"
+   },
+   {
+    "line": 104,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 OUTD §1.5 の「出てくる文書（節）」の照合"
+   },
+   {
+    "line": 105,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 OUTD §1.5 の「出てくる文書（節）」の照合"
+   },
+   {
+    "line": 108,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.4",
+    "ok": true,
+    "why": "",
+    "heading": "3.4 印の漏れ（「」の中身による走査）"
+   },
+   {
+    "line": 113,
+    "alias": "PS-KYB",
+    "file": "docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 運用方針そのもの（全文）"
+   },
+   {
+    "line": 120,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 OUTD §1.5 の「出てくる文書（節）」の照合"
+   },
+   {
+    "line": 127,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 OUTD §1.5 の「出てくる文書（節）」の照合"
+   },
+   {
+    "line": 138,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.4",
+    "ok": true,
+    "why": "",
+    "heading": "3.4 印の漏れ（「」の中身による走査）"
+   },
+   {
+    "line": 139,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.4",
+    "ok": true,
+    "why": "",
+    "heading": "3.4 印の漏れ（「」の中身による走査）"
+   },
+   {
+    "line": 164,
+    "alias": "PS-KYB",
+    "file": "docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 改正の番号・日付・適用日"
+   },
+   {
+    "line": 166,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.4",
+    "ok": true,
+    "why": "",
+    "heading": "3.4 印の漏れ（「」の中身による走査）"
+   },
+   {
+    "line": 167,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 OUTD §1.5 の「出てくる文書（節）」の照合"
+   },
+   {
+    "line": 167,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.4",
+    "ok": true,
+    "why": "",
+    "heading": "3.4 印の漏れ（「」の中身による走査）"
+   },
+   {
+    "line": 168,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 169,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 170,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 171,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 172,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 173,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 174,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 175,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 176,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 177,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 179,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.4",
+    "ok": true,
+    "why": "",
+    "heading": "3.4 印の漏れ（「」の中身による走査）"
+   },
+   {
+    "line": 179,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 185,
+    "alias": "PS-K",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 年間収入は「今後1年間の見込み」"
+   },
+   {
+    "line": 186,
+    "alias": "PS-GP",
+    "file": "docs/public-sources/20261109_round2_gaps-sources.md",
+    "ref": "§6.1",
+    "ok": true,
+    "why": "",
+    "heading": "6.1 厚生労働省 事務連絡「被扶養者の収入の確認における留意点について」（F）"
+   },
+   {
+    "line": 186,
+    "alias": "PS-GP",
+    "file": "docs/public-sources/20261109_round2_gaps-sources.md",
+    "ref": "§6.2",
+    "ok": true,
+    "why": "",
+    "heading": "6.2 ワクチン接種業務の特例の Q&A（保険者向け）が示す保険者ごとの確認方法（F）"
+   },
+   {
+    "line": 186,
+    "alias": "M-GP",
+    "file": "docs/measurements/20261109_round2_gaps-fetch-and-checks.md",
+    "ref": "C6",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "line": 187,
+    "alias": "PS-SS",
+    "file": "docs/public-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md",
+    "ref": "§4.2",
+    "ok": true,
+    "why": "",
+    "heading": "4.2 通達と国税庁の説明"
+   },
+   {
+    "line": 187,
+    "alias": "PS-SP",
+    "file": "docs/public-sources/20261109_round2_spouse-laws-and-sources.md",
+    "ref": "§1.8",
+    "ok": true,
+    "why": "",
+    "heading": "1.8 通達・質疑応答事例・タックスアンサーの Q&A（年の途中の死亡、専従者、非課税の給付）"
+   },
+   {
+    "line": 187,
+    "alias": "PS-IR",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 補塡の扱い [TA][QA][様式]"
+   },
+   {
+    "line": 187,
+    "alias": "PS-SS",
+    "file": "docs/public-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md",
+    "ref": "§4.2",
+    "ok": true,
+    "why": "",
+    "heading": "4.2 通達と国税庁の説明"
+   },
+   {
+    "line": 187,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 188,
+    "alias": "PS-KY",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 分からなかったこと・一次情報が見つからなかったこと"
+   },
+   {
+    "line": 188,
+    "alias": "PS-KYB",
+    "file": "docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 運用方針そのもの（全文）"
+   },
+   {
+    "line": 188,
+    "alias": "PS-KYB",
+    "file": "docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 国の運用方針との違い（原文で言えること）"
+   },
+   {
+    "line": 188,
+    "alias": "PS-KYB",
+    "file": "docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md",
+    "ref": "§5",
+    "ok": true,
+    "why": "",
+    "heading": "5. 分からなかったこと・一次情報が見つからなかったこと"
+   },
+   {
+    "line": 189,
+    "alias": "PS-AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 申請の期限（所法144、所基通144−1、手続の案内）"
+   },
+   {
+    "line": 189,
+    "alias": "PS-AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§1.4",
+    "ok": true,
+    "why": "",
+    "heading": "1.4 却下・通知・みなし承認（所法145〜147）"
+   },
+   {
+    "line": 189,
+    "alias": "PS-AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 令和7年分・令和8年分（2025-12-31 版と 2026-12-31 版で同文。措規9の6 も同文。実測 §4.2）"
+   },
+   {
+    "line": 190,
+    "alias": "PS-EA",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-guidance.md",
+    "ref": "§5.3",
+    "ok": true,
+    "why": "",
+    "heading": "5.3 国内居住要件と例外（［R01］・［R05］・［N-KYOJU］）"
+   },
+   {
+    "line": 191,
+    "alias": "PS-KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§1.4",
+    "ok": true,
+    "why": "",
+    "heading": "1.4 通達（措置法通達 8の4-1）"
+   },
+   {
+    "line": 191,
+    "alias": "PS-IR",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§6.1",
+    "ok": true,
+    "why": "",
+    "heading": "6.1 要件と選択（TA1129・TA1131・特集セルフ）"
+   },
+   {
+    "line": 192,
+    "alias": "M-HKF",
+    "file": "docs/measurements/20261109_round2_hoken-kifu-fetch.md",
+    "ref": "§3.5",
+    "ok": true,
+    "why": "",
+    "heading": "3.5 その他"
+   },
+   {
+    "line": 192,
+    "alias": "M-HKC",
+    "file": "docs/measurements/20261109_round2_hoken-kifu-formula-checks.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 1円未満の端数"
+   },
+   {
+    "line": 192,
+    "alias": "M-JZ",
+    "file": "docs/measurements/20261109_round2_juminzei-tax-fetch-and-checks.md",
+    "ref": "§3.4",
+    "ok": true,
+    "why": "",
+    "heading": "3.4 全文での語の出現（`hits_<略称>_<asof>.json`）"
+   },
+   {
+    "line": 192,
+    "alias": "M-JZ",
+    "file": "docs/measurements/20261109_round2_juminzei-tax-fetch-and-checks.md",
+    "ref": "§3.8",
+    "ok": true,
+    "why": "",
+    "heading": "3.8 1円未満の扱いの感度（`rounding.md`）"
+   },
+   {
+    "line": 193,
+    "alias": "PS-SP",
+    "file": "docs/public-sources/20261109_round2_spouse-laws-and-sources.md",
+    "ref": "§6",
+    "ok": true,
+    "why": "",
+    "heading": "6. 分からなかったこと・一次情報が見つからなかったこと"
+   },
+   {
+    "line": 193,
+    "alias": "PS-KY",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 分からなかったこと・一次情報が見つからなかったこと"
+   },
+   {
+    "line": 193,
+    "alias": "PS-K",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§7",
+    "ok": true,
+    "why": "",
+    "heading": "7. 分からなかったこと・一次情報が見つからなかったこと"
+   },
+   {
+    "line": 193,
+    "alias": "PS-KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§13",
+    "ok": true,
+    "why": "",
+    "heading": "13. 分からなかったこと・一次情報が見つからなかったこと"
+   },
+   {
+    "line": 193,
+    "alias": "PS-GP",
+    "file": "docs/public-sources/20261109_round2_gaps-sources.md",
+    "ref": "§1.5",
+    "ok": true,
+    "why": "",
+    "heading": "1.5 見つからなかったもの"
+   },
+   {
+    "line": 193,
+    "alias": "PS-EA",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-guidance.md",
+    "ref": "§6",
+    "ok": true,
+    "why": "",
+    "heading": "6. 分からなかったこと・一次情報が見つからなかったこと"
+   },
+   {
+    "line": 193,
+    "alias": "PS-NK",
+    "file": "docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md",
+    "ref": "§10",
+    "ok": true,
+    "why": "",
+    "heading": "10. 分からなかったこと・一次情報が見つからなかったこと"
+   },
+   {
+    "line": 194,
+    "alias": "PS-JT",
+    "file": "docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md",
+    "ref": "§1.7",
+    "ok": true,
+    "why": "",
+    "heading": "1.7 通達（E：所得税基本通達。法令ではない）"
+   },
+   {
+    "line": 194,
+    "alias": "PS-JT",
+    "file": "docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md",
+    "ref": "§2.5",
+    "ok": true,
+    "why": "",
+    "heading": "2.5 総務省の取扱通知（E：技術的助言。法令ではない）"
+   },
+   {
+    "line": 194,
+    "alias": "PS-JT",
+    "file": "docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md",
+    "ref": "§4.1",
+    "ok": true,
+    "why": "",
+    "heading": "4.1 根拠（E：通知。法令ではない）"
+   },
+   {
+    "line": 194,
+    "alias": "PS-K",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§0",
+    "ok": true,
+    "why": "",
+    "heading": "0. 出典一覧"
+   },
+   {
+    "line": 194,
+    "alias": "PS-KY",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 認定（「主として組合員の収入により生計を維持する」）の委任の構造"
+   },
+   {
+    "line": 194,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 法令解釈通達「『個人課税事務提要（様式編Ⅰ）』の制定について」（F）"
+   },
+   {
+    "line": 195,
+    "alias": "PS-KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 国民健康保険料（国保法）"
+   },
+   {
+    "line": 195,
+    "alias": "PS-KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 賦課総額と、所得割・資産割・被保険者均等割・世帯別平等割の組合せ（方式）"
+   },
+   {
+    "line": 195,
+    "alias": "PS-KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§5",
+    "ok": true,
+    "why": "",
+    "heading": "5. 賦課限度額（年度ごと）"
+   },
+   {
+    "line": 195,
+    "alias": "PS-KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§6",
+    "ok": true,
+    "why": "",
+    "heading": "6. 低所得者の軽減（7割・5割・2割）"
+   },
+   {
+    "line": 195,
+    "alias": "PS-JZA",
+    "file": "docs/public-sources/20261109_round2_juminzei-tax-admin-and-municipal.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 自治体の計算例（令和8年度分）"
+   },
+   {
+    "line": 195,
+    "alias": "PS-JZA",
+    "file": "docs/public-sources/20261109_round2_juminzei-tax-admin-and-municipal.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 総務省「超過課税の状況」"
+   },
+   {
+    "line": 195,
+    "alias": "PS-KY",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§6.3",
+    "ok": true,
+    "why": "",
+    "heading": "6.3 事業収入"
+   },
+   {
+    "line": 195,
+    "alias": "PS-KY",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§6.4",
+    "ok": true,
+    "why": "",
+    "heading": "6.4 収入に波がある人の「年間収入」の見方"
+   },
+   {
+    "line": 195,
+    "alias": "PS-K",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§1.3",
+    "ok": true,
+    "why": "",
+    "heading": "1.3 保険者による違い"
+   },
+   {
+    "line": 196,
+    "alias": "PS-KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§13",
+    "ok": true,
+    "why": "",
+    "heading": "13. 分からなかったこと・一次情報が見つからなかったこと"
+   },
+   {
+    "line": 196,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§11",
+    "ok": true,
+    "why": "",
+    "heading": "11. 令和8年分の様式の公表状況（2026-11-09 時点）（F）"
+   },
+   {
+    "line": 197,
+    "alias": "PS-SP",
+    "file": "docs/public-sources/20261109_round2_spouse-laws-and-sources.md",
+    "ref": "§6（8）",
+    "ok": true,
+    "why": "",
+    "heading": "6. 分からなかったこと・一次情報が見つからなかったこと"
+   },
+   {
+    "line": 197,
+    "alias": "PS-KY",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§8（9）",
+    "ok": true,
+    "why": "",
+    "heading": "8. 分からなかったこと・一次情報が見つからなかったこと"
+   },
+   {
+    "line": 197,
+    "alias": "PS-HKN",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md",
+    "ref": "§1.6",
+    "ok": true,
+    "why": "",
+    "heading": "1.6 「令和8年分 年末調整のしかた」2-3（https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/107.pdf、印刷 p.21〜26）"
+   },
+   {
+    "line": 197,
+    "alias": "PS-NK",
+    "file": "docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md",
+    "ref": "§7.2",
+    "ok": true,
+    "why": "",
+    "heading": "7.2 行政の案内（E）"
+   },
+   {
+    "line": 197,
+    "alias": "KTH",
+    "file": "docs/measurements/20261109_impl-prep_kyuyo-thresholds.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 年末調整に旧の別表第五が使われる場合（令和8年分、`nencho_vs_kakutei_r8.md`）"
+   },
+   {
+    "line": 198,
+    "alias": "PS-NK",
+    "file": "docs/public-sources/20261109_round2b_nenkin-laws-and-guidance.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 収入すべき時期（E：所基通 36−14）"
+   },
+   {
+    "line": 198,
+    "alias": "PS-IR",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 補塡の扱い [TA][QA][様式]"
+   },
+   {
+    "line": 199,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 第二表（個12-1073、様式ID `NTA0K?A020020230`）：欄コードの有無と記入の規則"
+   },
+   {
+    "line": 199,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§6.2",
+    "ok": true,
+    "why": "",
+    "heading": "6.2 2ページ"
+   },
+   {
+    "line": 199,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§9",
+    "ok": true,
+    "why": "",
+    "heading": "9. 医療費控除の明細書・セルフメディケーション税制の明細書（F）"
+   },
+   {
+    "line": 199,
+    "alias": "YM",
+    "file": "docs/measurements/20261109_round2_yoshiki-fetch-and-extract.md",
+    "ref": "§4.1",
+    "ok": true,
+    "why": "",
+    "heading": "4.1 読んだもの（F）"
+   },
+   {
+    "line": 199,
+    "alias": "YM",
+    "file": "docs/measurements/20261109_round2_yoshiki-fetch-and-extract.md",
+    "ref": "§4.2",
+    "ok": true,
+    "why": "",
+    "heading": "4.2 医療費控除の明細書の行数の食い違い（F）"
+   },
+   {
+    "line": 200,
+    "alias": "OUT",
+    "file": "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 第一表（`NTA1K?A020010230`。`?` は §5.1）"
+   },
+   {
+    "line": 200,
+    "alias": "OUT",
+    "file": "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md",
+    "ref": "§2.3",
+    "ok": true,
+    "why": "",
+    "heading": "2.3 第二表（`NTA0K?A020020230`。`?` は §5.1）"
+   },
+   {
+    "line": 200,
+    "alias": "OUT",
+    "file": "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 法令：確定申告書の記載事項と添付書類（e-Gov 法令API v2）"
+   },
+   {
+    "line": 202,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 根拠（計算の過程）の取り出し（P05、P06）"
+   },
+   {
+    "line": 202,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 判定コアの CLI 形（標準入力の JSON → 標準出力の JSON）（P10）"
+   },
+   {
+    "line": 202,
+    "alias": "SRC",
+    "file": "docs/public-sources/20261109_impl-prep_tools-source-notes.md",
+    "ref": "§1.4",
+    "ok": true,
+    "why": "",
+    "heading": "1.4 トレース（計算の過程）の構造（F）"
+   },
+   {
+    "line": 206,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 OUTD §1.5 の「出てくる文書（節）」の照合"
+   },
+   {
+    "line": 213,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 252,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§2.3",
+    "ok": true,
+    "why": "",
+    "heading": "2.3 期間の文字列表現で日が落ちる"
+   },
+   {
+    "line": 252,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 根拠（計算の過程）の取り出し（P05、P06）"
+   },
+   {
+    "line": 252,
+    "alias": "SRC",
+    "file": "docs/public-sources/20261109_impl-prep_tools-source-notes.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 期間の文字列表現は日を落とす（F）"
+   },
+   {
+    "line": 253,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 施行日をキーにしたパラメータと、適用開始日をキーにしたパラメータ（P03）"
+   },
+   {
+    "line": 253,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 根拠（計算の過程）の取り出し（P05、P06）"
+   },
+   {
+    "line": 253,
+    "alias": "SRC",
+    "file": "docs/public-sources/20261109_impl-prep_tools-source-notes.md",
+    "ref": "§1.5",
+    "ok": true,
+    "why": "",
+    "heading": "1.5 パラメータのメタデータ（F）"
+   },
+   {
+    "line": 253,
+    "alias": "KB5",
+    "file": "docs/measurements/20261109_impl-prep_kyuyo-beppyo5.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 取得した版"
+   },
+   {
+    "line": 253,
+    "alias": "EGOV",
+    "file": "docs/measurements/20261109_R1-laws_egov-api-monitoring.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 改正履歴（/law_revisions/{law_id}）"
+   },
+   {
+    "line": 254,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 根拠（計算の過程）の取り出し（P05、P06）"
+   },
+   {
+    "line": 254,
+    "alias": "SRC",
+    "file": "docs/public-sources/20261109_impl-prep_tools-source-notes.md",
+    "ref": "§1.4",
+    "ok": true,
+    "why": "",
+    "heading": "1.4 トレース（計算の過程）の構造（F）"
+   },
+   {
+    "line": 255,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 255,
+    "alias": "M-HKF",
+    "file": "docs/measurements/20261109_round2_hoken-kifu-fetch.md",
+    "ref": "§3.5",
+    "ok": true,
+    "why": "",
+    "heading": "3.5 その他"
+   },
+   {
+    "line": 255,
+    "alias": "M-HKC",
+    "file": "docs/measurements/20261109_round2_hoken-kifu-formula-checks.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 1円未満の端数"
+   },
+   {
+    "line": 255,
+    "alias": "M-JZ",
+    "file": "docs/measurements/20261109_round2_juminzei-tax-fetch-and-checks.md",
+    "ref": "§3.4",
+    "ok": true,
+    "why": "",
+    "heading": "3.4 全文での語の出現（`hits_<略称>_<asof>.json`）"
+   },
+   {
+    "line": 255,
+    "alias": "M-JZ",
+    "file": "docs/measurements/20261109_round2_juminzei-tax-fetch-and-checks.md",
+    "ref": "§3.8",
+    "ok": true,
+    "why": "",
+    "heading": "3.8 1円未満の扱いの感度（`rounding.md`）"
+   },
+   {
+    "line": 255,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 第一表（個12-1072、様式ID `NTA1K?A020010230`）：欄ごとの記入の規則"
+   },
+   {
+    "line": 256,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§5",
+    "ok": true,
+    "why": "",
+    "heading": "5. (d) AGENTS.md の規約"
+   },
+   {
+    "line": 257,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 判定コアの CLI 形（標準入力の JSON → 標準出力の JSON）（P10）"
+   },
+   {
+    "line": 258,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§5",
+    "ok": true,
+    "why": "",
+    "heading": "5. (d) AGENTS.md の規約"
+   },
+   {
+    "line": 259,
+    "alias": "PS-KY",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§0.2",
+    "ok": true,
+    "why": "",
+    "heading": "0.2 運用方針・組合の公表資料（取得 2026-11-09）"
+   },
+   {
+    "line": 259,
+    "alias": "PS-KY",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 分からなかったこと・一次情報が見つからなかったこと"
+   },
+   {
+    "line": 260,
+    "alias": "PS-JU",
+    "file": "docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md",
+    "ref": "§0",
+    "ok": true,
+    "why": "",
+    "heading": "0. 取得した版"
+   },
+   {
+    "line": 260,
+    "alias": "PS-JU",
+    "file": "docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md",
+    "ref": "§7",
+    "ok": true,
+    "why": "",
+    "heading": "7. 年度と年分の対応、住民税の給与所得（調べること7の材料）"
+   },
+   {
+    "line": 260,
+    "alias": "PS-CS",
+    "file": "docs/public-sources/20261109_round3_chiho-sochi-law-and-notices.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 第292条第5項（第23条第5項）：引用する所得税法令は前年の所得について適用されたもの"
+   },
+   {
+    "line": 260,
+    "alias": "PS-KYB",
+    "file": "docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md",
+    "ref": "§1.3",
+    "ok": true,
+    "why": "",
+    "heading": "1.3 国家公務員の組合の案内（適用日の扱い）"
+   },
+   {
+    "line": 260,
+    "alias": "PS-KYB",
+    "file": "docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md",
+    "ref": "§2.1",
+    "ok": true,
+    "why": "",
+    "heading": "2.1 改正の通知（SOUMU-210。写しで読んだ）"
+   },
+   {
+    "line": 260,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 263,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 判定コアの CLI 形（標準入力の JSON → 標準出力の JSON）（P10）"
+   },
+   {
+    "line": 263,
+    "alias": "PS-KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§11.1",
+    "ok": true,
+    "why": "",
+    "heading": "11.1 条文"
+   },
+   {
+    "line": 267,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 根拠（計算の過程）の取り出し（P05、P06）"
+   },
+   {
+    "line": 267,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 判定コアの CLI 形（標準入力の JSON → 標準出力の JSON）（P10）"
+   },
+   {
+    "line": 268,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 根拠（計算の過程）の取り出し（P05、P06）"
+   },
+   {
+    "line": 268,
+    "alias": "SRC",
+    "file": "docs/public-sources/20261109_impl-prep_tools-source-notes.md",
+    "ref": "§2.4",
+    "ok": true,
+    "why": "",
+    "heading": "2.4 自動で付くメタデータ（F）"
+   },
+   {
+    "line": 269,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 根拠（計算の過程）の取り出し（P05、P06）"
+   },
+   {
+    "line": 269,
+    "alias": "SRC",
+    "file": "docs/public-sources/20261109_impl-prep_tools-source-notes.md",
+    "ref": "§1.4",
+    "ok": true,
+    "why": "",
+    "heading": "1.4 トレース（計算の過程）の構造（F）"
+   },
+   {
+    "line": 273,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§2.3",
+    "ok": true,
+    "why": "",
+    "heading": "2.3 期間の文字列表現で日が落ちる"
+   },
+   {
+    "line": 273,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 施行日をキーにしたパラメータと、適用開始日をキーにしたパラメータ（P03）"
+   },
+   {
+    "line": 273,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 根拠（計算の過程）の取り出し（P05、P06）"
+   },
+   {
+    "line": 273,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 判定コアの CLI 形（標準入力の JSON → 標準出力の JSON）（P10）"
+   },
+   {
+    "line": 273,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§9",
+    "ok": true,
+    "why": "",
+    "heading": "9. 性能（P11）"
+   },
+   {
+    "line": 273,
+    "alias": "SRC",
+    "file": "docs/public-sources/20261109_impl-prep_tools-source-notes.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 期間の文字列表現は日を落とす（F）"
+   },
+   {
+    "line": 273,
+    "alias": "SRC",
+    "file": "docs/public-sources/20261109_impl-prep_tools-source-notes.md",
+    "ref": "§1.4",
+    "ok": true,
+    "why": "",
+    "heading": "1.4 トレース（計算の過程）の構造（F）"
+   },
+   {
+    "line": 273,
+    "alias": "SRC",
+    "file": "docs/public-sources/20261109_impl-prep_tools-source-notes.md",
+    "ref": "§1.5",
+    "ok": true,
+    "why": "",
+    "heading": "1.5 パラメータのメタデータ（F）"
+   },
+   {
+    "line": 273,
+    "alias": "SRC",
+    "file": "docs/public-sources/20261109_impl-prep_tools-source-notes.md",
+    "ref": "§2.4",
+    "ok": true,
+    "why": "",
+    "heading": "2.4 自動で付くメタデータ（F）"
+   },
+   {
+    "line": 273,
+    "alias": "TV",
+    "file": "docs/measurements/20261109_impl-prep_tools-verification.md",
+    "ref": "§1",
+    "ok": true,
+    "why": "",
+    "heading": "1. [OFP] OpenFisca-Core 46.0.1 の実測"
+   },
+   {
+    "line": 273,
+    "alias": "KB5",
+    "file": "docs/measurements/20261109_impl-prep_kyuyo-beppyo5.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 取得した版"
+   },
+   {
+    "line": 273,
+    "alias": "EGOV",
+    "file": "docs/measurements/20261109_R1-laws_egov-api-monitoring.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 改正履歴（/law_revisions/{law_id}）"
+   },
+   {
+    "line": 273,
+    "alias": "PS-KY",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§0.2",
+    "ok": true,
+    "why": "",
+    "heading": "0.2 運用方針・組合の公表資料（取得 2026-11-09）"
+   },
+   {
+    "line": 273,
+    "alias": "PS-KY",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 分からなかったこと・一次情報が見つからなかったこと"
+   },
+   {
+    "line": 273,
+    "alias": "PS-KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§11.1",
+    "ok": true,
+    "why": "",
+    "heading": "11.1 条文"
+   },
+   {
+    "line": 273,
+    "alias": "PS-JU",
+    "file": "docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md",
+    "ref": "§0",
+    "ok": true,
+    "why": "",
+    "heading": "0. 取得した版"
+   },
+   {
+    "line": 273,
+    "alias": "PS-JU",
+    "file": "docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md",
+    "ref": "§7",
+    "ok": true,
+    "why": "",
+    "heading": "7. 年度と年分の対応、住民税の給与所得（調べること7の材料）"
+   },
+   {
+    "line": 284,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§9",
+    "ok": true,
+    "why": "",
+    "heading": "9. 性能（P11）"
+   },
+   {
+    "line": 330,
+    "alias": "PS-SP",
+    "file": "docs/public-sources/20261109_round2_spouse-laws-and-sources.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 定義（所法 第2条第1項第33号〜第33号の4）"
+   },
+   {
+    "line": 330,
+    "alias": "PS-K",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§0",
+    "ok": true,
+    "why": "",
+    "heading": "0. 出典一覧"
+   },
+   {
+    "line": 330,
+    "alias": "PS-JT",
+    "file": "docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md",
+    "ref": "§2.4",
+    "ok": true,
+    "why": "",
+    "heading": "2.4 非課税（F：地法 第295条第1項。令和8年度分〜令和10年度分の版で同じ）"
+   },
+   {
+    "line": 331,
+    "alias": "PS-SP",
+    "file": "docs/public-sources/20261109_round2_spouse-laws-and-sources.md",
+    "ref": "§1.3",
+    "ok": true,
+    "why": "",
+    "heading": "1.3 配偶者特別控除（所法 第83条の2）"
+   },
+   {
+    "line": 331,
+    "alias": "M-GP",
+    "file": "docs/measurements/20261109_round2_gaps-fetch-and-checks.md",
+    "ref": "C4",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "line": 331,
+    "alias": "M-HKC",
+    "file": "docs/measurements/20261109_round2_hoken-kifu-formula-checks.md",
+    "ref": "§6",
+    "ok": true,
+    "why": "",
+    "heading": "6. ふるさと納税（住民税の特例控除）の割合"
+   },
+   {
+    "line": 331,
+    "alias": "PS-KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§6",
+    "ok": true,
+    "why": "",
+    "heading": "6. 低所得者の軽減（7割・5割・2割）"
+   },
+   {
+    "line": 332,
+    "alias": "PS-GP",
+    "file": "docs/public-sources/20261109_round2_gaps-sources.md",
+    "ref": "§2.1",
+    "ok": true,
+    "why": "",
+    "heading": "2.1 現在の TA No.1810（F）"
+   },
+   {
+    "line": 332,
+    "alias": "PS-GP",
+    "file": "docs/public-sources/20261109_round2_gaps-sources.md",
+    "ref": "§2.3",
+    "ok": true,
+    "why": "",
+    "heading": "2.3 条文の値（F。値の読み取りは［M］C2、条文の引用は［PS-JG］§2・［PS-IT］§2）"
+   },
+   {
+    "line": 332,
+    "alias": "M-GP",
+    "file": "docs/measurements/20261109_round2_gaps-fetch-and-checks.md",
+    "ref": "C2",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "line": 333,
+    "alias": "KTH",
+    "file": "docs/measurements/20261109_impl-prep_kyuyo-thresholds.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 所得税（年分）：境目と公開資料の照合（`thresholds.md`）"
+   },
+   {
+    "line": 333,
+    "alias": "KTH",
+    "file": "docs/measurements/20261109_impl-prep_kyuyo-thresholds.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 住民税（年度）：境目"
+   },
+   {
+    "line": 333,
+    "alias": "KTH",
+    "file": "docs/measurements/20261109_impl-prep_kyuyo-thresholds.md",
+    "ref": "§5",
+    "ok": true,
+    "why": "",
+    "heading": "5. 端数・刻みのまとめ（実測した範囲）"
+   },
+   {
+    "line": 334,
+    "alias": "M-JT",
+    "file": "docs/measurements/20261109_round2_jinteki-fetch-and-checks.md",
+    "ref": "§5",
+    "ok": true,
+    "why": "",
+    "heading": "5. 給与収入 6,777,778円と寡婦・ひとり親の 500万円（`checks.md` §3）"
+   },
+   {
+    "line": 334,
+    "alias": "KTH",
+    "file": "docs/measurements/20261109_impl-prep_kyuyo-thresholds.md",
+    "ref": "§5",
+    "ok": true,
+    "why": "",
+    "heading": "5. 端数・刻みのまとめ（実測した範囲）"
+   },
+   {
+    "line": 335,
+    "alias": "PS-SP",
+    "file": "docs/public-sources/20261109_round2_spouse-laws-and-sources.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 配偶者控除（所法 第83条）"
+   },
+   {
+    "line": 335,
+    "alias": "PS-SP",
+    "file": "docs/public-sources/20261109_round2_spouse-laws-and-sources.md",
+    "ref": "§1.3",
+    "ok": true,
+    "why": "",
+    "heading": "1.3 配偶者特別控除（所法 第83条の2）"
+   },
+   {
+    "line": 336,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 根拠（計算の過程）の取り出し（P05、P06）"
+   },
+   {
+    "line": 375,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 判定コアの CLI 形（標準入力の JSON → 標準出力の JSON）（P10）"
+   },
+   {
+    "line": 405,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 判定コアの CLI 形（標準入力の JSON → 標準出力の JSON）（P10）"
+   },
+   {
+    "line": 405,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§9",
+    "ok": true,
+    "why": "",
+    "heading": "9. 性能（P11）"
+   },
+   {
+    "line": 406,
+    "alias": "OF-run",
+    "file": "docs/measurements/20261109_R2-tools_openfisca-core-runtime.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 グループと役割（T01〜T05、T14、T12n）— R4 向け"
+   },
+   {
+    "line": 407,
+    "alias": "PS-KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§1.4",
+    "ok": true,
+    "why": "",
+    "heading": "1.4 通達（措置法通達 8の4-1）"
+   },
+   {
+    "line": 407,
+    "alias": "PS-IR",
+    "file": "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+    "ref": "§6.1",
+    "ok": true,
+    "why": "",
+    "heading": "6.1 要件と選択（TA1129・TA1131・特集セルフ）"
+   },
+   {
+    "line": 408,
+    "alias": "PS-AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 令和7年分・令和8年分（2025-12-31 版と 2026-12-31 版で同文。措規9の6 も同文。実測 §4.2）"
+   },
+   {
+    "line": 408,
+    "alias": "PS-AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§5.3",
+    "ok": true,
+    "why": "",
+    "heading": "5.3 純損失の繰戻しによる還付（所法140〜142、所令271・272、所規54、所基通140・141−1〜4・142−1）"
+   },
+   {
+    "line": 409,
+    "alias": "PS-HKN",
+    "file": "docs/public-sources/20261109_round2_hoken-kifu-nta-soumu.md",
+    "ref": "§1.4",
+    "ok": true,
+    "why": "",
+    "heading": "1.4 質疑応答事例（所得税）"
+   },
+   {
+    "line": 419,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§9",
+    "ok": true,
+    "why": "",
+    "heading": "9. 性能（P11）"
+   },
+   {
+    "line": 430,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 476,
+    "alias": "PS-KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 国民健康保険料（国保法）"
+   },
+   {
+    "line": 476,
+    "alias": "PS-KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 賦課総額と、所得割・資産割・被保険者均等割・世帯別平等割の組合せ（方式）"
+   },
+   {
+    "line": 476,
+    "alias": "PS-KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§5",
+    "ok": true,
+    "why": "",
+    "heading": "5. 賦課限度額（年度ごと）"
+   },
+   {
+    "line": 476,
+    "alias": "PS-KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§6",
+    "ok": true,
+    "why": "",
+    "heading": "6. 低所得者の軽減（7割・5割・2割）"
+   },
+   {
+    "line": 476,
+    "alias": "PS-KH",
+    "file": "docs/public-sources/20261109_round2_kokuho-premium-structure.md",
+    "ref": "§13",
+    "ok": true,
+    "why": "",
+    "heading": "13. 分からなかったこと・一次情報が見つからなかったこと"
+   },
+   {
+    "line": 477,
+    "alias": "PS-JZA",
+    "file": "docs/public-sources/20261109_round2_juminzei-tax-admin-and-municipal.md",
+    "ref": "§2",
+    "ok": true,
+    "why": "",
+    "heading": "2. 自治体の計算例（令和8年度分）"
+   },
+   {
+    "line": 477,
+    "alias": "PS-JZA",
+    "file": "docs/public-sources/20261109_round2_juminzei-tax-admin-and-municipal.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 総務省「超過課税の状況」"
+   },
+   {
+    "line": 477,
+    "alias": "M-JZ",
+    "file": "docs/measurements/20261109_round2_juminzei-tax-fetch-and-checks.md",
+    "ref": "§3.7",
+    "ok": true,
+    "why": "",
+    "heading": "3.7 計算の読みによる自治体の計算例の再現（`examples.md`）"
+   },
+   {
+    "line": 478,
+    "alias": "PS-KY",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§6.3",
+    "ok": true,
+    "why": "",
+    "heading": "6.3 事業収入"
+   },
+   {
+    "line": 478,
+    "alias": "PS-KY",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§6.4",
+    "ok": true,
+    "why": "",
+    "heading": "6.4 収入に波がある人の「年間収入」の見方"
+   },
+   {
+    "line": 478,
+    "alias": "PS-KY",
+    "file": "docs/public-sources/20261109_round2_kyosai-law-and-criteria.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 分からなかったこと・一次情報が見つからなかったこと"
+   },
+   {
+    "line": 479,
+    "alias": "PS-K",
+    "file": "docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md",
+    "ref": "§1.3",
+    "ok": true,
+    "why": "",
+    "heading": "1.3 保険者による違い"
+   },
+   {
+    "line": 479,
+    "alias": "PS-GP",
+    "file": "docs/public-sources/20261109_round2_gaps-sources.md",
+    "ref": "§6.2",
+    "ok": true,
+    "why": "",
+    "heading": "6.2 ワクチン接種業務の特例の Q&A（保険者向け）が示す保険者ごとの確認方法（F）"
+   },
+   {
+    "line": 480,
+    "alias": "PS-EA",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-guidance.md",
+    "ref": "§5.1",
+    "ok": true,
+    "why": "",
+    "heading": "5.1 60歳以上の 180万円（［S52］）"
+   },
+   {
+    "line": 480,
+    "alias": "PS-EA",
+    "file": "docs/public-sources/20261109_round2_elderly-abroad-guidance.md",
+    "ref": "§6",
+    "ok": true,
+    "why": "",
+    "heading": "6. 分からなかったこと・一次情報が見つからなかったこと"
+   },
+   {
+    "line": 481,
+    "alias": "PS-KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§10",
+    "ok": true,
+    "why": "",
+    "heading": "10. 健康保険の被扶養者の「年間収入」と株式の収入"
+   },
+   {
+    "line": 489,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 562,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§8",
+    "ok": true,
+    "why": "",
+    "heading": "8. 不動産所得用の様式（D20 で対象に入った分。概略）"
+   },
+   {
+    "line": 563,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§0",
+    "ok": true,
+    "why": "",
+    "heading": "0. まとめ"
+   },
+   {
+    "line": 563,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "#2",
+    "ok": true,
+    "why": "項目番号（目で確かめる）"
+   },
+   {
+    "line": 571,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§0（1・2）",
+    "ok": true,
+    "why": "",
+    "heading": "0. まとめ"
+   },
+   {
+    "line": 571,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§1.1",
+    "ok": true,
+    "why": "",
+    "heading": "1.1 法令（e-Gov 法令API v2。版は［M］§6）"
+   },
+   {
+    "line": 571,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§1.2",
+    "ok": true,
+    "why": "",
+    "heading": "1.2 法令解釈通達「『個人課税事務提要（様式編Ⅰ）』の制定について」（F）"
+   },
+   {
+    "line": 572,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§0（4・5）",
+    "ok": true,
+    "why": "",
+    "heading": "0. まとめ"
+   },
+   {
+    "line": 572,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 第二表（個12-1073、様式ID `NTA0K?A020020230`）：欄コードの有無と記入の規則"
+   },
+   {
+    "line": 572,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§5",
+    "ok": true,
+    "why": "",
+    "heading": "5. 第四表（損失申告用。（一）個12-1075、（二）個12-1076、様式ID `NTA0K?A020040230`・`NTA0K?A020050230`）"
+   },
+   {
+    "line": 572,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§6",
+    "ok": true,
+    "why": "",
+    "heading": "6. 青色申告決算書（一般用）（個12-1083、様式ID `NTA0KOA210010110`〜`NTA0KOA210040110`）"
+   },
+   {
+    "line": 572,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§9",
+    "ok": true,
+    "why": "",
+    "heading": "9. 医療費控除の明細書・セルフメディケーション税制の明細書（F）"
+   },
+   {
+    "line": 572,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§13",
+    "ok": true,
+    "why": "",
+    "heading": "13. 分からなかったこと"
+   },
+   {
+    "line": 572,
+    "alias": "YM",
+    "file": "docs/measurements/20261109_round2_yoshiki-fetch-and-extract.md",
+    "ref": "§3.1",
+    "ok": true,
+    "why": "",
+    "heading": "3.1 ページの中身の種類（F）"
+   },
+   {
+    "line": 572,
+    "alias": "YM",
+    "file": "docs/measurements/20261109_round2_yoshiki-fetch-and-extract.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 青色申告決算書（一般用）の欄コードと科目の対応の確かめ方（F）"
+   },
+   {
+    "line": 573,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§0（3）",
+    "ok": true,
+    "why": "",
+    "heading": "0. まとめ"
+   },
+   {
+    "line": 573,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§1.3",
+    "ok": true,
+    "why": "",
+    "heading": "1.3 一部改正（F）"
+   },
+   {
+    "line": 573,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§1.5",
+    "ok": true,
+    "why": "",
+    "heading": "1.5 AI-OCR と欄コード（e-Tax の仕様公開ページ）（F）"
+   },
+   {
+    "line": 574,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§0（6）",
+    "ok": true,
+    "why": "",
+    "heading": "0. まとめ"
+   },
+   {
+    "line": 574,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§5.3",
+    "ok": true,
+    "why": "",
+    "heading": "5.3 手引き（損失申告用）の記入の規則（F）"
+   },
+   {
+    "line": 575,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§0（7・8）",
+    "ok": true,
+    "why": "",
+    "heading": "0. まとめ"
+   },
+   {
+    "line": 575,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§10",
+    "ok": true,
+    "why": "",
+    "heading": "10. 社会保険料控除等の明細書（令和8年分以後）（F）"
+   },
+   {
+    "line": 575,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§11",
+    "ok": true,
+    "why": "",
+    "heading": "11. 令和8年分の様式の公表状況（2026-11-09 時点）（F）"
+   },
+   {
+    "line": 576,
+    "alias": "OUT",
+    "file": "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md",
+    "ref": "§2.2〜§2.5",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "line": 576,
+    "alias": "OUT",
+    "file": "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md",
+    "ref": "§2.2",
+    "ok": true,
+    "why": "",
+    "heading": "2.2 第一表（`NTA1K?A020010230`。`?` は §5.1）"
+   },
+   {
+    "line": 576,
+    "alias": "OUT",
+    "file": "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md",
+    "ref": "§2.5",
+    "ok": true,
+    "why": "",
+    "heading": "2.5 手引き（令和7年分、HTML 版）から、このプロジェクトに関係する欄の書き方（F）"
+   },
+   {
+    "line": 577,
+    "alias": "OUT",
+    "file": "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md",
+    "ref": "§5.1〜§5.3",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "line": 577,
+    "alias": "OUT",
+    "file": "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md",
+    "ref": "§5.1",
+    "ok": true,
+    "why": "",
+    "heading": "5.1 紙の様式ID"
+   },
+   {
+    "line": 577,
+    "alias": "OUT",
+    "file": "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md",
+    "ref": "§5.3",
+    "ok": true,
+    "why": "",
+    "heading": "5.3 e-Tax「令和9年1月受付開始予定の帳票一覧（予定）」"
+   },
+   {
+    "line": 577,
+    "alias": "OUTV",
+    "file": "docs/measurements/20261109_impl-prep_output-verification.md",
+    "ref": "V2",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "line": 578,
+    "alias": "OUT",
+    "file": "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md",
+    "ref": "§6.1",
+    "ok": true,
+    "why": "",
+    "heading": "6.1 一覧（F）"
+   },
+   {
+    "line": 578,
+    "alias": "OUT",
+    "file": "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md",
+    "ref": "§6.2",
+    "ok": true,
+    "why": "",
+    "heading": "6.2 医療費集計フォーム（Ver.3.1）の形式"
+   },
+   {
+    "line": 579,
+    "alias": "OUT",
+    "file": "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md",
+    "ref": "§7.2",
+    "ok": true,
+    "why": "",
+    "heading": "7.2 e-Tax仕様書一覧（KSK2 対応版）"
+   },
+   {
+    "line": 579,
+    "alias": "OUT",
+    "file": "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md",
+    "ref": "§7.3",
+    "ok": true,
+    "why": "",
+    "heading": "7.3 e-Taxソフト（WEB版）での外部作成データの読込（F）"
+   },
+   {
+    "line": 579,
+    "alias": "OUT",
+    "file": "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md",
+    "ref": "§8.1",
+    "ok": true,
+    "why": "",
+    "heading": "8.1 「e-Tax等仕様公開に当たっての注意事項」（仕様公開ページ `index.html#anc04` の本文、全文）"
+   },
+   {
+    "line": 580,
+    "alias": "OUT",
+    "file": "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 法令：確定申告書の記載事項と添付書類（e-Gov 法令API v2）"
+   },
+   {
+    "line": 580,
+    "alias": "OUTV",
+    "file": "docs/measurements/20261109_impl-prep_output-verification.md",
+    "ref": "V3",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "line": 581,
+    "alias": "PS-GP",
+    "file": "docs/public-sources/20261109_round2_gaps-sources.md",
+    "ref": "§5.1",
+    "ok": true,
+    "why": "",
+    "heading": "5.1 条文（F）"
+   },
+   {
+    "line": 582,
+    "alias": "PS-ZG",
+    "file": "docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md",
+    "ref": "§6.3",
+    "ok": true,
+    "why": "",
+    "heading": "6.3 証明書の要否"
+   },
+   {
+    "line": 582,
+    "alias": "PS-ZG",
+    "file": "docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md",
+    "ref": "§7.3",
+    "ok": true,
+    "why": "",
+    "heading": "7.3 添付書類（国民年金の保険料）"
+   },
+   {
+    "line": 583,
+    "alias": "PS-KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§11.1",
+    "ok": true,
+    "why": "",
+    "heading": "11.1 申告書第三表（分離課税用）"
+   },
+   {
+    "line": 583,
+    "alias": "PS-KB",
+    "file": "docs/public-sources/20261109_round2b_kabu-law-and-nta.md",
+    "ref": "§11.2",
+    "ok": true,
+    "why": "",
+    "heading": "11.2 第一表・第二表と付表"
+   },
+   {
+    "line": 584,
+    "alias": "PS-AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§7",
+    "ok": true,
+    "why": "",
+    "heading": "7. 所得税青色申告決算書（一般用）の欄（令和7年分）"
+   },
+   {
+    "line": 584,
+    "alias": "PS-AO",
+    "file": "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+    "ref": "§7.5",
+    "ok": true,
+    "why": "",
+    "heading": "7.5 様式の改定の予定（既存の調査）"
+   },
+   {
+    "line": 585,
+    "alias": "YV",
+    "file": "docs/measurements/20261109_round2_yoshiki-verification.md",
+    "ref": "§3",
+    "ok": true,
+    "why": "",
+    "heading": "3. 訂正"
+   },
+   {
+    "line": 601,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 603,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 604,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 606,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 621,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 622,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 630,
+    "alias": "YS",
+    "file": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+    "ref": "§0",
+    "ok": true,
+    "why": "",
+    "heading": "0. まとめ"
+   },
+   {
+    "line": 640,
+    "alias": "OFP",
+    "file": "docs/measurements/20261109_impl-prep_tools-openfisca-probe.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. 根拠（計算の過程）の取り出し（P05、P06）"
+   },
+   {
+    "line": 645,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.5",
+    "ok": true,
+    "why": "",
+    "heading": "3.5 出力の案の漏れ"
+   },
+   {
+    "line": 646,
+    "alias": "PS-SS",
+    "tail": "",
+    "refs": [],
+    "col": 97,
+    "file": "docs/public-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   },
+   {
+    "line": 651,
+    "alias": "M-VER",
+    "tail": "",
+    "refs": [],
+    "col": 31,
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   },
+   {
+    "line": 651,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§0.2",
+    "ok": true,
+    "why": "",
+    "heading": "0.2 前の検証者の作業の状態（引き継いだもの）"
+   },
+   {
+    "line": 651,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 OUTD §1.5 の「出てくる文書（節）」の照合"
+   },
+   {
+    "line": 651,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.4",
+    "ok": true,
+    "why": "",
+    "heading": "3.4 印の漏れ（「」の中身による走査）"
+   },
+   {
+    "line": 651,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 652,
+    "alias": "M-VER",
+    "tail": "）",
+    "refs": [],
+    "col": 21,
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   },
+   {
+    "line": 653,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 OUTD §1.5 の「出てくる文書（節）」の照合"
+   },
+   {
+    "line": 653,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 654,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 654,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§4",
+    "ok": true,
+    "why": "",
+    "heading": "4. (c) HANDOFF D17〜D21 との食い違い"
+   },
+   {
+    "line": 655,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.2",
+    "ok": true,
+    "why": "",
+    "heading": "3.2 OUTD §1.5 の「出てくる文書（節）」の照合"
+   },
+   {
+    "line": 655,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.4",
+    "ok": true,
+    "why": "",
+    "heading": "3.4 印の漏れ（「」の中身による走査）"
+   },
+   {
+    "line": 655,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 655,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 655,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.6",
+    "ok": true,
+    "why": "",
+    "heading": "3.6 round3 の文書（統合元に足したもの）"
+   },
+   {
+    "line": 656,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§5",
+    "ok": true,
+    "why": "",
+    "heading": "5. (d) AGENTS.md の規約"
+   },
+   {
+    "line": 656,
+    "alias": "PS-KYB",
+    "tail": "・",
+    "refs": [],
+    "col": 57,
+    "file": "docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   },
+   {
+    "line": 656,
+    "alias": "PS-SS",
+    "tail": "・",
+    "refs": [],
+    "col": 66,
+    "file": "docs/public-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   },
+   {
+    "line": 656,
+    "alias": "PS-CS",
+    "tail": "",
+    "refs": [],
+    "col": 74,
+    "file": "docs/public-sources/20261109_round3_chiho-sochi-law-and-notices.md",
+    "ok": false,
+    "why": "節・番号の指定がない"
+   },
+   {
+    "line": 656,
+    "alias": "M-VER",
+    "file": "docs/measurements/20261109_round3_design-verification.md",
+    "ref": "§3.5",
+    "ok": true,
+    "why": "",
+    "heading": "3.5 出力の案の漏れ"
+   }
+  ]
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "aes_selftest": true,
+ "files": {
+  "kessan_ippan": {
+   "path": ".work/downloads/20261109-184426_R2X_aoiro_verify_nta/pdf_kessan_ippan.pdf",
+   "sha256": "c3cd9d17c0174972a19c5b8174ad01ac685f4ed2dda9d3e903e6fd315bf5f4c3",
+   "encrypt": {
+    "encrypted": true,
+    "V": 4,
+    "R": 4,
+    "P": -1068,
+    "Length": 16,
+    "CFM": "AESV2",
+    "key_ok": true
+   },
+   "objstm_added": 33,
+   "pages": 4,
+   "fonts": [
+    "HNN1:90ms-RKSJ-H",
+    "HNN2:90ms-RKSJ-H",
+    "VNN1:90ms-RKSJ-V",
+    "VNN2:90ms-RKSJ-V"
+   ],
+   "rows": 994
+  },
+  "kessan_genkin": {
+   "path": ".work/downloads/20261109-184426_R2X_aoiro_verify_nta/pdf_kessan_genkin.pdf",
+   "sha256": "184a71c5efda112d54fccc59837400808e3c84440f49a11559f23e519dceefad",
+   "encrypt": {
+    "encrypted": true,
+    "V": 4,
+    "R": 4,
+    "P": -1068,
+    "Length": 16,
+    "CFM": "AESV2",
+    "key_ok": true
+   },
+   "objstm_added": 21,
+   "pages": 2,
+   "fonts": [
+    "HNN1:90ms-RKSJ-H",
+    "HNN2:90ms-RKSJ-H",
+    "VNN1:90ms-RKSJ-V",
+    "VNN2:90ms-RKSJ-V"
+   ],
+   "rows": 401
+  }
+ }
+}

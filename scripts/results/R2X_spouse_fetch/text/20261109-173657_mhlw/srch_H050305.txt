@@ -1,0 +1,15 @@
+# source=https://www.mhlw.go.jp/web/t_itemsrch_result?type=1&startGengo=4&yearFrom=5&monthFrom=3&dayFrom=5&endGengo=4&yearTo=5&monthTo=3&dayTo=5&shubetsu=&bango=
+# fetched_at=20261109-173657
+# charset=UTF-8
+
+結果一覧
+
+検索結果
+
+該当件数: 0件中 0件~ 0件
+
+			並べ替え順序選択
+			制定年月日 新しい順
+			制定年月日 古い順
+			改正年月日 新しい順
+			改正年月日 古い順

@@ -1,0 +1,1488 @@
+{
+ "run_at": "20261109-185318",
+ "download_dir": ".work\\downloads\\20261109-185318_R2X_kyosai_verify_web",
+ "html": [
+  {
+   "id": "MOF-S",
+   "url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/tsuutatsu_s.htm",
+   "status": 200,
+   "final_url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/tsuutatsu_s.htm",
+   "bytes": 182004,
+   "sha256": "f34d38aefebb4c37c28dcf083a0c6e55efb4cf733639f3f9ef5d50c0c9dff093",
+   "last_modified": "Wed, 30 Sep 2026 14:00:19 GMT",
+   "title": "通達等（昭和） : 財務省",
+   "quotes": [
+    {
+     "quote": "蔵計第2927号",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§0.2・MS-KY§2.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "国家公務員共済組合法等の運用方針",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§0.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "主計局給与共済課共済係",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "MS-KY§2.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "TU-19591001-2927-11.pdf",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "MS-KY§2.2（リンク先は HTML の属性。下の links で確かめる）",
+     "first_missing_fragment": null
+    }
+   ],
+   "prev_last_modified": "Wed, 30 Sep 2026 14:00:19 GMT",
+   "prev_sha16": "8f2753229578a782",
+   "same_as_prev": false
+  },
+  {
+   "id": "MOF-R",
+   "url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/tsuutatsu_r.htm",
+   "status": 200,
+   "final_url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/tsuutatsu_r.htm",
+   "bytes": 46826,
+   "sha256": "5858addcd8cc9a1cf89ec08c251d2e0812bee1d4dcfc41d8ee4d4cf340d02fb1",
+   "last_modified": "Fri, 31 Jul 2026 00:00:30 GMT",
+   "title": "通達等（令和） : 財務省",
+   "quotes": [
+    {
+     "quote": "財計第4707号",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "MS-KY§2.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "国家公務員等の旅費に関する法律等の運用方針について",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "MS-KY§2.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "財計第1487号",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "MS-KY§2.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "財計第1486号",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "MS-KY§2.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "財計第4140号",
+     "expect": false,
+     "found": false,
+     "ok": true,
+     "where": "KY§3.3（改正通達の行はない）",
+     "first_missing_fragment": "財計第4140号"
+    },
+    {
+     "quote": "財計第3570号",
+     "expect": false,
+     "found": false,
+     "ok": true,
+     "where": "KY§3.3",
+     "first_missing_fragment": "財計第3570号"
+    },
+    {
+     "quote": "蔵計第2927号",
+     "expect": false,
+     "found": false,
+     "ok": true,
+     "where": "KY§3.3",
+     "first_missing_fragment": "蔵計第2927号"
+    }
+   ],
+   "rows_給与共済課": [
+    "F:274KB)理財局国有財産業務課令和7年財会第1615号公共工事に係る談合情報対応マニュアルPDF(PDF:173KB)大臣官房会計課令和6年財計第4707号国家公務員等の旅費に関する法律等の運用方針についてPDF(PDF:155KB)主計局給与共済課令和5年財理第1924号",
+    "BCP用宿舎の取扱いについてHTMLPDF(PDF:274KB)理財局国有財産調整課令和2年財計第1487号経過的長期給付積立金の管理及び運用が安全かつ効率的に行われるようにするための基本的な指針の一部改正についてPDF(PDF:69KB)主計局給与共済課令和2年財計第1486号",
+    "にするための基本的な指針の一部改正についてPDF(PDF:69KB)主計局給与共済課令和2年財計第1486号退職等年金給付積立金の管理及び運用が安全かつ効率的に行われるようにするための基本的な指針の一部改正についてPDF(PDF:62KB)主計局給与共済課令和元年財理第3228号"
+   ],
+   "prev_last_modified": "Fri, 31 Jul 2026 00:00:30 GMT",
+   "prev_sha16": "ae598bfba78846ac",
+   "same_as_prev": false
+  },
+  {
+   "id": "UNYO-K-H27",
+   "url": "http://mofkyosai.gijiroku.com/mofqa/reg_view_honbun.asp?RMODE=1&ISrchID=155",
+   "status": 200,
+   "final_url": "http://mofkyosai.gijiroku.com/mofqa/reg_view_honbun.asp?RMODE=1&ISrchID=155",
+   "bytes": 115894,
+   "sha256": "da1aa89150f749b497356645607355eabbaec839243ae34037c69b9a371abc68",
+   "last_modified": null,
+   "title": "財務省共済組合定款・規則集等データベース－詳細情報",
+   "quotes": [
+    {
+     "quote": "平成27年4月1日財計第1382号",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§0.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "国家公務員共済組合法等の運用方針",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§0.2",
+     "first_missing_fragment": null
+    }
+   ],
+   "prev_last_modified": null,
+   "prev_sha16": "da1aa89150f749b4",
+   "same_as_prev": true
+  },
+  {
+   "id": "KKR",
+   "url": "https://www.kkr.or.jp/",
+   "status": 200,
+   "final_url": "https://www.kkr.or.jp/",
+   "bytes": 42169,
+   "sha256": "7990d78da6689c0ae867d4f9c13e122c8498694828a7cf8df093d0823994395c",
+   "last_modified": null,
+   "title": "KKR-国家公務員共済組合連合会",
+   "quotes": [],
+   "links_with_扶養": [
+    "令和8年9月15日から順次 令和9年分 公的年金等の受給者の「扶養親族等申告書」の発送を行います",
+    "公的年金等の受給者の扶養親族等申告書に関するQ＆Aを掲載しました"
+   ],
+   "prev_last_modified": null,
+   "prev_sha16": "7990d78da6689c0a",
+   "same_as_prev": true
+  },
+  {
+   "id": "CHIKYO-HQ",
+   "url": "https://www.chikyosai.or.jp/division/short/02.html",
+   "status": 200,
+   "final_url": "https://www.chikyosai.or.jp/division/short/02.html",
+   "bytes": 12431,
+   "sha256": "c75aee57e65f9ad35ebbcd2d28673eb9d4cad48904552beeadd65cede5bdc0e4",
+   "last_modified": "Mon, 22 Sep 2025 07:44:59 GMT",
+   "title": "被扶養者の認定・取消｜地方職員共済組合",
+   "quotes": [
+    {
+     "quote": "令和7年10月1日",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§4",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "150万円",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§4",
+     "first_missing_fragment": null
+    }
+   ],
+   "prev_last_modified": "Mon, 22 Sep 2025 07:44:59 GMT",
+   "prev_sha16": "c75aee57e65f9ad3",
+   "same_as_prev": true
+  },
+  {
+   "id": "NAGASAKI-LAW",
+   "url": "https://nagasaki.chikyosai.or.jp/about/law/",
+   "status": 200,
+   "final_url": "https://nagasaki.chikyosai.or.jp/about/law/",
+   "bytes": 70762,
+   "sha256": "a5c127b0a65459de6572b9401bc6ab96a6686c95cf120f06e4ab4a776c6776c1",
+   "last_modified": null,
+   "title": "制度の法的基盤 | 共済組合のしくみ | 地方職員共済組合長崎県支部",
+   "quotes": [
+    {
+     "quote": "地方公務員等共済組合法運用方針（昭和37年自治甲公第10号）",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§4",
+     "first_missing_fragment": null
+    }
+   ],
+   "prev_last_modified": null,
+   "prev_sha16": "a5c127b0a65459de",
+   "same_as_prev": true
+  },
+  {
+   "id": "KOURITU-19-23",
+   "url": "https://www.kouritu.or.jp/topics/kumiai/fuyou_20250812/index.html",
+   "status": 200,
+   "final_url": "https://www.kouritu.or.jp/topics/kumiai/fuyou_20250812/index.html",
+   "bytes": 14322,
+   "sha256": "5ce5850fd7840a4eeb544da54339647d41ed9488243da1b9d666f9fc9b34a70c",
+   "last_modified": "Thu, 05 Nov 2026 06:19:14 GMT",
+   "title": "19歳以上23歳未満の被扶養者の認定基準額が変更されます:公立学校共済組合",
+   "quotes": [
+    {
+     "quote": "令和7年中の基準額が150万円未満となるのは、誕生日が平成15年1月2日から平成19年1月1日までの方です",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§3.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "令和7年10月1日",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§0.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "12月31日",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§3.2",
+     "first_missing_fragment": null
+    }
+   ],
+   "prev_last_modified": "Thu, 05 Nov 2026 06:19:14 GMT",
+   "prev_sha16": "5ce5850fd7840a4e",
+   "same_as_prev": true
+  },
+  {
+   "id": "KOURITU-REI-S",
+   "url": "https://www.kouritu.or.jp/shizuoka/tetsuduki/kyosai/hifuyo/rei/shinzoku/index.html",
+   "status": 200,
+   "final_url": "https://www.kouritu.or.jp/shizuoka/tetsuduki/kyosai/hifuyo/rei/shinzoku/index.html",
+   "bytes": 17349,
+   "sha256": "ce5516ea3ff87c8006604a9597b76da5a851360d044b1d10b227e57063e26f5f",
+   "last_modified": "Wed, 02 Jul 2025 02:16:30 GMT",
+   "title": "組合員と同一世帯に属する三親等内の親族:公立学校共済組合静岡支部",
+   "quotes": [
+    {
+     "quote": "一時的な別居とは、2か月あるいは1年という具体的な期間を指すものではなく、今まで同居し扶養関係のあった者が、組合員の転勤等のため、同居をする意志がありながら勤務",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§1.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "組合員の転勤等のため同一世帯に属することを要件とされている被扶養者と別居することとなった者のうち、引き続き同居できない理由が、勤務先の住居の狭あい、被扶養者の療",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§1.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "同居を要する親族が、大学等に在学するため組合員と別居を余儀なくされ、勉学に必要な生活費や教育費を組合員が負担し、主として組合員の収入によっている場合であっても、",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§1.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "勉学のため別居中の組合員の甥が、1年のうち夏休み、冬休み、試験休みと約4か月帰省し",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§1.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "この者の帰省中の期間だけを限って被扶養者として認定することはできない",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§1.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "更新日: 2021年04月01日",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§0.2（更新日）",
+     "first_missing_fragment": null
+    }
+   ],
+   "prev_last_modified": "Wed, 02 Jul 2025 02:16:30 GMT",
+   "prev_sha16": "ce5516ea3ff87c80",
+   "same_as_prev": true
+  },
+  {
+   "id": "KOURITU-REI-F",
+   "url": "https://www.kouritu.or.jp/shizuoka/tetsuduki/kyosai/hifuyo/rei/fubo/index.html",
+   "status": 200,
+   "final_url": "https://www.kouritu.or.jp/shizuoka/tetsuduki/kyosai/hifuyo/rei/fubo/index.html",
+   "bytes": 23156,
+   "sha256": "e07faafa9b1193cc2359fac405d92fc48b56fd51e54b6c90e283a03d29c810b6",
+   "last_modified": "Wed, 02 Jul 2025 02:16:30 GMT",
+   "title": "別居している父母等の取り扱い:公立学校共済組合静岡支部",
+   "quotes": [
+    {
+     "quote": "官署を異にする異動等に伴い、組合員が同居していた被扶養者である父母等と一時的に別居することとなった場合の当該父母等（組合員の配偶者又は子と同居している父母等に限",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§1.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "3分の1以上",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "超える",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§2（送金等の負担額が父母等の収入を超える）",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "更新日: 2021年04月01日",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§0.2（更新日）",
+     "first_missing_fragment": null
+    }
+   ],
+   "prev_last_modified": "Wed, 02 Jul 2025 02:16:30 GMT",
+   "prev_sha16": "e07faafa9b1193cc",
+   "same_as_prev": true
+  },
+  {
+   "id": "KOURITU-HIRO",
+   "url": "https://www.kouritu.or.jp/hiroshima/tetsuduki/kyosai/fuyosha/syunyuhanteisheet/index.html",
+   "status": 200,
+   "final_url": "https://www.kouritu.or.jp/hiroshima/tetsuduki/kyosai/fuyosha/syunyuhanteisheet/index.html",
+   "bytes": 22759,
+   "sha256": "63d9d2b104ae61dcd5f7359d7650a198f16c38e8b96e8dd58e638c8c75315333",
+   "last_modified": "Thu, 24 Jul 2025 06:40:02 GMT",
+   "title": "被扶養者に収入があるとき:公立学校共済組合広島支部",
+   "quotes": [
+    {
+     "quote": "年額(12か月)の判定は、暦年ではありません。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.4",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "認定日以後、どの12か月の累計が130万円を超えても超えた月の初日で認定取消しとなります。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.4",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "月額108,334円以上が4か月連続すると、4か月目の初日で被扶養者認定を取り消し",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.4",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "課税、非課税にかかわらず、通勤手当は全額を収入に含めて判定",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "更新日: 2024年01月12日",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§0.2（更新日）",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "150万",
+     "expect": false,
+     "found": false,
+     "ok": true,
+     "where": "KY§0.2（150万円の記載なし）",
+     "first_missing_fragment": "150万"
+    }
+   ],
+   "prev_last_modified": "Thu, 24 Jul 2025 06:40:02 GMT",
+   "prev_sha16": "63d9d2b104ae61dc",
+   "same_as_prev": true
+  },
+  {
+   "id": "FUKUOKA-KIJUN",
+   "url": "https://fukuoka-kyosai.jp/reiki_int/reiki_honbun/x650RG00000067.html",
+   "status": 200,
+   "final_url": "https://fukuoka-kyosai.jp/reiki_int/reiki_honbun/x650RG00000067.html",
+   "bytes": 216058,
+   "sha256": "169b47abbe55461875ba7c09cf2669f92d164993f62a8d8d50b1350547d8c683",
+   "last_modified": "Tue, 20 Oct 2026 01:58:37 GMT",
+   "title": "被扶養者認定取扱基準",
+   "quotes": [
+    {
+     "quote": "地方公務員等共済組合法運用方針(昭和37年10月3日自治甲公10)",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§4",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "被扶養者の認定基準に関しては、各保険者の裁量に委ねられており、本基準は、その他の組合(地方職員、公立学校職員、警察職員、国家公務員、各指定都市職員、各都市職員又",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "諸手当(通勤手当等を含む。)",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "「組合員と同一の世帯に属する」とは、組合員と生計を共にし、かつ、同居している場合をいう。この場合において、次に掲げる場合は、組合員と同一の世帯に属するものに準じ",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§1.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "病院勤務の看護師のように勤務上別居を要する場合若しくはこれに準ずる場合又は転勤等に際して自己の都合により一時的に別居を余儀なくされる場合",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§1.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "組合員と同居していた者が、医療機関への長期入院や出産のための帰省等生活の本拠は自宅であるが、やむを得ない事情により一時的に別居している場合",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§1.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "仕送り額は、別居の認定対象者の収入(組合員以外の者からの仕送り等を含む。)以上かつ年間合計65万円以上の金額であることを条件とする。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "仕送り後の組合員世帯と認定対象者世帯の1人当たり平均生計費が逆転する場合は、原則として認定できない。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "仕送り方法は、金融機関からの振込みとし、現金の手渡しや現物(食料、衣料等)を渡すことによる方法は、認められない。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "毎月一定額を送金することを原則とする。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "確定申告を行うことにより確定した事業の総収入から、その収入を得るために必要不可欠であると組合が認める経費(別表第3)を控除した額を、今後1年間に見込まれる事業収",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.3",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "事業開始時点や事業の拡大、相続等、明らかに収入基準額以上となることが予測できた場合は、その時点をもって被扶養者の資格を取り消す。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.3",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "パート、アルバイト等月々の給与収入が変動する場合は、連続する3か月の平均給与月額が月額基準額以上となったときは、恒常的に基準額を超える収入があるものとみなす。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.4",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "当該3か月を含む今後1年間の収入が収入基準額以上とならないことが明らかである場合は、この限りでない。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.4",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "直近1年間の給与収入が収入基準額未満である月が3回連続した場合",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.4",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "従業員を雇い、1人に対し年間130万円以上の給料賃金又は雇人費を経費として支出しているときは",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.3",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "同居の親族に対する給料賃金は、原則必要経費とは認めない",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.3",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "地代家賃、水道光熱費、通信費については事業分と家計消費分とが明確に区分されている場合のみ認める",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.3",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "訪問販売における旅費交通費など職種によって認める場合もある",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.3",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "被扶養者の要件を欠くに至った日を原則",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§7",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "住民票記載の転出日",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§1.2・KY§7",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "住民票記載の転入日",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§1.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "月額基準額以上となった月の翌月初日",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§7・IKY3",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "確定申告締切日(3月15日)",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.3",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "施行規程第100条第2項の規定により準用する施行規程第97条第1項",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "MS-KY§3",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "学生である子は提出不要",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§3",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "令和3年2月18日",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§0.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "令和5年1月19日",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§0.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "令和3年7月1日",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§0.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "150万",
+     "expect": false,
+     "found": false,
+     "ok": true,
+     "where": "KY§0.2（150万円の記載がない）",
+     "first_missing_fragment": "150万"
+    },
+    {
+     "quote": "2,600,000",
+     "expect": null,
+     "found": false,
+     "ok": true,
+     "where": "C5（夫婦合算の表。書き方を見る）",
+     "first_missing_fragment": "2,600,000"
+    },
+    {
+     "quote": "260万",
+     "expect": null,
+     "found": true,
+     "ok": true,
+     "where": "C5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "310万",
+     "expect": null,
+     "found": true,
+     "ok": true,
+     "where": "C5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "360万",
+     "expect": null,
+     "found": true,
+     "ok": true,
+     "where": "C5",
+     "first_missing_fragment": null
+    }
+   ],
+   "prev_last_modified": "Tue, 20 Oct 2026 01:58:37 GMT",
+   "prev_sha16": "169b47abbe554618",
+   "same_as_prev": true
+  },
+  {
+   "id": "KEISATSU",
+   "url": "https://www.keikyo.jp/kenpo/621.html",
+   "status": 200,
+   "final_url": "https://www.keikyo.jp/kenpo/621.html",
+   "bytes": 31653,
+   "sha256": "9d48330cca9b7114afb8a2698e11d2fae514ca66ae2159fdf9cdfe770d97ecff",
+   "last_modified": "Thu, 01 Oct 2026 02:56:01 GMT",
+   "title": "被扶養者について | 警察共済組合",
+   "quotes": [
+    {
+     "quote": "同居を必要としない親族では配偶者、子、父母、孫、祖父母、兄弟姉妹",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§1.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "同居を必要とする親族では伯父伯母、甥姪、曾祖父母、曾孫、子の配偶者、配偶者の父母",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§1.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "年額130万円未満",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§1.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "を超えることが見込まれるとき",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§1.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "年齢は民法の取扱いに準じて誕生日の前日に加齢されますので、誕生日が1月1日の場合、年齢は前年の12月31日に加齢されます",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§3.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "12月31日現在",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§3.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "労働基準法第11条に規定される賃金のことで、交通費等の諸手当や賞与を含みます",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "被雇用者が対象であり、フリーランス・個人事業主等、特定の事業主と雇用関係にない場合は対象外",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.3",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "連続2回",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "警察共済組合",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "（組合名）",
+     "first_missing_fragment": null
+    }
+   ],
+   "prev_last_modified": "Thu, 01 Oct 2026 02:56:01 GMT",
+   "prev_sha16": "9d48330cca9b7114",
+   "same_as_prev": true
+  },
+  {
+   "id": "MONKA",
+   "url": "https://www.monkakyosai.or.jp/shikumi/04.html",
+   "status": 200,
+   "final_url": "https://www.monkakyosai.or.jp/shikumi/04.html",
+   "bytes": 34568,
+   "sha256": "8be0b745751b5df181e6230fbc05a8dee9ccab38784ca69cc839a9ba03a44784",
+   "last_modified": "Sun, 14 Dec 2025 23:29:32 GMT",
+   "title": "文部科学省共済組合 | 被扶養者",
+   "quotes": [
+    {
+     "quote": "収入とは所得税法上の所得(暦年でいう1月～12月までの所得額)をいうものではなく収入事由が発生した日から12ヶ月間における収入額となります",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§3.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "どの月を基準にしても年額130万円未満でなければ被扶養者として認められません",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.4",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "実績収入と見込収入額が異なる場合には遡って認定取消になる場合があります",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.4",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "給与収入（交通費などの非課税収入及び賞与を含む）",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "年金（個人年金含む）",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "退職手当のような一時的な収入は含まれません",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§6.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "組合員の送金額等が、当該認定する者の全収入（当該認定する者の収入及び組合員、その他の者の送金額等による収入の合計）の3分の1以上の額であることが必要",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "12月31日",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§3.2",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "150万円",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§3.3",
+     "first_missing_fragment": null
+    }
+   ],
+   "prev_last_modified": "Sun, 14 Dec 2025 23:29:32 GMT",
+   "prev_sha16": "8be0b745751b5df1",
+   "same_as_prev": true
+  },
+  {
+   "id": "PMAC-01",
+   "url": "https://www.pmac.shigaku.go.jp/annai/shikaku/hifuyosya/hifuyosya_01/index.html",
+   "status": 200,
+   "final_url": "https://www.pmac.shigaku.go.jp/annai/shikaku/hifuyosya/hifuyosya_01/index.html",
+   "bytes": 33375,
+   "sha256": "6e19667c3e4065c9dca7bcb618046a5d7ea4a42c14901f8d53860422fc5dccc0",
+   "last_modified": null,
+   "title": "被扶養者になれる人｜私学共済事業",
+   "quotes": [
+    {
+     "quote": "3親等内の親族（内縁・養子縁組を含む）は、被扶養者となる要件を満たせば、被扶養者として認定できます。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "配偶者・子・父母・孫・祖父母・兄弟姉妹は、同居の要件はありません。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§1.2・§5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "被扶養者となる要件は、学校法人等から支給される扶養手当の条件とは必ずしも一致するものではありません。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "被扶養者にしたい人からみて加入者より近い親族等がいる場合はその人の扶養義務が優先されますので、その親族等が健康保険や共済組合などの被用者保険に加入している場合（",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "配偶者はもっとも優先する扶養義務者になります（夫婦相互扶助義務）ので、子や兄弟姉妹を被扶養者に認定している場合で、その子や兄弟姉妹が結婚したときは、原則として被",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "年収130万円未満（月額108,334円未満）",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "年収180万円未満（月額150,000円未満）",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "事業所得等及び老齢・退職・遺族の年金を含みます",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "被扶養者の認定基準の収入は、所得税法上の「所得」とは異なります。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "障害年金、遺族年金、児童手当、児童扶養手当などの非課税の給付も含まれます。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "事業所得などは私学事業団が認める必要経費を控除した後の額",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "受給日額が3,612円以上の給付を受けている間（配偶者を除く19歳以上23歳未満の場合は受給日額が4,167円以上、60歳以上の場合は受給日額が5,000円以上",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "令和5年2月1日から、年収130万円未満（月額108,334円未満）から年収180万円未満（月額150,000円未満）に改定されました。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "国の時限的な措置として、人手不足による労働の延長等に伴う一時的な収入増加分は、収入限度額に含めません。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "令和7年10月1日から19歳以上23歳未満の人（配偶者は除く）については、年収130万円未満（月額108,334円未満）から年収150万円（月額125,000円",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "被扶養者とすべき子の人数にかかわらず夫婦それぞれの年間収入の多い方の被扶養者",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "日本国内に住所を有すること（日本に住民票があること）",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "令和 8年04月03日",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§0.2（ページの日付）",
+     "first_missing_fragment": null
+    }
+   ],
+   "prev_last_modified": null,
+   "prev_sha16": "6e19667c3e4065c9",
+   "same_as_prev": true
+  },
+  {
+   "id": "PMAC-03",
+   "url": "https://www.pmac.shigaku.go.jp/annai/shikaku/hifuyosya/hifuyosya_03/index.html",
+   "status": 200,
+   "final_url": "https://www.pmac.shigaku.go.jp/annai/shikaku/hifuyosya/hifuyosya_03/index.html",
+   "bytes": 14030,
+   "sha256": "d5205565236d5fc219bfa49c7f64499019d4c3d4a1ca8b41044195619f166175",
+   "last_modified": null,
+   "title": "被扶養者認定の申請をする｜私学共済事業",
+   "quotes": [
+    {
+     "quote": "要件を備えることとなった日から30日以内に申請がなかったときは、私学事業団でその申請を受理した日（発信年月日が確認できる場合はその日）からの認定となります。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "5日以内",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    }
+   ],
+   "prev_last_modified": null,
+   "prev_sha16": "d5205565236d5fc2",
+   "same_as_prev": true
+  },
+  {
+   "id": "PMAC-05",
+   "url": "https://www.pmac.shigaku.go.jp/annai/shikaku/hifuyosya/hifuyosya_05/index.html",
+   "status": 200,
+   "final_url": "https://www.pmac.shigaku.go.jp/annai/shikaku/hifuyosya/hifuyosya_05/index.html",
+   "bytes": 35904,
+   "sha256": "373a5d57dde896b89bf10276bb2afcf1ade50dac57d060a4e4c3280f4636ccca",
+   "last_modified": null,
+   "title": "被扶養者認定申請に必要な添付書類｜私学共済事業",
+   "quotes": [
+    {
+     "quote": "確定申告書の写し（収受日付及び税務署名の記載があるリーフレットの写し又は電子申告受信通知を添付したもの）など",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "満22歳の年度末までの学生で、アルバイト等の収入がない場合は、在学証明書又は有効期限の記載のある学生証の写しを添付することで確認できます。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5・SA2§3",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "ただし、大学院生、夜間部、通信教育課程の学生（18歳以上の人に限ります）は、非課税証明書を添付してください。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§3",
+     "first_missing_fragment": null
+    }
+   ],
+   "prev_last_modified": null,
+   "prev_sha16": "373a5d57dde896b8",
+   "same_as_prev": true
+  },
+  {
+   "id": "PMAC-QA29",
+   "url": "https://www.pmac.shigaku.go.jp/qa/detail/qa_29.html",
+   "status": 200,
+   "final_url": "https://www.pmac.shigaku.go.jp/qa/detail/qa_29.html",
+   "bytes": 69802,
+   "sha256": "fce5f9e2d383642fc063044e3235528cf4543b79892cd0da39d200abccbd83ea",
+   "last_modified": null,
+   "title": "被扶養者認定にかかるQ&A｜私学共済事業",
+   "quotes": [
+    {
+     "quote": "夫婦相互扶助義務に基づき父母の収入合算額が、それぞれに適用される収入限度額の合算額未満であることと、個々の収入限度額未満であることの両方",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    }
+   ],
+   "prev_last_modified": null,
+   "prev_sha16": "fce5f9e2d383642f",
+   "same_as_prev": true
+  },
+  {
+   "id": "PMAC-QA37",
+   "url": "https://www.pmac.shigaku.go.jp/qa/detail/qa_37.html",
+   "status": 200,
+   "final_url": "https://www.pmac.shigaku.go.jp/qa/detail/qa_37.html",
+   "bytes": 33832,
+   "sha256": "dc9efc59731968eb2624d628ad35fa46b79457143717c965cf9a151ea008d931",
+   "last_modified": null,
+   "title": "年収の壁にかかるQ&A｜私学共済事業",
+   "quotes": [
+    {
+     "quote": "保保発1001第1号",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "令和7年10月1日",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "135万",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5（Q4）",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "恒久",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "KY§5",
+     "first_missing_fragment": null
+    }
+   ],
+   "prev_last_modified": null,
+   "prev_sha16": "dc9efc59731968eb",
+   "same_as_prev": true
+  },
+  {
+   "id": "PMAC-DL06",
+   "url": "https://www.pmac.shigaku.go.jp/dl/category/shikaku/shikaku_06.html",
+   "status": 200,
+   "final_url": "https://www.pmac.shigaku.go.jp/dl/category/shikaku/shikaku_06.html",
+   "bytes": 14522,
+   "sha256": "4d2589d4ecaea84e81934df88a8dd9f8718fefdb428582442f0a8d83c127950d",
+   "last_modified": null,
+   "title": "被扶養者の認定に関する手続き｜私学共済事業",
+   "quotes": [],
+   "prev_last_modified": null,
+   "prev_sha16": "4d2589d4ecaea84e",
+   "same_as_prev": true
+  },
+  {
+   "id": "K-FAQ",
+   "url": "https://www.kyoukaikenpo.or.jp/faq/dependent_status/",
+   "status": 200,
+   "final_url": "https://www.kyoukaikenpo.or.jp/faq/dependent_status/",
+   "bytes": 71028,
+   "sha256": "41f93de588b830af32ddb65a57adfbcdd819e82f36bbf3aa4482a19e0fd07417",
+   "last_modified": null,
+   "title": "被扶養者資格の再確認について｜よくあるご質問｜協会けんぽ",
+   "quotes": [
+    {
+     "quote": "世帯分離により住民票が分かれているが、実態としては同居である場合、同居扱いになりますか？",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§1.3",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "実態として同居をしていれば同居の扱いとなります。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§1.3",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "同居の場合と異なり、別居の場合は被保険者と被扶養者の生計が同一ではないため、被扶養者の生活が主に被保険者の収入（仕送り）によって成り立っていることを確認する必要",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§1.3",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "仕送りをしていない、被扶養者本人の収入よりも仕送り額が少ないなどの場合は",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§1.3",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "単身赴任中で被保険者名義の口座を被扶養者と共有しており、仕送り額を確認できる書類がありません。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§1.3",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "給与振込口座の入出金明細を証明書類としてください。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§1.3",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "海外赴任をしている夫（被保険者）がおり、日本に妻・子（被扶養者）が生活している場合、「別居」扱いとなりますか？",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§1.3",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "「別居」となります。そのため、仕送り額等の確認が必要です。",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§1.3",
+     "first_missing_fragment": null
+    }
+   ],
+   "prev_last_modified": null,
+   "prev_sha16": "804c130bed8c6b95",
+   "same_as_prev": false
+  }
+ ],
+ "pdf": [
+  {
+   "id": "UNYO-K",
+   "url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/TU-19591001-2927-11.pdf",
+   "status": 200,
+   "bytes": 443817,
+   "sha256": "b059e9ae85fa8dfa55e4f012f9c9bd5c12b5fac78bbf4a0d3f320d569dc82fe4",
+   "last_modified": "Wed, 30 Sep 2026 14:00:20 GMT",
+   "saved": ".work\\downloads\\20261109-185318_R2X_kyosai_verify_web\\UNYO-K.pdf",
+   "claimed": [
+    "2026-09-30",
+    443817,
+    "b059e9ae85fa8dfa"
+   ],
+   "lm_ok": true,
+   "bytes_ok": true,
+   "same_as_prev_sha16": true,
+   "n_pages_marker": 55
+  },
+  {
+   "id": "UNYO-K-R5",
+   "url": "https://www.kyousai.courts.or.jp/files/user/img/houki/1-01.pdf",
+   "status": 200,
+   "bytes": 440489,
+   "sha256": "68e2b400231005213ee82054f261bdd85b292f25e9062f3fc50c2b4c08160e57",
+   "last_modified": "Tue, 25 Apr 2023 01:16:37 GMT",
+   "saved": ".work\\downloads\\20261109-185318_R2X_kyosai_verify_web\\UNYO-K-R5.pdf",
+   "claimed": [
+    "2023-04-25",
+    440489,
+    "68e2b40023100521"
+   ],
+   "lm_ok": true,
+   "bytes_ok": true,
+   "same_as_prev_sha16": true,
+   "n_pages_marker": 54
+  },
+  {
+   "id": "CHIKYO-OSAKA",
+   "url": "https://osaka.chikyosai.or.jp/upload/files/%E3%80%90%E7%B5%84%E5%90%88%E5%93%A1%E3%80%9119%E6%AD%B3%E4%BB%A5%E4%B8%8A23%E6%AD%B3%E6%9C%AA%E6%BA%80%E3%81%AE%E8%A2%AB%E6%89%B6%E9%A4%8A%E8%80%85%E3%81%AE%E5%8F%8E%E5%85%A5%E9%99%90%E5%BA%A6%E9%A1%8D%E5%A4%89%E6%9B%B4%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%88%E9%80%9A%E7%9F%A5%EF%BC%89%284%29.pdf",
+   "status": 200,
+   "bytes": 180920,
+   "sha256": "b7762ae20115ab6eeafcf8a1392c19dd25bf883e702f741c3f0775979a5ecd6e",
+   "last_modified": "Mon, 29 Sep 2025 04:01:52 GMT",
+   "saved": ".work\\downloads\\20261109-185318_R2X_kyosai_verify_web\\CHIKYO-OSAKA.pdf",
+   "claimed": [
+    "2025-09-29",
+    180920,
+    "b7762ae20115ab6e"
+   ],
+   "lm_ok": true,
+   "bytes_ok": true,
+   "same_as_prev_sha16": true,
+   "n_pages_marker": 2
+  },
+  {
+   "id": "CHIKYO-GAIYO",
+   "url": "https://osaka.chikyosai.or.jp/upload/files/%E5%9C%B0%E6%96%B9%E5%85%AC%E5%8B%99%E5%93%A1%E7%AD%89%E5%85%B1%E6%B8%88%E7%B5%84%E5%90%88%E6%B3%95%E9%81%8B%E7%94%A8%E6%96%B9%E9%87%9D%E3%81%AE%E4%B8%80%E9%83%A8%E6%94%B9%E6%AD%A3%E6%A1%88%E3%81%AE%E6%A6%82%E8%A6%81%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.pdf",
+   "status": 200,
+   "bytes": 89595,
+   "sha256": "183381535204ab83b1f3a506a60b20c1c9a7ec38342828b23eae041994ed8fce",
+   "last_modified": "Mon, 20 Mar 2023 06:47:26 GMT",
+   "saved": ".work\\downloads\\20261109-185318_R2X_kyosai_verify_web\\CHIKYO-GAIYO.pdf",
+   "claimed": [
+    "2023-03-20",
+    89595,
+    "183381535204ab83"
+   ],
+   "lm_ok": true,
+   "bytes_ok": true,
+   "same_as_prev_sha16": true,
+   "n_pages_marker": 1
+  },
+  {
+   "id": "KOURITU-480",
+   "url": "https://www.kouritu.or.jp/shizuoka/content/files/tetsuduki/kyosai/hifuyo/hihuyousya_480%20nenkashunyu.pdf",
+   "status": 200,
+   "bytes": 285759,
+   "sha256": "d64c364312f9c696cf0da7b884056fbb5ff3a5aaeb66279caabab0ed56356ebf",
+   "last_modified": "Thu, 26 Mar 2026 06:18:13 GMT",
+   "saved": ".work\\downloads\\20261109-185318_R2X_kyosai_verify_web\\KOURITU-480.pdf",
+   "claimed": [
+    "2026-03-26",
+    285759,
+    "d64c364312f9c696"
+   ],
+   "lm_ok": true,
+   "bytes_ok": true,
+   "same_as_prev_sha16": true,
+   "n_pages_marker": 10
+  },
+  {
+   "id": "OITA-TEBIKI",
+   "url": "https://www.kouritu.or.jp/oita/content/files/181cab2cc9686290fc920ece58333d94.pdf",
+   "status": 200,
+   "bytes": 505189,
+   "sha256": "cfde664be4107a0e84b3e7938254e7668bcc20bcc466b585be50942e8bd67d3d",
+   "last_modified": "Mon, 16 Mar 2020 06:32:30 GMT",
+   "saved": ".work\\downloads\\20261109-185318_R2X_kyosai_verify_web\\OITA-TEBIKI.pdf",
+   "claimed": [
+    "2020-03-16",
+    505189,
+    "cfde664be4107a0e"
+   ],
+   "lm_ok": true,
+   "bytes_ok": true,
+   "same_as_prev_sha16": true,
+   "n_pages_marker": 9
+  },
+  {
+   "id": "MIYAGI",
+   "url": "https://www.kyosai-miyagi.or.jp/pdf/hihuyousha.pdf",
+   "status": 200,
+   "bytes": 684252,
+   "sha256": "c8b039d1d692617a056f94cf8c03bb09ab844ba104d3805a39fead8f62bfdbe8",
+   "last_modified": "Thu, 19 Mar 2026 00:46:36 GMT",
+   "saved": ".work\\downloads\\20261109-185318_R2X_kyosai_verify_web\\MIYAGI.pdf",
+   "claimed": [
+    "2026-03-19",
+    684252,
+    "c8b039d1d692617a"
+   ],
+   "lm_ok": true,
+   "bytes_ok": true,
+   "same_as_prev_sha16": true,
+   "n_pages_marker": 38
+  },
+  {
+   "id": "YUSEI",
+   "url": "https://www.yuseikyosai.or.jp/shikumi/docs/nintei_shunyu_kijun.pdf",
+   "status": 200,
+   "bytes": 204546,
+   "sha256": "b18c0707921f9eda480e416c48d32b3eec175666216bd883e6479012638b5c48",
+   "last_modified": "Wed, 01 Oct 2025 00:02:34 GMT",
+   "saved": ".work\\downloads\\20261109-185318_R2X_kyosai_verify_web\\YUSEI.pdf",
+   "claimed": [
+    "2025-10-01",
+    204546,
+    "b18c0707921f9eda"
+   ],
+   "lm_ok": true,
+   "bytes_ok": true,
+   "same_as_prev_sha16": true,
+   "n_pages_marker": 1
+  },
+  {
+   "id": "TORI-S",
+   "url": "https://www.soumu.go.jp/main_content/001071661.pdf",
+   "status": 200,
+   "bytes": 792394,
+   "sha256": "107ba94cd6bd4b5e8db4ce3ce6e6e5e475fea94523d52f565daf396011746a02",
+   "last_modified": "Thu, 07 May 2026 04:14:33 GMT",
+   "saved": ".work\\downloads\\20261109-185318_R2X_kyosai_verify_web\\TORI-S.pdf",
+   "claimed": [
+    "2026-05-07",
+    792394,
+    "107ba94cd6bd4b5e"
+   ],
+   "lm_ok": true,
+   "bytes_ok": true,
+   "same_as_prev_sha16": true,
+   "n_pages_marker": 0
+  },
+  {
+   "id": "YORYO",
+   "url": "https://www.soumu.go.jp/main_content/001094645.pdf",
+   "status": 200,
+   "bytes": 751096,
+   "sha256": "aee75810dca37cd181768c03f6d1885aa635a14279ba0967298cf9135148383c",
+   "last_modified": "Thu, 01 Oct 2026 09:13:31 GMT",
+   "saved": ".work\\downloads\\20261109-185318_R2X_kyosai_verify_web\\YORYO.pdf",
+   "claimed": [
+    "2026-10-01",
+    751096,
+    "aee75810dca37cd1"
+   ],
+   "lm_ok": true,
+   "bytes_ok": true,
+   "same_as_prev_sha16": true,
+   "n_pages_marker": 0
+  }
+ ],
+ "rechecked_at": "20261109-191715"
+}

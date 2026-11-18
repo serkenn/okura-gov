@@ -1,0 +1,574 @@
+# file=.work/downloads/20261111-151212_IMPL2_phase2c_nta_nencho/nencho2026_107.pdf sha256=38907ac31a3a50e00b724feaec9d3d185434d3c79357edeb5fa3bbaf1b4ff4a3 encrypt=AESV2(V4,R4) key_ok=True pages=8
+page	x	y	font	text
+1	76.4	771.7	C0_1:Identity-H+ToUnicode	２－３　保険料控除申告書の受理と内容の確認
+1	65.2	744.2	C0_1:Identity-H+ToUnicode	⑴　保険料控除申告書の受理
+1	66.3	742.5	C0_0:Identity-H+ToUnicode	　年末調整の際には、生命保険料控除や地震保険料控除などの控除を行います。これらの控除は、各人
+1	66.3	740.7	C0_0:Identity-H+ToUnicode	から提出された「給与所得者の保険料控除申告書」（以下「保険料控除申告書」といいます。）に基づい
+1	66.3	739.0	C0_0:Identity-H+ToUnicode	て行うことになっていますから、この申告書の用紙をあらかじめ各人に配付しておき、年末調整を行う
+1	66.3	737.3	C0_0:Identity-H+ToUnicode	時までに提出を受けてください。
+1	66.3	735.6	C0_0:Identity-H+ToUnicode	　なお、本年の年末調整においては、年齢23歳未満の扶養親族を有する場合の生命保険料控除の特例
+1	66.3	733.9	C0_0:Identity-H+ToUnicode	が創設されており（４ページ参照）、昨年の年末調整から、一般の生命保険料の控除額の計算方法に変
+1	66.3	732.2	C0_0:Identity-H+ToUnicode	更が生じていますので、ご注意ください。
+1	65.2	730.4	C0_1:Identity-H+ToUnicode	⑵　保険料控除額の確認
+1	66.3	728.7	C0_0:Identity-H+ToUnicode	　控除の対象となる生命保険料や地震保険料、社会保険料、小規模企業共済等掛金について、次のよう
+1	66.3	727.0	C0_0:Identity-H+ToUnicode	な点に注意して控除額を確認し、正しく控除を行ってください。
+1	66.3	725.3	C0_1:Identity-H+ToUnicode	◉　生命保険料控除
+1	576.9	552.8	C0_2:Identity-V+ToUnicode	年末調整のしかた
+1	559.8	552.2	C0_2:Identity-V+ToUnicode	・控除額の確認
+1	568.3	552.2	C0_2:Identity-V+ToUnicode	・手
+1	568.3	544.9	C0_2:Identity-V+ToUnicode	順
+1	85.6	532.5	None:?	y
+\Ë-eqx
+1	85.6	530.8	C0_0:Identity-H+ToUnicode	⑴
+1	86.6	530.8	C0_0:Identity-H+ToUnicode	　生命保険料控除の対象となる生命保険料は、一定の生命保険契約等に基づいて支払った保険
+1	86.6	529.1	C0_0:Identity-H+ToUnicode	料や掛金で
+1	86.6	529.1	C0_0:Identity-H+ToUnicode	所得者本人が支払ったものに限られます
+1	86.6	529.1	C0_0:Identity-H+ToUnicode	。また、その保険料は「一般の
+1	86.6	529.1	C0_0:Identity-H+ToUnicode	生命保険料」、
+1	86.1	527.4	C0_0:Identity-H+ToUnicode	「介護医療保険料」及び「個人年金保険料」に区分されます。
+1	85.6	525.9	C0_0:Identity-H+ToUnicode	　　また、平成２４年１月１日以後に締結した保険契約等に係る保険料は新生命保険料・介護医療
+1	86.8	524.1	C0_0:Identity-H+ToUnicode	保険料・新個人年金保険料に区分され、平成２３年１２月３１日以前に締結した保険契約等に係る保
+1	86.8	522.4	C0_0:Identity-H+ToUnicode	険料は旧生命保険料・旧個人年金保険料に区分されます。
+1	85.6	520.7	C0_0:Identity-H+ToUnicode	　　生命保険料控除の対象となる保険契約等の詳細については、国税庁ホームページ（https://
+1	86.8	519.0	C0_0:Identity-H+ToUnicode	www.nta.go.jp）をご確認ください。
+1	89.9	382.8	C0_0:Identity-H+ToUnicode	（注）　その支払った保険料や掛金が生命保険料控除の対象とされるためには、保険金、共済金その他の給付金
+1	92.4	381.3	C0_0:Identity-H+ToUnicode	の受取人の全てが所得者本人又は所得者の配偶者や親族（個人年金保険料については親族を除きます。）
+1	92.4	379.9	C0_0:Identity-H+ToUnicode	となっていることが必要です。
+1	85.6	340.4	C0_0:Identity-H+ToUnicode	⑵　支払った保険料や掛金の金額については、その保険料の区分ごとにそれぞれ合計額を計算します。
+1	85.6	338.7	C0_0:Identity-H+ToUnicode	　　新生命保険料を旧生命保険料に含めることや新個人年金保険料を介護医療保険料に含めるこ
+1	86.8	337.0	C0_0:Identity-H+ToUnicode	となど、支払った保険料の区分を他の区分に振り替えることはできません。
+1	85.6	335.3	C0_0:Identity-H+ToUnicode	⑶
+1	86.6	335.3	C0_0:Identity-H+ToUnicode	　生命保険契約等に基づき剰余金の分配や割戻金の割戻しを受けているときは、新生命保険料、
+1	86.8	333.6	C0_0:Identity-H+ToUnicode	旧生命保険料、介護医療保険料、新個人年金保険料又は旧個人年金保険料の金額の各合計額か
+1	86.8	331.8	C0_0:Identity-H+ToUnicode	らそれぞれの保険料の区分に対応する剰余金や割戻金の金額の合計額を差し引いた残額が控除
+1	86.8	330.1	C0_0:Identity-H+ToUnicode	の対象となります。
+1	85.6	328.0	C0_1:Identity-H+ToUnicode	　 〔注意事項〕
+1	85.6	326.3	C0_0:Identity-H+ToUnicode	１　保険金又は年金の受取人は、所得者本人又は所得者の配偶者や親族（個人年金保険料につい
+1	86.8	324.6	C0_0:Identity-H+ToUnicode	ては親族を除きます。）だけであるかどうか。
+1	85.6	323.0	C0_0:Identity-H+ToUnicode	２　本人自身が支払ったものであるかどうか。
+1	85.6	321.3	C0_0:Identity-H+ToUnicode	　　なお、給与の支払者が負担した保険料の金額で給与として課税されるべきものは、本人自身
+1	86.8	319.7	C0_0:Identity-H+ToUnicode	が支払ったものとして控除の対象となります。
+1	85.6	318.0	C0_0:Identity-H+ToUnicode	３　本年中に支払ったものであるかどうか。
+1	85.6	316.4	C0_0:Identity-H+ToUnicode	　　この場合の支払った金額については、次のように取り扱われます。
+1	85.6	314.7	C0_0:Identity-H+ToUnicode	　⑴　払込期日が到来した保険料であっても現実に支払っていないものは含まれません。
+1	85.6	313.1	C0_0:Identity-H+ToUnicode	　⑵　保険料の払込みのない契約を有効に継続させるため、保険会社などが貸付けを行ってその
+1	87.6	311.5	C0_0:Identity-H+ToUnicode	払込みに充当する処理を行ういわゆる「振替貸付」によって保険料の払込みに充てられた金
+1	276.0	21.0	C0_0:Identity-H+ToUnicode	─  21  ─
+2	85.6	779.3	C0_0:Identity-H+ToUnicode	　　額は、支払った保険料に含まれます。
+2	85.6	777.7	C0_0:Identity-H+ToUnicode	　⑶　翌年以後に払込期日が到来する保険料を一括して払い込んだいわゆる「前納保険料」に
+2	87.6	776.0	C0_0:Identity-H+ToUnicode	ついては、次の算式により計算した金額が、本年中に支払った保険料の金額となります。
+2	85.6	769.9	C0_0:Identity-H+ToUnicode	４　生命保険契約等に基づき剰余金の分配や割戻金の割戻しを受けている場合又は剰余金や割戻
+2	86.8	768.3	C0_0:Identity-H+ToUnicode	金が保険料の払込みに充てられている場合には、契約保険料などの金額から、これらの剰余金
+2	86.8	766.7	C0_0:Identity-H+ToUnicode	や割戻金の額が差し引かれているかどうか。
+2	85.6	765.1	C0_0:Identity-H+ToUnicode	　　この場合、数口の契約があるときは、保険料の区分ごとに、支払った保険料の合計額からそ
+2	86.8	763.6	C0_0:Identity-H+ToUnicode	の剰余金などの合計額を差し引いた残額が、控除の対象となる新生命保険料、旧生命保険料、
+2	86.8	762.0	C0_0:Identity-H+ToUnicode	介護医療保険料、新個人年金保険料又は旧個人年金保険料の金額となります。
+2	85.6	760.4	C0_0:Identity-H+ToUnicode	５　新個人年金保険料を新生命保険料に含めるなど支払った保険料を他の区分の保険料に含めて
+2	86.8	758.8	C0_0:Identity-H+ToUnicode	控除額の計算をしていないかどうか。
+2	85.6	757.3	C0_0:Identity-H+ToUnicode	６　
+2	87.6	757.3	C0_0:Identity-H+ToUnicode	個人年金保険契約等で傷害特約、疾病特約等が付されているものの保険料や掛金のうち、その特
+2	86.7	755.7	C0_0:Identity-H+ToUnicode	約部分の保険料や掛金については、個人年金保険料に含めて控除額の計算をしていないかどうか。
+2	85.5	754.1	C0_0:Identity-H+ToUnicode	７　同一世帯に属する夫婦において、夫婦の間に年齢23歳未満の扶養親族である子が１人いるよう
+2	86.7	752.5	C0_0:Identity-H+ToUnicode	な場合には、その夫婦の両方が年齢23歳未満の扶養親族を有する場合の生命保険料控除の特例の
+2	86.7	751.0	C0_0:Identity-H+ToUnicode	適用（下記「計算式Ⅱ」の適用及び控除額③の「最高６万円」の適用）を受けることができます。
+2	85.6	748.8	C0_2:Identity-H+ToUnicode	　証明書類
+2	85.6	747.1	C0_0:Identity-H+ToUnicode	　旧生命保険料にあっては、本年中に支払った一契約の保険料の金額（本年において剰余金の分
+2	85.6	745.5	C0_0:Identity-H+ToUnicode	配や割戻金の割戻しを受けた場合又は分配を受ける剰余金や割戻しを受ける割戻金をもって生
+2	85.6	744.0	C0_0:Identity-H+ToUnicode	命保険料の払込みに充てた場合には、その剰余金や割戻金の額を差し引いた残額）が９，０００円を
+2	138.2	726.7	C0_3:Identity-H	
+²ò-ew
+ï¹
+2	263.6	724.2	None:?	
+²ò-etå¤txRb÷8Ôws
+:
+2	267.1	723.0	None:?	
+²ò-et÷8Ôw
+ïs
+:
+2	239.5	718.6	None:?	·
+2	119.8	716.0	None:?	
+²òtÂ¾^h	Ô
+2	119.8	715.0	None:?	ùtxzfwÂ¾wÚ¹
+2	35.4	552.8	C0_1:Identity-V+ToUnicode	年末調整のしかた
+2	18.4	552.2	C0_1:Identity-V+ToUnicode	・控除額の確認
+2	26.9	552.2	C0_1:Identity-V+ToUnicode	・手
+2	26.9	544.9	C0_1:Identity-V+ToUnicode	順
+2	85.6	413.6	C0_0:Identity-H+ToUnicode	超えるものについて、また、旧生命保険料以外の保険料にあっては、金額の多少にかかわらず全
+2	85.6	412.1	C0_0:Identity-H+ToUnicode	てのものについて、その保険料を支払ったこと等の証明書類又はその証明書類に記載すべき事項
+2	85.6	410.5	C0_0:Identity-H+ToUnicode	を記録した電子証明書等
+2	195.0	387.3	C0_0:Identity-H+ToUnicode	（注１）
+2	337.6	387.3	C0_0:Identity-H+ToUnicode	（注２）
+2	218.2	382.5	C0_0:Identity-H+ToUnicode	に係る電磁的記録印刷書面
+2	360.8	382.5	C0_0:Identity-H+ToUnicode	を保険料控除申告書に添付して提
+2	333.0	380.9	C0_0:Identity-H+ToUnicode	出又は提示する必要があります。
+2	333.0	379.3	C0_0:Identity-H+ToUnicode	　なお、保険料控除申告書に記載すべき事項を電子データにより提供する場合、その保険料控除
+2	333.0	377.7	C0_0:Identity-H+ToUnicode	申告書に添付すべき証明書類等の提出又は提示に代えて、その証明書類等に記載されるべき事項
+2	333.0	376.2	C0_0:Identity-H+ToUnicode	が記録された情報で電子証明書等
+2	232.5	325.0	C0_0:Identity-H+ToUnicode	（注１）
+2	255.2	320.1	C0_0:Identity-H+ToUnicode	が付されたものを保険料控除申告書に記載すべき事項と併
+2	238.0	318.5	C0_0:Identity-H+ToUnicode	せて電子データにより給与の支払者に提供することができます。
+2	81.4	290.2	C0_0:Identity-H+ToUnicode	（注）
+2	83.9	290.2	C0_0:Identity-H+ToUnicode	１
+2	84.9	290.2	C0_0:Identity-H+ToUnicode	　電子証明書等とは、証明書類の発行者（保険会社等）の電子署名及びその電子署名に係る電子証明書を
+2	84.8	288.7	C0_0:Identity-H+ToUnicode	いいます（２５ページ以降の「地震保険料控除」、「社会保険料控除」、「小規模企業共済等掛金控除」及び「住
+2	84.9	287.3	C0_0:Identity-H+ToUnicode	宅借入金等特別控除」の証明書類においても同様です。）。
+2	83.9	285.9	C0_0:Identity-H+ToUnicode	２
+2	84.9	285.9	C0_0:Identity-H+ToUnicode	　電磁的記録印刷書面とは、電子証明書に記録された情報の内容と、その内容が記録された二次元コード
+2	84.9	284.5	C0_0:Identity-H+ToUnicode	が付された出力書面をいいます（２５ページ以降の「地震保険料控除」、「社会保険料控除」、「小規模企業共
+2	84.9	283.1	C0_0:Identity-H+ToUnicode	済等掛金控除」及び「住宅借入金等特別控除」の証明書類においても同様です。）。
+2	84.9	281.7	C0_0:Identity-H+ToUnicode	　なお、控除証明書等データから電磁的記録印刷書面を作成することができるシステムを国税庁ホーム
+2	84.9	280.2	C0_0:Identity-H+ToUnicode	ページ（https://www.nta.go.jp）に掲載していますので、ご利用ください。
+2	85.6	189.1	C0_0:Identity-H+ToUnicode	　この場合の証明書類については、次のように取り扱われます。
+2	85.6	187.6	C0_0:Identity-H+ToUnicode	⑴　証明書類の交付を請求中などのため、証明書類が確認できない場合でも、翌年１月末日まで
+2	86.8	186.0	C0_0:Identity-H+ToUnicode	に提出又は提示することを条件として生命保険料の控除をしたところで年末調整を行ってもよ
+2	86.8	184.5	C0_0:Identity-H+ToUnicode	いことになっています。
+2	85.6	182.9	C0_0:Identity-H+ToUnicode	⑵　次の保険料については、「あなたが本年中に支払った保険料等の金額」、「保険等の契約者の
+2	86.8	181.4	C0_0:Identity-H+ToUnicode	氏名」、「保険金等の受取人」などに誤りがないことについて、その勤務先で確認すれば、証明
+2	86.8	179.9	C0_0:Identity-H+ToUnicode	書類を提出又は提示しなくてもよいことになっています。
+2	86.5	178.3	C0_0:Identity-H+ToUnicode	①　勤務先を対象とする団体特約に基づいて支払った保険料
+2	86.5	176.8	C0_0:Identity-H+ToUnicode	②　確定給付企業年金に係る規約又は適格退職年金契約に基づいて支払った保険料
+2	276.0	21.0	C0_0:Identity-H+ToUnicode	─  22  ─
+3	89.9	780.6	None:?	¢«£   ¬Ý`h	Ôùxz-eÇ	
+	{srt¬Ý`h«ÌTt`oSMoXi^M{
+3	85.6	767.3	None:?	y\\pMO	ÂÌ	{¨qxz-eqþ#(ÁsrUCæ`hz-esrw	)	{§÷l
+3	86.8	765.7	None:?	h
+\Ë-ewÚ¹q-eÿ	 srw¯Ê	ÂÌbhttCæ`h	{¨MMb{
+3	85.6	764.2	None:?	yysSz#(	ü8srb;`o§÷lh
+\Ë-ew	ÂÌ	{¨tmMoxz-eÿ	 w¯
+3	86.8	762.6	None:?	ÊtEQoz-e	ÂJåÚ	Â	{wGøqjøUGL^oMyM\qtsloMb{
+3	85.6	761.0	None:?	yD÷ÿt§÷lh
+\Ë-ew	ÂÌ	{¨txz®å¤t§÷lh
+\Ë-ewÚ¹¯
+3	86.8	759.4	None:?	tEQozDw÷-ewÚ¹qåDTDpw÷w	Ý¯UTÄòUG
+3	86.8	757.9	None:?	L^oMyM\qtsloMb{
+3	576.9	552.8	C0_1:Identity-V+ToUnicode	年末調整のしかた
+3	559.8	552.2	C0_1:Identity-V+ToUnicode	・控除額の確認
+3	568.3	552.2	C0_1:Identity-V+ToUnicode	・手
+3	568.3	544.9	C0_1:Identity-V+ToUnicode	順
+3	276.0	21.0	C0_0:Identity-H+ToUnicode	─  23  ─
+4	85.6	773.5	C0_2:Identity-H+ToUnicode	　生命保険料の控除額の計算
+4	85.6	772.0	C0_0:Identity-H+ToUnicode	　保険料控除申告書に記載されている生命保険料の控除額が、一般の生命保険料、介護医療保険
+4	85.6	770.6	C0_0:Identity-H+ToUnicode	料又は個人年金保険料の区分ごとに、それぞれ正しく計算されているかどうかを確かめます。
+4	85.6	769.1	C0_0:Identity-H+ToUnicode	　生命保険料の控除額は、次の表により計算した一般の生命保険料の控除額（
+4	85.6	769.1	C0_0:Identity-H+ToUnicode	①、②、③のうち
+4	85.6	767.6	C0_0:Identity-H+ToUnicode	最も大きい金額
+4	85.6	767.6	C0_0:Identity-H+ToUnicode	）、介護医療保険料の控除額及び個人年金保険料の控除額（
+4	85.6	767.6	C0_0:Identity-H+ToUnicode	④、⑤、⑥のうち最
+4	85.6	766.2	C0_0:Identity-H+ToUnicode	も大きい金額
+4	85.6	766.2	C0_0:Identity-H+ToUnicode	）の合計額となります。
+4	85.6	764.7	C0_0:Identity-H+ToUnicode	　なお、一般の生命保険料の控除額、介護医療保険料の控除額及び個人年金保険料の控除額の合
+4	85.6	763.2	C0_0:Identity-H+ToUnicode	計額が
+4	88.3	763.2	C0_0:Identity-H+ToUnicode	１２
+4	89.7	763.2	C0_0:Identity-H+ToUnicode	万円を超える場合には、生命保険料の控除額は最高
+4	112.2	763.2	C0_0:Identity-H+ToUnicode	１２
+4	113.5	763.2	C0_0:Identity-H+ToUnicode	万円が限度となります。
+4	199.8	652.8	C0_2:Identity-H+ToUnicode	保 険 料 の 区 分
+4	223.8	652.8	C0_2:Identity-H+ToUnicode	控　除　額
+4	219.8	651.2	C0_2:Identity-H+ToUnicode	計算式Ⅰ
+4	224.0	651.2	C0_0:Identity-H+ToUnicode	（年齢23歳未満の
+4	195.9	650.1	C0_0:Identity-H+ToUnicode	⑴　支払った新生命保険料について控除の適用を
+4	219.8	650.1	C0_0:Identity-H+ToUnicode	扶養親族を有する場合は
+4	219.8	650.1	C0_2:Identity-H+ToUnicode	計算
+4	197.0	648.9	C0_0:Identity-H+ToUnicode	受ける場合（⑶の場合を除く）
+4	219.8	648.9	C0_2:Identity-H+ToUnicode	式Ⅱ
+4	219.8	648.9	C0_0:Identity-H+ToUnicode	）に当てはめて計算した
+4	219.8	647.8	C0_0:Identity-H+ToUnicode	金額　（①）
+4	189.0	646.2	C0_0:Identity-H+ToUnicode	一般の
+4	195.9	646.2	C0_0:Identity-H+ToUnicode	⑵　支払った旧生命保険料について控除の適用を
+4	219.8	646.2	C0_2:Identity-H+ToUnicode	計算式Ⅲ
+4	219.8	646.2	C0_0:Identity-H+ToUnicode	に当てはめて計算し
+4	189.0	645.1	C0_0:Identity-H+ToUnicode	生命保険料
+4	197.0	645.1	C0_0:Identity-H+ToUnicode	受ける場合（⑶の場合を除く）
+4	219.8	645.1	C0_0:Identity-H+ToUnicode	た金額　（②）
+4	195.9	642.4	C0_0:Identity-H+ToUnicode	⑶　支払った新生命保険料及び旧生命保険料の両方
+4	197.0	641.3	C0_0:Identity-H+ToUnicode	について控除の適用を受ける場合
+4	379.9	569.0	C0_0:Identity-H+ToUnicode	上記①及び②の金額の合計額
+4	379.4	567.8	C0_0:Identity-H+ToUnicode	（最高４万円（年齢23歳未満
+4	379.9	566.7	C0_0:Identity-H+ToUnicode	の扶養親族を有する場合は最
+4	379.9	565.6	C0_0:Identity-H+ToUnicode	高６万円））　（③）
+4	379.9	564.0	C0_2:Identity-H+ToUnicode	計算式Ⅰ
+4	379.9	564.0	C0_0:Identity-H+ToUnicode	に当てはめて計算し
+4	349.0	563.5	C0_0:Identity-H+ToUnicode	介護医療保険料
+4	379.9	562.9	C0_0:Identity-H+ToUnicode	た金額
+4	355.9	561.2	C0_0:Identity-H+ToUnicode	⑴　支払った新個人年金保険料について控除の適
+4	379.9	561.2	C0_2:Identity-H+ToUnicode	計算式Ⅰ
+4	379.9	561.2	C0_0:Identity-H+ToUnicode	に当てはめて計算し
+4	357.0	560.1	C0_0:Identity-H+ToUnicode	用を受ける場合（⑶の場合を除く）
+4	379.9	560.1	C0_0:Identity-H+ToUnicode	た金額　（④）
+4	349.0	558.4	C0_0:Identity-H+ToUnicode	個人年金
+4	355.9	558.4	C0_0:Identity-H+ToUnicode	⑵　支払った旧個人年金保険料について控除の適
+4	379.9	558.4	C0_2:Identity-H+ToUnicode	計算式Ⅲ
+4	379.9	558.4	C0_0:Identity-H+ToUnicode	に当てはめて計算し
+4	349.0	557.2	C0_0:Identity-H+ToUnicode	保険料
+4	357.0	557.2	C0_0:Identity-H+ToUnicode	用を受ける場合（⑶の場合を除く）
+4	379.9	557.2	C0_0:Identity-H+ToUnicode	た金額　（⑤）
+4	355.9	555.5	C0_0:Identity-H+ToUnicode	⑶　支払った新個人年金保険料及び旧個人年金保
+4	357.0	554.4	C0_0:Identity-H+ToUnicode	険料の両方について控除の適用を受ける場合
+4	295.9	553.4	C0_0:Identity-H+ToUnicode	（注１）
+4	35.4	552.8	C0_1:Identity-V+ToUnicode	年末調整のしかた
+4	18.4	552.2	C0_1:Identity-V+ToUnicode	・控除額の確認
+4	26.9	552.2	C0_1:Identity-V+ToUnicode	・手
+4	26.9	544.9	C0_1:Identity-V+ToUnicode	順
+4	379.9	448.0	C0_0:Identity-H+ToUnicode	上記④及び⑤の金額の合計額
+4	379.4	446.9	C0_0:Identity-H+ToUnicode	（最高４万円）　（⑥）
+4	351.6	442.5	C0_0:Identity-H+ToUnicode	（注１）
+4	97.0	420.6	C0_2:Identity-H+ToUnicode	【計算式Ⅰ（新生命保険料、介護医療保険料又は新個人年金保険料を支払った場合）】
+4	138.1	405.9	None:?	§÷lh-eswÚ¹
+4	162.8	405.9	None:?	Çy	y¹
+4	134.5	404.3	C0_0:Identity-H+ToUnicode	２０，０００円以下
+4	153.6	404.3	C0_0:Identity-H+ToUnicode	支払った保険料等の金額の全額
+4	134.5	402.2	C0_0:Identity-H+ToUnicode	２０，００１円から４０，０００円まで
+4	376.1	377.6	None:?	
+4	284.0	377.1	C0_0:Identity-H+ToUnicode	支払った保険料等
+4	377.1	377.0	None:?	´|
+4	376.1	376.4	None:?	
+4	284.0	375.9	C0_0:Identity-H+ToUnicode	の金額の合計額
+4	346.1	374.5	None:?	|T|p
+4	366.9	372.8	C0_0:Identity-H+ToUnicode	×
+4	273.3	369.4	C0_0:Identity-H+ToUnicode	（
+4	360.0	369.4	C0_0:Identity-H+ToUnicode	）
+4	376.1	354.9	None:?	
+4	284.0	354.4	None:?	§÷lh-es
+4	377.1	354.3	None:?	´|
+4	376.1	353.8	None:?	
+4	284.0	353.3	None:?	wÚ¹wù-¹
+4	346.1	352.3	None:?	|	Í
+4	365.2	352.3	None:?	°ot|
+4	366.9	350.1	None:?	·
+4	273.3	346.7	None:?	¢
+4	360.0	346.7	None:?	£
+4	97.0	314.4	C0_2:Identity-H+ToUnicode	【計算式Ⅱ（年齢23歳未満の扶養親族を有する場合で新生命保険料を支払ったとき）】
+4	138.1	299.4	C0_3:Identity-H+ToUnicode	支払った保険料等の金額
+4	162.8	299.4	C0_3:Identity-H+ToUnicode	控　除　額
+4	134.5	297.8	C0_0:Identity-H+ToUnicode	３０，０００円以下
+4	153.6	297.8	C0_0:Identity-H+ToUnicode	支払った保険料等の金額の全額
+4	134.5	295.7	C0_0:Identity-H+ToUnicode	３０，００１円から６０，０００円まで
+4	377.0	270.9	None:?	
+4	284.0	270.4	C0_0:Identity-H+ToUnicode	支払った保険料等
+4	378.0	270.3	None:?	´
+4	378.7	270.3	None:?	|
+4	377.0	269.8	None:?	
+4	284.0	269.3	C0_0:Identity-H+ToUnicode	の金額の合計額
+4	346.9	267.8	None:?	|T|p
+4	366.9	266.1	C0_0:Identity-H+ToUnicode	×
+4	273.3	262.7	C0_0:Identity-H+ToUnicode	（
+4	360.0	262.7	C0_0:Identity-H+ToUnicode	）
+4	377.0	248.2	None:?	
+4	284.0	247.7	None:?	§÷lh-es
+4	378.0	247.7	None:?	´
+4	378.8	247.7	None:?	|
+4	377.0	247.1	None:?	
+4	284.0	246.6	None:?	wÚ¹wù-¹
+4	346.8	245.6	None:?	|	Í
+4	366.0	245.6	None:?	°ot|
+4	366.9	243.4	None:?	·
+4	273.3	240.0	None:?	¢
+4	360.0	240.0	None:?	£
+4	97.0	207.7	C0_2:Identity-H+ToUnicode	【計算式Ⅲ（旧生命保険料又は旧個人年金保険料を支払った場合）】
+4	138.1	193.0	None:?	§÷lh-eswÚ¹
+4	162.8	193.0	None:?	Çy	y¹
+4	134.5	191.4	C0_0:Identity-H+ToUnicode	２５，０００円以下
+4	153.6	191.4	C0_0:Identity-H+ToUnicode	支払った保険料等の金額の全額
+4	134.5	189.2	C0_0:Identity-H+ToUnicode	２５，００１円から５０，０００円まで
+4	376.1	163.0	None:?	
+4	284.0	162.5	C0_0:Identity-H+ToUnicode	支払った保険料等
+4	377.1	162.5	None:?	´|
+4	376.1	161.9	None:?	
+4	284.0	161.4	C0_0:Identity-H+ToUnicode	の金額の合計額
+4	346.1	159.8	None:?	|T|p
+4	366.9	158.2	C0_0:Identity-H+ToUnicode	×
+4	273.3	154.8	C0_0:Identity-H+ToUnicode	（
+4	360.0	154.8	C0_0:Identity-H+ToUnicode	）
+4	376.1	139.2	None:?	
+4	284.0	138.7	None:?	§÷lh-es
+4	377.1	138.7	None:?	´|
+4	376.1	138.1	None:?	
+4	284.0	137.6	None:?	wÚ¹wù-¹
+4	346.0	136.5	None:?	|	Í
+4	365.2	136.5	None:?	°ot|
+4	366.9	134.4	None:?	·
+4	273.3	131.0	None:?	¢
+4	360.0	131.0	None:?	£
+4	97.7	98.2	None:?	¢«£
+4	101.1	98.2	None:?	 
+4	101.1	98.2	None:?	y§÷lh
+\Ë-e¢xx
+åÚ-ewÚ¹UªÒQ	Ôùtxz¢xwÚ¹
+4	101.1	96.8	None:?	¢xwÚ¹wMUGVXsbwpz¢xwÚ¹UÇ	¹qsb{hi`z
+4	101.1	95.4	None:?	å¸  @°¬wÐF
+b	Ôùp§÷lh	ý
+\Ë-ewÚ¹UKqVxzwÚ¹
+4	101.1	94.0	None:?	wÚ¹UGVXsbwpzwÚ¹UÇ	¹qsb{
+4	98.2	92.6	None:?	yyyÇ	¹w-tSMo	Z`hÚ¹t°¬wz
+:UKqVxzfwz
+:
+~	Í[b{
+4	276.0	21.0	C0_0:Identity-H+ToUnicode	─  24  ─
+5	76.5	779.3	C0_1:Identity-H+ToUnicode	◉　地震保険料控除
+5	85.6	754.7	None:?	y
+-eqx
+5	85.6	753.0	C0_0:Identity-H+ToUnicode	⑴　地震保険料控除の対象となる地震保険料は、所得者本人又は本人と生計を一にする親族が所
+5	86.8	751.2	C0_0:Identity-H+ToUnicode	有している家屋・家財のうち一定のものを保険や共済の目的とし、かつ地震等損害によりこれ
+5	86.8	749.5	C0_0:Identity-H+ToUnicode	らの資産について生じた損失の額を塡補する保険金又は共済金が支払われる損害保険契約等に
+5	86.8	747.8	C0_0:Identity-H+ToUnicode	基づく地震等損害部分の保険料や掛金で所得者本人が支払ったものに限られます。
+5	85.6	746.1	C0_0:Identity-H+ToUnicode	　　なお、地震保険料控除の対象となる保険契約等の詳細については、国税庁ホームページ
+5	124.1	746.1	C0_0:Identity-H+ToUnicode	（https://
+5	96.9	652.7	C0_0:Identity-H+ToUnicode	www.nta.go.jp）をご確認ください。
+5	95.8	651.0	C0_0:Identity-H+ToUnicode	⑵　剰余金の分配や割戻金の割戻しを受けたり、その剰余金や割戻金を保険料の払込みに充てた
+5	96.9	649.2	C0_0:Identity-H+ToUnicode	りした場合には、その年中に支払った保険料の合計額からその支払を受けたり払込みに充てた
+5	96.9	647.5	C0_0:Identity-H+ToUnicode	りした剰余金や割戻金の合計額を差し引いた残額が控除の対象となります。
+5	95.8	645.8	C0_0:Identity-H+ToUnicode	⑶　平成１８年１２月３１日までに締結した長期損害保険契約等（以下「旧長期損害保険契約」といい
+5	96.9	644.1	C0_0:Identity-H+ToUnicode	ます。）に係る保険料又は掛金（以下「旧長期損害保険料」といいます。）を支払った場合には、
+5	96.9	642.4	C0_0:Identity-H+ToUnicode	これら旧長期損害保険料のうち一定の金額については、地震保険料控除の対象となる金額に含
+5	96.9	640.7	C0_0:Identity-H+ToUnicode	めることができます。
+5	576.9	552.8	C0_3:Identity-V+ToUnicode	年末調整のしかた
+5	559.8	552.2	C0_3:Identity-V+ToUnicode	・控除額の確認
+5	568.3	552.2	C0_3:Identity-V+ToUnicode	・手
+5	568.3	544.9	C0_3:Identity-V+ToUnicode	順
+5	92.7	517.9	C0_0:Identity-H+ToUnicode	（注）  　「長期損害保険契約等」とは、平成１８年度の税制改正前の所得税法第７７条第１項に規定する損害保険契
+5	95.2	516.4	C0_0:Identity-H+ToUnicode	約等のうち、次の全てに該当するものをいいます（保険期間又は共済期間の始期が平成１９年１月１日以後
+5	95.2	514.9	C0_0:Identity-H+ToUnicode	であるものを除きます。）。
+5	95.2	513.3	C0_2:Identity-H+ToUnicode	①
+5	96.2	513.3	C0_0:Identity-H+ToUnicode	　保険期間又は共済期間の満期後に満期返戻金を支払う旨の特約のある契約等でこれらの期間が１０年以
+5	96.2	511.7	C0_0:Identity-H+ToUnicode	上であること
+5	95.2	510.3	C0_2:Identity-H+ToUnicode	②
+5	96.2	510.3	C0_0:Identity-H+ToUnicode	　平成１９年１月１日以後にその損害保険契約等の変更をしていないものであること
+5	85.6	436.1	C0_0:Identity-H+ToUnicode	⑷　この地震保険料控除は、本人から提出された保険料控除申告書に基づいて控除することに
+5	86.8	434.4	C0_0:Identity-H+ToUnicode	なっています。
+5	85.6	431.6	C0_1:Identity-H+ToUnicode	　 〔注意事項〕
+5	85.6	429.9	C0_0:Identity-H+ToUnicode	１　保険の目的
+5	86.8	428.2	C0_0:Identity-H+ToUnicode	　家屋や家財を保険又は共済の目的とする損害保険契約等は、所得者本人又は本人と生計を一
+5	86.8	426.5	C0_0:Identity-H+ToUnicode	にする親族が所有して常時居住している家屋や、これらの人の所有している生活に通常必要な
+5	86.8	424.8	C0_0:Identity-H+ToUnicode	家財を保険の目的としているものであるかどうか。
+5	85.6	423.1	C0_0:Identity-H+ToUnicode	２　保険料の支払内容等
+5	86.5	421.3	C0_0:Identity-H+ToUnicode	⑴　本人自身が支払ったものであるかどうか。
+5	85.6	419.6	C0_0:Identity-H+ToUnicode	　　　給与の支払者が負担した地震保険料の金額で給与として課税されるべきものは、本人自身
+5	85.6	417.9	C0_0:Identity-H+ToUnicode	　　が支払ったものとして控除の対象になります。
+5	86.5	416.2	C0_0:Identity-H+ToUnicode	⑵　本年中に支払ったものであるかどうか。
+5	88.5	414.5	C0_0:Identity-H+ToUnicode	いわゆる「振替貸付」により保険料の払込みに充てられた金額や、いわゆる「前納保険料」
+5	87.6	412.8	C0_0:Identity-H+ToUnicode	があるときは、生命保険料の場合と同様に取り扱われますので
+5	114.0	412.8	C0_0:Identity-H+ToUnicode	２１・２２ページ
+5	119.6	412.8	C0_0:Identity-H+ToUnicode	を参照してください。
+5	86.5	411.0	C0_0:Identity-H+ToUnicode	⑶　剰余金の分配や割戻金の割戻しを受けている場合又は剰余金や割戻金が地震保険料の払込
+5	87.6	409.3	C0_0:Identity-H+ToUnicode	みに充てられている場合には、契約保険料の金額からこれらの剰余金や割戻金の額が差し引
+5	87.6	407.6	C0_0:Identity-H+ToUnicode	かれているかどうか。
+5	85.6	405.2	C0_1:Identity-H+ToUnicode	　証明書類
+5	85.6	403.5	C0_0:Identity-H+ToUnicode	　保険料の金額の多少に関係なく、その保険料を支払ったこと等の証明書類又はその証明書類に
+5	85.6	401.7	C0_0:Identity-H+ToUnicode	記載すべき事項を記録した電子証明書等に係る電磁的記録印刷書面を保険料控除申告書に添付し
+5	85.6	400.0	C0_0:Identity-H+ToUnicode	て提出又は提示する必要があります。
+5	85.6	398.3	C0_0:Identity-H+ToUnicode	　証明書類の交付を請求中などのため、証明書類が確認できない場合でも、翌年１月末日までに
+5	85.6	396.6	C0_0:Identity-H+ToUnicode	提出又は提示することを条件として地震保険料の控除をしたところで年末調整を行ってもよいこ
+5	276.0	21.0	C0_0:Identity-H+ToUnicode	─  25  ─
+6	85.6	770.8	None:?	qtsloMb{
+6	85.6	769.1	None:?	ysSz	ÂÌ	{¨w? Ã»t	ÂÌ	{¨q`o;^	{Øwº0srtmMo
+6	85.6	767.4	None:?	xz
+\Ë-ew	ÔùqapbTzÖ´	°`oXi^M{
+6	85.6	764.8	C0_2:Identity-H+ToUnicode	　地震保険料の控除額の計算
+6	85.6	763.1	C0_0:Identity-H+ToUnicode	　保険料控除申告書に記載されている地震保険料の控除額が、次により正しく計算されているか
+6	85.6	761.4	C0_0:Identity-H+ToUnicode	どうかを確かめます。
+6	109.9	656.4	C0_2:Identity-H+ToUnicode	支払った保険料等の区分
+6	124.5	656.4	C0_2:Identity-H+ToUnicode	支払った保険料等の金額
+6	141.7	656.4	C0_2:Identity-H+ToUnicode	地震保険料の控除額
+6	109.2	654.3	C0_0:Identity-H+ToUnicode	地震保険料等に係る契約の
+6	109.2	652.8	C0_0:Identity-H+ToUnicode	全てが地震等損害により保
+6	138.3	652.1	C0_0:Identity-H+ToUnicode	その年中に支払った地震保険料の
+6	107.4	651.4	C0_0:Identity-H+ToUnicode	①
+6	109.2	651.4	C0_0:Identity-H+ToUnicode	険金や共済金が支払われる
+6	125.9	651.4	C0_0:Identity-H+ToUnicode	―
+6	133.7	651.4	C0_0:Identity-H+ToUnicode	―
+6	138.3	650.7	C0_0:Identity-H+ToUnicode	金額の合計額（最高５万円）
+6	109.2	650.0	C0_0:Identity-H+ToUnicode	損害保険契約等に該当する
+6	109.2	648.5	C0_0:Identity-H+ToUnicode	ものである場合
+6	130.9	646.4	C0_0:Identity-H+ToUnicode	１０，０００円以下
+6	138.3	646.4	C0_0:Identity-H+ToUnicode	その合計額
+6	109.2	645.2	C0_0:Identity-H+ToUnicode	地震保険料等に係る契約の
+6	122.7	645.2	C0_0:Identity-H+ToUnicode	旧長期損害保険
+6	130.9	644.5	C0_0:Identity-H+ToUnicode	１０，０００円超
+6	107.4	643.7	C0_0:Identity-H+ToUnicode	②
+6	109.2	643.7	C0_0:Identity-H+ToUnicode	全てが旧長期損害保険契約
+6	122.7	643.7	C0_0:Identity-H+ToUnicode	料の金額の合計
+6	130.9	642.9	C0_0:Identity-H+ToUnicode	２０，０００円以下
+6	109.2	642.1	C0_0:Identity-H+ToUnicode	に該当するものである場合
+6	122.7	642.1	C0_0:Identity-H+ToUnicode	額
+6	35.4	552.8	C0_1:Identity-V+ToUnicode	年末調整のしかた
+6	18.4	552.2	C0_1:Identity-V+ToUnicode	・控除額の確認
+6	26.9	552.2	C0_1:Identity-V+ToUnicode	・手
+6	453.7	546.5	None:?	
+6	368.7	546.0	C0_0:Identity-H+ToUnicode	支払った保険料等
+6	453.7	545.5	None:?	
+6	368.7	545.0	C0_0:Identity-H+ToUnicode	の金額の合計額
+6	26.9	544.9	C0_1:Identity-V+ToUnicode	順
+6	445.9	542.0	C0_0:Identity-H+ToUnicode	×
+6	462.0	542.0	None:?	´|
+6	444.0	539.3	None:?	|Ò
+6	451.3	539.3	None:?	°ot|
+6	360.1	538.6	C0_0:Identity-H+ToUnicode	（
+6	443.8	538.6	C0_0:Identity-H+ToUnicode	）
+6	435.7	537.4	None:?	zfg
+6	443.9	537.4	None:?	|<
+6	451.3	537.4	None:?	fwù-¹
+6	422.3	535.8	None:?	qUK	Ôù
+6	435.7	535.8	None:?	-`hÚ¹w
+6	443.9	534.8	None:?	|Ò
+6	451.3	534.8	None:?	°otª
+6	435.7	534.3	None:?	ù-¹
+6	81.4	448.4	C0_0:Identity-H+ToUnicode	（注）１　ここでいう地震保険料等とは、地震保険料控除の対象となる地震保険料及び旧長期損害保険料をいいます。
+6	81.9	446.9	C0_0:Identity-H+ToUnicode	　　２　
+6	85.8	446.9	C0_0:Identity-H+ToUnicode	一つの契約等が、地震等損害により保険金や共済金が支払われるものと旧長期損害保険契約のいずれの
+6	84.9	445.4	C0_0:Identity-H+ToUnicode	契約区分にも該当する場合には、いずれか一方の契約区分にのみ該当するものとして、地震保険料控除の
+6	84.9	443.9	C0_0:Identity-H+ToUnicode	控除額を計算します。
+6	81.9	442.3	C0_0:Identity-H+ToUnicode	　　３　地震保険料の控除額の計算において算出した金額に１円未満の端数があるときは、その端数を切り上げ
+6	84.9	440.8	C0_0:Identity-H+ToUnicode	ます。
+6	76.5	347.7	C0_2:Identity-H+ToUnicode	◉　社会保険料控除
+6	85.6	324.4	None:?	yþq-eqx
+6	85.6	322.8	C0_0:Identity-H+ToUnicode	⑴　社会保険料控除の対象となる社会保険料は、所得者本人又は本人と生計を一にする親族の負
+6	86.8	321.2	C0_0:Identity-H+ToUnicode	担すべき社会保険料で、所得者本人が支払ったものに限られます。
+6	85.6	319.6	C0_0:Identity-H+ToUnicode	　　なお、社会保険料控除の対象となる社会保険料の詳細については、国税庁ホームページ
+6	86.3	318.0	C0_0:Identity-H+ToUnicode	（https://www.nta.go.jp）をご確認ください。
+6	85.6	316.1	C0_0:Identity-H+ToUnicode	⑵　社会保険料には、次の①と②があり、その全額が控除されます。このうち、②について
+6	96.9	226.0	C0_0:Identity-H+ToUnicode	は、本人から提出された保険料控除申告書の金額に基づいて控除することになります。
+6	96.7	224.4	C0_0:Identity-H+ToUnicode	①　健康保険や厚生年金保険、雇用保険などの保険料や掛金のように毎月の給与から差し引か
+6	97.8	222.8	C0_0:Identity-H+ToUnicode	れているもの
+6	96.7	221.2	C0_0:Identity-H+ToUnicode	②　
+6	113.7	178.0	C0_0:Identity-H+ToUnicode	国民健康保険や国民年金などの保険料や保険税、掛金のように本人が直接支払っているもの
+6	89.9	163.3	C0_0:Identity-H+ToUnicode	（注）　介護保険の保険料については、年齢４０歳から６４歳までの人は健康保険や国民健康保険の保険料に介護
+6	92.4	161.9	C0_0:Identity-H+ToUnicode	保険料相当額が含まれており、年齢６５歳以上の人は原則として公的年金等から介護保険料が特別徴収され
+6	92.4	160.4	C0_0:Identity-H+ToUnicode	ることになっています。
+6	85.6	121.0	C0_0:Identity-H+ToUnicode	⑶　本人と生計を一にする親族が負担することになっている社会保険料を本人自身が支払った場
+6	86.8	119.3	C0_0:Identity-H+ToUnicode	合には、その支払った金額は、本人の社会保険料として控除できます。
+6	89.9	85.5	C0_0:Identity-H+ToUnicode	（注）　後期高齢者医療制度の保険料について、本人と生計を一にする親族が負担すべき保険料を本人が口座振
+6	92.4	84.0	C0_0:Identity-H+ToUnicode	替により支払った場合には、口座振替によりその保険料を支払った本人の社会保険料として控除できます。
+6	90.4	82.6	C0_0:Identity-H+ToUnicode	　　　なお、年金から特別徴収された介護保険の保険料及び後期高齢者医療制度の保険料については、その保
+6	92.4	81.2	C0_0:Identity-H+ToUnicode	険料を支払ったのは年金の受給者自身となるため、その年金の受給者の社会保険料として控除できます。
+6	276.0	21.0	C0_0:Identity-H+ToUnicode	─  26  ─
+7	85.6	770.7	C0_1:Identity-H+ToUnicode	　証明書類
+7	85.6	769.0	C0_0:Identity-H+ToUnicode	　国民年金の保険料及び国民年金基金の掛金（以下「保険料等」といいます。）で本人が直接支払っ
+7	85.6	767.4	C0_0:Identity-H+ToUnicode	たものについては、支払った保険料等の多少に関係なく、その保険料等を支払ったことの証明書
+7	85.6	765.7	C0_0:Identity-H+ToUnicode	類を保険料控除申告書に添付して提出又は提示する必要があります。
+7	85.6	764.1	C0_0:Identity-H+ToUnicode	　証明書類の交付を請求中などのため、証明書類が確認できない場合でも、翌年１月末日までに
+7	85.6	762.5	C0_0:Identity-H+ToUnicode	提出又は提示することを条件として社会保険料の控除をしたところで年末調整を行ってもよいこ
+7	85.6	760.8	C0_0:Identity-H+ToUnicode	とになっています。
+7	85.6	759.3	C0_0:Identity-H+ToUnicode	　ここでいう証明書類とは、厚生労働省又は各国民年金基金が発行した保険料等の領収書や証明
+7	85.6	757.6	C0_0:Identity-H+ToUnicode	書などをいいます。
+7	81.4	622.9	C0_0:Identity-H+ToUnicode	（注）   
+7	85.1	622.9	C0_0:Identity-H+ToUnicode	国民年金の保険料及び国民年金基金の掛金については、保険料等を支払ったことを証明する書類が必要で
+7	83.9	621.3	C0_0:Identity-H+ToUnicode	すが、それ以外の保険料等については必要はありません。
+7	81.9	619.6	C0_0:Identity-H+ToUnicode	　　　なお、証明書類の範囲には、その証明書類に記載すべき事項を記録した電子証明書等に係る電磁的記録印
+7	83.9	618.0	C0_0:Identity-H+ToUnicode	刷書面が含まれます。また、保険料控除申告書に記載すべき事項を電子データにより提供する場合、その保
+7	83.9	616.3	C0_0:Identity-H+ToUnicode	険料控除申告書に添付すべき証明書類等の提出又は提
+7	83.9	616.3	C0_0:Identity-H+ToUnicode	示に代えて、その証明書類等に記載されるべき事項が
+7	83.9	614.7	C0_0:Identity-H+ToUnicode	記録された情報で電子証明書等が付されたものを保険
+7	83.9	614.7	C0_0:Identity-H+ToUnicode	料控除申告書に記載すべき事項と併せて電子データに
+7	83.9	613.0	C0_0:Identity-H+ToUnicode	より給与の支払者に提供することができます（
+7	104.5	613.0	C0_0:Identity-H+ToUnicode	２
+7	105.1	613.0	C0_0:Identity-H+ToUnicode	８
+7	105.9	613.0	C0_0:Identity-H+ToUnicode	ページ
+7	105.9	613.0	C0_0:Identity-H+ToUnicode	の「小規模企業共済等掛金控除」の証明書類におい
+7	83.9	611.4	C0_0:Identity-H+ToUnicode	ても同様です。）。
+7	576.9	552.8	C0_3:Identity-V+ToUnicode	年末調整のしかた
+7	559.8	552.2	C0_3:Identity-V+ToUnicode	・控除額の確認
+7	568.3	552.2	C0_3:Identity-V+ToUnicode	・手
+7	568.3	544.9	C0_3:Identity-V+ToUnicode	順
+7	85.6	496.8	C0_1:Identity-H+ToUnicode	　毎月の給与から差し引かれた社会保険料等の集計
+7	85.6	495.1	C0_0:Identity-H+ToUnicode	⑴　本年中に給与から差し引かれた社会保険料等の総額を集計します。この集計は、給与の総額
+7	86.8	493.5	C0_0:Identity-H+ToUnicode	等を集計するとき（３５ページ参照）に併せて行っても差し支えありません。
+7	85.6	491.9	C0_0:Identity-H+ToUnicode	⑵　この集計に当たっては、本年中に他から転職してきた人については、その人が前の勤務先に
+7	86.8	490.3	C0_0:Identity-H+ToUnicode	扶養控除等（異動）申告書を提出して支払を受けた給与から差し引かれた社会保険料等も含め
+7	86.8	488.7	C0_0:Identity-H+ToUnicode	て集計してください（その人が転職前の勤務先から交付を受けた本年分の「給与所得の源泉徴
+7	86.8	487.0	C0_0:Identity-H+ToUnicode	収票」などにより確認してください。）。
+7	85.6	485.4	C0_0:Identity-H+ToUnicode	⑶　給与の支払者が負担した社会保険料等の金額で給与として課税されるべきものは、本人自身
+7	86.8	483.6	C0_0:Identity-H+ToUnicode	が支払ったものとして控除の対象となりますので、これも集計に含めます。
+7	89.9	352.6	None:?	¢«£   w	FÛ'ÀAs»ÚxDw)Tþq-eqdoÇ	^bwpzo
+Ã	)=pxz
+7	139.3	352.6	None:?	 
+7	92.4	351.0	None:?	\wÚ¹ù-`oGÖbO®þq-e
+7	92.4	351.0	None:?	s
+7	116.1	351.0	None:?	¯q`oMb{
+7	85.6	310.5	C0_1:Identity-H+ToUnicode	　 〔注意事項〕
+7	85.6	308.8	C0_0:Identity-H+ToUnicode	　本人が本年中に支払ったものだけが控除の対象とされますので、納付期日が到来して本年中に
+7	85.6	307.2	C0_0:Identity-H+ToUnicode	支払うべき保険料であっても現実に支払っていないものは含まれません。
+7	85.6	305.6	C0_0:Identity-H+ToUnicode	　また、翌年以後に納付期日が到来する保険料を一括して支払ったいわゆる「前納保険料」につ
+7	85.6	304.0	C0_0:Identity-H+ToUnicode	いては、次の算式により計算した金額が本年中に支払った社会保険料となります（各年分に相当
+7	85.6	302.4	C0_0:Identity-H+ToUnicode	する額を各年において控除する方法）。
+7	130.8	202.9	C0_2:Identity-H	
+²ò-ew
+ï¹
+7	256.2	200.4	None:?	
+²ò-etå¤txRbòÇ8Ôws
+:
+7	259.7	199.2	None:?	
+²ò-etòÇ8Ôw
+ïs
+:
+7	232.1	194.8	None:?	·
+7	112.4	192.2	None:?	
+²òtÂ¾^h	Ô
+7	112.4	191.1	None:?	ùtxzfwÂ¾wÚ¹
+7	85.6	159.5	C0_0:Identity-H+ToUnicode	　ただし、前納の期間が１年以内のもの及び法令に一定期間の社会保険料等を前納することがで
+7	85.6	157.8	C0_0:Identity-H+ToUnicode	きる旨の規定がある場合における当該規定に基づき前納したものについては、本人がその前納保
+7	85.6	156.2	C0_0:Identity-H+ToUnicode	険料の全額を保険料控除申告書に記入して申告した場合には、その全額を本年の年末調整の際に
+7	85.6	154.6	C0_0:Identity-H+ToUnicode	控除しても差し支えありません（納めた年に全額控除する方法）。
+7	85.6	152.9	C0_0:Identity-H+ToUnicode	※　２年前納された国民年金保険料について、各年分の保険料に相当する額を各年において控除
+7	86.8	151.3	C0_0:Identity-H+ToUnicode	する方法を選択される場合は、各年分に対応する社会保険料控除証明書を本人自らが年分ごと
+7	86.8	149.7	C0_0:Identity-H+ToUnicode	に切り取り、保険料控除申告書に添付して給与の支払者へ提出又は提示することとなっていま
+7	86.8	148.0	C0_0:Identity-H+ToUnicode	す。
+7	276.0	21.0	C0_0:Identity-H+ToUnicode	─  27  ─
+8	76.5	779.3	C0_2:Identity-H+ToUnicode	◉　小規模企業共済等掛金控除
+8	85.6	754.7	None:?	y	FÛ'ÀAs»Úqx
+8	85.6	753.1	C0_0:Identity-H+ToUnicode	⑴　小規模企業共済等掛金とは、次に掲げるものをいいます。
+8	86.5	751.4	C0_0:Identity-H+ToUnicode	①　独立行政法人中小企業基盤整備機構と契約した共済契約（旧第２種共済契約を除きます。）
+8	87.6	749.8	C0_0:Identity-H+ToUnicode	に基づいて支払った掛金
+8	86.5	748.2	C0_0:Identity-H+ToUnicode	②　確定拠出年金法に規定する企業型年金加入者掛金又は個人型年金加入者掛金（iDeCoの掛
+8	87.6	746.6	C0_0:Identity-H+ToUnicode	金など）
+8	86.5	745.0	C0_0:Identity-H+ToUnicode	③　地方公共団体が条例の規定により実施するいわゆる心身障害者扶養共済制度で一定の要件
+8	87.6	743.4	C0_0:Identity-H+ToUnicode	を備えているものに基づいて支払った掛金
+8	89.9	624.9	C0_0:Identity-H+ToUnicode	（注）　掛金を前納したことにより前納減額金の支払を受けているときは、支払った掛金の額からその前納減額
+8	90.4	623.3	C0_0:Identity-H+ToUnicode	　　金を差し引いた残額が控除の対象となります。
+8	85.6	593.7	C0_0:Identity-H+ToUnicode	⑵　この小規模企業共済等掛金には、①毎月の給与から差し引かれるものと②本人が直接支払っ
+8	86.6	592.1	C0_0:Identity-H+ToUnicode	ているものなどがあり、その全額が控除されます。このうち、②の本人が直接支払ったものに
+8	86.6	590.4	C0_0:Identity-H+ToUnicode	ついては、本人から提出された保険料控除申告書の金額に基づいて控除することになっていま
+8	86.6	588.8	C0_0:Identity-H+ToUnicode	す。
+8	85.6	586.1	C0_2:Identity-H+ToUnicode	　証明書類
+8	85.6	584.5	C0_0:Identity-H+ToUnicode	　上記
+8	85.6	584.5	C0_0:Identity-H+ToUnicode	⑵
+8	89.8	584.5	C0_0:Identity-H+ToUnicode	①の毎月の給与から差し引かれる小規模企業共済等掛金については、掛金を支払ったこ
+8	85.6	582.8	C0_0:Identity-H+ToUnicode	とを証明する書類は必要ありませんが、②の本人が直接支払ったものについては、支払った掛金
+8	85.6	581.2	C0_0:Identity-H+ToUnicode	の金額の多少に関係なく、その掛金を支払ったことの証明書類を保険料控除申告書に添付して提
+8	85.6	579.6	C0_0:Identity-H+ToUnicode	出又は提示する必要があります。
+8	85.6	576.7	C0_2:Identity-H+ToUnicode	　 〔注意事項〕
+8	85.6	575.0	C0_0:Identity-H+ToUnicode	１　本人が直接掛金を支払っている場合、保険料控除申告書に、その掛金を支払ったことの証明
+8	86.8	573.4	C0_0:Identity-H+ToUnicode	書類を添付して提出又は提示されているかどうか。
+8	85.6	571.8	C0_0:Identity-H+ToUnicode	２　
+8	85.6	571.8	C0_0:Identity-H+ToUnicode	本人が本年中に支払ったものだけを控除の対象としているかどうか。未払のものや前払した
+8	86.8	570.2	C0_0:Identity-H+ToUnicode	ものが含まれて
+8	86.8	570.2	C0_0:Identity-H+ToUnicode	いないかどうか。
+8	85.6	568.6	C0_0:Identity-H+ToUnicode	　　この場合、翌年以後に納付期日の到来する掛金を一括して支払ったいわゆる「前納掛金」に
+8	86.8	567.0	C0_0:Identity-H+ToUnicode	ついては、社会保険料を前納した場合と同様に取り扱われますので、社会保険料控除の
+8	125.5	567.0	C0_2:Identity-H+ToUnicode	〔注意
+8	86.8	565.4	C0_2:Identity-H+ToUnicode	事項〕
+8	89.2	565.4	C0_0:Identity-H+ToUnicode	（
+8	90.0	565.4	C0_0:Identity-H+ToUnicode	２7ページ
+8	90.0	565.4	C0_0:Identity-H+ToUnicode	）を参照してください。
+8	85.6	563.7	C0_0:Identity-H+ToUnicode	３　前納減額金の支払を受けている場合には、支払った掛金の額からその前納減額金が差し引か
+8	86.8	562.1	C0_0:Identity-H+ToUnicode	れているかどうか。
+8	85.6	560.5	C0_0:Identity-H+ToUnicode	４　毎月の給与から差し引かれた小規模企業共済等掛金は社会保険料とともに本年中に差し引か
+8	86.8	558.9	C0_0:Identity-H+ToUnicode	れた金額を集計する必要があります（
+8	103.4	558.9	C0_0:Identity-H+ToUnicode	２７ページ
+8	103.4	558.9	C0_0:Identity-H+ToUnicode	の「毎月の給与から差し引かれた社会保険料等
+8	86.8	557.3	C0_0:Identity-H+ToUnicode	の集計」を参照してください。）。
+8	83.5	553.5	C0_2:Identity-H+ToUnicode	⑶　保険料控除額の源泉徴収簿への記入
+8	35.4	552.8	C0_1:Identity-V+ToUnicode	年末調整のしかた
+8	18.4	552.2	C0_1:Identity-V+ToUnicode	・控除額の確認
+8	26.9	552.2	C0_1:Identity-V+ToUnicode	・手
+8	84.7	551.8	C0_0:Identity-H+ToUnicode	　保険料控除申告書の内容について確認を終えた後、その申告書の記載に基づいて、各人の源泉徴収簿
+8	84.7	550.1	C0_0:Identity-H+ToUnicode	の該当欄に社会保険料控除額、小規模企業共済等掛金の控除額、生命保険料の控除額及び地震保険料の
+8	84.7	548.3	C0_0:Identity-H+ToUnicode	控除額をそれぞれ記入します。また、「旧長期損害保険料」の支払がある人については、その支払額を
+8	84.7	546.6	C0_0:Identity-H+ToUnicode	源泉徴収簿の「旧長期損害保険料支払額」欄に記入します（
+8	111.2	546.6	C0_0:Identity-H+ToUnicode	６０ページ
+8	111.2	546.6	C0_0:Identity-H+ToUnicode	の記入例参照）。
+8	26.9	544.9	C0_1:Identity-V+ToUnicode	順
+8	84.7	544.9	C0_0:Identity-H+ToUnicode	　なお、源泉徴収簿で集計した本年中の給与から差し引かれた社会保険料等の合計額も、該当欄に転記
+8	84.7	543.2	C0_0:Identity-H+ToUnicode	します（
+8	88.5	543.2	C0_0:Identity-H+ToUnicode	６０ページ
+8	88.5	543.2	C0_0:Identity-H+ToUnicode	の記入例参照）。
+8	276.0	21.0	C0_0:Identity-H+ToUnicode	─  28  ─

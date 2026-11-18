@@ -1,0 +1,55 @@
+{
+ "set": "kyoukai",
+ "fetched_at": "20261109-174045",
+ "download_dir": ".work/downloads/20261109-174045_R2X_gaps_web_kyoukai",
+ "robots": [
+  {
+   "host": "www.kyoukaikenpo.or.jp",
+   "url": "https://www.kyoukaikenpo.or.jp/robots.txt",
+   "status": 404,
+   "sha256": "e68036938403a46fb27ad325ece6d89239918b880e93136fe7d4a65b8b275469",
+   "saved": ".work/downloads/20261109-174045_R2X_gaps_web_kyoukai/robots_www.kyoukaikenpo.or.jp.txt"
+  }
+ ],
+ "items": [
+  {
+   "id": "kyoukai_covid19tokurei_nsyutoku",
+   "url": "https://www.kyoukaikenpo.or.jp/~/media/Files/honbu/g2/cat230/covid19tokurei_nsyutoku.pdf",
+   "final_url": "https://www.kyoukaikenpo.or.jp/~/media/Files/honbu/g2/cat230/covid19tokurei_nsyutoku.pdf",
+   "robots_allowed": true,
+   "status": 404,
+   "content_type": "text/html; charset=UTF-8",
+   "last_modified": null,
+   "bytes": 25314,
+   "sha256": "e68036938403a46fb27ad325ece6d89239918b880e93136fe7d4a65b8b275469",
+   "saved": ".work/downloads/20261109-174045_R2X_gaps_web_kyoukai/kyoukai_covid19tokurei_nsyutoku.pdf"
+  },
+  {
+   "id": "kyoukai_covid19i_fuyousaikakunin",
+   "url": "https://www.kyoukaikenpo.or.jp/~/media/Files/honbu/event/covid19/covid19i_fuyousaikakunin.pdf",
+   "final_url": "https://www.kyoukaikenpo.or.jp/~/media/Files/honbu/event/covid19/covid19i_fuyousaikakunin.pdf",
+   "robots_allowed": true,
+   "status": 404,
+   "content_type": "text/html; charset=UTF-8",
+   "last_modified": null,
+   "bytes": 25314,
+   "sha256": "e68036938403a46fb27ad325ece6d89239918b880e93136fe7d4a65b8b275469",
+   "saved": ".work/downloads/20261109-174045_R2X_gaps_web_kyoukai/kyoukai_covid19i_fuyousaikakunin.pdf"
+  },
+  {
+   "id": "kyoukai_faq_dependent_status",
+   "url": "https://www.kyoukaikenpo.or.jp/faq/dependent_status/",
+   "final_url": "https://www.kyoukaikenpo.or.jp/faq/dependent_status/",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html; charset=UTF-8",
+   "last_modified": null,
+   "bytes": 71028,
+   "sha256": "e1a2aea39c610220060fc935dedab7bc20576d1e97667651e29765e3dbb1bc3c",
+   "saved": ".work/downloads/20261109-174045_R2X_gaps_web_kyoukai/kyoukai_faq_dependent_status.htm",
+   "title": "被扶養者資格の再確認について｜よくあるご質問｜協会けんぽ",
+   "encoding": "UTF-8",
+   "text_sha256": "9a9c4220bcf9da7b7ee17436bb7ea38c31f8fb242c0901e5d833b83fd9ebc672"
+  }
+ ]
+}

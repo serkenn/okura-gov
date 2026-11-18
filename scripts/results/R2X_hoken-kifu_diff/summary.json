@@ -1,0 +1,50 @@
+[
+ {
+  "short": "sochi",
+  "section": "## 本則 Num=41_15_5",
+  "from": "2026-03-31",
+  "to": "2026-04-01",
+  "lines_from": 11,
+  "lines_to": 11,
+  "sha256_from": "d675dab01c76ca55d31a979f1094019ad26ec7e40b58b54ce1ce308a41fd4e53",
+  "sha256_to": "fcb10043efcb05d2a1586407e2a212ad6bf33569160c9c80926966f21fa14e95",
+  "changed_lines": 4,
+  "file": "diff_sochi_本則_Num41_15_5_2026-03-31_2026-04-01.txt"
+ },
+ {
+  "short": "shotoku",
+  "section": "## 本則 Num=78",
+  "from": "2026-03-31",
+  "to": "2026-04-01",
+  "lines_from": 13,
+  "lines_to": 13,
+  "sha256_from": "2ed763facb12f9339e847442a9a0b5afe1234ab077a64704132ac85396a43242",
+  "sha256_to": "7c05f83d4b2a750c1b95aca18a341b685df2c9e16ba92b5aa8963ab7ad69e69f",
+  "changed_lines": 4,
+  "file": "diff_shotoku_本則_Num78_2026-03-31_2026-04-01.txt"
+ },
+ {
+  "short": "chiho",
+  "section": "## 本則 Num=314_7",
+  "from": "2026-03-31",
+  "to": "2026-04-01",
+  "lines_from": 37,
+  "lines_to": 37,
+  "sha256_from": "c9159b48713d6d6c0a46f524d335574fb9525cbbbc5a6878cd52a9b888b04ca0",
+  "sha256_to": "55f356052d2e92c843d011bd756aaaeaf9764637c4abf204ebbf1f294c058362",
+  "changed_lines": 14,
+  "file": "diff_chiho_本則_Num314_7_2026-03-31_2026-04-01.txt"
+ },
+ {
+  "short": "chiho",
+  "section": "## 原始附則 Num=7_2",
+  "from": "2026-03-31",
+  "to": "2026-04-01",
+  "lines_from": 17,
+  "lines_to": 17,
+  "sha256_from": "efba1b3e26e4baf3611658631c0e7f1d97bae9ffb2fd1040a4475782fce56f0a",
+  "sha256_to": "255cb3ed1bbe9cb54466fcb0a812b52e42336778fabd103faab0d4ff3b4ecc8c",
+  "changed_lines": 4,
+  "file": "diff_chiho_原始附則_Num7_2_2026-03-31_2026-04-01.txt"
+ }
+]

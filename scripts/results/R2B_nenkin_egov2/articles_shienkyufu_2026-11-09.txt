@@ -1,0 +1,10 @@
+# shienkyufu 年金生活者支援給付金の支給に関する法律 424AC0000000102 asof=2026-11-09
+# law_revision_id=424AC0000000102_20250601_504AC0000000068
+# 取得URL=https://laws.e-gov.go.jp/api/2/law_data/424AC0000000102?response_format=json&asof=2026-11-09&omit_amendment_suppl_provision=true
+# 取得日時=20261109-180631
+# 生データ SHA-256=7ed74cf4d742999c3d378743b31fbe445e68b30e7a8595b5ab7dc3f8574bbb9a
+
+## 本則のうち「公課」を含む条
+（公課の禁止）
+第三十三条
+（Paragraph1）　租税その他の公課は、年金生活者支援給付金として支給を受けた金銭を標準として、課することができない。

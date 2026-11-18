@@ -1,0 +1,29 @@
+[xl/sharedStrings.xml] 連番
+[xl/sharedStrings.xml] 日付
+[xl/sharedStrings.xml] 金額
+[xl/sharedStrings.xml] 取引先
+[xl/sharedStrings.xml] 備考
+[xl/sharedStrings.xml] ①
+[xl/sharedStrings.xml] ㈱霞商店
+[xl/sharedStrings.xml] 請求書
+[xl/sharedStrings.xml] ②
+[xl/sharedStrings.xml] 国税工務店㈱
+[xl/sharedStrings.xml] 注文書
+[xl/sharedStrings.xml] ③
+[xl/sharedStrings.xml] 領収書
+[xl/sharedStrings.xml] ④
+[xl/sharedStrings.xml] ⑤
+[xl/sharedStrings.xml] ⑥
+[xl/sharedStrings.xml] ⑦
+[xl/sharedStrings.xml] ⑧
+[xl/sharedStrings.xml] 索引簿（サンプル）
+[xl/worksheets/sheet1.xml] A1(s)=18
+[xl/worksheets/sheet1.xml] A3(s)=0 B3(s)=1 C3(s)=2 D3(s)=3 E3(s)=4
+[xl/worksheets/sheet1.xml] A4(s)=5 B4=20210131 C4=110000 D4(s)=6 E4(s)=7
+[xl/worksheets/sheet1.xml] A5(s)=8 B5=20210210 C5=330000 D5(s)=9 E5(s)=10
+[xl/worksheets/sheet1.xml] A6(s)=11 B6=20210228 C6=330000 D6(s)=9 E6(s)=12
+[xl/worksheets/sheet1.xml] A7(s)=13
+[xl/worksheets/sheet1.xml] A8(s)=14
+[xl/worksheets/sheet1.xml] A9(s)=15
+[xl/worksheets/sheet1.xml] A10(s)=16
+[xl/worksheets/sheet1.xml] A11(s)=17

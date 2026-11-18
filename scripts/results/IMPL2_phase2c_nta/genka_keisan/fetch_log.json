@@ -1,0 +1,90 @@
+{
+ "set": "genka_keisan",
+ "fetched_at": "20261111-150044",
+ "download_dir": ".work/downloads/20261111-150044_IMPL2_phase2c_nta_genka_keisan",
+ "items": [
+  {
+   "id": "keisan_r5_hasu",
+   "url": "https://www.keisan.nta.go.jp/r5yokuaru/aoiroshinkoku/hitsuyokeihi/genkashokyakuhi/hasushori.html",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 10 Nov 2026 22:01:06 GMT",
+   "bytes": 15044,
+   "sha256": "a55fcfd5769393c5f7ef08dc78bead4425361f070c00320b2390da4f677b6150",
+   "saved": ".work/downloads/20261111-150044_IMPL2_phase2c_nta_genka_keisan/keisan_r5_hasu.htm",
+   "title": "【確定申告書等作成コーナー】-減価償却費の端数処理",
+   "encoding": "UTF-8"
+  },
+  {
+   "id": "keisan_r6_hasu",
+   "url": "https://www.keisan.nta.go.jp/r6yokuaru/aoiroshinkoku/hitsuyokeihi/genkashokyakuhi/hasushori.html",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 10 Nov 2026 22:01:20 GMT",
+   "bytes": 15025,
+   "sha256": "3ce4369482e073c46c263301c5fd079c1d5ab6c59c3e84105aa9c44e69b5d9c1",
+   "saved": ".work/downloads/20261111-150044_IMPL2_phase2c_nta_genka_keisan/keisan_r6_hasu.htm",
+   "title": "【確定申告書等作成コーナー】-減価償却費の端数処理",
+   "encoding": "UTF-8"
+  },
+  {
+   "id": "keisan_r7_hasu",
+   "url": "https://www.keisan.nta.go.jp/r7yokuaru/aoiroshinkoku/hitsuyokeihi/genkashokyakuhi/hasushori.html",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 10 Nov 2026 22:01:39 GMT",
+   "bytes": 15064,
+   "sha256": "12d5df804dcae17f43cf2f51df5007879d648eba1cf8b8e1995c7b275569b4a1",
+   "saved": ".work/downloads/20261111-150044_IMPL2_phase2c_nta_genka_keisan/keisan_r7_hasu.htm",
+   "title": "【確定申告書等作成コーナー】-減価償却費の端数処理",
+   "encoding": "UTF-8"
+  },
+  {
+   "id": "saigai_genka",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/saigai/h30/0018008-045/05.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 08:02:23 GMT",
+   "bytes": 9511,
+   "sha256": "6eb97828ba5c8099a3b1075dfd8e70d64040bb3ffcbdf14a37632e3d54f8e575",
+   "saved": ".work/downloads/20261111-150044_IMPL2_phase2c_nta_genka_keisan/saigai_genka.htm",
+   "title": "「減価償却費」の計算について｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "hojin_bappyo16_1",
+   "url": "https://www.nta.go.jp/publication/pamph/hojin/aramashi2025/pdf/02-17.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 31 Oct 2025 08:30:04 GMT",
+   "bytes": 603768,
+   "sha256": "a54055536d127a586364d9f92743a0a3c28e0d0479d1e2b4621b0ecb6940e623",
+   "saved": ".work/downloads/20261111-150044_IMPL2_phase2c_nta_genka_keisan/hojin_bappyo16_1.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "shitsugi_04_17",
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/04/17.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 03 Dec 2025 08:31:04 GMT",
+   "bytes": 7335,
+   "sha256": "2b9756ae2bae08ef91e11f2569ec1f46d5c1b5eb4a66c46986bad424108f4cfd",
+   "saved": ".work/downloads/20261111-150044_IMPL2_phase2c_nta_genka_keisan/shitsugi_04_17.htm",
+   "title": "非業務用資産を業務の用に供した場合｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kobetsu_hasu_tsusoku_119",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/119.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:29:49 GMT",
+   "bytes": 6931,
+   "sha256": "bc7f4b5a760ac218b7beddb6e4e58505b643bac47b36bb0f2d070d3d7574d0b3",
+   "saved": ".work/downloads/20261111-150044_IMPL2_phase2c_nta_genka_keisan/kobetsu_hasu_tsusoku_119.htm",
+   "title": "第119条関係 国税の確定金額の端数計算等｜国税庁",
+   "encoding": "shift_jis"
+  }
+ ]
+}

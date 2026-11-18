@@ -1,0 +1,2452 @@
+{
+ "download_dir": ".work\\downloads\\20261109-154805_IMPL_iryohi_verify_egov",
+ "versions": {
+  "shotoku@2025-12-31": {
+   "law_revision_id": "340AC0000000033_20251218_507AC0000000013",
+   "current_revision_status": "PreviousEnforced",
+   "amendment_law_num": "令和七年法律第十三号",
+   "amendment_enforcement_date": "2025-12-18"
+  },
+  "shotoku@2026-11-09": {
+   "law_revision_id": "340AC0000000033_20261001_507AC0000000070",
+   "current_revision_status": "CurrentEnforced",
+   "amendment_law_num": "令和七年法律第七十号",
+   "amendment_enforcement_date": "2026-10-01"
+  },
+  "shotoku@2026-12-31": {
+   "law_revision_id": "340AC0000000033_20261201_508AC0000000012",
+   "current_revision_status": "UnEnforced",
+   "amendment_law_num": "令和八年法律第十二号",
+   "amendment_enforcement_date": "2026-12-01"
+  },
+  "shotoku@2027-01-01": {
+   "law_revision_id": "340AC0000000033_20270101_508AC0000000012",
+   "current_revision_status": "UnEnforced",
+   "amendment_law_num": "令和八年法律第十二号",
+   "amendment_enforcement_date": "2027-01-01"
+  },
+  "shotoku-rei@2025-12-31": {
+   "law_revision_id": "340CO0000000096_20251201_507CO0000000120",
+   "current_revision_status": "PreviousEnforced",
+   "amendment_law_num": "令和七年政令第百二十号",
+   "amendment_enforcement_date": "2025-12-01"
+  },
+  "shotoku-rei@2026-11-09": {
+   "law_revision_id": "340CO0000000096_20260522_508CO0000000093",
+   "current_revision_status": "CurrentEnforced",
+   "amendment_law_num": "令和八年政令第九十三号",
+   "amendment_enforcement_date": "2026-05-22"
+  },
+  "shotoku-rei@2026-12-31": {
+   "law_revision_id": "340CO0000000096_20261201_508CO0000000093",
+   "current_revision_status": "UnEnforced",
+   "amendment_law_num": "令和八年政令第九十三号",
+   "amendment_enforcement_date": "2026-12-01"
+  },
+  "shotoku-rei@2027-01-01": {
+   "law_revision_id": "340CO0000000096_20270101_508CO0000000093",
+   "current_revision_status": "UnEnforced",
+   "amendment_law_num": "令和八年政令第九十三号",
+   "amendment_enforcement_date": "2027-01-01"
+  },
+  "shotoku-ki@2025-12-31": {
+   "law_revision_id": "340M50000040011_20251201_507M60000040018",
+   "current_revision_status": "PreviousEnforced",
+   "amendment_law_num": "令和七年財務省令第十八号",
+   "amendment_enforcement_date": "2025-12-01"
+  },
+  "shotoku-ki@2026-11-09": {
+   "law_revision_id": "340M50000040011_20261001_507M60000040018",
+   "current_revision_status": "CurrentEnforced",
+   "amendment_law_num": "令和七年財務省令第十八号",
+   "amendment_enforcement_date": "2026-10-01"
+  },
+  "shotoku-ki@2026-12-31": {
+   "law_revision_id": "340M50000040011_20261211_508M60000040017",
+   "current_revision_status": "UnEnforced",
+   "amendment_law_num": "令和八年財務省令第十七号",
+   "amendment_enforcement_date": "2026-12-11"
+  },
+  "shotoku-ki@2027-01-01": {
+   "law_revision_id": "340M50000040011_20270101_508M60000040017",
+   "current_revision_status": "UnEnforced",
+   "amendment_law_num": "令和八年財務省令第十七号",
+   "amendment_enforcement_date": "2027-01-01"
+  },
+  "sochi@2025-12-31": {
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "current_revision_status": "PreviousEnforced",
+   "amendment_law_num": "令和七年法律第八十一号",
+   "amendment_enforcement_date": "2025-12-31"
+  },
+  "sochi@2026-11-09": {
+   "law_revision_id": "332AC0000000026_20261101_507AC0000000013",
+   "current_revision_status": "CurrentEnforced",
+   "amendment_law_num": "令和七年法律第十三号",
+   "amendment_enforcement_date": "2026-11-01"
+  },
+  "sochi@2026-12-31": {
+   "law_revision_id": "332AC0000000026_20261204_508AC0000000012",
+   "current_revision_status": "UnEnforced",
+   "amendment_law_num": "令和八年法律第十二号",
+   "amendment_enforcement_date": null
+  },
+  "sochi@2027-01-01": {
+   "law_revision_id": "332AC0000000026_20270101_508AC0000000012",
+   "current_revision_status": "UnEnforced",
+   "amendment_law_num": "令和八年法律第十二号",
+   "amendment_enforcement_date": "2027-01-01"
+  },
+  "sochi-rei@2025-12-31": {
+   "law_revision_id": "332CO0000000043_20251231_507CO0000000401",
+   "current_revision_status": "PreviousEnforced",
+   "amendment_law_num": "令和七年政令第四百一号",
+   "amendment_enforcement_date": "2025-12-31"
+  },
+  "sochi-rei@2026-11-09": {
+   "law_revision_id": "332CO0000000043_20261101_507CO0000000127",
+   "current_revision_status": "CurrentEnforced",
+   "amendment_law_num": "令和七年政令第百二十七号",
+   "amendment_enforcement_date": "2026-11-01"
+  },
+  "sochi-rei@2026-12-31": {
+   "law_revision_id": "332CO0000000043_20261201_508CO0000000098",
+   "current_revision_status": "UnEnforced",
+   "amendment_law_num": "令和八年政令第九十八号",
+   "amendment_enforcement_date": "2026-12-01"
+  },
+  "sochi-rei@2027-01-01": {
+   "law_revision_id": "332CO0000000043_20270101_508CO0000000098",
+   "current_revision_status": "UnEnforced",
+   "amendment_law_num": "令和八年政令第九十八号",
+   "amendment_enforcement_date": "2027-01-01"
+  },
+  "sochi-ki@2025-12-31": {
+   "law_revision_id": "332M50000040015_20251231_507M60000040068",
+   "current_revision_status": "PreviousEnforced",
+   "amendment_law_num": "令和七年財務省令第六十八号",
+   "amendment_enforcement_date": "2025-12-31"
+  },
+  "sochi-ki@2026-11-09": {
+   "law_revision_id": "332M50000040015_20261101_507M60000040026",
+   "current_revision_status": "CurrentEnforced",
+   "amendment_law_num": "令和七年財務省令第二十六号",
+   "amendment_enforcement_date": "2026-11-01"
+  },
+  "sochi-ki@2026-12-31": {
+   "law_revision_id": "332M50000040015_20261204_508M60000040021",
+   "current_revision_status": "UnEnforced",
+   "amendment_law_num": "令和八年財務省令第二十一号",
+   "amendment_enforcement_date": null
+  },
+  "sochi-ki@2027-01-01": {
+   "law_revision_id": "332M50000040015_20270101_508M60000040021",
+   "current_revision_status": "UnEnforced",
+   "amendment_law_num": "令和八年財務省令第二十一号",
+   "amendment_enforcement_date": "2027-01-01"
+  },
+  "kenpo@2026-11-09": {
+   "law_revision_id": "211AC0000000070_20261001_507AC0000000087",
+   "current_revision_status": "CurrentEnforced",
+   "amendment_law_num": "令和七年法律第八十七号",
+   "amendment_enforcement_date": "2026-10-01"
+  },
+  "minpo@2026-11-09": {
+   "law_revision_id": "129AC0000000089_20260624_508AC0000000045",
+   "current_revision_status": "CurrentEnforced",
+   "amendment_law_num": "令和八年法律第四十五号",
+   "amendment_enforcement_date": "2026-06-24"
+  }
+ },
+ "checks": [
+  {
+   "id": "LAW1-73-1",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW1-73-2",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW1-73-3",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW2.1-207",
+   "law": "shotoku-rei",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW2.1-207-items",
+   "law": "shotoku-rei",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW2.1-207-no8",
+   "law": "shotoku-rei",
+   "asof": "2025-12-31",
+   "ok": true,
+   "expect": "absent",
+   "node_found": false
+  },
+  {
+   "id": "LAW2.2-40_3-1-1",
+   "law": "shotoku-ki",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW2.2-40_3-1-2",
+   "law": "shotoku-ki",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW2.2-40_3-2",
+   "law": "shotoku-ki",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.1-22-2",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.1-22-3",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.1-2-1-30",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.3-87-1",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.3-87-2",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.1-120-4",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.1-120-5",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.2-47_2-12",
+   "law": "shotoku-ki",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.2-47_2-12-items",
+   "law": "shotoku-ki",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.2-47_2-12-no5",
+   "law": "shotoku-ki",
+   "asof": "2025-12-31",
+   "ok": true,
+   "expect": "absent",
+   "node_found": false
+  },
+  {
+   "id": "LAW5.2-47_2-13",
+   "law": "shotoku-ki",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.3-262-no-iryohi",
+   "law": "shotoku-rei",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.1-41_17-1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.1-41_17-2-1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.1-41_17-2-2",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.1-41_17-3",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.1-41_17-4",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.1-41_17-5",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.1-41_17-no6",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "expect": "absent",
+   "node_found": false
+  },
+  {
+   "id": "LAW4.2-26_27_3-1",
+   "law": "sochi-rei",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.2-26_27_3-2",
+   "law": "sochi-rei",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.2-26_27_3-3",
+   "law": "sochi-rei",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.2-26_27_3-4",
+   "law": "sochi-rei",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.2-26_27_3-6",
+   "law": "sochi-rei",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.2-26_27_3-7",
+   "law": "sochi-rei",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.2-26_27_3-no8",
+   "law": "sochi-rei",
+   "asof": "2025-12-31",
+   "ok": true,
+   "expect": "absent",
+   "node_found": false
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-1-1",
+   "law": "sochi-ki",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-1-2",
+   "law": "sochi-ki",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-1-3",
+   "law": "sochi-ki",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-1-4",
+   "law": "sochi-ki",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-1-5",
+   "law": "sochi-ki",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-1-6",
+   "law": "sochi-ki",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-1-no7",
+   "law": "sochi-ki",
+   "asof": "2025-12-31",
+   "ok": true,
+   "expect": "absent",
+   "node_found": false
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-2",
+   "law": "sochi-ki",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.2-8_4-3-3",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.2-28_4-5-2",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.2-31-3-3",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.2-37_10-6-5",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.2-41_14-2-4",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.2-31-1-def",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW1-73-1",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW1-73-2",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW1-73-3",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW2.1-207",
+   "law": "shotoku-rei",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW2.1-207-items",
+   "law": "shotoku-rei",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW2.1-207-no8",
+   "law": "shotoku-rei",
+   "asof": "2026-11-09",
+   "ok": true,
+   "expect": "absent",
+   "node_found": false
+  },
+  {
+   "id": "LAW2.2-40_3-1-1",
+   "law": "shotoku-ki",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW2.2-40_3-1-2",
+   "law": "shotoku-ki",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW2.2-40_3-2",
+   "law": "shotoku-ki",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.1-22-2",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.1-22-3",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.1-2-1-30",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.3-87-1",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.3-87-2",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.1-120-4",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.1-120-5",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.2-47_2-12",
+   "law": "shotoku-ki",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.2-47_2-12-items",
+   "law": "shotoku-ki",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.2-47_2-12-no5",
+   "law": "shotoku-ki",
+   "asof": "2026-11-09",
+   "ok": true,
+   "expect": "absent",
+   "node_found": false
+  },
+  {
+   "id": "LAW5.2-47_2-13",
+   "law": "shotoku-ki",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.3-262-no-iryohi",
+   "law": "shotoku-rei",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.1-41_17-1",
+   "law": "sochi",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.1-41_17-2-1",
+   "law": "sochi",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.1-41_17-2-2",
+   "law": "sochi",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.1-41_17-3",
+   "law": "sochi",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.1-41_17-4",
+   "law": "sochi",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.1-41_17-5",
+   "law": "sochi",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.1-41_17-no6",
+   "law": "sochi",
+   "asof": "2026-11-09",
+   "ok": true,
+   "expect": "absent",
+   "node_found": false
+  },
+  {
+   "id": "LAW4.2-26_27_3-1",
+   "law": "sochi-rei",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.2-26_27_3-2",
+   "law": "sochi-rei",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.2-26_27_3-3",
+   "law": "sochi-rei",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.2-26_27_3-4",
+   "law": "sochi-rei",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.2-26_27_3-6",
+   "law": "sochi-rei",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.2-26_27_3-7",
+   "law": "sochi-rei",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.2-26_27_3-no8",
+   "law": "sochi-rei",
+   "asof": "2026-11-09",
+   "ok": true,
+   "expect": "absent",
+   "node_found": false
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-1-1",
+   "law": "sochi-ki",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-1-2",
+   "law": "sochi-ki",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-1-3",
+   "law": "sochi-ki",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-1-4",
+   "law": "sochi-ki",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-1-5",
+   "law": "sochi-ki",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-1-6",
+   "law": "sochi-ki",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-1-no7",
+   "law": "sochi-ki",
+   "asof": "2026-11-09",
+   "ok": true,
+   "expect": "absent",
+   "node_found": false
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-2",
+   "law": "sochi-ki",
+   "asof": "2026-11-09",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW1-73-1",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW1-73-2",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW1-73-3",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW2.1-207",
+   "law": "shotoku-rei",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW2.1-207-items",
+   "law": "shotoku-rei",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW2.1-207-no8",
+   "law": "shotoku-rei",
+   "asof": "2026-12-31",
+   "ok": true,
+   "expect": "absent",
+   "node_found": false
+  },
+  {
+   "id": "LAW2.2-40_3-1-1",
+   "law": "shotoku-ki",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW2.2-40_3-1-2",
+   "law": "shotoku-ki",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW2.2-40_3-2",
+   "law": "shotoku-ki",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.1-22-2",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.1-22-3",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.1-2-1-30",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.3-87-1",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.3-87-2",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.1-120-4",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.1-120-5",
+   "law": "shotoku",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.2-47_2-12",
+   "law": "shotoku-ki",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.2-47_2-12-items",
+   "law": "shotoku-ki",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.2-47_2-12-no5",
+   "law": "shotoku-ki",
+   "asof": "2026-12-31",
+   "ok": true,
+   "expect": "absent",
+   "node_found": false
+  },
+  {
+   "id": "LAW5.2-47_2-13",
+   "law": "shotoku-ki",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.3-262-no-iryohi",
+   "law": "shotoku-rei",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.1-41_17-1",
+   "law": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.1-41_17-2-1",
+   "law": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.1-41_17-2-2",
+   "law": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.1-41_17-3",
+   "law": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.1-41_17-4",
+   "law": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.1-41_17-5",
+   "law": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.1-41_17-no6",
+   "law": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "expect": "absent",
+   "node_found": false
+  },
+  {
+   "id": "LAW4.2-26_27_3-1",
+   "law": "sochi-rei",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.2-26_27_3-2",
+   "law": "sochi-rei",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.2-26_27_3-3",
+   "law": "sochi-rei",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.2-26_27_3-4",
+   "law": "sochi-rei",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.2-26_27_3-6",
+   "law": "sochi-rei",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.2-26_27_3-7",
+   "law": "sochi-rei",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.2-26_27_3-no8",
+   "law": "sochi-rei",
+   "asof": "2026-12-31",
+   "ok": true,
+   "expect": "absent",
+   "node_found": false
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-1-1",
+   "law": "sochi-ki",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-1-2",
+   "law": "sochi-ki",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-1-3",
+   "law": "sochi-ki",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-1-4",
+   "law": "sochi-ki",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-1-5",
+   "law": "sochi-ki",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-1-6",
+   "law": "sochi-ki",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-1-no7",
+   "law": "sochi-ki",
+   "asof": "2026-12-31",
+   "ok": true,
+   "expect": "absent",
+   "node_found": false
+  },
+  {
+   "id": "LAW4.5-19_10_2_2-2",
+   "law": "sochi-ki",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.2-8_4-3-3",
+   "law": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.2-28_4-5-2",
+   "law": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.2-31-3-3",
+   "law": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.2-37_10-6-5",
+   "law": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.2-41_14-2-4",
+   "law": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.2-31-1-def",
+   "law": "sochi",
+   "asof": "2026-12-31",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW1-73-1",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW1-73-2",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW1-73-3",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW2.1-207",
+   "law": "shotoku-rei",
+   "asof": "2027-01-01",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW2.1-207-items",
+   "law": "shotoku-rei",
+   "asof": "2027-01-01",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW2.1-207-no8",
+   "law": "shotoku-rei",
+   "asof": "2027-01-01",
+   "ok": true,
+   "expect": "absent",
+   "node_found": false
+  },
+  {
+   "id": "LAW2.2-40_3-1-1",
+   "law": "shotoku-ki",
+   "asof": "2027-01-01",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW2.2-40_3-1-2",
+   "law": "shotoku-ki",
+   "asof": "2027-01-01",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW2.2-40_3-2",
+   "law": "shotoku-ki",
+   "asof": "2027-01-01",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.1-22-2",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.1-22-3",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.1-2-1-30",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.3-87-1",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW3.3-87-2",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.1-120-4",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.1-120-5",
+   "law": "shotoku",
+   "asof": "2027-01-01",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.2-47_2-12",
+   "law": "shotoku-ki",
+   "asof": "2027-01-01",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.2-47_2-12-items",
+   "law": "shotoku-ki",
+   "asof": "2027-01-01",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.2-47_2-12-no5",
+   "law": "shotoku-ki",
+   "asof": "2027-01-01",
+   "ok": true,
+   "expect": "absent",
+   "node_found": false
+  },
+  {
+   "id": "LAW5.2-47_2-13",
+   "law": "shotoku-ki",
+   "asof": "2027-01-01",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW5.3-262-no-iryohi",
+   "law": "shotoku-rei",
+   "asof": "2027-01-01",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.4-41_17-1-r9",
+   "law": "sochi",
+   "asof": "2027-01-01",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.4-41_17-2-3-r9",
+   "law": "sochi",
+   "asof": "2027-01-01",
+   "ok": true,
+   "node_found": true,
+   "missing": [],
+   "unexpected": []
+  },
+  {
+   "id": "LAW4.4-R8-12-suppl46",
+   "law": "sochi",
+   "asof": "2027-01-01",
+   "amend": "令和八年三月三一日法律第一二号",
+   "ok": true,
+   "text": "（特定一般用医薬品等購入費を支払った場合の医療費控除の特例に関する経過措置）第四十六条新租税特別措置法第四十一条の十七の規定は、令和九年分以後の所得税について適用し、令和八年分以前の所得税については、なお従前の例による。"
+  },
+  {
+   "id": "LAW4.4-R8-12-suppl1-5",
+   "law": "sochi",
+   "asof": "2027-01-01",
+   "amend": "令和八年三月三一日法律第一二号",
+   "ok": true,
+   "item5_head": "五次に掲げる規定令和九年一月一日イ略ロ第七条中租税特別措置法第九条の八の改正規定、同法第九条の九第一項の改正規定、同法第二十五条の二の改正規定、同法第三十七条の十四の改正規定、同法第四十一条の三の十一第四項第六号の改正規定、同法第四十一条の十五の三第二項第一号の改正規定、同法第四十一条の十六の二第三項の改正規定、同条第四項の改正規定、同法第四十一条の十七の改正規定（同条第一項中「第四条第五項第三号",
+   "item5_len": 716
+  },
+  {
+   "id": "LAW4.4-R8-12-suppl1-18",
+   "law": "sochi",
+   "asof": "2027-01-01",
+   "amend": "令和八年三月三一日法律第一二号",
+   "ok": true,
+   "item18": "十八第七条中租税特別措置法第四十一条の十七第一項の改正規定（「第四条第五項第三号」を「第四条第九項第三号」に改める部分に限る。）医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律等の一部を改正する法律（令和七年法律第三十七号）附則第一条第三号に掲げる規定の施行の日"
+  },
+  {
+   "id": "LAW4.4-R8-12-suppl1-5-subitems",
+   "law": "sochi",
+   "asof": "2027-01-01",
+   "subitems": {
+    "1": "イ略",
+    "2": "ロ第七条中租税特別措置法第九条の八の改正規定、同法第九条の九第一項の改正規定、同法第二十五条の二の改正規定、同法第三十七条の十四の改正規定、同法第四十一条の三の十一第四項第六号の改正規定、同法第四十一条の十五の三第二項第一号の改正規定、同法第四十一条の十六の二第三項の改正規定、同条第四項の改正規定、同法第四十一条の十七の改正規定（同条第一項中「第四条第五項第三号」を「第四条第九項第三号」に改める部分を除く。）、同法第四十一条の十九第一項の改正規定、同条第二項第七号の改正規定、同条第四項の改正規定、同法第四十二条の二の二第一項及び第三項の改正規定（「又は」を「、第三十八条の二第四項又は」に改める"
+   },
+   "ok": true
+  },
+  {
+   "id": "LAW4.6-R3-11-suppl38",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "amend": "令和三年三月三一日法律第一一号",
+   "p1": "新租税特別措置法第四十一条の十七（第二項に係る部分に限る。）の規定は、令和四年分以後の所得税について適用し、令和三年分以前の所得税については、なお従前の例による。",
+   "p2": "２新租税特別措置法第四十一条の十七（第四項に係る部分に限る。）の規定は、令和四年一月一日以後に令和三年分以後の所得税に係る確定申告書を提出する場合について適用し、同日前に確定申告書を提出した場合及び同日以後に令和二年分以前の所得税に係る確定申告書を提出する場合については、なお従前の例による。",
+   "ok": true
+  },
+  {
+   "id": "LAW4.6-R3-11-suppl38",
+   "law": "sochi",
+   "asof": "2026-12-31",
+   "amend": "令和三年三月三一日法律第一一号",
+   "p1": "新租税特別措置法第四十一条の十七（第二項に係る部分に限る。）の規定は、令和四年分以後の所得税について適用し、令和三年分以前の所得税については、なお従前の例による。",
+   "p2": "２新租税特別措置法第四十一条の十七（第四項に係る部分に限る。）の規定は、令和四年一月一日以後に令和三年分以後の所得税に係る確定申告書を提出する場合について適用し、同日前に確定申告書を提出した場合及び同日以後に令和二年分以前の所得税に係る確定申告書を提出する場合については、なお従前の例による。",
+   "ok": true
+  },
+  {
+   "id": "LAW4.2-R7-127-suppl1-1",
+   "law": "sochi-rei",
+   "asof": "2025-12-31",
+   "amend": "令和七年三月三一日政令第一二七号",
+   "found_at": 111,
+   "context": "（施行期日）第一条この政令は、令和七年四月一日から施行する。ただし、次の各号に掲げる規定は、当該各号に定める日から施行する。一第十八条の二第二項各号の改正規定、第二十六条の二十七の三を第二十六条の二十七の四とする改正規定、第二十六条の二十七の二第六項の改正規定及び同条を第二十六条の二十七の三とし、第二十六条の二十七の次に一条を加える改正規定令和七年十二月一日二第二十五条の十の十二の改正規定及び第二十六条の二十七第一項の改正規定並びに附則第十条及び第十一条の規定令和八年一月一日三第十六条の二第一項の改正規定、第十六条の三の改正規定、第二十二条の九の改正規定、第二十五条の十の二第二十六項の改正規定、第二十五条の十三第七",
+   "item1": "一第十八条の二第二項各号の改正規定、第二十六条の二十七の三を第二十六条の二十七の四とする改正規定、第二十六条の二十七の二第六項の改正規定及び同条を第二十六条の二十七の三とし、第二十六条の二十七の次に一条を加える改正規定令和七年十二月一日",
+   "ok": true
+  },
+  {
+   "id": "LAW4.2-R7-127-suppl1-1",
+   "law": "sochi-rei",
+   "asof": "2026-11-09",
+   "amend": "令和七年三月三一日政令第一二七号",
+   "found_at": 111,
+   "context": "（施行期日）第一条この政令は、令和七年四月一日から施行する。ただし、次の各号に掲げる規定は、当該各号に定める日から施行する。一第十八条の二第二項各号の改正規定、第二十六条の二十七の三を第二十六条の二十七の四とする改正規定、第二十六条の二十七の二第六項の改正規定及び同条を第二十六条の二十七の三とし、第二十六条の二十七の次に一条を加える改正規定令和七年十二月一日二第二十五条の十の十二の改正規定及び第二十六条の二十七第一項の改正規定並びに附則第十条及び第十一条の規定令和八年一月一日三第十六条の二第一項の改正規定、第十六条の三の改正規定、第二十二条の九の改正規定、第二十五条の十の二第二十六項の改正規定、第二十五条の十三第七",
+   "item1": "一第十八条の二第二項各号の改正規定、第二十六条の二十七の三を第二十六条の二十七の四とする改正規定、第二十六条の二十七の二第六項の改正規定及び同条を第二十六条の二十七の三とし、第二十六条の二十七の次に一条を加える改正規定令和七年十二月一日",
+   "ok": true
+  }
+ ],
+ "article_hash": {
+  "shotoku:22": {
+   "2025-12-31": "636522fc82a3d2ae",
+   "2026-11-09": "636522fc82a3d2ae",
+   "2026-12-31": "636522fc82a3d2ae",
+   "2027-01-01": "636522fc82a3d2ae"
+  },
+  "shotoku:73": {
+   "2025-12-31": "99e24a589b4bfa9b",
+   "2026-11-09": "99e24a589b4bfa9b",
+   "2026-12-31": "99e24a589b4bfa9b",
+   "2027-01-01": "99e24a589b4bfa9b"
+  },
+  "shotoku:87": {
+   "2025-12-31": "b095f065bfc4e364",
+   "2026-11-09": "b095f065bfc4e364",
+   "2026-12-31": "b095f065bfc4e364",
+   "2027-01-01": "b095f065bfc4e364"
+  },
+  "shotoku:120": {
+   "2025-12-31": "3da4783958b35d3b",
+   "2026-11-09": "677bdfd054c5ce80",
+   "2026-12-31": "677bdfd054c5ce80",
+   "2027-01-01": "fc989db48bbc736f"
+  },
+  "shotoku-rei:207": {
+   "2025-12-31": "74b30777d78f266a",
+   "2026-11-09": "74b30777d78f266a",
+   "2026-12-31": "74b30777d78f266a",
+   "2027-01-01": "74b30777d78f266a"
+  },
+  "shotoku-rei:262": {
+   "2025-12-31": "9c1266ff94f63f5a",
+   "2026-11-09": "9c1266ff94f63f5a",
+   "2026-12-31": "9c1266ff94f63f5a",
+   "2027-01-01": "9c1266ff94f63f5a"
+  },
+  "shotoku-ki:40_3": {
+   "2025-12-31": "a9ca65ad4d44b2a5",
+   "2026-11-09": "a9ca65ad4d44b2a5",
+   "2026-12-31": "a9ca65ad4d44b2a5",
+   "2027-01-01": "a9ca65ad4d44b2a5"
+  },
+  "shotoku-ki:47_2": {
+   "2025-12-31": "b5b140768326900b",
+   "2026-11-09": "575839aa3dd333fe",
+   "2026-12-31": "575839aa3dd333fe",
+   "2027-01-01": "75f5c0cb494068bd"
+  },
+  "sochi:41_17": {
+   "2025-12-31": "d8f4500f3bcb693f",
+   "2026-11-09": "d8f4500f3bcb693f",
+   "2026-12-31": "d8f4500f3bcb693f",
+   "2027-01-01": "cc8f35461524de0b"
+  },
+  "sochi-rei:26_27_3": {
+   "2025-12-31": "ec956ac1815d6a0b",
+   "2026-11-09": "ec956ac1815d6a0b",
+   "2026-12-31": "ec956ac1815d6a0b",
+   "2027-01-01": "da728ad9d2488b80"
+  },
+  "sochi-ki:19_10_2_2": {
+   "2025-12-31": "540c0522939489ef",
+   "2026-11-09": "540c0522939489ef",
+   "2026-12-31": "540c0522939489ef",
+   "2027-01-01": "2894bce8ed4a8207"
+  },
+  "shotoku:120-4": {
+   "2025-12-31": {
+    "raw": "f50f6031a164d73a",
+    "masked": "873f8064bf16c50a"
+   },
+   "2026-11-09": {
+    "raw": "0d59f822ce639be4",
+    "masked": "873f8064bf16c50a"
+   },
+   "2026-12-31": {
+    "raw": "0d59f822ce639be4",
+    "masked": "873f8064bf16c50a"
+   },
+   "2027-01-01": {
+    "raw": "0d59f822ce639be4",
+    "masked": "873f8064bf16c50a"
+   }
+  },
+  "shotoku:120-5": {
+   "2025-12-31": {
+    "raw": "123b9c62584df4e5",
+    "masked": "123b9c62584df4e5"
+   },
+   "2026-11-09": {
+    "raw": "123b9c62584df4e5",
+    "masked": "123b9c62584df4e5"
+   },
+   "2026-12-31": {
+    "raw": "123b9c62584df4e5",
+    "masked": "123b9c62584df4e5"
+   },
+   "2027-01-01": {
+    "raw": "123b9c62584df4e5",
+    "masked": "123b9c62584df4e5"
+   }
+  },
+  "shotoku-ki:47_2-12": {
+   "2025-12-31": {
+    "raw": "9c41a7cef5ed5d9f",
+    "masked": "9c41a7cef5ed5d9f"
+   },
+   "2026-11-09": {
+    "raw": "9c41a7cef5ed5d9f",
+    "masked": "9c41a7cef5ed5d9f"
+   },
+   "2026-12-31": {
+    "raw": "9c41a7cef5ed5d9f",
+    "masked": "9c41a7cef5ed5d9f"
+   },
+   "2027-01-01": {
+    "raw": "9c41a7cef5ed5d9f",
+    "masked": "9c41a7cef5ed5d9f"
+   }
+  }
+ },
+ "dumps": [
+  "dump_shotoku_2025-12-31.txt",
+  "dump_shotoku_2026-11-09.txt",
+  "dump_shotoku_2026-12-31.txt",
+  "dump_shotoku_2027-01-01.txt",
+  "dump_shotoku-rei_2025-12-31.txt",
+  "dump_shotoku-rei_2026-11-09.txt",
+  "dump_shotoku-rei_2026-12-31.txt",
+  "dump_shotoku-rei_2027-01-01.txt",
+  "dump_shotoku-ki_2025-12-31.txt",
+  "dump_shotoku-ki_2026-11-09.txt",
+  "dump_shotoku-ki_2026-12-31.txt",
+  "dump_shotoku-ki_2027-01-01.txt",
+  "dump_sochi_2025-12-31.txt",
+  "dump_sochi_2026-11-09.txt",
+  "dump_sochi_2026-12-31.txt",
+  "dump_sochi_2027-01-01.txt",
+  "dump_sochi-rei_2025-12-31.txt",
+  "dump_sochi-rei_2026-11-09.txt",
+  "dump_sochi-rei_2026-12-31.txt",
+  "dump_sochi-rei_2027-01-01.txt",
+  "dump_sochi-ki_2025-12-31.txt",
+  "dump_sochi-ki_2026-11-09.txt",
+  "dump_sochi-ki_2026-12-31.txt",
+  "dump_sochi-ki_2027-01-01.txt",
+  "dump_kenpo_2026-11-09.txt",
+  "dump_minpo_2026-11-09.txt"
+ ],
+ "notes": {
+  "sochi-rei@2025-12-31 AmendLawNum(一二七号)": [
+   "令和七年三月三一日政令第一二七号",
+   "平成二九年三月三一日政令第一二七号"
+  ],
+  "sochi-rei@2025-12-31 has 26_27_2 / 26_27_3": [
+   "（令和七年分以後の各年分の基礎控除等の特例）",
+   "（特定一般用医薬品等購入費を支払つた場合の医療費控除の特例）"
+  ],
+  "sochi-rei@2026-11-09 AmendLawNum(一二七号)": [
+   "令和七年三月三一日政令第一二七号",
+   "平成二九年三月三一日政令第一二七号"
+  ],
+  "sochi-rei@2026-11-09 has 26_27_2 / 26_27_3": [
+   "（令和七年分以後の各年分の基礎控除等の特例）",
+   "（特定一般用医薬品等購入費を支払つた場合の医療費控除の特例）"
+  ],
+  "shotoku-rei@2025-12-31 258 caption": "（年の中途で非居住者が居住者となつた場合の税額の計算）",
+  "shotoku-rei@2026-11-09 258 caption": "（年の中途で非居住者が居住者となつた場合の税額の計算）",
+  "kenpo captions": {
+   "87": "（療養費）",
+   "97": "",
+   "99": "（傷病手当金）",
+   "101": "（出産育児一時金）",
+   "102": "（出産手当金）",
+   "110": "（家族療養費）",
+   "112": "（家族移送費）",
+   "114": "（家族出産育児一時金）",
+   "115": "（高額療養費）",
+   "115_2": "（高額介護合算療養費）"
+  },
+  "minpo 725": "（親族の範囲）第七百二十五条次に掲げる者は、親族とする。一六親等内の血族二配偶者三三親等内の姻族"
+ },
+ "paragraph_counts": {
+  "shotoku:120@2025-12-31": 7,
+  "shotoku:120@2026-11-09": 7,
+  "shotoku:120@2026-12-31": 7,
+  "shotoku:120@2027-01-01": 9,
+  "shotoku-ki:47_2@2025-12-31": 14,
+  "shotoku-ki:47_2@2026-11-09": 14,
+  "shotoku-ki:47_2@2026-12-31": 14,
+  "shotoku-ki:47_2@2027-01-01": 15,
+  "sochi:41_17@2025-12-31": 5,
+  "sochi:41_17@2026-11-09": 5,
+  "sochi:41_17@2026-12-31": 5,
+  "sochi:41_17@2027-01-01": 4,
+  "sochi-rei:26_27_3@2025-12-31": 7,
+  "sochi-rei:26_27_3@2026-11-09": 7,
+  "sochi-rei:26_27_3@2026-12-31": 7,
+  "sochi-rei:26_27_3@2027-01-01": 6,
+  "sochi-ki:19_10_2_2@2025-12-31": 2,
+  "sochi-ki:19_10_2_2@2026-11-09": 2,
+  "sochi-ki:19_10_2_2@2026-12-31": 2,
+  "sochi-ki:19_10_2_2@2027-01-01": 2
+ },
+ "paragraph_diff": {
+  "shotoku:120 2025-12-31->2026-11-09": {
+   "differ_by_number": [
+    "4"
+   ],
+   "new_paragraph_matches_old": {
+    "1": [
+     "1"
+    ],
+    "2": [
+     "2"
+    ],
+    "3": [
+     "3"
+    ],
+    "4": [],
+    "5": [
+     "5"
+    ],
+    "6": [
+     "6"
+    ],
+    "7": [
+     "7"
+    ]
+   }
+  },
+  "shotoku:120 2026-11-09->2026-12-31": {
+   "differ_by_number": [],
+   "new_paragraph_matches_old": {
+    "1": [
+     "1"
+    ],
+    "2": [
+     "2"
+    ],
+    "3": [
+     "3"
+    ],
+    "4": [
+     "4"
+    ],
+    "5": [
+     "5"
+    ],
+    "6": [
+     "6"
+    ],
+    "7": [
+     "7"
+    ]
+   }
+  },
+  "shotoku:120 2026-12-31->2027-01-01": {
+   "differ_by_number": [
+    "3",
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "new_paragraph_matches_old": {
+    "1": [
+     "1"
+    ],
+    "2": [
+     "2"
+    ],
+    "3": [],
+    "4": [
+     "4"
+    ],
+    "5": [
+     "5"
+    ],
+    "6": [],
+    "7": [],
+    "8": [
+     "6"
+    ],
+    "9": [
+     "7"
+    ]
+   }
+  },
+  "shotoku-ki:47_2 2025-12-31->2026-11-09": {
+   "differ_by_number": [
+    "3",
+    "11",
+    "13"
+   ],
+   "new_paragraph_matches_old": {
+    "1": [
+     "1"
+    ],
+    "2": [
+     "2"
+    ],
+    "3": [],
+    "4": [
+     "4"
+    ],
+    "5": [
+     "5"
+    ],
+    "6": [
+     "6"
+    ],
+    "7": [
+     "7"
+    ],
+    "8": [
+     "8"
+    ],
+    "9": [
+     "9"
+    ],
+    "10": [
+     "10"
+    ],
+    "11": [],
+    "12": [
+     "12"
+    ],
+    "13": [],
+    "14": [
+     "14"
+    ]
+   }
+  },
+  "shotoku-ki:47_2 2026-11-09->2026-12-31": {
+   "differ_by_number": [],
+   "new_paragraph_matches_old": {
+    "1": [
+     "1"
+    ],
+    "2": [
+     "2"
+    ],
+    "3": [
+     "3"
+    ],
+    "4": [
+     "4"
+    ],
+    "5": [
+     "5"
+    ],
+    "6": [
+     "6"
+    ],
+    "7": [
+     "7"
+    ],
+    "8": [
+     "8"
+    ],
+    "9": [
+     "9"
+    ],
+    "10": [
+     "10"
+    ],
+    "11": [
+     "11"
+    ],
+    "12": [
+     "12"
+    ],
+    "13": [
+     "13"
+    ],
+    "14": [
+     "14"
+    ]
+   }
+  },
+  "shotoku-ki:47_2 2026-12-31->2027-01-01": {
+   "differ_by_number": [
+    "14",
+    "15"
+   ],
+   "new_paragraph_matches_old": {
+    "1": [
+     "1"
+    ],
+    "2": [
+     "2"
+    ],
+    "3": [
+     "3"
+    ],
+    "4": [
+     "4"
+    ],
+    "5": [
+     "5"
+    ],
+    "6": [
+     "6"
+    ],
+    "7": [
+     "7"
+    ],
+    "8": [
+     "8"
+    ],
+    "9": [
+     "9"
+    ],
+    "10": [
+     "10"
+    ],
+    "11": [
+     "11"
+    ],
+    "12": [
+     "12"
+    ],
+    "13": [
+     "13"
+    ],
+    "14": [],
+    "15": []
+   }
+  }
+ },
+ "rounding_search": {
+  "shotoku": {
+   "articles_with_円未満_or_端数": [
+    "28",
+    "60_2",
+    "60_3",
+    "83_2",
+    "104",
+    "107",
+    "114",
+    "190",
+    "201",
+    "221",
+    "224_3"
+   ],
+   "includes_73": false
+  },
+  "shotoku-rei": {
+   "articles_with_円未満_or_端数": [
+    "59",
+    "61",
+    "69",
+    "70",
+    "81",
+    "83_2",
+    "85",
+    "120",
+    "120_2",
+    "121_2",
+    "132",
+    "134_2",
+    "137",
+    "138",
+    "139",
+    "139_2",
+    "145",
+    "167_7",
+    "169_2",
+    "182_2",
+    "185",
+    "266_2",
+    "266_3",
+    "319_7",
+    "341_2"
+   ],
+   "includes_73": false
+  },
+  "shotoku-ki": {
+   "articles_with_円未満_or_端数": [
+    "19_4",
+    "34"
+   ],
+   "includes_73": false
+  }
+ },
+ "grep": {
+  "sochi@2025-12-31 第七十二条から第八十七条まで": {
+   "paragraphs": 13,
+   "hits": [
+    {
+     "para": "8_4-1",
+     "items": [],
+     "yomikae": false
+    },
+    {
+     "para": "8_4-3",
+     "items": [
+      "8_4-3-3"
+     ],
+     "yomikae": true
+    },
+    {
+     "para": "28_4-1",
+     "items": [
+      "28_4-1-1"
+     ],
+     "yomikae": false
+    },
+    {
+     "para": "28_4-5",
+     "items": [
+      "28_4-5-2"
+     ],
+     "yomikae": true
+    },
+    {
+     "para": "31-1",
+     "items": [],
+     "yomikae": false
+    },
+    {
+     "para": "31-3",
+     "items": [
+      "31-3-3"
+     ],
+     "yomikae": true
+    },
+    {
+     "para": "32-1",
+     "items": [],
+     "yomikae": false
+    },
+    {
+     "para": "37_10-1",
+     "items": [],
+     "yomikae": false
+    },
+    {
+     "para": "37_10-6",
+     "items": [
+      "37_10-6-5"
+     ],
+     "yomikae": true
+    },
+    {
+     "para": "37_11-1",
+     "items": [],
+     "yomikae": false
+    },
+    {
+     "para": "37_12-7",
+     "items": [],
+     "yomikae": false
+    },
+    {
+     "para": "41_14-1",
+     "items": [],
+     "yomikae": false
+    },
+    {
+     "para": "41_14-2",
+     "items": [
+      "41_14-2-4"
+     ],
+     "yomikae": true
+    }
+   ]
+  },
+  "sochi@2026-12-31 第七十二条から第八十七条まで": {
+   "paragraphs": 13,
+   "hits": [
+    {
+     "para": "8_4-1",
+     "items": [],
+     "yomikae": false
+    },
+    {
+     "para": "8_4-3",
+     "items": [
+      "8_4-3-3"
+     ],
+     "yomikae": true
+    },
+    {
+     "para": "28_4-1",
+     "items": [
+      "28_4-1-1"
+     ],
+     "yomikae": false
+    },
+    {
+     "para": "28_4-5",
+     "items": [
+      "28_4-5-2"
+     ],
+     "yomikae": true
+    },
+    {
+     "para": "31-1",
+     "items": [],
+     "yomikae": false
+    },
+    {
+     "para": "31-3",
+     "items": [
+      "31-3-3"
+     ],
+     "yomikae": true
+    },
+    {
+     "para": "32-1",
+     "items": [],
+     "yomikae": false
+    },
+    {
+     "para": "37_10-1",
+     "items": [],
+     "yomikae": false
+    },
+    {
+     "para": "37_10-6",
+     "items": [
+      "37_10-6-5"
+     ],
+     "yomikae": true
+    },
+    {
+     "para": "37_11-1",
+     "items": [],
+     "yomikae": false
+    },
+    {
+     "para": "37_12-7",
+     "items": [],
+     "yomikae": false
+    },
+    {
+     "para": "41_14-1",
+     "items": [],
+     "yomikae": false
+    },
+    {
+     "para": "41_14-2",
+     "items": [
+      "41_14-2-4"
+     ],
+     "yomikae": true
+    }
+   ]
+  },
+  "sochi-rei@2025-12-31 第七十三条第一項": {
+   "paragraphs": 8,
+   "hits": [
+    {
+     "para": "2_25_2-1",
+     "items": [
+      "2_25_2-1-2"
+     ],
+     "yomikae": false
+    },
+    {
+     "para": "22-23",
+     "items": [
+      "22-23-1"
+     ],
+     "yomikae": false
+    },
+    {
+     "para": "25_13_8-8",
+     "items": [
+      "25_13_8-8-2"
+     ],
+     "yomikae": false
+    },
+    {
+     "para": "26_27_3-6",
+     "items": [],
+     "yomikae": false
+    },
+    {
+     "para": "39-19",
+     "items": [
+      "39-19-1"
+     ],
+     "yomikae": false
+    },
+    {
+     "para": "39_7-4",
+     "items": [
+      "39_7-4-1"
+     ],
+     "yomikae": false
+    },
+    {
+     "para": "39_23-1",
+     "items": [],
+     "yomikae": false
+    },
+    {
+     "para": "50_2-15",
+     "items": [],
+     "yomikae": false
+    }
+   ]
+  },
+  "shotoku-rei@2025-12-31 第七十三条第一項": {
+   "paragraphs": 6,
+   "hits": [
+    {
+     "para": "65-1",
+     "items": [
+      "65-1-1"
+     ],
+     "yomikae": false
+    },
+    {
+     "para": "69-1",
+     "items": [
+      "69-1-2"
+     ],
+     "yomikae": false
+    },
+    {
+     "para": "75-1",
+     "items": [
+      "75-1-1",
+      "75-1-2",
+      "75-1-3"
+     ],
+     "yomikae": false
+    },
+    {
+     "para": "76-1",
+     "items": [
+      "76-1-2"
+     ],
+     "yomikae": false
+    },
+    {
+     "para": "183-3",
+     "items": [
+      "183-3-2"
+     ],
+     "yomikae": false
+    },
+    {
+     "para": "258-3",
+     "items": [
+      "258-3-2"
+     ],
+     "yomikae": false
+    }
+   ]
+  }
+ }
+}

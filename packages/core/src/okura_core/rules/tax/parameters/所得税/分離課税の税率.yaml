@@ -1,0 +1,27 @@
+description: 申告分離課税の上場株式等に係る所得の税率（租税特別措置法第8条の4第1項・第37条の11第1項）。
+上場株式等に係る課税配当所得等の金額:
+  分子:
+    description: 上場株式等に係る課税配当所得等の金額に乗じる率の分子（百分の十五）
+    metadata: &div
+      law: 租税特別措置法第8条の4第1項（「上場株式等に係る課税配当所得等の金額…の百分の十五に相当する金額に相当する所得税を課する」）
+      source_kind: 法律
+      reference:
+        - docs/public-sources/20261109_round2b_kabu-law-and-nta.md#1.1
+    values: {2025-01-01: {value: 15, metadata: &app {適用: 令和7年分・令和8年分（docs の版の本文。この率を定めた改正の施行日は docs で確かめていない）}}}
+  分母:
+    description: 同じ率の分母
+    metadata: *div
+    values: {2025-01-01: {value: 100, metadata: *app}}
+上場株式等に係る課税譲渡所得等の金額:
+  分子:
+    description: 上場株式等に係る課税譲渡所得等の金額に乗じる率の分子（百分の十五）
+    metadata: &gain
+      law: 租税特別措置法第37条の11第1項（「上場株式等に係る課税譲渡所得等の金額…の百分の十五に相当する金額に相当する所得税を課する」）
+      source_kind: 法律
+      reference:
+        - docs/public-sources/20261109_round2b_kabu-law-and-nta.md#4
+    values: {2025-01-01: {value: 15, metadata: *app}}
+  分母:
+    description: 同じ率の分母
+    metadata: *gain
+    values: {2025-01-01: {value: 100, metadata: *app}}

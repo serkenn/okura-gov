@@ -1,0 +1,49 @@
+# source=https://www.mhlw.go.jp/web/t_docsrch_keyword?keyword=%E5%B9%B3%E6%88%90%E4%BA%94%E5%B9%B4%E4%B8%89%E6%9C%88%E4%B8%80%E4%BA%94%E6%97%A5&type=1&mode=0
+# fetched_at=20261111-025043
+# charset=UTF-8
+
+結果一覧
+
+検索結果
+
+該当件数: 4件中 1件~ 4件
+
+[form action='??t_docsrch_keyword_ja??' method=None]
+
+		[input name='type' type='hidden' value='1']
+		[input name='page' type='hidden' value='0']
+		[input name='keyword' type='hidden' value='平成五年三月一五日']
+		[input name='mode' type='hidden' value='0']
+
+			[select name='sort' type=None value=None]
+				並べ替え順序選択
+				制定年月日 新しい順
+				制定年月日 古い順
+				改正年月日 新しい順
+				改正年月日 古い順
+
+				 | 件名
+				 |
+					制定年月日
+
+				 | 種別・番号
+
+				 | ・予防接種法第一九条に基づく障害年金等の支給停止について
+				 ⟨別ウィンドウが開きます⟩
+				 | ◆平成05年03月15日
+				 | 健医感発第26号
+
+				 | ・血液型判定用血清に係る検査命令の実施について
+				 ⟨別ウィンドウが開きます⟩
+				 | ◆平成05年03月15日
+				 | 薬監第10号
+
+				 | ・血液型判定用血清に係る検査命令の実施について
+				 ⟨別ウィンドウが開きます⟩
+				 | ◆平成05年03月15日
+				 | 薬発第262号
+
+				 | ・血液型判定用抗体に係る検査命令の実施について
+				 ⟨別ウィンドウが開きます⟩
+				 | ◆平成06年06月24日
+				 | 薬発第579号

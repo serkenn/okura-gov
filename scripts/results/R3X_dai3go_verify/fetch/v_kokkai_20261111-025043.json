@@ -1,0 +1,140 @@
+{
+ "set": "v_kokkai",
+ "fetched_at_local": "20261111-025043",
+ "user_agent": "okura-gov-research/0.1",
+ "download_dir": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_kokkai",
+ "results": [
+  {
+   "id": "kk_112605272X00219930305_069",
+   "url": "https://kokkai.ndl.go.jp/api/speech?speechID=112605272X00219930305_069&maximumRecords=1&recordPacking=json",
+   "status": 200,
+   "final_url": "https://kokkai.ndl.go.jp/api/speech?speechID=112605272X00219930305_069&maximumRecords=1&recordPacking=json",
+   "content_type": "application/json;charset=UTF-8",
+   "bytes": 2478,
+   "sha256": "ea99139eb467b17a9d0a356a76a52d957b1d0febe6cb30de9b0891dbeda8137d",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_kokkai/kk_112605272X00219930305_069.json",
+   "text": "scripts/results/R3X_dai3go_verify/text/20261111-025043_v_kokkai/kk_112605272X00219930305_069.txt"
+  },
+  {
+   "id": "kk_112605272X00219930305_070",
+   "url": "https://kokkai.ndl.go.jp/api/speech?speechID=112605272X00219930305_070&maximumRecords=1&recordPacking=json",
+   "status": 200,
+   "final_url": "https://kokkai.ndl.go.jp/api/speech?speechID=112605272X00219930305_070&maximumRecords=1&recordPacking=json",
+   "content_type": "application/json;charset=UTF-8",
+   "bytes": 3526,
+   "sha256": "a7880cfe3e727247efb58302dce030ffdf70d6d213316567c80306a973556698",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_kokkai/kk_112605272X00219930305_070.json",
+   "text": "scripts/results/R3X_dai3go_verify/text/20261111-025043_v_kokkai/kk_112605272X00219930305_070.txt"
+  },
+  {
+   "id": "kk_112605272X00219930305_071",
+   "url": "https://kokkai.ndl.go.jp/api/speech?speechID=112605272X00219930305_071&maximumRecords=1&recordPacking=json",
+   "status": 200,
+   "final_url": "https://kokkai.ndl.go.jp/api/speech?speechID=112605272X00219930305_071&maximumRecords=1&recordPacking=json",
+   "content_type": "application/json;charset=UTF-8",
+   "bytes": 1477,
+   "sha256": "bab467e5ff2f13d6f4393793e7c9e09e1c2308edcb8bcedcbf087c6661d93463",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_kokkai/kk_112605272X00219930305_071.json",
+   "text": "scripts/results/R3X_dai3go_verify/text/20261111-025043_v_kokkai/kk_112605272X00219930305_071.txt"
+  },
+  {
+   "id": "kk_112604629X00619930309_070",
+   "url": "https://kokkai.ndl.go.jp/api/speech?speechID=112604629X00619930309_070&maximumRecords=1&recordPacking=json",
+   "status": 200,
+   "final_url": "https://kokkai.ndl.go.jp/api/speech?speechID=112604629X00619930309_070&maximumRecords=1&recordPacking=json",
+   "content_type": "application/json;charset=UTF-8",
+   "bytes": 3943,
+   "sha256": "d88bcb48f3dfd66c015e9a6e71d1115a7bed7f85b1f54719a38418354d9550b7",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_kokkai/kk_112604629X00619930309_070.json",
+   "text": "scripts/results/R3X_dai3go_verify/text/20261111-025043_v_kokkai/kk_112604629X00619930309_070.txt"
+  },
+  {
+   "id": "kk_112605289X01519930604_089",
+   "url": "https://kokkai.ndl.go.jp/api/speech?speechID=112605289X01519930604_089&maximumRecords=1&recordPacking=json",
+   "status": 200,
+   "final_url": "https://kokkai.ndl.go.jp/api/speech?speechID=112605289X01519930604_089&maximumRecords=1&recordPacking=json",
+   "content_type": "application/json;charset=UTF-8",
+   "bytes": 4329,
+   "sha256": "83c32569210721f07659dfd2dcae80b0f04bd4a05644330d9077817289fd3e18",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_kokkai/kk_112605289X01519930604_089.json",
+   "text": "scripts/results/R3X_dai3go_verify/text/20261111-025043_v_kokkai/kk_112605289X01519930604_089.txt"
+  },
+  {
+   "id": "kk_113104237X00719941026_037",
+   "url": "https://kokkai.ndl.go.jp/api/speech?speechID=113104237X00719941026_037&maximumRecords=1&recordPacking=json",
+   "status": 200,
+   "final_url": "https://kokkai.ndl.go.jp/api/speech?speechID=113104237X00719941026_037&maximumRecords=1&recordPacking=json",
+   "content_type": "application/json;charset=UTF-8",
+   "bytes": 3021,
+   "sha256": "e27f3796a4bad7dee5cc3c36c52f359214303771c2195217a7a2c7d0dd93c1c8",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_kokkai/kk_113104237X00719941026_037.json",
+   "text": "scripts/results/R3X_dai3go_verify/text/20261111-025043_v_kokkai/kk_113104237X00719941026_037.txt"
+  },
+  {
+   "id": "kk_113114237X00519941031_050",
+   "url": "https://kokkai.ndl.go.jp/api/speech?speechID=113114237X00519941031_050&maximumRecords=1&recordPacking=json",
+   "status": 200,
+   "final_url": "https://kokkai.ndl.go.jp/api/speech?speechID=113114237X00519941031_050&maximumRecords=1&recordPacking=json",
+   "content_type": "application/json;charset=UTF-8",
+   "bytes": 3127,
+   "sha256": "93df6a995e196700291defee3fe7d76124557f35fd64e5601c5ef3f5d0679f42",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_kokkai/kk_113114237X00519941031_050.json",
+   "text": "scripts/results/R3X_dai3go_verify/text/20261111-025043_v_kokkai/kk_113114237X00519941031_050.txt"
+  },
+  {
+   "id": "kk_115414260X00520020328_057",
+   "url": "https://kokkai.ndl.go.jp/api/speech?speechID=115414260X00520020328_057&maximumRecords=1&recordPacking=json",
+   "status": 200,
+   "final_url": "https://kokkai.ndl.go.jp/api/speech?speechID=115414260X00520020328_057&maximumRecords=1&recordPacking=json",
+   "content_type": "application/json;charset=UTF-8",
+   "bytes": 1787,
+   "sha256": "32e351d73832f4408667e3a46199e2ea0ad7b39641684a5fd3ec9ae34ecb20cb",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_kokkai/kk_115414260X00520020328_057.json",
+   "text": "scripts/results/R3X_dai3go_verify/text/20261111-025043_v_kokkai/kk_115414260X00520020328_057.txt"
+  },
+  {
+   "id": "kk_115414260X00620020416_139",
+   "url": "https://kokkai.ndl.go.jp/api/speech?speechID=115414260X00620020416_139&maximumRecords=1&recordPacking=json",
+   "status": 200,
+   "final_url": "https://kokkai.ndl.go.jp/api/speech?speechID=115414260X00620020416_139&maximumRecords=1&recordPacking=json",
+   "content_type": "application/json;charset=UTF-8",
+   "bytes": 2987,
+   "sha256": "fd14f469c463388b28650fef9b5dc88cde860ebeaf819cb5d4fa60cd2e8d35d9",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_kokkai/kk_115414260X00620020416_139.json",
+   "text": "scripts/results/R3X_dai3go_verify/text/20261111-025043_v_kokkai/kk_115414260X00620020416_139.txt"
+  },
+  {
+   "id": "kk_115414260X00620020416_140",
+   "url": "https://kokkai.ndl.go.jp/api/speech?speechID=115414260X00620020416_140&maximumRecords=1&recordPacking=json",
+   "status": 200,
+   "final_url": "https://kokkai.ndl.go.jp/api/speech?speechID=115414260X00620020416_140&maximumRecords=1&recordPacking=json",
+   "content_type": "application/json;charset=UTF-8",
+   "bytes": 2689,
+   "sha256": "44795d8dc928e9265a2f1ba83221117ed73beed8baf3f47e3862e13f3e3628d7",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_kokkai/kk_115414260X00620020416_140.json",
+   "text": "scripts/results/R3X_dai3go_verify/text/20261111-025043_v_kokkai/kk_115414260X00620020416_140.txt"
+  },
+  {
+   "id": "kk_121105267X00120230220_294",
+   "url": "https://kokkai.ndl.go.jp/api/speech?speechID=121105267X00120230220_294&maximumRecords=1&recordPacking=json",
+   "status": 200,
+   "final_url": "https://kokkai.ndl.go.jp/api/speech?speechID=121105267X00120230220_294&maximumRecords=1&recordPacking=json",
+   "content_type": "application/json;charset=UTF-8",
+   "bytes": 2637,
+   "sha256": "04377e5c96ad805d3a5d824754ed42f1e79190045fe39403da3dcd875e14b3a9",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025043_R3X_dai3go_verify_v_kokkai/kk_121105267X00120230220_294.json",
+   "text": "scripts/results/R3X_dai3go_verify/text/20261111-025043_v_kokkai/kk_121105267X00120230220_294.txt"
+  }
+ ]
+}

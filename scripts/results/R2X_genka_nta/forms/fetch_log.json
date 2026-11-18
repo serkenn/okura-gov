@@ -1,0 +1,27 @@
+{
+ "set": "forms",
+ "fetched_at": "20261109-174049",
+ "download_dir": ".work/downloads/20261109-174049_R2X_genka_nta_forms",
+ "items": [
+  {
+   "id": "aoiro_kessan_kakikata_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/037.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:40 GMT",
+   "bytes": 2576092,
+   "sha256": "77c8ad203bbd04efcacf42c4c8c95a6a098b80784e51df66347812948b578900",
+   "saved": ".work/downloads/20261109-174049_R2X_genka_nta_forms/aoiro_kessan_kakikata_r07.pdf"
+  },
+  {
+   "id": "sonshitsu_tebiki_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/003.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:42 GMT",
+   "bytes": 1485553,
+   "sha256": "e3a89abd687f659d190e7ae2da9e4554b5b9f52158903345b699c852717c1226",
+   "saved": ".work/downloads/20261109-174049_R2X_genka_nta_forms/sonshitsu_tebiki_r07.pdf"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "set": "tsutatsu",
+ "fetched_at": "20261111-144552",
+ "download_dir": ".work/downloads/20261111-144552_IMPL2_phase2c_nta_tsutatsu",
+ "items": [
+  {
+   "id": "kihon_19_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 25 Nov 2025 08:30:05 GMT",
+   "bytes": 15638,
+   "sha256": "9e7dbd6d0d4d691416185063a37bf2e016439a7d4af45d68c00fc0a7861f14e2",
+   "saved": ".work/downloads/20261111-144552_IMPL2_phase2c_nta_tsutatsu/kihon_19_01.htm",
+   "title": "法第120条《確定所得申告》関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_19_02",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/02.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 25 Nov 2025 08:30:05 GMT",
+   "bytes": 12685,
+   "sha256": "a9a3b2a8f9de88eb0c5c89d3e7d89307d9ff02b5473a543a919058adfda715a4",
+   "saved": ".work/downloads/20261111-144552_IMPL2_phase2c_nta_tsutatsu/kihon_19_02.htm",
+   "title": "法第122条《還付等を受けるための申告》関係｜国税庁",
+   "encoding": "shift_jis"
+  }
+ ]
+}

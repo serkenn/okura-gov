@@ -1,0 +1,24 @@
+{
+  "set": "mynapo",
+  "fetched_at_local": "20261109-134516",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "mynapo_list",
+      "url": "https://www.nta.go.jp/taxes/tetsuzuki/mynumberinfo/list.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/mynumberinfo/list.htm",
+      "content_type": "text/html",
+      "bytes": 42891,
+      "sha256": "236969bfb26f74429a848b2fa32b0cb36f761981794e6098116606f2b59d8066",
+      "last_modified": "Fri, 04 Sep 2026 01:00:07 GMT",
+      "etag": "\"a78b-65a9dca237698\"",
+      "saved": ".work\\downloads\\20261109-134516_R3_mynapo\\mynapo_list.html",
+      "charset": "shift_jis",
+      "title": "マイナポータル連携可能な控除証明書等発行主体一覧｜国税庁",
+      "text_chars": 14527,
+      "text": ".work\\text\\20261109-134516_R3_mynapo\\mynapo_list.txt",
+      "n_links": 56
+    }
+  ]
+}

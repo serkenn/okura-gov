@@ -1,0 +1,147 @@
+{
+ "file": "004_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_01_shinkokusho_pdf_r07_10.pdf",
+ "sha256": "c3cd9d17c0174972a19c5b8174ad01ac685f4ed2dda9d3e903e6fd315bf5f4c3",
+ "bytes": 36392,
+ "aes_selftest": true,
+ "encrypted": true,
+ "V": 4,
+ "R": 4,
+ "P": -1068,
+ "aes": true,
+ "key_len": 16,
+ "key_ok": true,
+ "encrypt_obj": 63,
+ "n_objects": 63,
+ "pages": [
+  {
+   "page": 1,
+   "obj": 20,
+   "mediabox": [
+    "0",
+    "0",
+    "842",
+    "595"
+   ],
+   "content_bytes": 37484,
+   "n_text_runs": 214,
+   "xobjects": [
+    {
+     "name": "IMG0",
+     "obj": 62,
+     "subtype": "Image",
+     "w": 629,
+     "h": 629,
+     "filter": "FlateDecode"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "obj": 19,
+   "mediabox": [
+    "0",
+    "0",
+    "842",
+    "595"
+   ],
+   "content_bytes": 34368,
+   "n_text_runs": 241,
+   "xobjects": [
+    {
+     "name": "IMG0",
+     "obj": 61,
+     "subtype": "Image",
+     "w": 629,
+     "h": 629,
+     "filter": "FlateDecode"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "obj": 18,
+   "mediabox": [
+    "0",
+    "0",
+    "842",
+    "595"
+   ],
+   "content_bytes": 32288,
+   "n_text_runs": 221,
+   "xobjects": [
+    {
+     "name": "IMG0",
+     "obj": 60,
+     "subtype": "Image",
+     "w": 629,
+     "h": 629,
+     "filter": "FlateDecode"
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "obj": 17,
+   "mediabox": [
+    "0",
+    "0",
+    "842",
+    "595"
+   ],
+   "content_bytes": 41205,
+   "n_text_runs": 315,
+   "xobjects": [
+    {
+     "name": "IMG0",
+     "obj": 59,
+     "subtype": "Image",
+     "w": 629,
+     "h": 629,
+     "filter": "FlateDecode"
+    }
+   ]
+  }
+ ],
+ "form_ids": [
+  {
+   "id": "NTA0KOA210010110",
+   "chars_4_to_6": [
+    "0(U+0030)",
+    "K(U+004B)",
+    "O(U+004F)"
+   ]
+  },
+  {
+   "id": "NTA0KOA210020110",
+   "chars_4_to_6": [
+    "0(U+0030)",
+    "K(U+004B)",
+    "O(U+004F)"
+   ]
+  },
+  {
+   "id": "NTA0KOA210030110",
+   "chars_4_to_6": [
+    "0(U+0030)",
+    "K(U+004B)",
+    "O(U+004F)"
+   ]
+  },
+  {
+   "id": "NTA0KOA210040110",
+   "chars_4_to_6": [
+    "0(U+0030)",
+    "K(U+004B)",
+    "O(U+004F)"
+   ]
+  }
+ ],
+ "titles_in_dicts": [
+  "KOA210010110_01",
+  "KOA210040110_01",
+  "KOA210030110_01",
+  "KOA210020110_01"
+ ],
+ "n_rows": 991,
+ "n_codes": 253
+}

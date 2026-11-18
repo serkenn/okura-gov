@@ -1,0 +1,224 @@
+{
+  "set": "gensen",
+  "fetched_at_local": "20261109-145512",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work\\downloads\\20261109-145512_IMPL_misc_gensen",
+  "text_dir": ".work\\text\\20261109-145512_IMPL_misc_gensen",
+  "results": [
+    {
+      "id": "ta_2511",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2511.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2511.htm",
+      "content_type": "text/html",
+      "bytes": 19026,
+      "sha256": "55ead732325f901653ac38b8bd1858856bfdad5e91861dabeaba3613e73873a5",
+      "last_modified": "Thu, 10 Sep 2026 01:00:10 GMT",
+      "etag": "\"4a52-65b167d4f0e08\"",
+      "saved": ".work\\downloads\\20261109-145512_IMPL_misc_gensen\\ta_2511.html",
+      "charset": "utf-8",
+      "title": "No.2511 税額表の種類と使い方｜国税庁",
+      "text_chars": 3895,
+      "text": ".work\\text\\20261109-145512_IMPL_misc_gensen\\ta_2511.txt",
+      "n_links": 60,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [
+          {
+            "line_no": 19,
+            "text": "また、「給与所得者の扶養控除等申告書」を提出している人に支払う給与については「甲欄」を、その他の人に支払う給与については「乙欄」を使って税額を求めます。"
+          },
+          {
+            "line_no": 32,
+            "text": "上記の（1）から（3）に掲げる給与のうち、「給与所得者の扶養控除等申告書」を提出している人に支払う給与については「甲欄」を、その他の人に支払う給与については「乙欄」を、（4）の日雇賃金については「丙欄」を使って税額を求めます。"
+          },
+          {
+            "line_no": 34,
+            "text": "なお、パートやアルバイトに対して日給や時間給で給与を支払う場合は、あらかじめ雇用契約の期間が2か月以内と決められていれば、「日額表」の「丙欄」を使って税額を求めます。"
+          },
+          {
+            "line_no": 41,
+            "text": "（2）税額表の甲欄は、給与等の支払を受ける人の扶養親族等の数に応じて使用するようになっています。この「扶養親族等の数」とは、源泉控除対象配偶者と源泉控除対象親族との合計数をいいます（注）。また、給与等の支払を受ける人が、障害者（特別障害者を含みます。）、寡婦、ひとり親又は勤労学生に該当する場合には、これらの一に該当するごとに扶養親族等の数に１人を加算し、その人の同一生計配偶者や扶養親族（年齢 16 歳未満の人を含みます。）のうちに障害者（特別障害者を含みます。）又は同居特別障害者に該当する人がいる場合には、これらの一に該当するごとに扶養親族等の数に１人を加算した数を扶養親族等の数とします。"
+          }
+        ],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "ta_2514",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2514.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2514.htm",
+      "content_type": "text/html",
+      "bytes": 14141,
+      "sha256": "3cacee7456baa1a7e79a3bcc09200f3a36c355e46a0d011bd135073cafc775b2",
+      "last_modified": "Thu, 10 Sep 2026 01:00:09 GMT",
+      "etag": "\"373d-65b167d4decf8\"",
+      "saved": ".work\\downloads\\20261109-145512_IMPL_misc_gensen\\ta_2514.html",
+      "charset": "utf-8",
+      "title": "No.2514 パートやアルバイトの源泉徴収｜国税庁",
+      "text_chars": 2393,
+      "text": ".work\\text\\20261109-145512_IMPL_misc_gensen\\ta_2514.txt",
+      "n_links": 52,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [
+          {
+            "line_no": 12,
+            "text": "通常、パートやアルバイトに、給与を支払う際に源泉徴収する税額は、一般の社員と同様に「給与所得者の扶養控除等申告書」の提出の有無及び給与の支給方法に応じ、「給与所得の源泉徴収税額表」の「月額表」または「日額表」の「甲欄」または「乙欄」を使って求めます（詳細はコード2511「税額表の種類と使い方」を参照してください。）。"
+          },
+          {
+            "line_no": 13,
+            "text": "ただし、給与を勤務した日または時間によって計算している場合で、次のいずれかの要件に当てはまるときには、「日額表」の「丙欄」を使って源泉徴収する税額を求めます。"
+          },
+          {
+            "line_no": 16,
+            "text": "したがって、2か月以内の短期間（有期雇用）で募集するパートやアルバイトに対して日給や時間給で支払う給与は、「日額表」の「丙欄」を使うことになります。"
+          },
+          {
+            "line_no": 18,
+            "text": "この場合の源泉徴収する税額については、契約期間が2か月を超えた日から、「日額表」の「丙欄」を使うことができません。"
+          }
+        ],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "ta_2520",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2520.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2520.htm",
+      "content_type": "text/html",
+      "bytes": 16511,
+      "sha256": "ca76da2d36442be0c10ea9832c7b793171a6d935d48bb9c4b52a14facd7103f8",
+      "last_modified": "Thu, 10 Sep 2026 01:00:09 GMT",
+      "etag": "\"407f-65b167d4a4f30\"",
+      "saved": ".work\\downloads\\20261109-145512_IMPL_misc_gensen\\ta_2520.html",
+      "charset": "utf-8",
+      "title": "No.2520 2か所以上から給与をもらっている人の源泉徴収｜国税庁",
+      "text_chars": 3053,
+      "text": ".work\\text\\20261109-145512_IMPL_misc_gensen\\ta_2520.txt",
+      "n_links": 57,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [
+          {
+            "line_no": 14,
+            "text": "主たる給与とは、「給与所得者の扶養控除等申告書」を提出している人に支払う給与をいい、主たる給与を支払う場合の源泉徴収税額は、税額表の「甲欄」で求めます。"
+          },
+          {
+            "line_no": 15,
+            "text": "従たる給与とは、主たる給与の支払者以外の給与の支払者が支払う給与をいい、従たる給与を支払う場合の源泉徴収税額は、税額表の「乙欄」で求めます。"
+          },
+          {
+            "line_no": 22,
+            "text": "「従たる給与についての扶養控除等申告書」の提出がある場合に、月額表の乙欄を使って給与や賞与に対する源泉徴収税額を求めるときは、乙欄に記載されている税額から申告されている扶養親族等の数に応じ、扶養親族等1人につき1,610円を控除します。"
+          },
+          {
+            "line_no": 23,
+            "text": "また、日額表の乙欄を使って源泉徴収税額を求めるときは、乙欄に記載されている税額から申告されている扶養親族等の数に応じ扶養親族等など一人につき50円を控除します。"
+          }
+        ],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "ta_1900",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1900.htm",
+      "content_type": "text/html",
+      "bytes": 17785,
+      "sha256": "68ad70cadf7276e27ac84c26ff4b56e5af0d96513581465d89f2601bd6567ee5",
+      "last_modified": "Wed, 09 Sep 2026 01:00:07 GMT",
+      "etag": "\"4579-65b025f570e78\"",
+      "saved": ".work\\downloads\\20261109-145512_IMPL_misc_gensen\\ta_1900.html",
+      "charset": "utf-8",
+      "title": "No.1900 給与所得者で確定申告が必要な人｜国税庁",
+      "text_chars": 3131,
+      "text": ".work\\text\\20261109-145512_IMPL_misc_gensen\\ta_1900.txt",
+      "n_links": 72,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "ta_1177",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1177.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1177.htm",
+      "content_type": "text/html",
+      "bytes": 19476,
+      "sha256": "f75c20fcbf5ef8fb52946c9ee8a43812fde662367644324462a5f0a74c9ca32a",
+      "last_modified": "Wed, 09 Sep 2026 01:00:15 GMT",
+      "etag": "\"4c14-65b025fc98340\"",
+      "saved": ".work\\downloads\\20261109-145512_IMPL_misc_gensen\\ta_1177.html",
+      "charset": "utf-8",
+      "title": "No.1177 特定親族特別控除｜国税庁",
+      "text_chars": 4003,
+      "text": ".work\\text\\20261109-145512_IMPL_misc_gensen\\ta_1177.txt",
+      "n_links": 57,
+      "matches": {
+        "birth_range": [
+          {
+            "line_no": 36,
+            "text": "(注２) 令和8年11月30日以前に、令和8年分の所得税の死亡または出国に伴う準確定申告書の提出をする方は、上記規定を適用できませんので、令和8年11月30日以前に提出された準確定申告書については、令和8年12月1日以降、更正の請求により上記規定の控除額を適用することができます。"
+          }
+        ],
+        "kinship": [
+          {
+            "line_no": 40,
+            "text": "(1) 配偶者以外の親族（6親等内の血族および3親等内の姻族をいいます。）または都道府県知事から養育を委託された児童（いわゆる里子）であること。"
+          }
+        ],
+        "kou_otsu": [],
+        "age_rule": [
+          {
+            "line_no": 38,
+            "text": "特定親族とは、その年の12月31日（納税者が年の中途で死亡しまたは出国する場合は、その死亡または出国の時）の現況で、次の要件のすべてに当てはまる人です。"
+          }
+        ]
+      },
+      "pdf_links": [
+        {
+          "href": "https://www.nta.go.jp/users/gensen/2026kiso/pdf/0026005-024.pdf",
+          "text": "令和8年度税制改正（所得税の基礎控除の引上げ等関係）Ｑ＆Ａ（令和8年５月）（PDF/299KB）"
+        }
+      ]
+    },
+    {
+      "id": "zeigakuhyo2026_all",
+      "url": "https://www.nta.go.jp/publication/pamph/gensen/zeigakuhyo2026/data/all.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/publication/pamph/gensen/zeigakuhyo2026/data/all.pdf",
+      "content_type": "application/pdf",
+      "bytes": 3259507,
+      "sha256": "99daf0384733d4d3417ab7591325e6602b54195e7bb9e9c01f57910bb51331e0",
+      "last_modified": "Fri, 29 Aug 2025 08:30:10 GMT",
+      "etag": "\"31bc73-63d7cd4807b88\"",
+      "saved": ".work\\downloads\\20261109-145512_IMPL_misc_gensen\\zeigakuhyo2026_all.pdf"
+    },
+    {
+      "id": "nencho2026_103",
+      "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/103.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/103.pdf",
+      "content_type": "application/pdf",
+      "bytes": 717907,
+      "sha256": "84ddecde830d51ec33e0eb1a2e5e34a11b66fec5f61c5ba2ac97b6fd471a27c2",
+      "last_modified": "Mon, 31 Aug 2026 08:30:12 GMT",
+      "etag": "\"af453-65a539c599958\"",
+      "saved": ".work\\downloads\\20261109-145512_IMPL_misc_gensen\\nencho2026_103.pdf"
+    }
+  ]
+}

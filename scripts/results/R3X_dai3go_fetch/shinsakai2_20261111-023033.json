@@ -1,0 +1,20 @@
+{
+  "set": "shinsakai2",
+  "fetched_at_local": "20261111-023033",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work/downloads/20261111-023033_R3X_dai3go_shinsakai2",
+  "results": [
+    {
+      "id": "shinsa_r02_03_06_05",
+      "url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/dl/05-r02_03/06_05.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/dl/05-r02_03/06_05.pdf",
+      "content_type": "application/pdf",
+      "bytes": 662021,
+      "sha256": "08c48156e4e5aa33200e2b6d34486762d7513cdc9d1f3ca8c8a29250c7b8540e",
+      "last_modified": "Fri, 10 Jul 2026 01:42:17 GMT",
+      "etag": "\"a1a05-65637d9cb9242\"",
+      "saved": ".work/downloads/20261111-023033_R3X_dai3go_shinsakai2/shinsa_r02_03_06_05.pdf"
+    }
+  ]
+}

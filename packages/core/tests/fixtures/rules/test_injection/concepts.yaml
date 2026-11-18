@@ -1,0 +1,23 @@
+# テストの道具の規則モジュール（packages/core/tests/fixture_modules.py）。法令の概念ではない。
+# 注入データの窓口（InjectionSpec・YearContext.injection・未注入のときの候補と missing）を確かめるためだけに使う。
+制度: 住民税
+担当: test_injection
+既定: {エンティティ: 人物, 期間: 年, 判定の時点: 年度, 実装済み: true}
+概念:
+  - id: 住民税.試験_級地の番号
+    名称: 試験：注入データ（候補のある注入点）から読んだ級地の番号
+    定義: {条文: 試験の道具, 根拠の種類: 法律, 出典: [docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md#1.3]}
+    層: 事実
+    値の型: 整数
+    変数: [住民税_試験_級地の番号]
+    注入データ: [住民税.級地]
+    出力: {申告の欄: false, 申告の範囲: false}
+
+  - id: 住民税.試験_均等割の税率
+    名称: 試験：注入データ（候補のない注入点）から読んだ均等割の税率
+    定義: {条文: 試験の道具, 根拠の種類: 法律, 出典: [docs/public-sources/20261109_round2_juminzei-tax-law-text.md#13]}
+    層: 事実
+    値の型: 円
+    変数: [住民税_試験_均等割の税率]
+    注入データ: [住民税.均等割の税率]
+    出力: {申告の欄: false, 申告の範囲: false}

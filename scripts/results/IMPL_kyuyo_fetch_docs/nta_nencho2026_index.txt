@@ -1,0 +1,273 @@
+# nta_nencho2026_index
+# URL=https://www.nta.go.jp/publication/pamph/gensen/nencho2026/01.htm
+# final_url=https://www.nta.go.jp/publication/pamph/gensen/nencho2026/01.htm
+# 取得日時=20261109-145902
+# status=200 encoding=cp932
+# Last-Modified=Fri, 16 Oct 2026 08:30:09 GMT
+# SHA-256=3e47f99112faf3ff6215f96bd4ebba7dda2268f1ff3b4dfc55d994f395251fa2
+
+令和8年分　年末調整のしかた｜国税庁
+ホーム
+刊行物等
+パンフレット・手引
+令和8年分　年末調整のしかた
+令和8年分　年末調整のしかた
+※PDFファイルが開けない、印刷できないなどの場合はこちらをご覧ください。
+※　「令和8年分　年末調整チェック表」や「年末調整Ｑ＆Ａ」などの源泉徴収義務者の方用情報及び「年末調整を受ける際の注意事項」や「各種申告書の記載のしかた（記載例）」などの給与所得者（従業員）の方用情報についても掲載しています。
+※　こちらのページの動画は、YouTube「国税庁動画チャンネル」（外部サイト）へリンクし、別ウインドウが開きます。
+令和8年分　年末調整のしかた
+一括ダウンロード（PDF/11,443KB）
+| 項目
+| ページ
+| 容量（KB）
+| 動画
+| 表紙・目次
+| 1から2
+| PDF/1,170KB
+| Ⅰ　昨年と比べて変わった点(基礎控除の引上げ等)
+| 3から4
+| PDF/1,721KB
+| Ⅱ　年末調整とは
+| 5から6
+| PDF/835KB
+| Ⅲ　年末調整のしかた
+| 7
+| PDF/653KB
+| 1　年末調整の手順
+| 2　各種控除額の確認
+| 8から15
+| PDF/1,039KB
+| 2-1　扶養控除等（異動）申告書の受理と内容の確認
+| 2-2　基礎控除申告書、配偶者控除等申告書、特定親族特別控除申告書及び所得金額調整控除申告書の受理と内容の確認
+| 16から20
+| PDF/4,991KB
+| 2-3　保険料控除申告書の受理と内容の確認
+| 21から28
+| PDF/919KB
+| 2-4　住宅借入金等特別控除申告書の受理と内容の確認
+| 29から34
+| PDF/1,027KB
+| 3　年税額の計算
+| 35から39
+| PDF/859KB
+| 4　過不足額の精算
+| 39から41
+| PDF/802KB
+| 5　税額の納付と所得税徴収高計算書（納付書）の記載
+| 42
+| PDF/974KB
+| 6　年末調整後に給与の追加払や扶養親族等の異動があった場合の再調整
+| 43
+| PDF/761KB
+| Ⅳ　令和9年分の給与の源泉徴収事務
+| 44から46
+| PDF/905KB
+| 令和8年分の年末調整等のための給与所得控除後の給与等の金額の表
+| 47から54
+| PDF/4,504KB
+| 令和8年分の年末調整のための算出所得税額の速算表、令和8年分の配偶者控除額及び配偶者特別控除額の一覧表、令和8年分の基礎控除額の表、令和8年分の特定親族特別控除額の表、令和8年分の扶養控除額等の表
+| 55から56
+| PDF/931KB
+| （設例）本年最後に支払う給与（賞与）についての税額計算を省略して年末調整を行う場合
+| 57から61
+| PDF/8,954KB
+| A3版（P60、61）PDF/2,154KB
+| 令和８年分の扶養控除額及び障害者等の控除額の合計額の計算例
+| 62から63
+| PDF/5,384KB
+| 令和８年分の扶養控除額及び障害者等の控除額の合計額の計算について
+| 64
+| PDF/764KB
+源泉徴収義務者の方用情報
+一括ダウンロード（PDF/3,767KB）
+| 項目
+| 容量
+| 動画
+| １　源泉徴収簿を使用した年末調整の手順
+| PDF/10,036KB
+| ２　過不足額の精算の設例（本年最後に支払う給与（賞与）についての税額計算を省略しないで年末調整を行う場合）
+| PDF/1,384KB
+| ３　電子計算機等による年末調整
+| PDF/668KB
+| ４　合計所得金額の計算について（令和８年分）
+| PDF/741KB
+| ５　令和8年分　年末調整チェック表
+| PDF/723KB
+| ６　令和8年分　年末調整Ｑ＆Ａ
+| PDF/670KB
+| ７　非居住者への支払がある場合、ご確認ください！
+| PDF/204KB
+| ８　源泉所得税のキャッシュレス納付について
+| PDF/2,703KB
+ダイレクト納付の手続
+（様式）
+| 【手書用】国税ダイレクト方式電子納税依頼書兼国税ダイレクト方式電子納税届出書
+| PDF/171KB
+| 【入力用】国税ダイレクト方式電子納税依頼書兼国税ダイレクト方式電子納税届出書
+※　「入力用」のＰＤＦファイルは、デスクトップ等にダウンロードしてから入力・印刷してください。ダウンロードせずに入力すると、ご利用のＯＳによっては、正しく表示されない場合や印刷ができない場合などがありますのでご注意ください。
+※準備中
+| 【記載要領】個人納税者用
+| PDF/268KB
+| 【記載要領】法人納税者用
+| PDF/272KB
+給与所得者（従業員）の方用情報
+一括ダウンロード（PDF/8,760KB）
+| 項目
+| 容量（KB）
+| 動画
+| １　令和８年分各種控除について（給与所得者用）　英語版（English）（PDF/181KB）
+| PDF/609KB
+| ２　年末調整を受ける際の注意事項
+| PDF/1,848KB
+| ３　各種申告書の記載例
+| PDF/6,664KB
+| ・　令和8年分　給与所得者の扶養控除等申告書の記載例
+| PDF/2,549KB
+| ・　令和8年分　給与所得者の基礎控除申告書兼給与所得者の配偶者控除等申告書兼特定親族特別控除申告書兼所得金額調整控除申告書の記載例
+| PDF/3,097KB
+| ・　令和8年分　給与所得者の保険料控除申告書の記載例
+| PDF/2,607KB
+| ・　給与所得者の住宅借入金等特別控除申告書兼住宅借入金等特別控除計算明細書の記載例
+| PDF/4,077KB
+| ・　令和9年分　給与所得者の扶養控除等申告書の記載例
+| PDF/2,068KB
+| ４　還付申告に当たっての注意事項～給与所得者用～
+| PDF/859KB
+※　パンフレット「令和８年分　給与所得の源泉徴収票等の法定調書の作成と提出の手引」、や各種様式（年末調整・源泉徴収票）も掲載しておりますので、ぜひご活用ください。
+このページの先頭へ
+刊行物等
+パンフレット・手引
+広報関係
+所得税関係
+源泉所得税関係
+譲渡・山林所得関係
+相続税・贈与税関係
+法人税関係
+消費税関係
+印紙税関係
+酒税関係
+間接諸税関係
+認定NPO法人関係
+法定調書関係
+電子申告等関係
+その他
+インターネット番組（Web-TAX-TV）
+注目動画
+ジャンルから動画を探す
+YouTube「国税庁動画チャンネル」
+出版物
+各税法の基礎知識（税務大学校講本）
+統計情報
+各国税局
+点字広報誌「私たちの税金」
+関連情報
+各種税金の資料（ポイント・図解）など（財務省ホームページ）
+税制改正の概要（財務省ホームページ）
+サイトマップ（コンテンツ一覧）
+ホーム
+刊行物等
+パンフレット・手引
+令和8年分　年末調整のしかた
+
+## links
+- ホーム -> https://www.nta.go.jp/
+- 刊行物等 -> https://www.nta.go.jp/publication/index.htm
+- パンフレット・手引 -> https://www.nta.go.jp/publication/pamph/01.htm
+- PDFファイルが開けない、印刷できないなどの場合はこちらをご覧ください。 -> https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/toiawase/1679/01.htm
+- 源泉徴収義務者の方用情報 -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/01.htm#a01
+- 給与所得者（従業員）の方用情報 -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/01.htm#a02
+- 一括ダウンロード（PDF/11,443KB） -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/nencho_all.pdf
+- PDF/1,170KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/101.pdf
+- PDF/1,721KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/102.pdf
+-  -> https://youtu.be/Im38NKvlgZQ
+- PDF/835KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/103.pdf
+-  -> https://youtu.be/tWxpJGIDSdo
+- PDF/653KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/104.pdf
+- PDF/1,039KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/105.pdf
+-  -> https://youtu.be/uDKa-r9iKH8
+- PDF/4,991KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/106.pdf
+-  -> https://youtu.be/D1_PxVitXwo
+- PDF/919KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/107.pdf
+-  -> https://youtu.be/0G5VUNH5YTE
+- PDF/1,027KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/108.pdf
+-  -> https://youtu.be/2b4voe2oABo
+- PDF/859KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/109.pdf
+-  -> https://youtu.be/wHOhoTU8xtw
+- PDF/802KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/110.pdf
+- PDF/974KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/111.pdf
+- PDF/761KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/112.pdf
+- PDF/905KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/113.pdf
+- PDF/4,504KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/114.pdf
+- PDF/931KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/115.pdf
+- PDF/8,954KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/110rei.pdf
+- A3版（P60、61）PDF/2,154KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/110a3.pdf
+- PDF/5,384KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/116.pdf
+- PDF/764KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/117.pdf
+- 一括ダウンロード（PDF/3,767KB） -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/201.pdf
+- PDF/10,036KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/202.pdf
+- PDF/1,384KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/203.pdf
+- PDF/668KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/204.pdf
+- PDF/741KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/205.pdf
+- PDF/723KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/206.pdf
+- 令和8年分　年末調整Ｑ＆Ａ -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/qa.htm
+- PDF/670KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/207.pdf
+- PDF/204KB -> https://www.nta.go.jp/publication/pamph/gensen/0022007-045.pdf
+- PDF/2,703KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/208.pdf
+- ダイレクト納付の手続 -> https://www.nta.go.jp/taxes/nozei/nofu/index.htm
+- PDF/171KB -> https://www.nta.go.jp/taxes/nozei/nofu/pdf/03-2_direct_tegaki.pdf
+- PDF/268KB -> https://www.nta.go.jp/taxes/nozei/nofu/pdf/03-3-1_direct_kojin_kisaiyoryo.pdf
+- PDF/272KB -> https://www.nta.go.jp/taxes/nozei/nofu/pdf/03-3-2_direct_hojin_kisaiyoryo.pdf
+- 一括ダウンロード（PDF/8,760KB） -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/301.pdf
+- 英語版（English）（PDF/181KB） -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/302_en.pdf
+- PDF/609KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/302.pdf
+-  -> https://youtu.be/gClXLnT0IgU
+- PDF/1,848KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/303.pdf
+- PDF/6,664KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/304.pdf
+- PDF/2,549KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/305.pdf
+-  -> https://youtu.be/uDKa-r9iKH8
+- PDF/3,097KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/306.pdf
+-  -> https://youtu.be/D1_PxVitXwo
+- PDF/2,607KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/307.pdf
+-  -> https://youtu.be/0G5VUNH5YTE
+- PDF/4,077KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/308.pdf
+-  -> https://youtu.be/2b4voe2oABo
+- PDF/2,068KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/309.pdf
+- PDF/859KB -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/310.pdf
+- 令和８年分　給与所得の源泉徴収票等の法定調書の作成と提出の手引 -> https://www.nta.go.jp/publication/pamph/hotei/tebiki2026/index.htm
+- 年末調整 -> https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/mokuji.htm
+- 源泉徴収票 -> https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hotei/mokuji.htm
+- このページの先頭へ -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/01.htm#page-top
+- 刊行物等 -> https://www.nta.go.jp/publication/index.htm
+- パンフレット・手引 -> https://www.nta.go.jp/publication/pamph/01.htm
+-  -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/01.htm#sidenaviAccordionCollapse1
+- 広報関係 -> https://www.nta.go.jp/publication/pamph/01.htm#a-01
+- 所得税関係 -> https://www.nta.go.jp/publication/pamph/01.htm#a-02
+- 源泉所得税関係 -> https://www.nta.go.jp/publication/pamph/01.htm#a-03
+- 譲渡・山林所得関係 -> https://www.nta.go.jp/publication/pamph/01.htm#a-04
+- 相続税・贈与税関係 -> https://www.nta.go.jp/publication/pamph/01.htm#a-10
+- 法人税関係 -> https://www.nta.go.jp/publication/pamph/01.htm#a-05
+- 消費税関係 -> https://www.nta.go.jp/publication/pamph/01.htm#a-06
+- 印紙税関係 -> https://www.nta.go.jp/publication/pamph/01.htm#a-07
+- 酒税関係 -> https://www.nta.go.jp/publication/pamph/01.htm#a-08
+- 間接諸税関係 -> https://www.nta.go.jp/publication/pamph/01.htm#a-11
+- 認定NPO法人関係 -> https://www.nta.go.jp/publication/pamph/01.htm#a-09
+- 法定調書関係 -> https://www.nta.go.jp/publication/pamph/01.htm#a-12
+- 電子申告等関係 -> https://www.nta.go.jp/publication/pamph/01.htm#a-13
+- その他 -> https://www.nta.go.jp/publication/pamph/01.htm#a-14
+- インターネット番組（Web-TAX-TV） -> https://www.nta.go.jp/publication/webtaxtv/index.html
+-  -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/01.htm#sidenaviAccordionCollapse2
+- 注目動画 -> https://www.nta.go.jp/publication/webtaxtv/index.html#chumoku
+- ジャンルから動画を探す -> https://www.nta.go.jp/publication/webtaxtv/index.html#genre
+- YouTube「国税庁動画チャンネル」 -> https://www.youtube.com/user/ntachannel
+- 出版物 -> https://www.nta.go.jp/publication/book/index.htm
+-  -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/01.htm#sidenaviAccordionCollapse3
+- 各税法の基礎知識（税務大学校講本） -> https://www.nta.go.jp/about/organization/ntc/kohon/index.htm
+- 統計情報 -> https://www.nta.go.jp/publication/statistics/index.htm
+-  -> https://www.nta.go.jp/publication/pamph/gensen/nencho2026/01.htm#sidenaviAccordionCollapse4
+- 各国税局 -> https://www.nta.go.jp/publication/statistics/index.htm#org
+- 点字広報誌「私たちの税金」 -> https://www.nta.go.jp/publication/tenji/index.htm
+- 各種税金の資料（ポイント・図解）など（財務省ホームページ） -> http://www.mof.go.jp/tax_policy/publication/brochure/
+- 税制改正の概要（財務省ホームページ） -> http://www.mof.go.jp/tax_policy/tax_reform/
+- ホーム -> https://www.nta.go.jp/
+- 刊行物等 -> https://www.nta.go.jp/publication/index.htm
+- パンフレット・手引 -> https://www.nta.go.jp/publication/pamph/01.htm

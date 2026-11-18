@@ -1,0 +1,535 @@
+{
+  "set": "tebiki_yogo",
+  "fetched_at_local": "20261109-145824",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work\\downloads\\20261109-145824_IMPL_misc_tebiki_yogo",
+  "text_dir": ".work\\text\\20261109-145824_IMPL_misc_tebiki_yogo",
+  "results": [
+    {
+      "id": "tebiki2025_yogo_y01",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y01.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y01.htm",
+      "content_type": "text/html",
+      "bytes": 8941,
+      "sha256": "988688fef1d7834d60b980684e6bfc31b76c9ad6694e5ae5dbe954da90d74061",
+      "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+      "etag": "\"22ed-646ae77e1d2b0\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y01.html",
+      "charset": "shift_jis",
+      "title": "◆総所得金額等｜国税庁",
+      "text_chars": 1297,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y01.txt",
+      "n_links": 45,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "tebiki2025_yogo_y02",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y02.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y02.htm",
+      "content_type": "text/html",
+      "bytes": 8706,
+      "sha256": "b8be86bf9c5270ab1b154f9dc2b02070be165097df75bfa66f2a2c3c4c81b551",
+      "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+      "etag": "\"2202-646ae77e16550\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y02.html",
+      "charset": "shift_jis",
+      "title": "◆合計所得金額｜国税庁",
+      "text_chars": 1160,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y02.txt",
+      "n_links": 46,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "tebiki2025_yogo_y03",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y03.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y03.htm",
+      "content_type": "text/html",
+      "bytes": 7962,
+      "sha256": "84b99df1b5b9d332f88824b423ce260bf5903576ba41772184acc67c1b61e651",
+      "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+      "etag": "\"1f1a-646ae77e0d4c8\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y03.html",
+      "charset": "shift_jis",
+      "title": "◆生計を一にする｜国税庁",
+      "text_chars": 1075,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y03.txt",
+      "n_links": 44,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "tebiki2025_yogo_y04",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y04.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y04.htm",
+      "content_type": "text/html",
+      "bytes": 7873,
+      "sha256": "0f08bf14ab84c7cae631e663f32ff4ddff575c7ffe3b8fc374c9dea402dfb484",
+      "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+      "etag": "\"1ec1-646ae77e05bb0\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y04.html",
+      "charset": "shift_jis",
+      "title": "◆障害者｜国税庁",
+      "text_chars": 1137,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y04.txt",
+      "n_links": 44,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": [
+          {
+            "line_no": 8,
+            "text": "令和７年12月31日（年の中途で死亡した場合には、その死亡の日）の現況において、次のいずれかに該当する、精神や身体に障害のある方"
+          }
+        ]
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "tebiki2025_yogo_y05",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y05.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y05.htm",
+      "content_type": "text/html",
+      "bytes": 7769,
+      "sha256": "dcad54fd882628e0a0ab129787f0464f9cea1b772e7cc99eb4bb5667a7a21592",
+      "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+      "etag": "\"1e59-646ae77dfc358\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y05.html",
+      "charset": "shift_jis",
+      "title": "◆特別障害者｜国税庁",
+      "text_chars": 1082,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y05.txt",
+      "n_links": 44,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "tebiki2025_yogo_y06",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y06.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y06.htm",
+      "content_type": "text/html",
+      "bytes": 7591,
+      "sha256": "d3be9b2b8752cb094d924e0523e1b76484f05d718f128a04f9b61987d84361c8",
+      "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+      "etag": "\"1da7-646ae77deb9b8\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y06.html",
+      "charset": "shift_jis",
+      "title": "◆控除対象配偶者｜国税庁",
+      "text_chars": 938,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y06.txt",
+      "n_links": 46,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "tebiki2025_yogo_y07",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y07.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y07.htm",
+      "content_type": "text/html",
+      "bytes": 7519,
+      "sha256": "04e3787d29ee8bb12ab064e5723b82edcbbba2e9e8cbc702f9f46291d6f10221",
+      "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+      "etag": "\"1d5f-646ae77dd9c90\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y07.html",
+      "charset": "shift_jis",
+      "title": "◆老人控除対象配偶者｜国税庁",
+      "text_chars": 942,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y07.txt",
+      "n_links": 45,
+      "matches": {
+        "birth_range": [
+          {
+            "line_no": 8,
+            "text": "控除対象配偶者のうち、昭和31年1月1日以前に生まれた方（年齢が70歳以上の方）"
+          }
+        ],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "tebiki2025_yogo_y08",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y08.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y08.htm",
+      "content_type": "text/html",
+      "bytes": 7586,
+      "sha256": "085b7c05d991bd58e4ef4976476b7f964b54a7c4ac106e7062175f290b7a1d85",
+      "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+      "etag": "\"1da2-646ae77dd3318\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y08.html",
+      "charset": "shift_jis",
+      "title": "◆同居特別障害者｜国税庁",
+      "text_chars": 991,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y08.txt",
+      "n_links": 44,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "tebiki2025_yogo_y09",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y09.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y09.htm",
+      "content_type": "text/html",
+      "bytes": 7966,
+      "sha256": "314268fc2b0358bc68ab27c5baab35defde53265e536d67b4b2707871732f82a",
+      "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+      "etag": "\"1f1e-646ae77dcbde8\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y09.html",
+      "charset": "shift_jis",
+      "title": "◆扶養親族｜国税庁",
+      "text_chars": 1107,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y09.txt",
+      "n_links": 46,
+      "matches": {
+        "birth_range": [],
+        "kinship": [
+          {
+            "line_no": 9,
+            "text": "●配偶者以外の親族（6親等内の血族及び3親等内の姻族）、都道府県知事から養育を委託された児童（いわゆる里子）又は市町村長から養護を委託された老人である。"
+          }
+        ],
+        "kou_otsu": [],
+        "age_rule": [
+          {
+            "line_no": 8,
+            "text": "令和７年12月31日（年の中途で死亡した場合には、その死亡の日）の現況において、次のいずれにも該当する方"
+          }
+        ]
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "tebiki2025_yogo_y10",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y10.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y10.htm",
+      "content_type": "text/html",
+      "bytes": 7527,
+      "sha256": "af5d95c983b32ee0e6b80ec6896ba32b09fa549c1ae9716f0078ec4e1021b9a8",
+      "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+      "etag": "\"1d67-646ae77dc44d0\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y10.html",
+      "charset": "shift_jis",
+      "title": "◆特定扶養親族｜国税庁",
+      "text_chars": 949,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y10.txt",
+      "n_links": 45,
+      "matches": {
+        "birth_range": [
+          {
+            "line_no": 8,
+            "text": "控除対象扶養親族のうち、平成15年1月2日から平成19年1月1日までの間に生まれた方（年齢が19歳以上23歳未満の方）"
+          }
+        ],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "tebiki2025_yogo_y11",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y11.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y11.htm",
+      "content_type": "text/html",
+      "bytes": 7497,
+      "sha256": "b0ec5aceb7d6f7cec1fa00c64b95e45d624b5ee32d5ddd289d7e229dc2c88834",
+      "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+      "etag": "\"1d49-646ae77dbd388\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y11.html",
+      "charset": "shift_jis",
+      "title": "◆老人扶養親族｜国税庁",
+      "text_chars": 931,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y11.txt",
+      "n_links": 45,
+      "matches": {
+        "birth_range": [
+          {
+            "line_no": 8,
+            "text": "控除対象扶養親族のうち、昭和31年1月1日以前に生まれた方（年齢が70歳以上の方）"
+          }
+        ],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "tebiki2025_yogo_y12",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y12.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y12.htm",
+      "content_type": "text/html",
+      "bytes": 7621,
+      "sha256": "01f0cf853cc5db6703666bfc283c67c14cfc3c052094f6d361ee69e6790be99c",
+      "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+      "etag": "\"1dc5-646ae77db5688\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y12.html",
+      "charset": "shift_jis",
+      "title": "◆同居老親等｜国税庁",
+      "text_chars": 980,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y12.txt",
+      "n_links": 45,
+      "matches": {
+        "birth_range": [],
+        "kinship": [
+          {
+            "line_no": 1,
+            "text": "◆同居老親等｜国税庁"
+          },
+          {
+            "line_no": 6,
+            "text": "同居老親等"
+          },
+          {
+            "line_no": 7,
+            "text": "同居老親等"
+          },
+          {
+            "line_no": 52,
+            "text": "同居老親等"
+          }
+        ],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "tebiki2025_yogo_y14",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y14.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y14.htm",
+      "content_type": "text/html",
+      "bytes": 8256,
+      "sha256": "1b24a78bf77f53d767dfd96f1e249f778fe3f1449e03f432a36a989b01d79616",
+      "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+      "etag": "\"2040-646ae77da6458\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y14.html",
+      "charset": "shift_jis",
+      "title": "◆国外居住親族｜国税庁",
+      "text_chars": 1098,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y14.txt",
+      "n_links": 51,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "tebiki2025_yogo_y15",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y15.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y15.htm",
+      "content_type": "text/html",
+      "bytes": 8005,
+      "sha256": "b209652bf2a0783886996869a1faefcb3ac8d00dbe420c29b6e9ce74a3b25b17",
+      "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+      "etag": "\"1f45-646ae77d9ef28\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y15.html",
+      "charset": "shift_jis",
+      "title": "◆同一生計配偶者｜国税庁",
+      "text_chars": 1140,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y15.txt",
+      "n_links": 48,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": [
+          {
+            "line_no": 9,
+            "text": "● 令和７年12月31日（年の中途で死亡した場合には、その死亡の日）の現況において、あなたと生計を一にしている。"
+          }
+        ]
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "tebiki2025_yogo_y16",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y16.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y16.htm",
+      "content_type": "text/html",
+      "bytes": 7162,
+      "sha256": "fe30ec4cb7b1e91ccd4e9e7eeda9d97e4047ac34930f73f60921b15f6c74186d",
+      "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+      "etag": "\"1bfa-646ae77d985b0\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y16.html",
+      "charset": "shift_jis",
+      "title": "◆特定取得｜国税庁",
+      "text_chars": 969,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y16.txt",
+      "n_links": 44,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "tebiki2025_yogo_y17",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y17.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y17.htm",
+      "content_type": "text/html",
+      "bytes": 7236,
+      "sha256": "0e9ce735f49b4c57ef060b7cc6233f0c960c4eeda308b13abf6928aef8292442",
+      "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+      "etag": "\"1c44-646ae77d91080\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y17.html",
+      "charset": "shift_jis",
+      "title": "◆特別特定取得｜国税庁",
+      "text_chars": 1006,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y17.txt",
+      "n_links": 44,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "tebiki2025_yogo_y18",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y18.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y18.htm",
+      "content_type": "text/html",
+      "bytes": 7506,
+      "sha256": "65cafc2cc091f095e24ebebc6a2b5065005b0e20740f4cf12f9d340a2decbddc",
+      "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+      "etag": "\"1d52-646ae77d89b50\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y18.html",
+      "charset": "shift_jis",
+      "title": "◆特例取得｜国税庁",
+      "text_chars": 1057,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y18.txt",
+      "n_links": 45,
+      "matches": {
+        "birth_range": [
+          {
+            "line_no": 9,
+            "text": "● 居住用家屋の新築…令和２年９月30日までの期間"
+          },
+          {
+            "line_no": 10,
+            "text": "● 居住用家屋で建築後使用されたことのないもの（新築住宅）若しくは既存住宅の取得又は居住の用に供する家屋の増改築等…令和２年11月30日までの期間"
+          }
+        ],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "tebiki2025_yogo_y19",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y19.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y19.htm",
+      "content_type": "text/html",
+      "bytes": 7564,
+      "sha256": "5e3676a16e4e928ff54e224abb877360427b580f1f35ffeb70a4913aea2ae928",
+      "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+      "etag": "\"1d8c-646ae77d82df0\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y19.html",
+      "charset": "shift_jis",
+      "title": "◆特別特例取得｜国税庁",
+      "text_chars": 1087,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y19.txt",
+      "n_links": 45,
+      "matches": {
+        "birth_range": [
+          {
+            "line_no": 9,
+            "text": "● 居住用家屋の新築…令和２年10月１日から令和３年９月30日までの期間"
+          },
+          {
+            "line_no": 10,
+            "text": "● 居住用家屋で建築後使用されたことのないもの（新築住宅）若しくは既存住宅の取得又は居住の用に供する家屋の増改築等…令和２年12月１日から令和３年11月30日までの期間"
+          }
+        ],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "tebiki2025_yogo_y20",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y20.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y20.htm",
+      "content_type": "text/html",
+      "bytes": 7189,
+      "sha256": "76d9edc35609db8571857692fa5b4326559f9ec4e5b855c62b247a930522aef1",
+      "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+      "etag": "\"1c15-646ae77d7c478\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y20.html",
+      "charset": "cp932",
+      "title": "◆特例特別特例取得｜国税庁",
+      "text_chars": 944,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_tebiki_yogo\\tebiki2025_yogo_y20.txt",
+      "n_links": 45,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    }
+  ]
+}

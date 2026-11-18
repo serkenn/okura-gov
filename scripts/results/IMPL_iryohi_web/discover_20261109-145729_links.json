@@ -1,0 +1,207 @@
+{
+ "ta_shoto320": [],
+ "shitsugi_shotoku_01": [
+  {
+   "href": "https://www.nta.go.jp/law/shitsugi/shotoku/02/35.htm",
+   "text": "肉豚価格差補填事業に係る返還金"
+  },
+  {
+   "href": "https://www.nta.go.jp/law/shitsugi/shotoku/05/66.htm",
+   "text": "オルソケラトロジー（角膜矯正療法）による近視治療に係る費用の医療費控除"
+  },
+  {
+   "href": "https://www.nta.go.jp/law/shitsugi/shotoku/05/81.htm",
+   "text": "借入金で支払った医療費"
+  },
+  {
+   "href": "https://www.nta.go.jp/law/shitsugi/shotoku/05/24.htm",
+   "text": "未払の医療費"
+  },
+  {
+   "href": "https://www.nta.go.jp/law/shitsugi/shotoku/05/25.htm",
+   "text": "共働き夫婦の夫が妻の医療費を負担した場合"
+  },
+  {
+   "href": "https://www.nta.go.jp/law/shitsugi/shotoku/05/57.htm",
+   "text": "死亡した父親の医療費"
+  },
+  {
+   "href": "https://www.nta.go.jp/law/shitsugi/shotoku/05/82.htm",
+   "text": "姉の子供の医療費を支払った場合"
+  },
+  {
+   "href": "https://www.nta.go.jp/law/shitsugi/shotoku/05/58.htm",
+   "text": "同居していない母親の医療費を子供が負担した場合"
+  },
+  {
+   "href": "https://www.nta.go.jp/law/shitsugi/shotoku/05/83.htm",
+   "text": "父親の控除対象配偶者である母親の医療費を子供が負担した場合"
+  },
+  {
+   "href": "https://www.nta.go.jp/law/shitsugi/shotoku/05/26.htm",
+   "text": "医療費の支払者と保険金等の受領者が異なる場合"
+  },
+  {
+   "href": "https://www.nta.go.jp/law/shitsugi/shotoku/05/59.htm",
+   "text": "医療費を補填する保険金等が未確定の場合"
+  },
+  {
+   "href": "https://www.nta.go.jp/law/shitsugi/shotoku/05/60.htm",
+   "text": "医療費助成金を返還した場合"
+  },
+  {
+   "href": "https://www.nta.go.jp/law/shitsugi/shotoku/05/61.htm",
+   "text": "医療費を補填する保険金等の金額のあん分計算"
+  },
+  {
+   "href": "https://www.nta.go.jp/law/shitsugi/shotoku/05/28.htm",
+   "text": "支払った医療費を超える補填金"
+  }
+ ],
+ "shitsugi_index": [],
+ "yoshiki_01_index": [],
+ "yoshiki_shinkokusho_01": [],
+ "tsutatsu_menu": [],
+ "tokushu_iryou": [
+  {
+   "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/iryou-koujo.htm",
+   "text": "⟨詳しくはこちら⟩医療費控除を受ける方へ"
+  },
+  {
+   "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/iryou-koujo.htm",
+   "text": "医療費控除を受ける方へ"
+  },
+  {
+   "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/self-medication.htm",
+   "text": "セルフメディケーション税制とは"
+  },
+  {
+   "href": "https://youtu.be/iyDVMsJKZNw",
+   "text": "医療費控除の入力方法"
+  },
+  {
+   "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/pdf/0025009-005.pdf",
+   "text": "医療費控除のマイナポータル連携について(PDF416KB)"
+  },
+  {
+   "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/iryou-shuukei.htm",
+   "text": "医療費集計フォームのダウンロードをする"
+  },
+  {
+   "href": "https://youtu.be/iyDVMsJKZNw",
+   "text": "⟨医療費控除の入力方法⟩"
+  },
+  {
+   "href": "https://youtu.be/iyDVMsJKZNw",
+   "text": "⟨医療費控除の入力方法⟩"
+  }
+ ],
+ "tokushu_self": [
+  {
+   "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/iryou-koujo.htm",
+   "text": "⟨詳しくはこちら⟩医療費控除を受ける方へ"
+  },
+  {
+   "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/iryou-koujo.htm",
+   "text": "医療費控除を受ける方へ"
+  },
+  {
+   "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tokushu/keisubetsu/iryou-koujo.htm",
+   "text": "医療費控除を受ける方へ"
+  }
+ ],
+ "mhlw_selfmed": [
+  {
+   "href": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/index.html",
+   "text": "医薬品・医療機器"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hokabunya/index_00005.html",
+   "text": "医薬品等行政評価・監視委員会"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/seisakunitsuite/bunya/kenkou_iryou/iryou/kouhatu-iyaku/index.html",
+   "text": "後発医薬品の使用促進"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/content/10800000/001524801.docx",
+   "text": "スイッチOTC医薬品有効成分リスト［28KB］"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/content/10800000/000956688.xlsx",
+   "text": "非スイッチOTC医薬品有効成分リスト［31KB］"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/content/10800000/001741738.xlsx",
+   "text": "税制対象薬局製造販売医薬品リスト［31KB］"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/content/10800000/001750283.pdf",
+   "text": "租税特別措置法施行令第二十六条の二十七の三第二項の規定に基づき厚生労働大臣が定める一般用医薬品等（平成28年厚生労働省告示第178号）【スイッチOTC】［60KB］"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/content/10800000/001750284.pdf",
+   "text": "租税特別措置法施行令第二十六条の二十七の三第三項の規定に基づき厚生労働大臣が定める一般用医薬品等（令和3年厚生労働省告示第251号）【非スイッチOTC】［46KB］"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/content/10800000/001750285.pdf",
+   "text": "租税特別措置法施行令第二十六条の二十七の三第三項の規定に基づき厚生労働大臣が定める一般用医薬品等（令和3年厚生労働省告示第251号）【非スイッチOTC、令和9年1月1日施行】［81KB］"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/content/10800000/001750286.pdf",
+   "text": "租税特別措置法施行令第二十六条の二十七の三第四項の規定に基づき厚生労働大臣が定める一般用医薬品等（令和8年厚生労働省告示第307号）【OTC検査薬、令和9年1月1日施行】［31KB］"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/stf/newpage_08184.html",
+   "text": "セルフメディケーション税制対象医薬品に係るレシートの表示の誤りについて"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/content/10800000/001461529.pdf",
+   "text": "（令和８年８月7日時点）セルフメディケーション税制Q&A［228KB］"
+  },
+  {
+   "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1129.htm",
+   "text": "国税庁のタックスアンサー"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/file/06-Seisakujouhou-10800000-Iseikyoku/0000138818.pdf",
+   "text": "（事務連絡）セルフメディケーション税制の適用を受ける際に必要となる証明書類（レシート等）の記載事項について"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/content/10800000/001512593.pdf",
+   "text": "（事務連絡）新規に薬事承認された有効成分を含有する要指導医薬品及び一般用医薬品に関するセルフメディケーション税制に係る厚生労働省への届出等について［75KB］"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/content/10800000/001596290.pdf",
+   "text": "（事務連絡）令和７年12月31日を末日としてセルフメディケーション税制の対象から除外される成分について［192KB］"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/content/10800000/001642167.pdf",
+   "text": "（事務連絡）一般用医薬品等に関する製品情報のセルフメディケーション・データベースセンターへの登録について［60KB］"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/content/10800000/000852630.pdf",
+   "text": "（事務連絡）令和８年度税制改正によるセルフメディケーション税制対象医薬品の届出等について［106KB］"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/content/10800000/001748595.xlsx",
+   "text": "（別添３）セルフメディケーション税制対象医薬品（変更）届出書［25KB］"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/content/10800000/001741727.pdf",
+   "text": "（事務連絡）令和８年度税制改正によるセルフメディケーション税制対象医薬品の届出等について［70KB］"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/content/10800000/001741728.xlsx",
+   "text": "（別添）税制対象薬局製造販売医薬品一覧［31KB］"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/content/10800000/001748596.xlsx",
+   "text": "セルフメディケーション対象医薬品（変更）届出書［25KB］"
+  },
+  {
+   "href": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iyakuhin/index.html",
+   "text": "医薬品・医療機器"
+  }
+ ]
+}

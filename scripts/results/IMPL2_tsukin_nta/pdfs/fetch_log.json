@@ -1,0 +1,62 @@
+{
+ "set": "pdfs",
+ "fetched_at": "20261111-110223",
+ "download_dir": ".work/downloads/20261111-110223_IMPL2_tsukin_nta_pdfs",
+ "items": [
+  {
+   "id": "tsukin2025_01",
+   "url": "https://www.nta.go.jp/users/gensen/2025tsukin/pdf/01.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Wed, 19 Nov 2025 01:00:03 GMT",
+   "bytes": 143025,
+   "sha256": "185f002a80a40e0aa526d196836e873e77e860d8e819ac7d422109ab8535d296",
+   "saved": ".work/downloads/20261111-110223_IMPL2_tsukin_nta_pdfs/tsukin2025_01.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "tsukin2025_02",
+   "url": "https://www.nta.go.jp/users/gensen/2025tsukin/pdf/02.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Wed, 19 Nov 2025 01:00:03 GMT",
+   "bytes": 718436,
+   "sha256": "c49035968c2cf7b120dc5e638be6a65e7192d3427c1be6f1ffe4896f698ecf1e",
+   "saved": ".work/downloads/20261111-110223_IMPL2_tsukin_nta_pdfs/tsukin2025_02.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "tsukin2026_01",
+   "url": "https://www.nta.go.jp/users/gensen/2026tsukin/pdf/01.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Mon, 20 Apr 2026 08:30:01 GMT",
+   "bytes": 214884,
+   "sha256": "3b45d0a90cfad5508a0bde44de1468a33366d1daccd98352ceb84308999ddd8c",
+   "saved": ".work/downloads/20261111-110223_IMPL2_tsukin_nta_pdfs/tsukin2026_01.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "tebiki2025_all",
+   "url": "https://www.nta.go.jp/publication/pamph/hotei/tebiki2025/PDF/all.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Mon, 01 Sep 2025 05:00:01 GMT",
+   "bytes": 11165896,
+   "sha256": "b823632a6cefbde04c2f60bddb5ec012ae8d3dddca2a5de1b9730725669c4a10",
+   "saved": ".work/downloads/20261111-110223_IMPL2_tsukin_nta_pdfs/tebiki2025_all.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "tebiki2026_all",
+   "url": "https://www.nta.go.jp/publication/pamph/hotei/tebiki2026/PDF/all.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 18 Sep 2026 08:30:12 GMT",
+   "bytes": 12643757,
+   "sha256": "f61fc6d8de848f067fa63cfd61744cdd95313f017983c85a149bb6c365a8bd87",
+   "saved": ".work/downloads/20261111-110223_IMPL2_tsukin_nta_pdfs/tebiki2026_all.pdf",
+   "pdf_header_ok": true
+  }
+ ]
+}

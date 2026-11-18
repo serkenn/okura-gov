@@ -1,0 +1,111 @@
+# 法令・通知・通達の変更の監視（okura_monitor）を毎日動かし、変化があれば issue を作る。
+# 2026-11-12 ユーザーの決定：監視は GitHub Actions で動かす。issue のあとは人が Claude Code（スキル law-change）で対応する。
+# 手順と前提は packages/monitor/README.md §4.1。
+#
+# - 前回の状態（--state-dir）と出力（--out）は、専用のブランチ monitor-state に置く（main とは履歴を共有しない）。
+# - 使うアクションは GitHub 公式の actions/checkout だけ（コミットの SHA で固定）。Python はランナーの python3（3.11 以上）。
+# - 監視は家族のデータを読まない（AGENTS.md「安全のルール」）。読むのは判定コアの YAML（テキスト）だけ。
+name: law-monitor
+
+on:
+  schedule:
+    - cron: "30 22 * * *"  # 毎日 07:30（日本時間）
+  workflow_dispatch:
+    inputs:
+      post_github:
+        description: "変化があれば issue を作る"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write  # monitor-state ブランチに状態を書く
+  issues: write    # issue とラベルを作る
+
+concurrency:
+  group: law-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      STATE_BRANCH: monitor-state
+      KEEP_RUNS: "90"
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+
+      - name: 状態のブランチを取り出す
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin "$STATE_BRANCH" > /dev/null; then
+            git fetch --depth=1 origin "$STATE_BRANCH"
+            git worktree add --detach "$RUNNER_TEMP/state" FETCH_HEAD
+          else
+            echo "状態のブランチがない。初回として作る（初回は基準を記録するだけで issue を作らない）"
+            git worktree add --orphan -b "$STATE_BRANCH" "$RUNNER_TEMP/state"
+          fi
+
+      - name: 監視の仮想環境を作る
+        run: |
+          python3 -I -c "import sys; print(sys.version); assert sys.version_info >= (3, 11), 'Python 3.11 以上が要る'"
+          python3 -I -m venv --without-pip "$RUNNER_TEMP/venv"
+          SITE=$("$RUNNER_TEMP/venv/bin/python" -I -c "import sysconfig; print(sysconfig.get_paths()['purelib'])")
+          echo "$GITHUB_WORKSPACE/packages/monitor/src" > "$SITE/okura_monitor_dev.pth"
+          "$RUNNER_TEMP/venv/bin/python" -I -X utf8 -m okura_monitor targets --core-src "$GITHUB_WORKSPACE/packages/core/src" | head -3
+
+      - name: ラベルを用意する
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create monitor --color 0e8a16 --description "okura_monitor が作った issue" --force -R "$GITHUB_REPOSITORY"
+          gh label create law-change --color d93f0b --description "法令・通知の改正への対応（スキル law-change）" --force -R "$GITHUB_REPOSITORY"
+
+      - name: 監視を実行する
+        id: run
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EVENT_NAME: ${{ github.event_name }}
+          POST_INPUT: ${{ inputs.post_github }}
+        run: |
+          POST=()
+          if [ "$EVENT_NAME" = "schedule" ] || [ "$POST_INPUT" = "true" ]; then
+            POST=(--post-github --repo "$GITHUB_REPOSITORY" --label monitor --label law-change)
+          fi
+          set +e
+          "$RUNNER_TEMP/venv/bin/python" -I -X utf8 -m okura_monitor run \
+            --state-dir "$RUNNER_TEMP/state/state" --out "$RUNNER_TEMP/state/out" \
+            --core-src "$GITHUB_WORKSPACE/packages/core/src" "${POST[@]}"
+          code=$?
+          set -e
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          latest=$(ls -1d "$RUNNER_TEMP/state/out"/*/ 2> /dev/null | sort | tail -n 1)
+          if [ -n "$latest" ] && [ -f "$latest/report.md" ]; then
+            cat "$latest/report.md" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: 状態を保存する
+        if: steps.run.outputs.code == '0' || steps.run.outputs.code == '3'
+        working-directory: ${{ runner.temp }}/state
+        run: |
+          if [ -d out ]; then
+            ls -1d out/*/ | sort | head -n -"$KEEP_RUNS" | xargs -r rm -rf
+          fi
+          git add -A
+          if git diff --cached --quiet; then
+            echo "状態に変化なし"
+            exit 0
+          fi
+          git commit -q -m "監視の状態（run ${GITHUB_RUN_ID}）"
+          git push origin "HEAD:refs/heads/$STATE_BRANCH"
+
+      - name: 終了コードを確かめる
+        env:
+          CODE: ${{ steps.run.outputs.code }}
+        run: |
+          case "$CODE" in
+            0) echo "完了" ;;
+            3) echo "::warning::一部の対象を取得できなかった（状態はその対象だけ進めず、次の実行でやり直す）。実行の要約の report.md を見る" ;;
+            *) echo "::error::監視が終了コード $CODE で止まった"; exit 1 ;;
+          esac

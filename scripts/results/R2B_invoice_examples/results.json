@@ -1,0 +1,200 @@
+{
+ "basic": {
+  "years": [
+   2025,
+   2026,
+   2027
+  ],
+  "zeikomi_filed_year": {
+   "2025": 770000,
+   "2026": 750000,
+   "2027": -20000
+  },
+  "zeikomi_accrued": {
+   "2025": 750000,
+   "2026": 750000,
+   "2027": 0
+  },
+  "zeinuki": {
+   "2025": 750000,
+   "2026": 750000,
+   "2027": 0
+  },
+  "menzei_zeikomi": {
+   "2025": 770000,
+   "2026": 770000,
+   "2027": 0
+  },
+  "C1_zeinuki_eq_accrued": true,
+  "C2_shift_equals_payment": true,
+  "C2_sum_equal": true
+ },
+ "partial_karibarai": {
+  "cases": [
+   {
+    "karibarai": 10000,
+    "cost_ex": 100000,
+    "income_2026": 972000
+   },
+   {
+    "karibarai": 8000,
+    "cost_ex": 102000,
+    "income_2026": 972000
+   },
+   {
+    "karibarai": 7000,
+    "cost_ex": 103000,
+    "income_2026": 972000
+   },
+   {
+    "karibarai": 0,
+    "cost_ex": 110000,
+    "income_2026": 972000
+   }
+  ],
+  "zeikomi_accrued_2026": 972000,
+  "C1_all_equal": true
+ },
+ "refund": {
+  "zeikomi_filed_year": {
+   "2026": -1650000,
+   "2027": 150000
+  },
+  "zeikomi_accrued": {
+   "2026": -1500000,
+   "2027": 0
+  },
+  "zeinuki": {
+   "2026": -1500000,
+   "2027": 0
+  },
+  "C3_zeinuki_eq_accrued": true,
+  "C3_shift": true
+ },
+ "depreciation": {
+  "zeikomi_accrued": {
+   "2026": 970000,
+   "2027": 970000,
+   "2028": 970000
+  },
+  "zeinuki": {
+   "2026": 950000,
+   "2027": 980000,
+   "2028": 980000
+  },
+  "C4_differs_by_year": true,
+  "C4_sum_equal": true
+ },
+ "property_C1": {
+  "n": 2000,
+  "seed": 20261109,
+  "mismatches": 0
+ },
+ "threshold_I1": {
+  "zeikomi_filed_year": {
+   "2025": 583000,
+   "2026": -12000
+  },
+  "zeikomi_accrued": {
+   "2025": 571000,
+   "2026": 0
+  },
+  "zeinuki": {
+   "2025": 571000,
+   "2026": 0
+  },
+  "menzei": {
+   "2025": 583000,
+   "2026": 0
+  },
+  "limit_r7": 580000,
+  "within_limit_2025": {
+   "zeikomi_filed_year": false,
+   "zeikomi_accrued": true,
+   "zeinuki": true,
+   "menzei": false
+  }
+ },
+ "shogaku_I3": [
+  {
+   "price_incl": 107000,
+   "case": "登録事業者から（又は1の2）",
+   "cost_if_floor": 97273,
+   "cost_if_round": 97273,
+   "shogaku_under_100000": [
+    true,
+    true
+   ]
+  },
+  {
+   "price_incl": 107000,
+   "case": "登録なし・2026-09-30 まで 80%",
+   "cost_if_floor": 99219,
+   "cost_if_round": 99218,
+   "shogaku_under_100000": [
+    true,
+    true
+   ]
+  },
+  {
+   "price_incl": 107000,
+   "case": "登録なし・2026-10-01 から 70%",
+   "cost_if_floor": 100191,
+   "cost_if_round": 100191,
+   "shogaku_under_100000": [
+    false,
+    false
+   ]
+  },
+  {
+   "price_incl": 107000,
+   "case": "税込経理",
+   "cost_if_floor": 107000,
+   "cost_if_round": 107000,
+   "shogaku_under_100000": [
+    false,
+    false
+   ]
+  },
+  {
+   "price_incl": 108900,
+   "case": "登録事業者から（又は1の2）",
+   "cost_if_floor": 99000,
+   "cost_if_round": 99000,
+   "shogaku_under_100000": [
+    true,
+    true
+   ]
+  },
+  {
+   "price_incl": 108900,
+   "case": "登録なし・2026-09-30 まで 80%",
+   "cost_if_floor": 100980,
+   "cost_if_round": 100980,
+   "shogaku_under_100000": [
+    false,
+    false
+   ]
+  },
+  {
+   "price_incl": 108900,
+   "case": "登録なし・2026-10-01 から 70%",
+   "cost_if_floor": 101970,
+   "cost_if_round": 101970,
+   "shogaku_under_100000": [
+    false,
+    false
+   ]
+  },
+  {
+   "price_incl": 108900,
+   "case": "税込経理",
+   "cost_if_floor": 108900,
+   "cost_if_round": 108900,
+   "shogaku_under_100000": [
+    false,
+    false
+   ]
+  }
+ ]
+}

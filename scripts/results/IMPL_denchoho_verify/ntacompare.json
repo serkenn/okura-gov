@@ -1,0 +1,445 @@
+{
+ "rows_in_doc": 22,
+ "compared": [
+  {
+   "url": "https://www.nta.go.jp/robots.txt",
+   "doc": {
+    "key": "robots",
+    "status": 200,
+    "bytes": 853,
+    "lm": "2026-03-18",
+    "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+   },
+   "mine": {
+    "status": 200,
+    "bytes": 853,
+    "lm": "2026-03-18",
+    "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+   },
+   "status_eq": true,
+   "bytes_eq": true,
+   "lm_eq": true,
+   "sha_eq": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/index.htm",
+   "doc": {
+    "key": "jirei-index",
+    "status": 200,
+    "bytes": 4733,
+    "lm": "2024-06-28",
+    "sha256": "5614fc64a1a68809ae674f07c57c7c78db6cdbded4993cb3b10014aaad1df297"
+   },
+   "mine": {
+    "status": 200,
+    "bytes": 4733,
+    "lm": "2024-06-28",
+    "sha256": "5614fc64a1a68809ae674f07c57c7c78db6cdbded4993cb3b10014aaad1df297"
+   },
+   "status_eq": true,
+   "bytes_eq": true,
+   "lm_eq": true,
+   "sha_eq": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/index.htm",
+   "doc": {
+    "key": "tokusetsu-index",
+    "status": 200,
+    "bytes": 7112,
+    "lm": "2026-10-13",
+    "sha256": "be3334466490328576dcd01c37d0c62c990f34f1bb92d0d059dee4fbe302977b"
+   },
+   "mine": {
+    "status": 200,
+    "bytes": 7112,
+    "lm": "2026-10-13",
+    "sha256": "be3334466490328576dcd01c37d0c62c990f34f1bb92d0d059dee4fbe302977b"
+   },
+   "status_eq": true,
+   "bytes_eq": true,
+   "lm_eq": true,
+   "sha_eq": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/4-3.htm",
+   "doc": {
+    "key": "qa-index",
+    "status": 200,
+    "bytes": 6055,
+    "lm": "2026-07-10",
+    "sha256": "d446346f54669276113e0235ade0e509c734d7909bc0eda3eb32bd7379bd350c"
+   },
+   "mine": {
+    "status": 200,
+    "bytes": 6055,
+    "lm": "2026-07-10",
+    "sha256": "d446346f54669276113e0235ade0e509c734d7909bc0eda3eb32bd7379bd350c"
+   },
+   "status_eq": true,
+   "bytes_eq": true,
+   "lm_eq": true,
+   "sha_eq": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/03.htm",
+   "doc": {
+    "key": "hourei-tsutatsu",
+    "status": 200,
+    "bytes": 7773,
+    "lm": "2026-04-06",
+    "sha256": "e32d9b442b17e21ca43010102d6b1b819abb8fa1978aa7cd5f0c8d09bd172d4f"
+   },
+   "mine": {
+    "status": 200,
+    "bytes": 7773,
+    "lm": "2026-04-06",
+    "sha256": "e32d9b442b17e21ca43010102d6b1b819abb8fa1978aa7cd5f0c8d09bd172d4f"
+   },
+   "status_eq": true,
+   "bytes_eq": true,
+   "lm_eq": true,
+   "sha_eq": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/08.htm",
+   "doc": {
+    "key": "pamphlet",
+    "status": 200,
+    "bytes": 6793,
+    "lm": "2026-06-26",
+    "sha256": "fd744d027707e2dec2c9420726b39cf3d6020553e602edfe013755f438e3f634"
+   },
+   "mine": {
+    "status": 200,
+    "bytes": 6793,
+    "lm": "2026-06-26",
+    "sha256": "fd744d027707e2dec2c9420726b39cf3d6020553e602edfe013755f438e3f634"
+   },
+   "status_eq": true,
+   "bytes_eq": true,
+   "lm_eq": true,
+   "sha_eq": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/01.htm",
+   "doc": {
+    "key": "tokusetsu-01（電子取引関係）",
+    "status": 200,
+    "bytes": 9880,
+    "lm": "2026-07-03",
+    "sha256": "eb2ec1ce784d220456f2ba46dc4bfe1a70a72b04fdda30dcb24bb86a36076e2c"
+   },
+   "mine": {
+    "status": 200,
+    "bytes": 9880,
+    "lm": "2026-07-03",
+    "sha256": "eb2ec1ce784d220456f2ba46dc4bfe1a70a72b04fdda30dcb24bb86a36076e2c"
+   },
+   "status_eq": true,
+   "bytes_eq": true,
+   "lm_eq": true,
+   "sha_eq": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/02.htm",
+   "doc": {
+    "key": "tokusetsu-02（電子帳簿・電子書類関係）",
+    "status": 200,
+    "bytes": 10367,
+    "lm": "2026-06-26",
+    "sha256": "d581534ebdb4a66a758c760e9061ca4d9bfde0e9a0754ec2acd3e45c49222181"
+   },
+   "mine": {
+    "status": 200,
+    "bytes": 10367,
+    "lm": "2026-06-26",
+    "sha256": "d581534ebdb4a66a758c760e9061ca4d9bfde0e9a0754ec2acd3e45c49222181"
+   },
+   "status_eq": true,
+   "bytes_eq": true,
+   "lm_eq": true,
+   "sha_eq": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_05.pdf",
+   "doc": {
+    "key": "qa-dentori-r0807（一問一答【電子取引関係】令和8年7月、PDF）",
+    "status": 200,
+    "bytes": 1716744,
+    "lm": "2026-07-10",
+    "sha256": "5068fb54a2600a278e1da8d685daad39044c0257d09629b6a153c2186141e911"
+   },
+   "mine": {
+    "status": 200,
+    "bytes": 1716744,
+    "lm": "2026-07-10",
+    "sha256": "5068fb54a2600a278e1da8d685daad39044c0257d09629b6a153c2186141e911"
+   },
+   "status_eq": true,
+   "bytes_eq": true,
+   "lm_eq": true,
+   "sha_eq": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_06.pdf",
+   "doc": {
+    "key": "qa-dentori-r0807-diff（同 変更箇所下線あり）",
+    "status": 200,
+    "bytes": 1727800,
+    "lm": "2026-07-10",
+    "sha256": "e53c593218d0f873d95507269bf416c8e5e92ce562c8e61099fcde17888e589e"
+   },
+   "mine": {
+    "status": 200,
+    "bytes": 1727800,
+    "lm": "2026-07-10",
+    "sha256": "e53c593218d0f873d95507269bf416c8e5e92ce562c8e61099fcde17888e589e"
+   },
+   "status_eq": true,
+   "bytes_eq": true,
+   "lm_eq": true,
+   "sha_eq": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_01.pdf",
+   "doc": {
+    "key": "qa-chobo-r0807（一問一答【帳簿書類関係】令和8年7月、PDF）",
+    "status": 200,
+    "bytes": 2944775,
+    "lm": "2026-07-10",
+    "sha256": "5a60ec280067d34bcede082ce180c29971afefab8d1222d36331daa274fd2618"
+   },
+   "mine": {
+    "status": 200,
+    "bytes": 2944775,
+    "lm": "2026-07-10",
+    "sha256": "5a60ec280067d34bcede082ce180c29971afefab8d1222d36331daa274fd2618"
+   },
+   "status_eq": true,
+   "bytes_eq": true,
+   "lm_eq": true,
+   "sha_eq": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0025006-066.pdf",
+   "doc": {
+    "key": "tsutatsu-r0706（取扱通達、令和7年6月27日付改正分まで、PDF）",
+    "status": 200,
+    "bytes": 491781,
+    "lm": "2025-06-27",
+    "sha256": "dceaaf0acfd0c1974b3b9047077360d7f63c8cf38e408467acd88666785f82af"
+   },
+   "mine": {
+    "status": 200,
+    "bytes": 491781,
+    "lm": "2025-06-27",
+    "sha256": "dceaaf0acfd0c1974b3b9047077360d7f63c8cf38e408467acd88666785f82af"
+   },
+   "status_eq": true,
+   "bytes_eq": true,
+   "lm_eq": true,
+   "sha_eq": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/2506/pdf/01-4.pdf",
+   "doc": {
+    "key": "tsutatsu-kaisetsu-r0706（取扱通達解説、PDF）",
+    "status": 200,
+    "bytes": 842261,
+    "lm": "2025-06-27",
+    "sha256": "efd7edb0464af88e77b3e495121bd8276face4766f8bccb8a615b6bd5a783917"
+   },
+   "mine": {
+    "status": 200,
+    "bytes": 842261,
+    "lm": "2025-06-27",
+    "sha256": "efd7edb0464af88e77b3e495121bd8276face4766f8bccb8a615b6bd5a783917"
+   },
+   "status_eq": true,
+   "bytes_eq": true,
+   "lm_eq": true,
+   "sha_eq": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/pdf/0024011-003_01.pdf",
+   "doc": {
+    "key": "pamph-dentori-r0611（令和6年11月、PDF）",
+    "status": 200,
+    "bytes": 626415,
+    "lm": "2024-11-29",
+    "sha256": "c25bc2898b9b0a1a71bce6cdc9955a5c9ebf6c6a474375e18e22c20f8de8c9af"
+   },
+   "mine": {
+    "status": 200,
+    "bytes": 626415,
+    "lm": "2024-11-29",
+    "sha256": "c25bc2898b9b0a1a71bce6cdc9955a5c9ebf6c6a474375e18e22c20f8de8c9af"
+   },
+   "status_eq": true,
+   "bytes_eq": true,
+   "lm_eq": true,
+   "sha_eq": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/pdf/0024011-003_02.pdf",
+   "doc": {
+    "key": "pamph-dentori-check-r0611（チェックシート、PDF）",
+    "status": 200,
+    "bytes": 367405,
+    "lm": "2024-11-29",
+    "sha256": "113cb5c9d46874b8e1dda36dee0df92621aad509a38b11c4ac04ef2168307c7b"
+   },
+   "mine": {
+    "status": 200,
+    "bytes": 367405,
+    "lm": "2024-11-29",
+    "sha256": "113cb5c9d46874b8e1dda36dee0df92621aad509a38b11c4ac04ef2168307c7b"
+   },
+   "status_eq": true,
+   "bytes_eq": true,
+   "lm_eq": true,
+   "sha_eq": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0025003-097_01.pdf",
+   "doc": {
+    "key": "pamph-r7kaisei（令和7年4月、PDF）",
+    "status": 200,
+    "bytes": 608179,
+    "lm": "2025-04-02",
+    "sha256": "671da822d2a7d8724d4dbc81b30e1dac00574ce5996903a2c920e9a2c0930e6d"
+   },
+   "mine": {
+    "status": 200,
+    "bytes": 608179,
+    "lm": "2025-04-02",
+    "sha256": "671da822d2a7d8724d4dbc81b30e1dac00574ce5996903a2c920e9a2c0930e6d"
+   },
+   "status_eq": true,
+   "bytes_eq": true,
+   "lm_eq": true,
+   "sha_eq": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/0021006-031.htm",
+   "doc": {
+    "key": "samples-page（各種規程等のサンプル）",
+    "status": 200,
+    "bytes": 4715,
+    "lm": "2026-07-10",
+    "sha256": "677fa6476dfd7c83bfccb865101ebe3cbc3aa76273d727c49bd085679d46a705"
+   },
+   "mine": {
+    "status": 200,
+    "bytes": 4715,
+    "lm": "2026-07-10",
+    "sha256": "677fa6476dfd7c83bfccb865101ebe3cbc3aa76273d727c49bd085679d46a705"
+   },
+   "status_eq": true,
+   "bytes_eq": true,
+   "lm_eq": true,
+   "sha_eq": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/word/0021006-031_e.docx",
+   "doc": {
+    "key": "kitei-kojin（事務処理規程・個人事業者の例、docx）",
+    "status": 200,
+    "bytes": 17911,
+    "lm": "2024-01-18",
+    "sha256": "3a17d85060f1c60ff2b740cf62a17d0dd25eaafd96c3167050d5acd0a60f7684"
+   },
+   "mine": {
+    "status": 200,
+    "bytes": 17911,
+    "lm": "2024-01-18",
+    "sha256": "3a17d85060f1c60ff2b740cf62a17d0dd25eaafd96c3167050d5acd0a60f7684"
+   },
+   "status_eq": true,
+   "bytes_eq": true,
+   "lm_eq": true,
+   "sha_eq": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/word/0021006-031_d.docx",
+   "doc": {
+    "key": "kitei-hojin（同・法人の例、docx）",
+    "status": 200,
+    "bytes": 24833,
+    "lm": "2026-07-10",
+    "sha256": "ed5421413216bb26b6f48b89af1b38b1a0022fb1b34fd0fd77f7be47e277c3f1"
+   },
+   "mine": {
+    "status": 200,
+    "bytes": 24833,
+    "lm": "2026-07-10",
+    "sha256": "ed5421413216bb26b6f48b89af1b38b1a0022fb1b34fd0fd77f7be47e277c3f1"
+   },
+   "status_eq": true,
+   "bytes_eq": true,
+   "lm_eq": true,
+   "sha_eq": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/excel/0021006-031_c.xlsx",
+   "doc": {
+    "key": "sakuinbo（索引簿の作成例、xlsx）",
+    "status": 200,
+    "bytes": 10403,
+    "lm": "2024-01-18",
+    "sha256": "ebf39cce4e385f7dba8ed75f91d145153612c99c1053f65a7dec0483f04ac52d"
+   },
+   "mine": {
+    "status": 200,
+    "bytes": 10403,
+    "lm": "2024-01-18",
+    "sha256": "ebf39cce4e385f7dba8ed75f91d145153612c99c1053f65a7dec0483f04ac52d"
+   },
+   "status_eq": true,
+   "bytes_eq": true,
+   "lm_eq": true,
+   "sha_eq": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/pdf/0023006-085_02.pdf",
+   "doc": {
+    "key": "pamph-chobo-r0507（帳簿・書類のデータ保存、令和5年7月、PDF）",
+    "status": 200,
+    "bytes": 733200,
+    "lm": "2024-01-18",
+    "sha256": "e8ba06ebf554fecec950eb46b26d77a93b2e59fd17dcc4b8395939a9f5931793"
+   },
+   "mine": {
+    "status": 200,
+    "bytes": 733200,
+    "lm": "2024-01-18",
+    "sha256": "e8ba06ebf554fecec950eb46b26d77a93b2e59fd17dcc4b8395939a9f5931793"
+   },
+   "status_eq": true,
+   "bytes_eq": true,
+   "lm_eq": true,
+   "sha_eq": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/pdf/0026006-122.pdf",
+   "doc": {
+    "key": "pamph-r0806（令和8年6月、PDF）",
+    "status": 200,
+    "bytes": 965128,
+    "lm": "2026-06-26",
+    "sha256": "b13bcf821f6b641566f3e9650558fd180118f42c51d0513b9289b309057a15a9"
+   },
+   "mine": {
+    "status": 200,
+    "bytes": 965128,
+    "lm": "2026-06-26",
+    "sha256": "b13bcf821f6b641566f3e9650558fd180118f42c51d0513b9289b309057a15a9"
+   },
+   "status_eq": true,
+   "bytes_eq": true,
+   "lm_eq": true,
+   "sha_eq": true
+  }
+ ]
+}

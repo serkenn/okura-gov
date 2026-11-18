@@ -1,0 +1,359 @@
+{
+ "C1_rei_tables": {
+  "ok": true,
+  "versions": {
+   "2025-04-01": "改正前（令和7年3月31日以前に受けるべき通勤手当）",
+   "2025-11-20": "令和7年政令第380号（令和7年4月1日以後に受けるべき通勤手当）",
+   "2026-04-01": "令和8年政令第93号（令和8年4月1日以後に受けるべき通勤手当）"
+  },
+  "tables": {
+   "2025-04-01": [
+    {
+     "from_km": 2,
+     "below_km": 10,
+     "yen": 4200
+    },
+    {
+     "from_km": 10,
+     "below_km": 15,
+     "yen": 7100
+    },
+    {
+     "from_km": 15,
+     "below_km": 25,
+     "yen": 12900
+    },
+    {
+     "from_km": 25,
+     "below_km": 35,
+     "yen": 18700
+    },
+    {
+     "from_km": 35,
+     "below_km": 45,
+     "yen": 24400
+    },
+    {
+     "from_km": 45,
+     "below_km": 55,
+     "yen": 28000
+    },
+    {
+     "from_km": 55,
+     "below_km": null,
+     "yen": 31600
+    }
+   ],
+   "2025-11-20": [
+    {
+     "from_km": 2,
+     "below_km": 10,
+     "yen": 4200
+    },
+    {
+     "from_km": 10,
+     "below_km": 15,
+     "yen": 7300
+    },
+    {
+     "from_km": 15,
+     "below_km": 25,
+     "yen": 13500
+    },
+    {
+     "from_km": 25,
+     "below_km": 35,
+     "yen": 19700
+    },
+    {
+     "from_km": 35,
+     "below_km": 45,
+     "yen": 25900
+    },
+    {
+     "from_km": 45,
+     "below_km": 55,
+     "yen": 32300
+    },
+    {
+     "from_km": 55,
+     "below_km": null,
+     "yen": 38700
+    }
+   ],
+   "2026-04-01": [
+    {
+     "from_km": 2,
+     "below_km": 10,
+     "yen": 4200
+    },
+    {
+     "from_km": 10,
+     "below_km": 15,
+     "yen": 7300
+    },
+    {
+     "from_km": 15,
+     "below_km": 25,
+     "yen": 13500
+    },
+    {
+     "from_km": 25,
+     "below_km": 35,
+     "yen": 19700
+    },
+    {
+     "from_km": 35,
+     "below_km": 45,
+     "yen": 25900
+    },
+    {
+     "from_km": 45,
+     "below_km": 55,
+     "yen": 32300
+    },
+    {
+     "from_km": 55,
+     "below_km": 65,
+     "yen": 38700
+    },
+    {
+     "from_km": 65,
+     "below_km": 75,
+     "yen": 45700
+    },
+    {
+     "from_km": 75,
+     "below_km": 85,
+     "yen": 52700
+    },
+    {
+     "from_km": 85,
+     "below_km": 95,
+     "yen": 59600
+    },
+    {
+     "from_km": 95,
+     "below_km": null,
+     "yen": 66400
+    }
+   ]
+  }
+ },
+ "C2_vs_nta_tables": {
+  "ta2585_vs_2026": true,
+  "ta2585": [
+   {
+    "from_km": 2,
+    "below_km": 10,
+    "yen": 4200
+   },
+   {
+    "from_km": 10,
+    "below_km": 15,
+    "yen": 7300
+   },
+   {
+    "from_km": 15,
+    "below_km": 25,
+    "yen": 13500
+   },
+   {
+    "from_km": 25,
+    "below_km": 35,
+    "yen": 19700
+   },
+   {
+    "from_km": 35,
+    "below_km": 45,
+    "yen": 25900
+   },
+   {
+    "from_km": 45,
+    "below_km": 55,
+    "yen": 32300
+   },
+   {
+    "from_km": 55,
+    "below_km": 65,
+    "yen": 38700
+   },
+   {
+    "from_km": 65,
+    "below_km": 75,
+    "yen": 45700
+   },
+   {
+    "from_km": 75,
+    "below_km": 85,
+    "yen": 52700
+   },
+   {
+    "from_km": 85,
+    "below_km": 95,
+    "yen": 59600
+   },
+   {
+    "from_km": 95,
+    "below_km": null,
+    "yen": 66400
+   }
+  ],
+  "users_pages_mismatch": [],
+  "users_2025_rows": 8,
+  "users_2026_rows": 12,
+  "ok": true
+ },
+ "C3_caps": {
+  "2025-04-01": {
+   "十五万円の上限の数": 3,
+   "駐車場等の上限五千円": false,
+   "二キロメートル未満の除外の数": 2
+  },
+  "2025-11-20": {
+   "十五万円の上限の数": 3,
+   "駐車場等の上限五千円": false,
+   "二キロメートル未満の除外の数": 2
+  },
+  "2026-04-01": {
+   "十五万円の上限の数": 4,
+   "駐車場等の上限五千円": true,
+   "二キロメートル未満の除外の数": 4
+  },
+  "ok": true
+ },
+ "C4_r8_qa_cases": {
+  "ok": true,
+  "cases": [
+   {
+    "case": "A",
+    "inputs": {
+     "vehicle_km": 50,
+     "parking_month": 8000
+    },
+    "paid": 40300,
+    "limit": 37300,
+    "taxable": 3000,
+    "expected_limit": 37300,
+    "expected_taxable": 3000,
+    "ok": true
+   },
+   {
+    "case": "B",
+    "inputs": {
+     "vehicle_km": 50,
+     "parking_month": 8000
+    },
+    "paid": 36000,
+    "limit": 37300,
+    "taxable": 0,
+    "expected_limit": 37300,
+    "expected_taxable": 0,
+    "ok": true
+   },
+   {
+    "case": "C",
+    "inputs": {
+     "vehicle_km": 50,
+     "parking_month": 4400
+    },
+    "paid": 37400,
+    "limit": 36700,
+    "taxable": 700,
+    "expected_limit": 36700,
+    "expected_taxable": 700,
+    "ok": true
+   },
+   {
+    "case": "D",
+    "inputs": {
+     "vehicle_km": 50,
+     "parking_month": 4400
+    },
+    "paid": 35000,
+    "limit": 36700,
+    "taxable": 0,
+    "expected_limit": 36700,
+    "expected_taxable": 0,
+    "ok": true
+   },
+   {
+    "case": "E",
+    "inputs": {
+     "transit": 115000,
+     "vehicle_km": 50,
+     "parking_month": 4000
+    },
+    "paid": 151300,
+    "limit": 150000,
+    "taxable": 1300,
+    "expected_limit": 150000,
+    "expected_taxable": 1300,
+    "ok": true
+   },
+   {
+    "case": "Q4-2",
+    "inputs": {
+     "vehicle_km": 50,
+     "parking_month": 6000
+    },
+    "paid": 38300,
+    "limit": 37300,
+    "taxable": 1000,
+    "expected_limit": 37300,
+    "expected_taxable": 1000,
+    "ok": true
+   },
+   {
+    "case": "Q3-4",
+    "limit": 0,
+    "expected_limit": 0,
+    "ok": true
+   }
+  ]
+ },
+ "C5_version_selection": {
+  "ok": true,
+  "cases": [
+   {
+    "q": "Q4",
+    "got": "R7",
+    "expected": "R7"
+   },
+   {
+    "q": "Q5",
+    "got": "old",
+    "expected": "old"
+   },
+   {
+    "q": "Q6",
+    "got": "R7",
+    "expected": "R7"
+   },
+   {
+    "q": "Q7",
+    "got": "old",
+    "expected": "old"
+   },
+   {
+    "q": "Q8",
+    "got": "old",
+    "expected": "old"
+   },
+   {
+    "q": "Q9",
+    "got": "R7",
+    "expected": "R7"
+   }
+  ]
+ },
+ "C6_rounding_example": {
+  "exact": "24000/11",
+  "float": 2181.818181818182,
+  "ceil": 2182,
+  "floor": 2181,
+  "qa_value": 2182,
+  "ok": true
+ },
+ "all_ok": true
+}

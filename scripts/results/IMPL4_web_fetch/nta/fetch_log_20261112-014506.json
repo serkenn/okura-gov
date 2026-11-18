@@ -1,0 +1,92 @@
+{
+ "set": "nta",
+ "fetched_at": "20261112-014506",
+ "download_dir": ".work/downloads/20261112-014506_IMPL4_web_fetch_nta",
+ "robots": [
+  {
+   "host": "https://www.nta.go.jp",
+   "status": 200,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+  }
+ ],
+ "items": [
+  {
+   "id": "kihon_13_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/13/01.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/13/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:30:20 GMT",
+   "bytes": 18589,
+   "sha256": "329de508632334040d268a2d2055057b70e0a21389bb16a26e286c529c33cbe6",
+   "saved": ".work/downloads/20261112-014506_IMPL4_web_fetch_nta/kihon_13_01.htm",
+   "title": "法第63条《事業を廃止した場合の必要経費の特例》関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_13_index",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/13/",
+   "final_url": "https://www.nta.go.jp/error/404.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:39:47 GMT",
+   "bytes": 2007,
+   "sha256": "700138cae1f347c2be03b380ba74007e704ceb81fe2a62d547e3559d4b851d55",
+   "saved": ".work/downloads/20261112-014506_IMPL4_web_fetch_nta/kihon_13_index.htm",
+   "title": "指定されたページを表示できませんでした",
+   "encoding": "Shift_JIS"
+  },
+  {
+   "id": "shitsugi_02_27",
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/02/27.htm",
+   "final_url": "https://www.nta.go.jp/law/shitsugi/shotoku/02/27.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 03 Dec 2025 08:31:06 GMT",
+   "bytes": 5868,
+   "sha256": "26eb83cc9663b82ee2f536c743ceb4560307350e117f35103d34a23c6a794fd1",
+   "saved": ".work/downloads/20261112-014506_IMPL4_web_fetch_nta/shitsugi_02_27.htm",
+   "title": "事業に至らない規模の不動産貸付において未収家賃が回収不能となった場合｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kobetsu_770822_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/770822/01.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/770822/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:25:13 GMT",
+   "bytes": 7298,
+   "sha256": "7876eaf2edd4c358b4feb5bdc1cccbcb875df215485252f1edca6af0d714c6a7",
+   "saved": ".work/downloads/20261112-014506_IMPL4_web_fetch_nta/kobetsu_770822_01.htm",
+   "title": "債権者集会の決定等に基づき未払配当金の受領を辞退した場合の配当所得の課税上の取扱いについて｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "ta_1400",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1400.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1400.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:10 GMT",
+   "bytes": 19352,
+   "sha256": "71c15579cc529b77fabf063e54689f53cff04c446e27debd0b88668d7da0852f",
+   "saved": ".work/downloads/20261112-014506_IMPL4_web_fetch_nta/ta_1400.htm",
+   "title": "No.1400 給与所得｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "kihon_06_index",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/06/",
+   "final_url": "https://www.nta.go.jp/error/404.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:39:47 GMT",
+   "bytes": 2007,
+   "sha256": "700138cae1f347c2be03b380ba74007e704ceb81fe2a62d547e3559d4b851d55",
+   "saved": ".work/downloads/20261112-014506_IMPL4_web_fetch_nta/kihon_06_index.htm",
+   "title": "指定されたページを表示できませんでした",
+   "encoding": "Shift_JIS"
+  }
+ ]
+}

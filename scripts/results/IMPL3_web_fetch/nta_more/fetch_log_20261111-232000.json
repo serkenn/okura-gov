@@ -1,0 +1,40 @@
+{
+ "set": "nta_more",
+ "fetched_at": "20261111-232000",
+ "download_dir": ".work/downloads/20261111-232000_IMPL3_web_fetch_nta_more",
+ "robots": [
+  {
+   "host": "https://www.nta.go.jp",
+   "status": 200,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+  }
+ ],
+ "items": [
+  {
+   "id": "ta_1180_qa",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180_qa.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180_qa.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:15 GMT",
+   "bytes": 22492,
+   "sha256": "02839cb155836ab2ed4396d6a72522f96c098999ff8c62a6d99c5e8a7143f9fd",
+   "saved": ".work/downloads/20261111-232000_IMPL3_web_fetch_nta_more/ta_1180_qa.htm",
+   "title": "No.1180&emsp;扶養控除｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "ta_1191",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1191.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1191.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:14 GMT",
+   "bytes": 20611,
+   "sha256": "0725ae1600feec4098f6dcd8588d4b224c7699181f7192cd8467e3205e8d38fe",
+   "saved": ".work/downloads/20261111-232000_IMPL3_web_fetch_nta_more/ta_1191.htm",
+   "title": "No.1191 配偶者控除｜国税庁",
+   "encoding": "utf-8"
+  }
+ ]
+}

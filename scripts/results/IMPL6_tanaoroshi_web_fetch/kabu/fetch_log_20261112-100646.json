@@ -1,0 +1,62 @@
+{
+ "set": "kabu",
+ "fetched_at": "20261112-100646",
+ "download_dir": ".work/downloads/20261112-100646_IMPL6_tanaoroshi_web_fetch_kabu",
+ "robots": [
+  {
+   "host": "https://www.nta.go.jp",
+   "status": 200,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+  }
+ ],
+ "items": [
+  {
+   "id": "kabu_Q7_jirei1_shinkokusho",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/Q/Q7.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/Q/Q7.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:26 GMT",
+   "bytes": 1116851,
+   "sha256": "edbb8ae9e522671710b39e1b99beb4be8ad059d3af6d211f2db1f4660cdad06c",
+   "saved": ".work/downloads/20261112-100646_IMPL6_tanaoroshi_web_fetch_kabu/kabu_Q7_jirei1_shinkokusho.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "kabu_Q11_jirei2_shinkokusho",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/Q/Q11.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/Q/Q11.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:27 GMT",
+   "bytes": 985732,
+   "sha256": "ed6ad99ec7cff7b5b3b1fe28f19718744ae0714e289623064ff62fbd5172930f",
+   "saved": ".work/downloads/20261112-100646_IMPL6_tanaoroshi_web_fetch_kabu/kabu_Q11_jirei2_shinkokusho.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "kabu_Q13_jirei3_shinkokusho",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/Q/Q13.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/Q/Q13.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:27 GMT",
+   "bytes": 1054228,
+   "sha256": "c90c16634f4234385a10eaeeb0008cbb34c4b770b48ae72f141e0bb7f8b42386",
+   "saved": ".work/downloads/20261112-100646_IMPL6_tanaoroshi_web_fetch_kabu/kabu_Q13_jirei3_shinkokusho.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "kabu_Q15",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/Q/Q15.pdf",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/Q/Q15.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:27 GMT",
+   "bytes": 2300823,
+   "sha256": "a950cef68938cdbc540159c72fbb333eb52669d4ce70d66f468f3c9828a825b5",
+   "saved": ".work/downloads/20261112-100646_IMPL6_tanaoroshi_web_fetch_kabu/kabu_Q15.pdf",
+   "pdf_header_ok": true
+  }
+ ]
+}

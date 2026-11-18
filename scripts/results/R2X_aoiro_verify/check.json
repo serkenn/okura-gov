@@ -1,0 +1,6038 @@
+{
+ "summary": {
+  "claims_total": 456,
+  "claims_ok": 456,
+  "revs_total": 22,
+  "revs_ok": 22,
+  "revs_sha_same": 21,
+  "revs_sha_compared": 21,
+  "article_diff_mismatch": 0,
+  "nta_meta_total": 40,
+  "nta_lm_ok": 40,
+  "nta_sha_same": 40,
+  "pdf_enc_ok": 18,
+  "pdf_enc_total": 18,
+  "pdf_pages_ok": 18,
+  "pdf_key_ok": 15,
+  "links_total": 18,
+  "links_ok": 18,
+  "pdf_formid_ok": true,
+  "pdf_p1_all_ok": true,
+  "examples_total": 37,
+  "examples_ok": 37,
+  "lookups_ok": 8,
+  "lookups_total": 8
+ },
+ "ng_claims": [],
+ "claims": [
+  {
+   "id": "所法143",
+   "ref": "PS§1.1",
+   "target": "shotoku@2025-12-31 143/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法143",
+   "ref": "PS§1.1",
+   "target": "shotoku@2026-12-31 143/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法2①四十",
+   "ref": "PS§1.1",
+   "target": "shotoku@2025-12-31 2/1/40",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法2①四十",
+   "ref": "PS§1.1",
+   "target": "shotoku@2026-12-31 2/1/40",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所基通143−1",
+   "ref": "PS§1.1",
+   "target": "nta/kihon_20_01",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法144",
+   "ref": "PS§1.2",
+   "target": "shotoku@2025-12-31 144/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法144",
+   "ref": "PS§1.2",
+   "target": "shotoku@2026-12-31 144/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所基通144−1",
+   "ref": "PS§1.2",
+   "target": "nta/kihon_20_01",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "A1-8 相続1",
+   "ref": "PS§1.2",
+   "target": "nta/annai_09",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "A1-8 相続2",
+   "ref": "PS§1.2",
+   "target": "nta/annai_09",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "A1-8 相続3",
+   "ref": "PS§1.2",
+   "target": "nta/annai_09",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "A1-8 休日",
+   "ref": "PS§1.2",
+   "target": "nta/annai_09",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "A1-8 根拠",
+   "ref": "PS§1.2",
+   "target": "nta/annai_09",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "A1-8 題",
+   "ref": "PS§0.2",
+   "target": "nta/annai_09",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "TA2070 白色の承継",
+   "ref": "PS§1.2",
+   "target": "nta/ta_2070",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規55①二",
+   "ref": "PS§1.3",
+   "target": "shotoku-ki@2025-12-31 55/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規55①二",
+   "ref": "PS§1.3",
+   "target": "shotoku-ki@2026-12-31 55/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規55①三",
+   "ref": "PS§1.3",
+   "target": "shotoku-ki@2025-12-31 55/1/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規55①三",
+   "ref": "PS§1.3",
+   "target": "shotoku-ki@2026-12-31 55/1/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規55①四",
+   "ref": "PS§1.3",
+   "target": "shotoku-ki@2025-12-31 55/1/4",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規55①四",
+   "ref": "PS§1.3",
+   "target": "shotoku-ki@2026-12-31 55/1/4",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規55①五",
+   "ref": "PS§1.3",
+   "target": "shotoku-ki@2025-12-31 55/1/5",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規55①五",
+   "ref": "PS§1.3",
+   "target": "shotoku-ki@2026-12-31 55/1/5",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規55①三(R9)",
+   "ref": "PS§1.3",
+   "target": "shotoku-ki@2027-01-01 55/1/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規55①四(R9なし)",
+   "ref": "PS§1.3",
+   "target": "shotoku-ki@2027-01-01 55/1/4",
+   "kind": "absent",
+   "ok": true
+  },
+  {
+   "id": "令5財12附則1⑤",
+   "ref": "PS§1.3",
+   "target": "shotoku-ki@2027-01-01 附則(令和五年三月三一日財務省令第一二号) 第1条 1/5",
+   "kind": "suppl",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "令5財12附則5",
+   "ref": "PS§1.3",
+   "target": "shotoku-ki@2027-01-01 附則(令和五年三月三一日財務省令第一二号) 第5条 ",
+   "kind": "suppl",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法145一",
+   "ref": "PS§1.4",
+   "target": "shotoku@2025-12-31 145/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法145一",
+   "ref": "PS§1.4",
+   "target": "shotoku@2026-12-31 145/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法145二",
+   "ref": "PS§1.4",
+   "target": "shotoku@2025-12-31 145/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法145二",
+   "ref": "PS§1.4",
+   "target": "shotoku@2026-12-31 145/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法145三",
+   "ref": "PS§1.4",
+   "target": "shotoku@2025-12-31 145/1/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法145三",
+   "ref": "PS§1.4",
+   "target": "shotoku@2026-12-31 145/1/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法146",
+   "ref": "PS§1.4",
+   "target": "shotoku@2025-12-31 146/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法146",
+   "ref": "PS§1.4",
+   "target": "shotoku@2026-12-31 146/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法147",
+   "ref": "PS§1.4",
+   "target": "shotoku@2025-12-31 147/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法147",
+   "ref": "PS§1.4",
+   "target": "shotoku@2026-12-31 147/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳法8③一",
+   "ref": "PS§1.4",
+   "target": "denchou@2025-12-31 8/3/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法150①",
+   "ref": "PS§1.5",
+   "target": "shotoku@2025-12-31 150/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法150①",
+   "ref": "PS§1.5",
+   "target": "shotoku@2026-12-31 150/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法150①二",
+   "ref": "PS§1.5",
+   "target": "shotoku@2025-12-31 150/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法150①二",
+   "ref": "PS§1.5",
+   "target": "shotoku@2026-12-31 150/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法150①三",
+   "ref": "PS§1.5",
+   "target": "shotoku@2025-12-31 150/1/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法150①三",
+   "ref": "PS§1.5",
+   "target": "shotoku@2026-12-31 150/1/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法150②",
+   "ref": "PS§1.5",
+   "target": "shotoku@2025-12-31 150/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法150②",
+   "ref": "PS§1.5",
+   "target": "shotoku@2026-12-31 150/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所基通150−1",
+   "ref": "PS§1.5",
+   "target": "nta/kihon_20_01",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法151①R7",
+   "ref": "PS§1.6",
+   "target": "shotoku@2025-12-31 151/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法151①R8",
+   "ref": "PS§1.6",
+   "target": "shotoku@2026-12-31 151/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法151①後段",
+   "ref": "PS§1.6",
+   "target": "shotoku@2025-12-31 151/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法151①後段",
+   "ref": "PS§1.6",
+   "target": "shotoku@2026-12-31 151/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法151②R7",
+   "ref": "PS§1.6",
+   "target": "shotoku@2025-12-31 151/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法151②R8",
+   "ref": "PS§1.6",
+   "target": "shotoku@2026-12-31 151/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "令5法3附則1⑥イ",
+   "ref": "PS§1.6",
+   "target": "shotoku@2026-12-31 附則(令和五年三月三一日法律第三号) 第1条 1/6/1",
+   "kind": "suppl",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "令5法3附則1⑥",
+   "ref": "PS§1.6",
+   "target": "shotoku@2026-12-31 附則(令和五年三月三一日法律第三号) 第1条 1/6",
+   "kind": "suppl",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "令5法3附則5",
+   "ref": "PS§1.6",
+   "target": "shotoku@2026-12-31 附則(令和五年三月三一日法律第三号) 第5条 ",
+   "kind": "suppl",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規66①R7二",
+   "ref": "PS§1.6",
+   "target": "shotoku-ki@2025-12-31 66/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規66①R7三",
+   "ref": "PS§1.6",
+   "target": "shotoku-ki@2025-12-31 66/1/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規66①R7四",
+   "ref": "PS§1.6",
+   "target": "shotoku-ki@2025-12-31 66/1/4",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規66①R8二",
+   "ref": "PS§1.6",
+   "target": "shotoku-ki@2026-12-31 66/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規66①R8二",
+   "ref": "PS§1.6",
+   "target": "shotoku-ki@2026-11-09 66/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規66①R8三なし",
+   "ref": "PS§1.6",
+   "target": "shotoku-ki@2026-12-31 66/1/3",
+   "kind": "absent",
+   "ok": true
+  },
+  {
+   "id": "令5財12附則1④",
+   "ref": "PS§1.6",
+   "target": "shotoku-ki@2026-12-31 附則(令和五年三月三一日財務省令第一二号) 第1条 1/4",
+   "kind": "suppl",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "令5財12附則6",
+   "ref": "PS§1.6",
+   "target": "shotoku-ki@2026-12-31 附則(令和五年三月三一日財務省令第一二号) 第6条 ",
+   "kind": "suppl",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "A1-9 取りやめ",
+   "ref": "PS§1.6",
+   "target": "nta/annai_23200008",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "A1-9 取りやめ 題",
+   "ref": "PS§0.2",
+   "target": "nta/annai_23200008",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "A1-9 兼現金主義 題",
+   "ref": "PS§0.2",
+   "target": "nta/annai_10",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法155①",
+   "ref": "PS§1.7",
+   "target": "shotoku@2025-12-31 155/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法155①",
+   "ref": "PS§1.7",
+   "target": "shotoku@2026-12-31 155/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法155②",
+   "ref": "PS§1.7",
+   "target": "shotoku@2025-12-31 155/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法155②",
+   "ref": "PS§1.7",
+   "target": "shotoku@2026-12-31 155/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法148①",
+   "ref": "PS§2.1",
+   "target": "shotoku@2025-12-31 148/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法148①",
+   "ref": "PS§2.1",
+   "target": "shotoku@2026-12-31 148/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法148②",
+   "ref": "PS§2.1",
+   "target": "shotoku@2025-12-31 148/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法148②",
+   "ref": "PS§2.1",
+   "target": "shotoku@2026-12-31 148/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法149",
+   "ref": "PS§2.1",
+   "target": "shotoku@2025-12-31 149/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法149",
+   "ref": "PS§2.1",
+   "target": "shotoku@2026-12-31 149/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法232①",
+   "ref": "PS§2.1",
+   "target": "shotoku@2025-12-31 232/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法232①",
+   "ref": "PS§2.1",
+   "target": "shotoku@2026-12-31 232/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規56①",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2025-12-31 56/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規56①",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2026-12-31 56/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規56①",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2027-01-01 56/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規56③",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2025-12-31 56/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規56③",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2026-12-31 56/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規56③",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2027-01-01 56/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規57①",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2025-12-31 57/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規57①",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2026-12-31 57/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規57①",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2027-01-01 57/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規57①一",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2025-12-31 57/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規57①一",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2026-12-31 57/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規57①一",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2027-01-01 57/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規57①三",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2025-12-31 57/1/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規57①三",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2026-12-31 57/1/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規57①三",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2027-01-01 57/1/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規57②",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2025-12-31 57/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規57②",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2026-12-31 57/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規57②",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2027-01-01 57/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規58①",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2025-12-31 58/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規58①",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2026-12-31 58/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規58①",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2027-01-01 58/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規58②",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2025-12-31 58/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規58②",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2026-12-31 58/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規58②",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2027-01-01 58/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規59",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2025-12-31 59",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規59",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2026-12-31 59",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規59",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2027-01-01 59",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規60①",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2025-12-31 60/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規60①",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2026-12-31 60/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規60①",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2027-01-01 60/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規60②",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2025-12-31 60/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規60②",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2026-12-31 60/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規60②",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2027-01-01 60/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規60③",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2025-12-31 60/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規60③",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2026-12-31 60/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規60③",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2027-01-01 60/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規61①",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2025-12-31 61/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規61①",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2026-12-31 61/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規61①",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2027-01-01 61/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規61②",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2025-12-31 61/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規61②",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2026-12-31 61/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規61②",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2027-01-01 61/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規62",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2025-12-31 62",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規62",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2026-12-31 62",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規62",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2027-01-01 62",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規64",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2025-12-31 64",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規64",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2026-12-31 64",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規64",
+   "ref": "PS§2.2",
+   "target": "shotoku-ki@2027-01-01 64",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所基通148−1",
+   "ref": "PS§2.2",
+   "target": "nta/kihon_20_01",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規65①一",
+   "ref": "PS§2.3",
+   "target": "shotoku-ki@2025-12-31 65/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規65①一",
+   "ref": "PS§2.3",
+   "target": "shotoku-ki@2026-12-31 65/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規65①一",
+   "ref": "PS§2.3",
+   "target": "shotoku-ki@2027-01-01 65/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規65①二",
+   "ref": "PS§2.3",
+   "target": "shotoku-ki@2025-12-31 65/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規65①二",
+   "ref": "PS§2.3",
+   "target": "shotoku-ki@2026-12-31 65/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規65①二",
+   "ref": "PS§2.3",
+   "target": "shotoku-ki@2027-01-01 65/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規65①三",
+   "ref": "PS§2.3",
+   "target": "shotoku-ki@2025-12-31 65/1/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規65①三",
+   "ref": "PS§2.3",
+   "target": "shotoku-ki@2026-12-31 65/1/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規65①三",
+   "ref": "PS§2.3",
+   "target": "shotoku-ki@2027-01-01 65/1/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規65②",
+   "ref": "PS§2.3",
+   "target": "shotoku-ki@2025-12-31 65/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規65②",
+   "ref": "PS§2.3",
+   "target": "shotoku-ki@2026-12-31 65/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規65②",
+   "ref": "PS§2.3",
+   "target": "shotoku-ki@2027-01-01 65/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規56②",
+   "ref": "PS§2.3",
+   "target": "shotoku-ki@2025-12-31 56/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規56②",
+   "ref": "PS§2.3",
+   "target": "shotoku-ki@2026-12-31 56/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規56②",
+   "ref": "PS§2.3",
+   "target": "shotoku-ki@2027-01-01 56/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "TA2070 簡易帳簿",
+   "ref": "PS§2.3",
+   "target": "nta/ta_2070",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規63①",
+   "ref": "PS§2.4",
+   "target": "shotoku-ki@2025-12-31 63/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規63①",
+   "ref": "PS§2.4",
+   "target": "shotoku-ki@2026-12-31 63/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規63①",
+   "ref": "PS§2.4",
+   "target": "shotoku-ki@2027-01-01 63/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規63②",
+   "ref": "PS§2.4",
+   "target": "shotoku-ki@2025-12-31 63/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規63②",
+   "ref": "PS§2.4",
+   "target": "shotoku-ki@2026-12-31 63/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規63②",
+   "ref": "PS§2.4",
+   "target": "shotoku-ki@2027-01-01 63/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令195一 300万",
+   "ref": "PS§2.4",
+   "target": "shotoku-rei@2025-12-31 195/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令195一 300万",
+   "ref": "PS§2.4",
+   "target": "shotoku-rei@2026-12-31 195/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令195一 300万",
+   "ref": "PS§2.4",
+   "target": "shotoku-rei@2027-01-01 195/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規63④",
+   "ref": "PS§2.4",
+   "target": "shotoku-ki@2025-12-31 63/4",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規63④",
+   "ref": "PS§2.4",
+   "target": "shotoku-ki@2026-12-31 63/4",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規63④",
+   "ref": "PS§2.4",
+   "target": "shotoku-ki@2027-01-01 63/4",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "TA2070 保存",
+   "ref": "PS§2.4",
+   "target": "nta/ta_2070",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規2①",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2025-12-31 2/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規2①",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2026-12-31 2/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "法規53（複式簿記）",
+   "ref": "検証で追加",
+   "target": "hojin-ki@2025-12-31 53/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規57①（正規の簿記）",
+   "ref": "検証で追加",
+   "target": "shotoku-ki@2025-12-31 57/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5⑤一イ(1)",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2025-12-31 5/5/1/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5⑤一イ(1)",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2026-12-31 5/5/1/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5⑤一イ(2)",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2025-12-31 5/5/1/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5⑤一イ(2)",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2026-12-31 5/5/1/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5⑤一ロ",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2025-12-31 5/5/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5⑤一ロ",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2026-12-31 5/5/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5⑤一ハ(1)",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2025-12-31 5/5/1/3/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5⑤一ハ(1)",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2026-12-31 5/5/1/3/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5⑤一ハ(2)",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2025-12-31 5/5/1/3/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5⑤一ハ(2)",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2026-12-31 5/5/1/3/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5⑤一ハ(3)",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2025-12-31 5/5/1/3/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5⑤一ハ(3)",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2026-12-31 5/5/1/3/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5⑤一 括弧",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2025-12-31 5/5/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5⑤一 括弧",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2026-12-31 5/5/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5⑤ 柱書",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2025-12-31 5/5",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5⑤ 柱書",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2026-12-31 5/5",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5①",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2025-12-31 5/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5①",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2026-12-31 5/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5②",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2025-12-31 5/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5②",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2026-12-31 5/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5④(R9)",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2027-01-01 5/4",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5⑤(R9)",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2027-01-01 5/5",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "電帳規5⑧(R9)",
+   "ref": "PS§2.5",
+   "target": "denchou-ki@2027-01-01 5/8",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2①",
+   "ref": "PS§3.1",
+   "target": "sochi@2025-12-31 25_2/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2①",
+   "ref": "PS§3.1",
+   "target": "sochi@2026-12-31 25_2/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2①一",
+   "ref": "PS§3.1",
+   "target": "sochi@2025-12-31 25_2/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2①一",
+   "ref": "PS§3.1",
+   "target": "sochi@2026-12-31 25_2/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2①二",
+   "ref": "PS§3.1",
+   "target": "sochi@2025-12-31 25_2/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2①二",
+   "ref": "PS§3.1",
+   "target": "sochi@2026-12-31 25_2/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法26①（社会保険診療）",
+   "ref": "PS§3.1",
+   "target": "sochi@2025-12-31 26/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法26①（社会保険診療）",
+   "ref": "PS§3.1",
+   "target": "sochi@2026-12-31 26/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2②",
+   "ref": "PS§3.1",
+   "target": "sochi@2025-12-31 25_2/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2②",
+   "ref": "PS§3.1",
+   "target": "sochi@2026-12-31 25_2/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2③",
+   "ref": "PS§3.1",
+   "target": "sochi@2025-12-31 25_2/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2③",
+   "ref": "PS§3.1",
+   "target": "sochi@2026-12-31 25_2/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2③一",
+   "ref": "PS§3.1",
+   "target": "sochi@2025-12-31 25_2/3/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2③一",
+   "ref": "PS§3.1",
+   "target": "sochi@2026-12-31 25_2/3/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2③二",
+   "ref": "PS§3.1",
+   "target": "sochi@2025-12-31 25_2/3/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2③二",
+   "ref": "PS§3.1",
+   "target": "sochi@2026-12-31 25_2/3/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2④",
+   "ref": "PS§3.1",
+   "target": "sochi@2025-12-31 25_2/4",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2④",
+   "ref": "PS§3.1",
+   "target": "sochi@2026-12-31 25_2/4",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2④一",
+   "ref": "PS§3.1",
+   "target": "sochi@2025-12-31 25_2/4/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2④一",
+   "ref": "PS§3.1",
+   "target": "sochi@2026-12-31 25_2/4/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2④二",
+   "ref": "PS§3.1",
+   "target": "sochi@2025-12-31 25_2/4/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2④二",
+   "ref": "PS§3.1",
+   "target": "sochi@2026-12-31 25_2/4/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2⑤",
+   "ref": "PS§3.1",
+   "target": "sochi@2025-12-31 25_2/5",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2⑤",
+   "ref": "PS§3.1",
+   "target": "sochi@2026-12-31 25_2/5",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2⑥",
+   "ref": "PS§3.1",
+   "target": "sochi@2025-12-31 25_2/6",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2⑥",
+   "ref": "PS§3.1",
+   "target": "sochi@2026-12-31 25_2/6",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措規9の6①",
+   "ref": "PS§3.1",
+   "target": "sochi-ki@2025-12-31 9_6/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措規9の6①",
+   "ref": "PS§3.1",
+   "target": "sochi-ki@2026-12-31 9_6/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措規9の6②",
+   "ref": "PS§3.1",
+   "target": "sochi-ki@2025-12-31 9_6/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措規9の6②",
+   "ref": "PS§3.1",
+   "target": "sochi-ki@2026-12-31 9_6/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措規9の6③",
+   "ref": "PS§3.1",
+   "target": "sochi-ki@2025-12-31 9_6/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措規9の6③",
+   "ref": "PS§3.1",
+   "target": "sochi-ki@2026-12-31 9_6/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措規9の6④",
+   "ref": "PS§3.1",
+   "target": "sochi-ki@2025-12-31 9_6/4",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措規9の6④",
+   "ref": "PS§3.1",
+   "target": "sochi-ki@2026-12-31 9_6/4",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措規9の6⑤",
+   "ref": "PS§3.1",
+   "target": "sochi-ki@2025-12-31 9_6/5",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措規9の6⑤",
+   "ref": "PS§3.1",
+   "target": "sochi-ki@2026-12-31 9_6/5",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措規9の6⑥",
+   "ref": "PS§3.1",
+   "target": "sochi-ki@2025-12-31 9_6/6",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措規9の6⑥",
+   "ref": "PS§3.1",
+   "target": "sochi-ki@2026-12-31 9_6/6",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措規9の6⑦",
+   "ref": "PS§3.1",
+   "target": "sochi-ki@2025-12-31 9_6/7",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措規9の6⑦",
+   "ref": "PS§3.1",
+   "target": "sochi-ki@2026-12-31 9_6/7",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "TA2072 日付",
+   "ref": "PS§0.2",
+   "target": "nta/ta_2072",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "TA2070 日付",
+   "ref": "PS§0.2",
+   "target": "nta/ta_2070",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "TA2075 日付",
+   "ref": "PS§0.2",
+   "target": "nta/ta_2075",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "TA2250 日付",
+   "ref": "PS§0.2",
+   "target": "nta/ta_2250",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "TA2072 注1",
+   "ref": "PS§3.2",
+   "target": "nta/ta_2072",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "TA2072 注2",
+   "ref": "PS§3.2",
+   "target": "nta/ta_2072",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "TA2072 注3",
+   "ref": "PS§3.2",
+   "target": "nta/ta_2072",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "TA2072 注4",
+   "ref": "PS§3.2",
+   "target": "nta/ta_2072",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "TA2072 イ",
+   "ref": "PS§3.2",
+   "target": "nta/ta_2072",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "TA2072 ロ",
+   "ref": "PS§3.2",
+   "target": "nta/ta_2072",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "TA2072 10万",
+   "ref": "PS§3.2",
+   "target": "nta/ta_2072",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措通25の2−1(1)",
+   "ref": "PS§3.2",
+   "target": "nta/sochitsu_25_2",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措通25の2−1(2)",
+   "ref": "PS§3.2",
+   "target": "nta/sochitsu_25_2",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措通25の2−1(3)",
+   "ref": "PS§3.2",
+   "target": "nta/sochitsu_25_2",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措通25の2−2",
+   "ref": "PS§3.2",
+   "target": "nta/sochitsu_25_2",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措通25の2−3",
+   "ref": "PS§3.2",
+   "target": "nta/sochitsu_25_2",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措通25の2−5",
+   "ref": "PS§3.2",
+   "target": "nta/sochitsu_25_2",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措通 令8課個2-10",
+   "ref": "PS§3.2",
+   "target": "nta/sochitsu_25_2",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "A1-15 対象者",
+   "ref": "PS§3.2",
+   "target": "nta/annai_09_2",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "A1-15 時期",
+   "ref": "PS§3.2",
+   "target": "nta/annai_09_2",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "A1-15 根拠",
+   "ref": "PS§3.2",
+   "target": "nta/annai_09_2",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "A1-15 題",
+   "ref": "PS§0.2",
+   "target": "nta/annai_09_2",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "A1-16 根拠",
+   "ref": "PS§3.2",
+   "target": "nta/annai_17_0",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "A1-16 時期",
+   "ref": "PS§3.2",
+   "target": "nta/annai_17_0",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "A1-16 題",
+   "ref": "PS§0.2",
+   "target": "nta/annai_17_0",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2①(R9)",
+   "ref": "PS§3.3",
+   "target": "sochi@2027-01-01 25_2/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2①一(R9)",
+   "ref": "PS§3.3",
+   "target": "sochi@2027-01-01 25_2/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2②(R9)",
+   "ref": "PS§3.3",
+   "target": "sochi@2027-01-01 25_2/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2②一(R9)",
+   "ref": "PS§3.3",
+   "target": "sochi@2027-01-01 25_2/2/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2②二(R9)",
+   "ref": "PS§3.3",
+   "target": "sochi@2027-01-01 25_2/2/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2④一(R9)",
+   "ref": "PS§3.3",
+   "target": "sochi@2027-01-01 25_2/4/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2⑤(R9)",
+   "ref": "PS§3.3",
+   "target": "sochi@2027-01-01 25_2/5",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2⑤一(R9)",
+   "ref": "PS§3.3",
+   "target": "sochi@2027-01-01 25_2/5/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2⑤二イ(R9)",
+   "ref": "PS§3.3",
+   "target": "sochi@2027-01-01 25_2/5/2/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2⑤二ロ(R9)",
+   "ref": "PS§3.3",
+   "target": "sochi@2027-01-01 25_2/5/2/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措法25の2⑦(R9)",
+   "ref": "PS§3.3",
+   "target": "sochi@2027-01-01 25_2/7",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措規9の6③(R9) 定義",
+   "ref": "PS§3.3",
+   "target": "sochi-ki@2027-01-01 9_6/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措規9の6⑥(R9) 定義",
+   "ref": "PS§3.3",
+   "target": "sochi-ki@2027-01-01 9_6/6",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措規9の6⑤(R9)",
+   "ref": "PS§3.3",
+   "target": "sochi-ki@2027-01-01 9_6/5",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措規9の6⑧(R9)",
+   "ref": "PS§3.3",
+   "target": "sochi-ki@2027-01-01 9_6/8",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措規9の6⑨(R9)",
+   "ref": "PS§3.3",
+   "target": "sochi-ki@2027-01-01 9_6/9",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措規9の6⑩(R9)",
+   "ref": "PS§3.3",
+   "target": "sochi-ki@2027-01-01 9_6/10",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "措規9の6⑪(R9)",
+   "ref": "PS§3.3",
+   "target": "sochi-ki@2027-01-01 9_6/11",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "令7財26附則1⑥",
+   "ref": "PS§3.3",
+   "target": "sochi-ki@2027-01-01 附則(令和七年三月三一日財務省令第二六号) 第1条 1/6",
+   "kind": "suppl",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "令8財21附則1④イ",
+   "ref": "PS§3.3",
+   "target": "sochi-ki@2027-01-01 附則(令和八年三月三一日財務省令第二一号) 第1条 1/4/1",
+   "kind": "suppl",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "令8財21附則1④",
+   "ref": "PS§3.3",
+   "target": "sochi-ki@2027-01-01 附則(令和八年三月三一日財務省令第二一号) 第1条 1/4",
+   "kind": "suppl",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "令8法12附則1⑤ロ",
+   "ref": "PS§3.3",
+   "target": "sochi@2027-01-01 附則(令和八年三月三一日法律第一二号) 第1条 1/5/2",
+   "kind": "suppl",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "令8法12附則1⑤",
+   "ref": "PS§3.3",
+   "target": "sochi@2027-01-01 附則(令和八年三月三一日法律第一二号) 第1条 1/5",
+   "kind": "suppl",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "令8法12附則33",
+   "ref": "PS§3.3",
+   "target": "sochi@2027-01-01 附則(令和八年三月三一日法律第一二号) 第33条 ",
+   "kind": "suppl",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "令7法13附則31（第四項第一号ロ）",
+   "ref": "PS§3.4",
+   "target": "sochi@2027-01-01 附則(令和七年三月三一日法律第一三号) 第31条 ",
+   "kind": "suppl",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法57①",
+   "ref": "PS§4.1",
+   "target": "shotoku@2025-12-31 57/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法57①",
+   "ref": "PS§4.1",
+   "target": "shotoku@2026-12-31 57/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法56（前条の事業）",
+   "ref": "PS§4.1",
+   "target": "shotoku@2025-12-31 56/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法56（前条の事業）",
+   "ref": "PS§4.1",
+   "target": "shotoku@2026-12-31 56/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法57②",
+   "ref": "PS§4.1",
+   "target": "shotoku@2025-12-31 57/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法57②",
+   "ref": "PS§4.1",
+   "target": "shotoku@2026-12-31 57/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法57⑦",
+   "ref": "PS§4.1",
+   "target": "shotoku@2025-12-31 57/7",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法57⑦",
+   "ref": "PS§4.1",
+   "target": "shotoku@2026-12-31 57/7",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法57⑧",
+   "ref": "PS§4",
+   "target": "shotoku@2025-12-31 57/8",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法57⑧",
+   "ref": "PS§4",
+   "target": "shotoku@2026-12-31 57/8",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法57③イ 86万",
+   "ref": "H§H6",
+   "target": "shotoku@2025-12-31 57/3/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法57③イ 86万",
+   "ref": "H§H6",
+   "target": "shotoku@2026-12-31 57/3/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法57③ロ 50万",
+   "ref": "H§H6",
+   "target": "shotoku@2025-12-31 57/3/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法57③ロ 50万",
+   "ref": "H§H6",
+   "target": "shotoku@2026-12-31 57/3/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法57③二",
+   "ref": "H§H6",
+   "target": "shotoku@2025-12-31 57/3/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法57③二",
+   "ref": "H§H6",
+   "target": "shotoku@2026-12-31 57/3/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令164①一",
+   "ref": "PS§4.1",
+   "target": "shotoku-rei@2025-12-31 164/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令164①一",
+   "ref": "PS§4.1",
+   "target": "shotoku-rei@2026-12-31 164/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令164①二",
+   "ref": "PS§4.1",
+   "target": "shotoku-rei@2025-12-31 164/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令164①二",
+   "ref": "PS§4.1",
+   "target": "shotoku-rei@2026-12-31 164/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令164①三",
+   "ref": "PS§4.1",
+   "target": "shotoku-rei@2025-12-31 164/1/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令164①三",
+   "ref": "PS§4.1",
+   "target": "shotoku-rei@2026-12-31 164/1/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令164②",
+   "ref": "PS§4.2",
+   "target": "shotoku-rei@2025-12-31 164/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令164②",
+   "ref": "PS§4.2",
+   "target": "shotoku-rei@2026-12-31 164/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令165①",
+   "ref": "PS§4.1",
+   "target": "shotoku-rei@2025-12-31 165/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令165①",
+   "ref": "PS§4.1",
+   "target": "shotoku-rei@2026-12-31 165/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令165①一",
+   "ref": "PS§4.1",
+   "target": "shotoku-rei@2025-12-31 165/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令165①一",
+   "ref": "PS§4.1",
+   "target": "shotoku-rei@2026-12-31 165/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令165①二",
+   "ref": "PS§4.1",
+   "target": "shotoku-rei@2025-12-31 165/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令165①二",
+   "ref": "PS§4.1",
+   "target": "shotoku-rei@2026-12-31 165/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令165②一",
+   "ref": "PS§4.1",
+   "target": "shotoku-rei@2025-12-31 165/2/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令165②一",
+   "ref": "PS§4.1",
+   "target": "shotoku-rei@2026-12-31 165/2/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令165②一(R7) 生徒",
+   "ref": "PS§4.1",
+   "target": "shotoku-rei@2025-12-31 165/2/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令165②一(R8) 学生又は生徒",
+   "ref": "PS§4.1",
+   "target": "shotoku-rei@2026-12-31 165/2/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令165②二",
+   "ref": "PS§4.1",
+   "target": "shotoku-rei@2025-12-31 165/2/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令165②二",
+   "ref": "PS§4.1",
+   "target": "shotoku-rei@2026-12-31 165/2/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令165②三",
+   "ref": "PS§4.1",
+   "target": "shotoku-rei@2025-12-31 165/2/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令165②三",
+   "ref": "PS§4.1",
+   "target": "shotoku-rei@2026-12-31 165/2/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令167",
+   "ref": "PS§4.1",
+   "target": "shotoku-rei@2025-12-31 167",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令167",
+   "ref": "PS§4.1",
+   "target": "shotoku-rei@2026-12-31 167",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "TA2075 要件",
+   "ref": "PS§4.1",
+   "target": "nta/ta_2075",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "TA2075 注2",
+   "ref": "PS§4.1",
+   "target": "nta/ta_2075",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "TA2075 過大",
+   "ref": "PS§4.1",
+   "target": "nta/ta_2075",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所基通57−2",
+   "ref": "PS§4.1",
+   "target": "nta/kihon_11_01",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所基通57−3",
+   "ref": "PS§4.1",
+   "target": "nta/kihon_11_01",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規36の4①二",
+   "ref": "PS§4.2",
+   "target": "shotoku-ki@2025-12-31 36_4/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規36の4①二",
+   "ref": "PS§4.2",
+   "target": "shotoku-ki@2026-12-31 36_4/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規36の4①三",
+   "ref": "PS§4.2",
+   "target": "shotoku-ki@2025-12-31 36_4/1/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規36の4①三",
+   "ref": "PS§4.2",
+   "target": "shotoku-ki@2026-12-31 36_4/1/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規36の4①四",
+   "ref": "PS§4.2",
+   "target": "shotoku-ki@2025-12-31 36_4/1/4",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規36の4①四",
+   "ref": "PS§4.2",
+   "target": "shotoku-ki@2026-12-31 36_4/1/4",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規36の4①五",
+   "ref": "PS§4.2",
+   "target": "shotoku-ki@2025-12-31 36_4/1/5",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規36の4①五",
+   "ref": "PS§4.2",
+   "target": "shotoku-ki@2026-12-31 36_4/1/5",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規36の4①四(R9)",
+   "ref": "PS§4.2",
+   "target": "shotoku-ki@2027-01-01 36_4/1/4",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規36の4①四(R9) 支給の方法なし",
+   "ref": "PS§4.2",
+   "target": "shotoku-ki@2027-01-01 36_4/1/4",
+   "kind": "absent",
+   "ok": true
+  },
+  {
+   "id": "所規36の4①五(R9)",
+   "ref": "PS§4.2",
+   "target": "shotoku-ki@2027-01-01 36_4/1/5",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規36の4①五(R9) 昇給なし",
+   "ref": "PS§4.2",
+   "target": "shotoku-ki@2027-01-01 36_4/1/5",
+   "kind": "absent",
+   "ok": true
+  },
+  {
+   "id": "令5財12附則1⑤（36の4）",
+   "ref": "PS§4.2",
+   "target": "shotoku-ki@2027-01-01 附則(令和五年三月三一日財務省令第一二号) 第1条 1/5",
+   "kind": "suppl",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "令5財12附則2",
+   "ref": "PS§4.2",
+   "target": "shotoku-ki@2027-01-01 附則(令和五年三月三一日財務省令第一二号) 第2条 ",
+   "kind": "suppl",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規36の4②",
+   "ref": "PS§4.2",
+   "target": "shotoku-ki@2025-12-31 36_4/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規36の4②",
+   "ref": "PS§4.2",
+   "target": "shotoku-ki@2026-12-31 36_4/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規36の4③",
+   "ref": "PS§4.2",
+   "target": "shotoku-ki@2025-12-31 36_4/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規36の4③",
+   "ref": "PS§4.2",
+   "target": "shotoku-ki@2026-12-31 36_4/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "A1-10 時期",
+   "ref": "PS§4.2",
+   "target": "nta/annai_12",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "A1-10 給与規程",
+   "ref": "PS§4.2",
+   "target": "nta/annai_12",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "A1-11 遅滞なく",
+   "ref": "PS§4.2",
+   "target": "nta/annai_13",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法2①三十三 除外",
+   "ref": "PS§4.3",
+   "target": "shotoku@2025-12-31 2/1/33",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法2①三十三 除外",
+   "ref": "PS§4.3",
+   "target": "shotoku@2026-12-31 2/1/33",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法2①三十四 除外",
+   "ref": "PS§4.3",
+   "target": "shotoku@2025-12-31 2/1/34",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法2①三十四 除外",
+   "ref": "PS§4.3",
+   "target": "shotoku@2026-12-31 2/1/34",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法2①三十三の四",
+   "ref": "PS§4.3",
+   "target": "shotoku@2025-12-31 2/1/33_4",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法2①三十三の四",
+   "ref": "PS§4.3",
+   "target": "shotoku@2026-12-31 2/1/33_4",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法2①三十四の五(R8)",
+   "ref": "PS§4.3",
+   "target": "shotoku@2026-12-31 2/1/34_5",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法84の2 特定親族の除外",
+   "ref": "PS§4.3",
+   "target": "shotoku@2025-12-31 84_2/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法84の2 特定親族の除外",
+   "ref": "PS§4.3",
+   "target": "shotoku@2026-12-31 84_2/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令272②（前前年分）",
+   "ref": "PS§5.3",
+   "target": "shotoku-rei@2025-12-31 272/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令272②（前前年分）",
+   "ref": "PS§5.3",
+   "target": "shotoku-rei@2026-12-31 272/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令271①五（その他の損失から）",
+   "ref": "PS§5.3",
+   "target": "shotoku-rei@2025-12-31 271/1/5",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令271①五（その他の損失から）",
+   "ref": "PS§5.3",
+   "target": "shotoku-rei@2026-12-31 271/1/5",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "通則法10①一（初日不算入）",
+   "ref": "H§H1",
+   "target": "tsusoku@2025-12-31 10/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "通則法10①二（月は暦）",
+   "ref": "H§H10",
+   "target": "tsusoku@2025-12-31 10/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "通則法10②（休日）",
+   "ref": "H§H10",
+   "target": "tsusoku@2025-12-31 10/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "質疑応答 年の中途で従事（相当の理由に就職・退職）",
+   "ref": "検証で追加",
+   "target": "nta/shitsugi_04_10",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "質疑応答 年の中途で従事（従事可能期間）",
+   "ref": "検証で追加",
+   "target": "nta/shitsugi_04_10",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "TA2070 扶養",
+   "ref": "PS§4.3",
+   "target": "nta/ta_2070",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法2①二十五",
+   "ref": "PS§5.1",
+   "target": "shotoku@2025-12-31 2/1/25",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法2①二十五",
+   "ref": "PS§5.1",
+   "target": "shotoku@2026-12-31 2/1/25",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法69①",
+   "ref": "PS§5.1",
+   "target": "shotoku@2025-12-31 69/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法69①",
+   "ref": "PS§5.1",
+   "target": "shotoku@2026-12-31 69/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令198三(R7) 及び",
+   "ref": "PS§5.1",
+   "target": "shotoku-rei@2025-12-31 198/1/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令198三(R8) 又は",
+   "ref": "PS§5.1",
+   "target": "shotoku-rei@2026-12-31 198/1/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令198六(R7) 及び",
+   "ref": "PS§5.1",
+   "target": "shotoku-rei@2025-12-31 198/1/6",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令198六(R8) 又は",
+   "ref": "PS§5.1",
+   "target": "shotoku-rei@2026-12-31 198/1/6",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法70①",
+   "ref": "PS§5.2",
+   "target": "shotoku@2025-12-31 70/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法70①",
+   "ref": "PS§5.2",
+   "target": "shotoku@2026-12-31 70/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法70②一",
+   "ref": "PS§5.2",
+   "target": "shotoku@2025-12-31 70/2/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法70②一",
+   "ref": "PS§5.2",
+   "target": "shotoku@2026-12-31 70/2/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法70②二",
+   "ref": "PS§5.2",
+   "target": "shotoku@2025-12-31 70/2/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法70②二",
+   "ref": "PS§5.2",
+   "target": "shotoku@2026-12-31 70/2/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法70③",
+   "ref": "PS§5.2",
+   "target": "shotoku@2025-12-31 70/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法70③",
+   "ref": "PS§5.2",
+   "target": "shotoku@2026-12-31 70/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法70④",
+   "ref": "PS§5.2",
+   "target": "shotoku@2025-12-31 70/4",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法70④",
+   "ref": "PS§5.2",
+   "target": "shotoku@2026-12-31 70/4",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法70の2 五年",
+   "ref": "PS§5.2",
+   "target": "shotoku@2025-12-31 70_2/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法70の2 五年",
+   "ref": "PS§5.2",
+   "target": "shotoku@2026-12-31 70_2/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令201①一",
+   "ref": "PS§5.2",
+   "target": "shotoku-rei@2025-12-31 201/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令201①一",
+   "ref": "PS§5.2",
+   "target": "shotoku-rei@2026-12-31 201/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令201①二",
+   "ref": "PS§5.2",
+   "target": "shotoku-rei@2025-12-31 201/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令201①二",
+   "ref": "PS§5.2",
+   "target": "shotoku-rei@2026-12-31 201/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令201①三",
+   "ref": "PS§5.2",
+   "target": "shotoku-rei@2025-12-31 201/1/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令201①三",
+   "ref": "PS§5.2",
+   "target": "shotoku-rei@2026-12-31 201/1/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令201②",
+   "ref": "PS§5.2",
+   "target": "shotoku-rei@2025-12-31 201/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令201②",
+   "ref": "PS§5.2",
+   "target": "shotoku-rei@2026-12-31 201/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所基通70−13",
+   "ref": "PS§5.2",
+   "target": "nta/kihon_15_01",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所基通70−14",
+   "ref": "PS§5.2",
+   "target": "nta/kihon_15_01",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所基通70−15",
+   "ref": "PS§5.2",
+   "target": "nta/kihon_15_01",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法123①",
+   "ref": "PS§5.2",
+   "target": "shotoku@2025-12-31 123/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法123①",
+   "ref": "PS§5.2",
+   "target": "shotoku@2026-12-31 123/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法123③(R7)",
+   "ref": "PS§5.2",
+   "target": "shotoku@2025-12-31 123/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法123③(R7)",
+   "ref": "PS§5.2",
+   "target": "shotoku@2026-12-31 123/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法123③(R9)",
+   "ref": "PS§5.2",
+   "target": "shotoku@2027-01-01 123/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法140①",
+   "ref": "PS§5.3",
+   "target": "shotoku@2025-12-31 140/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法140①",
+   "ref": "PS§5.3",
+   "target": "shotoku@2026-12-31 140/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法140①一",
+   "ref": "PS§5.3",
+   "target": "shotoku@2025-12-31 140/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法140①一",
+   "ref": "PS§5.3",
+   "target": "shotoku@2026-12-31 140/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法140②",
+   "ref": "PS§5.3",
+   "target": "shotoku@2025-12-31 140/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法140②",
+   "ref": "PS§5.3",
+   "target": "shotoku@2026-12-31 140/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法140③",
+   "ref": "PS§5.3",
+   "target": "shotoku@2025-12-31 140/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法140③",
+   "ref": "PS§5.3",
+   "target": "shotoku@2026-12-31 140/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法140④",
+   "ref": "PS§5.3",
+   "target": "shotoku@2025-12-31 140/4",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法140④",
+   "ref": "PS§5.3",
+   "target": "shotoku@2026-12-31 140/4",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法140⑤",
+   "ref": "PS§5.3",
+   "target": "shotoku@2025-12-31 140/5",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法140⑤",
+   "ref": "PS§5.3",
+   "target": "shotoku@2026-12-31 140/5",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令272①",
+   "ref": "PS§5.3",
+   "target": "shotoku-rei@2025-12-31 272/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令272①",
+   "ref": "PS§5.3",
+   "target": "shotoku-rei@2026-12-31 272/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法141",
+   "ref": "PS§5.3",
+   "target": "shotoku@2025-12-31 141/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法141",
+   "ref": "PS§5.3",
+   "target": "shotoku@2026-12-31 141/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法142①",
+   "ref": "PS§5.3",
+   "target": "shotoku@2025-12-31 142/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法142①",
+   "ref": "PS§5.3",
+   "target": "shotoku@2026-12-31 142/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法142③",
+   "ref": "PS§5.3",
+   "target": "shotoku@2025-12-31 142/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法142③",
+   "ref": "PS§5.3",
+   "target": "shotoku@2026-12-31 142/3",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令271①一",
+   "ref": "PS§5.3",
+   "target": "shotoku-rei@2025-12-31 271/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令271①一",
+   "ref": "PS§5.3",
+   "target": "shotoku-rei@2026-12-31 271/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令271①二",
+   "ref": "PS§5.3",
+   "target": "shotoku-rei@2025-12-31 271/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令271①二",
+   "ref": "PS§5.3",
+   "target": "shotoku-rei@2026-12-31 271/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令271①五",
+   "ref": "PS§5.3",
+   "target": "shotoku-rei@2025-12-31 271/1/5",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令271①五",
+   "ref": "PS§5.3",
+   "target": "shotoku-rei@2026-12-31 271/1/5",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令271⑤なし（H9 の「同⑤」）",
+   "ref": "H§H9",
+   "target": "shotoku-rei@2025-12-31 271/5",
+   "kind": "absent",
+   "ok": true
+  },
+  {
+   "id": "所令271⑤なし（H9 の「同⑤」）",
+   "ref": "H§H9",
+   "target": "shotoku-rei@2026-12-31 271/5",
+   "kind": "absent",
+   "ok": true
+  },
+  {
+   "id": "所令271①六",
+   "ref": "PS§5.3",
+   "target": "shotoku-rei@2025-12-31 271/1/6",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令271①六",
+   "ref": "PS§5.3",
+   "target": "shotoku-rei@2026-12-31 271/1/6",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規54①",
+   "ref": "PS§5.3",
+   "target": "shotoku-ki@2025-12-31 54/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規54①",
+   "ref": "PS§5.3",
+   "target": "shotoku-ki@2026-12-31 54/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所基通140・141−2",
+   "ref": "PS§5.3",
+   "target": "nta/kihon_19_02",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所基通140・141−3",
+   "ref": "PS§5.3",
+   "target": "nta/kihon_19_02",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所基通140・141−4",
+   "ref": "PS§5.3",
+   "target": "nta/kihon_19_02",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所基通142−1",
+   "ref": "PS§5.3",
+   "target": "nta/kihon_19_02",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "A1-4 時期",
+   "ref": "PS§5.3",
+   "target": "nta/annai_23200002",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "TA2070 繰戻し",
+   "ref": "PS§5.3",
+   "target": "nta/ta_2070",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法67①",
+   "ref": "PS§6",
+   "target": "shotoku@2025-12-31 67/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所法67①",
+   "ref": "PS§6",
+   "target": "shotoku@2026-12-31 67/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令195一",
+   "ref": "PS§6",
+   "target": "shotoku-rei@2025-12-31 195/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令195一",
+   "ref": "PS§6",
+   "target": "shotoku-rei@2026-12-31 195/1/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令195二",
+   "ref": "PS§6",
+   "target": "shotoku-rei@2025-12-31 195/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令195二",
+   "ref": "PS§6",
+   "target": "shotoku-rei@2026-12-31 195/1/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令196②",
+   "ref": "PS§6",
+   "target": "shotoku-rei@2025-12-31 196/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令196②",
+   "ref": "PS§6",
+   "target": "shotoku-rei@2026-12-31 196/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令197①",
+   "ref": "PS§6",
+   "target": "shotoku-rei@2025-12-31 197/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令197①",
+   "ref": "PS§6",
+   "target": "shotoku-rei@2026-12-31 197/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令197②",
+   "ref": "PS§6",
+   "target": "shotoku-rei@2025-12-31 197/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所令197②",
+   "ref": "PS§6",
+   "target": "shotoku-rei@2026-12-31 197/2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規39の2①",
+   "ref": "PS§6",
+   "target": "shotoku-ki@2025-12-31 39_2/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規39の2①",
+   "ref": "PS§6",
+   "target": "shotoku-ki@2026-12-31 39_2/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規39の2 みなし",
+   "ref": "PS§6",
+   "target": "shotoku-ki@2025-12-31 39_2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規39の2 みなし",
+   "ref": "PS§6",
+   "target": "shotoku-ki@2026-12-31 39_2",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規40①",
+   "ref": "PS§6",
+   "target": "shotoku-ki@2025-12-31 40/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規40①",
+   "ref": "PS§6",
+   "target": "shotoku-ki@2026-12-31 40/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規40の2①",
+   "ref": "PS§6",
+   "target": "shotoku-ki@2025-12-31 40_2/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所規40の2①",
+   "ref": "PS§6",
+   "target": "shotoku-ki@2026-12-31 40_2/1",
+   "kind": "law",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所基通67−1",
+   "ref": "PS§6",
+   "target": "nta/kihon_14_02",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "所基通67−5",
+   "ref": "PS§6",
+   "target": "nta/kihon_14_02",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  },
+  {
+   "id": "A1-12 小規模",
+   "ref": "PS§6",
+   "target": "nta/annai_23200010",
+   "kind": "nta",
+   "ok": true,
+   "missing": null
+  }
+ ],
+ "revs": [
+  {
+   "target": "shotoku@2025-12-31",
+   "claimed": [
+    "340AC0000000033_20251218_507AC0000000013",
+    "令和七年法律第十三号",
+    "2025-12-18",
+    "PreviousEnforced",
+    "84a2235cb4437184"
+   ],
+   "got": [
+    "340AC0000000033_20251218_507AC0000000013",
+    "令和七年法律第十三号",
+    "2025-12-18",
+    "PreviousEnforced",
+    "84a2235cb4437184"
+   ],
+   "ok_revision": true,
+   "sha_same": true
+  },
+  {
+   "target": "shotoku@2026-12-31",
+   "claimed": [
+    "340AC0000000033_20261201_508AC0000000012",
+    "令和八年法律第十二号",
+    "2026-12-01",
+    "UnEnforced",
+    "47792299f0fb5a74"
+   ],
+   "got": [
+    "340AC0000000033_20261201_508AC0000000012",
+    "令和八年法律第十二号",
+    "2026-12-01",
+    "UnEnforced",
+    "47792299f0fb5a74"
+   ],
+   "ok_revision": true,
+   "sha_same": true
+  },
+  {
+   "target": "shotoku@2027-01-01",
+   "claimed": [
+    "340AC0000000033_20270101_508AC0000000012",
+    "令和八年法律第十二号",
+    "2027-01-01",
+    "UnEnforced",
+    "d4bf435220bc0b0c"
+   ],
+   "got": [
+    "340AC0000000033_20270101_508AC0000000012",
+    "令和八年法律第十二号",
+    "2027-01-01",
+    "UnEnforced",
+    "d4bf435220bc0b0c"
+   ],
+   "ok_revision": true,
+   "sha_same": true
+  },
+  {
+   "target": "shotoku-rei@2025-12-31",
+   "claimed": [
+    "340CO0000000096_20251201_507CO0000000120",
+    "令和七年政令第百二十号",
+    "2025-12-01",
+    "PreviousEnforced",
+    "e972344f436ecd9b"
+   ],
+   "got": [
+    "340CO0000000096_20251201_507CO0000000120",
+    "令和七年政令第百二十号",
+    "2025-12-01",
+    "PreviousEnforced",
+    "e972344f436ecd9b"
+   ],
+   "ok_revision": true,
+   "sha_same": true
+  },
+  {
+   "target": "shotoku-rei@2026-12-31",
+   "claimed": [
+    "340CO0000000096_20261201_508CO0000000093",
+    "令和八年政令第九十三号",
+    "2026-12-01",
+    "UnEnforced",
+    "cd63914bb5962edf"
+   ],
+   "got": [
+    "340CO0000000096_20261201_508CO0000000093",
+    "令和八年政令第九十三号",
+    "2026-12-01",
+    "UnEnforced",
+    "cd63914bb5962edf"
+   ],
+   "ok_revision": true,
+   "sha_same": true
+  },
+  {
+   "target": "shotoku-rei@2027-01-01",
+   "claimed": [
+    "340CO0000000096_20270101_508CO0000000093",
+    "令和八年政令第九十三号",
+    "2027-01-01",
+    "UnEnforced",
+    "f4965711894ea1c7"
+   ],
+   "got": [
+    "340CO0000000096_20270101_508CO0000000093",
+    "令和八年政令第九十三号",
+    "2027-01-01",
+    "UnEnforced",
+    "f4965711894ea1c7"
+   ],
+   "ok_revision": true,
+   "sha_same": true
+  },
+  {
+   "target": "shotoku-ki@2025-12-31",
+   "claimed": [
+    "340M50000040011_20251201_507M60000040018",
+    "令和七年財務省令第十八号",
+    "2025-12-01",
+    "PreviousEnforced",
+    "16358c775e2d1dcc"
+   ],
+   "got": [
+    "340M50000040011_20251201_507M60000040018",
+    "令和七年財務省令第十八号",
+    "2025-12-01",
+    "PreviousEnforced",
+    "16358c775e2d1dcc"
+   ],
+   "ok_revision": true,
+   "sha_same": true
+  },
+  {
+   "target": "shotoku-ki@2026-12-31",
+   "claimed": [
+    "340M50000040011_20261211_508M60000040017",
+    "令和八年財務省令第十七号",
+    "2026-12-11",
+    "UnEnforced",
+    "9ba37bf34afed1f9"
+   ],
+   "got": [
+    "340M50000040011_20261211_508M60000040017",
+    "令和八年財務省令第十七号",
+    "2026-12-11",
+    "UnEnforced",
+    "9ba37bf34afed1f9"
+   ],
+   "ok_revision": true,
+   "sha_same": true
+  },
+  {
+   "target": "shotoku-ki@2027-01-01",
+   "claimed": [
+    "340M50000040011_20270101_508M60000040017",
+    "令和八年財務省令第十七号",
+    "2027-01-01",
+    "UnEnforced",
+    "1600117df38c4463"
+   ],
+   "got": [
+    "340M50000040011_20270101_508M60000040017",
+    "令和八年財務省令第十七号",
+    "2027-01-01",
+    "UnEnforced",
+    "1600117df38c4463"
+   ],
+   "ok_revision": true,
+   "sha_same": true
+  },
+  {
+   "target": "shotoku-ki@2026-11-09",
+   "claimed": [
+    "340M50000040011_20261001_507M60000040018",
+    "令和七年財務省令第十八号",
+    "2026-10-01",
+    "CurrentEnforced",
+    null
+   ],
+   "got": [
+    "340M50000040011_20261001_507M60000040018",
+    "令和七年財務省令第十八号",
+    "2026-10-01",
+    "CurrentEnforced",
+    "8721699516ac8202"
+   ],
+   "ok_revision": true,
+   "sha_same": null
+  },
+  {
+   "target": "sochi@2025-12-31",
+   "claimed": [
+    "332AC0000000026_20251231_507AC1000000081",
+    "令和七年法律第八十一号",
+    "2025-12-31",
+    "PreviousEnforced",
+    "ef95d90f7bf57e18"
+   ],
+   "got": [
+    "332AC0000000026_20251231_507AC1000000081",
+    "令和七年法律第八十一号",
+    "2025-12-31",
+    "PreviousEnforced",
+    "ef95d90f7bf57e18"
+   ],
+   "ok_revision": true,
+   "sha_same": true
+  },
+  {
+   "target": "sochi@2026-12-31",
+   "claimed": [
+    "332AC0000000026_20261204_508AC0000000012",
+    "令和八年法律第十二号",
+    null,
+    "UnEnforced",
+    "763fce2df2b1e709"
+   ],
+   "got": [
+    "332AC0000000026_20261204_508AC0000000012",
+    "令和八年法律第十二号",
+    null,
+    "UnEnforced",
+    "763fce2df2b1e709"
+   ],
+   "ok_revision": true,
+   "sha_same": true
+  },
+  {
+   "target": "sochi@2027-01-01",
+   "claimed": [
+    "332AC0000000026_20270101_508AC0000000012",
+    "令和八年法律第十二号",
+    "2027-01-01",
+    "UnEnforced",
+    "8c6ee577201c3be0"
+   ],
+   "got": [
+    "332AC0000000026_20270101_508AC0000000012",
+    "令和八年法律第十二号",
+    "2027-01-01",
+    "UnEnforced",
+    "8c6ee577201c3be0"
+   ],
+   "ok_revision": true,
+   "sha_same": true
+  },
+  {
+   "target": "sochi-ki@2025-12-31",
+   "claimed": [
+    "332M50000040015_20251231_507M60000040068",
+    "令和七年財務省令第六十八号",
+    "2025-12-31",
+    "PreviousEnforced",
+    "e61bd52d88b1484a"
+   ],
+   "got": [
+    "332M50000040015_20251231_507M60000040068",
+    "令和七年財務省令第六十八号",
+    "2025-12-31",
+    "PreviousEnforced",
+    "e61bd52d88b1484a"
+   ],
+   "ok_revision": true,
+   "sha_same": true
+  },
+  {
+   "target": "sochi-ki@2026-12-31",
+   "claimed": [
+    "332M50000040015_20261204_508M60000040021",
+    "令和八年財務省令第二十一号",
+    null,
+    "UnEnforced",
+    "03b356f8297e93b7"
+   ],
+   "got": [
+    "332M50000040015_20261204_508M60000040021",
+    "令和八年財務省令第二十一号",
+    null,
+    "UnEnforced",
+    "03b356f8297e93b7"
+   ],
+   "ok_revision": true,
+   "sha_same": true
+  },
+  {
+   "target": "sochi-ki@2027-01-01",
+   "claimed": [
+    "332M50000040015_20270101_508M60000040021",
+    "令和八年財務省令第二十一号",
+    "2027-01-01",
+    "UnEnforced",
+    "106cc5bcfb7fb9be"
+   ],
+   "got": [
+    "332M50000040015_20270101_508M60000040021",
+    "令和八年財務省令第二十一号",
+    "2027-01-01",
+    "UnEnforced",
+    "106cc5bcfb7fb9be"
+   ],
+   "ok_revision": true,
+   "sha_same": true
+  },
+  {
+   "target": "denchou@2025-12-31",
+   "claimed": [
+    "410AC0000000025_20250401_507AC0000000013",
+    "令和七年法律第十三号",
+    "2025-04-01",
+    "CurrentEnforced",
+    "81885682cdf2beae"
+   ],
+   "got": [
+    "410AC0000000025_20250401_507AC0000000013",
+    "令和七年法律第十三号",
+    "2025-04-01",
+    "CurrentEnforced",
+    "81885682cdf2beae"
+   ],
+   "ok_revision": true,
+   "sha_same": true
+  },
+  {
+   "target": "denchou@2026-12-31",
+   "claimed": [
+    "410AC0000000025_20250401_507AC0000000013",
+    "令和七年法律第十三号",
+    "2025-04-01",
+    "CurrentEnforced",
+    "81885682cdf2beae"
+   ],
+   "got": [
+    "410AC0000000025_20250401_507AC0000000013",
+    "令和七年法律第十三号",
+    "2025-04-01",
+    "CurrentEnforced",
+    "81885682cdf2beae"
+   ],
+   "ok_revision": true,
+   "sha_same": true
+  },
+  {
+   "target": "denchou@2027-01-01",
+   "claimed": [
+    "410AC0000000025_20270101_507AC0000000013",
+    "令和七年法律第十三号",
+    "2027-01-01",
+    "UnEnforced",
+    "e3da96443d6cd7d8"
+   ],
+   "got": [
+    "410AC0000000025_20270101_507AC0000000013",
+    "令和七年法律第十三号",
+    "2027-01-01",
+    "UnEnforced",
+    "e3da96443d6cd7d8"
+   ],
+   "ok_revision": true,
+   "sha_same": true
+  },
+  {
+   "target": "denchou-ki@2025-12-31",
+   "claimed": [
+    "410M50000040043_20250401_507M60000040028",
+    "令和七年財務省令第二十八号",
+    "2025-04-01",
+    "CurrentEnforced",
+    "15786f1ae7140c2a"
+   ],
+   "got": [
+    "410M50000040043_20250401_507M60000040028",
+    "令和七年財務省令第二十八号",
+    "2025-04-01",
+    "CurrentEnforced",
+    "15786f1ae7140c2a"
+   ],
+   "ok_revision": true,
+   "sha_same": true
+  },
+  {
+   "target": "denchou-ki@2026-12-31",
+   "claimed": [
+    "410M50000040043_20250401_507M60000040028",
+    "令和七年財務省令第二十八号",
+    "2025-04-01",
+    "CurrentEnforced",
+    "15786f1ae7140c2a"
+   ],
+   "got": [
+    "410M50000040043_20250401_507M60000040028",
+    "令和七年財務省令第二十八号",
+    "2025-04-01",
+    "CurrentEnforced",
+    "15786f1ae7140c2a"
+   ],
+   "ok_revision": true,
+   "sha_same": true
+  },
+  {
+   "target": "denchou-ki@2027-01-01",
+   "claimed": [
+    "410M50000040043_20270101_507M60000040028",
+    "令和七年財務省令第二十八号",
+    "2027-01-01",
+    "UnEnforced",
+    "5138459ca02073b7"
+   ],
+   "got": [
+    "410M50000040043_20270101_507M60000040028",
+    "令和七年財務省令第二十八号",
+    "2027-01-01",
+    "UnEnforced",
+    "5138459ca02073b7"
+   ],
+   "ok_revision": true,
+   "sha_same": true
+  }
+ ],
+ "article_diffs": {
+  "R7_vs_R8": {
+   "shotoku": [
+    "151",
+    "2"
+   ],
+   "shotoku-rei": [
+    "165",
+    "198"
+   ],
+   "shotoku-ki": [
+    "48",
+    "66"
+   ],
+   "sochi": [],
+   "sochi-ki": [],
+   "denchou": [],
+   "denchou-ki": []
+  },
+  "R8_vs_R9": {
+   "shotoku": [
+    "123"
+   ],
+   "shotoku-rei": [],
+   "shotoku-ki": [
+    "36_4",
+    "55"
+   ],
+   "sochi": [
+    "25_2"
+   ],
+   "sochi-ki": [
+    "9_6"
+   ],
+   "denchou": [
+    "8"
+   ],
+   "denchou-ki": [
+    "2",
+    "5"
+   ]
+  },
+  "mismatch_with_claim": []
+ },
+ "nta_meta": [
+  {
+   "id": "ta_2070",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+   "status": 200,
+   "lm_claimed": "2026-09-09",
+   "lm_got": "2026-09-09",
+   "lm_ok": true,
+   "sha_claimed": "2f280b15db8d1691",
+   "sha_got": "2f280b15db8d1691",
+   "sha_same": true
+  },
+  {
+   "id": "ta_2072",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2072.htm",
+   "status": 200,
+   "lm_claimed": "2026-09-09",
+   "lm_got": "2026-09-09",
+   "lm_ok": true,
+   "sha_claimed": "de4d48788c2cdaf2",
+   "sha_got": "de4d48788c2cdaf2",
+   "sha_same": true
+  },
+  {
+   "id": "ta_2075",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2075.htm",
+   "status": 200,
+   "lm_claimed": "2026-09-09",
+   "lm_got": "2026-09-09",
+   "lm_ok": true,
+   "sha_claimed": "e8f8fde1bfd353d8",
+   "sha_got": "e8f8fde1bfd353d8",
+   "sha_same": true
+  },
+  {
+   "id": "ta_2250",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2250.htm",
+   "status": 200,
+   "lm_claimed": "2026-09-09",
+   "lm_got": "2026-09-09",
+   "lm_ok": true,
+   "sha_claimed": "81cabb299948105a",
+   "sha_got": "81cabb299948105a",
+   "sha_same": true
+  },
+  {
+   "id": "kihon_11_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/11/01.htm",
+   "status": 200,
+   "lm_claimed": "2024-01-18",
+   "lm_got": "2024-01-18",
+   "lm_ok": true,
+   "sha_claimed": "357de2fabe640a6a",
+   "sha_got": "357de2fabe640a6a",
+   "sha_same": true
+  },
+  {
+   "id": "kihon_14_02",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/14/02.htm",
+   "status": 200,
+   "lm_claimed": "2025-12-25",
+   "lm_got": "2025-12-25",
+   "lm_ok": true,
+   "sha_claimed": "4852d0a64b63aaf6",
+   "sha_got": "4852d0a64b63aaf6",
+   "sha_same": true
+  },
+  {
+   "id": "kihon_15_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/15/01.htm",
+   "status": 200,
+   "lm_claimed": "2025-11-25",
+   "lm_got": "2025-11-25",
+   "lm_ok": true,
+   "sha_claimed": "ead14cdf750a9590",
+   "sha_got": "ead14cdf750a9590",
+   "sha_same": true
+  },
+  {
+   "id": "kihon_19_02",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/02.htm",
+   "status": 200,
+   "lm_claimed": "2025-11-25",
+   "lm_got": "2025-11-25",
+   "lm_ok": true,
+   "sha_claimed": "a9a3b2a8f9de88eb",
+   "sha_got": "a9a3b2a8f9de88eb",
+   "sha_same": true
+  },
+  {
+   "id": "kihon_20_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/20/01.htm",
+   "status": 200,
+   "lm_claimed": "2024-01-18",
+   "lm_got": "2024-01-18",
+   "lm_ok": true,
+   "sha_claimed": "096ae07ac0983fe3",
+   "sha_got": "096ae07ac0983fe3",
+   "sha_same": true
+  },
+  {
+   "id": "sochitsu_25_2",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/57/25/01.htm",
+   "status": 200,
+   "lm_claimed": "2026-10-02",
+   "lm_got": "2026-10-02",
+   "lm_ok": true,
+   "sha_claimed": "fab8f8e21c5edece",
+   "sha_got": "fab8f8e21c5edece",
+   "sha_same": true
+  },
+  {
+   "id": "mokuji",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/mokuji.htm",
+   "status": 200,
+   "lm_claimed": "2026-10-07",
+   "lm_got": "2026-10-07",
+   "lm_ok": true,
+   "sha_claimed": "94182e6dd8881c21",
+   "sha_got": "94182e6dd8881c21",
+   "sha_same": true
+  },
+  {
+   "id": "annai_09",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/09.htm",
+   "status": 200,
+   "lm_claimed": "2026-10-28",
+   "lm_got": "2026-10-28",
+   "lm_ok": true,
+   "sha_claimed": "c9133cca3a85ca4a",
+   "sha_got": "c9133cca3a85ca4a",
+   "sha_same": true
+  },
+  {
+   "id": "annai_09_2",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/09_2.htm",
+   "status": 200,
+   "lm_claimed": "2026-10-28",
+   "lm_got": "2026-10-28",
+   "lm_ok": true,
+   "sha_claimed": "e2fed007d5fbb06f",
+   "sha_got": "e2fed007d5fbb06f",
+   "sha_same": true
+  },
+  {
+   "id": "annai_10",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/10.htm",
+   "status": 200,
+   "lm_claimed": "2026-10-28",
+   "lm_got": "2026-10-28",
+   "lm_ok": true,
+   "sha_claimed": "a9de82dfd1b81aa1",
+   "sha_got": "a9de82dfd1b81aa1",
+   "sha_same": true
+  },
+  {
+   "id": "annai_12",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/12.htm",
+   "status": 200,
+   "lm_claimed": "2026-10-28",
+   "lm_got": "2026-10-28",
+   "lm_ok": true,
+   "sha_claimed": "c21c732bb154f8c9",
+   "sha_got": "c21c732bb154f8c9",
+   "sha_same": true
+  },
+  {
+   "id": "annai_23200008",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/23200008.htm",
+   "status": 200,
+   "lm_claimed": "2026-10-28",
+   "lm_got": "2026-10-28",
+   "lm_ok": true,
+   "sha_claimed": "c31d320b3a756747",
+   "sha_got": "c31d320b3a756747",
+   "sha_same": true
+  },
+  {
+   "id": "annai_13",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/13.htm",
+   "status": 200,
+   "lm_claimed": "2026-10-28",
+   "lm_got": "2026-10-28",
+   "lm_ok": true,
+   "sha_claimed": "05d56742a9bd12eb",
+   "sha_got": "05d56742a9bd12eb",
+   "sha_same": true
+  },
+  {
+   "id": "annai_17_0",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/17_0.htm",
+   "status": 200,
+   "lm_claimed": "2026-10-28",
+   "lm_got": "2026-10-28",
+   "lm_ok": true,
+   "sha_claimed": "3bf159272f0bf645",
+   "sha_got": "3bf159272f0bf645",
+   "sha_same": true
+  },
+  {
+   "id": "annai_23200002",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/23200002.htm",
+   "status": 200,
+   "lm_claimed": "2026-10-28",
+   "lm_got": "2026-10-28",
+   "lm_ok": true,
+   "sha_claimed": "4d49bf49d81d59b8",
+   "sha_got": "4d49bf49d81d59b8",
+   "sha_same": true
+  },
+  {
+   "id": "annai_23200010",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/23200010.htm",
+   "status": 200,
+   "lm_claimed": "2026-10-28",
+   "lm_got": "2026-10-28",
+   "lm_ok": true,
+   "sha_claimed": "67e3638f2ec510fd",
+   "sha_got": "67e3638f2ec510fd",
+   "sha_same": true
+  },
+  {
+   "id": "annai_23200011",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/23200011.htm",
+   "status": 200,
+   "lm_claimed": "2026-10-28",
+   "lm_got": "2026-10-28",
+   "lm_ok": true,
+   "sha_claimed": "35d064453b7c993d",
+   "sha_got": "35d064453b7c993d",
+   "sha_same": true
+  },
+  {
+   "id": "annai_23200016",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/23200016.htm",
+   "status": 200,
+   "lm_claimed": "2026-10-28",
+   "lm_got": "2026-10-28",
+   "lm_ok": true,
+   "sha_claimed": "1707f2fece682758",
+   "sha_got": "1707f2fece682758",
+   "sha_same": true
+  },
+  {
+   "id": "pdf_kessan_ippan",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/10.pdf",
+   "status": 200,
+   "lm_claimed": "2026-08-31",
+   "lm_got": "2026-08-31",
+   "lm_ok": true,
+   "sha_claimed": "c3cd9d17c0174972",
+   "sha_got": "c3cd9d17c0174972",
+   "sha_same": true,
+   "enc_VR_got": [
+    4,
+    4
+   ],
+   "enc_CFM": "AESV2",
+   "key_ok": true,
+   "pages_got": 4,
+   "pages_claimed": 4,
+   "pages_ok": true,
+   "enc_VR_claimed": [
+    4,
+    4
+   ],
+   "enc_ok": true
+  },
+  {
+   "id": "pdf_kessan_genkin",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/13.pdf",
+   "status": 200,
+   "lm_claimed": "2026-08-31",
+   "lm_got": "2026-08-31",
+   "lm_ok": true,
+   "sha_claimed": "184a71c5efda112d",
+   "sha_got": "184a71c5efda112d",
+   "sha_same": true,
+   "enc_VR_got": [
+    4,
+    4
+   ],
+   "enc_CFM": "AESV2",
+   "key_ok": true,
+   "pages_got": 2,
+   "pages_claimed": 2,
+   "pages_ok": true,
+   "enc_VR_claimed": [
+    4,
+    4
+   ],
+   "enc_ok": true
+  },
+  {
+   "id": "pdf_dai4",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/03.pdf",
+   "status": 200,
+   "lm_claimed": "2026-08-31",
+   "lm_got": "2026-08-31",
+   "lm_ok": true,
+   "sha_claimed": "10dfa7825ae19b64",
+   "sha_got": "10dfa7825ae19b64",
+   "sha_same": true,
+   "enc_VR_got": [
+    4,
+    4
+   ],
+   "enc_CFM": "AESV2",
+   "key_ok": true,
+   "pages_got": 2,
+   "pages_claimed": 2,
+   "pages_ok": true,
+   "enc_VR_claimed": [
+    4,
+    4
+   ],
+   "enc_ok": true
+  },
+  {
+   "id": "pdf_shinsei",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/h28/10.pdf",
+   "status": 200,
+   "lm_claimed": "2026-06-30",
+   "lm_got": "2026-06-30",
+   "lm_ok": true,
+   "sha_claimed": "a4e3fc8b15abe41e",
+   "sha_got": "a4e3fc8b15abe41e",
+   "sha_same": true,
+   "enc_VR_got": [
+    4,
+    4
+   ],
+   "enc_CFM": "AESV2",
+   "key_ok": true,
+   "pages_got": 1,
+   "pages_claimed": 1,
+   "pages_ok": true,
+   "enc_VR_claimed": [
+    4,
+    4
+   ],
+   "enc_ok": true
+  },
+  {
+   "id": "pdf_shinsei_ki",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/h28/10-ki.pdf",
+   "status": 200,
+   "lm_claimed": "2026-06-30",
+   "lm_got": "2026-06-30",
+   "lm_ok": true,
+   "sha_claimed": "77baaa0debf60e28",
+   "sha_got": "77baaa0debf60e28",
+   "sha_same": true,
+   "enc_VR_got": [
+    4,
+    4
+   ],
+   "enc_CFM": "AESV2",
+   "key_ok": true,
+   "pages_got": 1,
+   "pages_claimed": 1,
+   "pages_ok": true,
+   "enc_VR_claimed": [
+    4,
+    4
+   ],
+   "enc_ok": true
+  },
+  {
+   "id": "pdf_shinsei_genkin",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/h28/11.pdf",
+   "status": 200,
+   "lm_claimed": "2024-01-18",
+   "lm_got": "2024-01-18",
+   "lm_ok": true,
+   "sha_claimed": "87a8138c4e6a5629",
+   "sha_got": "87a8138c4e6a5629",
+   "sha_same": true,
+   "enc_VR_got": [
+    4,
+    4
+   ],
+   "enc_CFM": "AESV2",
+   "key_ok": true,
+   "pages_got": 2,
+   "pages_claimed": 2,
+   "pages_ok": true,
+   "enc_VR_claimed": [
+    4,
+    4
+   ],
+   "enc_ok": true
+  },
+  {
+   "id": "pdf_senju",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/h28/13_14.pdf",
+   "status": 200,
+   "lm_claimed": "2026-06-30",
+   "lm_got": "2026-06-30",
+   "lm_ok": true,
+   "sha_claimed": "5684a36c2b96b0df",
+   "sha_got": "5684a36c2b96b0df",
+   "sha_same": true,
+   "enc_VR_got": [
+    4,
+    4
+   ],
+   "enc_CFM": "AESV2",
+   "key_ok": true,
+   "pages_got": 1,
+   "pages_claimed": 1,
+   "pages_ok": true,
+   "enc_VR_claimed": [
+    4,
+    4
+   ],
+   "enc_ok": true
+  },
+  {
+   "id": "pdf_senju_ki",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/h28/13_14-ki.pdf",
+   "status": 200,
+   "lm_claimed": "2026-06-30",
+   "lm_got": "2026-06-30",
+   "lm_ok": true,
+   "sha_claimed": "c8689907257f5eb7",
+   "sha_got": "c8689907257f5eb7",
+   "sha_same": true,
+   "enc_VR_got": [
+    4,
+    4
+   ],
+   "enc_CFM": "AESV2",
+   "key_ok": true,
+   "pages_got": 1,
+   "pages_claimed": 1,
+   "pages_ok": true,
+   "enc_VR_claimed": [
+    4,
+    4
+   ],
+   "enc_ok": true
+  },
+  {
+   "id": "pdf_yame",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/h28/12.pdf",
+   "status": 200,
+   "lm_claimed": "2026-06-30",
+   "lm_got": "2026-06-30",
+   "lm_ok": true,
+   "sha_claimed": "b36c35c0329719cf",
+   "sha_got": "b36c35c0329719cf",
+   "sha_same": true,
+   "enc_VR_got": [
+    4,
+    4
+   ],
+   "enc_CFM": "AESV2",
+   "key_ok": true,
+   "pages_got": 1,
+   "pages_claimed": 1,
+   "pages_ok": true,
+   "enc_VR_claimed": [
+    4,
+    4
+   ],
+   "enc_ok": true
+  },
+  {
+   "id": "pdf_yame_ki",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/h28/12-ki.pdf",
+   "status": 200,
+   "lm_claimed": "2026-06-30",
+   "lm_got": "2026-06-30",
+   "lm_ok": true,
+   "sha_claimed": "ce784ca32f5e24d5",
+   "sha_got": "ce784ca32f5e24d5",
+   "sha_same": true,
+   "enc_VR_got": [
+    4,
+    4
+   ],
+   "enc_CFM": "AESV2",
+   "key_ok": true,
+   "pages_got": 1,
+   "pages_claimed": 1,
+   "pages_ok": true,
+   "enc_VR_claimed": [
+    4,
+    4
+   ],
+   "enc_ok": true
+  },
+  {
+   "id": "pdf_genkin",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/h28/15.pdf",
+   "status": 200,
+   "lm_claimed": "2026-06-30",
+   "lm_got": "2026-06-30",
+   "lm_ok": true,
+   "sha_claimed": "72118e58a7f3bdb1",
+   "sha_got": "72118e58a7f3bdb1",
+   "sha_same": true,
+   "enc_VR_got": [
+    4,
+    4
+   ],
+   "enc_CFM": "AESV2",
+   "key_ok": true,
+   "pages_got": 2,
+   "pages_claimed": 2,
+   "pages_ok": true,
+   "enc_VR_claimed": [
+    4,
+    4
+   ],
+   "enc_ok": true
+  },
+  {
+   "id": "pdf_65man",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/r03/01.pdf",
+   "status": 200,
+   "lm_claimed": "2026-06-30",
+   "lm_got": "2026-06-30",
+   "lm_ok": true,
+   "sha_claimed": "b507448e6a1ab684",
+   "sha_got": "b507448e6a1ab684",
+   "sha_same": true,
+   "enc_VR_got": [
+    4,
+    4
+   ],
+   "enc_CFM": "AESV2",
+   "key_ok": true,
+   "pages_got": 1,
+   "pages_claimed": 1,
+   "pages_ok": true,
+   "enc_VR_claimed": [
+    4,
+    4
+   ],
+   "enc_ok": true
+  },
+  {
+   "id": "pdf_65man_ki",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/r03/01-ki.pdf",
+   "status": 200,
+   "lm_claimed": "2026-06-30",
+   "lm_got": "2026-06-30",
+   "lm_ok": true,
+   "sha_claimed": "1dde8a4fd0d2e94d",
+   "sha_got": "1dde8a4fd0d2e94d",
+   "sha_same": true,
+   "enc_VR_got": [
+    4,
+    4
+   ],
+   "enc_CFM": "AESV2",
+   "key_ok": true,
+   "pages_got": 2,
+   "pages_claimed": 2,
+   "pages_ok": true,
+   "enc_VR_claimed": [
+    4,
+    4
+   ],
+   "enc_ok": true
+  },
+  {
+   "id": "pdf_kurimodoshi",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/03_r05.pdf",
+   "status": 200,
+   "lm_claimed": "2026-06-30",
+   "lm_got": "2026-06-30",
+   "lm_ok": true,
+   "sha_claimed": "9b7c9881634f8fea",
+   "sha_got": "9b7c9881634f8fea",
+   "sha_same": true,
+   "enc_VR_got": [
+    4,
+    4
+   ],
+   "enc_CFM": "AESV2",
+   "key_ok": true,
+   "pages_got": 1,
+   "pages_claimed": 1,
+   "pages_ok": true,
+   "enc_VR_claimed": [
+    4,
+    4
+   ],
+   "enc_ok": true
+  },
+  {
+   "id": "pdf_kurimodoshi_ki",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/pdf/03_r05-ki.pdf",
+   "status": 200,
+   "lm_claimed": "2026-06-30",
+   "lm_got": "2026-06-30",
+   "lm_ok": true,
+   "sha_claimed": "83b51e9daf2e2ad9",
+   "sha_got": "83b51e9daf2e2ad9",
+   "sha_same": true,
+   "enc_VR_got": [
+    4,
+    4
+   ],
+   "enc_CFM": "AESV2",
+   "key_ok": true,
+   "pages_got": 1,
+   "pages_claimed": 1,
+   "pages_ok": true,
+   "enc_VR_claimed": [
+    4,
+    4
+   ],
+   "enc_ok": true
+  },
+  {
+   "id": "pdf_kakikata_037",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/037.pdf",
+   "status": 200,
+   "lm_claimed": "2025-12-12",
+   "lm_got": "2025-12-12",
+   "lm_ok": true,
+   "sha_claimed": "77c8ad203bbd04ef",
+   "sha_got": "77c8ad203bbd04ef",
+   "sha_same": true,
+   "enc_VR_got": [
+    5,
+    6
+   ],
+   "enc_CFM": "AESV3",
+   "pages_got": 8,
+   "pages_claimed": 8,
+   "pages_ok": true,
+   "enc_VR_claimed": [
+    5,
+    6
+   ],
+   "enc_ok": true
+  },
+  {
+   "id": "pdf_tebiki_025",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/025.pdf",
+   "status": 200,
+   "lm_claimed": "2025-12-12",
+   "lm_got": "2025-12-12",
+   "lm_ok": true,
+   "sha_claimed": "d688dd73e82a13b5",
+   "sha_got": "d688dd73e82a13b5",
+   "sha_same": true,
+   "enc_VR_got": [
+    5,
+    6
+   ],
+   "enc_CFM": "AESV3",
+   "pages_got": 8,
+   "pages_claimed": 8,
+   "pages_ok": true,
+   "enc_VR_claimed": [
+    5,
+    6
+   ],
+   "enc_ok": true
+  },
+  {
+   "id": "pdf_sonshitsu_003",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/003.pdf",
+   "status": 200,
+   "lm_claimed": "2025-12-12",
+   "lm_got": "2025-12-12",
+   "lm_ok": true,
+   "sha_claimed": "e3a89abd687f659d",
+   "sha_got": "e3a89abd687f659d",
+   "sha_same": true,
+   "enc_VR_got": [
+    5,
+    6
+   ],
+   "enc_CFM": "AESV3",
+   "pages_got": 16,
+   "pages_claimed": 16,
+   "pages_ok": true,
+   "enc_VR_claimed": [
+    5,
+    6
+   ],
+   "enc_ok": true
+  }
+ ],
+ "links": [
+  {
+   "page": "yoshiki_r07",
+   "href": "shinkokusho/pdf/r07/10.pdf",
+   "text": "所得税青色申告決算書（一般用）【令和５年分以降用】",
+   "ok": true,
+   "texts": [
+    "所得税青色申告決算書（一般用）【令和５年分以降用】（PDF/36KB）"
+   ]
+  },
+  {
+   "page": "yoshiki_r07",
+   "href": "tebiki/2025/pdf/037.pdf",
+   "text": "青色申告決算書（一般用）の書き方",
+   "ok": true,
+   "texts": [
+    "令和７年分青色申告決算書（一般用）の書き方（PDF/2,516KB）"
+   ]
+  },
+  {
+   "page": "yoshiki_r07",
+   "href": "tebiki/2025/pdf/025.pdf",
+   "text": "青色申告の決算の手引き（一般用）",
+   "ok": true,
+   "texts": [
+    "令和７年分青色申告の決算の手引き（一般用）（PDF/5,589KB）"
+   ]
+  },
+  {
+   "page": "yoshiki_r07",
+   "href": "shinkokusho/pdf/r07/13.pdf",
+   "text": "所得税青色申告決算書（現金主義用）【令和２年分以降用】",
+   "ok": true,
+   "texts": [
+    "所得税青色申告決算書（現金主義用）【令和２年分以降用】（PDF/18KB）"
+   ]
+  },
+  {
+   "page": "yoshiki_r07",
+   "href": "shinkokusho/pdf/r07/03.pdf",
+   "text": "第四表",
+   "ok": true,
+   "texts": [
+    "申告書第四表【令和７年分以降用】（PDF/1,473KB）"
+   ]
+  },
+  {
+   "page": "yoshiki_r07",
+   "href": "tebiki/2025/pdf/003.pdf",
+   "text": "損失申告用",
+   "ok": true,
+   "texts": [
+    "令和７年分所得税及び復興特別所得税の確定申告の手引き（損失申告用）（PDF/1,451KB）"
+   ]
+  },
+  {
+   "page": "annai_09",
+   "href": "pdf/h28/10.pdf",
+   "text": "",
+   "ok": true,
+   "texts": [
+    "所得税の青色申告承認申請書（PDF/617KB）"
+   ]
+  },
+  {
+   "page": "annai_09",
+   "href": "pdf/h28/10-ki.pdf",
+   "text": "",
+   "ok": true,
+   "texts": [
+    "記載要領（PDF/80KB）"
+   ]
+  },
+  {
+   "page": "annai_10",
+   "href": "pdf/h28/11.pdf",
+   "text": "",
+   "ok": true,
+   "texts": [
+    "所得税の青色申告承認申請書（兼）現金主義の所得計算による旨の届出書（PDF/126KB）"
+   ]
+  },
+  {
+   "page": "annai_12",
+   "href": "pdf/h28/13_14.pdf",
+   "text": "",
+   "ok": true,
+   "texts": [
+    "青色事業専従者給与に関する届出・変更届出書（PDF/663KB）"
+   ]
+  },
+  {
+   "page": "annai_12",
+   "href": "pdf/h28/13_14-ki.pdf",
+   "text": "",
+   "ok": true,
+   "texts": [
+    "記載要領（PDF/90KB）"
+   ]
+  },
+  {
+   "page": "annai_23200008",
+   "href": "pdf/h28/12.pdf",
+   "text": "",
+   "ok": true,
+   "texts": [
+    "所得税の青色申告の取りやめ届出書（PDF/476KB）"
+   ]
+  },
+  {
+   "page": "annai_23200008",
+   "href": "pdf/h28/12-ki.pdf",
+   "text": "",
+   "ok": true,
+   "texts": [
+    "記載要領（PDF/103KB）"
+   ]
+  },
+  {
+   "page": "annai_23200010",
+   "href": "pdf/h28/15.pdf",
+   "text": "",
+   "ok": true,
+   "texts": [
+    "現金主義による所得計算の特例を受けることの届出書（PDF/826KB）"
+   ]
+  },
+  {
+   "page": "annai_09_2",
+   "href": "pdf/r03/01.pdf",
+   "text": "",
+   "ok": true,
+   "texts": [
+    "国税関係帳簿の電磁的記録等による保存等に係る65万円の青色申告特別控除・過少申告加算税の特例の適用を受ける旨の届出書（PDF/1,120KB）"
+   ]
+  },
+  {
+   "page": "annai_09_2",
+   "href": "pdf/r03/01-ki.pdf",
+   "text": "",
+   "ok": true,
+   "texts": [
+    "記載要領（PDF/94KB）"
+   ]
+  },
+  {
+   "page": "annai_23200002",
+   "href": "pdf/03_r05.pdf",
+   "text": "",
+   "ok": true,
+   "texts": [
+    "純損失の金額の繰戻しによる所得税の還付請求書【令和５年分以降用】（PDF/885KB）"
+   ]
+  },
+  {
+   "page": "annai_23200002",
+   "href": "pdf/03_r05-ki.pdf",
+   "text": "",
+   "ok": true,
+   "texts": [
+    "記載要領（PDF/198KB）"
+   ]
+  }
+ ],
+ "pdf": {
+  "formid": {
+   "1": [
+    "NTA0KOA210010110"
+   ],
+   "2": [
+    "NTA0KOA210020110"
+   ],
+   "3": [
+    "NTA0KOA210030110"
+   ],
+   "4": [
+    "NTA0KOA210040110"
+   ]
+  },
+  "formid_ok": true,
+  "p1": {
+   "G01": {
+    "near": [
+     "売上",
+     "（収入）",
+     "金額",
+     "1",
+     "（雑収入を含む）"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G02": {
+    "near": [
+     "期首商品",
+     "（製品）",
+     "2",
+     "棚卸高"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G03": {
+    "near": [
+     "仕入金額",
+     "3",
+     "（製品製造原価）"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G04": {
+    "near": [
+     "2",
+     "3",
+     "小計",
+     "4",
+     "（ ＋ ）"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G05": {
+    "near": [
+     "期末商品",
+     "（製品）",
+     "5",
+     "棚卸高"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G06": {
+    "near": [
+     "4",
+     "5",
+     "差引原価",
+     "（ － ）",
+     "6"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G07": {
+    "near": [
+     "差引金額",
+     "7",
+     "1",
+     "6",
+     "（ － ）"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G08": {
+    "near": [
+     "8",
+     "租税公課"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G09": {
+    "near": [
+     "9",
+     "荷造運賃"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G10": {
+    "near": [
+     "10",
+     "水道光熱費"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G11": {
+    "near": [
+     "11",
+     "旅費交通費"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G12": {
+    "near": [
+     "12",
+     "通信費"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G13": {
+    "near": [
+     "13",
+     "広告宣伝費"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G14": {
+    "near": [
+     "14",
+     "接待交際費"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G15": {
+    "near": [
+     "15",
+     "損害保険料"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G16": {
+    "near": [
+     "16",
+     "修繕費"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G17": {
+    "near": [
+     "17",
+     "消耗品費"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G18": {
+    "near": [
+     "18",
+     "減価償却費"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G19": {
+    "near": [
+     "19",
+     "福利厚生費"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G20": {
+    "near": [
+     "20",
+     "給料賃金"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G21": {
+    "near": [
+     "21",
+     "外注工賃"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G22": {
+    "near": [
+     "22",
+     "利子割引料"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G23": {
+    "near": [
+     "23",
+     "地代家賃"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G24": {
+    "near": [
+     "24",
+     "貸倒金"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G25": {
+    "near": [
+     "25"
+    ],
+    "num_ok": true,
+    "label_ok": null
+   },
+   "G26": {
+    "near": [
+     "26"
+    ],
+    "num_ok": true,
+    "label_ok": null
+   },
+   "G27": {
+    "near": [
+     "27"
+    ],
+    "num_ok": true,
+    "label_ok": null
+   },
+   "G28": {
+    "near": [
+     "28"
+    ],
+    "num_ok": true,
+    "label_ok": null
+   },
+   "G29": {
+    "near": [
+     "29"
+    ],
+    "num_ok": true,
+    "label_ok": null
+   },
+   "G30": {
+    "near": [
+     "30"
+    ],
+    "num_ok": true,
+    "label_ok": null
+   },
+   "G31": {
+    "near": [
+     "31",
+     "雑費"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G32": {
+    "near": [
+     "32",
+     "計"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G33": {
+    "near": [
+     "差引金額",
+     "33",
+     "7",
+     "32",
+     "（ － ）"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G34": {
+    "near": [
+     "貸倒引当金",
+     "34"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G35": {
+    "near": [
+     "35"
+    ],
+    "num_ok": true,
+    "label_ok": null
+   },
+   "G36": {
+    "near": [
+     "36"
+    ],
+    "num_ok": true,
+    "label_ok": null
+   },
+   "G37": {
+    "near": [
+     "計",
+     "37"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G38": {
+    "near": [
+     "38",
+     "専従者給与"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G39": {
+    "near": [
+     "39",
+     "貸倒引当金"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G40": {
+    "near": [
+     "40"
+    ],
+    "num_ok": true,
+    "label_ok": null
+   },
+   "G41": {
+    "near": [
+     "41"
+    ],
+    "num_ok": true,
+    "label_ok": null
+   },
+   "G42": {
+    "near": [
+     "42",
+     "計"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G43": {
+    "near": [
+     "青色申告特別控除前の所得金額",
+     "43",
+     "42",
+     "37",
+     "33",
+     "（ ＋ － ）"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G44": {
+    "near": [
+     "青色申告特別控除額",
+     "44"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   },
+   "G45": {
+    "near": [
+     "所得金額",
+     "45",
+     "43",
+     "44",
+     "（ － ）"
+    ],
+    "num_ok": true,
+    "label_ok": true
+   }
+  },
+  "p1_codes": [
+   "G01",
+   "G02",
+   "G03",
+   "G04",
+   "G05",
+   "G06",
+   "G07",
+   "G08",
+   "G09",
+   "G10",
+   "G11",
+   "G12",
+   "G13",
+   "G14",
+   "G15",
+   "G16",
+   "G17",
+   "G18",
+   "G19",
+   "G20",
+   "G21",
+   "G22",
+   "G23",
+   "G24",
+   "G25",
+   "G26",
+   "G27",
+   "G28",
+   "G29",
+   "G30",
+   "G31",
+   "G32",
+   "G33",
+   "G34",
+   "G35",
+   "G36",
+   "G37",
+   "G38",
+   "G39",
+   "G40",
+   "G41",
+   "G42",
+   "G43",
+   "G44",
+   "G45"
+  ],
+  "p1_all_ok": true,
+  "r5_label_pages": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "p2_quotes": {
+   "青色申告特別控除額の計算": true,
+   "本年分の不動産所得の金額": true,
+   "青色申告特別控除前の所得金額": true,
+   "65万円又は55": true,
+   "万円の青色申": true,
+   "告特別控除": true,
+   "を受ける場合": true,
+   "65万円又は55万円と…のいずれか少ない方の金額": true,
+   "「65万円又は55万円－…」と": true,
+   "上…記…以…外": true,
+   "10万円と…のいずれか少ない方の金額": true,
+   "「10万円―…」と": true,
+   "不動産所得から差し引かれる…青色申告特別控除額です。": true,
+   "１ページの「損益計算書」の…欄の金額を書いてください。": true,
+   "×5.5％": true,
+   "3.3％": true,
+   "専従者給与の内訳": true,
+   "給料賃金の内訳": true,
+   "地代家賃の内訳": true,
+   "貸倒引当金繰入額の計算": true
+  },
+  "p4_quotes": {
+   "貸借対照表": true,
+   "資産負債調": true,
+   "元入金": true,
+   "事業主貸": true,
+   "事業主借": true,
+   "製造原価の計算": true,
+   "欄の金額は、1ページの「損益計算書」の…欄に移記してください。": true,
+   "原価計算を行っていない人は、記入する必要はありません。": true
+  },
+  "p4_columns": {
+   "136": [
+    1,
+    24,
+    24
+   ],
+   "222": [
+    25,
+    49,
+    25
+   ],
+   "398": [
+    50,
+    72,
+    23
+   ],
+   "485": [
+    73,
+    97,
+    25
+   ]
+  },
+  "genkin": {
+   "formid": [
+    "NTA0KOA230010090",
+    "NTA0KOA230020090"
+   ],
+   "has_10man": true,
+   "has_65man": false,
+   "has_bs": false,
+   "has_label17": true
+  }
+ },
+ "examples": {
+  "T1": {
+   "got": 650000,
+   "want": 650000,
+   "ok": true
+  },
+  "T2": {
+   "got": 400000,
+   "want": 400000,
+   "ok": true
+  },
+  "T3": {
+   "got": [
+    650000,
+    {
+     "fudosan": 0,
+     "jigyo": 650000
+    }
+   ],
+   "want": [
+    650000,
+    {
+     "fudosan": 0,
+     "jigyo": 650000
+    }
+   ],
+   "ok": true
+  },
+  "T4": {
+   "got": 550000,
+   "want": 550000,
+   "ok": true
+  },
+  "T5": {
+   "got": 100000,
+   "want": 100000,
+   "ok": true
+  },
+  "T6": {
+   "got": 100000,
+   "want": 100000,
+   "ok": true
+  },
+  "T7": {
+   "got": 100000,
+   "want": 100000,
+   "ok": true
+  },
+  "T8": {
+   "got": 100000,
+   "want": 100000,
+   "ok": true
+  },
+  "T9": {
+   "got": [
+    500000,
+    {
+     "fudosan": 300000,
+     "jigyo": 200000
+    }
+   ],
+   "want": [
+    500000,
+    {
+     "fudosan": 300000,
+     "jigyo": 200000
+    }
+   ],
+   "ok": true
+  },
+  "T10": {
+   "got": 0,
+   "want": 0,
+   "ok": true
+  },
+  "T11": {
+   "got": 550000,
+   "want": 550000,
+   "ok": true
+  },
+  "T12": {
+   "got": 650000,
+   "want": 650000,
+   "ok": true
+  },
+  "R9_1": {
+   "got": {
+    "A": 0,
+    "B": 0
+   },
+   "want": {
+    "A": 0,
+    "B": 0
+   },
+   "ok": true
+  },
+  "R9_2": {
+   "got": {
+    "A": 100000,
+    "B": 0
+   },
+   "want": {
+    "A": 100000,
+    "B": 0
+   },
+   "ok": true
+  },
+  "R9_3": {
+   "got": {
+    "A": 100000,
+    "B": 100000
+   },
+   "want": {
+    "A": 100000,
+    "B": 100000
+   },
+   "ok": true
+  },
+  "R9_4": {
+   "got": {
+    "A": 650000,
+    "B": 650000
+   },
+   "want": {
+    "A": 650000,
+    "B": 650000
+   },
+   "ok": true
+  },
+  "R9_5": {
+   "got": {
+    "A": 750000,
+    "B": 750000
+   },
+   "want": {
+    "A": 750000,
+    "B": 750000
+   },
+   "ok": true
+  },
+  "R9_6": {
+   "got": {
+    "A": 100000,
+    "B": 100000
+   },
+   "want": {
+    "A": 100000,
+    "B": 100000
+   },
+   "ok": true
+  },
+  "K1": {
+   "got": [
+    100000,
+    202500,
+    102500
+   ],
+   "want": [
+    100000,
+    202500,
+    102500
+   ],
+   "ok": true
+  },
+  "K2": {
+   "got": [
+    75000,
+    75000,
+    0
+   ],
+   "want": [
+    75000,
+    75000,
+    0
+   ],
+   "ok": true
+  },
+  "K3": {
+   "got": [
+    50000,
+    202500,
+    102500
+   ],
+   "want": [
+    50000,
+    202500,
+    102500
+   ],
+   "ok": true
+  },
+  "K2_一部(150万)": {
+   "got": [
+    75000,
+    75000,
+    0
+   ],
+   "want": [
+    75000,
+    75000,
+    0
+   ],
+   "ok": true
+  },
+  "C1": {
+   "got": {
+    "2026": [
+     [
+      2025,
+      600000
+     ]
+    ],
+    "2027": [
+     [
+      2025,
+      400000
+     ]
+    ]
+   },
+   "want": {
+    "2026": [
+     [
+      2025,
+      600000
+     ]
+    ],
+    "2027": [
+     [
+      2025,
+      400000
+     ]
+    ]
+   },
+   "ok": true
+  },
+  "C2": {
+   "got": [
+    {
+     "2026": [],
+     "2027": [],
+     "2028": [
+      [
+       2025,
+       200000
+      ]
+     ],
+     "2029": []
+    },
+    {
+     "2025": 800000
+    }
+   ],
+   "want": [
+    {
+     "2026": [],
+     "2027": [],
+     "2028": [
+      [
+       2025,
+       200000
+      ]
+     ],
+     "2029": []
+    },
+    {
+     "2025": 800000
+    }
+   ],
+   "ok": true
+  },
+  "C3": {
+   "got": [
+    {
+     "2027": [
+      [
+       2025,
+       500000
+      ],
+      [
+       2026,
+       200000
+      ]
+     ]
+    },
+    {
+     "2025": 0,
+     "2026": 300000
+    }
+   ],
+   "want": [
+    {
+     "2027": [
+      [
+       2025,
+       500000
+      ],
+      [
+       2026,
+       200000
+      ]
+     ]
+    },
+    {
+     "2025": 0,
+     "2026": 300000
+    }
+   ],
+   "ok": true
+  },
+  "S1": {
+   "got": true,
+   "want": true,
+   "ok": true
+  },
+  "S2": {
+   "got": true,
+   "want": true,
+   "ok": true
+  },
+  "S3": {
+   "got": false,
+   "want": false,
+   "ok": true
+  },
+  "I6_2026-03-01開業_初日不算入": {
+   "got": "2026-05-01",
+   "want": "2026-05-01",
+   "ok": true
+  },
+  "I6_2026-03-01開業_初日算入": {
+   "got": "2026-04-30",
+   "want": "2026-04-30",
+   "ok": true
+  },
+  "I6_2026-11-15開業": {
+   "got": "2027-01-15",
+   "want": "2027-01-15",
+   "ok": true
+  },
+  "I6_2026-03-15の曜日": {
+   "got": "Sunday",
+   "want": "Sunday",
+   "ok": true
+  },
+  "I6_2027-03-15の曜日": {
+   "got": "Monday",
+   "want": "Monday",
+   "ok": true
+  },
+  "I6_2026-05-01の曜日": {
+   "got": "Friday",
+   "want": "Friday",
+   "ok": true
+  },
+  "I6_2027-01-15の曜日": {
+   "got": "Friday",
+   "want": "Friday",
+   "ok": true
+  },
+  "I5_1/1〜7/10": {
+   "got": 191,
+   "want": 191,
+   "ok": true
+  },
+  "I9": {
+   "got": [
+    4000000,
+    3000000,
+    3000000,
+    650000,
+    2350000
+   ],
+   "want": [
+    4000000,
+    3000000,
+    3000000,
+    650000,
+    2350000
+   ],
+   "ok": true
+  }
+ },
+ "lookups": {
+  "shotoku": {
+   "matches": [
+    {
+     "law_id": "340AC0000000033",
+     "law_num": "昭和四十年法律第三十三号"
+    }
+   ],
+   "claimed_ok": true
+  },
+  "shotoku-rei": {
+   "matches": [
+    {
+     "law_id": "340CO0000000096",
+     "law_num": "昭和四十年政令第九十六号"
+    }
+   ],
+   "claimed_ok": true
+  },
+  "shotoku-ki": {
+   "matches": [
+    {
+     "law_id": "340M50000040011",
+     "law_num": "昭和四十年大蔵省令第十一号"
+    }
+   ],
+   "claimed_ok": true
+  },
+  "sochi": {
+   "matches": [
+    {
+     "law_id": "332AC0000000026",
+     "law_num": "昭和三十二年法律第二十六号"
+    }
+   ],
+   "claimed_ok": true
+  },
+  "sochi-ki": {
+   "matches": [
+    {
+     "law_id": "332M50000040015",
+     "law_num": "昭和三十二年大蔵省令第十五号"
+    }
+   ],
+   "claimed_ok": true
+  },
+  "denchou": {
+   "matches": [
+    {
+     "law_id": "410AC0000000025",
+     "law_num": "平成十年法律第二十五号"
+    }
+   ],
+   "claimed_ok": true
+  },
+  "denchou-ki": {
+   "matches": [
+    {
+     "law_id": "410M50000040043",
+     "law_num": "平成十年大蔵省令第四十三号"
+    }
+   ],
+   "claimed_ok": true
+  },
+  "tsusoku": {
+   "matches": [
+    {
+     "law_id": "337AC0000000066",
+     "law_num": "昭和三十七年法律第六十六号"
+    }
+   ],
+   "claimed_ok": true
+  }
+ },
+ "sochi_25_2_by_revision": {
+  "versions_2027_01_01": [
+   "332AC0000000026_20270101_506AC0000000008",
+   "332AC0000000026_20270101_507AC0000000013",
+   "332AC0000000026_20270101_508AC0000000012"
+  ],
+  "updated": {
+   "332AC0000000026_20270101_508AC0000000012": "2026-07-29T14:09:07+09:00",
+   "332AC0000000026_20270101_507AC0000000013": "2026-07-29T14:07:22+09:00",
+   "332AC0000000026_20270101_506AC0000000008": "2026-07-29T12:12:55+09:00",
+   "332AC0000000026_20261204_508AC0000000012": "2026-07-29T12:09:07+09:00"
+  },
+  "R6_8_eq_20261204": true,
+  "R7_13_has_4_1_ro": true,
+  "R8_12_eq_asof_2027": true,
+  "R8_12_has_senman": true
+ },
+ "shotoku_rei_165_198_by_revision": {
+  "340CO0000000096_20270101_508CO0000000093": {
+   "施行日": "2027-01-01",
+   "改正": "令和八年政令第九十三号",
+   "165②一_学生又は生徒で常時修学しない": true,
+   "198_又は": true
+  },
+  "340CO0000000096_20261201_508CO0000000093": {
+   "施行日": "2026-12-01",
+   "改正": "令和八年政令第九十三号",
+   "165②一_学生又は生徒で常時修学しない": true,
+   "198_又は": true
+  },
+  "340CO0000000096_20260522_508CO0000000093": {
+   "施行日": "2026-05-22",
+   "改正": "令和八年政令第九十三号",
+   "165②一_学生又は生徒で常時修学しない": true,
+   "198_又は": true
+  },
+  "340CO0000000096_20260401_508CO0000000093": {
+   "施行日": "2026-04-01",
+   "改正": "令和八年政令第九十三号",
+   "165②一_学生又は生徒で常時修学しない": true,
+   "198_又は": true
+  },
+  "340CO0000000096_20260401_507CO0000000120": {
+   "施行日": "2026-04-01",
+   "改正": "令和七年政令第百二十号",
+   "165②一_学生又は生徒で常時修学しない": false,
+   "198_又は": false
+  },
+  "340CO0000000096_20260401_506CO0000000141": {
+   "施行日": "2026-04-01",
+   "改正": "令和六年政令第百四十一号",
+   "165②一_学生又は生徒で常時修学しない": false,
+   "198_又は": false
+  },
+  "340CO0000000096_20260101_507CO0000000120": {
+   "施行日": "2026-01-01",
+   "改正": "令和七年政令第百二十号",
+   "165②一_学生又は生徒で常時修学しない": false,
+   "198_又は": false
+  },
+  "340CO0000000096_20251201_507CO0000000120": {
+   "施行日": "2025-12-01",
+   "改正": "令和七年政令第百二十号",
+   "165②一_学生又は生徒で常時修学しない": false,
+   "198_又は": false
+  }
+ },
+ "shotoku_ki_appdx": {
+  "2025-12-31": [
+   "別表第一|別表第一　削除"
+  ],
+  "2026-12-31": [
+   "別表第一|別表第一　削除"
+  ],
+  "2027-01-01": [
+   "別表第一|別表第一　削除"
+  ]
+ },
+ "ta_bunya_kojinjigyo_links_loss": []
+}

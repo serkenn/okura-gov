@@ -1,0 +1,193 @@
+description: >-
+  被扶養者の年間収入の基準額（この額未満なら収入の要件を満たす）。制度ごとに出典が違う（健保は通知、共済は施行令第3条が委ねた大臣の定め）。
+  19歳以上23歳未満の150万円は判定日（認定の対象の日）が適用開始日（令和7年10月1日）以後のときだけ使う（それより前に遡って認定する期間は130万円）。
+健康保険:
+  description: 健康保険法の被扶養者（昭和52年4月6日 保発第9号・庁保発第9号、令和7年7月4日 保発0704第1号・第2号）
+  原則:
+    description: 下記以外の認定対象者の年間収入の基準額
+    metadata:
+      law: 昭和52年4月6日 保発第9号・庁保発第9号 記1・記2（130万円未満）
+      source_kind: 通知・事務連絡
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md#1.1
+    values:
+      2025-01-01: {value: 1300000, metadata: {比較: 未満}}
+  19歳以上23歳未満:
+    description: 19歳以上23歳未満（判定日の属する年の12月31日現在。被保険者の配偶者を除く）の年間収入の基準額。適用開始日より前の判定日には原則の額を使う
+    額:
+      description: 19歳以上23歳未満の年間収入の基準額
+      metadata:
+        law: 令和7年7月4日 保発0704第1号・年管発0704第1号・保発0704第2号 記1・記3（令和7年10月1日から適用）
+        source_kind: 通知・事務連絡
+        unit: 円
+        reference:
+          - docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md#1.2
+          - docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md#5.1
+      values:
+        2025-01-01: {value: 1500000, metadata: {比較: 未満, 施行日: 2025-10-01}}
+    適用開始日:
+      description: この区分を適用する判定日（認定の対象の日）の始まり（文字列。日付のキーでなく値で持つ：パラメータの日付のキーは1月1日）
+      metadata:
+        law: 令和7年7月4日 保発0704第1号・年管発0704第1号・保発0704第2号 記1・記3（令和7年10月1日から適用）
+        source_kind: 通知・事務連絡
+        unit: 日付
+        reference:
+          - docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md#1.2
+          - docs/public-sources/20261109_impl-prep_kenpo-dependent-practice.md#5.1
+      values:
+        2025-01-01: {value: "2025-10-01"}
+  60歳以上又は障害者:
+    description: 60歳以上又は概ね障害厚生年金の受給要件に該当する程度の障害者の年間収入の基準額
+    metadata:
+      law: 昭和52年4月6日 保発第9号・庁保発第9号 記1・記2（180万円未満）
+      source_kind: 通知・事務連絡
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_R3-tsutatsu_shakaihoken-juminzei.md#1.1
+    values:
+      2025-01-01: {value: 1800000, metadata: {比較: 未満}}
+国家公務員共済:
+  description: 国家公務員共済組合法等の運用方針（昭和34年10月1日 蔵計第2927号）第2条関係 第1項第2号 2(3)（国共済令第3条の財務大臣の定め）
+  原則:
+    description: 年額130万円以上の所得がある者は主として組合員の収入により生計を維持する者に該当しない
+    metadata:
+      law: 国家公務員共済組合法等の運用方針 第2条関係 第1項第2号 2(3)
+      source_kind: 通達
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md#1.2
+        - docs/public-sources/20261109_round2_kyosai-law-and-criteria.md#3.1
+    values:
+      2025-01-01: {value: 1300000, metadata: {比較: 未満}}
+  19歳以上23歳未満:
+    description: 19歳以上23歳未満の者（組合員の配偶者を除く）。適用開始日より前の判定日には原則の額を使う
+    額:
+      description: 19歳以上23歳未満の年間収入の基準額
+      metadata:
+        law: 国家公務員共済組合法等の運用方針 第2条関係 第1項第2号 2(3)（令和7年8月8日 財計第3407号で追加、令和7年10月1日から適用）
+        source_kind: 通達
+        unit: 円
+        reference:
+          - docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md#1.1
+          - docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md#1.2
+      values:
+        2025-01-01: {value: 1500000, metadata: {比較: 未満, 施行日: 2025-10-01}}
+    適用開始日:
+      description: この区分を適用する判定日（認定の対象の日）の始まり（文字列。日付のキーでなく値で持つ：パラメータの日付のキーは1月1日）
+      metadata:
+        law: 国家公務員共済組合法等の運用方針 第2条関係 第1項第2号 2(3)（令和7年8月8日 財計第3407号で追加、令和7年10月1日から適用）
+        source_kind: 通達
+        unit: 日付
+        reference:
+          - docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md#1.1
+          - docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md#1.2
+      values:
+        2025-01-01: {value: "2025-10-01"}
+  60歳以上又は障害者:
+    description: 公的な年金たる給付のうち障害を支給事由とする給付の受給要件に該当する程度の障害を有する者又は60歳以上の者
+    metadata:
+      law: 国家公務員共済組合法等の運用方針 第2条関係 第1項第2号 2(3)
+      source_kind: 通達
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md#1.2
+    values:
+      2025-01-01: {value: 1800000, metadata: {比較: 未満}}
+地方公務員共済:
+  description: 地方公務員等共済組合法運用方針（昭和37年10月3日 自治甲公第10号）第一章 第二条関係 第一項第二号 二(三)（地共済令第3条の総務大臣の定め）
+  原則:
+    description: 年額百三十万円以上の所得がある者は該当しない
+    metadata:
+      law: 地方公務員等共済組合法運用方針 第一章 第二条関係 第一項第二号 二(三)
+      source_kind: 通達
+      flags: [原文未確認]
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md#2.1
+        - docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md#2.2
+    values:
+      2025-01-01: {value: 1300000, metadata: {比較: 未満}}
+  19歳以上23歳未満:
+    description: 十九歳以上二十三歳未満の者（組合員の配偶者を除く）。適用開始日より前の判定日には原則の額を使う
+    額:
+      description: 19歳以上23歳未満の年間収入の基準額
+      metadata:
+        law: 地方公務員等共済組合法運用方針 第一章 第二条関係 第一項第二号 二(三)（令和7年7月23日 総行福第210号の別紙で改正、令和7年10月1日から適用）
+        source_kind: 通達
+        flags: [原文未確認]
+        unit: 円
+        reference:
+          - docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md#2.1
+      values:
+        2025-01-01: {value: 1500000, metadata: {比較: 未満, 施行日: 2025-10-01}}
+    適用開始日:
+      description: この区分を適用する判定日（認定の対象の日）の始まり（文字列。日付のキーでなく値で持つ：パラメータの日付のキーは1月1日）
+      metadata:
+        law: 地方公務員等共済組合法運用方針 第一章 第二条関係 第一項第二号 二(三)（令和7年7月23日 総行福第210号の別紙で改正、令和7年10月1日から適用）
+        source_kind: 通達
+        flags: [原文未確認]
+        unit: 日付
+        reference:
+          - docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md#2.1
+      values:
+        2025-01-01: {value: "2025-10-01"}
+  60歳以上又は障害者:
+    description: 障害を支給事由とする給付の受給要件に該当する程度の障害を有する者又は六十歳以上の者
+    metadata:
+      law: 地方公務員等共済組合法運用方針 第一章 第二条関係 第一項第二号 二(三)
+      source_kind: 通達
+      flags: [原文未確認]
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md#2.1
+    values:
+      2025-01-01: {value: 1800000, metadata: {比較: 未満}}
+私学共済:
+  description: 私立学校教職員共済法施行令第三条の規定による「主として加入者の収入により生計を維持すること」の認定について（昭和35年4月9日 文部大臣裁定）3
+  原則:
+    description: 年額130万円以上の所得がある者は該当しない
+    metadata:
+      law: 昭和35年4月9日 文部大臣裁定 3
+      source_kind: 通達
+      flags: [原文未確認]
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md#3.1
+    values:
+      2025-01-01: {value: 1300000, metadata: {比較: 未満}}
+  19歳以上23歳未満:
+    description: 19歳以上23歳未満の者（加入者の配偶者を除く）。適用開始日より前の判定日には原則の額を使う
+    額:
+      description: 19歳以上23歳未満の年間収入の基準額
+      metadata:
+        law: 昭和35年4月9日 文部大臣裁定 3（令和7年8月29日 7文科高第783号で改正、令和7年10月1日から適用）
+        source_kind: 通達
+        flags: [原文未確認]
+        unit: 円
+        reference:
+          - docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md#3.1
+      values:
+        2025-01-01: {value: 1500000, metadata: {比較: 未満, 施行日: 2025-10-01}}
+    適用開始日:
+      description: この区分を適用する判定日（認定の対象の日）の始まり（文字列。日付のキーでなく値で持つ：パラメータの日付のキーは1月1日）
+      metadata:
+        law: 昭和35年4月9日 文部大臣裁定 3（令和7年8月29日 7文科高第783号で改正、令和7年10月1日から適用）
+        source_kind: 通達
+        flags: [原文未確認]
+        unit: 日付
+        reference:
+          - docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md#3.1
+      values:
+        2025-01-01: {value: "2025-10-01"}
+  60歳以上又は障害者:
+    description: 障害を支給事由とする給付の受給要件に該当する程度の障害を有する者又は60歳以上の者
+    metadata:
+      law: 昭和35年4月9日 文部大臣裁定 3
+      source_kind: 通達
+      flags: [原文未確認]
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_round3_kyosai-b-ministerial-criteria.md#3.1
+    values:
+      2025-01-01: {value: 1800000, metadata: {比較: 未満}}

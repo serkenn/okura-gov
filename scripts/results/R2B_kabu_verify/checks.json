@@ -1,0 +1,1031 @@
+{
+ "run_at": "20261109-182833",
+ "download_dir": ".work\\downloads\\20261109-182833_R2B_kabu_verify",
+ "fetches": [
+  {
+   "short": "sochi",
+   "law_id": "332AC0000000026",
+   "asof": "2025-12-31",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/332AC0000000026?response_format=json&asof=2025-12-31",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "amendment_law_num": "令和七年法律第八十一号",
+   "amendment_enforcement_date": "2025-12-31",
+   "current_revision_status": "PreviousEnforced",
+   "sha256": "ef95d90f7bf57e182e674201fcc0ac27799d8e2ba2947db8043358aef02df9e7",
+   "bytes": 14344538
+  },
+  {
+   "short": "sochi",
+   "law_id": "332AC0000000026",
+   "asof": "2026-12-31",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/332AC0000000026?response_format=json&asof=2026-12-31",
+   "law_revision_id": "332AC0000000026_20261204_508AC0000000012",
+   "amendment_law_num": "令和八年法律第十二号",
+   "amendment_enforcement_date": null,
+   "current_revision_status": "UnEnforced",
+   "sha256": "763fce2df2b1e7093ef3ac2e44e36e766c061d5166f23ab8efe3ad012783f7f7",
+   "bytes": 14524288
+  },
+  {
+   "short": "sochi-rei",
+   "law_id": "332CO0000000043",
+   "asof": "2025-12-31",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/332CO0000000043?response_format=json&asof=2025-12-31",
+   "law_revision_id": "332CO0000000043_20251231_507CO0000000401",
+   "amendment_law_num": "令和七年政令第四百一号",
+   "amendment_enforcement_date": "2025-12-31",
+   "current_revision_status": "PreviousEnforced",
+   "sha256": "a3f62b67c672c5526dfb0abb0811e8ad128fd13e30c25dcdbbf102e7df39a38f",
+   "bytes": 13874633
+  },
+  {
+   "short": "sochi-rei",
+   "law_id": "332CO0000000043",
+   "asof": "2026-12-31",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/332CO0000000043?response_format=json&asof=2026-12-31",
+   "law_revision_id": "332CO0000000043_20261201_508CO0000000098",
+   "amendment_law_num": "令和八年政令第九十八号",
+   "amendment_enforcement_date": "2026-12-01",
+   "current_revision_status": "UnEnforced",
+   "sha256": "cc9aa8b1a0a429fbe15a8e12cecb307c3bf734cd1111213cb4246dc7a615e663",
+   "bytes": 13876278
+  },
+  {
+   "short": "chiho",
+   "law_id": "325AC0000000226",
+   "asof": "2026-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=json&asof=2026-01-01",
+   "law_revision_id": "325AC0000000226_20260101_507AC0000000041",
+   "amendment_law_num": "令和七年法律第四十一号",
+   "amendment_enforcement_date": "2026-01-01",
+   "current_revision_status": "PreviousEnforced",
+   "sha256": "ba0a40e550be7762907faf5f82a17a14ed9c9e6fd21060f5fc7765e1c1321779",
+   "bytes": 12431689
+  },
+  {
+   "short": "shotoku",
+   "law_id": "340AC0000000033",
+   "asof": "2025-12-31",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=json&asof=2025-12-31",
+   "law_revision_id": "340AC0000000033_20251218_507AC0000000013",
+   "amendment_law_num": "令和七年法律第十三号",
+   "amendment_enforcement_date": "2025-12-18",
+   "current_revision_status": "PreviousEnforced",
+   "sha256": "84a2235cb4437184cce50cef0a9a85945833e94a2624fbf68d67c131eccb7db3",
+   "bytes": 16394130
+  },
+  {
+   "short": "chiho",
+   "law_id": "325AC0000000226",
+   "asof": "2027-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=json&asof=2027-01-01",
+   "law_revision_id": "325AC0000000226_20270101_508AC0000000002",
+   "amendment_law_num": "令和八年法律第二号",
+   "amendment_enforcement_date": "2027-01-01",
+   "current_revision_status": "UnEnforced",
+   "sha256": "ee21722ce5fd15615bdd5139c9152f55388200c3965ee9c78e10800c82c2b716",
+   "bytes": 12224062
+  },
+  {
+   "short": "kokuho-rei",
+   "law_id": "333CO0000000362",
+   "asof": "2026-04-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/333CO0000000362?response_format=json&asof=2026-04-01",
+   "law_revision_id": "333CO0000000362_20260401_508CO0000000002",
+   "amendment_law_num": "令和八年政令第二号",
+   "amendment_enforcement_date": "2026-04-01",
+   "current_revision_status": "PreviousEnforced",
+   "sha256": "beb2bf7a591701692b19abe10df7df6badc6f415a178183f1d96668df5d5cb95",
+   "bytes": 1390901
+  },
+  {
+   "short": "chiho",
+   "law_id": "325AC0000000226",
+   "asof": "2023-12-31",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=json&asof=2023-12-31",
+   "law_revision_id": "325AC0000000226_20231213_505AC0000000050",
+   "amendment_law_num": "令和五年法律第五十号",
+   "amendment_enforcement_date": "2023-12-13",
+   "current_revision_status": "PreviousEnforced",
+   "sha256": "6d8e50a4eef7b323e1b72ab02092fd714d2d144607fdd2f59235f86d4055963c",
+   "bytes": 12039594
+  },
+  {
+   "short": "chiho",
+   "law_id": "325AC0000000226",
+   "asof": "2024-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=json&asof=2024-01-01",
+   "law_revision_id": "325AC0000000226_20240101_505AC0000000031",
+   "amendment_law_num": "令和五年法律第三十一号",
+   "amendment_enforcement_date": "2024-01-01",
+   "current_revision_status": "PreviousEnforced",
+   "sha256": "60e37607d560b663a9022b2579e737fbbe9b3d85e6059536eb4788ee2323039d",
+   "bytes": 12222373
+  },
+  {
+   "short": "sochi",
+   "law_id": "332AC0000000026",
+   "asof": "2026-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/332AC0000000026?response_format=json&asof=2026-01-01",
+   "law_revision_id": "332AC0000000026_20260101_507AC0000000041",
+   "amendment_law_num": "令和七年法律第四十一号",
+   "amendment_enforcement_date": "2026-01-01",
+   "current_revision_status": "PreviousEnforced",
+   "sha256": "fc120ad551878b614f4b1975206a9addb7d4505d9875cbc6d952daa988fc771c",
+   "bytes": 14363199
+  },
+  {
+   "short": "sochi",
+   "law_id": "332AC0000000026",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/332AC0000000026?response_format=json&asof=2026-11-09",
+   "law_revision_id": "332AC0000000026_20261101_507AC0000000013",
+   "amendment_law_num": "令和七年法律第十三号",
+   "amendment_enforcement_date": "2026-11-01",
+   "current_revision_status": "CurrentEnforced",
+   "sha256": "e6e6013bbc0608c6b48dea01d50ac847c3e5d094f0420223171ffe1b5cf8d5ee",
+   "bytes": 14512569
+  },
+  {
+   "short": "sochi-rei",
+   "law_id": "332CO0000000043",
+   "asof": "2026-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/332CO0000000043?response_format=json&asof=2026-01-01",
+   "law_revision_id": "332CO0000000043_20260101_507CO0000000277",
+   "amendment_law_num": "令和七年政令第二百七十七号",
+   "amendment_enforcement_date": "2026-01-01",
+   "current_revision_status": "PreviousEnforced",
+   "sha256": "43d56ff044010e3736ac9ab59d2061fd80b2f9a40a2d38c0f264c8cf6256103c",
+   "bytes": 13876452
+  },
+  {
+   "short": "sochi-rei",
+   "law_id": "332CO0000000043",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/332CO0000000043?response_format=json&asof=2026-11-09",
+   "law_revision_id": "332CO0000000043_20261101_507CO0000000127",
+   "amendment_law_num": "令和七年政令第百二十七号",
+   "amendment_enforcement_date": "2026-11-01",
+   "current_revision_status": "CurrentEnforced",
+   "sha256": "d0ad21a838fd3d2a3b107a001b91a31ee00c267dc776bcd608b0ef018cf5494d",
+   "bytes": 13874873
+  },
+  {
+   "short": "shotoku-rei",
+   "law_id": "340CO0000000096",
+   "asof": "2025-12-31",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096?response_format=json&asof=2025-12-31",
+   "law_revision_id": "340CO0000000096_20251201_507CO0000000120",
+   "amendment_law_num": "令和七年政令第百二十号",
+   "amendment_enforcement_date": "2025-12-01",
+   "current_revision_status": "PreviousEnforced",
+   "sha256": "e972344f436ecd9b9b8f07e538358e716459cf0d1a77aa587699c6f71d95583a",
+   "bytes": 3591986
+  }
+ ],
+ "web": [
+  {
+   "id": "W_ta1331",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1331.htm",
+   "status": 200,
+   "bytes": 24458,
+   "sha256": "621495555b3d1fa3b6a0144812b873f95c704b51e928316642b802b9b42865d8",
+   "last_modified": "Wed, 09 Sep 2026 01:00:11 GMT"
+  },
+  {
+   "id": "W_ta1330",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1330.htm",
+   "status": 200,
+   "bytes": 21400,
+   "sha256": "e97f7323c284b0e2b61c75c2b9a5c05682dea7ad740cd0d8a59c47468b3cd730",
+   "last_modified": "Wed, 09 Sep 2026 01:00:11 GMT"
+  },
+  {
+   "id": "W_ta1476",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1476.htm",
+   "status": 200,
+   "bytes": 18748,
+   "sha256": "1721ce41db4aafb0d1c752d3d34c2711a13b558d5038fd24d22504af9d0f0fa9",
+   "last_modified": "Mon, 07 Sep 2026 08:30:09 GMT"
+  },
+  {
+   "id": "W_ta1474",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1474.htm",
+   "status": 200,
+   "bytes": 18854,
+   "sha256": "91111d470297e5555e0facfec114d85c856eeb4556d55c398448045e9c6dfc4f",
+   "last_modified": "Mon, 07 Sep 2026 08:30:09 GMT"
+  },
+  {
+   "id": "W_y01",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/yogo/3-2_y01.htm",
+   "status": 200,
+   "bytes": 18108,
+   "sha256": "9b725077601c7541ffd4aee7501d4279cba0294d32dc3f8d3422337452065be1",
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT"
+  },
+  {
+   "id": "W_1_12",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/01/1_12.htm",
+   "status": 200,
+   "bytes": 9615,
+   "sha256": "c23a64c7061ffc26cf0f6dddcc8d0adb59a4e4d28febe453b16a82a2e68c1bae",
+   "last_modified": "Wed, 24 Dec 2025 08:30:12 GMT"
+  },
+  {
+   "id": "W_kabutsu_37_11_5",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/020624/sanrin/1273/37_11_5/01.htm",
+   "status": 200,
+   "bytes": 6929,
+   "sha256": "ae1a712d03c06feed7e5de8d172dfb327de2edfbb9fee1b743098776383ea472",
+   "last_modified": "Thu, 18 Jan 2024 09:24:13 GMT"
+  },
+  {
+   "id": "W_sochitsu_8_5",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/57/08/06.htm",
+   "status": 200,
+   "bytes": 6931,
+   "sha256": "26204373a4257088a10652d723ddbe7defb70f92068b518deeabdb578b379b92",
+   "last_modified": "Mon, 25 Nov 2024 05:00:03 GMT"
+  },
+  {
+   "id": "W_yoshiki_r07_02",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/02.pdf",
+   "status": 200,
+   "bytes": 913314,
+   "sha256": "1d30dbc3e8823a321fc1ceb83eb0c1d3b9f585f7357168a6c7570d02fd482396",
+   "last_modified": "Mon, 31 Aug 2026 05:00:05 GMT"
+  },
+  {
+   "id": "W_soumu_r040715",
+   "url": "https://www.soumu.go.jp/main_content/000833994.pdf",
+   "status": 200,
+   "bytes": 1456240,
+   "sha256": "eaaa241eaee0a37ee70e0e472109b97cb6cc943dff4758e92e90289965819697",
+   "last_modified": "Mon, 03 Mar 2025 04:42:12 GMT"
+  }
+ ],
+ "checks": [
+  {
+   "id": "C01",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:8_4",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "同項第三十号中「山林所得金額」とあるのは、「山林所得金額並びに租税特別措置法第八条の四第一項（上場株式等に係る配当所得等の課税の特例）に規定する上場株式等に係る配当所得等の金額",
+   "ok": true
+  },
+  {
+   "id": "C01b",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2026-12-31",
+   "key": "本則:8_4",
+   "law_revision_id": "332AC0000000026_20261204_508AC0000000012",
+   "needle": "同項第三十号中「山林所得金額」とあるのは、「山林所得金額並びに租税特別措置法第八条の四第一項（上場株式等に係る配当所得等の課税の特例）に規定する上場株式等に係る配当所得等の金額",
+   "ok": true
+  },
+  {
+   "id": "C02",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:8_4",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "その年中に支払を受けるべき特定上場株式等の配当等に係る配当所得につき前項の規定の適用を受けようとする旨の記載のある確定申告書を提出した場合に限り適用する",
+   "ok": true
+  },
+  {
+   "id": "C03",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:8_4",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "その者がその同一の年中に支払を受けるべき他の特定上場株式等の配当等に係る配当所得については、同項の規定は、適用しない",
+   "ok": true
+  },
+  {
+   "id": "C04",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:8_4",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "の百分の十五に相当する金額に相当する所得税を課する。この場合において、当該上場株式等の配当等に係る配当所得については、同法第九十二条第一項の規定は、適用しない",
+   "ok": true
+  },
+  {
+   "id": "C05",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:8_4",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "同条第一項中「各種所得の金額」とあるのは、「各種所得の金額（上場株式等に係る配当所得等の金額を除く。）」とする",
+   "ok": true
+  },
+  {
+   "id": "C06",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:8_4",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "これらの規定中「総所得金額」とあるのは、「総所得金額、上場株式等に係る配当所得等の金額」とする",
+   "ok": true
+  },
+  {
+   "id": "C07",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:8_5",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "の計算上当該利子等に係る利子所得の金額又は配当等に係る配当所得の金額を除外し",
+   "ok": true
+  },
+  {
+   "id": "C08",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:8_5",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "その一回に支払を受けるべき利子等の額又は配当等の額ごとに行うことができる",
+   "ok": true
+  },
+  {
+   "id": "C09",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:8_5",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "十万円に配当計算期間",
+   "ok": true
+  },
+  {
+   "id": "C10",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:37_11",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "上場株式等に係る譲渡所得等の金額の計算上生じた損失の金額があるときは、同法その他所得税に関する法令の規定の適用については、当該損失の金額は生じなかつたものとみなす",
+   "ok": true
+  },
+  {
+   "id": "C11",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:37_11",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "前条第六項の規定は、第一項の規定の適用がある場合について準用する",
+   "ok": true
+  },
+  {
+   "id": "C12",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:37_10",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "同項第三十号中「山林所得金額」とあるのは、「山林所得金額並びに租税特別措置法第三十七条の十第一項",
+   "ok": true
+  },
+  {
+   "id": "C13",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:37_11_5",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "当該各号に掲げる金額（当該各号に掲げる金額が同一の源泉徴収選択口座に係るものである場合には、当該源泉徴収選択口座については、第一号に掲げる金額及び第二号に掲げる金額）を除外したところにより",
+   "ok": true
+  },
+  {
+   "id": "C14",
+   "kind": "E1",
+   "law": "sochi-rei",
+   "asof": "2025-12-31",
+   "key": "本則:25_10_12",
+   "law_revision_id": "332CO0000000043_20251231_507CO0000000401",
+   "needle": "（同法第三十七条の十一の五第一項（確定申告を要しない上場株式等の譲渡による所得）の規定の適用を受ける場合には、同項各号に掲げる金額を除外した金額）",
+   "ok": true
+  },
+  {
+   "id": "C14b",
+   "kind": "E1",
+   "law": "sochi-rei",
+   "asof": "2026-12-31",
+   "key": "本則:25_10_12",
+   "law_revision_id": "332CO0000000043_20261201_508CO0000000098",
+   "needle": "（同法第三十七条の十一の五第一項（確定申告を要しない上場株式等の譲渡による所得）の規定の適用を受ける場合には、同項各号に掲げる金額を除外した金額）",
+   "ok": true
+  },
+  {
+   "id": "C15",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:37_12_2",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "当該確定申告書に係る年分の第八条の四第一項に規定する上場株式等に係る配当所得等の金額を限度として、当該年分の当該上場株式等に係る配当所得等の金額の計算上控除する",
+   "ok": true
+  },
+  {
+   "id": "C16",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:37_12_2",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "その年の前年以前三年内の各年において生じた上場株式等に係る譲渡損失の金額",
+   "ok": true
+  },
+  {
+   "id": "C17",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:37_12_2",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "第一項の規定の適用がある場合における第八条の四の規定の適用については、同条第一項中「計算した金額（」とあるのは、「計算した金額（第三十七条の十二の二第一項の規定の適用がある場合には、その適用後の金額。」とする",
+   "ok": true
+  },
+  {
+   "id": "C18",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:37_12_2",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "第五項の規定の適用がある場合における第八条の四（第三項を除く。）及び第三十七条の十一（第六項を除く。）の規定の適用については",
+   "ok": true
+  },
+  {
+   "id": "C19",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:37_12_2",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "その後において連続して確定申告書を提出している場合",
+   "ok": true
+  },
+  {
+   "id": "C20",
+   "kind": "E1",
+   "law": "sochi-rei",
+   "asof": "2025-12-31",
+   "key": "本則:25_11_2",
+   "law_revision_id": "332CO0000000043_20251231_507CO0000000401",
+   "needle": "同法第七十二条第一項各号列記以外の部分中「総所得金額」とあるのは「総所得金額、上場株式等に係る配当所得等の金額（租税特別措置法第三十七条の十二の二第一項又は第五項（上場株式等に係る譲渡損失の損益通算及び繰越控除）の規定の適用がある場合には、その適用後の金額。以下同じ。）」",
+   "ok": true
+  },
+  {
+   "id": "C21",
+   "kind": "E1",
+   "law": "sochi-rei",
+   "asof": "2025-12-31",
+   "key": "本則:25_11_2",
+   "law_revision_id": "332CO0000000043_20251231_507CO0000000401",
+   "needle": "同法第七十二条第一項各号列記以外の部分中「総所得金額」とあるのは「総所得金額、上場株式等に係る譲渡所得等の金額（租税特別措置法第三十七条の十二の二第五項（上場株式等に係る譲渡損失の繰越控除）の規定の適用がある場合には、その適用後の金額。以下同じ。）」",
+   "ok": true
+  },
+  {
+   "id": "C31",
+   "kind": "E1",
+   "law": "sochi-rei",
+   "asof": "2025-12-31",
+   "key": "本則:25_11_2",
+   "law_revision_id": "332CO0000000043_20251231_507CO0000000401",
+   "needle": "まず当該上場株式等に係る譲渡所得等の金額から控除し、なお控除しきれない損失の金額があるときは、当該上場株式等に係る配当所得等の金額から控除する",
+   "ok": true
+  },
+  {
+   "id": "C32",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:37_11_6",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "それぞれの源泉徴収選択口座において有する源泉徴収選択口座内配当等）に係る利子所得の金額及び配当所得の金額の合計額ごとに行うものとする",
+   "ok": true
+  },
+  {
+   "id": "C33",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:37_11_6",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "当該源泉徴収選択口座内配当等に係る利子所得の金額及び配当所得の金額の合計額については、第八条の五第一項及び第二項の規定は、適用しない",
+   "ok": true
+  },
+  {
+   "id": "C34",
+   "kind": "E1",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "key": "本則:314_2",
+   "law_revision_id": "325AC0000000226_20260101_507AC0000000041",
+   "needle": "所得税法第二条第一項第三十二号の規定は、第一項第九号及び第三百十四条の六の勤労学生の意義について準用する",
+   "ok": true
+  },
+  {
+   "id": "C35",
+   "kind": "E1",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "key": "附則:33_2",
+   "law_revision_id": "325AC0000000226_20260101_507AC0000000041",
+   "needle": "第三百十四条の二第一項（第十号の二及び第十二号に係る部分に限る。）及び第九項",
+   "ok": true
+  },
+  {
+   "id": "C22",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:37_14",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "その不足額は、所得税に関する法令の規定の適用については、ないものとみなす",
+   "ok": true
+  },
+  {
+   "id": "C23",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:37_14",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "合計額が百二十万円を超えないもの",
+   "ok": true
+  },
+  {
+   "id": "C24",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:37_14",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "合計額が二百四十万円を超えないもの",
+   "ok": true
+  },
+  {
+   "id": "C25",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:37_14",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "合計額が千八百万円を超えることとなる",
+   "ok": true
+  },
+  {
+   "id": "C26",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:37_14",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "合計額が千二百万円を超える場合",
+   "ok": true
+  },
+  {
+   "id": "C27",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:9_8",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "所得税を課さない",
+   "ok": true
+  },
+  {
+   "id": "C28",
+   "kind": "E1",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "key": "本則:92",
+   "law_revision_id": "340AC0000000033_20251218_507AC0000000013",
+   "needle": "当該配当所得の金額に百分の十を乗じて計算した金額",
+   "ok": true
+  },
+  {
+   "id": "C29",
+   "kind": "E1",
+   "law": "shotoku",
+   "asof": "2025-12-31",
+   "key": "本則:92",
+   "law_revision_id": "340AC0000000033_20251218_507AC0000000013",
+   "needle": "外国法人から受けるこれらの金額に係るもの",
+   "ok": true
+  },
+  {
+   "id": "C30",
+   "kind": "E1",
+   "law": "sochi",
+   "asof": "2025-12-31",
+   "key": "本則:9",
+   "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+   "needle": "投資法人から支払を受けるべき配当等",
+   "ok": true
+  },
+  {
+   "id": "L01",
+   "kind": "E1",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "key": "本則:313",
+   "law_revision_id": "325AC0000000226_20260101_507AC0000000041",
+   "needle": "特定配当等に係る所得を有する者に係る総所得金額は、当該特定配当等に係る所得の金額を除外して算定するものとする",
+   "ok": true
+  },
+  {
+   "id": "L02",
+   "kind": "E1",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "key": "本則:313",
+   "law_revision_id": "325AC0000000226_20260101_507AC0000000041",
+   "needle": "前年分の所得税に係る第三百十七条の三第一項に規定する確定申告書に特定配当等に係る所得の明細に関する事項その他総務省令で定める事項の記載があるときは",
+   "ok": true
+  },
+  {
+   "id": "L03",
+   "kind": "E1",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "key": "本則:313",
+   "law_revision_id": "325AC0000000226_20260101_507AC0000000041",
+   "needle": "特定株式等譲渡所得金額に係る所得を有する者に係る総所得金額は、当該特定株式等譲渡所得金額に係る所得の金額を除外して算定するものとする",
+   "ok": true
+  },
+  {
+   "id": "L04",
+   "kind": "E1",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "key": "本則:313",
+   "law_revision_id": "325AC0000000226_20260101_507AC0000000041",
+   "needle": "前年分の所得税に係る第三百十七条の三第一項に規定する確定申告書に特定株式等譲渡所得金額に係る所得の明細に関する事項その他総務省令で定める事項の記載があるときは",
+   "ok": true
+  },
+  {
+   "id": "L05",
+   "kind": "E1",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "key": "本則:292",
+   "law_revision_id": "325AC0000000226_20260101_507AC0000000041",
+   "needle": "十三　合計所得金額　第三百十三条第八項及び第九項の規定による控除前の同条第一項の総所得金額、退職所得金額及び山林所得金額の合計額をいう",
+   "ok": true
+  },
+  {
+   "id": "L06",
+   "kind": "E1",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "key": "附則:33_2",
+   "law_revision_id": "325AC0000000226_20260101_507AC0000000041",
+   "needle": "市町村民税の所得割の納税義務者が前年分の所得税について特定上場株式等の配当等に係る配当所得につき租税特別措置法第八条の四第一項の規定の適用を受けた場合に限り適用する",
+   "ok": true
+  },
+  {
+   "id": "L07",
+   "kind": "E1",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "key": "附則:33_2",
+   "law_revision_id": "325AC0000000226_20260101_507AC0000000041",
+   "needle": "第二百九十二条第一項第十三号中「山林所得金額」とあるのは、「山林所得金額並びに附則第三十三条の二第五項に規定する上場株式等に係る配当所得等の金額」とする",
+   "ok": true
+  },
+  {
+   "id": "L08",
+   "kind": "E1",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "key": "附則:33_2",
+   "law_revision_id": "325AC0000000226_20260101_507AC0000000041",
+   "needle": "の百分の三（当該納税義務者が指定都市の区域内に住所を有する場合には、百分の四）",
+   "ok": true
+  },
+  {
+   "id": "L09",
+   "kind": "E1",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "key": "附則:33_2",
+   "law_revision_id": "325AC0000000226_20260101_507AC0000000041",
+   "needle": "の百分の二（当該納税義務者が指定都市の区域内に住所を有する場合には、百分の一）",
+   "ok": true
+  },
+  {
+   "id": "L10",
+   "kind": "E1",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "key": "附則:35_2_2",
+   "law_revision_id": "325AC0000000226_20260101_507AC0000000041",
+   "needle": "当該特定株式等譲渡所得金額に係る所得の金額（第三百十三条第十五項の規定により同条第十四項の規定の適用を受けないものを除く。）を除外して算定するものとする",
+   "ok": true
+  },
+  {
+   "id": "L11",
+   "kind": "E1",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "key": "附則:35_2_6",
+   "law_revision_id": "325AC0000000226_20260101_507AC0000000041",
+   "needle": "第十一項の規定の適用がある場合における附則第三十三条の二第五項、第六項及び第八項並びに附則第三十五条の二の二第五項から第七項までの規定の適用については",
+   "ok": true
+  },
+  {
+   "id": "L12",
+   "kind": "E1",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "key": "附則:35_2_6",
+   "law_revision_id": "325AC0000000226_20260101_507AC0000000041",
+   "needle": "第八項の規定の適用がある場合における附則第三十三条の二第五項から第八項までの規定の適用については",
+   "ok": true
+  },
+  {
+   "id": "L13",
+   "kind": "E1",
+   "law": "chiho",
+   "asof": "2027-01-01",
+   "key": "本則:313",
+   "law_revision_id": "325AC0000000226_20270101_508AC0000000002",
+   "needle": "特定配当等（第二十三条第一項第十五号ロに掲げるものを除く。以下この項において同じ。）",
+   "ok": true
+  },
+  {
+   "id": "L14",
+   "kind": "E1",
+   "law": "chiho",
+   "asof": "2027-01-01",
+   "key": "本則:23",
+   "law_revision_id": "325AC0000000226_20270101_508AC0000000002",
+   "needle": "ロ　租税特別措置法第九条の三第一号に掲げる同条に規定する配当等（イに掲げるもの及び政令で定めるものを除く。）",
+   "ok": true
+  },
+  {
+   "id": "L15",
+   "kind": "E1",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "key": "本則:23",
+   "law_revision_id": "325AC0000000226_20260101_507AC0000000041",
+   "needle": "十五　特定配当等　租税特別措置法第八条の四第一項に規定する上場株式等の配当等及び同法第四十一条の十二の二第一項各号に掲げる償還金に係る同条第六項第三号に規定する差益金額をいう",
+   "ok": true
+  },
+  {
+   "id": "L16",
+   "kind": "E1",
+   "law": "chiho",
+   "asof": "2026-01-01",
+   "key": "本則:23",
+   "law_revision_id": "325AC0000000226_20260101_507AC0000000041",
+   "needle": "十七　特定株式等譲渡所得金額　租税特別措置法第三十七条の十一の四第二項に規定する源泉徴収選択口座内調整所得金額をいう",
+   "ok": true
+  },
+  {
+   "id": "K01",
+   "kind": "E1",
+   "law": "kokuho-rei",
+   "asof": "2026-04-01",
+   "key": "本則:29_7",
+   "law_revision_id": "333CO0000000362_20260401_508CO0000000002",
+   "needle": "地方税法第三百十四条の二第一項に規定する総所得金額及び山林所得金額並びに他の所得と区分して計算される所得の金額の合計額から同条第二項の規定による控除をした後の総所得金額及び山林所得金額並びに他の所得と区分して計算される所得の金額の合計額（以下「基礎控除後の総所得金額等」という。）",
+   "ok": true
+  },
+  {
+   "id": "K02",
+   "kind": "E1",
+   "law": "kokuho-rei",
+   "asof": "2026-04-01",
+   "key": "本則:29_7",
+   "law_revision_id": "333CO0000000362_20260401_508CO0000000002",
+   "needle": "同法附則第三十三条の二第五項に規定する上場株式等に係る配当所得等の金額（同法附則第三十五条の二の六第八項又は第十一項の規定の適用がある場合には、その適用後の金額）",
+   "ok": true
+  },
+  {
+   "id": "K03",
+   "kind": "E1",
+   "law": "kokuho-rei",
+   "asof": "2026-04-01",
+   "key": "本則:29_7",
+   "law_revision_id": "333CO0000000362_20260401_508CO0000000002",
+   "needle": "同法附則第三十五条の二の二第五項に規定する上場株式等に係る譲渡所得等の金額（同法附則第三十五条の二の六第十一項又は第三十五条の三第十三項若しくは第十五項の規定の適用がある場合には、その適用後の金額）",
+   "ok": true
+  },
+  {
+   "id": "E2c",
+   "kind": "E2",
+   "claim": "令和4年法律第1号の附則に「令和六年度以後の年度分の個人の市町村民税について適用」がある",
+   "ok": true
+  },
+  {
+   "id": "E2a",
+   "kind": "E2",
+   "claim": "2024-01-01 版の第313条に「前年分の所得税に係る…確定申告書に特定配当等…の記載があるとき」がある",
+   "ok": true
+  },
+  {
+   "id": "E2b",
+   "kind": "E2",
+   "claim": "2023-12-31 版の第313条にはその文がない（改正前）",
+   "ok": true
+  },
+  {
+   "id": "E3",
+   "kind": "E3",
+   "claim": "読替えの範囲の終わり（第三十四号の四/五）を時点ごとに記録",
+   "detail": [
+    {
+     "law": "sochi",
+     "asof": "2025-12-31",
+     "key": "本則:8_4",
+     "law_revision_id": "332AC0000000026_20251231_507AC1000000081",
+     "range_end": "第三十四号の四"
+    },
+    {
+     "law": "sochi",
+     "asof": "2026-01-01",
+     "key": "本則:8_4",
+     "law_revision_id": "332AC0000000026_20260101_507AC0000000041",
+     "range_end": "第三十四号の五"
+    },
+    {
+     "law": "sochi",
+     "asof": "2026-11-09",
+     "key": "本則:8_4",
+     "law_revision_id": "332AC0000000026_20261101_507AC0000000013",
+     "range_end": "第三十四号の五"
+    },
+    {
+     "law": "sochi",
+     "asof": "2026-12-31",
+     "key": "本則:8_4",
+     "law_revision_id": "332AC0000000026_20261204_508AC0000000012",
+     "range_end": "第三十四号の五"
+    },
+    {
+     "law": "sochi-rei",
+     "asof": "2025-12-31",
+     "key": "本則:25_10_12",
+     "law_revision_id": "332CO0000000043_20251231_507CO0000000401",
+     "range_end": "第三十四号の四"
+    },
+    {
+     "law": "sochi-rei",
+     "asof": "2026-01-01",
+     "key": "本則:25_10_12",
+     "law_revision_id": "332CO0000000043_20260101_507CO0000000277",
+     "range_end": "第三十四号の五"
+    },
+    {
+     "law": "sochi-rei",
+     "asof": "2026-11-09",
+     "key": "本則:25_10_12",
+     "law_revision_id": "332CO0000000043_20261101_507CO0000000127",
+     "range_end": "第三十四号の五"
+    },
+    {
+     "law": "sochi-rei",
+     "asof": "2026-12-31",
+     "key": "本則:25_10_12",
+     "law_revision_id": "332CO0000000043_20261201_508CO0000000098",
+     "range_end": "第三十四号の五"
+    }
+   ],
+   "ok": true
+  },
+  {
+   "id": "E4",
+   "kind": "E4",
+   "claim": "所令・措法・措令で「第八条の五」と「第二条第一項第三十号」または「合計所得金額」を同じ文に含むものの件数",
+   "count": 0,
+   "ok": true
+  },
+  {
+   "id": "W_ta1331#1",
+   "kind": "W1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1331.htm",
+   "needle": "その申告する上場株式等の配当等の全額について、総合課税と申告分離課税のいずれかを選択することになります",
+   "ok": true
+  },
+  {
+   "id": "W_ta1331#2",
+   "kind": "W1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1331.htm",
+   "needle": "合計所得金額に含まれない",
+   "ok": true
+  },
+  {
+   "id": "W_ta1331#3",
+   "kind": "W1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1331.htm",
+   "needle": "その適用前の金額になります",
+   "ok": true
+  },
+  {
+   "id": "W_ta1331#4",
+   "kind": "W1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1331.htm",
+   "needle": "確定申告において選択した、または、選択しなかった方法は、その後、修正申告や更正の請求において変更することはできません",
+   "ok": true
+  },
+  {
+   "id": "W_ta1330#1",
+   "kind": "W1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1330.htm",
+   "needle": "1回に支払を受けるべき配当等の額ごと（特定口座制度における源泉徴収口座に受け入れた配当等については、口座ごと）に選択することができます",
+   "ok": true
+  },
+  {
+   "id": "W_ta1476#1",
+   "kind": "W1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1476.htm",
+   "needle": "口座ごとに、申告するまたは申告不要とすることの選択をすることができます",
+   "ok": true
+  },
+  {
+   "id": "W_ta1476#2",
+   "kind": "W1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1476.htm",
+   "needle": "源泉徴収口座内で生じた上場株式等に係る譲渡損失の金額を申告する場合には、その源泉徴収口座に受け入れた上場株式等に係る利子等の金額および配当等の金額を申告不要とすることはできない",
+   "ok": true
+  },
+  {
+   "id": "W_ta1474#1",
+   "kind": "W1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1474.htm",
+   "needle": "上場株式等の譲渡がなかった年も、譲渡損失を翌年へ繰り越すための申告が必要です",
+   "ok": true
+  },
+  {
+   "id": "W_ta1474#2",
+   "kind": "W1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1474.htm",
+   "needle": "非課税口座（NISA）及び未成年者口座（ジュニアNISA）内の上場株式等を譲渡したことにより生じた譲渡損失については、損益通算及び繰越控除はできません",
+   "ok": true
+  },
+  {
+   "id": "W_y01#1",
+   "kind": "W1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/yogo/3-2_y01.htm",
+   "needle": "この制度を選択した利子等・配当等の金額は、「合計所得金額」に含みません",
+   "ok": true
+  },
+  {
+   "id": "W_y01#2",
+   "kind": "W1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/yogo/3-2_y01.htm",
+   "needle": "源泉徴収口座内の譲渡損失を申告する場合には、同一口座内の利子所得・配当所得の金額を併せて申告する必要があります",
+   "ok": true
+  },
+  {
+   "id": "W_1_12#1",
+   "kind": "W1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/01/1_12.htm",
+   "needle": "令和６年度の個人住民税から",
+   "ok": true
+  },
+  {
+   "id": "W_1_12#2",
+   "kind": "W1",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/01/1_12.htm",
+   "needle": "所得税等の確定申告で選択した総合課税、申告分離課税又は確定申告不要制度の課税方式は、個人住民税においても同様の課税方式となります",
+   "ok": true
+  },
+  {
+   "id": "W_kabutsu_37_11_5#1",
+   "kind": "W1",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/020624/sanrin/1273/37_11_5/01.htm",
+   "needle": "所得税法第2条第1項第30号イ(2)に規定する「合計所得金額」",
+   "ok": true
+  },
+  {
+   "id": "W_kabutsu_37_11_5#2",
+   "kind": "W1",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/020624/sanrin/1273/37_11_5/01.htm",
+   "needle": "当該源泉徴収選択口座ごとに行うことができる",
+   "ok": true
+  },
+  {
+   "id": "W_sochitsu_8_5#1",
+   "kind": "W1",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/57/08/06.htm",
+   "needle": "当該利子所得の金額又は配当所得の金額を総所得金額等の計算上除外することはできないことに留意する",
+   "ok": true
+  }
+ ]
+}

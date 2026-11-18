@@ -1,0 +1,298 @@
+{
+ "case_id": "B01",
+ "title": "年金受給者（70歳）：公的年金、上場株式の配当（総合課税で配当控除）、一般口座の上場株式の譲渡（第三表）",
+ "tax_year": 2025,
+ "filer": "p-1",
+ "names": {
+  "p-1": "架空 年男（本人）"
+ },
+ "purpose": [
+  "公的年金等控除（65歳以上）と公的年金等以外の合計所得金額（56）",
+  "上場株式の配当の総合課税と配当控除（税額の上限）",
+  "一般口座の上場株式等の譲渡（申告分離課税）と第三表、所得控除の分離課税への繰り入れ",
+  "源泉徴収税額の還付"
+ ],
+ "sakusei_only": [
+  {
+   "item": "公的年金等の源泉徴収票",
+   "value": "支払金額 1,800,000、源泉徴収税額 18,000、社会保険料の金額（介護保険料）78,000、支払者 架空年金機構",
+   "note": "種類は厚生年金（老齢）"
+  },
+  {
+   "item": "配当金の支払通知書（一般口座）",
+   "value": "架空電機株式会社、配当金額 200,000、源泉徴収税額（所得税）30,630、配当割額 10,000",
+   "note": "総合課税で申告する"
+  },
+  {
+   "item": "一般口座の上場株式の譲渡",
+   "value": "架空化学株式会社、2025-09-12 売却、譲渡価額 1,000,000、取得費 800,000、委託手数料 5,000",
+   "note": "特定口座ではない"
+  },
+  {
+   "item": "住所・氏名など",
+   "value": "架空の値（実在しない番地。電話番号は入れない）",
+   "note": "計算に関係しない"
+  }
+ ],
+ "ir": {
+  "schema_version": "0",
+  "persons": [
+   {
+    "id": "p-1",
+    "birth_on": "1955-05-05"
+   }
+  ],
+  "relations": [],
+  "residences": [
+   {
+    "id": "res-1",
+    "kind": "resident_record",
+    "roles": {
+     "person": "p-1"
+    },
+    "when": {
+     "from_on": "2000-04-01"
+    },
+    "attributes": {
+     "municipality_code": "990001",
+     "household_id": "hh-1",
+     "householder": true,
+     "relation_to_householder": "householder"
+    }
+   }
+  ],
+  "insurance_memberships": [],
+  "facts": [
+   {
+    "id": "f-slip-pen",
+    "kind": "withholding_slip",
+    "roles": {
+     "recipient": "p-1"
+    },
+    "when": {
+     "tax_year": 2025
+    },
+    "amounts": {
+     "payment_amount": 1800000,
+     "withholding_tax": 18000,
+     "social_insurance": 78000
+    },
+    "attributes": {
+     "slip_type": "public_pension",
+     "counterparty": "架空年金機構"
+    }
+   },
+   {
+    "id": "f-div-1",
+    "kind": "dividend",
+    "roles": {
+     "recipient": "p-1"
+    },
+    "when": {
+     "on": "2025-06-20"
+    },
+    "amounts": {
+     "gross": 200000,
+     "withholding_tax": 30630,
+     "dividend_local_tax": 10000
+    },
+    "attributes": {
+     "counterparty": "架空電機株式会社",
+     "security_class": "listed_stock",
+     "account_type": "other_account",
+     "record_date": "2025-03-31",
+     "distribution_type": "surplus_dividend"
+    }
+   },
+   {
+    "id": "f-sale-1",
+    "kind": "security_sale",
+    "roles": {
+     "seller": "p-1"
+    },
+    "when": {
+     "on": "2025-09-12"
+    },
+    "amounts": {
+     "proceeds": 1000000,
+     "acquisition_cost": 800000,
+     "selling_expenses": 5000
+    },
+    "attributes": {
+     "security_name": "架空化学株式会社",
+     "security_class": "listed_stock",
+     "sale_method": "brokered",
+     "account_type": "other_account"
+    }
+   },
+   {
+    "id": "f-pen-1",
+    "kind": "pension_payment",
+    "roles": {
+     "recipient": "p-1"
+    },
+    "when": {
+     "on": "2025-02-14"
+    },
+    "amounts": {
+     "gross": 300000,
+     "social_insurance_withheld": 13000,
+     "withholding_tax": 3000
+    },
+    "attributes": {
+     "counterparty": "架空年金機構",
+     "payer_domestic": true,
+     "scheme": "employees_pension",
+     "benefit_reason": "old_age",
+     "statutory_payment_on": "2025-02-14"
+    }
+   },
+   {
+    "id": "f-pen-2",
+    "kind": "pension_payment",
+    "roles": {
+     "recipient": "p-1"
+    },
+    "when": {
+     "on": "2025-04-15"
+    },
+    "amounts": {
+     "gross": 300000,
+     "social_insurance_withheld": 13000,
+     "withholding_tax": 3000
+    },
+    "attributes": {
+     "counterparty": "架空年金機構",
+     "payer_domestic": true,
+     "scheme": "employees_pension",
+     "benefit_reason": "old_age",
+     "statutory_payment_on": "2025-04-15"
+    }
+   },
+   {
+    "id": "f-pen-3",
+    "kind": "pension_payment",
+    "roles": {
+     "recipient": "p-1"
+    },
+    "when": {
+     "on": "2025-06-13"
+    },
+    "amounts": {
+     "gross": 300000,
+     "social_insurance_withheld": 13000,
+     "withholding_tax": 3000
+    },
+    "attributes": {
+     "counterparty": "架空年金機構",
+     "payer_domestic": true,
+     "scheme": "employees_pension",
+     "benefit_reason": "old_age",
+     "statutory_payment_on": "2025-06-13"
+    }
+   },
+   {
+    "id": "f-pen-4",
+    "kind": "pension_payment",
+    "roles": {
+     "recipient": "p-1"
+    },
+    "when": {
+     "on": "2025-08-15"
+    },
+    "amounts": {
+     "gross": 300000,
+     "social_insurance_withheld": 13000,
+     "withholding_tax": 3000
+    },
+    "attributes": {
+     "counterparty": "架空年金機構",
+     "payer_domestic": true,
+     "scheme": "employees_pension",
+     "benefit_reason": "old_age",
+     "statutory_payment_on": "2025-08-15"
+    }
+   },
+   {
+    "id": "f-pen-5",
+    "kind": "pension_payment",
+    "roles": {
+     "recipient": "p-1"
+    },
+    "when": {
+     "on": "2025-10-15"
+    },
+    "amounts": {
+     "gross": 300000,
+     "social_insurance_withheld": 13000,
+     "withholding_tax": 3000
+    },
+    "attributes": {
+     "counterparty": "架空年金機構",
+     "payer_domestic": true,
+     "scheme": "employees_pension",
+     "benefit_reason": "old_age",
+     "statutory_payment_on": "2025-10-15"
+    }
+   },
+   {
+    "id": "f-pen-6",
+    "kind": "pension_payment",
+    "roles": {
+     "recipient": "p-1"
+    },
+    "when": {
+     "on": "2025-12-15"
+    },
+    "amounts": {
+     "gross": 300000,
+     "social_insurance_withheld": 13000,
+     "withholding_tax": 3000
+    },
+    "attributes": {
+     "counterparty": "架空年金機構",
+     "payer_domestic": true,
+     "scheme": "employees_pension",
+     "benefit_reason": "old_age",
+     "statutory_payment_on": "2025-12-15"
+    }
+   }
+  ],
+  "assets": [],
+  "filed_documents": [],
+  "judgments": [],
+  "choices": [
+   {
+    "id": "c-div",
+    "kind": "選択.株式等の申告",
+    "chosen_by": "p-1",
+    "chosen_at": "2026-02-01T09:00:00+09:00",
+    "subject": {
+     "person": "p-1",
+     "record_id": "f-div-1"
+    },
+    "when": {
+     "tax_year": 2025
+    },
+    "value": {
+     "target": "dividend",
+     "declare": true,
+     "taxation": "aggregate"
+    }
+   },
+   {
+    "id": "c-refund",
+    "kind": "選択.還付申告",
+    "chosen_by": "p-1",
+    "chosen_at": "2026-02-01T09:00:00+09:00",
+    "subject": {
+     "person": "p-1"
+    },
+    "when": {
+     "tax_year": 2025
+    },
+    "value": true
+   }
+  ]
+ }
+}

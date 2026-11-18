@@ -1,0 +1,54 @@
+{
+ "run_at": "20261109-191131",
+ "download_dir": ".work\\downloads\\20261109-191131_R2X_kyosai_verify_webextra",
+ "html": [
+  {
+   "id": "SOUMU-DAICHO",
+   "url": "https://www.soumu.go.jp/main_sosiki/jichi_gyousei/daityo/gaiyou.html",
+   "status": 200,
+   "final_url": "https://www.soumu.go.jp/main_sosiki/jichi_gyousei/daityo/gaiyou.html",
+   "bytes": 42900,
+   "sha256": "61b28660173048c35c9841ed47566174bec4aa80a93b442a8e31a7059979332b",
+   "last_modified": "Thu, 01 Oct 2026 09:13:31 GMT",
+   "title": "総務省｜住民基本台帳等",
+   "quotes": [
+    {
+     "quote": "住民基本台帳事務処理要領（令和8年6月14日施行）",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§0（YORYO の版）",
+     "first_missing_fragment": null
+    },
+    {
+     "quote": "001094645.pdf",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§0（リンク先）",
+     "first_missing_fragment": null
+    }
+   ]
+  },
+  {
+   "id": "SOUMU-ICHIRAN04",
+   "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran04.html",
+   "status": 200,
+   "final_url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran04.html",
+   "bytes": 186095,
+   "sha256": "ab72810a39d3c3a81a81448619edf8027cb21d4419c187bb8769df35cfd240ce",
+   "last_modified": "Wed, 21 Oct 2026 01:00:45 GMT",
+   "title": "総務省｜地方税制度｜税制改正（地方税）",
+   "quotes": [
+    {
+     "quote": "001071661.pdf",
+     "expect": true,
+     "found": true,
+     "ok": true,
+     "where": "SA2§0（TORI-S のリンク先）",
+     "first_missing_fragment": null
+    }
+   ]
+  }
+ ]
+}

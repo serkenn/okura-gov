@@ -1,0 +1,414 @@
+## env
+{
+ "python": "3.11.9 (main, Aug 14 2024, 04:18:20) [MSC v.1929 64 bit (AMD64)]",
+ "platform": "Windows-10-10.0.26200-SP0",
+ "beancount": "3.2.3",
+ "beanquery": "0.2.0",
+ "flags_isolated": 1,
+ "BEANCOUNT_DISABLE_LOAD_CACHE_at_start": null
+}
+
+## 1_account_names
+[
+ {
+  "account": "Expenses:Medical",
+  "load_errors": [],
+  "beanquery_rows": [
+   [
+    "Expenses:Medical",
+    "1000"
+   ]
+  ],
+  "account.is_valid (fullmatch)": true,
+  "first_char_after_root": "0x4d"
+ },
+ {
+  "account": "Expenses:医療費",
+  "load_errors": [
+   "Invalid account name: Expenses:医療費",
+   "Invalid account name: Expenses:医療費"
+  ],
+  "beanquery_rows": null,
+  "account.is_valid (fullmatch)": false,
+  "first_char_after_root": "0x533b"
+ },
+ {
+  "account": "Expenses:Medical:医療費",
+  "load_errors": [],
+  "beanquery_rows": [
+   [
+    "Expenses:Medical:医療費",
+    "1000"
+   ]
+  ],
+  "account.is_valid (fullmatch)": false,
+  "first_char_after_root": "0x4d"
+ },
+ {
+  "account": "Expenses:Ｍ医療費",
+  "load_errors": [],
+  "beanquery_rows": [
+   [
+    "Expenses:Ｍ医療費",
+    "1000"
+   ]
+  ],
+  "account.is_valid (fullmatch)": true,
+  "first_char_after_root": "0xff2d"
+ },
+ {
+  "account": "Expenses:M-医療費",
+  "load_errors": [],
+  "beanquery_rows": [
+   [
+    "Expenses:M-医療費",
+    "1000"
+   ]
+  ],
+  "account.is_valid (fullmatch)": true,
+  "first_char_after_root": "0x4d"
+ },
+ {
+  "account": "Expenses:1医療費",
+  "load_errors": [],
+  "beanquery_rows": [
+   [
+    "Expenses:1医療費",
+    "1000"
+   ]
+  ],
+  "account.is_valid (fullmatch)": true,
+  "first_char_after_root": "0x31"
+ },
+ {
+  "account": "Assets:現金:太郎",
+  "load_errors": [
+   "Invalid account name: Assets:現金:太郎",
+   "Invalid account name: Assets:現金:太郎"
+  ],
+  "beanquery_rows": null,
+  "account.is_valid (fullmatch)": false,
+  "first_char_after_root": "0x73fe"
+ },
+ {
+  "account": "Assets:Cash:太郎",
+  "load_errors": [],
+  "beanquery_rows": [
+   [
+    "Assets:Cash:太郎",
+    "1000"
+   ]
+  ],
+  "account.is_valid (fullmatch)": false,
+  "first_char_after_root": "0x43"
+ },
+ {
+  "account": "Assets:Cash:Taro",
+  "load_errors": [],
+  "beanquery_rows": [
+   [
+    "Assets:Cash:Taro",
+    "1000"
+   ]
+  ],
+  "account.is_valid (fullmatch)": true,
+  "first_char_after_root": "0x43"
+ },
+ {
+  "account": "Expenses:Ä医療費",
+  "load_errors": [],
+  "beanquery_rows": [
+   [
+    "Expenses:Ä医療費",
+    "1000"
+   ]
+  ],
+  "account.is_valid (fullmatch)": true,
+  "first_char_after_root": "0xc4"
+ },
+ {
+  "account": "option \"name_assets\" \"資産\" + 資産:Cash",
+  "load_errors": [
+   "Error for option 'name_assets': Invalid root account name: '資産'",
+   "Invalid account name: 資産:Cash"
+  ],
+  "name_assets_after": "Assets"
+ }
+]
+
+## 2_japanese_text
+{
+ "japanese_payee_narration_meta": {
+  "errors": [],
+  "payee": "山田医院",
+  "narration": "初診料（次郎）",
+  "meta_patient": "次郎",
+  "posting_meta_memo": "保険適用後の自己負担"
+ },
+ "japanese_meta_key": {
+  "errors": [
+   "Invalid token: '患者:'"
+  ]
+ },
+ "japanese_tag": {
+  "errors": [
+   "syntax error, unexpected HASH, expecting end of file or EOL or TAG or LINK",
+   "Invalid token: '医療費'"
+  ]
+ },
+ "japanese_link": {
+  "errors": [
+   "Invalid token: '^医療-1'"
+  ]
+ }
+}
+
+## 3_id_and_query
+{
+ "load_errors": [
+  "Invalid reference to inactive account 'Income:Job:Konbini'",
+  "Invalid reference to inactive account 'Assets:Cash:Jiro'"
+ ],
+ "find_by_id": {
+  "query": "SELECT date, narration, account, number WHERE entry_meta('id') = 'tx-2026-0001'",
+  "rows": [
+   {
+    "date": "2026-01-10",
+    "narration": "初診料",
+    "account": "Expenses:Medical",
+    "number": "3000"
+   },
+   {
+    "date": "2026-01-10",
+    "narration": "初診料",
+    "account": "Assets:Cash:Taro",
+    "number": "-3000"
+   }
+  ]
+ },
+ "medical_by_patient_2026": {
+  "query": "SELECT entry_meta('patient') AS patient, entry_meta('payer') AS payer, sum(number) AS total WHERE account ~ '^Expenses:Medical' AND year = 2026 AND currency = 'JPY' GROUP BY patient, payer ORDER BY patient",
+  "rows": [
+   {
+    "patient": "jiro",
+    "payer": "taro",
+    "total": "3000"
+   },
+   {
+    "patient": "taro",
+    "payer": "taro",
+    "total": "1500"
+   }
+  ]
+ },
+ "income_by_person_month": {
+  "query": "SELECT entry_meta('person') AS person, month, sum(number) AS total WHERE account ~ '^Income:' AND year = 2026 GROUP BY person, month ORDER BY month",
+  "rows": [
+   {
+    "person": "jiro",
+    "month": 2,
+    "total": "-52000"
+   }
+  ]
+ },
+ "links": {
+  "query": "SELECT date, links WHERE 'tx-2026-0001' IN links",
+  "rows": [
+   {
+    "date": "2026-01-10",
+    "links": "frozenset({'tx-2026-0001'})"
+   },
+   {
+    "date": "2026-01-10",
+    "links": "frozenset({'tx-2026-0001'})"
+   }
+  ]
+ },
+ "duplicate_id_check_by_script": [],
+ "duplicate_id_builtin_errors": [
+  "Invalid reference to inactive account 'Income:Job:Konbini'",
+  "Invalid reference to inactive account 'Assets:Cash:Jiro'"
+ ],
+ "duplicate_id_check_by_script_after_adding_dup": [
+  "tx-2026-0001"
+ ]
+}
+
+## 4_plugin
+{
+ "4a_insert_pythonpath_plus_plugin": {
+  "marker_created": true,
+  "errors": []
+ },
+ "4b_plugin_without_insert_pythonpath": {
+  "marker_created": false,
+  "errors": [
+   "Error importing \"r2_harmless_plugin\": Traceback (most recent call last):"
+  ]
+ },
+ "4c_eval_in_beancount.plugins.check_commodity": {
+  "plugin_line": "plugin \"beancount.plugins.check_commodity\" \"__import__('pathlib').Path('<TMP>/plugin_c_check_commodity/eval_marker.txt').write_text('eval executed') and {}\"",
+  "marker_created": true,
+  "errors": [
+   "Missing Commodity directive for 'JPY' in 'Assets:Cash'"
+  ]
+ },
+ "4c_eval_in_beancount.plugins.commodity_attr": {
+  "plugin_line": "plugin \"beancount.plugins.commodity_attr\" \"__import__('pathlib').Path('<TMP>/plugin_c_commodity_attr/eval_marker.txt').write_text('eval executed') and {}\"",
+  "marker_created": true,
+  "errors": []
+ },
+ "4c_eval_in_beancount.plugins.check_average_cost": {
+  "plugin_line": "plugin \"beancount.plugins.check_average_cost\" \"__import__('pathlib').Path('<TMP>/plugin_c_check_average_cost/eval_marker.txt').write_text('eval executed') and 0.01\"",
+  "marker_created": true,
+  "errors": []
+ },
+ "4d_plugin_line_in_included_file": {
+  "marker_created": false,
+  "errors": [],
+  "options_plugin": []
+ },
+ "4e_insert_pythonpath_in_included_file": {
+  "marker_created": true,
+  "pythonpath": [
+   "<TMP>\\plugin_e\\sub"
+  ],
+  "errors": []
+ },
+ "4f_prescan": {
+  "plugin_a": {
+   "accepted": false,
+   "problems": [
+    "plugin line: 'r2_harmless_plugin' config=None in <TMP>\\plugin_a\\main.beancount",
+    "insert_pythonpath in <TMP>\\plugin_a\\main.beancount"
+   ],
+   "files": [
+    "<TMP>\\plugin_a\\main.beancount"
+   ]
+  },
+  "plugin_b": {
+   "accepted": false,
+   "problems": [
+    "plugin line: 'r2_harmless_plugin' config=None in <TMP>\\plugin_b\\main.beancount"
+   ],
+   "files": [
+    "<TMP>\\plugin_b\\main.beancount"
+   ]
+  },
+  "plugin_c_check_commodity": {
+   "accepted": false,
+   "problems": [
+    "plugin line: 'beancount.plugins.check_commodity' config=\"__import__('pathlib').Path('<TMP>/plugin_c_check_commodity/eval_marker.txt').write_text('eval executed') and {}\" in <TMP>\\plugin_c_check_commodity\\main.beancount"
+   ],
+   "files": [
+    "<TMP>\\plugin_c_check_commodity\\main.beancount"
+   ]
+  },
+  "plugin_d": {
+   "accepted": false,
+   "problems": [
+    "plugin line: 'beancount.plugins.check_commodity' config=\"__import__('pathlib').Path('<TMP>/plugin_d/eval_marker.txt').write_text('eval executed') and {}\" in <TMP>\\plugin_d\\sub.beancount"
+   ],
+   "files": [
+    "<TMP>\\plugin_d\\main.beancount",
+    "<TMP>\\plugin_d\\sub.beancount"
+   ]
+  },
+  "plugin_e": {
+   "accepted": false,
+   "problems": [
+    "plugin line: 'r2_harmless_plugin' config=None in <TMP>\\plugin_e\\main.beancount",
+    "insert_pythonpath in <TMP>\\plugin_e\\sub\\sub.beancount"
+   ],
+   "files": [
+    "<TMP>\\plugin_e\\main.beancount",
+    "<TMP>\\plugin_e\\sub\\sub.beancount"
+   ]
+  },
+  "clean": {
+   "accepted": true,
+   "problems": [],
+   "files": [
+    "<TMP>\\plugin_clean\\main.beancount"
+   ]
+  }
+ }
+}
+
+## 5_include
+{
+ "relative_parent_and_absolute": {
+  "opened_accounts": [
+   "Assets:Outside"
+  ],
+  "errors": [
+   "Duplicate filename parsed: \"<TMP>\\include_outside\\other.beancount\"",
+   "Invalid token: 'これは台帳ではないテキスト'",
+   "Invalid token: 'password'",
+   "Invalid token: '='",
+   "Invalid token: 'hunter2'",
+   "Duplicate filename parsed: \"<TMP>\\include_outside\\other.beancount\""
+  ],
+  "files_read": [
+   "<TMP>\\include\\main.beancount",
+   "<TMP>\\include_outside\\notes.txt",
+   "<TMP>\\include_outside\\other.beancount"
+  ]
+ },
+ "prescan": {
+  "accepted": false,
+  "problems": [
+   "include outside root: <TMP>\\include_outside\\other.beancount",
+   "include outside root: <TMP>\\include_outside\\notes.txt"
+  ],
+  "files": [
+   "<TMP>\\include\\main.beancount",
+   "<TMP>\\include_outside\\notes.txt",
+   "<TMP>\\include_outside\\other.beancount"
+  ]
+ }
+}
+
+## 6_pickle_cache
+{
+ "cache_enabled_default": {
+  "marker_created": true,
+  "cache_file_still_exists": true,
+  "errors": [
+   "TypeError: cannot unpack non-iterable int object"
+  ]
+ },
+ "cache_disabled": {
+  "marker_created": false,
+  "cache_file_still_exists": false,
+  "errors": []
+ }
+}
+
+## 7_document
+{
+ "documents": [
+  {
+   "date": "2026-01-10",
+   "account": "Expenses:Medical",
+   "filename": "<TMP>\\document\\receipts\\2026-01-10.山田医院.pdf",
+   "meta_txid": "tx-2026-0001"
+  },
+  {
+   "date": "2026-01-11",
+   "account": "Expenses:Medical",
+   "filename": "<TMP>\\document\\receipts\\missing.pdf",
+   "meta_txid": null
+  },
+  {
+   "date": "2026-02-03",
+   "account": "Expenses:Medical",
+   "filename": "<TMP>\\document\\docs\\Expenses\\Medical\\2026-02-03.再診.pdf",
+   "meta_txid": null
+  }
+ ],
+ "errors": [
+  "File does not exist: \"<TMP>\\document\\receipts\\missing.pdf\""
+ ]
+}
+

@@ -1,0 +1,25 @@
+{
+  "set": "pmac_d",
+  "fetched_at_local": "20261109-201937",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "pmac_oshirase_20260302_339",
+      "url": "https://www.pmac.shigaku.go.jp/annai/news/topics/sdajio0000000a0o-att/k_oshirase_20260302_339.pdf",
+      "status": 200,
+      "final_url": "https://www.pmac.shigaku.go.jp/annai/news/topics/sdajio0000000a0o-att/k_oshirase_20260302_339.pdf",
+      "content_type": "application/pdf",
+      "bytes": 144420,
+      "sha256": "b0420f2e67c3b04d4d824c8dc5e3016d763334c4d3e1e519a08e06e61609c2d5",
+      "last_modified": "Mon, 02 Mar 2026 01:00:03 GMT",
+      "etag": "\"23424-64c001b6a0552\"",
+      "content_disposition": null,
+      "saved": ".work/downloads/20261109-201937_R3X_kyosai-b_pmac_d/pmac_oshirase_20260302_339.pdf"
+    },
+    {
+      "id": "cdx_pmac_topics_2025",
+      "url": "https://web.archive.org/cdx/search/cdx?url=pmac.shigaku.go.jp/annai/news/topics/&matchType=prefix&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&from=20250801&to=20251231&collapse=urlkey",
+      "error": "TimeoutError('The read operation timed out')"
+    }
+  ]
+}

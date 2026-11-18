@@ -1,0 +1,197 @@
+{
+ "run_at": "20261109-145902",
+ "download_dir": ".work\\downloads\\20261109-145902_kyuyo_docs",
+ "docs": [
+  {
+   "name": "nta_ta1410",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1410.htm",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1410.htm",
+   "headers": {
+    "Content-Type": "text/html",
+    "Last-Modified": "Fri, 16 Oct 2026 08:30:06 GMT",
+    "Content-Length": "34615"
+   },
+   "sha256": "df763b0259059e8810ffe27385cf2a326b0bee008b7a62f2a67b66b9500d9a41",
+   "bytes": 34615,
+   "saved_as": ".work\\downloads\\20261109-145902_kyuyo_docs\\nta_ta1410.html",
+   "text_out": "scripts/results/IMPL_kyuyo_fetch_docs/nta_ta1410.txt"
+  },
+  {
+   "name": "nta_ta1177",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1177.htm",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1177.htm",
+   "headers": {
+    "Content-Type": "text/html",
+    "Last-Modified": "Wed, 09 Sep 2026 01:00:15 GMT",
+    "Content-Length": "19476"
+   },
+   "sha256": "f75c20fcbf5ef8fb52946c9ee8a43812fde662367644324462a5f0a74c9ca32a",
+   "bytes": 19476,
+   "saved_as": ".work\\downloads\\20261109-145902_kyuyo_docs\\nta_ta1177.html",
+   "text_out": "scripts/results/IMPL_kyuyo_fetch_docs/nta_ta1177.txt"
+  },
+  {
+   "name": "nta_2026kiso_index",
+   "url": "https://www.nta.go.jp/users/gensen/2026kiso/index.htm",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/users/gensen/2026kiso/index.htm",
+   "headers": {
+    "Content-Type": "text/html",
+    "Last-Modified": "Tue, 30 Jun 2026 08:31:05 GMT",
+    "Content-Length": "6798"
+   },
+   "sha256": "9e6d1b781429c0b8e4da73893ca2e480664b2006f0a2cc00c1636667f658fef0",
+   "bytes": 6798,
+   "saved_as": ".work\\downloads\\20261109-145902_kyuyo_docs\\nta_2026kiso_index.html",
+   "text_out": "scripts/results/IMPL_kyuyo_fetch_docs/nta_2026kiso_index.txt"
+  },
+  {
+   "name": "nta_2025kiso_index",
+   "url": "https://www.nta.go.jp/users/gensen/2025kiso/index.htm",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/users/gensen/2025kiso/index.htm",
+   "headers": {
+    "Content-Type": "text/html",
+    "Last-Modified": "Fri, 30 Jan 2026 08:30:17 GMT",
+    "Content-Length": "22581"
+   },
+   "sha256": "5b1c39edc19e060ef7357b47e9e33873feece4cff13d74b709118c6628f950f1",
+   "bytes": 22581,
+   "saved_as": ".work\\downloads\\20261109-145902_kyuyo_docs\\nta_2025kiso_index.html",
+   "text_out": "scripts/results/IMPL_kyuyo_fetch_docs/nta_2025kiso_index.txt"
+  },
+  {
+   "name": "nta_2026kaisei_pdf",
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/2026kaisei.pdf",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/publication/pamph/gensen/2026kaisei.pdf",
+   "headers": {
+    "Content-Type": "application/pdf",
+    "Last-Modified": "Mon, 20 Apr 2026 08:30:02 GMT",
+    "Content-Length": "1632234"
+   },
+   "sha256": "8db585cd5feef2eb29109a16a2e7b16054a0fa4d6423ac622d9ea12c54b39945",
+   "bytes": 1632234,
+   "saved_as": ".work\\downloads\\20261109-145902_kyuyo_docs\\nta_2026kaisei_pdf.pdf"
+  },
+  {
+   "name": "nta_2026kiso_qa_pdf",
+   "url": "https://www.nta.go.jp/users/gensen/2026kiso/pdf/0026005-024.pdf",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/users/gensen/2026kiso/pdf/0026005-024.pdf",
+   "headers": {
+    "Content-Type": "application/pdf",
+    "Last-Modified": "Fri, 29 May 2026 08:30:02 GMT",
+    "Content-Length": "305115"
+   },
+   "sha256": "a3c12744dbed64e7a03383868baa055f51eb1d0434ee3267d6374d2fe959cea8",
+   "bytes": 305115,
+   "saved_as": ".work\\downloads\\20261109-145902_kyuyo_docs\\nta_2026kiso_qa_pdf.pdf"
+  },
+  {
+   "name": "nta_2025kiso_qa_pdf",
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/0025005-051.pdf",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/publication/pamph/gensen/0025005-051.pdf",
+   "headers": {
+    "Content-Type": "application/pdf",
+    "Last-Modified": "Fri, 30 May 2025 08:26:01 GMT",
+    "Content-Length": "1254127"
+   },
+   "sha256": "af377dfb7700cb28a8c328bdb83916b148e9ff24bf2064e2be35c76bb793805b",
+   "bytes": 1254127,
+   "saved_as": ".work\\downloads\\20261109-145902_kyuyo_docs\\nta_2025kiso_qa_pdf.pdf"
+  },
+  {
+   "name": "nta_nencho2026_index",
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/01.htm",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/01.htm",
+   "headers": {
+    "Content-Type": "text/html",
+    "Last-Modified": "Fri, 16 Oct 2026 08:30:09 GMT",
+    "Content-Length": "19740"
+   },
+   "sha256": "3e47f99112faf3ff6215f96bd4ebba7dda2268f1ff3b4dfc55d994f395251fa2",
+   "bytes": 19740,
+   "saved_as": ".work\\downloads\\20261109-145902_kyuyo_docs\\nta_nencho2026_index.html",
+   "text_out": "scripts/results/IMPL_kyuyo_fetch_docs/nta_nencho2026_index.txt"
+  },
+  {
+   "name": "nta_nencho2025_index",
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2025/01.htm",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2025/01.htm",
+   "headers": {
+    "Content-Type": "text/html",
+    "Last-Modified": "Fri, 16 Oct 2026 08:30:09 GMT",
+    "Content-Length": "18421"
+   },
+   "sha256": "399ee533cb776dffab25343373a3b78a81c8af2ed0fa9b2cf34f475081eaecbe",
+   "bytes": 18421,
+   "saved_as": ".work\\downloads\\20261109-145902_kyuyo_docs\\nta_nencho2025_index.html",
+   "text_out": "scripts/results/IMPL_kyuyo_fetch_docs/nta_nencho2025_index.txt"
+  },
+  {
+   "name": "soumu_r8_chihozei_an_pdf",
+   "url": "https://www.soumu.go.jp/main_content/001047636.pdf",
+   "status": 200,
+   "final_url": "https://www.soumu.go.jp/main_content/001047636.pdf",
+   "headers": {
+    "Content-Type": "application/pdf",
+    "Last-Modified": "Tue, 23 Dec 2025 05:26:02 GMT",
+    "Content-Length": "1045271"
+   },
+   "sha256": "0b2fa54af7eeb7aac1350c22996ed69a5ecaec7ec15b85470e65c774da67671e",
+   "bytes": 1045271,
+   "saved_as": ".work\\downloads\\20261109-145902_kyuyo_docs\\soumu_r8_chihozei_an_pdf.pdf"
+  },
+  {
+   "name": "osaka_pref_r8_zeikai",
+   "url": "https://www.pref.osaka.lg.jp/o050030/zei/alacarte/reiwa8_zeikai.html",
+   "status": 200,
+   "final_url": "https://www.pref.osaka.lg.jp/o050030/zei/alacarte/reiwa8_zeikai.html",
+   "headers": {
+    "Content-Type": "text/html",
+    "Last-Modified": "Mon, 13 Apr 2026 07:16:02 GMT",
+    "Content-Length": "19478"
+   },
+   "sha256": "60aa1c42806889a26ce9cb36aa6371ae6e58b21eddd2aa41b746008650f3d709",
+   "bytes": 19478,
+   "saved_as": ".work\\downloads\\20261109-145902_kyuyo_docs\\osaka_pref_r8_zeikai.html",
+   "text_out": "scripts/results/IMPL_kyuyo_fetch_docs/osaka_pref_r8_zeikai.txt"
+  },
+  {
+   "name": "sendai_r8",
+   "url": "https://www.city.sendai.jp/shiminze-kikaku/kurashi/tetsuzuki/zekin/kojin/kaisei/r8.html",
+   "status": 200,
+   "final_url": "https://www.city.sendai.jp/shiminze-kikaku/kurashi/tetsuzuki/zekin/kojin/kaisei/r8.html",
+   "headers": {
+    "Content-Type": "text/html",
+    "Last-Modified": "Thu, 29 Oct 2026 09:00:02 GMT",
+    "Content-Length": "30831"
+   },
+   "sha256": "7eaa2cb559d8cbc2b823dd3c96963be48020ded54a7bad4e564cbd5c6b00ede6",
+   "bytes": 30831,
+   "saved_as": ".work\\downloads\\20261109-145902_kyuyo_docs\\sendai_r8.html",
+   "text_out": "scripts/results/IMPL_kyuyo_fetch_docs/sendai_r8.txt"
+  },
+  {
+   "name": "kumamoto_r9",
+   "url": "https://www.city.kumamoto.jp/kiji00373630/index.html",
+   "status": 200,
+   "final_url": "https://www.city.kumamoto.jp/kiji00373630/index.html",
+   "headers": {
+    "Content-Type": "text/html",
+    "Last-Modified": "Fri, 06 Nov 2026 15:18:30 GMT",
+    "Content-Length": "70167"
+   },
+   "sha256": "dd5769318abd20e3f7f596995f9b45206f378c23cb919675704a8cc9d120bcf4",
+   "bytes": 70167,
+   "saved_as": ".work\\downloads\\20261109-145902_kyuyo_docs\\kumamoto_r9.html",
+   "text_out": "scripts/results/IMPL_kyuyo_fetch_docs/kumamoto_r9.txt"
+  }
+ ]
+}

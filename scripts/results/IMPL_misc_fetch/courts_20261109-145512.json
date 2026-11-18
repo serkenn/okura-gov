@@ -1,0 +1,38 @@
+{
+  "set": "courts",
+  "fetched_at_local": "20261109-145512",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work\\downloads\\20261109-145512_IMPL_misc_courts",
+  "text_dir": ".work\\text\\20261109-145512_IMPL_misc_courts",
+  "results": [
+    {
+      "id": "hanrei_62674",
+      "url": "https://www.courts.go.jp/hanrei/62674/detail2/index.html",
+      "status": 200,
+      "final_url": "https://www.courts.go.jp/hanrei/62674/detail2/index.html",
+      "content_type": "text/html",
+      "bytes": 55982,
+      "sha256": "d5f1d9fba2efa6a77d3aa3a6f0c1d845fe890ee6336e7d483ab73a7649f92683",
+      "last_modified": "Thu, 21 May 2026 11:54:22 GMT",
+      "etag": "\"0x8DEB72FB31C1544\"",
+      "saved": ".work\\downloads\\20261109-145512_IMPL_misc_courts\\hanrei_62674.html",
+      "charset": "utf-8",
+      "title": "裁判例結果詳細 | 最高裁判所",
+      "text_chars": 3066,
+      "text": ".work\\text\\20261109-145512_IMPL_misc_courts\\hanrei_62674.txt",
+      "n_links": 111,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": [
+        {
+          "href": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-62674.pdf",
+          "text": "全文"
+        }
+      ]
+    }
+  ]
+}

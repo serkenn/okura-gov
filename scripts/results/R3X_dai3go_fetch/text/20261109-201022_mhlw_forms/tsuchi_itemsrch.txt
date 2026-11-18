@@ -1,0 +1,62 @@
+# source=https://www.mhlw.go.jp/web/t_itemsrch?type=1
+# fetched_at=20261109-201022
+# charset=UTF-8
+
+法令等データベースサービス
+
+[form action='t_itemsrch_result' method='get']
+
+			 詳細条件検索
+
+			日付：
+
+			[input name='type' type='hidden' value='1']
+
+			[select name='startGengo' type=None value=None]
+				 
+				明治
+				大正
+				昭和
+				平成
+				令和
+
+			 [select name='yearFrom' type=None value=None]
+				 
+
+			年 [select name='monthFrom' type=None value=None]
+				 
+
+			月 [select name='dayFrom' type=None value=None]
+				 
+
+			日から
+
+			[select name='endGengo' type=None value=None]
+				 
+				明治
+				大正
+				昭和
+				平成
+				令和
+
+			 [select name='yearTo' type=None value=None]
+				 
+
+			年 [select name='monthTo' type=None value=None]
+				 
+
+			月 [select name='dayTo' type=None value=None]
+				 
+
+			日まで
+
+			種別・発翰番号
+
+			[input name='shubetsu' type='text' value=None] 第 [input name='bango' type='text' value=None] 号
+
+			種別・発翰番号について
+
+			平成21年7月1日以降制定の通知については、種別・発翰番号を読み替えて入力・検索する必要があります。詳しくは
+			こちら
+			⟨別ウィンドウが開きます⟩
+			をご覧ください。

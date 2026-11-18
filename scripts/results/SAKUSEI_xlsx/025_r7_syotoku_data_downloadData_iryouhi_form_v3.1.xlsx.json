@@ -1,0 +1,123 @@
+{
+ "file": "025_r7_syotoku_data_downloadData_iryouhi_form_v3.1.xlsx",
+ "sha256": "032f862f33e83a84e26469e7ddf702aa4d03531152168e843ad379b88d61a89a",
+ "bytes": 416343,
+ "has_vba": false,
+ "entries": [
+  {
+   "name": "[Content_Types].xml",
+   "size": 1718
+  },
+  {
+   "name": "_rels/.rels",
+   "size": 588
+  },
+  {
+   "name": "xl/_rels/workbook.xml.rels",
+   "size": 972
+  },
+  {
+   "name": "xl/workbook.xml",
+   "size": 2334
+  },
+  {
+   "name": "xl/styles.xml",
+   "size": 31589
+  },
+  {
+   "name": "xl/theme/theme1.xml",
+   "size": 8737
+  },
+  {
+   "name": "xl/worksheets/sheet2.xml",
+   "size": 28038
+  },
+  {
+   "name": "xl/worksheets/_rels/sheet1.xml.rels",
+   "size": 322
+  },
+  {
+   "name": "xl/worksheets/_rels/sheet2.xml.rels",
+   "size": 464
+  },
+  {
+   "name": "xl/drawings/_rels/drawing1.xml.rels",
+   "size": 697
+  },
+  {
+   "name": "xl/worksheets/sheet1.xml",
+   "size": 332357
+  },
+  {
+   "name": "xl/media/image4.png",
+   "size": 37788
+  },
+  {
+   "name": "xl/media/image2.png",
+   "size": 157250
+  },
+  {
+   "name": "xl/sharedStrings.xml",
+   "size": 23901
+  },
+  {
+   "name": "xl/drawings/drawing1.xml",
+   "size": 41561
+  },
+  {
+   "name": "xl/media/image3.png",
+   "size": 85456
+  },
+  {
+   "name": "xl/media/image1.png",
+   "size": 65213
+  },
+  {
+   "name": "docProps/core.xml",
+   "size": 696
+  },
+  {
+   "name": "xl/printerSettings/printerSettings2.bin",
+   "size": 5420
+  },
+  {
+   "name": "xl/printerSettings/printerSettings1.bin",
+   "size": 5420
+  },
+  {
+   "name": "xl/calcChain.xml",
+   "size": 19009
+  },
+  {
+   "name": "docProps/app.xml",
+   "size": 1121
+  }
+ ],
+ "defined_names": [
+  "_xlnm.Print_Area",
+  "_xlnm.Print_Area",
+  "_xlnm.Print_Titles"
+ ],
+ "sheets": [
+  {
+   "name": "医療費集計フォーム",
+   "path": "xl/worksheets/sheet1.xml",
+   "formula_cells": 20,
+   "shared_formula_refs": 977,
+   "functions": {
+    "ROW": 18,
+    "SUM": 4,
+    "IF": 2
+   },
+   "data_validations": 4
+  },
+  {
+   "name": "ご利用に当たって",
+   "path": "xl/worksheets/sheet2.xml",
+   "formula_cells": 0,
+   "shared_formula_refs": 0,
+   "functions": {},
+   "data_validations": 0
+  }
+ ]
+}

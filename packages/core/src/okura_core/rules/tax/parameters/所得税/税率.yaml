@@ -1,0 +1,106 @@
+description: >-
+  所得税法第89条第1項の税率の表。課税総所得金額・課税退職所得金額を、それぞれ区分ごとに率を乗じて合計する（超過累進）。
+  令和6年分・令和7年分・令和8年分の版で同文（docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md §2・§10）。
+  課税山林所得金額の5分5乗は範囲外（山林所得：D20）。
+第1段:
+  以下:
+    description: 第1段の上端（百九十五万円以下の金額）
+    metadata: &art89
+      law: 所得税法第89条第1項（195万円以下 5%、330万円以下 10%、695万円以下 20%、900万円以下 23%、1,800万円以下 33%、4,000万円以下 40%、4,000万円超 45%）
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md#2
+        - docs/public-sources/20261109_round2b_taishoku-laws-and-guidance.md#4.1
+        - docs/measurements/20261109_round3_shibo-shukkoku-fetch-and-calc.md#4
+    values:
+      2025-01-01: {value: 1950000, metadata: &le89 {比較: 以下, 適用: 令和6年分・令和7年分・令和8年分の版で同文（zeigaku §2・§10）。この表を定めた改正の施行日は docs で確かめていない}}
+  率:
+    分子:
+      description: 第1段の率の分子（百分の五）
+      metadata: *art89
+      values: {2025-01-01: {value: 5, metadata: &r89 {適用: 令和6年分・令和7年分・令和8年分の版で同文（zeigaku §2・§10）。この表を定めた改正の施行日は docs で確かめていない}}}
+    分母:
+      description: 第1段の率の分母
+      metadata: *art89
+      values: {2025-01-01: {value: 100, metadata: *r89}}
+第2段:
+  以下:
+    description: 第2段の上端（百九十五万円を超え三百三十万円以下の金額）
+    metadata: *art89
+    values: {2025-01-01: {value: 3300000, metadata: *le89}}
+  率:
+    分子:
+      description: 第2段の率の分子（百分の十）
+      metadata: *art89
+      values: {2025-01-01: {value: 10, metadata: *r89}}
+    分母:
+      description: 第2段の率の分母
+      metadata: *art89
+      values: {2025-01-01: {value: 100, metadata: *r89}}
+第3段:
+  以下:
+    description: 第3段の上端（三百三十万円を超え六百九十五万円以下の金額）
+    metadata: *art89
+    values: {2025-01-01: {value: 6950000, metadata: *le89}}
+  率:
+    分子:
+      description: 第3段の率の分子（百分の二十）
+      metadata: *art89
+      values: {2025-01-01: {value: 20, metadata: *r89}}
+    分母:
+      description: 第3段の率の分母
+      metadata: *art89
+      values: {2025-01-01: {value: 100, metadata: *r89}}
+第4段:
+  以下:
+    description: 第4段の上端（六百九十五万円を超え九百万円以下の金額）
+    metadata: *art89
+    values: {2025-01-01: {value: 9000000, metadata: *le89}}
+  率:
+    分子:
+      description: 第4段の率の分子（百分の二十三）
+      metadata: *art89
+      values: {2025-01-01: {value: 23, metadata: *r89}}
+    分母:
+      description: 第4段の率の分母
+      metadata: *art89
+      values: {2025-01-01: {value: 100, metadata: *r89}}
+第5段:
+  以下:
+    description: 第5段の上端（九百万円を超え千八百万円以下の金額）
+    metadata: *art89
+    values: {2025-01-01: {value: 18000000, metadata: *le89}}
+  率:
+    分子:
+      description: 第5段の率の分子（百分の三十三）
+      metadata: *art89
+      values: {2025-01-01: {value: 33, metadata: *r89}}
+    分母:
+      description: 第5段の率の分母
+      metadata: *art89
+      values: {2025-01-01: {value: 100, metadata: *r89}}
+第6段:
+  以下:
+    description: 第6段の上端（千八百万円を超え四千万円以下の金額）
+    metadata: *art89
+    values: {2025-01-01: {value: 40000000, metadata: *le89}}
+  率:
+    分子:
+      description: 第6段の率の分子（百分の四十）
+      metadata: *art89
+      values: {2025-01-01: {value: 40, metadata: *r89}}
+    分母:
+      description: 第6段の率の分母
+      metadata: *art89
+      values: {2025-01-01: {value: 100, metadata: *r89}}
+第7段:
+  率:
+    分子:
+      description: 第7段（四千万円を超える金額）の率の分子（百分の四十五）
+      metadata: *art89
+      values: {2025-01-01: {value: 45, metadata: *r89}}
+    分母:
+      description: 第7段の率の分母
+      metadata: *art89
+      values: {2025-01-01: {value: 100, metadata: *r89}}

@@ -1,0 +1,51 @@
+doc	line	item	class_cell	best_VOC_row	score
+impl-prep_iryohi-model	63	medical_treatment 診療・治療（医師・歯科医師）	判断：病状に応じて一般的な水準を著しく超えないか、美容目的でないか	J-14	0.09
+impl-prep_iryohi-model	67	hospitalization 入院・入所の対価（部屋代・食事代）	判断：通常必要か（自己都合の差額ベッドは×、病院給食以外の食事は×）	J-06	0.07
+impl-prep_iryohi-model	69	manual_therapy あん摩・はり・きゅう・柔道整復の施術	判断：治療目的か（疲れを癒す等は×）	J-26	0.06
+impl-prep_kenpo-input-facts	31	5	判断（定義規定がなく、協会は実態で判断：§2.3 のまとめ）	J-05	0.38
+impl-prep_kenpo-input-facts	33	7	今後1年間の援助額の見込み（予定回数・各回の予定額）	P-02	0.7
+impl-prep_kenpo-input-facts	35	9	今後1年間の年間収入の見込み	P-02	0.73
+impl-prep_kenpo-input-facts	38	12	被保険者本人の今後1年間の年間収入の見込み	P-02	0.83
+impl-prep_kenpo-input-facts	40	14	選択（判断）。届出後は事実	C-16	0.49
+impl-prep_kenpo-input-facts	133	判断（D4）	人の判断（D12）	P-02	0.3
+R4-modeling_entity-model	32	人の判断（D4）	判断者・日時・対象（人、人の組、取引ID）・対象期間・値・根拠の参照	J-03	0.09
+R4-modeling_entity-model	177	居住者・非居住者の区分の変化	人の区間つきの事実（国内の住所・居所）と判断（居住者か）として持つ	J-24	0.2
+R4-modeling_entity-model	226	生計を一にするか	人の判断（D4）。材料は事実（日常の起居、余暇の起居、送金の日・額・名目）	J-01	0.39
+R4-modeling_entity-model	227	誰の扶養（所得税）に入れるか	人の選択（D4）。申告書等を出した後は事実（記載）	C-01	0.28
+R4-modeling_entity-model	228	誰の健保の被扶養者として届け出るか	届出前は人の選択（D4）、届出・認定は事実	C-19	0.2
+R4-modeling_entity-model	231	家事関連費の按分率、明らかに区分できるか	人の判断（D4）（根拠：面積・時間などの記録の参照）	J-13	0.53
+R4-modeling_entity-model	232	支出が業務に関連するか	人の判断（D4）	J-12	0.79
+R4-modeling_entity-model	234	雇用か請負か（区分が明らかでないとき）	人の判断（D4）。契約書の種類・源泉徴収票の有無は事実	J-11	0.46
+R4-modeling_entity-model	235	医療費の範囲に入るか（予防・美容・通院費など）	人の判断（D4）	J-14	0.45
+R4-modeling_entity-model	239	事実婚（事実上婚姻関係と同様の事情）	人の判断（D4）	J-01	0.17
+R4-modeling_entity-model	243	居住者か	材料は事実（国内の住所・居所の区間）、判定は人の判断（D4）	J-06	0.28
+R4-modeling_entity-model	276	生計を一にする（D4）	人の判断	J-01	0.7
+R4-modeling_entity-model	277	事実婚（D4）	人の判断	J-02	0.5
+R4-modeling_entity-model	278	扶養の所属（D4 の選択／申告書等の記載の事実。年分・申告書等の種類つき）	人の判断・記録	C-01	0.3
+R4-modeling_entity-model	292	業務の前年・前々年の収入金額	書類保存義務、例年の判断の材料	J-20	0.1
+R4-modeling_entity-model	295	健保の今後1年間の収入の見込み（D4）	人の判断	P-02	0.41
+round2_elderly-abroad-model	161	60歳の判定時点、住民票があっても居住実態で否定する運用、例外第5号の当てはめ、海外の収入の確認方法	保険者ごとの注入データ、または判断（J6・J7）	P-01	0.1
+round2_elderly-abroad-model	167	U1	判断 J3。未入力なら同居老親等の判定を止める	J-08	0.21
+round2_elderly-abroad-model	174	U8	判断 J6。資料の例示は日本で生活していた者の一時的な渡航が基本	J-07	0.2
+round2_elderly-abroad-model	183	所得税.非居住者である親族	判断.住所の所在（J1）	J-03	0.25
+round2_jinteki-model	141	扶養費の一部負担（住民税の非課税の寡婦だけ）（判断）	判断	J-32	0.86
+round2_spouse-model	128	事実婚の開始・終了	判断（D4）	J-01	0.18
+round2_spouse-model	131	生計を一にする	判断（D4）	J-01	0.6
+round2_spouse-model	135	今後1年の年間収入の見込み（配偶者・被保険者）	判断（D4、見込み）	P-02	0.55
+round2_spouse-model	137	申告書等の記載（誰をどの区分で、提出日）	判断→提出後は事実	C-01	0.48
+round2_spouse-model	154	健保・第3号の「年間収入の見込み」の算定方法（月額×12 など）	法令にない。判断（D4）として入力で受ける	P-01	0.27
+round2_yoshiki-mapping-table	226	売上先・仕入先の明細の4行の選び方	既定の関数（金額の降順）＋判断で上書き	C-18	0.62
+round2b_invoice-model	100	納税義務の状態（H1）	日付の範囲つきの状態、登録日・失効日、選択届出の提出日	C-16	0.11
+round2b_invoice-model	101	経理方式（H2）	人・年分・業務ごとの免除の日の有無、前年の選択（継続適用の検査）	C-08	0.23
+round2b_invoice-model	105	健保の年間収入（H5）	事業収入の見込み（判断台帳）	P-01	0.41
+round2b_kabu-model	31	簡易申告口座・一般口座の上場株式等の譲渡	選択なし（申告分離で申告）	C-06	0.38
+round2b_kabu-model	33	NISA の配当・譲渡	選択なし（非課税。損失はないものとみなす）	J-29	0.14
+round2b_kabu-model	34	住民税の課税方式	選択なし（令和6年度分以後は所得税の確定申告に従う）	C-15	0.24
+round2b_kabu-model	76	提出した確定申告書の記載	選択の確定（H1-1）、住民税の課税方式（第313条第13項・第15項）	C-06	0.34
+round2b_kabu-model	126	一般口座の取得費（同じ銘柄を何回かに分けて買った場合）	当面は取得費を事実（判断つき）として受け取るか、一般口座は対象外	J-26	0.1
+round2b_nenkin-model	155	健保の年間収入（H4）	年金の種類別の見込み額（非課税を含む）	P-01	0.39
+round2b_taishoku-model	98	支払が退職手当等に当たるか（通達30−1・30−2 の「退職に基因して一時に」「勤続期間を一切加味しない条件」など）	判断（ただし通常は支払者の区分＝退職所得の源泉徴収票の事実で足りる）	J-24	0.29
+round2b_taishoku-model	99	障害者になったことに直接基因して退職したか（所令71「全く又はほとんど勤務に服さないで」）	判断	J-24	0.1
+round2b_taishoku-model	100	一般／特定役員の金額の割り振り（所令71の2⑬「他の使用人に対する退職給与の支給の水準等を勘案して相当と認められる金額」	判断（支払者の割り振りを事実として受ける）	J-24	0.36
+round2b_taishoku-model	103	還付申告をするか（所法122）	納税者の選択	C-13	0.53
+round2b_taishoku-model	141	健保・第3号の年間収入（H5）	一時金か年金形式か、見込み	P-01	0.4

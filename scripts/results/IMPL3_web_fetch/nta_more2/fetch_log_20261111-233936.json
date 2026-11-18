@@ -1,0 +1,27 @@
+{
+ "set": "nta_more2",
+ "fetched_at": "20261111-233936",
+ "download_dir": ".work/downloads/20261111-233936_IMPL3_web_fetch_nta_more2",
+ "robots": [
+  {
+   "host": "https://www.nta.go.jp",
+   "status": 200,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+  }
+ ],
+ "items": [
+  {
+   "id": "kihon_15_01",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/15/01.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/15/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 25 Nov 2025 08:30:05 GMT",
+   "bytes": 15465,
+   "sha256": "ead14cdf750a95909c51baf48fe751982f2df09ad83c908fc20f5f5503e26349",
+   "saved": ".work/downloads/20261111-233936_IMPL3_web_fetch_nta_more2/kihon_15_01.htm",
+   "title": "〔被災事業用資産の損失の金額の計算等〕｜国税庁",
+   "encoding": "shift_jis"
+  }
+ ]
+}

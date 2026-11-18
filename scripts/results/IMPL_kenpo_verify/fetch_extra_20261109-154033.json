@@ -1,0 +1,48 @@
+{
+  "set": "extra",
+  "fetched_at_local": "20261109-154033",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "mhlw_taiou",
+      "url": "https://www.mhlw.go.jp/stf/taiou_001_00002.html",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/stf/taiou_001_00002.html",
+      "content_type": "text/html",
+      "bytes": 68677,
+      "sha256": "63a65643d5f4dc19522a31609af75757a8fb2d13951bfc47c4df6c31f5f24aa4",
+      "last_modified": null,
+      "saved": ".work\\downloads\\20261109-154033_kenpo_verify_extra\\mhlw_taiou.html",
+      "charset": "UTF-8",
+      "title": "「年収の壁」への対応｜厚生労働省",
+      "text_chars": 10364,
+      "text": ".work\\text\\20261109-154033_kenpo_verify_extra\\mhlw_taiou.txt"
+    },
+    {
+      "id": "nencho2026_102",
+      "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/102.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/102.pdf",
+      "content_type": "application/pdf",
+      "bytes": 873178,
+      "sha256": "e2dc0a6afc8d8fe8af93fd3e7c1c2f7062f7f0165d542194554154461ee80e1e",
+      "last_modified": "Mon, 31 Aug 2026 08:30:12 GMT",
+      "saved": ".work\\downloads\\20261109-154033_kenpo_verify_extra\\nencho2026_102.pdf"
+    },
+    {
+      "id": "R5_1020_kenpo",
+      "url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc8005&dataType=1&pageNo=1",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc8005&dataType=1&pageNo=1",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 92996,
+      "sha256": "9fc0faaf6b1c58d9efa46cfb38b5dccb1c31491e9f4927b18476a7f06094a9ba",
+      "last_modified": null,
+      "saved": ".work\\downloads\\20261109-154033_kenpo_verify_extra\\R5_1020_kenpo.html",
+      "charset": "UTF-8",
+      "title": "・「年収の壁・支援強化パッケージ」における社会保険適用促進手当の標準報酬算定除外及び事業主の証明による被扶養者認定の円滑化の取扱いについて〔健康保険法〕(◆令和05年10月20日年管管発第1020001号)",
+      "text_chars": 17751,
+      "text": ".work\\text\\20261109-154033_kenpo_verify_extra\\R5_1020_kenpo.txt"
+    }
+  ]
+}

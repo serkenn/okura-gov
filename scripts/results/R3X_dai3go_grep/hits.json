@@ -1,0 +1,752 @@
+{
+ "patterns": {
+  "認定基準（被扶養配偶者）": "被扶養配偶者の認定基準",
+  "庁保発第13号": "庁保発第\\s*(?:13|１３|一三|十三)\\s*号",
+  "庁保険発第18号": "庁保険発第\\s*(?:18|１８|一八|十八)\\s*号",
+  "庁保発第15号": "庁保発第\\s*(?:15|１５|一五|十五)\\s*号",
+  "平成5年3月5日": "平成\\s*(?:5|５|五)\\s*年\\s*(?:3|３|三)\\s*月\\s*(?:5|５|五)\\s*日",
+  "最終改正": "最終改正",
+  "130万円（漢数字）": "百三十万",
+  "第3号と収入": "第(?:三|3|３)号被保険者[^。]{0,60}(?:百三十万|130\\s*万|一三〇万|一三○万)",
+  "施行令第4条の3": "施行令(?:\\(昭和三四年政令第一八四号\\))?第(?:四|4)条の(?:三|3)",
+  "健康保険の被扶養者の認定の取扱いを勘案": "被扶養者の認定の取扱いを勘案"
+ },
+ "n_sources": 414,
+ "hits": [
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201022_mhlw_kw/kw_chohohatsu13.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "の施行について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和59年05月25日⏎\t\t\t\t | 庁保発第13号⏎⏎\t\t\t\t | ・国民年金法における被扶養配偶者の認定基準について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年03月31日⏎\t\t\t\t | 庁保発第13号⏎⏎\t\t\t\t | ・国民年金の被保険者の適用"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201022_mhlw_kw/kw_chohohatsu13.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "扱いについて⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年04月01日⏎\t\t\t\t | 庁保険発第17号⏎⏎\t\t\t\t | ・国民年金法における被扶養配偶者の認定基準の運用について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年04月01日⏎\t\t\t\t | 庁保険発第18号⏎⏎\t\t\t\t | ・国民年金法施行令"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201022_mhlw_kw/kw_nintei_kijun.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "me='page' type='hidden' value='0']⏎\t\t[input name='keyword' type='hidden' value='被扶養配偶者の認定基準']⏎\t\t[input name='mode' type='hidden' value='0']⏎⏎\t\t\t[select name='sort' type=No"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201022_mhlw_kw/kw_nintei_kijun.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "新しい順⏎\t\t\t\t改正年月日 古い順⏎⏎\t\t\t\t | 件名⏎\t\t\t\t |⏎\t\t\t\t\t制定年月日⏎⏎\t\t\t\t | 種別・番号⏎⏎\t\t\t\t | ・国民年金法における被扶養配偶者の認定基準について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年03月31日⏎\t\t\t\t | 庁保発第13号⏎⏎\t\t\t\t | ・国民年金の被保険者の適用"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201022_mhlw_kw/kw_nintei_kijun.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "扱いについて⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年04月01日⏎\t\t\t\t | 庁保険発第17号⏎⏎\t\t\t\t | ・国民年金法における被扶養配偶者の認定基準の運用について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年04月01日⏎\t\t\t\t | 庁保険発第18号⏎⏎\t\t\t\t | ・日本年金機構の設"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_docs/H220101_nenhatsu101002_kizon.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "金の平成21年度の支払事務スケジュール等について⏎⏎ |⏎平成21年3月26日⏎⏎ |⏎事務連絡⏎⏎ |⏎機構⏎⏎ |⏎⏎ |⏎85⏎⏎ |⏎国民年金法における被扶養配偶者の認定基準について⏎⏎ |⏎昭和61年3月31日⏎⏎ |⏎庁保発第13号⏎⏎ |⏎年金局⏎⏎ |⏎⏎ |⏎86⏎⏎ |⏎国民年金法施行規則第77条の6第3号等の取扱いにつ"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_docs/H220101_nenhatsu101002_kizon.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "納付義務者からの徴収について⏎⏎ |⏎平成19年9月21日⏎⏎ |⏎庁保険発第0921001号⏎⏎ |⏎年金局⏎⏎ |⏎⏎ |⏎88⏎⏎ |⏎国民年金法における被扶養配偶者の認定基準の運用について⏎⏎ |⏎昭和61年4月1日⏎⏎ |⏎庁保険発第18号⏎⏎ |⏎機構⏎⏎ |⏎⏎ |⏎89⏎⏎ |⏎日本国籍を有する者の国外居住期間等に係る合算対"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_docs/S610401_chohokenhatsu17.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "る処分結果に基づき、国民年金手帳に所要の事項を記入し、これを返付すること。⏎⏎(三)　認定及び結果の通知⏎⏎第三号被保険者であることの認定は「国民年金法における被扶養配偶者の認定基準について」(昭和六一年三月三一日庁保発第一三号)及び「国民年金法における被扶養配偶者の認定基準の運用について」(昭和六一年四月一日庁保険発第一八号)に基づき都道"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_docs/S610401_chohokenhatsu17.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "結果の通知⏎⏎第三号被保険者であることの認定は「国民年金法における被扶養配偶者の認定基準について」(昭和六一年三月三一日庁保発第一三号)及び「国民年金法における被扶養配偶者の認定基準の運用について」(昭和六一年四月一日庁保険発第一八号)に基づき都道府県知事が行うこと。この場合における第三号被保険者に関する処分の結果の通知は、次の方法により行"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_docs/S610401_chohokenhatsu18_unyo.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "695&dataType=1&pageNo=1⏎# fetched_at=20261109-201133⏎# charset=UTF-8⏎⏎・国民年金法における被扶養配偶者の認定基準の運用について(◆昭和61年04月01日庁保険発第18号)⏎⏎\t\t\t⟨アクセシビリティ閲覧支援ツール⟩⏎⏎添付一覧⏎⏎\t\t\t\t\t添付画像はありません⏎⏎添付一覧"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_docs/S610401_chohokenhatsu18_unyo.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "⏎\t\t\t⟨アクセシビリティ閲覧支援ツール⟩⏎⏎添付一覧⏎⏎\t\t\t\t\t添付画像はありません⏎⏎添付一覧⏎⏎\t\t\t\t\t\t添付画像はありません⏎⏎○国民年金法における被扶養配偶者の認定基準の運用について⏎⏎(昭和六一年四月一日)⏎⏎(庁保険発第一八号)⏎⏎(各都道府県民生主管部(局)国民年金主管課(部)長あて社会保険庁年金保険部国民年金課長通知)"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_docs/S610401_chohokenhatsu18_unyo.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "四一号)第七条第二項に規定する主として第二号被保険者の収入により生計を維持することの認定に基準については、昭和六一年三月三一日庁保発第一三号「国民年金法における被扶養配偶者の認定基準について」都道府県知事あて社会保険庁年金保険部長通知により通知されたところであるが、その運用上の留意事項は次のとおりであるので、遺憾なきよう取り扱われたい。⏎⏎"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_docs/S610401_chohokenhatsu18_unyo.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "て主として第二号被保険者の収入により生計を維持している者(以下「被扶養配偶者」という。)として取り扱うこと。ただし、認定対象者がこれらに該当する場合であつても、被扶養配偶者の認定基準に該当しないことが明らかであるとき又は農業者年金の被保険者であるときは、この限りでないこと。⏎⏎２　「第二同被保険者と同一の世帯に属する」とは、認定対象者が第二"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_kw2/kw_dai3go_nenkan_shunyu.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "新しい順⏎\t\t\t\t改正年月日 古い順⏎⏎\t\t\t\t | 件名⏎\t\t\t\t |⏎\t\t\t\t\t制定年月日⏎⏎\t\t\t\t | 種別・番号⏎⏎\t\t\t\t | ・国民年金法における被扶養配偶者の認定基準について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年03月31日⏎\t\t\t\t | 庁保発第13号⏎⏎\t\t\t\t | ・国民年金法における被扶養"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_kw2/kw_dai3go_nenkan_shunyu.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "定基準について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年03月31日⏎\t\t\t\t | 庁保発第13号⏎⏎\t\t\t\t | ・国民年金法における被扶養配偶者の認定基準の運用について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年04月01日⏎\t\t\t\t | 庁保険発第18号"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_kw2/kw_hifuyo_haigusha_nintei.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "ィンドウが開きます⟩⏎\t\t\t\t | ◆令和06年08月21日⏎\t\t\t\t | 年管管発第821006号保保発第821006号⏎⏎\t\t\t\t | ・国民年金法における被扶養配偶者の認定基準について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年03月31日⏎\t\t\t\t | 庁保発第13号⏎⏎\t\t\t\t | ・国民年金法等の一部を改正"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_kw2/kw_hifuyo_haigusha_nintei.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "扱いについて⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年04月01日⏎\t\t\t\t | 庁保険発第17号⏎⏎\t\t\t\t | ・国民年金法における被扶養配偶者の認定基準の運用について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年04月01日⏎\t\t\t\t | 庁保険発第18号⏎⏎\t\t\t\t | ・「年金制度の機能"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_kw2/kw_hifuyo_haigusha_p2.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "⏎⏎\t\t\t前の20件⏎\t\t\t次の6件⏎⏎\t\t\t\t | 件名⏎\t\t\t\t |⏎\t\t\t\t\t制定年月日⏎⏎\t\t\t\t | 種別・番号⏎⏎\t\t\t\t | ・国民年金法における被扶養配偶者の認定基準について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年03月31日⏎\t\t\t\t | 庁保発第13号⏎⏎\t\t\t\t | ・国民年金法等の一部を改正"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_kw2/kw_hifuyo_haigusha_p2.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "扱いについて⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年04月01日⏎\t\t\t\t | 庁保険発第17号⏎⏎\t\t\t\t | ・国民年金法における被扶養配偶者の認定基準の運用について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年04月01日⏎\t\t\t\t | 庁保険発第18号⏎⏎\t\t\t\t | ・国民年金事業の推"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201314_kokkai/kk_hifuyo_haigusha_nintei_all.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "いて、その実施過程における問題を見極めた上で再検討すること。⏎⏎　　八、　遺族共済年金に係る生計維持関係の要件について、制度間の不均衡の是正に努めること。また、被扶養配偶者の認定基準については、適正なものとすること。⏎⏎　　九、　農林年金財政の健全化に資するため、今後とも必要な補助額を確保し、その財政基盤の強化等に努めること。また、昭和五十",
+   "speech": "date=1985-12-19 house=参議院 meeting=農林水産委員会 issue=第5号 speechOrder=125 speaker=浦田勝 position=None group=自由民主党・自由国民会議"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201314_kokkai/kk_hifuyo_haigusha_nintei_all.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "⏎⏎　七　併給調整については、その実施過程における問題を見極めて再検討すること。⏎⏎　八　生計維持関係の要件については、制度間の不均衡の是正に努めること。また、被扶養配偶者の認定基準については、適正なものとするよう検討すること。⏎⏎　九　本制度の今後の改善に当たっては、公的年金制度として整合性ある発展を図るとともに、制度の沿革等にも配慮し、",
+   "speech": "date=1985-12-03 house=衆議院 meeting=農林水産委員会 issue=第6号 speechOrder=157 speaker=田中恒利 position=None group=日本社会党・護憲共同"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201314_kokkai/kk_hifuyo_nintei_S61_H06.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "いて、その実施過程における問題を見極めた上で再検討すること。⏎⏎　　八、　遺族共済年金に係る生計維持関係の要件について、制度間の不均衡の是正に努めること。また、被扶養配偶者の認定基準については、適正なものとすること。⏎⏎　　九、　農林年金財政の健全化に資するため、今後とも必要な補助額を確保し、その財政基盤の強化等に努めること。また、昭和五十",
+   "speech": "date=1985-12-19 house=参議院 meeting=農林水産委員会 issue=第5号 speechOrder=125 speaker=浦田勝 position=None group=自由民主党・自由国民会議"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201314_kokkai/kk_hifuyo_nintei_S61_H06.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "⏎⏎　七　併給調整については、その実施過程における問題を見極めて再検討すること。⏎⏎　八　生計維持関係の要件については、制度間の不均衡の是正に努めること。また、被扶養配偶者の認定基準については、適正なものとするよう検討すること。⏎⏎　九　本制度の今後の改善に当たっては、公的年金制度として整合性ある発展を図るとともに、制度の沿革等にも配慮し、",
+   "speech": "date=1985-12-03 house=衆議院 meeting=農林水産委員会 issue=第6号 speechOrder=157 speaker=田中恒利 position=None group=日本社会党・護憲共同"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201953_mhlw_h150324/kw_nintei_kijun_ichibu_kaisei.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "me='page' type='hidden' value='0']⏎\t\t[input name='keyword' type='hidden' value='被扶養配偶者の認定基準の一部']⏎\t\t[input name='mode' type='hidden' value='0']⏎⏎\t\t\t[select name='sort' type"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201953_mhlw_h150324/kw_nintei_kijun_kaisei.txt",
+   "page": null,
+   "match": "被扶養配偶者の認定基準",
+   "context": "me='page' type='hidden' value='0']⏎\t\t[input name='keyword' type='hidden' value='被扶養配偶者の認定基準の改正']⏎\t\t[input name='mode' type='hidden' value='0']⏎⏎\t\t\t[select name='sort' type"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_pdftext/c_0000086586_text.tsv",
+   "page": 4,
+   "match": "被扶養配偶者の認定基準",
+   "context": "⏎りませんが、詳しくは、資格の取得と喪失の基礎編｜生計維持されていない場合は、第1号被保険者に該⏎講義で説明します。）｜当します。⏎【第3号被保険者の要件】｜【被扶養配偶者の認定基準】⏎次に、第3号被保険者の要件です。｜第3号被保険者は、第2号被保険者の配偶者であ⏎法第7条第1項第3号では、第2号被保険者の配｜って主として第2号被保険者の収"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_pdftext/c_0000086586_text.tsv",
+   "page": 5,
+   "match": "被扶養配偶者の認定基準",
+   "context": "被扶養｜次は、認定対象者が第2号被保険者と同一世帯に⏎者の認定の取扱いを勘案して、日本年金機構が行っ｜属していない場合です。第2号被保険者によって主⏎ています。被扶養配偶者の認定基準は、認定対象者｜として生計を維持されていて、認定対象者の年間収⏎が第2号被保険者と同一世帯に属している場合と、｜入が130万円未満であって、かつ、第2号被保険者"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_pdftext/c_0000086586_text.tsv",
+   "page": 5,
+   "match": "被扶養配偶者の認定基準",
+   "context": "件となります。そして、被扶養配偶者の収入には、⏎雇用保険の失業等給付、公的年金、健康保険の傷病⏎手当金や出産手当金も含まれますので、注意してく⏎ださい。⏎なお、被扶養配偶者の認定基準に関しては、通知⏎（『昭和61年3月31日庁保発第13号』、『昭和61年⏎4月1日庁保険発第18号』、『平成15年3月24日庁⏎文発第798号』）が発出されてい"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_pdftext/kounen_tekiyou_text.tsv",
+   "page": 24,
+   "match": "被扶養配偶者の認定基準",
+   "context": "定めているところであり、収入の算定については、「�民年金法にお⏎昭和61年4月1就�により年1,305,600円の収入があり、夫には就�により年48,000ける被扶養配偶者の認定基準の運用について」（昭和61年4月1日庁⏎日庁保険発第18円の収入があります。なお、世帯に対して生活保護費が年間1,680,000 保険発第18 号）に基づいた取"
+  },
+  {
+   "pattern": "認定基準（被扶養配偶者）",
+   "file": "scripts/results/R3X_dai3go_pdftext/shinsa_r02_03_15_01_text.tsv",
+   "page": 2,
+   "match": "被扶養配偶者の認定基準",
+   "context": "用保険（傷病手当金・出産手当金）⏎は、被扶養者として認定される（国民年の受給の有無：無⏎金法施行令第４条及び「国民年金法にお届出が遅延した理由等（扶養の事⏎ける被扶養配偶者の認定基準について」実）：昭和◯年◯月◯日から平成◯⏎（昭和６１年３月３１日庁保発第１３号年◯月◯日までの扶養の証明は、下⏎社会保険庁年金保険部長通知（最終改正記の理由で"
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201022_mhlw_kw/kw_chohohatsu13.txt",
+   "page": null,
+   "match": "庁保発第一三号",
+   "context": "me='page' type='hidden' value='0']⏎\t\t[input name='keyword' type='hidden' value='庁保発第一三号']⏎\t\t[input name='mode' type='hidden' value='0']⏎⏎\t\t\t[select name='sort' type=No"
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201022_mhlw_kw/kw_chohohatsu13.txt",
+   "page": null,
+   "match": "庁保発第13号",
+   "context": "\t\t | ・健康保険法施行令等の一部を改正する政令の施行等について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆平成05年04月07日⏎\t\t\t\t | 庁保発第13号保発第36号⏎⏎\t\t\t\t | ・健康保険法施行規則等の一部を改正する省令の施行について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆平成07年03月2"
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201022_mhlw_kw/kw_chohohatsu13.txt",
+   "page": null,
+   "match": "庁保発第13号",
+   "context": "\t\t | ・健康保険法施行規則等の一部を改正する省令の施行について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆平成07年03月28日⏎\t\t\t\t | 庁保発第13号保発第29号老企第97号⏎⏎\t\t\t\t | ・船員保険技能習得手当、寄宿舎手当及び移転費支給細則の一部改正について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t"
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201022_mhlw_kw/kw_chohohatsu13.txt",
+   "page": null,
+   "match": "庁保発第13号",
+   "context": "員保険技能習得手当、寄宿舎手当及び移転費支給細則の一部改正について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆平成04年04月21日⏎\t\t\t\t | 庁保発第13号⏎⏎\t\t\t\t | ・厚生年金保険の被保険者原簿に片仮名による被保険者の氏名を収録する等のための記録関係書類の進達に関する事務の取扱いについて⏎\t\t\t\t ⟨別ウィ"
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201022_mhlw_kw/kw_chohohatsu13.txt",
+   "page": null,
+   "match": "庁保発第13号",
+   "context": " | ・国民年金手帳の更新事務及び保険料納付記録の進達事務について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和45年05月28日⏎\t\t\t\t | 庁保発第13号⏎⏎\t\t\t\t | ・被保険者の資格を取得した者にかかる国民年金手帳の交付事務について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和45年05月29"
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201022_mhlw_kw/kw_chohohatsu13.txt",
+   "page": null,
+   "match": "庁保発第13号",
+   "context": "\t\t\t | ・国民年金法施行令の一部を改正する政令等の施行について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和48年09月05日⏎\t\t\t\t | 庁保発第13号⏎⏎\t\t\t\t | ・国民年金法施行令の一部を改正する政令の施行について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和49年04月30日⏎\t\t\t\t "
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201022_mhlw_kw/kw_chohohatsu13.txt",
+   "page": null,
+   "match": "庁保発第13号",
+   "context": "\t\t\t\t | ・国民年金法施行令の一部を改正する政令の施行について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和49年04月30日⏎\t\t\t\t | 庁保発第13号⏎⏎\t\t\t\t | ・国民年金法等の一部を改正する法律等の施行について（抄）⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和49年05月31日⏎\t\t\t"
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201022_mhlw_kw/kw_chohohatsu13.txt",
+   "page": null,
+   "match": "庁保発第13号",
+   "context": "\t\t\t\t | ・国民年金法施行令の一部を改正する政令の施行について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和52年04月28日⏎\t\t\t\t | 庁保発第13号⏎⏎\t\t\t\t | ・国民年金法施行令等の一部を改正する政令及び福祉年金支給規則の一部を改正する省令の施行について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t"
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201022_mhlw_kw/kw_chohohatsu13.txt",
+   "page": null,
+   "match": "庁保発第13号",
+   "context": "改正する政令及び福祉年金支給規則の一部を改正する省令の施行について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和58年05月31日⏎\t\t\t\t | 庁保発第13号⏎⏎\t\t\t\t | ・国民年金法施行令等の一部を改正する政令及び福祉年金支給規則の一部を改正する省令の施行について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t"
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201022_mhlw_kw/kw_chohohatsu13.txt",
+   "page": null,
+   "match": "庁保発第13号",
+   "context": "改正する政令及び福祉年金支給規則の一部を改正する省令の施行について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和59年05月25日⏎\t\t\t\t | 庁保発第13号⏎⏎\t\t\t\t | ・国民年金法における被扶養配偶者の認定基準について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年03月31日⏎\t\t\t\t |"
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201022_mhlw_kw/kw_chohohatsu13.txt",
+   "page": null,
+   "match": "庁保発第13号",
+   "context": "⏎\t\t\t\t | ・国民年金法における被扶養配偶者の認定基準について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年03月31日⏎\t\t\t\t | 庁保発第13号⏎⏎\t\t\t\t | ・国民年金の被保険者の適用及び保険料に関する事務の取扱いについて⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年04月01日"
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201022_mhlw_kw/kw_chohohatsu13.txt",
+   "page": null,
+   "match": "庁保発第13号",
+   "context": "\t\t\t | ・国民年金法施行令の一部を改正する政令等の施行について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆平成03年04月12日⏎\t\t\t\t | 庁保発第13号⏎⏎\t\t\t\t | ・国民年金法施行令及び国民年金法等の一部を改正する法律の施行に伴う経過措置に関する政令の一部を改正する政令の施行について⏎\t\t\t\t ⟨別ウィン"
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201022_mhlw_kw/kw_chohohatsu13.txt",
+   "page": null,
+   "match": "庁保発第13号",
+   "context": "の施行に伴う経過措置に関する政令の一部を改正する政令の施行について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆平成09年04月01日⏎\t\t\t\t | 庁保発第13号⏎⏎\t\t\t\t | ・国民年金法に基づき市町村に交付する事務費に関する政令等の一部を改正する政令等の施行について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t "
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201022_mhlw_kw/kw_chohohatsu13.txt",
+   "page": null,
+   "match": "庁保発第13号",
+   "context": "に交付する事務費に関する政令等の一部を改正する政令等の施行について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆平成12年03月30日⏎\t\t\t\t | 庁保発第13号"
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201022_mhlw_kw/kw_nintei_kijun.txt",
+   "page": null,
+   "match": "庁保発第13号",
+   "context": "⏎\t\t\t\t | ・国民年金法における被扶養配偶者の認定基準について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年03月31日⏎\t\t\t\t | 庁保発第13号⏎⏎\t\t\t\t | ・国民年金の被保険者の適用及び保険料に関する事務の取扱いについて⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年04月01日"
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_docs/H050407_chohohatsu13_hohatsu36.txt",
+   "page": null,
+   "match": "庁保発第13号",
+   "context": "ed_at=20261109-201133⏎# charset=UTF-8⏎⏎・健康保険法施行令等の一部を改正する政令の施行等について(◆平成05年04月07日庁保発第13号保発第36号)⏎⏎\t\t\t⟨アクセシビリティ閲覧支援ツール⟩⏎⏎添付一覧⏎⏎\t\t\t\t\t添付画像はありません⏎⏎添付一覧⏎⏎\t\t\t\t\t\t添付画像はありません⏎⏎○健"
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_docs/H050407_chohohatsu13_hohatsu36.txt",
+   "page": null,
+   "match": "庁保発第一三号",
+   "context": "りません⏎⏎添付一覧⏎⏎\t\t\t\t\t\t添付画像はありません⏎⏎○健康保険法施行令等の一部を改正する政令の施行等について⏎⏎(平成五年四月七日)⏎⏎(保発第三六号・庁保発第一三号)⏎⏎(各都道府県知事あて厚生省保険局長・社会保険庁運営部長連名通知)⏎⏎本日、健康保険法施行令等の一部を改正する政令が、平成五年政令第一四三号をもって、別添の"
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_docs/H220101_nenhatsu101002_kizon.txt",
+   "page": null,
+   "match": "庁保発第13号",
+   "context": "月26日⏎⏎ |⏎事務連絡⏎⏎ |⏎機構⏎⏎ |⏎⏎ |⏎85⏎⏎ |⏎国民年金法における被扶養配偶者の認定基準について⏎⏎ |⏎昭和61年3月31日⏎⏎ |⏎庁保発第13号⏎⏎ |⏎年金局⏎⏎ |⏎⏎ |⏎86⏎⏎ |⏎国民年金法施行規則第77条の6第3号等の取扱いについて⏎⏎ |⏎平成14年3月11日⏎⏎ |⏎庁保発第7号⏎⏎ "
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_docs/S610401_chohokenhatsu17.txt",
+   "page": null,
+   "match": "庁保発第一三号",
+   "context": "これを返付すること。⏎⏎(三)　認定及び結果の通知⏎⏎第三号被保険者であることの認定は「国民年金法における被扶養配偶者の認定基準について」(昭和六一年三月三一日庁保発第一三号)及び「国民年金法における被扶養配偶者の認定基準の運用について」(昭和六一年四月一日庁保険発第一八号)に基づき都道府県知事が行うこと。この場合における第三号被保"
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_docs/S610401_chohokenhatsu18_unyo.txt",
+   "page": null,
+   "match": "庁保発第一三号",
+   "context": "⏎⏎国民年金法(昭和三四年法律第一四一号)第七条第二項に規定する主として第二号被保険者の収入により生計を維持することの認定に基準については、昭和六一年三月三一日庁保発第一三号「国民年金法における被扶養配偶者の認定基準について」都道府県知事あて社会保険庁年金保険部長通知により通知されたところであるが、その運用上の留意事項は次のとおりで"
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_kw2/kw_dai3go_nenkan_shunyu.txt",
+   "page": null,
+   "match": "庁保発第13号",
+   "context": "⏎\t\t\t\t | ・国民年金法における被扶養配偶者の認定基準について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年03月31日⏎\t\t\t\t | 庁保発第13号⏎⏎\t\t\t\t | ・国民年金法における被扶養配偶者の認定基準の運用について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年04月01日⏎\t\t\t"
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_kw2/kw_hifuyo_haigusha_nintei.txt",
+   "page": null,
+   "match": "庁保発第13号",
+   "context": "⏎\t\t\t\t | ・国民年金法における被扶養配偶者の認定基準について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年03月31日⏎\t\t\t\t | 庁保発第13号⏎⏎\t\t\t\t | ・国民年金法等の一部を改正する法律等による改正後の国民年金法等の施行について（抄）⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和"
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_kw2/kw_hifuyo_haigusha_p2.txt",
+   "page": null,
+   "match": "庁保発第13号",
+   "context": "⏎\t\t\t\t | ・国民年金法における被扶養配偶者の認定基準について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年03月31日⏎\t\t\t\t | 庁保発第13号⏎⏎\t\t\t\t | ・国民年金法等の一部を改正する法律等による改正後の国民年金法等の施行について（抄）⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和"
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_pdftext/c_0000086586_text.tsv",
+   "page": 5,
+   "match": "庁保発第13号",
+   "context": "給付、公的年金、健康保険の傷病⏎手当金や出産手当金も含まれますので、注意してく⏎ださい。⏎なお、被扶養配偶者の認定基準に関しては、通知⏎（『昭和61年3月31日庁保発第13号』、『昭和61年⏎4月1日庁保険発第18号』、『平成15年3月24日庁⏎文発第798号』）が発出されていますので、参照して⏎ください。⏎ただし、認定対象者の収入"
+  },
+  {
+   "pattern": "庁保発第13号",
+   "file": "scripts/results/R3X_dai3go_pdftext/shinsa_r02_03_15_01_text.tsv",
+   "page": 2,
+   "match": "庁保発第１３号",
+   "context": "金法施行令第４条及び「国民年金法にお届出が遅延した理由等（扶養の事⏎ける被扶養配偶者の認定基準について」実）：昭和◯年◯月◯日から平成◯⏎（昭和６１年３月３１日庁保発第１３号年◯月◯日までの扶養の証明は、下⏎社会保険庁年金保険部長通知（最終改正記の理由で受けられませんが、その⏎平成５年３月１５日庁保発第５号）））。期間は上記配偶者に"
+  },
+  {
+   "pattern": "庁保険発第18号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201022_mhlw_kw/kw_chohohatsu13.txt",
+   "page": null,
+   "match": "庁保険発第18号",
+   "context": "\t\t | ・国民年金法における被扶養配偶者の認定基準の運用について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年04月01日⏎\t\t\t\t | 庁保険発第18号⏎⏎\t\t\t\t | ・国民年金法施行令の一部を改正する政令等の施行について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆平成03年04月12日⏎\t\t\t\t"
+  },
+  {
+   "pattern": "庁保険発第18号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201022_mhlw_kw/kw_nintei_kijun.txt",
+   "page": null,
+   "match": "庁保険発第18号",
+   "context": "\t\t | ・国民年金法における被扶養配偶者の認定基準の運用について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年04月01日⏎\t\t\t\t | 庁保険発第18号⏎⏎\t\t\t\t | ・日本年金機構の設立に伴う既存通知等の取扱い等について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆平成22年01月01日⏎\t\t\t\t"
+  },
+  {
+   "pattern": "庁保険発第18号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_docs/H220101_nenhatsu101002_kizon.txt",
+   "page": null,
+   "match": "庁保険発第18号",
+   "context": "発第0921001号⏎⏎ |⏎年金局⏎⏎ |⏎⏎ |⏎88⏎⏎ |⏎国民年金法における被扶養配偶者の認定基準の運用について⏎⏎ |⏎昭和61年4月1日⏎⏎ |⏎庁保険発第18号⏎⏎ |⏎機構⏎⏎ |⏎⏎ |⏎89⏎⏎ |⏎日本国籍を有する者の国外居住期間等に係る合算対象期間の確認に必要な書類について⏎⏎ |⏎昭和61年7月10日⏎⏎ "
+  },
+  {
+   "pattern": "庁保険発第18号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_docs/S610401_chohokenhatsu17.txt",
+   "page": null,
+   "match": "庁保険発第一八号",
+   "context": "における被扶養配偶者の認定基準について」(昭和六一年三月三一日庁保発第一三号)及び「国民年金法における被扶養配偶者の認定基準の運用について」(昭和六一年四月一日庁保険発第一八号)に基づき都道府県知事が行うこと。この場合における第三号被保険者に関する処分の結果の通知は、次の方法により行うこと。⏎⏎ア　届出の全部を容認したときは、所要の事"
+  },
+  {
+   "pattern": "庁保険発第18号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_docs/S610401_chohokenhatsu18_unyo.txt",
+   "page": null,
+   "match": "庁保険発第18号",
+   "context": "ed_at=20261109-201133⏎# charset=UTF-8⏎⏎・国民年金法における被扶養配偶者の認定基準の運用について(◆昭和61年04月01日庁保険発第18号)⏎⏎\t\t\t⟨アクセシビリティ閲覧支援ツール⟩⏎⏎添付一覧⏎⏎\t\t\t\t\t添付画像はありません⏎⏎添付一覧⏎⏎\t\t\t\t\t\t添付画像はありません⏎⏎○国民年金法にお"
+  },
+  {
+   "pattern": "庁保険発第18号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_docs/S610401_chohokenhatsu18_unyo.txt",
+   "page": null,
+   "match": "庁保険発第一八号",
+   "context": "添付画像はありません⏎⏎添付一覧⏎⏎\t\t\t\t\t\t添付画像はありません⏎⏎○国民年金法における被扶養配偶者の認定基準の運用について⏎⏎(昭和六一年四月一日)⏎⏎(庁保険発第一八号)⏎⏎(各都道府県民生主管部(局)国民年金主管課(部)長あて社会保険庁年金保険部国民年金課長通知)⏎⏎国民年金法(昭和三四年法律第一四一号)第七条第二項に規定す"
+  },
+  {
+   "pattern": "庁保険発第18号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_kw2/kw_dai3go_nenkan_shunyu.txt",
+   "page": null,
+   "match": "庁保険発第18号",
+   "context": "\t\t | ・国民年金法における被扶養配偶者の認定基準の運用について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年04月01日⏎\t\t\t\t | 庁保険発第18号"
+  },
+  {
+   "pattern": "庁保険発第18号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_kw2/kw_hifuyo_haigusha_nintei.txt",
+   "page": null,
+   "match": "庁保険発第18号",
+   "context": "\t\t | ・国民年金法における被扶養配偶者の認定基準の運用について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年04月01日⏎\t\t\t\t | 庁保険発第18号⏎⏎\t\t\t\t | ・「年金制度の機能強化のための国民年金法等の一部を改正する法律の施行に伴う国家公務員共済組合制度及び地方公務員等共済組合制度における短期給付の"
+  },
+  {
+   "pattern": "庁保険発第18号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_kw2/kw_hifuyo_haigusha_p2.txt",
+   "page": null,
+   "match": "庁保険発第18号",
+   "context": "\t\t | ・国民年金法における被扶養配偶者の認定基準の運用について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆昭和61年04月01日⏎\t\t\t\t | 庁保険発第18号⏎⏎\t\t\t\t | ・国民年金事業の推進について⏎\t\t\t\t ⟨別ウィンドウが開きます⟩⏎\t\t\t\t | ◆平成06年03月31日⏎\t\t\t\t | 庁文発第1411号⏎"
+  },
+  {
+   "pattern": "庁保険発第18号",
+   "file": "scripts/results/R3X_dai3go_pdftext/c_0000086586_text.tsv",
+   "page": 5,
+   "match": "庁保険発第18号",
+   "context": "出産手当金も含まれますので、注意してく⏎ださい。⏎なお、被扶養配偶者の認定基準に関しては、通知⏎（『昭和61年3月31日庁保発第13号』、『昭和61年⏎4月1日庁保険発第18号』、『平成15年3月24日庁⏎文発第798号』）が発出されていますので、参照して⏎ください。⏎ただし、認定対象者の収入が第2号被保険者の2⏎分の1以上の場合であ"
+  },
+  {
+   "pattern": "庁保険発第18号",
+   "file": "scripts/results/R3X_dai3go_pdftext/kounen_tekiyou_text.tsv",
+   "page": 25,
+   "match": "庁保険発第18号",
+   "context": "いるところであり、収入条第7項、健康保動)届｜入がある者の｜により「収入金額」から「当該遂行のための必要経費」を控除した額⏎の算定については、昭和61年4月1日庁保険発第18号と同様の扱い険法施行規則第健康保険被扶｜で、健康保険被扶養者の認定の可否を判断しています。⏎をしているところです。38条養者の認定に｜確定申告書の収支内�書の経"
+  },
+  {
+   "pattern": "庁保険発第18号",
+   "file": "scripts/results/R3X_dai3go_pdftext/kounen_tekiyou_text.tsv",
+   "page": 26,
+   "match": "庁保険発第18号",
+   "context": "収入基準を定めているところであり、収入の算定につい動)届｜の際の収入に｜なり受給を開始した際に、一括で受け取る場�は一時的な所得とみな⏎ては、昭和61年4月1日庁保険発第18号と同様の扱いをしているとついて｜し収入としては算入しないが、数年にわたり分割して受給する場�は⏎ころである。どのように判断すべきか、お伺いします。⏎「年間収入」"
+  },
+  {
+   "pattern": "庁保険発第18号",
+   "file": "scripts/results/R3X_dai3go_pdftext/shinsa_r02_03_15_01_text.tsv",
+   "page": 2,
+   "match": "庁保険発第１８号",
+   "context": "年◯月◯日　ｄ社との合併に⏎及び「国民年金法における被扶養配偶者よりｄ社となる）⏎の認定基準の運用について」（昭和６１年（◯年◯月◯日　ｅ社との合併に⏎４月１日庁保険発第１８号）。　　よりａ社となり現在に至る）⏎２　本件記録によれば、本件申立期間にお⑶　ａ健康保険組合が平成◯年◯月◯日⏎いて、請求人が第２号被保険者である配付けで交付し"
+  },
+  {
+   "pattern": "庁保発第15号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_docs/H220101_nenhatsu101002_kizon.txt",
+   "page": null,
+   "match": "庁保発第15号",
+   "context": "ん⏎⏎ |⏎昭和45年9月10日⏎⏎ |⏎内かん⏎⏎ |⏎年金局⏎⏎ |⏎⏎ |⏎60⏎⏎ |⏎事実婚関係の認定について⏎⏎ |⏎昭和55年5月16日⏎⏎ |⏎庁保発第15号⏎⏎ |⏎年金局⏎⏎ |⏎⏎ |⏎61⏎⏎ |⏎生計維持関係等の認定基準及び認定の取扱いについて⏎⏎ |⏎昭和61年4月30日⏎⏎ |⏎庁保険発第29号⏎⏎ |"
+  },
+  {
+   "pattern": "庁保発第15号",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_docs/S610401_chohokenhatsu18_unyo.txt",
+   "page": null,
+   "match": "庁保発第一五号",
+   "context": "入とすること。⏎⏎４　婚姻の届出をしていないが、事実上婚姻関係と同様の事情にある認定対象者の取扱いに関しては、「事実婚関係の認定について」(昭和五五年五月一六日庁保発第一五号都道府県知事あて社会保険庁年金保険部長通達)及び「事実婚関係の認定事務について」(昭和五五年五月一六日庁保険発第一三号都道府県民生主管部(局)保険主管課(部)長"
+  },
+  {
+   "pattern": "庁保発第15号",
+   "file": "scripts/results/R3X_dai3go_pdftext/kounen_tekiyou_text.tsv",
+   "page": 50,
+   "match": "庁保発第15号",
+   "context": "体全内航に加盟している船舶所有者については、昭和43年6被保険者報酬｜全内航�働協｜１年を通じ船員として船舶所有者に使用され、基本となる�定給の2⏎条｜月17日庁保発第15号「船員保険法第四条ノ二第二項による報酬月額月額変更（基準｜約改定に伴う｜ほか船舶に乗り組みことなどにより変動する報酬が支給される場�、⏎昭和43年6月17の算定"
+  },
+  {
+   "pattern": "庁保発第15号",
+   "file": "scripts/results/R3X_dai3go_pdftext/kounen_tekiyou_text.tsv",
+   "page": 50,
+   "match": "庁保発第15号",
+   "context": "定について」に基づく算定�法を用いて、報酬月額を算定していま日）届（月額変｜標準報酬月額｜船員保険法第20条第1項第4号により、基本となる�定給の額と変動す⏎日庁保発第15号す。更）｜の算定�法に｜る報酬の額とを基準として、厚生�働大臣の定める�法、いわゆる⏎「船員保険法第四この度、平成24年4月16日付で、�働協約改定が決定され基"
+  },
+  {
+   "pattern": "庁保発第15号",
+   "file": "scripts/results/R3X_dai3go_pdftext/kounen_tekiyou_text.tsv",
+   "page": 50,
+   "match": "庁保発第15号",
+   "context": "に支払わ働大臣が算定する額を報酬月額とすることができ、その算定�法について⏎れた総報酬を使用することから、新基本給に係数を掛けると、今年度は昭和43年6月17日庁保発第15号「船員保険法第四条ノ二第二項⏎に見込まれる報酬を過大に算定（手当分について二重に計算）するこによる報酬月額の算定について」により規定されています。ただし、⏎とに"
+  },
+  {
+   "pattern": "最終改正",
+   "file": "scripts/results/R3X_dai3go_pdftext/shinsa_r02_03_15_01_text.tsv",
+   "page": 2,
+   "match": "最終改正",
+   "context": "養配偶者の認定基準について」実）：昭和◯年◯月◯日から平成◯⏎（昭和６１年３月３１日庁保発第１３号年◯月◯日までの扶養の証明は、下⏎社会保険庁年金保険部長通知（最終改正記の理由で受けられませんが、その⏎平成５年３月１５日庁保発第５号）））。期間は上記配偶者に扶養されていま⏎　また、認定対象者が、健康保険、船員した。⏎保険若しく"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201314_kokkai/kk_dai3go_130_H04_H06.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "年金の被保険者になるわけでございますが、四分の三未満でございますと厚生年金の適用対象外となるわけでございます。この対象外になった場合には、その収入に応じまして、百三十万円以上の方は国民年金の第一号被保険者、それから百三十万円未満の方は第三号被保険者ということで年金保障が行われることになっているわけでございます。⏎⏎　パートタイ",
+   "speech": "date=1994-10-31 house=参議院 meeting=厚生委員会 issue=第5号 speechOrder=50 speaker=近藤純五郎 position=厚生省年金局長 group=None"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201314_kokkai/kk_dai3go_130_H04_H06.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "ございますと厚生年金の適用対象外となるわけでございます。この対象外になった場合には、その収入に応じまして、百三十万円以上の方は国民年金の第一号被保険者、それから百三十万円未満の方は第三号被保険者ということで年金保障が行われることになっているわけでございます。⏎⏎　パートタイム労働者の適用のあり方につきましては、そもそも被用者で",
+   "speech": "date=1994-10-31 house=参議院 meeting=厚生委員会 issue=第5号 speechOrder=50 speaker=近藤純五郎 position=厚生省年金局長 group=None"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201613_kokkai2/kk_dai3go_hifuyo_nintei_kijun_all.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "わけであります。⏎⏎　特に、公平性の問題に関しまして、標準報酬月額の下限が七万八千円ですと、年収は九十三・六万円。現在、被扶養配偶者で短時間労働者の場合、年収が百三十万未満だと見込まれれば第三号被保険者として認定される仕組みになっていますが、この百三十万という基準を一緒に見直すんでしょうか。⏎⏎================",
+   "speech": "date=2012-05-29 house=衆議院 meeting=社会保障と税の一体改革に関する特別委員会 issue=第10号 speechOrder=98 speaker=あべ俊子 position=None group=自由民主党・無所属の会"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201613_kokkai2/kk_dai3go_hifuyo_nintei_kijun_all.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "すと、年収は九十三・六万円。現在、被扶養配偶者で短時間労働者の場合、年収が百三十万未満だと見込まれれば第三号被保険者として認定される仕組みになっていますが、この百三十万という基準を一緒に見直すんでしょうか。⏎⏎===========================================================",
+   "speech": "date=2012-05-29 house=衆議院 meeting=社会保障と税の一体改革に関する特別委員会 issue=第10号 speechOrder=98 speaker=あべ俊子 position=None group=自由民主党・無所属の会"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201613_kokkai2/kk_dai3go_hifuyo_nintei_kijun_all.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "定に当たりましては、被扶養配偶者に該当する時点での、その時点での収入の状況により認定することとなっております。具体的に申しますと、その時点での収入が年額ベースで百三十万円、これを日額ベースに直しますと、三千六百円を超えるかどうかにより認定するものとなっております。⏎⏎　こういったことから、失業中の方につきましては、失業給付の日",
+   "speech": "date=2002-03-28 house=参議院 meeting=厚生労働委員会 issue=第5号 speechOrder=57 speaker=冨岡悟 position=社会保険庁運営部長 group=None"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201613_kokkai2/kk_dai3go_hifuyo_nintei_kijun_all.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "夫の加入する制度が負担をしてくれることになったわけです。この限りにおいて女性を優遇する制度となっているわけです。⏎⏎　ところが逆に、さっき申しましたパート収入が百三十万円を超えて被扶養者認定を受けられなくなると、第一号被保険者として自分の保険料を払う必要が出てくる。また、正社員として働いている場合は言うまでもなく厚生年金の保険",
+   "speech": "date=1996-06-04 house=参議院 meeting=厚生委員会 issue=第16号 speechOrder=144 speaker=竹村泰子 position=None group=社会民主党・護憲連合"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201613_kokkai2/kk_dai3go_shunyu_kijun_all.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "二年に年収七十万円としました。その後、所得税の控除との関係、それから所得水準の伸び等の要素を勘案して、数次にわたり見直しを行っておりまして、平成五年、現在の年収百三十万円としております。この被扶養者の収入基準につきましては、この一九九三年から、過去三十年間にわたりまして、一人当たり名目賃金がおおむね横ばいとなっておりまして、現",
+   "speech": "date=2023-02-20 house=衆議院 meeting=予算委員会第五分科会 issue=第1号 speechOrder=294 speaker=伊原和人 position=厚生労働省保険局長 group=None"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201613_kokkai2/kk_dai3go_shunyu_kijun_all.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "しております。この被扶養者の収入基準につきましては、この一九九三年から、過去三十年間にわたりまして、一人当たり名目賃金がおおむね横ばいとなっておりまして、現在、百三十万円が維持されております。⏎⏎　ここにつきまして、引上げのお話、考えた場合というお話がございますけれども、ここにつきましては、現在、被用者保険では、被用者による支",
+   "speech": "date=2023-02-20 house=衆議院 meeting=予算委員会第五分科会 issue=第1号 speechOrder=294 speaker=伊原和人 position=厚生労働省保険局長 group=None"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201613_kokkai2/kk_dai3go_shunyu_kijun_all.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "、長期に入院、入所して年金がたまるという給付の重複があります。⏎⏎　また、医療保険での高齢者の保険料負担も見直しが必要です。医療保険の被扶養認定の収入基準は原則百三十万円未満ですが、六十歳以上の高齢者と障害者は百八十万円未満とされています。そのため、年金を含めて月収十五万円近い収入がありながら子供の健康保険の被扶養者となり、保",
+   "speech": "date=2002-03-06 house=参議院 meeting=国民生活・経済に関する調査会 issue=第3号 speechOrder=2 speaker=山崎泰彦 position=上智大学文学部社会福祉学科教授 group=None"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201613_kokkai2/kk_H140416_sangiin_kosei.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "ところでございますけれども、もう一度確認的な意味合いも込めて御質問したいと思います。⏎⏎　現在、失業者に対する被扶養者の認定は、失業給付の日額を年収、年間収入の百三十万円を三百六十五で割った日額ベースの三千六百円と比較して、それで認定を導いている、認定かどうか判断しているということになっているわけでございますが、このことは、さ",
+   "speech": "date=2002-04-16 house=参議院 meeting=厚生労働委員会 issue=第6号 speechOrder=139 speaker=辻泰弘 position=None group=民主党・新緑風会"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201613_kokkai2/kk_hifuyo_130_H04_H06.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "三分の一、県三分の一以内、本人負担が三分の一というようなことでこの事業を進めておるということでございまして、平成五年度の状況を見ますと、二十二病院、十九億四千八百三十万円が交付されておるということでございまして、また今年度分は各県からの要請を取りまとめ中でございます。⏎⏎　それから、また二十九ページに戻っていただきますが、第二",
+   "speech": "date=1994-10-20 house=参議院 meeting=国民生活に関する調査会 issue=第2号 speechOrder=3 speaker=太田義武 position=厚生省大臣官房総務審議官 group=None"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201613_kokkai2/kk_hifuyo_130_H04_H06.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "わけでございますが、この生計維持関係というものを判断するという仕組みでございまして、御案内のとおり、その年間収入を目安といたしまして、現在では、六十歳未満の場合百三十万円未満というものを目安として被扶養者と認定する、このような仕組みをとらせていただいているわけでございます。⏎⏎　この取り扱いによりましてパート労働者の医療・年金",
+   "speech": "date=1993-06-04 house=衆議院 meeting=労働委員会 issue=第15号 speechOrder=89 speaker=紺矢寛朗 position=厚生省保険局保険課長 group=None"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201613_kokkai2/kk_hifuyo_130_H04_H06.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "ちまして全体的な所得の伸びで改定をしてきているということでございまして、改定の経緯につきましては、委員御指摘のとおり平成四年に百二十万円、そして平成五年度からは百三十万円に改定したい、このように考えているところでございます。⏎⏎==================================================",
+   "speech": "date=1993-03-05 house=衆議院 meeting=予算委員会第二分科会 issue=第2号 speechOrder=70 speaker=紺矢寛朗 position=厚生省保険局保険課長 group=None"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201613_kokkai2/kk_hifuyo_130_H04_H06.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "の私的検討会ですね、ここでは、健康保険、年金の被扶養者の認定基準を来年度から引き上げる報告書をまとめ、同省はこれを受け、所定基準額を現行の年収百二十万円未満から百三十万円未満に引き上げる方針を決めた、こういうふうに書かれているわけでありますが、平成五年度の方針として厚生省はこれを採用し百三十万円未満に引き上げる、こういうことは",
+   "speech": "date=1993-03-05 house=衆議院 meeting=予算委員会第二分科会 issue=第2号 speechOrder=71 speaker=小川国彦 position=None group=日本社会党・護憲民主連合"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201613_kokkai2/kk_hifuyo_130_H04_H06.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "準額を現行の年収百二十万円未満から百三十万円未満に引き上げる方針を決めた、こういうふうに書かれているわけでありますが、平成五年度の方針として厚生省はこれを採用し百三十万円未満に引き上げる、こういうことはそのとおりでありますか。",
+   "speech": "date=1993-03-05 house=衆議院 meeting=予算委員会第二分科会 issue=第2号 speechOrder=71 speaker=小川国彦 position=None group=日本社会党・護憲民主連合"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201613_kokkai2/kk_hifuyo_kijun_hikiage_S62_H06.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "わけでございますが、この生計維持関係というものを判断するという仕組みでございまして、御案内のとおり、その年間収入を目安といたしまして、現在では、六十歳未満の場合百三十万円未満というものを目安として被扶養者と認定する、このような仕組みをとらせていただいているわけでございます。⏎⏎　この取り扱いによりましてパート労働者の医療・年金",
+   "speech": "date=1993-06-04 house=衆議院 meeting=労働委員会 issue=第15号 speechOrder=89 speaker=紺矢寛朗 position=厚生省保険局保険課長 group=None"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201613_kokkai2/kk_hifuyo_kijun_hikiage_S62_H06.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "論がなされたわけでございます。この検討会の検討結果、そしてこのパート問題におきます与野党の御協議を踏まえまして、私ども、この四月から被扶養者認定基準百二十万円を百三十万に引き上げる、こういうふうにさせていただいたところでございます。⏎⏎==============================================",
+   "speech": "date=1993-03-09 house=衆議院 meeting=大蔵委員会 issue=第6号 speechOrder=70 speaker=紺矢寛朗 position=厚生省保険局保険課長 group=None"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201613_kokkai2/kk_hifuyo_kijun_hikiage_S62_H06.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "の私的検討会ですね、ここでは、健康保険、年金の被扶養者の認定基準を来年度から引き上げる報告書をまとめ、同省はこれを受け、所定基準額を現行の年収百二十万円未満から百三十万円未満に引き上げる方針を決めた、こういうふうに書かれているわけでありますが、平成五年度の方針として厚生省はこれを採用し百三十万円未満に引き上げる、こういうことは",
+   "speech": "date=1993-03-05 house=衆議院 meeting=予算委員会第二分科会 issue=第2号 speechOrder=71 speaker=小川国彦 position=None group=日本社会党・護憲民主連合"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201613_kokkai2/kk_hifuyo_kijun_hikiage_S62_H06.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "準額を現行の年収百二十万円未満から百三十万円未満に引き上げる方針を決めた、こういうふうに書かれているわけでありますが、平成五年度の方針として厚生省はこれを採用し百三十万円未満に引き上げる、こういうことはそのとおりでありますか。⏎⏎=================================================",
+   "speech": "date=1993-03-05 house=衆議院 meeting=予算委員会第二分科会 issue=第2号 speechOrder=71 speaker=小川国彦 position=None group=日本社会党・護憲民主連合"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-202044_kokkai3/kk_H050305_yosan2.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "ちまして全体的な所得の伸びで改定をしてきているということでございまして、改定の経緯につきましては、委員御指摘のとおり平成四年に百二十万円、そして平成五年度からは百三十万円に改定したい、このように考えているところでございます。⏎⏎==================================================",
+   "speech": "date=1993-03-05 house=衆議院 meeting=予算委員会第二分科会 issue=第2号 speechOrder=70 speaker=紺矢寛朗 position=厚生省保険局保険課長 group=None"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-202044_kokkai3/kk_H050305_yosan2.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "の私的検討会ですね、ここでは、健康保険、年金の被扶養者の認定基準を来年度から引き上げる報告書をまとめ、同省はこれを受け、所定基準額を現行の年収百二十万円未満から百三十万円未満に引き上げる方針を決めた、こういうふうに書かれているわけでありますが、平成五年度の方針として厚生省はこれを採用し百三十万円未満に引き上げる、こういうことは",
+   "speech": "date=1993-03-05 house=衆議院 meeting=予算委員会第二分科会 issue=第2号 speechOrder=71 speaker=小川国彦 position=None group=日本社会党・護憲民主連合"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-202044_kokkai3/kk_H050305_yosan2.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "準額を現行の年収百二十万円未満から百三十万円未満に引き上げる方針を決めた、こういうふうに書かれているわけでありますが、平成五年度の方針として厚生省はこれを採用し百三十万円未満に引き上げる、こういうことはそのとおりでありますか。⏎⏎=================================================",
+   "speech": "date=1993-03-05 house=衆議院 meeting=予算委員会第二分科会 issue=第2号 speechOrder=71 speaker=小川国彦 position=None group=日本社会党・護憲民主連合"
+  },
+  {
+   "pattern": "130万円（漢数字）",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-202044_kokkai3/kk_hifuyo_haigusha_S62_H06.txt",
+   "page": null,
+   "match": "百三十万",
+   "context": "養配偶者、奥さんがほとんどでございますけれども、これにつきまして保険料負担を求めることはどうかというお尋ねでございますけれども、配偶者の方は一般的に所得がないか百三十万以下の所得であるとかいうことで、保険料の負担能力というのは非常に乏しいわけでございまして、ここから保険料負担を求めるというのは非常に難しい問題があるわけでござい",
+   "speech": "date=1994-10-26 house=衆議院 meeting=厚生委員会 issue=第7号 speechOrder=37 speaker=近藤純五郎 position=厚生省年金局長 group=None"
+  },
+  {
+   "pattern": "第3号と収入",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201613_kokkai2/kk_dai3go_hifuyo_nintei_kijun_all.txt",
+   "page": null,
+   "match": "第三号被保険者として認定される仕組みになっていますが、この百三十万",
+   "context": "公平性の問題に関しまして、標準報酬月額の下限が七万八千円ですと、年収は九十三・六万円。現在、被扶養配偶者で短時間労働者の場合、年収が百三十万未満だと見込まれれば第三号被保険者として認定される仕組みになっていますが、この百三十万という基準を一緒に見直すんでしょうか。⏎⏎===========================================================",
+   "speech": "date=2012-05-29 house=衆議院 meeting=社会保障と税の一体改革に関する特別委員会 issue=第10号 speechOrder=98 speaker=あべ俊子 position=None group=自由民主党・無所属の会"
+  },
+  {
+   "pattern": "施行令第4条の3",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_docs/S610331_chohohatsu12_shiko.txt",
+   "page": null,
+   "match": "施行令第四条の三",
+   "context": "号被保険者の認定は、健康保険法(大正一一年法律第七○号)等の被扶養者の認定の取扱いを勘案して厚生大臣の定めるところにより都道府県知事が行うものとされたこと(国年施行令第四条の三)。⏎⏎二　給付に関する事項⏎⏎(一)　併給調整⏎⏎国年法第二○条第二項の規定に基づき、併給調整による支給停止の解除ができないこととなる場合に関する他法律の停止"
+  },
+  {
+   "pattern": "健康保険の被扶養者の認定の取扱いを勘案",
+   "file": "scripts/results/R3X_dai3go_fetch/text/20261109-201133_mhlw_docs/S610331_chohohatsu12_shiko.txt",
+   "page": null,
+   "match": "被扶養者の認定の取扱いを勘案",
+   "context": "項の規定によりその支給を停止されているものを除く。)⏎⏎(五)　被扶養配偶者の認定⏎⏎国民年金の第三号被保険者の認定は、健康保険法(大正一一年法律第七○号)等の被扶養者の認定の取扱いを勘案して厚生大臣の定めるところにより都道府県知事が行うものとされたこと(国年施行令第四条の三)。⏎⏎二　給付に関する事項⏎⏎(一)　併給調整⏎⏎国年法第二○条第二項"
+  },
+  {
+   "pattern": "健康保険の被扶養者の認定の取扱いを勘案",
+   "file": "scripts/results/R3X_dai3go_pdftext/shinsa_r02_03_15_01_text.tsv",
+   "page": 2,
+   "match": "被扶養者の認定の取扱いを勘案",
+   "context": "提出した「国民年金第３号被保険者⏎国家公務員共済組合法、地方公務員等共該当申出書」の記載内容は次のとおり⏎済組合法及び私立学校教職員共済組合法である。⏎における被扶養者の認定の取扱いを勘案申立日以後の収入：無⏎して、日本年金機構が行うとされ、具体配偶者氏名：Ａ⏎的には、第３号被保険者としての届出に第３号申立（該当）年月日：昭和◯⏎係る者（以下「認"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+  "set": "nenkin",
+  "fetched_at_local": "20261109-180919",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "nenkin_faq_gensen_05",
+      "url": "https://www.nenkin.go.jp/faq/jukyu/uketori/tsuchisho/gensen/20140421-05.html",
+      "status": 200,
+      "final_url": "https://www.nenkin.go.jp/section/faq/jukyu/uketori/tsuchisho/gensen/20140421-05.html",
+      "content_type": "text/html",
+      "bytes": 24434,
+      "sha256": "56bdbef373d66f7e81eece5581a21e2c28bf583fa3f75777d887d0e87d62a645",
+      "last_modified": "Wed, 14 Oct 2026 00:25:47 GMT",
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-180919_R2B_nenkin_nenkin\\nenkin_faq_gensen_05.html",
+      "charset": "UTF-8",
+      "title": "障害年金や遺族年金を受けている人にも公的年金等の源泉徴収票は送付されるのでしょうか。｜日本年金機構",
+      "text_chars": 2314,
+      "text": ".work\\text\\20261109-180919_R2B_nenkin_nenkin\\nenkin_faq_gensen_05.txt",
+      "n_links": 125
+    },
+    {
+      "id": "nenkin_faq_fuyou_hikazei",
+      "url": "https://www.nenkin.go.jp/section/faq/jukyu/jukyushatodoke/rourei/fuyoushinkoku/shotoku/20140421-14.html",
+      "status": 200,
+      "final_url": "https://www.nenkin.go.jp/section/faq/jukyu/jukyushatodoke/rourei/fuyoushinkoku/shotoku/20140421-14.html",
+      "content_type": "text/html",
+      "bytes": 24578,
+      "sha256": "7134252dbc00165e7f06f5ad1591af2f79241763795feece3b9603a2e2765ebc",
+      "last_modified": "Wed, 14 Oct 2026 00:25:44 GMT",
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-180919_R2B_nenkin_nenkin\\nenkin_faq_fuyou_hikazei.html",
+      "charset": "UTF-8",
+      "title": "日本年金機構へ扶養親族等申告書を提出する際の所得計算における非課税所得とは、どのようなものですか。｜日本年金機構",
+      "text_chars": 2339,
+      "text": ".work\\text\\20261109-180919_R2B_nenkin_nenkin\\nenkin_faq_fuyou_hikazei.txt",
+      "n_links": 126
+    },
+    {
+      "id": "nenkin_shotokuzeikojo",
+      "url": "https://www.nenkin.go.jp/service/jukyu/tetsuduki/rourei/jukyu/shotokuzeikojo.html",
+      "status": 200,
+      "final_url": "https://www.nenkin.go.jp/service/jukyu/tetsuduki/rourei/jukyu/shotokuzeikojo.html",
+      "content_type": "text/html",
+      "bytes": 27699,
+      "sha256": "e076363d475d36ff7737b1dd4a53e6d2f6b388a72b7051f3250d548de2674b47",
+      "last_modified": "Wed, 14 Oct 2026 00:26:08 GMT",
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-180919_R2B_nenkin_nenkin\\nenkin_shotokuzeikojo.html",
+      "charset": "UTF-8",
+      "title": "老齢年金から源泉徴収される所得税の控除を受けるとき｜日本年金機構",
+      "text_chars": 3207,
+      "text": ".work\\text\\20261109-180919_R2B_nenkin_nenkin\\nenkin_shotokuzeikojo.txt",
+      "n_links": 130
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+ "run": "20261109-181408",
+ "name": "kaisei_lists",
+ "download_dir": ".work/downloads/20261109-181408_R2X_yoshiki_kaisei_lists",
+ "user_agent": "okura-gov-research/0.1",
+ "delay_sec": 1.5,
+ "robots": [
+  {
+   "robots_url": "https://www.nta.go.jp/robots.txt",
+   "status": 200,
+   "bytes": 853,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+  }
+ ],
+ "results": [
+  {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/260831/pdf/01.pdf",
+   "fetched_at": "2026-11-09T18:14:12+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/260831/pdf/01.pdf",
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 18 Sep 2026 05:00:04 GMT",
+   "bytes": 108811,
+   "sha256": "7cca5c45aa393a19cb1d3cca6ac6dd01b05277471e5b28b40e4afb993942228c",
+   "saved": ".work/downloads/20261109-181408_R2X_yoshiki_kaisei_lists/000_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_kaisei_260831_pdf_01.pdf"
+  },
+  {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/260831/pdf/02.pdf",
+   "fetched_at": "2026-11-09T18:14:12+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/260831/pdf/02.pdf",
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 18 Sep 2026 05:00:04 GMT",
+   "bytes": 2956611,
+   "sha256": "5f739ced0904aca420471858debbf1a59f08e0e298cd6ba6c5089e2b01ccd4ab",
+   "saved": ".work/downloads/20261109-181408_R2X_yoshiki_kaisei_lists/001_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_kaisei_260831_pdf_02.pdf"
+  },
+  {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/250630/pdf/01.pdf",
+   "fetched_at": "2026-11-09T18:14:14+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/250630/pdf/01.pdf",
+   "content_type": "application/pdf",
+   "last_modified": "Mon, 06 Jul 2026 01:00:06 GMT",
+   "bytes": 207390,
+   "sha256": "40b6de59b2fb5bdcb83028f31b32f1049cc970ad1ebdca55b40c598a65c2519d",
+   "saved": ".work/downloads/20261109-181408_R2X_yoshiki_kaisei_lists/002_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_kaisei_250630_pdf_01.pdf"
+  },
+  {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/260327/pdf/01.pdf",
+   "fetched_at": "2026-11-09T18:14:16+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/260327/pdf/01.pdf",
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 27 Mar 2026 05:00:04 GMT",
+   "bytes": 159906,
+   "sha256": "084cfdb8176d14f53d0906caa9224d6e995fcbd458faa8b42f1c8a76eccd25aa",
+   "saved": ".work/downloads/20261109-181408_R2X_yoshiki_kaisei_lists/003_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_kaisei_260327_pdf_01.pdf"
+  },
+  {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/251222/pdf/01.pdf",
+   "fetched_at": "2026-11-09T18:14:20+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/251222/pdf/01.pdf",
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 23 Dec 2025 05:00:07 GMT",
+   "bytes": 166858,
+   "sha256": "cef7341bcdc17df02e20fa687912c2b7dd29503e8e4345f96b3b99a5cd533e7d",
+   "saved": ".work/downloads/20261109-181408_R2X_yoshiki_kaisei_lists/004_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_kaisei_251222_pdf_01.pdf"
+  }
+ ]
+}

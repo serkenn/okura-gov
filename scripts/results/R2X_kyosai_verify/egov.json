@@ -1,0 +1,2845 @@
+{
+ "run_at": "20261109-185316",
+ "download_dir": ".work\\downloads\\20261109-185316_R2X_kyosai_verify_egov",
+ "laws": {
+  "kokkyo": {
+   "title": "国家公務員共済組合法",
+   "claimed_law_id": "333AC0000000128",
+   "lookup_status": 200,
+   "found_ids": [
+    "333AC0000000128"
+   ],
+   "law_id_ok": true
+  },
+  "kokkyo-rei": {
+   "title": "国家公務員共済組合法施行令",
+   "claimed_law_id": "333CO0000000207",
+   "lookup_status": 200,
+   "found_ids": [
+    "333CO0000000207"
+   ],
+   "law_id_ok": true
+  },
+  "kokkyo-ki": {
+   "title": "国家公務員共済組合法施行規則",
+   "claimed_law_id": "333M50000040054",
+   "lookup_status": 200,
+   "found_ids": [
+    "333M50000040054"
+   ],
+   "law_id_ok": true
+  },
+  "chikyo": {
+   "title": "地方公務員等共済組合法",
+   "claimed_law_id": "337AC0000000152",
+   "lookup_status": 200,
+   "found_ids": [
+    "337AC0000000152"
+   ],
+   "law_id_ok": true
+  },
+  "chikyo-rei": {
+   "title": "地方公務員等共済組合法施行令",
+   "claimed_law_id": "337CO0000000352",
+   "lookup_status": 200,
+   "found_ids": [
+    "337CO0000000352"
+   ],
+   "law_id_ok": true
+  },
+  "chikyo-kitei": {
+   "title": "地方公務員等共済組合法施行規程",
+   "claimed_law_id": "337M5000008A001",
+   "lookup_status": 200,
+   "found_ids": [
+    "337M5000008A001"
+   ],
+   "law_id_ok": true
+  },
+  "shigaku": {
+   "title": "私立学校教職員共済法",
+   "claimed_law_id": "328AC0000000245",
+   "lookup_status": 200,
+   "found_ids": [
+    "328AC0000000245"
+   ],
+   "law_id_ok": true
+  },
+  "shigaku-rei": {
+   "title": "私立学校教職員共済法施行令",
+   "claimed_law_id": "328CO0000000425",
+   "lookup_status": 200,
+   "found_ids": [
+    "328CO0000000425"
+   ],
+   "law_id_ok": true
+  },
+  "shigaku-ki": {
+   "title": "私立学校教職員共済法施行規則",
+   "claimed_law_id": "328M50000080028",
+   "lookup_status": 200,
+   "found_ids": [
+    "328M50000080028"
+   ],
+   "law_id_ok": true
+  },
+  "kyuyo": {
+   "title": "一般職の職員の給与に関する法律",
+   "claimed_law_id": "325AC1000000095",
+   "lookup_status": 200,
+   "found_ids": [
+    "325AC1000000095"
+   ],
+   "law_id_ok": true
+  },
+  "kenpo": {
+   "title": "健康保険法",
+   "claimed_law_id": "211AC0000000070",
+   "lookup_status": 200,
+   "found_ids": [
+    "211AC0000000070"
+   ],
+   "law_id_ok": true
+  },
+  "kenpo-ki": {
+   "title": "健康保険法施行規則",
+   "claimed_law_id": "215M10000008036",
+   "lookup_status": 200,
+   "found_ids": [
+    "215M10000008036"
+   ],
+   "law_id_ok": true
+  },
+  "chizei": {
+   "title": "地方税法",
+   "claimed_law_id": "325AC0000000226",
+   "lookup_status": 200,
+   "found_ids": [
+    "325AC0000000226"
+   ],
+   "law_id_ok": true
+  },
+  "chijiho": {
+   "title": "地方自治法",
+   "claimed_law_id": "322AC0000000067",
+   "lookup_status": 200,
+   "found_ids": [
+    "322AC0000000067"
+   ],
+   "law_id_ok": true
+  },
+  "jumin": {
+   "title": "住民基本台帳法",
+   "claimed_law_id": "342AC0000000081",
+   "lookup_status": 200,
+   "found_ids": [
+    "342AC0000000081"
+   ],
+   "law_id_ok": true
+  },
+  "shotoku": {
+   "title": "所得税法",
+   "claimed_law_id": "340AC0000000033",
+   "lookup_status": 200,
+   "found_ids": [
+    "340AC0000000033"
+   ],
+   "law_id_ok": true
+  },
+  "kokunen-rei": {
+   "title": "国民年金法施行令",
+   "claimed_law_id": "334CO0000000184",
+   "lookup_status": 200,
+   "found_ids": [
+    "334CO0000000184"
+   ],
+   "law_id_ok": true
+  }
+ },
+ "fetches": [
+  {
+   "short": "kokkyo",
+   "asof": "2025-10-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/333AC0000000128?response_format=json&asof=2025-10-01",
+   "status": 200,
+   "bytes": 2295093,
+   "sha256": "2f70121ac4ea71162192b6ca3a4c1dc35ea424b18664a0ed0b653834acdee497",
+   "law_revision_id": "333AC0000000128_20250627_507AC0000000080",
+   "amendment_law_num": "令和七年法律第八十号",
+   "amendment_enforcement_date": "2025-06-27",
+   "current_revision_status": "PreviousEnforced",
+   "claimed_rev": "333AC0000000128_20250627_507AC0000000080",
+   "rev_ok": true,
+   "amend_claimed": [
+    null,
+    "2025-06-27"
+   ],
+   "amend_ok": true
+  },
+  {
+   "short": "kokkyo",
+   "asof": "2026-04-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/333AC0000000128?response_format=json&asof=2026-04-01",
+   "status": 200,
+   "bytes": 2298132,
+   "sha256": "d41b38c75f08087ba1bfc84079e6359fce99066bbb0e43c18e760e5d1fd17e08",
+   "law_revision_id": "333AC0000000128_20260401_507AC0000000080",
+   "amendment_law_num": "令和七年法律第八十号",
+   "amendment_enforcement_date": "2026-04-01",
+   "current_revision_status": "PreviousEnforced",
+   "claimed_rev": "333AC0000000128_20260401_507AC0000000080",
+   "rev_ok": true,
+   "amend_claimed": [
+    null,
+    "2026-04-01"
+   ],
+   "amend_ok": true
+  },
+  {
+   "short": "kokkyo",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/333AC0000000128?response_format=json&asof=2026-11-09",
+   "status": 200,
+   "bytes": 2335322,
+   "sha256": "dc98aa8e6d4edaa66f23325d9b81f50da182fb26d73f8a7a5aa357568be9e6d8",
+   "law_revision_id": "333AC0000000128_20261001_507AC0000000087",
+   "amendment_law_num": "令和七年法律第八十七号",
+   "amendment_enforcement_date": "2026-10-01",
+   "current_revision_status": "CurrentEnforced",
+   "claimed_rev": "333AC0000000128_20261001_507AC0000000087",
+   "rev_ok": true,
+   "amend_claimed": [
+    "令和七年法律第八十七号",
+    "2026-10-01"
+   ],
+   "amend_ok": true
+  },
+  {
+   "short": "kokkyo-rei",
+   "asof": "2025-10-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/333CO0000000207?response_format=json&asof=2025-10-01",
+   "status": 200,
+   "bytes": 1754540,
+   "sha256": "9c9166a99e8349999cfb91b37de40b4425e34d7fbd9f6763f3d8f6a241550797",
+   "law_revision_id": "333CO0000000207_20250905_507CO0000000314",
+   "amendment_law_num": "令和七年政令第三百十四号",
+   "amendment_enforcement_date": "2025-09-05",
+   "current_revision_status": "PreviousEnforced",
+   "claimed_rev": "333CO0000000207_20250905_507CO0000000314",
+   "rev_ok": true
+  },
+  {
+   "short": "kokkyo-rei",
+   "asof": "2026-04-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/333CO0000000207?response_format=json&asof=2026-04-01",
+   "status": 200,
+   "bytes": 1756027,
+   "sha256": "5f223dc9670b440ab3dceb1e1c1bda1df096e3d765f3b05d6562e7bf729eba62",
+   "law_revision_id": "333CO0000000207_20260401_508CO0000000011",
+   "amendment_law_num": "令和八年政令第十一号",
+   "amendment_enforcement_date": "2026-04-01",
+   "current_revision_status": "PreviousEnforced",
+   "claimed_rev": "333CO0000000207_20260401_508CO0000000011",
+   "rev_ok": true
+  },
+  {
+   "short": "kokkyo-rei",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/333CO0000000207?response_format=json&asof=2026-11-09",
+   "status": 200,
+   "bytes": 1818226,
+   "sha256": "beef8549fc4d7d0410cb08beae73240a25a22b5d1b06c671352dc49fbd639732",
+   "law_revision_id": "333CO0000000207_20261001_508CO0000000310",
+   "amendment_law_num": "令和八年政令第三百十号",
+   "amendment_enforcement_date": "2026-10-01",
+   "current_revision_status": "CurrentEnforced",
+   "claimed_rev": "333CO0000000207_20261001_508CO0000000310",
+   "rev_ok": true
+  },
+  {
+   "short": "kokkyo-ki",
+   "asof": "2025-10-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/333M50000040054?response_format=json&asof=2025-10-01",
+   "status": 200,
+   "bytes": 1533518,
+   "sha256": "9f51cac3883f8337b555859cf2c7a3f18eb512e527e677596ffed0ee7a6cfd04",
+   "law_revision_id": "333M50000040054_20251001_507M60000040063",
+   "amendment_law_num": "令和七年財務省令第六十三号",
+   "amendment_enforcement_date": "2025-10-01",
+   "current_revision_status": "PreviousEnforced",
+   "claimed_rev": "333M50000040054_20251001_507M60000040063",
+   "rev_ok": true
+  },
+  {
+   "short": "kokkyo-ki",
+   "asof": "2026-04-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/333M50000040054?response_format=json&asof=2026-04-01",
+   "status": 200,
+   "bytes": 1533416,
+   "sha256": "a858cb1110c930770350a68e5fe5ab45c4f8259ac5e0189f3a7478843d6d8979",
+   "law_revision_id": "333M50000040054_20260401_508M60000040011",
+   "amendment_law_num": "令和八年財務省令第十一号",
+   "amendment_enforcement_date": "2026-04-01",
+   "current_revision_status": "PreviousEnforced",
+   "claimed_rev": "333M50000040054_20260401_508M60000040011",
+   "rev_ok": true
+  },
+  {
+   "short": "kokkyo-ki",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/333M50000040054?response_format=json&asof=2026-11-09",
+   "status": 200,
+   "bytes": 1551551,
+   "sha256": "071a16439005ea6f7de0da10106025a98f445955ed0205d106799f82b22ee4e3",
+   "law_revision_id": "333M50000040054_20261001_508M60000040062",
+   "amendment_law_num": "令和八年財務省令第六十二号",
+   "amendment_enforcement_date": "2026-10-01",
+   "current_revision_status": "CurrentEnforced",
+   "claimed_rev": "333M50000040054_20261001_508M60000040062",
+   "rev_ok": true
+  },
+  {
+   "short": "chikyo",
+   "asof": "2025-10-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/337AC0000000152?response_format=json&asof=2025-10-01",
+   "status": 200,
+   "bytes": 2502510,
+   "sha256": "6f559688c443b4129ceebc9d597567733a10e20ee7393a2cd6e195b7e64f02c8",
+   "law_revision_id": "337AC0000000152_20250620_507AC0000000074",
+   "amendment_law_num": "令和七年法律第七十四号",
+   "amendment_enforcement_date": "2025-06-20",
+   "current_revision_status": "PreviousEnforced",
+   "claimed_rev": "337AC0000000152_20250620_507AC0000000074",
+   "rev_ok": true
+  },
+  {
+   "short": "chikyo",
+   "asof": "2026-04-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/337AC0000000152?response_format=json&asof=2026-04-01",
+   "status": 200,
+   "bytes": 2505727,
+   "sha256": "55f39609568e5046b3735d2844cdd1b8d257267597491dd041e7a1b83cc05f71",
+   "law_revision_id": "337AC0000000152_20260401_507AC0000000074",
+   "amendment_law_num": "令和七年法律第七十四号",
+   "amendment_enforcement_date": "2026-04-01",
+   "current_revision_status": "PreviousEnforced",
+   "claimed_rev": "337AC0000000152_20260401_507AC0000000074",
+   "rev_ok": true
+  },
+  {
+   "short": "chikyo",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/337AC0000000152?response_format=json&asof=2026-11-09",
+   "status": 200,
+   "bytes": 2542927,
+   "sha256": "02e4c24eb06b740959e3ab933e02d7cd4d66a228ddfa3e1254e617606db4ef0a",
+   "law_revision_id": "337AC0000000152_20261001_507AC0000000087",
+   "amendment_law_num": "令和七年法律第八十七号",
+   "amendment_enforcement_date": "2026-10-01",
+   "current_revision_status": "CurrentEnforced",
+   "claimed_rev": "337AC0000000152_20261001_507AC0000000087",
+   "rev_ok": true
+  },
+  {
+   "short": "chikyo-rei",
+   "asof": "2025-10-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/337CO0000000352?response_format=json&asof=2025-10-01",
+   "status": 200,
+   "bytes": 2089030,
+   "sha256": "146b8b4aa40544f8def3e98d5561516d4995e3e4aa2d3f820533fcaee86d5d00",
+   "law_revision_id": "337CO0000000352_20250905_507CO0000000315",
+   "amendment_law_num": "令和七年政令第三百十五号",
+   "amendment_enforcement_date": "2025-09-05",
+   "current_revision_status": "PreviousEnforced",
+   "claimed_rev": "337CO0000000352_20250905_507CO0000000315",
+   "rev_ok": true
+  },
+  {
+   "short": "chikyo-rei",
+   "asof": "2026-04-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/337CO0000000352?response_format=json&asof=2026-04-01",
+   "status": 200,
+   "bytes": 2094496,
+   "sha256": "9e20546f0171c6cbadacdd4acacce9fbd456fa0b59c09ae3a4f80cc8452669da",
+   "law_revision_id": "337CO0000000352_20260401_508CO0000000078",
+   "amendment_law_num": "令和八年政令第七十八号",
+   "amendment_enforcement_date": "2026-04-01",
+   "current_revision_status": "PreviousEnforced",
+   "claimed_rev": "337CO0000000352_20260401_508CO0000000078",
+   "rev_ok": true
+  },
+  {
+   "short": "chikyo-rei",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/337CO0000000352?response_format=json&asof=2026-11-09",
+   "status": 200,
+   "bytes": 2154420,
+   "sha256": "2f88f57ca6f65b6c4c2e54a0ce7512afb42c78c9117afe29268cd6256f13548a",
+   "law_revision_id": "337CO0000000352_20261001_508CO0000000311",
+   "amendment_law_num": "令和八年政令第三百十一号",
+   "amendment_enforcement_date": "2026-10-01",
+   "current_revision_status": "CurrentEnforced",
+   "claimed_rev": "337CO0000000352_20261001_508CO0000000311",
+   "rev_ok": true
+  },
+  {
+   "short": "chikyo-kitei",
+   "asof": "2025-10-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/337M5000008A001?response_format=json&asof=2025-10-01",
+   "status": 200,
+   "bytes": 3867181,
+   "sha256": "333181850ba8580b7bc8ee37e7fad1f3d936f14306ef37e01b993b421bd3b59e",
+   "law_revision_id": "337M5000008A001_20251001_507M6000008A004",
+   "amendment_law_num": "令和七年内閣府・総務省・文部科学省令第四号",
+   "amendment_enforcement_date": "2025-10-01",
+   "current_revision_status": "PreviousEnforced",
+   "claimed_rev": "337M5000008A001_20251001_507M6000008A004",
+   "rev_ok": true
+  },
+  {
+   "short": "chikyo-kitei",
+   "asof": "2026-04-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/337M5000008A001?response_format=json&asof=2026-04-01",
+   "status": 200,
+   "bytes": 3865611,
+   "sha256": "1356999b02302c9ad3b97d47ce8cd0f859f7a2c03494e1295721e8d518a977a3",
+   "law_revision_id": "337M5000008A001_20260401_508M6000008A002",
+   "amendment_law_num": "令和八年内閣府・総務省・文部科学省令第二号",
+   "amendment_enforcement_date": "2026-04-01",
+   "current_revision_status": "PreviousEnforced",
+   "claimed_rev": "337M5000008A001_20260401_508M6000008A002",
+   "rev_ok": true
+  },
+  {
+   "short": "chikyo-kitei",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/337M5000008A001?response_format=json&asof=2026-11-09",
+   "status": 200,
+   "bytes": 3882113,
+   "sha256": "9fdbf00b930e6278ba4a862f94d1c93bdad634673276d69f871fc61dbb7dba99",
+   "law_revision_id": "337M5000008A001_20261001_508M6000008A005",
+   "amendment_law_num": "令和八年内閣府・総務省・文部科学省令第五号",
+   "amendment_enforcement_date": "2026-10-01",
+   "current_revision_status": "CurrentEnforced",
+   "claimed_rev": "337M5000008A001_20261001_508M6000008A005",
+   "rev_ok": true
+  },
+  {
+   "short": "shigaku",
+   "asof": "2025-10-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/328AC0000000245?response_format=json&asof=2025-10-01",
+   "status": 200,
+   "bytes": 838803,
+   "sha256": "dcd96dd379fef88b9008c3b1c8e1a8e916b4058d95a1375522f9ad9abb0a2a34",
+   "law_revision_id": "328AC0000000245_20250620_507AC0000000074",
+   "amendment_law_num": "令和七年法律第七十四号",
+   "amendment_enforcement_date": "2025-06-20",
+   "current_revision_status": "PreviousEnforced",
+   "claimed_rev": "328AC0000000245_20250620_507AC0000000074",
+   "rev_ok": true
+  },
+  {
+   "short": "shigaku",
+   "asof": "2026-04-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/328AC0000000245?response_format=json&asof=2026-04-01",
+   "status": 200,
+   "bytes": 848175,
+   "sha256": "c7ec23dba2958e4177c614c5b8c5e54f3a7512455afb7018fe07d08766669299",
+   "law_revision_id": "328AC0000000245_20260401_507AC0000000074",
+   "amendment_law_num": "令和七年法律第七十四号",
+   "amendment_enforcement_date": "2026-04-01",
+   "current_revision_status": "PreviousEnforced",
+   "claimed_rev": "328AC0000000245_20260401_507AC0000000074",
+   "rev_ok": true
+  },
+  {
+   "short": "shigaku",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/328AC0000000245?response_format=json&asof=2026-11-09",
+   "status": 200,
+   "bytes": 928778,
+   "sha256": "84a0ab7d48e725ab29cdd0ecb6bb5a3db485fa1f05cd36ea29cec72a58258b7e",
+   "law_revision_id": "328AC0000000245_20261001_507AC0000000087",
+   "amendment_law_num": "令和七年法律第八十七号",
+   "amendment_enforcement_date": "2026-10-01",
+   "current_revision_status": "CurrentEnforced",
+   "claimed_rev": "328AC0000000245_20261001_507AC0000000087",
+   "rev_ok": true
+  },
+  {
+   "short": "shigaku-rei",
+   "asof": "2025-10-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/328CO0000000425?response_format=json&asof=2025-10-01",
+   "status": 200,
+   "bytes": 714560,
+   "sha256": "8a37b6b284219a36d18afd47bb9e2b13292366e553af800bdbcc1d8642bb498e",
+   "law_revision_id": "328CO0000000425_20250601_507CO0000000193",
+   "amendment_law_num": "令和七年政令第百九十三号",
+   "amendment_enforcement_date": "2025-06-01",
+   "current_revision_status": "PreviousEnforced",
+   "claimed_rev": "328CO0000000425_20250601_507CO0000000193",
+   "rev_ok": true
+  },
+  {
+   "short": "shigaku-rei",
+   "asof": "2026-04-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/328CO0000000425?response_format=json&asof=2026-04-01",
+   "status": 200,
+   "bytes": 715035,
+   "sha256": "702ded830878f5de2d7956d55e676aa0b3023af742b7385ccba284996cfffdeb",
+   "law_revision_id": "328CO0000000425_20260401_508CO0000000011",
+   "amendment_law_num": "令和八年政令第十一号",
+   "amendment_enforcement_date": "2026-04-01",
+   "current_revision_status": "PreviousEnforced",
+   "claimed_rev": "328CO0000000425_20260401_508CO0000000011",
+   "rev_ok": true
+  },
+  {
+   "short": "shigaku-rei",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/328CO0000000425?response_format=json&asof=2026-11-09",
+   "status": 200,
+   "bytes": 777602,
+   "sha256": "2aaada172e0514544429b592a1b571dfbc63ce21250acaf948bae0f3b13a56bf",
+   "law_revision_id": "328CO0000000425_20261001_508CO0000000312",
+   "amendment_law_num": "令和八年政令第三百十二号",
+   "amendment_enforcement_date": "2026-10-01",
+   "current_revision_status": "CurrentEnforced",
+   "claimed_rev": "328CO0000000425_20261001_508CO0000000312",
+   "rev_ok": true
+  },
+  {
+   "short": "shigaku-ki",
+   "asof": "2025-10-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/328M50000080028?response_format=json&asof=2025-10-01",
+   "status": 200,
+   "bytes": 1236487,
+   "sha256": "0f79407cdbc421c6232a7ed51ffda0fa41dfb085edf3f497f65194e61de9e351",
+   "law_revision_id": "328M50000080028_20250728_507M60000080017",
+   "amendment_law_num": "令和七年文部科学省令第十七号",
+   "amendment_enforcement_date": "2025-07-28",
+   "current_revision_status": "PreviousEnforced",
+   "claimed_rev": "328M50000080028_20250728_507M60000080017",
+   "rev_ok": true
+  },
+  {
+   "short": "shigaku-ki",
+   "asof": "2026-04-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/328M50000080028?response_format=json&asof=2026-04-01",
+   "status": 200,
+   "bytes": 1234664,
+   "sha256": "12e5c9b9d78d335e750bea07ad62f4bdb2fab3a7ca941a106925000925cadeaa",
+   "law_revision_id": "328M50000080028_20260401_508M60000080017",
+   "amendment_law_num": "令和八年文部科学省令第十七号",
+   "amendment_enforcement_date": "2026-04-01",
+   "current_revision_status": "PreviousEnforced",
+   "claimed_rev": "328M50000080028_20260401_508M60000080017",
+   "rev_ok": true
+  },
+  {
+   "short": "shigaku-ki",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/328M50000080028?response_format=json&asof=2026-11-09",
+   "status": 200,
+   "bytes": 1255798,
+   "sha256": "e2fdbe0e1cbfc8723c904e80d44695eaf70a672ce209cf246015d0f0accbd143",
+   "law_revision_id": "328M50000080028_20261001_508M60000080031",
+   "amendment_law_num": "令和八年文部科学省令第三十一号",
+   "amendment_enforcement_date": "2026-10-01",
+   "current_revision_status": "CurrentEnforced",
+   "claimed_rev": "328M50000080028_20261001_508M60000080031",
+   "rev_ok": true
+  },
+  {
+   "short": "kyuyo",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC1000000095?response_format=json&asof=2026-11-09",
+   "status": 200,
+   "bytes": 17614675,
+   "sha256": "b1817a1ad4311d6d1b2029588c759bef735ad583fc9a451bc00319906087b506",
+   "law_revision_id": "325AC1000000095_20260401_507AC0000000089",
+   "amendment_law_num": "令和七年法律第八十九号",
+   "amendment_enforcement_date": "2026-04-01",
+   "current_revision_status": "CurrentEnforced",
+   "claimed_rev": "325AC1000000095_20260401_507AC0000000089",
+   "rev_ok": true,
+   "amend_claimed": [
+    null,
+    "2026-04-01"
+   ],
+   "amend_ok": true
+  },
+  {
+   "short": "kenpo",
+   "asof": "2025-10-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/211AC0000000070?response_format=json&asof=2025-10-01",
+   "status": 200,
+   "bytes": 1276194,
+   "sha256": "219a24be202f4cb9e8f0d23b3ced0131d25a38d27661eb75a3adbb052b1c3f07",
+   "law_revision_id": "211AC0000000070_20250620_507AC0000000074",
+   "amendment_law_num": "令和七年法律第七十四号",
+   "amendment_enforcement_date": "2025-06-20",
+   "current_revision_status": "PreviousEnforced",
+   "claimed_rev": "211AC0000000070_20250620_507AC0000000074",
+   "rev_ok": true
+  },
+  {
+   "short": "kenpo",
+   "asof": "2026-04-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/211AC0000000070?response_format=json&asof=2026-04-01",
+   "status": 200,
+   "bytes": 1323689,
+   "sha256": "5b1db7f6114b9d0d810d12885b89c169a55879bfde3a74c3a6ef1d3e8e31cfeb",
+   "law_revision_id": "211AC0000000070_20260401_507AC0000000087",
+   "amendment_law_num": "令和七年法律第八十七号",
+   "amendment_enforcement_date": "2026-04-01",
+   "current_revision_status": "PreviousEnforced",
+   "claimed_rev": "211AC0000000070_20260401_507AC0000000087",
+   "rev_ok": true
+  },
+  {
+   "short": "kenpo",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/211AC0000000070?response_format=json&asof=2026-11-09",
+   "status": 200,
+   "bytes": 1400173,
+   "sha256": "cf30a71b955ff7ce95f73c3f20c0fd1c5458ebcf3cf9825be3f4ab4b4ac42585",
+   "law_revision_id": "211AC0000000070_20261001_507AC0000000087",
+   "amendment_law_num": "令和七年法律第八十七号",
+   "amendment_enforcement_date": "2026-10-01",
+   "current_revision_status": "CurrentEnforced",
+   "claimed_rev": "211AC0000000070_20261001_507AC0000000087",
+   "rev_ok": true
+  },
+  {
+   "short": "kenpo-ki",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/215M10000008036?response_format=json&asof=2026-11-09",
+   "status": 200,
+   "bytes": 1423977,
+   "sha256": "955fb551d8f41a8713654c23ced1a3754ef9fe74d1cd940333bcf06840f3be74",
+   "law_revision_id": "215M10000008036_20261001_508M60000100144",
+   "amendment_law_num": "令和八年厚生労働省令第百四十四号",
+   "amendment_enforcement_date": "2026-10-01",
+   "current_revision_status": "CurrentEnforced",
+   "claimed_rev": "215M10000008036_20261001_508M60000100144",
+   "rev_ok": true,
+   "amend_claimed": [
+    null,
+    "2026-10-01"
+   ],
+   "amend_ok": true
+  },
+  {
+   "short": "chizei",
+   "asof": "2026-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=json&asof=2026-01-01",
+   "status": 200,
+   "bytes": 12431689,
+   "sha256": "ba0a40e550be7762907faf5f82a17a14ed9c9e6fd21060f5fc7765e1c1321779",
+   "law_revision_id": "325AC0000000226_20260101_507AC0000000041",
+   "amendment_law_num": "令和七年法律第四十一号",
+   "amendment_enforcement_date": "2026-01-01",
+   "current_revision_status": "PreviousEnforced",
+   "claimed_rev": "325AC0000000226_20260101_507AC0000000041",
+   "rev_ok": true,
+   "status_claimed": "PreviousEnforced",
+   "status_ok": true,
+   "amend_claimed": [
+    "令和七年法律第四十一号",
+    "2026-01-01"
+   ],
+   "amend_ok": true
+  },
+  {
+   "short": "chizei",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=json&asof=2026-11-09",
+   "status": 200,
+   "bytes": 12181725,
+   "sha256": "3dd29e0078bf24e09c79436ce7b0f00fd2cfb5a5bbcb97bd4f4352971be68d53",
+   "law_revision_id": "325AC0000000226_20261101_508AC0000000002",
+   "amendment_law_num": "令和八年法律第二号",
+   "amendment_enforcement_date": "2026-11-01",
+   "current_revision_status": "CurrentEnforced",
+   "claimed_rev": "325AC0000000226_20261101_508AC0000000002",
+   "rev_ok": true,
+   "status_claimed": "CurrentEnforced",
+   "status_ok": true,
+   "amend_claimed": [
+    "令和八年法律第二号",
+    "2026-11-01"
+   ],
+   "amend_ok": true
+  },
+  {
+   "short": "chizei",
+   "asof": "2027-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226?response_format=json&asof=2027-01-01",
+   "status": 200,
+   "bytes": 12224062,
+   "sha256": "ee21722ce5fd15615bdd5139c9152f55388200c3965ee9c78e10800c82c2b716",
+   "law_revision_id": "325AC0000000226_20270101_508AC0000000002",
+   "amendment_law_num": "令和八年法律第二号",
+   "amendment_enforcement_date": "2027-01-01",
+   "current_revision_status": "UnEnforced",
+   "claimed_rev": "325AC0000000226_20270101_508AC0000000002",
+   "rev_ok": true,
+   "status_claimed": "UnEnforced",
+   "status_ok": true,
+   "amend_claimed": [
+    "令和八年法律第二号",
+    "2027-01-01"
+   ],
+   "amend_ok": true
+  },
+  {
+   "short": "chijiho",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/322AC0000000067?response_format=json&asof=2026-11-09",
+   "status": 200,
+   "bytes": 2518200,
+   "sha256": "c37874f6f340ad23fccd1af91eea5f400f4bcb9e7b0f0b01e7d0e7aab0d62902",
+   "law_revision_id": "322AC0000000067_20261102_508AC0000000062",
+   "amendment_law_num": "令和八年法律第六十二号",
+   "amendment_enforcement_date": "2026-11-02",
+   "current_revision_status": "CurrentEnforced",
+   "claimed_rev": "322AC0000000067_20261102_508AC0000000062",
+   "rev_ok": true,
+   "amend_claimed": [
+    null,
+    "2026-11-02"
+   ],
+   "amend_ok": true
+  },
+  {
+   "short": "jumin",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/342AC0000000081?response_format=json&asof=2026-11-09",
+   "status": 200,
+   "bytes": 1464344,
+   "sha256": "ec41d0e230e1a32d5d2457983cf86dc3b87821b1dfe90d36e860d4a5ca30dbc8",
+   "law_revision_id": "342AC0000000081_20261024_508AC0000000066",
+   "amendment_law_num": "令和八年法律第六十六号",
+   "amendment_enforcement_date": "2026-10-24",
+   "current_revision_status": "CurrentEnforced",
+   "claimed_rev": "342AC0000000081_20261024_508AC0000000066",
+   "rev_ok": true,
+   "amend_claimed": [
+    null,
+    "2026-10-24"
+   ],
+   "amend_ok": true
+  },
+  {
+   "short": "shotoku",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=json&asof=2026-11-09",
+   "status": 200,
+   "bytes": 16405085,
+   "sha256": "94c4a7ad83726cde60787967ed4e959585ad0af9279d25db9aa02264b3fe606b",
+   "law_revision_id": "340AC0000000033_20261001_507AC0000000070",
+   "amendment_law_num": "令和七年法律第七十号",
+   "amendment_enforcement_date": "2026-10-01",
+   "current_revision_status": "CurrentEnforced",
+   "claimed_rev": "340AC0000000033_20261001_507AC0000000070",
+   "rev_ok": true,
+   "amend_claimed": [
+    null,
+    "2026-10-01"
+   ],
+   "amend_ok": true
+  },
+  {
+   "short": "kokunen-rei",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/334CO0000000184?response_format=json&asof=2026-11-09",
+   "status": 200,
+   "bytes": 551734,
+   "sha256": "73f5bbf61a9b8ab1e65ea369e95e565634b536142a279c965a436cafb304e169",
+   "law_revision_id": "334CO0000000184_20261001_508CO0000000226",
+   "amendment_law_num": "令和八年政令第二百二十六号",
+   "amendment_enforcement_date": "2026-10-01",
+   "current_revision_status": "CurrentEnforced",
+   "claimed_rev": null,
+   "rev_ok": true
+  }
+ ],
+ "quotes": [
+  {
+   "id": "E01",
+   "law": "kokkyo",
+   "asof": "2026-11-09",
+   "at": [
+    "2",
+    1,
+    "二",
+    null
+   ],
+   "where": "KY§1.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E02",
+   "law": "kokkyo",
+   "asof": "2026-11-09",
+   "at": [
+    "2",
+    1,
+    "二",
+    "イ"
+   ],
+   "where": "KY§1.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E03",
+   "law": "kokkyo",
+   "asof": "2026-11-09",
+   "at": [
+    "2",
+    1,
+    "二",
+    "ロ"
+   ],
+   "where": "KY§1.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E04",
+   "law": "kokkyo",
+   "asof": "2026-11-09",
+   "at": [
+    "2",
+    1,
+    "二",
+    "ハ"
+   ],
+   "where": "KY§1.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E05",
+   "law": "kokkyo",
+   "asof": "2026-11-09",
+   "at": [
+    "2",
+    1,
+    "二",
+    "ハ"
+   ],
+   "where": "KY§1.2",
+   "expect": false,
+   "found": false,
+   "ok": true,
+   "first_missing_fragment": "引き続き",
+   "node_found": true
+  },
+  {
+   "id": "E06",
+   "law": "kokkyo",
+   "asof": "2026-11-09",
+   "at": [
+    "2",
+    2,
+    null,
+    null
+   ],
+   "where": "KY§1.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E07",
+   "law": "kokkyo",
+   "asof": "2026-11-09",
+   "at": [
+    "2",
+    4,
+    null,
+    null
+   ],
+   "where": "KY§1.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E08",
+   "law": "kokkyo",
+   "asof": "2026-11-09",
+   "at": [
+    "53",
+    2,
+    null,
+    null
+   ],
+   "where": "KY§7",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E09",
+   "law": "kokkyo",
+   "asof": "2026-11-09",
+   "at": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "where": "（YUSEI が国共済法の組合か）",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E10",
+   "law": "chikyo",
+   "asof": "2026-11-09",
+   "at": [
+    "2",
+    1,
+    "二",
+    null
+   ],
+   "where": "KY§1.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E11",
+   "law": "chikyo",
+   "asof": "2026-11-09",
+   "at": [
+    "2",
+    1,
+    "二",
+    null
+   ],
+   "where": "KY§1.1",
+   "expect": false,
+   "found": false,
+   "ok": true,
+   "first_missing_fragment": "財務省令",
+   "node_found": true
+  },
+  {
+   "id": "E12",
+   "law": "chikyo",
+   "asof": "2026-11-09",
+   "at": [
+    "2",
+    1,
+    "二",
+    "ロ"
+   ],
+   "where": "KY§1.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E13",
+   "law": "chikyo",
+   "asof": "2026-11-09",
+   "at": [
+    "2",
+    1,
+    "二",
+    "ロ"
+   ],
+   "where": "KY§1.1",
+   "expect": false,
+   "found": false,
+   "ok": true,
+   "first_missing_fragment": "同一の世帯",
+   "node_found": true
+  },
+  {
+   "id": "E14",
+   "law": "chikyo",
+   "asof": "2026-11-09",
+   "at": [
+    "2",
+    1,
+    "二",
+    "ハ"
+   ],
+   "where": "KY§1.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E15",
+   "law": "chikyo",
+   "asof": "2026-11-09",
+   "at": [
+    "2",
+    2,
+    null,
+    null
+   ],
+   "where": "KY§1.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E16",
+   "law": "chikyo",
+   "asof": "2026-11-09",
+   "at": [
+    "2",
+    4,
+    null,
+    null
+   ],
+   "where": "KY§1.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E17",
+   "law": "chikyo",
+   "asof": "2026-11-09",
+   "at": [
+    "55",
+    2,
+    null,
+    null
+   ],
+   "where": "KY§7",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E18",
+   "law": "chikyo",
+   "asof": "2026-11-09",
+   "at": [
+    "3",
+    null,
+    null,
+    null
+   ],
+   "where": "（KEISATSU が地共済法の組合か）",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E19",
+   "law": "shigaku",
+   "asof": "2026-11-09",
+   "at": [
+    "25",
+    1,
+    null,
+    null
+   ],
+   "where": "KY§1.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E20",
+   "law": "shigaku",
+   "asof": "2026-11-09",
+   "at": [
+    "25",
+    1,
+    null,
+    null
+   ],
+   "where": "KY§1.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E21",
+   "law": "kenpo",
+   "asof": "2026-11-09",
+   "at": [
+    "3",
+    7,
+    null,
+    null
+   ],
+   "where": "KY§1.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E22",
+   "law": "kenpo",
+   "asof": "2026-11-09",
+   "at": [
+    "3",
+    7,
+    "一",
+    null
+   ],
+   "where": "KY§1.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E23",
+   "law": "kenpo",
+   "asof": "2026-11-09",
+   "at": [
+    "3",
+    7,
+    "二",
+    null
+   ],
+   "where": "KY§1.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E24",
+   "law": "kenpo",
+   "asof": "2026-11-09",
+   "at": [
+    "3",
+    7,
+    "三",
+    null
+   ],
+   "where": "KY§1.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E25",
+   "law": "kenpo",
+   "asof": "2026-11-09",
+   "at": [
+    "3",
+    7,
+    "四",
+    null
+   ],
+   "where": "KY§1.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E26",
+   "law": "kokkyo-rei",
+   "asof": "2026-11-09",
+   "at": [
+    "3",
+    1,
+    null,
+    null
+   ],
+   "where": "KY§2",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E27",
+   "law": "chikyo-rei",
+   "asof": "2026-11-09",
+   "at": [
+    "3",
+    1,
+    null,
+    null
+   ],
+   "where": "KY§2",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E28",
+   "law": "shigaku-rei",
+   "asof": "2026-11-09",
+   "at": [
+    "3",
+    1,
+    null,
+    null
+   ],
+   "where": "KY§2",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E29",
+   "law": "shigaku-rei",
+   "asof": "2026-11-09",
+   "at": [
+    "3",
+    1,
+    null,
+    null
+   ],
+   "where": "KY§2（給与法11②の参酌）",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E30",
+   "law": "kyuyo",
+   "asof": "2026-11-09",
+   "at": [
+    "11",
+    2,
+    null,
+    null
+   ],
+   "where": "KY§2",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E31",
+   "law": "kyuyo",
+   "asof": "2026-11-09",
+   "at": [
+    "11",
+    2,
+    "一",
+    null
+   ],
+   "where": "KY§2",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E32",
+   "law": "kyuyo",
+   "asof": "2026-11-09",
+   "at": [
+    "11",
+    2,
+    "二",
+    null
+   ],
+   "where": "KY§2",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E33",
+   "law": "kyuyo",
+   "asof": "2026-11-09",
+   "at": [
+    "11",
+    2,
+    "三",
+    null
+   ],
+   "where": "KY§2",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E34",
+   "law": "kyuyo",
+   "asof": "2026-11-09",
+   "at": [
+    "11",
+    2,
+    "四",
+    null
+   ],
+   "where": "KY§2",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E35",
+   "law": "kyuyo",
+   "asof": "2026-11-09",
+   "at": [
+    "11",
+    2,
+    "五",
+    null
+   ],
+   "where": "KY§2",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E36",
+   "law": "kyuyo",
+   "asof": "2026-11-09",
+   "at": [
+    "11",
+    2,
+    null,
+    null
+   ],
+   "where": "KY§2（この版では配偶者は列挙にない）",
+   "expect": false,
+   "found": false,
+   "ok": true,
+   "first_missing_fragment": "配偶者",
+   "node_found": true
+  },
+  {
+   "id": "E37",
+   "law": "kokkyo-ki",
+   "asof": "2026-11-09",
+   "at": [
+    "2_5",
+    1,
+    "一",
+    null
+   ],
+   "where": "KY§1.2",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E38",
+   "law": "kokkyo-ki",
+   "asof": "2026-11-09",
+   "at": [
+    "2_5",
+    1,
+    "二",
+    null
+   ],
+   "where": "KY§1.2",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E39",
+   "law": "kokkyo-ki",
+   "asof": "2026-11-09",
+   "at": [
+    "2_5",
+    2,
+    "一",
+    null
+   ],
+   "where": "KY§1.2",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E40",
+   "law": "kokkyo-ki",
+   "asof": "2026-11-09",
+   "at": [
+    "2_5",
+    2,
+    "二",
+    null
+   ],
+   "where": "KY§1.2、IKY10",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E41",
+   "law": "kokkyo-ki",
+   "asof": "2026-11-09",
+   "at": [
+    "2_5",
+    2,
+    "五",
+    null
+   ],
+   "where": "KY§1.2",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E42",
+   "law": "chikyo-kitei",
+   "asof": "2026-11-09",
+   "at": [
+    "2_3",
+    1,
+    "二",
+    null
+   ],
+   "where": "KY§1.2",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E43",
+   "law": "chikyo-kitei",
+   "asof": "2026-11-09",
+   "at": [
+    "2_3",
+    2,
+    "五",
+    null
+   ],
+   "where": "KY§1.2",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E44",
+   "law": "shigaku-ki",
+   "asof": "2026-11-09",
+   "at": [
+    "1_4_2",
+    1,
+    "二",
+    null
+   ],
+   "where": "KY§1.2",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E45",
+   "law": "shigaku-ki",
+   "asof": "2026-11-09",
+   "at": [
+    "1_4_2",
+    2,
+    "五",
+    null
+   ],
+   "where": "KY§1.2",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E46",
+   "law": "kenpo-ki",
+   "asof": "2026-11-09",
+   "at": [
+    "37_2",
+    null,
+    null,
+    null
+   ],
+   "where": "KY§1.2",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E47",
+   "law": "kenpo-ki",
+   "asof": "2026-11-09",
+   "at": [
+    "37_3",
+    null,
+    null,
+    null
+   ],
+   "where": "KY§1.2（健保則は「って」の表記）",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E48",
+   "law": "kokkyo-ki",
+   "asof": "2026-11-09",
+   "at": [
+    "88",
+    1,
+    null,
+    null
+   ],
+   "where": "KY§7",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E49",
+   "law": "kokkyo-ki",
+   "asof": "2026-11-09",
+   "at": [
+    "88",
+    1,
+    "二",
+    null
+   ],
+   "where": "KY§7",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E50",
+   "law": "kokkyo-ki",
+   "asof": "2026-11-09",
+   "at": [
+    "88",
+    1,
+    "二",
+    null
+   ],
+   "where": "KY§7（国共済則の第2号は「続柄」で「身分関係」の語はない）",
+   "expect": false,
+   "found": false,
+   "ok": true,
+   "first_missing_fragment": "身分関係",
+   "node_found": true
+  },
+  {
+   "id": "E51",
+   "law": "chikyo-kitei",
+   "asof": "2026-11-09",
+   "at": [
+    "94",
+    1,
+    "二",
+    null
+   ],
+   "where": "KY§7",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E52",
+   "law": "kokkyo-ki",
+   "asof": "2026-11-09",
+   "at": [
+    "88",
+    1,
+    "三",
+    null
+   ],
+   "where": "KY§7",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E53",
+   "law": "chikyo-kitei",
+   "asof": "2026-11-09",
+   "at": [
+    "94",
+    1,
+    null,
+    null
+   ],
+   "where": "KY§7",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E54",
+   "law": "shigaku-ki",
+   "asof": "2026-11-09",
+   "at": [
+    "1_5",
+    1,
+    null,
+    null
+   ],
+   "where": "KY§7",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E55",
+   "law": "shigaku-ki",
+   "asof": "2026-11-09",
+   "at": [
+    "1_5",
+    2,
+    null,
+    null
+   ],
+   "where": "KY§7",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E56",
+   "law": "kenpo-ki",
+   "asof": "2026-11-09",
+   "at": [
+    "38",
+    1,
+    null,
+    null
+   ],
+   "where": "KY§7",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E57",
+   "law": "chikyo-kitei",
+   "asof": "2026-11-09",
+   "at": [
+    "97",
+    1,
+    null,
+    null
+   ],
+   "where": "KY§7",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E58",
+   "law": "chikyo-kitei",
+   "asof": "2026-11-09",
+   "at": [
+    "100",
+    1,
+    null,
+    null
+   ],
+   "where": "MS-KY§3",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E59",
+   "law": "kenpo-ki",
+   "asof": "2026-11-09",
+   "at": [
+    "50",
+    1,
+    null,
+    null
+   ],
+   "where": "KY§7（健保則50①は「できる」）",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E60",
+   "law": "kokunen-rei",
+   "asof": "2026-11-09",
+   "at": [
+    "4",
+    null,
+    null,
+    null
+   ],
+   "where": "KY 冒頭（[KY] の引用。原文は法律番号の括弧書きを挟むので、この形では現れない）",
+   "expect": false,
+   "found": false,
+   "ok": true,
+   "first_missing_fragment": "国家公務員共済組合法、地方公務員等共済組合法及び私立学校教職員共済法における被扶養者の認定の取扱いを勘案して",
+   "node_found": true
+  },
+  {
+   "id": "E60b",
+   "law": "kokunen-rei",
+   "asof": "2026-11-09",
+   "at": [
+    "4",
+    null,
+    null,
+    null
+   ],
+   "where": "KY 冒頭（原文）",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E61",
+   "law": "chizei",
+   "asof": "2026-11-09",
+   "at": [
+    "294",
+    1,
+    null,
+    null
+   ],
+   "where": "SA2§4.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E62",
+   "law": "chizei",
+   "asof": "2026-11-09",
+   "at": [
+    "294",
+    1,
+    "一",
+    null
+   ],
+   "where": "SA2§4.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E63",
+   "law": "chizei",
+   "asof": "2026-11-09",
+   "at": [
+    "294",
+    1,
+    "二",
+    null
+   ],
+   "where": "SA2§4.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E64",
+   "law": "chizei",
+   "asof": "2026-11-09",
+   "at": [
+    "294",
+    2,
+    null,
+    null
+   ],
+   "where": "SA2§4.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E65",
+   "law": "chizei",
+   "asof": "2026-11-09",
+   "at": [
+    "294",
+    3,
+    null,
+    null
+   ],
+   "where": "SA2§4.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E66",
+   "law": "chizei",
+   "asof": "2026-11-09",
+   "at": [
+    "294",
+    4,
+    null,
+    null
+   ],
+   "where": "SA2§4.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E67",
+   "law": "chizei",
+   "asof": "2026-11-09",
+   "at": [
+    "318",
+    null,
+    null,
+    null
+   ],
+   "where": "SA2§4.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E68",
+   "law": "chizei",
+   "asof": "2026-11-09",
+   "at": [
+    "24",
+    1,
+    "一",
+    null
+   ],
+   "where": "SA2§4.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E69",
+   "law": "chizei",
+   "asof": "2026-11-09",
+   "at": [
+    "24",
+    1,
+    "二",
+    null
+   ],
+   "where": "SA2§4.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E70",
+   "law": "chijiho",
+   "asof": "2026-11-09",
+   "at": [
+    "10",
+    1,
+    null,
+    null
+   ],
+   "where": "SA2§4.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E71",
+   "law": "jumin",
+   "asof": "2026-11-09",
+   "at": [
+    "4",
+    null,
+    null,
+    null
+   ],
+   "where": "SA2§4.1",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E72",
+   "law": "shotoku",
+   "asof": "2026-11-09",
+   "at": [
+    "3",
+    1,
+    null,
+    null
+   ],
+   "where": "SA2§4.2",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E73",
+   "law": "chizei",
+   "asof": "2026-01-01",
+   "at": [
+    "292",
+    1,
+    "九",
+    null
+   ],
+   "where": "SA2§4.3",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E74",
+   "law": "chizei",
+   "asof": "2026-11-09",
+   "at": [
+    "292",
+    1,
+    "九",
+    null
+   ],
+   "where": "SA2§4.3",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E75",
+   "law": "chizei",
+   "asof": "2027-01-01",
+   "at": [
+    "292",
+    1,
+    "九",
+    null
+   ],
+   "where": "SA2§4.3",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E76",
+   "law": "chizei",
+   "asof": "2026-11-09",
+   "at": [
+    "292",
+    1,
+    "九",
+    null
+   ],
+   "where": "SA2§4.3",
+   "expect": false,
+   "found": false,
+   "ok": true,
+   "first_missing_fragment": "住所",
+   "node_found": true
+  },
+  {
+   "id": "E77",
+   "law": "chizei",
+   "asof": "2026-11-09",
+   "at": [
+    "292",
+    1,
+    "九",
+    null
+   ],
+   "where": "SA2§4.3",
+   "expect": false,
+   "found": false,
+   "ok": true,
+   "first_missing_fragment": "同居",
+   "node_found": true
+  },
+  {
+   "id": "E78",
+   "law": "chizei",
+   "asof": "2026-11-09",
+   "at": [
+    "314_2",
+    3,
+    null,
+    null
+   ],
+   "where": "SA2§4.3",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E79",
+   "law": "chizei",
+   "asof": "2026-11-09",
+   "at": [
+    "314_2",
+    4,
+    null,
+    null
+   ],
+   "where": "SA2§4.3、IKY9",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E80",
+   "law": "chizei",
+   "asof": "2026-11-09",
+   "at": [
+    "314_2",
+    1,
+    "十一",
+    null
+   ],
+   "where": "IKY9（同居でなければの額）",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E81",
+   "law": "chizei",
+   "asof": "2026-01-01",
+   "at": [
+    "317_2",
+    1,
+    null,
+    null
+   ],
+   "where": "SA2§4.4",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E82",
+   "law": "chizei",
+   "asof": "2026-01-01",
+   "at": [
+    "317_6",
+    1,
+    null,
+    null
+   ],
+   "where": "SA2§4.4",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E83",
+   "law": "chizei",
+   "asof": "2026-11-09",
+   "at": [
+    "314_2",
+    1,
+    "十一",
+    null
+   ],
+   "where": "MS-KY§1.3（2026-11-09 版での追加）",
+   "expect": true,
+   "found": true,
+   "ok": true,
+   "first_missing_fragment": null,
+   "node_found": true
+  },
+  {
+   "id": "E84",
+   "law": "chizei",
+   "asof": "2026-01-01",
+   "at": [
+    "314_2",
+    1,
+    "十一",
+    null
+   ],
+   "where": "MS-KY§1.3（2026-01-01 版にはない）",
+   "expect": false,
+   "found": false,
+   "ok": true,
+   "first_missing_fragment": "以下この款及び第三百十七条の三の三第一項において同じ。",
+   "node_found": true
+  }
+ ],
+ "diffs": {
+  "kokkyo 2025-10-01->2026-04-01": {
+   "changed_articles": [
+    "3"
+   ],
+   "n_lines": 2,
+   "lines": {
+    "3": [
+     "-[項4] 組合は、前項に定めるもののほか、高齢者の医療の確保に関する法律第三十六条第一項に規定する前期高齢者納付金等（以下「前期高齢者納付金等」という。）、同法第百十八条第一項の規定による後期高齢者支援金及び後期高齢者関係事務費拠出金並びに同法第百二十四条の五第一項の規定による出産育児関係事務費拠出金（以下「後期高齢者支援金等」という。）、介護保険法（平成九年法律第百二十三号）第百五十条第一項に規定する納付金（以下「介護納付金」という。）、感染症の予防及び感染症の患者に対する医療に関する法律（平成十年法律第百十四号）第三十六条の十四第三項に規定する流行初期医療確保拠出金等（第九十九条第一項において「流行初期医療確保拠出金等」という。）、厚生年金保険法第八十四条の五第一項に規定する拠出金（以下「厚生年金拠出金」という。）並びに国民年金法（昭和三十四年法律第百四十一号）第九十四条の二第二項に",
+     "+[項4] 組合は、前項に定めるもののほか、高齢者の医療の確保に関する法律第三十六条第一項に規定する前期高齢者納付金等（以下「前期高齢者納付金等」という。）、同法第百十八条第一項の規定による後期高齢者支援金及び後期高齢者関係事務費拠出金並びに同法第百二十四条の五第一項の規定による出産育児関係事務費拠出金（以下「後期高齢者支援金等」という。）、介護保険法（平成九年法律第百二十三号）第百五十条第一項に規定する納付金（以下「介護納付金」という。）、感染症の予防及び感染症の患者に対する医療に関する法律（平成十年法律第百十四号）第三十六条の十四第三項に規定する流行初期医療確保拠出金等（第九十九条第一項において「流行初期医療確保拠出金等」という。）、子ども・子育て支援法（平成二十四年法律第六十五号）第七十一条の三第一項の規定による子ども・子育て支援納付金（以下「子ども・子育て支援納付金」という。）、厚"
+    ]
+   }
+  },
+  "kokkyo 2026-04-01->2026-11-09": {
+   "changed_articles": [],
+   "n_lines": 0,
+   "lines": {}
+  },
+  "kokkyo-rei 2025-10-01->2026-04-01": {
+   "changed_articles": [],
+   "n_lines": 0,
+   "lines": {}
+  },
+  "kokkyo-rei 2026-04-01->2026-11-09": {
+   "changed_articles": [],
+   "n_lines": 0,
+   "lines": {}
+  },
+  "kokkyo-ki 2025-10-01->2026-04-01": {
+   "changed_articles": [],
+   "n_lines": 0,
+   "lines": {}
+  },
+  "kokkyo-ki 2026-04-01->2026-11-09": {
+   "changed_articles": [
+    "2"
+   ],
+   "n_lines": 2,
+   "lines": {
+    "2": [
+     "-[項1] この省令において、「行政執行法人」、「職員」、「被扶養者」、「遺族」、「退職」、「報酬」、「期末手当等」、「組合」、「組合の代表者」、「運営規則」、「事業計画」、「予算」、「連合会」、「独立行政法人」、「国立大学法人等」、「組合員」、「組合員期間」、「短期給付」、「地方の組合」、「長期給付」、「厚生年金保険給付」、「退職等年金給付」、「福祉事業」、「組合員等記号・番号等」、「組合員等記号・番号」、「社会保険診療報酬支払基金」、「船員組合員」、「公庫等」、「公庫等職員」、「特定公庫等」、「特定公庫等役員」、「継続長期組合員」、「組合職員」、「連合会役職員」、「任意継続組合員」若しくは「任意継続掛金」、「恩給公務員期間」又は「在外組合員」とは、それぞれ法第一条第二項、第二条第一項第一号から第六号まで、第三条第一項、第八条第二項、第十一条、第十五条、第二十一条、第三十一条第一号、第三",
+     "+[項1] この省令において、「行政執行法人」、「職員」、「被扶養者」、「遺族」、「退職」、「報酬」、「期末手当等」、「組合」、「組合の代表者」、「運営規則」、「事業計画」、「予算」、「連合会」、「独立行政法人」、「国立大学法人等」、「組合員期間」、「短期給付」、「地方の組合」、「長期給付」、「厚生年金保険給付」、「退職等年金給付」、「福祉事業」、「組合員等記号・番号」、「船員組合員」、「公庫等」、「公庫等職員」、「特定公庫等」、「特定公庫等役員」、「継続長期組合員」、「組合職員」、「連合会役職員」、「任意継続組合員」若しくは「任意継続掛金」又は「在外組合員」とは、それぞれ法第一条第二項、第二条第一項第一号から第六号まで、第三条第一項、第八条第二項、第十一条、第十五条、第二十一条第一項、第三十一条第一号、第三十八条第一項、第五十二条、第五十五条第一項第二号、第七十二条第一項、第七十三条第一"
+    ]
+   }
+  },
+  "chikyo 2025-10-01->2026-04-01": {
+   "changed_articles": [],
+   "n_lines": 0,
+   "lines": {}
+  },
+  "chikyo 2026-04-01->2026-11-09": {
+   "changed_articles": [],
+   "n_lines": 0,
+   "lines": {}
+  },
+  "chikyo-rei 2025-10-01->2026-04-01": {
+   "changed_articles": [],
+   "n_lines": 0,
+   "lines": {}
+  },
+  "chikyo-rei 2026-04-01->2026-11-09": {
+   "changed_articles": [],
+   "n_lines": 0,
+   "lines": {}
+  },
+  "chikyo-kitei 2025-10-01->2026-04-01": {
+   "changed_articles": [],
+   "n_lines": 0,
+   "lines": {}
+  },
+  "chikyo-kitei 2026-04-01->2026-11-09": {
+   "changed_articles": [
+    "2"
+   ],
+   "n_lines": 2,
+   "lines": {
+    "2": [
+     "-[項1] この命令において「職員」、「被扶養者」、「遺族」、「退職」若しくは「報酬」、「期末手当等」、「組合」、「運営規則」、「事業計画」若しくは「予算」、「市町村連合会」、「組合員」、「受給権者」、「短期給付」、「国の組合」、「長期給付」、「厚生年金保険給付」、「退職等年金給付」、「福祉事業」、「船員組合員」、「継続長期組合員」、「組合役職員」若しくは「連合会役職員」、「職員引継一般地方独立行政法人」、「定款変更一般地方独立行政法人」、「職員引継等合併一般地方独立行政法人」、「任意継続組合員」、「組合員等記号・番号等」若しくは「組合員等記号・番号」、「主務大臣」又は「社会保険診療報酬支払基金」若しくは「国民健康保険団体連合会」とは、それぞれ法第二条第一項第一号から第六号まで、第三条第一項各号列記以外の部分、第十七条、第二十一条、第二十七条第一項、第三十九条、第四十二条第一項、第五十三条",
+     "+[項1] この命令において「職員」、「被扶養者」、「遺族」、「退職」若しくは「報酬」、「期末手当等」、「組合」、「運営規則」、「事業計画」若しくは「予算」、「市町村連合会」、「組合員」、「受給権者」、「短期給付」、「国の組合」、「長期給付」、「厚生年金保険給付」、「退職等年金給付」、「福祉事業」、「船員組合員」、「継続長期組合員」、「組合役職員」若しくは「連合会役職員」、「職員引継一般地方独立行政法人」、「定款変更一般地方独立行政法人」、「職員引継等合併一般地方独立行政法人」、「任意継続組合員」、「組合員等記号・番号等」若しくは「組合員等記号・番号」、「主務大臣」又は「医療情報基盤・診療報酬審査支払機構」若しくは「国民健康保険団体連合会」とは、それぞれ法第二条第一項第一号から第六号まで、第三条第一項各号列記以外の部分、第十七条、第二十一条、第二十七条第一項、第三十九条、第四十二条第一項、"
+    ]
+   }
+  },
+  "shigaku 2025-10-01->2026-04-01": {
+   "changed_articles": [],
+   "n_lines": 0,
+   "lines": {}
+  },
+  "shigaku 2026-04-01->2026-11-09": {
+   "changed_articles": [],
+   "n_lines": 0,
+   "lines": {}
+  },
+  "shigaku-rei 2025-10-01->2026-04-01": {
+   "changed_articles": [],
+   "n_lines": 0,
+   "lines": {}
+  },
+  "shigaku-rei 2026-04-01->2026-11-09": {
+   "changed_articles": [],
+   "n_lines": 0,
+   "lines": {}
+  },
+  "shigaku-ki 2025-10-01->2026-04-01": {
+   "changed_articles": [],
+   "n_lines": 0,
+   "lines": {}
+  },
+  "shigaku-ki 2026-04-01->2026-11-09": {
+   "changed_articles": [],
+   "n_lines": 0,
+   "lines": {}
+  },
+  "kenpo 2025-10-01->2026-04-01": {
+   "changed_articles": [],
+   "n_lines": 0,
+   "lines": {}
+  },
+  "kenpo 2026-04-01->2026-11-09": {
+   "changed_articles": [
+    "3"
+   ],
+   "n_lines": 5,
+   "lines": {
+    "3": [
+     "-  九 事業所に使用される者であって、その一週間の所定労働時間が同一の事業所に使用される通常の労働者（当該事業所に使用される通常の労働者と同種の業務に従事する当該事業所に使用される者にあっては、厚生労働省令で定める場合を除き、当該者と同種の業務に従事する当該通常の労働者。以下この号において単に「通常の労働者」という。）の一週間の所定労働時間の四分の三未満である短時間労働者（一週間の所定労働時間が同一の事業所に使用される通常の労働者の一週間の所定労働時間に比し短い者をいう。以下この号において同じ。）又はその一月間の所定労働日数が同一の事業所に使用される通常の労働者の一月間の所定労働日数の四分の三未満である短時間労働者に該当し、かつ、イからハまでのいずれかの要件に該当するもの",
+     "+  九 事業所に使用される者であって、その一週間の所定労働時間が同一の事業所に使用される通常の労働者（当該事業所に使用される通常の労働者と同種の業務に従事する当該事業所に使用される者にあっては、厚生労働省令で定める場合を除き、当該者と同種の業務に従事する当該通常の労働者。以下この号において単に「通常の労働者」という。）の一週間の所定労働時間の四分の三未満である短時間労働者（一週間の所定労働時間が同一の事業所に使用される通常の労働者の一週間の所定労働時間に比し短い者をいう。以下この号において同じ。）又はその一月間の所定労働日数が同一の事業所に使用される通常の労働者の一月間の所定労働日数の四分の三未満である短時間労働者に該当し、かつ、イ又はロのいずれかの要件に該当するもの",
+     "-    ロ報酬（最低賃金法（昭和三十四年法律第百三十七号）第四条第三項各号に掲げる賃金に相当するものとして厚生労働省令で定めるものを除く。）について、厚生労働省令で定めるところにより、第四十二条第一項の規定の例により算定した額が、八万八千円未満であること。",
+     "-    ハ学校教育法（昭和二十二年法律第二十六号）第五十条に規定する高等学校の生徒、同法第八十三条に規定する大学の学生その他の厚生労働省令で定める者であること。",
+     "+    ロ学校教育法（昭和二十二年法律第二十六号）第五十条に規定する高等学校の生徒、同法第八十三条に規定する大学の学生その他の厚生労働省令で定める者であること。"
+    ]
+   }
+  },
+  "chizei 2026-01-01->2026-11-09": {
+   "changed_articles": [
+    "23",
+    "24",
+    "292",
+    "294",
+    "314_2"
+   ],
+   "n_lines": 19,
+   "lines": {
+    "23": [
+     "-    イ内国法人法人税法その他の法人税に関する法令の規定により計算した法人税額（各対象会計年度（法人税法第十五条の二に規定する対象会計年度をいう。）の国際最低課税額（同法第八十二条の二第一項に規定する国際最低課税額をいう。）に対する法人税の額を除く。）で、法人税法第六十八条（租税特別措置法（昭和三十二年法律第二十六号）第三条の三第五項、第六条第三項、第八条の三第五項、第九条の二第四項、第九条の三の二第七項、第四十一条の九第四項、第四十一条の十二第四項及び第四十一条の十二の二第七項の規定により読み替えて適用する場合を含む。）、第六十九条（租税特別措置法第六十六条の七第一項及び第六十六条の九の三第一項の規定により読み替えて適用する場合を含む。）、第六十九条の二（租税特別措置法第九条の三の二第七項、第九条の六第四項、第九条の六の二第四項、第九条の六の三第四項及び第九条の六の四第四項の規定によ",
+     "-    ロ外国法人次に掲げる国内源泉所得の区分ごとに、法人税法その他の法人税に関する法令の規定により計算した法人税額で、法人税法第百四十四条（租税特別措置法第九条の三の二第七項、第四十一条の九第四項、第四十一条の十二第四項、第四十一条の十二の二第七項及び第四十一条の二十二第二項の規定により読み替えて適用する場合を含む。）において準用する法人税法第六十八条（租税特別措置法第九条の三の二第七項、第四十一条の九第四項、第四十一条の十二第四項及び第四十一条の十二の二第七項の規定により読み替えて適用する場合を含む。）、第百四十四条の二及び第百四十四条の二の二（租税特別措置法第九条の三の二第七項、第九条の六第四項、第九条の六の二第四項、第九条の六の三第四項及び第九条の六の四第四項の規定により読み替えて適用する場合を含む。）並びに租税特別措置法第四十二条の四、第四十二条の十（第一項、第三項、第四項及び",
+     "+    イ内国法人法人税法その他の法人税に関する法令の規定により計算した法人税額（各対象会計年度（法人税法第十五条の二に規定する対象会計年度をいう。以下この号において同じ。）の国際最低課税額（同法第八十二条の三第一項に規定する国際最低課税額をいう。）に対する法人税の額、各対象会計年度の国際最低課税残余額（同法第八十二条の十一第一項に規定する国際最低課税残余額をいう。）に対する法人税の額及び各対象会計年度の国内最低課税額（同法第八十二条の十九第一項に規定する国内最低課税額をいう。）に対する法人税の額を除く。）で、法人税法第六十八条（租税特別措置法（昭和三十二年法律第二十六号）第三条の三第五項、第六条第三項、第八条の三第五項、第九条の二第四項、第九条の三の二第七項、第四十一条の九第四項、第四十一条の十二第四項及び第四十一条の十二の二第七項の規定により読み替えて適用する場合を含む。）、第六十九",
+     "+    ロ外国法人次に掲げる国内源泉所得の区分ごとに、法人税法その他の法人税に関する法令の規定により計算した法人税額（各対象会計年度の国際最低課税残余額（法人税法第百四十五条の二第一項に規定する国際最低課税残余額をいう。）に対する法人税の額及び各対象会計年度の国内最低課税額（同法第百四十五条の六第一項に規定する国内最低課税額をいう。）に対する法人税の額を除く。）で、法人税法第百四十四条（租税特別措置法第九条の三の二第七項、第四十一条の九第四項、第四十一条の十二第四項、第四十一条の十二の二第七項及び第四十一条の二十二第二項の規定により読み替えて適用する場合を含む。）において準用する法人税法第六十八条（租税特別措置法第九条の三の二第七項、第四十一条の九第四項、第四十一条の十二第四項及び第四十一条の十二の二第七項の規定により読み替えて適用する場合を含む。）、第百四十四条の二及び第百四十四条の二",
+     "-  十五 特定配当等租税特別措置法第八条の四第一項に規定する上場株式等の配当等及び同法第四十一条の十二の二第一項各号に掲げる償還金に係る同条第六項第三号に規定する差益金額をいう。",
+     "+  十五 特定配当等次に掲げるものをいう。",
+     "+    イ租税特別措置法第八条の四第一項に規定する上場株式等の配当等",
+     "+    ロ租税特別措置法第九条の三第一号に掲げる同条に規定する配当等（イに掲げるもの及び政令で定めるものを除く。）",
+     "+    ハ租税特別措置法第四十一条の十二の二第一項各号に掲げる償還金に係る同条第六項第三号に規定する差益金額"
+    ],
+    "24": [
+     "-[項5] 公益法人等（法人税法第二条第六号の公益法人等並びに防災街区整備事業組合、管理組合法人及び団地管理組合法人、マンション建替組合、マンション敷地売却組合及び敷地分割組合、地方自治法第二百六十条の二第七項に規定する認可地縁団体、政党交付金の交付を受ける政党等に対する法人格の付与に関する法律（平成六年法律第百六号）第七条の二第一項に規定する法人である政党等並びに特定非営利活動促進法（平成十年法律第七号）第二条第二項に規定する特定非営利活動法人をいう。）のうち第二十五条第一項第二号に掲げる者以外のもの及び次項の規定により法人とみなされるものに対する法人税割（法人税法第七十四条第一項の申告書に係る法人税額を課税標準とする法人税割に限る。）は、第一項の規定にかかわらず、これらの者の収益事業又は法人課税信託の信託事務を行う事務所又は事業所所在の道府県において課する。",
+     "+[項5] 公益法人等（法人税法第二条第六号の公益法人等並びに防災街区整備事業組合、管理組合法人及び団地管理組合法人、マンション再生組合、マンション等売却組合、マンション除却組合及び敷地分割組合、地方自治法第二百六十条の二第七項に規定する認可地縁団体、政党交付金の交付を受ける政党等に対する法人格の付与に関する法律（平成六年法律第百六号）第七条の二第一項に規定する法人である政党等並びに特定非営利活動促進法（平成十年法律第七号）第二条第二項に規定する特定非営利活動法人をいう。）のうち第二十五条第一項第二号に掲げる者以外のもの及び次項の規定により法人とみなされるものに対する法人税割（法人税法第七十四条第一項の申告書に係る法人税額を課税標準とする法人税割に限る。）は、第一項の規定にかかわらず、これらの者の収益事業又は法人課税信託の信託事務を行う事務所又は事業所所在の道府県において課する。"
+    ],
+    "292": [
+     "-    イ内国法人法人税法その他の法人税に関する法令の規定により計算した法人税額（各対象会計年度（法人税法第十五条の二に規定する対象会計年度をいう。）の国際最低課税額（同法第八十二条の二第一項に規定する国際最低課税額をいう。）に対する法人税の額を除く。）で、法人税法第六十八条（租税特別措置法第三条の三第五項、第六条第三項、第八条の三第五項、第九条の二第四項、第九条の三の二第七項、第四十一条の九第四項、第四十一条の十二第四項及び第四十一条の十二の二第七項の規定により読み替えて適用する場合を含む。）、第六十九条（租税特別措置法第六十六条の七第一項及び第六十六条の九の三第一項の規定により読み替えて適用する場合を含む。）、第六十九条の二（租税特別措置法第九条の三の二第七項、第九条の六第四項、第九条の六の二第四項、第九条の六の三第四項及び第九条の六の四第四項の規定により読み替えて適用する場合を含む",
+     "-    ロ外国法人次に掲げる国内源泉所得の区分ごとに、法人税法その他の法人税に関する法令の規定により計算した法人税額で、法人税法第百四十四条（租税特別措置法第九条の三の二第七項、第四十一条の九第四項、第四十一条の十二第四項、第四十一条の十二の二第七項及び第四十一条の二十二第二項の規定により読み替えて適用する場合を含む。）において準用する法人税法第六十八条（租税特別措置法第九条の三の二第七項、第四十一条の九第四項、第四十一条の十二第四項及び第四十一条の十二の二第七項の規定により読み替えて適用する場合を含む。）、第百四十四条の二及び第百四十四条の二の二（租税特別措置法第九条の三の二第七項、第九条の六第四項、第九条の六の二第四項、第九条の六の三第四項及び第九条の六の四第四項の規定により読み替えて適用する場合を含む。）並びに租税特別措置法第四十二条の四、第四十二条の十（第一項、第三項、第四項及び",
+     "+    イ内国法人法人税法その他の法人税に関する法令の規定により計算した法人税額（各対象会計年度（法人税法第十五条の二に規定する対象会計年度をいう。以下この号において同じ。）の国際最低課税額（同法第八十二条の三第一項に規定する国際最低課税額をいう。）に対する法人税の額、各対象会計年度の国際最低課税残余額（同法第八十二条の十一第一項に規定する国際最低課税残余額をいう。）に対する法人税の額及び各対象会計年度の国内最低課税額（同法第八十二条の十九第一項に規定する国内最低課税額をいう。）に対する法人税の額を除く。）で、法人税法第六十八条（租税特別措置法第三条の三第五項、第六条第三項、第八条の三第五項、第九条の二第四項、第九条の三の二第七項、第四十一条の九第四項、第四十一条の十二第四項及び第四十一条の十二の二第七項の規定により読み替えて適用する場合を含む。）、第六十九条（租税特別措置法第六十六条の",
+     "+    ロ外国法人次に掲げる国内源泉所得の区分ごとに、法人税法その他の法人税に関する法令の規定により計算した法人税額（各対象会計年度の国際最低課税残余額（法人税法第百四十五条の二第一項に規定する国際最低課税残余額をいう。）に対する法人税の額及び各対象会計年度の国内最低課税額（同法第百四十五条の六第一項に規定する国内最低課税額をいう。）に対する法人税の額を除く。）で、法人税法第百四十四条（租税特別措置法第九条の三の二第七項、第四十一条の九第四項、第四十一条の十二第四項、第四十一条の十二の二第七項及び第四十一条の二十二第二項の規定により読み替えて適用する場合を含む。）において準用する法人税法第六十八条（租税特別措置法第九条の三の二第七項、第四十一条の九第四項、第四十一条の十二第四項及び第四十一条の十二の二第七項の規定により読み替えて適用する場合を含む。）、第百四十四条の二及び第百四十四条の二"
+    ],
+    "294": [
+     "-[項7] 公益法人等（法人税法第二条第六号の公益法人等並びに防災街区整備事業組合、管理組合法人及び団地管理組合法人、マンション建替組合、マンション敷地売却組合及び敷地分割組合、地方自治法第二百六十条の二第七項に規定する認可地縁団体、政党交付金の交付を受ける政党等に対する法人格の付与に関する法律第七条の二第一項に規定する法人である政党等並びに特定非営利活動促進法第二条第二項に規定する特定非営利活動法人をいう。）のうち第二百九十六条第一項第二号に掲げる者以外のもの及び次項の規定により法人とみなされるものに対する法人税割（法人税法第七十四条第一項の申告書に係る法人税額を課税標準とする法人税割に限る。）は、第一項の規定にかかわらず、これらの者の収益事業又は法人課税信託の信託事務を行う事務所又は事業所所在の市町村において課する。",
+     "+[項7] 公益法人等（法人税法第二条第六号の公益法人等並びに防災街区整備事業組合、管理組合法人及び団地管理組合法人、マンション再生組合、マンション等売却組合、マンション除却組合及び敷地分割組合、地方自治法第二百六十条の二第七項に規定する認可地縁団体、政党交付金の交付を受ける政党等に対する法人格の付与に関する法律第七条の二第一項に規定する法人である政党等並びに特定非営利活動促進法第二条第二項に規定する特定非営利活動法人をいう。）のうち第二百九十六条第一項第二号に掲げる者以外のもの及び次項の規定により法人とみなされるものに対する法人税割（法人税法第七十四条第一項の申告書に係る法人税額を課税標準とする法人税割に限る。）は、第一項の規定にかかわらず、これらの者の収益事業又は法人課税信託の信託事務を行う事務所又は事業所所在の市町村において課する。"
+    ],
+    "314_2": [
+     "-  十一 控除対象扶養親族（扶養親族のうち、次に掲げる者の区分に応じそれぞれ次に定める者をいう。以下この款において同じ。）を有する所得割の納税義務者各控除対象扶養親族につき三十三万円（その者が特定扶養親族（控除対象扶養親族のうち、年齢十九歳以上二十三歳未満の者をいう。第八項及び第三百十四条の六において同じ。）である場合には四十五万円、その者が老人扶養親族（控除対象扶養親族のうち、年齢七十歳以上の者をいう。第四項及び第八項並びに第三百十四条の六において同じ。）である場合には三十八万円）",
+     "+  十一 控除対象扶養親族（扶養親族のうち、次に掲げる者の区分に応じそれぞれ次に定める者をいう。以下この款及び第三百十七条の三の三第一項において同じ。）を有する所得割の納税義務者各控除対象扶養親族につき三十三万円（その者が特定扶養親族（控除対象扶養親族のうち、年齢十九歳以上二十三歳未満の者をいう。第八項及び第三百十四条の六において同じ。）である場合には四十五万円、その者が老人扶養親族（控除対象扶養親族のうち、年齢七十歳以上の者をいう。第四項及び第八項並びに第三百十四条の六において同じ。）である場合には三十八万円）"
+    ]
+   }
+  },
+  "chizei 2026-11-09->2027-01-01": {
+   "changed_articles": [
+    "23",
+    "292",
+    "314_2"
+   ],
+   "n_lines": 14,
+   "lines": {
+    "23": [
+     "-  六 退職手当等所得税法第三十条第一項に規定する退職手当等（同法第三十一条において退職手当等とみなされる一時金及び租税特別措置法第二十九条の四において退職手当等とみなされる金額を含む。）をいう。",
+     "-  七 同一生計配偶者道府県民税の納税義務者の配偶者でその納税義務者と生計を一にするもの（第三十二条第三項に規定する青色事業専従者に該当するもので同項に規定する給与の支払を受けるもの及び同条第四項に規定する事業専従者に該当するものを除く。）のうち、当該年度の初日の属する年の前年（以下この条から第四十五条の三までにおいて「前年」という。）の合計所得金額が五十八万円以下である者をいう。",
+     "+  六 退職手当等所得税法第三十条第一項に規定する退職手当等（同法第三十一条において退職手当等とみなされる一時金及び租税特別措置法第二十九条の五において退職手当等とみなされる金額を含む。）をいう。",
+     "+  七 同一生計配偶者道府県民税の納税義務者の配偶者でその納税義務者と生計を一にするもの（第三十二条第三項に規定する青色事業専従者に該当するもので同項に規定する給与の支払を受けるもの及び同条第四項に規定する事業専従者に該当するものを除く。）のうち、当該年度の初日の属する年の前年（以下この条から第四十五条の三までにおいて「前年」という。）の合計所得金額が六十二万円以下である者をいう。",
+     "-  九 扶養親族道府県民税の納税義務者の親族（その納税義務者の配偶者を除く。）並びに児童福祉法（昭和二十二年法律第百六十四号）第二十七条第一項第三号の規定により同法第六条の四に規定する里親に委託された児童及び老人福祉法（昭和三十八年法律第百三十三号）第十一条第一項第三号の規定により同号に規定する養護受託者に委託された老人でその納税義務者と生計を一にするもの（第三十二条第三項に規定する青色事業専従者に該当するもので同項に規定する給与の支払を受けるもの及び同条第四項に規定する事業専従者に該当するものを除く。）のうち、前年の合計所得金額が五十八万円以下である者をいう。",
+     "+  九 扶養親族道府県民税の納税義務者の親族（その納税義務者の配偶者を除く。）並びに児童福祉法（昭和二十二年法律第百六十四号）第二十七条第一項第三号の規定により同法第六条の四に規定する里親に委託された児童及び老人福祉法（昭和三十八年法律第百三十三号）第十一条第一項第三号の規定により同号に規定する養護受託者に委託された老人でその納税義務者と生計を一にするもの（第三十二条第三項に規定する青色事業専従者に該当するもので同項に規定する給与の支払を受けるもの及び同条第四項に規定する事業専従者に該当するものを除く。）のうち、前年の合計所得金額が六十二万円以下である者をいう。"
+    ],
+    "292": [
+     "-  六 退職手当等所得税法第三十条第一項に規定する退職手当等（同法第三十一条において退職手当等とみなされる一時金及び租税特別措置法第二十九条の四において退職手当等とみなされる金額を含む。）をいう。",
+     "-  七 同一生計配偶者市町村民税の納税義務者の配偶者でその納税義務者と生計を一にするもの（第三百十三条第三項に規定する青色事業専従者に該当するもので同項に規定する給与の支払を受けるもの及び同条第四項に規定する事業専従者に該当するものを除く。）のうち、当該年度の初日の属する年の前年（以下この条、第二百九十五条、第三百十三条から第三百十七条の三まで及び第三百十七条の六から第三百二十一条の七の九までにおいて「前年」という。）の合計所得金額が五十八万円以下である者をいう。",
+     "+  六 退職手当等所得税法第三十条第一項に規定する退職手当等（同法第三十一条において退職手当等とみなされる一時金及び租税特別措置法第二十九条の五において退職手当等とみなされる金額を含む。）をいう。",
+     "+  七 同一生計配偶者市町村民税の納税義務者の配偶者でその納税義務者と生計を一にするもの（第三百十三条第三項に規定する青色事業専従者に該当するもので同項に規定する給与の支払を受けるもの及び同条第四項に規定する事業専従者に該当するものを除く。）のうち、当該年度の初日の属する年の前年（以下この条、第二百九十五条、第三百十三条から第三百十七条の三まで及び第三百十七条の六から第三百二十一条の七の九までにおいて「前年」という。）の合計所得金額が六十二万円以下である者をいう。",
+     "-  九 扶養親族市町村民税の納税義務者の親族（その納税義務者の配偶者を除く。）並びに児童福祉法第二十七条第一項第三号の規定により同法第六条の四に規定する里親に委託された児童及び老人福祉法第十一条第一項第三号の規定により同号に規定する養護受託者に委託された老人でその納税義務者と生計を一にするもの（第三百十三条第三項に規定する青色事業専従者に該当するもので同項に規定する給与の支払を受けるもの及び同条第四項に規定する事業専従者に該当するものを除く。）のうち、前年の合計所得金額が五十八万円以下である者をいう。",
+     "+  九 扶養親族市町村民税の納税義務者の親族（その納税義務者の配偶者を除く。）並びに児童福祉法第二十七条第一項第三号の規定により同法第六条の四に規定する里親に委託された児童及び老人福祉法第十一条第一項第三号の規定により同号に規定する養護受託者に委託された老人でその納税義務者と生計を一にするもの（第三百十三条第三項に規定する青色事業専従者に該当するもので同項に規定する給与の支払を受けるもの及び同条第四項に規定する事業専従者に該当するものを除く。）のうち、前年の合計所得金額が六十二万円以下である者をいう。"
+    ],
+    "314_2": [
+     "-  六 障害者である所得割の納税義務者又は障害者である同一生計配偶者若しくは扶養親族を有する所得割の納税義務者各障害者につき二十六万円（その者が特別障害者（障害者のうち、精神又は身体に重度の障害がある者で政令で定めるものをいう。第三項及び第八項並びに第三百十四条の六において同じ。）である場合には、三十万円）",
+     "+  六 障害者である所得割の納税義務者又は障害者である同一生計配偶者若しくは扶養親族を有する所得割の納税義務者各障害者につき二十六万円（その者が特別障害者（障害者のうち、精神又は身体に重度の障害がある者で政令で定めるものをいう。以下この款及び第三百十七条の三の三第二項第二号において同じ。）である場合には、三十万円）"
+    ]
+   }
+  }
+ },
+ "toc": {
+  "kokkyo": [
+   [
+    "第一章　総則",
+    "1",
+    "2"
+   ],
+   [
+    "第二章　組合及び連合会",
+    "3",
+    "36"
+   ],
+   [
+    "  第一節　組合",
+    "3",
+    "20"
+   ],
+   [
+    "  第二節　連合会",
+    "21",
+    "36"
+   ],
+   [
+    "第三章　組合員",
+    "37",
+    "38"
+   ],
+   [
+    "第四章　給付",
+    "39",
+    "97"
+   ],
+   [
+    "  第一節　通則",
+    "39",
+    "49"
+   ],
+   [
+    "  第二節　短期給付",
+    "50",
+    "71"
+   ],
+   [
+    "    第一款　通則",
+    "50",
+    "53_2"
+   ],
+   [
+    "    第二款　保健給付",
+    "54",
+    "65"
+   ],
+   [
+    "    第三款　休業等給付",
+    "66",
+    "69"
+   ],
+   [
+    "    第四款　災害給付",
+    "70",
+    "71"
+   ],
+   [
+    "  第三節　長期給付",
+    "72",
+    "93"
+   ],
+   [
+    "    第一款　通則",
+    "72",
+    "72"
+   ],
+   [
+    "    第二款　厚生年金保険給付",
+    "73",
+    "73"
+   ],
+   [
+    "    第三款　退職等年金給付",
+    "74",
+    "93"
+   ],
+   [
+    "  第四節　給付の制限",
+    "94",
+    "97"
+   ],
+   [
+    "第五章　福祉事業",
+    "98",
+    "98"
+   ],
+   [
+    "第六章　費用の負担",
+    "99",
+    "102"
+   ],
+   [
+    "第六章の二　地方公務員共済組合連合会に対する財政調整拠出金",
+    "102_2",
+    "102_5"
+   ],
+   [
+    "第七章　審査請求",
+    "103",
+    "108:110"
+   ],
+   [
+    "第八章　雑則",
+    "111",
+    "127"
+   ],
+   [
+    "第九章　罰則",
+    "127_2",
+    "131"
+   ]
+  ]
+ },
+ "compare_prev": [
+  {
+   "short": "kokkyo",
+   "asof": "2025-10-01",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "2f70121ac4ea",
+   "mine_sha12": "2f70121ac4ea"
+  },
+  {
+   "short": "kokkyo",
+   "asof": "2026-04-01",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "d41b38c75f08",
+   "mine_sha12": "d41b38c75f08"
+  },
+  {
+   "short": "kokkyo",
+   "asof": "2026-11-09",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "dc98aa8e6d4e",
+   "mine_sha12": "dc98aa8e6d4e"
+  },
+  {
+   "short": "kokkyo-rei",
+   "asof": "2025-10-01",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "9c9166a99e83",
+   "mine_sha12": "9c9166a99e83"
+  },
+  {
+   "short": "kokkyo-rei",
+   "asof": "2026-04-01",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "5f223dc9670b",
+   "mine_sha12": "5f223dc9670b"
+  },
+  {
+   "short": "kokkyo-rei",
+   "asof": "2026-11-09",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "beef8549fc4d",
+   "mine_sha12": "beef8549fc4d"
+  },
+  {
+   "short": "kokkyo-ki",
+   "asof": "2025-10-01",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "9f51cac3883f",
+   "mine_sha12": "9f51cac3883f"
+  },
+  {
+   "short": "kokkyo-ki",
+   "asof": "2026-04-01",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "a858cb1110c9",
+   "mine_sha12": "a858cb1110c9"
+  },
+  {
+   "short": "kokkyo-ki",
+   "asof": "2026-11-09",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "071a16439005",
+   "mine_sha12": "071a16439005"
+  },
+  {
+   "short": "chikyo",
+   "asof": "2025-10-01",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "6f559688c443",
+   "mine_sha12": "6f559688c443"
+  },
+  {
+   "short": "chikyo",
+   "asof": "2026-04-01",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "55f39609568e",
+   "mine_sha12": "55f39609568e"
+  },
+  {
+   "short": "chikyo",
+   "asof": "2026-11-09",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "02e4c24eb06b",
+   "mine_sha12": "02e4c24eb06b"
+  },
+  {
+   "short": "chikyo-rei",
+   "asof": "2025-10-01",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "146b8b4aa405",
+   "mine_sha12": "146b8b4aa405"
+  },
+  {
+   "short": "chikyo-rei",
+   "asof": "2026-04-01",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "9e20546f0171",
+   "mine_sha12": "9e20546f0171"
+  },
+  {
+   "short": "chikyo-rei",
+   "asof": "2026-11-09",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "2f88f57ca6f6",
+   "mine_sha12": "2f88f57ca6f6"
+  },
+  {
+   "short": "chikyo-kitei",
+   "asof": "2025-10-01",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "333181850ba8",
+   "mine_sha12": "333181850ba8"
+  },
+  {
+   "short": "chikyo-kitei",
+   "asof": "2026-04-01",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "1356999b0230",
+   "mine_sha12": "1356999b0230"
+  },
+  {
+   "short": "chikyo-kitei",
+   "asof": "2026-11-09",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "9fdbf00b930e",
+   "mine_sha12": "9fdbf00b930e"
+  },
+  {
+   "short": "shigaku",
+   "asof": "2025-10-01",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "dcd96dd379fe",
+   "mine_sha12": "dcd96dd379fe"
+  },
+  {
+   "short": "shigaku",
+   "asof": "2026-04-01",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "c7ec23dba295",
+   "mine_sha12": "c7ec23dba295"
+  },
+  {
+   "short": "shigaku",
+   "asof": "2026-11-09",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "84a0ab7d48e7",
+   "mine_sha12": "84a0ab7d48e7"
+  },
+  {
+   "short": "shigaku-rei",
+   "asof": "2025-10-01",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "8a37b6b28421",
+   "mine_sha12": "8a37b6b28421"
+  },
+  {
+   "short": "shigaku-rei",
+   "asof": "2026-04-01",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "702ded830878",
+   "mine_sha12": "702ded830878"
+  },
+  {
+   "short": "shigaku-rei",
+   "asof": "2026-11-09",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "2aaada172e05",
+   "mine_sha12": "2aaada172e05"
+  },
+  {
+   "short": "shigaku-ki",
+   "asof": "2025-10-01",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "0f79407cdbc4",
+   "mine_sha12": "0f79407cdbc4"
+  },
+  {
+   "short": "shigaku-ki",
+   "asof": "2026-04-01",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "12e5c9b9d78d",
+   "mine_sha12": "12e5c9b9d78d"
+  },
+  {
+   "short": "shigaku-ki",
+   "asof": "2026-11-09",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "e2fdbe0e1cbf",
+   "mine_sha12": "e2fdbe0e1cbf"
+  },
+  {
+   "short": "kyuyo",
+   "asof": "2026-11-09",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "b1817a1ad431",
+   "mine_sha12": "b1817a1ad431"
+  },
+  {
+   "short": "kenpo",
+   "asof": "2025-10-01",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "219a24be202f",
+   "mine_sha12": "219a24be202f"
+  },
+  {
+   "short": "kenpo",
+   "asof": "2026-04-01",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "5b1db7f6114b",
+   "mine_sha12": "5b1db7f6114b"
+  },
+  {
+   "short": "kenpo",
+   "asof": "2026-11-09",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "cf30a71b955f",
+   "mine_sha12": "cf30a71b955f"
+  },
+  {
+   "short": "kenpo-ki",
+   "asof": "2026-11-09",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "955fb551d8f4",
+   "mine_sha12": "955fb551d8f4"
+  },
+  {
+   "short": "chizei",
+   "asof": "2026-01-01",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "ba0a40e550be",
+   "mine_sha12": "ba0a40e550be"
+  },
+  {
+   "short": "chizei",
+   "asof": "2026-11-09",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "3dd29e0078bf",
+   "mine_sha12": "3dd29e0078bf"
+  },
+  {
+   "short": "chizei",
+   "asof": "2027-01-01",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "ee21722ce5fd",
+   "mine_sha12": "ee21722ce5fd"
+  },
+  {
+   "short": "chijiho",
+   "asof": "2026-11-09",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "c37874f6f340",
+   "mine_sha12": "c37874f6f340"
+  },
+  {
+   "short": "jumin",
+   "asof": "2026-11-09",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "ec41d0e230e1",
+   "mine_sha12": "ec41d0e230e1"
+  },
+  {
+   "short": "shotoku",
+   "asof": "2026-11-09",
+   "same_sha256": true,
+   "same_rev": true,
+   "prev_sha12": "94c4a7ad8372",
+   "mine_sha12": "94c4a7ad8372"
+  }
+ ],
+ "rechecked_at": "20261109-191712"
+}

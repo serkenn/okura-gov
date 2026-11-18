@@ -1,0 +1,15 @@
+description: 障害者の範囲（所得税法第2条第1項第28号、所得税法施行令第10条第1項）のうち、法令の値で決まるもの。令和7年分・令和8年分で同文（jinteki §1.5）。
+市町村長等の認定の年齢の下限:
+  description: 市町村長等の認定による障害者（所令10①七）の年齢の下限（この年齢以上）
+  metadata:
+    law: 所得税法施行令第10条第1項第7号
+    source_kind: 政令
+    unit: 歳
+    比較: 以上
+    reference:
+      - docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md#1.5
+  values:
+    2025-01-01:
+      value: 65
+      metadata:
+        適用: 令和7年分・令和8年分（3版で同文）

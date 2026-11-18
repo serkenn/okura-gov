@@ -1,0 +1,30 @@
+{
+ "set": "pages3",
+ "fetched_at": "20261111-110258",
+ "download_dir": ".work/downloads/20261111-110258_IMPL2_tsukin_nta_pages3",
+ "items": [
+  {
+   "id": "tebikihtml_2_3_4",
+   "url": "https://www.nta.go.jp/publication/pamph/hotei/tebikihtml/2-3-4.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 05 Nov 2026 05:00:12 GMT",
+   "bytes": 6876,
+   "sha256": "e3ec2036e489656b418ac751500ef637140bd8a8e987920a9c0dbdc4c263ad14",
+   "saved": ".work/downloads/20261111-110258_IMPL2_tsukin_nta_pages3/tebikihtml_2_3_4.htm",
+   "title": "「支払金額」欄｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "tsukin2025_03",
+   "url": "https://www.nta.go.jp/users/gensen/2025tsukin/pdf/03.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Wed, 19 Nov 2025 01:00:03 GMT",
+   "bytes": 263646,
+   "sha256": "5493c9c9e37d305e3a724cb696f8055b7d0088dba509ba4a06a8d5d456018855",
+   "saved": ".work/downloads/20261111-110258_IMPL2_tsukin_nta_pages3/tsukin2025_03.pdf",
+   "pdf_header_ok": true
+  }
+ ]
+}

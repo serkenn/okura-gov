@@ -1,0 +1,26 @@
+{
+ "run_at": "20261109-190045",
+ "download_dir": ".work/downloads/20261109-190045_R2X_gaps_verify_web3",
+ "robots": {
+  "www.nta.go.jp": {
+   "status": 200,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+   "bytes": 853
+  }
+ },
+ "results": [
+  {
+   "id": "shitsugi_shotoku_index",
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/01.htm",
+   "robots_allowed": true,
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/law/shitsugi/shotoku/01.htm",
+   "content_type": "text/html",
+   "bytes": 37044,
+   "sha256": "265c6c375a970b709ca3081b26a902f5699bea650dcd7abcf5a00f83cab7fd15",
+   "last_modified": "Wed, 03 Dec 2025 08:31:08 GMT",
+   "saved": "shitsugi_shotoku_index.html",
+   "title": "所得税目次一覧｜国税庁"
+  }
+ ]
+}

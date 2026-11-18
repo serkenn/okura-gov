@@ -1,0 +1,185 @@
+"""R3X juminzei-extra: 家屋敷課税・配当割額等の控除・住宅借入金等特別税額控除に関する行政の公開資料（総務省の取扱通知・案内、自治体の案内）を取得する。
+
+実行（リポジトリのルートで）:
+  C:\\Users\\user\\.pyenv\\pyenv-win\\versions\\3.11.9\\python.exe -I -X utf8 scripts/R3X_juminzei-extra_web.py            # 全部
+  C:\\Users\\user\\.pyenv\\pyenv-win\\versions\\3.11.9\\python.exe -I -X utf8 scripts/R3X_juminzei-extra_web.py <名前>...   # 指定したものだけ
+
+標準ライブラリのみ。リクエストの間は 1.5 秒あける。User-Agent は okura-gov-research/0.1。取得の前にホストごとに robots.txt を読み、禁止なら取得しない。
+scripts/R2X_juminzei-tax_web.py を写した（import はしない）。
+- ダウンロードしたもの（信頼できないデータ）は .work/downloads/<ts>_R3X_juminzei-extra_web/ に置く。中でコードを実行しない。
+- HTML は html.parser でテキストにして scripts/results/R3X_juminzei-extra_web/<名前>.txt に書く（script・style は除く）。
+  PDF は保存だけ（文字の取り出しは scripts/R3X_juminzei-extra_pdftext.py に PDF のパスを渡して行う）。
+- fetch_log*.json に URL、HTTP 状態、バイト数、SHA-256、robots.txt の可否を書く。
+"""
+import hashlib
+import html.parser
+import json
+import pathlib
+import sys
+import time
+import urllib.error
+import urllib.parse
+import urllib.request
+import urllib.robotparser
+
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+UA = "okura-gov-research/0.1"
+SLEEP = 1.5
+NAME = "R3X_juminzei-extra_web"
+
+TARGETS = [
+    # 総務省「地方税法の施行に関する取扱いについて（市町村税関係）」改正後全文（総税市第25号による改正後。リンク元は税制改正（地方税）の一覧 ichiran04.html）
+    ("soumu_tsuchi_shichoson", "https://www.soumu.go.jp/main_content/001071661.pdf"),
+    # 同（道府県税関係）改正後全文（総税都第15号による改正後）
+    ("soumu_tsuchi_dofuken", "https://www.soumu.go.jp/main_content/001087182.pdf"),
+    # 総務省「個人住民税の住宅ローン控除」の案内
+    ("soumu_juutaku_loan", "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/090929.html"),
+    # 自治体の案内（E）
+    ("suginami_juutaku", "https://www.city.suginami.tokyo.jp/s028/2058.html"),
+    ("funabashi_ieyashiki", "https://www.city.funabashi.lg.jp/kurashi/zei/007/001/p108828.html"),
+    ("kumamoto_ieyashiki", "https://www.city.kumamoto.jp/kiji003367/index.html"),
+    ("kagoshima_ieyashiki", "https://www.city.kagoshima.lg.jp/soumu/zeimu/shiminzei/ieyasiki.html"),
+    ("meguro_kabu", "https://www.city.meguro.tokyo.jp/zeimu/kurashi/juuminzei/jyoujyoukabusikitou.html"),
+    # （2026-11-11 追加。この名前だけを指定して実行した：fetch_log_r8_houritsu.json）
+    # 総務省「地方税法等の一部を改正する法律（令和8年法律第2号）」の本文 PDF（リンク元は ichiran04.html。
+    # scripts/results/R3X_chiho-sochi_web/index/soumu_ichiran04_links.tsv の 73 行目）。
+    # e-Gov では一部改正法の本文が取れない（docs/measurements/20261109_R1-laws_egov-api-monitoring.md）ので、
+    # 令和4年法律第1号の附則（住宅借入金等特別税額控除の「なお従前の例による」）を改める規定があるかを、この PDF の文字で確かめる。
+    ("r8_houritsu", "https://www.soumu.go.jp/main_content/001066281.pdf"),
+]
+
+
+class Text(html.parser.HTMLParser):
+    BLOCK = {"p", "div", "br", "li", "tr", "h1", "h2", "h3", "h4", "h5", "h6", "table", "section", "article", "dt", "dd"}
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.out, self.skip, self.links = [], 0, []
+
+    def handle_starttag(self, tag, attrs):
+        if tag in ("script", "style", "noscript"):
+            self.skip += 1
+        if tag in self.BLOCK:
+            self.out.append("\n")
+        if tag in ("td", "th"):
+            self.out.append(" | ")
+        if tag == "a":
+            href = dict(attrs).get("href")
+            if href:
+                self.links.append(href)
+        if tag == "img":
+            alt = dict(attrs).get("alt") or ""
+            if len(alt) > 20:
+                self.out.append("\n[画像の代替テキスト] " + alt + "\n")
+
+    def handle_endtag(self, tag):
+        if tag in ("script", "style", "noscript") and self.skip:
+            self.skip -= 1
+        if tag in self.BLOCK:
+            self.out.append("\n")
+
+    def handle_data(self, data):
+        if not self.skip:
+            self.out.append(data)
+
+    def text(self):
+        lines = [" ".join(l.split()) for l in "".join(self.out).splitlines()]
+        res, blank = [], 0
+        for l in lines:
+            if l:
+                res.append(l)
+                blank = 0
+            elif not blank:
+                res.append("")
+                blank = 1
+        return "\n".join(res)
+
+
+def decode(body, ctype):
+    cs = None
+    if "charset=" in (ctype or "").lower():
+        cs = ctype.lower().split("charset=")[1].split(";")[0].strip()
+    head = body[:4000].decode("ascii", "replace").lower()
+    if not cs and "charset=" in head:
+        cs = head.split("charset=")[1].split('"')[0].split("'")[0].split(";")[0].strip().strip("/").strip(">")
+    for c in [cs, "utf-8", "cp932", "euc-jp"]:
+        if not c:
+            continue
+        try:
+            return body.decode(c), c
+        except (LookupError, UnicodeDecodeError):
+            continue
+    return body.decode("utf-8", "replace"), "utf-8(replace)"
+
+
+def main():
+    ts = time.strftime("%Y%m%d-%H%M%S")
+    dl = ROOT / ".work" / "downloads" / f"{ts}_{NAME}"
+    dl.mkdir(parents=True, exist_ok=False)
+    out = ROOT / "scripts" / "results" / NAME
+    out.mkdir(parents=True, exist_ok=True)
+    only = set(sys.argv[1:])
+    log = {"run_at": ts, "download_dir": str(dl.relative_to(ROOT)), "fetches": []}
+    robots = {}
+    for name, url in TARGETS:
+        if only and name not in only:
+            continue
+        host = urllib.parse.urlsplit(url)
+        base = f"{host.scheme}://{host.netloc}"
+        if base not in robots:
+            rp = urllib.robotparser.RobotFileParser()
+            rurl = base + "/robots.txt"
+            try:
+                req = urllib.request.Request(rurl, headers={"User-Agent": UA})
+                with urllib.request.urlopen(req, timeout=60) as r:
+                    rp.parse(r.read().decode("utf-8", "replace").splitlines())
+                    robots[base] = (rp, r.status)
+            except urllib.error.HTTPError as e:
+                rp.parse([])
+                robots[base] = (rp, e.code)
+            except Exception as e:  # noqa
+                rp.parse([])
+                robots[base] = (rp, repr(e))
+            time.sleep(SLEEP)
+        rp, rst = robots[base]
+        allowed = rp.can_fetch(UA, url)
+        entry = {"name": name, "url": url, "robots_status": rst, "robots_allowed": allowed}
+        if not allowed:
+            entry["skipped"] = "robots.txt disallow"
+            log["fetches"].append(entry)
+            print("skip", name, flush=True)
+            continue
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        try:
+            with urllib.request.urlopen(req, timeout=120) as r:
+                body, st, ctype, final = r.read(), r.status, r.headers.get("Content-Type"), r.geturl()
+                lm = r.headers.get("Last-Modified")
+        except urllib.error.HTTPError as e:
+            body, st, ctype, final, lm = e.read(), e.code, e.headers.get("Content-Type"), url, None
+        except Exception as e:  # noqa
+            entry["error"] = repr(e)
+            log["fetches"].append(entry)
+            print("ERR", name, repr(e), flush=True)
+            time.sleep(SLEEP)
+            continue
+        time.sleep(SLEEP)
+        ext = ".pdf" if (ctype or "").startswith("application/pdf") or url.lower().endswith(".pdf") else ".html"
+        (dl / f"{name}{ext}").write_bytes(body)
+        entry.update({"status": st, "final_url": final, "content_type": ctype, "last_modified": lm, "bytes": len(body),
+                      "sha256": hashlib.sha256(body).hexdigest(), "saved": f"{name}{ext}"})
+        if ext == ".html":
+            s, cs = decode(body, ctype)
+            p = Text()
+            p.feed(s)
+            (out / f"{name}.txt").write_text(f"# {url}\n# 取得 {ts} 状態 {st} 文字コード {cs}\n\n" + p.text() + "\n\n# リンク\n" +
+                                             "\n".join(p.links) + "\n", encoding="utf-8")
+            entry["charset"] = cs
+        log["fetches"].append(entry)
+        print("ok", name, st, len(body), flush=True)
+    (out / ("fetch_log.json" if not only else f"fetch_log_{'_'.join(sorted(only))}.json")).write_text(
+        json.dumps(log, ensure_ascii=False, indent=1), encoding="utf-8")
+    print("done", out, dl)
+
+
+if __name__ == "__main__":
+    sys.exit(main())

@@ -1,0 +1,109 @@
+{
+ "set": "nenkin",
+ "fetched_at": "20261109-173941",
+ "download_dir": ".work/downloads/20261109-173941_R2X_gaps_web_nenkin",
+ "robots": [
+  {
+   "host": "www.nenkin.go.jp",
+   "url": "https://www.nenkin.go.jp/robots.txt",
+   "status": 200,
+   "sha256": "b1b1b2e85299b5a3b32390684db50f979ced0a08ed48a46b715b9b6c1a5f79c9",
+   "saved": ".work/downloads/20261109-173941_R2X_gaps_web_nenkin/robots_www.nenkin.go.jp.txt"
+  }
+ ],
+ "items": [
+  {
+   "id": "gigishokai_index",
+   "url": "https://www.nenkin.go.jp/service/seidozenpan/gigishokai.html",
+   "final_url": "https://www.nenkin.go.jp/service/seidozenpan/gigishokai.html",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 14 Oct 2026 00:26:17 GMT",
+   "bytes": 26705,
+   "sha256": "6a15671a48a12a6ddd1879d59be55957004bc55574eb301eabf19c4a8688143a",
+   "saved": ".work/downloads/20261109-173941_R2X_gaps_web_nenkin/gigishokai_index.htm",
+   "title": "主な疑義照会と回答について｜日本年金機構",
+   "encoding": "UTF-8",
+   "text_sha256": "14bb96d69af5020e8d4b014db6f3f079ef1d49ce4ade3f66ddc5026fe2cd9be4"
+  },
+  {
+   "id": "gigishokai_kounen_tekiyou",
+   "url": "https://www.nenkin.go.jp/service/seidozenpan/gigishokai.files/kounen_tekiyou.pdf",
+   "final_url": "https://www.nenkin.go.jp/service/seidozenpan/gigishokai.files/kounen_tekiyou.pdf",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Wed, 04 Feb 2026 02:07:23 GMT",
+   "bytes": 974508,
+   "sha256": "09ea323c76fc142713f7f10638299448dbb0ee2e2766de0c09b09a71a90a69f2",
+   "saved": ".work/downloads/20261109-173941_R2X_gaps_web_nenkin/gigishokai_kounen_tekiyou.pdf"
+  },
+  {
+   "id": "gigishokai_kokunen_tekiyou",
+   "url": "https://www.nenkin.go.jp/service/seidozenpan/gigishokai.files/kokunen_tekiyou.pdf",
+   "final_url": "https://www.nenkin.go.jp/service/seidozenpan/gigishokai.files/kokunen_tekiyou.pdf",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Thu, 01 Jun 2023 02:37:28 GMT",
+   "bytes": 210668,
+   "sha256": "de53c9918f912a20d06a246b3a89e529ac61c2546520ed18fdfe460164ac9229",
+   "saved": ".work/downloads/20261109-173941_R2X_gaps_web_nenkin/gigishokai_kokunen_tekiyou.pdf"
+  },
+  {
+   "id": "faq_19to22_income",
+   "url": "https://www.nenkin.go.jp/section/faq/kounen/dependents/aged19to22/income.html",
+   "final_url": "https://www.nenkin.go.jp/section/faq/kounen/dependents/aged19to22/income.html",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 14 Oct 2026 00:25:50 GMT",
+   "bytes": 24237,
+   "sha256": "11b58cd4911a88a44adc49adecab1cba2cdf79416e8960f5ff128b4e43fd954d",
+   "saved": ".work/downloads/20261109-173941_R2X_gaps_web_nenkin/faq_19to22_income.htm",
+   "title": "年間収入が150万円未満かどうかの判定は、所得税法上の取り扱いと同様に、過去1年間の収入で判定するのですか。｜日本年金機構",
+   "encoding": "UTF-8",
+   "text_sha256": "28503b2ec1aaac69d2edeb77b2f9cb1a9c95ce66bd42f2df06439333b4bddab7"
+  },
+  {
+   "id": "vaccine_20220225",
+   "url": "https://www.nenkin.go.jp/oshirase/taisetu/2022/202202/20220225.html",
+   "final_url": "https://www.nenkin.go.jp/oshirase/taisetu/2022/202202/20220225.html",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 14 Oct 2026 00:25:35 GMT",
+   "bytes": 28604,
+   "sha256": "220ea6471cb59b9e6e6dd07fa0cedb24ae0f7a286e120a3e6f87a47aa8222b53",
+   "saved": ".work/downloads/20261109-173941_R2X_gaps_web_nenkin/vaccine_20220225.htm",
+   "title": "医療職として新型コロナウイルスワクチン接種業務に従事したことによる給与収入の取り扱いについて｜日本年金機構",
+   "encoding": "UTF-8",
+   "text_sha256": "703dc76498c30dea786dd2af631fa2177005cc6a7907aa4d64d16c50d7d7214d"
+  },
+  {
+   "id": "jimupoint_vol3",
+   "url": "https://www.nenkin.go.jp/service/kounen/info/jimupoint.files/Vol.3.pdf",
+   "final_url": "https://www.nenkin.go.jp/service/kounen/info/jimupoint.files/Vol.3.pdf",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 05 Aug 2025 01:40:56 GMT",
+   "bytes": 2133222,
+   "sha256": "4fe03d20353a0f5741043213c266224fd4cf6d5876b5dbf278c95851b503c06f",
+   "saved": ".work/downloads/20261109-173941_R2X_gaps_web_nenkin/jimupoint_vol3.pdf"
+  },
+  {
+   "id": "setsumei_fuyou",
+   "url": "https://www.nenkin.go.jp/shinsei/kounen/tekiyo/hihokensha/20141224.files/setumei.pdf",
+   "final_url": "https://www.nenkin.go.jp/shinsei/kounen/tekiyo/hihokensha/20141224.files/setumei.pdf",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 24 Apr 2026 05:25:32 GMT",
+   "bytes": 4663929,
+   "sha256": "8a3736da2f1fb13c08e388d1dfb2aa91c4d6ad64b54e24e770b2527aca9d052b",
+   "saved": ".work/downloads/20261109-173941_R2X_gaps_web_nenkin/setsumei_fuyou.pdf"
+  }
+ ]
+}

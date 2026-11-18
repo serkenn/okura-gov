@@ -1,0 +1,136 @@
+{
+ "run_at": "20261109-155155",
+ "download_dir": ".work/downloads/20261109-155155_IMPL_denchoho_verify_nta",
+ "fetches": [
+  {
+   "key": "robots",
+   "url": "https://www.nta.go.jp/robots.txt",
+   "status": 200,
+   "bytes": 853,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+   "last_modified": "Wed, 18 Mar 2026 05:00:01 GMT",
+   "content_type": "text/plain",
+   "saved": ".work/downloads/20261109-155155_IMPL_denchoho_verify_nta/robots.txt.download"
+  },
+  {
+   "key": "qa-index",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/4-3.htm",
+   "status": 200,
+   "bytes": 6055,
+   "sha256": "d446346f54669276113e0235ade0e509c734d7909bc0eda3eb32bd7379bd350c",
+   "last_modified": "Fri, 10 Jul 2026 01:00:05 GMT",
+   "content_type": "text/html",
+   "saved": ".work/downloads/20261109-155155_IMPL_denchoho_verify_nta/qa-index.htm.download"
+  },
+  {
+   "key": "hourei-tsutatsu",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/03.htm",
+   "status": 200,
+   "bytes": 7773,
+   "sha256": "e32d9b442b17e21ca43010102d6b1b819abb8fa1978aa7cd5f0c8d09bd172d4f",
+   "last_modified": "Mon, 06 Apr 2026 05:00:01 GMT",
+   "content_type": "text/html",
+   "saved": ".work/downloads/20261109-155155_IMPL_denchoho_verify_nta/hourei-tsutatsu.htm.download"
+  },
+  {
+   "key": "samples-page",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/0021006-031.htm",
+   "status": 200,
+   "bytes": 4715,
+   "sha256": "677fa6476dfd7c83bfccb865101ebe3cbc3aa76273d727c49bd085679d46a705",
+   "last_modified": "Fri, 10 Jul 2026 01:00:05 GMT",
+   "content_type": "text/html",
+   "saved": ".work/downloads/20261109-155155_IMPL_denchoho_verify_nta/samples-page.htm.download"
+  },
+  {
+   "key": "qa-dentori-r0807",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_05.pdf",
+   "status": 200,
+   "bytes": 1716744,
+   "sha256": "5068fb54a2600a278e1da8d685daad39044c0257d09629b6a153c2186141e911",
+   "last_modified": "Fri, 10 Jul 2026 01:00:05 GMT",
+   "content_type": "application/pdf",
+   "saved": ".work/downloads/20261109-155155_IMPL_denchoho_verify_nta/qa-dentori-r0807.pdf.download"
+  },
+  {
+   "key": "qa-chobo-r0807",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0026007-006_01.pdf",
+   "status": 200,
+   "bytes": 2944775,
+   "sha256": "5a60ec280067d34bcede082ce180c29971afefab8d1222d36331daa274fd2618",
+   "last_modified": "Fri, 10 Jul 2026 01:00:05 GMT",
+   "content_type": "application/pdf",
+   "saved": ".work/downloads/20261109-155155_IMPL_denchoho_verify_nta/qa-chobo-r0807.pdf.download"
+  },
+  {
+   "key": "tsutatsu-r0706",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/pdf/0025006-066.pdf",
+   "status": 200,
+   "bytes": 491781,
+   "sha256": "dceaaf0acfd0c1974b3b9047077360d7f63c8cf38e408467acd88666785f82af",
+   "last_modified": "Fri, 27 Jun 2025 04:56:12 GMT",
+   "content_type": "application/pdf",
+   "saved": ".work/downloads/20261109-155155_IMPL_denchoho_verify_nta/tsutatsu-r0706.pdf.download"
+  },
+  {
+   "key": "pamph-dentori-r0611",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/pdf/0024011-003_01.pdf",
+   "status": 200,
+   "bytes": 626415,
+   "sha256": "c25bc2898b9b0a1a71bce6cdc9955a5c9ebf6c6a474375e18e22c20f8de8c9af",
+   "last_modified": "Fri, 29 Nov 2024 01:00:13 GMT",
+   "content_type": "application/pdf",
+   "saved": ".work/downloads/20261109-155155_IMPL_denchoho_verify_nta/pamph-dentori-r0611.pdf.download"
+  },
+  {
+   "key": "pamph-dentori-check-r0611",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/pdf/0024011-003_02.pdf",
+   "status": 200,
+   "bytes": 367405,
+   "sha256": "113cb5c9d46874b8e1dda36dee0df92621aad509a38b11c4ac04ef2168307c7b",
+   "last_modified": "Fri, 29 Nov 2024 01:00:13 GMT",
+   "content_type": "application/pdf",
+   "saved": ".work/downloads/20261109-155155_IMPL_denchoho_verify_nta/pamph-dentori-check-r0611.pdf.download"
+  },
+  {
+   "key": "pamph-chobo-r0507",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/pdf/0023006-085_02.pdf",
+   "status": 200,
+   "bytes": 733200,
+   "sha256": "e8ba06ebf554fecec950eb46b26d77a93b2e59fd17dcc4b8395939a9f5931793",
+   "last_modified": "Thu, 18 Jan 2024 09:34:07 GMT",
+   "content_type": "application/pdf",
+   "saved": ".work/downloads/20261109-155155_IMPL_denchoho_verify_nta/pamph-chobo-r0507.pdf.download"
+  },
+  {
+   "key": "pamph-r0806",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/pdf/0026006-122.pdf",
+   "status": 200,
+   "bytes": 965128,
+   "sha256": "b13bcf821f6b641566f3e9650558fd180118f42c51d0513b9289b309057a15a9",
+   "last_modified": "Fri, 26 Jun 2026 05:00:12 GMT",
+   "content_type": "application/pdf",
+   "saved": ".work/downloads/20261109-155155_IMPL_denchoho_verify_nta/pamph-r0806.pdf.download"
+  },
+  {
+   "key": "kitei-kojin",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/word/0021006-031_e.docx",
+   "status": 200,
+   "bytes": 17911,
+   "sha256": "3a17d85060f1c60ff2b740cf62a17d0dd25eaafd96c3167050d5acd0a60f7684",
+   "last_modified": "Thu, 18 Jan 2024 09:34:07 GMT",
+   "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "saved": ".work/downloads/20261109-155155_IMPL_denchoho_verify_nta/kitei-kojin.docx.download"
+  },
+  {
+   "key": "sakuinbo",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/excel/0021006-031_c.xlsx",
+   "status": 200,
+   "bytes": 10403,
+   "sha256": "ebf39cce4e385f7dba8ed75f91d145153612c99c1053f65a7dec0483f04ac52d",
+   "last_modified": "Thu, 18 Jan 2024 09:34:12 GMT",
+   "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "saved": ".work/downloads/20261109-155155_IMPL_denchoho_verify_nta/sakuinbo.xlsx.download"
+  }
+ ]
+}

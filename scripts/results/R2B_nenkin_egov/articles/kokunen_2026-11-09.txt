@@ -1,0 +1,10 @@
+# kokunen 国民年金法 334AC0000000141 asof=2026-11-09
+# 法令名=国民年金法 law_revision_id=334AC0000000141_20261001_507AC0000000074 改正法令=令和七年法律第七十四号 施行日=2026-10-01 状態=CurrentEnforced
+# 取得URL=https://laws.e-gov.go.jp/api/2/law_data/334AC0000000141?response_format=json&asof=2026-11-09&omit_amendment_suppl_provision=true
+# 取得日時=20261109-181904
+# 生データ SHA-256=2330a742004da2fc6cfc8717833950eba6b4777bb25092d94d7470a359ea05f6
+
+## 本則 Num=25
+（公課の禁止）
+第二十五条
+（Paragraph1）　租税その他の公課は、給付として支給を受けた金銭を標準として、課することができない。ただし、老齢基礎年金及び付加年金については、この限りでない。

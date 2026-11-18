@@ -1,0 +1,129 @@
+{
+  "run": "20261109-134554",
+  "download_dir": ".work/downloads/20261109-134554_sakusei-assets",
+  "user_agent": "okura-gov-research/0.1",
+  "delay_sec": 2.5,
+  "results": [
+    {
+      "url": "https://www.keisan.nta.go.jp/kyoutu/js/main.js?vlm=1770099628000",
+      "fetched_at": "2026-11-09T13:45:54+0900",
+      "status": 200,
+      "final_url": "https://www.keisan.nta.go.jp/kyoutu/js/main.js?vlm=1770099628000",
+      "content_type": "application/x-javascript",
+      "last_modified": "Tue, 03 Feb 2026 06:20:28 GMT",
+      "bytes": 2409,
+      "sha256": "ca4e746751eb331d62f192916cd0ee42324ed857b4979f4c2cec1e6ac57c8aa1",
+      "saved": "20261109-134554_sakusei-assets/000_kyoutu_js_main.js_q_vlm_1770099628000"
+    },
+    {
+      "url": "https://www.keisan.nta.go.jp/kyoutu/js/ta_common.js?vlm=1770099628000",
+      "fetched_at": "2026-11-09T13:45:57+0900",
+      "status": 200,
+      "final_url": "https://www.keisan.nta.go.jp/kyoutu/js/ta_common.js?vlm=1770099628000",
+      "content_type": "application/x-javascript",
+      "last_modified": "Tue, 03 Feb 2026 06:20:28 GMT",
+      "bytes": 9839,
+      "sha256": "1b567af0317a5788187521043d57de2a0b941a42572175c2dda086edb463974b",
+      "saved": "20261109-134554_sakusei-assets/001_kyoutu_js_ta_common.js_q_vlm_1770099628000"
+    },
+    {
+      "url": "https://www.keisan.nta.go.jp/kyoutu/js/ta_client_validator.js?vlm=1770099628000",
+      "fetched_at": "2026-11-09T13:46:01+0900",
+      "status": 200,
+      "final_url": "https://www.keisan.nta.go.jp/kyoutu/js/ta_client_validator.js?vlm=1770099628000",
+      "content_type": "application/x-javascript",
+      "last_modified": "Tue, 03 Feb 2026 06:20:28 GMT",
+      "bytes": 901,
+      "sha256": "56c05e08899d4cee0852a99c80d9a4f66541252733fd1c3f8617720b069de978",
+      "saved": "20261109-134554_sakusei-assets/002_kyoutu_js_ta_client_validator.js_q_vlm_1770099628000"
+    },
+    {
+      "url": "https://www.keisan.nta.go.jp/kyoutu/js/ta_option_util.js?vlm=1770099628000",
+      "fetched_at": "2026-11-09T13:46:03+0900",
+      "status": 200,
+      "final_url": "https://www.keisan.nta.go.jp/kyoutu/js/ta_option_util.js?vlm=1770099628000",
+      "content_type": "application/x-javascript",
+      "last_modified": "Tue, 03 Feb 2026 06:20:28 GMT",
+      "bytes": 1715,
+      "sha256": "17f89fbf22edbdc04803bc761879bb9b5476528e21ab65b9133e900b8e640e0f",
+      "saved": "20261109-134554_sakusei-assets/003_kyoutu_js_ta_option_util.js_q_vlm_1770099628000"
+    },
+    {
+      "url": "https://www.keisan.nta.go.jp/kyoutu/js/modal.js?vlm=1770099628000",
+      "fetched_at": "2026-11-09T13:46:06+0900",
+      "status": 200,
+      "final_url": "https://www.keisan.nta.go.jp/kyoutu/js/modal.js?vlm=1770099628000",
+      "content_type": "application/x-javascript",
+      "last_modified": "Tue, 03 Feb 2026 06:20:28 GMT",
+      "bytes": 4994,
+      "sha256": "8a10168bea4bd1382820b480a15f434c80e7276395873f672b38ec76e3eb683b",
+      "saved": "20261109-134554_sakusei-assets/004_kyoutu_js_modal.js_q_vlm_1770099628000"
+    },
+    {
+      "url": "https://www.keisan.nta.go.jp/kyoutu/js/osirase.js?vlm=1770099628000",
+      "fetched_at": "2026-11-09T13:46:09+0900",
+      "status": 200,
+      "final_url": "https://www.keisan.nta.go.jp/kyoutu/js/osirase.js?vlm=1770099628000",
+      "content_type": "application/x-javascript",
+      "last_modified": "Tue, 03 Feb 2026 06:20:28 GMT",
+      "bytes": 1651,
+      "sha256": "eb03b6bdc6d7538d768ad5e62601e698256b015a54f650b98acfc9389db480f6",
+      "saved": "20261109-134554_sakusei-assets/005_kyoutu_js_osirase.js_q_vlm_1770099628000"
+    },
+    {
+      "url": "https://www.keisan.nta.go.jp/kyoutu/js/zenkaku_converter.js?vlm=1770099628000",
+      "fetched_at": "2026-11-09T13:46:11+0900",
+      "status": 200,
+      "final_url": "https://www.keisan.nta.go.jp/kyoutu/js/zenkaku_converter.js?vlm=1770099628000",
+      "content_type": "application/x-javascript",
+      "last_modified": "Tue, 03 Feb 2026 06:20:28 GMT",
+      "bytes": 6853,
+      "sha256": "a5eab7e38dfb5979b8c74130cbcc53310da4578651a1f9d004b9c4f0aea6ea69",
+      "saved": "20261109-134554_sakusei-assets/006_kyoutu_js_zenkaku_converter.js_q_vlm_1770099628000"
+    },
+    {
+      "url": "https://www.keisan.nta.go.jp/kyoutu/js/ta_zeimusyo.js?vlm=1770099628000",
+      "fetched_at": "2026-11-09T13:46:14+0900",
+      "status": 200,
+      "final_url": "https://www.keisan.nta.go.jp/kyoutu/js/ta_zeimusyo.js?vlm=1770099628000",
+      "content_type": "application/x-javascript",
+      "last_modified": "Tue, 03 Feb 2026 06:20:28 GMT",
+      "bytes": 674,
+      "sha256": "2ed868024cc7e8f50a56b80e41ccc6aa1b496a663f43266aacee548c49cb6151",
+      "saved": "20261109-134554_sakusei-assets/007_kyoutu_js_ta_zeimusyo.js_q_vlm_1770099628000"
+    },
+    {
+      "url": "https://www.keisan.nta.go.jp/kyoutu/js/escape_injection.js?vlm=1770099628000",
+      "fetched_at": "2026-11-09T13:46:17+0900",
+      "status": 200,
+      "final_url": "https://www.keisan.nta.go.jp/kyoutu/js/escape_injection.js?vlm=1770099628000",
+      "content_type": "application/x-javascript",
+      "last_modified": "Tue, 03 Feb 2026 06:20:28 GMT",
+      "bytes": 1627,
+      "sha256": "321098b4f048d9dc7f4eb969fb0ffe54fe91da53de18e91752a49f2e207b6fb2",
+      "saved": "20261109-134554_sakusei-assets/008_kyoutu_js_escape_injection.js_q_vlm_1770099628000"
+    },
+    {
+      "url": "https://www.keisan.nta.go.jp/r7/osirase_top.txt",
+      "fetched_at": "2026-11-09T13:46:19+0900",
+      "status": 200,
+      "final_url": "https://www.keisan.nta.go.jp/r7/osirase_top.txt",
+      "content_type": "text/plain",
+      "last_modified": "Thu, 05 Nov 2026 01:58:43 GMT",
+      "bytes": 350,
+      "sha256": "22776e9cf26acfb9f6eea4335a1a662a5ea201c29841ab2abb6838490bb3f089",
+      "saved": "20261109-134554_sakusei-assets/009_r7_osirase_top.txt"
+    },
+    {
+      "url": "https://www.keisan.nta.go.jp/kyoutu/ky/st/ccw0400",
+      "fetched_at": "2026-11-09T13:46:22+0900",
+      "status": 200,
+      "final_url": "https://www.keisan.nta.go.jp/kyoutu/ky/st/ccw0400",
+      "content_type": "text/html;charset=MS932",
+      "last_modified": null,
+      "bytes": 44901,
+      "sha256": "014333892d39f99136ba1a88d05118b8cc87bfa2ee221e2cb0f3780a8f390b35",
+      "saved": "20261109-134554_sakusei-assets/010_kyoutu_ky_st_ccw0400"
+    }
+  ]
+}

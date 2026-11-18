@@ -1,0 +1,118 @@
+{
+ "fetched_at": "20261111-110258",
+ "url": "https://www.nta.go.jp/robots.txt",
+ "status": 200,
+ "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+ "saved": ".work/downloads/20261111-110258_IMPL2_tsukin_nta_robots/robots.txt",
+ "disallow_lines": [
+  "Disallow: /service_publication/",
+  "Disallow: /about/organization/sapporo/service_publication/",
+  "Disallow: /about/organization/sendai/service_publication/",
+  "Disallow: /about/organization/kantoshinetsu/service_publication/",
+  "Disallow: /about/organization/tokyo/service_publication/",
+  "Disallow: /about/organization/kanazawa/service_publication/",
+  "Disallow: /about/organization/nagoya/service_publication/",
+  "Disallow: /about/organization/osaka/service_publication/",
+  "Disallow: /about/organization/hiroshima/service_publication/",
+  "Disallow: /about/organization/takamatsu/service_publication/",
+  "Disallow: /about/organization/fukuoka/service_publication/",
+  "Disallow: /about/organization/kumamoto/service_publication/",
+  "Disallow: /about/organization/okinawa/service_publication/",
+  "Disallow:"
+ ],
+ "urls": {
+  "pages/kihon_02_02": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/02.htm",
+   "allowed": true
+  },
+  "pages/kihon_index": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01.htm",
+   "allowed": true
+  },
+  "pages/ta_2582": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2582.htm",
+   "allowed": true
+  },
+  "pages/ta_2585": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2585.htm",
+   "allowed": true
+  },
+  "pages/tacode_index": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/index.htm",
+   "allowed": true
+  },
+  "pages2/shitsugi_g_03_01": {
+   "url": "https://www.nta.go.jp/law/shitsugi/gensen/03/01.htm",
+   "allowed": true
+  },
+  "pages2/shitsugi_g_03_18": {
+   "url": "https://www.nta.go.jp/law/shitsugi/gensen/03/18.htm",
+   "allowed": true
+  },
+  "pages2/shitsugi_g_03_19": {
+   "url": "https://www.nta.go.jp/law/shitsugi/gensen/03/19.htm",
+   "allowed": true
+  },
+  "pages2/shitsugi_g_03_20": {
+   "url": "https://www.nta.go.jp/law/shitsugi/gensen/03/20.htm",
+   "allowed": true
+  },
+  "pages2/shitsugi_g_03_21": {
+   "url": "https://www.nta.go.jp/law/shitsugi/gensen/03/21.htm",
+   "allowed": true
+  },
+  "pages2/shitsugi_g_03_22": {
+   "url": "https://www.nta.go.jp/law/shitsugi/gensen/03/22.htm",
+   "allowed": true
+  },
+  "pages2/shitsugi_g_03_23": {
+   "url": "https://www.nta.go.jp/law/shitsugi/gensen/03/23.htm",
+   "allowed": true
+  },
+  "pages2/ta_2508": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2508.htm",
+   "allowed": true
+  },
+  "pages2/users_2025tsukin": {
+   "url": "https://www.nta.go.jp/users/gensen/2025tsukin/index.htm",
+   "allowed": true
+  },
+  "pages2/users_2026tsukin": {
+   "url": "https://www.nta.go.jp/users/gensen/2026tsukin/index.htm",
+   "allowed": true
+  },
+  "pages2/hotei_tebikihtml": {
+   "url": "https://www.nta.go.jp/publication/pamph/hotei/tebikihtml/index.htm",
+   "allowed": true
+  },
+  "pdfs/tsukin2025_01": {
+   "url": "https://www.nta.go.jp/users/gensen/2025tsukin/pdf/01.pdf",
+   "allowed": true
+  },
+  "pdfs/tsukin2025_02": {
+   "url": "https://www.nta.go.jp/users/gensen/2025tsukin/pdf/02.pdf",
+   "allowed": true
+  },
+  "pdfs/tsukin2026_01": {
+   "url": "https://www.nta.go.jp/users/gensen/2026tsukin/pdf/01.pdf",
+   "allowed": true
+  },
+  "pdfs/tebiki2025_all": {
+   "url": "https://www.nta.go.jp/publication/pamph/hotei/tebiki2025/PDF/all.pdf",
+   "allowed": true
+  },
+  "pdfs/tebiki2026_all": {
+   "url": "https://www.nta.go.jp/publication/pamph/hotei/tebiki2026/PDF/all.pdf",
+   "allowed": true
+  },
+  "pages3/tebikihtml_2_3_4": {
+   "url": "https://www.nta.go.jp/publication/pamph/hotei/tebikihtml/2-3-4.htm",
+   "allowed": true
+  },
+  "pages3/tsukin2025_03": {
+   "url": "https://www.nta.go.jp/users/gensen/2025tsukin/pdf/03.pdf",
+   "allowed": true
+  }
+ },
+ "all_allowed": true
+}

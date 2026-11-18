@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "okura-monitor"
+version = "0.1.0"
+description = "okura-gov：法令・通知・通達の変更の監視と issue の下書き（標準ライブラリだけ）"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]

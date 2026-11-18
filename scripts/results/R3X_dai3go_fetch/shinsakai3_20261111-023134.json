@@ -1,0 +1,44 @@
+{
+  "set": "shinsakai3",
+  "fetched_at_local": "20261111-023134",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work/downloads/20261111-023134_R3X_dai3go_shinsakai3",
+  "results": [
+    {
+      "id": "shinsa_r04_05_07_02",
+      "url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/dl/05-r04_05/07_02.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/dl/05-r04_05/07_02.pdf",
+      "content_type": "application/pdf",
+      "bytes": 910603,
+      "sha256": "7da2fef0f8e9548640bdce5c61ef6b0510ff9a13329341a2a162211e6b024b96",
+      "last_modified": "Fri, 10 Jul 2026 01:39:50 GMT",
+      "etag": "\"de50b-65637d1034e27\"",
+      "saved": ".work/downloads/20261111-023134_R3X_dai3go_shinsakai3/shinsa_r04_05_07_02.pdf"
+    },
+    {
+      "id": "shinsa_r02_03_06_10",
+      "url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/dl/05-r02_03/06_10.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/topics/bukyoku/shinsa/syakai/dl/05-r02_03/06_10.pdf",
+      "content_type": "application/pdf",
+      "bytes": 662161,
+      "sha256": "a5c281580767d219193823e94f28c4fc2e07d5ef155cd51d57e71546c31d0170",
+      "last_modified": "Fri, 10 Jul 2026 01:42:08 GMT",
+      "etag": "\"a1a91-65637d9493414\"",
+      "saved": ".work/downloads/20261111-023134_R3X_dai3go_shinsakai3/shinsa_r02_03_06_10.pdf"
+    },
+    {
+      "id": "c_001746546",
+      "url": "https://www.mhlw.go.jp/content/12500000/001746546.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/12500000/001746546.pdf",
+      "content_type": "application/pdf",
+      "bytes": 3300054,
+      "sha256": "a36904c4d855fa1768cdabafdfe9b53e950d461370eeb45a6cfc709b480ce37b",
+      "last_modified": "Mon, 07 Sep 2026 07:27:08 GMT",
+      "etag": "\"325ad6-65adf8bb10e9b\"",
+      "saved": ".work/downloads/20261111-023134_R3X_dai3go_shinsakai3/c_001746546.pdf"
+    }
+  ]
+}

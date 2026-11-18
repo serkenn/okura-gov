@@ -1,0 +1,56 @@
+{
+  "set": "mof",
+  "fetched_at_local": "20261109-200850",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "mof_unyo_hoshin_current",
+      "url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/TU-19591001-2927-11.pdf",
+      "status": 200,
+      "final_url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/TU-19591001-2927-11.pdf",
+      "content_type": "application/pdf",
+      "bytes": 443817,
+      "sha256": "b059e9ae85fa8dfa55e4f012f9c9bd5c12b5fac78bbf4a0d3f320d569dc82fe4",
+      "last_modified": "Wed, 30 Sep 2026 14:00:20 GMT",
+      "etag": "\"6c5a9-65cb3b83a6500\"",
+      "content_disposition": null,
+      "saved": ".work/downloads/20261109-200850_R3X_kyosai-b_mof/mof_unyo_hoshin_current.pdf"
+    },
+    {
+      "id": "mof_tsuutatsu_r",
+      "url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/tsuutatsu_r.htm",
+      "status": 200,
+      "final_url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/tsuutatsu_r.htm",
+      "content_type": "text/html",
+      "bytes": 46826,
+      "sha256": "7d8da7cde0ef23503233f45f7e047cd4a37e11842bd7eab6eba08f37db8307ff",
+      "last_modified": "Fri, 31 Jul 2026 00:00:30 GMT",
+      "etag": "\"b664-657dce06e2380\"",
+      "content_disposition": null,
+      "saved": ".work/downloads/20261109-200850_R3X_kyosai-b_mof/mof_tsuutatsu_r.html",
+      "charset": "UTF-8",
+      "title": "通達等（令和） : 財務省",
+      "text_chars": 4522,
+      "text": ".work/text/20261109-200850_R3X_kyosai-b_mof/mof_tsuutatsu_r.txt",
+      "n_links": 149
+    },
+    {
+      "id": "mof_tsuutatsu_s",
+      "url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/tsuutatsu_s.htm",
+      "status": 200,
+      "final_url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/tsuutatsu_s.htm",
+      "content_type": "text/html",
+      "bytes": 182003,
+      "sha256": "6287da1640c199daf108855434f92b5d823cc0b785caa5107f19b80457087790",
+      "last_modified": "Wed, 30 Sep 2026 14:00:19 GMT",
+      "etag": "\"2c66e-65cb3b82b22c0\"",
+      "content_disposition": null,
+      "saved": ".work/downloads/20261109-200850_R3X_kyosai-b_mof/mof_tsuutatsu_s.html",
+      "charset": "UTF-8",
+      "title": "通達等（昭和） : 財務省",
+      "text_chars": 20453,
+      "text": ".work/text/20261109-200850_R3X_kyosai-b_mof/mof_tsuutatsu_s.txt",
+      "n_links": 461
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+ "set": "shitsugi",
+ "fetched_at": "20261109-150612",
+ "download_dir": ".work/downloads/20261109-150612_IMPL_jigyo_nta_shitsugi",
+ "items": [
+  {
+   "id": "shitsugi_shotoku_index",
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 03 Dec 2025 08:31:08 GMT",
+   "bytes": 37044,
+   "sha256": "265c6c375a970b709ca3081b26a902f5699bea650dcd7abcf5a00f83cab7fd15",
+   "saved": ".work/downloads/20261109-150612_IMPL_jigyo_nta_shitsugi/shitsugi_shotoku_index.htm",
+   "title": "所得税目次一覧｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "shitsugi_02_04",
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/02/04.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 03 Dec 2025 08:31:07 GMT",
+   "bytes": 5434,
+   "sha256": "2848edb3ff68205a44be26d1484413aef149d849cd02a16bea7e70a84597837e",
+   "saved": ".work/downloads/20261109-150612_IMPL_jigyo_nta_shitsugi/shitsugi_02_04.htm",
+   "title": "一時所得の金額の計算(一時所得内の内部通算の可否)｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "shitsugi_02_09",
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/02/09.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 03 Dec 2025 08:31:07 GMT",
+   "bytes": 5574,
+   "sha256": "018f88b5f2636dde86972735db812fc5ed1eeb6a43dab6d2cb3388c43decf7b5",
+   "saved": ".work/downloads/20261109-150612_IMPL_jigyo_nta_shitsugi/shitsugi_02_09.htm",
+   "title": "生命保険金の受取人が2人いる場合の一時所得の金額の計算｜国税庁",
+   "encoding": "shift_jis"
+  }
+ ]
+}

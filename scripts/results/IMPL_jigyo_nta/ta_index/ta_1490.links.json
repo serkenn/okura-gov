@@ -1,0 +1,314 @@
+[
+ {
+  "href": "https://www.nta.go.jp/",
+  "text": "ホーム"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/index.htm",
+  "text": "税の情報・手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/index.htm",
+  "text": "税について調べる"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm",
+  "text": "タックスアンサー（よくある税の質問）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1755.htm",
+  "text": "生命保険の一時金(業務に関して受けるものを除きます。)や損害保険の満期返戻金等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1400.htm",
+  "text": "給与所得"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1520.htm",
+  "text": "一時払養老保険、一時払損害保険等(保険期間が5年以内であるなど一定の要件を満たすもの)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/index.htm",
+  "text": "確定申告書等の様式・手引き等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/1557_2.htm",
+  "text": "申告書・申告書付表と税額計算書等 一覧（申告所得税）"
+ },
+ {
+  "href": "https://www.keisan.nta.go.jp/kyoutu/ky/sm/top#bsctrl",
+  "text": "確定申告書等作成コーナー"
+ },
+ {
+  "href": "javascript:void(0)",
+  "text": "〔alt:ひらく〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/shitsugi/shotoku/02/22.htm",
+  "text": "母体企業の倒産によって厚生年金基金が解散し、その残余財産の分配一時金が支払われる場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/shitsugi/shotoku/02/31.htm",
+  "text": "確定給付企業年金規約に基づいて年金受給者が老齢給付金の一部を一時金で支給を受けた場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/shitsugi/shotoku/02/23.htm",
+  "text": "引き続き勤務する従業員に対して支払われる確定給付企業年金の制度終了に伴う一時金"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/shitsugi/shotoku/02/47.htm",
+  "text": "確定給付企業年金の給付減額に伴い支給される一時金"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/shitsugi/shotoku/02/48.htm",
+  "text": "適格退職年金制度廃止後に継続している退職年金契約"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/shitsugi/shotoku/02/37.htm",
+  "text": "「ふるさと納税」を支出した者が地方公共団体から謝礼を受けた場合の課税関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/shitsugi/shotoku/02/08.htm",
+  "text": "福利厚生団体の解散に伴う一時金"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/shitsugi/shotoku/02/03.htm",
+  "text": "生存給付金付定期保険に基づく生存給付金に係る一時所得の金額の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/shitsugi/shotoku/02/09.htm",
+  "text": "生命保険金の受取人が2人いる場合の一時所得の金額の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/shitsugi/shotoku/02/10.htm",
+  "text": "一時払養老保険の保険金額を減額した場合における清算金等に係る一時所得の金額の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/shitsugi/shotoku/02/04.htm",
+  "text": "一時所得の金額の計算（一時所得内の内部通算の可否）"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/shitsugi/shotoku/02/24.htm",
+  "text": "手付流れを受領した場合の仲介手数料"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/shitsugi/shotoku/02/32.htm",
+  "text": "役員に付与されたストックオプションを相続人が権利行使した場合の所得区分（6か月以内に一括して行使することが条件とされている場合）"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/shitsugi/shotoku/02/51.htm",
+  "text": "マラソン大会の賞金・褒賞金の課税関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1493.htm",
+  "text": "土地等の財産を時効の援用により取得したとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2230.htm",
+  "text": "源泉分離課税制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3555.htm",
+  "text": "収用等により取得する各種補償金の所得区分"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490qa.htm",
+  "text": "マイナポイントの課税関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490qa.htm#q2",
+  "text": "すまい給付金等の課税関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shirabekata/9200.htm#a02",
+  "text": "税についての相談窓口"
+ },
+ {
+  "href": "https://www.nta.go.jp/suggestion/taxanser/input_form.html",
+  "text": "今後の改善のための参考とさせていただくため、アンケートを実施しています。ぜひご協力をお願いいたします。アンケートへ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm#page-top",
+  "text": "このページの先頭へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/index.htm",
+  "text": "税の情報・手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/index.htm",
+  "text": "税について調べる"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm#sidenaviAccordionCollapse1",
+  "text": "〔alt:メニューを閉じる〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+  "text": "所得税（確定申告書等作成コーナー）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm",
+  "text": "タックスアンサー（よくある税の質問）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/sodan/index.htm",
+  "text": "税の相談"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/index.htm",
+  "text": "税目別情報"
+ },
+ {
+  "href": "http://www.rosenka.nta.go.jp/",
+  "text": "路線価図・評価倍率表"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/saigai/index.htm",
+  "text": "災害関連情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/kokusai/index.htm",
+  "text": "国際税務関係情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shirabekata/info.htm",
+  "text": "税についての上手な調べ方"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/index.htm",
+  "text": "申告手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm#sidenaviAccordionCollapse2",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/index.htm",
+  "text": "申告・申請・届出等、用紙（手続の案内・様式）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/mynumberinfo/index.htm",
+  "text": "社会保障・税番号制度(マイナンバー)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/index.htm",
+  "text": "納税・納税証明書手続"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm#sidenaviAccordionCollapse3",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/annai/index.htm",
+  "text": "納税に関する総合案内"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/nozei-shomei/01.htm",
+  "text": "納税証明書"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/enno-butsuno/01.htm",
+  "text": "延納・物納申請等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/entaizei/keisan/entai.htm",
+  "text": "延滞税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/index.htm",
+  "text": "税理士に関する情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm#sidenaviAccordionCollapse4",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/index.htm#news",
+  "text": "新着情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/zeirishiseido/seido.htm",
+  "text": "税理士制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/zeirishishiken/zeirishi.htm",
+  "text": "税理士試験"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/chokai/chokai.htm",
+  "text": "税理士に関する懲戒処分等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/search/search.htm",
+  "text": "税理士をお探しの方"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/zeirishiseido/qa.htm",
+  "text": "税理士関係法令等・Q＆A"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm",
+  "text": "お酒に関する情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm#sidenaviAccordionCollapse5",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#syuzei",
+  "text": "酒税関係及び各種施策"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#ippan",
+  "text": "一般的な酒税の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#senmonsyuzei",
+  "text": "専門的な酒税の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#senmonsodan",
+  "text": "専門的な酒税の相談"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#shinkoku",
+  "text": "酒税の申告・納付や届出等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#denwa",
+  "text": "電話相談センター・税務署の案内"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#shingikai",
+  "text": "審議会等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#tokei",
+  "text": "統計情報・各種資料"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#qa",
+  "text": "お酒に関するQ＆A(よくある質問)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/kids/index.htm",
+  "text": "税の学習コーナー"
+ },
+ {
+  "href": "https://www.nta.go.jp/",
+  "text": "ホーム"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/index.htm",
+  "text": "税の情報・手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/index.htm",
+  "text": "税について調べる"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm",
+  "text": "タックスアンサー（よくある税の質問）"
+ }
+]

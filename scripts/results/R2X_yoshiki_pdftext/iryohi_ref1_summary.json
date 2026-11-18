@@ -1,0 +1,43 @@
+{
+ "file": "005_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_04_pdf_ref1.pdf",
+ "sha256": "7c602c74703668f06e37b5efe40bf924da885cc8387c7fc3c1dd7e5c8fcb23ea",
+ "bytes": 795776,
+ "aes_selftest": true,
+ "encrypted": true,
+ "V": 4,
+ "R": 4,
+ "P": 2836,
+ "aes": true,
+ "key_len": 16,
+ "key_ok": true,
+ "encrypt_obj": 7,
+ "n_objects": 6,
+ "pages": [
+  {
+   "page": 1,
+   "obj": 4,
+   "mediabox": [
+    "0",
+    "0",
+    "2481",
+    "3508"
+   ],
+   "content_bytes": 49,
+   "n_text_runs": 0,
+   "xobjects": [
+    {
+     "name": "image",
+     "obj": 5,
+     "subtype": "Image",
+     "w": 2481,
+     "h": 3508,
+     "filter": "DCTDecode"
+    }
+   ]
+  }
+ ],
+ "form_ids": [],
+ "titles_in_dicts": [],
+ "n_rows": 0,
+ "n_codes": 0
+}

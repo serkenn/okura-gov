@@ -1,0 +1,130 @@
+{
+ "run_at": "20261109-180631",
+ "download_dir": ".work\\downloads\\20261109-180631_R2B_nenkin_egov2",
+ "user_agent": "okura-gov-research/0.1",
+ "fetches": [
+  {
+   "kind": "revisions",
+   "short": "shotoku-rei",
+   "url": "https://laws.e-gov.go.jp/api/2/law_revisions/340CO0000000096?response_format=json&amendment_date_from=2025-01-01",
+   "status": 200,
+   "n": 16,
+   "sha256": "ce9fa1214c78cf1dcc089e8448e8878590d85f031a26739b2633d5f1a0e5091f"
+  },
+  {
+   "kind": "revisions",
+   "short": "sochi-rei",
+   "url": "https://laws.e-gov.go.jp/api/2/law_revisions/332CO0000000043?response_format=json&amendment_date_from=2025-01-01",
+   "status": 200,
+   "n": 35,
+   "sha256": "08689dd3f16beb5eeb1ade90d84e80f6baadc5bf0ddebcb5a2006895e37f6a8b"
+  },
+  {
+   "kind": "law_data",
+   "short": "shotoku-rei",
+   "law_id": "340CO0000000096",
+   "asof": "2025-12-31",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096?response_format=json&asof=2025-12-31",
+   "law_revision_id": "340CO0000000096_20251201_507CO0000000120",
+   "amendment_law_num": "令和七年政令第百二十号",
+   "amendment_enforcement_date": "2025-12-01",
+   "current_revision_status": "PreviousEnforced",
+   "sha256": "e972344f436ecd9b9b8f07e538358e716459cf0d1a77aa587699c6f71d95583a",
+   "bytes": 3591986
+  },
+  {
+   "kind": "law_data",
+   "short": "shotoku-rei",
+   "law_id": "340CO0000000096",
+   "asof": "2026-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096?response_format=json&asof=2026-01-01",
+   "law_revision_id": "340CO0000000096_20260101_507CO0000000120",
+   "amendment_law_num": "令和七年政令第百二十号",
+   "amendment_enforcement_date": "2026-01-01",
+   "current_revision_status": "PreviousEnforced",
+   "sha256": "72cf81b3a86b18eeedfe2ac7a05fecceabe5f8446b7f6cb9a88359ea1c333e2e",
+   "bytes": 3596402
+  },
+  {
+   "kind": "law_data",
+   "short": "shotoku-rei",
+   "law_id": "340CO0000000096",
+   "asof": "2027-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096?response_format=json&asof=2027-01-01",
+   "law_revision_id": "340CO0000000096_20270101_508CO0000000093",
+   "amendment_law_num": "令和八年政令第九十三号",
+   "amendment_enforcement_date": "2027-01-01",
+   "current_revision_status": "UnEnforced",
+   "sha256": "f4965711894ea1c7b149f1e8db4069c87646cc070445c1afd5f1abe633883da9",
+   "bytes": 3629167
+  },
+  {
+   "kind": "law_data",
+   "short": "sochi-rei",
+   "law_id": "332CO0000000043",
+   "asof": "2025-12-31",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/332CO0000000043?response_format=json&asof=2025-12-31",
+   "law_revision_id": "332CO0000000043_20251231_507CO0000000401",
+   "amendment_law_num": "令和七年政令第四百一号",
+   "amendment_enforcement_date": "2025-12-31",
+   "current_revision_status": "PreviousEnforced",
+   "sha256": "a3f62b67c672c5526dfb0abb0811e8ad128fd13e30c25dcdbbf102e7df39a38f",
+   "bytes": 13874633
+  },
+  {
+   "kind": "law_data",
+   "short": "sochi-rei",
+   "law_id": "332CO0000000043",
+   "asof": "2026-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/332CO0000000043?response_format=json&asof=2026-01-01",
+   "law_revision_id": "332CO0000000043_20260101_507CO0000000277",
+   "amendment_law_num": "令和七年政令第二百七十七号",
+   "amendment_enforcement_date": "2026-01-01",
+   "current_revision_status": "PreviousEnforced",
+   "sha256": "43d56ff044010e3736ac9ab59d2061fd80b2f9a40a2d38c0f264c8cf6256103c",
+   "bytes": 13876452
+  },
+  {
+   "kind": "law_data",
+   "short": "sochi-rei",
+   "law_id": "332CO0000000043",
+   "asof": "2027-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/332CO0000000043?response_format=json&asof=2027-01-01",
+   "law_revision_id": "332CO0000000043_20270101_508CO0000000098",
+   "amendment_law_num": "令和八年政令第九十八号",
+   "amendment_enforcement_date": "2027-01-01",
+   "current_revision_status": "UnEnforced",
+   "sha256": "5d2cc3d2015f2fa199f87507a6eb33f7d0dc32afeeb23d23c26b74db25b313e6",
+   "bytes": 13893688
+  },
+  {
+   "kind": "law_data",
+   "short": "sochi",
+   "law_id": "332AC0000000026",
+   "asof": "2026-12-31",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/332AC0000000026?response_format=json&asof=2026-12-31",
+   "law_revision_id": "332AC0000000026_20261204_508AC0000000012",
+   "amendment_law_num": "令和八年法律第十二号",
+   "amendment_enforcement_date": null,
+   "current_revision_status": "UnEnforced",
+   "sha256": "763fce2df2b1e7093ef3ac2e44e36e766c061d5166f23ab8efe3ad012783f7f7",
+   "bytes": 14524288
+  },
+  {
+   "kind": "laws",
+   "title": "年金生活者支援給付金の支給に関する法律",
+   "url": "https://laws.e-gov.go.jp/api/2/laws?law_title=%E5%B9%B4%E9%87%91%E7%94%9F%E6%B4%BB%E8%80%85%E6%94%AF%E6%8F%B4%E7%B5%A6%E4%BB%98%E9%87%91%E3%81%AE%E6%94%AF%E7%B5%A6%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E6%B3%95%E5%BE%8B&response_format=json",
+   "status": 200,
+   "sha256": "b454fd3174cefd4bf304b06cabf79ec2a85053e183dd5e33e9e27f7293ee77c1"
+  },
+  {
+   "kind": "law_data",
+   "short": "shienkyufu",
+   "law_id": "424AC0000000102",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/424AC0000000102?response_format=json&asof=2026-11-09&omit_amendment_suppl_provision=true",
+   "law_revision_id": "424AC0000000102_20250601_504AC0000000068",
+   "sha256": "7ed74cf4d742999c3d378743b31fbe445e68b30e7a8595b5ab7dc3f8574bbb9a"
+  }
+ ]
+}

@@ -1,0 +1,3129 @@
+{
+  "fetched_at": "20261109-133843",
+  "asof": "2026-11-09",
+  "download_dir": ".work\\downloads\\20261109-133843_R4_laws",
+  "laws": [
+    {
+      "law": "所得税法",
+      "law_id": "340AC0000000033",
+      "law_num": "昭和四十年法律第三十三号",
+      "asof": "2026-11-09",
+      "law_revision_id": "340AC0000000033_20261001_507AC0000000070",
+      "amendment_enforcement_date": "2026-10-01",
+      "amendment_law_title": "日本学術会議法",
+      "amendment_law_num": "令和七年法律第七十号",
+      "updated": "2026-09-08T11:41:33+09:00",
+      "current_revision_status": "CurrentEnforced",
+      "articles_in_main_provision": 302,
+      "extracted": [
+        "2",
+        "5",
+        "56",
+        "57",
+        "73",
+        "74",
+        "79",
+        "81",
+        "83",
+        "83_2",
+        "84",
+        "84_2",
+        "85",
+        "86",
+        "190",
+        "194",
+        "195"
+      ],
+      "output": "scripts\\results\\R4_fetch_laws\\articles\\所得税法_asof2026-11-09.txt"
+    },
+    {
+      "law": "所得税法",
+      "law_id": "340AC0000000033",
+      "law_num": "昭和四十年法律第三十三号",
+      "asof": "2025-12-31",
+      "law_revision_id": "340AC0000000033_20251218_507AC0000000013",
+      "amendment_enforcement_date": "2025-12-18",
+      "amendment_law_title": "所得税法等の一部を改正する法律",
+      "amendment_law_num": "令和七年法律第十三号",
+      "updated": "2025-08-04T10:01:56+09:00",
+      "current_revision_status": "PreviousEnforced",
+      "articles_in_main_provision": 300,
+      "extracted": [
+        "2",
+        "5",
+        "56",
+        "57",
+        "73",
+        "74",
+        "79",
+        "81",
+        "83",
+        "83_2",
+        "84",
+        "84_2",
+        "85",
+        "86",
+        "190",
+        "194",
+        "195"
+      ],
+      "output": "scripts\\results\\R4_fetch_laws\\articles\\所得税法_asof2025-12-31.txt"
+    },
+    {
+      "law": "所得税法",
+      "law_id": "340AC0000000033",
+      "law_num": "昭和四十年法律第三十三号",
+      "asof": "2026-12-01",
+      "law_revision_id": "340AC0000000033_20261201_508AC0000000012",
+      "amendment_enforcement_date": "2026-12-01",
+      "amendment_law_title": "所得税法等の一部を改正する法律",
+      "amendment_law_num": "令和八年法律第十二号",
+      "updated": "2026-07-28T10:44:31+09:00",
+      "current_revision_status": "UnEnforced",
+      "articles_in_main_provision": 302,
+      "extracted": [
+        "2",
+        "5",
+        "56",
+        "57",
+        "73",
+        "74",
+        "79",
+        "81",
+        "83",
+        "83_2",
+        "84",
+        "84_2",
+        "85",
+        "86",
+        "190",
+        "194",
+        "195"
+      ],
+      "output": "scripts\\results\\R4_fetch_laws\\articles\\所得税法_asof2026-12-01.txt"
+    },
+    {
+      "law": "所得税法",
+      "law_id": "340AC0000000033",
+      "law_num": "昭和四十年法律第三十三号",
+      "asof": "2027-01-01",
+      "law_revision_id": "340AC0000000033_20270101_508AC0000000012",
+      "amendment_enforcement_date": "2027-01-01",
+      "amendment_law_title": "所得税法等の一部を改正する法律",
+      "amendment_law_num": "令和八年法律第十二号",
+      "updated": "2026-07-28T12:10:38+09:00",
+      "current_revision_status": "UnEnforced",
+      "articles_in_main_provision": 302,
+      "extracted": [
+        "2",
+        "5",
+        "56",
+        "57",
+        "73",
+        "74",
+        "79",
+        "81",
+        "83",
+        "83_2",
+        "84",
+        "84_2",
+        "85",
+        "86",
+        "190",
+        "194",
+        "195"
+      ],
+      "output": "scripts\\results\\R4_fetch_laws\\articles\\所得税法_asof2027-01-01.txt"
+    },
+    {
+      "law": "所得税法施行令",
+      "law_id": "340CO0000000096",
+      "law_num": "昭和四十年政令第九十六号",
+      "asof": "2026-11-09",
+      "law_revision_id": "340CO0000000096_20260522_508CO0000000093",
+      "amendment_enforcement_date": "2026-05-22",
+      "amendment_law_title": "所得税法施行令の一部を改正する政令",
+      "amendment_law_num": "令和八年政令第九十三号",
+      "updated": "2026-09-08T12:07:52+09:00",
+      "current_revision_status": "CurrentEnforced",
+      "articles_in_main_provision": 462,
+      "extracted": [
+        "164",
+        "165",
+        "166",
+        "167",
+        "205",
+        "207",
+        "217_2",
+        "218",
+        "218_2",
+        "219",
+        "220",
+        "318",
+        "318_3",
+        "318_4",
+        "319_9",
+        "319_10",
+        "319_11"
+      ],
+      "output": "scripts\\results\\R4_fetch_laws\\articles\\所得税法施行令_asof2026-11-09.txt"
+    },
+    {
+      "law": "所得税法施行令",
+      "law_id": "340CO0000000096",
+      "law_num": "昭和四十年政令第九十六号",
+      "asof": "2025-12-31",
+      "law_revision_id": "340CO0000000096_20251201_507CO0000000120",
+      "amendment_enforcement_date": "2025-12-01",
+      "amendment_law_title": "所得税法施行令等の一部を改正する政令",
+      "amendment_law_num": "令和七年政令第百二十号",
+      "updated": "2025-12-03T09:27:34+09:00",
+      "current_revision_status": "PreviousEnforced",
+      "articles_in_main_provision": 463,
+      "extracted": [
+        "164",
+        "165",
+        "166",
+        "167",
+        "205",
+        "207",
+        "217_3",
+        "218",
+        "218_2",
+        "219",
+        "220",
+        "318",
+        "318_3",
+        "318_4",
+        "319_9",
+        "319_10",
+        "319_11"
+      ],
+      "output": "scripts\\results\\R4_fetch_laws\\articles\\所得税法施行令_asof2025-12-31.txt"
+    },
+    {
+      "law": "所得税法施行令",
+      "law_id": "340CO0000000096",
+      "law_num": "昭和四十年政令第九十六号",
+      "asof": "2026-12-01",
+      "law_revision_id": "340CO0000000096_20261201_508CO0000000093",
+      "amendment_enforcement_date": "2026-12-01",
+      "amendment_law_title": "所得税法施行令の一部を改正する政令",
+      "amendment_law_num": "令和八年政令第九十三号",
+      "updated": "2026-04-21T12:37:35+09:00",
+      "current_revision_status": "UnEnforced",
+      "articles_in_main_provision": 462,
+      "extracted": [
+        "164",
+        "165",
+        "166",
+        "167",
+        "205",
+        "207",
+        "217_2",
+        "218",
+        "218_2",
+        "219",
+        "220",
+        "318",
+        "318_3",
+        "318_4",
+        "319_9",
+        "319_10",
+        "319_11"
+      ],
+      "output": "scripts\\results\\R4_fetch_laws\\articles\\所得税法施行令_asof2026-12-01.txt"
+    },
+    {
+      "law": "所得税法施行令",
+      "law_id": "340CO0000000096",
+      "law_num": "昭和四十年政令第九十六号",
+      "asof": "2027-01-01",
+      "law_revision_id": "340CO0000000096_20270101_508CO0000000093",
+      "amendment_enforcement_date": "2027-01-01",
+      "amendment_law_title": "所得税法施行令の一部を改正する政令",
+      "amendment_law_num": "令和八年政令第九十三号",
+      "updated": "2026-04-21T11:05:13+09:00",
+      "current_revision_status": "UnEnforced",
+      "articles_in_main_provision": 462,
+      "extracted": [
+        "164",
+        "165",
+        "166",
+        "167",
+        "205",
+        "207",
+        "217_2",
+        "218",
+        "218_2",
+        "219",
+        "220",
+        "318",
+        "318_3",
+        "318_4",
+        "319_9",
+        "319_10",
+        "319_11"
+      ],
+      "output": "scripts\\results\\R4_fetch_laws\\articles\\所得税法施行令_asof2027-01-01.txt"
+    },
+    {
+      "law": "所得税法施行規則",
+      "law_id": "340M50000040011",
+      "law_num": "昭和四十年大蔵省令第十一号",
+      "asof": "2026-11-09",
+      "law_revision_id": "340M50000040011_20261001_507M60000040018",
+      "amendment_enforcement_date": "2026-10-01",
+      "amendment_law_title": "所得税法施行規則の一部を改正する省令",
+      "amendment_law_num": "令和七年財務省令第十八号",
+      "updated": "2026-05-11T10:24:14+09:00",
+      "current_revision_status": "CurrentEnforced",
+      "articles_in_main_provision": 251,
+      "extracted": [
+        "1_3",
+        "1_4"
+      ],
+      "output": "scripts\\results\\R4_fetch_laws\\articles\\所得税法施行規則_asof2026-11-09.txt"
+    },
+    {
+      "law": "民法",
+      "law_id": "129AC0000000089",
+      "law_num": "明治二十九年法律第八十九号",
+      "asof": "2026-11-09",
+      "law_revision_id": "129AC0000000089_20260624_508AC0000000045",
+      "amendment_enforcement_date": "2026-06-24",
+      "amendment_law_title": "民法等の一部を改正する法律",
+      "amendment_law_num": "令和八年法律第四十五号",
+      "updated": "2026-06-24T10:58:58+09:00",
+      "current_revision_status": "CurrentEnforced",
+      "articles_in_main_provision": 1173,
+      "extracted": [
+        "4",
+        "22",
+        "143",
+        "725",
+        "726",
+        "727",
+        "728",
+        "729",
+        "730",
+        "739",
+        "752",
+        "877"
+      ],
+      "output": "scripts\\results\\R4_fetch_laws\\articles\\民法_asof2026-11-09.txt"
+    },
+    {
+      "law": "明治三十五年法律第五十号（年齢計算ニ関スル法律）",
+      "law_id": "135AC1000000050",
+      "law_num": "明治三十五年法律第五十号",
+      "asof": "2026-11-09",
+      "law_revision_id": "135AC1000000050_19021222_000000000000000",
+      "amendment_enforcement_date": "1902-12-22",
+      "amendment_law_title": null,
+      "amendment_law_num": null,
+      "updated": "2024-07-23T04:05:07+09:00",
+      "current_revision_status": "CurrentEnforced",
+      "articles_in_main_provision": 0,
+      "extracted": [
+        "MainProvision"
+      ],
+      "output": "scripts\\results\\R4_fetch_laws\\articles\\明治三十五年法律第五十号（年齢計算ニ関スル法律）_asof2026-11-09.txt"
+    },
+    {
+      "law": "健康保険法",
+      "law_id": "211AC0000000070",
+      "law_num": "大正十一年法律第七十号",
+      "asof": "2026-11-09",
+      "law_revision_id": "211AC0000000070_20261001_507AC0000000087",
+      "amendment_enforcement_date": "2026-10-01",
+      "amendment_law_title": "医療法等の一部を改正する法律",
+      "amendment_law_num": "令和七年法律第八十七号",
+      "updated": "2026-09-18T16:55:24+09:00",
+      "current_revision_status": "CurrentEnforced",
+      "articles_in_main_provision": 323,
+      "extracted": [
+        "1",
+        "3",
+        "53_2",
+        "98"
+      ],
+      "output": "scripts\\results\\R4_fetch_laws\\articles\\健康保険法_asof2026-11-09.txt"
+    },
+    {
+      "law": "健康保険法施行規則",
+      "law_id": "215M10000008036",
+      "law_num": "大正十五年内務省令第三十六号",
+      "asof": "2026-11-09",
+      "law_revision_id": "215M10000008036_20261001_508M60000100144",
+      "amendment_enforcement_date": "2026-10-01",
+      "amendment_law_title": "医療法等の一部を改正する法律の一部の施行に伴う厚生労働省関係省令の整備に関する省令",
+      "amendment_law_num": "令和八年厚生労働省令第百四十四号",
+      "updated": "2026-10-16T10:24:38+09:00",
+      "current_revision_status": "CurrentEnforced",
+      "articles_in_main_provision": 342,
+      "extracted": [
+        "37_2",
+        "37_3",
+        "38",
+        "39",
+        "120",
+        "128",
+        "135_10",
+        "135_12"
+      ],
+      "output": "scripts\\results\\R4_fetch_laws\\articles\\健康保険法施行規則_asof2026-11-09.txt"
+    },
+    {
+      "law": "国民年金法",
+      "law_id": "334AC0000000141",
+      "law_num": "昭和三十四年法律第百四十一号",
+      "asof": "2026-11-09",
+      "law_revision_id": "334AC0000000141_20261001_507AC0000000074",
+      "amendment_enforcement_date": "2026-10-01",
+      "amendment_law_title": "社会経済の変化を踏まえた年金制度の機能強化のための国民年金法等の一部を改正する等の法律",
+      "amendment_law_num": "令和七年法律第七十四号",
+      "updated": "2025-07-14T10:39:34+09:00",
+      "current_revision_status": "CurrentEnforced",
+      "articles_in_main_provision": 267,
+      "extracted": [
+        "5",
+        "7",
+        "8",
+        "9",
+        "12"
+      ],
+      "output": "scripts\\results\\R4_fetch_laws\\articles\\国民年金法_asof2026-11-09.txt"
+    },
+    {
+      "law": "国民年金法施行令",
+      "law_id": "334CO0000000184",
+      "law_num": "昭和三十四年政令第百八十四号",
+      "asof": "2026-11-09",
+      "law_revision_id": "334CO0000000184_20261001_508CO0000000226",
+      "amendment_enforcement_date": "2026-10-01",
+      "amendment_law_title": "国民年金法施行令等の一部を改正する政令",
+      "amendment_law_num": "令和八年政令第二百二十六号",
+      "updated": "2026-07-28T10:32:10+09:00",
+      "current_revision_status": "CurrentEnforced",
+      "articles_in_main_provision": 114,
+      "extracted": [
+        "4",
+        "4_2",
+        "4_7",
+        "6_4"
+      ],
+      "output": "scripts\\results\\R4_fetch_laws\\articles\\国民年金法施行令_asof2026-11-09.txt"
+    },
+    {
+      "law": "住民基本台帳法",
+      "law_id": "342AC0000000081",
+      "law_num": "昭和四十二年法律第八十一号",
+      "asof": "2026-11-09",
+      "law_revision_id": "342AC0000000081_20261024_508AC0000000066",
+      "amendment_enforcement_date": "2026-10-24",
+      "amendment_law_title": "皇室典範等の一部を改正する法律",
+      "amendment_law_num": "令和八年法律第六十六号",
+      "updated": "2026-07-31T13:26:03+09:00",
+      "current_revision_status": "CurrentEnforced",
+      "articles_in_main_provision": 143,
+      "extracted": [
+        "1",
+        "5",
+        "6",
+        "7",
+        "22",
+        "23",
+        "25",
+        "26",
+        "30_48",
+        "30_49"
+      ],
+      "output": "scripts\\results\\R4_fetch_laws\\articles\\住民基本台帳法_asof2026-11-09.txt"
+    },
+    {
+      "law": "住民基本台帳法施行令",
+      "law_id": "342CO0000000292",
+      "law_num": "昭和四十二年政令第二百九十二号",
+      "asof": "2026-11-09",
+      "law_revision_id": "342CO0000000292_20261024_508CO0000000281",
+      "amendment_enforcement_date": "2026-10-24",
+      "amendment_law_title": "住民基本台帳法施行令の一部を改正する政令",
+      "amendment_law_num": "令和八年政令第二百八十一号",
+      "updated": "2026-10-06T09:40:52+09:00",
+      "current_revision_status": "CurrentEnforced",
+      "articles_in_main_provision": 83,
+      "extracted": [
+        "10",
+        "25",
+        "30_18",
+        "30_19"
+      ],
+      "output": "scripts\\results\\R4_fetch_laws\\articles\\住民基本台帳法施行令_asof2026-11-09.txt"
+    },
+    {
+      "law": "地方税法",
+      "law_id": "325AC0000000226",
+      "law_num": "昭和二十五年法律第二百二十六号",
+      "asof": "2026-11-09",
+      "law_revision_id": "325AC0000000226_20261101_508AC0000000002",
+      "amendment_enforcement_date": "2026-11-01",
+      "amendment_law_title": "地方税法等の一部を改正する法律",
+      "amendment_law_num": "令和八年法律第二号",
+      "updated": "2026-10-22T09:12:03+09:00",
+      "current_revision_status": "CurrentEnforced",
+      "articles_in_main_provision": 1348,
+      "extracted": [
+        "23",
+        "24",
+        "34",
+        "39",
+        "292",
+        "294",
+        "314_2",
+        "318",
+        "703_4"
+      ],
+      "output": "scripts\\results\\R4_fetch_laws\\articles\\地方税法_asof2026-11-09.txt"
+    },
+    {
+      "law": "国民健康保険法",
+      "law_id": "333AC0000000192",
+      "law_num": "昭和三十三年法律第百九十二号",
+      "asof": "2026-11-09",
+      "law_revision_id": "333AC0000000192_20261001_507AC0000000087",
+      "amendment_enforcement_date": "2026-10-01",
+      "amendment_law_title": "医療法等の一部を改正する法律",
+      "amendment_law_num": "令和七年法律第八十七号",
+      "updated": "2026-06-05T10:24:48+09:00",
+      "current_revision_status": "CurrentEnforced",
+      "articles_in_main_provision": 190,
+      "extracted": [
+        "5",
+        "6",
+        "9",
+        "76"
+      ],
+      "output": "scripts\\results\\R4_fetch_laws\\articles\\国民健康保険法_asof2026-11-09.txt"
+    },
+    {
+      "law": "児童手当法",
+      "law_id": "346AC0000000073",
+      "law_num": "昭和四十六年法律第七十三号",
+      "asof": "2026-11-09",
+      "law_revision_id": "346AC0000000073_20250601_504AC0000000068",
+      "amendment_enforcement_date": "2025-06-01",
+      "amendment_law_title": "刑法等の一部を改正する法律の施行に伴う関係法律の整理等に関する法律",
+      "amendment_law_num": "令和四年法律第六十八号",
+      "updated": "2024-07-22T04:42:12+09:00",
+      "current_revision_status": "CurrentEnforced",
+      "articles_in_main_provision": 34,
+      "extracted": [
+        "3",
+        "4"
+      ],
+      "output": "scripts\\results\\R4_fetch_laws\\articles\\児童手当法_asof2026-11-09.txt"
+    }
+  ],
+  "keyword_hits": {
+    "所得税法": {
+      "生計を一に": [
+        {
+          "article": "2",
+          "count": 5
+        },
+        {
+          "article": "9",
+          "count": 2
+        },
+        {
+          "article": "54",
+          "count": 1
+        },
+        {
+          "article": "56",
+          "count": 1
+        },
+        {
+          "article": "57",
+          "count": 2
+        },
+        {
+          "article": "57_2",
+          "count": 1
+        },
+        {
+          "article": "71_2",
+          "count": 1
+        },
+        {
+          "article": "72",
+          "count": 1
+        },
+        {
+          "article": "73",
+          "count": 1
+        },
+        {
+          "article": "74",
+          "count": 1
+        },
+        {
+          "article": "77",
+          "count": 1
+        },
+        {
+          "article": "79",
+          "count": 1
+        },
+        {
+          "article": "83_2",
+          "count": 2
+        },
+        {
+          "article": "84_2",
+          "count": 1
+        },
+        {
+          "article": "85",
+          "count": 3
+        },
+        {
+          "article": "120",
+          "count": 2
+        },
+        {
+          "article": "190",
+          "count": 1
+        },
+        {
+          "article": "194",
+          "count": 2
+        },
+        {
+          "article": "195_2",
+          "count": 2
+        },
+        {
+          "article": "195_3",
+          "count": 1
+        },
+        {
+          "article": "198",
+          "count": 1
+        }
+      ],
+      "親族": [
+        {
+          "article": "2",
+          "count": 14
+        },
+        {
+          "article": "9",
+          "count": 4
+        },
+        {
+          "article": "15",
+          "count": 1
+        },
+        {
+          "article": "54",
+          "count": 1
+        },
+        {
+          "article": "56",
+          "count": 5
+        },
+        {
+          "article": "57",
+          "count": 5
+        },
+        {
+          "article": "57_2",
+          "count": 1
+        },
+        {
+          "article": "71_2",
+          "count": 1
+        },
+        {
+          "article": "72",
+          "count": 1
+        },
+        {
+          "article": "73",
+          "count": 1
+        },
+        {
+          "article": "74",
+          "count": 1
+        },
+        {
+          "article": "76",
+          "count": 3
+        },
+        {
+          "article": "77",
+          "count": 1
+        },
+        {
+          "article": "79",
+          "count": 3
+        },
+        {
+          "article": "83",
+          "count": 1
+        },
+        {
+          "article": "83_2",
+          "count": 1
+        },
+        {
+          "article": "84",
+          "count": 4
+        },
+        {
+          "article": "84_2",
+          "count": 18
+        },
+        {
+          "article": "85",
+          "count": 18
+        },
+        {
+          "article": "87",
+          "count": 1
+        },
+        {
+          "article": "120",
+          "count": 12
+        },
+        {
+          "article": "121",
+          "count": 1
+        },
+        {
+          "article": "157",
+          "count": 1
+        },
+        {
+          "article": "158",
+          "count": 1
+        },
+        {
+          "article": "185",
+          "count": 10
+        },
+        {
+          "article": "186",
+          "count": 4
+        },
+        {
+          "article": "186_2",
+          "count": 1
+        },
+        {
+          "article": "186_3",
+          "count": 6
+        },
+        {
+          "article": "187",
+          "count": 4
+        },
+        {
+          "article": "190",
+          "count": 20
+        },
+        {
+          "article": "194",
+          "count": 23
+        },
+        {
+          "article": "195",
+          "count": 12
+        },
+        {
+          "article": "195_3",
+          "count": 10
+        },
+        {
+          "article": "198",
+          "count": 5
+        },
+        {
+          "article": "203_3",
+          "count": 26
+        },
+        {
+          "article": "203_4",
+          "count": 3
+        },
+        {
+          "article": "203_4_2",
+          "count": 8
+        },
+        {
+          "article": "203_6",
+          "count": 17
+        }
+      ],
+      "同居": [
+        {
+          "article": "79",
+          "count": 1
+        },
+        {
+          "article": "85",
+          "count": 1
+        },
+        {
+          "article": "187",
+          "count": 3
+        },
+        {
+          "article": "190",
+          "count": 3
+        },
+        {
+          "article": "194",
+          "count": 2
+        },
+        {
+          "article": "203_3",
+          "count": 4
+        },
+        {
+          "article": "203_6",
+          "count": 2
+        }
+      ]
+    },
+    "所得税法施行令": {
+      "親族": [
+        {
+          "article": "1",
+          "count": 8
+        },
+        {
+          "article": "2_2",
+          "count": 2
+        },
+        {
+          "article": "11_2",
+          "count": 1
+        },
+        {
+          "article": "14",
+          "count": 2
+        },
+        {
+          "article": "15",
+          "count": 2
+        },
+        {
+          "article": "29",
+          "count": 1
+        },
+        {
+          "article": "53",
+          "count": 1
+        },
+        {
+          "article": "62",
+          "count": 2
+        },
+        {
+          "article": "73",
+          "count": 2
+        },
+        {
+          "article": "82_3",
+          "count": 2
+        },
+        {
+          "article": "164",
+          "count": 1
+        },
+        {
+          "article": "165",
+          "count": 5
+        },
+        {
+          "article": "166",
+          "count": 1
+        },
+        {
+          "article": "167",
+          "count": 1
+        },
+        {
+          "article": "167_3",
+          "count": 1
+        },
+        {
+          "article": "167_4",
+          "count": 1
+        },
+        {
+          "article": "178",
+          "count": 1
+        },
+        {
+          "article": "195",
+          "count": 1
+        },
+        {
+          "article": "197_3",
+          "count": 2
+        },
+        {
+          "article": "204_2",
+          "count": 2
+        },
+        {
+          "article": "205",
+          "count": 19
+        },
+        {
+          "article": "217_2",
+          "count": 10
+        },
+        {
+          "article": "218",
+          "count": 6
+        },
+        {
+          "article": "218_2",
+          "count": 6
+        },
+        {
+          "article": "219",
+          "count": 32
+        },
+        {
+          "article": "220",
+          "count": 7
+        },
+        {
+          "article": "222_2",
+          "count": 1
+        },
+        {
+          "article": "262",
+          "count": 19
+        },
+        {
+          "article": "262_2",
+          "count": 1
+        },
+        {
+          "article": "275",
+          "count": 2
+        },
+        {
+          "article": "276",
+          "count": 2
+        },
+        {
+          "article": "281",
+          "count": 1
+        },
+        {
+          "article": "281_3",
+          "count": 1
+        },
+        {
+          "article": "303_2",
+          "count": 1
+        },
+        {
+          "article": "316_2",
+          "count": 19
+        },
+        {
+          "article": "318",
+          "count": 5
+        },
+        {
+          "article": "318_2",
+          "count": 4
+        },
+        {
+          "article": "318_4",
+          "count": 11
+        },
+        {
+          "article": "319_9",
+          "count": 6
+        },
+        {
+          "article": "319_10",
+          "count": 7
+        },
+        {
+          "article": "319_11",
+          "count": 3
+        },
+        {
+          "article": "328",
+          "count": 1
+        }
+      ],
+      "生計を一に": [
+        {
+          "article": "2_2",
+          "count": 1
+        },
+        {
+          "article": "14",
+          "count": 2
+        },
+        {
+          "article": "15",
+          "count": 2
+        },
+        {
+          "article": "62",
+          "count": 1
+        },
+        {
+          "article": "73",
+          "count": 1
+        },
+        {
+          "article": "165",
+          "count": 2
+        },
+        {
+          "article": "167_3",
+          "count": 1
+        },
+        {
+          "article": "178",
+          "count": 1
+        },
+        {
+          "article": "197_3",
+          "count": 1
+        },
+        {
+          "article": "204_2",
+          "count": 2
+        },
+        {
+          "article": "205",
+          "count": 1
+        },
+        {
+          "article": "217_2",
+          "count": 1
+        },
+        {
+          "article": "218_2",
+          "count": 2
+        },
+        {
+          "article": "220",
+          "count": 3
+        },
+        {
+          "article": "262",
+          "count": 2
+        },
+        {
+          "article": "275",
+          "count": 1
+        },
+        {
+          "article": "276",
+          "count": 1
+        },
+        {
+          "article": "316_2",
+          "count": 1
+        },
+        {
+          "article": "318_3",
+          "count": 1
+        },
+        {
+          "article": "318_4",
+          "count": 1
+        }
+      ],
+      "生計を維持": [
+        {
+          "article": "2_2",
+          "count": 1
+        },
+        {
+          "article": "29",
+          "count": 2
+        },
+        {
+          "article": "53",
+          "count": 1
+        },
+        {
+          "article": "197_3",
+          "count": 1
+        },
+        {
+          "article": "262_2",
+          "count": 1
+        },
+        {
+          "article": "275",
+          "count": 1
+        },
+        {
+          "article": "276",
+          "count": 1
+        }
+      ],
+      "同居": [
+        {
+          "article": "316_2",
+          "count": 1
+        },
+        {
+          "article": "319_10",
+          "count": 1
+        }
+      ]
+    },
+    "所得税法施行規則": {
+      "親族": [
+        {
+          "article": "1",
+          "count": 12
+        },
+        {
+          "article": "18_5",
+          "count": 2
+        },
+        {
+          "article": "36_4",
+          "count": 1
+        },
+        {
+          "article": "36_5",
+          "count": 1
+        },
+        {
+          "article": "40_17",
+          "count": 1
+        },
+        {
+          "article": "47",
+          "count": 16
+        },
+        {
+          "article": "47_2",
+          "count": 13
+        },
+        {
+          "article": "62",
+          "count": 3
+        },
+        {
+          "article": "72",
+          "count": 2
+        },
+        {
+          "article": "73",
+          "count": 14
+        },
+        {
+          "article": "73_2",
+          "count": 19
+        },
+        {
+          "article": "74",
+          "count": 3
+        },
+        {
+          "article": "74_2",
+          "count": 5
+        },
+        {
+          "article": "74_5",
+          "count": 7
+        },
+        {
+          "article": "74_6",
+          "count": 15
+        },
+        {
+          "article": "75",
+          "count": 1
+        },
+        {
+          "article": "76_2",
+          "count": 3
+        },
+        {
+          "article": "77_4",
+          "count": 19
+        },
+        {
+          "article": "77_5",
+          "count": 9
+        },
+        {
+          "article": "77_6",
+          "count": 5
+        },
+        {
+          "article": "93",
+          "count": 25
+        },
+        {
+          "article": "94_2",
+          "count": 16
+        }
+      ],
+      "同一の世帯": [
+        {
+          "article": "1_3",
+          "count": 1
+        },
+        {
+          "article": "1_4",
+          "count": 1
+        }
+      ],
+      "世帯主": [
+        {
+          "article": "1_3",
+          "count": 10
+        },
+        {
+          "article": "1_4",
+          "count": 9
+        }
+      ],
+      "世帯": [
+        {
+          "article": "1_3",
+          "count": 11
+        },
+        {
+          "article": "1_4",
+          "count": 10
+        }
+      ],
+      "生計を一に": [
+        {
+          "article": "18_5",
+          "count": 1
+        },
+        {
+          "article": "36_5",
+          "count": 1
+        },
+        {
+          "article": "47",
+          "count": 1
+        },
+        {
+          "article": "62",
+          "count": 1
+        },
+        {
+          "article": "72",
+          "count": 1
+        },
+        {
+          "article": "73",
+          "count": 1
+        },
+        {
+          "article": "73_2",
+          "count": 1
+        },
+        {
+          "article": "74_3",
+          "count": 1
+        },
+        {
+          "article": "75",
+          "count": 1
+        },
+        {
+          "article": "77_4",
+          "count": 1
+        },
+        {
+          "article": "93",
+          "count": 1
+        }
+      ],
+      "生計を維持": [
+        {
+          "article": "18_5",
+          "count": 1
+        }
+      ],
+      "同居": [
+        {
+          "article": "76_2",
+          "count": 1
+        },
+        {
+          "article": "77_4",
+          "count": 1
+        },
+        {
+          "article": "93",
+          "count": 2
+        },
+        {
+          "article": "94_2",
+          "count": 1
+        }
+      ]
+    },
+    "民法": {
+      "親族": [
+        {
+          "article": "6",
+          "count": 1
+        },
+        {
+          "article": "7",
+          "count": 1
+        },
+        {
+          "article": "10",
+          "count": 1
+        },
+        {
+          "article": "11",
+          "count": 1
+        },
+        {
+          "article": "14",
+          "count": 1
+        },
+        {
+          "article": "15",
+          "count": 1
+        },
+        {
+          "article": "18",
+          "count": 1
+        },
+        {
+          "article": "309",
+          "count": 1
+        },
+        {
+          "article": "310",
+          "count": 1
+        },
+        {
+          "article": "725",
+          "count": 2
+        },
+        {
+          "article": "726",
+          "count": 2
+        },
+        {
+          "article": "727",
+          "count": 2
+        },
+        {
+          "article": "729",
+          "count": 2
+        },
+        {
+          "article": "730",
+          "count": 2
+        },
+        {
+          "article": "734",
+          "count": 1
+        },
+        {
+          "article": "736",
+          "count": 1
+        },
+        {
+          "article": "744",
+          "count": 1
+        },
+        {
+          "article": "766_2",
+          "count": 3
+        },
+        {
+          "article": "805",
+          "count": 1
+        },
+        {
+          "article": "806",
+          "count": 1
+        },
+        {
+          "article": "807",
+          "count": 1
+        },
+        {
+          "article": "811",
+          "count": 1
+        },
+        {
+          "article": "817_2",
+          "count": 1
+        },
+        {
+          "article": "817_9",
+          "count": 3
+        },
+        {
+          "article": "817_11",
+          "count": 3
+        },
+        {
+          "article": "817_13",
+          "count": 4
+        },
+        {
+          "article": "819",
+          "count": 1
+        },
+        {
+          "article": "830",
+          "count": 1
+        },
+        {
+          "article": "834",
+          "count": 1
+        },
+        {
+          "article": "834_2",
+          "count": 1
+        },
+        {
+          "article": "835",
+          "count": 1
+        },
+        {
+          "article": "836",
+          "count": 1
+        },
+        {
+          "article": "840",
+          "count": 1
+        },
+        {
+          "article": "843",
+          "count": 1
+        },
+        {
+          "article": "846",
+          "count": 1
+        },
+        {
+          "article": "849",
+          "count": 1
+        },
+        {
+          "article": "863",
+          "count": 1
+        },
+        {
+          "article": "876_3",
+          "count": 1
+        },
+        {
+          "article": "876_8",
+          "count": 1
+        },
+        {
+          "article": "877",
+          "count": 1
+        },
+        {
+          "article": "895",
+          "count": 1
+        },
+        {
+          "article": "919",
+          "count": 1
+        },
+        {
+          "article": "974",
+          "count": 1
+        },
+        {
+          "article": "1050",
+          "count": 1
+        }
+      ],
+      "同居": [
+        {
+          "article": "310",
+          "count": 1
+        },
+        {
+          "article": "730",
+          "count": 1
+        },
+        {
+          "article": "752",
+          "count": 2
+        },
+        {
+          "article": "778_2",
+          "count": 1
+        },
+        {
+          "article": "786",
+          "count": 1
+        }
+      ],
+      "生計を同じく": [
+        {
+          "article": "958_2",
+          "count": 1
+        }
+      ]
+    },
+    "明治三十五年法律第五十号（年齢計算ニ関スル法律）": {},
+    "健康保険法": {
+      "生計を維持": [
+        {
+          "article": "3",
+          "count": 4
+        },
+        {
+          "article": "100",
+          "count": 1
+        },
+        {
+          "article": "105",
+          "count": 1
+        },
+        {
+          "article": "136",
+          "count": 1
+        }
+      ],
+      "同一の世帯": [
+        {
+          "article": "3",
+          "count": 3
+        }
+      ],
+      "世帯": [
+        {
+          "article": "3",
+          "count": 3
+        }
+      ],
+      "親族": [
+        {
+          "article": "3",
+          "count": 1
+        }
+      ],
+      "家計": [
+        {
+          "article": "85",
+          "count": 1
+        },
+        {
+          "article": "85_2",
+          "count": 1
+        },
+        {
+          "article": "115",
+          "count": 2
+        }
+      ]
+    },
+    "健康保険法施行規則": {
+      "同一の世帯": [
+        {
+          "article": "38",
+          "count": 1
+        },
+        {
+          "article": "99_2",
+          "count": 1
+        },
+        {
+          "article": "109_2_3",
+          "count": 1
+        }
+      ],
+      "世帯": [
+        {
+          "article": "38",
+          "count": 1
+        },
+        {
+          "article": "98",
+          "count": 1
+        },
+        {
+          "article": "99_2",
+          "count": 4
+        },
+        {
+          "article": "99_3",
+          "count": 1
+        },
+        {
+          "article": "99_4",
+          "count": 3
+        },
+        {
+          "article": "99_5",
+          "count": 7
+        },
+        {
+          "article": "109_2_3",
+          "count": 3
+        },
+        {
+          "article": "109_3",
+          "count": 16
+        },
+        {
+          "article": "109_8",
+          "count": 4
+        },
+        {
+          "article": "109_10",
+          "count": 2
+        }
+      ],
+      "世帯主": [
+        {
+          "article": "99_2",
+          "count": 3
+        },
+        {
+          "article": "99_3",
+          "count": 1
+        },
+        {
+          "article": "99_4",
+          "count": 1
+        },
+        {
+          "article": "109_2_3",
+          "count": 2
+        },
+        {
+          "article": "109_8",
+          "count": 3
+        }
+      ]
+    },
+    "国民年金法": {
+      "生計を維持": [
+        {
+          "article": "7",
+          "count": 2
+        },
+        {
+          "article": "33_2",
+          "count": 3
+        },
+        {
+          "article": "37_2",
+          "count": 4
+        },
+        {
+          "article": "49",
+          "count": 1
+        }
+      ],
+      "世帯主": [
+        {
+          "article": "12",
+          "count": 2
+        },
+        {
+          "article": "88",
+          "count": 1
+        },
+        {
+          "article": "90",
+          "count": 1
+        },
+        {
+          "article": "90_2",
+          "count": 3
+        },
+        {
+          "article": "105",
+          "count": 1
+        },
+        {
+          "article": "106",
+          "count": 1
+        },
+        {
+          "article": "108",
+          "count": 2
+        },
+        {
+          "article": "112",
+          "count": 1
+        },
+        {
+          "article": "113",
+          "count": 1
+        },
+        {
+          "article": "114",
+          "count": 2
+        },
+        {
+          "article": "127_2",
+          "count": 1
+        },
+        {
+          "article": "147",
+          "count": 2
+        }
+      ],
+      "世帯": [
+        {
+          "article": "12",
+          "count": 3
+        },
+        {
+          "article": "88",
+          "count": 2
+        },
+        {
+          "article": "90",
+          "count": 3
+        },
+        {
+          "article": "90_2",
+          "count": 3
+        },
+        {
+          "article": "105",
+          "count": 3
+        },
+        {
+          "article": "106",
+          "count": 1
+        },
+        {
+          "article": "108",
+          "count": 2
+        },
+        {
+          "article": "112",
+          "count": 1
+        },
+        {
+          "article": "113",
+          "count": 1
+        },
+        {
+          "article": "114",
+          "count": 2
+        },
+        {
+          "article": "127_2",
+          "count": 2
+        },
+        {
+          "article": "147",
+          "count": 3
+        }
+      ],
+      "生計を同じく": [
+        {
+          "article": "19",
+          "count": 1
+        },
+        {
+          "article": "37_2",
+          "count": 2
+        },
+        {
+          "article": "39",
+          "count": 3
+        },
+        {
+          "article": "41",
+          "count": 1
+        },
+        {
+          "article": "52_2",
+          "count": 1
+        },
+        {
+          "article": "52_3",
+          "count": 2
+        }
+      ],
+      "親族": [
+        {
+          "article": "19",
+          "count": 1
+        },
+        {
+          "article": "36_3",
+          "count": 2
+        },
+        {
+          "article": "36_4",
+          "count": 2
+        },
+        {
+          "article": "90",
+          "count": 1
+        },
+        {
+          "article": "90_2",
+          "count": 3
+        },
+        {
+          "article": "90_3",
+          "count": 1
+        }
+      ]
+    },
+    "国民年金法施行令": {
+      "生計を維持": [
+        {
+          "article": "4",
+          "count": 1
+        },
+        {
+          "article": "4_7",
+          "count": 1
+        },
+        {
+          "article": "6_4",
+          "count": 2
+        }
+      ],
+      "親族": [
+        {
+          "article": "4_3_2",
+          "count": 1
+        },
+        {
+          "article": "5_4",
+          "count": 19
+        },
+        {
+          "article": "6_2",
+          "count": 1
+        },
+        {
+          "article": "6_7",
+          "count": 3
+        },
+        {
+          "article": "6_8_2",
+          "count": 11
+        },
+        {
+          "article": "6_9",
+          "count": 11
+        },
+        {
+          "article": "6_9_2",
+          "count": 11
+        },
+        {
+          "article": "6_12",
+          "count": 1
+        }
+      ],
+      "生計を同じく": [
+        {
+          "article": "4_7",
+          "count": 2
+        },
+        {
+          "article": "6_4",
+          "count": 1
+        }
+      ],
+      "同一の世帯": [
+        {
+          "article": "11_6_2",
+          "count": 1
+        }
+      ],
+      "世帯": [
+        {
+          "article": "11_6_2",
+          "count": 1
+        }
+      ]
+    },
+    "住民基本台帳法": {
+      "世帯主": [
+        {
+          "article": "2",
+          "count": 1
+        },
+        {
+          "article": "7",
+          "count": 4
+        },
+        {
+          "article": "22",
+          "count": 4
+        },
+        {
+          "article": "23",
+          "count": 4
+        },
+        {
+          "article": "24_2",
+          "count": 4
+        },
+        {
+          "article": "25",
+          "count": 1
+        },
+        {
+          "article": "26",
+          "count": 3
+        },
+        {
+          "article": "30_48",
+          "count": 5
+        },
+        {
+          "article": "30_49",
+          "count": 4
+        }
+      ],
+      "世帯": [
+        {
+          "article": "2",
+          "count": 2
+        },
+        {
+          "article": "6",
+          "count": 2
+        },
+        {
+          "article": "7",
+          "count": 4
+        },
+        {
+          "article": "12",
+          "count": 3
+        },
+        {
+          "article": "12_4",
+          "count": 1
+        },
+        {
+          "article": "14",
+          "count": 1
+        },
+        {
+          "article": "15_2",
+          "count": 1
+        },
+        {
+          "article": "22",
+          "count": 4
+        },
+        {
+          "article": "23",
+          "count": 4
+        },
+        {
+          "article": "24_2",
+          "count": 10
+        },
+        {
+          "article": "25",
+          "count": 3
+        },
+        {
+          "article": "26",
+          "count": 6
+        },
+        {
+          "article": "27",
+          "count": 1
+        },
+        {
+          "article": "30_38",
+          "count": 1
+        },
+        {
+          "article": "30_48",
+          "count": 5
+        },
+        {
+          "article": "30_49",
+          "count": 4
+        }
+      ],
+      "同一の世帯": [
+        {
+          "article": "12",
+          "count": 1
+        },
+        {
+          "article": "12_4",
+          "count": 1
+        },
+        {
+          "article": "14",
+          "count": 1
+        },
+        {
+          "article": "27",
+          "count": 1
+        },
+        {
+          "article": "30_38",
+          "count": 1
+        }
+      ]
+    },
+    "住民基本台帳法施行令": {
+      "世帯": [
+        {
+          "article": "7",
+          "count": 4
+        },
+        {
+          "article": "8",
+          "count": 2
+        },
+        {
+          "article": "8_2",
+          "count": 6
+        },
+        {
+          "article": "10",
+          "count": 5
+        },
+        {
+          "article": "15_3",
+          "count": 1
+        },
+        {
+          "article": "24_2",
+          "count": 12
+        },
+        {
+          "article": "25",
+          "count": 3
+        },
+        {
+          "article": "27",
+          "count": 13
+        },
+        {
+          "article": "27_2",
+          "count": 2
+        },
+        {
+          "article": "27_3",
+          "count": 1
+        },
+        {
+          "article": "30_14",
+          "count": 1
+        },
+        {
+          "article": "30_16",
+          "count": 1
+        },
+        {
+          "article": "30_17",
+          "count": 1
+        },
+        {
+          "article": "30_18",
+          "count": 5
+        },
+        {
+          "article": "30_19",
+          "count": 18
+        },
+        {
+          "article": "33",
+          "count": 7
+        }
+      ],
+      "同一の世帯": [
+        {
+          "article": "15_3",
+          "count": 1
+        }
+      ],
+      "世帯主": [
+        {
+          "article": "24_2",
+          "count": 2
+        },
+        {
+          "article": "25",
+          "count": 1
+        },
+        {
+          "article": "27",
+          "count": 4
+        },
+        {
+          "article": "30_18",
+          "count": 5
+        },
+        {
+          "article": "30_19",
+          "count": 17
+        },
+        {
+          "article": "33",
+          "count": 4
+        }
+      ],
+      "親族": [
+        {
+          "article": "30_18",
+          "count": 2
+        },
+        {
+          "article": "30_19",
+          "count": 2
+        }
+      ]
+    },
+    "地方税法": {
+      "親族": [
+        {
+          "article": "10_2",
+          "count": 3
+        },
+        {
+          "article": "11_6",
+          "count": 1
+        },
+        {
+          "article": "11_7",
+          "count": 1
+        },
+        {
+          "article": "11_8",
+          "count": 1
+        },
+        {
+          "article": "15",
+          "count": 1
+        },
+        {
+          "article": "22_14",
+          "count": 1
+        },
+        {
+          "article": "23",
+          "count": 10
+        },
+        {
+          "article": "32",
+          "count": 3
+        },
+        {
+          "article": "33",
+          "count": 1
+        },
+        {
+          "article": "34",
+          "count": 41
+        },
+        {
+          "article": "37",
+          "count": 14
+        },
+        {
+          "article": "45_2",
+          "count": 4
+        },
+        {
+          "article": "45_3_2",
+          "count": 3
+        },
+        {
+          "article": "45_3_3",
+          "count": 6
+        },
+        {
+          "article": "72_43",
+          "count": 1
+        },
+        {
+          "article": "72_49_12",
+          "count": 4
+        },
+        {
+          "article": "292",
+          "count": 10
+        },
+        {
+          "article": "311",
+          "count": 2
+        },
+        {
+          "article": "313",
+          "count": 3
+        },
+        {
+          "article": "314",
+          "count": 1
+        },
+        {
+          "article": "314_2",
+          "count": 41
+        },
+        {
+          "article": "314_6",
+          "count": 14
+        },
+        {
+          "article": "317_2",
+          "count": 4
+        },
+        {
+          "article": "317_3_2",
+          "count": 3
+        },
+        {
+          "article": "317_3_3",
+          "count": 6
+        },
+        {
+          "article": "585",
+          "count": 1
+        },
+        {
+          "article": "700_52",
+          "count": 2
+        },
+        {
+          "article": "701_32",
+          "count": 1
+        }
+      ],
+      "生計を一に": [
+        {
+          "article": "11_6",
+          "count": 1
+        },
+        {
+          "article": "11_7",
+          "count": 1
+        },
+        {
+          "article": "15",
+          "count": 1
+        },
+        {
+          "article": "23",
+          "count": 4
+        },
+        {
+          "article": "32",
+          "count": 2
+        },
+        {
+          "article": "33",
+          "count": 1
+        },
+        {
+          "article": "34",
+          "count": 9
+        },
+        {
+          "article": "37",
+          "count": 1
+        },
+        {
+          "article": "45_2",
+          "count": 1
+        },
+        {
+          "article": "45_3_2",
+          "count": 1
+        },
+        {
+          "article": "45_3_3",
+          "count": 1
+        },
+        {
+          "article": "72_49_12",
+          "count": 2
+        },
+        {
+          "article": "292",
+          "count": 4
+        },
+        {
+          "article": "313",
+          "count": 2
+        },
+        {
+          "article": "314",
+          "count": 1
+        },
+        {
+          "article": "314_2",
+          "count": 9
+        },
+        {
+          "article": "314_6",
+          "count": 1
+        },
+        {
+          "article": "317_2",
+          "count": 1
+        },
+        {
+          "article": "317_3_2",
+          "count": 1
+        },
+        {
+          "article": "317_3_3",
+          "count": 1
+        }
+      ],
+      "同居": [
+        {
+          "article": "20",
+          "count": 1
+        },
+        {
+          "article": "22_14",
+          "count": 1
+        },
+        {
+          "article": "34",
+          "count": 4
+        },
+        {
+          "article": "37",
+          "count": 5
+        },
+        {
+          "article": "314_2",
+          "count": 4
+        },
+        {
+          "article": "314_6",
+          "count": 5
+        }
+      ],
+      "同一の世帯": [
+        {
+          "article": "703_4",
+          "count": 3
+        }
+      ],
+      "世帯主": [
+        {
+          "article": "703_4",
+          "count": 9
+        },
+        {
+          "article": "706",
+          "count": 2
+        }
+      ],
+      "世帯": [
+        {
+          "article": "703_4",
+          "count": 83
+        },
+        {
+          "article": "703_5",
+          "count": 7
+        },
+        {
+          "article": "703_5_2",
+          "count": 3
+        },
+        {
+          "article": "706",
+          "count": 2
+        }
+      ]
+    },
+    "国民健康保険法": {
+      "世帯": [
+        {
+          "article": "6",
+          "count": 2
+        },
+        {
+          "article": "9",
+          "count": 17
+        },
+        {
+          "article": "13",
+          "count": 1
+        },
+        {
+          "article": "19",
+          "count": 2
+        },
+        {
+          "article": "20",
+          "count": 1
+        },
+        {
+          "article": "21",
+          "count": 2
+        },
+        {
+          "article": "22",
+          "count": 5
+        },
+        {
+          "article": "36",
+          "count": 2
+        },
+        {
+          "article": "42",
+          "count": 1
+        },
+        {
+          "article": "45",
+          "count": 2
+        },
+        {
+          "article": "52",
+          "count": 9
+        },
+        {
+          "article": "52_2",
+          "count": 3
+        },
+        {
+          "article": "53",
+          "count": 3
+        },
+        {
+          "article": "54",
+          "count": 4
+        },
+        {
+          "article": "54_2",
+          "count": 9
+        },
+        {
+          "article": "54_3",
+          "count": 27
+        },
+        {
+          "article": "54_4",
+          "count": 2
+        },
+        {
+          "article": "57",
+          "count": 5
+        },
+        {
+          "article": "57_2",
+          "count": 1
+        },
+        {
+          "article": "57_3",
+          "count": 1
+        },
+        {
+          "article": "63_2",
+          "count": 5
+        },
+        {
+          "article": "73",
+          "count": 1
+        },
+        {
+          "article": "76",
+          "count": 3
+        },
+        {
+          "article": "76_3",
+          "count": 2
+        },
+        {
+          "article": "113",
+          "count": 2
+        },
+        {
+          "article": "113_2",
+          "count": 2
+        },
+        {
+          "article": "116",
+          "count": 2
+        },
+        {
+          "article": "127",
+          "count": 2
+        }
+      ],
+      "同一の世帯": [
+        {
+          "article": "9",
+          "count": 2
+        },
+        {
+          "article": "116",
+          "count": 1
+        }
+      ],
+      "世帯主": [
+        {
+          "article": "9",
+          "count": 12
+        },
+        {
+          "article": "22",
+          "count": 5
+        },
+        {
+          "article": "36",
+          "count": 1
+        },
+        {
+          "article": "45",
+          "count": 1
+        },
+        {
+          "article": "52",
+          "count": 7
+        },
+        {
+          "article": "52_2",
+          "count": 2
+        },
+        {
+          "article": "53",
+          "count": 2
+        },
+        {
+          "article": "54",
+          "count": 2
+        },
+        {
+          "article": "54_2",
+          "count": 7
+        },
+        {
+          "article": "54_3",
+          "count": 16
+        },
+        {
+          "article": "54_4",
+          "count": 1
+        },
+        {
+          "article": "57",
+          "count": 4
+        },
+        {
+          "article": "57_2",
+          "count": 1
+        },
+        {
+          "article": "57_3",
+          "count": 1
+        },
+        {
+          "article": "63_2",
+          "count": 5
+        },
+        {
+          "article": "76",
+          "count": 2
+        },
+        {
+          "article": "76_3",
+          "count": 2
+        },
+        {
+          "article": "113",
+          "count": 1
+        },
+        {
+          "article": "113_2",
+          "count": 1
+        },
+        {
+          "article": "127",
+          "count": 2
+        }
+      ],
+      "家計": [
+        {
+          "article": "57_2",
+          "count": 2
+        }
+      ]
+    },
+    "児童手当法": {
+      "世帯": [
+        {
+          "article": "3",
+          "count": 3
+        }
+      ],
+      "生計を同じく": [
+        {
+          "article": "4",
+          "count": 12
+        }
+      ],
+      "生計を維持": [
+        {
+          "article": "4",
+          "count": 5
+        }
+      ],
+      "同居": [
+        {
+          "article": "4",
+          "count": 4
+        }
+      ]
+    }
+  },
+  "errors": [],
+  "definition_checks": {
+    "所得税法": {},
+    "所得税法施行令": {},
+    "所得税法施行規則": {},
+    "民法": {},
+    "明治三十五年法律第五十号（年齢計算ニ関スル法律）": {},
+    "健康保険法": {
+      "「被扶養者」とは": [
+        {
+          "article": "3",
+          "snippet": "るすべてのもののうち、三月を超える期間ごとに受けるものをいう。７この法律において「被扶養者」とは、次に掲げる者で、日本国内に住所を有するもの又は外国において留学をする学生その他の日本国内に住所を有しないが渡航目的その他の事情を考慮して日本国内に生活の基礎が"
+        }
+      ],
+      "「被保険者」とは": [
+        {
+          "article": "3",
+          "snippet": "（定義）第三条この法律において「被保険者」とは、適用事業所に使用される者及び任意継続被保険者をいう。ただし、次の各号のいずれかに該当する者は、日雇特例被保険者となる場合を除き、被保険者となることができない。"
+        }
+      ]
+    },
+    "健康保険法施行規則": {},
+    "国民年金法": {},
+    "国民年金法施行令": {},
+    "住民基本台帳法": {},
+    "住民基本台帳法施行令": {},
+    "地方税法": {},
+    "国民健康保険法": {},
+    "児童手当法": {}
+  },
+  "amount_string_counts": {
+    "所得税法": {
+      "百三十万円": 4,
+      "百五十万円": 16,
+      "百八十万円": 0
+    },
+    "所得税法施行令": {
+      "百三十万円": 0,
+      "百五十万円": 3,
+      "百八十万円": 0
+    },
+    "所得税法施行規則": {
+      "百三十万円": 0,
+      "百五十万円": 2,
+      "百八十万円": 0
+    },
+    "民法": {
+      "百三十万円": 0,
+      "百五十万円": 0,
+      "百八十万円": 0
+    },
+    "明治三十五年法律第五十号（年齢計算ニ関スル法律）": {
+      "百三十万円": 0,
+      "百五十万円": 0,
+      "百八十万円": 0
+    },
+    "健康保険法": {
+      "百三十万円": 0,
+      "百五十万円": 0,
+      "百八十万円": 0
+    },
+    "健康保険法施行規則": {
+      "百三十万円": 0,
+      "百五十万円": 0,
+      "百八十万円": 0
+    },
+    "国民年金法": {
+      "百三十万円": 0,
+      "百五十万円": 0,
+      "百八十万円": 0
+    },
+    "国民年金法施行令": {
+      "百三十万円": 0,
+      "百五十万円": 0,
+      "百八十万円": 0
+    },
+    "住民基本台帳法": {
+      "百三十万円": 0,
+      "百五十万円": 0,
+      "百八十万円": 0
+    },
+    "住民基本台帳法施行令": {
+      "百三十万円": 0,
+      "百五十万円": 0,
+      "百八十万円": 0
+    },
+    "地方税法": {
+      "百三十万円": 16,
+      "百五十万円": 88,
+      "百八十万円": 1
+    },
+    "国民健康保険法": {
+      "百三十万円": 0,
+      "百五十万円": 0,
+      "百八十万円": 0
+    },
+    "児童手当法": {
+      "百三十万円": 0,
+      "百五十万円": 0,
+      "百八十万円": 0
+    }
+  },
+  "revisions_since_2025": {
+    "所得税法": [
+      {
+        "law_revision_id": "340AC0000000033_20300619_507AC0000000074",
+        "amendment_promulgate_date": "2025-06-20",
+        "amendment_enforcement_date": "2030-06-19",
+        "amendment_scheduled_enforcement_date": "2030-06-19",
+        "amendment_law_title": "社会経済の変化を踏まえた年金制度の機能強化のための国民年金法等の一部を改正する等の法律",
+        "amendment_law_num": "令和七年法律第七十四号",
+        "current_revision_status": "UnEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20280101_508AC0000000012",
+        "amendment_promulgate_date": "2026-03-31",
+        "amendment_enforcement_date": "2028-01-01",
+        "amendment_scheduled_enforcement_date": "2028-01-01",
+        "amendment_law_title": "所得税法等の一部を改正する法律",
+        "amendment_law_num": "令和八年法律第十二号",
+        "current_revision_status": "UnEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20270722_508AC0000000064",
+        "amendment_promulgate_date": "2026-07-23",
+        "amendment_enforcement_date": "2027-07-22",
+        "amendment_scheduled_enforcement_date": "2027-07-22",
+        "amendment_law_title": "金融商品取引法及び資金決済に関する法律の一部を改正する法律",
+        "amendment_law_num": "令和八年法律第六十四号",
+        "current_revision_status": "UnEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20270722_508AC0000000012",
+        "amendment_promulgate_date": "2026-03-31",
+        "amendment_enforcement_date": "2027-07-22",
+        "amendment_scheduled_enforcement_date": "2027-07-22",
+        "amendment_law_title": "所得税法等の一部を改正する法律",
+        "amendment_law_num": "令和八年法律第十二号",
+        "current_revision_status": "UnEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20270416_508AC0000000059",
+        "amendment_promulgate_date": "2026-07-17",
+        "amendment_enforcement_date": "2027-04-16",
+        "amendment_scheduled_enforcement_date": "2027-04-16",
+        "amendment_law_title": "科学技術・イノベーション創出の活性化に関する法律の一部を改正する法律",
+        "amendment_law_num": "令和八年法律第五十九号",
+        "current_revision_status": "UnEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20270401_506AC0000000060",
+        "amendment_promulgate_date": "2024-06-21",
+        "amendment_enforcement_date": "2027-04-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "出入国管理及び難民認定法及び外国人の技能実習の適正な実施及び技能実習生の保護に関する法律の一部を改正する法律",
+        "amendment_law_num": "令和六年法律第六十号",
+        "current_revision_status": "UnEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20270101_508AC0000000012",
+        "amendment_promulgate_date": "2026-03-31",
+        "amendment_enforcement_date": "2027-01-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法等の一部を改正する法律",
+        "amendment_law_num": "令和八年法律第十二号",
+        "current_revision_status": "UnEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20270101_507AC0000000013",
+        "amendment_promulgate_date": "2025-03-31",
+        "amendment_enforcement_date": "2027-01-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法等の一部を改正する法律",
+        "amendment_law_num": "令和七年法律第十三号",
+        "current_revision_status": "UnEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20270101_506AC0000000008",
+        "amendment_promulgate_date": "2024-03-30",
+        "amendment_enforcement_date": "2027-01-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法等の一部を改正する法律",
+        "amendment_law_num": "令和六年法律第八号",
+        "current_revision_status": "UnEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20270101_505AC0000000003",
+        "amendment_promulgate_date": "2023-03-31",
+        "amendment_enforcement_date": "2027-01-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法等の一部を改正する法律",
+        "amendment_law_num": "令和五年法律第三号",
+        "current_revision_status": "UnEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20261201_508AC0000000012",
+        "amendment_promulgate_date": "2026-03-31",
+        "amendment_enforcement_date": "2026-12-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法等の一部を改正する法律",
+        "amendment_law_num": "令和八年法律第十二号",
+        "current_revision_status": "UnEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20261001_507AC0000000070",
+        "amendment_promulgate_date": "2025-06-18",
+        "amendment_enforcement_date": "2026-10-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "日本学術会議法",
+        "amendment_law_num": "令和七年法律第七十号",
+        "current_revision_status": "CurrentEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20261001_507AC0000000013",
+        "amendment_promulgate_date": "2025-03-31",
+        "amendment_enforcement_date": "2026-10-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法等の一部を改正する法律",
+        "amendment_law_num": "令和七年法律第十三号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20260812_508AC0000000064",
+        "amendment_promulgate_date": "2026-07-23",
+        "amendment_enforcement_date": "2026-08-12",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "金融商品取引法及び資金決済に関する法律の一部を改正する法律",
+        "amendment_law_num": "令和八年法律第六十四号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20260401_508AC0000000012",
+        "amendment_promulgate_date": "2026-03-31",
+        "amendment_enforcement_date": "2026-04-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法等の一部を改正する法律",
+        "amendment_law_num": "令和八年法律第十二号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20260401_507AC0000000013",
+        "amendment_promulgate_date": "2025-03-31",
+        "amendment_enforcement_date": "2026-04-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法等の一部を改正する法律",
+        "amendment_law_num": "令和七年法律第十三号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20260401_506AC0000000008",
+        "amendment_promulgate_date": "2024-03-30",
+        "amendment_enforcement_date": "2026-04-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法等の一部を改正する法律",
+        "amendment_law_num": "令和六年法律第八号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20260101_507AC0000000013",
+        "amendment_promulgate_date": "2025-03-31",
+        "amendment_enforcement_date": "2026-01-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法等の一部を改正する法律",
+        "amendment_law_num": "令和七年法律第十三号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20260101_505AC0000000003",
+        "amendment_promulgate_date": "2023-03-31",
+        "amendment_enforcement_date": "2026-01-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法等の一部を改正する法律",
+        "amendment_law_num": "令和五年法律第三号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20251218_507AC0000000013",
+        "amendment_promulgate_date": "2025-03-31",
+        "amendment_enforcement_date": "2025-12-18",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法等の一部を改正する法律",
+        "amendment_law_num": "令和七年法律第十三号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20251201_507AC0000000013",
+        "amendment_promulgate_date": "2025-03-31",
+        "amendment_enforcement_date": "2025-12-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法等の一部を改正する法律",
+        "amendment_law_num": "令和七年法律第十三号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20251001_506AC0000000026",
+        "amendment_promulgate_date": "2024-05-17",
+        "amendment_enforcement_date": "2025-10-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "雇用保険法等の一部を改正する法律",
+        "amendment_law_num": "令和六年法律第二十六号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20250620_507AC0000000074",
+        "amendment_promulgate_date": "2025-06-20",
+        "amendment_enforcement_date": "2025-06-20",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "社会経済の変化を踏まえた年金制度の機能強化のための国民年金法等の一部を改正する等の法律",
+        "amendment_law_num": "令和七年法律第七十四号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20250601_504AC0000000068",
+        "amendment_promulgate_date": "2022-06-17",
+        "amendment_enforcement_date": "2025-06-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "刑法等の一部を改正する法律の施行に伴う関係法律の整理等に関する法律　抄",
+        "amendment_law_num": "令和四年法律第六十八号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20250401_507AC0000000013",
+        "amendment_promulgate_date": "2025-03-31",
+        "amendment_enforcement_date": "2025-04-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法等の一部を改正する法律",
+        "amendment_law_num": "令和七年法律第十三号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20250401_506AC0000000046",
+        "amendment_promulgate_date": "2024-06-07",
+        "amendment_enforcement_date": "2025-04-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律",
+        "amendment_law_num": "令和六年法律第四十六号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20250401_505AC0000000047",
+        "amendment_promulgate_date": "2023-06-07",
+        "amendment_enforcement_date": "2025-04-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "国立健康危機管理研究機構法の施行に伴う関係法律の整備に関する法律",
+        "amendment_law_num": "令和五年法律第四十七号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20250401_505AC0000000021",
+        "amendment_promulgate_date": "2023-05-08",
+        "amendment_enforcement_date": "2025-04-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "私立学校法の一部を改正する法律",
+        "amendment_law_num": "令和五年法律第二十一号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340AC0000000033_20250101_505AC0000000003",
+        "amendment_promulgate_date": "2023-03-31",
+        "amendment_enforcement_date": "2025-01-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法等の一部を改正する法律",
+        "amendment_law_num": "令和五年法律第三号",
+        "current_revision_status": "PreviousEnforced"
+      }
+    ],
+    "所得税法施行令": [
+      {
+        "law_revision_id": "340CO0000000096_20280101_508CO0000000093",
+        "amendment_promulgate_date": "2026-03-31",
+        "amendment_enforcement_date": "2028-01-01",
+        "amendment_scheduled_enforcement_date": "2028-01-01",
+        "amendment_law_title": "所得税法施行令の一部を改正する政令",
+        "amendment_law_num": "令和八年政令第九十三号",
+        "current_revision_status": "UnEnforced"
+      },
+      {
+        "law_revision_id": "340CO0000000096_20270722_508CO0000000093",
+        "amendment_promulgate_date": "2026-03-31",
+        "amendment_enforcement_date": "2027-07-22",
+        "amendment_scheduled_enforcement_date": "2027-07-22",
+        "amendment_law_title": "所得税法施行令の一部を改正する政令",
+        "amendment_law_num": "令和八年政令第九十三号",
+        "current_revision_status": "UnEnforced"
+      },
+      {
+        "law_revision_id": "340CO0000000096_20270101_508CO0000000093",
+        "amendment_promulgate_date": "2026-03-31",
+        "amendment_enforcement_date": "2027-01-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法施行令の一部を改正する政令",
+        "amendment_law_num": "令和八年政令第九十三号",
+        "current_revision_status": "UnEnforced"
+      },
+      {
+        "law_revision_id": "340CO0000000096_20261201_508CO0000000093",
+        "amendment_promulgate_date": "2026-03-31",
+        "amendment_enforcement_date": "2026-12-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法施行令の一部を改正する政令",
+        "amendment_law_num": "令和八年政令第九十三号",
+        "current_revision_status": "UnEnforced"
+      },
+      {
+        "law_revision_id": "340CO0000000096_20260522_508CO0000000093",
+        "amendment_promulgate_date": "2026-03-31",
+        "amendment_enforcement_date": "2026-05-22",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法施行令の一部を改正する政令",
+        "amendment_law_num": "令和八年政令第九十三号",
+        "current_revision_status": "CurrentEnforced"
+      },
+      {
+        "law_revision_id": "340CO0000000096_20260401_508CO0000000093",
+        "amendment_promulgate_date": "2026-03-31",
+        "amendment_enforcement_date": "2026-04-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法施行令の一部を改正する政令",
+        "amendment_law_num": "令和八年政令第九十三号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340CO0000000096_20260401_507CO0000000120",
+        "amendment_promulgate_date": "2025-03-31",
+        "amendment_enforcement_date": "2026-04-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法施行令等の一部を改正する政令",
+        "amendment_law_num": "令和七年政令第百二十号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340CO0000000096_20260401_506CO0000000141",
+        "amendment_promulgate_date": "2024-03-30",
+        "amendment_enforcement_date": "2026-04-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法施行令の一部を改正する政令",
+        "amendment_law_num": "令和六年政令第百四十一号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340CO0000000096_20260101_507CO0000000120",
+        "amendment_promulgate_date": "2025-03-31",
+        "amendment_enforcement_date": "2026-01-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法施行令等の一部を改正する政令",
+        "amendment_law_num": "令和七年政令第百二十号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340CO0000000096_20251201_507CO0000000120",
+        "amendment_promulgate_date": "2025-03-31",
+        "amendment_enforcement_date": "2025-12-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法施行令等の一部を改正する政令",
+        "amendment_law_num": "令和七年政令第百二十号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340CO0000000096_20251120_507CO0000000380",
+        "amendment_promulgate_date": "2025-11-19",
+        "amendment_enforcement_date": "2025-11-20",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法施行令の一部を改正する政令",
+        "amendment_law_num": "令和七年政令第三百八十号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340CO0000000096_20250401_507CO0000000120",
+        "amendment_promulgate_date": "2025-03-31",
+        "amendment_enforcement_date": "2025-04-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法施行令等の一部を改正する政令",
+        "amendment_law_num": "令和七年政令第百二十号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340CO0000000096_20250401_507CO0000000019",
+        "amendment_promulgate_date": "2025-01-29",
+        "amendment_enforcement_date": "2025-04-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "国立健康危機管理研究機構法及び国立健康危機管理研究機構法の施行に伴う関係法律の整備に関する法律の施行に伴う関係政令の整備に関する政令",
+        "amendment_law_num": "令和七年政令第十九号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340CO0000000096_20250401_507CO0000000006",
+        "amendment_promulgate_date": "2025-01-17",
+        "amendment_enforcement_date": "2025-04-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律の一部の施行に伴う関係政令の整備等及び経過措置に関する政令",
+        "amendment_law_num": "令和七年政令第六号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340CO0000000096_20250401_506CO0000000209",
+        "amendment_promulgate_date": "2024-06-14",
+        "amendment_enforcement_date": "2025-04-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "私立学校法の一部を改正する法律の施行に伴う関係政令の整備に関する政令",
+        "amendment_law_num": "令和六年政令第二百九号",
+        "current_revision_status": "PreviousEnforced"
+      },
+      {
+        "law_revision_id": "340CO0000000096_20250101_505CO0000000134",
+        "amendment_promulgate_date": "2023-03-31",
+        "amendment_enforcement_date": "2025-01-01",
+        "amendment_scheduled_enforcement_date": null,
+        "amendment_law_title": "所得税法施行令及び災害被害者に対する租税の減免、徴収猶予等に関する法律の施行に関する政令の一部を改正する政令",
+        "amendment_law_num": "令和五年政令第百三十四号",
+        "current_revision_status": "PreviousEnforced"
+      }
+    ]
+  },
+  "keyword_http_errors": [
+    {
+      "keyword": "「家計」とは",
+      "status": 404,
+      "body": "{\"code\":\"404001\",\"message\":\"取得結果が０件です。\"}"
+    }
+  ]
+}

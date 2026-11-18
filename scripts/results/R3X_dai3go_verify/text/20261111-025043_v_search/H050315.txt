@@ -1,0 +1,67 @@
+# source=https://www.mhlw.go.jp/web/t_itemsrch_result?type=1&startGengo=4&yearFrom=5&monthFrom=3&dayFrom=15&endGengo=4&yearTo=5&monthTo=3&dayTo=15&shubetsu=&bango=
+# fetched_at=20261111-025043
+# charset=UTF-8
+
+結果一覧
+
+検索結果
+
+該当件数: 3件中 1件~ 3件
+
+[form action='t_itemsrch_result' method=None]
+
+		[select name='sort' type=None value=None]
+			並べ替え順序選択
+			制定年月日 新しい順
+			制定年月日 古い順
+			改正年月日 新しい順
+			改正年月日 古い順
+
+		[input name='startGengo' type='hidden' value='4']
+		[input name='endGengo' type='hidden' value='4']
+		[input name='yearFrom' type='hidden' value='5']
+		[input name='yearTo' type='hidden' value='5']
+		[input name='monthFrom' type='hidden' value='3']
+		[input name='monthTo' type='hidden' value='3']
+		[input name='dayFrom' type='hidden' value='15']
+		[input name='dayTo' type='hidden' value='15']
+		[input name='shubetsu' type='hidden' value='']
+		[input name='bango' type='hidden' value='']
+		[input name='page' type='hidden' value='0']
+		[input name='type' type='hidden' value='1']
+
+				 |
+					件名
+
+				 |
+					制定年月日
+
+				 |
+					種別・番号
+
+				 |
+											・予防接種法第一九条に基づく障害年金等の支給停止について
+
+					⟨別ウィンドウが開きます⟩
+
+				 | ◆平成05年03月15日
+				 |
+					健医感発第26号
+
+				 |
+											・血液型判定用血清に係る検査命令の実施について
+
+					⟨別ウィンドウが開きます⟩
+
+				 | ◆平成05年03月15日
+				 |
+					薬監第10号
+
+				 |
+											・血液型判定用血清に係る検査命令の実施について
+
+					⟨別ウィンドウが開きます⟩
+
+				 | ◆平成05年03月15日
+				 |
+					薬発第262号

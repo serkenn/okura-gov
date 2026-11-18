@@ -1,0 +1,12 @@
+01_student_away_and_parent_on_assignment__multi.json: 同じ
+02_medical_payer_differs_from_patient__multi.json: 同じ
+03_business_with_household_apportionment__multi.json: 同じ
+04_forecast_and_plan_marks__multi.json: 同じ
+05_commuting_and_withholding_slip__multi.json: 同じ
+06_phase3_insurance_and_resident_tax_facts__multi.json: 同じ
+07_vocabulary_additions_2026_11_11__multi.json: 同じ
+08_vocabulary_additions_2026_11_12__multi.json: 違う $.scenarios[0].values[1530].out_of_scope.reason: 耐用年数の判断（判断.減価償却の区分の useful_life_years か useful_life_table_row）がない／選択.減価償却 の depreciation_method（declining_balance）が、資産の取得の日と種類（判断.減価償却の区分 の asset_class）と償却の方法の届出（bookkeeping_status の depreciation_meth != 耐用年数の判断（判断.減価償却の区分の useful_life_years か useful_life_table_row）がない／入力の不足：期末の棚卸高が分からない（仕入・家事消費・前年の棚卸しがあるのに、その年の12月31日〔年の中途の死亡はその日〕の棚卸しの記録 inventory_count も、判断.棚卸資産の有無（偽：棚卸資産を有しない）もない）。仕入の全額をその年の必要経費にする読
+09_external_tax_credit_2026_11_12__multi.json: 同じ
+10_inventory_household_bad_debt_2026_11_12__multi.json: 同じ
+11_special_depreciation_2026_11_12__multi.json: 同じ
+同じ 10 / 違う 1

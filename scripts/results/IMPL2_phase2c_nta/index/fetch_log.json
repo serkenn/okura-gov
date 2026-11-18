@@ -1,0 +1,91 @@
+{
+ "set": "index",
+ "fetched_at": "20261111-144507",
+ "download_dir": ".work/downloads/20261111-144507_IMPL2_phase2c_nta_index",
+ "items": [
+  {
+   "id": "kihon_index",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 25 Dec 2025 01:00:06 GMT",
+   "bytes": 38254,
+   "sha256": "74710f9540adcb9b7e6b181ba716e93be44be38195cc0c7dfe1a8e02fcf16e4f",
+   "saved": ".work/downloads/20261111-144507_IMPL2_phase2c_nta_index/kihon_index.htm",
+   "title": "通達目次 / 所得税基本通達｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "sochi_index",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 02 Oct 2026 08:30:04 GMT",
+   "bytes": 77279,
+   "sha256": "fd1a8ce56f916aefdb493304544f129c2f0fc8f12de765ec26fb0ee9041f7776",
+   "saved": ".work/downloads/20261111-144507_IMPL2_phase2c_nta_index/sochi_index.htm",
+   "title": "租税特別措置法に係る所得税の取扱いについて｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "tebiki_3_01",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/3_01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 24 Dec 2025 08:30:11 GMT",
+   "bytes": 13768,
+   "sha256": "7ceb2f2aae4815982d963ec9851312eb55a937bc4b957de75afe55853692e1cc",
+   "saved": ".work/downloads/20261111-144507_IMPL2_phase2c_nta_index/tebiki_3_01.htm",
+   "title": "申告書の記載例｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "tebiki_order2_3_2_01",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "bytes": 15304,
+   "sha256": "ed5db4670985a2778471c93c20ac85fb0f5e7c1f08b8ccbed0a328484bf350ac",
+   "saved": ".work/downloads/20261111-144507_IMPL2_phase2c_nta_index/tebiki_order2_3_2_01.htm",
+   "title": "手順2 収入金額等、所得金額を計算する｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "tebiki_order5_3_5_01",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order5/3-5_01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 24 Dec 2025 08:30:08 GMT",
+   "bytes": 13871,
+   "sha256": "73d9616d93a901d10204c09ca8de45029b037167c4acdd640b9e830fe7386eb0",
+   "saved": ".work/downloads/20261111-144507_IMPL2_phase2c_nta_index/tebiki_order5_3_5_01.htm",
+   "title": "手順5 その他｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r07.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Tue, 20 Oct 2026 08:30:03 GMT",
+   "bytes": 45317,
+   "sha256": "ff769ff6e512b73df0387db39f5fbc6e58f509fd12f5972e2f84e4117e58ac9f",
+   "saved": ".work/downloads/20261111-144507_IMPL2_phase2c_nta_index/r07.htm",
+   "title": "確定申告書等の様式・手引き等（令和７年分の所得税及び復興特別所得税の確定申告分）｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "r08",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r08.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:39:47 GMT",
+   "bytes": 2007,
+   "sha256": "700138cae1f347c2be03b380ba74007e704ceb81fe2a62d547e3559d4b851d55",
+   "saved": ".work/downloads/20261111-144507_IMPL2_phase2c_nta_index/r08.htm",
+   "title": "指定されたページを表示できませんでした",
+   "encoding": "Shift_JIS"
+  }
+ ]
+}

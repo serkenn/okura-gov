@@ -1,0 +1,28 @@
+description: 国税の課税標準・確定金額の端数計算の単位（国税通則法第118条第1項・第119条第1項、復興財源確保法第24条第2項）。
+課税標準の単位:
+  description: 課税標準（課税総所得金額・課税退職所得金額・上場株式等の課税所得）の千円未満の端数を切り捨てる単位（全額が千円未満なら0）
+  metadata:
+    law: 国税通則法第118条第1項（「千円未満の端数があるとき、又はその全額が千円未満であるときは、その端数金額又はその全額を切り捨てる」）
+    source_kind: 法律
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md#1.2
+      - docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md#1.3
+  values:
+    2025-01-01:
+      value: 1000
+      metadata: {適用: 2025-12-31 版・2026-12-31 版で同文（zeigaku §0・§1.2）。この項の施行日は docs で確かめていない}
+確定金額の単位:
+  description: 所得税と復興特別所得税の確定金額の合計額の百円未満の端数を切り捨てる単位（全額が百円未満なら0）
+  metadata:
+    law: 国税通則法第119条第1項、復興財源確保法第24条第2項（所得税と復興特別所得税の確定金額の端数計算は合計額で行い百円未満を切り捨てる）
+    source_kind: 法律
+    unit: 円
+    reference:
+      - docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md#1.2
+      - docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md#3.1
+      - docs/public-sources/20261109_impl-prep_zeigaku-tax-calc.md#3.3
+  values:
+    2025-01-01:
+      value: 100
+      metadata: {適用: 令和7年分・令和8年分で同じ（zeigaku §10）。この項の施行日は docs で確かめていない}

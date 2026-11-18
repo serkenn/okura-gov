@@ -1,0 +1,599 @@
+[
+ {
+  "a": {
+   "file": "000_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_01_shinkokusho_pdf_r07_01.pdf",
+   "sha256": "833e641919fbc1eb22605a1989c6514eabb742334528d04dd90736ae90afce46",
+   "pages": [
+    {
+     "page": 1,
+     "images": [
+      {
+       "w": 2481,
+       "h": 3508,
+       "filter": "DCTDecode",
+       "sha256": "c7c918d36719634923d89c3fc61ccab9768e731e6ffa1503b207b217687fafce"
+      }
+     ],
+     "content_sha256": "edf4f793e6d3d3f32fc3ce98b6abe262cff1141bd5be4d7ce6efa571362eb818",
+     "n_text_runs": 0
+    },
+    {
+     "page": 2,
+     "images": [
+      {
+       "w": 2481,
+       "h": 3508,
+       "filter": "DCTDecode",
+       "sha256": "8b47cf9b5bd98a48da2e10f839ce2ab5bda32cf42e6781bbcb05a71918b6765a"
+      }
+     ],
+     "content_sha256": "edf4f793e6d3d3f32fc3ce98b6abe262cff1141bd5be4d7ce6efa571362eb818",
+     "n_text_runs": 0
+    }
+   ]
+  },
+  "b": {
+   "file": "004_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_001115_pdf_06_06_081.pdf",
+   "sha256": "bb86136345388936bfc8330120cc4e963a193c8ea665dc3e9d4ceaaddd594b94",
+   "pages": [
+    {
+     "page": 1,
+     "images": [
+      {
+       "w": 2481,
+       "h": 3508,
+       "filter": "DCTDecode",
+       "sha256": "c7c918d36719634923d89c3fc61ccab9768e731e6ffa1503b207b217687fafce"
+      }
+     ],
+     "content_sha256": "edf4f793e6d3d3f32fc3ce98b6abe262cff1141bd5be4d7ce6efa571362eb818",
+     "n_text_runs": 0
+    }
+   ]
+  },
+  "same_file": false,
+  "large_images_a": 2,
+  "large_images_b": 1,
+  "large_images_of_b_found_in_a": [
+   true
+  ],
+  "contents_equal_by_page": [
+   true
+  ]
+ },
+ {
+  "a": {
+   "file": "000_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_01_shinkokusho_pdf_r07_01.pdf",
+   "sha256": "833e641919fbc1eb22605a1989c6514eabb742334528d04dd90736ae90afce46",
+   "pages": [
+    {
+     "page": 1,
+     "images": [
+      {
+       "w": 2481,
+       "h": 3508,
+       "filter": "DCTDecode",
+       "sha256": "c7c918d36719634923d89c3fc61ccab9768e731e6ffa1503b207b217687fafce"
+      }
+     ],
+     "content_sha256": "edf4f793e6d3d3f32fc3ce98b6abe262cff1141bd5be4d7ce6efa571362eb818",
+     "n_text_runs": 0
+    },
+    {
+     "page": 2,
+     "images": [
+      {
+       "w": 2481,
+       "h": 3508,
+       "filter": "DCTDecode",
+       "sha256": "8b47cf9b5bd98a48da2e10f839ce2ab5bda32cf42e6781bbcb05a71918b6765a"
+      }
+     ],
+     "content_sha256": "edf4f793e6d3d3f32fc3ce98b6abe262cff1141bd5be4d7ce6efa571362eb818",
+     "n_text_runs": 0
+    }
+   ]
+  },
+  "b": {
+   "file": "005_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_001115_pdf_06_06_082.pdf",
+   "sha256": "32a6289f410db766d3ec95137fbfc88072197897f3d5562f0d31d1a2ebd233ce",
+   "pages": [
+    {
+     "page": 1,
+     "images": [
+      {
+       "w": 2481,
+       "h": 3508,
+       "filter": "DCTDecode",
+       "sha256": "8b47cf9b5bd98a48da2e10f839ce2ab5bda32cf42e6781bbcb05a71918b6765a"
+      }
+     ],
+     "content_sha256": "edf4f793e6d3d3f32fc3ce98b6abe262cff1141bd5be4d7ce6efa571362eb818",
+     "n_text_runs": 0
+    }
+   ]
+  },
+  "same_file": false,
+  "large_images_a": 2,
+  "large_images_b": 1,
+  "large_images_of_b_found_in_a": [
+   true
+  ],
+  "contents_equal_by_page": [
+   true
+  ]
+ },
+ {
+  "a": {
+   "file": "001_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_01_shinkokusho_pdf_r07_02.pdf",
+   "sha256": "1d30dbc3e8823a321fc1ceb83eb0c1d3b9f585f7357168a6c7570d02fd482396",
+   "pages": [
+    {
+     "page": 1,
+     "images": [
+      {
+       "w": 2481,
+       "h": 3508,
+       "filter": "DCTDecode",
+       "sha256": "4b1abec5220252f4a65abd951837f7984218b804b44a5c855204547abd1f6a7a"
+      }
+     ],
+     "content_sha256": "edf4f793e6d3d3f32fc3ce98b6abe262cff1141bd5be4d7ce6efa571362eb818",
+     "n_text_runs": 0
+    }
+   ]
+  },
+  "b": {
+   "file": "006_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_001115_pdf_06_06_083.pdf",
+   "sha256": "195bf804e5f660d140d0bafe71aac6dec47a66f7163af7370f65fb6453ed3052",
+   "pages": [
+    {
+     "page": 1,
+     "images": [
+      {
+       "w": 2481,
+       "h": 3508,
+       "filter": "DCTDecode",
+       "sha256": "4b1abec5220252f4a65abd951837f7984218b804b44a5c855204547abd1f6a7a"
+      }
+     ],
+     "content_sha256": "edf4f793e6d3d3f32fc3ce98b6abe262cff1141bd5be4d7ce6efa571362eb818",
+     "n_text_runs": 0
+    }
+   ]
+  },
+  "same_file": false,
+  "large_images_a": 1,
+  "large_images_b": 1,
+  "large_images_of_b_found_in_a": [
+   true
+  ],
+  "contents_equal_by_page": [
+   true
+  ]
+ },
+ {
+  "a": {
+   "file": "002_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_01_shinkokusho_pdf_r07_03.pdf",
+   "sha256": "10dfa7825ae19b642eb90edc9a7e2782e26be1fd71a39743d846a4dab52bab28",
+   "pages": [
+    {
+     "page": 1,
+     "images": [
+      {
+       "w": 2481,
+       "h": 3508,
+       "filter": "DCTDecode",
+       "sha256": "141ed059a8b98f5063b8e0639710c91ca565500b723d7f55f11761898acab104"
+      }
+     ],
+     "content_sha256": "edf4f793e6d3d3f32fc3ce98b6abe262cff1141bd5be4d7ce6efa571362eb818",
+     "n_text_runs": 0
+    },
+    {
+     "page": 2,
+     "images": [
+      {
+       "w": 2481,
+       "h": 3508,
+       "filter": "DCTDecode",
+       "sha256": "26084ca0a28f74d778085c9c95badd465551066336623424c8961a3605a4c9df"
+      }
+     ],
+     "content_sha256": "edf4f793e6d3d3f32fc3ce98b6abe262cff1141bd5be4d7ce6efa571362eb818",
+     "n_text_runs": 0
+    }
+   ]
+  },
+  "b": {
+   "file": "007_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_001115_pdf_06_06_085.pdf",
+   "sha256": "488f4db016d0f5f1915eda8062c7806c1196230fdc1c41c06f53ddece0875f4e",
+   "pages": [
+    {
+     "page": 1,
+     "images": [
+      {
+       "w": 2481,
+       "h": 3508,
+       "filter": "DCTDecode",
+       "sha256": "141ed059a8b98f5063b8e0639710c91ca565500b723d7f55f11761898acab104"
+      }
+     ],
+     "content_sha256": "edf4f793e6d3d3f32fc3ce98b6abe262cff1141bd5be4d7ce6efa571362eb818",
+     "n_text_runs": 0
+    }
+   ]
+  },
+  "same_file": false,
+  "large_images_a": 2,
+  "large_images_b": 1,
+  "large_images_of_b_found_in_a": [
+   true
+  ],
+  "contents_equal_by_page": [
+   true
+  ]
+ },
+ {
+  "a": {
+   "file": "002_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_01_shinkokusho_pdf_r07_03.pdf",
+   "sha256": "10dfa7825ae19b642eb90edc9a7e2782e26be1fd71a39743d846a4dab52bab28",
+   "pages": [
+    {
+     "page": 1,
+     "images": [
+      {
+       "w": 2481,
+       "h": 3508,
+       "filter": "DCTDecode",
+       "sha256": "141ed059a8b98f5063b8e0639710c91ca565500b723d7f55f11761898acab104"
+      }
+     ],
+     "content_sha256": "edf4f793e6d3d3f32fc3ce98b6abe262cff1141bd5be4d7ce6efa571362eb818",
+     "n_text_runs": 0
+    },
+    {
+     "page": 2,
+     "images": [
+      {
+       "w": 2481,
+       "h": 3508,
+       "filter": "DCTDecode",
+       "sha256": "26084ca0a28f74d778085c9c95badd465551066336623424c8961a3605a4c9df"
+      }
+     ],
+     "content_sha256": "edf4f793e6d3d3f32fc3ce98b6abe262cff1141bd5be4d7ce6efa571362eb818",
+     "n_text_runs": 0
+    }
+   ]
+  },
+  "b": {
+   "file": "008_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_001115_pdf_06_06_086.pdf",
+   "sha256": "91aae5fd8c76a991e6270e47df83d3dd8b803b2e74ea8f642aa5330a00d15242",
+   "pages": [
+    {
+     "page": 1,
+     "images": [
+      {
+       "w": 2481,
+       "h": 3508,
+       "filter": "DCTDecode",
+       "sha256": "26084ca0a28f74d778085c9c95badd465551066336623424c8961a3605a4c9df"
+      }
+     ],
+     "content_sha256": "edf4f793e6d3d3f32fc3ce98b6abe262cff1141bd5be4d7ce6efa571362eb818",
+     "n_text_runs": 0
+    }
+   ]
+  },
+  "same_file": false,
+  "large_images_a": 2,
+  "large_images_b": 1,
+  "large_images_of_b_found_in_a": [
+   true
+  ],
+  "contents_equal_by_page": [
+   true
+  ]
+ },
+ {
+  "a": {
+   "file": "003_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_01_shinkokusho_pdf_r07_05.pdf",
+   "sha256": "686ecbd849ebe07b11a90d10421561669188e1cfd48b18962bf1be06965a0f24",
+   "pages": [
+    {
+     "page": 1,
+     "images": [
+      {
+       "w": 629,
+       "h": 629,
+       "filter": "FlateDecode",
+       "sha256": "968ca60e4999720119c10a247e6c75d74a0f30171465b6e435c2d25b7a83b1f9"
+      }
+     ],
+     "content_sha256": "007ba96ecdbda8fbcdfc24b0bfdf72623cd5acbc889c056f2f0bcd7d0a4d2652",
+     "n_text_runs": 281
+    },
+    {
+     "page": 2,
+     "images": [
+      {
+       "w": 629,
+       "h": 629,
+       "filter": "FlateDecode",
+       "sha256": "7bfc13dbd1ff1f48c4c54275a611467fe7a46dbabcd05ac2706f665fdca818d1"
+      }
+     ],
+     "content_sha256": "b10b507b03192dc56f31a62760c83dd75c397433e4fcee82eb0d43c747099ec6",
+     "n_text_runs": 247
+    }
+   ]
+  },
+  "b": {
+   "file": "009_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_001115_pdf_06_06_093.pdf",
+   "sha256": "b5b01d8e79d4ff628761a4c586747532dc68749475c88ddf459c4a85bcf0d7d0",
+   "pages": [
+    {
+     "page": 1,
+     "images": [
+      {
+       "w": 629,
+       "h": 629,
+       "filter": "FlateDecode",
+       "sha256": "968ca60e4999720119c10a247e6c75d74a0f30171465b6e435c2d25b7a83b1f9"
+      }
+     ],
+     "content_sha256": "007ba96ecdbda8fbcdfc24b0bfdf72623cd5acbc889c056f2f0bcd7d0a4d2652",
+     "n_text_runs": 281
+    },
+    {
+     "page": 2,
+     "images": [
+      {
+       "w": 629,
+       "h": 629,
+       "filter": "FlateDecode",
+       "sha256": "7bfc13dbd1ff1f48c4c54275a611467fe7a46dbabcd05ac2706f665fdca818d1"
+      }
+     ],
+     "content_sha256": "b10b507b03192dc56f31a62760c83dd75c397433e4fcee82eb0d43c747099ec6",
+     "n_text_runs": 247
+    }
+   ]
+  },
+  "same_file": false,
+  "large_images_a": 0,
+  "large_images_b": 0,
+  "large_images_of_b_found_in_a": [],
+  "contents_equal_by_page": [
+   true,
+   true
+  ]
+ },
+ {
+  "a": {
+   "file": "004_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_01_shinkokusho_pdf_r07_10.pdf",
+   "sha256": "c3cd9d17c0174972a19c5b8174ad01ac685f4ed2dda9d3e903e6fd315bf5f4c3",
+   "pages": [
+    {
+     "page": 1,
+     "images": [
+      {
+       "w": 629,
+       "h": 629,
+       "filter": "FlateDecode",
+       "sha256": "ac2b16f01123dc26d237bf832b102fc0705c49faa76fd73dbec66418218a38ec"
+      }
+     ],
+     "content_sha256": "76b7bf9b2b848ab9ffd50b98c1d0ad1b92cef8372a6deaaf66156e568daaf5c7",
+     "n_text_runs": 214
+    },
+    {
+     "page": 2,
+     "images": [
+      {
+       "w": 629,
+       "h": 629,
+       "filter": "FlateDecode",
+       "sha256": "dd26c7417b7954c5cd6c3be10da3501d77bb7efe42add2c7fa62543e17344c0b"
+      }
+     ],
+     "content_sha256": "c7a0b823f2d0c512335921e10c0c7fef7220b3b7db0c7a8fe8da3687fdb0b5cd",
+     "n_text_runs": 241
+    },
+    {
+     "page": 3,
+     "images": [
+      {
+       "w": 629,
+       "h": 629,
+       "filter": "FlateDecode",
+       "sha256": "bbe89f84e34c930cd10844851ca7a565f0905743bdb5e6d5d92d4160f6bb3caa"
+      }
+     ],
+     "content_sha256": "0ec960c6ea2e7f393fadc099c4420781888ff7d5a6f459e52d34eb8a6412cbd2",
+     "n_text_runs": 221
+    },
+    {
+     "page": 4,
+     "images": [
+      {
+       "w": 629,
+       "h": 629,
+       "filter": "FlateDecode",
+       "sha256": "1bb84f2bcea5ef15c29e7cb402778acbb0e83cc8b1d80b9a89fe11f4894e7f5a"
+      }
+     ],
+     "content_sha256": "a7e4549d501bead84a4b5cc4cd0f5dc5a17b7d122a10d21fc18ec1dde44fe66b",
+     "n_text_runs": 315
+    }
+   ]
+  },
+  "b": {
+   "file": "010_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_001115_pdf_06_06_096.pdf",
+   "sha256": "ebede9cd8862efd025547eee657975b943f494100688766f92847ad294215031",
+   "pages": [
+    {
+     "page": 1,
+     "images": [
+      {
+       "w": 629,
+       "h": 629,
+       "filter": "FlateDecode",
+       "sha256": "ac2b16f01123dc26d237bf832b102fc0705c49faa76fd73dbec66418218a38ec"
+      }
+     ],
+     "content_sha256": "76b7bf9b2b848ab9ffd50b98c1d0ad1b92cef8372a6deaaf66156e568daaf5c7",
+     "n_text_runs": 214
+    },
+    {
+     "page": 2,
+     "images": [
+      {
+       "w": 629,
+       "h": 629,
+       "filter": "FlateDecode",
+       "sha256": "dd26c7417b7954c5cd6c3be10da3501d77bb7efe42add2c7fa62543e17344c0b"
+      }
+     ],
+     "content_sha256": "c7a0b823f2d0c512335921e10c0c7fef7220b3b7db0c7a8fe8da3687fdb0b5cd",
+     "n_text_runs": 241
+    },
+    {
+     "page": 3,
+     "images": [
+      {
+       "w": 629,
+       "h": 629,
+       "filter": "FlateDecode",
+       "sha256": "bbe89f84e34c930cd10844851ca7a565f0905743bdb5e6d5d92d4160f6bb3caa"
+      }
+     ],
+     "content_sha256": "0ec960c6ea2e7f393fadc099c4420781888ff7d5a6f459e52d34eb8a6412cbd2",
+     "n_text_runs": 221
+    },
+    {
+     "page": 4,
+     "images": [
+      {
+       "w": 629,
+       "h": 629,
+       "filter": "FlateDecode",
+       "sha256": "1bb84f2bcea5ef15c29e7cb402778acbb0e83cc8b1d80b9a89fe11f4894e7f5a"
+      }
+     ],
+     "content_sha256": "a7e4549d501bead84a4b5cc4cd0f5dc5a17b7d122a10d21fc18ec1dde44fe66b",
+     "n_text_runs": 315
+    }
+   ]
+  },
+  "same_file": false,
+  "large_images_a": 0,
+  "large_images_b": 0,
+  "large_images_of_b_found_in_a": [],
+  "contents_equal_by_page": [
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "a": {
+   "file": "005_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_04_pdf_ref1.pdf",
+   "sha256": "7c602c74703668f06e37b5efe40bf924da885cc8387c7fc3c1dd7e5c8fcb23ea",
+   "pages": [
+    {
+     "page": 1,
+     "images": [
+      {
+       "w": 2481,
+       "h": 3508,
+       "filter": "DCTDecode",
+       "sha256": "7365cefde3b153b7cf1b615123b4834702f87b19ede906982c3c9f4a423e4024"
+      }
+     ],
+     "content_sha256": "edf4f793e6d3d3f32fc3ce98b6abe262cff1141bd5be4d7ce6efa571362eb818",
+     "n_text_runs": 0
+    }
+   ]
+  },
+  "b": {
+   "file": "011_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_001115_pdf_06_06_010-1.pdf",
+   "sha256": "b13247fdae1d28113a7b03f9351ac9b4413599d475fe4bf8d1d8afcfd3ebfdd1",
+   "pages": [
+    {
+     "page": 1,
+     "images": [
+      {
+       "w": 2481,
+       "h": 3508,
+       "filter": "DCTDecode",
+       "sha256": "7365cefde3b153b7cf1b615123b4834702f87b19ede906982c3c9f4a423e4024"
+      }
+     ],
+     "content_sha256": "edf4f793e6d3d3f32fc3ce98b6abe262cff1141bd5be4d7ce6efa571362eb818",
+     "n_text_runs": 0
+    }
+   ]
+  },
+  "same_file": false,
+  "large_images_a": 1,
+  "large_images_b": 1,
+  "large_images_of_b_found_in_a": [
+   true
+  ],
+  "contents_equal_by_page": [
+   true
+  ]
+ },
+ {
+  "a": {
+   "file": "007_www.nta.go.jp_taxes_shiraberu_shinkoku_yoshiki_017.pdf",
+   "sha256": "1e61c20b72c21ee86820be392e8be29226f63d7d9dd891082497f62ca473cb22",
+   "pages": [
+    {
+     "page": 1,
+     "images": [
+      {
+       "w": 2481,
+       "h": 3508,
+       "filter": "DCTDecode",
+       "sha256": "2c31b2f426b59be321d8be3c77bbb2cbac267d2b953a5055e7953f7a5c2abc74"
+      }
+     ],
+     "content_sha256": "edf4f793e6d3d3f32fc3ce98b6abe262cff1141bd5be4d7ce6efa571362eb818",
+     "n_text_runs": 0
+    }
+   ]
+  },
+  "b": {
+   "file": "012_www.nta.go.jp_law_tsutatsu_kobetsu_shotoku_shinkoku_001115_pdf_06_06_010-3.pdf",
+   "sha256": "f5de7b9432b1d072860ff19f692884e2af98b3ab0a42b65cbb6137f4ceb1df5b",
+   "pages": [
+    {
+     "page": 1,
+     "images": [
+      {
+       "w": 2481,
+       "h": 3508,
+       "filter": "DCTDecode",
+       "sha256": "2c31b2f426b59be321d8be3c77bbb2cbac267d2b953a5055e7953f7a5c2abc74"
+      }
+     ],
+     "content_sha256": "edf4f793e6d3d3f32fc3ce98b6abe262cff1141bd5be4d7ce6efa571362eb818",
+     "n_text_runs": 0
+    }
+   ]
+  },
+  "same_file": false,
+  "large_images_a": 1,
+  "large_images_b": 1,
+  "large_images_of_b_found_in_a": [
+   true
+  ],
+  "contents_equal_by_page": [
+   true
+  ]
+ }
+]

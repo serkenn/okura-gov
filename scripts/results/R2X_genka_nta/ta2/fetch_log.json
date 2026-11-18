@@ -1,0 +1,51 @@
+{
+ "set": "ta2",
+ "fetched_at": "20261109-174055",
+ "download_dir": ".work/downloads/20261109-174055_R2X_genka_nta_ta2",
+ "items": [
+  {
+   "id": "ta_2106",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2106.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:05 GMT",
+   "bytes": 31681,
+   "sha256": "6486a19d37297e29c334edce9c7cf07c6d57507bd402f6a88c81d4d560fbd3ef",
+   "saved": ".work/downloads/20261109-174055_R2X_genka_nta_ta2/ta_2106.htm",
+   "title": "No.2106 定額法と定率法による減価償却(平成19年4月1日以後に取得する場合)｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_2100_01",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/pdf/2100_01.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Thu, 18 Jan 2024 07:57:11 GMT",
+   "bytes": 569098,
+   "sha256": "4cdc99af5e42395355b8995790561c694cfbcab01138cc73609bc00c8b27604a",
+   "saved": ".work/downloads/20261109-174055_R2X_genka_nta_ta2/ta_2100_01.pdf"
+  },
+  {
+   "id": "ta_2100_02",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/pdf/2100_02.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Thu, 18 Jan 2024 07:57:11 GMT",
+   "bytes": 301764,
+   "sha256": "c02362285fec7aba9e0005a12cded84f0eee6baa980b3d6f6a4e1b2e5e160c46",
+   "saved": ".work/downloads/20261109-174055_R2X_genka_nta_ta2/ta_2100_02.pdf"
+  },
+  {
+   "id": "tetsuzuki_18",
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/18.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 28 Oct 2026 01:00:22 GMT",
+   "bytes": 12284,
+   "sha256": "0da6f068cb29717a585f5f5bc1aeb95550b09aab6b42db5a8f8edfb2ac8255ef",
+   "saved": ".work/downloads/20261109-174055_R2X_genka_nta_ta2/tetsuzuki_18.htm",
+   "title": "A1-18 所得税の減価償却資産の償却方法の届出手続｜国税庁",
+   "encoding": "shift_jis"
+  }
+ ]
+}

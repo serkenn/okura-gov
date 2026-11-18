@@ -1,0 +1,14 @@
+# source=https://www.keisan.nta.go.jp/oshirase/r7info/info25.html
+# final_url=https://www.keisan.nta.go.jp/oshirase/r7info/info25.html
+# fetched_at=2026-11-09T14:51:52+0900
+# sha256=4be64ab9ec185b63a00c98cdd0997aaba4120ee76047d29f85dfc44ca6901f66
+# encoding=UTF-8
+
+【確定申告書等作成コーナー】-所得税の一部の申告書・決算書等の様式変更について
+このページの本文へ移動
+国税庁　NATIONAL TAX AGENCY
+確定申告書等作成コーナーお知らせ
+所得税の一部の申告書・決算書等の様式変更について
+国税システムの更改に伴い、確定申告書等作成コーナーで作成される所得税の一部の申告書・決算書等の様式が変更となりました。
+確定申告書等作成コーナーで作成される様式の変更について
+更改の詳細についてはこちら（外部サイト）

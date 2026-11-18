@@ -1,0 +1,1406 @@
+[
+ {
+  "href": "https://www.nta.go.jp/",
+  "text": "ホーム"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/index.htm",
+  "text": "法令等"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/menu.htm",
+  "text": "法令解釈通達"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/01/02.htm#a-01",
+  "text": "国税を納める義務がある者"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/01/02.htm#a-02",
+  "text": "納期限を繰り上げた場合の法定納期限"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/01/02.htm#a-03",
+  "text": "会社更生法の規定に基づく納税の猶予に係る期限"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/01/02.htm#a-04",
+  "text": "即時徴収に係る国税の法定納期限"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/01/02.htm#a-05",
+  "text": "強制執行"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-01",
+  "text": "相続人"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-02",
+  "text": "胎児"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-03",
+  "text": "相続人が明らかでない場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-04",
+  "text": "課されるべき国税"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-05",
+  "text": "納付すべき国税"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-06",
+  "text": "徴収されるべき国税"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-07",
+  "text": "納税の猶予等の効力の承継"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-08",
+  "text": "相続によって得た財産"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-08-2",
+  "text": "承継国税額のあん分の割合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-09",
+  "text": "包括遺贈等の割合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-10",
+  "text": "指定相続分と遺留分との関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-11",
+  "text": "相続分の指定の委託を受けた者がその指定をしない場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-12",
+  "text": "指定相続分が明らかでない場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-13",
+  "text": "連帯納付義務の場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-14",
+  "text": "相続によって得た財産の価額"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-15",
+  "text": "承継国税に係る延滞税、利子税がある場合の納付責任の範囲"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-16",
+  "text": "連帯納付義務等がある場合の納付責任の範囲"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-17",
+  "text": "他の相続人による履行と納付責任との関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-18",
+  "text": "相続税法第34条第2項との関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-19",
+  "text": "相続人が2人以上ある場合の更正決定等"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-20",
+  "text": "被相続人の国税につき督促がされている場合の催告"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-21",
+  "text": "清算手続と滞納処分"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/05.htm#a-22",
+  "text": "相続人等に異動を生じた場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/06.htm#a-01",
+  "text": "承継する国税の範囲"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/06.htm#a-02",
+  "text": "納税の猶予等の効力の承継"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/07.htm#a-01",
+  "text": "承継する国税の範囲"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/07.htm#a-02",
+  "text": "人格のない社団等の財産"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/07.htm#a-03",
+  "text": "納税の猶予等の効力の承継"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/07_2.htm#a-01",
+  "text": "承継する国税の範囲"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/07_2.htm#a-02",
+  "text": "納税の猶予等の効力の承継"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/07_2.htm#a-03",
+  "text": "固有財産"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/08.htm#a-01",
+  "text": "相対的効力の原則"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/08.htm#a-02",
+  "text": "連帯納付義務者の破産"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/08.htm#a-03",
+  "text": "相続税又は贈与税の納付義務と相続税法第34条の連帯納付責任の関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/08.htm#a-04",
+  "text": "相続税法第34条の連帯納付責任の徴収手続"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/08.htm#a-05",
+  "text": "法人税等の納付義務と法人税法第152条第1項の連帯納付責任の関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/09.htm",
+  "text": "連帯納付義務者"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/09_2.htm#a-01",
+  "text": "連帯納付責任の確定手続"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/09_2.htm#a-02",
+  "text": "分割をした法人から承継した財産の価額"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/09_2.htm#a-03",
+  "text": "分割前国税の納付義務と連帯納付責任との関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/02/09_2.htm#a-04",
+  "text": "信託に係る国税の納付義務等の承継との関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/03/10.htm#a-01",
+  "text": "国税に関する法令に定める期間"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/03/10.htm#a-02",
+  "text": "前に遡る期間の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/03/10.htm#a-03",
+  "text": "法律に定める申告等に関する期限"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/03/10.htm#a-04",
+  "text": "一般の休日"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/03/10.htm#a-05",
+  "text": "前に遡る期間の末日が休日の場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/03/10.htm#a-06",
+  "text": "行政処分により定める期限の指定"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/03/11.htm#a-01",
+  "text": "災害その他やむを得ない理由"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/03/11.htm#a-02",
+  "text": "法律に基づく申告等に関する期限"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/03/11.htm#a-03",
+  "text": "地域指定及び対象者指定と個別指定による延長との関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/03/11.htm#a-04",
+  "text": "地域指定と対象者指定による延長との関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/04/12.htm#a-01",
+  "text": "事務所等が2以上ある場合の送達"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/04/12.htm#a-02",
+  "text": "所在不明の法人に対する送達"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/04/12.htm#a-03",
+  "text": "制限行為能力者に対する送達"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/04/12.htm#a-04",
+  "text": "破産者等に対する送達"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/04/12.htm#a-05",
+  "text": "在監者に対する送達"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/04/12.htm#a-05-2",
+  "text": "特定納税管理人が指定されているときの送達"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/04/12.htm#a-06",
+  "text": "通常の取扱いによる郵便又は信書便"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/04/12.htm#a-07",
+  "text": "通常到達すべきであった時"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/04/12.htm#a-08",
+  "text": "同居の者"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/04/12.htm#a-09",
+  "text": "相当のわきまえのある者"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/04/12.htm#a-10",
+  "text": "送達の効力発生時期"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/04/13.htm#a-01",
+  "text": "相続人の氏名が明らかでない場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/04/13.htm#a-02",
+  "text": "相続人が限定承継をした場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/04/14.htm#a-01",
+  "text": "住所及び居所が明らかでない場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/04/14.htm#a-02",
+  "text": "外国においてすべき送達につき困難な事情があると認められる場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/04/14.htm#a-02-2",
+  "text": "特定納税管理人との関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/04/14.htm#a-03",
+  "text": "公示事項を閲覧することができなくなった場合等の効力"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/01/04/14.htm#a-04",
+  "text": "公示送達による場合の書類を発した日"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/01/34.htm#a-01",
+  "text": "金銭"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/01/34.htm#a-02",
+  "text": "税務署の職員"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/01/34.htm#a-03",
+  "text": "弁済充当の順位"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/01/34.htm#a-04",
+  "text": "被相続人名義でされた納付"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/01/34.htm#a-05",
+  "text": "災害その他やむを得ない理由"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/01/34.htm#a-06",
+  "text": "その承認する日"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/01/34.htm#a-07",
+  "text": "この法律の施行地外の地域に住所又は居所を有するもの"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/01/34.htm#a-08",
+  "text": "送金した日"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/01/34_02.htm#a-01",
+  "text": "受理の基準"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/01/34_02.htm#a-02",
+  "text": "送付依頼の解除"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/01/34_02.htm#a-03",
+  "text": "災害その他やむを得ない理由"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/01/34_02.htm#a-04",
+  "text": "その承認する日"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/02/36.htm",
+  "text": "納付場所の指定"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/02/37.htm#a-01",
+  "text": "繰上保全差押え等がされた国税"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/02/37.htm#a-03",
+  "text": "担保物処分と督促"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/02/37.htm#a-03",
+  "text": "徴収猶予期問中の督促の制限"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/02/37.htm#a-04",
+  "text": "期限後納付に係る源泉徴収等による国税の延滞税の督促"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/02/37.htm#a-05",
+  "text": "延納の許可を取り消した場合の督促"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/02/37.htm#a-06",
+  "text": "50日後に発した督促状の効力"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/02/37.htm#a-07",
+  "text": "送達前に一部納付がされている場合の督促状の効力"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/02/38.htm#a-01",
+  "text": "法人の解散"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/02/38.htm#a-02",
+  "text": "繰上げに係る期限"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/02/38.htm#a-03",
+  "text": "納付場所の指定"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/02/38.htm#a-04",
+  "text": "繰上保全差押えができる終期"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/02/39.htm#a-01",
+  "text": "徴収することができる"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/02/39.htm#a-02",
+  "text": "通知の時期"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/03/41.htm#a-01",
+  "text": "第三者"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/03/41.htm#a-02",
+  "text": "正当な利益を有する第三者"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/03/41.htm#a-03",
+  "text": "連帯納付義務者等が履行した場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/03/41.htm#a-05",
+  "text": "納付の日の翌日"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/03/41.htm#a-05",
+  "text": "代位の附記登記等の嘱託"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/03/41.htm#a-06",
+  "text": "残余の国税が消滅した場合の登記等の嘱託"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/03/42.htm#a-01",
+  "text": "納税者の資力との関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/03/42.htm#a-02",
+  "text": "詐害行為取消権等の代位行使"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/03/42.htm#a-04",
+  "text": "財産権を目的とする行為"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/03/42.htm#a-05",
+  "text": "納税者の悪意"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/03/42.htm#a-06",
+  "text": "詐害行為後に成立した国税"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/03/42.htm#a-07",
+  "text": "納税者の無資力"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/03/42.htm#a-08",
+  "text": "同時交換的な行為"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/03/42.htm#a-09",
+  "text": "代物弁済等"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/03/42.htm#a-10",
+  "text": "転得者の悪意"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/03/42.htm#a-11",
+  "text": "財産の返還請求権の差押え"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/03/42.htm#a-12",
+  "text": "取消し後の滞納処分等"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/03/03/42.htm#a-13",
+  "text": "会社法第832条等との関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-01",
+  "text": "その他これらに類する災害"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-02",
+  "text": "相当な損失"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-03",
+  "text": "予定納税に係る所得税等"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-04",
+  "text": "被災した被相続人等に係る国税"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-05",
+  "text": "猶予期間"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-06",
+  "text": "猶予金額"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-07",
+  "text": "猶予期間"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-08",
+  "text": "猶予期間の始期"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-08-2",
+  "text": "納税者の帰責性"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-08-3",
+  "text": "その他の災害"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-09",
+  "text": "生計を一にする"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-10",
+  "text": "親族"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-11",
+  "text": "事業の休廃止"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-11-2",
+  "text": "事業上の著しい損失"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-12",
+  "text": "その他の事実"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-12-2",
+  "text": "猶予該当事実と納付困難の関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-12-3",
+  "text": "納付困難"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-13",
+  "text": "猶予金額"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-13-2",
+  "text": "猶予期間"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-13-3",
+  "text": "猶予期間の始期"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-13-4",
+  "text": "期限内に申請できないやむを得ない理由"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-13-5",
+  "text": "分割納付"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-13-6",
+  "text": "合理的かつ妥当な金額"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-13-7",
+  "text": "猶予に係る税額"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-14",
+  "text": "担保を徴することができない特別の事情"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-15",
+  "text": "差押財産の価額"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-16",
+  "text": "猶予期間内に完納することができないやむを得ない理由"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-17",
+  "text": "分割納付計画の変更の方法"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-18",
+  "text": "分割納付計画を変更するやむを得ない理由"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46.htm#a-19",
+  "text": "猶予期間内の変更"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46-2.htm#a-1",
+  "text": "事実を証するに足りる書類"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46-2.htm#a-2",
+  "text": "添付書類の提出が困難な場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46-2.htm#a-3",
+  "text": "申請書等の記載の不備"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46-2.htm#a-4",
+  "text": "添付書類の不提出"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46-2.htm#a-5",
+  "text": "みなし取下げの通知に対する不服申立て"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46-2.htm#a-6",
+  "text": "忌避等"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46-2.htm#a-6-2",
+  "text": "偽りの答弁"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46-2.htm#a-7",
+  "text": "不誠実な申請"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46-2.htm#a-8",
+  "text": "質問、検査及び物件の提示又は提出の要求をすることができる場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46-2.htm#a-9",
+  "text": "質問等"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46-2.htm#a-10",
+  "text": "帳簿書類その他の物件"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46-2.htm#a-10-2",
+  "text": "留置き"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46-2.htm#a-10-3",
+  "text": "留置きに係る書面の交付手続"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/46-2.htm#a-11",
+  "text": "身分証明書の提示"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/47.htm",
+  "text": "納税の猶予等の通知"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/47.htm",
+  "text": "その他必要な事項"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/47.htm",
+  "text": "不許可の通知"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/48.htm#a-01",
+  "text": "交付要求"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/48.htm#a-02",
+  "text": "差押えの解除"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/48.htm#a-03",
+  "text": "債権等の取立て"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/48.htm#a-04",
+  "text": "時効の停止"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/49.htm#a-01",
+  "text": "分割納付ができなかったやむを得ない理由"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/49.htm#a-02",
+  "text": "担保の変更等の命令に応じないとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/49.htm#a-03",
+  "text": "新たに滞納した場合のやむを得ない理由"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/49.htm#a-04",
+  "text": "偽りその他不正な手段"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/49.htm#a-05",
+  "text": "財産の状況その他の事情の変化"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/49.htm#a-06",
+  "text": "弁明をしない正当な理由"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/01/49.htm#a-07",
+  "text": "取消し等の通知"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/50.htm#a-01",
+  "text": "確実と認める社債その他の有価証券"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/50.htm#a-02",
+  "text": "立木"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/50.htm#a-03",
+  "text": "担保として適格ではない財団"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/50.htm#a-04",
+  "text": "保険の範囲"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/50.htm#a-05",
+  "text": "保険の金額"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/50.htm#a-06",
+  "text": "確実と認める保証人"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/50.htm#a-07",
+  "text": "法人による保証"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/50.htm#a-07-2",
+  "text": "納税者の履行状況に関する保証人への通知"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/50.htm#a-08",
+  "text": "担保提供の順位"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/50.htm#a-09",
+  "text": "担保の額"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/50.htm#a-10",
+  "text": "担保財産の見積価額"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/51.htm#a-01",
+  "text": "その他の理由"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/51.htm#a-02",
+  "text": "担保を提供した者"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/51.htm#a-03",
+  "text": "その他の担保を確保するための措置"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/52.htm#a-01",
+  "text": "不服申立てに係る国税の担保の処分"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/52.htm#a-02",
+  "text": "会社更生法との関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/52.htm#a-03",
+  "text": "担保財産の差押え"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/52.htm#a-03-2",
+  "text": "個人の保証人に対する取消しの通知"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/52.htm#a-04",
+  "text": "滞納処分を執行してもなお不足があると認めるとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/52.htm#a-05",
+  "text": "換価の制限"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/52.htm#a-06",
+  "text": "納税の猶予"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/52.htm#a-07",
+  "text": "換価の猶予"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/52.htm#a-08",
+  "text": "滞納処分の停止による消滅"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/52.htm#a-09",
+  "text": "時効の完成猶予及び更新のための訴え"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/52.htm#a-10",
+  "text": "催告の抗弁権等"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/54.htm#a-01",
+  "text": "担保が有価証券等の場合の担保の提供に関し必要と認められる書類"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/54.htm#a-01-2",
+  "text": "担保が不動産等の場合に担保の提供に関し必要と認められる書類"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/54.htm#a-01-3",
+  "text": "担保が保証人の保証の場合に担保の提供に関し必要と認められる書類"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/54.htm#a-01-4",
+  "text": "法定代理人等の印鑑証明書等が提出される場合に不要となる書類"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/54.htm#a-01-5",
+  "text": "保佐人又は補助人の意思の確認"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/54.htm#a-02",
+  "text": "有価証券等の供託機関"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/54.htm#a-04",
+  "text": "保険に対する保全措置"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/54.htm#a-05",
+  "text": "共同保証の場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/54.htm#a-06",
+  "text": "保証等の意思の確認"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/54.htm#a-07",
+  "text": "第三者納付の場合の解除時期"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/54.htm#a-08",
+  "text": "その他の解除手続"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/55.htm#a-01",
+  "text": "国税の徴収上有利"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/55.htm#a-02",
+  "text": "納付委託に使用できる証券"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/55.htm#a-03",
+  "text": "最近"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/55.htm#a-04",
+  "text": "証券の確実性の判定"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/55.htm#a-07",
+  "text": "不渡りの場合の措置"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/55.htm#a-08",
+  "text": "第1項第3号の国税に係る納付委託と滞納処分等との関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/04/02/55.htm#a-09",
+  "text": "納付委託と担保の関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/56.htm#a-01",
+  "text": "国税に係る過誤納金"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/56.htm#a-02",
+  "text": "源泉徴収等による国税の過誤納金の還付"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/56.htm#a-03",
+  "text": "第二次納税義務者への還付"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/56.htm#a-04",
+  "text": "国税の保証人又は第三者の納付に係る過誤納金の還付"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/56.htm#a-05",
+  "text": "連帯納付義務者等への還付"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/56.htm#a-06",
+  "text": "相続人への還付"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/56.htm#a-06-2",
+  "text": "遺言執行者への還付"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/56.htm#a-07",
+  "text": "制限行為能力者への還付"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/56.htm#a-08",
+  "text": "破産者等への還付"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/56.htm#a-09",
+  "text": "還付金等の譲受人への還付"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/56.htm#a-10",
+  "text": "強制執行がされた還付金等の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/56.htm#a-11",
+  "text": "仮差押えの執行がされた還付金の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/56.htm#a-12",
+  "text": "滞納処分がされた還付金等の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/56.htm#a-13",
+  "text": "還付金等の請求権について相続があった場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/56.htm#a-14",
+  "text": "納税地に異動があった場合の引継ぎ"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/56.htm#a-15",
+  "text": "充当のための引継ぎ"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/57.htm#a-01",
+  "text": "還付を受けるべき者"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/57.htm#a-02",
+  "text": "納付すべきこととなっている国税"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/57.htm#a-03",
+  "text": "譲渡等に係る還付金等の充当"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/57.htm#a-04",
+  "text": "破産手続開始の決定があった場合の還付金等の充当"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/57.htm#a-05",
+  "text": "支払決定後における充当"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/57.htm#a-06",
+  "text": "充当適状前の充当"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/57.htm#a-07",
+  "text": "充当の順位"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/57.htm#a-08",
+  "text": "特殊な場合の充当適状の日"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/57.htm#a-09",
+  "text": "還付金等が生じた時"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/57.htm#a-10",
+  "text": "滞納処分費の生じた時"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/58.htm#a-01",
+  "text": "支払決定"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/58.htm#a-02",
+  "text": "過納金"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/58.htm#a-03",
+  "text": "納付があった日"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/58.htm#a-04",
+  "text": "更正があった日"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/58.htm#a-05",
+  "text": "相続により分割承継された場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/58.htm#a-06",
+  "text": "譲渡又は転付命令があった場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/58.htm#a-07",
+  "text": "還付金等が滞納処分により差し押えられた場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/58.htm#a-08",
+  "text": "第二次納税義務者の納付に係る過誤納金の場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/58.htm#a-09",
+  "text": "除算期間の終期"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/58.htm#a-10",
+  "text": "仮差押え"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/58.htm#a-11",
+  "text": "仮差押期間"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/58.htm#a-12",
+  "text": "適法な納付に影響を及ぼすことなく"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/58.htm#a-13",
+  "text": "法律の規定に基づき過納となったとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/58.htm#a-14",
+  "text": "還付加算金が加算されない場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/59.htm#a-01",
+  "text": "最近"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/59.htm#a-02",
+  "text": "過誤納があったものとみなす日"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/59.htm#a-03",
+  "text": "国税の確定予定日を経過した後における予納の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/59.htm#a-04",
+  "text": "予納した国税の延滞税等の終期"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/05/01/59.htm#a-05",
+  "text": "現金納付に係る登録免許税の還付"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/60.htm#a-01",
+  "text": "納税者"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/60.htm#a-02",
+  "text": "完納する日"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/60.htm#a-03",
+  "text": "源泉徴収等による国税の遅延納付の場合の延滞税の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/60.htm#a-04",
+  "text": "相続により分割承継された場合の延滞税の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/62.htm",
+  "text": "国税の一部が納付された日"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/63.htm#a-01",
+  "text": "猶予期間内に納付しなかったやむを得ない理由"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/63.htm#a-02",
+  "text": "納付が困難と認められるもの"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/63.htm#a-03",
+  "text": "財産の状況が著しく不良"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/63.htm#a-03-2",
+  "text": "軽減又は免除されたとき"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/63.htm#a-04",
+  "text": "延滞税の納付を困難とするやむを得ない理由"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/63.htm#a-05",
+  "text": "判定の時期"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/63.htm#a-06",
+  "text": "必要な財産"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/63.htm#a-08",
+  "text": "相当する担保"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/63.htm#a-09",
+  "text": "免除の範囲"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/63.htm#a-10",
+  "text": "弁済委託等の場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/63.htm#a-11",
+  "text": "期限が指定された場合の委託を受けた日"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/63.htm#a-12",
+  "text": "その他これらに類する災害"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/63.htm#a-13",
+  "text": "納付することができない事由"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/63.htm#a-14",
+  "text": "人為による異常な災害又は事故"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/63.htm#a-15",
+  "text": "申告又は納付ができない場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/63.htm#a-16",
+  "text": "第二次納税義務等の免除"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/63.htm#a-17",
+  "text": "意見を述べる場合等の基準"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/64.htm#a-01",
+  "text": "相続により分割承継された場合の利子税の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/64.htm#a-02",
+  "text": "繰上請求をした場合の利子税の計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/06/01/64.htm#a-03",
+  "text": "会社更生法の規定による利子税の免除との関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/07/02/72.htm#a-01",
+  "text": "徴収権を行使することができる日"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/07/02/72.htm#a-02",
+  "text": "裁判上の請求"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/07/02/72.htm#a-03",
+  "text": "催告"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/07/02/72.htm#a-04",
+  "text": "滞納処分"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/07/02/72.htm#a-05",
+  "text": "捜索"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/07/02/72.htm#a-06",
+  "text": "承認"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/07/02/72.htm#a-07",
+  "text": "一部納付"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/07/02/73.htm#a-01",
+  "text": "当該部分の国税に併せて納付すべき延滞税及び利子税"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/07/02/73.htm#a-02",
+  "text": "時効の完成猶予等の効力が及ぶ延滞税等"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/07/02/73.htm#a-03",
+  "text": "納付により時効の更新の効力が生じる延滞税等"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/117.htm#a-01",
+  "text": "納税者"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/117.htm#a-02",
+  "text": "納税管理人の事務範囲"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/117.htm#a-03",
+  "text": "納税管理人の選任"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/117.htm#a-04",
+  "text": "納税管理人の権限の消滅"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/117.htm#a-05",
+  "text": "納税管理人の権限の消滅後の効果"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/117.htm#a-06",
+  "text": "納税管理人に処理させる必要があると認められる国税に関する事項の範囲"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/117.htm#a-07",
+  "text": "特定納税管理人と法第12 条の納税管理人の事務との関係"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/117.htm#a-08",
+  "text": "納税管理人の届出をすべきことの求めに応じた場合の手続"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/117.htm#a-09",
+  "text": "国内便宜者が納税管理人となることの求めに応じた場合の手続"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/117.htm#a-10",
+  "text": "密接な関係を有する者の範囲"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/117.htm#a-11",
+  "text": "継続的に又は反復して行う場を提供する事業者の範囲"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/117.htm#a-12",
+  "text": "その他これに類する事実の範囲"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/117.htm#a-13",
+  "text": "特定事項を処理させる必要がなくなったときの範囲"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/119.htm#a-01",
+  "text": "国税の確定金額"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/119.htm#a-02",
+  "text": "分割して納付することとされている場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/119.htm#a-03",
+  "text": "附帯税の確定金額"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/119.htm#a-04",
+  "text": "被相続人に課されるべき国税を承継する場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/119.htm#a-05",
+  "text": "被相続人の納付すべき国税を承継する場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/119.htm#a-06",
+  "text": "国税の確定金額を算出する過程における算出額の端数計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/120.htm#a-01",
+  "text": "還付金等が相続等により分割された場合の端数計算等"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/120.htm#a-02",
+  "text": "一つの申告等により2以上の還付金等が発生した場合の加算金の端数計算等"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/120.htm#a-03",
+  "text": "還付加算金の計算の基礎となる還付金等の額"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/120.htm#a-04",
+  "text": "還付加算金の確定金額を算出する過程における端数計算"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/123.htm#a-01",
+  "text": "納付すべき税額がないこと"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/123.htm#a-02",
+  "text": "所得金額等がないこと"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/123.htm#a-03",
+  "text": "国税の年度"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/123.htm#a-04",
+  "text": "国税の税目"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/123.htm#a-05",
+  "text": "納付すべき税額等の証明請求の場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/123.htm#a-06",
+  "text": "滞納処分を受けたことがないことの証明の交付手数料"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/123.htm#a-07",
+  "text": "その他これらに類する災害"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/123.htm#a-08",
+  "text": "相当な損失"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/123.htm#a-09",
+  "text": "扶助等を受けるための証明書"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/09/01/123.htm#a-10",
+  "text": "本条に規定のない事項についての証明"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/mokuji.htm",
+  "text": "目次"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/00.htm#a-01",
+  "text": "国税通則法基本通達（徴収部関係）の制定について"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/00.htm#a-02",
+  "text": "引用の法令番号"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/00.htm#a-03",
+  "text": "省略用語"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/kihon/tsusoku/mokuji.htm#page-top",
+  "text": "このページの先頭へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/index.htm",
+  "text": "法令等"
+ },
+ {
+  "href": "https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0100/",
+  "text": "税法（e-Govの「e-Gov法令検索」へリンク）"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/menu.htm",
+  "text": "法令解釈通達"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/sonota.htm",
+  "text": "その他法令解釈に関する情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/jimu-unei/jimu.htm",
+  "text": "事務運営指針"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/kokuji/kokuji.htm",
+  "text": "国税庁告示"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/bunshokaito/01.htm",
+  "text": "文書回答事例"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/shitsugi/01.htm",
+  "text": "質疑応答事例"
+ },
+ {
+  "href": "https://www.nta.go.jp/",
+  "text": "ホーム"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/index.htm",
+  "text": "法令等"
+ },
+ {
+  "href": "https://www.nta.go.jp/law/tsutatsu/menu.htm",
+  "text": "法令解釈通達"
+ }
+]

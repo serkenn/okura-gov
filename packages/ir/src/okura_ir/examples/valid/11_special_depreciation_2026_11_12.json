@@ -1,0 +1,45 @@
+{
+ "schema_version": "0",
+ "persons": [
+  {"id": "p-k", "birth_on": "1978-06-01"}
+ ],
+ "relations": [],
+ "residences": [],
+ "insurance_memberships": [],
+ "facts": [
+  {"id": "biz-k", "kind": "business", "roles": {"owner": "p-k"}, "when": {"from_on": "2019-04-01"},
+   "attributes": {"description": "架空の金属加工業"}},
+  {"id": "f-blue-k", "kind": "blue_return_procedure", "roles": {"person": "p-k"}, "when": {"on": "2019-05-10"},
+   "attributes": {"procedure": "application_filed", "first_tax_year": 2019, "business_start_on": "2019-04-01"}},
+  {"id": "f-rcpt-k-2025", "kind": "business_receipt", "roles": {"recipient": "p-k"}, "when": {"on": "2025-06-30"},
+   "amounts": {"amount": 6000000}, "attributes": {"business_id": "biz-k", "counterparty": "架空製作所"}},
+  {"id": "f-rcpt-k-2026", "kind": "business_receipt", "roles": {"recipient": "p-k"}, "when": {"on": "2026-06-30"},
+   "amounts": {"amount": 6000000}, "attributes": {"business_id": "biz-k", "counterparty": "架空製作所"}},
+  {"id": "f-sd-k-2025", "kind": "special_depreciation", "roles": {"owner": "p-k"}, "when": {"tax_year": 2025},
+   "amounts": {"amount": 900000},
+   "attributes": {"asset_id": "asset-lathe", "article": "10_3", "method": "special", "source_note": "特別償却の付表（架空。限度額より少なく算入した）"}},
+  {"id": "f-sd-k-2026", "kind": "special_depreciation", "roles": {"owner": "p-k"}, "when": {"tax_year": 2026},
+   "amounts": {"amount": 300000},
+   "attributes": {"asset_id": "asset-lathe", "article": "10_3", "method": "special", "shortfall_carryover": true,
+                  "source_note": "前年分の償却不足額の繰越（架空）"}}
+ ],
+ "assets": [
+  {"id": "asset-lathe", "kind": "depreciable_asset", "roles": {"owner": "p-k"}, "when": {"from_on": "2025-01-20"},
+   "amounts": {"acquisition_cost": 4000000},
+   "attributes": {"name": "旋盤（架空）", "quantity": 1, "unit": "台", "acquisition_type": "purchase",
+                  "placed_in_service_on": "2025-02-01", "business_id": "biz-k"}}
+ ],
+ "filed_documents": [],
+ "judgments": [
+  {"id": "j-lathe-class", "kind": "判断.減価償却の区分", "judged_by": {"person": "p-k"},
+   "judged_at": "2025-02-01T09:00:00+09:00",
+   "subject": {"asset_id": "asset-lathe"}, "value": {"useful_life_years": 10}},
+  {"id": "j-jigyo-k-2025", "kind": "判断.事業と称するに至る程度", "judged_by": {"person": "p-k"},
+   "judged_at": "2026-02-01T09:00:00+09:00",
+   "subject": {"person": "p-k", "business_id": "biz-k"}, "when": {"tax_year": 2025}, "value": true},
+  {"id": "j-jigyo-k-2026", "kind": "判断.事業と称するに至る程度", "judged_by": {"person": "p-k"},
+   "judged_at": "2027-02-01T09:00:00+09:00",
+   "subject": {"person": "p-k", "business_id": "biz-k"}, "when": {"tax_year": 2026}, "value": true}
+ ],
+ "choices": []
+}

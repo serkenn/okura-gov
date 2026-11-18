@@ -1,0 +1,23 @@
+# source=https://www.mhlw.go.jp/web/t_docsrch_keyword?keyword=%E8%A2%AB%E6%89%B6%E9%A4%8A%E9%85%8D%E5%81%B6%E8%80%85%E3%81%AE%E8%AA%8D%E5%AE%9A%E5%9F%BA%E6%BA%96%E3%81%AE%E4%B8%80%E9%83%A8&type=1&mode=0
+# fetched_at=20261111-025043
+# charset=UTF-8
+
+結果一覧
+
+検索結果
+
+該当件数: 0件中 0件~ 0件
+
+[form action='??t_docsrch_keyword_ja??' method=None]
+
+		[input name='type' type='hidden' value='1']
+		[input name='page' type='hidden' value='0']
+		[input name='keyword' type='hidden' value='被扶養配偶者の認定基準の一部']
+		[input name='mode' type='hidden' value='0']
+
+			[select name='sort' type=None value=None]
+				並べ替え順序選択
+				制定年月日 新しい順
+				制定年月日 古い順
+				改正年月日 新しい順
+				改正年月日 古い順

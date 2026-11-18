@@ -1,0 +1,55 @@
+{
+ "schema_version": "0",
+ "persons": [
+  {
+   "id": "p-1",
+   "birth_on": "2005-01-01"
+  }
+ ],
+ "relations": [],
+ "residences": [],
+ "insurance_memberships": [],
+ "facts": [
+  {
+   "id": "f-1",
+   "kind": "authority_decision",
+   "roles": {
+    "person": "p-1"
+   },
+   "when": {
+    "fiscal_year": 2026
+   },
+   "attributes": {
+    "decision": "kokuho_student_special_case_recognized",
+    "authority": "municipality",
+    "tax_item": "resident_tax",
+    "municipality_code": "990011"
+   }
+  },
+  {
+   "id": "f-2",
+   "kind": "specific_expense",
+   "roles": {
+    "payer": "p-1"
+   },
+   "when": {
+    "on": "2026-05-01"
+   },
+   "amounts": {
+    "amount": 1000,
+    "special_seat_fee": 900,
+    "reimbursed_nontaxable": 800,
+    "training_benefit": 300
+   },
+   "attributes": {
+    "category": "business_travel",
+    "certified_by": "payer",
+    "sleeper_fees": [200]
+   }
+  }
+ ],
+ "assets": [],
+ "filed_documents": [],
+ "judgments": [],
+ "choices": []
+}

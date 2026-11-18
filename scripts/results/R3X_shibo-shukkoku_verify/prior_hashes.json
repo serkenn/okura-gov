@@ -1,0 +1,562 @@
+{
+ "files": {
+  ".work/downloads/20261109-200938_R3X_shibo-shukkoku_laws_index/chiho_2026-11-09.json": "3dd29e0078bf24e09c79436ce7b0f00fd2cfb5a5bbcb97bd4f4352971be68d53",
+  ".work/downloads/20261109-200938_R3X_shibo-shukkoku_laws_index/shotoku-ki_2026-11-09.json": "8721699516ac82025eea0430429b197da1e58afe195debe1fb441dfea14eacf5",
+  ".work/downloads/20261109-200938_R3X_shibo-shukkoku_laws_index/shotoku-rei_2026-11-09.json": "9facf2e2768d602ccdbbf9891df142d3a3e7ead09033eb0634de00a4c4181392",
+  ".work/downloads/20261109-200938_R3X_shibo-shukkoku_laws_index/shotoku_2026-11-09.json": "94c4a7ad83726cde60787967ed4e959585ad0af9279d25db9aa02264b3fe606b",
+  ".work/downloads/20261109-200938_R3X_shibo-shukkoku_laws_index/tsusoku_2026-11-09.json": "6f8b43e168652d228066cda3389a3bf6823900a9268e6bf97297cb6b25189dee",
+  ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/chiho_2026-11-09.json": "3dd29e0078bf24e09c79436ce7b0f00fd2cfb5a5bbcb97bd4f4352971be68d53",
+  ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/chiho_2027-01-01.json": "ee21722ce5fd15615bdd5139c9152f55388200c3965ee9c78e10800c82c2b716",
+  ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku-ki_2025-12-31.json": "16358c775e2d1dccca5fa0f4429a74e109b93b75635b93e80eda0946058c3297",
+  ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku-ki_2026-11-09.json": "8721699516ac82025eea0430429b197da1e58afe195debe1fb441dfea14eacf5",
+  ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku-ki_2026-12-31.json": "9ba37bf34afed1f9fdcf7118a41e95831a8c762db62d7bfffd07fda993f4ff69",
+  ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku-ki_2027-01-01.json": "1600117df38c4463510ee5b18f455eb0d2dd3821c8a245c8fd42e444ec9c689f",
+  ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku-rei_2025-12-31.json": "e972344f436ecd9b9b8f07e538358e716459cf0d1a77aa587699c6f71d95583a",
+  ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku-rei_2026-11-09.json": "9facf2e2768d602ccdbbf9891df142d3a3e7ead09033eb0634de00a4c4181392",
+  ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku-rei_2026-12-31.json": "cd63914bb5962edf84e776524203d38fb4033ba1c7b3a18e252d3fafbd13dbd8",
+  ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku-rei_2027-01-01.json": "f4965711894ea1c7b149f1e8db4069c87646cc070445c1afd5f1abe633883da9",
+  ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku_2025-12-31.json": "84a2235cb4437184cce50cef0a9a85945833e94a2624fbf68d67c131eccb7db3",
+  ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku_2026-11-09.json": "94c4a7ad83726cde60787967ed4e959585ad0af9279d25db9aa02264b3fe606b",
+  ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku_2026-12-31.json": "47792299f0fb5a74bad21f18f21bf7c3479017375c705b0e882a5c77823d16c8",
+  ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku_2027-01-01.json": "d4bf435220bc0b0ce6358a13800ec5605a238630b8a477d4e2587d57918dd35e",
+  ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/tsusoku_2026-11-09.json": "6f8b43e168652d228066cda3389a3bf6823900a9268e6bf97297cb6b25189dee",
+  ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/tsusoku_2027-01-01.json": "6f8b43e168652d228066cda3389a3bf6823900a9268e6bf97297cb6b25189dee",
+  ".work/downloads/20261109-201303_R3X_shibo-shukkoku_laws_index/chiho_2026-11-09.json": "3dd29e0078bf24e09c79436ce7b0f00fd2cfb5a5bbcb97bd4f4352971be68d53",
+  ".work/downloads/20261109-201303_R3X_shibo-shukkoku_laws_index/shotoku-ki_2026-11-09.json": "8721699516ac82025eea0430429b197da1e58afe195debe1fb441dfea14eacf5",
+  ".work/downloads/20261109-201303_R3X_shibo-shukkoku_laws_index/shotoku-rei_2026-11-09.json": "9facf2e2768d602ccdbbf9891df142d3a3e7ead09033eb0634de00a4c4181392",
+  ".work/downloads/20261109-201303_R3X_shibo-shukkoku_laws_index/shotoku_2026-11-09.json": "94c4a7ad83726cde60787967ed4e959585ad0af9279d25db9aa02264b3fe606b",
+  ".work/downloads/20261109-201303_R3X_shibo-shukkoku_laws_index/sochi_2026-11-09.json": "e6e6013bbc0608c6b48dea01d50ac847c3e5d094f0420223171ffe1b5cf8d5ee",
+  ".work/downloads/20261109-201303_R3X_shibo-shukkoku_laws_index/tsusoku_2026-11-09.json": "6f8b43e168652d228066cda3389a3bf6823900a9268e6bf97297cb6b25189dee",
+  ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/chiho_2026-11-09.json": "3dd29e0078bf24e09c79436ce7b0f00fd2cfb5a5bbcb97bd4f4352971be68d53",
+  ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/chiho_2027-01-01.json": "ee21722ce5fd15615bdd5139c9152f55388200c3965ee9c78e10800c82c2b716",
+  ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku-ki_2025-12-31.json": "16358c775e2d1dccca5fa0f4429a74e109b93b75635b93e80eda0946058c3297",
+  ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku-ki_2026-11-09.json": "8721699516ac82025eea0430429b197da1e58afe195debe1fb441dfea14eacf5",
+  ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku-ki_2026-12-31.json": "9ba37bf34afed1f9fdcf7118a41e95831a8c762db62d7bfffd07fda993f4ff69",
+  ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku-ki_2027-01-01.json": "1600117df38c4463510ee5b18f455eb0d2dd3821c8a245c8fd42e444ec9c689f",
+  ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku-rei_2025-12-31.json": "e972344f436ecd9b9b8f07e538358e716459cf0d1a77aa587699c6f71d95583a",
+  ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku-rei_2026-11-09.json": "9facf2e2768d602ccdbbf9891df142d3a3e7ead09033eb0634de00a4c4181392",
+  ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku-rei_2026-12-31.json": "cd63914bb5962edf84e776524203d38fb4033ba1c7b3a18e252d3fafbd13dbd8",
+  ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku-rei_2027-01-01.json": "f4965711894ea1c7b149f1e8db4069c87646cc070445c1afd5f1abe633883da9",
+  ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku_2025-12-31.json": "84a2235cb4437184cce50cef0a9a85945833e94a2624fbf68d67c131eccb7db3",
+  ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku_2026-11-09.json": "94c4a7ad83726cde60787967ed4e959585ad0af9279d25db9aa02264b3fe606b",
+  ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku_2026-12-31.json": "47792299f0fb5a74bad21f18f21bf7c3479017375c705b0e882a5c77823d16c8",
+  ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku_2027-01-01.json": "d4bf435220bc0b0ce6358a13800ec5605a238630b8a477d4e2587d57918dd35e",
+  ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/sochi_2025-12-31.json": "ef95d90f7bf57e182e674201fcc0ac27799d8e2ba2947db8043358aef02df9e7",
+  ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/sochi_2026-11-09.json": "e6e6013bbc0608c6b48dea01d50ac847c3e5d094f0420223171ffe1b5cf8d5ee",
+  ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/sochi_2026-12-31.json": "763fce2df2b1e7093ef3ac2e44e36e766c061d5166f23ab8efe3ad012783f7f7",
+  ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/sochi_2027-01-01.json": "8c6ee577201c3be0ab85e2ca1db56bc6d7ec4257ae5e951116ac2bed2e053401",
+  ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/tsusoku_2026-11-09.json": "6f8b43e168652d228066cda3389a3bf6823900a9268e6bf97297cb6b25189dee",
+  ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/tsusoku_2027-01-01.json": "6f8b43e168652d228066cda3389a3bf6823900a9268e6bf97297cb6b25189dee",
+  ".work/downloads/20261109-201542_R3X_shibo-shukkoku_nta_robots/robots.txt": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+  ".work/downloads/20261109-201544_R3X_shibo-shukkoku_nta_index/ta_bunya_kakuteishinkoku.htm": "31d9f204719dc58eba1d98804c52cde32e48b01c6f06472d86980bcf03dda26c",
+  ".work/downloads/20261109-201544_R3X_shibo-shukkoku_nta_index/ta_bunya_saigai.htm": "fc28f430199e62ae4178aa7b1dafd6698351bd3867dca24548b55dce70d278cb",
+  ".work/downloads/20261109-201544_R3X_shibo-shukkoku_nta_index/ta_bunya_souzoku_zoyo.htm": "72ddf10617110db79a9e15daf701fab7b518c627d33f65dc4a8b3f57646569fc",
+  ".work/downloads/20261109-201544_R3X_shibo-shukkoku_nta_index/tetsuzuki_mokuji.htm": "94182e6dd8881c211faaf605311fcd0cea26be15e96740d69037c1c1232269d8",
+  ".work/downloads/20261109-201544_R3X_shibo-shukkoku_nta_index/yoshiki_r07.htm": "ff769ff6e512b73df0387db39f5fbc6e58f509fd12f5972e2f84e4117e58ac9f",
+  ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/annai_07.htm": "25f92cf73bb4e0e8ecefdd8a9ff774289a57d51de17eded425b841a797ebfb12",
+  ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_01_01.htm": "6d7d6ba43294e00afd3b42b9202138232b93cfa521a4af171dfbf7e2e946a0bd",
+  ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_01_08.htm": "b57943f268a2d319e2646cfd1cc915e2305dfb56d229e661e65de55a6178caf7",
+  ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_15_01.htm": "ead14cdf750a95909c51baf48fe751982f2df09ad83c908fc20f5f5503e26349",
+  ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_16_01.htm": "c00969ebe1eb83e0528faf332c93d90326196e27a0631c7547c712e38c485b96",
+  ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_16_02.htm": "c2f88d72b969cb95eeac12376cf6e31d0b2e16b4d694c0a9ed9e7d233ae81d71",
+  ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_16_06.htm": "73c6009edd9c2ed350eab73aca71530dc58a45807da74a34539cd959f604f023",
+  ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_19_01.htm": "9e7dbd6d0d4d691416185063a37bf2e016439a7d4af45d68c00fc0a7861f14e2",
+  ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_19_02.htm": "a9a3b2a8f9de88eb0c5c89d3e7d89307d9ff02b5473a543a919058adfda715a4",
+  ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/ta_1110.htm": "377fee05900a97e3440a1c46c6f41ca8a6a15482a31f17826852a19ff96c38db",
+  ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/ta_2022.htm": "1bb82145d2a371a7122e5ab3137ef12ea9a38a516341dc2fccbd421ad1ddfa00",
+  ".work/downloads/20261109-201743_R3X_shibo-shukkoku_nta_robots/robots.txt": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+  ".work/downloads/20261109-201751_R3X_shibo-shukkoku_nta_pages2/annai_1557_2.htm": "cf201c944bcb03d939ab1cff01e1deb9041208888249121c7cfb8b2faa93ecb3",
+  ".work/downloads/20261109-201751_R3X_shibo-shukkoku_nta_pages2/annai_23200032.htm": "5044c854fb14c02c53d0f7dabed40ddc6550f9bfbdef05c66b65872ed8500854",
+  ".work/downloads/20261109-201751_R3X_shibo-shukkoku_nta_pages2/jyunkaku_index.htm": "3a57433efd76bc63fe0be6e6225cd5a5d01496be5ecb69cc1d13479135c40fdc",
+  ".work/downloads/20261109-201751_R3X_shibo-shukkoku_nta_pages2/shitsugi_07_15.htm": "abf7b31c24dbdf1873a6f435e3c8f4da6f83a41e348bee417c008203e9cbf6a5",
+  ".work/downloads/20261109-201751_R3X_shibo-shukkoku_nta_pages2/ta_1923.htm": "1351c018cc9254a267626b570b81d5d390c166af48b4ed7e3168f5601d74879b",
+  ".work/downloads/20261109-201751_R3X_shibo-shukkoku_nta_pages2/ta_bunya_nemmatsuchosei.htm": "c94d060da13f5581032dbf61b8314757836f22d384586873580852d9e45b1140",
+  ".work/downloads/20261109-201804_R3X_shibo-shukkoku_nta_forms/fuhyo_shibou.pdf": "eb783a916a2705c62f81c027f6d416f4d4b2718ee869cb3029ad63fd732f0543",
+  ".work/downloads/20261109-201804_R3X_shibo-shukkoku_nta_forms/ininjo_junkaku.pdf": "a157edaf3515f3b2b7dd59914ae9d7c87c6630deff4212095f1bfd51a17f2b4f",
+  ".work/downloads/20261109-201804_R3X_shibo-shukkoku_nta_forms/r8_kiso_qa.pdf": "a3c12744dbed64e7a03383868baa055f51eb1d0434ee3267d6374d2fe959cea8",
+  ".work/downloads/20261109-201936_R3X_shibo-shukkoku_nta_robots/robots.txt": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+  ".work/downloads/20261109-201937_R3X_shibo-shukkoku_nta_pages3/gensen_2025kiso.htm": "5b1c39edc19e060ef7357b47e9e33873feece4cff13d74b709118c6628f950f1",
+  ".work/downloads/20261109-201937_R3X_shibo-shukkoku_nta_pages3/gensen_2026kiso.htm": "9e6d1b781429c0b8e4da73893ca2e480664b2006f0a2cc00c1636667f658fef0",
+  ".work/downloads/20261109-201937_R3X_shibo-shukkoku_nta_pages3/ta_1920.htm": "7d1be5d79afcbbd82b31352dab0006f9957db0137deeb5ab987e96faaf0845d2",
+  ".work/downloads/20261109-202006_R3X_shibo-shukkoku_nta_robots/robots.txt": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+  ".work/downloads/20261109-202010_R3X_shibo-shukkoku_nta_forms2/r7_kiso_qa.pdf": "af377dfb7700cb28a8c328bdb83916b148e9ff24bf2064e2be35c76bb793805b",
+  ".work/downloads/20261109-202216_R3X_shibo-shukkoku_laws_articles/tsusoku-rei_2026-11-09.json": "d43732150ecbf2b0e12426c5a3b0289921be919480ddda742a9650cbd13986af",
+  ".work/downloads/20261109-202216_R3X_shibo-shukkoku_laws_articles/tsusoku-rei_2027-01-01.json": "d43732150ecbf2b0e12426c5a3b0289921be919480ddda742a9650cbd13986af",
+  ".work/downloads/20261109-202216_R3X_shibo-shukkoku_laws_articles/tsusoku_2026-11-09.json": "6f8b43e168652d228066cda3389a3bf6823900a9268e6bf97297cb6b25189dee",
+  ".work/downloads/20261109-202216_R3X_shibo-shukkoku_laws_articles/tsusoku_2027-01-01.json": "6f8b43e168652d228066cda3389a3bf6823900a9268e6bf97297cb6b25189dee",
+  ".work/downloads/20261109-202408_R3X_shibo-shukkoku_laws_articles/shotoku_2025-12-31.json": "84a2235cb4437184cce50cef0a9a85945833e94a2624fbf68d67c131eccb7db3",
+  ".work/downloads/20261109-202408_R3X_shibo-shukkoku_laws_articles/shotoku_2026-11-09.json": "94c4a7ad83726cde60787967ed4e959585ad0af9279d25db9aa02264b3fe606b",
+  ".work/downloads/20261109-202408_R3X_shibo-shukkoku_laws_articles/shotoku_2026-12-31.json": "47792299f0fb5a74bad21f18f21bf7c3479017375c705b0e882a5c77823d16c8",
+  ".work/downloads/20261109-202408_R3X_shibo-shukkoku_laws_articles/shotoku_2027-01-01.json": "d4bf435220bc0b0ce6358a13800ec5605a238630b8a477d4e2587d57918dd35e",
+  ".work/downloads/20261109-202408_R3X_shibo-shukkoku_laws_articles/shukujitsu_2026-11-09.json": "882b4e2a964fe3dad18b357fc5f259018cfe5a95d03fa03e5e15c63c26ca46a5",
+  ".work/downloads/20261109-202408_R3X_shibo-shukkoku_laws_articles/shukujitsu_2027-01-01.json": "882b4e2a964fe3dad18b357fc5f259018cfe5a95d03fa03e5e15c63c26ca46a5",
+  ".work/downloads/20261109-211539_R3X_shibo-shukkoku_nta_forms3/fuhyo_kisaiyoryo.pdf": "f742bc6599532467c4cf89cb43f1002ba1427c0368e075471af3133e7050a8e7",
+  ".work/downloads/20261111-023525_R3X_shibo-shukkoku_asof/shotoku_2026-11-30.json": "94c4a7ad83726cde60787967ed4e959585ad0af9279d25db9aa02264b3fe606b",
+  ".work/downloads/20261111-023525_R3X_shibo-shukkoku_asof/shotoku_2026-12-01.json": "47792299f0fb5a74bad21f18f21bf7c3479017375c705b0e882a5c77823d16c8",
+  ".work/downloads/20261111-023525_R3X_shibo-shukkoku_asof/sochi_2026-11-30.json": "4d347a83294a0a7e66c827ed2d249741cfd5a69b3bafe5855131242194b626e4",
+  ".work/downloads/20261111-023525_R3X_shibo-shukkoku_asof/sochi_2026-12-01.json": "1a11304351168b77fd20ef6cde32588d9b305457d67fd0a32d077c1368db6b1c"
+ },
+ "doc_hashes": [
+  {
+   "line": 70,
+   "hash": "`84a2235cb4437184cce50cef0a9a85945833e94a2624fbf68d67c131eccb7db3`",
+   "files": [
+    ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku_2025-12-31.json",
+    ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku_2025-12-31.json",
+    ".work/downloads/20261109-202408_R3X_shibo-shukkoku_laws_articles/shotoku_2025-12-31.json"
+   ]
+  },
+  {
+   "line": 71,
+   "hash": "`94c4a7ad83726cde60787967ed4e959585ad0af9279d25db9aa02264b3fe606b`",
+   "files": [
+    ".work/downloads/20261109-200938_R3X_shibo-shukkoku_laws_index/shotoku_2026-11-09.json",
+    ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku_2026-11-09.json",
+    ".work/downloads/20261109-201303_R3X_shibo-shukkoku_laws_index/shotoku_2026-11-09.json",
+    ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku_2026-11-09.json",
+    ".work/downloads/20261109-202408_R3X_shibo-shukkoku_laws_articles/shotoku_2026-11-09.json",
+    ".work/downloads/20261111-023525_R3X_shibo-shukkoku_asof/shotoku_2026-11-30.json"
+   ]
+  },
+  {
+   "line": 72,
+   "hash": "`47792299f0fb5a74bad21f18f21bf7c3479017375c705b0e882a5c77823d16c8`",
+   "files": [
+    ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku_2026-12-31.json",
+    ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku_2026-12-31.json",
+    ".work/downloads/20261109-202408_R3X_shibo-shukkoku_laws_articles/shotoku_2026-12-31.json",
+    ".work/downloads/20261111-023525_R3X_shibo-shukkoku_asof/shotoku_2026-12-01.json"
+   ]
+  },
+  {
+   "line": 73,
+   "hash": "`d4bf435220bc0b0ce6358a13800ec5605a238630b8a477d4e2587d57918dd35e`",
+   "files": [
+    ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku_2027-01-01.json",
+    ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku_2027-01-01.json",
+    ".work/downloads/20261109-202408_R3X_shibo-shukkoku_laws_articles/shotoku_2027-01-01.json"
+   ]
+  },
+  {
+   "line": 74,
+   "hash": "`e972344f436ecd9b9b8f07e538358e716459cf0d1a77aa587699c6f71d95583a`",
+   "files": [
+    ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku-rei_2025-12-31.json",
+    ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku-rei_2025-12-31.json"
+   ]
+  },
+  {
+   "line": 75,
+   "hash": "`9facf2e2768d602ccdbbf9891df142d3a3e7ead09033eb0634de00a4c4181392`",
+   "files": [
+    ".work/downloads/20261109-200938_R3X_shibo-shukkoku_laws_index/shotoku-rei_2026-11-09.json",
+    ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku-rei_2026-11-09.json",
+    ".work/downloads/20261109-201303_R3X_shibo-shukkoku_laws_index/shotoku-rei_2026-11-09.json",
+    ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku-rei_2026-11-09.json"
+   ]
+  },
+  {
+   "line": 76,
+   "hash": "`cd63914bb5962edf84e776524203d38fb4033ba1c7b3a18e252d3fafbd13dbd8`",
+   "files": [
+    ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku-rei_2026-12-31.json",
+    ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku-rei_2026-12-31.json"
+   ]
+  },
+  {
+   "line": 77,
+   "hash": "`f4965711894ea1c7b149f1e8db4069c87646cc070445c1afd5f1abe633883da9`",
+   "files": [
+    ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku-rei_2027-01-01.json",
+    ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku-rei_2027-01-01.json"
+   ]
+  },
+  {
+   "line": 78,
+   "hash": "`16358c775e2d1dccca5fa0f4429a74e109b93b75635b93e80eda0946058c3297`",
+   "files": [
+    ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku-ki_2025-12-31.json",
+    ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku-ki_2025-12-31.json"
+   ]
+  },
+  {
+   "line": 79,
+   "hash": "`8721699516ac82025eea0430429b197da1e58afe195debe1fb441dfea14eacf5`",
+   "files": [
+    ".work/downloads/20261109-200938_R3X_shibo-shukkoku_laws_index/shotoku-ki_2026-11-09.json",
+    ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku-ki_2026-11-09.json",
+    ".work/downloads/20261109-201303_R3X_shibo-shukkoku_laws_index/shotoku-ki_2026-11-09.json",
+    ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku-ki_2026-11-09.json"
+   ]
+  },
+  {
+   "line": 80,
+   "hash": "`9ba37bf34afed1f9fdcf7118a41e95831a8c762db62d7bfffd07fda993f4ff69`",
+   "files": [
+    ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku-ki_2026-12-31.json",
+    ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku-ki_2026-12-31.json"
+   ]
+  },
+  {
+   "line": 81,
+   "hash": "`1600117df38c4463510ee5b18f455eb0d2dd3821c8a245c8fd42e444ec9c689f`",
+   "files": [
+    ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku-ki_2027-01-01.json",
+    ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku-ki_2027-01-01.json"
+   ]
+  },
+  {
+   "line": 82,
+   "hash": "`ef95d90f7bf57e182e674201fcc0ac27799d8e2ba2947db8043358aef02df9e7`",
+   "files": [
+    ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/sochi_2025-12-31.json"
+   ]
+  },
+  {
+   "line": 83,
+   "hash": "`e6e6013bbc0608c6b48dea01d50ac847c3e5d094f0420223171ffe1b5cf8d5ee`",
+   "files": [
+    ".work/downloads/20261109-201303_R3X_shibo-shukkoku_laws_index/sochi_2026-11-09.json",
+    ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/sochi_2026-11-09.json"
+   ]
+  },
+  {
+   "line": 84,
+   "hash": "`763fce2df2b1e7093ef3ac2e44e36e766c061d5166f23ab8efe3ad012783f7f7`",
+   "files": [
+    ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/sochi_2026-12-31.json"
+   ]
+  },
+  {
+   "line": 85,
+   "hash": "`8c6ee577201c3be0ab85e2ca1db56bc6d7ec4257ae5e951116ac2bed2e053401`",
+   "files": [
+    ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/sochi_2027-01-01.json"
+   ]
+  },
+  {
+   "line": 86,
+   "hash": "`6f8b43e168652d228066cda3389a3bf6823900a9268e6bf97297cb6b25189dee`",
+   "files": [
+    ".work/downloads/20261109-200938_R3X_shibo-shukkoku_laws_index/tsusoku_2026-11-09.json",
+    ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/tsusoku_2026-11-09.json",
+    ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/tsusoku_2027-01-01.json",
+    ".work/downloads/20261109-201303_R3X_shibo-shukkoku_laws_index/tsusoku_2026-11-09.json",
+    ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/tsusoku_2026-11-09.json",
+    ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/tsusoku_2027-01-01.json",
+    ".work/downloads/20261109-202216_R3X_shibo-shukkoku_laws_articles/tsusoku_2026-11-09.json",
+    ".work/downloads/20261109-202216_R3X_shibo-shukkoku_laws_articles/tsusoku_2027-01-01.json"
+   ]
+  },
+  {
+   "line": 87,
+   "hash": "`d43732150ecbf2b0e12426c5a3b0289921be919480ddda742a9650cbd13986af`",
+   "files": [
+    ".work/downloads/20261109-202216_R3X_shibo-shukkoku_laws_articles/tsusoku-rei_2026-11-09.json",
+    ".work/downloads/20261109-202216_R3X_shibo-shukkoku_laws_articles/tsusoku-rei_2027-01-01.json"
+   ]
+  },
+  {
+   "line": 88,
+   "hash": "`3dd29e0078bf24e09c79436ce7b0f00fd2cfb5a5bbcb97bd4f4352971be68d53`",
+   "files": [
+    ".work/downloads/20261109-200938_R3X_shibo-shukkoku_laws_index/chiho_2026-11-09.json",
+    ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/chiho_2026-11-09.json",
+    ".work/downloads/20261109-201303_R3X_shibo-shukkoku_laws_index/chiho_2026-11-09.json",
+    ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/chiho_2026-11-09.json"
+   ]
+  },
+  {
+   "line": 89,
+   "hash": "`ee21722ce5fd15615bdd5139c9152f55388200c3965ee9c78e10800c82c2b716`",
+   "files": [
+    ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/chiho_2027-01-01.json",
+    ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/chiho_2027-01-01.json"
+   ]
+  },
+  {
+   "line": 90,
+   "hash": "`882b4e2a964fe3dad18b357fc5f259018cfe5a95d03fa03e5e15c63c26ca46a5`",
+   "files": [
+    ".work/downloads/20261109-202408_R3X_shibo-shukkoku_laws_articles/shukujitsu_2026-11-09.json",
+    ".work/downloads/20261109-202408_R3X_shibo-shukkoku_laws_articles/shukujitsu_2027-01-01.json"
+   ]
+  },
+  {
+   "line": 103,
+   "hash": "`94c4a7ad…fe606b`",
+   "files": [
+    ".work/downloads/20261109-200938_R3X_shibo-shukkoku_laws_index/shotoku_2026-11-09.json",
+    ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku_2026-11-09.json",
+    ".work/downloads/20261109-201303_R3X_shibo-shukkoku_laws_index/shotoku_2026-11-09.json",
+    ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku_2026-11-09.json",
+    ".work/downloads/20261109-202408_R3X_shibo-shukkoku_laws_articles/shotoku_2026-11-09.json",
+    ".work/downloads/20261111-023525_R3X_shibo-shukkoku_asof/shotoku_2026-11-30.json"
+   ]
+  },
+  {
+   "line": 104,
+   "hash": "`47792299…d16c8`",
+   "files": [
+    ".work/downloads/20261109-201016_R3X_shibo-shukkoku_laws_articles/shotoku_2026-12-31.json",
+    ".work/downloads/20261109-201324_R3X_shibo-shukkoku_laws_articles/shotoku_2026-12-31.json",
+    ".work/downloads/20261109-202408_R3X_shibo-shukkoku_laws_articles/shotoku_2026-12-31.json",
+    ".work/downloads/20261111-023525_R3X_shibo-shukkoku_asof/shotoku_2026-12-01.json"
+   ]
+  },
+  {
+   "line": 105,
+   "hash": "`4d347a83294a0a7e66c827ed2d249741cfd5a69b3bafe5855131242194b626e4`",
+   "files": [
+    ".work/downloads/20261111-023525_R3X_shibo-shukkoku_asof/sochi_2026-11-30.json"
+   ]
+  },
+  {
+   "line": 106,
+   "hash": "`1a11304351168b77fd20ef6cde32588d9b305457d67fd0a32d077c1368db6b1c`",
+   "files": [
+    ".work/downloads/20261111-023525_R3X_shibo-shukkoku_asof/sochi_2026-12-01.json"
+   ]
+  },
+  {
+   "line": 115,
+   "hash": "`31d9f204719dc58eba1d98804c52cde32e48b01c6f06472d86980bcf03dda26c`",
+   "files": [
+    ".work/downloads/20261109-201544_R3X_shibo-shukkoku_nta_index/ta_bunya_kakuteishinkoku.htm"
+   ]
+  },
+  {
+   "line": 116,
+   "hash": "`72ddf10617110db79a9e15daf701fab7b518c627d33f65dc4a8b3f57646569fc`",
+   "files": [
+    ".work/downloads/20261109-201544_R3X_shibo-shukkoku_nta_index/ta_bunya_souzoku_zoyo.htm"
+   ]
+  },
+  {
+   "line": 117,
+   "hash": "`fc28f430199e62ae4178aa7b1dafd6698351bd3867dca24548b55dce70d278cb`",
+   "files": [
+    ".work/downloads/20261109-201544_R3X_shibo-shukkoku_nta_index/ta_bunya_saigai.htm"
+   ]
+  },
+  {
+   "line": 118,
+   "hash": "`94182e6dd8881c211faaf605311fcd0cea26be15e96740d69037c1c1232269d8`",
+   "files": [
+    ".work/downloads/20261109-201544_R3X_shibo-shukkoku_nta_index/tetsuzuki_mokuji.htm"
+   ]
+  },
+  {
+   "line": 119,
+   "hash": "`ff769ff6e512b73df0387db39f5fbc6e58f509fd12f5972e2f84e4117e58ac9f`",
+   "files": [
+    ".work/downloads/20261109-201544_R3X_shibo-shukkoku_nta_index/yoshiki_r07.htm"
+   ]
+  },
+  {
+   "line": 120,
+   "hash": "`1bb82145d2a371a7122e5ab3137ef12ea9a38a516341dc2fccbd421ad1ddfa00`",
+   "files": [
+    ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/ta_2022.htm"
+   ]
+  },
+  {
+   "line": 121,
+   "hash": "`377fee05900a97e3440a1c46c6f41ca8a6a15482a31f17826852a19ff96c38db`",
+   "files": [
+    ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/ta_1110.htm"
+   ]
+  },
+  {
+   "line": 122,
+   "hash": "`9e7dbd6d0d4d691416185063a37bf2e016439a7d4af45d68c00fc0a7861f14e2`",
+   "files": [
+    ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_19_01.htm"
+   ]
+  },
+  {
+   "line": 123,
+   "hash": "`a9a3b2a8f9de88eb0c5c89d3e7d89307d9ff02b5473a543a919058adfda715a4`",
+   "files": [
+    ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_19_02.htm"
+   ]
+  },
+  {
+   "line": 124,
+   "hash": "`73c6009edd9c2ed350eab73aca71530dc58a45807da74a34539cd959f604f023`",
+   "files": [
+    ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_16_06.htm"
+   ]
+  },
+  {
+   "line": 125,
+   "hash": "`ead14cdf750a95909c51baf48fe751982f2df09ad83c908fc20f5f5503e26349`",
+   "files": [
+    ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_15_01.htm"
+   ]
+  },
+  {
+   "line": 126,
+   "hash": "`c00969ebe1eb83e0528faf332c93d90326196e27a0631c7547c712e38c485b96`",
+   "files": [
+    ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_16_01.htm"
+   ]
+  },
+  {
+   "line": 127,
+   "hash": "`c2f88d72b969cb95eeac12376cf6e31d0b2e16b4d694c0a9ed9e7d233ae81d71`",
+   "files": [
+    ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_16_02.htm"
+   ]
+  },
+  {
+   "line": 128,
+   "hash": "`6d7d6ba43294e00afd3b42b9202138232b93cfa521a4af171dfbf7e2e946a0bd`",
+   "files": [
+    ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_01_01.htm"
+   ]
+  },
+  {
+   "line": 129,
+   "hash": "`b57943f268a2d319e2646cfd1cc915e2305dfb56d229e661e65de55a6178caf7`",
+   "files": [
+    ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/kihon_01_08.htm"
+   ]
+  },
+  {
+   "line": 130,
+   "hash": "`25f92cf73bb4e0e8ecefdd8a9ff774289a57d51de17eded425b841a797ebfb12`",
+   "files": [
+    ".work/downloads/20261109-201553_R3X_shibo-shukkoku_nta_pages/annai_07.htm"
+   ]
+  },
+  {
+   "line": 131,
+   "hash": "`1351c018cc9254a267626b570b81d5d390c166af48b4ed7e3168f5601d74879b`",
+   "files": [
+    ".work/downloads/20261109-201751_R3X_shibo-shukkoku_nta_pages2/ta_1923.htm"
+   ]
+  },
+  {
+   "line": 132,
+   "hash": "`abf7b31c24dbdf1873a6f435e3c8f4da6f83a41e348bee417c008203e9cbf6a5`",
+   "files": [
+    ".work/downloads/20261109-201751_R3X_shibo-shukkoku_nta_pages2/shitsugi_07_15.htm"
+   ]
+  },
+  {
+   "line": 133,
+   "hash": "`cf201c944bcb03d939ab1cff01e1deb9041208888249121c7cfb8b2faa93ecb3`",
+   "files": [
+    ".work/downloads/20261109-201751_R3X_shibo-shukkoku_nta_pages2/annai_1557_2.htm"
+   ]
+  },
+  {
+   "line": 134,
+   "hash": "`3a57433efd76bc63fe0be6e6225cd5a5d01496be5ecb69cc1d13479135c40fdc`",
+   "files": [
+    ".work/downloads/20261109-201751_R3X_shibo-shukkoku_nta_pages2/jyunkaku_index.htm"
+   ]
+  },
+  {
+   "line": 135,
+   "hash": "`5044c854fb14c02c53d0f7dabed40ddc6550f9bfbdef05c66b65872ed8500854`",
+   "files": [
+    ".work/downloads/20261109-201751_R3X_shibo-shukkoku_nta_pages2/annai_23200032.htm"
+   ]
+  },
+  {
+   "line": 136,
+   "hash": "`c94d060da13f5581032dbf61b8314757836f22d384586873580852d9e45b1140`",
+   "files": [
+    ".work/downloads/20261109-201751_R3X_shibo-shukkoku_nta_pages2/ta_bunya_nemmatsuchosei.htm"
+   ]
+  },
+  {
+   "line": 137,
+   "hash": "`7d1be5d79afcbbd82b31352dab0006f9957db0137deeb5ab987e96faaf0845d2`",
+   "files": [
+    ".work/downloads/20261109-201937_R3X_shibo-shukkoku_nta_pages3/ta_1920.htm"
+   ]
+  },
+  {
+   "line": 138,
+   "hash": "`9e6d1b781429c0b8e4da73893ca2e480664b2006f0a2cc00c1636667f658fef0`",
+   "files": [
+    ".work/downloads/20261109-201937_R3X_shibo-shukkoku_nta_pages3/gensen_2026kiso.htm"
+   ]
+  },
+  {
+   "line": 139,
+   "hash": "`5b1c39edc19e060ef7357b47e9e33873feece4cff13d74b709118c6628f950f1`",
+   "files": [
+    ".work/downloads/20261109-201937_R3X_shibo-shukkoku_nta_pages3/gensen_2025kiso.htm"
+   ]
+  },
+  {
+   "line": 140,
+   "hash": "`eb783a916a2705c62f81c027f6d416f4d4b2718ee869cb3029ad63fd732f0543`",
+   "files": [
+    ".work/downloads/20261109-201804_R3X_shibo-shukkoku_nta_forms/fuhyo_shibou.pdf"
+   ]
+  },
+  {
+   "line": 141,
+   "hash": "`a157edaf3515f3b2b7dd59914ae9d7c87c6630deff4212095f1bfd51a17f2b4f`",
+   "files": [
+    ".work/downloads/20261109-201804_R3X_shibo-shukkoku_nta_forms/ininjo_junkaku.pdf"
+   ]
+  },
+  {
+   "line": 142,
+   "hash": "`a3c12744dbed64e7a03383868baa055f51eb1d0434ee3267d6374d2fe959cea8`",
+   "files": [
+    ".work/downloads/20261109-201804_R3X_shibo-shukkoku_nta_forms/r8_kiso_qa.pdf"
+   ]
+  },
+  {
+   "line": 143,
+   "hash": "`af377dfb7700cb28a8c328bdb83916b148e9ff24bf2064e2be35c76bb793805b`",
+   "files": [
+    ".work/downloads/20261109-202010_R3X_shibo-shukkoku_nta_forms2/r7_kiso_qa.pdf"
+   ]
+  },
+  {
+   "line": 144,
+   "hash": "`f742bc6599532467c4cf89cb43f1002ba1427c0368e075471af3133e7050a8e7`",
+   "files": [
+    ".work/downloads/20261109-211539_R3X_shibo-shukkoku_nta_forms3/fuhyo_kisaiyoryo.pdf"
+   ]
+  },
+  {
+   "line": 184,
+   "hash": "`abb9216e…40a29`",
+   "files": []
+  },
+  {
+   "line": 184,
+   "hash": "`d7c6d974…097cc`",
+   "files": []
+  },
+  {
+   "line": 184,
+   "hash": "`bf18c636…42d90`",
+   "files": []
+  },
+  {
+   "line": 203,
+   "hash": "`9aa6489b…7674f`",
+   "files": []
+  },
+  {
+   "line": 203,
+   "hash": "`36097767…5c85a`",
+   "files": []
+  }
+ ],
+ "summary": {
+  "n_files": 95,
+  "n_doc_hashes": 60,
+  "n_doc_hashes_matched": 55
+ }
+}

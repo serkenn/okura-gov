@@ -1,0 +1,33 @@
+{
+ "run": "20261109-150552",
+ "name": "terms4",
+ "download_dir": ".work/downloads/20261109-150552_terms4",
+ "user_agent": "okura-gov-research/0.1",
+ "delay_sec": 1.5,
+ "robots": [
+  {
+   "robots_url": "https://www.nta.go.jp/robots.txt",
+   "status": 200,
+   "bytes": 853,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+   "text": "Sitemap: http://www.nta.go.jp/sitemap.xml\r\n\r\nUser-agent: *\r\nDisallow: /service_publication/\r\nDisallow: /about/organization/sapporo/service_publication/\r\nDisallow: /about/organization/sendai/service_publication/\r\nDisallow: /about/organization/kantoshinetsu/service_publication/\r\nDisallow: /about/organization/tokyo/service_publication/\r\nDisallow: /about/organization/kanazawa/service_publication/\r\nDisallow: /about/organization/nagoya/service_publication/\r\nDisallow: /about/organization/osaka/service_publication/\r\nDisallow: /about/organization/hiroshima/service_publication/\r\nDisallow: /about/organization/takamatsu/service_publication/\r\nDisallow: /about/organization/fukuoka/service_publication/\r\nDisallow: /about/organization/kumamoto/service_publication/\r\nDisallow: /about/organization/okinawa/service_publication/\r\n\r\nUser-agent: ndl-japan\r\nDisallow:"
+  }
+ ],
+ "results": [
+  {
+   "url": "https://www.nta.go.jp/chuijiko/copy.htm",
+   "fetched_at": "2026-11-09T15:05:57+0900",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/chuijiko/copy.htm",
+   "content_type": "text/html",
+   "last_modified": "Tue, 20 Oct 2026 01:00:06 GMT",
+   "bytes": 12138,
+   "sha256": "8f274c83732ee2ab0627ae043b11feb4b621790019a82a575098ecf566712dff",
+   "saved": ".work/downloads/20261109-150552_terms4/000_www.nta.go.jp_chuijiko_copy.htm",
+   "encoding": "shift_jis",
+   "text": "scripts/results/IMPL_output_fetch/20261109-150552_terms4/000_www.nta.go.jp_chuijiko_copy.htm.txt",
+   "links": "scripts/results/IMPL_output_fetch/20261109-150552_terms4/000_www.nta.go.jp_chuijiko_copy.htm.links.tsv",
+   "n_links": 25
+  }
+ ]
+}

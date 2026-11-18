@@ -1,0 +1,92 @@
+{
+ "set": "sochi",
+ "fetched_at": "20261112-085324",
+ "download_dir": ".work/downloads/20261112-085324_IMPL5_web_fetch_sochi",
+ "robots": [
+  {
+   "host": "https://www.nta.go.jp",
+   "status": 200,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+  }
+ ],
+ "items": [
+  {
+   "id": "sochi_41_04",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/57/41/04.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/57/41/04.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 25 Dec 2025 01:00:03 GMT",
+   "bytes": 7081,
+   "sha256": "f4321d6d9d528c5416e244a28bfac2485ccacd99deeb9c1f57200a6c894cc2e3",
+   "saved": ".work/downloads/20261112-085324_IMPL5_web_fetch_sochi/sochi_41_04.htm",
+   "title": "第41条の4（（不動産所得に係る損益通算の特例））関係｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "sochi_41_05",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/57/41/05.htm",
+   "final_url": "https://www.nta.go.jp/error/404.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:39:47 GMT",
+   "bytes": 2007,
+   "sha256": "700138cae1f347c2be03b380ba74007e704ceb81fe2a62d547e3559d4b851d55",
+   "saved": ".work/downloads/20261112-085324_IMPL5_web_fetch_sochi/sochi_41_05.htm",
+   "title": "指定されたページを表示できませんでした",
+   "encoding": "Shift_JIS"
+  },
+  {
+   "id": "sochi_41_06",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/57/41/06.htm",
+   "final_url": "https://www.nta.go.jp/error/404.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:39:47 GMT",
+   "bytes": 2007,
+   "sha256": "700138cae1f347c2be03b380ba74007e704ceb81fe2a62d547e3559d4b851d55",
+   "saved": ".work/downloads/20261112-085324_IMPL5_web_fetch_sochi/sochi_41_06.htm",
+   "title": "指定されたページを表示できませんでした",
+   "encoding": "Shift_JIS"
+  },
+  {
+   "id": "sochi_41_index",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/57/41/",
+   "final_url": "https://www.nta.go.jp/error/404.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 18 Jan 2024 09:39:47 GMT",
+   "bytes": 2007,
+   "sha256": "700138cae1f347c2be03b380ba74007e704ceb81fe2a62d547e3559d4b851d55",
+   "saved": ".work/downloads/20261112-085324_IMPL5_web_fetch_sochi/sochi_41_index.htm",
+   "title": "指定されたページを表示できませんでした",
+   "encoding": "Shift_JIS"
+  },
+  {
+   "id": "ta_1391",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1391.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1391.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:10 GMT",
+   "bytes": 14664,
+   "sha256": "1b7d43446bd3ec70d75e991ae5e40d6c986cc8b4eaad58f1ce6c803db866555f",
+   "saved": ".work/downloads/20261112-085324_IMPL5_web_fetch_sochi/ta_1391.htm",
+   "title": "No.1391 不動産所得が赤字のときの他の所得との通算｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_2250",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2250.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2250.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:03 GMT",
+   "bytes": 19079,
+   "sha256": "81cabb299948105ab58cd3623334a3e339d479efada49adbb756cfae4a832130",
+   "saved": ".work/downloads/20261112-085324_IMPL5_web_fetch_sochi/ta_2250.htm",
+   "title": "No.2250 損益通算｜国税庁",
+   "encoding": "utf-8"
+  }
+ ]
+}

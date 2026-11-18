@@ -1,0 +1,109 @@
+{
+ "run_at": "20261109-155903",
+ "download_dir": ".work\\downloads\\20261109-155903_IMPL_zeigaku_verify_web2",
+ "text_dir": ".work\\text\\20261109-155903_IMPL_zeigaku_verify_web2",
+ "robots": [
+  {
+   "url": "https://www.nta.go.jp/robots.txt",
+   "status": 200,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+  },
+  {
+   "url": "https://www.nenkin.go.jp/robots.txt",
+   "status": 200,
+   "sha256": "b1b1b2e85299b5a3b32390684db50f979ced0a08ed48a46b715b9b6c1a5f79c9"
+  }
+ ],
+ "items": [
+  {
+   "id": "shitsugi_shotoku_index",
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/01.htm",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/law/shitsugi/shotoku/01.htm",
+   "bytes": 37044,
+   "sha256": "265c6c375a970b709ca3081b26a902f5699bea650dcd7abcf5a00f83cab7fd15",
+   "last_modified": "Wed, 03 Dec 2025 08:31:08 GMT",
+   "content_type": "text/html",
+   "saved": ".work\\downloads\\20261109-155903_IMPL_zeigaku_verify_web2\\shitsugi_shotoku_index.html",
+   "title": "所得税目次一覧｜国税庁",
+   "as_of_label": null
+  },
+  {
+   "id": "kihon_shotoku_index",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01.htm",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01.htm",
+   "bytes": 38254,
+   "sha256": "74710f9540adcb9b7e6b181ba716e93be44be38195cc0c7dfe1a8e02fcf16e4f",
+   "last_modified": "Thu, 25 Dec 2025 01:00:06 GMT",
+   "content_type": "text/html",
+   "saved": ".work\\downloads\\20261109-155903_IMPL_zeigaku_verify_web2\\kihon_shotoku_index.html",
+   "title": "通達目次 / 所得税基本通達｜国税庁",
+   "as_of_label": null
+  },
+  {
+   "id": "tebiki_index",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/index.htm",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/index.htm",
+   "bytes": 8710,
+   "sha256": "a1093b20b2fe4b6feda660eeb7d6682c2f08ade32e478919f5150d53902a25e8",
+   "last_modified": "Wed, 04 Mar 2026 08:30:15 GMT",
+   "content_type": "text/html",
+   "saved": ".work\\downloads\\20261109-155903_IMPL_zeigaku_verify_web2\\tebiki_index.html",
+   "title": "確定申告に関する手引き等｜国税庁",
+   "as_of_label": null
+  },
+  {
+   "id": "tebiki_r07",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r07.htm",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r07.htm",
+   "bytes": 45317,
+   "sha256": "ff769ff6e512b73df0387db39f5fbc6e58f509fd12f5972e2f84e4117e58ac9f",
+   "last_modified": "Tue, 20 Oct 2026 08:30:03 GMT",
+   "content_type": "text/html",
+   "saved": ".work\\downloads\\20261109-155903_IMPL_zeigaku_verify_web2\\tebiki_r07.html",
+   "title": "確定申告書等の様式・手引き等（令和７年分の所得税及び復興特別所得税の確定申告分）｜国税庁",
+   "as_of_label": null
+  },
+  {
+   "id": "nencho2026_index",
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/01.htm",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/01.htm",
+   "bytes": 19740,
+   "sha256": "3e47f99112faf3ff6215f96bd4ebba7dda2268f1ff3b4dfc55d994f395251fa2",
+   "last_modified": "Fri, 16 Oct 2026 08:30:09 GMT",
+   "content_type": "text/html",
+   "saved": ".work\\downloads\\20261109-155903_IMPL_zeigaku_verify_web2\\nencho2026_index.html",
+   "title": "令和8年分 年末調整のしかた｜国税庁",
+   "as_of_label": null
+  },
+  {
+   "id": "nenkin_r8koujo",
+   "url": "https://www.nenkin.go.jp/service/kokunen/hokenryo/koujo/R8koujo/index.html",
+   "status": 200,
+   "final_url": "https://www.nenkin.go.jp/service/kokunen/hokenryo/koujo/R8koujo/index.html",
+   "bytes": 24486,
+   "sha256": "faba3b5d13b7c8d62bf3e00ea2bb8325346b50179b4c3221e31c6825dc0a7333",
+   "last_modified": "Mon, 09 Nov 2026 06:00:31 GMT",
+   "content_type": "text/html",
+   "saved": ".work\\downloads\\20261109-155903_IMPL_zeigaku_verify_web2\\nenkin_r8koujo.html",
+   "title": "令和8年分社会保険料（国民年金保険料）控除証明書｜日本年金機構",
+   "as_of_label": null
+  },
+  {
+   "id": "shinkokusho_r07_01pdf",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/01.pdf",
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/01.pdf",
+   "bytes": 2173072,
+   "sha256": "833e641919fbc1eb22605a1989c6514eabb742334528d04dd90736ae90afce46",
+   "last_modified": "Mon, 31 Aug 2026 05:00:05 GMT",
+   "content_type": "application/pdf",
+   "saved": ".work\\downloads\\20261109-155903_IMPL_zeigaku_verify_web2\\shinkokusho_r07_01pdf.pdf",
+   "pdf_page_objects": 2
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+  "fetched_at": "20261109-133617",
+  "download_dir": ".work\\downloads\\20261109-133617_R4_nta",
+  "pages": [
+    {
+      "key": "01-01",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/01.htm",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 6682,
+      "sha256": "6d7d6ba43294e00afd3b42b9202138232b93cfa521a4af171dfbf7e2e946a0bd",
+      "encoding": "shift_jis",
+      "output": "scripts/results/R4_fetch_nta/01-01.txt"
+    },
+    {
+      "key": "01-07",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/07.htm",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 18408,
+      "sha256": "52d60882df0b13f94fd2869ce1d9d2bf458ec654dca38a68ef225ac5b0506301",
+      "encoding": "shift_jis",
+      "output": "scripts/results/R4_fetch_nta/01-07.txt"
+    },
+    {
+      "key": "11-01",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/11/01.htm",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 5436,
+      "sha256": "357de2fabe640a6a55507196a0021baa5d8665ae899addf93783f249d89f35d9",
+      "encoding": "shift_jis",
+      "output": "scripts/results/R4_fetch_nta/11-01.txt"
+    },
+    {
+      "key": "16-01",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/01.htm",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 15735,
+      "sha256": "c00969ebe1eb83e0528faf332c93d90326196e27a0631c7547c712e38c485b96",
+      "encoding": "shift_jis",
+      "output": "scripts/results/R4_fetch_nta/16-01.txt"
+    },
+    {
+      "key": "16-06",
+      "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/06.htm",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 9685,
+      "sha256": "73c6009edd9c2ed350eab73aca71530dc58a45807da74a34539cd959f604f023",
+      "encoding": "shift_jis",
+      "output": "scripts/results/R4_fetch_nta/16-06.txt"
+    }
+  ]
+}

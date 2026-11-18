@@ -1,0 +1,13 @@
+package: beangulp
+latest: 0.2.0
+requires_python: None
+license: GNU GENERAL PUBLIC LICENSE Version 2, June 1991  Copyright (C) 1989, 1991 Free S
+
+# 最近30件（最初のファイルのアップロード日時, バージョン）
+2024-05-29T19:38:41 0.1.0
+2024-05-29T19:58:47 0.1.1
+2025-01-20T08:24:15 0.2.0
+
+# 最新版 0.2.0 の配布ファイル（ファイル名, 種類, sha256）
+beangulp-0.2.0-py3-none-any.whl bdist_wheel 3177f57e433ae0b75352d052e7e20892791e6eab0d95cf07ca458b35b39788fe
+beangulp-0.2.0.tar.gz sdist 5c908c45c62c07c4efadd0b03d3cdd145ad3b5e2bab5f5f277e0093a5891241a

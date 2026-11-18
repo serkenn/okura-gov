@@ -1,0 +1,42 @@
+okura_core: C:\Users\user\Documents\okura-gov\.work\perf2\snap_src\okura_core\__init__.py
+import 6.71s build_system 0.61s
+01_student_away_and_parent_on_assignment__one                  1.296s       694 KiB  ok=True
+01_student_away_and_parent_on_assignment__y25                  1.636s       916 KiB  ok=True
+01_student_away_and_parent_on_assignment__fy                  15.326s       853 KiB  ok=True
+01_student_away_and_parent_on_assignment__dd                  32.443s        78 KiB  ok=True
+02_medical_payer_differs_from_patient__one                    16.302s      1185 KiB  ok=True
+02_medical_payer_differs_from_patient__y25                     7.701s      1151 KiB  ok=True
+02_medical_payer_differs_from_patient__fy                     14.499s      1274 KiB  ok=True
+02_medical_payer_differs_from_patient__dd                     37.415s        93 KiB  ok=True
+03_business_with_household_apportionment__one                 22.541s       524 KiB  ok=True
+03_business_with_household_apportionment__y25                 10.912s       467 KiB  ok=True
+03_business_with_household_apportionment__fy                  14.244s       460 KiB  ok=True
+03_business_with_household_apportionment__dd                  21.218s        51 KiB  ok=True
+04_forecast_and_plan_marks__one                                3.395s       537 KiB  ok=True
+04_forecast_and_plan_marks__y25                                1.710s       497 KiB  ok=True
+04_forecast_and_plan_marks__fy                                23.504s       446 KiB  ok=True
+04_forecast_and_plan_marks__dd                                37.075s        53 KiB  ok=True
+05_commuting_and_withholding_slip__one                         0.594s       465 KiB  ok=True
+05_commuting_and_withholding_slip__y25                         0.951s       478 KiB  ok=True
+05_commuting_and_withholding_slip__fy                          0.605s       458 KiB  ok=True
+05_commuting_and_withholding_slip__dd                          0.584s        52 KiB  ok=True
+06_phase3_insurance_and_resident_tax_facts__one               11.892s      1236 KiB  ok=True
+06_phase3_insurance_and_resident_tax_facts__y25               34.303s      1549 KiB  ok=True
+06_phase3_insurance_and_resident_tax_facts__fy                29.650s      1170 KiB  ok=True
+06_phase3_insurance_and_resident_tax_facts__dd                12.565s       102 KiB  ok=True
+07_vocabulary_additions_2026_11_11__one                       22.467s      1794 KiB  ok=True
+07_vocabulary_additions_2026_11_11__y25                       20.187s      1384 KiB  ok=True
+07_vocabulary_additions_2026_11_11__fy                        33.350s      1508 KiB  ok=True
+07_vocabulary_additions_2026_11_11__dd                        23.719s       140 KiB  ok=True
+08_vocabulary_additions_2026_11_12__one                      ERROR TypeError: unhashable type: 'dict'
+08_vocabulary_additions_2026_11_12__y25                      ERROR ValueError: 判断.国内源泉所得の内訳 の値の領域から候補を作れない（DecisionSlot.candidates を書く）
+08_vocabulary_additions_2026_11_12__fy                       ERROR TypeError: unhashable type: 'dict'
+08_vocabulary_additions_2026_11_12__dd                       ERROR TypeError: unhashable type: 'dict'
+09_external_tax_credit_2026_11_12__one                         0.952s       483 KiB  ok=True
+09_external_tax_credit_2026_11_12__y25                         0.992s       470 KiB  ok=True
+09_external_tax_credit_2026_11_12__fy                          1.092s       529 KiB  ok=True
+09_external_tax_credit_2026_11_12__dd                          0.905s        52 KiB  ok=True
+10_inventory_household_bad_debt_2026_11_12__one                2.461s       331 KiB  ok=True
+10_inventory_household_bad_debt_2026_11_12__y25                2.480s       316 KiB  ok=True
+10_inventory_household_bad_debt_2026_11_12__fy                 2.810s       232 KiB  ok=True
+10_inventory_household_bad_debt_2026_11_12__dd                 2.189s        41 KiB  ok=True

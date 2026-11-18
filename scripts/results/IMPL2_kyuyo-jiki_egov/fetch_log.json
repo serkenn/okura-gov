@@ -1,0 +1,110 @@
+{
+ "run_at": "20261111-110516",
+ "download_dir": ".work/downloads/20261111-110516_IMPL2_kyuyo-jiki_egov",
+ "fetches": [
+  {
+   "law_id": "340AC0000000033",
+   "asof": "2025-12-31",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?asof=2025-12-31&response_format=json",
+   "sha256": "84a2235cb4437184cce50cef0a9a85945833e94a2624fbf68d67c131eccb7db3",
+   "bytes": 16394130,
+   "law_revision_id": "340AC0000000033_20251218_507AC0000000013",
+   "amendment_law_num": "令和七年法律第十三号",
+   "amendment_enforcement_date": "2025-12-18",
+   "current_revision_status": "PreviousEnforced",
+   "article_text_sha256": {
+    "9": "ea82c69b15fcde89921dc5d11b7db17639b25ba5dc2fa54f3f47b1a2f203a99f",
+    "28": "0fac72abb052827b6e48027fe252bc9876629ac2432be073e3ac876014f26fc3",
+    "36": "3fa9bfb8b2a3e5ad37273d7b4b346013e7ea37d5c147bd3d2425e47f1b866e91",
+    "183": "e682d5845f4d7adf4ccd3d064ee90f93fd8a2a9ca602ff2b021b78ad80a4168d",
+    "190": "92da3320f098edfc1f600bdbfa076126a9449e85269dc77090d31f44cbb1ceb0",
+    "226": "533d07ca5837d2afc8d91cd9e51e7bec58deab4b78fc15431cbb453e345842ae"
+   }
+  },
+  {
+   "law_id": "340AC0000000033",
+   "asof": "2026-11-11",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?asof=2026-11-11&response_format=json",
+   "sha256": "94c4a7ad83726cde60787967ed4e959585ad0af9279d25db9aa02264b3fe606b",
+   "bytes": 16405085,
+   "law_revision_id": "340AC0000000033_20261001_507AC0000000070",
+   "amendment_law_num": "令和七年法律第七十号",
+   "amendment_enforcement_date": "2026-10-01",
+   "current_revision_status": "CurrentEnforced",
+   "article_text_sha256": {
+    "9": "1eba30e28b0ad378f82c29d08e44468a64713c1b61a730ed4e978ccd63c4efa8",
+    "28": "0fac72abb052827b6e48027fe252bc9876629ac2432be073e3ac876014f26fc3",
+    "36": "3fa9bfb8b2a3e5ad37273d7b4b346013e7ea37d5c147bd3d2425e47f1b866e91",
+    "183": "e682d5845f4d7adf4ccd3d064ee90f93fd8a2a9ca602ff2b021b78ad80a4168d",
+    "190": "40f0651029ae963c5a2aeaa35a877ad0d20a8b5c8022264a61b71fade90d9cfe",
+    "226": "533d07ca5837d2afc8d91cd9e51e7bec58deab4b78fc15431cbb453e345842ae"
+   }
+  },
+  {
+   "law_id": "340AC0000000033",
+   "asof": "2026-12-31",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?asof=2026-12-31&response_format=json",
+   "sha256": "47792299f0fb5a74bad21f18f21bf7c3479017375c705b0e882a5c77823d16c8",
+   "bytes": 16399400,
+   "law_revision_id": "340AC0000000033_20261201_508AC0000000012",
+   "amendment_law_num": "令和八年法律第十二号",
+   "amendment_enforcement_date": "2026-12-01",
+   "current_revision_status": "UnEnforced",
+   "article_text_sha256": {
+    "9": "1eba30e28b0ad378f82c29d08e44468a64713c1b61a730ed4e978ccd63c4efa8",
+    "28": "b0141d8d1ed31e536ee9c5401b458556290fc39b0680b908b3925e8f870f3610",
+    "36": "3fa9bfb8b2a3e5ad37273d7b4b346013e7ea37d5c147bd3d2425e47f1b866e91",
+    "183": "e682d5845f4d7adf4ccd3d064ee90f93fd8a2a9ca602ff2b021b78ad80a4168d",
+    "190": "40f0651029ae963c5a2aeaa35a877ad0d20a8b5c8022264a61b71fade90d9cfe",
+    "226": "533d07ca5837d2afc8d91cd9e51e7bec58deab4b78fc15431cbb453e345842ae"
+   }
+  },
+  {
+   "law_id": "340AC0000000033",
+   "asof": "2027-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?asof=2027-01-01&response_format=json",
+   "sha256": "d4bf435220bc0b0ce6358a13800ec5605a238630b8a477d4e2587d57918dd35e",
+   "bytes": 16402071,
+   "law_revision_id": "340AC0000000033_20270101_508AC0000000012",
+   "amendment_law_num": "令和八年法律第十二号",
+   "amendment_enforcement_date": "2027-01-01",
+   "current_revision_status": "UnEnforced",
+   "article_text_sha256": {
+    "9": "1eba30e28b0ad378f82c29d08e44468a64713c1b61a730ed4e978ccd63c4efa8",
+    "28": "b0141d8d1ed31e536ee9c5401b458556290fc39b0680b908b3925e8f870f3610",
+    "36": "3fa9bfb8b2a3e5ad37273d7b4b346013e7ea37d5c147bd3d2425e47f1b866e91",
+    "183": "e682d5845f4d7adf4ccd3d064ee90f93fd8a2a9ca602ff2b021b78ad80a4168d",
+    "190": "40f0651029ae963c5a2aeaa35a877ad0d20a8b5c8022264a61b71fade90d9cfe",
+    "226": "4d797e58c3ecc8f48c2f09b2f7134111f0f818409d327a05e30aa394b3ea0861"
+   }
+  },
+  {
+   "law_id": "325AC0000000073",
+   "asof": "2025-12-31",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000073?asof=2025-12-31&response_format=json",
+   "sha256": "56f8216587e8d93aaafd2aadd4dcbecd769ccde6c586e70b85f419d6c9f136e8",
+   "bytes": 854726,
+   "law_revision_id": "325AC0000000073_20250601_504AC0000000068",
+   "amendment_law_num": "令和四年法律第六十八号",
+   "amendment_enforcement_date": "2025-06-01",
+   "current_revision_status": "PreviousEnforced",
+   "article_text_sha256": {
+    "3": "1b59dea0b67643b1b67ac589663eb036e8871b6e0a1d226df6df615768176077"
+   }
+  },
+  {
+   "law_id": "325AC0000000073",
+   "asof": "2026-11-11",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000073?asof=2026-11-11&response_format=json",
+   "sha256": "c01bb9be910ce849c82e26f1dd5d262ddf5bb55a1bf042512451460f275043a7",
+   "bytes": 856326,
+   "law_revision_id": "325AC0000000073_20260401_506AC0000000008",
+   "amendment_law_num": "令和六年法律第八号",
+   "amendment_enforcement_date": "2026-04-01",
+   "current_revision_status": "CurrentEnforced",
+   "article_text_sha256": {
+    "3": "1b59dea0b67643b1b67ac589663eb036e8871b6e0a1d226df6df615768176077"
+   }
+  }
+ ]
+}

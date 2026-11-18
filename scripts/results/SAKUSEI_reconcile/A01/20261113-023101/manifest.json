@@ -1,0 +1,24 @@
+{
+ "script": "scripts/SAKUSEI_reconcile.py",
+ "case": "scripts/inputs/SAKUSEI_reconcile/A01_kyuyo-iryohi-tokutei.json",
+ "case_sha256": "6d9af25b3e96f9785f0759f67442070a6c1a47e9fa9c47c695a5f0d02b2bf3f9",
+ "commit": "ae16baf9b21d9a72878a3ab6d6c2a20ef643a71c",
+ "run": "20261113-023101",
+ "query": {
+  "income_tax_years": [
+   2025
+  ],
+  "resident_tax_fiscal_years": [],
+  "kokuho_fiscal_years": [],
+  "dependent_judgment_dates": [],
+  "scenarios": [],
+  "forms": {
+   "persons": [
+    "p-1"
+   ]
+  }
+ },
+ "evaluate_seconds": 17.6,
+ "forms_ok": true,
+ "out_of_scope": []
+}

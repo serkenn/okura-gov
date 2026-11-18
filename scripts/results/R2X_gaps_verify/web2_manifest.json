@@ -1,0 +1,49 @@
+{
+ "run_at": "20261109-184002",
+ "download_dir": ".work/downloads/20261109-184002_R2X_gaps_verify_web2",
+ "robots": {
+  "www.nta.go.jp": {
+   "status": 200,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+   "bytes": 853
+  }
+ },
+ "results": [
+  {
+   "id": "nta_qa_r7_kiso_0025005_051",
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/0025005-051.pdf",
+   "robots_allowed": true,
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/publication/pamph/gensen/0025005-051.pdf",
+   "content_type": "application/pdf",
+   "bytes": 1254127,
+   "sha256": "af377dfb7700cb28a8c328bdb83916b148e9ff24bf2064e2be35c76bb793805b",
+   "last_modified": "Fri, 30 May 2025 08:26:01 GMT",
+   "saved": "nta_qa_r7_kiso_0025005_051.pdf"
+  },
+  {
+   "id": "nta_qa_r8_kiso_0026005_024",
+   "url": "https://www.nta.go.jp/users/gensen/2026kiso/pdf/0026005-024.pdf",
+   "robots_allowed": true,
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/users/gensen/2026kiso/pdf/0026005-024.pdf",
+   "content_type": "application/pdf",
+   "bytes": 305115,
+   "sha256": "a3c12744dbed64e7a03383868baa055f51eb1d0434ee3267d6374d2fe959cea8",
+   "last_modified": "Fri, 29 May 2026 08:30:02 GMT",
+   "saved": "nta_qa_r8_kiso_0026005_024.pdf"
+  },
+  {
+   "id": "ta_1810_pdf",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/pdf/1810.pdf",
+   "robots_allowed": true,
+   "status": 200,
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/pdf/1810.pdf",
+   "content_type": "application/pdf",
+   "bytes": 282901,
+   "sha256": "288f56f21a83986d0df2eab2ba887fd3f275d8f3aec2a368bf035fdfa53c57cc",
+   "last_modified": "Thu, 06 Feb 2025 05:00:01 GMT",
+   "saved": "ta_1810_pdf.pdf"
+  }
+ ]
+}

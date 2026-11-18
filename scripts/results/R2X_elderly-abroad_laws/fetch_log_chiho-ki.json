@@ -1,0 +1,49 @@
+{
+ "run_at": "20261109-175600",
+ "download_dir": ".work\\downloads\\20261109-175600_R2X_elderly-abroad_laws",
+ "user_agent": "okura-gov-research/0.1",
+ "only": [
+  "chiho-ki"
+ ],
+ "fetches": [
+  {
+   "short": "chiho-ki",
+   "law_id": "329M50000002023",
+   "asof": "2026-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/329M50000002023?response_format=json&asof=2026-01-01",
+   "law_title": "地方税法施行規則",
+   "law_revision_id": "329M50000002023_20260101_507M60000008116",
+   "amendment_law_num": "令和七年総務省令第百十六号",
+   "amendment_enforcement_date": "2026-01-01",
+   "current_revision_status": "PreviousEnforced",
+   "sha256": "285e203a423a4feed4bb3fe89c5b13f490bc159dac7eab92164f310495e638bb",
+   "bytes": 4510007
+  },
+  {
+   "short": "chiho-ki",
+   "law_id": "329M50000002023",
+   "asof": "2026-11-09",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/329M50000002023?response_format=json&asof=2026-11-09",
+   "law_title": "地方税法施行規則",
+   "law_revision_id": "329M50000002023_20261101_508M60000008045",
+   "amendment_law_num": "令和八年総務省令第四十五号",
+   "amendment_enforcement_date": "2026-11-01",
+   "current_revision_status": "CurrentEnforced",
+   "sha256": "5ffb833bd3a3d7c477efecd41ace0d53ea8e8a14e61567f6ee18d08000bb217e",
+   "bytes": 4187088
+  },
+  {
+   "short": "chiho-ki",
+   "law_id": "329M50000002023",
+   "asof": "2027-01-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/329M50000002023?response_format=json&asof=2027-01-01",
+   "law_title": "地方税法施行規則",
+   "law_revision_id": "329M50000002023_20270101_508M60000008089",
+   "amendment_law_num": "令和八年総務省令第八十九号",
+   "amendment_enforcement_date": "2027-01-01",
+   "current_revision_status": "UnEnforced",
+   "sha256": "e8d5c022315165a364c8342a66049c769387172421d0c3757868580a9cce726b",
+   "bytes": 4199705
+  }
+ ]
+}

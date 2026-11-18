@@ -1,0 +1,169 @@
+description: >-
+  所得税法第28条第3項の給与所得控除額のうち、収入金額が660万円以上で第28条第2項・第3項により給与所得の金額を
+  求めるときに使う区分（660万円未満は第4項により別表第五、令和8・9年分の69万1千円以上220万円未満は措置法第29条の4第2項）。
+  号の番号は令和7年分の版（第3号〜第5号）と令和8年分の版（第2号〜第4号）で違うが、文言と金額は同じ。
+収入360万円超660万円以下:
+  超:
+    description: 区分の下端（三百六十万円を超え）
+    metadata: &art28
+      law: 所得税法第28条第3項（令和7年分の版の第3号・令和8年分の版の第2号「三百六十万円を超え六百六十万円以下」「百十六万円と…三百六十万円を控除した金額の百分の二十」）
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/measurements/20261109_impl-prep_kyuyo-beppyo5.md#3.1
+        - scripts/results/IMPL_kyuyo_fetch/articles_shotoku_2025-12-31.txt
+        - scripts/results/IMPL_kyuyo_fetch/articles_shotoku_2026-12-01.txt
+    values:
+      2025-01-01: {value: 3600000, metadata: {比較: 超}}
+  以下:
+    description: 区分の上端（六百六十万円以下）
+    metadata: *art28
+    values:
+      2025-01-01: {value: 6600000, metadata: {比較: 以下}}
+  基礎:
+    description: 控除額の基礎（百十六万円）
+    metadata: *art28
+    values:
+      2025-01-01: {value: 1160000}
+  率:
+    分子:
+      description: 超える部分に乗じる率の分子（百分の二十）
+      metadata: *art28
+      values:
+        2025-01-01: {value: 20}
+    分母:
+      description: 超える部分に乗じる率の分母（百分の二十）
+      metadata: *art28
+      values:
+        2025-01-01: {value: 100}
+収入660万円超850万円以下:
+  超:
+    description: 区分の下端（六百六十万円を超え）
+    metadata: &art28b
+      law: 所得税法第28条第3項（令和7年分の版の第4号・令和8年分の版の第3号「六百六十万円を超え八百五十万円以下」「百七十六万円と…六百六十万円を控除した金額の百分の十」）
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/measurements/20261109_impl-prep_kyuyo-beppyo5.md#3.1
+        - docs/public-sources/20261109_impl-prep_kyuyo-sources.md#4.1
+        - scripts/results/IMPL_kyuyo_fetch/articles_shotoku_2025-12-31.txt
+        - scripts/results/IMPL_kyuyo_fetch/articles_shotoku_2026-12-01.txt
+    values:
+      2025-01-01: {value: 6600000, metadata: {比較: 超}}
+  以下:
+    description: 区分の上端（八百五十万円以下）
+    metadata: *art28b
+    values:
+      2025-01-01: {value: 8500000, metadata: {比較: 以下}}
+  基礎:
+    description: 控除額の基礎（百七十六万円）
+    metadata: *art28b
+    values:
+      2025-01-01: {value: 1760000}
+  率:
+    分子:
+      description: 超える部分に乗じる率の分子（百分の十）
+      metadata: *art28b
+      values:
+        2025-01-01: {value: 10}
+    分母:
+      description: 超える部分に乗じる率の分母（百分の十）
+      metadata: *art28b
+      values:
+        2025-01-01: {value: 100}
+収入850万円超:
+  超:
+    description: 区分の下端（八百五十万円を超える）
+    metadata: &art28c
+      law: 所得税法第28条第3項（令和7年分の版の第5号・令和8年分の版の第4号「八百五十万円を超える場合　百九十五万円」）
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/measurements/20261109_impl-prep_kyuyo-beppyo5.md#3.1
+        - docs/public-sources/20261109_impl-prep_kyuyo-sources.md#4.1
+        - scripts/results/IMPL_kyuyo_fetch/articles_shotoku_2025-12-31.txt
+        - scripts/results/IMPL_kyuyo_fetch/articles_shotoku_2026-12-01.txt
+    values:
+      2025-01-01: {value: 8500000, metadata: {比較: 超}}
+  額:
+    description: 給与所得控除額（百九十五万円）
+    metadata: *art28c
+    values:
+      2025-01-01: {value: 1950000}
+収入360万円以下の第1区分:
+  description: >-
+    所得税法第28条第3項の収入360万円以下の第1の区分。令和7年分の版は第1号（190万円以下 65万円）、令和8年分の版は第1号
+    （360万円以下 8万円＋収入金額の30%、最低69万円）。式の形を「基礎＋収入金額×率（最低額つき）」でそろえる
+  以下:
+    description: 区分の上端（以下）
+    metadata: &art28low
+      law: 所得税法第28条第3項第1号（令和7年分「百九十万円以下…六十五万円」、令和8年分「三百六十万円以下…八万円と…百分の三十…（…六十九万円に満たない場合には、六十九万円）」）
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_R1-laws_income-tax.md#2
+        - scripts/results/IMPL_kyuyo_fetch/articles_shotoku_2025-12-31.txt
+        - scripts/results/IMPL_kyuyo_fetch/articles_shotoku_2026-12-01.txt
+    values:
+      2025-01-01: {value: 1900000, metadata: {比較: 以下}}
+      2026-01-01: {value: 3600000, metadata: {比較: 以下, 施行日: 2026-12-01, 適用: 令和8年分以後（令和8年法律第12号附則第3条第1項）}}
+  基礎:
+    description: 基礎の額
+    metadata: *art28low
+    values:
+      2025-01-01: {value: 650000}
+      2026-01-01: {value: 80000, metadata: {施行日: 2026-12-01}}
+  率:
+    分子:
+      description: 収入金額に乗じる率の分子（令和7年分の版は定額なので0）
+      metadata: *art28low
+      values:
+        2025-01-01: {value: 0}
+        2026-01-01: {value: 30, metadata: {施行日: 2026-12-01}}
+    分母:
+      description: 収入金額に乗じる率の分母
+      metadata: *art28low
+      values:
+        2025-01-01: {value: 100}
+  最低:
+    description: 控除額の最低額（令和7年分の版は定額のため基礎と同額）
+    metadata: *art28low
+    values:
+      2025-01-01: {value: 650000}
+      2026-01-01: {value: 690000, metadata: {施行日: 2026-12-01}}
+収入360万円以下の第2区分:
+  description: 所得税法第28条第3項第2号（令和7年分の版。190万円超360万円以下）。令和8年分の版には区分がない（第1号に統合。超＝以下で空の区分にする）
+  超:
+    description: 区分の下端（超）
+    metadata: &art28mid
+      law: 所得税法第28条第3項第2号（令和7年分の版「百九十万円を超え三百六十万円以下」「六十五万円と…百九十万円を控除した金額の百分の三十」）。令和8年分の版にはない
+      source_kind: 法律
+      unit: 円
+      reference:
+        - docs/public-sources/20261109_R1-laws_income-tax.md#2
+        - scripts/results/IMPL_kyuyo_fetch/articles_shotoku_2025-12-31.txt
+        - scripts/results/IMPL_kyuyo_fetch/articles_shotoku_2026-12-01.txt
+    values:
+      2025-01-01: {value: 1900000, metadata: {比較: 超}}
+      2026-01-01: {value: 3600000, metadata: {比較: 超, 施行日: 2026-12-01, 適用: 令和8年分の版には第2区分がない（第1号に統合）。空の区分}}
+  以下:
+    description: 区分の上端（以下）
+    metadata: *art28mid
+    values:
+      2025-01-01: {value: 3600000, metadata: {比較: 以下}}
+  基礎:
+    description: 基礎の額（六十五万円）
+    metadata: *art28mid
+    values:
+      2025-01-01: {value: 650000}
+  率:
+    分子:
+      description: 超える部分に乗じる率の分子（百分の三十）
+      metadata: *art28mid
+      values:
+        2025-01-01: {value: 30}
+    分母:
+      description: 超える部分に乗じる率の分母
+      metadata: *art28mid
+      values:
+        2025-01-01: {value: 100}

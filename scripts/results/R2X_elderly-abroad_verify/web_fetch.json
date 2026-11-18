@@ -1,0 +1,259 @@
+{
+ "run_at": "20261109-182852",
+ "html_dir": ".work\\downloads\\20261109-182852_R2X_elderly-abroad_verify_html",
+ "pdf_dir": ".work\\downloads\\20261109-182852_R2X_elderly-abroad_verify_pdf",
+ "user_agent": "okura-gov-research/0.1",
+ "pages": {
+  "ta_1180": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180.htm",
+   "status": 200,
+   "bytes": 23283,
+   "sha256": "c92803d8c75aa5c7971b19a0803e0cf1279d272ed7d9c71d4595c94e11d1771a",
+   "last_modified": "Wed, 09 Sep 2026 01:00:15 GMT",
+   "content_type": "text/html"
+  },
+  "ta_1180_qa": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180_qa.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180_qa.htm",
+   "status": 200,
+   "bytes": 22492,
+   "sha256": "02839cb155836ab2ed4396d6a72522f96c098999ff8c62a6d99c5e8a7143f9fd",
+   "last_modified": "Wed, 09 Sep 2026 01:00:15 GMT",
+   "content_type": "text/html"
+  },
+  "ta_1182": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1182.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1182.htm",
+   "status": 200,
+   "bytes": 18127,
+   "sha256": "7d8798cf92be99aafe2bb3a8161ef3be3f00cb3a307da0a91e1d8fe2bd220842",
+   "last_modified": "Wed, 09 Sep 2026 01:00:15 GMT",
+   "content_type": "text/html"
+  },
+  "shitsugi_shotoku_05_32": {
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/05/32.htm",
+   "final_url": "https://www.nta.go.jp/law/shitsugi/shotoku/05/32.htm",
+   "status": 200,
+   "bytes": 4595,
+   "sha256": "2965b2556536016e83de552269190d6f7b0e516ede7ca8ad6b7e2f4deb3ce6fd",
+   "last_modified": "Wed, 03 Dec 2025 08:31:02 GMT",
+   "content_type": "text/html"
+  },
+  "tebiki2025_yogo_y11": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y11.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y11.htm",
+   "status": 200,
+   "bytes": 7497,
+   "sha256": "b0ec5aceb7d6f7cec1fa00c64b95e45d624b5ee32d5ddd289d7e229dc2c88834",
+   "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+   "content_type": "text/html"
+  },
+  "tebiki2025_yogo_y12": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y12.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y12.htm",
+   "status": 200,
+   "bytes": 7621,
+   "sha256": "01f0cf853cc5db6703666bfc283c67c14cfc3c052094f6d361ee69e6790be99c",
+   "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+   "content_type": "text/html"
+  },
+  "tebiki2025_3_3_27": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_27.htm",
+   "final_url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_27.htm",
+   "status": 200,
+   "bytes": 19779,
+   "sha256": "fe99421d6c179946de07a4d8964a3ef565e9a30367ca30c33de255739116c667",
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "content_type": "text/html"
+  },
+  "sochiho_tsutatsu_toc": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/01.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/01.htm",
+   "status": 200,
+   "bytes": 77279,
+   "sha256": "fd1a8ce56f916aefdb493304544f129c2f0fc8f12de765ec26fb0ee9041f7776",
+   "last_modified": "Fri, 02 Oct 2026 08:30:04 GMT",
+   "content_type": "text/html"
+  },
+  "kihon_tsutatsu_2_1": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/01.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/01.htm",
+   "status": 200,
+   "bytes": 6682,
+   "sha256": "6d7d6ba43294e00afd3b42b9202138232b93cfa521a4af171dfbf7e2e946a0bd",
+   "last_modified": "Thu, 18 Jan 2024 09:30:24 GMT",
+   "content_type": "text/html"
+  },
+  "kihon_tsutatsu_2_47": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/07.htm",
+   "final_url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/07.htm",
+   "status": 200,
+   "bytes": 18408,
+   "sha256": "52d60882df0b13f94fd2869ce1d9d2bf458ec654dca38a68ef225ac5b0506301",
+   "last_modified": "Fri, 02 Oct 2026 08:30:05 GMT",
+   "content_type": "text/html"
+  },
+  "kokugai_index": {
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/kokugai/index.htm",
+   "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/kokugai/index.htm",
+   "status": 200,
+   "bytes": 10081,
+   "sha256": "65d6cab24c19c3f6c6af7dda8256e12f0e3e6a2675e90b7d1ca5c55dde1f5f4a",
+   "last_modified": "Fri, 27 Mar 2026 05:54:59 GMT",
+   "content_type": "text/html"
+  },
+  "kokugai_sokin": {
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/kokugai/sokin/index.htm",
+   "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/kokugai/sokin/index.htm",
+   "status": 200,
+   "bytes": 11486,
+   "sha256": "15cfec2296cdaa526c6d0f349e1130ca1b30b91cc702174bbd64fb165caec070",
+   "last_modified": "Fri, 27 Mar 2026 05:54:59 GMT",
+   "content_type": "text/html"
+  },
+  "S52_tsuchi": {
+   "url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tb0189&dataType=1&pageNo=1",
+   "final_url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tb0189&dataType=1&pageNo=1",
+   "status": 200,
+   "bytes": 7871,
+   "sha256": "3a0aec4d588447f710ff972d281db5c5224e195f1b5ce17751cdc29255223ba3",
+   "last_modified": null,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  "R01_kokunai": {
+   "url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc4995&dataType=1&pageNo=1",
+   "final_url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc4995&dataType=1&pageNo=1",
+   "status": 200,
+   "bytes": 44339,
+   "sha256": "8c7a41bd8eb8937a4926af24ceee2d982aa305e2f7c8596cb1b5e96ee32860c0",
+   "last_modified": null,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  "R05_kokunai_kaisei": {
+   "url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc7769&dataType=1&pageNo=1",
+   "final_url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc7769&dataType=1&pageNo=1",
+   "status": 200,
+   "bytes": 46263,
+   "sha256": "a333fbd3a7355dd4059c70641986875e93840921243f74e5ebf70dff0b3c2d41",
+   "last_modified": null,
+   "content_type": "text/html;charset=UTF-8"
+  },
+  "nenkin_kyojuyoken": {
+   "url": "https://www.nenkin.go.jp/service/kounen/tekiyo/hihokensha1/kyojuyoken.html",
+   "final_url": "https://www.nenkin.go.jp/service/kounen/tekiyo/hihokensha1/kyojuyoken.html",
+   "status": 200,
+   "bytes": 35956,
+   "sha256": "45b5e40122ec0a3d6e6992fb974b55676bd5fb1694b97f8bb69af927f7700acb",
+   "last_modified": "Wed, 14 Oct 2026 00:26:12 GMT",
+   "content_type": "text/html"
+  },
+  "nenkin_20141202": {
+   "url": "https://www.nenkin.go.jp/service/kounen/tekiyo/hihokensha1/20141202.html",
+   "final_url": "https://www.nenkin.go.jp/service/kounen/tekiyo/hihokensha1/20141202.html",
+   "status": 200,
+   "bytes": 46959,
+   "sha256": "e090abd4c5550dfc0056e9797e5995ee5cc5c45a3ba6970a1161fc6773f319d3",
+   "last_modified": "Wed, 14 Oct 2026 00:26:12 GMT",
+   "content_type": "text/html"
+  },
+  "kyoukai_faq_dependent": {
+   "url": "https://www.kyoukaikenpo.or.jp/faq/dependent_status/",
+   "final_url": "https://www.kyoukaikenpo.or.jp/faq/dependent_status/",
+   "status": 200,
+   "bytes": 71028,
+   "sha256": "5074d5504af1172a31722e3dcac40b197794edfe4a88f5d96c58c5a7811b4497",
+   "last_modified": null,
+   "content_type": "text/html; charset=UTF-8"
+  },
+  "nta_robots": {
+   "url": "https://www.nta.go.jp/robots.txt",
+   "final_url": "https://www.nta.go.jp/robots.txt",
+   "status": 200,
+   "bytes": 853,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+   "last_modified": "Wed, 18 Mar 2026 05:00:01 GMT",
+   "content_type": "text/plain"
+  },
+  "mhlw_robots": {
+   "url": "https://www.mhlw.go.jp/robots.txt",
+   "final_url": "https://www.mhlw.go.jp/robots.txt",
+   "status": 200,
+   "bytes": 169,
+   "sha256": "d410a20234092a01e07cc6531920a5fedda6a96faaa073d94b95bd4c4a436144",
+   "last_modified": "Sat, 02 Jun 2018 06:22:34 GMT",
+   "content_type": "text/plain"
+  },
+  "nenkin_robots": {
+   "url": "https://www.nenkin.go.jp/robots.txt",
+   "final_url": "https://www.nenkin.go.jp/robots.txt",
+   "status": 200,
+   "bytes": 149,
+   "sha256": "b1b1b2e85299b5a3b32390684db50f979ced0a08ed48a46b715b9b6c1a5f79c9",
+   "last_modified": "Thu, 07 Mar 2019 08:57:52 GMT",
+   "content_type": "text/plain"
+  }
+ },
+ "pdfs": {
+  "nencho2026_105": {
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/105.pdf",
+   "final_url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/105.pdf",
+   "status": 200,
+   "bytes": 1063580,
+   "sha256": "9460af44b13c8651c3a7bcb3f770946397793fcd4f0db19b2e7e8d612e4188f5",
+   "last_modified": "Thu, 24 Sep 2026 08:30:11 GMT",
+   "content_type": "application/pdf",
+   "is_pdf": true
+  },
+  "nencho2025_105": {
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2025/pdf/105.pdf",
+   "final_url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2025/pdf/105.pdf",
+   "status": 200,
+   "bytes": 1077260,
+   "sha256": "f69eda756f726c1ac4a6dc1773924e87cfccbd5ae83c3ce67f211e5c96a9d747",
+   "last_modified": "Wed, 03 Sep 2025 08:30:05 GMT",
+   "content_type": "application/pdf",
+   "is_pdf": true
+  },
+  "kokugai_qa_pdf": {
+   "url": "https://www.nta.go.jp/publication/pamph/pdf/0022009-107_02.pdf",
+   "final_url": "https://www.nta.go.jp/publication/pamph/pdf/0022009-107_02.pdf",
+   "status": 200,
+   "bytes": 712232,
+   "sha256": "d8e5bc32f793e7ba25500eae31fa44a3b8a47ec5be9fd3fef1465f1c72b5aa78",
+   "last_modified": "Mon, 31 Aug 2026 08:30:07 GMT",
+   "content_type": "application/pdf",
+   "is_pdf": true
+  },
+  "kokugai_leaf_pdf": {
+   "url": "https://www.nta.go.jp/publication/pamph/pdf/0022009-107_01.pdf",
+   "final_url": "https://www.nta.go.jp/publication/pamph/pdf/0022009-107_01.pdf",
+   "status": 200,
+   "bytes": 148124,
+   "sha256": "5972507540b2233e73f88e0404b1a50fb81e7b823d2927d4d907597284f32141",
+   "last_modified": "Mon, 30 Jun 2025 09:29:35 GMT",
+   "content_type": "application/pdf",
+   "is_pdf": true
+  },
+  "r2kaisei_pdf": {
+   "url": "https://www.nta.go.jp/publication/pamph/shotoku/r2kaisei.pdf",
+   "final_url": "https://www.nta.go.jp/publication/pamph/shotoku/r2kaisei.pdf",
+   "status": 200,
+   "bytes": 593588,
+   "sha256": "c4ee24b9989af4ec06522d7509abc4e0972c2e0aa35d30bbe6ee615267ca85d1",
+   "last_modified": "Thu, 18 Jan 2024 09:16:22 GMT",
+   "content_type": "application/pdf",
+   "is_pdf": true
+  },
+  "kyoukai_guide2607": {
+   "url": "https://www.kyoukaikenpo.or.jp/assets/n_fuyouidou_guide2607.pdf",
+   "final_url": "https://www.kyoukaikenpo.or.jp/assets/n_fuyouidou_guide2607.pdf",
+   "status": 200,
+   "bytes": 1283035,
+   "sha256": "c655715c25266bee2f1a54b1c76d8688d41075bf0b2fad7539ee9555842a8ef0",
+   "last_modified": "Tue, 23 Jun 2026 05:58:51 GMT",
+   "content_type": "application/pdf",
+   "is_pdf": true
+  }
+ }
+}

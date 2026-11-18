@@ -1,0 +1,20 @@
+{
+ "run_at": "20261109-183651",
+ "download_dir": ".work/downloads/20261109-183651_R2X_jinteki_verify_web",
+ "text_dir": ".work/text/20261109-183651_R2X_jinteki_verify_web",
+ "results": [
+  {
+   "id": "nenkin_hifuyo",
+   "url": "https://www.nenkin.go.jp/service/kounen/tekiyo/hihokensha1/20141202.html",
+   "status": 200,
+   "final_url": "https://www.nenkin.go.jp/service/kounen/tekiyo/hihokensha1/20141202.html",
+   "content_type": "text/html",
+   "bytes": 46959,
+   "sha256": "e090abd4c5550dfc0056e9797e5995ee5cc5c45a3ba6970a1161fc6773f319d3",
+   "last_modified": "Wed, 14 Oct 2026 00:26:12 GMT",
+   "saved": "nenkin_hifuyo.html",
+   "title": "従業員（健康保険・厚生年金保険の被保険者）が家族を被扶養者にするとき、被扶養者に異動があったときの手続き｜日本年金機構",
+   "text": "nenkin_hifuyo.txt"
+  }
+ ]
+}

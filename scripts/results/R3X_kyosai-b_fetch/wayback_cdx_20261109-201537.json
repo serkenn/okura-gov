@@ -1,0 +1,20 @@
+{
+  "set": "wayback_cdx",
+  "fetched_at_local": "20261109-201537",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "cdx_mof_unyo",
+      "url": "https://web.archive.org/cdx/search/cdx?url=www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/TU-19591001-2927-11.pdf&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&from=2023",
+      "status": 200,
+      "final_url": "https://web.archive.org/cdx/search/cdx?url=www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/TU-19591001-2927-11.pdf&output=json&fl=timestamp,original,statuscode,mimetype,digest,length&from=2023",
+      "content_type": "application/json",
+      "bytes": 777,
+      "sha256": "5827c261dfaa6e48155bae5654df8c241a2a33fd2352f6dba9650b08c10cae7e",
+      "last_modified": null,
+      "etag": null,
+      "content_disposition": null,
+      "saved": ".work/downloads/20261109-201537_R3X_kyosai-b_wayback_cdx/cdx_mof_unyo.json"
+    }
+  ]
+}

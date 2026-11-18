@@ -1,0 +1,82 @@
+{
+  "set": "nenkin",
+  "fetched_at_local": "20261109-153028",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "N_TET",
+      "url": "https://www.nenkin.go.jp/service/kounen/tekiyo/hihokensha1/20141202.html",
+      "status": 200,
+      "final_url": "https://www.nenkin.go.jp/service/kounen/tekiyo/hihokensha1/20141202.html",
+      "content_type": "text/html",
+      "bytes": 46959,
+      "sha256": "e090abd4c5550dfc0056e9797e5995ee5cc5c45a3ba6970a1161fc6773f319d3",
+      "last_modified": "Wed, 14 Oct 2026 00:26:12 GMT",
+      "saved": ".work\\downloads\\20261109-153028_kenpo_verify_nenkin\\N_TET.html",
+      "charset": "UTF-8",
+      "title": "従業員（健康保険・厚生年金保険の被保険者）が家族を被扶養者にするとき、被扶養者に異動があったときの手続き｜日本年金機構",
+      "text_chars": 8275,
+      "text": ".work\\text\\20261109-153028_kenpo_verify_nenkin\\N_TET.txt"
+    },
+    {
+      "id": "N_HEN",
+      "url": "https://www.nenkin.go.jp/service/kounen/info/jireishokai/henreifuyou.html",
+      "status": 200,
+      "final_url": "https://www.nenkin.go.jp/service/kounen/info/jireishokai/henreifuyou.html",
+      "content_type": "text/html",
+      "bytes": 47439,
+      "sha256": "d8a686f9d22e1de7340f034d744709828d812813d577327de7ba6e5f355d79df",
+      "last_modified": "Thu, 22 Oct 2026 00:00:35 GMT",
+      "saved": ".work\\downloads\\20261109-153028_kenpo_verify_nenkin\\N_HEN.html",
+      "charset": "UTF-8",
+      "title": "健康保険被扶養者（異動）届（国民年金第3号被保険者関係届）の届出不備や誤りの多い事例｜日本年金機構",
+      "text_chars": 7866,
+      "text": ".work\\text\\20261109-153028_kenpo_verify_nenkin\\N_HEN.txt"
+    },
+    {
+      "id": "N_0819",
+      "url": "https://www.nenkin.go.jp/oshirase/taisetu/2025/202508/0819.html",
+      "status": 200,
+      "final_url": "https://www.nenkin.go.jp/oshirase/taisetu/2025/202508/0819.html",
+      "content_type": "text/html",
+      "bytes": 25952,
+      "sha256": "efd4a223a9075c4d2ac85811ddac055a89237fb5e6d1ffe776424d0f551cf832",
+      "last_modified": "Wed, 14 Oct 2026 00:25:38 GMT",
+      "saved": ".work\\downloads\\20261109-153028_kenpo_verify_nenkin\\N_0819.html",
+      "charset": "UTF-8",
+      "title": "19歳以上23歳未満の方の被扶養者認定における年間収入要件が変わります｜日本年金機構",
+      "text_chars": 2795,
+      "text": ".work\\text\\20261109-153028_kenpo_verify_nenkin\\N_0819.txt"
+    },
+    {
+      "id": "N_FAQ",
+      "url": "https://www.nenkin.go.jp/section/faq/kounen/dependents/aged19to22/timing.html",
+      "status": 200,
+      "final_url": "https://www.nenkin.go.jp/section/faq/kounen/dependents/aged19to22/timing.html",
+      "content_type": "text/html",
+      "bytes": 24655,
+      "sha256": "2595c8961984db7fdbfd66d4503f52b1b2187f45ff659ea90894e670245de35f",
+      "last_modified": "Wed, 14 Oct 2026 00:25:50 GMT",
+      "saved": ".work\\downloads\\20261109-153028_kenpo_verify_nenkin\\N_FAQ.html",
+      "charset": "UTF-8",
+      "title": "年齢要件（19歳以上23歳未満）は、いつの時点で判定するのですか。｜日本年金機構",
+      "text_chars": 2409,
+      "text": ".work\\text\\20261109-153028_kenpo_verify_nenkin\\N_FAQ.txt"
+    },
+    {
+      "id": "N_0501",
+      "url": "https://www.nenkin.go.jp/oshirase/taisetu/jigyosho/2026/202605/0501.html",
+      "status": 200,
+      "final_url": "https://www.nenkin.go.jp/oshirase/taisetu/jigyosho/2026/202605/0501.html",
+      "content_type": "text/html",
+      "bytes": 27364,
+      "sha256": "49660cbba87ab4eecb1a805fa0c8147d0b2bb5525743face485590cf2fd9bca8",
+      "last_modified": "Wed, 14 Oct 2026 00:25:38 GMT",
+      "saved": ".work\\downloads\\20261109-153028_kenpo_verify_nenkin\\N_0501.html",
+      "charset": "UTF-8",
+      "title": "労働契約内容による年間収入での被扶養者の認定の取り扱いについて｜日本年金機構",
+      "text_chars": 3255,
+      "text": ".work\\text\\20261109-153028_kenpo_verify_nenkin\\N_0501.txt"
+    }
+  ]
+}

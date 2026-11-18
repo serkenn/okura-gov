@@ -1,0 +1,486 @@
+[
+ {
+  "href": "https://www.nta.go.jp/",
+  "text": "ホーム"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/index.htm",
+  "text": "税の情報・手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/index.htm",
+  "text": "税について調べる"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+  "text": "所得税（確定申告書等作成コーナー）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/02/2_01.htm",
+  "text": "申告手続の流れ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/02/2_02.htm",
+  "text": "令和7年分の所得税等の確定申告の相談及び申告書の受付"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/02/2_03.htm",
+  "text": "申告書の提出方法"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/02/2_04.htm",
+  "text": "納付の方法"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/02/2_05.htm",
+  "text": "還付金の受取方法"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/01/1_01.htm",
+  "text": "所得税等の確定申告とは"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/01/1_06.htm",
+  "text": "確定申告が必要な方"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/01/1_07.htm",
+  "text": "確定申告をすれば税金が還付される方"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/3_01.htm",
+  "text": "申告書の記載例"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order1/3-1_01.htm",
+  "text": "手順1〔alt:yellow triangle〕住所、氏名などを記入する"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_00.htm",
+  "text": "手順2〔alt:green triangle〕収入金額等、〔alt:sky triangle〕所得金額等を計算する"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_01.htm",
+  "text": "〔alt:1〕〔alt:2〕事業所得（営業等・農業）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_03.htm",
+  "text": "〔alt:3〕不動産所得"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_04.htm",
+  "text": "〔alt:4〕総合課税の利子所得"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_05.htm",
+  "text": "〔alt:5〕総合課税の配当所得"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_06.htm",
+  "text": "〔alt:6〕給与所得"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_07.htm",
+  "text": "〔alt:7〕から〔alt:10〕雑所得"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_08_1.htm",
+  "text": "〔alt:11〕総合課税の譲渡所得・一時所得"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/3-2_09.htm",
+  "text": "〔alt:12〕所得金額の合計"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_10.htm",
+  "text": "〔alt:13〕社会保険料控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_11.htm",
+  "text": "〔alt:14〕小規模企業共済等掛金控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_12.htm",
+  "text": "〔alt:15〕生命保険料控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_13.htm",
+  "text": "〔alt:16〕地震保険料控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_14.htm",
+  "text": "〔alt:17〕〔alt:18〕寡婦・ひとり親控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_15.htm",
+  "text": "〔alt:19〕〔alt:20〕勤労学生控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_15_2.htm",
+  "text": "〔alt:19〕〔alt:20〕障害者控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_17.htm",
+  "text": "〔alt:21〕〔alt:22〕配偶者(特別)控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_19.htm",
+  "text": "〔alt:23〕扶養控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_20.htm",
+  "text": "〔alt:24〕特定親族特別控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_21.htm",
+  "text": "〔alt:25〕基礎控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_22.htm",
+  "text": "〔alt:26〕〔alt:13〕から〔alt:25〕までの計"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_23.htm",
+  "text": "〔alt:27〕雑損控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_24.htm",
+  "text": "〔alt:28〕医療費控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_25.htm",
+  "text": "〔alt:29〕寄附金控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_26.htm",
+  "text": "〔alt:30〕合計(所得から差し引かれる金額の合計)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_26.htm",
+  "text": "〔alt:31〕〔alt:32〕課税される所得金額・課税される所得金額に対する税額"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_28.htm",
+  "text": "〔alt:33〕配当控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_29.htm",
+  "text": "〔alt:34〕「〔alt:34〕」(区分)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_30.htm",
+  "text": "〔alt:35〕(特定増改築等)住宅借入金等特別控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_31.htm",
+  "text": "〔alt:36〕〔alt:37〕〔alt:38〕政党等寄附金等特別控除"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_32.htm",
+  "text": "〔alt:39〕〔alt:40〕〔alt:41〕住宅耐震改修特別控除等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_36.htm",
+  "text": "〔alt:42〕差引所得税額"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_37.htm",
+  "text": "〔alt:43〕災害減免額"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_40_1.htm",
+  "text": "〔alt:44〕再差引所得税額（基準所得税額）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_45.htm",
+  "text": "〔alt:45〕復興特別所得税額"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_41_1.htm",
+  "text": "〔alt:46〕所得税及び復興特別所得税の額"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_42_1.htm",
+  "text": "〔alt:47〕〔alt:48〕外国税額控除等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_38.htm",
+  "text": "〔alt:49〕源泉徴収税額"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_39.htm",
+  "text": "〔alt:50〕申告納税額"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_40.htm",
+  "text": "〔alt:51〕予定納税額"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_41.htm",
+  "text": "〔alt:52〕〔alt:53〕第3期分の税額"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order4/3-4_42.htm",
+  "text": "〔alt:54〕〔alt:55〕修正申告"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order5/3-5_01.htm",
+  "text": "〔alt:pink triangle〕その他"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order5/3-5_02.htm",
+  "text": "〔alt:lmn triangle〕延納の届出"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order5/3-5_03.htm",
+  "text": "〔alt:yellow triangle〕還付される税金の受取場所"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order5/3-5_04.htm",
+  "text": "〔alt:pink triangle〕公金受取口座の登録・利用"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order6/3-6_01.htm",
+  "text": "住民税・事業税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order6/3-6_02.htm",
+  "text": "住民税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order6/3-6_03.htm",
+  "text": "事業税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/01/1_03.htm",
+  "text": "所得の種類と課税方法"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order2/yogo/3-2_y01.htm",
+  "text": "利子所得と配当所得の課税方法"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/01/1_14.htm",
+  "text": "退職所得の記入方法等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/01/1_15.htm",
+  "text": "災害により被害を受けた場合"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/01/1_09.htm",
+  "text": "納税が遅れた場合など"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/01/1_10.htm",
+  "text": "申告に誤りがあった場合など"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/01/1_11.htm",
+  "text": "消費税について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/01/1_16.htm",
+  "text": "財産債務調書制度・国外財産調書制度について"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/01/1_12.htm",
+  "text": "お知らせ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/04/4_01.htm",
+  "text": "申告書に添付・提示する書類"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/06/6_01.htm",
+  "text": "医療費控除の明細書"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/05/5_01.htm",
+  "text": "振替納税の新規（変更）申込み"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/index.htm#page-top",
+  "text": "このページの先頭へ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/index.htm",
+  "text": "税の情報・手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/index.htm",
+  "text": "税について調べる"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/index.htm#sidenaviAccordionCollapse1",
+  "text": "〔alt:メニューを閉じる〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+  "text": "所得税（確定申告書等作成コーナー）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/index2.htm",
+  "text": "タックスアンサー（よくある税の質問）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/sodan/index.htm",
+  "text": "税の相談"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/index.htm",
+  "text": "税目別情報"
+ },
+ {
+  "href": "http://www.rosenka.nta.go.jp/",
+  "text": "路線価図・評価倍率表"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/saigai/index.htm",
+  "text": "災害関連情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/kokusai/index.htm",
+  "text": "国際税務関係情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shirabekata/info.htm",
+  "text": "税についての上手な調べ方"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/index.htm",
+  "text": "申告手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/index.htm#sidenaviAccordionCollapse2",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/index.htm",
+  "text": "申告・申請・届出等、用紙（手続の案内・様式）"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/tetsuzuki/mynumberinfo/index.htm",
+  "text": "社会保障・税番号制度(マイナンバー)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/index.htm",
+  "text": "納税・納税証明書手続"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/index.htm#sidenaviAccordionCollapse3",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/nofu/01.htm",
+  "text": "国税の納付手続"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/nozei-shomei/01.htm",
+  "text": "納税証明書"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/enno-butsuno/01.htm",
+  "text": "延納・物納申請等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/nozei/entaizei/keisan/entai.htm",
+  "text": "延滞税"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/index.htm",
+  "text": "税理士に関する情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/index.htm#sidenaviAccordionCollapse4",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/index.htm#news",
+  "text": "新着情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/zeirishiseido/seido.htm",
+  "text": "税理士制度"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/zeirishishiken/zeirishi.htm",
+  "text": "税理士試験"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/chokai/chokai.htm",
+  "text": "税理士に関する懲戒処分等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/search/search.htm",
+  "text": "税理士をお探しの方"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/zeirishi/zeirishiseido/qa.htm",
+  "text": "税理士関係法令等・Ｑ＆Ａ"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm",
+  "text": "お酒に関する情報"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/index.htm#sidenaviAccordionCollapse5",
+  "text": "〔alt:メニューを開く〕"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#syuzei",
+  "text": "酒税関係及び各種施策"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#ippan",
+  "text": "一般的な酒税の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#senmonsyuzei",
+  "text": "専門的な酒税の取扱い"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#senmonsodan",
+  "text": "専門的な酒税の相談"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#shinkoku",
+  "text": "酒税の申告・納付や届出等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#denwa",
+  "text": "電話相談センター・税務署の案内"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#shingikai",
+  "text": "審議会等"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#tokei",
+  "text": "統計情報・各種資料"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/sake/index.htm#qa",
+  "text": "お酒に関するＱ＆Ａ(よくある質問)"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/kids/index.htm",
+  "text": "税の学習コーナー"
+ },
+ {
+  "href": "https://www.nta.go.jp/",
+  "text": "ホーム"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/index.htm",
+  "text": "税の情報・手続・用紙"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/index.htm",
+  "text": "税について調べる"
+ },
+ {
+  "href": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/kakutei.htm",
+  "text": "所得税（確定申告書等作成コーナー）"
+ }
+]

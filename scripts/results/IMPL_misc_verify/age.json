@@ -1,0 +1,275 @@
+{
+ "ranges": [
+  {
+   "year": 2025,
+   "category": "控除対象扶養親族 16歳以上",
+   "judge_end_of": "2025-12-31",
+   "derived_from": null,
+   "derived_to": "平成22年1月1日",
+   "doc_from": null,
+   "doc_to": "平成22年1月1日",
+   "match": true
+  },
+  {
+   "year": 2026,
+   "category": "控除対象扶養親族 16歳以上",
+   "judge_end_of": "2026-12-31",
+   "derived_from": null,
+   "derived_to": "平成23年1月1日",
+   "doc_from": null,
+   "doc_to": "平成23年1月1日",
+   "match": true
+  },
+  {
+   "year": 2025,
+   "category": "非居住者 16歳以上30歳未満",
+   "judge_end_of": "2025-12-31",
+   "derived_from": "平成8年1月2日",
+   "derived_to": "平成22年1月1日",
+   "doc_from": "平成8年1月2日",
+   "doc_to": "平成22年1月1日",
+   "match": true
+  },
+  {
+   "year": 2026,
+   "category": "非居住者 16歳以上30歳未満",
+   "judge_end_of": "2026-12-31",
+   "derived_from": "平成9年1月2日",
+   "derived_to": "平成23年1月1日",
+   "doc_from": "平成9年1月2日",
+   "doc_to": "平成23年1月1日",
+   "match": true
+  },
+  {
+   "year": 2025,
+   "category": "非居住者 30歳以上70歳未満",
+   "judge_end_of": "2025-12-31",
+   "derived_from": "昭和31年1月2日",
+   "derived_to": "平成8年1月1日",
+   "doc_from": "昭和31年1月2日",
+   "doc_to": "平成8年1月1日",
+   "match": true
+  },
+  {
+   "year": 2026,
+   "category": "非居住者 30歳以上70歳未満",
+   "judge_end_of": "2026-12-31",
+   "derived_from": "昭和32年1月2日",
+   "derived_to": "平成9年1月1日",
+   "doc_from": "昭和32年1月2日",
+   "doc_to": "平成9年1月1日",
+   "match": true
+  },
+  {
+   "year": 2025,
+   "category": "老人扶養親族 70歳以上",
+   "judge_end_of": "2025-12-31",
+   "derived_from": null,
+   "derived_to": "昭和31年1月1日",
+   "doc_from": null,
+   "doc_to": "昭和31年1月1日",
+   "match": true
+  },
+  {
+   "year": 2026,
+   "category": "老人扶養親族 70歳以上",
+   "judge_end_of": "2026-12-31",
+   "derived_from": null,
+   "derived_to": "昭和32年1月1日",
+   "doc_from": null,
+   "doc_to": "昭和32年1月1日",
+   "match": true
+  },
+  {
+   "year": 2025,
+   "category": "特定扶養親族・特定親族 19歳以上23歳未満",
+   "judge_end_of": "2025-12-31",
+   "derived_from": "平成15年1月2日",
+   "derived_to": "平成19年1月1日",
+   "doc_from": "平成15年1月2日",
+   "doc_to": "平成19年1月1日",
+   "match": true
+  },
+  {
+   "year": 2026,
+   "category": "特定扶養親族・特定親族 19歳以上23歳未満",
+   "judge_end_of": "2026-12-31",
+   "derived_from": "平成16年1月2日",
+   "derived_to": "平成20年1月1日",
+   "doc_from": "平成16年1月2日",
+   "doc_to": "平成20年1月1日",
+   "match": true
+  },
+  {
+   "year": 2025,
+   "category": "16歳未満",
+   "judge_end_of": "2025-12-31",
+   "derived_from": "平成22年1月2日",
+   "derived_to": null,
+   "doc_from": "平成22年1月2日",
+   "doc_to": null,
+   "match": true
+  },
+  {
+   "year": 2026,
+   "category": "16歳未満",
+   "judge_end_of": "2026-12-31",
+   "derived_from": "平成23年1月2日",
+   "derived_to": null,
+   "doc_from": "平成23年1月2日",
+   "doc_to": null,
+   "match": true
+  },
+  {
+   "year": 2026,
+   "category": "障害者（65歳以上）",
+   "judge_end_of": "2026-12-31",
+   "derived_from": null,
+   "derived_to": "昭和37年1月1日",
+   "doc_from": null,
+   "doc_to": "昭和37年1月1日",
+   "match": true
+  },
+  {
+   "year": 2025,
+   "category": "源泉徴収票の未成年者（18歳未満）",
+   "judge_end_of": "2025-12-31",
+   "derived_from": "平成20年1月2日",
+   "derived_to": null,
+   "doc_from": "平成20年1月3日",
+   "doc_to": null,
+   "match": false
+  },
+  {
+   "year": 2025,
+   "category": "源泉徴収票の未成年者（18歳未満）",
+   "judge_end_of": "2026-01-01",
+   "derived_from": "平成20年1月3日",
+   "derived_to": null,
+   "doc_from": "平成20年1月3日",
+   "doc_to": null,
+   "match": true
+  },
+  {
+   "year": 2026,
+   "category": "源泉徴収票の未成年者（18歳未満）",
+   "judge_end_of": "2026-12-31",
+   "derived_from": "平成21年1月2日",
+   "derived_to": null,
+   "doc_from": "平成21年1月3日",
+   "doc_to": null,
+   "match": false
+  },
+  {
+   "year": 2026,
+   "category": "源泉徴収票の未成年者（18歳未満）",
+   "judge_end_of": "2027-01-01",
+   "derived_from": "平成21年1月3日",
+   "derived_to": null,
+   "doc_from": "平成21年1月3日",
+   "doc_to": null,
+   "match": true
+  }
+ ],
+ "i1": [
+  {
+   "birth": "2003-01-01",
+   "doc_2025": 23,
+   "calc_2025": 23,
+   "doc_2026": 24,
+   "calc_2026": 24,
+   "match": true
+  },
+  {
+   "birth": "2003-01-02",
+   "doc_2025": 22,
+   "calc_2025": 22,
+   "doc_2026": 23,
+   "calc_2026": 23,
+   "match": true
+  },
+  {
+   "birth": "2007-01-01",
+   "doc_2025": 19,
+   "calc_2025": 19,
+   "doc_2026": 20,
+   "calc_2026": 20,
+   "match": true
+  },
+  {
+   "birth": "2007-01-02",
+   "doc_2025": 18,
+   "calc_2025": 18,
+   "doc_2026": 19,
+   "calc_2026": 19,
+   "match": true
+  },
+  {
+   "birth": "2010-01-01",
+   "doc_2025": 16,
+   "calc_2025": 16,
+   "doc_2026": 17,
+   "calc_2026": 17,
+   "match": true
+  },
+  {
+   "birth": "2010-01-02",
+   "doc_2025": 15,
+   "calc_2025": 15,
+   "doc_2026": 16,
+   "calc_2026": 16,
+   "match": true
+  },
+  {
+   "birth": "2011-01-01",
+   "doc_2025": 15,
+   "calc_2025": 15,
+   "doc_2026": 16,
+   "calc_2026": 16,
+   "match": true
+  },
+  {
+   "birth": "2004-02-29",
+   "doc_2025": 21,
+   "calc_2025": 21,
+   "doc_2026": 22,
+   "calc_2026": 22,
+   "match": true
+  },
+  {
+   "birth": "1956-01-01",
+   "doc_2025": 70,
+   "calc_2025": 70,
+   "doc_2026": 71,
+   "calc_2026": 71,
+   "match": true
+  },
+  {
+   "birth": "1957-01-01",
+   "doc_2025": 69,
+   "calc_2025": 69,
+   "doc_2026": 70,
+   "calc_2026": 70,
+   "match": true
+  }
+ ],
+ "formula_A_check": {
+  "birth_range": "1900-01-01..2030-12-31",
+  "years": "2020..2030 (生年以後)",
+  "mismatches": 0
+ },
+ "death_day_examples": [
+  {
+   "birth": "2007-03-15",
+   "death": "2026-03-14",
+   "age_end_of_death_day": 19,
+   "age_end_of_day_before": 18
+  },
+  {
+   "birth": "2007-03-15",
+   "death": "2026-03-13",
+   "age_end_of_death_day": 18,
+   "age_end_of_day_before": 18
+  }
+ ]
+}

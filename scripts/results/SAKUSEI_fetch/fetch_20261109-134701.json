@@ -1,0 +1,19 @@
+{
+  "run": "20261109-134701",
+  "download_dir": ".work/downloads/20261109-134701_sakusei-assets",
+  "user_agent": "okura-gov-research/0.1",
+  "delay_sec": 2.5,
+  "results": [
+    {
+      "url": "https://www.keisan.nta.go.jp/kyoutu/ky/sm/top_web",
+      "fetched_at": "2026-11-09T13:47:01+0900",
+      "status": 200,
+      "final_url": "https://www.keisan.nta.go.jp/kyoutu/ky/sm/top_web",
+      "content_type": "text/html;charset=MS932",
+      "last_modified": null,
+      "bytes": 85151,
+      "sha256": "824fa7482ca07178ef030af913e17dbdc27e82339002fdd00b0c32fb07eaa0c3",
+      "saved": "20261109-134701_sakusei-assets/000_kyoutu_ky_sm_top_web"
+    }
+  ]
+}

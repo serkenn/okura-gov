@@ -1,0 +1,127 @@
+doc	line	heading	hyp_id	doc_named_in_OUTD	id_named_in_OUTD
+impl-prep_denchoho-record-layer	87	H8. 帳簿（beancount 台帳）は、既定では「年末に紙へ出力して保存」とし、電子保存は条件がそろったときの選択肢にする	H8	1	1
+impl-prep_iryohi-model	1	仮説：医療費控除・セルフメディケーション税制の記録層・判定コア・出力層の分担（令和7年分・令和8年分）		1	0
+impl-prep_iryohi-model	136	H10 医療費通知は、当面の出力では使わない（明細書の「2」だけで作る）	H10	1	1
+impl-prep_iryohi-model	142	H11 出力層（D13・D14）が出す項目	H11	1	1
+impl-prep_iryohi-model	146	H11.1 医療費控除の明細書【内訳書】（様式 NTA0K0B560010180）	H11.1	1	0
+impl-prep_iryohi-model	165	H11.2 セルフメディケーション税制の明細書（様式 NTA0K0B570010060）	H11.2	1	0
+impl-prep_iryohi-model	180	H11.3 医療費集計フォーム（xlsx。作成コーナーに読み込ませる場合の任意の出力）	H11.3	1	1
+impl-prep_iryohi-model	187	H11.4 すべての出力に付ける根拠（D13）	H11.4	1	1
+impl-prep_jigyo-calculation-model	73	H7 beancount の台帳は白色の「帳簿」を兼ねられる。収支内訳書の科目への対応は出力の層の写像として持つ	H7	1	1
+impl-prep_juminzei-judgment-model	99	H7 令和8年度分・令和9年度分で、非課税の境目（所得の額）は同じで、変わるのは所得の計算と扶養の要件	H7	1	0
+impl-prep_kenpo-input-facts	98	HK6 夫婦共同扶養は、規則の段を出力する関数にし、最終の帰属は保険者の決定（事実）として受け取る	HK6	1	1
+impl-prep_misc-hypotheses	23	H1 年齢は「判定日の終了時に達している年齢」を返す1つの関数で求め、生年月日の範囲はパラメータに持たない	H1	1	1
+impl-prep_misc-hypotheses	109	H6 源泉徴収の区分（甲欄・乙欄・丙欄）はラベルとして記録しない。区分を生む事実と、源泉徴収票の記載事項を記録する	H6	1	0
+impl-prep_output-minimal-layer	1	出力層（申告用の出力）の最小の形		1	0
+impl-prep_output-minimal-layer	18	H1：出力層の最小の形は「申告書の欄ごとの値と根拠の一覧」（以下「欄値表」）。e-Tax の XML は最小の形に含めない	H1	1	1
+impl-prep_output-minimal-layer	42	H2：欄値表とは別に「作成コーナーに入力する値の一覧」（以下「入力値表」）を出す	H2	1	1
+impl-prep_output-minimal-layer	60	H4：欄の鍵は「年分 × 様式ID × 欄コード」とし、欄番号・欄名を必ず併記する。対応表は年分ごとに持つ	H4	1	0
+impl-prep_output-minimal-layer	67	H5：欄値表は「単位の制約」を検査する。端数処理は判定コアの名前つき関数が行い、出力層はやり直さない	H5	1	1
+impl-prep_output-minimal-layer	73	H6：個人番号（マイナンバー）は出力しない。欄値表では空欄として示し、ユーザーが書く	H6	1	1
+impl-prep_output-minimal-layer	79	H7：申告書第二表のうち住民税・親族の欄は、所得税の出力として出す（住民税の判定とは別）	H7	1	0
+impl-prep_output-minimal-layer	94	H9：令和8年分では「社会保険料控除等の明細書」を出力の候補に加える	H9	1	0
+impl-prep_output-minimal-layer	100	H10：紙の様式ID は「`NTA` ＋1桁＋e-Tax の様式ID（6文字）＋ページ（2桁）＋版（4桁）」で、e-Tax の様式ID と同	H10	1	0
+impl-prep_output-minimal-layer	107	H11：新様式は機械（AI-OCR）で読む前提の作りで、欄コードはそのための印字である（2026-11-09 独立検証で、公開資料の文書 §	H11	1	1
+impl-prep_zeigaku-calc-model	59	H4 申告要否は、税額の計算とは別の関数にし、「義務あり」「義務なし・還付申告できる」「義務なし・還付なし」と根拠の条を返す	H4	1	0
+impl-prep_zeigaku-calc-model	77	H5 令和7年分・令和8年分では、勤労学生控除は子供の所得税額を変えない（ただし該当するかどうかと証明書の要否は出力に要る）	H5	1	0
+impl-prep_zeigaku-calc-model	108	H9 申告用の出力には「添付・提示が必要な書類の一覧」を含め、年分と提出日で切り替える	H9	1	1
+round2_aoiro-model	52	H3 青色申告特別控除（令和7年分・令和8年分）は、申告の「方法と時期」に依存する。コアは申告の計画を入力として受け、条件つきの結果を返す	H3	1	1
+round2_aoiro-model	66	H4 令和9年分以後の青色申告特別控除は、別の年分の式として持つ。第2項（前々年の総収入金額1,000万円超）の読みは未確定の印をつける	H4	1	1
+round2_aoiro-model	124	H9 純損失の繰戻し還付は「本人の選択」で、コアは繰り戻す額を入力として受け、還付額と残りの純損失を計算する。繰越しとの比較は複数シナリオ（	H9	1	1
+round2_aoiro-model	147	H11 青色申告決算書（一般用）の欄への対応表をライブラリに持つ（D19 T5-2）。科目は様式の固定の科目と空欄（25〜30、35・36、	H11	1	1
+round2_elderly-abroad-model	1	第2ラウンド（elderly-abroad）仮説：老人扶養・同居老親等、国外居住親族、居住者の判定、健保の60歳以上・国内居住要件を実装する		1	0
+round2_elderly-abroad-model	155	HE5.4 コアと注入の境目（健保）	HE5.4	1	0
+round2_gaps-hypotheses	97	HG5 所得税法施行規則第47条の3 の引用は、2027-01-01 から「法第百二十条第八項」。令和8年分の収支内訳書の根拠条文は第8項と	HG5	1	1
+round2_genka-model	140	H9 健保・国保・住民税との境目：減価償却費は所得税の必要経費として計算し、別の制度が使うかは注入するデータで決める	H9	1	1
+round2_genka-model	149	H10 一次情報で決まらない処理の一覧（名前つきの関数・規則にして「出典未確認」の印を付ける）	H10	1	1
+round2_genka-model	167	まとめ：規則ごとの「事実・判断・コアと注入データの境目・未確定の処理」		1	0
+round2_hoken-kifu-model	44	H3 措法第41条の15の5（23歳未満の扶養親族の特例）は、年分のパラメータと「扶養親族の定義（所法2①三十四）に当たる23歳未満の人がい	H3	1	1
+round2_hoken-kifu-model	56	H4 生命保険料控除・地震保険料控除の1円未満の端数は、名前つきの関数「保険料控除の端数」にし、所得税は「切り上げ」を既定にして「出典は国税	H4	1	1
+round2_hoken-kifu-model	99	H8 ワンストップ特例が有効かどうかは、判定コアが法令の4つの無効事由で決め、「確定申告をする（予定）」という判断が入ったら、すべての特例控	H8	1	1
+round2_hoken-kifu-model	122	H10 雑損控除は「損失の事象（日付・原因）×資産（所有者・種類）×損失額×保険金等×災害等関連支出」の事実と、時価・取得費の選択などの判断	H10	1	0
+round2_hoken-kifu-model	136	H11 判定コアと注入データ・記録・判断の境目（まとめ）	H11	1	0
+round2_jinteki-model	41	H2 判定の時点は制度ごとに違う。根拠の事実は「区間」で持ち、時点で切り出す	H2	1	1
+round2_jinteki-model	58	H3 手帳の申請中・認定の申請中（所基通2-38、質疑応答 05/63）は「通達による取扱い」の印をつける	H3	1	1
+round2_jinteki-model	147	H9 コアと注入データ・判断の境目（まとめ）	H9	1	1
+round2_jinteki-model	158	H10 境目と端数処理	H10	1	1
+round2_juminzei-tax-calc-model	39	H2 法令が決める構造（コア）と、注入するデータの境目	H2	1	0
+round2_juminzei-tax-calc-model	94	H5 一次情報で決まらない端数処理は、名前つきの関数にして結果に印を付ける	H5	1	1
+round2_juminzei-tax-calc-model	107	H6 注入がない団体の税額は「未確定」を返し、税率に対する一次式を根拠として添える	H6	1	1
+round2_kokuho-core-vs-injected	1	第2ラウンド（kokuho）仮説：国保料（税）と国民年金保険料の、コアに置く構造・注入するデータ・入力の事実・人の判断の境目		1	0
+round2_kokuho-core-vs-injected	19	H1 法令が決める構造（コア）と、市町村が決める値（注入するデータ）の境目	H1	1	0
+round2_kyosai-model	45	HKY4 「同一の世帯」：共済は定義があるのでコアが事実から導き、健保は保険者データ（なければ未確定）	HKY4	1	1
+round2_kyosai-model	132	HKY13 一次情報で決まらない端数処理・境界（名前つき関数にし、出典未確認の印を付ける）	HKY13	1	1
+round2_spouse-model	1	第2ラウンド（spouse）：配偶者に関する規則の実装の仮説（入力の事実・人の判断・コアと注入データの境目・端数処理）		1	0
+round2_spouse-model	144	HS9 一次情報で決まらない点（結果に印を付けるもの）	HS9	1	1
+round2_yoshiki-mapping-table	1	様式の欄の対応表（ライブラリが持つデータ）の形と、欄 → 概念の対応（令和7年分）		1	0
+round2_yoshiki-mapping-table	19	H1：欄の鍵は「年分 × 帳票（e-Tax 様式ID＋ページ）× 欄の位置名」。欄コードは位置名の一つの属性で、鍵そのものにしない	H1	1	1
+round2_yoshiki-mapping-table	48	H3：様式に印字された式は、対応表では「検査」として持つ（計算はしない）。検査は申告の型（H4）で切り替える	H3	1	1
+round2_yoshiki-mapping-table	59	H4：申告の型（通常／第三表あり／損失申告）で、埋める欄と空ける欄が決まる。型は判定コアの結果と判断（D4）から決まる	H4	1	1
+round2_yoshiki-mapping-table	71	H5：欄 → 概念の対応（令和7年分）。概念は「判定コアの概念」「入力の事実」「人の判断（D4）」「対象外」に分ける	H5	1	1
+round2_yoshiki-mapping-table	209	H6：判定コアに置くもの（法令と国の様式が決める構造）と、注入するデータ・利用側の境目	H6	1	1
+round2_yoshiki-mapping-table	218	H7：一次情報で決まらない端数処理・まとめ方は、名前つきの関数にして根拠に「手引き」「様式の注記」「既定」を区別して書く	H7	1	1
+round2_yoshiki-mapping-table	231	H8：令和8年分の対応表は、様式の公表を待って「令和7年分の表＋差分」として作る。社会保険料控除等の明細書は欄を法令の記載事項から仮に作り、	H8	1	1
+round2_yoshiki-mapping-table	239	H9：公式の欄コードの対応表として最も確かなのは e-Tax の「帳票レイアウト設計書」。取得はユーザーの判断を待つ	H9	1	1
+round2b_fudosan-calculation-model	121	H8 様式の欄の対応表（T5-2）は、令和7年分について収支内訳書（G01〜G21）・青色申告決算書1頁（G01〜G24）・申告書第一表（㋒	H8	1	1
+round2b_fudosan-calculation-model	130	H9 一次情報で決まらない端数・値は名前つきの関数にし、結果に印を付ける	H9	1	1
+round2b_kabu-model	130	H7. 申告書の欄への対応（令和7年分の様式。出力の整形の対応表）	H7	1	1
+round2b_nenkin-model	124	H8 端数処理：条文にない。境目の判定を変えるときだけ「未確定」にする	H8	1	1
+round2b_taishoku-model	39	H3 所令70①二の改正（iDeCo の一時金の9年内）は「年分」で切り替えるが、令和7年分・令和8年分の結果は変わらない	H3	1	1
+sakusei-corner_test-oracle	1	作成コーナーの計算結果を、判定ロジックのテストの照合先に使えるか		0	0
+impl-prep_denchoho-record-layer-checks	47	I5. 白色の子供の台帳を電子のまま帳簿として保存するには、確認できていない点が2つ残る。それまでは年末の紙出力が安全	I5	1	1
+impl-prep_denchoho-record-layer-checks	61	I7. エクスポートを「通常出力できるファイル形式」にすれば、ダウンロードの求めへの対応・猶予措置・検索免除の(b)を同じ仕組みで満たせる	I7	1	1
+impl-prep_iryohi-s3-recheck	29	S3-1 明細書の出力（令和7年分）	S3-1	1	1
+impl-prep_jigyo-inferences	10	I1 家内労働者等の特例だけの子の、扶養の境目（令和7年分・令和8年分）	I1	1	0
+impl-prep_jigyo-inferences	138	D15 ② に足す境目のテスト（まとめ）		1	0
+impl-prep_juminzei-implications	8	I1 判定コアの入口は「年分」でよいが、住民税は「年分＋1 の年度」として別の結果に出す	I1	1	1
+impl-prep_juminzei-implications	28	I2 非課税の境目のテスト（D15 ②）は実測の計算表をそのまま使える	I2	1	0
+impl-prep_juminzei-implications	45	I3 未成年者の判定は「1月1日の年齢」で、生年月日の境目は年度ごとに決まる	I3	1	0
+impl-prep_juminzei-implications	73	I5 出力は「非課税かどうか」だけでなく「申告が要るか」と「条例しだいの部分」を分けて返す	I5	1	1
+impl-prep_kenpo-test-cases	1	健康保険の被扶養者判定：仮説から導いた期待値（境目のテスト案）と検証方法（推測）		1	0
+impl-prep_kenpo-test-cases	25	IK1 19〜23歳の基準額の境目（HK1・HK7）		1	0
+impl-prep_kyuyo-inferences	21	I2 年分ごとの境目のテストケース（前提：H1、H5、H8。D15 ②）	I2	1	0
+impl-prep_kyuyo-inferences	70	I5 令和10年分以後の境目は下がる（現行の条文のまま改正がない場合）（前提：H1）	I5	1	0
+impl-prep_misc-inferences	52	I5 所属の割当ての結果（前提：H3）	I5	1	1
+impl-prep_output-checks	1	出力層の仮説から導いた推測と、その確かめ方		1	0
+impl-prep_output-checks	10	I1：令和8年分の第一表・第二表は、令和7年分の新様式から欄が変わる（H4）	I1	1	1
+impl-prep_output-checks	36	I4：令和7年分の場面（架空）について、欄値表の値は作成コーナーで作った申告書の同じ欄コードの値と一致する（H1・H2・H5）	I4	1	0
+impl-prep_output-checks	45	I5：このプロジェクトの申告で埋まる欄の組（H1・H3・H7・H9）	I5	1	0
+impl-prep_output-checks	73	I7：令和7年分の新様式（2026-09-24 以降）は、照合（D15⑤）の時に旧様式で作られた資料と食い違って見えることがある（H4）	I7	1	1
+impl-prep_output-checks	78	I8：令和8年分の第一表・第二表の様式ID は `NTA1KOA020010240`・`NTA0KOA020020240` になる（H10・	I8	1	1
+impl-prep_zeigaku-examples	83	Z1-K 勤労学生控除を外しても結果は同じ（令和8年分）		0	0
+round2_aoiro-cases	53	I3 申告の計画に依存する結果の印	I3	1	1
+round2_aoiro-cases	111	I9 青色申告決算書の欄への対応（出力）	I9	1	1
+round2_elderly-abroad-cases	1	第2ラウンド（elderly-abroad）推測：仮説から導いた期待値（境目と場面のテスト案）と検証方法		1	0
+round2_elderly-abroad-cases	33	IE1 老人扶養親族の年齢の境目（HE1）	IE1	1	0
+round2_elderly-abroad-cases	106	IE8 30〜69歳の国外の親：38万円の境目（HE3.2・U4）	IE8	1	1
+round2_gaps-inferences	66	IG4 基礎控除の高い所得の境目（前提：HG4）	IG4	1	0
+round2_gaps-inferences	73	IG5 令和8年分の出力の根拠条文（前提：HG5）	IG5	1	0
+round2_genka-examples	14	I1 資産ごとの扱いの境目（令和7年分・令和8年分）	I1	1	0
+round2_genka-examples	103	I7 損益通算と扶養の境目	I7	1	1
+round2_jinteki-cases	1	第2ラウンド（jinteki）推測：障害者・寡婦・ひとり親の場面と境目、検証の方法		1	0
+round2_jinteki-cases	99	I11 寡婦・ひとり親の 500万円の境目（給与だけの人）	I11	1	0
+round2_juminzei-tax-implications	9	I1 判定コアの住民税の変数は、所得税の変数と「事実」と「前年分の所得税の結果」だけを共有し、税額の層は別系統にできる（H1・H3・H4 か	I1	1	0
+round2_juminzei-tax-implications	37	I5 ふるさと納税・住宅借入金等の計算では、所得税の基礎控除の段階の境目が住民税の境目になる（H3・H4・H7 から）	I5	1	1
+round2_kokuho-examples	79	KI7 注入データがない市町村では、国保料（税）は「未確定」になるが、軽減の区分と各区分の上限は返せる	KI7	1	1
+round2_kyosai-cases	1	推測：共済の被扶養者と住所が別の家族の場面で、判定コアが返すべき結果（第2ラウンド）		1	0
+round2_kyosai-cases	104	IKY8 19歳以上23歳未満の150万円：生年月日と適用開始日の境目	IKY8	1	1
+round2_spouse-implications	1	第2ラウンド（spouse）：仮説から導いた推測（テストの境目、制度間の食い違い、未確定点の確かめ方）		1	0
+round2_spouse-implications	10	IS1 年分ごとの境目のテスト（D15②）は、次の値で組める	IS1	1	0
+round2_spouse-implications	89	IS7 第3号と健保の被扶養者は、保険者の運用が違うと結果が食い違いうる	IS7	1	1
+round2_yoshiki-checks	1	様式の欄の対応表の仮説から導いた推測と、その確かめ方		1	0
+round2_yoshiki-checks	11	I1：e-Tax の「帳票レイアウト設計書」には、欄コードと項目名の対応が帳票のページごとに載っていて、目視で転記した第三表・第四表（二）の	I1	1	1
+round2_yoshiki-checks	21	I2：令和7年分の対応表のデータを作ると、(帳票, 位置名) は一意で、テキスト層から取り出した欄コードの集合とちょうど一致する（H1）	I2	1	0
+round2_yoshiki-checks	26	I3：作成コーナーは、第二表の親族欄（1＋4行）・所得の内訳（4行）を超えると、別の用紙（続紙）を作る。決算書の売上先の明細は、5件目以降を	I3	1	1
+round2_yoshiki-checks	31	I4：作成コーナーで作った第一表・決算書の値は、様式に印字された式（H3 の検査）をすべて満たす。満たさない欄があれば、それは手引きに書かれ	I4	1	0
+round2_yoshiki-checks	36	I5：架空の損失申告（青色、事業所得が赤字、医療費控除あり）を作成コーナーで作ると、第一表の ⑪・⑫・㉛・62 は空欄、㉜ は「0」、医療費	I5	1	0
+round2_yoshiki-checks	51	I8：令和8年分の申告書の様式は、令和8年12月ごろの「個人課税事務提要（様式編Ⅰ）」の一部改正（令和7年12月22日の改正と同じ時期）で公	I8	1	1
+round2_yoshiki-checks	57	I9：社会保険料控除等の明細書の欄は、規則47の2⑭ の記載事項に沿って「控除の種類・保険料等の種類（区分）・支払先・支払金額（うち年末調整	I9	1	1
+round2b_invoice-cases	9	I1 登録した最初の年は、税込経理の原則だと消費税等の分だけ所得が大きく出て、扶養の要件の境目をまたぎうる（H3・H5）	I1	1	1
+round2b_invoice-cases	61	I4 健保の被扶養者の判定は、事業収入に消費税等を含めるかで結論が変わりうるので、保険者のデータが無ければ「未確定」になる（H5 の 2）	I4	1	1
+round2b_kabu-scenarios	72	I8. 判定の境目の説明に「どの株式等の所得が効いたか」を出す	I8	1	1
+round2b_nenkin-cases	11	I1 65歳以上の親：税の扶養の境目は年金 172万円、健保は 180万円。この間の人は「税は扶養外、健保は被扶養者」	I1	1	0
+round2b_nenkin-cases	73	I7 1月1日生まれの境目	I7	1	0
+round2b_taishoku-inferences	15	I2 所令70①二の改正が計算結果を変える最初の年は令和13年分（前提：H3）	I2	1	0
+round2b_taishoku-inferences	21	I3 退職した年の配偶者・親族は、所得税と住民税で扶養の結果が分かれうる（前提：H5）	I3	1	0
+round2b_taishoku-inferences	48	I7 退職所得の金額の 0.5円は、合計所得金額の境目の判定にだけ影響し、作成コーナーは1,000円未満を切り捨てている可能性がある（前提：	I7	1	1
+round2b_taishoku-inferences	60	I9 健康保険の被扶養者で、退職一時金は年間収入に入れない保険者が多いと見られるが、一次情報がないので注入がなければ「未確定」になりうる（前	I9	1	1

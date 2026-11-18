@@ -1,0 +1,76 @@
+[-] 対象の文書の SHA-256: {'20261109_round3_design-vocabulary.md': 'f0207e6bb6e95ba2', '20261109_round3_design-output.md': '9cc05d6b15adaec8'}
+[a] docs/hypotheses/20261109_round3_design-vocabulary.md: aliases=48 unused=['IT', 'M-AGE', 'PTA'] groups=329 refs=463 fail=6
+    L361 [M-VOC] : 節・番号の指定がない
+    L519 [M-VER] ）: 節・番号の指定がない
+    L521 [KYB] ・: 節・番号の指定がない
+    L521 [SS] ・: 節・番号の指定がない
+    L521 [CS] ・: 節・番号の指定がない
+    L521 [M-VER] : 節・番号の指定がない
+[a] docs/hypotheses/20261109_round3_design-output.md: aliases=36 unused=[] groups=197 refs=280 fail=6
+    L646 [PS-SS] : 節・番号の指定がない
+    L651 [M-VER] : 節・番号の指定がない
+    L652 [M-VER] ）: 節・番号の指定がない
+    L656 [PS-KYB] ・: 節・番号の指定がない
+    L656 [PS-SS] ・: 節・番号の指定がない
+    L656 [PS-CS] : 節・番号の指定がない
+[a] rows with citations=297 coverage<0.5=64
+[a] hyp refs docs/hypotheses/20261109_round3_design-vocabulary.md: n=352 fail=0
+[a] doc paths docs/hypotheses/20261109_round3_design-vocabulary.md: n=50 missing=2
+     {'line': 7, 'path': 'docs/hypotheses/20261109_round3_design-vocabulary-concepts.md', 'exists': False}
+     {'line': 8, 'path': 'docs/hypotheses/20261109_round3_design-vocabulary-conflicts.md', 'exists': False}
+[a] hyp refs docs/hypotheses/20261109_round3_design-output.md: n=388 fail=0
+[a] doc paths docs/hypotheses/20261109_round3_design-output.md: n=36 missing=0
+[b] corpus n=61 prev=61 changed=0 missing_now=[]
+[b] counts {"VOC_F": 77, "VOC_J": 33, "VOC_C": 20, "VOC_P": 5, "VOC_N": 7, "OUTD_O": 75, "OUTD_UO": 30, "OUTD_D": 25, "VOC_F_by_family": {"F-P": 20, "F-R": 7, "F-T": 20, "F-D": 21, "F-A": 7, "F-E": 2}, "OUTD_UO_used_not_defined": [], "VOC_X_refs": ["X06", "X10", "X11", "X12", "X13", "X14", "X15", "X17", "X18", "X20", "X21", "X22", "X23", "X24", "X25", "X26", "X27", "X28", "X29", "X31", "X32", "X33", "X34", "X37", "X38", "X39", "X40", "X41", "X44", "X45", "X46", "X47"], "VOC_concepts_refs": ["concepts §3.0", "concepts §3.10", "concepts §3.3", "concepts §3.6", "concepts §3.9", "concepts の文書 §3", "concepts の文書 §4"]}
+[b] OUTD 1.2 names: ['未確定', '対象外', '見込み', '法令が求める見積り', '条件つき', '出典未確認', '原文未確認', '端数の根拠が法令以外', '食い違い', '後の記録に依存', 'あふれ', '出力しない欄']
+[b] VOC §3 docs: corpus=61 listed=69 not_listed=[] extra=['round3_chiho-sochi-reading', 'round3_dai3go-basis', 'round3_dai3go-next-steps', 'round3_juminzei-extra-implications', 'round3_juminzei-extra-model', 'round3_kyosai-b-parameters', 'round3_shibo-shukkoku-cases', 'round3_shibo-shukkoku-model']
+[b] ascii ids=83 not_in_VOC=43
+[b] dotted names=81 not_in_VOC=64 not_in_either=64
+[b] judgment-like rows=50 best_score<0.35=26
+[b] mark-like strings=137 in_docs_not_in_O_rows=4
+[b] output headings=126 doc_not_named=2 id_not_named=36
+[b] mvoc recount {"n_files": 61, "headings_recount": 778, "backtick_recount": 1121, "mvoc_tokens_tsv_rows": 1121, "mvoc_sections_tsv_rows": 778, "mvoc_classification_rows": 507, "mvoc_cite_check_json_exists": false}
+[d] docs/hypotheses/20261109_round3_design-vocabulary.md: urls=0 bad_alias={} evidence_cells_with_hyp=0
+[d] docs/hypotheses/20261109_round3_design-output.md: urls=0 bad_alias={} evidence_cells_with_hyp=0
+[a] OUTD §1.5 O rows: (行, 文書, 番号) の組=208 bigram<0.6=39 文書・節なし=5
+    ('O01', '見込み', 'round2_kokuho-core-vs-injected', 'H5', 0.0, '')
+    ('O02', '出典未確認', 'round2b_kabu-scenarios', 'I2', 0.0, '')
+    ('O02', '出典未確認', 'round2b_kabu-scenarios', 'H3', 0.0, '節がない')
+    ('O02', '出典未確認', 'round2b_kabu-scenarios', 'H8', 0.25, '')
+    ('O02', '出典未確認', 'round2b_kabu-scenarios', 'H8', 0.25, '')
+    ('O02', '出典未確認', 'round2b_kabu-scenarios', 'H3', 0.0, '節がない')
+    ('O02', '出典未確認', 'round2b_kabu-scenarios', 'H8', 0.25, '')
+    ('O02', '出典未確認', 'round2b_kabu-scenarios', 'H3', 0.0, '節がない')
+    ('O03', '未確定', 'round2_jinteki-model', 'H8', 0.0, '')
+    ('O11', '出典：組合の資料（大臣の定めの原文は未確認）', 'round2_kyosai-model', 'HKY8', 0.44, '')
+    ('O18', '国税庁の解釈による（条文の読替えは未特定）', 'round2b_kabu-model', 'H6', 0.5, '')
+    ('O18', '国税庁の解釈による（条文の読替えは未特定）', 'round2b_kabu-model', 'H8', 0.11, '')
+    ('O22', '通達による取扱い（法令の文言ではなく通達・質疑応答による）', 'round2_jinteki-model', 'H2', 0.5, '')
+    ('O22', '通達による取扱い（法令の文言ではなく通達・質疑応答による）', 'round2_jinteki-cases', 'I4', 0.5, '')
+    ('O22', '通達による取扱い（法令の文言ではなく通達・質疑応答による）', 'round2_jinteki-cases', 'I5', 0.59, '')
+    ('O24', '「法令」と「国税庁の取扱い」を分けて根拠に書く', 'round2_elderly-abroad-cases', 'IE3', 0.44, '')
+    ('O25', '出典の種類を「通知」と記録', 'round2_jinteki-model', 'H7', 0.4, '')
+    ('O25', '出典の種類を「通知」と記録', 'round2_jinteki-model', 'H11', 0.2, '')
+    ('O25', '出典の種類を「通知」と記録', 'round2_jinteki-model', 'H8', 0.5, '')
+    ('O25', '出典の種類を「通知」と記録', 'round2_jinteki-model', 'H8', 0.5, '')
+    ('O25', '出典の種類を「通知」と記録', 'round2_jinteki-model', 'H7', 0.4, '')
+    ('O25', '出典の種類を「通知」と記録', 'round2_jinteki-model', 'H11', 0.2, '')
+    ('O35', '不足している書類／書類の事実が未入力', 'round2_elderly-abroad-cases', 'IE13', 0.47, '')
+    ('O36', '判断が必要（判断を求める）', 'round2_elderly-abroad-model', 'HE2', 0.56, '')
+    ('O36', '判断が必要（判断を求める）', 'round2_jinteki-model', 'H2', 0.56, '')
+    ('O36', '判断が必要（判断を求める）', 'round2_jinteki-model', 'H3', 0.56, '')
+    ('O36', '判断が必要（判断を求める）', 'impl-prep_kenpo-input-facts', 'HK3', 0.44, '')
+    ('O36', '判断が必要（判断を求める）', 'round2b_nenkin-model', 'H3', 0.22, '')
+    ('O36', '判断が必要（判断を求める）', 'round2b_nenkin-model', 'H4', 0.56, '')
+    ('O36', '判断が必要（判断を求める）', 'round2_kyosai-cases', 'IKY2', 0.44, '')
+    ('O36', '判断が必要（判断を求める）', 'round2_elderly-abroad-cases', 'IE3', 0.44, '')
+    ('O36', '判断が必要（判断を求める）', 'round2_elderly-abroad-cases', 'IE6', 0.56, '')
+    ('O37', '推定と異なる判断', 'round2b_fudosan-calculation-model', 'H4', 0.57, '')
+    ('O52', '記入が必要（出力しない）', 'round2_yoshiki-mapping-table', 'H2', 0.56, '')
+    ('O52', '記入が必要（出力しない）', 'round2_yoshiki-mapping-table', 'H5.1', 0.56, '')
+    ('O62', '基準の適用日が未確認であることの「未確定」の注記', 'round2_kyosai-cases', 'IKY8', 0.5, '')
+    ('O65', '「詳しい調査確認の対象になりうるか」を注記', 'round2_kyosai-model', 'HKY6', 0.0, '')
+    ('O74', '条件つき（提出日）', 'round3_shibo-shukkoku-model', 'H5', 0.0, '節がない')
+    ('O75', '食い違い（入力と記録）', 'round3_shibo-shukkoku-model', 'H4', 0.0, '節がない')
+[b] 注入点の候補の行=35 文書=7
+[b] M-VOC §5 の文書：行 = 30 行に項目の語がない = [('同一の世帯', 'impl-prep_kenpo-input-facts', 79, False), ('同一の世帯', 'round2_kyosai-model', 55, False), ('同一の世帯', 'round2_spouse-model', 132, False), ('業務の区分・事業的規模', 'R4-modeling_entity-model', 233, False)]

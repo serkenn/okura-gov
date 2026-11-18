@@ -1,0 +1,388 @@
+{
+ "case_id": "A01",
+ "title": "給与所得者の還付申告：医療費控除と、年末調整で受けなかった特定親族特別控除",
+ "tax_year": 2025,
+ "filer": "p-1",
+ "names": {
+  "p-1": "架空 太郎（本人）",
+  "p-2": "架空 花子（配偶者）",
+  "p-3": "架空 一郎（長男・大学生）",
+  "p-4": "架空 次郎（二男・高校生）"
+ },
+ "purpose": [
+  "給与所得（令和7年分の給与所得控除の表、4,000円の区切り）",
+  "基礎控除の特例（合計所得 489万円以下の区分）",
+  "配偶者控除・一般の扶養親族（16歳）",
+  "特定親族特別控除（19〜22歳、合計所得 58万円超 85万円以下の区分）と第二表の記載",
+  "医療費控除（足切り 10万円）と明細書",
+  "復興特別所得税・還付の額"
+ ],
+ "sakusei_only": [
+  {
+   "item": "p-1 の源泉徴収票：給与所得控除後の金額",
+   "value": 4760000,
+   "note": "支払者が計算して印字した値（架空）"
+  },
+  {
+   "item": "p-1 の源泉徴収票：所得控除の額の合計額",
+   "value": 2390000,
+   "note": "社会保険料 950,000＋配偶者控除 380,000＋扶養控除 380,000＋基礎控除 680,000（年末調整で特定親族特別控除を受けなかった）"
+  },
+  {
+   "item": "p-1 の源泉徴収票：控除対象配偶者の有無・配偶者（特別）控除の額",
+   "value": "有・380,000",
+   "note": ""
+  },
+  {
+   "item": "p-1 の源泉徴収票：控除対象扶養親族の数（特定・老人・その他）",
+   "value": "特定 0・老人 0・その他 1",
+   "note": "p-4。p-3 は合計所得が 58万円を超えるので扶養親族でない"
+  },
+  {
+   "item": "p-1 の源泉徴収票：16歳未満扶養親族の数",
+   "value": 0,
+   "note": ""
+  },
+  {
+   "item": "p-1 の源泉徴収票：生命保険料・地震保険料の控除額",
+   "value": 0,
+   "note": ""
+  },
+  {
+   "item": "p-1 の源泉徴収票：基礎控除の額",
+   "value": 680000,
+   "note": ""
+  },
+  {
+   "item": "p-1 の源泉徴収票：特定親族特別控除の額",
+   "value": 0,
+   "note": "年末調整で受けていない"
+  },
+  {
+   "item": "p-1 の源泉徴収票：支払者",
+   "value": "架空工業株式会社（架空の所在地）",
+   "note": ""
+  },
+  {
+   "item": "p-3 の所得の見積額（第二表の特定親族の欄）",
+   "value": "給与収入 1,400,000 円（給与所得 750,000 円）",
+   "note": "p-3 の源泉徴収票から"
+  },
+  {
+   "item": "住所・氏名など",
+   "value": "架空の値（実在しない番地・電話番号を使う）",
+   "note": "計算に関係しない"
+  }
+ ],
+ "ir": {
+  "schema_version": "0",
+  "persons": [
+   {
+    "id": "p-1",
+    "birth_on": "1975-06-10"
+   },
+   {
+    "id": "p-2",
+    "birth_on": "1977-03-03"
+   },
+   {
+    "id": "p-3",
+    "birth_on": "2004-09-15"
+   },
+   {
+    "id": "p-4",
+    "birth_on": "2009-01-20"
+   }
+  ],
+  "relations": [
+   {
+    "id": "rel-marriage-12",
+    "kind": "marriage",
+    "roles": {
+     "spouse_a": "p-1",
+     "spouse_b": "p-2"
+    },
+    "when": {
+     "from_on": "2002-04-01"
+    }
+   },
+   {
+    "id": "rel-parent-13",
+    "kind": "parentage",
+    "roles": {
+     "parent": "p-1",
+     "child": "p-3"
+    },
+    "when": {
+     "on": "2004-09-15"
+    },
+    "attributes": {
+     "basis": "birth_in_marriage"
+    }
+   },
+   {
+    "id": "rel-parent-23",
+    "kind": "parentage",
+    "roles": {
+     "parent": "p-2",
+     "child": "p-3"
+    },
+    "when": {
+     "on": "2004-09-15"
+    },
+    "attributes": {
+     "basis": "birth_mother"
+    }
+   },
+   {
+    "id": "rel-parent-14",
+    "kind": "parentage",
+    "roles": {
+     "parent": "p-1",
+     "child": "p-4"
+    },
+    "when": {
+     "on": "2009-01-20"
+    },
+    "attributes": {
+     "basis": "birth_in_marriage"
+    }
+   },
+   {
+    "id": "rel-parent-24",
+    "kind": "parentage",
+    "roles": {
+     "parent": "p-2",
+     "child": "p-4"
+    },
+    "when": {
+     "on": "2009-01-20"
+    },
+    "attributes": {
+     "basis": "birth_mother"
+    }
+   }
+  ],
+  "residences": [
+   {
+    "id": "res-1",
+    "kind": "resident_record",
+    "roles": {
+     "person": "p-1"
+    },
+    "when": {
+     "from_on": "2010-04-01"
+    },
+    "attributes": {
+     "municipality_code": "990001",
+     "household_id": "hh-1",
+     "householder": true,
+     "relation_to_householder": "householder"
+    }
+   },
+   {
+    "id": "res-2",
+    "kind": "resident_record",
+    "roles": {
+     "person": "p-2"
+    },
+    "when": {
+     "from_on": "2010-04-01"
+    },
+    "attributes": {
+     "municipality_code": "990001",
+     "household_id": "hh-1",
+     "householder": false,
+     "relation_to_householder": "spouse"
+    }
+   },
+   {
+    "id": "res-3",
+    "kind": "resident_record",
+    "roles": {
+     "person": "p-3"
+    },
+    "when": {
+     "from_on": "2010-04-01"
+    },
+    "attributes": {
+     "municipality_code": "990001",
+     "household_id": "hh-1",
+     "householder": false,
+     "relation_to_householder": "child"
+    }
+   },
+   {
+    "id": "res-4",
+    "kind": "resident_record",
+    "roles": {
+     "person": "p-4"
+    },
+    "when": {
+     "from_on": "2010-04-01"
+    },
+    "attributes": {
+     "municipality_code": "990001",
+     "household_id": "hh-1",
+     "householder": false,
+     "relation_to_householder": "child"
+    }
+   }
+  ],
+  "insurance_memberships": [],
+  "facts": [
+   {
+    "id": "f-slip-1",
+    "kind": "withholding_slip",
+    "roles": {
+     "recipient": "p-1"
+    },
+    "when": {
+     "tax_year": 2025
+    },
+    "amounts": {
+     "payment_amount": 6500000,
+     "withholding_tax": 142400,
+     "social_insurance": 950000,
+     "housing_loan_credit": 0
+    },
+    "attributes": {
+     "slip_type": "salary",
+     "counterparty": "架空工業",
+     "year_end_adjusted": true
+    }
+   },
+   {
+    "id": "f-slip-3",
+    "kind": "withholding_slip",
+    "roles": {
+     "recipient": "p-3"
+    },
+    "when": {
+     "tax_year": 2025
+    },
+    "amounts": {
+     "payment_amount": 1400000,
+     "withholding_tax": 0,
+     "social_insurance": 0,
+     "housing_loan_credit": 0
+    },
+    "attributes": {
+     "slip_type": "salary",
+     "counterparty": "架空書店",
+     "year_end_adjusted": true
+    }
+   },
+   {
+    "id": "f-enroll-3",
+    "kind": "enrollment",
+    "roles": {
+     "person": "p-3"
+    },
+    "when": {
+     "from_on": "2023-04-01",
+     "to_on": "2027-03-31"
+    },
+    "attributes": {
+     "school_type": "school_act_article1",
+     "attendance": "full_time"
+    }
+   },
+   {
+    "id": "f-med-1",
+    "kind": "medical_payment",
+    "roles": {
+     "payer": "p-1",
+     "patient": "p-4"
+    },
+    "when": {
+     "on": "2025-07-14"
+    },
+    "amounts": {
+     "amount": 180000
+    },
+    "attributes": {
+     "incurred_on": "2025-07-14",
+     "provider": "架空病院",
+     "medical_kinds": [
+      "medical_treatment"
+     ]
+    }
+   },
+   {
+    "id": "f-med-2",
+    "kind": "medical_payment",
+    "roles": {
+     "payer": "p-1",
+     "patient": "p-4"
+    },
+    "when": {
+     "on": "2025-10-06"
+    },
+    "amounts": {
+     "amount": 70000
+    },
+    "attributes": {
+     "incurred_on": "2025-10-06",
+     "provider": "架空病院",
+     "medical_kinds": [
+      "medical_treatment"
+     ]
+    }
+   }
+  ],
+  "assets": [],
+  "filed_documents": [],
+  "judgments": [
+   {
+    "id": "j-liv-12",
+    "kind": "判断.生計を一にする",
+    "judged_by": {
+     "person": "p-1"
+    },
+    "judged_at": "2026-02-01T09:00:00+09:00",
+    "subject": {
+     "person": "p-1",
+     "other_person": "p-2"
+    },
+    "when": {
+     "from_on": "2002-04-01"
+    },
+    "value": true
+   },
+   {
+    "id": "j-liv-13",
+    "kind": "判断.生計を一にする",
+    "judged_by": {
+     "person": "p-1"
+    },
+    "judged_at": "2026-02-01T09:00:00+09:00",
+    "subject": {
+     "person": "p-1",
+     "other_person": "p-3"
+    },
+    "when": {
+     "from_on": "2004-09-15"
+    },
+    "value": true
+   },
+   {
+    "id": "j-liv-14",
+    "kind": "判断.生計を一にする",
+    "judged_by": {
+     "person": "p-1"
+    },
+    "judged_at": "2026-02-01T09:00:00+09:00",
+    "subject": {
+     "person": "p-1",
+     "other_person": "p-4"
+    },
+    "when": {
+     "from_on": "2009-01-20"
+    },
+    "value": true
+   }
+  ],
+  "choices": []
+ }
+}

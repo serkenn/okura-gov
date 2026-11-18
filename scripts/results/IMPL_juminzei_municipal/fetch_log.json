@@ -1,0 +1,227 @@
+{
+ "run_at": "20261109-145912",
+ "download_dir": ".work\\downloads\\20261109-145912_IMPL_juminzei_municipal",
+ "robots": {
+  "https://www.city.sapporo.jp": {
+   "status": 200
+  },
+  "https://www.city.yokohama.lg.jp": {
+   "status": 404
+  },
+  "https://www.city.sendai.jp": {
+   "status": 404
+  },
+  "https://www.city.kobe.lg.jp": {
+   "status": 200
+  },
+  "https://www.city.chiba.jp": {
+   "status": 200
+  },
+  "https://www.pref.osaka.lg.jp": {
+   "status": 404
+  },
+  "https://www.city.setagaya.lg.jp": {
+   "status": 404
+  },
+  "https://www.city.edogawa.tokyo.jp": {
+   "status": 200
+  },
+  "https://www.sangiin.go.jp": {
+   "status": 404
+  },
+  "https://www.soumu.go.jp": {
+   "status": 200
+  }
+ },
+ "fetches": [
+  {
+   "name": "sapporo_shizei_jorei",
+   "url": "https://www.city.sapporo.jp/ncms/reiki/d1w_reiki_nonframe/H325901010044/H325901010044_j.html",
+   "why": "政令指定都市の条例の例：札幌市税条例（現行）。均等割の非課税の基本額・加算額、申告不要の条例の定め",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "final_url": "https://www.city.sapporo.jp/ncms/reiki/d1w_reiki_nonframe/H325901010044/H325901010044_j.html",
+   "bytes": 2318013,
+   "sha256": "c6e52211af449de5ebb4be1b9d4eadab8104936d60af3ba36e4d7d2aad27a2cd",
+   "saved": ".work\\downloads\\20261109-145912_IMPL_juminzei_municipal\\sapporo_shizei_jorei.html",
+   "fetched_at": "2026-11-09T14:59:16",
+   "title": "札幌市税条例",
+   "encoding": "UTF-8",
+   "text": "scripts/results/IMPL_juminzei_municipal/sapporo_shizei_jorei.txt"
+  },
+  {
+   "name": "sapporo_shizei_jorei_misikou",
+   "url": "https://www.city.sapporo.jp/ncms/reiki/d1w_reiki_nonframe/H325901010044/H325901010044_misikou_j.html",
+   "why": "札幌市税条例の未施行の改正",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "final_url": "https://www.city.sapporo.jp/ncms/reiki/d1w_reiki_nonframe/H325901010044/H325901010044_misikou_j.html",
+   "bytes": 2475885,
+   "sha256": "c33737bbb60259cd911f5f15c77e48b7bbdf93b364f0dc28f56d1de26c792146",
+   "saved": ".work\\downloads\\20261109-145912_IMPL_juminzei_municipal\\sapporo_shizei_jorei_misikou.html",
+   "fetched_at": "2026-11-09T14:59:18",
+   "title": "札幌市税条例",
+   "encoding": "UTF-8",
+   "text": "scripts/results/IMPL_juminzei_municipal/sapporo_shizei_jorei_misikou.txt"
+  },
+  {
+   "name": "yokohama_r8kaisei",
+   "url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/zeikin/y-shizei/kojin-shiminzei-kenminzei/R8kaisei.html",
+   "why": "横浜市：令和8年度の個人市民税・県民税の改正",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "final_url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/zeikin/y-shizei/kojin-shiminzei-kenminzei/R8kaisei.html",
+   "bytes": 60692,
+   "sha256": "cb18f6bb7637c273aaa225cc251fec487202908645ed15b32c9e4bc150ce29b4",
+   "saved": ".work\\downloads\\20261109-145912_IMPL_juminzei_municipal\\yokohama_r8kaisei.html",
+   "fetched_at": "2026-11-09T14:59:23",
+   "title": "令和８年度税制改正（さらなる年収の壁への対応）の概要 横浜市",
+   "encoding": "UTF-8",
+   "text": "scripts/results/IMPL_juminzei_municipal/yokohama_r8kaisei.txt"
+  },
+  {
+   "name": "yokohama_shosai",
+   "url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/zeikin/y-shizei/kojin-shiminzei-kenminzei/kojin-shiminzei-shosai/index.html",
+   "why": "横浜市：個人市民税・県民税の詳細（非課税の基準の案内があるか）",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "final_url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/zeikin/y-shizei/kojin-shiminzei-kenminzei/kojin-shiminzei-shosai/",
+   "bytes": 50783,
+   "sha256": "2d8792bac94b9104e3e6846be13289f338466fc8f93fb70b8935ae76a123d99c",
+   "saved": ".work\\downloads\\20261109-145912_IMPL_juminzei_municipal\\yokohama_shosai.html",
+   "fetched_at": "2026-11-09T14:59:26",
+   "title": "個人の市民税・県民税（詳細） 横浜市",
+   "encoding": "UTF-8",
+   "text": "scripts/results/IMPL_juminzei_municipal/yokohama_shosai.txt"
+  },
+  {
+   "name": "sendai_r9kaisei",
+   "url": "https://www.city.sendai.jp/shiminze-kikaku/kurashi/tetsuzuki/zekin/kojin/kaisei/r8.html",
+   "why": "仙台市：令和9年度（令和8年分）から適用される改正",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "final_url": "https://www.city.sendai.jp/shiminze-kikaku/kurashi/tetsuzuki/zekin/kojin/kaisei/r8.html",
+   "bytes": 30831,
+   "sha256": "7eaa2cb559d8cbc2b823dd3c96963be48020ded54a7bad4e564cbd5c6b00ede6",
+   "saved": ".work\\downloads\\20261109-145912_IMPL_juminzei_municipal\\sendai_r9kaisei.html",
+   "fetched_at": "2026-11-09T14:59:31",
+   "title": "令和9年度（令和8年分）から適用される個人市県民税の税制改正等について｜仙台市",
+   "encoding": "utf-8",
+   "text": "scripts/results/IMPL_juminzei_municipal/sendai_r9kaisei.txt"
+  },
+  {
+   "name": "kobe_r9kaisei",
+   "url": "https://www.city.kobe.lg.jp/a83576/kurashi/tax/shikenminze/r9kaisei.html",
+   "why": "神戸市：令和9年度の改正",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "final_url": "https://www.city.kobe.lg.jp/a83576/kurashi/tax/shikenminze/r9kaisei.html",
+   "bytes": 25954,
+   "sha256": "6a3c9e0c7525ebfa482cc08348400d3c58fed334f58ad2a33d84290565b815d9",
+   "saved": ".work\\downloads\\20261109-145912_IMPL_juminzei_municipal\\kobe_r9kaisei.html",
+   "fetched_at": "2026-11-09T14:59:35",
+   "title": "神戸市：2027年度（令和9年度）からの住民税の主な改正内容",
+   "encoding": "UTF-8",
+   "text": "scripts/results/IMPL_juminzei_municipal/kobe_r9kaisei.txt"
+  },
+  {
+   "name": "chiba_r9kaisei",
+   "url": "https://www.city.chiba.jp/zaiseikyoku/zeimu/kazeikanri/zeiseikaiseijuminzei2027.html",
+   "why": "千葉市：令和9年度から適用される改正",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "final_url": "https://www.city.chiba.jp/zaiseikyoku/zeimu/kazeikanri/zeiseikaiseijuminzei2027.html",
+   "bytes": 23581,
+   "sha256": "6a1dfbc906426862d682005f1026e93165e760269bb42a176e8b8abe4407f20b",
+   "saved": ".work\\downloads\\20261109-145912_IMPL_juminzei_municipal\\chiba_r9kaisei.html",
+   "fetched_at": "2026-11-09T14:59:39",
+   "title": "千葉市：令和9年度から適用される個人市・県民税の主な改正点",
+   "encoding": "UTF-8",
+   "text": "scripts/results/IMPL_juminzei_municipal/chiba_r9kaisei.txt"
+  },
+  {
+   "name": "osaka_pref_r8zeikai",
+   "url": "https://www.pref.osaka.lg.jp/o050030/zei/alacarte/reiwa8_zeikai.html",
+   "why": "大阪府：令和8年度税制改正（個人住民税）",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "final_url": "https://www.pref.osaka.lg.jp/o050030/zei/alacarte/reiwa8_zeikai.html",
+   "bytes": 19478,
+   "sha256": "60aa1c42806889a26ce9cb36aa6371ae6e58b21eddd2aa41b746008650f3d709",
+   "saved": ".work\\downloads\\20261109-145912_IMPL_juminzei_municipal\\osaka_pref_r8zeikai.html",
+   "fetched_at": "2026-11-09T14:59:42",
+   "title": "令和8年度の主な税制改正の紹介／大阪府（おおさかふ）ホームページ [Osaka Prefectural Government]",
+   "encoding": "utf-8",
+   "text": "scripts/results/IMPL_juminzei_municipal/osaka_pref_r8zeikai.txt"
+  },
+  {
+   "name": "setagaya_hikazei",
+   "url": "https://www.city.setagaya.lg.jp/02051/220.html",
+   "why": "世田谷区：住民税が課税されない方（令和8年度以降の式）",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "final_url": "https://www.city.setagaya.lg.jp/02051/220.html",
+   "bytes": 24352,
+   "sha256": "af5061bda992821b0e1fbd31f3c4f65c6f6f7524d0c9cb63f05404c49497d67e",
+   "saved": ".work\\downloads\\20261109-145912_IMPL_juminzei_municipal\\setagaya_hikazei.html",
+   "fetched_at": "2026-11-09T14:59:46",
+   "title": "非課税制度 | 世田谷区公式ホームページ",
+   "encoding": "UTF-8",
+   "text": "scripts/results/IMPL_juminzei_municipal/setagaya_hikazei.txt"
+  },
+  {
+   "name": "edogawa_hikazei",
+   "url": "https://www.city.edogawa.tokyo.jp/e013/kurashi/zeikin/juminzei/zei_gaiyo/hikazei.html",
+   "why": "江戸川区：非課税の基準",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "final_url": "https://www.city.edogawa.tokyo.jp/e013/kurashi/zeikin/juminzei/zei_gaiyo/hikazei.html",
+   "bytes": 18663,
+   "sha256": "abdb7c0b98d0a4d8ddf4c702667c020f29316b0b65370a1ba964e64d11090cd3",
+   "saved": ".work\\downloads\\20261109-145912_IMPL_juminzei_municipal\\edogawa_hikazei.html",
+   "fetched_at": "2026-11-09T14:59:51",
+   "title": "非課税 江戸川区ホームページ",
+   "encoding": "UTF-8",
+   "text": "scripts/results/IMPL_juminzei_municipal/edogawa_hikazei.txt"
+  },
+  {
+   "name": "sangiin_rippou_486",
+   "url": "https://www.sangiin.go.jp/japanese/annai/chousa/rippou_chousa/backnumber/2026pdf/20260806162.pdf",
+   "why": "参議院『立法と調査』（2026-08-06）：個人住民税における課税最低限と非課税限度額制度",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "application/pdf",
+   "final_url": "https://www.sangiin.go.jp/japanese/annai/chousa/rippou_chousa/backnumber/2026pdf/20260806162.pdf",
+   "bytes": 1333820,
+   "sha256": "f62a0219145b1b393f43636f7f4e3ed22ed5c56a2fb82abd75c3035ab0c26455",
+   "saved": ".work\\downloads\\20261109-145912_IMPL_juminzei_municipal\\sangiin_rippou_486.pdf",
+   "fetched_at": "2026-11-09T14:59:54"
+  },
+  {
+   "name": "soumu_kojin_juminzei",
+   "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/150790_06.html",
+   "why": "総務省：個人住民税の案内ページ（URL は推測。存在しなければ記録だけ）",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "text/html",
+   "final_url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/150790_06.html",
+   "bytes": 47283,
+   "sha256": "2a35217817d5c76fbe8ee393172916594f2974aaef1f54d5922b6294e4465fb8",
+   "saved": ".work\\downloads\\20261109-145912_IMPL_juminzei_municipal\\soumu_kojin_juminzei.html",
+   "fetched_at": "2026-11-09T14:59:58",
+   "title": "総務省｜地方税制度｜個人住民税",
+   "encoding": "Shift_JIS",
+   "text": "scripts/results/IMPL_juminzei_municipal/soumu_kojin_juminzei.txt"
+  }
+ ]
+}

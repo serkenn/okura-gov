@@ -1,0 +1,315 @@
+{
+ "case_id": "C01",
+ "title": "白色申告の事業所得（デザイン業）：収支内訳書、国民年金・国保",
+ "tax_year": 2025,
+ "filer": "p-1",
+ "names": {
+  "p-1": "架空 白男（本人）"
+ },
+ "purpose": [
+  "収支内訳書（一般用）の経費の科目と所得金額",
+  "事業所得の報酬の源泉徴収税額（第二表の所得の内訳）",
+  "社会保険料控除（国民年金・国民健康保険）",
+  "基礎控除の特例（合計所得 336万円以下）"
+ ],
+ "sakusei_only": [
+  {
+   "item": "報酬の支払調書・受取",
+   "value": "架空出版 1,100,000（源泉 112,310）、架空工房 1,500,000（源泉なし）、架空商店 1,000,000（源泉なし）",
+   "note": "業種：デザイン業"
+  },
+  {
+   "item": "経費",
+   "value": "通信費 120,000、消耗品費 80,000、旅費交通費 60,000",
+   "note": "すべて業務用（按分なし）"
+  },
+  {
+   "item": "社会保険料",
+   "value": "国民年金保険料 210,120、国民健康保険料 250,000",
+   "note": ""
+  },
+  {
+   "item": "住所・氏名など",
+   "value": "架空の値（実在しない番地。電話番号は入れない）",
+   "note": "計算に関係しない"
+  }
+ ],
+ "ir": {
+  "schema_version": "0",
+  "persons": [
+   {
+    "id": "p-1",
+    "birth_on": "1985-04-04"
+   }
+  ],
+  "relations": [],
+  "residences": [
+   {
+    "id": "res-1",
+    "kind": "resident_record",
+    "roles": {
+     "person": "p-1"
+    },
+    "when": {
+     "from_on": "2015-04-01"
+    },
+    "attributes": {
+     "municipality_code": "990001",
+     "household_id": "hh-1",
+     "householder": true,
+     "relation_to_householder": "householder"
+    }
+   }
+  ],
+  "insurance_memberships": [],
+  "facts": [
+   {
+    "id": "biz-1",
+    "kind": "business",
+    "roles": {
+     "owner": "p-1"
+    },
+    "when": {
+     "from_on": "2020-04-01"
+    },
+    "attributes": {
+     "description": "架空デザイン業"
+    }
+   },
+   {
+    "id": "f-books",
+    "kind": "bookkeeping_status",
+    "roles": {
+     "person": "p-1"
+    },
+    "when": {
+     "tax_year": 2025
+    },
+    "attributes": {
+     "business_id": "biz-1",
+     "bookkeeping_method": "simplified"
+    }
+   },
+   {
+    "id": "f-rc-1",
+    "kind": "business_receipt",
+    "roles": {
+     "recipient": "p-1"
+    },
+    "when": {
+     "on": "2025-03-31"
+    },
+    "amounts": {
+     "amount": 1100000,
+     "withholding_tax": 112310
+    },
+    "attributes": {
+     "business_id": "biz-1",
+     "counterparty": "架空出版",
+     "contract_document": "service_contract",
+     "incurred_on": "2025-03-15"
+    }
+   },
+   {
+    "id": "f-rc-2",
+    "kind": "business_receipt",
+    "roles": {
+     "recipient": "p-1"
+    },
+    "when": {
+     "on": "2025-07-31"
+    },
+    "amounts": {
+     "amount": 1500000,
+     "withholding_tax": 0
+    },
+    "attributes": {
+     "business_id": "biz-1",
+     "counterparty": "架空工房",
+     "contract_document": "service_contract",
+     "incurred_on": "2025-07-10"
+    }
+   },
+   {
+    "id": "f-rc-3",
+    "kind": "business_receipt",
+    "roles": {
+     "recipient": "p-1"
+    },
+    "when": {
+     "on": "2025-11-28"
+    },
+    "amounts": {
+     "amount": 1000000,
+     "withholding_tax": 0
+    },
+    "attributes": {
+     "business_id": "biz-1",
+     "counterparty": "架空商店",
+     "contract_document": "service_contract",
+     "incurred_on": "2025-11-10"
+    }
+   },
+   {
+    "id": "f-ex-1",
+    "kind": "business_expense",
+    "roles": {
+     "payer": "p-1"
+    },
+    "when": {
+     "on": "2025-12-25"
+    },
+    "amounts": {
+     "amount": 120000
+    },
+    "attributes": {
+     "business_id": "biz-1",
+     "expense_category": "communication",
+     "counterparty": "架空通信"
+    }
+   },
+   {
+    "id": "f-ex-2",
+    "kind": "business_expense",
+    "roles": {
+     "payer": "p-1"
+    },
+    "when": {
+     "on": "2025-06-10"
+    },
+    "amounts": {
+     "amount": 80000
+    },
+    "attributes": {
+     "business_id": "biz-1",
+     "expense_category": "supplies",
+     "counterparty": "架空文具"
+    }
+   },
+   {
+    "id": "f-ex-3",
+    "kind": "business_expense",
+    "roles": {
+     "payer": "p-1"
+    },
+    "when": {
+     "on": "2025-09-05"
+    },
+    "amounts": {
+     "amount": 60000
+    },
+    "attributes": {
+     "business_id": "biz-1",
+     "expense_category": "travel",
+     "counterparty": "架空鉄道"
+    }
+   },
+   {
+    "id": "f-np",
+    "kind": "social_insurance_payment",
+    "roles": {
+     "payer": "p-1",
+     "liable_person": "p-1"
+    },
+    "when": {
+     "on": "2025-12-26"
+    },
+    "amounts": {
+     "amount": 210120
+    },
+    "attributes": {
+     "premium_type": "national_pension"
+    }
+   },
+   {
+    "id": "f-nhi",
+    "kind": "social_insurance_payment",
+    "roles": {
+     "payer": "p-1",
+     "liable_person": "p-1"
+    },
+    "when": {
+     "on": "2025-12-26"
+    },
+    "amounts": {
+     "amount": 250000
+    },
+    "attributes": {
+     "premium_type": "national_health_insurance"
+    }
+   }
+  ],
+  "assets": [],
+  "filed_documents": [],
+  "judgments": [
+   {
+    "id": "j-scale",
+    "kind": "判断.事業と称するに至る程度",
+    "judged_by": {
+     "person": "p-1"
+    },
+    "judged_at": "2026-02-01T09:00:00+09:00",
+    "subject": {
+     "person": "p-1",
+     "business_id": "biz-1"
+    },
+    "when": {
+     "tax_year": 2025
+    },
+    "value": true
+   },
+   {
+    "id": "j-homework",
+    "kind": "判断.家内労働者等",
+    "judged_by": {
+     "person": "p-1"
+    },
+    "judged_at": "2026-02-01T09:00:00+09:00",
+    "subject": {
+     "person": "p-1"
+    },
+    "when": {
+     "tax_year": 2025
+    },
+    "value": false
+   },
+   {
+    "id": "j-rel-1",
+    "kind": "判断.業務関連性",
+    "judged_by": {
+     "person": "p-1"
+    },
+    "judged_at": "2026-02-01T09:00:00+09:00",
+    "subject": {
+     "record_id": "f-ex-1"
+    },
+    "value": true
+   },
+   {
+    "id": "j-rel-2",
+    "kind": "判断.業務関連性",
+    "judged_by": {
+     "person": "p-1"
+    },
+    "judged_at": "2026-02-01T09:00:00+09:00",
+    "subject": {
+     "record_id": "f-ex-2"
+    },
+    "value": true
+   },
+   {
+    "id": "j-rel-3",
+    "kind": "判断.業務関連性",
+    "judged_by": {
+     "person": "p-1"
+    },
+    "judged_at": "2026-02-01T09:00:00+09:00",
+    "subject": {
+     "record_id": "f-ex-3"
+    },
+    "value": true
+   }
+  ],
+  "choices": []
+ }
+}

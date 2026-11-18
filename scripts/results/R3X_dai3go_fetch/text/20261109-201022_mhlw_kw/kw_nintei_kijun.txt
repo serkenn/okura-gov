@@ -1,0 +1,49 @@
+# source=https://www.mhlw.go.jp/web/t_docsrch_keyword?keyword=%E8%A2%AB%E6%89%B6%E9%A4%8A%E9%85%8D%E5%81%B6%E8%80%85%E3%81%AE%E8%AA%8D%E5%AE%9A%E5%9F%BA%E6%BA%96&type=1&mode=0
+# fetched_at=20261109-201022
+# charset=UTF-8
+
+結果一覧
+
+検索結果
+
+該当件数: 4件中 1件~ 4件
+
+[form action='??t_docsrch_keyword_ja??' method=None]
+
+		[input name='type' type='hidden' value='1']
+		[input name='page' type='hidden' value='0']
+		[input name='keyword' type='hidden' value='被扶養配偶者の認定基準']
+		[input name='mode' type='hidden' value='0']
+
+			[select name='sort' type=None value=None]
+				並べ替え順序選択
+				制定年月日 新しい順
+				制定年月日 古い順
+				改正年月日 新しい順
+				改正年月日 古い順
+
+				 | 件名
+				 |
+					制定年月日
+
+				 | 種別・番号
+
+				 | ・国民年金法における被扶養配偶者の認定基準について
+				 ⟨別ウィンドウが開きます⟩
+				 | ◆昭和61年03月31日
+				 | 庁保発第13号
+
+				 | ・国民年金の被保険者の適用及び保険料に関する事務の取扱いについて
+				 ⟨別ウィンドウが開きます⟩
+				 | ◆昭和61年04月01日
+				 | 庁保険発第17号
+
+				 | ・国民年金法における被扶養配偶者の認定基準の運用について
+				 ⟨別ウィンドウが開きます⟩
+				 | ◆昭和61年04月01日
+				 | 庁保険発第18号
+
+				 | ・日本年金機構の設立に伴う既存通知等の取扱い等について
+				 ⟨別ウィンドウが開きます⟩
+				 | ◆平成22年01月01日
+				 | 年発第101002号

@@ -1,0 +1,110 @@
+{
+ "run_at": "20261109-174413",
+ "mode": "probe",
+ "download_dir": ".work/downloads/20261109-174413_R2X_genka_laws_probe",
+ "fetches": [
+  {
+   "short": "shotoku-rei",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096_20251201_507CO0000000120?response_format=json",
+   "status": 200,
+   "law_revision_id": "340CO0000000096_20251201_507CO0000000120",
+   "hits": [
+    "譲渡所得の金額及び一時所得の金額"
+   ]
+  },
+  {
+   "short": "shotoku-rei",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096_20260101_507CO0000000120?response_format=json",
+   "status": 200,
+   "law_revision_id": "340CO0000000096_20260101_507CO0000000120",
+   "hits": [
+    "譲渡所得の金額及び一時所得の金額"
+   ]
+  },
+  {
+   "short": "shotoku-rei",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096_20260401_506CO0000000141?response_format=json",
+   "status": 200,
+   "law_revision_id": "340CO0000000096_20260401_506CO0000000141",
+   "hits": [
+    "譲渡所得の金額及び一時所得の金額"
+   ]
+  },
+  {
+   "short": "shotoku-rei",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096_20260401_507CO0000000120?response_format=json",
+   "status": 200,
+   "law_revision_id": "340CO0000000096_20260401_507CO0000000120",
+   "hits": [
+    "譲渡所得の金額及び一時所得の金額"
+   ]
+  },
+  {
+   "short": "shotoku-rei",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096_20260401_508CO0000000093?response_format=json",
+   "status": 200,
+   "law_revision_id": "340CO0000000096_20260401_508CO0000000093",
+   "hits": [
+    "譲渡所得の金額又は一時所得の金額"
+   ]
+  },
+  {
+   "short": "shotoku-rei",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096_20260522_508CO0000000093?response_format=json",
+   "status": 200,
+   "law_revision_id": "340CO0000000096_20260522_508CO0000000093",
+   "hits": [
+    "譲渡所得の金額又は一時所得の金額"
+   ]
+  },
+  {
+   "short": "shotoku-rei",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096_20261201_508CO0000000093?response_format=json",
+   "status": 200,
+   "law_revision_id": "340CO0000000096_20261201_508CO0000000093",
+   "hits": [
+    "譲渡所得の金額又は一時所得の金額"
+   ]
+  },
+  {
+   "short": "sochi",
+   "asof": "2026-04-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/332AC0000000026?response_format=json&asof=2026-04-01",
+   "law_revision_id": "332AC0000000026_20260401_508AC0000000012",
+   "amendment_law_num": "令和八年法律第十二号",
+   "amendment_law_title": "所得税法等の一部を改正する法律",
+   "amendment_enforcement_date": "2026-04-01",
+   "amendment_promulgate_date": "2026-03-31",
+   "current_revision_status": "PreviousEnforced",
+   "updated": "2026-04-15T09:56:07+09:00",
+   "suppl_hits": 1
+  },
+  {
+   "short": "sochi-rei",
+   "asof": "2026-04-01",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/332CO0000000043?response_format=json&asof=2026-04-01",
+   "law_revision_id": "332CO0000000043_20260401_508CO0000000098",
+   "amendment_law_num": "令和八年政令第九十八号",
+   "amendment_law_title": "租税特別措置法施行令の一部を改正する政令",
+   "amendment_enforcement_date": "2026-04-01",
+   "amendment_promulgate_date": "2026-03-31",
+   "current_revision_status": "PreviousEnforced",
+   "updated": "2026-04-22T09:25:47+09:00",
+   "suppl_hits": 1
+  },
+  {
+   "short": "shotoku-rei",
+   "asof": "2026-12-31",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096?response_format=json&asof=2026-12-31",
+   "law_revision_id": "340CO0000000096_20261201_508CO0000000093",
+   "amendment_law_num": "令和八年政令第九十三号",
+   "amendment_law_title": "所得税法施行令の一部を改正する政令",
+   "amendment_enforcement_date": "2026-12-01",
+   "amendment_promulgate_date": "2026-03-31",
+   "current_revision_status": "UnEnforced",
+   "updated": "2026-04-21T12:37:35+09:00",
+   "suppl_hits": 1
+  }
+ ],
+ "errors": []
+}

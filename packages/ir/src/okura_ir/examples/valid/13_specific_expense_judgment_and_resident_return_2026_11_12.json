@@ -1,0 +1,36 @@
+{
+ "schema_version": "0",
+ "persons": [
+  {"id": "p-t", "birth_on": "1990-06-01"}
+ ],
+ "relations": [],
+ "residences": [],
+ "insurance_memberships": [],
+ "facts": [
+  {"id": "f-sal-t-12", "kind": "salary_payment", "roles": {"recipient": "p-t"}, "when": {"on": "2026-12-25"},
+   "amounts": {"gross": 2800000}, "attributes": {"counterparty": "架空工業", "due_on": "2026-12-25"}},
+  {"id": "f-se-t-trip", "kind": "specific_expense", "roles": {"payer": "p-t"}, "when": {"on": "2026-06-10"},
+   "amounts": {"amount": 90000, "special_seat_fee": 8000},
+   "attributes": {"category": "business_travel", "certified_by": "payer", "payer_name": "架空工業", "description": "出張の旅費（遠回りの経路を含む）"}},
+  {"id": "f-se-t-hotel", "kind": "specific_expense", "roles": {"payer": "p-t"}, "when": {"on": "2026-04-02"},
+   "amounts": {"amount": 60000},
+   "attributes": {"category": "relocation", "certified_by": "payer", "transfer_on": "2026-04-01", "relocation_item": "lodging", "description": "転居に伴う宿泊費"}},
+  {"id": "f-se-t-fuel", "kind": "specific_expense", "roles": {"payer": "p-t"}, "when": {"on": "2026-04-03"},
+   "amounts": {"amount": 15000},
+   "attributes": {"category": "relocation", "certified_by": "payer", "transfer_on": "2026-04-01", "relocation_item": "vehicle", "description": "転居の自動車の燃料費"}}
+ ],
+ "assets": [],
+ "filed_documents": [],
+ "judgments": [
+  {"id": "j-route-t-trip", "kind": "判断.特定支出の通常の範囲の額", "judged_by": {"person": "p-t"}, "judged_at": "2027-01-20T09:00:00+09:00",
+   "subject": {"record_id": "f-se-t-trip"}, "value": {"countable_amount": 70000}},
+  {"id": "j-route-t-hotel", "kind": "判断.特定支出の通常の範囲の額", "judged_by": {"person": "p-t"}, "judged_at": "2027-01-20T09:00:00+09:00",
+   "subject": {"record_id": "f-se-t-hotel"}, "value": {"countable_amount": 45000}}
+ ],
+ "choices": [
+  {"id": "c-tokutei-t-2026", "kind": "選択.特定支出控除", "chosen_by": "p-t", "chosen_at": "2027-02-10T10:00:00+09:00",
+   "subject": {"person": "p-t"}, "when": {"tax_year": 2026}, "value": false},
+  {"id": "c-jumin-t-2027", "kind": "選択.住民税の申告", "chosen_by": "p-t", "chosen_at": "2027-02-10T10:00:00+09:00",
+   "subject": {"person": "p-t"}, "when": {"fiscal_year": 2027}, "value": {"file_resident_tax_return": true, "specific_expense_deduction": true}}
+ ]
+}

@@ -1,0 +1,24 @@
+{
+  "set": "kyokai_contrast",
+  "fetched_at_local": "20261109-175528",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "kyokai_faq_dependent_status",
+      "url": "https://www.kyoukaikenpo.or.jp/faq/dependent_status/",
+      "status": 200,
+      "final_url": "https://www.kyoukaikenpo.or.jp/faq/dependent_status/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 71028,
+      "sha256": "804c130bed8c6b95d5e79c4a98f38f729ef04b192e880e369eb470bd11c093fe",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-175528_R2X_kyosai_kyokai_contrast\\kyokai_faq_dependent_status.html",
+      "charset": "UTF-8",
+      "title": "被扶養者資格の再確認について｜よくあるご質問｜協会けんぽ",
+      "text_chars": 10916,
+      "text": ".work\\text\\20261109-175528_R2X_kyosai_kyokai_contrast\\kyokai_faq_dependent_status.txt",
+      "n_links": 96
+    }
+  ]
+}

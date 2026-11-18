@@ -1,0 +1,43 @@
+{
+ "aes_selftest": true,
+ "files": {
+  "shichoson": {
+   "path": ".work/downloads/20261109-201103_R3X_juminzei-extra_web/soumu_tsuchi_shichoson.pdf",
+   "sha256": "107ba94cd6bd4b5e8db4ce3ce6e6e5e475fea94523d52f565daf396011746a02",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 142,
+   "rows": 182165,
+   "fonts": [
+    "F1:WinAnsiEncoding",
+    "F2:Identity-H+ToUnicode",
+    "F3:Identity-H+ToUnicode"
+   ]
+  },
+  "dofuken": {
+   "path": ".work/downloads/20261109-201103_R3X_juminzei-extra_web/soumu_tsuchi_dofuken.pdf",
+   "sha256": "b8c40110f3a48e8d2fefa27207f55daadd44f9ab484515d6ed1e27239fed5991",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 199,
+   "rows": 271445,
+   "fonts": [
+    "F1:Identity-H+ToUnicode",
+    "F2:Identity-H+ToUnicode"
+   ]
+  },
+  "r8_houritsu": {
+   "path": ".work/downloads/20261111-023522_R3X_juminzei-extra_web/r8_houritsu.pdf",
+   "sha256": "0282d962b36395beb9ab7d5ca4cd991f635ece4b85826d3d0954bebf96f9edec",
+   "encrypt": null,
+   "key_ok": null,
+   "pages": 226,
+   "rows": 4561,
+   "fonts": [
+    "None:?",
+    "TT1:Identity-H+ToUnicode",
+    "TT2:Identity-V+ToUnicode"
+   ]
+  }
+ }
+}

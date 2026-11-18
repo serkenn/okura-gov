@@ -1,0 +1,644 @@
+{
+ "run_at": "20261111-112602",
+ "download_dir": ".work/downloads/20261111-112602_IMPL2_tsukin_verify",
+ "articles": [
+  {
+   "check": "V1 所令20の2 改正前（2025-11-19）",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096?response_format=xml&asof=2025-11-19",
+   "status": 200,
+   "sha256": "0c06f079be48ebea250249ad108b8067a6ca5c026e60c7823dc446c9bbf41a1a",
+   "law_revision_id": "340CO0000000096_20250401_507CO0000000120",
+   "found_article": true,
+   "must": {
+    "一月当たり三万千六百円": true,
+    "一月当たり二万八千円": true,
+    "一月当たり七千百円": true
+   },
+   "must_not": {
+    "三万八千七百円": false,
+    "駐車場等": false
+   },
+   "ok": true
+  },
+  {
+   "check": "V1 所令20の2 令和7年改正（2025-11-20）",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096?response_format=xml&asof=2025-11-20",
+   "status": 200,
+   "sha256": "45beba52d31caf087117a7dbc920874532debae39d5dc80233f568c58413c760",
+   "law_revision_id": "340CO0000000096_20251120_507CO0000000380",
+   "found_article": true,
+   "must": {
+    "片道五十五キロメートル以上である場合　一月当たり三万八千七百円": true,
+    "一月当たり三万二千三百円": true,
+    "一月当たり七千三百円": true,
+    "一月当たり四千二百円": true
+   },
+   "must_not": {
+    "六万六千四百円": false,
+    "駐車場等": false
+   },
+   "ok": true
+  },
+  {
+   "check": "V1 所令20の2 令和8年改正前日（2026-03-31）",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096?response_format=xml&asof=2026-03-31",
+   "status": 200,
+   "sha256": "748a8e9ca347aec20abefaffaedc511414f54aeafc7eec41906cb6c24fd33d70",
+   "law_revision_id": "340CO0000000096_20260101_507CO0000000120",
+   "found_article": true,
+   "must": {
+    "片道五十五キロメートル以上である場合　一月当たり三万八千七百円": true
+   },
+   "must_not": {
+    "六万六千四百円": false,
+    "駐車場等": false
+   },
+   "ok": true
+  },
+  {
+   "check": "V1 所令20の2 令和8年改正（2026-04-01）",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096?response_format=xml&asof=2026-04-01",
+   "status": 200,
+   "sha256": "175fbf6d03435811462b47aebd5ee9c6a603c26d70f56d6f3b02359a1a81b805",
+   "law_revision_id": "340CO0000000096_20260401_508CO0000000093",
+   "found_article": true,
+   "must": {
+    "片道五十五キロメートル以上六十五キロメートル未満である場合　一月当たり三万八千七百円": true,
+    "六十五キロメートル以上七十五キロメートル未満である場合　一月当たり四万五千七百円": true,
+    "七十五キロメートル以上八十五キロメートル未満である場合　一月当たり五万二千七百円": true,
+    "八十五キロメートル以上九十五キロメートル未満である場合　一月当たり五万九千六百円": true,
+    "九十五キロメートル以上である場合　一月当たり六万六千四百円": true,
+    "当該金額が五千円を超えるときは、五千円": true,
+    "一月当たりの金額が十五万円を超えるときは、一月当たり十五万円": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "check": "V1 所令20の2 現行（2026-11-11）",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096?response_format=xml&asof=2026-11-11",
+   "status": 200,
+   "sha256": "db79531dcae8a7b3fbd2af27e3062c8309074c7b3d4ce78b213d696d7fec7640",
+   "law_revision_id": "340CO0000000096_20260522_508CO0000000093",
+   "found_article": true,
+   "must": {
+    "九十五キロメートル以上である場合　一月当たり六万六千四百円": true,
+    "当該金額が五千円を超えるときは、五千円": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "check": "V1 所令20の2 予定の最後の版（2028-01-01）",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096?response_format=xml&asof=2028-01-01",
+   "status": 200,
+   "sha256": "ea3f7ba4e58d7f0f411a5f26dfc71bc158354fe052f5f17402e8e1559bbc4553",
+   "law_revision_id": "340CO0000000096_20280101_508CO0000000093",
+   "found_article": true,
+   "must": {
+    "九十五キロメートル以上である場合　一月当たり六万六千四百円": true,
+    "当該金額が五千円を超えるときは、五千円": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "check": "V2 所法9①五 改正前日（2026-03-31）",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=xml&asof=2026-03-31",
+   "status": 200,
+   "sha256": "aff872348782742ba03f20e38aebecda96dbb489da1bf7d1b8c21054a7cfe57d",
+   "law_revision_id": "340AC0000000033_20260101_507AC0000000013",
+   "found_article": true,
+   "must": {
+    "交通用具の使用のために支出する費用に充てるものとして通常の給与に加算して受ける通勤手当": true
+   },
+   "must_not": {
+    "駐車のための施設": false
+   },
+   "ok": true
+  },
+  {
+   "check": "V2 所法9①五 改正（2026-04-01）",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=xml&asof=2026-04-01",
+   "status": 200,
+   "sha256": "c745a1d21027649869d5d7d2671764c0875a87cf1d167a171702240c2a189e1c",
+   "law_revision_id": "340AC0000000033_20260401_508AC0000000012",
+   "found_article": true,
+   "must": {
+    "（自動車その他の交通用具の駐車のための施設の利用のために支出する費用を含む。）に充てるものとして通常の給与に加算して受ける通勤手当": true,
+    "次に掲げる所得については、所得税を課さない。": true
+   },
+   "must_not": {},
+   "ok": true
+  },
+  {
+   "check": "V3 所規2の2 改正前日（2026-03-31）",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340M50000040011?response_format=xml&asof=2026-03-31",
+   "status": 200,
+   "sha256": "6517def689826dd2de40abbaf32d9859f19eba7a07e8e09058258d34c56f2c42",
+   "law_revision_id": "340M50000040011_20260101_507M60000040018",
+   "found_article": false,
+   "must": {},
+   "must_not": {
+    "駐車場等": false
+   },
+   "ok": true
+  },
+  {
+   "check": "V3 所規2の2 改正（2026-04-01）",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340M50000040011?response_format=xml&asof=2026-04-01",
+   "status": 200,
+   "sha256": "2912afdeec086fcfbcaf4fb4d67748722c428df741168f7b7e26f76ab06c2099",
+   "law_revision_id": "340M50000040011_20260401_508M60000040017",
+   "found_article": true,
+   "must": {
+    "勤務する場所の周辺又はその者が通勤のため利用する交通機関の駅若しくは停留所その他の施設の周辺にあること": true,
+    "当該料金の額を十二": true,
+    "三百六十五を乗じて": true
+   },
+   "must_not": {},
+   "ok": true
+  }
+ ],
+ "suppl": [
+  {
+   "check": "V4 令和7年政令第380号 附則",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096?response_format=xml&asof=2026-11-11",
+   "law_revision_id": "340CO0000000096_20260522_508CO0000000093",
+   "found": true,
+   "must": {
+    "この政令は、令和七年十一月二十日から施行する。": true,
+    "令和七年四月一日以後に受けるべき通勤手当": true,
+    "差額として追給されるもの": true,
+    "なお従前の例による": true
+   },
+   "ok": true
+  },
+  {
+   "check": "V4 令和8年政令第93号 附則第4条",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000096?response_format=xml&asof=2026-11-11",
+   "law_revision_id": "340CO0000000096_20260522_508CO0000000093",
+   "found": true,
+   "must": {
+    "この政令は、令和八年四月一日から施行する。": true,
+    "新令第二十条の二の規定は、この政令の施行の日（以下「施行日」という。）以後に受けるべき通勤手当": true
+   },
+   "ok": true
+  }
+ ],
+ "revisions": {
+  "340M50000040011": {
+   "url": "https://laws.e-gov.go.jp/api/2/law_revisions/340M50000040011?response_format=json",
+   "status": 200,
+   "rows_since_2025": [
+    {
+     "law_revision_id": "340M50000040011_20280101_508M60000040017",
+     "amendment_law_num": "令和八年財務省令第十七号",
+     "amendment_enforcement_date": "2028-01-01",
+     "current_revision_status": "UnEnforced",
+     "updated": "2026-07-27T09:07:35+09:00"
+    },
+    {
+     "law_revision_id": "340M50000040011_20270101_508M60000040017",
+     "amendment_law_num": "令和八年財務省令第十七号",
+     "amendment_enforcement_date": "2027-01-01",
+     "current_revision_status": "UnEnforced",
+     "updated": "2026-05-11T10:31:01+09:00"
+    },
+    {
+     "law_revision_id": "340M50000040011_20270101_507M60000040018",
+     "amendment_law_num": "令和七年財務省令第十八号",
+     "amendment_enforcement_date": "2027-01-01",
+     "current_revision_status": "UnEnforced",
+     "updated": "2026-05-11T09:48:19+09:00"
+    },
+    {
+     "law_revision_id": "340M50000040011_20270101_505M60000040012",
+     "amendment_law_num": "令和五年財務省令第十二号",
+     "amendment_enforcement_date": "2027-01-01",
+     "current_revision_status": "UnEnforced",
+     "updated": "2026-05-11T09:38:06+09:00"
+    },
+    {
+     "law_revision_id": "340M50000040011_20261211_508M60000040017",
+     "amendment_law_num": "令和八年財務省令第十七号",
+     "amendment_enforcement_date": "2026-12-11",
+     "current_revision_status": "UnEnforced",
+     "updated": "2026-06-08T16:54:58+09:00"
+    },
+    {
+     "law_revision_id": "340M50000040011_20261201_508M60000040017",
+     "amendment_law_num": "令和八年財務省令第十七号",
+     "amendment_enforcement_date": "2026-12-01",
+     "current_revision_status": "UnEnforced",
+     "updated": "2026-05-11T09:15:32+09:00"
+    },
+    {
+     "law_revision_id": "340M50000040011_20261001_507M60000040018",
+     "amendment_law_num": "令和七年財務省令第十八号",
+     "amendment_enforcement_date": "2026-10-01",
+     "current_revision_status": "CurrentEnforced",
+     "updated": "2026-10-01T03:12:58+09:00"
+    },
+    {
+     "law_revision_id": "340M50000040011_20260901_506M60000040014",
+     "amendment_law_num": "令和六年財務省令第十四号",
+     "amendment_enforcement_date": "2026-09-01",
+     "current_revision_status": "PreviousEnforced",
+     "updated": "2026-10-01T03:12:58+09:00"
+    },
+    {
+     "law_revision_id": "340M50000040011_20260522_508M60000040017",
+     "amendment_law_num": "令和八年財務省令第十七号",
+     "amendment_enforcement_date": "2026-05-22",
+     "current_revision_status": "PreviousEnforced",
+     "updated": "2026-09-01T00:21:13+09:00"
+    },
+    {
+     "law_revision_id": "340M50000040011_20260401_508M60000040017",
+     "amendment_law_num": "令和八年財務省令第十七号",
+     "amendment_enforcement_date": "2026-04-01",
+     "current_revision_status": "PreviousEnforced",
+     "updated": "2026-05-22T00:07:02+09:00"
+    },
+    {
+     "law_revision_id": "340M50000040011_20260401_507M60000040018",
+     "amendment_law_num": "令和七年財務省令第十八号",
+     "amendment_enforcement_date": "2026-04-01",
+     "current_revision_status": "PreviousEnforced",
+     "updated": "2026-05-11T09:05:25+09:00"
+    },
+    {
+     "law_revision_id": "340M50000040011_20260401_506M60000040014",
+     "amendment_law_num": "令和六年財務省令第十四号",
+     "amendment_enforcement_date": "2026-04-01",
+     "current_revision_status": "PreviousEnforced",
+     "updated": "2025-07-11T16:37:30+09:00"
+    },
+    {
+     "law_revision_id": "340M50000040011_20260101_507M60000040018",
+     "amendment_law_num": "令和七年財務省令第十八号",
+     "amendment_enforcement_date": "2026-01-01",
+     "current_revision_status": "PreviousEnforced",
+     "updated": "2026-04-01T05:49:58+09:00"
+    },
+    {
+     "law_revision_id": "340M50000040011_20260101_505M60000040012",
+     "amendment_law_num": "令和五年財務省令第十二号",
+     "amendment_enforcement_date": "2026-01-01",
+     "current_revision_status": "PreviousEnforced",
+     "updated": "2025-06-04T14:21:54+09:00"
+    },
+    {
+     "law_revision_id": "340M50000040011_20251201_507M60000040018",
+     "amendment_law_num": "令和七年財務省令第十八号",
+     "amendment_enforcement_date": "2025-12-01",
+     "current_revision_status": "PreviousEnforced",
+     "updated": "2026-01-01T03:01:39+09:00"
+    },
+    {
+     "law_revision_id": "340M50000040011_20250401_507M60000040018",
+     "amendment_law_num": "令和七年財務省令第十八号",
+     "amendment_enforcement_date": "2025-04-01",
+     "current_revision_status": "PreviousEnforced",
+     "updated": "2025-12-01T01:25:57+09:00"
+    },
+    {
+     "law_revision_id": "340M50000040011_20250324_507M60000040009",
+     "amendment_law_num": "令和七年財務省令第九号",
+     "amendment_enforcement_date": "2025-03-24",
+     "current_revision_status": "PreviousEnforced",
+     "updated": "2025-04-07T09:30:54+09:00"
+    },
+    {
+     "law_revision_id": "340M50000040011_20250101_505M60000040012",
+     "amendment_law_num": "令和五年財務省令第十二号",
+     "amendment_enforcement_date": "2025-01-01",
+     "current_revision_status": "PreviousEnforced",
+     "updated": "2025-01-01T02:34:36+09:00"
+    }
+   ]
+  },
+  "340CO0000000096": {
+   "url": "https://laws.e-gov.go.jp/api/2/law_revisions/340CO0000000096?response_format=json",
+   "status": 200,
+   "rows_since_2025": [
+    {
+     "law_revision_id": "340CO0000000096_20280101_508CO0000000093",
+     "amendment_law_num": "令和八年政令第九十三号",
+     "amendment_enforcement_date": "2028-01-01",
+     "current_revision_status": "UnEnforced",
+     "updated": "2026-09-08T13:18:21+09:00"
+    },
+    {
+     "law_revision_id": "340CO0000000096_20270722_508CO0000000093",
+     "amendment_law_num": "令和八年政令第九十三号",
+     "amendment_enforcement_date": "2027-07-22",
+     "current_revision_status": "UnEnforced",
+     "updated": "2026-09-08T13:16:43+09:00"
+    },
+    {
+     "law_revision_id": "340CO0000000096_20270101_508CO0000000093",
+     "amendment_law_num": "令和八年政令第九十三号",
+     "amendment_enforcement_date": "2027-01-01",
+     "current_revision_status": "UnEnforced",
+     "updated": "2026-09-08T13:11:46+09:00"
+    },
+    {
+     "law_revision_id": "340CO0000000096_20261201_508CO0000000093",
+     "amendment_law_num": "令和八年政令第九十三号",
+     "amendment_enforcement_date": "2026-12-01",
+     "current_revision_status": "UnEnforced",
+     "updated": "2026-09-08T11:59:14+09:00"
+    },
+    {
+     "law_revision_id": "340CO0000000096_20260522_508CO0000000093",
+     "amendment_law_num": "令和八年政令第九十三号",
+     "amendment_enforcement_date": "2026-05-22",
+     "current_revision_status": "CurrentEnforced",
+     "updated": "2026-10-27T16:34:42+09:00"
+    },
+    {
+     "law_revision_id": "340CO0000000096_20260401_508CO0000000093",
+     "amendment_law_num": "令和八年政令第九十三号",
+     "amendment_enforcement_date": "2026-04-01",
+     "current_revision_status": "PreviousEnforced",
+     "updated": "2026-09-08T11:55:53+09:00"
+    },
+    {
+     "law_revision_id": "340CO0000000096_20260401_507CO0000000120",
+     "amendment_law_num": "令和七年政令第百二十号",
+     "amendment_enforcement_date": "2026-04-01",
+     "current_revision_status": "PreviousEnforced",
+     "updated": "2026-04-21T10:35:17+09:00"
+    },
+    {
+     "law_revision_id": "340CO0000000096_20260401_506CO0000000141",
+     "amendment_law_num": "令和六年政令第百四十一号",
+     "amendment_enforcement_date": "2026-04-01",
+     "current_revision_status": "PreviousEnforced",
+     "updated": "2025-12-03T09:54:29+09:00"
+    },
+    {
+     "law_revision_id": "340CO0000000096_20260101_507CO0000000120",
+     "amendment_law_num": "令和七年政令第百二十号",
+     "amendment_enforcement_date": "2026-01-01",
+     "current_revision_status": "PreviousEnforced",
+     "updated": "2026-04-01T05:32:55+09:00"
+    },
+    {
+     "law_revision_id": "340CO0000000096_20251201_507CO0000000120",
+     "amendment_law_num": "令和七年政令第百二十号",
+     "amendment_enforcement_date": "2025-12-01",
+     "current_revision_status": "PreviousEnforced",
+     "updated": "2026-01-01T02:59:18+09:00"
+    },
+    {
+     "law_revision_id": "340CO0000000096_20251120_507CO0000000380",
+     "amendment_law_num": "令和七年政令第三百八十号",
+     "amendment_enforcement_date": "2025-11-20",
+     "current_revision_status": "PreviousEnforced",
+     "updated": "2025-12-03T09:07:11+09:00"
+    },
+    {
+     "law_revision_id": "340CO0000000096_20250401_507CO0000000120",
+     "amendment_law_num": "令和七年政令第百二十号",
+     "amendment_enforcement_date": "2025-04-01",
+     "current_revision_status": "PreviousEnforced",
+     "updated": "2025-12-01T01:23:42+09:00"
+    },
+    {
+     "law_revision_id": "340CO0000000096_20250401_507CO0000000019",
+     "amendment_law_num": "令和七年政令第十九号",
+     "amendment_enforcement_date": "2025-04-01",
+     "current_revision_status": "PreviousEnforced",
+     "updated": "2025-04-18T10:01:39+09:00"
+    },
+    {
+     "law_revision_id": "340CO0000000096_20250401_507CO0000000006",
+     "amendment_law_num": "令和七年政令第六号",
+     "amendment_enforcement_date": "2025-04-01",
+     "current_revision_status": "PreviousEnforced",
+     "updated": "2025-02-03T09:14:33+09:00"
+    },
+    {
+     "law_revision_id": "340CO0000000096_20250401_506CO0000000209",
+     "amendment_law_num": "令和六年政令第二百九号",
+     "amendment_enforcement_date": "2025-04-01",
+     "current_revision_status": "PreviousEnforced",
+     "updated": "2024-11-18T13:44:53+09:00"
+    },
+    {
+     "law_revision_id": "340CO0000000096_20250101_505CO0000000134",
+     "amendment_law_num": "令和五年政令第百三十四号",
+     "amendment_enforcement_date": "2025-01-01",
+     "current_revision_status": "PreviousEnforced",
+     "updated": "2025-04-01T13:58:18+09:00"
+    }
+   ]
+  }
+ },
+ "nta": [
+  {
+   "name": "ta_2585",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2585.htm",
+   "status": 200,
+   "last_modified": "Thu, 10 Sep 2026 01:00:09 GMT",
+   "sha256": "ecd762800922814f5f7e318dc563dc07ec1bbd4b55d17d63c84e08d441576616",
+   "first_fetch_sha256": "ecd762800922814f5f7e318dc563dc07ec1bbd4b55d17d63c84e08d441576616",
+   "same_as_first_fetch": true,
+   "encoding": "utf-8",
+   "must": {
+    "66,400円": true,
+    "上限5,000円": true,
+    "最高限度　150,000円": true,
+    "[令和8年4月1日現在法令等]": true,
+    "片道の通勤距離（通勤経路に沿った長さです。）": true,
+    "上記１の金額と1か月当たりの駐車場等の料金相当額（上限5,000円）との合計額": true
+   },
+   "ok": true
+  },
+  {
+   "name": "ta_2582",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2582.htm",
+   "status": 200,
+   "last_modified": "Thu, 10 Sep 2026 01:00:09 GMT",
+   "sha256": "df4631aac28d4c84a355eb84783bfdb56801ec15449de597a51519900bd373ec",
+   "first_fetch_sha256": "df4631aac28d4c84a355eb84783bfdb56801ec15449de597a51519900bd373ec",
+   "same_as_first_fetch": true,
+   "encoding": "utf-8",
+   "must": {
+    "月を単位にして計算します": true,
+    "15万円が非課税となる限度額": true,
+    "役員や使用人などの給与所得者に対して通常の給与に加算して支給する通勤手当や通勤定期券などは、一定の限度額まで非課税となっています。": true,
+    "グリーン料金は最も経済的かつ合理的な通勤経路および方法のための料金とは認められないため含まれません。": true,
+    "1か月当たりの非課税となる限度額を超えて通勤手当や通勤定期券などを支給する場合には、超える部分の金額が給与として課税されます。": true,
+    "なお、通勤手当などの非課税となる限度額は、パートやアルバイトなど短期間雇い入れる人についても、月を単位にして計算します。": true,
+    "所法9、所令20の2、所基通9-6の3": true
+   },
+   "ok": true
+  },
+  {
+   "name": "ta_2508",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2508.htm",
+   "status": 200,
+   "last_modified": "Thu, 10 Sep 2026 01:00:10 GMT",
+   "sha256": "381e028d90fd4355dc93ba4d10f20ee2eb7afbe8fed88c448d0d589153d5b1cc",
+   "first_fetch_sha256": "381e028d90fd4355dc93ba4d10f20ee2eb7afbe8fed88c448d0d589153d5b1cc",
+   "same_as_first_fetch": true,
+   "encoding": "utf-8",
+   "must": {
+    "例外として、次のような手当は非課税となります。": true,
+    "（1）　通勤手当のうち、一定金額以下のもの": true
+   },
+   "ok": true
+  },
+  {
+   "name": "shitsugi_g_03_19",
+   "url": "https://www.nta.go.jp/law/shitsugi/gensen/03/19.htm",
+   "status": 200,
+   "last_modified": "Wed, 03 Dec 2025 08:31:16 GMT",
+   "sha256": "ffb124cfe3cf164b80edaca137ecccf5ea71ee1b23d3e08030595c9b5d1130fd",
+   "first_fetch_sha256": "ffb124cfe3cf164b80edaca137ecccf5ea71ee1b23d3e08030595c9b5d1130fd",
+   "same_as_first_fetch": true,
+   "encoding": "shift_jis",
+   "must": {
+    "それぞれの営業所等への通勤日数に応ずる合理的な運賃等の額の合計額を1か月当たりの合理的な運賃等の額として計算し": true
+   },
+   "ok": true
+  },
+  {
+   "name": "shitsugi_g_03_20",
+   "url": "https://www.nta.go.jp/law/shitsugi/gensen/03/20.htm",
+   "status": 200,
+   "last_modified": "Wed, 03 Dec 2025 08:31:15 GMT",
+   "sha256": "c0cc03cbe3104278b683322fb5ec06a634cb7a9915d708934e04f5573c143e92",
+   "first_fetch_sha256": "c0cc03cbe3104278b683322fb5ec06a634cb7a9915d708934e04f5573c143e92",
+   "same_as_first_fetch": true,
+   "encoding": "shift_jis",
+   "must": {
+    "月の中途で通勤距離が変更した場合の「1か月当たりの非課税限度額」の算定方法については、特段の規定はありません。": true
+   },
+   "ok": true
+  },
+  {
+   "name": "shitsugi_g_03_18",
+   "url": "https://www.nta.go.jp/law/shitsugi/gensen/03/18.htm",
+   "status": 200,
+   "last_modified": "Wed, 03 Dec 2025 08:31:16 GMT",
+   "sha256": "4c02e80168be7011f503ad8c50fa07b9f34cc0a2d1cde7d3f9b662a5337bc4ae",
+   "first_fetch_sha256": "4c02e80168be7011f503ad8c50fa07b9f34cc0a2d1cde7d3f9b662a5337bc4ae",
+   "same_as_first_fetch": true,
+   "encoding": "shift_jis",
+   "must": {
+    "交通機関利用者と同様に取り扱い、交通機関を利用したとした場合の合理的な運賃の額を非課税限度額(自動車通勤による実費の範囲内に限ります。)として取り扱って差し支えありません。": true
+   },
+   "ok": true
+  },
+  {
+   "name": "shitsugi_g_03_22",
+   "url": "https://www.nta.go.jp/law/shitsugi/gensen/03/22.htm",
+   "status": 200,
+   "last_modified": "Wed, 03 Dec 2025 08:31:15 GMT",
+   "sha256": "ae82fe0fa5a8cfa9014125a7e9d78db4318af4ae41bb0feae666b229b39bf8ef",
+   "first_fetch_sha256": "ae82fe0fa5a8cfa9014125a7e9d78db4318af4ae41bb0feae666b229b39bf8ef",
+   "same_as_first_fetch": true,
+   "encoding": "shift_jis",
+   "must": {
+    "給与明細書等において、通勤費の実費部分の額が通常の給与に加算して支給される通勤手当として区分識別できるのであれば": true,
+    "通勤費の実費部分について通勤手当として加算した旨を明確に表示する必要があります。": true
+   },
+   "ok": true
+  },
+  {
+   "name": "users_2026tsukin",
+   "url": "https://www.nta.go.jp/users/gensen/2026tsukin/index.htm",
+   "status": 200,
+   "last_modified": "Mon, 20 Apr 2026 08:30:01 GMT",
+   "sha256": "c9c9a12ae89fe7abeacc9a7651e49a3e450b1b480247cbd39184c88128abc88e",
+   "first_fetch_sha256": "c9c9a12ae89fe7abeacc9a7651e49a3e450b1b480247cbd39184c88128abc88e",
+   "same_as_first_fetch": true,
+   "encoding": "shift_jis",
+   "must": {
+    "令和８年４月１日以後に支払われるべき通勤手当（同日前に支払われるべき通勤手当の差額として追加支給するものを除きます。）": true
+   },
+   "ok": true
+  },
+  {
+   "name": "users_2025tsukin",
+   "url": "https://www.nta.go.jp/users/gensen/2025tsukin/index.htm",
+   "status": 200,
+   "last_modified": "Fri, 27 Mar 2026 05:33:59 GMT",
+   "sha256": "3cf3328ccaf30159b267d40d940ab8784e65578109b166e5df9d3bc5f6852cb3",
+   "first_fetch_sha256": "3cf3328ccaf30159b267d40d940ab8784e65578109b166e5df9d3bc5f6852cb3",
+   "same_as_first_fetch": true,
+   "encoding": "shift_jis",
+   "must": {
+    "令和７年11月20日に施行され、令和７年４月１日以後に支払われるべき通勤手当": true
+   },
+   "ok": true
+  },
+  {
+   "name": "shitsugi_g_03_21",
+   "url": "https://www.nta.go.jp/law/shitsugi/gensen/03/21.htm",
+   "status": 200,
+   "last_modified": "Wed, 03 Dec 2025 08:31:15 GMT",
+   "sha256": "36bd02f1c1d38866de5a8cae79649844c50dd4d52166f50834e7e6f8c771c1b0",
+   "first_fetch_sha256": "36bd02f1c1d38866de5a8cae79649844c50dd4d52166f50834e7e6f8c771c1b0",
+   "same_as_first_fetch": true,
+   "encoding": "shift_jis",
+   "must": {
+    "日割額ではなく月額で判定します": true,
+    "通勤手当のうち非課税とされる金額は、その勤務する者にその月中に支給する通勤手当の合計額のうち、所得税法施行令第20条の2各号《非課税とされる通勤手当》に非課税限度額として規定されている額に達するまでの金額となります。": true
+   },
+   "ok": true
+  },
+  {
+   "name": "kihon_02_02",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/02/02.htm",
+   "status": 200,
+   "last_modified": "Thu, 18 Jan 2024 09:30:24 GMT",
+   "sha256": "45d8b911d277d857a16a9f2d75c76be7ae1a1454502123411dd769b0b11c49b9",
+   "first_fetch_sha256": "45d8b911d277d857a16a9f2d75c76be7ae1a1454502123411dd769b0b11c49b9",
+   "same_as_first_fetch": true,
+   "encoding": "shift_jis",
+   "must": {
+    "9-6の3": true,
+    "新幹線鉄道を利用した場合の運賃等の額も含まれるものとする。": true,
+    "9-6の2　削除": true
+   },
+   "ok": true
+  },
+  {
+   "name": "tsukin2026_01",
+   "url": "https://www.nta.go.jp/users/gensen/2026tsukin/pdf/01.pdf",
+   "status": 200,
+   "last_modified": "Mon, 20 Apr 2026 08:30:01 GMT",
+   "sha256": "3b45d0a90cfad5508a0bde44de1468a33366d1daccd98352ceb84308999ddd8c",
+   "first_fetch_sha256": "3b45d0a90cfad5508a0bde44de1468a33366d1daccd98352ceb84308999ddd8c",
+   "same_as_first_fetch": true,
+   "ok": true
+  },
+  {
+   "name": "tsukin2025_03",
+   "url": "https://www.nta.go.jp/users/gensen/2025tsukin/pdf/03.pdf",
+   "status": 200,
+   "last_modified": "Wed, 19 Nov 2025 01:00:03 GMT",
+   "sha256": "5493c9c9e37d305e3a724cb696f8055b7d0088dba509ba4a06a8d5d456018855",
+   "first_fetch_sha256": "5493c9c9e37d305e3a724cb696f8055b7d0088dba509ba4a06a8d5d456018855",
+   "same_as_first_fetch": true,
+   "ok": true
+  },
+  {
+   "name": "tsukin2025_01",
+   "url": "https://www.nta.go.jp/users/gensen/2025tsukin/pdf/01.pdf",
+   "status": 200,
+   "last_modified": "Wed, 19 Nov 2025 01:00:03 GMT",
+   "sha256": "185f002a80a40e0aa526d196836e873e77e860d8e819ac7d422109ab8535d296",
+   "first_fetch_sha256": "185f002a80a40e0aa526d196836e873e77e860d8e819ac7d422109ab8535d296",
+   "same_as_first_fetch": true,
+   "ok": true
+  }
+ ],
+ "all_ok": true
+}

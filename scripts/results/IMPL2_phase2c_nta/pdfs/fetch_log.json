@@ -1,0 +1,73 @@
+{
+ "set": "pdfs",
+ "fetched_at": "20261111-144852",
+ "download_dir": ".work/downloads/20261111-144852_IMPL2_phase2c_nta_pdfs",
+ "items": [
+  {
+   "id": "tebiki_001",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/001.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:42 GMT",
+   "bytes": 23044322,
+   "sha256": "9691e822b247dd06925fc05f50b9734f1d2e70bd306ea62804835f7b7c6d2328",
+   "saved": ".work/downloads/20261111-144852_IMPL2_phase2c_nta_pdfs/tebiki_001.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "tebiki_037",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/037.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:40 GMT",
+   "bytes": 2576092,
+   "sha256": "77c8ad203bbd04efcacf42c4c8c95a6a098b80784e51df66347812948b578900",
+   "saved": ".work/downloads/20261111-144852_IMPL2_phase2c_nta_pdfs/tebiki_037.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "tebiki_025",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/025.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:41 GMT",
+   "bytes": 5722383,
+   "sha256": "d688dd73e82a13b5b8f4d8d559f16cc82da948f5a249d9a2ac75361dc855f82c",
+   "saved": ".work/downloads/20261111-144852_IMPL2_phase2c_nta_pdfs/tebiki_025.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "tebiki_034",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/034.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:41 GMT",
+   "bytes": 1527542,
+   "sha256": "5ac5dabb0eff09479009347c825edffbed28ec5d9a746afd8fc14fcc65a15aba",
+   "saved": ".work/downloads/20261111-144852_IMPL2_phase2c_nta_pdfs/tebiki_034.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "tebiki_039",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/039.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:40 GMT",
+   "bytes": 2542599,
+   "sha256": "36ae83ad49ef3b733db174180be927d3e45adbc870ebf98d3dcdc8a9b20abda5",
+   "saved": ".work/downloads/20261111-144852_IMPL2_phase2c_nta_pdfs/tebiki_039.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "tebiki_019",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/019.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 12 Dec 2025 08:30:42 GMT",
+   "bytes": 1886396,
+   "sha256": "43d3ef2e015358de4ff64d6656519e4c876b1afd66a8e6fda8d2b87980c1e745",
+   "saved": ".work/downloads/20261111-144852_IMPL2_phase2c_nta_pdfs/tebiki_019.pdf",
+   "pdf_header_ok": true
+  }
+ ]
+}

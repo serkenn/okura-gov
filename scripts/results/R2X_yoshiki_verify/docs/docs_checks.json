@@ -1,0 +1,155 @@
+{
+ "public-sources": {
+  "path": "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+  "n_urls": 16,
+  "urls": [
+   "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/001115/01.htm",
+   "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/sinkoku.htm",
+   "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/kaisei1.htm",
+   "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r07.htm",
+   "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_ai-ocr.htm",
+   "https://www.e-tax.nta.go.jp/shiyo/ksk2/ksk2_layout.htm",
+   "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/<節>.htm",
+   "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/02.pdf",
+   "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/1557_2.htm",
+   "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/O/O1-1.pdf",
+   "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/03.pdf",
+   "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/pdf/003.pdf",
+   "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/shinkokusho/pdf/r07/10.pdf",
+   "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1130.htm",
+   "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r08.htm",
+   "https://www.nta.go.jp/error/404.htm"
+  ],
+  "refs": [
+   "docs/hypotheses/20261109_round2_yoshiki-mapping-table.md",
+   "docs/measurements/20261109_round2_yoshiki-fetch-and-extract.md",
+   "docs/measurements/20261109_round2_yoshiki-verification.md",
+   "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+   "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md",
+   "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+   "docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md",
+   "docs/public-sources/20261109_round2b_kabu-law-and-nta.md"
+  ],
+  "ref_kinds": [
+   "hypotheses",
+   "measurements",
+   "public-sources"
+  ],
+  "missing_refs": [],
+  "scripts_referenced": [
+   "scripts/results/R2X_yoshiki_egov/",
+   "scripts/results/R2X_yoshiki_fetch/fetch_",
+   "scripts/results/R2X_yoshiki_pdftext/aoiro_ippan_10_text.tsv",
+   "scripts/results/R2X_yoshiki_rowmap/aoiro_ippan_10_rowmap.tsv"
+  ],
+  "missing_scripts": [
+   "scripts/results/R2X_yoshiki_fetch/fetch_"
+  ],
+  "personal_words": [],
+  "city_like": []
+ },
+ "measurements": {
+  "path": "docs/measurements/20261109_round2_yoshiki-fetch-and-extract.md",
+  "n_urls": 1,
+  "urls": [
+   "https://www.nta.go.jp/error/404.htm"
+  ],
+  "refs": [
+   "docs/measurements/20261109_impl-prep_output-fetch-and-parse.md",
+   "docs/measurements/20261109_round2_yoshiki-verification.md",
+   "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+   "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md",
+   "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+   "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+   "docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md",
+   "docs/public-sources/20261109_round2b_kabu-law-and-nta.md"
+  ],
+  "ref_kinds": [
+   "measurements",
+   "public-sources"
+  ],
+  "missing_refs": [],
+  "scripts_referenced": [
+   "scripts/IMPL_output_egov.py",
+   "scripts/IMPL_output_fetch.py",
+   "scripts/IMPL_output_verify.py",
+   "scripts/R1_egov_articles.py",
+   "scripts/R2X_yoshiki_egov.py",
+   "scripts/R2X_yoshiki_fetch.py",
+   "scripts/R2X_yoshiki_pdftext.py",
+   "scripts/R2X_yoshiki_rowmap.py",
+   "scripts/results/IMPL_output_verify/pdf/shushi_ippan_05_codes.tsv",
+   "scripts/results/R2X_yoshiki_egov/",
+   "scripts/results/R2X_yoshiki_fetch/fetch_",
+   "scripts/results/R2X_yoshiki_fetch/urls_tebiki.txt",
+   "scripts/results/R2X_yoshiki_pdftext/",
+   "scripts/results/R2X_yoshiki_pdftext/yoshiki_vs_tsutatsu_compare.json",
+   "scripts/results/R2X_yoshiki_rowmap/",
+   "scripts/results/R2X_yoshiki_rowmap/aoiro_ippan_10_rowmap.tsv"
+  ],
+  "missing_scripts": [
+   "scripts/results/R2X_yoshiki_fetch/fetch_"
+  ],
+  "personal_words": [],
+  "city_like": []
+ },
+ "hypotheses": {
+  "path": "docs/hypotheses/20261109_round2_yoshiki-mapping-table.md",
+  "n_urls": 0,
+  "urls": [],
+  "refs": [
+   "docs/hypotheses/20261109_impl-prep_output-minimal-layer.md",
+   "docs/inferences/20261109_round2_yoshiki-checks.md",
+   "docs/measurements/20261109_impl-prep_output-verification.md",
+   "docs/measurements/20261109_round2_yoshiki-fetch-and-extract.md",
+   "docs/measurements/20261109_round2_yoshiki-verification.md",
+   "docs/public-sources/20261109_R4-modeling_concepts.md",
+   "docs/public-sources/20261109_impl-prep_iryohi-law-text.md",
+   "docs/public-sources/20261109_impl-prep_iryohi-nta-mhlw.md",
+   "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md",
+   "docs/public-sources/20261109_round2_aoiro-laws-and-nta.md",
+   "docs/public-sources/20261109_round2_genka-laws-and-nta.md",
+   "docs/public-sources/20261109_round2_yoshiki-forms-r07.md",
+   "docs/public-sources/20261109_round2b_fudosan-laws-and-nta.md",
+   "docs/public-sources/20261109_round2b_kabu-law-and-nta.md"
+  ],
+  "ref_kinds": [
+   "hypotheses",
+   "inferences",
+   "measurements",
+   "public-sources"
+  ],
+  "missing_refs": [],
+  "scripts_referenced": [],
+  "missing_scripts": [],
+  "personal_words": [],
+  "city_like": []
+ },
+ "inferences": {
+  "path": "docs/inferences/20261109_round2_yoshiki-checks.md",
+  "n_urls": 2,
+  "urls": [
+   "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/04/pdf/ref1-ki.pdf",
+   "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/shinkoku/kaisei/kaisei1.htm"
+  ],
+  "refs": [
+   "docs/hypotheses/20261109_impl-prep_output-minimal-layer.md",
+   "docs/hypotheses/20261109_round2_yoshiki-mapping-table.md",
+   "docs/inferences/20261109_impl-prep_output-checks.md",
+   "docs/public-sources/20261109_impl-prep_output-forms-and-specs.md"
+  ],
+  "ref_kinds": [
+   "hypotheses",
+   "inferences",
+   "public-sources"
+  ],
+  "missing_refs": [],
+  "scripts_referenced": [
+   "scripts/results/R2X_yoshiki_pdftext/",
+   "scripts/results/R2X_yoshiki_rowmap/"
+  ],
+  "missing_scripts": [],
+  "personal_words": [],
+  "city_like": []
+ }
+}

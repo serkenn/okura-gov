@@ -1,0 +1,2 @@
+# file=.work/downloads/20261109-211539_R3X_shibo-shukkoku_nta_forms3/fuhyo_kisaiyoryo.pdf sha256=f742bc6599532467c4cf89cb43f1002ba1427c0368e075471af3133e7050a8e7 encrypt=AESV2(V4,R4) key_ok=False pages=1
+=== p.1 ===

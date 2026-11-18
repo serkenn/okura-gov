@@ -1,0 +1,129 @@
+description: >-
+  申告などの期限が当たると翌日に繰り下がる日（国税通則法第10条第2項：日曜日、国民の祝日に関する法律に規定する休日、その他一般の休日、
+  政令で定める日）。日付のキーは暦年の1月1日（その暦年の日）。日曜日は通則法第10条第2項の本文、振替休日・国民の休日は
+  祝日法第3条第2項・第3項の規則で、rules/tax/calc.py が作る。値の書き方：月日 "MM-DD"、第n月曜日 "MM-第n月曜日"、
+  暦要項が未発表の年 "未発表"。docs/public-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md §6・§6.1（D22 S9：祝日は暦要項と通達）。
+国民の祝日:
+  元日:
+    description: 元日（一月一日）
+    metadata: &shuku
+      law: 国民の祝日に関する法律第2条（表）・第3条第1項（「国民の祝日」は、休日とする）
+      source_kind: 法律
+      reference:
+        - docs/public-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md#6
+      law_revision: 323AC1000000178_20200101_430AC1000000057
+    values: {2025-01-01: {value: "01-01", metadata: &app {適用: 取得したすべての時点（2025〜2027年）で同文（shibo-shukkoku §0.1）}}}
+  成人の日:
+    description: 成人の日（一月の第二月曜日）
+    metadata: *shuku
+    values: {2025-01-01: {value: "01-第2月曜日", metadata: *app}}
+  建国記念の日:
+    description: 建国記念の日（政令で定める日：二月十一日）
+    metadata:
+      law: 国民の祝日に関する法律第2条（「政令で定める日」）、建国記念の日となる日を定める政令（昭和41年政令第376号）「二月十一日とする」
+      source_kind: 政令
+      reference:
+        - docs/public-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md#6.1
+      law_revision: 341CO0000000376_19661209_000000000000000
+    values: {2025-01-01: {value: "02-11", metadata: *app}}
+  天皇誕生日:
+    description: 天皇誕生日（二月二十三日）
+    metadata: *shuku
+    values: {2025-01-01: {value: "02-23", metadata: *app}}
+  春分の日:
+    description: 春分の日（春分日。暦要項の日付。年ごと）
+    metadata: &reki
+      law: 国民の祝日に関する法律第2条（「春分日」「秋分日」）。日付は国立天文台の暦要項（官報への掲載とその原文は取得していない）
+      source_kind: 告示
+      flags: [原文未確認]
+      reference:
+        - docs/public-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md#6.1
+        - docs/measurements/20261109_round3_shibo-shukkoku-verification.md
+    values:
+      2025-01-01: {value: "03-20", metadata: {適用: 2025年（令和7年）の暦要項（令和6年2月1日発表）}}
+      2026-01-01: {value: "03-20", metadata: {適用: 2026年（令和8年）の暦要項（令和7年2月3日発表）}}
+      2027-01-01: {value: "03-21", metadata: {適用: 2027年（令和9年）の暦要項（令和8年2月2日発表）}}
+      2028-01-01: {value: "未発表", metadata: {適用: 2028年（令和10年）以後の暦要項は取得時点の一覧に無かった（shibo-shukkoku §6.1）}}
+  昭和の日:
+    description: 昭和の日（四月二十九日）
+    metadata: *shuku
+    values: {2025-01-01: {value: "04-29", metadata: *app}}
+  憲法記念日:
+    description: 憲法記念日（五月三日）
+    metadata: *shuku
+    values: {2025-01-01: {value: "05-03", metadata: *app}}
+  みどりの日:
+    description: みどりの日（五月四日）
+    metadata: *shuku
+    values: {2025-01-01: {value: "05-04", metadata: *app}}
+  こどもの日:
+    description: こどもの日（五月五日）
+    metadata: *shuku
+    values: {2025-01-01: {value: "05-05", metadata: *app}}
+  海の日:
+    description: 海の日（七月の第三月曜日）
+    metadata: *shuku
+    values: {2025-01-01: {value: "07-第3月曜日", metadata: *app}}
+  山の日:
+    description: 山の日（八月十一日）
+    metadata: *shuku
+    values: {2025-01-01: {value: "08-11", metadata: *app}}
+  敬老の日:
+    description: 敬老の日（九月の第三月曜日）
+    metadata: *shuku
+    values: {2025-01-01: {value: "09-第3月曜日", metadata: *app}}
+  秋分の日:
+    description: 秋分の日（秋分日。暦要項の日付。年ごと）
+    metadata: *reki
+    values:
+      2025-01-01: {value: "09-23", metadata: {適用: 2025年（令和7年）の暦要項}}
+      2026-01-01: {value: "09-23", metadata: {適用: 2026年（令和8年）の暦要項}}
+      2027-01-01: {value: "09-23", metadata: {適用: 2027年（令和9年）の暦要項}}
+      2028-01-01: {value: "未発表", metadata: {適用: 2028年（令和10年）以後の暦要項は取得時点の一覧に無かった（shibo-shukkoku §6.1）}}
+  スポーツの日:
+    description: スポーツの日（十月の第二月曜日）
+    metadata: *shuku
+    values: {2025-01-01: {value: "10-第2月曜日", metadata: *app}}
+  文化の日:
+    description: 文化の日（十一月三日）
+    metadata: *shuku
+    values: {2025-01-01: {value: "11-03", metadata: *app}}
+  勤労感謝の日:
+    description: 勤労感謝の日（十一月二十三日）
+    metadata: *shuku
+    values: {2025-01-01: {value: "11-23", metadata: *app}}
+一般の休日:
+  一月二日:
+    description: 一月二日（その他一般の休日）
+    metadata: &tsutatsu
+      law: 国税通則法第10条第2項の「その他一般の休日」。国税通則法基本通達（徴収部関係）第10条関係4（行政機関の休日に関する法律第1条第1項第3号の日のうち1月2日・3日。昭和33.6.2最高判参照）
+      source_kind: 通達
+      reference:
+        - docs/public-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md#6.1
+    values: {2025-01-01: {value: "01-02", metadata: {適用: 通達（Last-Modified 2024-01-18）}}}
+  一月三日:
+    description: 一月三日（その他一般の休日）
+    metadata: *tsutatsu
+    values: {2025-01-01: {value: "01-03", metadata: {適用: 通達（Last-Modified 2024-01-18）}}}
+政令で定める日:
+  土曜日:
+    description: 土曜日を期限の繰下げの日とするか
+    metadata: &rei2
+      law: 国税通則法施行令第2条第2項（「法第十条第二項に規定する政令で定める日は、土曜日又は十二月二十九日、同月三十日若しくは同月三十一日とする。」）
+      source_kind: 政令
+      reference:
+        - docs/public-sources/20261109_round3_shibo-shukkoku-laws-and-nta.md#6
+      law_revision: 337CO0000000135_20260401_507CO0000000126
+    values: {2025-01-01: {value: true, metadata: {適用: 2026-11-09・2027-01-01 の版で同文（shibo-shukkoku §0.1）}}}
+  十二月二十九日:
+    description: 十二月二十九日
+    metadata: *rei2
+    values: {2025-01-01: {value: "12-29", metadata: {適用: 同上}}}
+  十二月三十日:
+    description: 十二月三十日
+    metadata: *rei2
+    values: {2025-01-01: {value: "12-30", metadata: {適用: 同上}}}
+  十二月三十一日:
+    description: 十二月三十一日
+    metadata: *rei2
+    values: {2025-01-01: {value: "12-31", metadata: {適用: 同上}}}

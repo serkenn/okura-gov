@@ -1,0 +1,155 @@
+{
+ "run_at": "20261109-180116",
+ "download_dir": ".work/downloads/20261109-180116_R2B_invoice_egov_probe",
+ "searches": [
+  {
+   "key": "laws_shohi",
+   "url": "https://laws.e-gov.go.jp/api/2/laws?response_format=json&law_title=%E6%B6%88%E8%B2%BB%E7%A8%8E%E6%B3%95",
+   "status": 200,
+   "sha256": "8f28c21f24b5034f29ebabc2dd5bcd460741b3deb4e074b7c508793ed0c9d0bf",
+   "laws": [
+    {
+     "law_id": "363AC0000000108",
+     "law_num": "昭和六十三年法律第百八号",
+     "law_type": "Act",
+     "promulgation_date": "1988-12-30",
+     "law_title": "消費税法",
+     "law_revision_id": "363AC0000000108_20261101_507AC0000000013",
+     "current_revision_status": "CurrentEnforced"
+    },
+    {
+     "law_id": "363CO0000000360",
+     "law_num": "昭和六十三年政令第三百六十号",
+     "law_type": "CabinetOrder",
+     "promulgation_date": "1988-12-30",
+     "law_title": "消費税法施行令",
+     "law_revision_id": "363CO0000000360_20261101_507CO0000000125",
+     "current_revision_status": "CurrentEnforced"
+    },
+    {
+     "law_id": "363M50000040053",
+     "law_num": "昭和六十三年大蔵省令第五十三号",
+     "law_type": "MinisterialOrdinance",
+     "promulgation_date": "1988-12-30",
+     "law_title": "消費税法施行規則",
+     "law_revision_id": "363M50000040053_20261101_507M60000040022",
+     "current_revision_status": "CurrentEnforced"
+    },
+    {
+     "law_id": "406AC0000000108",
+     "law_num": "平成六年法律第百八号",
+     "law_type": "Act",
+     "promulgation_date": "1994-12-02",
+     "law_title": "所得税法及び消費税法の一部を改正する法律の施行等による租税収入の減少を補うための平成六年度から平成八年度までの公債の発行の特例等に関する法律",
+     "law_revision_id": "406AC0000000108_20070401_419AC0000000023",
+     "current_revision_status": "CurrentEnforced"
+    },
+    {
+     "law_id": "424AC0000000068",
+     "law_num": "平成二十四年法律第六十八号",
+     "law_type": "Act",
+     "promulgation_date": "2012-08-22",
+     "law_title": "社会保障の安定財源の確保等を図る税制の抜本的な改革を行うための消費税法の一部を改正する等の法律",
+     "law_revision_id": "424AC0000000068_20250401_506AC0000000046",
+     "current_revision_status": "CurrentEnforced"
+    }
+   ],
+   "total_count": 5
+  },
+  {
+   "key": "laws_h28_15",
+   "url": "https://laws.e-gov.go.jp/api/2/laws?response_format=json&law_num=%E5%B9%B3%E6%88%90%E4%BA%8C%E5%8D%81%E5%85%AB%E5%B9%B4%E6%B3%95%E5%BE%8B%E7%AC%AC%E5%8D%81%E4%BA%94%E5%8F%B7",
+   "status": 200,
+   "sha256": "7937bc6628279dec4daaf5fd6ac5c79fac87bb3b300018521d91636961b56d57",
+   "laws": [],
+   "total_count": 0
+  },
+  {
+   "key": "laws_r8_12",
+   "url": "https://laws.e-gov.go.jp/api/2/laws?response_format=json&law_num=%E4%BB%A4%E5%92%8C%E5%85%AB%E5%B9%B4%E6%B3%95%E5%BE%8B%E7%AC%AC%E5%8D%81%E4%BA%8C%E5%8F%B7",
+   "status": 200,
+   "sha256": "7937bc6628279dec4daaf5fd6ac5c79fac87bb3b300018521d91636961b56d57",
+   "laws": [],
+   "total_count": 0
+  },
+  {
+   "key": "laws_r5_3",
+   "url": "https://laws.e-gov.go.jp/api/2/laws?response_format=json&law_num=%E4%BB%A4%E5%92%8C%E4%BA%94%E5%B9%B4%E6%B3%95%E5%BE%8B%E7%AC%AC%E4%B8%89%E5%8F%B7",
+   "status": 200,
+   "sha256": "7937bc6628279dec4daaf5fd6ac5c79fac87bb3b300018521d91636961b56d57",
+   "laws": [],
+   "total_count": 0
+  },
+  {
+   "key": "laws_title_kaisei",
+   "url": "https://laws.e-gov.go.jp/api/2/laws?response_format=json&law_title=%E6%89%80%E5%BE%97%E7%A8%8E%E6%B3%95%E7%AD%89%E3%81%AE%E4%B8%80%E9%83%A8%E3%82%92%E6%94%B9%E6%AD%A3%E3%81%99%E3%82%8B%E6%B3%95%E5%BE%8B",
+   "status": 200,
+   "sha256": "c55fe1cbf0eb21361a433d51444ff566687ad34e165400587390e45aa89d38f4",
+   "laws": [
+    {
+     "law_id": "420CO0000000164",
+     "law_num": "平成二十年政令第百六十四号",
+     "law_type": "CabinetOrder",
+     "promulgation_date": "2008-04-30",
+     "law_title": "所得税法等の一部を改正する法律附則第百十九条の二の規定による経過措置を定める政令",
+     "law_revision_id": "420CO0000000164_20090401_421CO0000000107",
+     "current_revision_status": "CurrentEnforced"
+    },
+    {
+     "law_id": "423M60000008168",
+     "law_num": "平成二十三年総務省令第百六十八号",
+     "law_type": "MinisterialOrdinance",
+     "promulgation_date": "2011-12-22",
+     "law_title": "所得税法等の一部を改正する法律附則第九十六条の規定による改正前の東日本大震災復興特別区域法第四十三条の地方税の課税免除又は不均一課税に伴う措置が適用される場合等を定める省令",
+     "law_revision_id": "423M60000008168_20260401_508M60000008052",
+     "current_revision_status": "CurrentEnforced"
+    },
+    {
+     "law_id": "507CO0000000135",
+     "law_num": "令和七年政令第百三十五号",
+     "law_type": "CabinetOrder",
+     "promulgation_date": "2025-03-31",
+     "law_title": "所得税法等の一部を改正する法律の一部の施行に伴うたばこ税の税率の特例に関する経過措置に関する政令",
+     "law_revision_id": "507CO0000000135_20260401_000000000000000",
+     "current_revision_status": "CurrentEnforced"
+    },
+    {
+     "law_id": "508CO0000000107",
+     "law_num": "令和八年政令第百七号",
+     "law_type": "CabinetOrder",
+     "promulgation_date": "2026-03-31",
+     "law_title": "所得税法等の一部を改正する法律の一部の施行に伴う国際観光旅客税の記帳義務に関する経過措置に関する政令",
+     "law_revision_id": "508CO0000000107_20260701_000000000000000",
+     "current_revision_status": "CurrentEnforced"
+    }
+   ],
+   "total_count": 4
+  }
+ ],
+ "direct": [
+  {
+   "key": "law_data_428AC0000000015",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/428AC0000000015?response_format=json",
+   "status": 404,
+   "bytes": 120,
+   "sha256": "5f8822968e4d74d1df85262fe2089a0391bcb525c5cf1def661028a21a172ead",
+   "body_head": "{\"code\":\"404004\",\"message\":\"指定のパラメータで取得できる法令本文ファイルは存在しません。\"}"
+  }
+ ],
+ "revisions": [
+  {
+   "short": "shohi",
+   "url": "https://laws.e-gov.go.jp/api/2/law_revisions/363AC0000000108?response_format=json&amendment_date_from=2023-01-01",
+   "status": 200,
+   "n": 37,
+   "sha256": "0146d42d98ca22d9c8f75baf99c2a6983e4af7740650ada7a922a24ba48b5352"
+  },
+  {
+   "short": "shotoku-rei",
+   "url": "https://laws.e-gov.go.jp/api/2/law_revisions/340CO0000000096?response_format=json&amendment_date_from=2023-01-01",
+   "status": 200,
+   "n": 25,
+   "sha256": "c05b06661857f2aeb7f9a4ade5bc9d04e1b2d43c1b46a11ce370cc3e68cff716"
+  }
+ ]
+}

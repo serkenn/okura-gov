@@ -1,0 +1,19 @@
+{
+  "set": "kyokai",
+  "fetched_at_local": "20261109-173724",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "kyokai_fuyouidou_guide2607",
+      "url": "https://www.kyoukaikenpo.or.jp/assets/n_fuyouidou_guide2607.pdf",
+      "status": 200,
+      "final_url": "https://www.kyoukaikenpo.or.jp/assets/n_fuyouidou_guide2607.pdf",
+      "content_type": "application/pdf",
+      "bytes": 1283035,
+      "sha256": "c655715c25266bee2f1a54b1c76d8688d41075bf0b2fad7539ee9555842a8ef0",
+      "last_modified": "Tue, 23 Jun 2026 05:58:51 GMT",
+      "etag": "\"1393db-654e574123cb9\"",
+      "saved": ".work\\downloads\\20261109-173724_R2X_jinteki_kyokai\\kyokai_fuyouidou_guide2607.pdf"
+    }
+  ]
+}

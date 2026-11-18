@@ -1,0 +1,40 @@
+{
+ "set": "forms",
+ "fetched_at": "20261109-201804",
+ "download_dir": ".work/downloads/20261109-201804_R3X_shibo-shukkoku_nta_forms",
+ "items": [
+  {
+   "id": "fuhyo_shibou",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/fuhyo/f01-yoshiki.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 30 Jun 2026 08:31:57 GMT",
+   "bytes": 666850,
+   "sha256": "eb783a916a2705c62f81c027f6d416f4d4b2718ee869cb3029ad63fd732f0543",
+   "saved": ".work/downloads/20261109-201804_R3X_shibo-shukkoku_nta_forms/fuhyo_shibou.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "ininjo_junkaku",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/fuhyo/f01-3.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Thu, 18 Jan 2024 07:58:06 GMT",
+   "bytes": 58376,
+   "sha256": "a157edaf3515f3b2b7dd59914ae9d7c87c6630deff4212095f1bfd51a17f2b4f",
+   "saved": ".work/downloads/20261109-201804_R3X_shibo-shukkoku_nta_forms/ininjo_junkaku.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "r8_kiso_qa",
+   "url": "https://www.nta.go.jp/users/gensen/2026kiso/pdf/0026005-024.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 29 May 2026 08:30:02 GMT",
+   "bytes": 305115,
+   "sha256": "a3c12744dbed64e7a03383868baa055f51eb1d0434ee3267d6374d2fe959cea8",
+   "saved": ".work/downloads/20261109-201804_R3X_shibo-shukkoku_nta_forms/r8_kiso_qa.pdf",
+   "pdf_header_ok": true
+  }
+ ]
+}

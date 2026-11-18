@@ -1,0 +1,44 @@
+{
+  "set": "municipal",
+  "fetched_at_local": "20261109-175047",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work/downloads/20261109-175047_R2X_spouse_municipal",
+  "results": [
+    {
+      "id": "utsunomiya_haigusha",
+      "url": "https://www.city.utsunomiya.lg.jp/kurashi/zeikin/shinzei/1003621.html",
+      "status": 200,
+      "final_url": "https://www.city.utsunomiya.lg.jp/kurashi/zeikin/shinzei/1003621.html",
+      "content_type": "text/html",
+      "bytes": 44737,
+      "sha256": "664482c767da3a5fae4424e3ece42285293ade2c7844fe53e2808a477a00343f",
+      "last_modified": "Mon, 09 Nov 2026 03:32:09 GMT",
+      "etag": "\"aec1-65fcf9b54bac9\"",
+      "saved": ".work/downloads/20261109-175047_R2X_spouse_municipal/utsunomiya_haigusha.html",
+      "charset": "UTF-8",
+      "title": "配偶者控除と配偶者特別控除｜宇都宮市公式Webサイト",
+      "text_chars": 5423,
+      "text_sha256": "6608cf67930d9b6ba96822f4d5825c2d3a72cf10d555b3b54cb2da101f6aeb28",
+      "text": "scripts/results/R2X_spouse_fetch/text/20261109-175047_municipal/utsunomiya_haigusha.txt",
+      "n_links": 164
+    },
+    {
+      "id": "chuo_haigusha",
+      "url": "https://www.city.chuo.lg.jp/a0009/kurashi/zeikin/juuminzei/shotokukoujo/haigusya.html",
+      "status": 200,
+      "final_url": "https://www.city.chuo.lg.jp/a0009/kurashi/zeikin/juuminzei/shotokukoujo/haigusya.html",
+      "content_type": "text/html",
+      "bytes": 38430,
+      "sha256": "1aa1c516d54dc79a41f7155769a8c2d36664c30ee2e933b5f9ec2576526ac709",
+      "last_modified": "Thu, 30 Jul 2026 10:38:49 GMT",
+      "etag": "\"961e-657d1ad67abce\"",
+      "saved": ".work/downloads/20261109-175047_R2X_spouse_municipal/chuo_haigusha.html",
+      "charset": "UTF-8",
+      "title": "中央区ホームページ／収入段階別の配偶者控除と配偶者特別控除（参考）",
+      "text_chars": 9105,
+      "text_sha256": "80223b166356da09427366ea3ccd769a9504c456bc25f5354853c53a72458060",
+      "text": "scripts/results/R2X_spouse_fetch/text/20261109-175047_municipal/chuo_haigusha.txt",
+      "n_links": 41
+    }
+  ]
+}

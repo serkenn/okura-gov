@@ -1,0 +1,36 @@
+{
+ "schema_version": "0",
+ "persons": [
+  {
+   "id": "p-1",
+   "birth_on": "1980-01-01"
+  }
+ ],
+ "relations": [],
+ "residences": [],
+ "insurance_memberships": [],
+ "facts": [
+  {
+   "id": "f-1",
+   "kind": "salary_payment",
+   "roles": {
+    "recipient": "p-1"
+   },
+   "when": {
+    "on": "2026-01-25"
+   },
+   "amounts": {
+    "gross": 100000
+   },
+   "attributes": {
+    "counterparty": "架空商事",
+    "due_on": "2026-01-25",
+    "payment_type": "retroactive_difference"
+   }
+  }
+ ],
+ "assets": [],
+ "filed_documents": [],
+ "judgments": [],
+ "choices": []
+}

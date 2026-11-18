@@ -1,0 +1,91 @@
+{
+ "run_at": "20261109-145634",
+ "stage": "pages",
+ "download_dir": ".work\\downloads\\20261109-145634_denchoho_nta_pages",
+ "items": [
+  {
+   "key": "qa-index",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/4-3.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "bytes": 6055,
+   "truncated": false,
+   "sha256": "d446346f54669276113e0235ade0e509c734d7909bc0eda3eb32bd7379bd350c",
+   "last_modified": "Fri, 10 Jul 2026 01:00:05 GMT",
+   "saved": ".work\\downloads\\20261109-145634_denchoho_nta_pages\\qa-index.htm",
+   "output": "scripts/results/IMPL_denchoho_nta/pages/qa-index.txt"
+  },
+  {
+   "key": "hourei-tsutatsu",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/03.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "bytes": 7773,
+   "truncated": false,
+   "sha256": "e32d9b442b17e21ca43010102d6b1b819abb8fa1978aa7cd5f0c8d09bd172d4f",
+   "last_modified": "Mon, 06 Apr 2026 05:00:01 GMT",
+   "saved": ".work\\downloads\\20261109-145634_denchoho_nta_pages\\hourei-tsutatsu.htm",
+   "output": "scripts/results/IMPL_denchoho_nta/pages/hourei-tsutatsu.txt"
+  },
+  {
+   "key": "gaiyo",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/02.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "bytes": 9040,
+   "truncated": false,
+   "sha256": "485e85b5a206c8af200906ff730e8cc402a66599d8255650b4d84eeb22a4fbbb",
+   "last_modified": "Fri, 04 Oct 2024 01:00:02 GMT",
+   "saved": ".work\\downloads\\20261109-145634_denchoho_nta_pages\\gaiyo.htm",
+   "output": "scripts/results/IMPL_denchoho_nta/pages/gaiyo.txt"
+  },
+  {
+   "key": "pamphlet",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/08.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "bytes": 6793,
+   "truncated": false,
+   "sha256": "fd744d027707e2dec2c9420726b39cf3d6020553e602edfe013755f438e3f634",
+   "last_modified": "Fri, 26 Jun 2026 05:00:12 GMT",
+   "saved": ".work\\downloads\\20261109-145634_denchoho_nta_pages\\pamphlet.htm",
+   "output": "scripts/results/IMPL_denchoho_nta/pages/pamphlet.txt"
+  },
+  {
+   "key": "tokusetsu-01",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "bytes": 9880,
+   "truncated": false,
+   "sha256": "eb2ec1ce784d220456f2ba46dc4bfe1a70a72b04fdda30dcb24bb86a36076e2c",
+   "last_modified": "Fri, 03 Jul 2026 08:30:06 GMT",
+   "saved": ".work\\downloads\\20261109-145634_denchoho_nta_pages\\tokusetsu-01.htm",
+   "output": "scripts/results/IMPL_denchoho_nta/pages/tokusetsu-01.txt"
+  },
+  {
+   "key": "tokusetsu-02",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/02.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "bytes": 10367,
+   "truncated": false,
+   "sha256": "d581534ebdb4a66a758c760e9061ca4d9bfde0e9a0754ec2acd3e45c49222181",
+   "last_modified": "Fri, 26 Jun 2026 05:00:12 GMT",
+   "saved": ".work\\downloads\\20261109-145634_denchoho_nta_pages\\tokusetsu-02.htm",
+   "output": "scripts/results/IMPL_denchoho_nta/pages/tokusetsu-02.txt"
+  },
+  {
+   "key": "tokusetsu-03",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/sonota/jirei/tokusetsu/03.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "bytes": 8399,
+   "truncated": false,
+   "sha256": "f6d8f1050bcae3aec9e33ec0e764cd123333b34b3e54bf0e9cfaef83411737eb",
+   "last_modified": "Fri, 26 Jun 2026 05:00:12 GMT",
+   "saved": ".work\\downloads\\20261109-145634_denchoho_nta_pages\\tokusetsu-03.htm",
+   "output": "scripts/results/IMPL_denchoho_nta/pages/tokusetsu-03.txt"
+  }
+ ]
+}

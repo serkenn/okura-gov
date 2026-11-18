@@ -1,0 +1,101 @@
+{
+ "n_records": 1180,
+ "gaps_or_overlaps": [],
+ "step_histogram": {
+  "4000": 1175
+ },
+ "formula_mismatch": [],
+ "formula_rows": [
+  {
+   "lower": 651000,
+   "upper": 1900000,
+   "kind": "minus",
+   "c": 650000,
+   "rate_pct": null,
+   "mismatch_sample": []
+  },
+  {
+   "lower": 6600000,
+   "upper": 8500000,
+   "kind": "rate_minus",
+   "c": 1100000,
+   "rate_pct": 90,
+   "mismatch_sample": []
+  },
+  {
+   "lower": 8500000,
+   "upper": 20000000,
+   "kind": "minus",
+   "c": 1950000,
+   "rate_pct": null,
+   "mismatch_sample": []
+  }
+ ],
+ "first": {
+  "lower": 0,
+  "upper": 651000,
+  "kind": "fixed",
+  "value": 0,
+  "text": "６５１，０００円未満 | ０",
+  "struct": 0,
+  "group": 0,
+  "row": 3
+ },
+ "last": {
+  "lower": 20000000,
+  "upper": null,
+  "kind": "point",
+  "value": 18050000,
+  "text": "２０，０００，０００円 | １８，０５０，０００円",
+  "struct": 7,
+  "group": 2,
+  "row": 57
+ },
+ "runs": [
+  {
+   "width": "fixed",
+   "lower": 0,
+   "upper": 651000,
+   "n": 1
+  },
+  {
+   "width": "minus",
+   "lower": 651000,
+   "upper": 1900000,
+   "n": 1
+  },
+  {
+   "width": 4000,
+   "lower": 1900000,
+   "upper": 6600000,
+   "n": 1175
+  },
+  {
+   "width": "rate_minus",
+   "lower": 6600000,
+   "upper": 8500000,
+   "n": 1
+  },
+  {
+   "width": "minus",
+   "lower": 8500000,
+   "upper": 20000000,
+   "n": 1
+  }
+ ],
+ "below_first": {
+  "upper": 651000,
+  "value": 0,
+  "art28_at_upper_minus_1": 999
+ },
+ "formula_rows_checked_points": {
+  "651000-1900000": 1249000,
+  "6600000-8500000": 41865,
+  "8500000-20000000": 51494
+ },
+ "point": {
+  "x": 20000000,
+  "table": 18050000,
+  "art28": 18050000
+ }
+}

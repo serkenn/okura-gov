@@ -1,0 +1,15 @@
+okura_core: C:\Users\user\Documents\okura-gov\.work\perf4\snap_src\okura_core\__init__.py
+import 5.43s build_system 0.58s
+01_student_away_and_parent_on_assignment__multi               11.676s      2916 KiB  ok=True
+02_medical_payer_differs_from_patient__multi                  17.948s      3990 KiB  ok=True
+03_business_with_household_apportionment__multi               29.417s      2020 KiB  ok=True
+04_forecast_and_plan_marks__multi                             16.468s      1809 KiB  ok=True
+05_commuting_and_withholding_slip__multi                       2.454s      1393 KiB  ok=True
+06_phase3_insurance_and_resident_tax_facts__multi             15.403s      4131 KiB  ok=True
+07_vocabulary_additions_2026_11_11__multi                     29.258s      4526 KiB  ok=True
+08_vocabulary_additions_2026_11_12__multi                    109.426s      7797 KiB  ok=True
+09_external_tax_credit_2026_11_12__multi                       2.220s      1479 KiB  ok=True
+10_inventory_household_bad_debt_2026_11_12__multi              8.594s       834 KiB  ok=True
+11_special_depreciation_2026_11_12__multi                     21.033s      1219 KiB  ok=True
+12_specific_expense_and_authority_tax_item_2026_11_12__multi   1.363s       931 KiB  ok=True
+13_specific_expense_judgment_and_resident_return_2026_11_12__multi   1.375s       931 KiB  ok=True

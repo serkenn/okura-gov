@@ -1,0 +1,504 @@
+description: >-
+  所得控除（地方税法第314条の2。道府県民税は第34条で同じ額）。令和8年度分（asof 2026-01-01・2026-11-09）と令和9年度分（asof 2027-01-01）で
+  金額の文言は同じ（docs/public-sources/20261109_round2_juminzei-tax-law-text.md §3）。ひとり親控除の33万円は令和10年度分から（ここには置かない）。
+基礎控除:
+  第1号:
+    上限:
+      description: 前年の合計所得金額がこの額以下なら第1号（第314条の2第2項）
+      metadata: &kiso
+        law: 地方税法第314条の2第2項
+        source_kind: 法律
+        unit: 円
+        reference: [docs/public-sources/20261109_round2_juminzei-tax-law-text.md#3, docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md#5, docs/public-sources/20261109_R1-laws_local-tax.md#3]
+      values:
+        2025-01-01: {value: 24000000, metadata: &r89 {適用: 令和8年度分・令和9年度分（文言が同じ。日付のキーは所得の年分の1月1日）}}
+    額:
+      description: 第1号の控除額
+      metadata: *kiso
+      values:
+        2025-01-01: {value: 430000, metadata: *r89}
+  第2号:
+    上限:
+      description: 第2号の区分の上限
+      metadata: *kiso
+      values:
+        2025-01-01: {value: 24500000, metadata: *r89}
+    額:
+      description: 第2号の控除額
+      metadata: *kiso
+      values:
+        2025-01-01: {value: 290000, metadata: *r89}
+  第3号:
+    上限:
+      description: 第3号の区分の上限（これを超えると基礎控除はない）
+      metadata: *kiso
+      values:
+        2025-01-01: {value: 25000000, metadata: *r89}
+    額:
+      description: 第3号の控除額
+      metadata: *kiso
+      values:
+        2025-01-01: {value: 150000, metadata: *r89}
+配偶者控除:
+  本人の区分:
+    第1号の上限:
+      description: 納税義務者の前年の合計所得金額の区分（イ：900万円以下）
+      metadata: &haigu
+        law: 地方税法第314条の2第1項第10号
+        source_kind: 法律
+        unit: 円
+        reference: [docs/public-sources/20261109_round2_spouse-laws-and-sources.md#3.2, docs/public-sources/20261109_round2_juminzei-tax-law-text.md#3]
+      values:
+        2025-01-01: {value: 9000000, metadata: *r89}
+    第2号の上限:
+      description: ロ：950万円以下
+      metadata: *haigu
+      values:
+        2025-01-01: {value: 9500000, metadata: *r89}
+    第3号の上限:
+      description: ハ：1,000万円以下（控除対象配偶者の本人の要件と同じ額。第292条第1項第8号）
+      metadata: *haigu
+      values:
+        2025-01-01: {value: 10000000, metadata: *r89}
+  額:
+    第1号:
+      description: イの額
+      metadata: *haigu
+      values:
+        2025-01-01: {value: 330000, metadata: *r89}
+    第2号:
+      description: ロの額
+      metadata: *haigu
+      values:
+        2025-01-01: {value: 220000, metadata: *r89}
+    第3号:
+      description: ハの額
+      metadata: *haigu
+      values:
+        2025-01-01: {value: 110000, metadata: *r89}
+  老人の年齢の下限:
+    description: 老人控除対象配偶者（控除対象配偶者のうち年齢70歳以上の者。第10号イの括弧書き）の70歳。年齢は前年の12月31日の現況（第8項）
+    metadata: *haigu
+    values:
+      2025-01-01: {value: 70, metadata: *r89}
+  老人の額:
+    第1号:
+      description: イの額（老人控除対象配偶者）
+      metadata: *haigu
+      values:
+        2025-01-01: {value: 380000, metadata: *r89}
+    第2号:
+      description: ロの額（老人控除対象配偶者）
+      metadata: *haigu
+      values:
+        2025-01-01: {value: 260000, metadata: *r89}
+    第3号:
+      description: ハの額（老人控除対象配偶者）
+      metadata: *haigu
+      values:
+        2025-01-01: {value: 130000, metadata: *r89}
+配偶者特別控除:
+  配偶者の合計所得金額の上限:
+    description: 第10号の2 の配偶者の前年の合計所得金額の上限（133万円以下）
+    metadata: &tokubetsu
+      law: 地方税法第314条の2第1項第10号の2
+      source_kind: 法律
+      unit: 円
+      reference: [docs/public-sources/20261109_round2_spouse-laws-and-sources.md#3.2, docs/public-sources/20261109_round2_juminzei-tax-law-text.md#3]
+    values:
+      2025-01-01: {value: 1330000, metadata: *r89}
+  イ:
+    上限:
+      description: イ（１）の配偶者の前年の合計所得金額の上限（100万円以下）
+      metadata: *tokubetsu
+      values:
+        2025-01-01: {value: 1000000, metadata: *r89}
+    額:
+      description: イ（１）の額
+      metadata: *tokubetsu
+      values:
+        2025-01-01: {value: 330000, metadata: *r89}
+  ロ:
+    上限:
+      description: イ（２）の配偶者の前年の合計所得金額の上限（130万円以下）
+      metadata: *tokubetsu
+      values:
+        2025-01-01: {value: 1300000, metadata: *r89}
+    基準の額:
+      description: イ（２）の「三十八万円から…を控除した金額」の38万円
+      metadata: *tokubetsu
+      values:
+        2025-01-01: {value: 380000, metadata: *r89}
+    超える部分の起点:
+      description: イ（２）の「九十三万一円を超える部分の金額」の93万1円
+      metadata: *tokubetsu
+      values:
+        2025-01-01: {value: 930001, metadata: *r89}
+    刻み:
+      description: イ（２）の「五万円の整数倍の金額」の5万円
+      metadata: *tokubetsu
+      values:
+        2025-01-01: {value: 50000, metadata: *r89}
+    刻みから引く額:
+      description: イ（２）の「…から三万円を控除した金額」の3万円
+      metadata: *tokubetsu
+      values:
+        2025-01-01: {value: 30000, metadata: *r89}
+  ハ:
+    額:
+      description: イ（３）の額（130万円を超える配偶者）
+      metadata: *tokubetsu
+      values:
+        2025-01-01: {value: 30000, metadata: *r89}
+  本人の区分:
+    第1号の上限:
+      description: 納税義務者の前年の合計所得金額 900万円以下（イ）
+      metadata: *tokubetsu
+      values:
+        2025-01-01: {value: 9000000, metadata: *r89}
+    第2号の上限:
+      description: 950万円以下（ロ：イの額の3分の2）
+      metadata: *tokubetsu
+      values:
+        2025-01-01: {value: 9500000, metadata: *r89}
+    第3号の上限:
+      description: 1,000万円以下（ハ：イの額の3分の1。これを超えると適用なし）
+      metadata: *tokubetsu
+      values:
+        2025-01-01: {value: 10000000, metadata: *r89}
+  ロの率:
+    分子:
+      description: ロの「三分の二」の分子
+      metadata: *tokubetsu
+      values:
+        2025-01-01: {value: 2, metadata: *r89}
+    分母:
+      description: ロの「三分の二」の分母
+      metadata: *tokubetsu
+      values:
+        2025-01-01: {value: 3, metadata: *r89}
+  ハの率:
+    分子:
+      description: ハの「三分の一」の分子
+      metadata: *tokubetsu
+      values:
+        2025-01-01: {value: 1, metadata: *r89}
+    分母:
+      description: ハの「三分の一」の分母
+      metadata: *tokubetsu
+      values:
+        2025-01-01: {value: 3, metadata: *r89}
+  切上げの単位:
+    description: ロ・ハの「一万円未満の端数がある場合には、これを切り上げた金額」の1万円
+    metadata: *tokubetsu
+    values:
+      2025-01-01: {value: 10000, metadata: *r89}
+扶養控除:
+  一般:
+    description: 控除対象扶養親族1人の額（第314条の2第1項第11号）
+    metadata: &fuyo
+      law: 地方税法第314条の2第1項第11号・第4項
+      source_kind: 法律
+      unit: 円
+      reference: [docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md#5, docs/public-sources/20261109_round2_juminzei-tax-law-text.md#3]
+    values:
+      2025-01-01: {value: 330000, metadata: *r89}
+  特定扶養親族:
+    description: 特定扶養親族（19歳以上23歳未満）1人の額
+    metadata: *fuyo
+    values:
+      2025-01-01: {value: 450000, metadata: *r89}
+  老人扶養親族:
+    description: 老人扶養親族（70歳以上）1人の額
+    metadata: *fuyo
+    values:
+      2025-01-01: {value: 380000, metadata: *r89}
+  同居老親等:
+    description: 同居老親等1人の額（第4項）
+    metadata: *fuyo
+    values:
+      2025-01-01: {value: 450000, metadata: *r89}
+特定親族特別控除:
+  第1段:
+    上限:
+      description: イ：特定親族の前年の合計所得金額 95万円以下
+      metadata: &tokutei
+        law: 地方税法第314条の2第1項第12号イ〜ニ
+        source_kind: 法律
+        unit: 円
+        reference: [docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md#5, docs/public-sources/20261109_R1-laws_local-tax.md#3]
+      values:
+        2025-01-01: {value: 950000, metadata: *r89}
+    額:
+      description: イの額
+      metadata: *tokutei
+      values:
+        2025-01-01: {value: 450000, metadata: *r89}
+  第2段:
+    上限:
+      description: ロの段（95万円超100万円以下）。ロの式（63万円−…）を1円刻みで計算した段（docs の表）
+      metadata: *tokutei
+      values:
+        2025-01-01: {value: 1000000, metadata: *r89}
+    額:
+      description: この段の額
+      metadata: *tokutei
+      values:
+        2025-01-01: {value: 410000, metadata: *r89}
+  第3段:
+    上限:
+      description: ロの段（100万円超105万円以下）
+      metadata: *tokutei
+      values:
+        2025-01-01: {value: 1050000, metadata: *r89}
+    額:
+      description: この段の額
+      metadata: *tokutei
+      values:
+        2025-01-01: {value: 310000, metadata: *r89}
+  第4段:
+    上限:
+      description: ロの段（105万円超110万円以下）
+      metadata: *tokutei
+      values:
+        2025-01-01: {value: 1100000, metadata: *r89}
+    額:
+      description: この段の額
+      metadata: *tokutei
+      values:
+        2025-01-01: {value: 210000, metadata: *r89}
+  第5段:
+    上限:
+      description: ロの段（110万円超115万円以下）
+      metadata: *tokutei
+      values:
+        2025-01-01: {value: 1150000, metadata: *r89}
+    額:
+      description: この段の額
+      metadata: *tokutei
+      values:
+        2025-01-01: {value: 110000, metadata: *r89}
+  第6段:
+    上限:
+      description: ハ（115万円超120万円以下）
+      metadata: *tokutei
+      values:
+        2025-01-01: {value: 1200000, metadata: *r89}
+    額:
+      description: ハの額
+      metadata: *tokutei
+      values:
+        2025-01-01: {value: 60000, metadata: *r89}
+  第7段:
+    上限:
+      description: ニ（120万円超123万円以下。123万円は特定親族の範囲の上限）
+      metadata: *tokutei
+      values:
+        2025-01-01: {value: 1230000, metadata: *r89}
+    額:
+      description: ニの額
+      metadata: *tokutei
+      values:
+        2025-01-01: {value: 30000, metadata: *r89}
+障害者控除:
+  障害者:
+    description: 障害者1人の額（第314条の2第1項第6号）
+    metadata: &shogai
+      law: 地方税法第314条の2第1項第6号・第3項
+      source_kind: 法律
+      unit: 円
+      reference: [docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md#2.3, docs/public-sources/20261109_round2_juminzei-tax-law-text.md#3]
+    values:
+      2025-01-01: {value: 260000, metadata: *r89}
+  特別障害者:
+    description: 特別障害者1人の額
+    metadata: *shogai
+    values:
+      2025-01-01: {value: 300000, metadata: *r89}
+  同居特別障害者:
+    description: 同居特別障害者1人の額（第3項）
+    metadata: *shogai
+    values:
+      2025-01-01: {value: 530000, metadata: *r89}
+寡婦控除:
+  description: 寡婦である納税義務者の額（第314条の2第1項第8号）
+  metadata: &kafu
+    law: 地方税法第314条の2第1項第8号・第8号の2・第9号
+    source_kind: 法律
+    unit: 円
+    reference: [docs/public-sources/20261109_round2_jinteki-laws-and-guidance.md#2.3, docs/public-sources/20261109_impl-prep_juminzei-hikazei-fuyo-shinkoku.md#5]
+  values:
+    2025-01-01: {value: 260000, metadata: *r89}
+ひとり親控除:
+  description: ひとり親である納税義務者の額（第8号の2。令和9年度分まで30万円、令和10年度分から33万円）
+  metadata: *kafu
+  values:
+    2025-01-01: {value: 300000, metadata: *r89}
+勤労学生控除:
+  description: 勤労学生である納税義務者の額（第9号）
+  metadata: *kafu
+  values:
+    2025-01-01: {value: 260000, metadata: *r89}
+生命保険料控除:
+  新:
+    第1段の上限:
+      description: 新生命保険料・介護医療保険料・新個人年金保険料の第1段（この額以下は全額）
+      metadata: &seimei
+        law: 地方税法第314条の2第1項第5号イ〜ハ
+        source_kind: 法律
+        unit: 円
+        reference: [docs/public-sources/20261109_round2_hoken-kifu-laws.md#7, docs/public-sources/20261109_round2_juminzei-tax-law-text.md#3]
+      values:
+        2025-01-01: {value: 12000, metadata: *r89}
+    第2段の上限:
+      description: 第2段の上限（1万2千円＋超える部分の2分の1）
+      metadata: *seimei
+      values:
+        2025-01-01: {value: 32000, metadata: *r89}
+    第2段の加算額:
+      description: 第2段の定額
+      metadata: *seimei
+      values:
+        2025-01-01: {value: 12000, metadata: *r89}
+    第3段の上限:
+      description: 第3段の上限（2万2千円＋3万2千円を超える部分の4分の1）
+      metadata: *seimei
+      values:
+        2025-01-01: {value: 56000, metadata: *r89}
+    第3段の加算額:
+      description: 第3段の定額
+      metadata: *seimei
+      values:
+        2025-01-01: {value: 22000, metadata: *r89}
+    最高額:
+      description: 第3段の上限を超えるときの額
+      metadata: *seimei
+      values:
+        2025-01-01: {value: 28000, metadata: *r89}
+  旧:
+    第1段の上限:
+      description: 旧生命保険料・旧個人年金保険料の第1段（この額以下は全額）
+      metadata: *seimei
+      values:
+        2025-01-01: {value: 15000, metadata: *r89}
+    第2段の上限:
+      description: 第2段の上限（1万5千円＋超える部分の2分の1）
+      metadata: *seimei
+      values:
+        2025-01-01: {value: 40000, metadata: *r89}
+    第2段の加算額:
+      description: 第2段の定額
+      metadata: *seimei
+      values:
+        2025-01-01: {value: 15000, metadata: *r89}
+    第3段の上限:
+      description: 第3段の上限（2万7千5百円＋4万円を超える部分の4分の1）
+      metadata: *seimei
+      values:
+        2025-01-01: {value: 70000, metadata: *r89}
+    第3段の加算額:
+      description: 第3段の定額
+      metadata: *seimei
+      values:
+        2025-01-01: {value: 27500, metadata: *r89}
+    最高額:
+      description: 第3段の上限を超えるときの額
+      metadata: *seimei
+      values:
+        2025-01-01: {value: 35000, metadata: *r89}
+  新旧合計の上限:
+    description: 新旧の両方を支払った区分（一般・個人年金）の合計の上限
+    metadata: *seimei
+    values:
+      2025-01-01: {value: 28000, metadata: *r89}
+  合計の上限:
+    description: イ〜ハの合計の上限
+    metadata: *seimei
+    values:
+      2025-01-01: {value: 70000, metadata: *r89}
+地震保険料控除:
+  率:
+    分子:
+      description: 地震保険料の合計の「二分の一」の分子（第314条の2第1項第5号の3）
+      metadata: &jishin
+        law: 地方税法第314条の2第1項第5号の3、平成18年法律第7号附則第11条第5項（旧長期損害保険料）
+        source_kind: 法律
+        reference: [docs/public-sources/20261109_round2_hoken-kifu-laws.md#7, docs/public-sources/20261109_round2_juminzei-tax-law-text.md#3]
+      values:
+        2025-01-01: {value: 1, metadata: *r89}
+    分母:
+      description: 同じ率の分母
+      metadata: *jishin
+      values:
+        2025-01-01: {value: 2, metadata: *r89}
+  上限:
+    description: 地震保険料の控除の上限（2万5千円）
+    metadata: *jishin
+    values:
+      2025-01-01: {value: 25000, metadata: *r89}
+  旧長期:
+    全額の上限:
+      description: 旧長期損害保険料がこの額以下なら全額
+      metadata: *jishin
+      values:
+        2025-01-01: {value: 5000, metadata: *r89}
+    加算額:
+      description: 全額の上限を超えるときの定額（5千円）
+      metadata: *jishin
+      values:
+        2025-01-01: {value: 5000, metadata: *r89}
+    超える額の上限:
+      description: 5千円を超える額のうち2分の1を掛ける部分の上限（1万円。最高 1万円になる）
+      metadata: *jishin
+      values:
+        2025-01-01: {value: 10000, metadata: *r89}
+  合計の上限:
+    description: 地震保険料と旧長期損害保険料の両方があるときの合計の上限
+    metadata: *jishin
+    values:
+      2025-01-01: {value: 25000, metadata: *r89}
+医療費控除:
+  率:
+    分子:
+      description: 前年の総所得金額等の「百分の五」の分子（第314条の2第1項第2号）
+      metadata: &iryo
+        law: 地方税法第314条の2第1項第2号
+        source_kind: 法律
+        reference: [docs/public-sources/20261109_round2_juminzei-tax-law-text.md#3, docs/public-sources/20261109_R1-laws_local-tax.md#3]
+      values:
+        2025-01-01: {value: 5, metadata: *r89}
+    分母:
+      description: 同じ率の分母
+      metadata: *iryo
+      values:
+        2025-01-01: {value: 100, metadata: *r89}
+  足切りの上限:
+    description: 総所得金額等の5%の額の上限（10万円）
+    metadata: *iryo
+    values:
+      2025-01-01: {value: 100000, metadata: *r89}
+  上限:
+    description: 医療費控除の額の上限（200万円）
+    metadata: *iryo
+    values:
+      2025-01-01: {value: 2000000, metadata: *r89}
+雑損控除:
+  率:
+    分子:
+      description: 前年の総所得金額等の「十分の一」の分子（第314条の2第1項第1号）
+      metadata: &zasson
+        law: 地方税法第314条の2第1項第1号
+        source_kind: 法律
+        reference: [docs/public-sources/20261109_round2_hoken-kifu-laws.md#7, docs/public-sources/20261109_round2_juminzei-tax-law-text.md#3]
+      values:
+        2025-01-01: {value: 1, metadata: *r89}
+    分母:
+      description: 同じ率の分母
+      metadata: *zasson
+      values:
+        2025-01-01: {value: 10, metadata: *r89}
+  災害関連支出の足切り:
+    description: 災害関連支出の金額から控除する5万円
+    metadata: *zasson
+    values:
+      2025-01-01: {value: 50000, metadata: *r89}

@@ -1,0 +1,59 @@
+{
+  "set": "robots",
+  "fetched_at_local": "20261109-145459",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work\\downloads\\20261109-145459_IMPL_misc_robots",
+  "text_dir": ".work\\text\\20261109-145459_IMPL_misc_robots",
+  "results": [
+    {
+      "id": "nta_robots",
+      "url": "https://www.nta.go.jp/robots.txt",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/robots.txt",
+      "content_type": "text/plain",
+      "bytes": 853,
+      "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+      "last_modified": "Wed, 18 Mar 2026 05:00:01 GMT",
+      "etag": "\"355-64d45530aa668\"",
+      "saved": ".work\\downloads\\20261109-145459_IMPL_misc_robots\\nta_robots.txt",
+      "text_body": "Sitemap: http://www.nta.go.jp/sitemap.xml\r\n\r\nUser-agent: *\r\nDisallow: /service_publication/\r\nDisallow: /about/organization/sapporo/service_publication/\r\nDisallow: /about/organization/sendai/service_publication/\r\nDisallow: /about/organization/kantoshinetsu/service_publication/\r\nDisallow: /about/organization/tokyo/service_publication/\r\nDisallow: /about/organization/kanazawa/service_publication/\r\nDisallow: /about/organization/nagoya/service_publication/\r\nDisallow: /about/organization/osaka/service_publication/\r\nDisallow: /about/organization/hiroshima/service_publication/\r\nDisallow: /about/organization/takamatsu/service_publication/\r\nDisallow: /about/organization/fukuoka/service_publication/\r\nDisallow: /about/organization/kumamoto/service_publication/\r\nDisallow: /about/organization/okinawa/service_publication/\r\n\r\nUser-agent: ndl-japan\r\nDisallow:"
+    },
+    {
+      "id": "courts_robots",
+      "url": "https://www.courts.go.jp/robots.txt",
+      "status": 200,
+      "final_url": "https://www.courts.go.jp/robots.txt",
+      "content_type": "text/plain",
+      "bytes": 3143,
+      "sha256": "65e5db57e9d0d461bef21147c647580a3ecd291db4964166d89fda162f7467ca",
+      "last_modified": "Tue, 27 Oct 2026 04:20:46 GMT",
+      "etag": "\"0x8DF33E1AC4F45BC\"",
+      "saved": ".work\\downloads\\20261109-145459_IMPL_misc_robots\\courts_robots.txt",
+      "text_body": "# www.courts.go.jp\nUser-agent: *\nDisallow: /saikosai/tetuzuki/kozisotatu/index.html\nDisallow: /sapporo-h/saiban/kozisotatu/index.html\nDisallow: /sapporo/saiban/kozisotatu/index.html\nDisallow: /hakodate/saiban/kozisotatu/index.html\nDisallow: /asahikawa/saiban/kozisotatu/index.html\nDisallow: /kushiro/saiban/kozisotatu/index.html\nDisallow: /sendai-h/saiban/kozisotatu/index.html\nDisallow: /sendai/saiban/kozisotatu/index.html\nDisallow: /fukushima/saiban/kozisotatu/index.html\nDisallow: /yamagata/saiban/kozisotatu/index.html\nDisallow: /morioka/saiban/kozisotatu/index.html\nDisallow: /akita/saiban/kozisotatu/index.html\nDisallow: /aomori/saiban/kozisotatu/index.html\nDisallow: /tokyo-h/saiban/kozisotatu/index.html\nDisallow: /tokyo/saiban/kozisotatu/index.html\nDisallow: /tokyo-f/saiban/kozisotatu/index.html\nDisallow: /tokyo-s/saiban/kozisotatu/index.html\nDisallow: /yokohama/saiban/kozisotatu/index.html\nDisallow: /saitama/saiban/kozisotatu/index.html\nDisallow: /chiba/saiban/kozisotatu/index.html\nDisallow: /mito/saiban/kozisotatu/index.html\nDisallow: /utsunomiya/saiban/kozisotatu/index.html\nDisallow: /maebashi/saiban/kozisotatu/index.html\nDisallow: /shizuoka/saiban/kozisotatu/index.html\nDisallow: /koufu/saiban/kozisotatu/index.html\nDisallow: /nagano/saiban/kozisotatu/index.html\nDisallow: /niigata/saiban/kozisotatu/index.html\nDisallow: /nagoya-h/saiban/kozisotatu/index.html\nDisallow: /nagoya/saiban/kozisotatu/index.html\nDisallow: /nagoya-f/saiban/kozisotatu/index.html\nDisallow: /tsu/saiban/kozisotatu/index.html\nDisallow: /gifu/saiban/kozisotatu/index.html\nDisallow: /fukui/saiban/kozisotatu/index.html\nDisallow: /kanazawa/saiban/kozisotatu/index.html\nDisallow: /toyama/saiban/kozisotatu/index.html\nDisallow: /osaka-h/saiban/kozisotatu/index.html\nDisallow: /osaka/saiban/kozisotatu/index.html\nDisallow: /kyoto/saiban/kozisotatu/index.html\nDisallow: /kobe/saiban/kozisotatu/index.html\nDisallow: /nara/saiban/kozisotatu/index.html\nDisallow: /otsu/saiban/kozisotatu/index.html\nDisallow: /wakayama/saiban/kozisotatu/index.html\nDisallow: /hiroshima-h/saiban/kozisotatu/index.html\nDisallow: /hiroshima/saiban/kozisotatu/index.html\nDisallow: /yamaguchi/saiban/kozisotatu/index.html\nDisallow: /okayama/saiban/kozisotatu/index.html\nDisallow: /tottori/saiban/kozisotatu/index.html\nDisallow: /matsue/saiban/kozisotatu/index.html\nDisallow: /takamatsu-h/saiban/kozisotatu/index.html\nDisallow: /takamatsu/saiban/kozisotatu/index.html\nDisallow: /tokushima/saiban/kozisotatu/index.html\nDisallow: /kouchi/saiban/kozisotatu/index.html\nDisallow: /matsuyama/saiban/kozisotatu/index.html\nDisallow: /fukuoka-h/saiban/kozisotatu/index.html\nDisallow: /fukuoka/saiban/kozisotatu/index.html\nDisallow: /saga/saiban/kozisotatu/index.html\nDisallow: /nagasaki/saiban/kozisotatu/index.html\nDisallow: /oita/saiban/kozisotatu/index.html\nDisallow: /kumamoto/saiban/kozisotatu/index.html\nDisallow: /kagoshima/saiban/kozisotatu/index.html\nDisallow: /miyazaki/saiban/kozisotatu/index.html\nDisallow: /naha/saiban/kozisotatu/index.html\nDisallow: /ip/tetuduki/kozisotatu/index.html\nDisallow: /about/sonota/kensin/giketsunoyoushi/index.html\n \nUser-agent: ndl-japan\nDisallow:"
+    },
+    {
+      "id": "egov_robots",
+      "url": "https://laws.e-gov.go.jp/robots.txt",
+      "status": 200,
+      "final_url": "https://laws.e-gov.go.jp/robots.txt",
+      "content_type": "text/html",
+      "bytes": 800,
+      "sha256": "d984761fd993755a45405911992cb80826830d21b38ade13fe8216a12910dad7",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-145459_IMPL_misc_robots\\egov_robots.html",
+      "charset": "utf-8",
+      "title": "e-Gov 法令検索",
+      "text_chars": 10,
+      "text": ".work\\text\\20261109-145459_IMPL_misc_robots\\egov_robots.txt",
+      "n_links": 0,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    }
+  ]
+}

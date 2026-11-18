@@ -1,0 +1,29 @@
+{
+ "file": "007_www.nta.go.jp_taxes_shiraberu_sodan_ai-ocr.xlsx",
+ "sha256": "99af2fe209fe817bef3cee6eb9bc9a3169cbe1a519ff9cba09cdb407817cab0c",
+ "bytes": 109168,
+ "has_vba": false,
+ "sheets": [
+  {
+   "index": 1,
+   "name": "一覧",
+   "path": "xl/worksheets/sheet1.xml",
+   "cells": 9467,
+   "formula_cells": 0,
+   "data_validations": [
+    {
+     "sqref": "C664:D666",
+     "type": "list",
+     "allowBlank": "1",
+     "promptTitle": "",
+     "prompt": "",
+     "errorTitle": "",
+     "error": "",
+     "formula1": "\"①R8.6ごろ,②R8.8ごろ,③個別決定\""
+    }
+   ],
+   "merged_cells": 2,
+   "dimension": "A1:E1896"
+  }
+ ]
+}

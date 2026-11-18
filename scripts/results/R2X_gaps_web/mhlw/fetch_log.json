@@ -1,0 +1,40 @@
+{
+ "set": "mhlw",
+ "fetched_at": "20261109-174031",
+ "download_dir": ".work/downloads/20261109-174031_R2X_gaps_web_mhlw",
+ "robots": [
+  {
+   "host": "www.mhlw.go.jp",
+   "url": "https://www.mhlw.go.jp/robots.txt",
+   "status": 200,
+   "sha256": "d410a20234092a01e07cc6531920a5fedda6a96faaa073d94b95bd4c4a436144",
+   "saved": ".work/downloads/20261109-174031_R2X_gaps_web_mhlw/robots_www.mhlw.go.jp.txt"
+  }
+ ],
+ "items": [
+  {
+   "id": "mhlw_000991674",
+   "url": "https://www.mhlw.go.jp/content/12400000/000991674.pdf",
+   "final_url": "https://www.mhlw.go.jp/content/12400000/000991674.pdf",
+   "robots_allowed": true,
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Tue, 20 Sep 2022 09:12:21 GMT",
+   "bytes": 474483,
+   "sha256": "921d44454041f2478ccfc337922cdf77cbf7fe2f7d858ea52f2248473e464377",
+   "saved": ".work/downloads/20261109-174031_R2X_gaps_web_mhlw/mhlw_000991674.pdf"
+  },
+  {
+   "id": "mhlw_T251006S0060",
+   "url": "https://www.mhlw.go.jp/hourei/doc/tsuchi/T251006S0060.pdf",
+   "final_url": "https://www.mhlw.go.jp/hourei/doc/tsuchi/T251006S0060.pdf",
+   "robots_allowed": true,
+   "status": 404,
+   "content_type": "text/html; charset=iso-8859-1",
+   "last_modified": null,
+   "bytes": 232,
+   "sha256": "bf7c76fbeda12ebfe2ff21d036a9e0819b443b27886188db3e4f70a69fc358e5",
+   "saved": ".work/downloads/20261109-174031_R2X_gaps_web_mhlw/mhlw_T251006S0060.pdf"
+  }
+ ]
+}

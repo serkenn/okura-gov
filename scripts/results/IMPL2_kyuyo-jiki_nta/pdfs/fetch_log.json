@@ -1,0 +1,29 @@
+{
+ "set": "pdfs",
+ "fetched_at": "20261111-110614",
+ "download_dir": ".work/downloads/20261111-110614_IMPL2_kyuyo-jiki_nta_pdfs",
+ "items": [
+  {
+   "id": "nencho2025_103",
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2025/pdf/103.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Fri, 29 Aug 2025 08:30:15 GMT",
+   "bytes": 854928,
+   "sha256": "9fb3886c2b75515b738b5f0cbea5ab2bd3cd5c1f6aecc0575931561a52309de3",
+   "saved": ".work/downloads/20261111-110614_IMPL2_kyuyo-jiki_nta_pdfs/nencho2025_103.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "nencho2026_103",
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/103.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Mon, 31 Aug 2026 08:30:12 GMT",
+   "bytes": 717907,
+   "sha256": "84ddecde830d51ec33e0eb1a2e5e34a11b66fec5f61c5ba2ac97b6fd471a27c2",
+   "saved": ".work/downloads/20261111-110614_IMPL2_kyuyo-jiki_nta_pdfs/nencho2026_103.pdf",
+   "pdf_header_ok": true
+  }
+ ]
+}

@@ -1,0 +1,256 @@
+[
+ {
+  "a": "2024-12-31",
+  "b": "2025-11-30",
+  "identical": true,
+  "n_only_a": 0,
+  "n_only_b": 0,
+  "n_changed": 0,
+  "only_a_head": [],
+  "only_b_head": [],
+  "changed_head": [],
+  "only_a_range": null,
+  "only_b_range": null
+ },
+ {
+  "a": "2025-11-30",
+  "b": "2025-12-31",
+  "identical": false,
+  "n_only_a": 74,
+  "n_only_b": 2,
+  "n_changed": 0,
+  "only_a_head": [
+   [
+    0,
+    551000,
+    "fixed"
+   ],
+   [
+    551000,
+    1619000,
+    "minus"
+   ],
+   [
+    1619000,
+    1620000,
+    "fixed"
+   ],
+   [
+    1620000,
+    1622000,
+    "fixed"
+   ],
+   [
+    1622000,
+    1624000,
+    "fixed"
+   ],
+   [
+    1624000,
+    1628000,
+    "fixed"
+   ],
+   [
+    1628000,
+    1632000,
+    "fixed"
+   ],
+   [
+    1632000,
+    1636000,
+    "fixed"
+   ],
+   [
+    1636000,
+    1640000,
+    "fixed"
+   ],
+   [
+    1640000,
+    1644000,
+    "fixed"
+   ]
+  ],
+  "only_b_head": [
+   [
+    0,
+    651000,
+    "fixed"
+   ],
+   [
+    651000,
+    1900000,
+    "minus"
+   ]
+  ],
+  "changed_head": [],
+  "only_a_range": [
+   0,
+   1900000
+  ],
+  "only_b_range": [
+   0,
+   1900000
+  ]
+ },
+ {
+  "a": "2025-12-31",
+  "b": "2026-11-09",
+  "identical": true,
+  "n_only_a": 0,
+  "n_only_b": 0,
+  "n_changed": 0,
+  "only_a_head": [],
+  "only_b_head": [],
+  "changed_head": [],
+  "only_a_range": null,
+  "only_b_range": null
+ },
+ {
+  "a": "2026-11-09",
+  "b": "2026-11-30",
+  "identical": true,
+  "n_only_a": 0,
+  "n_only_b": 0,
+  "n_changed": 0,
+  "only_a_head": [],
+  "only_b_head": [],
+  "changed_head": [],
+  "only_a_range": null,
+  "only_b_range": null
+ },
+ {
+  "a": "2026-11-30",
+  "b": "2026-12-01",
+  "identical": false,
+  "n_only_a": 34,
+  "n_only_b": 3,
+  "n_changed": 2,
+  "only_a_head": [
+   [
+    0,
+    651000,
+    "fixed"
+   ],
+   [
+    651000,
+    1900000,
+    "minus"
+   ],
+   [
+    1900000,
+    1904000,
+    "fixed"
+   ],
+   [
+    1904000,
+    1908000,
+    "fixed"
+   ],
+   [
+    1908000,
+    1912000,
+    "fixed"
+   ],
+   [
+    1912000,
+    1916000,
+    "fixed"
+   ],
+   [
+    1916000,
+    1920000,
+    "fixed"
+   ],
+   [
+    1920000,
+    1924000,
+    "fixed"
+   ],
+   [
+    1924000,
+    1928000,
+    "fixed"
+   ],
+   [
+    1928000,
+    1932000,
+    "fixed"
+   ]
+  ],
+  "only_b_head": [
+   [
+    0,
+    691000,
+    "fixed"
+   ],
+   [
+    691000,
+    2026000,
+    "minus"
+   ],
+   [
+    2026000,
+    2028000,
+    "fixed"
+   ]
+  ],
+  "changed_head": [
+   [
+    [
+     2028000,
+     2032000,
+     "fixed"
+    ],
+    [
+     1339600,
+     null,
+     null
+    ],
+    [
+     1338000,
+     null,
+     null
+    ]
+   ],
+   [
+    [
+     2032000,
+     2036000,
+     "fixed"
+    ],
+    [
+     1342400,
+     null,
+     null
+    ],
+    [
+     1342000,
+     null,
+     null
+    ]
+   ]
+  ],
+  "only_a_range": [
+   0,
+   2028000
+  ],
+  "only_b_range": [
+   0,
+   2028000
+  ]
+ },
+ {
+  "a": "2026-12-01",
+  "b": "2027-01-01",
+  "identical": true,
+  "n_only_a": 0,
+  "n_only_b": 0,
+  "n_changed": 0,
+  "only_a_head": [],
+  "only_b_head": [],
+  "changed_head": [],
+  "only_a_range": null,
+  "only_b_range": null
+ }
+]

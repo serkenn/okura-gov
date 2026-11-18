@@ -1,0 +1,25 @@
+# source=https://www.keisan.nta.go.jp/r7yokuaru/cat1/cat15/index.html
+# final_url=https://www.keisan.nta.go.jp/r7yokuaru/cat1/cat15/index.html
+# fetched_at=2026-11-09T15:00:37+0900
+# sha256=be9ee371dea30a7bf292ab4cc9b32e50ab6fa2f1e12b9d7b22898ae9ac9e7dbd
+# encoding=UTF-8
+
+【確定申告書等作成コーナー】-申告書データの中断・再開
+このページの本文へ移動
+国税庁　NATIONAL TAX AGENCY
+確定申告書等作成コーナーよくある質問
+令和7年分よくある質問
+ご利用にあたって
+申告書データの中断・再開
+申告書データの中断・再開
+令和６年分の確定申告書等作成コーナー公開以前に作成された確定申告書データ（.data形式）を利用する場合
+確定申告書データを利用する方法（更正の請求書・修正申告書の作成）
+途中まで作成した続きから再開する方法が知りたい。
+入力したデータの保存場所が分からない場合
+昨年作成コーナーを利用した際に保存したデータを利用する方法
+保存したデータを読み込むとエラーになるのですが、なぜですか?
+作成コーナーで保存した電子申告等データ（拡張子が「.xtx」）を利用する方法
+FireFoxを利用した際に保存データの読込ができない
+特に多いご質問
+このページの先頭へ
+Copyright © NATIONAL TAX AGENCY All Rights Reserved.

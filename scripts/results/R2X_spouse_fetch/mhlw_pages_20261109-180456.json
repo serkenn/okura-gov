@@ -1,0 +1,44 @@
+{
+  "set": "mhlw_pages",
+  "fetched_at_local": "20261109-180456",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work/downloads/20261109-180456_R2X_spouse_mhlw_pages",
+  "results": [
+    {
+      "id": "srch_H050301_0331_p1",
+      "url": "https://www.mhlw.go.jp/web/t_itemsrch_result?type=1&startGengo=4&yearFrom=5&monthFrom=3&dayFrom=1&endGengo=4&yearTo=5&monthTo=3&dayTo=31&shubetsu=&bango=&page=1",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/web/t_itemsrch_result?type=1&startGengo=4&yearFrom=5&monthFrom=3&dayFrom=1&endGengo=4&yearTo=5&monthTo=3&dayTo=31&shubetsu=&bango=&page=1",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 16363,
+      "sha256": "0ce9b5ad2c4437eff6915d9b460443edf7626c4a7aef1793bfa4e305d3bdd924",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work/downloads/20261109-180456_R2X_spouse_mhlw_pages/srch_H050301_0331_p1.html",
+      "charset": "UTF-8",
+      "title": "結果一覧",
+      "text_chars": 2450,
+      "text_sha256": "ec822a86d16015424985505bbe47609fa2955bf79754d5a9eee22b90727f4dfb",
+      "text": "scripts/results/R2X_spouse_fetch/text/20261109-180456_mhlw_pages/srch_H050301_0331_p1.txt",
+      "n_links": 20
+    },
+    {
+      "id": "srch_H050301_0331_p2",
+      "url": "https://www.mhlw.go.jp/web/t_itemsrch_result?type=1&startGengo=4&yearFrom=5&monthFrom=3&dayFrom=1&endGengo=4&yearTo=5&monthTo=3&dayTo=31&shubetsu=&bango=&page=2",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/web/t_itemsrch_result?type=1&startGengo=4&yearFrom=5&monthFrom=3&dayFrom=1&endGengo=4&yearTo=5&monthTo=3&dayTo=31&shubetsu=&bango=&page=2",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 7592,
+      "sha256": "84daa9f5873c161753aed38ca9ba3c23b7bdc5f0ac0d6ad5eec2fc3aaf613917",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work/downloads/20261109-180456_R2X_spouse_mhlw_pages/srch_H050301_0331_p2.html",
+      "charset": "UTF-8",
+      "title": "結果一覧",
+      "text_chars": 1018,
+      "text_sha256": "ad807a2992d9480654c674f099a44adcc74e56f3f519fc54f0116766de8c1222",
+      "text": "scripts/results/R2X_spouse_fetch/text/20261109-180456_mhlw_pages/srch_H050301_0331_p2.txt",
+      "n_links": 8
+    }
+  ]
+}

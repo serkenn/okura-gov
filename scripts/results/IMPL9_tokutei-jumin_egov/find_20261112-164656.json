@@ -1,0 +1,12 @@
+{
+ "url": "https://laws.e-gov.go.jp/api/2/laws?law_title=%E5%9C%B0%E6%96%B9%E7%A8%8E%E6%B3%95%E6%96%BD%E8%A1%8C%E8%A6%8F%E5%89%87&response_format=json",
+ "status": 200,
+ "laws": [
+  {
+   "law_id": "329M50000002023",
+   "law_num": "昭和二十九年総理府令第二十三号",
+   "title": "地方税法施行規則",
+   "law_revision_id": "329M50000002023_20261101_508M60000008045"
+  }
+ ]
+}

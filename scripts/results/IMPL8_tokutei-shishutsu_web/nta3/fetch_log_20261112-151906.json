@@ -1,0 +1,38 @@
+{
+ "set": "nta3",
+ "fetched_at": "20261112-151906",
+ "download_dir": ".work/downloads/20261112-151906_IMPL8_tokutei-shishutsu_web_nta3",
+ "robots": [
+  {
+   "host": "https://www.nta.go.jp",
+   "status": 200,
+   "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528"
+  }
+ ],
+ "items": [
+  {
+   "id": "joho_230614_02",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/shotoku/shinkoku/230614/pdf/02.pdf",
+   "final_url": "https://www.nta.go.jp/law/joho-zeikaishaku/shotoku/shinkoku/230614/pdf/02.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Thu, 18 Jan 2024 09:34:19 GMT",
+   "bytes": 353766,
+   "sha256": "a33e6a1dbf1c41521fc8a45807838cea30856b2a6067e7abc93581636dcd4d6c",
+   "saved": ".work/downloads/20261112-151906_IMPL8_tokutei-shishutsu_web_nta3/joho_230614_02.pdf",
+   "pdf_header_ok": true
+  },
+  {
+   "id": "joho_230614_03",
+   "url": "https://www.nta.go.jp/law/joho-zeikaishaku/shotoku/shinkoku/230614/pdf/03.pdf",
+   "final_url": "https://www.nta.go.jp/law/joho-zeikaishaku/shotoku/shinkoku/230614/pdf/03.pdf",
+   "status": 200,
+   "content_type": "application/pdf",
+   "last_modified": "Thu, 18 Jan 2024 09:34:18 GMT",
+   "bytes": 314464,
+   "sha256": "2aaa4fe2547b61c4479e21509d038a8c70413e313c9f76a1d21ae811db006a08",
+   "saved": ".work/downloads/20261112-151906_IMPL8_tokutei-shishutsu_web_nta3/joho_230614_03.pdf",
+   "pdf_header_ok": true
+  }
+ ]
+}

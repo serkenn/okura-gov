@@ -1,0 +1,3649 @@
+{
+ "生計": {
+  "生計を一にする": {
+   "total": 92,
+   "total_alone": 92,
+   "n_files": 28,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_iryohi-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_impl-prep_misc-hypotheses.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R2-tools_adoption.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 22,
+     "alone": 22
+    },
+    "docs/hypotheses/20261109_round2_aoiro-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2_gaps-hypotheses.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_genka-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_hoken-kifu-model.md": {
+     "count": 7,
+     "alone": 7
+    },
+    "docs/hypotheses/20261109_round2_jinteki-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2b_invoice-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_R4-modeling_scenarios.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2_aoiro-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_elderly-abroad-cases.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/inferences/20261109_round2_gaps-inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_hoken-kifu-cases.md": {
+     "count": 7,
+     "alone": 7
+    },
+    "docs/inferences/20261109_round2_jinteki-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_kokuho-examples.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_kyosai-cases.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2b_fudosan-inferences.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2b_nenkin-cases.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "生計を一に": {
+   "total": 102,
+   "total_alone": 10,
+   "n_files": 29,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_iryohi-model.md": {
+     "count": 2,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md": {
+     "count": 1,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_impl-prep_misc-hypotheses.md": {
+     "count": 2,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md": {
+     "count": 2,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R2-tools_adoption.md": {
+     "count": 1,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md": {
+     "count": 4,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 23,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_aoiro-model.md": {
+     "count": 3,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 5,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_gaps-hypotheses.md": {
+     "count": 2,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_round2_genka-model.md": {
+     "count": 1,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_round2_hoken-kifu-model.md": {
+     "count": 7,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_round2_jinteki-model.md": {
+     "count": 5,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md": {
+     "count": 2,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 5,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 5,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md": {
+     "count": 3,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_invoice-model.md": {
+     "count": 1,
+     "alone": 0
+    },
+    "docs/inferences/20261109_impl-prep_misc-inferences.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_R4-modeling_scenarios.md": {
+     "count": 2,
+     "alone": 0
+    },
+    "docs/inferences/20261109_round2_aoiro-cases.md": {
+     "count": 1,
+     "alone": 0
+    },
+    "docs/inferences/20261109_round2_elderly-abroad-cases.md": {
+     "count": 6,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2_gaps-inferences.md": {
+     "count": 1,
+     "alone": 0
+    },
+    "docs/inferences/20261109_round2_hoken-kifu-cases.md": {
+     "count": 8,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_jinteki-cases.md": {
+     "count": 2,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_kokuho-examples.md": {
+     "count": 1,
+     "alone": 0
+    },
+    "docs/inferences/20261109_round2_kyosai-cases.md": {
+     "count": 2,
+     "alone": 0
+    },
+    "docs/inferences/20261109_round2b_fudosan-inferences.md": {
+     "count": 2,
+     "alone": 0
+    },
+    "docs/inferences/20261109_round2b_nenkin-cases.md": {
+     "count": 1,
+     "alone": 0
+    }
+   }
+  },
+  "生計一": {
+   "total": 51,
+   "total_alone": 51,
+   "n_files": 6,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_iryohi-model.md": {
+     "count": 12,
+     "alone": 12
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 11,
+     "alone": 11
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/inferences/20261109_R4-modeling_scenarios.md": {
+     "count": 19,
+     "alone": 19
+    },
+    "docs/inferences/20261109_round2_spouse-implications.md": {
+     "count": 3,
+     "alone": 3
+    }
+   }
+  },
+  "生計同一": {
+   "total": 0,
+   "total_alone": 0,
+   "n_files": 0,
+   "files": {}
+  }
+ },
+ "同一世帯": {
+  "同一の世帯に属する": {
+   "total": 10,
+   "total_alone": 10,
+   "n_files": 4,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_round2_elderly-abroad-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_kyosai-cases.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "同一の世帯": {
+   "total": 29,
+   "total_alone": 19,
+   "n_files": 10,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md": {
+     "count": 7,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 5,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_R4-modeling_scenarios.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_elderly-abroad-cases.md": {
+     "count": 1,
+     "alone": 0
+    },
+    "docs/inferences/20261109_round2_kokuho-examples.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_kyosai-cases.md": {
+     "count": 3,
+     "alone": 2
+    }
+   }
+  },
+  "同一世帯": {
+   "total": 54,
+   "total_alone": 54,
+   "n_files": 16,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md": {
+     "count": 7,
+     "alone": 7
+    },
+    "docs/hypotheses/20261109_R1-laws_hypotheses.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 12,
+     "alone": 12
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/inferences/20261109_impl-prep_kenpo-test-cases.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/inferences/20261109_impl-prep_misc-inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_R1-laws_inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_R4-modeling_scenarios.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_elderly-abroad-cases.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_round2_gaps-inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_kyosai-cases.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/inferences/20261109_round2_spouse-implications.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  }
+ },
+ "判定の時点（健保）": {
+  "判定日": {
+   "total": 123,
+   "total_alone": 123,
+   "n_files": 22,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md": {
+     "count": 20,
+     "alone": 20
+    },
+    "docs/hypotheses/20261109_impl-prep_misc-hypotheses.md": {
+     "count": 8,
+     "alone": 8
+    },
+    "docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md": {
+     "count": 11,
+     "alone": 11
+    },
+    "docs/hypotheses/20261109_R2-tools_adoption.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 16,
+     "alone": 16
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2_gaps-hypotheses.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2_jinteki-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_kenpo-test-cases.md": {
+     "count": 14,
+     "alone": 14
+    },
+    "docs/inferences/20261109_impl-prep_misc-inferences.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_impl-prep_tools-implementation-checks.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/inferences/20261109_R1-laws_inferences.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_R2-tools_adoption-checks.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_R4-modeling_scenarios.md": {
+     "count": 17,
+     "alone": 17
+    },
+    "docs/inferences/20261109_round2_elderly-abroad-cases.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_round2_gaps-inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_genka-examples.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_hoken-kifu-cases.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2_kyosai-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_fudosan-inferences.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "認定日": {
+   "total": 53,
+   "total_alone": 53,
+   "n_files": 16,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md": {
+     "count": 10,
+     "alone": 10
+    },
+    "docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_gaps-hypotheses.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_jinteki-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_impl-prep_kenpo-test-cases.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_impl-prep_tools-implementation-checks.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_R3-tsutatsu_monitoring-design.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_R4-modeling_scenarios.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_round2_gaps-inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_kyosai-cases.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/inferences/20261109_round2_spouse-implications.md": {
+     "count": 2,
+     "alone": 2
+    }
+   }
+  },
+  "基準日": {
+   "total": 10,
+   "total_alone": 10,
+   "n_files": 4,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2_aoiro-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_kabu-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_impl-prep_tools-implementation-checks.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  }
+ },
+ "事実台帳": {
+  "事実台帳": {
+   "total": 14,
+   "total_alone": 14,
+   "n_files": 7,
+   "files": {
+    "docs/hypotheses/20261109_round2_aoiro-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_jinteki-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2_yoshiki-mapping-table.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_invoice-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_kabu-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_nenkin-model.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "人と関係の記録": {
+   "total": 6,
+   "total_alone": 6,
+   "n_files": 2,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 5,
+     "alone": 5
+    }
+   }
+  },
+  "取引でない事実": {
+   "total": 2,
+   "total_alone": 2,
+   "n_files": 2,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "取引ではない事実": {
+   "total": 2,
+   "total_alone": 2,
+   "n_files": 2,
+   "files": {
+    "docs/hypotheses/20261109_round2_aoiro-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  }
+ },
+ "判断台帳": {
+  "判断台帳": {
+   "total": 40,
+   "total_alone": 40,
+   "n_files": 12,
+   "files": {
+    "docs/hypotheses/20261109_round2_aoiro-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2_genka-model.md": {
+     "count": 12,
+     "alone": 12
+    },
+    "docs/hypotheses/20261109_round2_hoken-kifu-model.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_yoshiki-mapping-table.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2b_invoice-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2b_kabu-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2b_nenkin-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2_genka-examples.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_hoken-kifu-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_invoice-cases.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "人の判断": {
+   "total": 87,
+   "total_alone": 87,
+   "n_files": 27,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_impl-prep_iryohi-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_impl-prep_misc-hypotheses.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_impl-prep_output-minimal-layer.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R2-tools_adoption.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 17,
+     "alone": 17
+    },
+    "docs/hypotheses/20261109_round2_aoiro-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2_gaps-hypotheses.md": {
+     "count": 8,
+     "alone": 8
+    },
+    "docs/hypotheses/20261109_round2_genka-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_hoken-kifu-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2_jinteki-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2_yoshiki-mapping-table.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/hypotheses/20261109_round2b_invoice-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2b_kabu-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_nenkin-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2b_taishoku-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_impl-prep_denchoho-record-layer-checks.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_impl-prep_misc-inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_R3-tsutatsu_monitoring-design.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "判断の記録": {
+   "total": 4,
+   "total_alone": 4,
+   "n_files": 4,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_denchoho-record-layer-checks.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  }
+ },
+ "選択": {
+  "納税者の選択": {
+   "total": 21,
+   "total_alone": 21,
+   "n_files": 8,
+   "files": {
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_hoken-kifu-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2b_invoice-model.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/hypotheses/20261109_round2b_kabu-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_nenkin-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2b_taishoku-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/inferences/20261109_round2b_invoice-cases.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "本人の選択": {
+   "total": 6,
+   "total_alone": 6,
+   "n_files": 3,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_aoiro-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_genka-model.md": {
+     "count": 2,
+     "alone": 2
+    }
+   }
+  },
+  "人の選択": {
+   "total": 10,
+   "total_alone": 4,
+   "n_files": 4,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md": {
+     "count": 2,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2_aoiro-model.md": {
+     "count": 2,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_round2_genka-model.md": {
+     "count": 2,
+     "alone": 0
+    }
+   }
+  },
+  "家族の選択": {
+   "total": 1,
+   "total_alone": 1,
+   "n_files": 1,
+   "files": {
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  }
+ },
+ "注入": {
+  "注入データ": {
+   "total": 56,
+   "total_alone": 56,
+   "n_files": 17,
+   "files": {
+    "docs/hypotheses/20261109_round2_aoiro-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_gaps-hypotheses.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_genka-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_hoken-kifu-model.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/hypotheses/20261109_round2_jinteki-model.md": {
+     "count": 7,
+     "alone": 7
+    },
+    "docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 12,
+     "alone": 12
+    },
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_elderly-abroad-cases.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2_gaps-inferences.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_round2_jinteki-cases.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2_kokuho-examples.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_round2_spouse-implications.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_round2b_fudosan-inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_kabu-scenarios.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "注入するデータ": {
+   "total": 22,
+   "total_alone": 22,
+   "n_files": 9,
+   "files": {
+    "docs/hypotheses/20261109_round2_aoiro-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_gaps-hypotheses.md": {
+     "count": 8,
+     "alone": 8
+    },
+    "docs/hypotheses/20261109_round2_genka-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2_yoshiki-mapping-table.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_taishoku-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_genka-examples.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_taishoku-inferences.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "注入点": {
+   "total": 1,
+   "total_alone": 1,
+   "n_files": 1,
+   "files": {
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "保険者データ": {
+   "total": 41,
+   "total_alone": 41,
+   "n_files": 4,
+   "files": {
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 26,
+     "alone": 26
+    },
+    "docs/hypotheses/20261109_round2b_kabu-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2_kyosai-cases.md": {
+     "count": 12,
+     "alone": 12
+    },
+    "docs/inferences/20261109_round2b_kabu-scenarios.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "市町村データ": {
+   "total": 1,
+   "total_alone": 1,
+   "n_files": 1,
+   "files": {
+    "docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "団体データ": {
+   "total": 0,
+   "total_alone": 0,
+   "n_files": 0,
+   "files": {}
+  },
+  "注入": {
+   "total": 149,
+   "total_alone": 70,
+   "n_files": 26,
+   "files": {
+    "docs/hypotheses/20261109_round2_aoiro-model.md": {
+     "count": 2,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 11,
+     "alone": 8
+    },
+    "docs/hypotheses/20261109_round2_gaps-hypotheses.md": {
+     "count": 10,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_round2_genka-model.md": {
+     "count": 5,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_hoken-kifu-model.md": {
+     "count": 6,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_round2_jinteki-model.md": {
+     "count": 8,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md": {
+     "count": 13,
+     "alone": 10
+    },
+    "docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md": {
+     "count": 15,
+     "alone": 6
+    },
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 8,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 13,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_yoshiki-mapping-table.md": {
+     "count": 5,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md": {
+     "count": 2,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_invoice-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2b_kabu-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_taishoku-model.md": {
+     "count": 6,
+     "alone": 5
+    },
+    "docs/inferences/20261109_round2_elderly-abroad-cases.md": {
+     "count": 6,
+     "alone": 4
+    },
+    "docs/inferences/20261109_round2_gaps-inferences.md": {
+     "count": 4,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_genka-examples.md": {
+     "count": 2,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_jinteki-cases.md": {
+     "count": 2,
+     "alone": 0
+    },
+    "docs/inferences/20261109_round2_juminzei-tax-implications.md": {
+     "count": 10,
+     "alone": 10
+    },
+    "docs/inferences/20261109_round2_kokuho-examples.md": {
+     "count": 4,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_spouse-implications.md": {
+     "count": 3,
+     "alone": 0
+    },
+    "docs/inferences/20261109_round2b_fudosan-inferences.md": {
+     "count": 4,
+     "alone": 3
+    },
+    "docs/inferences/20261109_round2b_invoice-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_kabu-scenarios.md": {
+     "count": 1,
+     "alone": 0
+    },
+    "docs/inferences/20261109_round2b_taishoku-inferences.md": {
+     "count": 5,
+     "alone": 4
+    }
+   }
+  }
+ },
+ "見込み": {
+  "見込み": {
+   "total": 185,
+   "total_alone": 185,
+   "n_files": 41,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_impl-prep_iryohi-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md": {
+     "count": 19,
+     "alone": 19
+    },
+    "docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_R2-tools_adoption.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 9,
+     "alone": 9
+    },
+    "docs/hypotheses/20261109_round2_aoiro-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2_gaps-hypotheses.md": {
+     "count": 19,
+     "alone": 19
+    },
+    "docs/hypotheses/20261109_round2_genka-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_hoken-kifu-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 8,
+     "alone": 8
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 7,
+     "alone": 7
+    },
+    "docs/hypotheses/20261109_round2_yoshiki-mapping-table.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2b_invoice-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2b_kabu-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2b_nenkin-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2b_taishoku-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_impl-prep_jigyo-inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_kenpo-test-cases.md": {
+     "count": 20,
+     "alone": 20
+    },
+    "docs/inferences/20261109_impl-prep_kyuyo-inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_zeigaku-examples.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_R1-laws_inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_R3-tsutatsu_monitoring-design.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_R4-modeling_scenarios.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_round2_elderly-abroad-cases.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/inferences/20261109_round2_gaps-inferences.md": {
+     "count": 13,
+     "alone": 13
+    },
+    "docs/inferences/20261109_round2_genka-examples.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/inferences/20261109_round2_jinteki-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_kyosai-cases.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/inferences/20261109_round2_spouse-implications.md": {
+     "count": 9,
+     "alone": 9
+    },
+    "docs/inferences/20261109_round2b_fudosan-inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_invoice-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_nenkin-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_taishoku-inferences.md": {
+     "count": 2,
+     "alone": 2
+    }
+   }
+  },
+  "見積もり": {
+   "total": 0,
+   "total_alone": 0,
+   "n_files": 0,
+   "files": {}
+  },
+  "見積り": {
+   "total": 7,
+   "total_alone": 7,
+   "n_files": 3,
+   "files": {
+    "docs/hypotheses/20261109_round2_genka-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_spouse-implications.md": {
+     "count": 5,
+     "alone": 5
+    }
+   }
+  },
+  "推計": {
+   "total": 0,
+   "total_alone": 0,
+   "n_files": 0,
+   "files": {}
+  }
+ },
+ "年間収入": {
+  "年間収入": {
+   "total": 94,
+   "total_alone": 94,
+   "n_files": 23,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md": {
+     "count": 10,
+     "alone": 10
+    },
+    "docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 7,
+     "alone": 7
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_gaps-hypotheses.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_jinteki-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 7,
+     "alone": 7
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 7,
+     "alone": 7
+    },
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2b_invoice-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2b_kabu-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2b_nenkin-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2b_taishoku-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/inferences/20261109_impl-prep_kenpo-test-cases.md": {
+     "count": 8,
+     "alone": 8
+    },
+    "docs/inferences/20261109_R4-modeling_scenarios.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_round2_elderly-abroad-cases.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/inferences/20261109_round2_gaps-inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_jinteki-cases.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_round2_kyosai-cases.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2b_fudosan-inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_kabu-scenarios.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/inferences/20261109_round2b_nenkin-cases.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_round2b_taishoku-inferences.md": {
+     "count": 2,
+     "alone": 2
+    }
+   }
+  },
+  "年収": {
+   "total": 6,
+   "total_alone": 6,
+   "n_files": 5,
+   "files": {
+    "docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_gaps-hypotheses.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_impl-prep_kenpo-test-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_spouse-implications.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "収入の見込み": {
+   "total": 35,
+   "total_alone": 35,
+   "n_files": 16,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md": {
+     "count": 9,
+     "alone": 9
+    },
+    "docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_gaps-hypotheses.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_genka-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_invoice-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_kenpo-test-cases.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/inferences/20261109_round2_genka-examples.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_jinteki-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_kyosai-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_invoice-cases.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  }
+ },
+ "支払者": {
+  "支払者": {
+   "total": 137,
+   "total_alone": 137,
+   "n_files": 29,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_iryohi-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md": {
+     "count": 7,
+     "alone": 7
+    },
+    "docs/hypotheses/20261109_impl-prep_misc-hypotheses.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_impl-prep_output-minimal-layer.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 26,
+     "alone": 26
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_gaps-hypotheses.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_hoken-kifu-model.md": {
+     "count": 8,
+     "alone": 8
+    },
+    "docs/hypotheses/20261109_round2_yoshiki-mapping-table.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2b_kabu-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_nenkin-model.md": {
+     "count": 17,
+     "alone": 17
+    },
+    "docs/hypotheses/20261109_round2b_taishoku-model.md": {
+     "count": 10,
+     "alone": 10
+    },
+    "docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/inferences/20261109_impl-prep_jigyo-inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_juminzei-implications.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_impl-prep_kyuyo-inferences.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_impl-prep_output-checks.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_zeigaku-examples.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_R2-tools_adoption-checks.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_R4-modeling_scenarios.md": {
+     "count": 12,
+     "alone": 12
+    },
+    "docs/inferences/20261109_round2_hoken-kifu-cases.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/inferences/20261109_round2_yoshiki-checks.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_taishoku-inferences.md": {
+     "count": 4,
+     "alone": 4
+    }
+   }
+  },
+  "支払った人": {
+   "total": 18,
+   "total_alone": 18,
+   "n_files": 9,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_iryohi-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_impl-prep_output-minimal-layer.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_R2-tools_adoption.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_hoken-kifu-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/inferences/20261109_R2-tools_adoption-checks.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_hoken-kifu-cases.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "payer": {
+   "total": 6,
+   "total_alone": 6,
+   "n_files": 3,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_iryohi-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_R2-tools_adoption.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 3,
+     "alone": 3
+    }
+   }
+  }
+ },
+ "受診者": {
+  "受診者": {
+   "total": 31,
+   "total_alone": 31,
+   "n_files": 9,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_iryohi-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_impl-prep_output-minimal-layer.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 11,
+     "alone": 11
+    },
+    "docs/hypotheses/20261109_round2_yoshiki-mapping-table.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_output-checks.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_R2-tools_adoption-checks.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_R4-modeling_scenarios.md": {
+     "count": 6,
+     "alone": 6
+    }
+   }
+  },
+  "受診した人": {
+   "total": 4,
+   "total_alone": 4,
+   "n_files": 3,
+   "files": {
+    "docs/hypotheses/20261109_R2-tools_adoption.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_R2-tools_adoption-checks.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "patient": {
+   "total": 7,
+   "total_alone": 7,
+   "n_files": 3,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_iryohi-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_R2-tools_adoption.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 3,
+     "alone": 3
+    }
+   }
+  }
+ },
+ "扶養の所属": {
+  "扶養所属": {
+   "total": 48,
+   "total_alone": 48,
+   "n_files": 6,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_misc-hypotheses.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 24,
+     "alone": 24
+    },
+    "docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_juminzei-implications.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_misc-inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_R4-modeling_scenarios.md": {
+     "count": 17,
+     "alone": 17
+    }
+   }
+  },
+  "扶養の所属": {
+   "total": 19,
+   "total_alone": 19,
+   "n_files": 10,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_iryohi-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_impl-prep_misc-hypotheses.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_jinteki-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_juminzei-implications.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_R4-modeling_scenarios.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_jinteki-cases.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "所属の割当て": {
+   "total": 14,
+   "total_alone": 14,
+   "n_files": 4,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_misc-hypotheses.md": {
+     "count": 10,
+     "alone": 10
+    },
+    "docs/hypotheses/20261109_round2_gaps-hypotheses.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_impl-prep_misc-inferences.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "所属の割当": {
+   "total": 14,
+   "total_alone": 0,
+   "n_files": 4,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_misc-hypotheses.md": {
+     "count": 10,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_round2_gaps-hypotheses.md": {
+     "count": 1,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 2,
+     "alone": 0
+    },
+    "docs/inferences/20261109_impl-prep_misc-inferences.md": {
+     "count": 1,
+     "alone": 0
+    }
+   }
+  }
+ },
+ "申告書の記載": {
+  "申告書等の記載": {
+   "total": 14,
+   "total_alone": 14,
+   "n_files": 6,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_misc-hypotheses.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2_jinteki-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_round2_jinteki-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_spouse-implications.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "申告書の記載": {
+   "total": 20,
+   "total_alone": 20,
+   "n_files": 13,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_output-minimal-layer.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_yoshiki-mapping-table.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_kabu-model.md": {
+     "count": 7,
+     "alone": 7
+    },
+    "docs/hypotheses/20261109_round2b_taishoku-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_jigyo-inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_juminzei-implications.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_zeigaku-examples.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_gaps-inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_hoken-kifu-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_juminzei-tax-implications.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_kabu-scenarios.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_taishoku-inferences.md": {
+     "count": 2,
+     "alone": 2
+    }
+   }
+  },
+  "記載の事実": {
+   "total": 4,
+   "total_alone": 4,
+   "n_files": 3,
+   "files": {
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_genka-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "提出した申告書": {
+   "total": 8,
+   "total_alone": 8,
+   "n_files": 4,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_misc-hypotheses.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_yoshiki-mapping-table.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_kabu-model.md": {
+     "count": 4,
+     "alone": 4
+    }
+   }
+  }
+ },
+ "中間表現": {
+  "中間表現": {
+   "total": 120,
+   "total_alone": 120,
+   "n_files": 35,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_impl-prep_iryohi-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md": {
+     "count": 8,
+     "alone": 8
+    },
+    "docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_impl-prep_kyuyo-hypotheses.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_impl-prep_output-minimal-layer.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_impl-prep_tools-adoption-recheck.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_R2-tools_adoption.md": {
+     "count": 7,
+     "alone": 7
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 26,
+     "alone": 26
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_yoshiki-mapping-table.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2b_invoice-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_kabu-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2b_nenkin-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_taishoku-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_denchoho-record-layer-checks.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_iryohi-s3-recheck.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_impl-prep_juminzei-implications.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/inferences/20261109_impl-prep_kenpo-test-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_kyuyo-inferences.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/inferences/20261109_impl-prep_tools-implementation-checks.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_impl-prep_zeigaku-examples.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_R1-laws_inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_R2-tools_adoption-checks.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/inferences/20261109_R3-tsutatsu_monitoring-design.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_R4-modeling_scenarios.md": {
+     "count": 11,
+     "alone": 11
+    },
+    "docs/inferences/20261109_round2_aoiro-cases.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2_hoken-kifu-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_kyosai-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_kabu-scenarios.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "事実の語彙": {
+   "total": 2,
+   "total_alone": 2,
+   "n_files": 2,
+   "files": {
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_invoice-model.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  }
+ },
+ "印": {
+  "未確定": {
+   "total": 133,
+   "total_alone": 133,
+   "n_files": 36,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_jigyo-calculation-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_impl-prep_misc-hypotheses.md": {
+     "count": 7,
+     "alone": 7
+    },
+    "docs/hypotheses/20261109_impl-prep_output-minimal-layer.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R1-laws_hypotheses.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_aoiro-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/hypotheses/20261109_round2_gaps-hypotheses.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2_genka-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2_jinteki-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 9,
+     "alone": 9
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_yoshiki-mapping-table.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/hypotheses/20261109_round2b_invoice-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_kabu-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2b_nenkin-model.md": {
+     "count": 12,
+     "alone": 12
+    },
+    "docs/hypotheses/20261109_round2b_taishoku-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_impl-prep_kenpo-test-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_kyuyo-inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_aoiro-cases.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2_elderly-abroad-cases.md": {
+     "count": 10,
+     "alone": 10
+    },
+    "docs/inferences/20261109_round2_gaps-inferences.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/inferences/20261109_round2_genka-examples.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2_jinteki-cases.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/inferences/20261109_round2_juminzei-tax-implications.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/inferences/20261109_round2_kokuho-examples.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/inferences/20261109_round2_kyosai-cases.md": {
+     "count": 8,
+     "alone": 8
+    },
+    "docs/inferences/20261109_round2_spouse-implications.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_fudosan-inferences.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/inferences/20261109_round2b_invoice-cases.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2b_kabu-scenarios.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_nenkin-cases.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2b_taishoku-inferences.md": {
+     "count": 2,
+     "alone": 2
+    }
+   }
+  },
+  "出典未確認": {
+   "total": 48,
+   "total_alone": 48,
+   "n_files": 18,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_aoiro-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2_genka-model.md": {
+     "count": 10,
+     "alone": 10
+    },
+    "docs/hypotheses/20261109_round2_hoken-kifu-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2b_invoice-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2b_kabu-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2b_nenkin-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_taishoku-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_impl-prep_kenpo-test-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_aoiro-cases.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2_genka-examples.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_kyosai-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_kabu-scenarios.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_taishoku-inferences.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "対象外": {
+   "total": 114,
+   "total_alone": 114,
+   "n_files": 32,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_impl-prep_iryohi-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R1-laws_hypotheses.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2_aoiro-model.md": {
+     "count": 10,
+     "alone": 10
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_genka-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2_hoken-kifu-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2_jinteki-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_yoshiki-mapping-table.md": {
+     "count": 12,
+     "alone": 12
+    },
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md": {
+     "count": 8,
+     "alone": 8
+    },
+    "docs/hypotheses/20261109_round2b_invoice-model.md": {
+     "count": 7,
+     "alone": 7
+    },
+    "docs/hypotheses/20261109_round2b_kabu-model.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/hypotheses/20261109_round2b_nenkin-model.md": {
+     "count": 7,
+     "alone": 7
+    },
+    "docs/hypotheses/20261109_round2b_taishoku-model.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/inferences/20261109_impl-prep_juminzei-implications.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_kenpo-test-cases.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_impl-prep_misc-inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_R1-laws_inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_R4-modeling_scenarios.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/inferences/20261109_round2_genka-examples.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2_hoken-kifu-cases.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_round2_spouse-implications.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/inferences/20261109_round2_yoshiki-checks.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2b_nenkin-cases.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2b_taishoku-inferences.md": {
+     "count": 4,
+     "alone": 4
+    }
+   }
+  },
+  "見込み」の印": {
+   "total": 3,
+   "total_alone": 3,
+   "n_files": 2,
+   "files": {
+    "docs/hypotheses/20261109_round2_gaps-hypotheses.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2_gaps-inferences.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "通達による取扱い": {
+   "total": 3,
+   "total_alone": 3,
+   "n_files": 2,
+   "files": {
+    "docs/hypotheses/20261109_round2_jinteki-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2_jinteki-cases.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "国税庁の説明に基づく": {
+   "total": 1,
+   "total_alone": 1,
+   "n_files": 1,
+   "files": {
+    "docs/hypotheses/20261109_round2_hoken-kifu-model.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  }
+ },
+ "居住": {
+  "居住者": {
+   "total": 164,
+   "total_alone": 115,
+   "n_files": 24,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_iryohi-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md": {
+     "count": 2,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_impl-prep_misc-hypotheses.md": {
+     "count": 25,
+     "alone": 25
+    },
+    "docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 27,
+     "alone": 24
+    },
+    "docs/hypotheses/20261109_round2_aoiro-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 40,
+     "alone": 19
+    },
+    "docs/hypotheses/20261109_round2_gaps-hypotheses.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2_hoken-kifu-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2_jinteki-model.md": {
+     "count": 8,
+     "alone": 8
+    },
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 4,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_yoshiki-mapping-table.md": {
+     "count": 1,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_nenkin-model.md": {
+     "count": 4,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_round2b_taishoku-model.md": {
+     "count": 4,
+     "alone": 0
+    },
+    "docs/inferences/20261109_impl-prep_kyuyo-inferences.md": {
+     "count": 1,
+     "alone": 0
+    },
+    "docs/inferences/20261109_impl-prep_misc-inferences.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_R4-modeling_scenarios.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2_elderly-abroad-cases.md": {
+     "count": 21,
+     "alone": 13
+    },
+    "docs/inferences/20261109_round2_jinteki-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_kyosai-cases.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2b_nenkin-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_taishoku-inferences.md": {
+     "count": 5,
+     "alone": 1
+    }
+   }
+  },
+  "非居住者": {
+   "total": 49,
+   "total_alone": 49,
+   "n_files": 10,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 21,
+     "alone": 21
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_yoshiki-mapping-table.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_nenkin-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2b_taishoku-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/inferences/20261109_impl-prep_kyuyo-inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_elderly-abroad-cases.md": {
+     "count": 8,
+     "alone": 8
+    },
+    "docs/inferences/20261109_round2b_taishoku-inferences.md": {
+     "count": 4,
+     "alone": 4
+    }
+   }
+  },
+  "国外居住親族": {
+   "total": 26,
+   "total_alone": 26,
+   "n_files": 6,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_misc-hypotheses.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 12,
+     "alone": 12
+    },
+    "docs/hypotheses/20261109_round2_yoshiki-mapping-table.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_output-checks.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_elderly-abroad-cases.md": {
+     "count": 8,
+     "alone": 8
+    },
+    "docs/inferences/20261109_round2_kyosai-cases.md": {
+     "count": 2,
+     "alone": 2
+    }
+   }
+  },
+  "国内居住要件": {
+   "total": 15,
+   "total_alone": 15,
+   "n_files": 7,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 7,
+     "alone": 7
+    },
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2_elderly-abroad-cases.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2_kyosai-cases.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  }
+ },
+ "配偶者": {
+  "同一生計配偶者": {
+   "total": 62,
+   "total_alone": 62,
+   "n_files": 22,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_juminzei-judgment-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_impl-prep_misc-hypotheses.md": {
+     "count": 9,
+     "alone": 9
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2_aoiro-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_gaps-hypotheses.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2_hoken-kifu-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_jinteki-model.md": {
+     "count": 7,
+     "alone": 7
+    },
+    "docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/hypotheses/20261109_round2_yoshiki-mapping-table.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2b_invoice-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_nenkin-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_taishoku-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_impl-prep_misc-inferences.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_R4-modeling_scenarios.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2_elderly-abroad-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_spouse-implications.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_round2b_taishoku-inferences.md": {
+     "count": 4,
+     "alone": 4
+    }
+   }
+  },
+  "控除対象配偶者": {
+   "total": 26,
+   "total_alone": 19,
+   "n_files": 10,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_impl-prep_misc-hypotheses.md": {
+     "count": 2,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_aoiro-model.md": {
+     "count": 1,
+     "alone": 0
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_jinteki-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_juminzei-tax-calc-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 11,
+     "alone": 7
+    },
+    "docs/hypotheses/20261109_round2b_taishoku-model.md": {
+     "count": 2,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_spouse-implications.md": {
+     "count": 2,
+     "alone": 2
+    }
+   }
+  },
+  "源泉控除対象配偶者": {
+   "total": 7,
+   "total_alone": 7,
+   "n_files": 4,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_misc-hypotheses.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_aoiro-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2b_taishoku-model.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "事実婚": {
+   "total": 40,
+   "total_alone": 40,
+   "n_files": 10,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_impl-prep_misc-hypotheses.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 7,
+     "alone": 7
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_jinteki-model.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 12,
+     "alone": 12
+    },
+    "docs/inferences/20261109_impl-prep_kenpo-test-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_misc-inferences.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2_jinteki-cases.md": {
+     "count": 3,
+     "alone": 3
+    }
+   }
+  },
+  "法律婚": {
+   "total": 18,
+   "total_alone": 18,
+   "n_files": 5,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_misc-hypotheses.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 10,
+     "alone": 10
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_R4-modeling_scenarios.md": {
+     "count": 5,
+     "alone": 5
+    }
+   }
+  }
+ },
+ "保険者": {
+  "保険者": {
+   "total": 373,
+   "total_alone": 373,
+   "n_files": 34,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_iryohi-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md": {
+     "count": 39,
+     "alone": 39
+    },
+    "docs/hypotheses/20261109_impl-prep_output-minimal-layer.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_impl-prep_zeigaku-calc-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_R2-tools_adoption.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_R3-tsutatsu_record-facts-and-monitoring.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 39,
+     "alone": 39
+    },
+    "docs/hypotheses/20261109_round2_aoiro-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 12,
+     "alone": 12
+    },
+    "docs/hypotheses/20261109_round2_gaps-hypotheses.md": {
+     "count": 11,
+     "alone": 11
+    },
+    "docs/hypotheses/20261109_round2_genka-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2_hoken-kifu-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_jinteki-model.md": {
+     "count": 10,
+     "alone": 10
+    },
+    "docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md": {
+     "count": 17,
+     "alone": 17
+    },
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 45,
+     "alone": 45
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 31,
+     "alone": 31
+    },
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2b_invoice-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2b_kabu-model.md": {
+     "count": 14,
+     "alone": 14
+    },
+    "docs/hypotheses/20261109_round2b_taishoku-model.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/inferences/20261109_impl-prep_kenpo-test-cases.md": {
+     "count": 10,
+     "alone": 10
+    },
+    "docs/inferences/20261109_R4-modeling_scenarios.md": {
+     "count": 14,
+     "alone": 14
+    },
+    "docs/inferences/20261109_round2_elderly-abroad-cases.md": {
+     "count": 12,
+     "alone": 12
+    },
+    "docs/inferences/20261109_round2_gaps-inferences.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/inferences/20261109_round2_genka-examples.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/inferences/20261109_round2_jinteki-cases.md": {
+     "count": 8,
+     "alone": 8
+    },
+    "docs/inferences/20261109_round2_kokuho-examples.md": {
+     "count": 17,
+     "alone": 17
+    },
+    "docs/inferences/20261109_round2_kyosai-cases.md": {
+     "count": 17,
+     "alone": 17
+    },
+    "docs/inferences/20261109_round2_spouse-implications.md": {
+     "count": 9,
+     "alone": 9
+    },
+    "docs/inferences/20261109_round2b_fudosan-inferences.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/inferences/20261109_round2b_invoice-cases.md": {
+     "count": 9,
+     "alone": 9
+    },
+    "docs/inferences/20261109_round2b_kabu-scenarios.md": {
+     "count": 7,
+     "alone": 7
+    },
+    "docs/inferences/20261109_round2b_nenkin-cases.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/inferences/20261109_round2b_taishoku-inferences.md": {
+     "count": 4,
+     "alone": 4
+    }
+   }
+  },
+  "共済組合": {
+   "total": 18,
+   "total_alone": 18,
+   "n_files": 11,
+   "files": {
+    "docs/hypotheses/20261109_round2_jinteki-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_kokuho-core-vs-injected.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 5,
+     "alone": 5
+    },
+    "docs/hypotheses/20261109_round2_spouse-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2b_invoice-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_elderly-abroad-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_jinteki-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_kokuho-examples.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2_kyosai-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_invoice-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_taishoku-inferences.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "健保組合": {
+   "total": 14,
+   "total_alone": 14,
+   "n_files": 11,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md": {
+     "count": 4,
+     "alone": 4
+    },
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_impl-prep_kenpo-test-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_elderly-abroad-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_gaps-inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_jinteki-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_kyosai-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_spouse-implications.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_fudosan-inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_invoice-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_taishoku-inferences.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "協会けんぽ": {
+   "total": 51,
+   "total_alone": 51,
+   "n_files": 18,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_kenpo-input-facts.md": {
+     "count": 12,
+     "alone": 12
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_elderly-abroad-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2_gaps-hypotheses.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/hypotheses/20261109_round2_genka-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2_kyosai-model.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/hypotheses/20261109_round2b_invoice-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_impl-prep_kenpo-test-cases.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_round2_elderly-abroad-cases.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_round2_gaps-inferences.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_genka-examples.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2_kyosai-cases.md": {
+     "count": 6,
+     "alone": 6
+    },
+    "docs/inferences/20261109_round2_spouse-implications.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2b_fudosan-inferences.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/inferences/20261109_round2b_invoice-cases.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_kabu-scenarios.md": {
+     "count": 1,
+     "alone": 1
+    },
+    "docs/inferences/20261109_round2b_taishoku-inferences.md": {
+     "count": 2,
+     "alone": 2
+    }
+   }
+  }
+ },
+ "業務": {
+  "業務ID": {
+   "total": 0,
+   "total_alone": 0,
+   "n_files": 0,
+   "files": {}
+  },
+  "業務別": {
+   "total": 3,
+   "total_alone": 3,
+   "n_files": 1,
+   "files": {
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 3,
+     "alone": 3
+    }
+   }
+  },
+  "業務ごと": {
+   "total": 6,
+   "total_alone": 6,
+   "n_files": 3,
+   "files": {
+    "docs/hypotheses/20261109_round2_aoiro-model.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_round2b_invoice-model.md": {
+     "count": 2,
+     "alone": 2
+    },
+    "docs/inferences/20261109_round2_genka-examples.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "事業ごと": {
+   "total": 0,
+   "total_alone": 0,
+   "n_files": 0,
+   "files": {}
+  }
+ },
+ "人ID": {
+  "人ID": {
+   "total": 1,
+   "total_alone": 1,
+   "n_files": 1,
+   "files": {
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  },
+  "person_id": {
+   "total": 0,
+   "total_alone": 0,
+   "n_files": 0,
+   "files": {}
+  },
+  "person": {
+   "total": 5,
+   "total_alone": 5,
+   "n_files": 2,
+   "files": {
+    "docs/hypotheses/20261109_impl-prep_denchoho-record-layer.md": {
+     "count": 3,
+     "alone": 3
+    },
+    "docs/hypotheses/20261109_R4-modeling_entity-model.md": {
+     "count": 2,
+     "alone": 2
+    }
+   }
+  },
+  "人の ID": {
+   "total": 1,
+   "total_alone": 1,
+   "n_files": 1,
+   "files": {
+    "docs/hypotheses/20261109_round2b_fudosan-calculation-model.md": {
+     "count": 1,
+     "alone": 1
+    }
+   }
+  }
+ }
+}

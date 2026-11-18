@@ -1,0 +1,56 @@
+{
+  "set": "mhlw2",
+  "fetched_at_local": "20261109-152451",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "mhlw_kokuji181_torikumi",
+      "url": "https://www.mhlw.go.jp/content/10800000/000619222.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/10800000/000619222.pdf",
+      "content_type": "application/pdf",
+      "bytes": 60558,
+      "sha256": "4178768d89284d7a1815cedc1055b801d2a140dad7bf5a3594197d123c0447e8",
+      "last_modified": "Thu, 13 Aug 2026 08:01:17 GMT",
+      "saved": ".work/downloads/20261109-152451_IMPL_iryohi_mhlw2/mhlw_kokuji181_torikumi.pdf"
+    },
+    {
+      "id": "mhlw_shomei_r8_hokensha",
+      "url": "https://www.mhlw.go.jp/content/10800000/001755789.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/10800000/001755789.pdf",
+      "content_type": "application/pdf",
+      "bytes": 103460,
+      "sha256": "29f0a78bba5a769ba3a0efa515aceb4f03957e6eab2aacde086afec7e5ae6fb7",
+      "last_modified": "Fri, 02 Oct 2026 06:29:52 GMT",
+      "saved": ".work/downloads/20261109-152451_IMPL_iryohi_mhlw2/mhlw_shomei_r8_hokensha.pdf"
+    },
+    {
+      "id": "mhlw_torikumi_setsumei",
+      "url": "https://www.mhlw.go.jp/content/10800000/000837214.pdf",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/content/10800000/000837214.pdf",
+      "content_type": "application/pdf",
+      "bytes": 40391,
+      "sha256": "f4241fc873a8b0395355659497575ed985de2616df827bebbf588f4a5765faee",
+      "last_modified": "Fri, 02 Oct 2026 06:29:51 GMT",
+      "saved": ".work/downloads/20261109-152451_IMPL_iryohi_mhlw2/mhlw_torikumi_setsumei.pdf"
+    },
+    {
+      "id": "mhlw_receipt_error_page",
+      "url": "https://www.mhlw.go.jp/stf/newpage_08184.html",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/stf/newpage_08184.html",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 67299,
+      "sha256": "eab1355f04eef70be0845d145329a2978a3cc793542f91532ecfe07d7a39c3ee",
+      "last_modified": null,
+      "saved": ".work/downloads/20261109-152451_IMPL_iryohi_mhlw2/mhlw_receipt_error_page.html",
+      "charset": "UTF-8",
+      "title": "セルフメディケーション税制対象医薬品に係るレシートの表示の誤りについて｜厚生労働省",
+      "text_chars": 11083,
+      "text": ".work/text/20261109-152451_IMPL_iryohi_mhlw2/mhlw_receipt_error_page.txt",
+      "n_links": 286
+    }
+  ]
+}

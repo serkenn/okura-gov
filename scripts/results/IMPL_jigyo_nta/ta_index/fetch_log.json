@@ -1,0 +1,139 @@
+{
+ "set": "ta_index",
+ "fetched_at": "20261109-145809",
+ "download_dir": ".work/downloads/20261109-145809_IMPL_jigyo_nta_ta_index",
+ "items": [
+  {
+   "id": "ta_1810",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1810.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:07 GMT",
+   "bytes": 19802,
+   "sha256": "66d23053e2d026aae6270ea7700f5fc64a2bf0bfbdf67d9fdd17a5da050d2982",
+   "saved": ".work/downloads/20261109-145809_IMPL_jigyo_nta_ta_index/ta_1810.htm",
+   "title": "No.1810 家内労働者等の必要経費の特例｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_1490",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1490.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:09 GMT",
+   "bytes": 20079,
+   "sha256": "2702cdd465c79308c35145ee2e61caab8d5d07926be03415d377a31c9225da45",
+   "saved": ".work/downloads/20261109-145809_IMPL_jigyo_nta_ta_index/ta_1490.htm",
+   "title": "No.1490 一時所得｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_1500",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1500.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:09 GMT",
+   "bytes": 20260,
+   "sha256": "c3be3c0c45cdea739aad71f7ed2618af960c393013a6d9cc4e068910a1092d9c",
+   "saved": ".work/downloads/20261109-145809_IMPL_jigyo_nta_ta_index/ta_1500.htm",
+   "title": "No.1500 雑所得｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_1350",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1350.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:10 GMT",
+   "bytes": 20635,
+   "sha256": "f1ead6adbe79d49bf8c3c8fe49f1073634bda3d407b2fa8874160be4d5202b59",
+   "saved": ".work/downloads/20261109-145809_IMPL_jigyo_nta_ta_index/ta_1350.htm",
+   "title": "No.1350 事業所得の課税のしくみ(事業所得)｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_2070",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2070.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:05 GMT",
+   "bytes": 26364,
+   "sha256": "2f280b15db8d1691682b857c06cbe825b26f04bb462f5a601b6cfa1ae6dbc7d9",
+   "saved": ".work/downloads/20261109-145809_IMPL_jigyo_nta_ta_index/ta_2070.htm",
+   "title": "No.2070 青色申告制度｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_2072",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2072.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:05 GMT",
+   "bytes": 18706,
+   "sha256": "de4d48788c2cdaf2c4225d16799780e9f75a17d6162ac09f61cc87eb07fb17ea",
+   "saved": ".work/downloads/20261109-145809_IMPL_jigyo_nta_ta_index/ta_2072.htm",
+   "title": "No.2072 青色申告特別控除｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_2080",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2080.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:05 GMT",
+   "bytes": 17770,
+   "sha256": "a5fb722112cc84672daf78f0301d166bcce9fe97b38331ab7cf62d086b82ddb6",
+   "saved": ".work/downloads/20261109-145809_IMPL_jigyo_nta_ta_index/ta_2080.htm",
+   "title": "No.2080 白色申告者の記帳・帳簿等保存制度｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "ta_2210",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 09 Sep 2026 01:00:04 GMT",
+   "bytes": 22617,
+   "sha256": "40767a3ae083b75f21f782c78d976fa878671ad2b2e64d1e9222c4ae3b9fc23c",
+   "saved": ".work/downloads/20261109-145809_IMPL_jigyo_nta_ta_index/ta_2210.htm",
+   "title": "No.2210 必要経費の知識｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "kicho_index",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/index.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 12 Dec 2025 08:30:32 GMT",
+   "bytes": 7610,
+   "sha256": "f73fb0b8172af9ea8c42ea1225b19fabb676bf8aba02e0cf8c32b11367090bef",
+   "saved": ".work/downloads/20261109-145809_IMPL_jigyo_nta_ta_index/kicho_index.htm",
+   "title": "確定申告書等の様式・手引き等｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "sochiho_shotoku_index",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/sotihou.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 02 Oct 2026 08:30:02 GMT",
+   "bytes": 9815,
+   "sha256": "b2a29a6f10d446a603eb32c360585043e7f6138bfc41baa35356a935e9cf0bc4",
+   "saved": ".work/downloads/20261109-145809_IMPL_jigyo_nta_ta_index/sochiho_shotoku_index.htm",
+   "title": "所得税関係 措置法通達目次｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "kihon_shotoku_index",
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 25 Dec 2025 01:00:06 GMT",
+   "bytes": 38254,
+   "sha256": "74710f9540adcb9b7e6b181ba716e93be44be38195cc0c7dfe1a8e02fcf16e4f",
+   "saved": ".work/downloads/20261109-145809_IMPL_jigyo_nta_ta_index/kihon_shotoku_index.htm",
+   "title": "通達目次 / 所得税基本通達｜国税庁",
+   "encoding": "shift_jis"
+  }
+ ]
+}

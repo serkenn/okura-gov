@@ -1,0 +1,55 @@
+{
+ "run_at": "20261109-151321",
+ "download_dir": ".work\\downloads\\20261109-151321_IMPL_zeigaku_laws2",
+ "fetches": [
+  {
+   "short": "fukko-rei",
+   "title": "復興特別所得税に関する政令",
+   "law_id": "424CO0000000016",
+   "asof": "2026-12-31",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/424CO0000000016?response_format=json&asof=2026-12-31",
+   "law_revision_id": "424CO0000000016_20260525_507CO0000000244",
+   "amendment_enforcement_date": "2026-05-25",
+   "current_revision_status": "PreviousEnforced",
+   "picked": [
+    [
+     "本則",
+     "4"
+    ],
+    [
+     "本則",
+     "6"
+    ],
+    [
+     "本則",
+     "7"
+    ],
+    [
+     "本則",
+     "8"
+    ],
+    [
+     "本則",
+     "9"
+    ],
+    [
+     "本則",
+     "10"
+    ]
+   ]
+  },
+  {
+   "short": "fukko-ki",
+   "title": "復興特別所得税に関する省令",
+   "law_id": "424M60000040006",
+   "asof": "2026-12-31",
+   "url": "https://laws.e-gov.go.jp/api/2/law_data/424M60000040006?response_format=json&asof=2026-12-31",
+   "law_revision_id": "424M60000040006_20260901_506M60000040028",
+   "amendment_enforcement_date": "2026-09-01",
+   "current_revision_status": "CurrentEnforced",
+   "picked": []
+  }
+ ],
+ "keyword": [],
+ "errors": []
+}

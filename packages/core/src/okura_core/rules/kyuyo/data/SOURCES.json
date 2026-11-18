@@ -1,0 +1,47 @@
+{
+  "description": "判定コアが読む表のデータ（実測の出力を写したもの）。ファイルを差し替えたら sha256 を直し、tests/test_data_and_parameters.py と tests/test_kyuyo_egov.py を通すこと。",
+  "files": {
+    "beppyo5_2025-12-31.csv": {
+      "table_id": "beppyo5_2025-12-31",
+      "title": "所得税法 別表第五（年末調整等のための給与所得控除後の給与等の金額の表）令和7年分の版",
+      "law": "所得税法 別表第五（第28条第4項）",
+      "law_id": "340AC0000000033",
+      "law_revision_id": "340AC0000000033_20251218_507AC0000000013",
+      "asof": "2025-12-31",
+      "egov_source_url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=json&asof=2025-12-31",
+      "egov_source_sha256": "84a2235cb4437184cce50cef0a9a85945833e94a2624fbf68d67c131eccb7db3",
+      "source_kind": "法律",
+      "sha256": "37e0b46c4784e2ba418b5f4402fe8b4742212c3569528595fc437c538c4f7431",
+      "original": "scripts/results/IMPL_kyuyo_beppyo5/beppyo5_2025-12-31.csv",
+      "original_sha256": "37e0b46c4784e2ba418b5f4402fe8b4742212c3569528595fc437c538c4f7431",
+      "produced_by": "scripts/IMPL_kyuyo_beppyo5.py",
+      "copied_on": "2026-11-11",
+      "references": [
+        "docs/measurements/20261109_impl-prep_kyuyo-beppyo5.md#3",
+        "docs/measurements/20261109_impl-prep_kyuyo-beppyo5.md#4",
+        "docs/public-sources/20261109_impl-prep_kyuyo-sources.md#1.2"
+      ]
+    },
+    "beppyo5_2026-12-01.csv": {
+      "table_id": "beppyo5_2026-12-01",
+      "title": "所得税法 別表第五（年末調整等のための給与所得控除後の給与等の金額の表）令和8年分の版",
+      "law": "所得税法 別表第五（第28条第4項）",
+      "law_id": "340AC0000000033",
+      "law_revision_id": "340AC0000000033_20261201_508AC0000000012",
+      "asof": "2026-12-01",
+      "egov_source_url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000033?response_format=json&asof=2026-12-01",
+      "egov_source_sha256": "47792299f0fb5a74bad21f18f21bf7c3479017375c705b0e882a5c77823d16c8",
+      "source_kind": "法律",
+      "sha256": "d88ea5420892a4f23bbfc3d60147a3f6e7ff83441d62eb849cb9c4f7514d767e",
+      "original": "scripts/results/IMPL_kyuyo_beppyo5/beppyo5_2026-12-01.csv",
+      "original_sha256": "d88ea5420892a4f23bbfc3d60147a3f6e7ff83441d62eb849cb9c4f7514d767e",
+      "produced_by": "scripts/IMPL_kyuyo_beppyo5.py",
+      "copied_on": "2026-11-11",
+      "references": [
+        "docs/measurements/20261109_impl-prep_kyuyo-beppyo5.md#3",
+        "docs/measurements/20261109_impl-prep_kyuyo-beppyo5.md#4",
+        "docs/public-sources/20261109_impl-prep_kyuyo-sources.md#1.2"
+      ]
+    }
+  }
+}

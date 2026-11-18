@@ -1,0 +1,175 @@
+{
+ "beancount": "3.2.3",
+ "documents": [
+  {
+   "account": "Expenses:Medical",
+   "bytes": 23,
+   "date": "2026-01-10",
+   "links": [
+    "tx-2026-0001"
+   ],
+   "meta": {
+    "txid": {
+     "string": "tx-2026-0001"
+    }
+   },
+   "path": "receipts/2026-01-10.山田医院.pdf",
+   "sha256": "7dff632fe9b5e92e918f06918817e0781829e4ed226c71095023ba67c6baa8d7",
+   "source": {
+    "file": "main.beancount",
+    "line": 17
+   },
+   "tags": []
+  }
+ ],
+ "load_errors": [],
+ "problems": [],
+ "schema": "impl-probe-tx/0",
+ "source_files": [
+  {
+   "bytes": 888,
+   "path": "main.beancount",
+   "sha256": "1efbab8c32a68d8ee2a9abebe6048e33751d3cb614543fe5b471bc5c44ec0f2b"
+  }
+ ],
+ "transactions": [
+  {
+   "date": "2026-01-10",
+   "flag": "*",
+   "id": "tx-2026-0001",
+   "links": [
+    "tx-2026-0001"
+   ],
+   "meta": {
+    "id": {
+     "string": "tx-2026-0001"
+    },
+    "patient": {
+     "string": "次郎"
+    },
+    "payer": {
+     "string": "太郎"
+    },
+    "visit-date": {
+     "date": "2026-01-09"
+    }
+   },
+   "narration": "初診料（次郎）",
+   "payee": "山田医院",
+   "postings": [
+    {
+     "account": "Expenses:Medical",
+     "cost": null,
+     "currency": "JPY",
+     "interpolated": false,
+     "meta": {
+      "memo": {
+       "string": "保険適用後の自己負担"
+      }
+     },
+     "number": "3000",
+     "price": null
+    },
+    {
+     "account": "Assets:Cash:Taro",
+     "cost": null,
+     "currency": "JPY",
+     "interpolated": true,
+     "meta": {},
+     "number": "-3000",
+     "price": null
+    }
+   ],
+   "source": {
+    "file": "main.beancount",
+    "line": 8
+   },
+   "tags": []
+  },
+  {
+   "date": "2026-02-03",
+   "flag": "*",
+   "id": "tx-2026-0002",
+   "links": [],
+   "meta": {
+    "id": {
+     "string": "tx-2026-0002"
+    },
+    "patient": {
+     "string": "太郎"
+    },
+    "payer": {
+     "string": "太郎"
+    }
+   },
+   "narration": "処方薬",
+   "payee": "やまだ薬局",
+   "postings": [
+    {
+     "account": "Expenses:Medical",
+     "cost": null,
+     "currency": "JPY",
+     "interpolated": false,
+     "meta": {},
+     "number": "1500",
+     "price": null
+    },
+    {
+     "account": "Assets:Bank:Taro",
+     "cost": null,
+     "currency": "JPY",
+     "interpolated": false,
+     "meta": {},
+     "number": "-1500",
+     "price": null
+    }
+   ],
+   "source": {
+    "file": "main.beancount",
+    "line": 20
+   },
+   "tags": []
+  },
+  {
+   "date": "2026-02-25",
+   "flag": "*",
+   "id": "tx-2026-0003",
+   "links": [],
+   "meta": {
+    "id": {
+     "string": "tx-2026-0003"
+    },
+    "person": {
+     "string": "次郎"
+    }
+   },
+   "narration": "2月分給与",
+   "payee": "コンビニ",
+   "postings": [
+    {
+     "account": "Assets:Cash:Jiro",
+     "cost": null,
+     "currency": "JPY",
+     "interpolated": false,
+     "meta": {},
+     "number": "52000",
+     "price": null
+    },
+    {
+     "account": "Income:Job:Konbini",
+     "cost": null,
+     "currency": "JPY",
+     "interpolated": true,
+     "meta": {},
+     "number": "-52000",
+     "price": null
+    }
+   ],
+   "source": {
+    "file": "main.beancount",
+    "line": 27
+   },
+   "tags": []
+  }
+ ]
+}

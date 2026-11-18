@@ -1,0 +1,84 @@
+{
+ "run_at": "20261109-181845",
+ "download_dir": ".work\\downloads\\20261109-181845_R2X_juminzei-tax_web",
+ "fetches": [
+  {
+   "name": "soumu_choka",
+   "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/149767_25.html",
+   "robots_status": 200,
+   "robots_allowed": true,
+   "status": 200,
+   "final_url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/149767_25.html",
+   "content_type": "text/html",
+   "bytes": 40598,
+   "sha256": "1198f4c64e18700b71309478ba08522c5809f5f0ee02f8f9b26bc0c595ee7bd7",
+   "saved": "soumu_choka.html",
+   "charset": "shift_jis"
+  },
+  {
+   "name": "nagoya_keisanrei",
+   "url": "https://www.city.nagoya.jp/kurashi/zeikin/1037356/1011880/1011883/1011891.html",
+   "robots_status": 200,
+   "robots_allowed": true,
+   "status": 200,
+   "final_url": "https://www.city.nagoya.jp/kurashi/zeikin/1037356/1011880/1011883/1011891.html",
+   "content_type": "text/html",
+   "bytes": 47632,
+   "sha256": "e31ea03689c320af2f9e829cffa1f474d6c7fe091481184adf3a7ebf4e9027a5",
+   "saved": "nagoya_keisanrei.html",
+   "charset": "utf-8"
+  },
+  {
+   "name": "yokohama_keisan",
+   "url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/zeikin/y-shizei/kojin-shiminzei-kenminzei/kojin-shiminzei-shosai/kojinkeisan.html",
+   "robots_status": 404,
+   "robots_allowed": true,
+   "status": 200,
+   "final_url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/zeikin/y-shizei/kojin-shiminzei-kenminzei/kojin-shiminzei-shosai/kojinkeisan.html",
+   "content_type": "text/html",
+   "bytes": 55565,
+   "sha256": "4333d084b74e43c55a6e984cce8a287ba33249fea6291a1e0b81db3056ab66c9",
+   "saved": "yokohama_keisan.html",
+   "charset": "utf-8"
+  },
+  {
+   "name": "yokohama_zeigakukoujo",
+   "url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/zeikin/y-shizei/kojin-shiminzei-kenminzei/kojin-shiminzei-shosai/zeigakukoujoR2.html",
+   "robots_status": 404,
+   "robots_allowed": true,
+   "status": 200,
+   "final_url": "https://www.city.yokohama.lg.jp/kurashi/koseki-zei-hoken/zeikin/y-shizei/kojin-shiminzei-kenminzei/kojin-shiminzei-shosai/zeigakukoujoR2.html",
+   "content_type": "text/html",
+   "bytes": 65394,
+   "sha256": "a6c0088c980818c584e813c90a0a166172d9675e915b642ac127e56cbe4acf81",
+   "saved": "yokohama_zeigakukoujo.html",
+   "charset": "utf-8"
+  },
+  {
+   "name": "chuo_zeigakukoujo",
+   "url": "https://www.city.chuo.lg.jp/a0009/kurashi/zeikin/juuminzei/zeigakukoujo.html",
+   "robots_status": 404,
+   "robots_allowed": true,
+   "status": 200,
+   "final_url": "https://www.city.chuo.lg.jp/a0009/kurashi/zeikin/juuminzei/zeigakukoujo.html",
+   "content_type": "text/html",
+   "bytes": 37002,
+   "sha256": "439d113607a5ecdf7d3e9b73cbc1d31b8165dc9908cc37271654b48f944a3d84",
+   "saved": "chuo_zeigakukoujo.html",
+   "charset": "utf-8"
+  },
+  {
+   "name": "wakayama_zeigakukoujo",
+   "url": "https://www.pref.wakayama.lg.jp/prefg/010500/kenzei/kojinkenmin/kojinkenmin_zeigakukojo.html",
+   "robots_status": 404,
+   "robots_allowed": true,
+   "status": 200,
+   "final_url": "https://www.pref.wakayama.lg.jp/prefg/010500/kenzei/kojinkenmin/kojinkenmin_zeigakukojo.html",
+   "content_type": "text/html",
+   "bytes": 17115,
+   "sha256": "3142b6a459166458d2997e9ed0bd41820adfbe145cccacfa277f31b1f6c8200b",
+   "saved": "wakayama_zeigakukoujo.html",
+   "charset": "utf-8"
+  }
+ ]
+}

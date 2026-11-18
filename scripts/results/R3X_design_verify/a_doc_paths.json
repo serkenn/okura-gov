@@ -1,0 +1,21 @@
+{
+ "docs/hypotheses/20261109_round3_design-vocabulary.md": {
+  "n": 50,
+  "missing": [
+   {
+    "line": 7,
+    "path": "docs/hypotheses/20261109_round3_design-vocabulary-concepts.md",
+    "exists": false
+   },
+   {
+    "line": 8,
+    "path": "docs/hypotheses/20261109_round3_design-vocabulary-conflicts.md",
+    "exists": false
+   }
+  ]
+ },
+ "docs/hypotheses/20261109_round3_design-output.md": {
+  "n": 36,
+  "missing": []
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "aes_selftest": true,
+ "aes_selftest_r2b": {
+  "aes128_encrypt_C1": true,
+  "aes256_encrypt_C3": true,
+  "aes256_decrypt_C3": true
+ },
+ "files": {
+  "tebiki038": {
+   "path": ".work/downloads/20261112-151625_IMPL8_tokutei-shishutsu_web_nta2/tebiki_2025_038.pdf",
+   "sha256": "b3ab3d55ab0813716bf7203d6fbb15200cd8c4ab23d5ddf68341b558021efe2d",
+   "encrypt": "AESV3(V5,R6)",
+   "key_ok": true,
+   "pages": 17,
+   "rows": 3318,
+   "fonts": [
+    "C0_0:Identity-H",
+    "C0_1:Identity-H",
+    "C0_2:Identity-H",
+    "C0_3:Identity-H",
+    "C2_0:Identity-H+ToUnicode",
+    "C2_1:Identity-H+ToUnicode",
+    "None:?"
+   ],
+   "type0_fonts": 46,
+   "type0_fonts_without_tounicode": 29,
+   "tounicode_cmap_streams": 17
+  },
+  "yoshiki039": {
+   "path": ".work/downloads/20261112-151625_IMPL8_tokutei-shishutsu_web_nta2/yoshiki_039.pdf",
+   "sha256": "f4d2a144bdadbb3bd91ab142f5e04e8dd4387d343fac589c695ffde8682f0b4d",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 4,
+   "rows": 2172,
+   "fonts": [
+    "F0:Identity-H+ToUnicode",
+    "F1:Identity-H+ToUnicode",
+    "F3:Identity-H+ToUnicode",
+    "F4:Identity-V+ToUnicode",
+    "F5:Identity-V+ToUnicode",
+    "None:?"
+   ],
+   "type0_fonts": 6,
+   "type0_fonts_without_tounicode": 0,
+   "tounicode_cmap_streams": 6
+  },
+  "joho02": {
+   "path": ".work/downloads/20261112-151906_IMPL8_tokutei-shishutsu_web_nta3/joho_230614_02.pdf",
+   "sha256": "a33e6a1dbf1c41521fc8a45807838cea30856b2a6067e7abc93581636dcd4d6c",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 10,
+   "rows": 383,
+   "fonts": [
+    "F1:Identity-H+ToUnicode",
+    "F2:Identity-H+ToUnicode",
+    "F3:Identity-H+ToUnicode"
+   ],
+   "type0_fonts": 3,
+   "type0_fonts_without_tounicode": 0,
+   "tounicode_cmap_streams": 3
+  },
+  "joho03": {
+   "path": ".work/downloads/20261112-151906_IMPL8_tokutei-shishutsu_web_nta3/joho_230614_03.pdf",
+   "sha256": "2aaa4fe2547b61c4479e21509d038a8c70413e313c9f76a1d21ae811db006a08",
+   "encrypt": "AESV2(V4,R4)",
+   "key_ok": true,
+   "pages": 19,
+   "rows": 396,
+   "fonts": [
+    "F1:Identity-H+ToUnicode",
+    "F2:Identity-H+ToUnicode",
+    "F3:Identity-H+ToUnicode"
+   ],
+   "type0_fonts": 3,
+   "type0_fonts_without_tounicode": 0,
+   "tounicode_cmap_streams": 3
+  }
+ }
+}

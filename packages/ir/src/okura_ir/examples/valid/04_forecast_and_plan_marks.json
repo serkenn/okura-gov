@@ -1,0 +1,77 @@
+{
+ "schema_version": "0",
+ "persons": [
+  {"id": "p-m", "birth_on": "1970-06-30"},
+  {"id": "p-n", "birth_on": "2007-01-01"}
+ ],
+ "relations": [
+  {"id": "rel-parent-mn", "kind": "parentage", "roles": {"parent": "p-m", "child": "p-n"},
+   "when": {"on": "2007-01-01"}, "attributes": {"basis": "birth_mother"}},
+  {"id": "rel-cohab-mn", "kind": "cohabitation", "roles": {"person": "p-m", "other_person": "p-n"},
+   "when": {"from_on": "2007-01-01"}}
+ ],
+ "residences": [
+  {"id": "res-m", "kind": "resident_record", "roles": {"person": "p-m"}, "when": {"from_on": "2000-04-01"},
+   "attributes": {"municipality_code": "990031", "household_id": "hh-m", "householder": true}},
+  {"id": "res-n", "kind": "resident_record", "roles": {"person": "p-n"}, "when": {"from_on": "2007-01-01"},
+   "attributes": {"municipality_code": "990031", "household_id": "hh-m", "householder": false,
+                  "relation_to_householder": "child"}}
+ ],
+ "insurance_memberships": [
+  {"id": "mem-m", "kind": "medical_insurance", "roles": {"member": "p-m"}, "when": {"from_on": "1993-04-01"},
+   "attributes": {"scheme": "kyokai_kenpo", "insurer_id": "insurer-kk", "capacity": "insured"}},
+  {"id": "mem-n", "kind": "medical_insurance", "roles": {"member": "p-n", "insured": "p-m"},
+   "when": {"from_on": "2007-01-01"},
+   "attributes": {"scheme": "kyokai_kenpo", "insurer_id": "insurer-kk", "capacity": "dependent"}}
+ ],
+ "facts": [
+  {"id": "biz-n", "kind": "business", "roles": {"owner": "p-n"}, "when": {"from_on": "2025-06-01"},
+   "attributes": {"description": "架空のイラストの受注"}},
+  {"id": "f-n-rcpt-03", "kind": "business_receipt", "roles": {"recipient": "p-n"}, "when": {"on": "2026-03-31"},
+   "amounts": {"amount": 50000}, "attributes": {"business_id": "biz-n", "counterparty": "架空ゲーム社"},
+   "source": {"transaction_ids": ["tx-2026-0331-n"]}},
+  {"id": "f-n-rcpt-11-forecast", "kind": "business_receipt", "roles": {"recipient": "p-n"},
+   "when": {"on": "2026-11-30"}, "mark": "予測", "amounts": {"amount": 120000},
+   "attributes": {"business_id": "biz-n", "counterparty": "架空ゲーム社"},
+   "note": "受注の打診があった案件の見込み（架空）"},
+  {"id": "f-n-rcpt-12-forecast", "kind": "business_receipt", "roles": {"recipient": "p-n"},
+   "when": {"on": "2026-12-28"}, "mark": "予測", "amounts": {"amount": 80000},
+   "attributes": {"business_id": "biz-n"}},
+  {"id": "f-n-salary-12-forecast", "kind": "salary_payment", "roles": {"recipient": "p-n"},
+   "when": {"on": "2026-12-25"}, "mark": "予測", "amounts": {"gross": 40000},
+   "attributes": {"counterparty": "架空カフェ", "due_on": "2026-12-25"}},
+  {"id": "f-n-enroll", "kind": "enrollment", "roles": {"person": "p-n"},
+   "when": {"from_on": "2025-04-01", "to_on": "2029-03-31"},
+   "attributes": {"school_type": "school_act_article1", "attendance": "full_time"}},
+  {"id": "f-n-decision", "kind": "insurer_decision", "roles": {"dependent": "p-n", "insured": "p-m"},
+   "when": {"on": "2007-01-20"}, "attributes": {"decision": "recognized", "effective_on": "2007-01-01"}}
+ ],
+ "assets": [],
+ "filed_documents": [],
+ "judgments": [
+  {"id": "j-n-annual-income", "kind": "見込み.年間収入", "judged_by": {"person": "p-m"},
+   "judged_at": "2026-04-01T19:00:00+09:00", "mark": "予測",
+   "subject": {"person": "p-n"}, "when": {"on": "2026-04-01"},
+   "value": {"amounts": [{"income_type": "business", "amount": 700000},
+                         {"income_type": "salary", "amount": 300000}],
+             "known_changes": "11月に大きな案件の見込み（架空）"},
+   "basis": {"material_period": {"from_on": "2025-06-01", "to_on": "2026-03-31"},
+             "record_ids": ["f-n-rcpt-03"], "method": "過去10か月の受注の実績と打診の状況から"}},
+  {"id": "j-n-livelihood-forecast", "kind": "判断.生計を一にする", "judged_by": {"person": "p-m"},
+   "judged_at": "2026-04-01T19:05:00+09:00", "mark": "予測",
+   "subject": {"person": "p-m", "other_person": "p-n"},
+   "when": {"from_on": "2026-04-01", "to_on": "2027-03-31"}, "value": true},
+  {"id": "j-n-recurring", "kind": "判断.収入の恒常性", "judged_by": {"person": "p-m"},
+   "judged_at": "2026-04-01T19:10:00+09:00",
+   "subject": {"person": "p-n", "record_ids": ["f-n-rcpt-11-forecast"]}, "value": "temporary"},
+  {"id": "j-n-filing-plan", "kind": "計画.申告の方法と時期", "judged_by": {"person": "p-n"},
+   "judged_at": "2026-04-02T10:00:00+09:00", "mark": "計画",
+   "subject": {"person": "p-n"}, "when": {"tax_year": 2026},
+   "value": {"method": "e_tax", "planned_filing_on": "2027-02-20", "within_deadline": true}}
+ ],
+ "choices": [
+  {"id": "c-n-dependent-notice", "kind": "選択.被扶養者の届出", "chosen_by": "p-m",
+   "chosen_at": "2007-01-10T09:00:00+09:00",
+   "subject": {"person": "p-n", "insured": "p-m"}, "when": {"from_on": "2007-01-01"}, "value": true}
+ ]
+}

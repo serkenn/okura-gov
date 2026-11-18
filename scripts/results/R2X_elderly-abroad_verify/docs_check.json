@@ -1,0 +1,779 @@
+{
+ "MS2.1": [
+  {
+   "row": "| shotoku | 2025-12-31 | 340AC0000000033_20251218_507AC0000000013 | PreviousEnfo",
+   "ok": true
+  },
+  {
+   "row": "| shotoku | 2026-11-09 | 340AC0000000033_20261001_507AC0000000070 | CurrentEnfor",
+   "ok": true
+  },
+  {
+   "row": "| shotoku | 2026-12-31 | 340AC0000000033_20261201_508AC0000000012 | UnEnforced |",
+   "ok": true
+  },
+  {
+   "row": "| shotoku-rei | 2025-12-31 | 340CO0000000096_20251201_507CO0000000120 | Previous",
+   "ok": true
+  },
+  {
+   "row": "| shotoku-rei | 2026-11-09 | 340CO0000000096_20260522_508CO0000000093 | CurrentE",
+   "ok": true
+  },
+  {
+   "row": "| shotoku-rei | 2026-12-31 | 340CO0000000096_20261201_508CO0000000093 | UnEnforc",
+   "ok": true
+  },
+  {
+   "row": "| shotoku-ki | 2025-12-31 | 340M50000040011_20251201_507M60000040018 | PreviousE",
+   "ok": true
+  },
+  {
+   "row": "| shotoku-ki | 2026-11-09 | 340M50000040011_20261001_507M60000040018 | CurrentEn",
+   "ok": true
+  },
+  {
+   "row": "| shotoku-ki | 2026-12-31 | 340M50000040011_20261211_508M60000040017 | UnEnforce",
+   "ok": true
+  },
+  {
+   "row": "| sochi | 2025-12-31 | 332AC0000000026_20251231_507AC1000000081 | PreviousEnforc",
+   "ok": true
+  },
+  {
+   "row": "| sochi | 2026-11-09 | 332AC0000000026_20261101_507AC0000000013 | CurrentEnforce",
+   "ok": true
+  },
+  {
+   "row": "| sochi | 2026-12-31 | 332AC0000000026_20261204_508AC0000000012 | UnEnforced（ame",
+   "ok": true
+  },
+  {
+   "row": "| sochi-rei | 2026-11-09 | 332CO0000000043_20261101_507CO0000000127 | CurrentEnf",
+   "ok": true
+  },
+  {
+   "row": "| chiho | 2026-01-01 | 325AC0000000226_20260101_507AC0000000041 | PreviousEnforc",
+   "ok": true
+  },
+  {
+   "row": "| chiho | 2026-11-09 | 325AC0000000226_20261101_508AC0000000002 | CurrentEnforce",
+   "ok": true
+  },
+  {
+   "row": "| chiho | 2027-01-01 | 325AC0000000226_20270101_508AC0000000002 | UnEnforced | e",
+   "ok": true
+  },
+  {
+   "row": "| chiho-ki | 2026-01-01 | 329M50000002023_20260101_507M60000008116 | PreviousEnf",
+   "ok": true
+  },
+  {
+   "row": "| chiho-ki | 2026-11-09 | 329M50000002023_20261101_508M60000008045 | CurrentEnfo",
+   "ok": true
+  },
+  {
+   "row": "| chiho-ki | 2027-01-01 | 329M50000002023_20270101_508M60000008089 | UnEnforced ",
+   "ok": true
+  },
+  {
+   "row": "| kenpo | 2025-12-31 | 211AC0000000070_20251212_507AC0000000087 | PreviousEnforc",
+   "ok": true
+  },
+  {
+   "row": "| kenpo | 2026-11-09 | 211AC0000000070_20261001_507AC0000000087 | CurrentEnforce",
+   "ok": true
+  },
+  {
+   "row": "| kenpo-ki | 2025-12-31 | 215M10000008036_20251201_507M60000100118 | PreviousEnf",
+   "ok": true
+  },
+  {
+   "row": "| kenpo-ki | 2026-11-09 | 215M10000008036_20261001_508M60000100144 | CurrentEnfo",
+   "ok": true
+  },
+  {
+   "row": "| koukirei | 2026-11-09 | 357AC0000000080_20261001_507AC0000000087 | CurrentEnfo",
+   "ok": true
+  }
+ ],
+ "MS2.2": [
+  {
+   "set": "elderly",
+   "id": "ta_1180",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "449f2938072747d8",
+   "their_text_sha_naive": "6797a1877167ecf0",
+   "their_text_sha_crlf_to_lf": "449f2938072747d8",
+   "crcrlf_in_file": 274,
+   "text_sha_ok": true
+  },
+  {
+   "set": "elderly",
+   "id": "ta_1180_qa",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "257e286ee749ad47",
+   "their_text_sha_naive": "590053bb8f9bf067",
+   "their_text_sha_crlf_to_lf": "257e286ee749ad47",
+   "crcrlf_in_file": 265,
+   "text_sha_ok": true
+  },
+  {
+   "set": "elderly",
+   "id": "ta_1182",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "6343e3fe33ce95d8",
+   "their_text_sha_naive": "69001ac21f176363",
+   "their_text_sha_crlf_to_lf": "6343e3fe33ce95d8",
+   "crcrlf_in_file": 249,
+   "text_sha_ok": true
+  },
+  {
+   "set": "elderly",
+   "id": "shitsugi_shotoku_05_32",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "423b0f40e51ddfdc",
+   "their_text_sha_naive": "81e41da622f7b4d8",
+   "their_text_sha_crlf_to_lf": "423b0f40e51ddfdc",
+   "crcrlf_in_file": 96,
+   "text_sha_ok": true
+  },
+  {
+   "set": "elderly",
+   "id": "tebiki2025_yogo_y11",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "620ded4061ff6ad8",
+   "their_text_sha_naive": "11c2dc0aa292844d",
+   "their_text_sha_crlf_to_lf": "620ded4061ff6ad8",
+   "crcrlf_in_file": 87,
+   "text_sha_ok": true
+  },
+  {
+   "set": "elderly",
+   "id": "tebiki2025_yogo_y12",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "6b793bb1dcfa7743",
+   "their_text_sha_naive": "eba309470d0f7772",
+   "their_text_sha_crlf_to_lf": "6b793bb1dcfa7743",
+   "crcrlf_in_file": 88,
+   "text_sha_ok": true
+  },
+  {
+   "set": "elderly",
+   "id": "tebiki2025_3_3_27",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "bda66e2e3d234bae",
+   "their_text_sha_naive": "30e40cf314b9069c",
+   "their_text_sha_crlf_to_lf": "bda66e2e3d234bae",
+   "crcrlf_in_file": 204,
+   "text_sha_ok": true
+  },
+  {
+   "set": "elderly",
+   "id": "sochiho_tsutatsu_toc",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "09eb49314912b45c",
+   "their_text_sha_naive": "4c7f2be507d24991",
+   "their_text_sha_crlf_to_lf": "09eb49314912b45c",
+   "crcrlf_in_file": 578,
+   "text_sha_ok": true
+  },
+  {
+   "set": "elderly",
+   "id": "kihon_tsutatsu_2_1",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "345ceabc60791868",
+   "their_text_sha_naive": "345ceabc60791868",
+   "their_text_sha_crlf_to_lf": "345ceabc60791868",
+   "crcrlf_in_file": 0,
+   "text_sha_ok": true
+  },
+  {
+   "set": "elderly",
+   "id": "kihon_tsutatsu_2_47",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "30d1e3031b6ab2d4",
+   "their_text_sha_naive": "147a37033dcb1454",
+   "their_text_sha_crlf_to_lf": "30d1e3031b6ab2d4",
+   "crcrlf_in_file": 211,
+   "text_sha_ok": true
+  },
+  {
+   "set": "elderly",
+   "id": "nencho2026_105",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "—",
+   "their_text_sha_naive": "—",
+   "their_text_sha_crlf_to_lf": "—",
+   "crcrlf_in_file": null,
+   "text_sha_ok": true
+  },
+  {
+   "set": "elderly",
+   "id": "nencho2025_105",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "—",
+   "their_text_sha_naive": "—",
+   "their_text_sha_crlf_to_lf": "—",
+   "crcrlf_in_file": null,
+   "text_sha_ok": true
+  },
+  {
+   "set": "abroad",
+   "id": "kokugai_index",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "c8cfffb363e05c6d",
+   "their_text_sha_naive": "c8cfffb363e05c6d",
+   "their_text_sha_crlf_to_lf": "c8cfffb363e05c6d",
+   "crcrlf_in_file": 0,
+   "text_sha_ok": true
+  },
+  {
+   "set": "abroad",
+   "id": "kokugai_sokin",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "cfe638202799d522",
+   "their_text_sha_naive": "cfe638202799d522",
+   "their_text_sha_crlf_to_lf": "cfe638202799d522",
+   "crcrlf_in_file": 0,
+   "text_sha_ok": true
+  },
+  {
+   "set": "abroad",
+   "id": "kokugai_qa_pdf",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "—",
+   "their_text_sha_naive": "—",
+   "their_text_sha_crlf_to_lf": "—",
+   "crcrlf_in_file": null,
+   "text_sha_ok": true
+  },
+  {
+   "set": "abroad",
+   "id": "kokugai_leaf_pdf",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "—",
+   "their_text_sha_naive": "—",
+   "their_text_sha_crlf_to_lf": "—",
+   "crcrlf_in_file": null,
+   "text_sha_ok": true
+  },
+  {
+   "set": "abroad",
+   "id": "r2kaisei_pdf",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "—",
+   "their_text_sha_naive": "—",
+   "their_text_sha_crlf_to_lf": "—",
+   "crcrlf_in_file": null,
+   "text_sha_ok": true
+  },
+  {
+   "set": "kenpo",
+   "id": "S52_tsuchi",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "4946d39337e46050",
+   "their_text_sha_naive": "4946d39337e46050",
+   "their_text_sha_crlf_to_lf": "4946d39337e46050",
+   "crcrlf_in_file": 0,
+   "text_sha_ok": true
+  },
+  {
+   "set": "kenpo",
+   "id": "R01_kokunai",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "3eb24bfa367ec588",
+   "their_text_sha_naive": "3eb24bfa367ec588",
+   "their_text_sha_crlf_to_lf": "3eb24bfa367ec588",
+   "crcrlf_in_file": 0,
+   "text_sha_ok": true
+  },
+  {
+   "set": "kenpo",
+   "id": "R05_kokunai_kaisei",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "5cd8222c56ec3730",
+   "their_text_sha_naive": "5cd8222c56ec3730",
+   "their_text_sha_crlf_to_lf": "5cd8222c56ec3730",
+   "crcrlf_in_file": 0,
+   "text_sha_ok": true
+  },
+  {
+   "set": "kenpo",
+   "id": "nenkin_kyojuyoken",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "4e5eccafe11521af",
+   "their_text_sha_naive": "4e5eccafe11521af",
+   "their_text_sha_crlf_to_lf": "4e5eccafe11521af",
+   "crcrlf_in_file": 0,
+   "text_sha_ok": true
+  },
+  {
+   "set": "kenpo",
+   "id": "nenkin_20200324",
+   "refetched": false,
+   "last_modified_ok": null,
+   "sha_same_as_my_fetch": null,
+   "bytes_ok": null,
+   "text_sha_in_doc": "09d2f1dd65b84b34",
+   "their_text_sha_naive": "09d2f1dd65b84b34",
+   "their_text_sha_crlf_to_lf": "09d2f1dd65b84b34",
+   "crcrlf_in_file": 0,
+   "text_sha_ok": true
+  },
+  {
+   "set": "kenpo",
+   "id": "nenkin_20141202",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "01fb9d992d0d8622",
+   "their_text_sha_naive": "01fb9d992d0d8622",
+   "their_text_sha_crlf_to_lf": "01fb9d992d0d8622",
+   "crcrlf_in_file": 0,
+   "text_sha_ok": true
+  },
+  {
+   "set": "kenpo",
+   "id": "kyoukai_guide2607",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": true,
+   "bytes_ok": true,
+   "text_sha_in_doc": "—",
+   "their_text_sha_naive": "—",
+   "their_text_sha_crlf_to_lf": "—",
+   "crcrlf_in_file": null,
+   "text_sha_ok": true
+  },
+  {
+   "set": "kenpo",
+   "id": "kyoukai_faq_dependent",
+   "refetched": true,
+   "last_modified_ok": true,
+   "sha_same_as_my_fetch": false,
+   "bytes_ok": true,
+   "text_sha_in_doc": "52ba098fbe9c0a42",
+   "their_text_sha_naive": "52ba098fbe9c0a42",
+   "their_text_sha_crlf_to_lf": "52ba098fbe9c0a42",
+   "crcrlf_in_file": 0,
+   "text_sha_ok": true
+  }
+ ],
+ "LW0": [
+  {
+   "law": "所法",
+   "asof": "2025-12-31",
+   "claimed": "340AC0000000033_20251218_507AC0000000013",
+   "actual": "340AC0000000033_20251218_507AC0000000013",
+   "ok": true
+  },
+  {
+   "law": "所法",
+   "asof": "2026-11-09",
+   "claimed": "340AC0000000033_20261001_507AC0000000070",
+   "actual": "340AC0000000033_20261001_507AC0000000070",
+   "ok": true
+  },
+  {
+   "law": "所法",
+   "asof": "2026-12-31",
+   "claimed": "340AC0000000033_20261201_508AC0000000012",
+   "actual": "340AC0000000033_20261201_508AC0000000012",
+   "ok": true
+  },
+  {
+   "law": "所令",
+   "asof": "2025-12-31",
+   "claimed": "340CO0000000096_20251201_507CO0000000120",
+   "actual": "340CO0000000096_20251201_507CO0000000120",
+   "ok": true
+  },
+  {
+   "law": "所令",
+   "asof": "2026-11-09",
+   "claimed": "340CO0000000096_20260522_508CO0000000093",
+   "actual": "340CO0000000096_20260522_508CO0000000093",
+   "ok": true
+  },
+  {
+   "law": "所令",
+   "asof": "2026-12-31",
+   "claimed": "340CO0000000096_20261201_508CO0000000093",
+   "actual": "340CO0000000096_20261201_508CO0000000093",
+   "ok": true
+  },
+  {
+   "law": "所規",
+   "asof": "2025-12-31",
+   "claimed": "340M50000040011_20251201_507M60000040018",
+   "actual": "340M50000040011_20251201_507M60000040018",
+   "ok": true
+  },
+  {
+   "law": "所規",
+   "asof": "2026-11-09",
+   "claimed": "340M50000040011_20261001_507M60000040018",
+   "actual": "340M50000040011_20261001_507M60000040018",
+   "ok": true
+  },
+  {
+   "law": "所規",
+   "asof": "2026-12-31",
+   "claimed": "340M50000040011_20261211_508M60000040017",
+   "actual": "340M50000040011_20261211_508M60000040017",
+   "ok": true
+  },
+  {
+   "law": "措法",
+   "asof": "2025-12-31",
+   "claimed": "332AC0000000026_20251231_507AC1000000081",
+   "actual": "332AC0000000026_20251231_507AC1000000081",
+   "ok": true
+  },
+  {
+   "law": "措法",
+   "asof": "2026-11-09",
+   "claimed": "332AC0000000026_20261101_507AC0000000013",
+   "actual": "332AC0000000026_20261101_507AC0000000013",
+   "ok": true
+  },
+  {
+   "law": "措法",
+   "asof": "2026-12-31",
+   "claimed": "332AC0000000026_20261204_508AC0000000012",
+   "actual": "332AC0000000026_20261204_508AC0000000012",
+   "ok": true
+  },
+  {
+   "law": "措令",
+   "asof": "2026-11-09",
+   "claimed": "332CO0000000043_20261101_507CO0000000127",
+   "actual": "332CO0000000043_20261101_507CO0000000127",
+   "ok": true
+  },
+  {
+   "law": "地法",
+   "asof": "2026-01-01",
+   "claimed": "325AC0000000226_20260101_507AC0000000041",
+   "actual": "325AC0000000226_20260101_507AC0000000041",
+   "ok": true
+  },
+  {
+   "law": "地法",
+   "asof": "2026-11-09",
+   "claimed": "325AC0000000226_20261101_508AC0000000002",
+   "actual": "325AC0000000226_20261101_508AC0000000002",
+   "ok": true
+  },
+  {
+   "law": "地法",
+   "asof": "2027-01-01",
+   "claimed": "325AC0000000226_20270101_508AC0000000002",
+   "actual": "325AC0000000226_20270101_508AC0000000002",
+   "ok": true
+  },
+  {
+   "law": "地規",
+   "asof": "2026-01-01",
+   "claimed": "329M50000002023_20260101_507M60000008116",
+   "actual": "329M50000002023_20260101_507M60000008116",
+   "ok": true
+  },
+  {
+   "law": "地規",
+   "asof": "2026-11-09",
+   "claimed": "329M50000002023_20261101_508M60000008045",
+   "actual": "329M50000002023_20261101_508M60000008045",
+   "ok": true
+  },
+  {
+   "law": "地規",
+   "asof": "2027-01-01",
+   "claimed": "329M50000002023_20270101_508M60000008089",
+   "actual": "329M50000002023_20270101_508M60000008089",
+   "ok": true
+  },
+  {
+   "law": "健保法",
+   "asof": "2025-12-31",
+   "claimed": "211AC0000000070_20251212_507AC0000000087",
+   "actual": "211AC0000000070_20251212_507AC0000000087",
+   "ok": true
+  },
+  {
+   "law": "健保法",
+   "asof": "2026-11-09",
+   "claimed": "211AC0000000070_20261001_507AC0000000087",
+   "actual": "211AC0000000070_20261001_507AC0000000087",
+   "ok": true
+  },
+  {
+   "law": "健保則",
+   "asof": "2025-12-31",
+   "claimed": "215M10000008036_20251201_507M60000100118",
+   "actual": "215M10000008036_20251201_507M60000100118",
+   "ok": true
+  },
+  {
+   "law": "健保則",
+   "asof": "2026-11-09",
+   "claimed": "215M10000008036_20261001_508M60000100144",
+   "actual": "215M10000008036_20261001_508M60000100144",
+   "ok": true
+  },
+  {
+   "law": "高確法",
+   "asof": "2026-11-09",
+   "claimed": "357AC0000000080_20261001_507AC0000000087",
+   "actual": "357AC0000000080_20261001_507AC0000000087",
+   "ok": true
+  }
+ ],
+ "GD0": [
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180.htm",
+   "id": "ta_1180",
+   "status": 200,
+   "last_modified_claim": "2026-09-09",
+   "last_modified": "Wed, 09 Sep 2026 01:00:15 GMT",
+   "ok": true
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1180_qa.htm",
+   "id": "ta_1180_qa",
+   "status": 200,
+   "last_modified_claim": "2026-09-09",
+   "last_modified": "Wed, 09 Sep 2026 01:00:15 GMT",
+   "ok": true
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1182.htm",
+   "id": "ta_1182",
+   "status": 200,
+   "last_modified_claim": "2026-09-09",
+   "last_modified": "Wed, 09 Sep 2026 01:00:15 GMT",
+   "ok": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/05/32.htm",
+   "id": "shitsugi_shotoku_05_32",
+   "status": 200,
+   "last_modified_claim": "2025-12-03",
+   "last_modified": "Wed, 03 Dec 2025 08:31:02 GMT",
+   "ok": true
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/yogo/3-3_y11.htm",
+   "id": "tebiki2025_yogo_y11",
+   "status": 200,
+   "last_modified_claim": "2025-12-24",
+   "last_modified": "Wed, 24 Dec 2025 08:30:09 GMT",
+   "ok": true
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2025/03/order3/3-3_27.htm",
+   "id": "tebiki2025_3_3_27",
+   "status": 200,
+   "last_modified_claim": "2025-12-24",
+   "last_modified": "Wed, 24 Dec 2025 08:30:10 GMT",
+   "ok": true
+  },
+  {
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/105.pdf",
+   "id": "nencho2026_105",
+   "status": 200,
+   "last_modified_claim": "2026-09-24",
+   "last_modified": "Thu, 24 Sep 2026 08:30:11 GMT",
+   "ok": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku/01.htm",
+   "id": "sochiho_tsutatsu_toc",
+   "status": 200,
+   "last_modified_claim": "2026-10-02",
+   "last_modified": "Fri, 02 Oct 2026 08:30:04 GMT",
+   "ok": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/01.htm",
+   "id": "kihon_tsutatsu_2_1",
+   "status": 200,
+   "last_modified_claim": "2024-01-18",
+   "last_modified": "Thu, 18 Jan 2024 09:30:24 GMT",
+   "ok": true
+  },
+  {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/07.htm",
+   "id": "kihon_tsutatsu_2_47",
+   "status": 200,
+   "last_modified_claim": "2026-10-02",
+   "last_modified": "Fri, 02 Oct 2026 08:30:05 GMT",
+   "ok": true
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/kokugai/index.htm",
+   "id": "kokugai_index",
+   "status": 200,
+   "last_modified_claim": "2026-03-27",
+   "last_modified": "Fri, 27 Mar 2026 05:54:59 GMT",
+   "ok": true
+  },
+  {
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/kokugai/sokin/index.htm",
+   "id": "kokugai_sokin",
+   "status": 200,
+   "last_modified_claim": "2026-03-27",
+   "last_modified": "Fri, 27 Mar 2026 05:54:59 GMT",
+   "ok": true
+  },
+  {
+   "url": "https://www.nta.go.jp/publication/pamph/pdf/0022009-107_02.pdf",
+   "id": "kokugai_qa_pdf",
+   "status": 200,
+   "last_modified_claim": "2026-08-31",
+   "last_modified": "Mon, 31 Aug 2026 08:30:07 GMT",
+   "ok": true
+  },
+  {
+   "url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tb0189&dataType=1&pageNo=1",
+   "id": "S52_tsuchi",
+   "status": 200,
+   "last_modified_claim": "なし",
+   "last_modified": null,
+   "ok": true
+  },
+  {
+   "url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc4995&dataType=1&pageNo=1",
+   "id": "R01_kokunai",
+   "status": 200,
+   "last_modified_claim": "なし",
+   "last_modified": null,
+   "ok": true
+  },
+  {
+   "url": "https://www.mhlw.go.jp/web/t_doc?dataId=00tc7769&dataType=1&pageNo=1",
+   "id": "R05_kokunai_kaisei",
+   "status": 200,
+   "last_modified_claim": "なし",
+   "last_modified": null,
+   "ok": true
+  },
+  {
+   "url": "https://www.nenkin.go.jp/service/kounen/tekiyo/hihokensha1/kyojuyoken.html",
+   "id": "nenkin_kyojuyoken",
+   "status": 200,
+   "last_modified_claim": "2026-10-14",
+   "last_modified": "Wed, 14 Oct 2026 00:26:12 GMT",
+   "ok": true
+  },
+  {
+   "url": "https://www.nenkin.go.jp/service/kounen/tekiyo/hihokensha1/20141202.html",
+   "id": "nenkin_20141202",
+   "status": 200,
+   "last_modified_claim": "2026-10-14",
+   "last_modified": "Wed, 14 Oct 2026 00:26:12 GMT",
+   "ok": true
+  },
+  {
+   "url": "https://www.kyoukaikenpo.or.jp/assets/n_fuyouidou_guide2607.pdf",
+   "id": "kyoukai_guide2607",
+   "status": 200,
+   "last_modified_claim": "2026-06-23",
+   "last_modified": "Tue, 23 Jun 2026 05:58:51 GMT",
+   "ok": true
+  },
+  {
+   "url": "https://www.kyoukaikenpo.or.jp/faq/dependent_status/",
+   "id": "kyoukai_faq_dependent",
+   "status": 200,
+   "last_modified_claim": "なし",
+   "last_modified": null,
+   "ok": true
+  }
+ ],
+ "refs": {
+  "HY": {
+   "urls": [],
+   "doc_refs": [
+    "hypotheses",
+    "inferences",
+    "measurements",
+    "public-sources"
+   ]
+  },
+  "IN": {
+   "urls": [],
+   "doc_refs": [
+    "hypotheses",
+    "measurements",
+    "public-sources"
+   ]
+  }
+ },
+ "kyoukai_text_same": true
+}

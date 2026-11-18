@@ -1,0 +1,23 @@
+{
+  "set": "yogo",
+  "fetched_at_local": "20261109-151302",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "ta_yogo_senmon",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/yogo/senmon.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/yogo/senmon.htm",
+      "content_type": "text/html",
+      "bytes": 21839,
+      "sha256": "e0d5142e9eabe61f557703bacafbb7baf2af7eb63cf01bfcd0ebae32a6fb8e74",
+      "last_modified": "Wed, 16 Sep 2026 05:00:01 GMT",
+      "saved": ".work/downloads/20261109-151302_IMPL_iryohi_yogo/ta_yogo_senmon.html",
+      "charset": "utf-8",
+      "title": "専門用語集｜国税庁",
+      "text_chars": 5424,
+      "text": ".work/text/20261109-151302_IMPL_iryohi_yogo/ta_yogo_senmon.txt",
+      "n_links": 55
+    }
+  ]
+}

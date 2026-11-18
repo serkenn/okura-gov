@@ -1,0 +1,139 @@
+{
+ "set": "pages2",
+ "fetched_at": "20261111-110204",
+ "download_dir": ".work/downloads/20261111-110204_IMPL2_tsukin_nta_pages2",
+ "items": [
+  {
+   "id": "shitsugi_g_03_01",
+   "url": "https://www.nta.go.jp/law/shitsugi/gensen/03/01.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 03 Dec 2025 08:31:16 GMT",
+   "bytes": 4845,
+   "sha256": "db89937f30d54bd32a877c9759781ae18bade705dfa058cb0f39bb5a2df691aa",
+   "saved": ".work/downloads/20261111-110204_IMPL2_tsukin_nta_pages2/shitsugi_g_03_01.htm",
+   "title": "2以上の使用者から支払を受ける役員の出勤費用｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "shitsugi_g_03_18",
+   "url": "https://www.nta.go.jp/law/shitsugi/gensen/03/18.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 03 Dec 2025 08:31:16 GMT",
+   "bytes": 5699,
+   "sha256": "4c02e80168be7011f503ad8c50fa07b9f34cc0a2d1cde7d3f9b662a5337bc4ae",
+   "saved": ".work/downloads/20261111-110204_IMPL2_tsukin_nta_pages2/shitsugi_g_03_18.htm",
+   "title": "障害者が2キロメートル未満を交通用具で通勤する場合の通勤手当の非課税限度額｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "shitsugi_g_03_19",
+   "url": "https://www.nta.go.jp/law/shitsugi/gensen/03/19.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 03 Dec 2025 08:31:16 GMT",
+   "bytes": 4937,
+   "sha256": "ffb124cfe3cf164b80edaca137ecccf5ea71ee1b23d3e08030595c9b5d1130fd",
+   "saved": ".work/downloads/20261111-110204_IMPL2_tsukin_nta_pages2/shitsugi_g_03_19.htm",
+   "title": "数か所に勤務する者に支給する通勤費｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "shitsugi_g_03_20",
+   "url": "https://www.nta.go.jp/law/shitsugi/gensen/03/20.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 03 Dec 2025 08:31:15 GMT",
+   "bytes": 5483,
+   "sha256": "c0cc03cbe3104278b683322fb5ec06a634cb7a9915d708934e04f5573c143e92",
+   "saved": ".work/downloads/20261111-110204_IMPL2_tsukin_nta_pages2/shitsugi_g_03_20.htm",
+   "title": "交通用具を使用している者の通勤距離が変更となった場合の非課税限度額｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "shitsugi_g_03_21",
+   "url": "https://www.nta.go.jp/law/shitsugi/gensen/03/21.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 03 Dec 2025 08:31:15 GMT",
+   "bytes": 4776,
+   "sha256": "36bd02f1c1d38866de5a8cae79649844c50dd4d52166f50834e7e6f8c771c1b0",
+   "saved": ".work/downloads/20261111-110204_IMPL2_tsukin_nta_pages2/shitsugi_g_03_21.htm",
+   "title": "アルバイトに支給する通勤手当の非課税限度額｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "shitsugi_g_03_22",
+   "url": "https://www.nta.go.jp/law/shitsugi/gensen/03/22.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 03 Dec 2025 08:31:15 GMT",
+   "bytes": 5370,
+   "sha256": "ae82fe0fa5a8cfa9014125a7e9d78db4318af4ae41bb0feae666b229b39bf8ef",
+   "saved": ".work/downloads/20261111-110204_IMPL2_tsukin_nta_pages2/shitsugi_g_03_22.htm",
+   "title": "通勤手当と住宅手当を合算して支給する場合の取扱い｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "shitsugi_g_03_23",
+   "url": "https://www.nta.go.jp/law/shitsugi/gensen/03/23.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Wed, 03 Dec 2025 08:31:15 GMT",
+   "bytes": 5421,
+   "sha256": "ffef294435c613ff36c174731d834b5d1a0cb251512060aa1618dc8ac1903c6a",
+   "saved": ".work/downloads/20261111-110204_IMPL2_tsukin_nta_pages2/shitsugi_g_03_23.htm",
+   "title": "緊急業務のために出社する従業員に支給するタクシー代等｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "ta_2508",
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2508.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 10 Sep 2026 01:00:10 GMT",
+   "bytes": 20100,
+   "sha256": "381e028d90fd4355dc93ba4d10f20ee2eb7afbe8fed88c448d0d589153d5b1cc",
+   "saved": ".work/downloads/20261111-110204_IMPL2_tsukin_nta_pages2/ta_2508.htm",
+   "title": "No.2508 給与所得となるもの｜国税庁",
+   "encoding": "utf-8"
+  },
+  {
+   "id": "users_2025tsukin",
+   "url": "https://www.nta.go.jp/users/gensen/2025tsukin/index.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Fri, 27 Mar 2026 05:33:59 GMT",
+   "bytes": 9352,
+   "sha256": "3cf3328ccaf30159b267d40d940ab8784e65578109b166e5df9d3bc5f6852cb3",
+   "saved": ".work/downloads/20261111-110204_IMPL2_tsukin_nta_pages2/users_2025tsukin.htm",
+   "title": "通勤手当の非課税限度額の改正について｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "users_2026tsukin",
+   "url": "https://www.nta.go.jp/users/gensen/2026tsukin/index.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Mon, 20 Apr 2026 08:30:01 GMT",
+   "bytes": 11558,
+   "sha256": "c9c9a12ae89fe7abeacc9a7651e49a3e450b1b480247cbd39184c88128abc88e",
+   "saved": ".work/downloads/20261111-110204_IMPL2_tsukin_nta_pages2/users_2026tsukin.htm",
+   "title": "通勤手当の非課税限度額の改正について｜国税庁",
+   "encoding": "shift_jis"
+  },
+  {
+   "id": "hotei_tebikihtml",
+   "url": "https://www.nta.go.jp/publication/pamph/hotei/tebikihtml/index.htm",
+   "status": 200,
+   "content_type": "text/html",
+   "last_modified": "Thu, 05 Nov 2026 05:00:02 GMT",
+   "bytes": 16357,
+   "sha256": "81c28477d8bcf94002ec453bfa620efc1a16c0ba36e6ca365cc7f779293b5869",
+   "saved": ".work/downloads/20261111-110204_IMPL2_tsukin_nta_pages2/hotei_tebikihtml.htm",
+   "title": "令和8年分 給与所得の源泉徴収票等の法定調書の作成と提出の手引｜国税庁",
+   "encoding": "shift_jis"
+  }
+ ]
+}

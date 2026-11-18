@@ -1,0 +1,32 @@
+{
+ "docs/hypotheses/20261109_round3_design-vocabulary.md": {
+  "n": 45,
+  "missing": [
+   {
+    "line": 4,
+    "path": "docs/hypotheses/20261109_round3_design-vocabulary-conflicts.md",
+    "exists": false
+   },
+   {
+    "line": 7,
+    "path": "docs/hypotheses/20261109_round3_design-vocabulary-concepts.md",
+    "exists": false
+   },
+   {
+    "line": 8,
+    "path": "docs/hypotheses/20261109_round3_design-vocabulary-conflicts.md",
+    "exists": false
+   }
+  ]
+ },
+ "docs/hypotheses/20261109_round3_design-output.md": {
+  "n": 33,
+  "missing": [
+   {
+    "line": 19,
+    "path": "docs/measurements/20261109_round3_design-verification.md",
+    "exists": false
+   }
+  ]
+ }
+}

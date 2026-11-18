@@ -1,0 +1,191 @@
+{
+  "set": "followup",
+  "fetched_at_local": "20261109-145824",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work\\downloads\\20261109-145824_IMPL_misc_followup",
+  "text_dir": ".work\\text\\20261109-145824_IMPL_misc_followup",
+  "results": [
+    {
+      "id": "nencho2026_106",
+      "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/106.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2026/pdf/106.pdf",
+      "content_type": "application/pdf",
+      "bytes": 891035,
+      "sha256": "ee4ae06f99998f5f964cf34355fac63021dd78ac7a8a5cb350006d1b895cbc23",
+      "last_modified": "Mon, 31 Aug 2026 08:30:11 GMT",
+      "etag": "\"d989b-65a539c557aa8\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_followup\\nencho2026_106.pdf"
+    },
+    {
+      "id": "nencho2025_106",
+      "url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2025/pdf/106.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/publication/pamph/gensen/nencho2025/pdf/106.pdf",
+      "content_type": "application/pdf",
+      "bytes": 5109936,
+      "sha256": "82d223b7bdcd521e5445c5758cfc1fac71abe5a8d56181e3e25fa22cfc009b05",
+      "last_modified": "Fri, 29 Aug 2025 08:30:15 GMT",
+      "etag": "\"4df8b0-63d7cd4cc1ed0\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_followup\\nencho2025_106.pdf"
+    },
+    {
+      "id": "form_r08_kiso_tokutei",
+      "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_06.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2026bun_06.pdf",
+      "content_type": "application/pdf",
+      "bytes": 619395,
+      "sha256": "c3806d528ec07799215187ab1e78cbfe10cf597884d6573b5c01b906d26461da",
+      "last_modified": "Mon, 31 Aug 2026 08:30:05 GMT",
+      "etag": "\"97383-65a539bf44fa8\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_followup\\form_r08_kiso_tokutei.pdf"
+    },
+    {
+      "id": "form_r07_kiso_tokutei",
+      "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2025bun_06.pdf",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/gensen/pdf/2025bun_06.pdf",
+      "content_type": "application/pdf",
+      "bytes": 1263776,
+      "sha256": "7b22cf50c8471045966de088d84d9d4e3a47df8c23b1ad587d9873f9a00c07bf",
+      "last_modified": "Fri, 29 Aug 2025 08:30:10 GMT",
+      "etag": "\"1348a0-63d7cd4769460\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_followup\\form_r07_kiso_tokutei.pdf"
+    },
+    {
+      "id": "hanrei_62674_pdf",
+      "url": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-62674.pdf",
+      "status": 200,
+      "final_url": "https://www.courts.go.jp/assets/hanrei/hanrei-pdf-62674.pdf",
+      "content_type": "application/pdf",
+      "bytes": 6618,
+      "sha256": "db1ab6887ca692aad07ed7d60946484ffb7248394cbeba102f464bef758c3fc8",
+      "last_modified": "Tue, 09 Sep 2025 11:34:07 GMT",
+      "etag": "\"0x8DDEF94C9F72AEC\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_followup\\hanrei_62674_pdf.pdf"
+    },
+    {
+      "id": "shitsugi_shotoku_05_64",
+      "url": "https://www.nta.go.jp/law/shitsugi/shotoku/05/64.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/law/shitsugi/shotoku/05/64.htm",
+      "content_type": "text/html",
+      "bytes": 4567,
+      "sha256": "acefc1183804bb5a00617a1ddcca0524c9682f93cdfb8cee32d5c408a0d03bc1",
+      "last_modified": "Wed, 03 Dec 2025 08:31:01 GMT",
+      "etag": "\"11d7-6450808492c20\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_followup\\shitsugi_shotoku_05_64.html",
+      "charset": "shift_jis",
+      "title": "死亡した配偶者の父母に係る扶養控除｜国税庁",
+      "text_chars": 962,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_followup\\shitsugi_shotoku_05_64.txt",
+      "n_links": 16,
+      "matches": {
+        "birth_range": [],
+        "kinship": [
+          {
+            "line_no": 11,
+            "text": "配偶者の死亡により婚姻関係は解消されますが、その配偶者の父母との姻族関係が直ちに否定されるわけではなく、生存している配偶者が婚姻関係を終了させる意思表示をしない限り死亡した配偶者の直系尊属も「配偶者の直系尊属」に含まれます。"
+          },
+          {
+            "line_no": 13,
+            "text": "租税特別措置法第41条の16第1項、民法第728条第2項"
+          }
+        ],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "shitsugi_shotoku_05_67",
+      "url": "https://www.nta.go.jp/law/shitsugi/shotoku/05/67.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/law/shitsugi/shotoku/05/67.htm",
+      "content_type": "text/html",
+      "bytes": 5104,
+      "sha256": "aaa28b7e20889acfc62053327d1cec453b39340737560536ab67190916109cfa",
+      "last_modified": "Wed, 03 Dec 2025 08:31:01 GMT",
+      "etag": "\"13f0-6450808474f90\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_followup\\shitsugi_shotoku_05_67.html",
+      "charset": "shift_jis",
+      "title": "配偶者の子に係る扶養控除｜国税庁",
+      "text_chars": 1261,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_followup\\shitsugi_shotoku_05_67.txt",
+      "n_links": 16,
+      "matches": {
+        "birth_range": [],
+        "kinship": [
+          {
+            "line_no": 12,
+            "text": "養子縁組をしていない場合であっても、配偶者の子は1親等の姻族に該当し、生計を一にするなど一定の要件を満たす場合には、扶養控除の対象となる控除対象扶養親族に該当します。"
+          },
+          {
+            "line_no": 14,
+            "text": "ここでいう「親族」とは、民法の規定に従い、6親等内の血族及び3親等内の姻族をいい（民法第725条）、「姻族」とは、配偶者の血族及び自己の血族の配偶者をいいますので、配偶者の子は、1親等の姻族に該当することとなります。"
+          },
+          {
+            "line_no": 15,
+            "text": "なお、養子縁組をした場合には、血族間におけるのと同一の親族関係が生じますので（民法第727条）、1親等の血族に該当することとなります。"
+          },
+          {
+            "line_no": 17,
+            "text": "所得税法第2条第1項第34号、第34号の2、第84条、民法第725条、第727条"
+          }
+        ],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "shitsugi_gensen_03_09",
+      "url": "https://www.nta.go.jp/law/shitsugi/gensen/03/09.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/law/shitsugi/gensen/03/09.htm",
+      "content_type": "text/html",
+      "bytes": 5187,
+      "sha256": "90f8cca9bc805fba7074c88e267770a138cdf5e65984ee3c25269d49e187985f",
+      "last_modified": "Wed, 03 Dec 2025 08:31:16 GMT",
+      "etag": "\"1443-64508093001e0\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_followup\\shitsugi_gensen_03_09.html",
+      "charset": "shift_jis",
+      "title": "2以上の所得者がいる場合の扶養親族等の所属｜国税庁",
+      "text_chars": 1203,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_followup\\shitsugi_gensen_03_09.txt",
+      "n_links": 18,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    },
+    {
+      "id": "tebiki2026_yogo_y13",
+      "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2026/03/order3/yogo/3-3_y13.htm",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/error/404.htm",
+      "content_type": "text/html",
+      "bytes": 2007,
+      "sha256": "700138cae1f347c2be03b380ba74007e704ceb81fe2a62d547e3559d4b851d55",
+      "last_modified": "Thu, 18 Jan 2024 09:39:47 GMT",
+      "etag": "\"7d7-60f3524e648f8\"",
+      "saved": ".work\\downloads\\20261109-145824_IMPL_misc_followup\\tebiki2026_yogo_y13.html",
+      "charset": "Shift_JIS",
+      "title": "指定されたページを表示できませんでした",
+      "text_chars": 264,
+      "text": ".work\\text\\20261109-145824_IMPL_misc_followup\\tebiki2026_yogo_y13.txt",
+      "n_links": 2,
+      "matches": {
+        "birth_range": [],
+        "kinship": [],
+        "kou_otsu": [],
+        "age_rule": []
+      },
+      "pdf_links": []
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+ "fetched_at": "20261109-202006",
+ "url": "https://www.nta.go.jp/robots.txt",
+ "status": 200,
+ "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+ "saved": ".work/downloads/20261109-202006_R3X_shibo-shukkoku_nta_robots/robots.txt",
+ "disallow_lines": [
+  "Disallow: /service_publication/",
+  "Disallow: /about/organization/sapporo/service_publication/",
+  "Disallow: /about/organization/sendai/service_publication/",
+  "Disallow: /about/organization/kantoshinetsu/service_publication/",
+  "Disallow: /about/organization/tokyo/service_publication/",
+  "Disallow: /about/organization/kanazawa/service_publication/",
+  "Disallow: /about/organization/nagoya/service_publication/",
+  "Disallow: /about/organization/osaka/service_publication/",
+  "Disallow: /about/organization/hiroshima/service_publication/",
+  "Disallow: /about/organization/takamatsu/service_publication/",
+  "Disallow: /about/organization/fukuoka/service_publication/",
+  "Disallow: /about/organization/kumamoto/service_publication/",
+  "Disallow: /about/organization/okinawa/service_publication/",
+  "Disallow:"
+ ],
+ "urls": {
+  "index/ta_bunya_kakuteishinkoku": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-kakuteishinkoku.htm",
+   "allowed": true
+  },
+  "index/ta_bunya_souzoku_zoyo": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-souzoku-zoyo.htm",
+   "allowed": true
+  },
+  "index/ta_bunya_saigai": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-saigai.htm",
+   "allowed": true
+  },
+  "index/tetsuzuki_mokuji": {
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/mokuji.htm",
+   "allowed": true
+  },
+  "index/yoshiki_r07": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/syotoku/r07.htm",
+   "allowed": true
+  },
+  "pages/ta_2022": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2022.htm",
+   "allowed": true
+  },
+  "pages/ta_1110": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1110.htm",
+   "allowed": true
+  },
+  "pages/kihon_19_01": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/01.htm",
+   "allowed": true
+  },
+  "pages/kihon_19_02": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/19/02.htm",
+   "allowed": true
+  },
+  "pages/kihon_16_06": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/06.htm",
+   "allowed": true
+  },
+  "pages/kihon_15_01": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/15/01.htm",
+   "allowed": true
+  },
+  "pages/kihon_16_01": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/01.htm",
+   "allowed": true
+  },
+  "pages/kihon_16_02": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/16/02.htm",
+   "allowed": true
+  },
+  "pages/kihon_01_01": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/01.htm",
+   "allowed": true
+  },
+  "pages/kihon_01_08": {
+   "url": "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku/01/08.htm",
+   "allowed": true
+  },
+  "pages/annai_07": {
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/07.htm",
+   "allowed": true
+  },
+  "pages2/ta_1923": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1923.htm",
+   "allowed": true
+  },
+  "pages2/shitsugi_07_15": {
+   "url": "https://www.nta.go.jp/law/shitsugi/shotoku/07/15.htm",
+   "allowed": true
+  },
+  "pages2/annai_1557_2": {
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/1557_2.htm",
+   "allowed": true
+  },
+  "pages2/jyunkaku_index": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/jyunkaku/index.htm",
+   "allowed": true
+  },
+  "pages2/annai_23200032": {
+   "url": "https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/shinkoku/annai/23200032.htm",
+   "allowed": true
+  },
+  "pages2/ta_bunya_nemmatsuchosei": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/code/bunya-nemmatsuchosei.htm",
+   "allowed": true
+  },
+  "pages3/ta_1920": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1920.htm",
+   "allowed": true
+  },
+  "pages3/gensen_2026kiso": {
+   "url": "https://www.nta.go.jp/users/gensen/2026kiso/index.htm",
+   "allowed": true
+  },
+  "pages3/gensen_2025kiso": {
+   "url": "https://www.nta.go.jp/users/gensen/2025kiso/index.htm",
+   "allowed": true
+  },
+  "forms/fuhyo_shibou": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/fuhyo/f01-yoshiki.pdf",
+   "allowed": true
+  },
+  "forms/ininjo_junkaku": {
+   "url": "https://www.nta.go.jp/taxes/shiraberu/shinkoku/yoshiki/01/fuhyo/f01-3.pdf",
+   "allowed": true
+  },
+  "forms/r8_kiso_qa": {
+   "url": "https://www.nta.go.jp/users/gensen/2026kiso/pdf/0026005-024.pdf",
+   "allowed": true
+  },
+  "forms2/r7_kiso_qa": {
+   "url": "https://www.nta.go.jp/publication/pamph/gensen/0025005-051.pdf",
+   "allowed": true
+  }
+ },
+ "all_allowed": true
+}

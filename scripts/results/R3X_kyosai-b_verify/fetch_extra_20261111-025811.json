@@ -1,0 +1,52 @@
+{
+ "fetched_at_local": "20261111-025811",
+ "user_agent": "okura-gov-research/0.1",
+ "download_dir": ".work/downloads/20261111-025811_R3X_kyosai-b_verify_extra",
+ "results": [
+  {
+   "id": "pmac_qa_48",
+   "url": "https://www.pmac.shigaku.go.jp/qa/detail/qa_48.html",
+   "status": 200,
+   "bytes": 20741,
+   "sha256": "149f5faa2a0521243c2598a653ce2bc26e93f794346e482d5b956e7b49ec8123",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025811_R3X_kyosai-b_verify_extra/pmac_qa_48.html"
+  },
+  {
+   "id": "pcm_395081944",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=395081944",
+   "status": 200,
+   "bytes": 18163,
+   "sha256": "324c14eed7d22a6bcaea9486a94523db51c1984475058cd07349562861b2d4f4",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025811_R3X_kyosai-b_verify_extra/pcm_395081944.html"
+  },
+  {
+   "id": "pcm_395081959",
+   "url": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&Mode=1&id=395081959",
+   "status": 200,
+   "bytes": 19016,
+   "sha256": "c5e1a794c3fbcd39207a38db0dc59090ef1c1185638349b42243e69764a14d97",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025811_R3X_kyosai-b_verify_extra/pcm_395081959.html"
+  },
+  {
+   "id": "tokyo_kyosai_ninteikijun01",
+   "url": "https://www.kyosai.metro.tokyo.jp/prv/qualification/fuyou/data/ninteikijun01.pdf",
+   "status": 404,
+   "bytes": 20838,
+   "sha256": "3bd86096a68f2aabb38cd55c885d39392f25f626cee0ea67b80a259a18d9d13f",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025811_R3X_kyosai-b_verify_extra/tokyo_kyosai_ninteikijun01.html"
+  },
+  {
+   "id": "tokyo_kyosai_4072f241",
+   "url": "https://www.kyosai.metro.tokyo.jp/prv/author6223e/data/4072f241d4166e0248ecf07cc52fe0d5.pdf",
+   "status": 404,
+   "bytes": 20838,
+   "sha256": "40969d818fa01b6e624f0bdfa9cca4d7ba57b229547506f475bb4267ea0f2302",
+   "last_modified": null,
+   "saved": ".work/downloads/20261111-025811_R3X_kyosai-b_verify_extra/tokyo_kyosai_4072f241.html"
+  }
+ ]
+}

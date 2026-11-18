@@ -1,0 +1,41 @@
+{
+  "set": "mof_lists",
+  "fetched_at_local": "20261109-174239",
+  "user_agent": "okura-gov-research/0.1",
+  "results": [
+    {
+      "id": "mof_tsuutatsu_r",
+      "url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/tsuutatsu_r.htm",
+      "status": 200,
+      "final_url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/tsuutatsu_r.htm",
+      "content_type": "text/html",
+      "bytes": 46826,
+      "sha256": "ae598bfba78846acdb3b4a54f2f86bc4f7dafd177a6dd010566111e76fbd2d1b",
+      "last_modified": "Fri, 31 Jul 2026 00:00:30 GMT",
+      "etag": "\"b664-657dce06e2380\"",
+      "saved": ".work\\downloads\\20261109-174239_R2X_kyosai_mof_lists\\mof_tsuutatsu_r.html",
+      "charset": "UTF-8",
+      "title": "通達等（令和） : 財務省",
+      "text_chars": 4522,
+      "text": ".work\\text\\20261109-174239_R2X_kyosai_mof_lists\\mof_tsuutatsu_r.txt",
+      "n_links": 149
+    },
+    {
+      "id": "mof_tsuutatsu_s",
+      "url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/tsuutatsu_s.htm",
+      "status": 200,
+      "final_url": "https://www.mof.go.jp/about_mof/act/kokuji_tsuutatsu/tsuutatsu/tsuutatsu_s.htm",
+      "content_type": "text/html",
+      "bytes": 181870,
+      "sha256": "8f2753229578a782515e2bc2e97e5d26c54462ee5a1e8b4e02be30b0b2bf2096",
+      "last_modified": "Wed, 30 Sep 2026 14:00:19 GMT",
+      "etag": "\"2c66e-65cb3b82b22c0\"",
+      "saved": ".work\\downloads\\20261109-174239_R2X_kyosai_mof_lists\\mof_tsuutatsu_s.html",
+      "charset": "UTF-8",
+      "title": "通達等（昭和） : 財務省",
+      "text_chars": 20453,
+      "text": ".work\\text\\20261109-174239_R2X_kyosai_mof_lists\\mof_tsuutatsu_s.txt",
+      "n_links": 461
+    }
+  ]
+}

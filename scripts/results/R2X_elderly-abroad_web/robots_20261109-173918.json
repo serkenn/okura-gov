@@ -1,0 +1,74 @@
+{
+  "set": "robots",
+  "fetched_at_local": "20261109-173918",
+  "user_agent": "okura-gov-research/0.1",
+  "download_dir": ".work\\downloads\\20261109-173918_R2X_elderly-abroad_robots",
+  "text_dir": "scripts\\results\\R2X_elderly-abroad_web\\text\\robots_20261109-173918",
+  "results": [
+    {
+      "id": "nta_robots",
+      "url": "https://www.nta.go.jp/robots.txt",
+      "status": 200,
+      "final_url": "https://www.nta.go.jp/robots.txt",
+      "content_type": "text/plain",
+      "bytes": 853,
+      "sha256": "a5f4e421e5bb2b20563fa568d7ee4d7c6a41afa72ef8bb96cd35510ebe6d8528",
+      "last_modified": "Wed, 18 Mar 2026 05:00:01 GMT",
+      "etag": "\"355-64d45530aa668\"",
+      "saved": ".work\\downloads\\20261109-173918_R2X_elderly-abroad_robots\\nta_robots.txt",
+      "text_body": "Sitemap: http://www.nta.go.jp/sitemap.xml\r\n\r\nUser-agent: *\r\nDisallow: /service_publication/\r\nDisallow: /about/organization/sapporo/service_publication/\r\nDisallow: /about/organization/sendai/service_publication/\r\nDisallow: /about/organization/kantoshinetsu/service_publication/\r\nDisallow: /about/organization/tokyo/service_publication/\r\nDisallow: /about/organization/kanazawa/service_publication/\r\nDisallow: /about/organization/nagoya/service_publication/\r\nDisallow: /about/organization/osaka/service_publication/\r\nDisallow: /about/organization/hiroshima/service_publication/\r\nDisallow: /about/organization/takamatsu/service_publication/\r\nDisallow: /about/organization/fukuoka/service_publication/\r\nDisallow: /about/organization/kumamoto/service_publication/\r\nDisallow: /about/organization/okinawa/service_publication/\r\n\r\nUser-agent: ndl-japan\r\nDisallow:"
+    },
+    {
+      "id": "mhlw_robots",
+      "url": "https://www.mhlw.go.jp/robots.txt",
+      "status": 200,
+      "final_url": "https://www.mhlw.go.jp/robots.txt",
+      "content_type": "text/plain",
+      "bytes": 169,
+      "sha256": "d410a20234092a01e07cc6531920a5fedda6a96faaa073d94b95bd4c4a436144",
+      "last_modified": "Sat, 02 Jun 2018 06:22:34 GMT",
+      "etag": "\"a9-56da2b9ddbe80\"",
+      "saved": ".work\\downloads\\20261109-173918_R2X_elderly-abroad_robots\\mhlw_robots.txt",
+      "text_body": "# \r\n# robots.txt for http://www.mhlw.go.jp/\r\n# \r\nUser-agent: *        \r\nDisallow: /cgi-bin/   \r\nDisallow: /images/\t\r\nDisallow: /topics/bukyoku/iyaku/kaisyu/00-1-010.html"
+    },
+    {
+      "id": "nenkin_robots",
+      "url": "https://www.nenkin.go.jp/robots.txt",
+      "status": 200,
+      "final_url": "https://www.nenkin.go.jp/robots.txt",
+      "content_type": "text/plain",
+      "bytes": 149,
+      "sha256": "b1b1b2e85299b5a3b32390684db50f979ced0a08ed48a46b715b9b6c1a5f79c9",
+      "last_modified": "Thu, 07 Mar 2019 08:57:52 GMT",
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-173918_R2X_elderly-abroad_robots\\nenkin_robots.txt",
+      "text_body": "User-Agent: *\r\nDisallow: /service/nenkinkiroku/torikumi/mitougou/shizuoka.files/JigyousyoIchiran_3942_201209.pdf\r\n\r\nUser-agent:ndl-japan\r\nDisallow:\r\n"
+    },
+    {
+      "id": "kyoukai_robots",
+      "url": "https://www.kyoukaikenpo.or.jp/robots.txt",
+      "status": 404,
+      "final_url": "https://www.kyoukaikenpo.or.jp/robots.txt",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 25314,
+      "sha256": "e68036938403a46fb27ad325ece6d89239918b880e93136fe7d4a65b8b275469",
+      "last_modified": null,
+      "etag": null,
+      "saved": ".work\\downloads\\20261109-173918_R2X_elderly-abroad_robots\\kyoukai_robots.html",
+      "charset": "UTF-8",
+      "title": "ご指定のページは見つかりませんでした。｜協会けんぽ",
+      "text_chars": 1503,
+      "text_sha256": "6a82ff6d49f8a5ae2531c681f6d487729084a0ca6b8bcc2940aa324a6312646a",
+      "text": "scripts\\results\\R2X_elderly-abroad_web\\text\\robots_20261109-173918\\kyoukai_robots.txt",
+      "n_links": 81,
+      "matches": {
+        "dokyo": [],
+        "abroad": [],
+        "age": [],
+        "kokunai": [],
+        "sochi": []
+      },
+      "pdf_links": []
+    }
+  ]
+}

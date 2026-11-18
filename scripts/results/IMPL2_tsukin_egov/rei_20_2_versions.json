@@ -1,0 +1,181 @@
+[
+ {
+  "law_revision_id": "340CO0000000096_20231001_504CO0000000136",
+  "enforcement": "2023-10-01",
+  "amendment_law_num": "令和四年政令第百三十六号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2024-03-31"
+  ],
+  "article_text_sha256": "afd51719c08a31d3ecc195a57b8f7f3f80645a364c6c0c825dfa82db38bd838f",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340CO0000000096_20240401_506CO0000000141",
+  "enforcement": "2024-04-01",
+  "amendment_law_num": "令和六年政令第百四十一号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2024-04-01",
+   "2024-11-17"
+  ],
+  "article_text_sha256": "afd51719c08a31d3ecc195a57b8f7f3f80645a364c6c0c825dfa82db38bd838f",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340CO0000000096_20241118_506CO0000000342",
+  "enforcement": "2024-11-18",
+  "amendment_law_num": "令和六年政令第三百四十二号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2024-11-18",
+   "2024-12-01"
+  ],
+  "article_text_sha256": "afd51719c08a31d3ecc195a57b8f7f3f80645a364c6c0c825dfa82db38bd838f",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340CO0000000096_20241202_506CO0000000141",
+  "enforcement": "2024-12-02",
+  "amendment_law_num": "令和六年政令第百四十一号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2024-12-02",
+   "2024-12-31"
+  ],
+  "article_text_sha256": "afd51719c08a31d3ecc195a57b8f7f3f80645a364c6c0c825dfa82db38bd838f",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340CO0000000096_20250101_505CO0000000134",
+  "enforcement": "2025-01-01",
+  "amendment_law_num": "令和五年政令第百三十四号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2025-01-01",
+   "2025-03-31"
+  ],
+  "article_text_sha256": "afd51719c08a31d3ecc195a57b8f7f3f80645a364c6c0c825dfa82db38bd838f",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340CO0000000096_20250401_507CO0000000120",
+  "enforcement": "2025-04-01",
+  "amendment_law_num": "令和七年政令第百二十号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2025-04-01",
+   "2025-11-19"
+  ],
+  "article_text_sha256": "afd51719c08a31d3ecc195a57b8f7f3f80645a364c6c0c825dfa82db38bd838f",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340CO0000000096_20251120_507CO0000000380",
+  "enforcement": "2025-11-20",
+  "amendment_law_num": "令和七年政令第三百八十号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2025-11-20",
+   "2025-11-30"
+  ],
+  "article_text_sha256": "b2590b689e964ce4d94e85f18a3b1060d01b6585a229414e9a5ea504ba084a37",
+  "changed_from_previous": true
+ },
+ {
+  "law_revision_id": "340CO0000000096_20251201_507CO0000000120",
+  "enforcement": "2025-12-01",
+  "amendment_law_num": "令和七年政令第百二十号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2025-12-01",
+   "2025-12-31"
+  ],
+  "article_text_sha256": "b2590b689e964ce4d94e85f18a3b1060d01b6585a229414e9a5ea504ba084a37",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340CO0000000096_20260101_507CO0000000120",
+  "enforcement": "2026-01-01",
+  "amendment_law_num": "令和七年政令第百二十号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2026-01-01",
+   "2026-03-31"
+  ],
+  "article_text_sha256": "b2590b689e964ce4d94e85f18a3b1060d01b6585a229414e9a5ea504ba084a37",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340CO0000000096_20260401_508CO0000000093",
+  "enforcement": "2026-04-01",
+  "amendment_law_num": "令和八年政令第九十三号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2026-04-01",
+   "2026-05-21"
+  ],
+  "article_text_sha256": "a0cd55d4610f4cc81f63496d5dc2ca929161fdd87667ad29fabc352f29937653",
+  "changed_from_previous": true
+ },
+ {
+  "law_revision_id": "340CO0000000096_20260522_508CO0000000093",
+  "enforcement": "2026-05-22",
+  "amendment_law_num": "令和八年政令第九十三号",
+  "status": "CurrentEnforced",
+  "asofs": [
+   "2026-05-22",
+   "2026-11-11",
+   "2026-11-30"
+  ],
+  "article_text_sha256": "a0cd55d4610f4cc81f63496d5dc2ca929161fdd87667ad29fabc352f29937653",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340CO0000000096_20261201_508CO0000000093",
+  "enforcement": "2026-12-01",
+  "amendment_law_num": "令和八年政令第九十三号",
+  "status": "UnEnforced",
+  "asofs": [
+   "2026-12-01",
+   "2026-12-31"
+  ],
+  "article_text_sha256": "a0cd55d4610f4cc81f63496d5dc2ca929161fdd87667ad29fabc352f29937653",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340CO0000000096_20270101_508CO0000000093",
+  "enforcement": "2027-01-01",
+  "amendment_law_num": "令和八年政令第九十三号",
+  "status": "UnEnforced",
+  "asofs": [
+   "2027-01-01",
+   "2027-07-21"
+  ],
+  "article_text_sha256": "a0cd55d4610f4cc81f63496d5dc2ca929161fdd87667ad29fabc352f29937653",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340CO0000000096_20270722_508CO0000000093",
+  "enforcement": null,
+  "amendment_law_num": "令和八年政令第九十三号",
+  "status": "UnEnforced",
+  "asofs": [
+   "2027-07-22",
+   "2027-12-31"
+  ],
+  "article_text_sha256": "a0cd55d4610f4cc81f63496d5dc2ca929161fdd87667ad29fabc352f29937653",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340CO0000000096_20280101_508CO0000000093",
+  "enforcement": null,
+  "amendment_law_num": "令和八年政令第九十三号",
+  "status": "UnEnforced",
+  "asofs": [
+   "2028-01-01"
+  ],
+  "article_text_sha256": "a0cd55d4610f4cc81f63496d5dc2ca929161fdd87667ad29fabc352f29937653",
+  "changed_from_previous": false
+ }
+]

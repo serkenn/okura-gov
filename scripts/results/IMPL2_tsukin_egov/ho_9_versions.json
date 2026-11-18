@@ -1,0 +1,277 @@
+[
+ {
+  "law_revision_id": "340AC0000000033_20231129_505AC0000000079",
+  "enforcement": "2023-11-29",
+  "amendment_law_num": "令和五年法律第七十九号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2023-12-31"
+  ],
+  "article_text_sha256": "ea82c69b15fcde89921dc5d11b7db17639b25ba5dc2fa54f3f47b1a2f203a99f",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340AC0000000033_20240101_504AC0000000004",
+  "enforcement": "2024-01-01",
+  "amendment_law_num": "令和四年法律第四号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2024-01-01",
+   "2024-01-31"
+  ],
+  "article_text_sha256": "ea82c69b15fcde89921dc5d11b7db17639b25ba5dc2fa54f3f47b1a2f203a99f",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340AC0000000033_20240201_505AC0000000079",
+  "enforcement": "2024-02-01",
+  "amendment_law_num": "令和五年法律第七十九号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2024-02-01",
+   "2024-03-31"
+  ],
+  "article_text_sha256": "ea82c69b15fcde89921dc5d11b7db17639b25ba5dc2fa54f3f47b1a2f203a99f",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340AC0000000033_20240401_506AC0000000008",
+  "enforcement": "2024-04-01",
+  "amendment_law_num": "令和六年法律第八号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2024-04-01",
+   "2024-05-16"
+  ],
+  "article_text_sha256": "ea82c69b15fcde89921dc5d11b7db17639b25ba5dc2fa54f3f47b1a2f203a99f",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340AC0000000033_20240517_506AC0000000026",
+  "enforcement": "2024-05-17",
+  "amendment_law_num": "令和六年法律第二十六号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2024-05-17",
+   "2024-06-11"
+  ],
+  "article_text_sha256": "ea82c69b15fcde89921dc5d11b7db17639b25ba5dc2fa54f3f47b1a2f203a99f",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340AC0000000033_20240612_506AC0000000047",
+  "enforcement": "2024-06-12",
+  "amendment_law_num": "令和六年法律第四十七号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2024-06-12",
+   "2024-12-31"
+  ],
+  "article_text_sha256": "ea82c69b15fcde89921dc5d11b7db17639b25ba5dc2fa54f3f47b1a2f203a99f",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340AC0000000033_20250101_505AC0000000003",
+  "enforcement": "2025-01-01",
+  "amendment_law_num": "令和五年法律第三号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2025-01-01",
+   "2025-03-31"
+  ],
+  "article_text_sha256": "ea82c69b15fcde89921dc5d11b7db17639b25ba5dc2fa54f3f47b1a2f203a99f",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340AC0000000033_20250401_507AC0000000013",
+  "enforcement": "2025-04-01",
+  "amendment_law_num": "令和七年法律第十三号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2025-04-01",
+   "2025-05-31"
+  ],
+  "article_text_sha256": "ea82c69b15fcde89921dc5d11b7db17639b25ba5dc2fa54f3f47b1a2f203a99f",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340AC0000000033_20250601_504AC0000000068",
+  "enforcement": "2025-06-01",
+  "amendment_law_num": "令和四年法律第六十八号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2025-06-01",
+   "2025-06-19"
+  ],
+  "article_text_sha256": "ea82c69b15fcde89921dc5d11b7db17639b25ba5dc2fa54f3f47b1a2f203a99f",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340AC0000000033_20250620_507AC0000000074",
+  "enforcement": "2025-06-20",
+  "amendment_law_num": "令和七年法律第七十四号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2025-06-20",
+   "2025-09-30"
+  ],
+  "article_text_sha256": "ea82c69b15fcde89921dc5d11b7db17639b25ba5dc2fa54f3f47b1a2f203a99f",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340AC0000000033_20251001_506AC0000000026",
+  "enforcement": "2025-10-01",
+  "amendment_law_num": "令和六年法律第二十六号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2025-10-01",
+   "2025-11-30"
+  ],
+  "article_text_sha256": "ea82c69b15fcde89921dc5d11b7db17639b25ba5dc2fa54f3f47b1a2f203a99f",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340AC0000000033_20251201_507AC0000000013",
+  "enforcement": "2025-12-01",
+  "amendment_law_num": "令和七年法律第十三号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2025-12-01",
+   "2025-12-17"
+  ],
+  "article_text_sha256": "ea82c69b15fcde89921dc5d11b7db17639b25ba5dc2fa54f3f47b1a2f203a99f",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340AC0000000033_20251218_507AC0000000013",
+  "enforcement": "2025-12-18",
+  "amendment_law_num": "令和七年法律第十三号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2025-12-18",
+   "2025-12-31"
+  ],
+  "article_text_sha256": "ea82c69b15fcde89921dc5d11b7db17639b25ba5dc2fa54f3f47b1a2f203a99f",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340AC0000000033_20260101_507AC0000000013",
+  "enforcement": "2026-01-01",
+  "amendment_law_num": "令和七年法律第十三号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2026-01-01",
+   "2026-03-31"
+  ],
+  "article_text_sha256": "ea82c69b15fcde89921dc5d11b7db17639b25ba5dc2fa54f3f47b1a2f203a99f",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340AC0000000033_20260401_508AC0000000012",
+  "enforcement": "2026-04-01",
+  "amendment_law_num": "令和八年法律第十二号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2026-04-01",
+   "2026-08-11"
+  ],
+  "article_text_sha256": "1eba30e28b0ad378f82c29d08e44468a64713c1b61a730ed4e978ccd63c4efa8",
+  "changed_from_previous": true
+ },
+ {
+  "law_revision_id": "340AC0000000033_20260812_508AC0000000064",
+  "enforcement": "2026-08-12",
+  "amendment_law_num": "令和八年法律第六十四号",
+  "status": "PreviousEnforced",
+  "asofs": [
+   "2026-08-12",
+   "2026-09-30"
+  ],
+  "article_text_sha256": "1eba30e28b0ad378f82c29d08e44468a64713c1b61a730ed4e978ccd63c4efa8",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340AC0000000033_20261001_507AC0000000070",
+  "enforcement": "2026-10-01",
+  "amendment_law_num": "令和七年法律第七十号",
+  "status": "CurrentEnforced",
+  "asofs": [
+   "2026-10-01",
+   "2026-11-11",
+   "2026-11-30"
+  ],
+  "article_text_sha256": "1eba30e28b0ad378f82c29d08e44468a64713c1b61a730ed4e978ccd63c4efa8",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340AC0000000033_20261201_508AC0000000012",
+  "enforcement": "2026-12-01",
+  "amendment_law_num": "令和八年法律第十二号",
+  "status": "UnEnforced",
+  "asofs": [
+   "2026-12-01",
+   "2026-12-31"
+  ],
+  "article_text_sha256": "1eba30e28b0ad378f82c29d08e44468a64713c1b61a730ed4e978ccd63c4efa8",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340AC0000000033_20270101_508AC0000000012",
+  "enforcement": "2027-01-01",
+  "amendment_law_num": "令和八年法律第十二号",
+  "status": "UnEnforced",
+  "asofs": [
+   "2027-01-01",
+   "2027-03-31"
+  ],
+  "article_text_sha256": "1eba30e28b0ad378f82c29d08e44468a64713c1b61a730ed4e978ccd63c4efa8",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340AC0000000033_20270401_506AC0000000060",
+  "enforcement": "2027-04-01",
+  "amendment_law_num": "令和六年法律第六十号",
+  "status": "UnEnforced",
+  "asofs": [
+   "2027-04-01",
+   "2027-04-15"
+  ],
+  "article_text_sha256": "1eba30e28b0ad378f82c29d08e44468a64713c1b61a730ed4e978ccd63c4efa8",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340AC0000000033_20270416_508AC0000000059",
+  "enforcement": null,
+  "amendment_law_num": "令和八年法律第五十九号",
+  "status": "UnEnforced",
+  "asofs": [
+   "2027-04-16",
+   "2027-07-21"
+  ],
+  "article_text_sha256": "1eba30e28b0ad378f82c29d08e44468a64713c1b61a730ed4e978ccd63c4efa8",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340AC0000000033_20270722_508AC0000000064",
+  "enforcement": null,
+  "amendment_law_num": "令和八年法律第六十四号",
+  "status": "UnEnforced",
+  "asofs": [
+   "2027-07-22",
+   "2027-12-31"
+  ],
+  "article_text_sha256": "1eba30e28b0ad378f82c29d08e44468a64713c1b61a730ed4e978ccd63c4efa8",
+  "changed_from_previous": false
+ },
+ {
+  "law_revision_id": "340AC0000000033_20280101_508AC0000000012",
+  "enforcement": null,
+  "amendment_law_num": "令和八年法律第十二号",
+  "status": "UnEnforced",
+  "asofs": [
+   "2028-01-01"
+  ],
+  "article_text_sha256": "1eba30e28b0ad378f82c29d08e44468a64713c1b61a730ed4e978ccd63c4efa8",
+  "changed_from_previous": false
+ }
+]
