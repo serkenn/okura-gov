@@ -1,0 +1,49 @@
+# fork での確かめ用（PR には入れない）：AlmaLinux のコンテナをビルドしてテストを動かす。
+name: container-check
+on:
+  push:
+    branches: [almalinux-container-ci]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  docker:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - name: build
+        run: docker build -f Containerfile -t okura-gov .
+      - name: image facts
+        run: |
+          docker run --rm --entrypoint /bin/sh okura-gov -c 'cat /etc/almalinux-release; id; python3.11 --version; command -v uv || echo "no uv (ok)"'
+          docker image ls okura-gov
+          docker run --rm okura-gov
+          docker run --rm okura-gov nope || echo "rc=$?"
+      - name: commands
+        run: |
+          docker run --rm --network none okura-gov monitor targets | head -5
+          docker run --rm --network none okura-gov python core -c "import okura_core, openfisca_core; print('core ok')"
+          docker run --rm --network none okura-gov python records -c "import okura_records, beancount; print('records ok', beancount.__version__)"
+          echo '{}' | docker run --rm -i --network none okura-gov core || echo "core cli rc=$?"
+          docker run --rm --network none okura-gov records --help | head -20 || true
+      - name: test records
+        if: always()
+        run: docker run --rm --network none --read-only --tmpfs /tmp okura-gov test records
+      - name: test ir
+        if: always()
+        run: docker run --rm --network none --read-only --tmpfs /tmp okura-gov test ir
+      - name: test monitor
+        if: always()
+        run: docker run --rm --network none --read-only --tmpfs /tmp okura-gov test monitor
+      - name: test core
+        if: always()
+        run: docker run --rm --network none --read-only --tmpfs /tmp okura-gov test core
+  podman:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - run: podman --version
+      - run: podman build -t okura-gov .
+      - run: podman run --rm --network none --read-only --tmpfs /tmp okura-gov test
