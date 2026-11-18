@@ -92,6 +92,7 @@ title2は個別のドキュメントそれぞれのタイトルとして使う�
 | `research/` | 最初の調査のタスクの定義（R1〜R4）。成果は `docs/` | — |
 | `references/` | 外部の参考資料の写し | `references/README.md` |
 | `.work/` | git に入れない作業場所：仮想環境 `venvs/`、ダウンロード `downloads/`、監視の状態と出力、使い捨てのファイル | — |
+| `Containerfile`・`.dockerignore`・`ops/container/` | AlmaLinux 9 のコンテナで動かす（判定コア・記録層のコマンド、監視、テスト）。入口の `run.py` は仮想環境の Python を起動し直すだけ | `ops/container/README.md` |
 | `.claude/skills/` | 保守の手順のスキル（下の「スキル」） | — |
 
 ### 仮想環境の作り方
